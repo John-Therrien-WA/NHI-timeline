@@ -1,0 +1,9 @@
+[
+  { "id": "roswell-nm", "name": "Roswell, New Mexico", "lat": 33.39, "lon": -104.52, "region": "North America" },
+  { "id": "washington-dc", "name": "Washington, D.C.", "lat": 38.9, "lon": -77.04, "region": "North America" },
+  { "id": "nevada-test-site", "name": "Nevada test site and Area 51", "lat": 37.24, "lon": -115.81, "region": "North America" },
+  { "id": "moon-far-side", "name": "The far side of the moon", "lat": null, "lon": null, "region": "Off Earth" },
+  { "id": "italy-magenta", "name": "Magenta, Lombardy", "lat": 45.46, "lon": 8.88, "region": "Europe" },
+  { "id": "brazil-varginha", "name": "Varginha, Brazil", "lat": -21.55, "lon": -45.43, "region": "South America" },
+  { "id": "pacific-nimitz", "name": "Off San Diego (Nimitz, 2004)", "lat": 31.3, "lon": -117.4, "region": "Pacific" }
+]

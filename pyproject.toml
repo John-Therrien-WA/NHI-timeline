@@ -1,0 +1,9 @@
+[project]
+name = "nhi-timeline"
+version = "0.1.0"
+description = "A timeline of the stories told about non-human intelligence: who tells which story about which era and place, and how well each is corroborated across the corpus."
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.uv]
+package = false

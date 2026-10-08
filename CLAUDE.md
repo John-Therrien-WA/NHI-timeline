@@ -22,9 +22,11 @@ The timeline shows stories, not facts. A story is what someone said happened; th
 - `data/documents/<slug>.json`: public documents (reports, hearings, articles, FOIA releases): title, date, URL, what it attests.
 - `data/eras.json`, `data/places.json`: the timeline's axes, hand-edited; a story names an era by id and a place by id, or gives its own years and coordinates.
 - `sources/captions/<video id>.<lang>.vtt` and `.txt`: the captions as fetched and as plain text with time codes (git-tracked: they are the evidence; a few MB each at most).
-- `pipeline/`: `captions.py` (yt-dlp captions in, text with time codes out), `extract.py` (an episode's text to story candidates through `claude -p` with `prompts/extract.md`), `merge.py` (candidates into stories, with the overlap links), `score.py` (the corroboration score, `scoring.md` is its specification), `build.py` (data to `site/data.json`), `check.py` (every story has a telling, every telling resolves, every quote is a verbatim substring of its caption text).
+- `data/candidates/<video id>.json`: what `extract.py` pulled from an episode, before merging (generated; `schema.md` gives the shape). `data/scores.json`: the score summary (median, counts, per-story attestation), generated.
+- `pipeline/`: `captions.py` (yt-dlp captions in, text with time codes out), `extract.py` (an episode's text in chunks of about 12,000 words to story candidates through `claude -p` with `prompts/extract.md`; a quote that is not verbatim is dropped with its reason kept), `merge.py` (candidates into stories, people and documents, with the `same-event` links), `score.py` (the corroboration score, `scoring.md` is its specification), `build.py` (data to `site/data.json` and `site/data.js`), `check.py` (every story has a telling, every id resolves, every quote is a verbatim substring of its caption text; `--fixture` runs the whole chain offline on `tests/fixtures/` and proves merge idempotent). `llm.py` is the one wrapper around `claude -p` (isolated from the user's Claude Code setup, structured output by schema); `common.py` holds the data root, the caption text and the slug, year and place parsing. Every stage takes `--root DIR`.
+- `tests/fixtures/`: two tiny fictional episodes (captions, episode files, prepared `answers/` instead of a model call, one hand-written story and document) so the chain runs end to end offline. Nothing in them is a real claim.
 - `prompts/`: the prompts the pipeline sends, as files, never inline strings.
-- `site/`: the timeline page, plain HTML, CSS and JS, no build step, reads `site/data.json`; opened locally or published as a private artifact.
+- `site/`: the timeline page, plain HTML, CSS and JS, no build step, no CDN. Served over http it reads `site/data.json`; opened from disk (`file:`) it reads `site/data.js`, the same object, because a page from disk cannot fetch. `#story=<id>` opens a story. Published as a private artifact or opened locally.
 - `notes/`: research notes and the seed timeline (the first one came from `robot-release/research/nhi-disclosure-narratives.md`).
 - `schema.md`: the data shapes. `scoring.md`: how the score is computed and why.
 
@@ -34,8 +36,8 @@ A story's attestation is the sum over its independent tellers of a weight by kin
 
 ## Working here
 
-- Python 3.12, `uv`; `yt-dlp` on the path; `claude` on the path for the extraction pass. `uv run python -m pipeline.<stage>`.
+- Python 3.12, `uv`, no dependencies beyond the standard library; `yt-dlp` on the path; `claude` on the path for the extraction pass. `uv run python -m pipeline.<stage>`; the order is in `README.md` under Run. `uv run python -m pipeline.check --fixture` after any change to the pipeline.
 - A story is edited by hand in its JSON when the pipeline gets it wrong; `check.py` keeps hand edits honest.
-- Quotes are verbatim from the captions, with the video id and the time code. A paraphrase is marked as one.
+- Quotes are verbatim from the captions, with the video id and the time code: a substring of the caption text with the `[h:mm:ss]` prefixes stripped and whitespace collapsed, case and punctuation exact. A paraphrase is marked as one.
 - Git: commit after each piece of work; `origin` is `git@github-personal:John-Therrien-WA/NHI-timeline.git`; push at the end of a session; never force-push.
 - Prior art and the hazard list (what must never be stated as fact, the platforms' labelling rules) live in `notes/` and are read before anything is published.

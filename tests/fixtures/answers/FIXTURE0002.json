@@ -1,0 +1,42 @@
+[
+  [
+    {
+      "title": "The vault beneath Mount Fictus",
+      "story_kind": "program",
+      "years": "1971",
+      "place": "Mount Fictus",
+      "teller": "Cy Fixture",
+      "kind": "firsthand",
+      "quote": "i was on the crew in 1971 we dug a vault under mount fictus and the crates we carried in were not ours",
+      "from_s": "0:00:11",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "The lantern over the Harbour of Nowhere",
+      "story_kind": "sighting",
+      "years": "1958",
+      "place": "Harbour of Nowhere",
+      "teller": "Cy Fixture",
+      "kind": "secondhand",
+      "quote": "bo saw a green lantern over the harbour of nowhere in 1958 i only know that from bo",
+      "from_s": "0:00:27",
+      "cites": ["Bo Fixture"],
+      "documents": []
+    }
+  ],
+  [
+    {
+      "title": "The plains of Elsewhere hum at night",
+      "story_kind": "place-lore",
+      "years": "unknown",
+      "place": "the Plains of Elsewhere",
+      "teller": "Dee Fixture",
+      "kind": "host",
+      "quote": "nobody says when it happened but the plains are said to hum at night",
+      "from_s": "0:00:38",
+      "cites": [],
+      "documents": []
+    }
+  ]
+]

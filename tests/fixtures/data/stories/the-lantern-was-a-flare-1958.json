@@ -1,0 +1,19 @@
+{
+  "id": "the-lantern-was-a-flare-1958",
+  "title": "The lantern was a flare",
+  "summary": "The harbour log of Nowhere (fictional) records a flare fired from the pilot boat on the evening of the lantern sighting. As recorded, not a fact.",
+  "era": "cold-war-early",
+  "years": { "from": 1958, "to": 1958 },
+  "place": "harbour-of-nowhere",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": ["the light over the harbour was a flare"],
+  "tellings": [
+    { "document": "harbour-log-of-nowhere-1958", "page": "3", "teller": "harbour-master-of-nowhere", "quote": "a flare was fired from the pilot boat at ten past nine", "kind": "official", "cites": [], "documents": [] }
+  ],
+  "related": [
+    { "story": "the-lantern-over-the-harbour-of-nowhere-1958", "relation": "contradicts", "note": "the official account (fixture)" }
+  ],
+  "tags": ["fixture"],
+  "score": null
+}

@@ -7,7 +7,7 @@
     "from": 2015,
     "to": 2015
   },
-  "place": null,
+  "place": "off-us-east-coast",
   "coordinates": null,
   "kind": "sighting",
   "claims": [],
@@ -28,5 +28,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 2.0
+  "score": 2.0,
+  "place_text": "US East Coast"
 }

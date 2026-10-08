@@ -4,7 +4,7 @@
   "summary": "Matthew Brown tells of US-Soviet deconfliction on UFOs and NATO collaboration, about unspecified at United States, Soviet Union, NATO, and summarises it without a named source. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "coordinates": null,
   "kind": "theory",
   "claims": [],
@@ -22,5 +22,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 0.5
+  "score": 0.5,
+  "place_text": "United States, Soviet Union, NATO"
 }

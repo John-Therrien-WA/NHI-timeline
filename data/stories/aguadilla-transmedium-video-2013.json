@@ -7,7 +7,7 @@
     "from": 2013,
     "to": 2013
   },
-  "place": null,
+  "place": "aguadilla-pr",
   "coordinates": null,
   "kind": "sighting",
   "claims": [],
@@ -25,5 +25,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 0.2
+  "score": 0.2,
+  "place_text": "Aguadilla, Puerto Rico"
 }

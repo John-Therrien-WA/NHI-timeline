@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Undersea bases and Bermuda Triangle anomalies, about unspecified at Bermuda Triangle, and frames it as the host. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "bermuda-triangle",
   "coordinates": null,
   "kind": "place-lore",
   "claims": [],
@@ -22,5 +22,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 0.2
+  "score": 0.2,
+  "place_text": "Bermuda Triangle"
 }

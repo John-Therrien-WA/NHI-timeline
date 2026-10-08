@@ -7,7 +7,7 @@
     "from": 1930,
     "to": 1949
   },
-  "place": null,
+  "place": "british-palestine",
   "coordinates": null,
   "kind": "theory",
   "claims": [],
@@ -25,5 +25,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 0.5
+  "score": 0.5,
+  "place_text": "Europe; British Palestine"
 }

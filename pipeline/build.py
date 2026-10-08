@@ -2,10 +2,13 @@
 
     uv run python -m pipeline.build [--root DIR] [--out site/data.json]
 
-Stories with era, place, years, score and the repetition count, tellings with quotes and time
-codes and the YouTube URL at that second, the documents, the links between stories (shared teller,
-shared document, and every `related` relation), the axes, and the corpus date (the latest episode
-published). Fails when a story has no score: run pipeline.score first.
+Stories with era, place (and the free place text for the unresolved), years, score and the
+repetition count, tellings with quotes and time codes and the YouTube URL at that second, the
+documents, the links between stories (shared document and every `related` relation), the count of
+other stories told by each of a story's tellers (`shared_teller`, by teller and in all: a count,
+never a link, since one host telling fifty stories would link every story to every other), the
+axes, and the corpus date (the latest episode published). Fails when a story has no score: run
+pipeline.score first.
 """
 from __future__ import annotations
 
@@ -39,6 +42,10 @@ def run(root: Root, out: Path) -> dict:
     if not scores.exists():
         raise SystemExit("build: data/scores.json is missing: run pipeline.score first")
     summary = json.loads(scores.read_text(encoding="utf-8"))
+    stories_of: dict[str, set[str]] = {}
+    for sid, s in stories.items():
+        for t in s["tellings"]:
+            stories_of.setdefault(t["teller"], set()).add(sid)
     out_stories, links, seen = [], [], set()
     for sid, s in sorted(stories.items()):
         if not isinstance(s.get("score"), (int, float)):
@@ -58,11 +65,16 @@ def run(root: Root, out: Path) -> dict:
                 "repetition": t["teller"] in d["repetitions"],
             })
         docs = sorted({x for t in s["tellings"] for x in t.get("documents", [])} | {t["document"] for t in s["tellings"] if t.get("document")})
+        tellers = sorted({t["teller"] for t in s["tellings"]})
+        shared_by = {p: len(stories_of[p]) - 1 for p in tellers}
         out_stories.append({
             "id": sid, "title": s["title"], "summary": s["summary"], "era": s.get("era"), "years": s.get("years"),
-            "place": s.get("place"), "coordinates": s.get("coordinates"), "kind": s.get("kind"), "claims": s.get("claims", []),
+            "place": s.get("place"), "place_text": s.get("place_text"), "coordinates": s.get("coordinates"),
+            "kind": s.get("kind"), "claims": s.get("claims", []),
             "tags": s.get("tags", []), "score": s["score"], "attestation": d["attestation"],
             "independent": d["independent"], "repetitions": d["repetitions"], "tellings": tellings,
+            "shared_teller": len(set().union(*(stories_of[p] for p in tellers)) - {sid}) if tellers else 0,
+            "shared_teller_by": shared_by,
             "documents": [{"id": x, "title": documents[x]["title"], "url": documents[x].get("url"), "date": documents[x].get("date")} for x in docs],
             "related": s.get("related", []),
         })
@@ -73,14 +85,9 @@ def run(root: Root, out: Path) -> dict:
                 links.append({"a": key[0], "b": key[1], "relation": r["relation"], "note": r.get("note")})
     ids = sorted(stories)
     for i, a in enumerate(ids):
-        ta = {t["teller"] for t in stories[a]["tellings"]}
         da = {x for t in stories[a]["tellings"] for x in t.get("documents", [])} | {t["document"] for t in stories[a]["tellings"] if t.get("document")}
         for b in ids[i + 1:]:
-            tb = {t["teller"] for t in stories[b]["tellings"]}
             db = {x for t in stories[b]["tellings"] for x in t.get("documents", [])} | {t["document"] for t in stories[b]["tellings"] if t.get("document")}
-            if ta & tb and (a, b, "shares-teller") not in seen:
-                seen.add((a, b, "shares-teller"))
-                links.append({"a": a, "b": b, "relation": "shares-teller", "note": ", ".join(sorted(ta & tb))})
             if da & db and (a, b, "shares-document") not in seen:
                 seen.add((a, b, "shares-document"))
                 links.append({"a": a, "b": b, "relation": "shares-document", "note": ", ".join(sorted(da & db))})

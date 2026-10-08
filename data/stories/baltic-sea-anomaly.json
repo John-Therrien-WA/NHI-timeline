@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Baltic Sea Anomaly, about unspecified at Baltic Sea, between Sweden and Finland, and says they saw it or took part. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "baltic-sea",
   "coordinates": null,
   "kind": "place-lore",
   "claims": [],
@@ -24,5 +24,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 2.0
+  "score": 2.0,
+  "place_text": "Baltic Sea, between Sweden and Finland"
 }

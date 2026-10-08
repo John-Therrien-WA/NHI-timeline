@@ -10,7 +10,7 @@ What the score is for: to put the stories that many independent people tell, wit
 4. **Documents.** Each independent document in the tellings adds 0.5 (a document cited by a teller who is already counted adds 0.25).
 5. **Attestation** = the sum of the independent tellers' weights plus the document terms.
 6. **Normalisation.** The corpus median of attestation over all stories is `m` (at least 0.5). The **score** = attestation / `m`. A story at 1.0 is as well attested as the typical story in the corpus; the scale moves as the corpus grows, so a score is only meaningful beside the corpus's date.
-7. **Overlap.** Two stories are linked when they share a teller, a document, or an event (`related` with `same-event` or `variant`), or when one is marked `corroborates` or `contradicts` the other. A `same-event` pair is drawn as one dot with two rings; `contradicts` as a link in the warning colour.
+7. **Overlap.** Two stories are linked when they share a document or an event (`related` with `same-event` or `variant`), or when one is marked `corroborates` or `contradicts` the other. A `same-event` pair is drawn as one dot with two rings; `contradicts` as a link in the warning colour. A shared teller is not a link: one host telling fifty stories would join every story to every other and the lines would be a band. The page counts it instead and shows it in a story's panel as "also told by this teller: N stories" (by teller when the story has several), so the reach of one voice stays visible without being drawn as corroboration.
 
 ## What the score is not
 

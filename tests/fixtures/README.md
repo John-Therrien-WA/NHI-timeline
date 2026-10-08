@@ -6,4 +6,5 @@ of asking `claude -p`), merge, score, build and the checks on it. Nothing here i
 real person, a real show or a real place; the video ids do not exist. `data/` holds the axes, the
 two episodes, one document and one hand-written story (the one that contradicts a merged one);
 `sources/captions/` the invented caption text; `answers/` the model answers as the prompt's schema
-gives them, including one quote that is not verbatim and must be dropped.
+gives them, including one quote that is not verbatim and must be dropped, and one teller named with a role
+("Bo Fixture (guest)") that must become the same person as "Bo Fixture".

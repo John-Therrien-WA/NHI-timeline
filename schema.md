@@ -12,6 +12,7 @@ Every file is JSON, UTF-8, pretty-printed, one object per file, the file name eq
   "era": "cold-war-early",
   "years": { "from": 1947, "to": 1947 },
   "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
   "coordinates": null,
   "kind": "crash-retrieval",
   "claims": ["a craft of non-human origin was recovered", "bodies were recovered"],
@@ -31,6 +32,7 @@ Every file is JSON, UTF-8, pretty-printed, one object per file, the file name eq
 - `kind` of a telling: `firsthand` (the teller saw or took part), `official` (a government document, sworn testimony, a court record), `journalist` (a reporter citing named sources), `secondhand` (the teller relays what a named other told them), `researcher` (a summary without a named source), `host` (the podcast host's framing).
 - `cites`: the ids of the people the teller credits for the story; independence is computed from this.
 - `documents` on a telling: the ids of the documents the teller credits (the prompt's `documents` titles, slugged); a document cited this way adds 0.25 to the attestation, a document that is itself a telling (`"document": id`) adds 0.5.
+- `place_text`: the place as the extractor gave it in words; `merge.py` resolves it to `place` through `data/place-aliases.json` or a contained place name, and leaves `place` null when nothing matches (the page then groups the story with the others of the same text).
 - `score` is written by `score.py` and never by hand.
 
 ## Candidates (`data/candidates/<video id>.json`)
@@ -57,4 +59,4 @@ What `extract.py` pulled from one episode before merging: `{ "episode", "caption
 
 ## Eras and places
 
-`data/eras.json` is a list of `{ "id", "name", "from", "to" }` with years; `data/places.json` a list of `{ "id", "name", "lat", "lon", "region" }`. A story may name an era and a place by id, or carry its own `years` and `coordinates`; the page uses the ids for the grid and the raw values for the dot.
+`data/eras.json` is a list of `{ "id", "name", "from", "to" }` with years; `data/places.json` a list of `{ "id", "name", "lat", "lon", "region" }`, with `"source": "lead to verify"` on a place whose coordinates or identity were set from memory and not yet checked. `data/place-aliases.json` is an object of alias text to place id (`"USS Nimitz": "pacific-nimitz"`); matching is case-insensitive on the whole text, else on the longest alias or place name the text contains as whole words. A story may name an era and a place by id, or carry its own `years` and `coordinates`; the page uses the ids for the grid and the raw values for the dot.

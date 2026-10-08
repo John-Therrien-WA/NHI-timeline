@@ -21,5 +21,8 @@ open site/index.html                                    # or publish site/ as a 
 Run the first command once after any change to the pipeline; it must print `check: ok (fixture)`.
 Every stage takes `--root DIR` to work on another data root (the fixture check uses a temporary
 copy of `tests/fixtures/`). A story the pipeline got wrong is corrected by hand in its JSON and
-`check` is run again; `merge` never changes an existing story or person, it only appends tellings.
+`check` is run again; `merge` never changes an existing story or person: it appends tellings and fills a
+null `place` or missing `place_text`, nothing else. A place the extractor names in words that
+`data/place-aliases.json` does not know stays unresolved until an alias or a place is added; the next
+`merge` then fills it.
 

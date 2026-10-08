@@ -7,7 +7,7 @@
     "from": 1970,
     "to": 1979
   },
-  "place": null,
+  "place": "washington-dc",
   "coordinates": null,
   "kind": "testimony",
   "claims": [],
@@ -27,5 +27,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 2.0
+  "score": 2.0,
+  "place_text": "Nixon and Ford White House"
 }

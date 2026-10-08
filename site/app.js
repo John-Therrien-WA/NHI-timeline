@@ -29,6 +29,17 @@
     if (!y) return "undated";
     return y.from === y.to ? String(y.from) : y.from + " to " + y.to;
   }
+  function unplacedText(s) {
+    var t = (s.place_text || "").replace(/\s+/g, " ").trim();
+    return /^(unspecified|unknown|none|n\/a)$/i.test(t) ? "" : t;
+  }
+  function unplacedKey(s) {
+    var t = unplacedText(s);
+    return t ? "__unplaced:" + t.toLowerCase() : "__unplaced";
+  }
+  function unplacedName(s) {
+    return unplacedText(s) || "No place given";
+  }
   function radius(score) {
     return Math.max(4, Math.min(18, 4 + 7 * Math.sqrt(Math.max(0, score))));
   }
@@ -89,9 +100,20 @@
       if (!byRegion[r]) { byRegion[r] = []; regions.push(r); }
       byRegion[r].push(p);
     });
-    var storiesByPlace = {};
-    data.stories.forEach(function (s) { var k = s.place || "__unplaced"; (storiesByPlace[k] = storiesByPlace[k] || []).push(s); });
-    if (storiesByPlace.__unplaced) { regions.push("Unplaced"); byRegion.Unplaced = [{ id: "__unplaced", name: "Place not resolved", region: "Unplaced" }]; }
+    // unresolved places: one row per free text the extractor gave, the most-told first; no text at all is one row
+    var storiesByPlace = {}, unplacedRows = {};
+    data.stories.forEach(function (s) {
+      var k = s.place || unplacedKey(s);
+      (storiesByPlace[k] = storiesByPlace[k] || []).push(s);
+      if (!s.place && !unplacedRows[k]) unplacedRows[k] = { id: k, name: unplacedName(s), region: "Unplaced" };
+    });
+    var unplaced = Object.keys(unplacedRows).map(function (k) { return unplacedRows[k]; });
+    if (unplaced.length) {
+      unplaced.sort(function (a, b) {
+        return storiesByPlace[b.id].length - storiesByPlace[a.id].length || (a.id === "__unplaced" ? -1 : b.id === "__unplaced" ? 1 : a.name.localeCompare(b.name));
+      });
+      regions.push("Unplaced"); byRegion.Unplaced = unplaced;
+    }
     var rows = [], y = TOP;
     regions.forEach(function (r) {
       rows.push({ kind: "region", name: r, y: y, h: BAND }); y += BAND;
@@ -145,14 +167,13 @@
     }
     var reps = Object.keys(g.groups).map(function (r) { return g.groups[r][0]; });
     reps.forEach(function (s) {
-      var row = rowOf[s.place || "__unplaced"] || rowOf.__unplaced;
-      var key = (s.place || "__unplaced") + "|" + (s.era == null ? "__undated" : s.era);
+      var key = (s.place || unplacedKey(s)) + "|" + (s.era == null ? "__undated" : s.era);
       cellCount[key] = (cellCount[key] || 0) + 1;
     });
     var seen = {};
     reps.forEach(function (s) {
-      var row = rowOf[s.place || "__unplaced"];
-      var key = (s.place || "__unplaced") + "|" + (s.era == null ? "__undated" : s.era);
+      var row = rowOf[s.place || unplacedKey(s)];
+      var key = (s.place || unplacedKey(s)) + "|" + (s.era == null ? "__undated" : s.era);
       var n = cellCount[key], i = (seen[key] = (seen[key] || 0) + 1) - 1;
       // several stories in one cell: fan them out sideways, alternating a little up and down
       var dx = n > 1 ? (i - (n - 1) / 2) * 44 : 0, dy = n > 1 ? (i % 2 ? 9 : -9) : 0;
@@ -223,11 +244,14 @@
     var d = state.data;
     box.appendChild(el("h2", {}, s.title));
     var meta = el("p", { class: "meta" });
-    var place = s.place ? (d.places.filter(function (p) { return p.id === s.place; })[0] || {}).name : "place not resolved";
+    var place = s.place ? (d.places.filter(function (p) { return p.id === s.place; })[0] || {}).name
+      : (unplacedText(s) ? "not resolved: " + unplacedText(s) : "not given");
     var era = s.era ? (d.eras.filter(function (e) { return e.id === s.era; })[0] || {}).name : "no era";
+    var tellerIds = Object.keys(s.shared_teller_by || {});
     [["years", yearsText(s.years)], ["era", era], ["place", place], ["kind", s.kind || "unset"],
      ["score", Number(s.score).toFixed(2)], ["attestation", Number(s.attestation).toFixed(2)],
-     ["independent tellers", String(s.independent.length)], ["repetitions", String(s.repetitions.length)]
+     ["independent tellers", String(s.independent.length)], ["repetitions", String(s.repetitions.length)],
+     [tellerIds.length > 1 ? "also told by these tellers" : "also told by this teller", (s.shared_teller || 0) + (s.shared_teller === 1 ? " story" : " stories")]
     ].forEach(function (kv) { var sp = el("span", {}, kv[0] + " "); sp.appendChild(el("b", {}, kv[1])); meta.appendChild(sp); });
     box.appendChild(meta);
     box.appendChild(el("p", { class: "summary" }, s.summary));
@@ -236,6 +260,7 @@
       var tl = el("div", { class: "telling" });
       var who = el("div", { class: "who" }); who.appendChild(el("b", {}, t.teller_name));
       who.appendChild(el("span", { class: "kind" }, t.kind));
+      if (tellerIds.length > 1 && s.shared_teller_by[t.teller] != null) who.appendChild(el("span", { class: "kind" }, "tells " + s.shared_teller_by[t.teller] + " other " + (s.shared_teller_by[t.teller] === 1 ? "story" : "stories") + " here"));
       if (t.repetition) who.appendChild(el("span", { class: "rep" }, "repeats " + t.cites.map(function (c) { return (d.people[c] || {}).name || c; }).join(", ")));
       tl.appendChild(who);
       if (t.quote) tl.appendChild(el("blockquote", {}, "“" + t.quote + "”"));

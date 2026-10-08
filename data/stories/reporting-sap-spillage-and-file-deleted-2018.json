@@ -7,7 +7,7 @@
     "from": 2018,
     "to": 2019
   },
-  "place": null,
+  "place": "pentagon",
   "coordinates": null,
   "kind": "testimony",
   "claims": [],
@@ -25,5 +25,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 2.0
+  "score": 2.0,
+  "place_text": "Pentagon, SAPCO"
 }

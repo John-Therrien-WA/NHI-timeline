@@ -7,7 +7,7 @@
     "from": 1970,
     "to": 1979
   },
-  "place": null,
+  "place": "ossining-ny",
   "coordinates": null,
   "kind": "program",
   "claims": [],
@@ -30,5 +30,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 0.7
+  "score": 0.7,
+  "place_text": "Ossining, New York"
 }

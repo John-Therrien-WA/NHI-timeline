@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Robert Temple and the Dogon Sirius mystery, about ancient tradition at Mali, and relays what a named person told them. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "mali-dogon",
   "coordinates": null,
   "kind": "theory",
   "claims": [],
@@ -26,5 +26,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.3
+  "score": 1.3,
+  "place_text": "Mali"
 }

@@ -7,7 +7,7 @@
     "from": 1962,
     "to": 1962
   },
-  "place": null,
+  "place": "johnston-atoll",
   "coordinates": null,
   "kind": "testimony",
   "claims": [],
@@ -31,5 +31,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.5
+  "score": 1.5,
+  "place_text": "Pacific ships"
 }

@@ -7,7 +7,7 @@
     "from": 1972,
     "to": 1972
   },
-  "place": null,
+  "place": "berkeley-ca",
   "coordinates": null,
   "kind": "testimony",
   "claims": [],
@@ -25,7 +25,14 @@
       "documents": []
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "mishlove-s-precognitive-dream-of-the-focus-magazine-1972",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 2.0
+  "score": 2.0,
+  "place_text": "Zellerbach Auditorium, Berkeley"
 }

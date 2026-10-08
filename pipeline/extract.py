@@ -6,7 +6,8 @@ Reads sources/captions/<id>.<lang>.txt, sends it in chunks of about --chunk-word
 prompts/extract.md through `claude -p` (pipeline/llm.py), validates each answer against the
 prompt's keys, checks every quote to be a verbatim substring of the caption text (a quote that is
 not is dropped, with the reason logged and kept in the output), locates every kept quote in the
-cues for its time codes, and writes data/candidates/<id>.json.
+cues for its time codes, and writes data/candidates/<id>.json. Teller and cited names are normalised
+(a parenthetical role such as "(host)" stripped) so one person gets one id in merge.
 
 --fixture FILE bypasses `claude -p`: FILE holds the prepared answers, a JSON list with one answer
 (a list of candidate objects) per chunk, or a single list of candidates for a one-chunk episode.
@@ -18,7 +19,7 @@ import sys
 from pathlib import Path
 
 from . import llm
-from .common import REPO, Captions, Root, load_json, parse_timecode, parse_years, rel, save_json
+from .common import REPO, Captions, Root, load_json, parse_timecode, parse_years, person_name, rel, save_json
 
 KEYS = ("title", "story_kind", "years", "place", "teller", "kind", "quote", "from_s", "cites", "documents")
 KINDS = ("firsthand", "official", "journalist", "secondhand", "researcher", "host")
@@ -68,11 +69,26 @@ def chunks(cap: Captions, words: int) -> list[str]:
     return out
 
 
-def prompt_for(template: str, episode: dict, chunk: str) -> str:
-    if "{episode}" not in template or "{captions}" not in template:
-        raise SystemExit("prompts/extract.md must contain {episode} and {captions}")
+def speakers_of(episode: dict, people: dict) -> str:
+    """'the host Jesse Michels and the guest Tim Gallaudet' from the episode's host and guests (ids resolved
+    to names through data/people; an id without a person file is read as a name)."""
+    def name(pid):
+        return people[pid]["name"] if pid in people else pid.replace("-", " ").title()
+    host, guests = episode.get("host"), [g for g in episode.get("guests") or [] if g]
+    parts = []
+    if host:
+        parts.append(f"the host {name(host)}")
+    if guests:
+        parts.append(("the guest " if len(guests) == 1 else "the guests ") + ", ".join(name(g) for g in guests))
+    return " and ".join(parts) if parts else "unknown (the episode file names no host or guest)"
+
+
+def prompt_for(template: str, episode: dict, chunk: str, speakers: str) -> str:
+    for key in ("{episode}", "{captions}", "{speakers}"):
+        if key not in template:
+            raise SystemExit(f"prompts/extract.md must contain {key}")
     head = f"{episode['id']}: {episode.get('show') or '?'}, {episode.get('title') or '?'} ({episode.get('published') or 'date unknown'})"
-    return template.replace("{episode}", head).replace("{captions}", chunk)
+    return template.replace("{episode}", head).replace("{speakers}", speakers).replace("{captions}", chunk)
 
 
 def answer_list(data) -> list:
@@ -126,23 +142,23 @@ def candidates_from(answers: list[list], cap: Captions, episode_id: str) -> tupl
                 "years_text": obj["years"],
                 "years": parse_years(obj["years"]),
                 "place_text": obj["place"],
-                "teller": obj["teller"].strip(),
+                "teller": person_name(obj["teller"]),
                 "kind": obj["kind"],
                 "quote": obj["quote"],
                 "from_s": from_s,
                 "to_s": to_s,
-                "cites": [c.strip() for c in obj["cites"] if c.strip()],
+                "cites": list(dict.fromkeys(person_name(c) for c in obj["cites"] if c.strip())),
                 "documents": [d.strip() for d in obj["documents"] if d.strip()],
             })
     return kept, dropped
 
 
-def ask(cap: Captions, episode: dict, template: str, words: int, model: str, timeout: int) -> list[list]:
+def ask(cap: Captions, episode: dict, template: str, speakers: str, words: int, model: str, timeout: int) -> list[list]:
     answers = []
     parts = chunks(cap, words)
     for i, chunk in enumerate(parts, 1):
         print(f"extract: {episode['id']}: chunk {i}/{len(parts)} ({len(chunk.split())} words) -> claude -p {model}", file=sys.stderr)
-        data = llm.complete_json(prompt_for(template, episode, chunk), SCHEMA, model=model, timeout=timeout)
+        data = llm.complete_json(prompt_for(template, episode, chunk, speakers), SCHEMA, model=model, timeout=timeout)
         answers.append(answer_list(data))
     return answers
 
@@ -165,7 +181,8 @@ def run(root: Root, episode_id: str, *, model: str, chunk_words: int, fixture: P
     cap = Captions(root.caption_text(episode))
     template = (root.path / "prompts" / "extract.md")
     template = (template if template.exists() else REPO / "prompts" / "extract.md").read_text(encoding="utf-8")
-    answers = fixture_answers(fixture) if fixture else ask(cap, episode, template, chunk_words, model, timeout)
+    speakers = speakers_of(episode, root.load_dir(root.people))
+    answers = fixture_answers(fixture) if fixture else ask(cap, episode, template, speakers, chunk_words, model, timeout)
     kept, dropped = candidates_from(answers, cap, episode_id)
     out = root.candidates / f"{episode_id}.json"
     save_json(out, {"episode": episode_id, "captions": rel(cap.path, root.path), "model": "fixture" if fixture else model,

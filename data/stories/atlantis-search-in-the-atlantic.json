@@ -4,7 +4,7 @@
   "summary": "Tim Gallaudet tells of Atlantis search in the Atlantic, about c. 9,000 years before Plato at Atlantic Ocean, and says they saw it or took part. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "atlantic-ocean",
   "coordinates": null,
   "kind": "theory",
   "claims": [],
@@ -25,5 +25,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 2.0
+  "score": 2.0,
+  "place_text": "Atlantic Ocean"
 }

@@ -47,6 +47,8 @@ def problems(root: Root) -> list[str]:
             out.append(f"{where}: era {s['era']!r} is not in eras.json")
         if s.get("place") is not None and s["place"] not in place_ids:
             out.append(f"{where}: place {s['place']!r} is not in places.json")
+        if s.get("place_text") is not None and not isinstance(s["place_text"], str):
+            out.append(f"{where}: place_text must be a string or null")
         if s.get("kind") is not None and s["kind"] not in STORY_KINDS:
             out.append(f"{where}: kind {s['kind']!r} is not a story kind")
         y = s.get("years")

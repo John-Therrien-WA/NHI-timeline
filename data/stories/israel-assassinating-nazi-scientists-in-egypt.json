@@ -4,7 +4,7 @@
   "summary": "Matthew Brown tells of Israel assassinating Nazi scientists in Egypt, about post-WWII at Egypt, and summarises it without a named source. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "egypt",
   "coordinates": null,
   "kind": "testimony",
   "claims": [],
@@ -24,5 +24,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 0.5
+  "score": 0.5,
+  "place_text": "Egypt"
 }

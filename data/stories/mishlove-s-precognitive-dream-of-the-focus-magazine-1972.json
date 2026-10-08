@@ -7,7 +7,7 @@
     "from": 1972,
     "to": 1972
   },
-  "place": null,
+  "place": "berkeley-ca",
   "coordinates": null,
   "kind": "testimony",
   "claims": [],
@@ -27,7 +27,14 @@
       ]
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "mishlove-meets-puharich-at-berkeley-conference-1972",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 2.5
+  "score": 2.5,
+  "place_text": "Berkeley, California"
 }

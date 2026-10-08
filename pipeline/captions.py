@@ -5,12 +5,14 @@
 Fetches the video's own captions with yt-dlp (no audio download, no transcription), keeps the
 .vtt under sources/captions/<id>.<lang>.vtt, and writes sources/captions/<id>.<lang>.txt: one line
 per caption cue, "[h:mm:ss] words", with the consecutive duplicates that auto-captions produce
-removed. Writes data/episodes/<id>.json from the video's metadata when it does not exist yet.
+removed. HTML entities are unescaped (the .vtt writes `&gt;&gt;` and `&amp;`); the `>>` with which
+YouTube marks a change of speaker is kept as the line's prefix after the time code. Writes data/episodes/<id>.json from the video's metadata when it does not exist yet.
 Fails loud when the video has no captions in that language.
 """
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import re
 import subprocess
@@ -57,7 +59,7 @@ def to_text(vtt: Path) -> Path:
             continue
         if not raw.strip() or raw.startswith(("WEBVTT", "Kind:", "Language:", "NOTE")) or t is None:
             continue
-        text = TAG.sub("", raw).replace("&nbsp;", " ").strip()
+        text = html.unescape(TAG.sub("", raw)).replace("\xa0", " ").strip()
         if not text or text == last:
             continue
         lines.append(f"[{t}] {text}")

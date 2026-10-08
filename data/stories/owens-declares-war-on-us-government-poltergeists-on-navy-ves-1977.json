@@ -7,7 +7,7 @@
     "from": 1977,
     "to": 1989
   },
-  "place": null,
+  "place": "united-states",
   "coordinates": null,
   "kind": "testimony",
   "claims": [],
@@ -27,5 +27,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 0.5
+  "score": 0.5,
+  "place_text": "United States (Navy vessels, nuclear plants)"
 }

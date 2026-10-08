@@ -7,7 +7,7 @@
     "from": 1926,
     "to": 1947
   },
-  "place": null,
+  "place": "berkeley-ca",
   "coordinates": null,
   "kind": "theory",
   "claims": [],
@@ -29,5 +29,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.0
+  "score": 1.0,
+  "place_text": "Berkeley, Princeton, Bell Helicopter"
 }

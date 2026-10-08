@@ -4,31 +4,35 @@
 
 Reads every data/candidates/<episode>.json. Each candidate becomes a new story under data/stories/
 unless an existing story has the same title slug, or shares a teller and has overlapping years, the
-same place and the same kind: then a telling is added to that story. People are created under data/people/ as
-they are met (tellers and the people a teller cites); documents a teller credits are created under
-data/documents/ by title. After the pass, `related` gets a `same-event` link between two stories
-that share years, place and kind and are not already related; every other relation is left for a
-person to add by hand. Idempotent: a second run changes nothing. Hand edits are kept: a story is
-only ever appended to.
+same place and the same kind: then a telling is added to that story, unless the story already holds
+that quote from that episode. People are created under data/people/ as they are met (tellers and
+the people a teller cites; a name is normalised, so "Jesse Michels (host)" is `jesse-michels`);
+documents a teller credits are created under data/documents/ by title. A candidate's free-text
+place is resolved to a place id through data/place-aliases.json (alias text to id) or a place name
+contained in the text; the text itself is kept on the story as `place_text`. After the pass,
+`related` gets a `same-event` link between two stories that share years, place and kind and are
+not already related; every other relation is left for a person to add by hand. Idempotent: a
+second run changes nothing. Hand edits are kept: an existing story is only appended to, and its
+`place` and `place_text` are filled when they are missing or null and a candidate gives them,
+never overwritten.
 """
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 
-from .common import REPO, Root, era_for, load_json, place_for, rel, save_json, slugify, story_id
+from .common import REPO, Root, era_for, load_json, norm_ws, person_id, person_name, rel, save_json, slugify, story_id
 
-
-def person_id(name: str) -> str:
-    return slugify(name, 40)
+MIN_ALIAS = 3  # a contained alias or name shorter than this (as words, "us") matches too much
 
 
 def ensure_person(people: dict, name: str, role: str | None) -> str:
     """The person's id, creating the file's object when first met. An existing person is never changed."""
     pid = person_id(name)
     if pid not in people:
-        people[pid] = {"id": pid, "name": name, "roles": [role] if role else [], "affiliation": None, "links": [], "note": "",
-                       "_new": True}
+        people[pid] = {"id": pid, "name": person_name(name), "roles": [role] if role else [], "affiliation": None,
+                       "links": [], "note": "", "_new": True}
     return pid
 
 
@@ -46,6 +50,67 @@ def years_overlap(a: dict | None, b: dict | None) -> bool:
     return a["from"] <= b["to"] and b["from"] <= a["to"]
 
 
+class PlaceResolver:
+    """Free text to a place id: an exact alias or name, else the longest alias or place name that the
+    text contains as whole words (case-insensitive); a tie between two places resolves to nothing."""
+
+    def __init__(self, places: list[dict], aliases: dict[str, str]):
+        ids = {p["id"] for p in places}
+        self.exact: dict[str, str] = {}
+        for p in places:
+            self.exact[p["id"]] = p["id"]
+            self.exact[norm_ws(p["name"]).lower()] = p["id"]
+        for text, pid in aliases.items():
+            if pid not in ids:
+                raise SystemExit(f"place-aliases.json: {text!r} points at {pid!r}, which is not in places.json")
+            key = norm_ws(text).lower()
+            if not key:
+                raise SystemExit("place-aliases.json: an empty alias")
+            if self.exact.get(key, pid) != pid:
+                raise SystemExit(f"place-aliases.json: {text!r} is already {self.exact[key]!r}")
+            self.exact[key] = pid
+        self.contained: list[tuple[re.Pattern, str, int]] = []
+        keys = set(self.exact)
+        for p in places:  # the part of a name before the comma (the town) also counts
+            head = norm_ws(p["name"].split(",")[0]).lower()
+            if head and head not in self.exact:
+                keys.add(head)
+                self.exact[head] = p["id"]
+        for key in sorted(keys, key=len, reverse=True):
+            if len(key) < MIN_ALIAS:
+                continue
+            self.contained.append((re.compile(r"(?<!\w)" + re.escape(key) + r"(?!\w)"), self.exact[key], len(key)))
+
+    def resolve(self, text) -> str | None:
+        if not isinstance(text, str):
+            return None
+        t = norm_ws(text).lower()
+        if not t:
+            return None
+        if t in self.exact:
+            return self.exact[t]
+        best, best_len, tie = None, 0, False
+        for pat, pid, n in self.contained:
+            if n < best_len:
+                break
+            if pat.search(t):
+                if n > best_len:
+                    best, best_len, tie = pid, n, False
+                elif pid != best:
+                    tie = True
+        return None if tie else best
+
+
+def load_aliases(root: Root) -> dict[str, str]:
+    f = root.data / "place-aliases.json"
+    if not f.exists():
+        return {}
+    data = load_json(f)
+    if not isinstance(data, dict) or not all(isinstance(k, str) and isinstance(v, str) for k, v in data.items()):
+        raise SystemExit(f"{rel(f, root.path)}: must be an object of alias text to place id")
+    return data
+
+
 def find_story(stories: dict, cand: dict, sid: str, teller: str) -> dict | None:
     if sid in stories:
         return stories[sid]
@@ -61,9 +126,14 @@ def role_for(kind: str) -> str:
             "researcher": "researcher", "host": "host"}[kind]
 
 
+def place_text_of(cand: dict) -> str | None:
+    t = cand.get("place_text")
+    return norm_ws(t) if isinstance(t, str) and t.strip() else None
+
+
 def summary_for(cand: dict, teller_name: str, place_name: str | None) -> str:
     when = cand["years_text"] if isinstance(cand["years_text"], str) and cand["years_text"].strip() else "an unknown time"
-    where = place_name or (cand["place_text"] if isinstance(cand["place_text"], str) and cand["place_text"].strip() else "an unknown place")
+    where = place_name or place_text_of(cand) or "an unknown place"
     how = {"firsthand": "says they saw it or took part", "official": "reads it from an official document",
            "journalist": "reports it citing named sources", "secondhand": "relays what a named person told them",
            "researcher": "summarises it without a named source", "host": "frames it as the host"}[cand["kind"]]
@@ -76,11 +146,14 @@ def telling_from(cand: dict, episode_id: str, teller: str, cites: list[str], doc
 
 
 def same_telling(a: dict, b: dict) -> bool:
-    return a.get("episode") == b.get("episode") and a.get("teller") == b.get("teller") and a.get("quote") == b.get("quote")
+    """The same words from the same episode (or document) are one telling, whatever the teller was called."""
+    return a.get("episode") == b.get("episode") and a.get("document") == b.get("document") \
+        and norm_ws(a.get("quote") or "") == norm_ws(b.get("quote") or "")
 
 
 def run(root: Root) -> dict:
     eras, places = root.eras(), root.places()
+    resolver = PlaceResolver(places, load_aliases(root))
     place_names = {p["id"]: p["name"] for p in places}
     stories = root.load_dir(root.stories)
     people = root.load_dir(root.people)
@@ -89,7 +162,7 @@ def run(root: Root) -> dict:
     for s in stories.values():
         if "tellings" not in s or "related" not in s:
             raise SystemExit(f"story {s['id']} lacks tellings or related")
-    stats = {"stories": 0, "tellings": 0, "people": 0, "documents": 0, "same_event": 0}
+    stats = {"stories": 0, "tellings": 0, "people": 0, "documents": 0, "places_filled": 0, "same_event": 0}
     for f in sorted(root.candidates.glob("*.json")):
         batch = load_json(f)
         eid = batch.get("episode")
@@ -97,7 +170,7 @@ def run(root: Root) -> dict:
             raise SystemExit(f"{rel(f, root.path)}: episode {eid!r} has no data/episodes file")
         for cand in batch["candidates"]:
             cand = dict(cand)
-            cand["place"] = place_for(cand.get("place_text"), places)
+            cand["place"] = resolver.resolve(cand.get("place_text"))
             teller = ensure_person(people, cand["teller"], role_for(cand["kind"]))
             cites = [ensure_person(people, n, None) for n in cand["cites"]]
             cites = [c for c in dict.fromkeys(cites) if c != teller]
@@ -109,15 +182,22 @@ def run(root: Root) -> dict:
                 story = {
                     "id": sid, "title": cand["title"],
                     "summary": summary_for(cand, people[teller]["name"], place_names.get(cand["place"])),
-                    "era": era_for(cand["years"], eras), "years": cand["years"], "place": cand["place"], "coordinates": None,
+                    "era": era_for(cand["years"], eras), "years": cand["years"],
+                    "place": cand["place"], "place_text": place_text_of(cand), "coordinates": None,
                     "kind": cand["story_kind"], "claims": [], "tellings": [telling], "related": [], "tags": [], "score": None,
                 }
                 stories[sid] = story
                 stats["stories"] += 1
                 stats["tellings"] += 1
-            elif not any(same_telling(telling, t) for t in story["tellings"]):
-                story["tellings"].append(telling)
-                stats["tellings"] += 1
+            else:
+                if not any(same_telling(telling, t) for t in story["tellings"]):
+                    story["tellings"].append(telling)
+                    stats["tellings"] += 1
+                if story.get("place_text") is None and place_text_of(cand):
+                    story["place_text"] = place_text_of(cand)
+                if story.get("place") is None and cand["place"] is not None:
+                    story["place"] = cand["place"]
+                    stats["places_filled"] += 1
     # same-event links: shared years, place and kind, no relation yet in either direction
     ids = sorted(stories)
     for i, a in enumerate(ids):
@@ -142,7 +222,7 @@ def run(root: Root) -> dict:
         if d.pop("_new", False):
             stats["documents"] += 1
         save_json(root.documents / f"{d['id']}.json", d)
-    print("merge: " + ", ".join(f"{v} new {k.replace('_', ' ')}" for k, v in stats.items()), file=sys.stderr)
+    print("merge: " + ", ".join(f"{v} {'new ' if k != 'places_filled' else ''}{k.replace('_', ' ')}" for k, v in stats.items()), file=sys.stderr)
     return stats
 
 

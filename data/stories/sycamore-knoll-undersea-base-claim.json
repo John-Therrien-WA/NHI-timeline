@@ -4,7 +4,7 @@
   "summary": "Tim Gallaudet tells of Sycamore Knoll undersea base claim, about unspecified at Off Southern California, Point Dume, and summarises it without a named source. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "point-dume-ca",
   "coordinates": null,
   "kind": "theory",
   "claims": [],
@@ -26,5 +26,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.0
+  "score": 1.0,
+  "place_text": "Off Southern California, Point Dume"
 }

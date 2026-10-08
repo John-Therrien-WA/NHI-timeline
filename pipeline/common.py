@@ -101,6 +101,25 @@ def slugify(s: str, limit: int = 60) -> str:
     return s[:limit].rstrip("-")
 
 
+ROLE = re.compile(r"\s*\([^()]*\)\s*$")
+
+
+def person_name(s: str) -> str:
+    """A person's name as the data keeps it: whitespace collapsed, a trailing parenthetical role such as
+    '(host)' or '(guest)' stripped. The id is the slug of the case-folded name, so 'Jesse Michels (host)'
+    and 'jesse michels' are one person."""
+    if not isinstance(s, str):
+        raise SystemExit(f"a person's name must be a string, got {s!r}")
+    name = ROLE.sub("", norm_ws(s)).strip()
+    if not name:
+        raise SystemExit(f"cannot make a person's name from {s!r}")
+    return name
+
+
+def person_id(name: str) -> str:
+    return slugify(person_name(name).casefold(), 40)
+
+
 def story_id(title: str, years: dict | None) -> str:
     slug = slugify(title)
     y = years.get("from") if years else None
@@ -230,25 +249,4 @@ def era_for(years: dict | None, eras: list[dict]) -> str | None:
     for e in eras:
         if e["from"] <= years["from"] <= e["to"]:
             return e["id"]
-    return None
-
-
-def place_for(text, places: list[dict]) -> str | None:
-    """A place id from free text: the id itself, the exact name, or a name that contains or is contained in the text."""
-    if not isinstance(text, str) or not text.strip():
-        return None
-    t = norm_ws(text).lower()
-    ids = {p["id"]: p for p in places}
-    if t in ids:
-        return t
-    for p in places:
-        if p["name"].lower() == t:
-            return p["id"]
-    hits = [p["id"] for p in places if p["name"].lower() in t or t in p["name"].lower()]
-    if len(hits) == 1:
-        return hits[0]
-    for p in places:  # the first word of the name (the town) inside the text
-        head = p["name"].split(",")[0].lower()
-        if len(head) > 3 and head in t and not [h for h in hits if h != p["id"]]:
-            return p["id"]
     return None

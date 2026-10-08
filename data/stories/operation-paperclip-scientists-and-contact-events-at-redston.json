@@ -4,7 +4,7 @@
   "summary": "Matthew Brown tells of Operation Paperclip scientists and contact events at Redstone Arsenal and Los Alamos, about post-WWII at Huntsville, Alabama; Los Alamos, and summarises it without a named source. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "huntsville-al",
   "coordinates": null,
   "kind": "theory",
   "claims": [],
@@ -22,5 +22,6 @@
   ],
   "related": [],
   "tags": [],
-  "score": 0.5
+  "score": 0.5,
+  "place_text": "Huntsville, Alabama; Los Alamos"
 }

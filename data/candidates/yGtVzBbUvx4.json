@@ -1,0 +1,549 @@
+{
+  "episode": "yGtVzBbUvx4",
+  "captions": "sources/captions/yGtVzBbUvx4.en.txt",
+  "model": "sonnet",
+  "chunks": 3,
+  "candidates": [
+    {
+      "title": "Immaculate Constellation briefing found on classified computer",
+      "story_kind": "document",
+      "years_text": "c. 2018 briefing; Brown's exposure years before whistleblowing",
+      "years": {
+        "from": 2018,
+        "to": 2018
+      },
+      "place_text": "Pentagon office, classified file system",
+      "teller": "Matthew Brown",
+      "kind": "firsthand",
+      "quote": "basically was volunttoled to clean up the file system.",
+      "from_s": 643.0,
+      "to_s": 649.0,
+      "cites": [
+        "Michael Shellenberger",
+        "Nancy Mace",
+        "Jeremy Corbell"
+      ],
+      "documents": [
+        "Immaculate Constellation briefing",
+        "Immaculate Constellation report"
+      ]
+    },
+    {
+      "title": "Immaculate Constellation: global UAP surveillance program",
+      "story_kind": "program",
+      "years_text": "c. 2018 briefing; program older",
+      "years": {
+        "from": 2018,
+        "to": 2018
+      },
+      "place_text": "Global; Schriever Air Force Base, Colorado as a hub; run from National Security Council",
+      "teller": "Matthew Brown",
+      "kind": "firsthand",
+      "quote": "or it was described to me at least in my limited exposure as a operational SAP governing the intelligence surveillance and reconnaissance of UAP um around the world using tasked and unts.",
+      "from_s": 752.0,
+      "to_s": 766.0,
+      "cites": [
+        "Luis Elizondo"
+      ],
+      "documents": [
+        "Immaculate Constellation briefing"
+      ]
+    },
+    {
+      "title": "Triangle appears over Russian naval vessels",
+      "story_kind": "sighting",
+      "years_text": "c. 2018",
+      "years": {
+        "from": 2018,
+        "to": 2018
+      },
+      "place_text": "Pacific off eastern Russia, Kamchatka",
+      "teller": "Matthew Brown",
+      "kind": "firsthand",
+      "quote": "we had a a surveillance asset uh in the ocean off the uh I believe was Kamchchatka but the the eastern seabboard of Russia in the in the Pacific",
+      "from_s": 1403.0,
+      "to_s": 1417.0,
+      "cites": [],
+      "documents": [
+        "Immaculate Constellation briefing"
+      ]
+    },
+    {
+      "title": "Triangle meeting as a pre-arranged transfer",
+      "story_kind": "theory",
+      "years_text": "c. 2018",
+      "years": {
+        "from": 2018,
+        "to": 2018
+      },
+      "place_text": "Pacific off Russia",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "I've come to believe that that was some sort of pre-arranged meeting um for whatever purpose.",
+      "from_s": 1544.0,
+      "to_s": 1552.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Triangle sightings tied to US bases",
+      "story_kind": "sighting",
+      "years_text": "late 1990s-2012",
+      "years": {
+        "from": 1997,
+        "to": 2012
+      },
+      "place_text": "US naval bases; Vandenberg AFB; Langley AFB",
+      "teller": "Matthew Brown",
+      "kind": "secondhand",
+      "quote": "there's that famous NID study done in the I think late 90s or early 2000s where they correlate triangle sightings to naval bases in the United States.",
+      "from_s": 1703.0,
+      "to_s": 1715.0,
+      "cites": [
+        "Jeff Nuccetelli",
+        "Dylan Borland"
+      ],
+      "documents": [
+        "NIDS study"
+      ]
+    },
+    {
+      "title": "Alien reproduction vehicle term as counterintelligence marker",
+      "story_kind": "theory",
+      "years_text": "c. 2018",
+      "years": {
+        "from": 2018,
+        "to": 2018
+      },
+      "place_text": "Pentagon",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "in the briefing ARV and RV were the terms were the abbreviations used throughout.",
+      "from_s": 1950.0,
+      "to_s": 1959.0,
+      "cites": [
+        "Mark McCandlish",
+        "Steven Greer"
+      ],
+      "documents": [
+        "Immaculate Constellation briefing"
+      ]
+    },
+    {
+      "title": "Other Immaculate Constellation case studies: orbs, disc, jellyfish, tic tac",
+      "story_kind": "document",
+      "years_text": "c. 2018 and later",
+      "years": {
+        "from": 2018,
+        "to": 2018
+      },
+      "place_text": "Various commands: CENTCOM, INDOPACOM, NORTHCOM, SOUTHCOM",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Central command discusses cuboid formation of metallic orbs on USG networks.",
+      "from_s": 2467.0,
+      "to_s": 2475.0,
+      "cites": [
+        "Matthew Brown"
+      ],
+      "documents": [
+        "Immaculate Constellation report"
+      ]
+    },
+    {
+      "title": "Reporting SAP spillage and file deleted",
+      "story_kind": "testimony",
+      "years_text": "c. 2018-2019",
+      "years": {
+        "from": 2018,
+        "to": 2019
+      },
+      "place_text": "Pentagon, SAPCO",
+      "teller": "Matthew Brown",
+      "kind": "firsthand",
+      "quote": "I went to my first like sort of direct report, showed it to him.",
+      "from_s": 3444.0,
+      "to_s": 3451.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Legacy reverse engineering and archaeological recovery",
+      "story_kind": "reverse-engineering",
+      "years_text": "ongoing",
+      "years": null,
+      "place_text": "National labs, defense contractors, ocean floor",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "no direct exposure to the reverse engineering program at least from my time on the inside.",
+      "from_s": 3700.0,
+      "to_s": 3711.0,
+      "cites": [
+        "Bob Lazar"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Agreements with a third party: oral tradition of legacy program",
+      "story_kind": "testimony",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "United States",
+      "teller": "Matthew Brown",
+      "kind": "secondhand",
+      "quote": "I have learned that it is the oral tradition in the legacy program itself that agreements were struck between the United States and a third party",
+      "from_s": 4277.0,
+      "to_s": 4289.0,
+      "cites": [],
+      "documents": [
+        "Outer Space Treaty",
+        "SALT talks"
+      ]
+    },
+    {
+      "title": "Truman/Eisenhower-era agreement with non-human intelligence",
+      "story_kind": "program",
+      "years_text": "Truman and Eisenhower era",
+      "years": null,
+      "place_text": "United States",
+      "teller": "Matthew Brown",
+      "kind": "secondhand",
+      "quote": "at least one very old agreement um sometime in the Truman and Eisenhower era uh that was arrived at.",
+      "from_s": 4325.0,
+      "to_s": 4336.0,
+      "cites": [
+        "Dylan Borland",
+        "David Grusch"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Nuclear weapons interfere with craft propulsion; national labs store exotic tech samples",
+      "story_kind": "theory",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "national labs, nuclear sites (US)",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "the use of those weapons seems to interfere with the propulsion of these of these crafts",
+      "from_s": 8869.0,
+      "to_s": 8877.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Operation Paperclip scientists and contact events at Redstone Arsenal and Los Alamos",
+      "story_kind": "theory",
+      "years_text": "post-WWII",
+      "years": null,
+      "place_text": "Huntsville, Alabama; Los Alamos",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "a lot of the Nazi scientists brought over you know they ended up all across the state but there's largely two groupings. The the Nazis and name only were kind of settled around Redstone Arsenal and then the the true believers",
+      "from_s": 8926.0,
+      "to_s": 8942.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Nazi networks survived WWII and cooperated with Israel",
+      "story_kind": "theory",
+      "years_text": "WWII and after",
+      "years": null,
+      "place_text": "South America, United States, Israel, Egypt",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "it's provable if dark historic fact that you know uh the Nazi intelligence networks and industrial networks did not really evaporate after World War II.",
+      "from_s": 9086.0,
+      "to_s": 9098.0,
+      "cites": [
+        "Reinhard Gehlen"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Israel assassinating Nazi scientists in Egypt",
+      "story_kind": "testimony",
+      "years_text": "post-WWII",
+      "years": null,
+      "place_text": "Egypt",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "Israel was assassinating Nazi scotet scientists in Egypt that were developing you know rocket weapons for the Egyptian military but leveraging you know the Gellen organization I believe",
+      "from_s": 9197.0,
+      "to_s": 9207.0,
+      "cites": [
+        "Reinhard Gehlen"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Hitler regime supported Zionist groups and encouraged migration",
+      "story_kind": "theory",
+      "years_text": "1930s-1940s",
+      "years": {
+        "from": 1930,
+        "to": 1949
+      },
+      "place_text": "Europe; British Palestine",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "the Hitler regime did lend support to the uh at that time the sort of Zionist movement to uh take Israel away from the British crown.",
+      "from_s": 9123.0,
+      "to_s": 9138.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "US-Soviet deconfliction on UFOs and NATO collaboration",
+      "story_kind": "theory",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "United States, Soviet Union, NATO",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "the deconliction, as we already know, established between the United States and the Soviet Union on UFOs. Um well, you know, we're integrated with the European militaries.",
+      "from_s": 9302.0,
+      "to_s": 9314.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Science is managed and suppressed; discoveries from recovered tech",
+      "story_kind": "theory",
+      "years_text": "decades",
+      "years": null,
+      "place_text": "United States",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "some discoveries probably have their origin less in original thinking and more of study of recovered um technology",
+      "from_s": 9345.0,
+      "to_s": 9354.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Robert Maxwell, Epstein and the killing of cold fusion",
+      "story_kind": "theory",
+      "years_text": "1980s-1990s onward",
+      "years": {
+        "from": 1980,
+        "to": 1999
+      },
+      "place_text": "Utah; Sandia National Labs",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "Epstein selling uh Sandia National Labs Promise software which siphons systematically siphons American nuclear secrets. And then you have him bragging in an email saying I killed pawns years ago.",
+      "from_s": 9514.0,
+      "to_s": 9528.0,
+      "cites": [
+        "Whitney Webb",
+        "Robert Maxwell",
+        "Ghislaine Maxwell",
+        "Jeffrey Epstein"
+      ],
+      "documents": [
+        "One Nation Under Blackmail"
+      ]
+    },
+    {
+      "title": "Epstein network interest in psychic people and human trafficking",
+      "story_kind": "theory",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "provably in the files there there was an interest in people with sigh or empathy or consciousness abilities um by the Epstein network",
+      "from_s": 9726.0,
+      "to_s": 9740.0,
+      "cites": [],
+      "documents": [
+        "Epstein files"
+      ]
+    },
+    {
+      "title": "Psionic P3 assets trafficked to call in craft for shootdowns",
+      "story_kind": "program",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Indonesia disaster zone",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "they were rounding up people from this disaster zone in Indonesia presumably to take them to some sort of range maybe so that they could they call them P3s uh people with uh psionic predisposition potentials and they act as the bridge.",
+      "from_s": 9923.0,
+      "to_s": 9939.0,
+      "cites": [
+        "Michael Herrera",
+        "Jake Barber",
+        "Matt Gaetz"
+      ],
+      "documents": [
+        "Sentinels of Ether"
+      ]
+    },
+    {
+      "title": "Breeding program for psychic lineages",
+      "story_kind": "theory",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "these are essentially brought in as breeding stock. They have the genetic potential and you can essentially through successive generations of of breeding uh concentrate that potential",
+      "from_s": 10368.0,
+      "to_s": 10386.0,
+      "cites": [
+        "Gary Nolan"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Humans as a resource: potential, vehicles for non-human consciousness",
+      "story_kind": "cosmology",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Earth",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "human potential is part of what their interest is uh uh the psychic potential potentially and our uh and our technological development",
+      "from_s": 10587.0,
+      "to_s": 10597.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Extended electrodynamics and longitudinal waves",
+      "story_kind": "theory",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "extended electronamics which is this idea that you know so in classical electronamics you have uh typical transverse hertzene electromagnetic wave",
+      "from_s": 10894.0,
+      "to_s": 10905.0,
+      "cites": [
+        "Kirk McConnell",
+        "Thomas Bearden"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Bismuth anti-gravity propulsion",
+      "story_kind": "theory",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "bismouth's very strange and uh you end up in this thing it's called the you know it's the relativistic par paradigm where uh when it's infused with energy uh you end up with this repellent magnetic force",
+      "from_s": 11145.0,
+      "to_s": 11159.0,
+      "cites": [
+        "Bob Lazar"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Reverse engineering progress: propulsion and beamed power",
+      "story_kind": "reverse-engineering",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Matthew Brown",
+      "kind": "firsthand",
+      "quote": "I think enough to have propulsion um, and beamed power so that you don't necessarily have to have an onboard power source for these devices.",
+      "from_s": 11220.0,
+      "to_s": 11230.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Craft entering and leaving the atmosphere",
+      "story_kind": "testimony",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Earth atmosphere",
+      "teller": "Matthew Brown",
+      "kind": "firsthand",
+      "quote": "Oh, I mean certainty.",
+      "from_s": 11265.0,
+      "to_s": 11267.0,
+      "cites": [],
+      "documents": [
+        "Department of State cleared report"
+      ]
+    },
+    {
+      "title": "AFOSI officer harassing UFO whistleblower",
+      "story_kind": "testimony",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Matthew Brown",
+      "kind": "secondhand",
+      "quote": "there was proof in this case of it being an AFO SI officer.",
+      "from_s": 11551.0,
+      "to_s": 11556.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Directed energy and dream or idea implantation",
+      "story_kind": "theory",
+      "years_text": "present",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Matthew Brown",
+      "kind": "researcher",
+      "quote": "even our dreams are now subject to technological manipulation this isn't even classified knowledge",
+      "from_s": 12031.0,
+      "to_s": 12038.0,
+      "cites": [
+        "Colin Ross",
+        "Michael Levin"
+      ],
+      "documents": [
+        "CIA Doctors"
+      ]
+    },
+    {
+      "title": "ICIG hinted humans are not in charge",
+      "story_kind": "testimony",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Matthew Brown",
+      "kind": "firsthand",
+      "quote": "with me personally I I want to respect them but the ICI did it with me yes",
+      "from_s": 12404.0,
+      "to_s": 12409.0,
+      "cites": [
+        "Dylan Borland",
+        "Jacques Vallee"
+      ],
+      "documents": []
+    }
+  ],
+  "dropped": [
+    {
+      "title": "UFOs cluster around nuclear sites",
+      "quote": "UFOs always show up around nuclear. Uh, you know, there are reports that are similar at Chernobyl at Baroce Argentina where they have civilian, you know, energy grid. There was a famous sighting u in 1995 there",
+      "reason": "quote is not a verbatim substring of the caption text",
+      "where": "chunk 3 story 1"
+    },
+    {
+      "title": "Maynard Corporation / World Commerce Corporation international intel group",
+      "quote": "Otto Scorzani was president I think of this world commerce corporation that uh you know uh Tom Dong writes about in secret machines. there's some sort of Nazi connection and it seems like there's this international group that he writes about pseudonmously calls it the Maynard Corporation",
+      "reason": "quote is not a verbatim substring of the caption text",
+      "where": "chunk 3 story 4"
+    },
+    {
+      "title": "Break-in at Brown's house and harassment",
+      "quote": "The only thing that was like totally removed from the premise and never recovered was my civilian passport. Uh, my grandfather's ashes were put out in the in the alley behind our house by the garbage.",
+      "reason": "quote is not a verbatim substring of the caption text",
+      "where": "chunk 3 story 19"
+    }
+  ]
+}

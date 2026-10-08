@@ -1,0 +1,929 @@
+{
+  "computed": "2026-10-08",
+  "median_attestation": 0.5,
+  "counts": {
+    "stories": 113,
+    "tellings": 113,
+    "independent_tellers": 113,
+    "repetitions": 0,
+    "documents": 33,
+    "by_kind": {
+      "cosmology": 3,
+      "crash-retrieval": 3,
+      "document": 5,
+      "encounter": 17,
+      "place-lore": 4,
+      "program": 9,
+      "reverse-engineering": 3,
+      "sighting": 10,
+      "testimony": 31,
+      "theory": 28
+    }
+  },
+  "stories": {
+    "admiral-byrd-antarctica-encounter-rumor-1940": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "afosi-officer-harassing-ufo-whistleblower": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "agreements-with-a-third-party-oral-tradition-of-legacy-progr": {
+      "attestation": 0.9,
+      "score": 1.8,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "aguadilla-transmedium-video-2013": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "alexander-wiggins-omaha-tic-tac-and-uss-jackson-2019": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "alien-reproduction-vehicle-term-as-counterintelligence-marke-2018": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "aliens-as-continuum-of-human-evolution": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "aliens-plan-a-shared-human-alien-civilization-anakah-and-tri": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "ancient-astronaut-and-ongoing-hybrid-program": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "another-channeler-s-challenger-prediction-1986": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "arthur-young-s-reflexive-universe-theory-1926": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "atlantis-search-in-the-atlantic": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "baltic-sea-anomaly": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "bigelow-s-survival-essay-contest-and-mishlove-s-winning-essa-2020": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "bismuth-anti-gravity-propulsion": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "blue-being-gave-physics-to-a-construction-worker": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "bluegill-deck-logs-analysis-1962": {
+      "attestation": 0.75,
+      "score": 1.5,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "bluegill-triple-prime-1962-ufo-recovery": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "bob-lazar-s-navy-seafloor-find": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "breeding-program-for-psychic-lineages": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "condor-man-reddit-4chan-claim-of-nhi-ocean-sites": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "cordylewski-plasma-clouds-and-long-delay-echoes-1920": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "craft-entering-and-leaving-the-atmosphere": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "david-grusch-and-the-legacy-ufo-crash-retrieval-program-2023": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "directed-energy-and-dream-or-idea-implantation": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "eighty-year-stigmatization-campaign-after-robertson-panel-1950": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "elizabeth-targ-s-death-from-glioblastoma-2000": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "email-deleted-as-spillage-2015": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "epstein-network-interest-in-psychic-people-and-human-traffic": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "extended-electrodynamics-and-longitudinal-waves": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "friend-s-j2-email-teardrop-uap-leaving-ocean-and-five-to-sev": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "friend-s-medium-reading": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "go-fast-video-and-email-deletion-2015": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "government-exploitation-of-psychic-abilities-stargate-and-gi": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "hitler-regime-supported-zionist-groups-and-encouraged-migrat-1930": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "hitodama-japanese-plasma-orbs-as-souls": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "humans-as-a-resource-potential-vehicles-for-non-human-consci": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "icig-hinted-humans-are-not-in-charge": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "immaculate-constellation-briefing-found-on-classified-comput-2018": {
+      "attestation": 1.5,
+      "score": 3.0,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "immaculate-constellation-global-uap-surveillance-program-2018": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "ingo-swann-remote-views-alien-base-on-the-moon-1970": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "instrumental-transcommunication-and-spirit-box": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "israel-assassinating-nazi-scientists-in-egypt": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "jacobo-grinberg-disappearance-1994": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "jean-houston-induces-mishlove-s-mystical-experience": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "jeffrey-kripal-s-night-sharing-a-room-with-strieber": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "joe-dispenza-s-blue-beings-in-meditation": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "john-lilly-s-contact-with-ssi": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "john-mack-and-abduction-research-1990": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "john-mack-on-abductee-double-identity": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "legacy-program-recruits-psionic-assets-from-native-cultures": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "legacy-reverse-engineering-and-archaeological-recovery": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "mckenna-s-flying-saucer-as-gaia-projection": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "terence-mckenna"
+      ],
+      "repetitions": []
+    },
+    "meeting-of-scientists-with-j-allen-hynek-about-owens-1977": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "michael-talbot-s-death-from-leukemia-after-vampire-novel-1992": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "mishlove-meets-puharich-at-berkeley-conference-1972": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "mishlove-s-precognitive-dream-of-the-focus-magazine-1972": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "more-crash-retrievals-in-the-ocean-than-elsewhere": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "navy-knowledge-of-ufos-rickover-and-others": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "nazi-networks-survived-wwii-and-cooperated-with-israel": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "nimitz-case-with-radar-and-flir-2004": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "nine-lines-of-evidence-for-survival-after-death": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "nnsa-foia-response-on-starfish-prime-uap-records-1962": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "nova-scotia-1960-divers-and-saucers": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "nuclear-weapons-interfere-with-craft-propulsion-national-lab": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "operation-paperclip-scientists-and-contact-events-at-redston": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "other-immaculate-constellation-case-studies-orbs-disc-jellyf-2018": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "owens-challenger-shuttle-warning-1985": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "owens-deaths-suicide-fullback-ejected-crashes-1970": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "owens-declares-war-on-us-government-poltergeists-on-navy-ves-1977": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "owens-ends-the-california-drought-and-sri-files-1976": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "owens-influences-football-games-1970": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "owens-origin-story-tweeter-and-twitter-and-the-tarantula-ope": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "owens-sore-throat-and-his-vindictiveness-1976": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "owens-three-ufo-sightings-and-the-sonoma-state-ufo-1976": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "pat-price-remote-views-alien-bases-under-skip-atwater-1970": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "plasma-as-soul-and-ufo-legacy-program-plasma-balls": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "prophet-yahweh-summons-ufo-for-tv-crew-1980": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "psionic-p3-assets-trafficked-to-call-in-craft-for-shootdowns": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "psychomanteum-and-communication-with-the-dead": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "puharich-s-cholinergic-and-adrenergic-theory-1970": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "puharich-uri-geller-and-the-council-of-nine-1970": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "puharich-witnessed-ufos-with-geller-1970": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "reporting-sap-spillage-and-file-deleted-2018": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "reverse-engineering-progress-propulsion-and-beamed-power": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "robert-maxwell-epstein-and-the-killing-of-cold-fusion-1980": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "robert-temple-and-the-dogon-sirius-mystery": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "robert-temple-s-plasma-being-on-a-flight-to-singapore": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "robin-foy-s-blue-extraterrestrial-in-seances-scole-experimen": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "roswell-fragment-in-japan-museum-1947": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "science-is-managed-and-suppressed-discoveries-from-recovered": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "sitchin-s-anunnaki-genetic-experiments": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "stoned-ape-theory": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "submarine-officers-encounters-with-fast-uap": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "sycamore-knoll-undersea-base-claim": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "sydney-margules-affidavit-owens-summons-lightning-at-camden-1960": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "ted-owens-and-the-pk-man-contact-with-space-intelligences-1969": {
+      "attestation": 0.75,
+      "score": 1.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "ted-serios-thoughtography-1960": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "thomas-townsend-brown-s-catalina-orb": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "thomas-townsend-brown-s-ufo-experience-at-17": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "tim-taylor-nasa-controller-and-secret-space-program-1986": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "triangle-appears-over-russian-naval-vessels-2018": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "triangle-meeting-as-a-pre-arranged-transfer-2018": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "triangle-sightings-tied-to-us-bases-1997": {
+      "attestation": 0.65,
+      "score": 1.3,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "truman-eisenhower-era-agreement-with-non-human-intelligence": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "uap-splits-a-section-of-f-18s-2014": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "tim-gallaudet"
+      ],
+      "repetitions": []
+    },
+    "undersea-bases-and-bermuda-triangle-anomalies": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "us-soviet-deconfliction-on-ufos-and-nato-collaboration": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "matthew-brown"
+      ],
+      "repetitions": []
+    },
+    "valerie-ransone-in-the-white-house-1970": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "valerie-ransone-s-1971-sighting-over-northern-illinois-unive": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jesse-michels"
+      ],
+      "repetitions": []
+    },
+    "valerie-ransone-s-four-ufo-lights-that-were-flares-1978": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "whitley-strieber-s-abduction-as-communion": {
+      "attestation": 0.4,
+      "score": 0.8,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    },
+    "whitley-strieber-s-cobalts": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "independent": [
+        "jeffrey-mishlove"
+      ],
+      "repetitions": []
+    }
+  }
+}

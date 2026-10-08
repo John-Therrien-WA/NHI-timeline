@@ -1,0 +1,1095 @@
+{
+  "episode": "lcaY-rd9Dhc",
+  "captions": "sources/captions/lcaY-rd9Dhc.en.txt",
+  "model": "sonnet",
+  "chunks": 3,
+  "candidates": [
+    {
+      "title": "Bigelow's survival essay contest and Mishlove's winning essay",
+      "story_kind": "program",
+      "years_text": "2020s (COVID era)",
+      "years": {
+        "from": 2020,
+        "to": 2029
+      },
+      "place_text": "Nevada, USA",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "Robert had gone through uh some changes in his life. I think if I recall correctly, uh, his aerospace company had been shut down by the governor of Nevada during the COVID crisis.",
+      "from_s": 239.0,
+      "to_s": 256.0,
+      "cites": [
+        "Robert Bigelow"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Ted Owens and the PK man: contact with space intelligences",
+      "story_kind": "encounter",
+      "years_text": "1969-1987",
+      "years": {
+        "from": 1969,
+        "to": 1987
+      },
+      "place_text": "USA",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "Well, in 1969 he published his book called How to Contact Space People.",
+      "from_s": 501.0,
+      "to_s": 509.0,
+      "cites": [
+        "Ted Owens"
+      ],
+      "documents": [
+        "How to Contact Space People",
+        "The PK Man"
+      ]
+    },
+    {
+      "title": "Owens ends the California drought and SRI files",
+      "story_kind": "testimony",
+      "years_text": "1976",
+      "years": {
+        "from": 1976,
+        "to": 1976
+      },
+      "place_text": "California / Stanford Research Institute, Palo Alto",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "I'm going to show you what I can do. I'm going to end this drought, and it it's going to happen within a couple of days.",
+      "from_s": 650.0,
+      "to_s": 662.0,
+      "cites": [
+        "Ted Owens",
+        "Russell Targ",
+        "Hal Puthoff"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Owens declares war on US government, poltergeists on Navy vessels",
+      "story_kind": "testimony",
+      "years_text": "late 1970s-1980s",
+      "years": {
+        "from": 1977,
+        "to": 1989
+      },
+      "place_text": "United States (Navy vessels, nuclear plants)",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "he said, \"I'm declaring war against the United States government.\" And I would get newspaper clippings of poltergeist attacks on Navy vessels",
+      "from_s": 785.0,
+      "to_s": 799.0,
+      "cites": [
+        "Ted Owens"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Owens' origin story: Tweeter and Twitter and the tarantula operation",
+      "story_kind": "encounter",
+      "years_text": "childhood to adulthood (Owens)",
+      "years": null,
+      "place_text": "Texas highway",
+      "teller": "Jeffrey Mishlove",
+      "kind": "secondhand",
+      "quote": "he would claim that the space intelligences were watching him since childhood.",
+      "from_s": 914.0,
+      "to_s": 923.0,
+      "cites": [
+        "Ted Owens"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Owens' Challenger shuttle warning",
+      "story_kind": "testimony",
+      "years_text": "Christmas Eve 1985 - January 1986",
+      "years": {
+        "from": 1985,
+        "to": 1986
+      },
+      "place_text": "USA (phone call; Challenger launch)",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "Christmas Eve 1985. I got a phone call from Ted Owens and in his big booming voice he said, \"Jeffrey, this is the most important phone call you will ever receive.\"",
+      "from_s": 1045.0,
+      "to_s": 1065.0,
+      "cites": [
+        "Ted Owens"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Another channeler's Challenger prediction",
+      "story_kind": "testimony",
+      "years_text": "1986",
+      "years": {
+        "from": 1986,
+        "to": 1986
+      },
+      "place_text": "San Francisco Bay Area",
+      "teller": "Jeffrey Mishlove",
+      "kind": "secondhand",
+      "quote": "I heard from them saying they knew of a another channeler somewhere who had made the same prediction.",
+      "from_s": 1242.0,
+      "to_s": 1251.0,
+      "cites": [
+        "Foundation for Mind Being Research"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Tim Taylor, NASA controller and secret space program",
+      "story_kind": "testimony",
+      "years_text": "1986",
+      "years": {
+        "from": 1986,
+        "to": 1986
+      },
+      "place_text": "NASA mission control",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "There's a NASA mission controller uh whose name is Tim Taylor and he claimed to be part of a secret space program.",
+      "from_s": 1184.0,
+      "to_s": 1192.0,
+      "cites": [
+        "Tim Taylor"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Owens' three UFO sightings and the Sonoma State UFO",
+      "story_kind": "sighting",
+      "years_text": "1976",
+      "years": {
+        "from": 1976,
+        "to": 1976
+      },
+      "place_text": "Sonoma State College, Rohnert Park, California",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "I'm going to create three UFO sightings within a 90-day period within a 100 miles of San Francisco.",
+      "from_s": 1367.0,
+      "to_s": 1375.0,
+      "cites": [
+        "Ted Owens",
+        "Stephen Pleski"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Sydney Margules affidavit: Owens summons lightning at Camden Bridge",
+      "story_kind": "testimony",
+      "years_text": "1960s",
+      "years": {
+        "from": 1960,
+        "to": 1969
+      },
+      "place_text": "Philadelphia, Camden Bridge",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "There was an affidavit from the attorney, Sydney Margules, uh saying that um he was taking a a break from work.",
+      "from_s": 1563.0,
+      "to_s": 1575.0,
+      "cites": [
+        "Sydney Margules",
+        "Ted Owens"
+      ],
+      "documents": [
+        "Affidavit of Sydney Margules"
+      ]
+    },
+    {
+      "title": "Prophet Yahweh summons UFO for TV crew",
+      "story_kind": "sighting",
+      "years_text": "1980s-1990s",
+      "years": {
+        "from": 1980,
+        "to": 1999
+      },
+      "place_text": "Las Vegas, Nevada",
+      "teller": "Jeffrey Mishlove",
+      "kind": "secondhand",
+      "quote": "The prophet Yahweh was a fellow who lived in Las Vegas back in the day when I lived there, as a matter of fact, and he also claimed he could summon UFOs.",
+      "from_s": 1978.0,
+      "to_s": 1990.0,
+      "cites": [
+        "Prophet Yahweh"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Legacy program recruits psionic assets from native cultures",
+      "story_kind": "program",
+      "years_text": "present",
+      "years": null,
+      "place_text": "Third world countries",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "the so-called legacy program working with what they called psionic assets to lure UFOs has been reaching out to people from native cultures around the world",
+      "from_s": 2267.0,
+      "to_s": 2282.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Ted Serios thoughtography",
+      "story_kind": "testimony",
+      "years_text": "1960s",
+      "years": {
+        "from": 1960,
+        "to": 1969
+      },
+      "place_text": "Chicago",
+      "teller": "Jesse Michels",
+      "kind": "researcher",
+      "quote": "Ted Cerios, the famous thoughtgrapher who was a Chicago bellhop studied by Juel Eisenbud, the psychiatrist who produced these images on Polaroid film.",
+      "from_s": 2358.0,
+      "to_s": 2373.0,
+      "cites": [
+        "Jule Eisenbud"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Owens influences football games",
+      "story_kind": "testimony",
+      "years_text": "1970s-1980s",
+      "years": {
+        "from": 1970,
+        "to": 1989
+      },
+      "place_text": "Owens' living room",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "he'd have two or three TV sets going with football games and he would try and influence the outcome of the football games from a a state of intoxication.",
+      "from_s": 2396.0,
+      "to_s": 2409.0,
+      "cites": [
+        "Ted Owens"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Government exploitation of psychic abilities, Stargate and gifted education funnel",
+      "story_kind": "program",
+      "years_text": "last 50 years",
+      "years": null,
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "I think aerospace and the government has been systematically exploiting it for the last 50 years. And so from Stargate and onwards",
+      "from_s": 2648.0,
+      "to_s": 2658.0,
+      "cites": [
+        "Andrija Puharich"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Nine lines of evidence for survival after death",
+      "story_kind": "theory",
+      "years_text": "present",
+      "years": null,
+      "place_text": "",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "The strongest evidence is that from nine different directions we have evidence for this.",
+      "from_s": 2779.0,
+      "to_s": 2787.0,
+      "cites": [
+        "Robert Bigelow",
+        "Frederic Myers"
+      ],
+      "documents": [
+        "Human Personality and Its Survival of Bodily Death"
+      ]
+    },
+    {
+      "title": "Instrumental transcommunication and spirit box",
+      "story_kind": "testimony",
+      "years_text": "present",
+      "years": null,
+      "place_text": "",
+      "teller": "Jeffrey Mishlove",
+      "kind": "secondhand",
+      "quote": "people claim that they're communicating with their deceased friends and relatives using radios and computers and television sets.",
+      "from_s": 2801.0,
+      "to_s": 2810.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Friend's medium reading",
+      "story_kind": "encounter",
+      "years_text": "recent",
+      "years": null,
+      "place_text": "",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "he was saying that he saw a medium and the medium immediately started kind of ragging on him the way that his sister did.",
+      "from_s": 2859.0,
+      "to_s": 2868.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Michael Talbot's death from leukemia after vampire novel",
+      "story_kind": "testimony",
+      "years_text": "1992",
+      "years": {
+        "from": 1992,
+        "to": 1992
+      },
+      "place_text": "hospital",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "he had written a novel about a vampire novel in which he claimed that vampireism was a rare form of leukemia and then he contracted a rare form of leukemia that killed him.",
+      "from_s": 3063.0,
+      "to_s": 3080.0,
+      "cites": [
+        "Michael Talbot"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Jacobo Grinberg disappearance",
+      "story_kind": "testimony",
+      "years_text": "1994",
+      "years": {
+        "from": 1994,
+        "to": 1994
+      },
+      "place_text": "Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "he sort of says he figured it out and you know he goes missing and I think the last note he writes is about how he figured it out",
+      "from_s": 3110.0,
+      "to_s": 3120.0,
+      "cites": [
+        "Jacobo Grinberg",
+        "Alex Gomez Marin"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Elizabeth Targ's death from glioblastoma",
+      "story_kind": "testimony",
+      "years_text": "2000s",
+      "years": {
+        "from": 2000,
+        "to": 2009
+      },
+      "place_text": "",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "She was looking at geoblastto which are brain tumors, very deadly brain tumors. And she was working with healers to heal the the geoblastto tumor when she contracted one herself",
+      "from_s": 3150.0,
+      "to_s": 3166.0,
+      "cites": [
+        "Elizabeth Targ",
+        "Russell Targ"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Owens' sore throat and his vindictiveness",
+      "story_kind": "encounter",
+      "years_text": "1976",
+      "years": {
+        "from": 1976,
+        "to": 1976
+      },
+      "place_text": "phone call",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "He got angry and within minutes I could feel this sensation in my throat",
+      "from_s": 3306.0,
+      "to_s": 3314.0,
+      "cites": [
+        "Ted Owens"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Owens' deaths: suicide, fullback ejected, crashes",
+      "story_kind": "testimony",
+      "years_text": "1970s-1980s",
+      "years": {
+        "from": 1970,
+        "to": 1989
+      },
+      "place_text": "Philadelphia Eagles game; USA",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "Owens said, \"I'm going to take out this player, told the reporter.\"",
+      "from_s": 3414.0,
+      "to_s": 3421.0,
+      "cites": [
+        "Ted Owens"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Meeting of scientists with J. Allen Hynek about Owens",
+      "story_kind": "encounter",
+      "years_text": "1977-1978",
+      "years": {
+        "from": 1977,
+        "to": 1978
+      },
+      "place_text": "Berkeley area",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "I convened a meeting of scientists to because I really wanted while I was still a graduate student to launch a serious research program into this man",
+      "from_s": 3524.0,
+      "to_s": 3534.0,
+      "cites": [
+        "J. Allen Hynek"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Puharich's cholinergic and adrenergic theory",
+      "story_kind": "theory",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "Puharic wrote about that in a book called beyond telepathy in in which he developed a theory that for receptive forms of ESP it's good to be relaxed",
+      "from_s": 3617.0,
+      "to_s": 3630.0,
+      "cites": [
+        "Andrija Puharich"
+      ],
+      "documents": [
+        "Beyond Telepathy"
+      ]
+    },
+    {
+      "title": "Puharich, Uri Geller and the Council of Nine",
+      "story_kind": "program",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "Ossining, New York",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "he has in Austining New York uh you know he has the space kids and he recruits all these people. brings in Yuri Geller from Israel",
+      "from_s": 3762.0,
+      "to_s": 3772.0,
+      "cites": [
+        "Andrija Puharich",
+        "Uri Geller"
+      ],
+      "documents": [
+        "The Mind Traveler"
+      ]
+    },
+    {
+      "title": "Mishlove meets Puharich at Berkeley conference",
+      "story_kind": "testimony",
+      "years_text": "1972",
+      "years": {
+        "from": 1972,
+        "to": 1972
+      },
+      "place_text": "Zellerbach Auditorium, Berkeley",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "Puharic uh when I first met him was about 1972 and at Berkeley I sponsored a conference at in Zelerbach auditorium.",
+      "from_s": 3837.0,
+      "to_s": 3854.0,
+      "cites": [
+        "Andrija Puharich"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Puharich witnessed UFOs with Geller",
+      "story_kind": "sighting",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "",
+      "teller": "Jeffrey Mishlove",
+      "kind": "secondhand",
+      "quote": "Puharic himself witnessed UFOs in conjunction with Ariel as well as synchronicities",
+      "from_s": 3993.0,
+      "to_s": 4002.0,
+      "cites": [
+        "Andrija Puharich",
+        "Uri Geller"
+      ],
+      "documents": []
+    },
+    {
+      "title": "McKenna's flying saucer as Gaia projection",
+      "story_kind": "cosmology",
+      "years_text": "",
+      "years": null,
+      "place_text": "",
+      "teller": "Terence McKenna",
+      "kind": "host",
+      "quote": "One possible view of the flying saucer is that it is a kind of projection from the consciousness of the planet that it is Gaia",
+      "from_s": 4123.0,
+      "to_s": 4139.0,
+      "cites": [
+        "Terence McKenna",
+        "John Mack"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Stoned ape theory",
+      "story_kind": "theory",
+      "years_text": "2 million to 300,000 years ago",
+      "years": null,
+      "place_text": "",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "he had this theory that consciousness itself developed when our primate ancestors discovered these mushrooms.",
+      "from_s": 4266.0,
+      "to_s": 4277.0,
+      "cites": [
+        "Terence McKenna",
+        "Dennis McKenna"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Sitchin's Anunnaki genetic experiments",
+      "story_kind": "theory",
+      "years_text": "ancient",
+      "years": null,
+      "place_text": "",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "the other hypothesis would be that of Zachariah Sitchin, who suggests that the ancient gods, the Anunnaki, performed genetic experiments on on our primate ancestors.",
+      "from_s": 4377.0,
+      "to_s": 4392.0,
+      "cites": [
+        "Zecharia Sitchin"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Ancient astronaut and ongoing hybrid program",
+      "story_kind": "theory",
+      "years_text": "ancient to present",
+      "years": null,
+      "place_text": "Earth",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "I think we have to take seriously the ancient astronaut hypothesis that the this planet has been under observation perhaps long before humans evolved on it",
+      "from_s": 4454.0,
+      "to_s": 4470.0,
+      "cites": [
+        "Whitley Strieber"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Ingo Swann remote views alien base on the Moon",
+      "story_kind": "testimony",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "the Moon (remote viewing)",
+      "teller": "Jeffrey Mishlove",
+      "kind": "secondhand",
+      "quote": "Ingo Swan uh claimed to have used remote viewing to travel to the moon where he believed there were aliens who forced him off the the moon.",
+      "from_s": 4789.0,
+      "to_s": 4801.0,
+      "cites": [
+        "Ingo Swann"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Pat Price remote views alien bases under Skip Atwater",
+      "story_kind": "program",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "across the Earth",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "just like Pat Price's remote viewing these alien bases across the earth under skip atwater you know or with you know Ingo Swan where he's remote viewing an alien base on the moon.",
+      "from_s": 4854.0,
+      "to_s": 4867.0,
+      "cites": [
+        "Pat Price",
+        "Skip Atwater",
+        "Ingo Swann"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Aliens as continuum of human evolution",
+      "story_kind": "theory",
+      "years_text": "present",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "The aliens would then be on the continuum of human evolution and they would be more advanced than us.",
+      "from_s": 4842.0,
+      "to_s": 4850.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Aliens plan a shared human-alien civilization (Anakah and Tristan)",
+      "story_kind": "testimony",
+      "years_text": "present, with memories of other lifetimes",
+      "years": null,
+      "place_text": "Earth and other planets",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "I've done a series of interviews with two individuals who exist in one body. They used the names Anakah and Tristan.",
+      "from_s": 4917.0,
+      "to_s": 4930.0,
+      "cites": [
+        "Anakah",
+        "Tristan"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Mishlove's precognitive dream of the Focus magazine",
+      "story_kind": "testimony",
+      "years_text": "1972",
+      "years": {
+        "from": 1972,
+        "to": 1972
+      },
+      "place_text": "Berkeley, California",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "I had a dream that night in which I was visiting some friends of mine who lived across town in Berkeley",
+      "from_s": 5377.0,
+      "to_s": 5389.0,
+      "cites": [
+        "Eric Wargo"
+      ],
+      "documents": [
+        "Focus (KQED magazine)"
+      ]
+    },
+    {
+      "title": "David Grusch and the legacy UFO crash retrieval program",
+      "story_kind": "program",
+      "years_text": "2023 onward",
+      "years": {
+        "from": 2023,
+        "to": 2023
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "he has like hundreds of pages of documentation of this legacy UFO crash retrieval program going on, Sub Rosa.",
+      "from_s": 5808.0,
+      "to_s": 5819.0,
+      "cites": [
+        "David Grusch",
+        "Omar"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Psychomanteum and communication with the dead",
+      "story_kind": "place-lore",
+      "years_text": "ancient Greece to modern",
+      "years": null,
+      "place_text": "Ancient Greece underground temples",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "the psychoantium developed by Raymond Moody that was based on the discovery in ancient Greece of underground temples",
+      "from_s": 6392.0,
+      "to_s": 6406.0,
+      "cites": [
+        "Raymond Moody"
+      ],
+      "documents": []
+    },
+    {
+      "title": "John Lilly's contact with SSI",
+      "story_kind": "encounter",
+      "years_text": "mid-20th century",
+      "years": null,
+      "place_text": "isolation tank",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "John Lily, another CIA scientist, develops the sensory deprivation isolation tank. He claims to communicate with an alien intelligence he calls uh SSI.",
+      "from_s": 6471.0,
+      "to_s": 6484.0,
+      "cites": [
+        "John Lilly"
+      ],
+      "documents": []
+    },
+    {
+      "title": "John Mack and abduction research",
+      "story_kind": "document",
+      "years_text": "1990s",
+      "years": {
+        "from": 1990,
+        "to": 1999
+      },
+      "place_text": "Harvard, United States",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "you read Ralph Blumenthal's amazing you know uh the believer you know about John Mack",
+      "from_s": 6936.0,
+      "to_s": 6943.0,
+      "cites": [
+        "Ralph Blumenthal",
+        "John Mack",
+        "Stan Grof"
+      ],
+      "documents": [
+        "The Believer"
+      ]
+    },
+    {
+      "title": "Valerie Ransone's 1971 sighting over Northern Illinois University",
+      "story_kind": "sighting",
+      "years_text": "1971",
+      "years": {
+        "from": 1971,
+        "to": 1971
+      },
+      "place_text": "Northern Illinois University",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "1971 October, it's around 11:00 a.m. and I noticed a strange object above the student union building.",
+      "from_s": 7219.0,
+      "to_s": 7228.0,
+      "cites": [
+        "Valerie Ransone",
+        "Willard de Bogart"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Valerie Ransone's four UFO lights that were flares",
+      "story_kind": "encounter",
+      "years_text": "1978-1979",
+      "years": {
+        "from": 1978,
+        "to": 1979
+      },
+      "place_text": "Desert near Joshua Tree / Twentynine Palms, California",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "she convened a meeting in um down in the desert near um Joshua Tree I think 29 palms in in that area",
+      "from_s": 7262.0,
+      "to_s": 7274.0,
+      "cites": [
+        "Valerie Ransone"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Valerie Ransone in the White House",
+      "story_kind": "testimony",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "Nixon and Ford White House",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "Well, when I knew her, she was working in the Gerald Ford White House.",
+      "from_s": 7349.0,
+      "to_s": 7352.0,
+      "cites": [
+        "Valerie Ransone"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Jean Houston induces Mishlove's mystical experience",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Jean Houston's mystery school",
+      "teller": "Jeffrey Mishlove",
+      "kind": "firsthand",
+      "quote": "I was in her mystery school program and she gave a lecture on Carlos Suarez book.",
+      "from_s": 7655.0,
+      "to_s": 7667.0,
+      "cites": [
+        "Jean Houston",
+        "Carlos Suarez"
+      ],
+      "documents": [
+        "The Cipher of Genesis"
+      ]
+    },
+    {
+      "title": "Arthur Young's Reflexive Universe theory",
+      "story_kind": "theory",
+      "years_text": "1926-1947 and after",
+      "years": {
+        "from": 1926,
+        "to": 1947
+      },
+      "place_text": "Berkeley, Princeton, Bell Helicopter",
+      "teller": "Jeffrey Mishlove",
+      "kind": "researcher",
+      "quote": "the process the whole universal process is one of spirit descending into matter and then matter ascending back into the realm of spirit.",
+      "from_s": 8015.0,
+      "to_s": 8034.0,
+      "cites": [
+        "Arthur Young"
+      ],
+      "documents": [
+        "The Reflexive Universe"
+      ]
+    },
+    {
+      "title": "Thomas Townsend Brown's UFO experience at 17",
+      "story_kind": "encounter",
+      "years_text": "early 20th century",
+      "years": null,
+      "place_text": "Catalina Island",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "he attributes a lot of his life's work to a UFO experience he had, I think, at the age of 17 on Catalina Island.",
+      "from_s": 8592.0,
+      "to_s": 8600.0,
+      "cites": [
+        "Thomas Townsend Brown"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Robert Temple and the Dogon Sirius mystery",
+      "story_kind": "theory",
+      "years_text": "ancient tradition",
+      "years": null,
+      "place_text": "Mali",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "they somehow, you know, in their tradition knew that there were two Sirius planets, Sirius A and Sirius B.",
+      "from_s": 8820.0,
+      "to_s": 8827.0,
+      "cites": [
+        "Robert Temple"
+      ],
+      "documents": [
+        "The Sirius Mystery"
+      ]
+    },
+    {
+      "title": "Cordylewski plasma clouds and long delay echoes",
+      "story_kind": "theory",
+      "years_text": "1920s",
+      "years": {
+        "from": 1920,
+        "to": 1929
+      },
+      "place_text": "L5 Lagrange point, Earth-Moon",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "he believes that it's responsible for these long delay echoes these radio transmissions that were sent in the early 1920s",
+      "from_s": 8916.0,
+      "to_s": 8925.0,
+      "cites": [
+        "Robert Temple"
+      ],
+      "documents": [
+        "A New Science of Heaven"
+      ]
+    },
+    {
+      "title": "Plasma as soul and UFO legacy program plasma balls",
+      "story_kind": "theory",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Jesse Michels (host)",
+      "kind": "host",
+      "quote": "when you see testimonies of, you know, people in the quote unquote UFO legacy program and these plasma balls seem to kind of cohhere and become inert and turn into these solid objects and then come out of the sky once they're summoned",
+      "from_s": 9099.0,
+      "to_s": 9116.0,
+      "cites": [
+        "Rupert Sheldrake"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Hitodama Japanese plasma orbs as souls",
+      "story_kind": "cosmology",
+      "years_text": "traditional",
+      "years": null,
+      "place_text": "Japan",
+      "teller": "Jesse Michels (host)",
+      "kind": "host",
+      "quote": "in Buddhist traditions uh and Shinto traditions I don't know if you're familiar with this Japanese concept of the hitoama but it's these uh plasma orbs",
+      "from_s": 9249.0,
+      "to_s": 9261.0,
+      "cites": [
+        "Miyazaki"
+      ],
+      "documents": [
+        "The Boy and the Heron"
+      ]
+    },
+    {
+      "title": "Robert Temple's plasma being on a flight to Singapore",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "On an airplane flying to Singapore, 38,000 ft",
+      "teller": "Jeffrey Mishlove (guest)",
+      "kind": "secondhand",
+      "quote": "He he has told me that he has communicated with plasma beings.",
+      "from_s": 9288.0,
+      "to_s": 9293.0,
+      "cites": [
+        "Robert Temple"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Blue being gave physics to a construction worker",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "A bedroom",
+      "teller": "Jesse Michels (host)",
+      "kind": "secondhand",
+      "quote": "I've had a past guest who was a construction worker and a blue being showed up in his bedroom and transmitted sophisticated physics principles to him and it put him on the radar of Eric Davis and Hell Putoff",
+      "from_s": 9392.0,
+      "to_s": 9404.0,
+      "cites": [
+        "Eric Davis",
+        "Hal Puthoff"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Whitley Strieber's cobalts",
+      "story_kind": "testimony",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Jeffrey Mishlove (guest)",
+      "kind": "researcher",
+      "quote": "Whitley Strieber talks about them. He calls them cobalts.",
+      "from_s": 9445.0,
+      "to_s": 9450.0,
+      "cites": [
+        "Whitley Strieber"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Robin Foy's blue extraterrestrial in seances (Scole experiment)",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Seances of the Scole experiment",
+      "teller": "Jeffrey Mishlove (guest)",
+      "kind": "secondhand",
+      "quote": "he talked about being in seances where a blue extraterrestrial being would manifest. Manifest physically to the point where he could touch them.",
+      "from_s": 9481.0,
+      "to_s": 9494.0,
+      "cites": [
+        "Robin Foy"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Joe Dispenza's blue beings in meditation",
+      "story_kind": "testimony",
+      "years_text": "present day",
+      "years": null,
+      "place_text": "Dispenza meditation retreat",
+      "teller": "Jesse Michels (host)",
+      "kind": "secondhand",
+      "quote": "Despensza says that in his uh you know deep meditations, blue beings show up in the room and they tell him that",
+      "from_s": 9535.0,
+      "to_s": 9545.0,
+      "cites": [
+        "Joe Dispenza"
+      ],
+      "documents": []
+    },
+    {
+      "title": "John Mack on abductee double identity",
+      "story_kind": "testimony",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Jesse Michels (host)",
+      "kind": "secondhand",
+      "quote": "A very powerful dimension of this phenomenon is what I call the double identity aspect.",
+      "from_s": 9660.0,
+      "to_s": 9669.0,
+      "cites": [
+        "John Mack",
+        "Jeffrey Mishlove"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Whitley Strieber's abduction as communion",
+      "story_kind": "testimony",
+      "years_text": "decades ago",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Jeffrey Mishlove (guest)",
+      "kind": "secondhand",
+      "quote": "take Whitley Strieber as an example who said he was raped anally and to this day decades later he puts ointment on to uh cover the uh wounds he experienced but at the end of the day he says it was a communion.",
+      "from_s": 9828.0,
+      "to_s": 9847.0,
+      "cites": [
+        "Whitley Strieber"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Jeffrey Kripal's night sharing a room with Strieber",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Esalen Institute",
+      "teller": "Jeffrey Mishlove (guest)",
+      "kind": "secondhand",
+      "quote": "Jeffrey Kriel um who co-authored a book with Whitley tells about the time they shared a room together at the Eselin Institute",
+      "from_s": 9902.0,
+      "to_s": 9914.0,
+      "cites": [
+        "Jeffrey Kripal",
+        "Whitley Strieber"
+      ],
+      "documents": []
+    }
+  ],
+  "dropped": [
+    {
+      "title": "Bigelow Aerospace, Lockheed transfer and aliens among us",
+      "quote": "it's all about this OAP program and Bigalow which was you know they were going to receive this UFO from Loheed Martin",
+      "reason": "quote is not a verbatim substring of the caption text",
+      "where": "chunk 1 story 33"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "admiral-byrd-antarctica-encounter-rumor-1940",
+  "title": "Admiral Byrd Antarctica encounter rumor",
+  "summary": "Jesse Michels tells of Admiral Byrd Antarctica encounter rumor, about 1940s at Antarctica, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 5846.0,
+      "to_s": 5850.0,
+      "teller": "jesse-michels",
+      "quote": "someone thought that Admiral Bird had some encounter when he was down there.",
+      "kind": "secondhand",
+      "cites": [
+        "admiral-byrd"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.8
+}

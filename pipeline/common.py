@@ -6,6 +6,7 @@ copy of `tests/fixtures/`. Paths below are relative to that root.
 from __future__ import annotations
 
 import bisect
+import html
 import json
 import re
 import unicodedata
@@ -20,6 +21,9 @@ RELATIONS = ("same-event", "variant", "corroborates", "contradicts")
 
 TIMECODE = re.compile(r"^\[(\d+):(\d\d):(\d\d)\] (.*)$")
 WS = re.compile(r"\s+")
+SPEAKER = re.compile(r">>+")
+BRACKET_TAG = re.compile(r"\[[^\[\]]{0,40}\]")
+SPACE_BEFORE_PUNCT = re.compile(r" ([,.;:!?])")
 
 
 class Root:
@@ -116,8 +120,39 @@ def person_name(s: str) -> str:
     return name
 
 
-def person_id(name: str) -> str:
+def name_key(name: str) -> str:
+    """The id a name would get without aliases: the slug of the case-folded name."""
     return slugify(person_name(name).casefold(), 40)
+
+
+def person_aliases(root: Path) -> dict[str, str]:
+    """data/person-aliases.json of a root as {name key: person id}; {} when the file is absent.
+
+    The file maps an alias as written ("Garry Nolan") to a person id ("gary-nolan"); the lookup is
+    on the name key, so case, spacing, punctuation and a trailing role do not matter. A stage reads
+    it once per run and passes the dict to `person_id`."""
+    f = Path(root) / "data" / "person-aliases.json"
+    if not f.exists():
+        return {}
+    raw = load_json(f)
+    if not isinstance(raw, dict):
+        raise SystemExit(f"{f}: must be an object of alias text to person id")
+    out: dict[str, str] = {}
+    for text, pid in raw.items():
+        if not isinstance(pid, str) or slugify(pid, 40) != pid:
+            raise SystemExit(f"{f}: {text!r} points at {pid!r}, which is not a person id (a lowercase slug)")
+        key = name_key(text)
+        if key in out and out[key] != pid:
+            raise SystemExit(f"{f}: {text!r} is the same name as another alias, which points at {out[key]!r}, not {pid!r}")
+        out[key] = pid
+    return out
+
+
+def person_id(name: str, aliases: dict[str, str]) -> str:
+    """The person id of a name: the aliases (`person_aliases` of the run's root) when they name the
+    spelling, else the name key."""
+    key = name_key(name)
+    return aliases.get(key, key)
 
 
 def story_id(title: str, years: dict | None) -> str:
@@ -132,19 +167,29 @@ def norm_ws(s: str) -> str:
     return WS.sub(" ", s).strip()
 
 
-class Captions:
-    """The caption text of one episode: cues with seconds, and the plain text they join to.
+def norm_quote(s: str) -> str:
+    """Caption text or a quote reduced to its words for the verbatim comparison: entities unescaped,
+    the `>>` speaker markers and bracketed tags such as `[music]` or `[ __ ]` removed, whitespace
+    collapsed (and the space a removed tag leaves before punctuation dropped). Case and punctuation
+    stay exact."""
+    s = SPEAKER.sub(" ", html.unescape(s).replace("\xa0", " "))
+    s = BRACKET_TAG.sub(" ", s)
+    return SPACE_BEFORE_PUNCT.sub(r"\1", norm_ws(s))
 
-    The plain text is the cues' words joined by single spaces, time codes stripped, whitespace
-    collapsed. A quote is verbatim when it is a substring of that text (case and punctuation exact).
+
+class Captions:
+    """The caption text of one episode: cues with seconds, and the normalised text they join to.
+
+    The normalised text is each cue reduced by `norm_quote` (time codes stripped, speaker markers
+    and bracketed tags removed, whitespace collapsed), the cues joined by single spaces. A quote is
+    verbatim when, reduced the same way, it is a substring of that text, case and punctuation
+    exact. Its time codes come from the original cues the match spans.
     """
 
     def __init__(self, f: Path):
         self.path = f
         self.seconds: list[float] = []
         self.texts: list[str] = []
-        self.offsets: list[int] = []
-        pos = 0
         for n, line in enumerate(f.read_text(encoding="utf-8").splitlines(), 1):
             if not line.strip():
                 continue
@@ -157,25 +202,43 @@ class Captions:
                 continue
             self.seconds.append(float(t))
             self.texts.append(text)
-            self.offsets.append(pos)
-            pos += len(text) + 1
         if not self.texts:
             raise SystemExit(f"{f}: no cues")
-        self.plain = " ".join(self.texts)
+        # The normalised text, cue by cue; a cue that is only a tag ("[music]") adds nothing.
+        self._norm_offsets: list[int] = []
+        self._norm_cue: list[int] = []
+        parts, pos = [], 0
+        for i, text in enumerate(self.texts):
+            n = norm_quote(text)
+            if not n:
+                continue
+            parts.append(n)
+            self._norm_offsets.append(pos)
+            self._norm_cue.append(i)
+            pos += len(n) + 1
+        self.norm = " ".join(parts)
 
     def lines(self) -> list[str]:
         return [f"[{fmt_s(s)}] {t}" for s, t in zip(self.seconds, self.texts)]
 
-    def locate(self, quote: str) -> tuple[float, float] | None:
-        """(from_s, to_s) of a verbatim quote, or None. to_s is the start of the cue after the last one spanned."""
-        q = norm_ws(quote)
+    def locate(self, quote: str, near: float | None = None) -> tuple[float, float] | None:
+        """(from_s, to_s) of a verbatim quote, or None. to_s is the start of the cue after the last one spanned.
+
+        When the quote occurs more than once (a trailer at the top of the episode repeats a line of
+        the body), the occurrence whose first cue is nearest `near` (the time code the model gave)
+        is taken; without `near`, the first."""
+        q = norm_quote(quote)
         if not q:
             return None
-        i = self.plain.find(q)
-        if i < 0:
+        spans, i = [], self.norm.find(q)
+        while i >= 0:
+            a = self._norm_cue[bisect.bisect_right(self._norm_offsets, i) - 1]
+            b = self._norm_cue[bisect.bisect_right(self._norm_offsets, i + len(q) - 1) - 1]
+            spans.append((a, b))
+            i = self.norm.find(q, i + 1)
+        if not spans:
             return None
-        a = bisect.bisect_right(self.offsets, i) - 1
-        b = bisect.bisect_right(self.offsets, i + len(q) - 1) - 1
+        a, b = spans[0] if near is None else min(spans, key=lambda ab: abs(self.seconds[ab[0]] - near))
         to_s = self.seconds[b + 1] if b + 1 < len(self.seconds) else self.seconds[b]
         return self.seconds[a], to_s
 

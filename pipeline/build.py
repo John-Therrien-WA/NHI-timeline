@@ -2,13 +2,16 @@
 
     uv run python -m pipeline.build [--root DIR] [--out site/data.json]
 
-Stories with era, place (and the free place text for the unresolved), years, score and the
+Stories with era, place (and the free place text for the unresolved), years, score, attestation, tier, evidence profile and the
 repetition count, tellings with quotes and time codes and the YouTube URL at that second, the
-documents, the links between stories (shared document and every `related` relation), the count of
+documents, the alias map (an old id a fold retired to the story that absorbed it, so `#story=<old
+id>` still resolves), the links between stories (shared document and every `related` relation), the count of
 other stories told by each of a story's tellers (`shared_teller`, by teller and in all: a count,
 never a link, since one host telling fifty stories would link every story to every other), the
-axes, and the corpus date (the latest episode published). Fails when a story has no score: run
-pipeline.score first.
+axes, the corpus date (the latest episode published), and beside the stories the scoring block
+(weights, the institutional-trust knob, the median floor and median, the tier counts) so the page
+can recompute each story's attestation from its `profile` at another knob value. Fails when a story
+has no score, profile or tier: run pipeline.score first.
 """
 from __future__ import annotations
 
@@ -48,8 +51,8 @@ def run(root: Root, out: Path) -> dict:
             stories_of.setdefault(t["teller"], set()).add(sid)
     out_stories, links, seen = [], [], set()
     for sid, s in sorted(stories.items()):
-        if not isinstance(s.get("score"), (int, float)):
-            raise SystemExit(f"build: story {sid} has no numeric score: run pipeline.score first")
+        if not isinstance(s.get("score"), (int, float)) or not s.get("profile") or not s.get("tier"):
+            raise SystemExit(f"build: story {sid} has no score, profile or tier: run pipeline.score first")
         d = attest(s)
         tellings = []
         for t in s["tellings"]:
@@ -63,6 +66,7 @@ def run(root: Root, out: Path) -> dict:
                 "teller": t["teller"], "teller_name": people[t["teller"]]["name"], "quote": t.get("quote"),
                 "kind": t["kind"], "cites": t.get("cites", []), "documents": t.get("documents", []),
                 "repetition": t["teller"] in d["repetitions"],
+                "difference": t.get("difference"), "link_reason": t.get("link_reason"), "as_told": t.get("as_told"),
             })
         docs = sorted({x for t in s["tellings"] for x in t.get("documents", [])} | {t["document"] for t in s["tellings"] if t.get("document")})
         tellers = sorted({t["teller"] for t in s["tellings"]})
@@ -71,12 +75,13 @@ def run(root: Root, out: Path) -> dict:
             "id": sid, "title": s["title"], "summary": s["summary"], "era": s.get("era"), "years": s.get("years"),
             "place": s.get("place"), "place_text": s.get("place_text"), "coordinates": s.get("coordinates"),
             "kind": s.get("kind"), "claims": s.get("claims", []),
-            "tags": s.get("tags", []), "score": s["score"], "attestation": d["attestation"],
+            "tags": s.get("tags", []), "score": s["score"], "attestation": s["attestation"], "tier": s["tier"],
+            "profile": s["profile"],
             "independent": d["independent"], "repetitions": d["repetitions"], "tellings": tellings,
             "shared_teller": len(set().union(*(stories_of[p] for p in tellers)) - {sid}) if tellers else 0,
             "shared_teller_by": shared_by,
             "documents": [{"id": x, "title": documents[x]["title"], "url": documents[x].get("url"), "date": documents[x].get("date")} for x in docs],
-            "related": s.get("related", []),
+            "related": s.get("related", []), "aliases": s.get("aliases", []),
         })
         for r in s.get("related", []):
             key = tuple(sorted((sid, r["story"]))) + (r["relation"],)
@@ -96,9 +101,11 @@ def run(root: Root, out: Path) -> dict:
         "built": dt.date.today().isoformat(),
         "corpus_date": max(dates) if dates else None,
         "median_attestation": summary["median_attestation"],
+        "scoring": {k: summary[k] for k in ("weights", "institutional_trust", "median_floor", "median_attestation", "tiers")},
         "counts": summary["counts"],
         "eras": root.eras(), "places": root.places(),
         "stories": out_stories, "links": links,
+        "aliases": {a: sid for sid, s in sorted(stories.items()) for a in s.get("aliases", [])},
         "people": {p: {"name": v["name"], "roles": v.get("roles", [])} for p, v in people.items()},
         "episodes": {e: {"show": v.get("show"), "title": v.get("title"), "url": v.get("url"), "published": v.get("published")} for e, v in episodes.items()},
     }

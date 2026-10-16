@@ -319,6 +319,7 @@
     state.data = data;
     render(data);
     var want = window.NHI_SELECT || (location.hash.indexOf("#story=") === 0 ? decodeURIComponent(location.hash.slice(7)) : null);
+    if (want && data.aliases) want = data.aliases[want] || want;  // an id a fold retired opens the story that absorbed it
     if (want && state.groups.byStory[want]) select(state.groups.byStory[want]);
     var timer = null;
     window.addEventListener("resize", function () { clearTimeout(timer); timer = setTimeout(function () { render(data); }, 150); });

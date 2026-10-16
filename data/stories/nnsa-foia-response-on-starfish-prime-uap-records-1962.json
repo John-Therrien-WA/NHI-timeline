@@ -27,6 +27,29 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.3,
-  "place_text": "United States"
+  "score": 1.5,
+  "place_text": "United States",
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
 }

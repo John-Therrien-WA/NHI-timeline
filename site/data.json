@@ -1,13 +1,38 @@
 {
-  "built": "2026-10-08",
+  "built": "2026-10-16",
   "corpus_date": "2026-08-29",
   "median_attestation": 0.5,
+  "scoring": {
+    "weights": {
+      "firsthand": 1.0,
+      "official": 0.8,
+      "journalist": 0.6,
+      "secondhand": 0.5,
+      "researcher": 0.25,
+      "host": 0.1,
+      "document_telling": 0.5,
+      "document_credited": 0.25
+    },
+    "institutional_trust": {
+      "default": 1.0,
+      "min": 0.5,
+      "max": 1.25
+    },
+    "median_floor": 0.5,
+    "median_attestation": 0.5,
+    "tiers": {
+      "well-attested": 0,
+      "told-by-several": 0,
+      "told-once": 113
+    }
+  },
   "counts": {
     "stories": 113,
     "tellings": 113,
     "independent_tellers": 113,
     "repetitions": 0,
     "documents": 33,
+    "contradicted": 0,
     "by_kind": {
       "cosmology": 3,
       "crash-retrieval": 3,
@@ -439,8 +464,30 @@
       "kind": "place-lore",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -464,7 +511,10 @@
             "admiral-byrd"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -472,7 +522,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "afosi-officer-harassing-ufo-whistleblower",
@@ -486,8 +537,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -509,7 +582,10 @@
           "kind": "secondhand",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -517,7 +593,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "agreements-with-a-third-party-oral-tradition-of-legacy-progr",
@@ -531,8 +608,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 1.8,
-      "attestation": 0.9,
+      "score": 2.0,
+      "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 2,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -557,7 +656,10 @@
             "outer-space-treaty",
             "salt-talks"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -578,7 +680,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "aguadilla-transmedium-video-2013",
@@ -597,6 +700,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -618,7 +743,10 @@
           "kind": "host",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -626,7 +754,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "alexander-wiggins-omaha-tic-tac-and-uss-jackson-2019",
@@ -643,8 +772,30 @@
       "kind": "sighting",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -668,7 +819,10 @@
             "alexander-wiggins"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -676,7 +830,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "alien-reproduction-vehicle-term-as-counterintelligence-marke-2018",
@@ -695,6 +850,28 @@
       "tags": [],
       "score": 1.0,
       "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -721,7 +898,10 @@
           "documents": [
             "immaculate-constellation-briefing"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -736,7 +916,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "aliens-as-continuum-of-human-evolution",
@@ -752,6 +933,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -773,7 +976,10 @@
           "kind": "host",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -781,7 +987,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "aliens-plan-a-shared-human-alien-civilization-anakah-and-tri",
@@ -797,6 +1004,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -821,7 +1050,10 @@
             "tristan"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -829,7 +1061,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "ancient-astronaut-and-ongoing-hybrid-program",
@@ -845,6 +1078,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -868,7 +1123,10 @@
             "whitley-strieber"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -876,7 +1134,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "another-channeler-s-challenger-prediction-1986",
@@ -893,8 +1152,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -918,7 +1199,10 @@
             "foundation-for-mind-being-research"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -926,7 +1210,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "arthur-young-s-reflexive-universe-theory-1926",
@@ -945,6 +1230,28 @@
       "tags": [],
       "score": 1.0,
       "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -970,7 +1277,10 @@
           "documents": [
             "the-reflexive-universe"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -985,7 +1295,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "atlantis-search-in-the-atlantic",
@@ -1001,6 +1312,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -1025,7 +1358,10 @@
             "max-igan"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -1033,7 +1369,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "baltic-sea-anomaly",
@@ -1049,6 +1386,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1072,7 +1431,10 @@
             "dennis-asberg"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1080,7 +1442,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "bigelow-s-survival-essay-contest-and-mishlove-s-winning-essa-2020",
@@ -1099,6 +1462,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -1122,7 +1507,10 @@
             "robert-bigelow"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -1130,7 +1518,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "bismuth-anti-gravity-propulsion",
@@ -1146,6 +1535,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1169,7 +1580,10 @@
             "bob-lazar"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1177,7 +1591,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "blue-being-gave-physics-to-a-construction-worker",
@@ -1191,8 +1606,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1217,7 +1654,10 @@
             "hal-puthoff"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1225,7 +1665,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "bluegill-deck-logs-analysis-1962",
@@ -1244,6 +1685,28 @@
       "tags": [],
       "score": 1.5,
       "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 2,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -1271,7 +1734,10 @@
             "jeff-kruschank-s-report-on-bluegill-triple-prime",
             "ship-deck-logs"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -1292,7 +1758,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "bluegill-triple-prime-1962-ufo-recovery",
@@ -1309,8 +1776,30 @@
       "kind": "crash-retrieval",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1339,7 +1828,10 @@
           "documents": [
             "jeff-kruschank-s-report-on-bluegill-triple-prime"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1354,7 +1846,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "bob-lazar-s-navy-seafloor-find",
@@ -1368,8 +1861,30 @@
       "kind": "reverse-engineering",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1393,7 +1908,10 @@
             "bob-lazar"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1401,7 +1919,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "breeding-program-for-psychic-lineages",
@@ -1417,6 +1936,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1440,7 +1981,10 @@
             "gary-nolan"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1448,7 +1992,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "condor-man-reddit-4chan-claim-of-nhi-ocean-sites",
@@ -1462,8 +2007,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -1487,7 +2054,10 @@
             "condor-man"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -1495,7 +2065,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "cordylewski-plasma-clouds-and-long-delay-echoes-1920",
@@ -1512,8 +2083,30 @@
       "kind": "theory",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1539,7 +2132,10 @@
           "documents": [
             "a-new-science-of-heaven"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1554,7 +2150,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "craft-entering-and-leaving-the-atmosphere",
@@ -1570,6 +2167,28 @@
       "tags": [],
       "score": 2.5,
       "attestation": 1.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -1593,7 +2212,10 @@
           "documents": [
             "department-of-state-cleared-report"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -1608,7 +2230,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "david-grusch-and-the-legacy-ufo-crash-retrieval-program-2023",
@@ -1625,8 +2248,30 @@
       "kind": "program",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1651,7 +2296,10 @@
             "omar"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1659,7 +2307,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "directed-energy-and-dream-or-idea-implantation",
@@ -1675,6 +2324,28 @@
       "tags": [],
       "score": 1.0,
       "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -1701,7 +2372,10 @@
           "documents": [
             "cia-doctors"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -1716,7 +2390,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "eighty-year-stigmatization-campaign-after-robertson-panel-1950",
@@ -1735,6 +2410,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -1758,7 +2455,10 @@
             "robertson-panel"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -1766,7 +2466,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "elizabeth-targ-s-death-from-glioblastoma-2000",
@@ -1785,6 +2486,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -1809,7 +2532,10 @@
             "russell-targ"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -1817,7 +2543,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "email-deleted-as-spillage-2015",
@@ -1834,8 +2561,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -1859,7 +2608,10 @@
             "jay-stratton"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -1867,7 +2619,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "epstein-network-interest-in-psychic-people-and-human-traffic",
@@ -1883,6 +2636,28 @@
       "tags": [],
       "score": 1.0,
       "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -1906,7 +2681,10 @@
           "documents": [
             "epstein-files"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -1921,7 +2699,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "extended-electrodynamics-and-longitudinal-waves",
@@ -1935,8 +2714,30 @@
       "kind": "theory",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -1961,7 +2762,10 @@
             "thomas-bearden"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -1969,7 +2773,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "friend-s-j2-email-teardrop-uap-leaving-ocean-and-five-to-sev",
@@ -1983,8 +2788,30 @@
       "kind": "document",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -2008,7 +2835,10 @@
             "tim-burchett"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -2016,7 +2846,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "friend-s-medium-reading",
@@ -2030,8 +2861,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -2053,7 +2906,10 @@
           "kind": "secondhand",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -2061,7 +2917,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "go-fast-video-and-email-deletion-2015",
@@ -2080,6 +2937,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -2104,7 +2983,10 @@
             "jay-stratton"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -2112,7 +2994,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "government-exploitation-of-psychic-abilities-stargate-and-gi",
@@ -2128,6 +3011,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -2151,7 +3056,10 @@
             "andrija-puharich"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -2159,7 +3067,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "hitler-regime-supported-zionist-groups-and-encouraged-migrat-1930",
@@ -2178,6 +3087,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -2199,7 +3130,10 @@
           "kind": "researcher",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -2207,7 +3141,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "hitodama-japanese-plasma-orbs-as-souls",
@@ -2223,6 +3158,28 @@
       "tags": [],
       "score": 0.7,
       "attestation": 0.35,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -2248,7 +3205,10 @@
           "documents": [
             "the-boy-and-the-heron"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -2263,7 +3223,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "humans-as-a-resource-potential-vehicles-for-non-human-consci",
@@ -2279,6 +3240,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -2300,7 +3283,10 @@
           "kind": "researcher",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -2308,7 +3294,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "icig-hinted-humans-are-not-in-charge",
@@ -2324,6 +3311,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -2348,7 +3357,10 @@
             "jacques-vallee"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -2356,7 +3368,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "immaculate-constellation-briefing-found-on-classified-comput-2018",
@@ -2375,6 +3388,28 @@
       "tags": [],
       "score": 3.0,
       "attestation": 1.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 2,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -2403,7 +3438,10 @@
             "immaculate-constellation-briefing",
             "immaculate-constellation-report"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -2424,7 +3462,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "immaculate-constellation-global-uap-surveillance-program-2018",
@@ -2443,6 +3482,28 @@
       "tags": [],
       "score": 2.5,
       "attestation": 1.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -2468,7 +3529,10 @@
           "documents": [
             "immaculate-constellation-briefing"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -2483,7 +3547,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "ingo-swann-remote-views-alien-base-on-the-moon-1970",
@@ -2500,8 +3565,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -2525,7 +3612,10 @@
             "ingo-swann"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -2533,7 +3623,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "instrumental-transcommunication-and-spirit-box",
@@ -2547,8 +3638,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -2570,7 +3683,10 @@
           "kind": "secondhand",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -2578,7 +3694,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "israel-assassinating-nazi-scientists-in-egypt",
@@ -2594,6 +3711,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -2617,7 +3756,10 @@
             "reinhard-gehlen"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -2625,7 +3767,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "jacobo-grinberg-disappearance-1994",
@@ -2644,6 +3787,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -2668,7 +3833,10 @@
             "alex-gomez-marin"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -2676,7 +3844,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "jean-houston-induces-mishlove-s-mystical-experience",
@@ -2692,6 +3861,28 @@
       "tags": [],
       "score": 2.5,
       "attestation": 1.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -2718,7 +3909,10 @@
           "documents": [
             "the-cipher-of-genesis"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -2733,7 +3927,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "jeffrey-kripal-s-night-sharing-a-room-with-strieber",
@@ -2747,8 +3942,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -2773,7 +3990,10 @@
             "whitley-strieber"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -2781,7 +4001,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "joe-dispenza-s-blue-beings-in-meditation",
@@ -2795,8 +4016,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -2820,7 +4063,10 @@
             "joe-dispenza"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -2828,7 +4074,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "john-lilly-s-contact-with-ssi",
@@ -2842,8 +4089,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -2867,7 +4136,10 @@
             "john-lilly"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -2875,7 +4147,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "john-mack-and-abduction-research-1990",
@@ -2892,8 +4165,30 @@
       "kind": "document",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -2921,7 +4216,10 @@
           "documents": [
             "the-believer"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -2936,7 +4234,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "john-mack-on-abductee-double-identity",
@@ -2950,8 +4249,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -2976,7 +4297,10 @@
             "jeffrey-mishlove"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -2984,7 +4308,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "legacy-program-recruits-psionic-assets-from-native-cultures",
@@ -2998,8 +4323,30 @@
       "kind": "program",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -3021,7 +4368,10 @@
           "kind": "secondhand",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -3029,7 +4379,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "legacy-reverse-engineering-and-archaeological-recovery",
@@ -3045,6 +4396,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -3068,7 +4441,10 @@
             "bob-lazar"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -3076,7 +4452,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "mckenna-s-flying-saucer-as-gaia-projection",
@@ -3092,6 +4469,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "terence-mckenna"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "terence-mckenna"
       ],
@@ -3113,7 +4512,10 @@
           "kind": "researcher",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 0,
@@ -3121,7 +4523,8 @@
         "terence-mckenna": 0
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "meeting-of-scientists-with-j-allen-hynek-about-owens-1977",
@@ -3140,6 +4543,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -3163,7 +4588,10 @@
             "j-allen-hynek"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -3171,7 +4599,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "michael-talbot-s-death-from-leukemia-after-vampire-novel-1992",
@@ -3190,6 +4619,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -3213,7 +4664,10 @@
             "michael-talbot"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -3221,7 +4675,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "mishlove-meets-puharich-at-berkeley-conference-1972",
@@ -3240,6 +4695,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -3263,7 +4740,10 @@
             "andrija-puharich"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -3277,7 +4757,8 @@
           "relation": "same-event",
           "note": "same years, place and kind (merge)"
         }
-      ]
+      ],
+      "aliases": []
     },
     {
       "id": "mishlove-s-precognitive-dream-of-the-focus-magazine-1972",
@@ -3296,6 +4777,28 @@
       "tags": [],
       "score": 2.5,
       "attestation": 1.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -3321,7 +4824,10 @@
           "documents": [
             "focus-kqed-magazine"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -3342,7 +4848,8 @@
           "relation": "same-event",
           "note": "same years, place and kind (merge)"
         }
-      ]
+      ],
+      "aliases": []
     },
     {
       "id": "more-crash-retrievals-in-the-ocean-than-elsewhere",
@@ -3356,8 +4863,30 @@
       "kind": "crash-retrieval",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -3381,7 +4910,10 @@
             "eric-davis"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -3389,7 +4921,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "navy-knowledge-of-ufos-rickover-and-others",
@@ -3405,6 +4938,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -3428,7 +4983,10 @@
             "hyman-rickover"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -3436,7 +4994,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "nazi-networks-survived-wwii-and-cooperated-with-israel",
@@ -3452,6 +5011,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -3475,7 +5056,10 @@
             "reinhard-gehlen"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -3483,7 +5067,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "nimitz-case-with-radar-and-flir-2004",
@@ -3502,6 +5087,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -3525,7 +5132,10 @@
             "david-fravor"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -3533,7 +5143,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "nine-lines-of-evidence-for-survival-after-death",
@@ -3549,6 +5160,28 @@
       "tags": [],
       "score": 1.0,
       "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -3575,7 +5208,10 @@
           "documents": [
             "human-personality-and-its-survival-of-bodily-death"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -3590,7 +5226,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "nnsa-foia-response-on-starfish-prime-uap-records-1962",
@@ -3607,8 +5244,30 @@
       "kind": "document",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -3632,7 +5291,10 @@
           "documents": [
             "nnsa-foia-response"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -3647,7 +5309,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "nova-scotia-1960-divers-and-saucers",
@@ -3664,8 +5327,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -3692,7 +5377,10 @@
           "documents": [
             "sweep-clear-five"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -3707,7 +5395,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "nuclear-weapons-interfere-with-craft-propulsion-national-lab",
@@ -3723,6 +5412,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -3744,7 +5455,10 @@
           "kind": "researcher",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -3752,7 +5466,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "operation-paperclip-scientists-and-contact-events-at-redston",
@@ -3768,6 +5483,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -3789,7 +5526,10 @@
           "kind": "researcher",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -3797,7 +5537,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "other-immaculate-constellation-case-studies-orbs-disc-jellyf-2018",
@@ -3816,6 +5557,28 @@
       "tags": [],
       "score": 0.7,
       "attestation": 0.35,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -3841,7 +5604,10 @@
           "documents": [
             "immaculate-constellation-report"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -3856,7 +5622,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "owens-challenger-shuttle-warning-1985",
@@ -3875,6 +5642,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -3898,7 +5687,10 @@
             "ted-owens"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -3906,7 +5698,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "owens-deaths-suicide-fullback-ejected-crashes-1970",
@@ -3925,6 +5718,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -3948,7 +5763,10 @@
             "ted-owens"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -3956,7 +5774,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "owens-declares-war-on-us-government-poltergeists-on-navy-ves-1977",
@@ -3975,6 +5794,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -3998,7 +5839,10 @@
             "ted-owens"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4006,7 +5850,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "owens-ends-the-california-drought-and-sri-files-1976",
@@ -4025,6 +5870,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4050,7 +5917,10 @@
             "hal-puthoff"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4058,7 +5928,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "owens-influences-football-games-1970",
@@ -4077,6 +5948,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4100,7 +5993,10 @@
             "ted-owens"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4108,7 +6004,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "owens-origin-story-tweeter-and-twitter-and-the-tarantula-ope",
@@ -4122,8 +6019,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4147,7 +6066,10 @@
             "ted-owens"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4155,7 +6077,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "owens-sore-throat-and-his-vindictiveness-1976",
@@ -4174,6 +6097,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4197,7 +6142,10 @@
             "ted-owens"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4205,7 +6153,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "owens-three-ufo-sightings-and-the-sonoma-state-ufo-1976",
@@ -4224,6 +6173,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4248,7 +6219,10 @@
             "stephen-pleski"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4256,7 +6230,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "pat-price-remote-views-alien-bases-under-skip-atwater-1970",
@@ -4273,8 +6248,30 @@
       "kind": "program",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -4300,7 +6297,10 @@
             "ingo-swann"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -4308,7 +6308,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "plasma-as-soul-and-ufo-legacy-program-plasma-balls",
@@ -4324,6 +6325,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -4347,7 +6370,10 @@
             "rupert-sheldrake"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -4355,7 +6381,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "prophet-yahweh-summons-ufo-for-tv-crew-1980",
@@ -4372,8 +6399,30 @@
       "kind": "sighting",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4397,7 +6446,10 @@
             "prophet-yahweh"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4405,7 +6457,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "psionic-p3-assets-trafficked-to-call-in-craft-for-shootdowns",
@@ -4419,8 +6472,30 @@
       "kind": "program",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -4448,7 +6523,10 @@
           "documents": [
             "sentinels-of-ether"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -4463,7 +6541,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "psychomanteum-and-communication-with-the-dead",
@@ -4479,6 +6558,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4502,7 +6603,10 @@
             "raymond-moody"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4510,7 +6614,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "puharich-s-cholinergic-and-adrenergic-theory-1970",
@@ -4529,6 +6634,28 @@
       "tags": [],
       "score": 1.0,
       "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4554,7 +6681,10 @@
           "documents": [
             "beyond-telepathy"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4569,7 +6699,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "puharich-uri-geller-and-the-council-of-nine-1970",
@@ -4588,6 +6719,28 @@
       "tags": [],
       "score": 0.7,
       "attestation": 0.35,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -4614,7 +6767,10 @@
           "documents": [
             "the-mind-traveler"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -4629,7 +6785,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "puharich-witnessed-ufos-with-geller-1970",
@@ -4646,8 +6803,30 @@
       "kind": "sighting",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4672,7 +6851,10 @@
             "uri-geller"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4680,7 +6862,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "reporting-sap-spillage-and-file-deleted-2018",
@@ -4699,6 +6882,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -4720,7 +6925,10 @@
           "kind": "firsthand",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -4728,7 +6936,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "reverse-engineering-progress-propulsion-and-beamed-power",
@@ -4744,6 +6953,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -4765,7 +6996,10 @@
           "kind": "firsthand",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -4773,7 +7007,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "robert-maxwell-epstein-and-the-killing-of-cold-fusion-1980",
@@ -4790,8 +7025,30 @@
       "kind": "theory",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -4820,7 +7077,10 @@
           "documents": [
             "one-nation-under-blackmail"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -4835,7 +7095,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "robert-temple-and-the-dogon-sirius-mystery",
@@ -4849,8 +7110,30 @@
       "kind": "theory",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -4876,7 +7159,10 @@
           "documents": [
             "the-sirius-mystery"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -4891,7 +7177,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "robert-temple-s-plasma-being-on-a-flight-to-singapore",
@@ -4905,8 +7192,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4930,7 +7239,10 @@
             "robert-temple"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4938,7 +7250,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "robin-foy-s-blue-extraterrestrial-in-seances-scole-experimen",
@@ -4952,8 +7265,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -4977,7 +7312,10 @@
             "robin-foy"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -4985,7 +7323,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "roswell-fragment-in-japan-museum-1947",
@@ -5002,8 +7341,30 @@
       "kind": "crash-retrieval",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -5027,7 +7388,10 @@
             "takeno-jouen"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -5035,7 +7399,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "science-is-managed-and-suppressed-discoveries-from-recovered",
@@ -5051,6 +7416,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -5072,7 +7459,10 @@
           "kind": "researcher",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -5080,7 +7470,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "sitchin-s-anunnaki-genetic-experiments",
@@ -5096,6 +7487,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -5119,7 +7532,10 @@
             "zecharia-sitchin"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -5127,7 +7543,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "stoned-ape-theory",
@@ -5143,6 +7560,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -5167,7 +7606,10 @@
             "dennis-mckenna"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -5175,7 +7617,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "submarine-officers-encounters-with-fast-uap",
@@ -5189,8 +7632,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -5212,7 +7677,10 @@
           "kind": "secondhand",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -5220,7 +7688,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "sycamore-knoll-undersea-base-claim",
@@ -5236,6 +7705,28 @@
       "tags": [],
       "score": 1.0,
       "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -5261,7 +7752,10 @@
           "documents": [
             "undersea-ufo-bases"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -5276,7 +7770,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "sydney-margules-affidavit-owens-summons-lightning-at-camden-1960",
@@ -5295,6 +7790,28 @@
       "tags": [],
       "score": 1.0,
       "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -5321,7 +7838,10 @@
           "documents": [
             "affidavit-of-sydney-margules"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -5336,7 +7856,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "ted-owens-and-the-pk-man-contact-with-space-intelligences-1969",
@@ -5355,6 +7876,28 @@
       "tags": [],
       "score": 1.5,
       "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 2,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -5381,7 +7924,10 @@
             "how-to-contact-space-people",
             "the-pk-man"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -5402,7 +7948,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "ted-serios-thoughtography-1960",
@@ -5421,6 +7968,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -5444,7 +8013,10 @@
             "jule-eisenbud"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -5452,7 +8024,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "thomas-townsend-brown-s-catalina-orb",
@@ -5466,8 +8039,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -5491,7 +8086,10 @@
             "thomas-townsend-brown"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -5499,7 +8097,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "thomas-townsend-brown-s-ufo-experience-at-17",
@@ -5513,8 +8112,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -5538,7 +8159,10 @@
             "thomas-townsend-brown"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -5546,7 +8170,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "tim-taylor-nasa-controller-and-secret-space-program-1986",
@@ -5565,6 +8190,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -5588,7 +8235,10 @@
             "tim-taylor"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -5596,7 +8246,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "triangle-appears-over-russian-naval-vessels-2018",
@@ -5613,8 +8264,30 @@
       "kind": "sighting",
       "claims": [],
       "tags": [],
-      "score": 2.5,
-      "attestation": 1.25,
+      "score": 2.1,
+      "attestation": 1.05,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -5638,7 +8311,10 @@
           "documents": [
             "immaculate-constellation-briefing"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -5653,7 +8329,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "triangle-meeting-as-a-pre-arranged-transfer-2018",
@@ -5672,6 +8349,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -5693,7 +8392,10 @@
           "kind": "researcher",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -5701,7 +8403,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "triangle-sightings-tied-to-us-bases-1997",
@@ -5718,8 +8421,30 @@
       "kind": "sighting",
       "claims": [],
       "tags": [],
-      "score": 1.3,
-      "attestation": 0.65,
+      "score": 1.5,
+      "attestation": 0.75,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -5746,7 +8471,10 @@
           "documents": [
             "nids-study"
           ],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -5761,7 +8489,8 @@
           "date": null
         }
       ],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "truman-eisenhower-era-agreement-with-non-human-intelligence",
@@ -5775,8 +8504,30 @@
       "kind": "program",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -5801,7 +8552,10 @@
             "david-grusch"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -5809,7 +8563,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "uap-splits-a-section-of-f-18s-2014",
@@ -5826,8 +8581,30 @@
       "kind": "encounter",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tim-gallaudet"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "tim-gallaudet"
       ],
@@ -5851,7 +8628,10 @@
             "ryan-graves"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 12,
@@ -5859,7 +8639,8 @@
         "tim-gallaudet": 12
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "undersea-bases-and-bermuda-triangle-anomalies",
@@ -5875,6 +8656,28 @@
       "tags": [],
       "score": 0.2,
       "attestation": 0.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "nRKNVFQBi38"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -5896,7 +8699,10 @@
           "kind": "host",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -5904,7 +8710,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "us-soviet-deconfliction-on-ufos-and-nato-collaboration",
@@ -5920,6 +8727,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "matthew-brown"
+        ],
+        "episodes": [
+          "yGtVzBbUvx4"
+        ]
+      },
       "independent": [
         "matthew-brown"
       ],
@@ -5941,7 +8770,10 @@
           "kind": "researcher",
           "cites": [],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 23,
@@ -5949,7 +8781,8 @@
         "matthew-brown": 23
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "valerie-ransone-in-the-white-house-1970",
@@ -5968,6 +8801,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -5991,7 +8846,10 @@
             "valerie-ransone"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -5999,7 +8857,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "valerie-ransone-s-1971-sighting-over-northern-illinois-unive",
@@ -6016,8 +8875,30 @@
       "kind": "sighting",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jesse-michels"
       ],
@@ -6042,7 +8923,10 @@
             "willard-de-bogart"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 37,
@@ -6050,7 +8934,8 @@
         "jesse-michels": 37
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "valerie-ransone-s-four-ufo-lights-that-were-flares-1978",
@@ -6069,6 +8954,28 @@
       "tags": [],
       "score": 2.0,
       "attestation": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -6092,7 +8999,10 @@
             "valerie-ransone"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -6100,7 +9010,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "whitley-strieber-s-abduction-as-communion",
@@ -6114,8 +9025,30 @@
       "kind": "testimony",
       "claims": [],
       "tags": [],
-      "score": 0.8,
-      "attestation": 0.4,
+      "score": 1.0,
+      "attestation": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -6139,7 +9072,10 @@
             "whitley-strieber"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -6147,7 +9083,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     },
     {
       "id": "whitley-strieber-s-cobalts",
@@ -6163,6 +9100,28 @@
       "tags": [],
       "score": 0.5,
       "attestation": 0.25,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jeffrey-mishlove"
+        ],
+        "episodes": [
+          "lcaY-rd9Dhc"
+        ]
+      },
       "independent": [
         "jeffrey-mishlove"
       ],
@@ -6186,7 +9145,10 @@
             "whitley-strieber"
           ],
           "documents": [],
-          "repetition": false
+          "repetition": false,
+          "difference": null,
+          "link_reason": null,
+          "as_told": null
         }
       ],
       "shared_teller": 36,
@@ -6194,7 +9156,8 @@
         "jeffrey-mishlove": 36
       },
       "documents": [],
-      "related": []
+      "related": [],
+      "aliases": []
     }
   ],
   "links": [
@@ -6253,6 +9216,7 @@
       "note": "immaculate-constellation-briefing"
     }
   ],
+  "aliases": {},
   "people": {
     "admiral-byrd": {
       "name": "Admiral Byrd",
@@ -6642,17 +9606,275 @@
     }
   },
   "episodes": {
+    "09KP8XVf5nY": {
+      "show": "Jesse Michels",
+      "title": "Presidential Advisor: “I Directly Handled UFO Material” (Ft. Harald Malmgren)",
+      "url": "https://www.youtube.com/watch?v=09KP8XVf5nY",
+      "published": "2025-04-22"
+    },
+    "1f16VvXaSSE": {
+      "show": "Jesse Michels",
+      "title": "“Multiple Alien Groups May Be Visiting Earth!” (Lue Elizondo Documentary)",
+      "url": "https://www.youtube.com/watch?v=1f16VvXaSSE",
+      "published": "2024-10-10"
+    },
+    "1iaH1a3A4Lk": {
+      "show": "Jesse Michels",
+      "title": "UFO Skeptic Mick West Challenged To A Debate",
+      "url": "https://www.youtube.com/watch?v=1iaH1a3A4Lk",
+      "published": "2025-01-26"
+    },
+    "1sxmSMzqnmA": {
+      "show": "Jesse Michels",
+      "title": "“I Operated a UFO… It’s Not What You Think” -Army Sergeant Lyn Buchanan",
+      "url": "https://www.youtube.com/watch?v=1sxmSMzqnmA",
+      "published": "2026-05-28"
+    },
+    "2-GeTxXi670": {
+      "show": "Jesse Michels",
+      "title": "The CIA Scientist That Contacted an Alien Council",
+      "url": "https://www.youtube.com/watch?v=2-GeTxXi670",
+      "published": "2026-05-01"
+    },
+    "6bqaHVSlVeU": {
+      "show": "Jesse Michels",
+      "title": "MIT Scientist: “Your Brain Evolved To Ignore Aliens – They’re Everywhere!”",
+      "url": "https://www.youtube.com/watch?v=6bqaHVSlVeU",
+      "published": "2026-06-02"
+    },
+    "8Rr_nE65KkI": {
+      "show": "Jesse Michels",
+      "title": "I Debated UFOs With America’s Top Skeptic (It Got Ugly...)",
+      "url": "https://www.youtube.com/watch?v=8Rr_nE65KkI",
+      "published": "2026-07-09"
+    },
+    "8XD1ZiuhXoY": {
+      "show": "Jesse Michels",
+      "title": "“DMT Opens The Alien Realm!” - Neuroscientist Andrew Gallimore",
+      "url": "https://www.youtube.com/watch?v=8XD1ZiuhXoY",
+      "published": "2025-07-24"
+    },
+    "9QMrhcpJq8I": {
+      "show": "Jesse Michels",
+      "title": "The Age of Psionics: UFOs, Mind Control, & Global Power Structures (Ft. Matthew Pines)",
+      "url": "https://www.youtube.com/watch?v=9QMrhcpJq8I",
+      "published": "2025-02-16"
+    },
+    "A2-y_HasHEw": {
+      "show": "Jesse Michels",
+      "title": "Congressman Reveals The Alien Brief That Changed The President’s Life",
+      "url": "https://www.youtube.com/watch?v=A2-y_HasHEw",
+      "published": "2026-07-02"
+    },
+    "ABOP8ZJsyIk": {
+      "show": "Jesse Michels",
+      "title": "\"Aliens Live Among Us...I've Met Them!\" -Whitley Strieber Tells All",
+      "url": "https://www.youtube.com/watch?v=ABOP8ZJsyIk",
+      "published": "2025-02-07"
+    },
+    "C4rSj5Aum7w": {
+      "show": "Jesse Michels",
+      "title": "UFOs & JFK: He Knew Too Much! (Ft. Danny Sheehan)",
+      "url": "https://www.youtube.com/watch?v=C4rSj5Aum7w",
+      "published": "2025-05-31"
+    },
+    "C_Na1tI5qpw": {
+      "show": "Jesse Michels",
+      "title": "Joe Rogan: The Truth About Aliens (He Finally Says It)",
+      "url": "https://www.youtube.com/watch?v=C_Na1tI5qpw",
+      "published": "2025-11-30"
+    },
+    "DPmO-2E7Ayg": {
+      "show": "Jesse Michels",
+      "title": "Breaking UFO Story: ‘Immaculate Constellation’ UFO Program (Ft. Michael Shellenberger)",
+      "url": "https://www.youtube.com/watch?v=DPmO-2E7Ayg",
+      "published": "2024-11-14"
+    },
+    "EzPmG_7WhXc": {
+      "show": "Jesse Michels",
+      "title": "“Aliens Invented Religion To Control Humanity!” -Top Philosopher Jason Jorjani",
+      "url": "https://www.youtube.com/watch?v=EzPmG_7WhXc",
+      "published": "2025-09-27"
+    },
+    "JGE1NIGhBzw": {
+      "show": "Jesse Michels",
+      "title": "The Moon Is An Alien Spaceship (Ft. Randall Carlson)",
+      "url": "https://www.youtube.com/watch?v=JGE1NIGhBzw",
+      "published": "2025-05-16"
+    },
+    "KRDE1i3LDuU": {
+      "show": "Jesse Michels",
+      "title": "Plato’s Cave & UFOs: Consciousness Is Key (ft. James Madden)",
+      "url": "https://www.youtube.com/watch?v=KRDE1i3LDuU",
+      "published": "2025-04-28"
+    },
+    "LnAiNChnuEQ": {
+      "show": "Jesse Michels",
+      "title": "Eric Davis: “A US President Was Briefed on UFOs!”",
+      "url": "https://www.youtube.com/watch?v=LnAiNChnuEQ",
+      "published": "2024-12-12"
+    },
+    "LpLFWdsIU7M": {
+      "show": "Jesse Michels",
+      "title": "UFO Physics & Disclosure Under Trump (ft. Matthew Pines)",
+      "url": "https://www.youtube.com/watch?v=LpLFWdsIU7M",
+      "published": "2024-11-15"
+    },
+    "OOr98r51Sj0": {
+      "show": "Jesse Michels",
+      "title": "Why The Pentagon Tried To Censor This UFO Book",
+      "url": "https://www.youtube.com/watch?v=OOr98r51Sj0",
+      "published": "2026-05-21"
+    },
+    "TH10mD9hQas": {
+      "show": "Jesse Michels",
+      "title": "How I Know David Grusch Is Not Lying…",
+      "url": "https://www.youtube.com/watch?v=TH10mD9hQas",
+      "published": "2023-11-19"
+    },
+    "V00WcEiKRAY": {
+      "show": "Jesse Michels",
+      "title": "\"I Located A UFO Base In Arizona!\" -Ross Coulthart",
+      "url": "https://www.youtube.com/watch?v=V00WcEiKRAY",
+      "published": "2025-06-21"
+    },
+    "Y26iMB0r-f8": {
+      "show": "Jesse Michels",
+      "title": "\"Aliens Are Humans From The Future!\" (Ft. Mike Masters & David Grusch)",
+      "url": "https://www.youtube.com/watch?v=Y26iMB0r-f8",
+      "published": "2023-11-11"
+    },
+    "Y7PLeu5rTv4": {
+      "show": "Jesse Michels",
+      "title": "CIA Historian: “Aliens Are Controlling Human Timelines!” (ft. Peter Levenda)",
+      "url": "https://www.youtube.com/watch?v=Y7PLeu5rTv4",
+      "published": "2025-11-22"
+    },
+    "ZTIO-xAP0Dw": {
+      "show": "Jesse Michels",
+      "title": "Eric Weinstein Reveals UFO Physics! (Exclusive Interview)",
+      "url": "https://www.youtube.com/watch?v=ZTIO-xAP0Dw",
+      "published": "2021-10-04"
+    },
+    "_bM9eAtCOGw": {
+      "show": "Jesse Michels",
+      "title": "Harvard is Studying UFOs (Ft. Avi Loeb)",
+      "url": "https://www.youtube.com/watch?v=_bM9eAtCOGw",
+      "published": "2022-01-28"
+    },
+    "aa9Xx5wI8Rw": {
+      "show": "Jesse Michels",
+      "title": "The Biblical Truth of UFOs & Angels (Ft. Karl Nell & Diana Pasulka)",
+      "url": "https://www.youtube.com/watch?v=aa9Xx5wI8Rw",
+      "published": "2024-12-19"
+    },
+    "areO7Mej44E": {
+      "show": "Jesse Michels",
+      "title": "“UFO Secrets Are Held By A Global Cabal” (Ft. Steven Greer)",
+      "url": "https://www.youtube.com/watch?v=areO7Mej44E",
+      "published": "2025-04-10"
+    },
+    "bVhSPH2A5Vw": {
+      "show": "Jesse Michels",
+      "title": "The Most Important UFO Investigator On The Planet (ft. James Fox)",
+      "url": "https://www.youtube.com/watch?v=bVhSPH2A5Vw",
+      "published": "2024-09-28"
+    },
+    "d9tdJ2SkBKQ": {
+      "show": "Jesse Michels",
+      "title": "I Spent 48 Hours With Bob Lazar (And I'm In SHOCK...)",
+      "url": "https://www.youtube.com/watch?v=d9tdJ2SkBKQ",
+      "published": "2026-04-13"
+    },
+    "dnnpyNuPdXs": {
+      "show": "Jesse Michels",
+      "title": "\"I Retrieved a UFO With My Helicopter!\" -Jake Barber",
+      "url": "https://www.youtube.com/watch?v=dnnpyNuPdXs",
+      "published": "2025-01-30"
+    },
+    "dzTZbSNsKV8": {
+      "show": "Jesse Michels",
+      "title": "“These Are Parts Of an Alien UFO!” -Stanford Scientist Garry Nolan",
+      "url": "https://www.youtube.com/watch?v=dzTZbSNsKV8",
+      "published": "2021-12-10"
+    },
+    "fyX8V1XXmQM": {
+      "show": "Jesse Michels",
+      "title": "He's Seen More UFO Evidence Than Anyone Alive (Ft. Jacques Vallee)",
+      "url": "https://www.youtube.com/watch?v=fyX8V1XXmQM",
+      "published": "2022-11-22"
+    },
+    "fzvwBBSmWYA": {
+      "show": "Jesse Michels",
+      "title": "UFOs Are Monitoring Nuclear Bases Globally (Ft. Robert Hastings)",
+      "url": "https://www.youtube.com/watch?v=fzvwBBSmWYA",
+      "published": "2024-12-24"
+    },
+    "hBrfe4hFuM0": {
+      "show": "Jesse Michels",
+      "title": "Army Captures Live Alien (Hospital Report Revealed!)",
+      "url": "https://www.youtube.com/watch?v=hBrfe4hFuM0",
+      "published": "2025-12-21"
+    },
+    "iQOibpIDx-4": {
+      "show": "Jesse Michels",
+      "title": "Eric Weinstein Debates CIA UFO Expert Hal Puthoff",
+      "url": "https://www.youtube.com/watch?v=iQOibpIDx-4",
+      "published": "2022-02-11"
+    },
+    "jMCavr3dVP0": {
+      "show": "Jesse Michels",
+      "title": "Former NSA Director Breaks Silence on UFOs",
+      "url": "https://www.youtube.com/watch?v=jMCavr3dVP0",
+      "published": "2026-04-26"
+    },
+    "kRO5jOa06Qw": {
+      "show": "Jesse Michels",
+      "title": "If You Still Think UFOs Are Fake, Watch This (David Grusch Interview)",
+      "url": "https://www.youtube.com/watch?v=kRO5jOa06Qw",
+      "published": "2023-09-11"
+    },
+    "kccrkCGGzX4": {
+      "show": "Jesse Michels",
+      "title": "The UFO Cover-Up Leads to One Secret Society — and One Final Event",
+      "url": "https://www.youtube.com/watch?v=kccrkCGGzX4",
+      "published": "2026-07-14"
+    },
     "lcaY-rd9Dhc": {
       "show": "Jesse Michels",
       "title": "UFOs, Psychics and The Afterlife with PhD Jeffrey Mishlove",
       "url": "https://www.youtube.com/watch?v=lcaY-rd9Dhc",
       "published": "2026-08-13"
     },
+    "mOWwdIuyaQA": {
+      "show": "Jesse Michels",
+      "title": "NASA Chief: \"We Just Built Antigravity Propulsion!”",
+      "url": "https://www.youtube.com/watch?v=mOWwdIuyaQA",
+      "published": "2026-03-30"
+    },
     "nRKNVFQBi38": {
       "show": "Jesse Michels",
       "title": "Top Navy Admiral: “The Ocean is FULL OF UFOs!”",
       "url": "https://www.youtube.com/watch?v=nRKNVFQBi38",
       "published": "2026-08-23"
+    },
+    "u7g5Sn1DJF4": {
+      "show": "Jesse Michels",
+      "title": "The Pentagon’s UFO Program Is Real [Here’s How It Works!] ft. UAPGerb",
+      "url": "https://www.youtube.com/watch?v=u7g5Sn1DJF4",
+      "published": "2026-01-11"
+    },
+    "uVVqFg2v7ro": {
+      "show": "Jesse Michels",
+      "title": "NASA’s Biggest Secret Just Got Exposed (The Truth About The Moon)",
+      "url": "https://www.youtube.com/watch?v=uVVqFg2v7ro",
+      "published": "2026-07-20"
+    },
+    "xnxasfyHtfo": {
+      "show": "Jesse Michels",
+      "title": "Eric Weinstein Demands UFO Secrets From Pentagon Scientist",
+      "url": "https://www.youtube.com/watch?v=xnxasfyHtfo",
+      "published": "2026-03-08"
     },
     "yGtVzBbUvx4": {
       "show": "Jesse Michels",

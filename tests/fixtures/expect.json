@@ -1,0 +1,180 @@
+{
+  "times": [
+    {
+      "episode": "FIXTURE0001",
+      "title": "The lanterns are a mirror",
+      "from_s": 54
+    },
+    {
+      "episode": "FIXTURE0002",
+      "title": "The vault beneath Mount Fictus",
+      "from_s": 11
+    },
+    {
+      "episode": "FIXTURE0002",
+      "title": "The lantern over the Harbour of Nowhere",
+      "from_s": 27
+    },
+    {
+      "episode": "FIXTURE0003",
+      "title": "The harbour light was a weather balloon",
+      "from_s": 21
+    }
+  ],
+  "absent_people": [
+    "beau-fixture"
+  ],
+  "titles": [
+    {
+      "show": "American Alchemy",
+      "title": "Lanterns Are Real (Ft. Bo Fixture & Cy Fixture)",
+      "host": "jesse-michels",
+      "guests": [
+        "Bo Fixture",
+        "Cy Fixture"
+      ]
+    },
+    {
+      "show": "Jesse Michels",
+      "title": "The Vault Is Real (Eve Fixture Interview)",
+      "host": "jesse-michels",
+      "guests": [
+        "Eve Fixture"
+      ]
+    },
+    {
+      "show": "Fixture Hour",
+      "title": "“I Saw The Lantern!” -Harbour Pilot Bo Fixture Tells All",
+      "host": null,
+      "guests": [
+        "Bo Fixture"
+      ]
+    },
+    {
+      "show": "Fixture Hour",
+      "title": "Lanterns and Vaults with Dr. Cy Fixture",
+      "host": null,
+      "guests": [
+        "Cy Fixture"
+      ]
+    },
+    {
+      "show": "Fixture Hour",
+      "title": "Dee Fixture: “The Plains Hum!”",
+      "host": null,
+      "guests": [
+        "Dee Fixture"
+      ]
+    },
+    {
+      "show": "Fixture Hour",
+      "title": "Top Harbour Admiral: “The Sea Is Full Of Lanterns!”",
+      "host": null,
+      "guests": []
+    },
+    {
+      "show": "Fixture Hour",
+      "title": "A Fixture Hour Special (Exclusive Interview)",
+      "host": null,
+      "guests": []
+    },
+    {
+      "show": "Fixture Hour",
+      "title": "How I Know Bo Fixture Is Not Lying",
+      "host": null,
+      "guests": []
+    }
+  ],
+  "stories": {
+    "a-crate-in-the-vault-opened-by-itself-1971": {
+      "tier": "told-once",
+      "contradicted": false,
+      "attestation": 1.0,
+      "episodes": [
+        "FIXTURE0004"
+      ]
+    },
+    "a-vault-under-mount-fictus-1971": {
+      "tier": "well-attested",
+      "contradicted": false,
+      "attestation": 2.0,
+      "years": {
+        "from": 1971,
+        "to": 1971
+      },
+      "aliases": [
+        "the-vault-beneath-mount-fictus-1971"
+      ],
+      "episodes": [
+        "FIXTURE0001",
+        "FIXTURE0002",
+        "FIXTURE0003"
+      ],
+      "difference_tellings": [
+        1,
+        2
+      ],
+      "as_told": {
+        "FIXTURE0003": {
+          "years": {
+            "from": 1972,
+            "to": 1972
+          }
+        }
+      }
+    },
+    "the-harbour-light-was-a-weather-balloon-1958": {
+      "tier": "told-once",
+      "contradicted": false,
+      "attestation": 0.5
+    },
+    "the-lantern-over-the-harbour-of-nowhere-1958": {
+      "tier": "told-once",
+      "contradicted": true,
+      "attestation": 1.25
+    },
+    "the-lantern-was-a-flare-1958": {
+      "tier": "told-once",
+      "contradicted": true,
+      "attestation": 1.3
+    },
+    "the-lanterns-are-a-mirror-1957": {
+      "tier": "told-once",
+      "contradicted": false,
+      "attestation": 0.25
+    },
+    "the-plains-of-elsewhere-hum-at-night": {
+      "tier": "told-by-several",
+      "contradicted": false,
+      "attestation": 0.35
+    },
+    "the-ring-in-the-ice-of-lake-placeholder-1980": {
+      "tier": "told-once",
+      "contradicted": false,
+      "attestation": 1.0,
+      "episodes": [
+        "FIXTURE0004",
+        "FIXTURE0005"
+      ]
+    },
+    "the-vault-crew-was-sent-away": {
+      "tier": "told-once",
+      "contradicted": false,
+      "attestation": 1.0,
+      "episodes": [
+        "FIXTURE0004"
+      ]
+    }
+  },
+  "downgraded": [
+    "A crate in the vault opened by itself",
+    "The vault crew was sent away"
+  ],
+  "person_ids": [
+    {
+      "name": "Beau Fixture",
+      "fixture": "bo-fixture",
+      "repo": "beau-fixture"
+    }
+  ]
+}

@@ -2,10 +2,19 @@
 
     uv run python -m pipeline.merge [--root DIR]
 
-Reads every data/candidates/<episode>.json. Each candidate becomes a new story under data/stories/
-unless an existing story has the same title slug, or shares a teller and has overlapping years, the
-same place and the same kind: then a telling is added to that story, unless the story already holds
-that quote from that episode. People are created under data/people/ as they are met (tellers and
+Reads every data/candidates/<episode>.json, in episode date order then file order (the order
+link.py links in, so a story a candidate creates exists before a later candidate's `same` names
+it). A candidate whose telling (the same quote from the same
+episode) a story already holds changes nothing but a missing place. A candidate with a `link`
+(pipeline/link.py) follows it: `same` appends the telling to the linked story (an id that a fold
+made an alias resolves to the story that absorbed it; an id that resolves to nothing fails) with
+the link's `difference` and its reason as `link_reason`, and the candidate's own title, years,
+place text and story kind as `as_told` when any of them differs from the story's; `variant` creates the story and a
+`variant` relation both ways with the reason as the note; `new` creates the story (under the
+link's `id`, the id link.py gave its provisional story; a mismatch fails). A candidate
+without `link` becomes a new story unless an existing story has the same title slug (or holds it
+as an alias), or shares a teller and has overlapping years, the same place and the same kind: then
+a telling is added to that story. A new story whose slug is taken gets a numbered suffix. People are created under data/people/ as they are met (tellers and
 the people a teller cites; a name is normalised, so "Jesse Michels (host)" is `jesse-michels`);
 documents a teller credits are created under data/documents/ by title. A candidate's free-text
 place is resolved to a place id through data/place-aliases.json (alias text to id) or a place name
@@ -22,14 +31,17 @@ import argparse
 import re
 import sys
 
-from .common import REPO, Root, era_for, load_json, norm_ws, person_id, person_name, rel, save_json, slugify, story_id
+from .link import add_relation, alias_map, as_told, candidate_files, framing_of_candidate, fresh_id, resolve
+from .common import (REPO, Root, era_for, load_json, norm_ws, person_aliases, person_id, person_name, rel, save_json, slugify,
+                     story_id)
 
 MIN_ALIAS = 3  # a contained alias or name shorter than this (as words, "us") matches too much
 
 
-def ensure_person(people: dict, name: str, role: str | None) -> str:
-    """The person's id, creating the file's object when first met. An existing person is never changed."""
-    pid = person_id(name)
+def ensure_person(people: dict, name: str, role: str | None, aliases: dict[str, str]) -> str:
+    """The person's id, creating the file's object when first met. An existing person is never changed.
+    `aliases` is `person_aliases` of the run's root."""
+    pid = person_id(name, aliases)
     if pid not in people:
         people[pid] = {"id": pid, "name": person_name(name), "roles": [role] if role else [], "affiliation": None,
                        "links": [], "note": "", "_new": True}
@@ -111,9 +123,11 @@ def load_aliases(root: Root) -> dict[str, str]:
     return data
 
 
-def find_story(stories: dict, cand: dict, sid: str, teller: str) -> dict | None:
+def find_story(stories: dict, aliases: dict, cand: dict, sid: str, teller: str) -> dict | None:
     if sid in stories:
         return stories[sid]
+    if sid in aliases:
+        return stories[aliases[sid]]
     for s in stories.values():
         if any(t.get("teller") == teller for t in s["tellings"]) and years_overlap(s.get("years"), cand["years"]) \
                 and s.get("place") is not None and s.get("place") == cand["place"] and s.get("kind") == cand["story_kind"]:
@@ -151,7 +165,8 @@ def same_telling(a: dict, b: dict) -> bool:
         and norm_ws(a.get("quote") or "") == norm_ws(b.get("quote") or "")
 
 
-def run(root: Root) -> dict:
+def run(root: Root, episodes_only: list[str] | None = None) -> dict:
+    """`episodes_only` restricts the pass to those candidate files (the rebuild links and merges one episode at a time)."""
     eras, places = root.eras(), root.places()
     resolver = PlaceResolver(places, load_aliases(root))
     place_names = {p["id"]: p["name"] for p in places}
@@ -159,11 +174,12 @@ def run(root: Root) -> dict:
     people = root.load_dir(root.people)
     documents = root.load_dir(root.documents)
     episodes = root.load_dir(root.episodes)
+    names = person_aliases(root.path)
     for s in stories.values():
         if "tellings" not in s or "related" not in s:
             raise SystemExit(f"story {s['id']} lacks tellings or related")
     stats = {"stories": 0, "tellings": 0, "people": 0, "documents": 0, "places_filled": 0, "same_event": 0}
-    for f in sorted(root.candidates.glob("*.json")):
+    for f in candidate_files(root, episodes_only):
         batch = load_json(f)
         eid = batch.get("episode")
         if eid not in episodes:
@@ -171,13 +187,39 @@ def run(root: Root) -> dict:
         for cand in batch["candidates"]:
             cand = dict(cand)
             cand["place"] = resolver.resolve(cand.get("place_text"))
-            teller = ensure_person(people, cand["teller"], role_for(cand["kind"]))
-            cites = [ensure_person(people, n, None) for n in cand["cites"]]
+            teller = ensure_person(people, cand["teller"], role_for(cand["kind"]), names)
+            cites = [ensure_person(people, n, None, names) for n in cand["cites"]]
             cites = [c for c in dict.fromkeys(cites) if c != teller]
             docs = list(dict.fromkeys(ensure_document(documents, t) for t in cand["documents"]))
             sid = story_id(cand["title"], cand["years"])
-            story = find_story(stories, cand, sid, teller)
             telling = telling_from(cand, eid, teller, cites, docs)
+            aliases = alias_map(stories)
+            link = cand.get("link")
+            held = next((s for s in stories.values() if any(same_telling(telling, t) for t in s["tellings"])), None)
+            if held is not None:
+                story = held
+            elif link is None:
+                story = find_story(stories, aliases, cand, sid, teller)
+            elif link["decision"] == "same":
+                target = resolve(link.get("story"), stories, aliases)
+                if target is None:
+                    raise SystemExit(f"{rel(f, root.path)}: {cand['title']!r} is linked same to {link.get('story')!r}, which is no story or alias")
+                story = stories[target]
+                telling["difference"] = link["difference"]
+                telling["link_reason"] = link["reason"]
+                told = as_told(framing_of_candidate(cand), story)
+                if told:
+                    telling["as_told"] = told
+            elif link["decision"] in ("variant", "new"):
+                story = None
+                if link["decision"] == "variant" and resolve(link.get("story"), stories, aliases) is None:
+                    raise SystemExit(f"{rel(f, root.path)}: {cand['title']!r} is linked variant to {link.get('story')!r}, which is no story or alias")
+                sid = fresh_id(sid, stories, aliases)
+                if link.get("id") not in (None, sid):
+                    raise SystemExit(f"{rel(f, root.path)}: {cand['title']!r} was linked as story {link['id']!r} but would merge "
+                                     f"as {sid!r}: link and merge saw different stories (link and merge the same episodes, in order)")
+            else:
+                raise SystemExit(f"{rel(f, root.path)}: {cand['title']!r}: link decision {link.get('decision')!r} is not same, variant or new")
             if story is None:
                 story = {
                     "id": sid, "title": cand["title"],
@@ -189,6 +231,10 @@ def run(root: Root) -> dict:
                 stories[sid] = story
                 stats["stories"] += 1
                 stats["tellings"] += 1
+                if link is not None and link["decision"] == "variant":
+                    other = stories[resolve(link["story"], stories, aliases)]
+                    add_relation(story, other["id"], "variant", link["reason"])
+                    add_relation(other, sid, "variant", link["reason"])
             else:
                 if not any(same_telling(telling, t) for t in story["tellings"]):
                     story["tellings"].append(telling)
@@ -228,9 +274,10 @@ def run(root: Root) -> dict:
 
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("episodes", nargs="*", help="candidate files to merge (default: every one)")
     ap.add_argument("--root", default=REPO)
     a = ap.parse_args(argv)
-    run(Root(a.root))
+    run(Root(a.root), a.episodes or None)
     return 0
 
 

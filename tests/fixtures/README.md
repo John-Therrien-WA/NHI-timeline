@@ -1,10 +1,41 @@
 # Fixtures
 
-Two tiny, entirely fictional episodes so the whole chain runs offline: `pipeline.check --fixture`
+Five tiny, entirely fictional episodes so the whole chain runs offline: `pipeline.check --fixture`
 copies this folder to a temporary directory and runs extract (reading `answers/<id>.json` instead
 of asking `claude -p`), merge, score, build and the checks on it. Nothing here is a real claim, a
 real person, a real show or a real place; the video ids do not exist. `data/` holds the axes, the
-two episodes, one document and one hand-written story (the one that contradicts a merged one);
+five episodes, one document and one hand-written story (the one that contradicts a merged one);
 `sources/captions/` the invented caption text; `answers/` the model answers as the prompt's schema
 gives them, including one quote that is not verbatim and must be dropped, and one teller named with a role
 ("Bo Fixture (guest)") that must become the same person as "Bo Fixture".
+
+`FIXTURE0001` and `FIXTURE0002` are the corpus as it stood before linking: they merge unlinked,
+and `links/existing.json` holds the answers `link --existing` gets for their stories (Cy Fixture's
+vault folds into Bo Fixture's as `same`, the harbour log's flare becomes a `variant` of the
+lantern). `FIXTURE0003`, `FIXTURE0004` and `FIXTURE0005` arrive afterwards: each is extracted, then
+all three are linked in one `link` call with the answers of `links/<id>.json` (keyed by candidate
+title, every answer with its `grain`) and merged. FIXTURE0003 has two `same` and one `variant`; its
+vault telling, dated 1972, joins the 1971 vault and keeps `as_told.years` 1972. FIXTURE0004 tells
+a new story (the ring in the ice of Lake Placeholder) that FIXTURE0005 tells again in the same run,
+`same` as the provisional story, so it ends as one story; it also tells one incident inside the
+vault program, answered `same` at grain `narrower`, and a testimony about the vault crew, answered
+`same` at grain `same` against the program: both are downgraded to `new` and listed under
+`downgraded` in `data/links.json`. Every prepared answer must be asked for, and a second run must
+ask nothing.
+
+The scored result covers every tier: the vault is `well-attested` (Cy and Eve, both firsthand, with
+Bo's telling a repetition of Cy's), the plains hum is `told-by-several` (Dee as host and Eve as
+researcher, no document and no firsthand), the rest are `told-once` (the ring with Gus Fixture's
+telling a repetition of Fay Fixture's); the hand-written flare
+`contradicts` the lantern, so both carry `contradicted: true`.
+
+The captions also carry the shapes real auto-captions have: FIXTURE0001 opens on a trailer that
+repeats a line of the body (the quote must take the body's time code, the one nearest the answer's
+`from_s`), FIXTURE0002 has a `[laughter]` and a `>>` inside quotes the answers leave out, and
+FIXTURE0003 has both inside a quote the answer copies with them. `data/person-aliases.json` folds
+the answer's "Beau Fixture" into `bo-fixture`. `expect.json` holds what the chain must produce for
+these (time codes, people that must not exist; under `stories` every story's tier, `contradicted`
+flag and attestation, and for the vault its aliases, the tellings that carry a `difference` and the
+`as_told` years; the downgraded candidates; "Beau Fixture" resolving to `bo-fixture` against this
+root and to `beau-fixture` against the repo's), and the host and guests `captions.host_and_guests`
+must take from a set of invented titles.

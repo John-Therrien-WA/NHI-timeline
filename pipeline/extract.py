@@ -4,9 +4,10 @@
 
 Reads sources/captions/<id>.<lang>.txt, sends it in chunks of about --chunk-words words with
 prompts/extract.md through `claude -p` (pipeline/llm.py), validates each answer against the
-prompt's keys, checks every quote to be a verbatim substring of the caption text (a quote that is
-not is dropped, with the reason logged and kept in the output), locates every kept quote in the
-cues for its time codes, and writes data/candidates/<id>.json. Teller and cited names are normalised
+prompt's keys, checks every quote to be a verbatim substring of the caption text (both sides with
+the `>>` speaker markers and bracketed tags such as `[music]` removed; a quote that is not is
+dropped, with the reason logged and kept in the output), locates every kept quote in the cues for
+its time codes (of several occurrences, the one nearest the time code the answer gave), and writes data/candidates/<id>.json. Teller and cited names are normalised
 (a parenthetical role such as "(host)" stripped) so one person gets one id in merge.
 
 --fixture FILE bypasses `claude -p`: FILE holds the prepared answers, a JSON list with one answer
@@ -15,6 +16,7 @@ cues for its time codes, and writes data/candidates/<id>.json. Teller and cited 
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -70,10 +72,13 @@ def chunks(cap: Captions, words: int) -> list[str]:
 
 
 def speakers_of(episode: dict, people: dict) -> str:
-    """'the host Jesse Michels and the guest Tim Gallaudet' from the episode's host and guests (ids resolved
-    to names through data/people; an id without a person file is read as a name)."""
-    def name(pid):
-        return people[pid]["name"] if pid in people else pid.replace("-", " ").title()
+    """'the host Jesse Michels and the guest Tim Gallaudet' from the episode's host and guests. An entry is
+    a person id or a name: an id with a person file gives that person's name, any other id is read as a
+    name, and a name (what captions.py takes from the title) is kept as written."""
+    def name(g):
+        if g in people:
+            return people[g]["name"]
+        return g.replace("-", " ").title() if re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", g) else g
     host, guests = episode.get("host"), [g for g in episode.get("guests") or [] if g]
     parts = []
     if host:
@@ -83,12 +88,20 @@ def speakers_of(episode: dict, people: dict) -> str:
     return " and ".join(parts) if parts else "unknown (the episode file names no host or guest)"
 
 
+PLACEHOLDERS = ("{episode}", "{title}", "{published}", "{speakers}", "{captions}")
+
+
 def prompt_for(template: str, episode: dict, chunk: str, speakers: str) -> str:
-    for key in ("{episode}", "{captions}", "{speakers}"):
+    for key in PLACEHOLDERS:
         if key not in template:
             raise SystemExit(f"prompts/extract.md must contain {key}")
-    head = f"{episode['id']}: {episode.get('show') or '?'}, {episode.get('title') or '?'} ({episode.get('published') or 'date unknown'})"
-    return template.replace("{episode}", head).replace("{speakers}", speakers).replace("{captions}", chunk)
+    values = {"{episode}": f"{episode['id']} on {episode.get('show') or 'an unknown show'}",
+              "{title}": episode.get("title") or "unknown",
+              "{published}": episode.get("published") or "unknown",
+              "{speakers}": speakers}
+    for key, v in values.items():
+        template = template.replace(key, v)
+    return template.replace("{captions}", chunk)
 
 
 def answer_list(data) -> list:
@@ -125,14 +138,14 @@ def candidates_from(answers: list[list], cap: Captions, episode_id: str) -> tupl
         for oi, raw in enumerate(answer_list(answer)):
             where = f"chunk {ci + 1} story {oi + 1}"
             obj = validate(raw, where)
-            loc = cap.locate(obj["quote"])
+            said = parse_timecode(obj["from_s"])
+            loc = cap.locate(obj["quote"], near=said)
             if loc is None:
                 reason = "quote is not a verbatim substring of the caption text"
                 print(f"extract: {episode_id}: dropped {obj['title']!r} ({where}): {reason}", file=sys.stderr)
                 dropped.append({"title": obj["title"], "quote": obj["quote"], "reason": reason, "where": where})
                 continue
             from_s, to_s = loc
-            said = parse_timecode(obj["from_s"])
             if said is not None and abs(said - from_s) > 90:
                 print(f"extract: {episode_id}: {obj['title']!r}: the answer said {obj['from_s']}, the cue is at {from_s:.0f}s; keeping the cue",
                       file=sys.stderr)

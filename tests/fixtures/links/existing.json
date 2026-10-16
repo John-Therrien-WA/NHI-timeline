@@ -1,0 +1,30 @@
+{
+  "the-lantern-over-the-harbour-of-nowhere-1958": {
+    "reason": "The lantern sighting over the Harbour of Nowhere and the vault dug under Mount Fictus are different events in different places and years.",
+    "story": null,
+    "grain": "same",
+    "decision": "new",
+    "difference": ""
+  },
+  "the-lantern-was-a-flare-1958": {
+    "reason": "Both are about the 1958 light over the Harbour of Nowhere; the harbour log says it was a flare from the pilot boat, where Bo Fixture says a green lantern rose out of the water.",
+    "story": "the-lantern-over-the-harbour-of-nowhere-1958",
+    "grain": "same",
+    "decision": "variant",
+    "difference": "An official record that explains the light as a flare fired at ten past nine, not a craft."
+  },
+  "the-lanterns-are-a-mirror-1957": {
+    "reason": "A general theory about what the lanterns are, beside the specific 1958 sighting it comments on.",
+    "story": null,
+    "grain": "broader",
+    "decision": "new",
+    "difference": ""
+  },
+  "the-vault-beneath-mount-fictus-1971": {
+    "reason": "Both tell of the vault dug under Mount Fictus in 1971 holding things not from here; Bo Fixture relays it from Cy Fixture, who here tells it himself.",
+    "story": "a-vault-under-mount-fictus-1971",
+    "grain": "same",
+    "decision": "same",
+    "difference": "First hand from a member of the digging crew, who speaks of crates carried in rather than of what was kept."
+  }
+}

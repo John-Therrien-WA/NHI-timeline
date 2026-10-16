@@ -25,6 +25,29 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.8,
-  "place_text": "United States"
+  "score": 2.0,
+  "place_text": "United States",
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "matthew-brown"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
 }

@@ -18,8 +18,22 @@ uv run python -m pipeline.merge                         # candidates into data/s
 uv run python -m pipeline.score                         # score into each story, data/scores.json
 uv run python -m pipeline.build                         # site/data.json and site/data.js
 uv run python -m pipeline.check                         # every story has a telling, every id resolves, every quote is verbatim
-open site/index.html                                    # or publish site/ as a private artifact
+open site/index.html                                    # the 3D page from disk (reads site/data.js)
+cd site && python3 -m http.server 8000                  # or over http (reads site/data.json): http://127.0.0.1:8000/
 ```
+
+The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr and no
+build step: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
+check, the score recomputed at the reader's institutional trust and the tiers; `corridor.js` and
+`globe.js` the two views; `panel.js` the story panel; `notes.js` the notes box). The corridor is the
+default view: time runs ahead, stretched where many stories are told, the angle is the kind or the
+region, and the rings are the tiers. The globe is the second view: regions as patches sized by story
+count, eras as shells. `M` switches; the keys are listed on the page. A link may carry
+`#story=<id or alias>`, `mode=globe`, `rail=time|kind|strength|links` and `trust=<0.5 to 1.25>`;
+`?data=<path>` loads another data file from a relative path beside the page (a `.js` defining
+`window.NHI_DATA`, or JSON over http), for a test copy. At load the page recomputes every attestation
+and score from the profiles and refuses to draw when they differ from the stored values. Published as an artifact with the `db` capability,
+the notes box saves to the collection `notes`; anywhere else it copies the note as text.
 
 Run the first command once after any change to the pipeline; it must print `check: ok (fixture)`.
 Every stage takes `--root DIR` to work on another data root (the fixture check uses a temporary

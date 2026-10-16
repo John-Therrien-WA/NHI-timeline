@@ -2,7 +2,7 @@
 
 What the score is for: to put the stories that many independent people tell, with documents behind them, in the obvious places on the timeline, and the stories one person tells once at the edge, without anyone judging which stories are true. John's rule: "the more corroborated, normalised for the standard of the whole, come to the obvious positions in the project, and things that are similar or corroborate each other overlap."
 
-The score has three layers. The **profile** is the evidence, counted and kept visible. The **score** is one number derived from the profile; it drives the visual (a dot's size and position). The **tier** names the band a story sits in, in words. `pipeline/score.py` is this file as code and writes all three into each story and into `data/scores.json`.
+The score has three layers. The **profile** is the evidence, counted and kept visible. The **score** is one number derived from the profile; it drives the visual (a story's size, brightness and distance from the corridor's centre). The **tier** names the band a story sits in, in words. `pipeline/score.py` is this file as code and writes all three into each story and into `data/scores.json`.
 
 ## Tellers and independence
 
@@ -60,7 +60,7 @@ The tiers do not depend on the knob or the median, so a story's band is the same
 
 ## Overlap
 
-Two stories are linked when they share a document or an event (`related` with `same-event` or `variant`), or when one is marked `corroborates` or `contradicts` the other. A `same-event` pair is drawn as one dot with two rings; `contradicts` as a link in the warning colour. A shared teller is not a link: one host telling fifty stories would join every story to every other and the lines would be a band. The page counts it instead and shows it in a story's panel as "also told by this teller: N stories" (by teller when the story has several), so the reach of one voice stays visible without being drawn as corroboration.
+Two stories are linked when they share a document or an event (`related` with `same-event` or `variant`), or when one is marked `corroborates` or `contradicts` the other. A `same-event` pair is drawn as a link; `contradicts` as a dashed link in the warning colour. A shared teller is not a link: one host telling fifty stories would join every story to every other and the lines would be a band. The page counts it instead and shows it in a story's panel as "also told by this teller: N stories" (by teller when the story has several), so the reach of one voice stays visible without being drawn as corroboration.
 
 ## What the score is not
 

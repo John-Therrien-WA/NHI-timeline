@@ -4,35 +4,155 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NHI timeline</title>
-<meta name="description" content="The stories told about non-human intelligence, by era and place, sized by how many independent people tell them. Stories as told, not facts.">
+<meta name="description" content="The stories told about non-human intelligence, flown through in time or seen on a globe, sized by how many independent people tell them. Stories as told, not facts.">
 <link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+} }
+</script>
 </head>
-<body>
-<header class="strip">
-  <div class="strip-row">
+<body class="mode-corridor">
+<canvas id="scene" aria-label="The stories in three dimensions"></canvas>
+<div id="glabels" hidden></div>
+<div id="labels"></div>
+
+<div id="top" class="hud">
+  <div id="title">
     <h1>NHI timeline</h1>
-    <span class="stat"><span class="k">corpus</span> <span id="corpus-date">…</span></span>
-    <span class="stat"><span class="k">stories</span> <span id="story-count">…</span></span>
-    <span class="stat"><span class="k">median attestation</span> <span id="median">…</span></span>
-    <button id="theme" type="button" aria-label="Switch between dark and light">Theme</button>
+    <p id="subtitle">Stories as told, not facts.</p>
   </div>
-  <div class="strip-row legend">
-    <strong class="notice">Stories as told, not facts.</strong>
-    <span class="lg"><svg width="22" height="16" aria-hidden="true"><circle cx="6" cy="8" r="3" class="lg-dot"/><circle cx="16" cy="8" r="6" class="lg-dot"/></svg> size: score (1.0 is the corpus median)</span>
-    <span class="lg"><svg width="18" height="16" aria-hidden="true"><circle cx="9" cy="8" r="4" class="lg-dot"/><circle cx="9" cy="8" r="7" class="lg-ring"/></svg> two rings: the same event told twice</span>
-    <span class="lg"><svg width="20" height="16" aria-hidden="true"><circle cx="10" cy="8" r="8" class="lg-halo"/><circle cx="10" cy="8" r="3" class="lg-dot"/></svg> halo: repeated by tellers who cite the source</span>
-    <span class="lg"><svg width="22" height="16" aria-hidden="true"><line x1="2" y1="8" x2="20" y2="8" class="lg-line"/></svg> line: shared document, variant or corroborates (a shared teller is a count in the panel, not a line)</span>
-    <span class="lg"><svg width="22" height="16" aria-hidden="true"><line x1="2" y1="8" x2="20" y2="8" class="lg-warn"/></svg> contradicts</span>
+  <div class="seg" id="mode-seg" role="tablist" aria-label="View">
+    <button data-mode="corridor" class="on" title="Fly through time (M)">Corridor</button><button data-mode="globe" title="Regions on a globe, eras as shells (M)">Globe</button>
   </div>
-</header>
-<main>
-  <div id="grid" class="grid" aria-label="Eras across, places down"></div>
-  <aside id="panel" class="panel" hidden aria-live="polite">
-    <button id="close" type="button" class="close" aria-label="Close">×</button>
-    <div id="panel-body"></div>
-  </aside>
-</main>
-<p id="status" class="status" hidden></p>
+  <div id="search-wrap">
+    <input id="search" type="search" placeholder="Find a story, teller or place  ( / )" autocomplete="off" spellcheck="false" aria-label="Search stories">
+    <ul id="results" role="listbox"></ul>
+  </div>
+  <div id="buttons">
+    <button class="btn only-corridor" id="btn-start" title="Back to the entrance (R or Home)">Start</button>
+    <button class="btn only-corridor" id="btn-overview" title="See the whole corridor from the side (O)">Overview</button>
+    <button class="btn only-globe" id="b-flat" title="Collapse altitude: every story on the surface, time as colour (F)">Flatten</button>
+    <button class="btn only-globe" id="b-reset" title="Reset camera, window and flatten (R)">Reset</button>
+    <button class="btn" id="legend-toggle" title="Show or hide the legend and filters">Legend</button>
+  </div>
+</div>
+
+<div id="keys-wrap" class="hud">
+  <div id="keys" role="region" aria-label="Keys">
+    <div class="hd"><h2>Keys</h2><button class="x" id="keys-hide" title="Hide (K)">hide</button></div>
+    <table class="only-corridor">
+      <tr><td><kbd>W</kbd> <kbd>S</kbd></td><td>fly forward, back</td></tr>
+      <tr><td><kbd>A</kbd> <kbd>D</kbd></td><td>strafe left, right</td></tr>
+      <tr><td><kbd>Q</kbd> <kbd>E</kbd></td><td>rise, sink</td></tr>
+      <tr><td><kbd>&larr;</kbd> <kbd>&rarr;</kbd> <kbd>&uarr;</kbd> <kbd>&darr;</kbd></td><td>turn, look up and down</td></tr>
+      <tr><td><kbd>Shift</kbd></td><td>double speed</td></tr>
+      <tr><td><kbd>Space</kbd></td><td>glide, or pause a flight</td></tr>
+      <tr><td><kbd>R</kbd> <kbd>Home</kbd></td><td>back to the start</td></tr>
+      <tr><td><kbd>O</kbd> <kbd>C</kbd></td><td>overview; angle by kind or region</td></tr>
+      <tr><td><kbd>PgUp</kbd> <kbd>PgDn</kbd></td><td>previous, next era</td></tr>
+      <tr><td>scroll, drag</td><td>move along time; look</td></tr>
+    </table>
+    <table class="only-globe">
+      <tr><td><kbd>&larr;</kbd> <kbd>&rarr;</kbd> <kbd>&uarr;</kbd> <kbd>&darr;</kbd></td><td>orbit</td></tr>
+      <tr><td><kbd>W</kbd> <kbd>S</kbd></td><td>zoom in, out</td></tr>
+      <tr><td><kbd>Q</kbd> <kbd>E</kbd></td><td>time window back, forward an era</td></tr>
+      <tr><td><kbd>F</kbd> <kbd>R</kbd></td><td>flatten; reset</td></tr>
+      <tr><td>drag, scroll</td><td>orbit; zoom</td></tr>
+    </table>
+    <table>
+      <tr><td colspan="2" class="kh">Rails</td></tr>
+      <tr><td><kbd>Tab</kbd></td><td>snap to the nearest story</td></tr>
+      <tr><td><kbd>1</kbd> <kbd>2</kbd> <kbd>3</kbd> <kbd>4</kbd></td><td>time, kind, strength, links</td></tr>
+      <tr><td><kbd>[</kbd> <kbd>]</kbd> <kbd>,</kbd> <kbd>.</kbd></td><td>step back, forward (hold)</td></tr>
+      <tr><td><kbd>Esc</kbd></td><td>back to free flight; close</td></tr>
+      <tr><td colspan="2" class="kh">Page</td></tr>
+      <tr><td><kbd>M</kbd></td><td>corridor or globe</td></tr>
+      <tr><td><kbd>/</kbd> <kbd>K</kbd></td><td>search; these keys</td></tr>
+      <tr><td>click</td><td>open a story</td></tr>
+    </table>
+  </div>
+  <button class="btn" id="keys-show" title="Show the keys (K)">Keys</button>
+</div>
+
+<div id="legend-wrap" class="hud">
+  <div id="legend">
+    <section class="knob">
+      <label for="trust"><span>Institutional trust</span> <b id="trust-val"></b></label>
+      <input id="trust" type="range" step="0.01" aria-describedby="trust-note">
+      <div class="note" id="trust-note"></div>
+    </section>
+    <section>
+      <h2>Tiers</h2>
+      <ul id="tiers" class="filters"></ul>
+    </section>
+    <section class="only-corridor">
+      <div class="hd"><h2>Angle</h2>
+        <div class="seg small" id="angle-seg"><button data-m="kind" class="on" title="Angle is the kind of story (C)">Kind</button><button data-m="region" title="Angle is the region (C)">Region</button></div>
+      </div>
+      <div class="row"><svg id="compass" width="84" height="84" viewBox="-42 -42 84 84" aria-hidden="true"></svg><p class="note" id="compass-note"></p></div>
+      <p class="note">Rings, centre out: well attested, told by several, told once. Inside a ring, nearer the centre is a higher score.</p>
+    </section>
+    <section class="only-globe">
+      <p class="note">Each patch is a region, sized by how many stories it holds, not by its geography. Height above a patch is time: the shells are eras, thicker where more stories fall.</p>
+      <div id="ramp-wrap" hidden><h2>Time, as colour</h2><div class="ramp" id="ramp"></div><div class="rampax" id="rampax"></div></div>
+    </section>
+    <details open>
+      <summary><h2>Kind</h2></summary>
+      <ul id="kinds" class="filters"></ul>
+    </details>
+    <details>
+      <summary><h2>Region</h2></summary>
+      <ul id="regions" class="filters"></ul>
+    </details>
+    <section>
+      <p class="note"><span class="linkkey"></span>linked: same event, variant, corroborates, shared document &nbsp; <span class="linkkey warn"></span>contradicts</p>
+      <p class="note">A shared teller is never a line; the panel counts it.</p>
+    </section>
+  </div>
+</div>
+
+<div id="bottom" class="hud">
+  <div class="only-corridor">
+    <div id="readout"><span id="year">Entrance</span><span id="era-name"></span><span id="status"></span></div>
+    <canvas id="minimap" aria-label="Map of the whole corridor; click to jump"></canvas>
+  </div>
+  <div class="only-globe" id="timebar">
+    <span class="lbl">Time window</span>
+    <div class="range">
+      <span class="yr" id="yr-a"></span>
+      <input id="win-a" type="range" aria-label="Window start year">
+      <input id="win-b" type="range" aria-label="Window end year">
+      <span class="yr" id="yr-b"></span>
+    </div>
+    <div id="eras"></div>
+    <label><input type="checkbox" id="undated" checked> undated</label>
+  </div>
+</div>
+<div id="mm-tip"></div>
+
+<div id="railhud" aria-live="polite">
+  <div class="rh-top"><span class="rh-name"></span><span class="rh-pos"></span></div>
+  <div class="rh-peek"><button class="rh-prev" title="Previous on the rail ( [ or , )"></button><button class="rh-next" title="Next on the rail ( ] or . )"></button></div>
+  <div class="rh-rails"><span><kbd>[</kbd> <kbd>]</kbd> step</span><b data-r="time"><kbd>1</kbd> Time</b><b data-r="kind"><kbd>2</kbd> Kind</b><b data-r="strength"><kbd>3</kbd> Strength</b><b data-r="links"><kbd>4</kbd> Links</b><span><kbd>Esc</kbd> free flight</span></div>
+  <div class="rh-note"></div>
+</div>
+
+<aside id="panel" aria-live="polite">
+  <button class="btn" id="panel-close" title="Close (Esc)">Close</button>
+  <div id="panel-body"></div>
+</aside>
+
+<div id="hover" class="label"></div>
+<div id="fatal" role="alert"><div><h2>The page cannot be drawn</h2><pre id="fatal-msg"></pre></div></div>
+<div id="loading">Loading the stories&hellip;</div>
+
+<script src="js/model.js"></script>
+<script src="js/notes.js"></script>
+<script src="js/panel.js"></script>
+<script src="js/corridor.js"></script>
+<script src="js/globe.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

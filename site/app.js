@@ -1,346 +1,439 @@
-/* NHI timeline: eras across, places down, each story a dot sized by its score. Plain JS, no build. */
+/* NHI timeline, the 3D page. The controller: it loads the data, builds the model, owns the selection,
+   the story panel, the rails, the filters, the institutional-trust knob, search, the keys and the hash,
+   and hands the drawing to one of two views, the corridor (default) and the globe.
+   A classic script so the page also runs from disk; three.js comes in by dynamic import from the CDN. */
 (function () {
   "use strict";
-  var SVGNS = "http://www.w3.org/2000/svg";
-  var TOP = 44;          // era header height
-  var ROW = 44;          // place row height
-  var BAND = 24;         // region band height
-  var MINCOL = 120;      // narrowest era column
-  var GUTTER = 150;      // place label column
-  var state = { data: null, selected: null, pos: {}, groups: {} };
+  const NHI = window.NHI;
+  const $ = id => document.getElementById(id);
+
+  // ---------- failing loud: the whole screen, never a quiet wrong page ----------
+  function fatal(msg) {
+    $("fatal-msg").textContent = String(msg);
+    $("fatal").style.display = "flex";
+    $("loading").hidden = true;
+  }
+  window.addEventListener("error", e => fatal(e.error ? (e.error.stack || e.error.message) : e.message));
+  window.addEventListener("unhandledrejection", e => fatal((e.reason && (e.reason.stack || e.reason.message)) || e.reason));
 
   function el(tag, attrs, text) {
-    var e = document.createElement(tag);
-    for (var k in attrs || {}) e.setAttribute(k, attrs[k]);
-    if (text != null) e.textContent = text;
-    return e;
+    const n = document.createElement(tag);
+    if (attrs) for (const k in attrs) n.setAttribute(k, attrs[k]);
+    if (text != null) n.textContent = text;
+    return n;
   }
-  function svgEl(tag, attrs) {
-    var e = document.createElementNS(SVGNS, tag);
-    for (var k in attrs || {}) e.setAttribute(k, attrs[k]);
-    return e;
-  }
-  function fmt(s) {
-    s = Math.floor(s);
-    var h = Math.floor(s / 3600), m = Math.floor((s % 3600) / 60), x = s % 60;
-    return h + ":" + (m < 10 ? "0" : "") + m + ":" + (x < 10 ? "0" : "") + x;
-  }
-  function yearsText(y) {
-    if (!y) return "undated";
-    return y.from === y.to ? String(y.from) : y.from + " to " + y.to;
-  }
-  function unplacedText(s) {
-    var t = (s.place_text || "").replace(/\s+/g, " ").trim();
-    return /^(unspecified|unknown|none|n\/a)$/i.test(t) ? "" : t;
-  }
-  function unplacedKey(s) {
-    var t = unplacedText(s);
-    return t ? "__unplaced:" + t.toLowerCase() : "__unplaced";
-  }
-  function unplacedName(s) {
-    return unplacedText(s) || "No place given";
-  }
-  function radius(score) {
-    return Math.max(4, Math.min(18, 4 + 7 * Math.sqrt(Math.max(0, score))));
-  }
+  const damp = (rate, dt) => 1 - Math.exp(-rate * dt);
+  const ease = t => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 
-  // Theme: follows the system unless the viewer chose; the choice is a per-viewer convenience.
-  function themeInit() {
-    var saved = null;
-    try { saved = localStorage.getItem("nhi-theme"); } catch (e) { saved = null; }
-    if (saved) document.documentElement.setAttribute("data-theme", saved);
-    document.getElementById("theme").addEventListener("click", function () {
-      var dark = document.documentElement.getAttribute("data-theme") === "dark" ||
-        (!document.documentElement.getAttribute("data-theme") && window.matchMedia("(prefers-color-scheme: dark)").matches);
-      var next = dark ? "light" : "dark";
-      document.documentElement.setAttribute("data-theme", next);
-      try { localStorage.setItem("nhi-theme", next); } catch (e) { /* no storage: the toggle still works for this page */ }
+  // ---------- data: data.json over http, data.js from disk, or the page's ?data=<url> ----------
+  function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      delete window.NHI_DATA;
+      const sc = document.createElement("script");
+      sc.src = src;
+      sc.onload = () => window.NHI_DATA ? resolve(window.NHI_DATA) : reject(new Error(src + " loaded but set no window.NHI_DATA. Run pipeline.build."));
+      sc.onerror = () => reject(new Error(src + " could not be loaded."));
+      document.head.appendChild(sc);
     });
   }
-
-  // Same-event pairs are drawn as one marker: union the stories joined by same-event links.
-  function groupsOf(data) {
-    var parent = {};
-    function find(x) { while (parent[x] !== x) { parent[x] = parent[parent[x]]; x = parent[x]; } return x; }
-    data.stories.forEach(function (s) { parent[s.id] = s.id; });
-    data.links.forEach(function (l) {
-      if (l.relation === "same-event" && parent[l.a] && parent[l.b]) parent[find(l.a)] = find(l.b);
-    });
-    var groups = {};
-    data.stories.forEach(function (s) { var r = find(s.id); (groups[r] = groups[r] || []).push(s); });
-    var byStory = {};
-    Object.keys(groups).forEach(function (r) {
-      groups[r].sort(function (a, b) { return b.score - a.score || (a.id < b.id ? -1 : 1); });
-      groups[r].forEach(function (s) { byStory[s.id] = r; });
-    });
-    return { groups: groups, byStory: byStory };
+  function fetchJson(url) {
+    return fetch(url, { cache: "no-store" }).then(
+      r => { if (!r.ok) throw new Error(url + ": HTTP " + r.status + "."); return r.json(); },
+      e => { throw new Error(url + " could not be fetched (" + e.message + ")."); });
   }
-
-  function render(data) {
-    document.getElementById("corpus-date").textContent = data.corpus_date || "no dated episode";
-    document.getElementById("story-count").textContent = String(data.stories.length);
-    document.getElementById("median").textContent = Number(data.median_attestation).toFixed(2);
-
-    var grid = document.getElementById("grid");
-    grid.textContent = "";
-    var phone = window.innerWidth < 720;
-    var gutter = phone ? 110 : GUTTER;
-    var eras = data.eras.slice();
-    var undated = data.stories.some(function (s) { return !s.years || s.era == null; });
-    if (undated) eras.push({ id: "__undated", name: "Undated", from: null, to: null });
-    var avail = grid.clientWidth - gutter - 2;
-    var colw = Math.max(MINCOL, Math.floor(avail / eras.length));
-    var eraIndex = {};
-    eras.forEach(function (e, i) { eraIndex[e.id] = i; });
-
-    // rows: regions in the order of places.json, each with its places; an Unplaced row at the end when needed
-    var regions = [], byRegion = {};
-    data.places.forEach(function (p) {
-      var r = p.region || "Elsewhere";
-      if (!byRegion[r]) { byRegion[r] = []; regions.push(r); }
-      byRegion[r].push(p);
-    });
-    // unresolved places: one row per free text the extractor gave, the most-told first; no text at all is one row
-    var storiesByPlace = {}, unplacedRows = {};
-    data.stories.forEach(function (s) {
-      var k = s.place || unplacedKey(s);
-      (storiesByPlace[k] = storiesByPlace[k] || []).push(s);
-      if (!s.place && !unplacedRows[k]) unplacedRows[k] = { id: k, name: unplacedName(s), region: "Unplaced" };
-    });
-    var unplaced = Object.keys(unplacedRows).map(function (k) { return unplacedRows[k]; });
-    if (unplaced.length) {
-      unplaced.sort(function (a, b) {
-        return storiesByPlace[b.id].length - storiesByPlace[a.id].length || (a.id === "__unplaced" ? -1 : b.id === "__unplaced" ? 1 : a.name.localeCompare(b.name));
-      });
-      regions.push("Unplaced"); byRegion.Unplaced = unplaced;
+  // ?data= names a sibling file of the page only: on a published artifact an absolute URL would run
+  // a third party's script in the page's origin
+  function loadData() {
+    const src = new URLSearchParams(location.search).get("data");
+    if (src != null) {
+      if (!src || /^[a-z][a-z0-9+.-]*:/i.test(src) || /^[\/\\]/.test(src)) return Promise.reject(new Error("the parameter ?data=" + src + " is refused: it must be a relative path to a file beside the page, with no scheme and no leading slash."));
+      return /\.js(\?|#|$)/.test(src) ? loadScript(src) : fetchJson(src);
     }
-    var rows = [], y = TOP;
-    regions.forEach(function (r) {
-      rows.push({ kind: "region", name: r, y: y, h: BAND }); y += BAND;
-      byRegion[r].forEach(function (p) { rows.push({ kind: "place", place: p, y: y, h: ROW }); y += ROW; });
-    });
-    var height = y + 8, width = eras.length * colw + 1;
-    var rowOf = {};
-    rows.forEach(function (r) { if (r.kind === "place") rowOf[r.place.id] = r; });
+    if (location.protocol === "file:") return loadScript("data.js").catch(e => { throw new Error(e.message + " Opened from disk, the page reads data.js beside index.html; run pipeline.build."); });
+    return fetchJson("data.json").catch(e => { throw new Error(e.message + " Over http the page reads data.json beside index.html; run pipeline.build."); });
+  }
+  function loadThree() {
+    const timeout = new Promise((_, reject) => setTimeout(() => reject(new Error("three.js did not load from cdn.jsdelivr.net within 15 seconds. The page needs that CDN to draw.")), 15000));
+    return Promise.race([Promise.all([
+      import("three"), import("three/addons/controls/OrbitControls.js"), import("three/addons/renderers/CSS2DRenderer.js"),
+    ]), timeout]);
+  }
 
-    var inner = el("div", { class: "grid-inner" });
-    var labels = el("div", { class: "labels", style: "width:" + gutter + "px;height:" + height + "px" });
-    rows.forEach(function (r) {
-      var d = el("div", { class: r.kind === "region" ? "region" : "place" + (storiesByPlace[r.place.id] ? " has-stories" : ""),
-        style: "top:" + r.y + "px;height:" + r.h + "px;line-height:" + r.h + "px" }, r.kind === "region" ? r.name : r.place.name);
-      if (r.kind === "place") d.title = r.place.name;
-      labels.appendChild(d);
-    });
-    inner.appendChild(labels);
+  Promise.all([loadData(), loadThree()]).then(([D, mods]) => start(D, mods))
+    .catch(e => fatal(e && /^NHI data:|could not be|did not load|HTTP|NHI_DATA|the link|the parameter/.test(e.message) ? e.message : (e && (e.stack || e.message)) || e));
 
-    var svg = svgEl("svg", { class: "chart", width: width, height: height, viewBox: "0 0 " + width + " " + height, role: "img" });
-    svg.appendChild(svgEl("title")).textContent = "Stories by era and place";
-    // cells and bands
-    rows.forEach(function (r, ri) {
-      if (r.kind === "region") { svg.appendChild(svgEl("rect", { class: "region-band", x: 0, y: r.y, width: width, height: r.h })); return; }
-      eras.forEach(function (e, ci) {
-        svg.appendChild(svgEl("rect", { class: "cell" + ((ri + ci) % 2 ? " alt" : ""), x: ci * colw, y: r.y, width: colw, height: r.h }));
-      });
-    });
-    eras.forEach(function (e, ci) {
-      var x = ci * colw;
-      svg.appendChild(svgEl("line", { class: "gridline", x1: x, y1: 0, x2: x, y2: height }));
-      var t = svgEl("text", { class: "era-label", x: x + 8, y: 18 }); t.textContent = e.name; svg.appendChild(t);
-      var yrs = svgEl("text", { class: "era-years", x: x + 8, y: 34 }); yrs.textContent = e.from == null ? "" : e.from + " to " + e.to; svg.appendChild(yrs);
-    });
-    svg.appendChild(svgEl("line", { class: "gridline", x1: width - 1, y1: 0, x2: width - 1, y2: height }));
+  function start(D, mods) {
+    const THREE = mods[0];
+    const addons = { OrbitControls: mods[1].OrbitControls, CSS2DRenderer: mods[2].CSS2DRenderer, CSS2DObject: mods[2].CSS2DObject };
+    const M = NHI.model.build(D);
+    const hash = new URLSearchParams(location.hash.slice(1));
 
-    // positions: x from the year within its era, y from the place row; stories in the same cell spread vertically
-    var g = groupsOf(data);
-    state.groups = g;
-    var pos = {}, cellCount = {};
-    function xOf(s) {
-      var e = s.era != null && eraIndex[s.era] != null ? eras[eraIndex[s.era]] : null;
-      if (!e || !s.years) return eraIndex.__undated * colw + colw / 2;
-      var mid = (s.years.from + s.years.to) / 2;
-      var f = (mid - e.from) / (e.to - e.from + 1);
-      return eraIndex[e.id] * colw + 10 + Math.max(0, Math.min(1, f)) * (colw - 20);
-    }
-    function xYear(yr, s) {
-      var e = eras[eraIndex[s.era]];
-      return eraIndex[e.id] * colw + 10 + Math.max(0, Math.min(1, (yr - e.from) / (e.to - e.from + 1))) * (colw - 20);
-    }
-    var reps = Object.keys(g.groups).map(function (r) { return g.groups[r][0]; });
-    reps.forEach(function (s) {
-      var key = (s.place || unplacedKey(s)) + "|" + (s.era == null ? "__undated" : s.era);
-      cellCount[key] = (cellCount[key] || 0) + 1;
-    });
-    var seen = {};
-    reps.forEach(function (s) {
-      var row = rowOf[s.place || unplacedKey(s)];
-      var key = (s.place || unplacedKey(s)) + "|" + (s.era == null ? "__undated" : s.era);
-      var n = cellCount[key], i = (seen[key] = (seen[key] || 0) + 1) - 1;
-      // several stories in one cell: fan them out sideways, alternating a little up and down
-      var dx = n > 1 ? (i - (n - 1) / 2) * 44 : 0, dy = n > 1 ? (i % 2 ? 9 : -9) : 0;
-      pos[g.byStory[s.id]] = { x: Math.max(14, Math.min(colw * eras.length - 14, xOf(s) + dx)), y: row.y + row.h / 2 + dy, dx: dx, s: s };
-    });
-    state.pos = pos;
 
-    // links between groups (never inside one)
-    var linkLayer = svgEl("g"), warnLayer = svgEl("g", { class: "warn-layer" }), pairCount = {};
-    data.links.forEach(function (l) {
-      var a = g.byStory[l.a], b = g.byStory[l.b];
-      if (!a || !b || a === b) return;
-      // a slight arc, so a link between two neighbouring dots is still seen; several links on one pair alternate sides
-      var key = a < b ? a + "|" + b : b + "|" + a, i = pairCount[key] = (pairCount[key] || 0) + 1;
-      var side = (i % 2 ? 1 : -1) * Math.ceil(i / 2);
-      var ax = pos[a].x, ay = pos[a].y, bx = pos[b].x, by = pos[b].y, len = Math.hypot(bx - ax, by - ay) || 1;
-      var bulge = Math.max(18, 0.12 * len) * side, nx = -(by - ay) / len * bulge, ny = (bx - ax) / len * bulge;
-      var line = svgEl("path", { class: "link " + l.relation, d: "M" + ax + " " + ay + " Q" + ((ax + bx) / 2 + nx) + " " + ((ay + by) / 2 + ny) + " " + bx + " " + by });
-      var t = svgEl("title"); t.textContent = l.relation + (l.note ? ": " + l.note : ""); line.appendChild(t);
-      (l.relation === "contradicts" ? warnLayer : linkLayer).appendChild(line);
-    });
-    svg.appendChild(linkLayer);
+    const canvas = $("scene");
+    const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
+    renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
 
-    // the dots
-    var dotLayer = svgEl("g");
-    Object.keys(pos).forEach(function (root) {
-      var p = pos[root], members = g.groups[root], s = members[0];
-      var r = radius(s.score), repCount = members.reduce(function (n, m) { return n + m.repetitions.length; }, 0);
-      var node = svgEl("g", { class: "story", tabindex: "0", role: "button", "data-group": root });
-      var t = svgEl("title"); t.textContent = members.map(function (m) { return m.title; }).join(" / ") + " (" + yearsText(s.years) + ")"; node.appendChild(t);
-      if (s.years && s.years.to > s.years.from && s.era != null && eraIndex[s.era] != null) {
-        node.appendChild(svgEl("line", { class: "span", x1: xYear(s.years.from, s) + p.dx, y1: p.y, x2: xYear(s.years.to, s) + p.dx, y2: p.y }));
+    let selected = null, hoverSid = null, previewSid = null, rail = null, view = null, globe = null;
+    const C = {
+      THREE, M, canvas, renderer, el, damp, ease,
+      select, preview, hover, hoverSid: () => hoverSid, leaveRail, onRail: () => !!rail, usedOnce, placeLabels,
+    };
+    const panel = NHI.panel(C);
+    const corridor = NHI.corridor(C);
+    function getGlobe() { if (!globe) globe = NHI.globe(C, addons); return globe; }
+
+    // ---------- labels and hover ----------
+    const labelsEl = $("labels"), labelPool = [];
+    for (let i = 0; i < 12; i++) { const l = el("div", { class: "label" }); l.style.display = "none"; labelsEl.appendChild(l); labelPool.push(l); }
+    function placeLabels(cands) {
+      cands.sort((a, b) => b.rank - a.rank);
+      const placed = [];
+      let k = 0;
+      for (const c of cands) {
+        if (k >= labelPool.length) break;
+        if (placed.some(p => Math.abs(p.x - c.x) < 170 && Math.abs(p.y - c.y) < 22)) continue;
+        placed.push(c);
+        const s = M.storyById[c.id], l = labelPool[k++];
+        l.className = "label t" + s._tier + (c.id === selected ? " sel" : "");
+        l.textContent = s.title; l.style.left = c.x + "px"; l.style.top = c.y + "px"; l.style.display = "block";
       }
-      if (repCount) node.appendChild(svgEl("circle", { class: "halo", cx: p.x, cy: p.y, r: r + 5 + 3 * repCount }));
-      node.appendChild(svgEl("circle", { class: "hit", cx: p.x, cy: p.y, r: r + 6 }));
-      node.appendChild(svgEl("circle", { class: "dot", cx: p.x, cy: p.y, r: r }));
-      for (var k = 1; k < members.length; k++) node.appendChild(svgEl("circle", { class: "ring", cx: p.x, cy: p.y, r: r + 3.5 * k + 1 }));
-      node.addEventListener("click", function () { select(root); });
-      node.addEventListener("keydown", function (ev) { if (ev.key === "Enter" || ev.key === " ") { ev.preventDefault(); select(root); } });
-      dotLayer.appendChild(node);
-    });
-    svg.appendChild(dotLayer);
-    svg.appendChild(warnLayer);
-    inner.appendChild(svg);
-    grid.appendChild(inner);
-    if (state.selected && pos[state.selected]) select(state.selected);
-  }
-
-  function select(root) {
-    state.selected = root;
-    try { history.replaceState(null, "", "#story=" + encodeURIComponent(state.groups.groups[root][0].id)); } catch (e) { /* file: pages may refuse */ }
-    var members = state.groups.groups[root];
-    var panel = document.getElementById("panel"), body = document.getElementById("panel-body");
-    body.textContent = "";
-    document.querySelectorAll(".story.selected").forEach(function (n) { n.classList.remove("selected"); });
-    var node = document.querySelector('.story[data-group="' + root + '"]');
-    if (node) node.classList.add("selected");
-    if (members.length > 1) {
-      var head = el("p", { class: "meta" }); head.appendChild(el("b", {}, "One event, " + members.length + " stories")); body.appendChild(head);
-      members.forEach(function (s) { var box = el("div", { class: "pair" }); storyInto(box, s); body.appendChild(box); });
-    } else {
-      storyInto(body, members[0]);
+      for (; k < labelPool.length; k++) labelPool[k].style.display = "none";
     }
-    panel.hidden = false;
-  }
+    const hoverEl = $("hover");
+    function hover(sid, cx, cy) {
+      if (sid !== hoverSid) { hoverSid = sid; canvas.classList.toggle("pointing", !!sid); view.setEmphasis(previewSid || hoverSid); }
+      if (!sid) { hoverEl.style.display = "none"; return; }
+      const s = M.storyById[sid], shared = M.sharing(sid).size;
+      hoverEl.innerHTML = "";
+      hoverEl.appendChild(el("b", null, s.title));
+      hoverEl.appendChild(el("span", null, M.KIND_NAMES[s.kind] + " · " + M.yearsText(s.years) + " · " + M.TIERS[s._tier].name + ", score " + s._score.toFixed(2) +
+        " · " + (shared ? "shares a voice or source with " + shared + (shared === 1 ? " story" : " stories") : "shares no voice or source")));
+      hoverEl.style.display = "block";
+      hoverEl.style.left = Math.min(cx, window.innerWidth - 180) + "px"; hoverEl.style.top = (cy - 8) + "px";
+    }
+    function preview(sid) { previewSid = sid; view.setEmphasis(previewSid || hoverSid); }
 
-  function storyInto(box, s) {
-    var d = state.data;
-    box.appendChild(el("h2", {}, s.title));
-    var meta = el("p", { class: "meta" });
-    var place = s.place ? (d.places.filter(function (p) { return p.id === s.place; })[0] || {}).name
-      : (unplacedText(s) ? "not resolved: " + unplacedText(s) : "not given");
-    var era = s.era ? (d.eras.filter(function (e) { return e.id === s.era; })[0] || {}).name : "no era";
-    var tellerIds = Object.keys(s.shared_teller_by || {});
-    [["years", yearsText(s.years)], ["era", era], ["place", place], ["kind", s.kind || "unset"],
-     ["score", Number(s.score).toFixed(2)], ["attestation", Number(s.attestation).toFixed(2)],
-     ["independent tellers", String(s.independent.length)], ["repetitions", String(s.repetitions.length)],
-     [tellerIds.length > 1 ? "also told by these tellers" : "also told by this teller", (s.shared_teller || 0) + (s.shared_teller === 1 ? " story" : " stories")]
-    ].forEach(function (kv) { var sp = el("span", {}, kv[0] + " "); sp.appendChild(el("b", {}, kv[1])); meta.appendChild(sp); });
-    box.appendChild(meta);
-    box.appendChild(el("p", { class: "summary" }, s.summary));
-    box.appendChild(el("h3", {}, "Tellings"));
-    s.tellings.forEach(function (t) {
-      var tl = el("div", { class: "telling" });
-      var who = el("div", { class: "who" }); who.appendChild(el("b", {}, t.teller_name));
-      who.appendChild(el("span", { class: "kind" }, t.kind));
-      if (tellerIds.length > 1 && s.shared_teller_by[t.teller] != null) who.appendChild(el("span", { class: "kind" }, "tells " + s.shared_teller_by[t.teller] + " other " + (s.shared_teller_by[t.teller] === 1 ? "story" : "stories") + " here"));
-      if (t.repetition) who.appendChild(el("span", { class: "rep" }, "repeats " + t.cites.map(function (c) { return (d.people[c] || {}).name || c; }).join(", ")));
-      tl.appendChild(who);
-      if (t.quote) tl.appendChild(el("blockquote", {}, "“" + t.quote + "”"));
-      var where = el("div", { class: "where" });
-      if (t.episode) {
-        var label = fmt(t.from_s || 0) + (t.to_s != null ? " to " + fmt(t.to_s) : "");
-        if (t.url) where.appendChild(el("a", { href: t.url, target: "_blank", rel: "noopener" }, label)); else where.appendChild(el("span", {}, label));
-        where.appendChild(el("span", { class: "show" }, " " + [t.show, t.episode_title, t.published].filter(Boolean).join(", ")));
-      } else if (t.document) {
-        var doc = s.documents.filter(function (x) { return x.id === t.document; })[0] || { title: t.document };
-        where.appendChild(el("span", { class: "show" }, "document: " + doc.title + (t.page ? ", p. " + t.page : "")));
+    // ---------- selection and the panel ----------
+    function writeHash() {
+      const h = new URLSearchParams();
+      if (selected) h.set("story", selected);
+      if (view.name === "globe") h.set("mode", "globe");
+      if (rail) h.set("rail", rail.type);
+      if (Math.abs(M.trust.value - M.trust.def) > 1e-9) h.set("trust", M.trust.value.toFixed(2));
+      try { history.replaceState(null, "", h.toString() ? "#" + h.toString().replace(/=(&|$)/g, "$1") : location.pathname + location.search); } catch (e) { /* some browsers refuse on file: */ }
+    }
+    function select(sid, opts) {
+      opts = opts || {};
+      if (!sid) { closePanel(); return; }
+      selected = sid;
+      usedOnce();
+      revealStory(sid);
+      panel.render(sid);
+      document.body.classList.add("panel-open");
+      view.setSelected(sid);
+      if (opts.fly) {
+        if (rail) railFollow(sid, opts.instant);
+        else view.flyTo(sid, opts.instant);
       }
-      tl.appendChild(where);
-      if (t.cites.length && !t.repetition) tl.appendChild(el("div", { class: "cites" }, "cites " + t.cites.map(function (c) { return (d.people[c] || {}).name || c; }).join(", ")));
-      if (t.documents.length) tl.appendChild(el("div", { class: "cites" }, "credits " + t.documents.map(function (x) { return (s.documents.filter(function (y) { return y.id === x; })[0] || { title: x }).title; }).join(", ")));
-      box.appendChild(tl);
+      writeHash();
+    }
+    function closePanel() {
+      if (rail) leaveRail();
+      selected = null; view.setSelected(null);
+      document.body.classList.remove("panel-open");
+      writeHash();
+    }
+    $("panel-close").addEventListener("click", closePanel);
+
+    // ---------- filters: tier, kind, region ----------
+    function revealStory(sid) {
+      const s = M.storyById[sid];
+      if (M.isVisible(s)) return;
+      M.hidden.kind.delete(s.kind); M.hidden.region.delete(M.regionOf(s)); M.hidden.tier.delete(s._tierId);
+      buildFilters(); view.applyVisibility();
+    }
+    function filterRow(ul, set, key, label, count, mark) {
+      const li = el("li", { title: "Click to hide or show " + label });
+      li.appendChild(mark);
+      li.appendChild(el("span", null, label));
+      li.appendChild(el("span", { class: "n" }, String(count)));
+      if (set.has(key)) li.classList.add("off");
+      li.addEventListener("click", () => {
+        if (set.has(key)) set.delete(key); else set.add(key);
+        li.classList.toggle("off", set.has(key));
+        view.applyVisibility();
+        if (rail) renderRailHud();
+      });
+      ul.appendChild(li);
+    }
+    function buildFilters() {
+      const tl = $("tiers"); tl.innerHTML = "";
+      M.TIERS.forEach((T, i) => {
+        const mark = el("span", { class: "tdot" }), dot = el("i");
+        const px = [11, 8, 5][i]; dot.style.width = dot.style.height = px + "px"; dot.style.opacity = T.bright;
+        mark.appendChild(dot);
+        filterRow(tl, M.hidden.tier, T.id, T.name, M.tierCounts[i], mark);
+        tl.lastChild.title = T.rule + ". Click to hide or show.";
+      });
+      const kl = $("kinds"); kl.innerHTML = "";
+      M.KINDS.filter(k => M.kindCounts[k]).forEach(k => { const sw = el("span", { class: "sw" }); sw.style.background = M.KIND_COLORS[k]; filterRow(kl, M.hidden.kind, k, M.KIND_NAMES[k], M.kindCounts[k], sw); });
+      const rl = $("regions"); rl.innerHTML = "";
+      M.regionKeys.forEach(r => filterRow(rl, M.hidden.region, r, r, M.regionCounts.get(r), el("span", { class: "sw reg" })));
+    }
+    buildFilters();
+    $("legend-toggle").addEventListener("click", () => { document.body.classList.toggle("legend-hidden"); $("legend-toggle").classList.toggle("on", !document.body.classList.contains("legend-hidden")); });
+    if (window.innerWidth < 760) document.body.classList.add("legend-hidden");
+    $("legend-toggle").classList.toggle("on", !document.body.classList.contains("legend-hidden"));
+
+    // ---------- the institutional-trust knob ----------
+    const knob = $("trust");
+    knob.min = M.trust.min; knob.max = M.trust.max; knob.value = M.trust.def;
+    function setTrust(v) {
+      v = Math.min(M.trust.max, Math.max(M.trust.min, v));
+      knob.value = v;
+      M.rescore(v);
+      $("trust-val").textContent = v.toFixed(2) + (Math.abs(v - M.trust.def) < 1e-9 ? " (default)" : "");
+      $("trust-note").textContent = "An official teller weighs " + (D.scoring.weights.official * v).toFixed(2) + " against a witness at 1.00. Corpus median attestation " +
+        M.median.toFixed(2) + "; a score of 1.0 is the typical story here.";
+      view.restyle();
+      if (selected) panel.render(selected);
+      if (rail) renderRailHud();
+    }
+    knob.addEventListener("input", () => { setTrust(parseFloat(knob.value)); writeHash(); });
+
+    // ---------- rails ----------
+    const RAIL_NAMES = { time: "Time", kind: "Kind", strength: "Strength", links: "Links" };
+    const RAIL_CODES = { Digit1: "time", Digit2: "kind", Digit3: "strength", Digit4: "links", Numpad1: "time", Numpad2: "kind", Numpad3: "strength", Numpad4: "links" };
+    const LINK_ORDER = ["same-event", "variant", "corroborates", "contradicts"];
+    const linkRank = r => { const i = LINK_ORDER.indexOf(r); return i < 0 ? LINK_ORDER.length : i; };
+    function linkList(sid) {
+      const rel = new Map([[sid, "start"]]);
+      M.linksOf(sid).slice().sort((a, b) => linkRank(a.relation) - linkRank(b.relation) || M.storyById[a.other]._order - M.storyById[b.other]._order)
+        .forEach(x => { if (!rel.has(x.other)) rel.set(x.other, x.relation); });
+      return { list: [...rel.keys()], rel };
+    }
+    function railList() {
+      const s = M.storyById[rail.sid], keep = x => M.isVisible(x) || x.id === rail.sid;
+      if (rail.type === "time") return M.byTime.filter(keep).map(x => x.id);
+      if (rail.type === "kind") return M.byTime.filter(x => x.kind === s.kind && keep(x)).map(x => x.id);
+      if (rail.type === "strength") return M.byStrength.filter(keep).map(x => x.id);
+      return rail.links.list;
+    }
+    function goRail(type, sid, instant) {
+      if (type === "links" && !M.linksOf(sid).length) {
+        railNote("This story has no links; riding " + RAIL_NAMES[rail && rail.type !== "links" ? rail.type : "time"] + ".");
+        type = rail && rail.type !== "links" ? rail.type : "time";
+      }
+      rail = { type, sid, links: type === "links" ? linkList(sid) : null };
+      railMoveTo(sid, instant);
+    }
+    function railMoveTo(sid, instant) {
+      rail.sid = sid;
+      revealStory(sid);
+      if (view.reveal) view.reveal(sid);
+      select(sid);
+      view.railArrive(sid, instant);
+      renderRailHud();
+      writeHash();
+    }
+    // a story chosen while riding (a click, a related story, search): the rail follows it
+    function railFollow(sid, instant) {
+      if (rail.type === "links" && !rail.links.list.includes(sid)) {
+        if (M.linksOf(sid).length) rail.links = linkList(sid); else { rail.type = "time"; rail.links = null; railNote("Left the links; riding Time."); }
+      }
+      rail.sid = sid;
+      view.railArrive(sid, instant);
+      renderRailHud();
+    }
+    function railStep(dir) {
+      if (!rail) { snap(); return; }
+      const list = railList(), i = list.indexOf(rail.sid), j = i + dir;
+      if (i < 0) { railMoveTo(list[0]); return; }
+      if (j < 0 || j >= list.length) { railNote(dir > 0 ? "End of the " + RAIL_NAMES[rail.type] + " rail." : "Start of the " + RAIL_NAMES[rail.type] + " rail."); clearHold(); return; }
+      railMoveTo(list[j]);
+    }
+    function snap(type) {
+      const sid = (!rail && selected) && type ? selected : view.nearestStory();
+      if (sid) goRail(type || (rail ? rail.type : "time"), sid);
+    }
+    function leaveRail() {
+      if (!rail) return;
+      rail = null; clearHold(); view.railRelease(); renderRailHud(); writeHash();
+    }
+    let stepHold = null;
+    function clearHold() { if (stepHold) { clearTimeout(stepHold.timer); stepHold = null; } }
+    function holdStep(code, dir) {
+      if (stepHold && stepHold.code === code) return;
+      clearHold(); railStep(dir);
+      stepHold = { code, timer: setTimeout(function rep() { railStep(dir); if (stepHold) stepHold.timer = setTimeout(rep, 360); }, 480) };
+    }
+    const railHud = $("railhud");
+    let noteTimer = null;
+    function railNote(msg) {
+      railHud.querySelector(".rh-note").textContent = msg; railHud.classList.add("noting");
+      clearTimeout(noteTimer); noteTimer = setTimeout(() => railHud.classList.remove("noting"), 1800);
+    }
+    const shortTitle = t => t.length > 46 ? t.slice(0, 44).replace(/\s+\S*$/, "") + "…" : t;
+    function renderRailHud() {
+      document.body.classList.toggle("on-rail", !!rail);
+      if (!rail) return;
+      const s = M.storyById[rail.sid], list = railList(), i = list.indexOf(rail.sid);
+      const name = rail.type === "kind" ? "Kind: " + M.KIND_NAMES[s.kind] : rail.type === "links" ? "Links of " + shortTitle(M.storyById[rail.links.list[0]].title)
+        : rail.type === "strength" ? "Strength, best attested first" : "Time, in order";
+      railHud.querySelector(".rh-name").textContent = name;
+      railHud.querySelector(".rh-pos").textContent = (i + 1) + " of " + list.length;
+      const peek = (j, cls) => {
+        const b = railHud.querySelector(cls), id = list[j];
+        b.disabled = !id; b.innerHTML = "";
+        if (!id) { b.appendChild(el("span", { class: "rh-t" }, j < 0 ? "start of the rail" : "end of the rail")); return; }
+        const o = M.storyById[id], sw = el("span", { class: "sw" }); sw.style.background = M.KIND_COLORS[o.kind];
+        b.appendChild(sw); b.appendChild(el("span", { class: "rh-t" }, shortTitle(o.title)));
+        const extra = rail.type === "strength" ? o._score.toFixed(2) : rail.type === "links" ? rail.links.rel.get(id).replace(/-/g, " ") : M.yearsText(o.years);
+        b.appendChild(el("span", { class: "rh-x" }, extra));
+      };
+      peek(i - 1, ".rh-prev"); peek(i + 1, ".rh-next");
+      railHud.querySelectorAll(".rh-rails b").forEach(b => b.classList.toggle("on", b.dataset.r === rail.type));
+    }
+    railHud.querySelector(".rh-prev").addEventListener("click", () => railStep(-1));
+    railHud.querySelector(".rh-next").addEventListener("click", () => railStep(1));
+    railHud.querySelectorAll(".rh-rails b").forEach(b => b.addEventListener("click", () => { if (rail) goRail(b.dataset.r, rail.sid); }));
+
+    // ---------- search ----------
+    const searchEl = $("search"), resultsEl = $("results");
+    const searchIndex = D.stories.map(s => ({ s, text: [s.title, s.summary || "", M.placeText(s), M.KIND_NAMES[s.kind], M.regionOf(s), M.yearsText(s.years),
+      ...s.tellings.map(t => (t.teller_name || M.personName(t.teller)) + " " + t.cites.map(M.personName).join(" "))].join(" ").toLowerCase() }));
+    let resultIds = [], resultHi = 0;
+    const closeResults = () => resultsEl.classList.remove("open");
+    function renderResults() {
+      const q = searchEl.value.trim().toLowerCase();
+      resultsEl.innerHTML = "";
+      if (!q) { resultIds = []; closeResults(); return; }
+      const words = q.split(/\s+/);
+      const hits = searchIndex.filter(x => words.every(w => x.text.includes(w)))
+        .sort((a, b) => (b.s.title.toLowerCase().includes(q) - a.s.title.toLowerCase().includes(q)) || a.s._tier - b.s._tier || b.s._score - a.s._score).slice(0, 12);
+      resultIds = hits.map(h => h.s.id); resultHi = 0;
+      if (!hits.length) resultsEl.appendChild(el("li", { class: "none" }, "No story matches."));
+      hits.forEach((h, i) => {
+        const li = el("li", { role: "option" }), sw = el("span", { class: "sw" }); sw.style.background = M.KIND_COLORS[h.s.kind];
+        li.appendChild(sw); li.appendChild(el("span", { class: "t" }, h.s.title)); li.appendChild(el("span", { class: "s" }, M.yearsText(h.s.years) + " · " + M.TIERS[h.s._tier].name));
+        li.addEventListener("mousedown", ev => { ev.preventDefault(); chooseResult(i); });
+        resultsEl.appendChild(li);
+      });
+      [...resultsEl.children].forEach((li, i) => li.classList.toggle("hi", i === resultHi && resultIds.length > 0));
+      resultsEl.classList.add("open");
+    }
+    function chooseResult(i) { const sid = resultIds[i]; if (!sid) return; closeResults(); searchEl.blur(); select(sid, { fly: true }); }
+    searchEl.addEventListener("input", renderResults);
+    searchEl.addEventListener("focus", () => { if (searchEl.value.trim()) renderResults(); });
+    searchEl.addEventListener("blur", () => setTimeout(closeResults, 120));
+    searchEl.addEventListener("keydown", e => {
+      if (e.key === "ArrowDown" || e.key === "ArrowUp") {
+        e.preventDefault(); resultHi = Math.max(0, Math.min(resultIds.length - 1, resultHi + (e.key === "ArrowDown" ? 1 : -1)));
+        [...resultsEl.children].forEach((li, i) => li.classList.toggle("hi", i === resultHi));
+      } else if (e.key === "Enter") { e.preventDefault(); chooseResult(resultHi); }
+      else if (e.key === "Escape") { e.preventDefault(); if (searchEl.value) { searchEl.value = ""; renderResults(); } else searchEl.blur(); }
     });
-    if (s.documents.length) {
-      box.appendChild(el("h3", {}, "Documents"));
-      var ul = el("ul", { class: "docs" });
-      s.documents.forEach(function (x) {
-        var li = el("li");
-        if (x.url) li.appendChild(el("a", { href: x.url, target: "_blank", rel: "noopener" }, x.title)); else li.appendChild(el("span", {}, x.title));
-        if (x.date) li.appendChild(el("span", { class: "show" }, " (" + x.date + ")"));
-        ul.appendChild(li);
-      });
-      box.appendChild(ul);
-    }
-    var rel = d.links.filter(function (l) { return l.a === s.id || l.b === s.id; });
-    if (rel.length) {
-      box.appendChild(el("h3", {}, "Overlaps"));
-      var ul2 = el("ul", { class: "related" });
-      rel.forEach(function (l) {
-        var other = l.a === s.id ? l.b : l.a;
-        var os = d.stories.filter(function (x) { return x.id === other; })[0];
-        if (!os) return;
-        var li = el("li"); li.appendChild(el("span", { class: "rel " + l.relation }, l.relation));
-        var b = el("button", { type: "button" }, os.title);
-        b.addEventListener("click", function () { select(state.groups.byStory[other]); });
-        li.appendChild(b);
-        if (l.note) li.appendChild(el("span", { class: "show" }, " (" + l.note + ")"));
-        ul2.appendChild(li);
-      });
-      box.appendChild(ul2);
-    }
-  }
 
-  function fail(msg) {
-    var st = document.getElementById("status"); st.textContent = msg; st.hidden = false;
-  }
+    // ---------- the keys overlay: shown once per visit, folded after first use, K toggles ----------
+    const keysWrap = $("keys-wrap");
+    let usedYet = false, seen = false;
+    try { seen = sessionStorage.getItem("nhi-keys-seen") === "1"; sessionStorage.setItem("nhi-keys-seen", "1"); } catch (e) { seen = false; }
+    const setKeysCollapsed = c => keysWrap.classList.toggle("collapsed", c);
+    function usedOnce() { if (usedYet) return; usedYet = true; setTimeout(() => setKeysCollapsed(true), 4000); }
+    setKeysCollapsed(seen || hash.has("nohint") || window.innerWidth < 760);
+    $("keys-hide").addEventListener("click", () => setKeysCollapsed(true));
+    $("keys-show").addEventListener("click", () => setKeysCollapsed(false));
 
-  function start(data) {
-    if (!data || !Array.isArray(data.stories) || !Array.isArray(data.eras) || !Array.isArray(data.places)) {
-      fail("data.json is not a build of pipeline.build (stories, eras and places expected)"); return;
+    // ---------- modes ----------
+    function setMode(name, instant) {
+      const next = name === "globe" ? getGlobe() : corridor;
+      if (view === next) return;
+      if (view) { view.deactivate(); hover(null); }
+      view = next;
+      document.body.classList.toggle("mode-corridor", name !== "globe");
+      document.body.classList.toggle("mode-globe", name === "globe");
+      document.querySelectorAll("#mode-seg button").forEach(b => b.classList.toggle("on", b.dataset.mode === name));
+      $("subtitle").textContent = name === "globe"
+        ? "Regions sized by how many stories they hold, eras as shells above them. Stories as told, not facts."
+        : "Time runs ahead of you, stretched where many stories are told. The better attested, the nearer the centre and the brighter. Stories as told, not facts.";
+      resize();
+      view.activate();
+      view.applyVisibility(); view.restyle(); view.setSelected(selected); view.setEmphasis(null);
+      if (rail) view.railArrive(rail.sid, true);
+      else if (selected) view.flyTo(selected, instant !== false);
+      writeHash();
     }
-    state.data = data;
-    render(data);
-    var want = window.NHI_SELECT || (location.hash.indexOf("#story=") === 0 ? decodeURIComponent(location.hash.slice(7)) : null);
-    if (want && data.aliases) want = data.aliases[want] || want;  // an id a fold retired opens the story that absorbed it
-    if (want && state.groups.byStory[want]) select(state.groups.byStory[want]);
-    var timer = null;
-    window.addEventListener("resize", function () { clearTimeout(timer); timer = setTimeout(function () { render(data); }, 150); });
-  }
+    document.querySelectorAll("#mode-seg button").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
 
-  themeInit();
-  document.getElementById("close").addEventListener("click", function () {
-    document.getElementById("panel").hidden = true; state.selected = null;
-    document.querySelectorAll(".story.selected").forEach(function (n) { n.classList.remove("selected"); });
-  });
-  if (location.protocol === "file:") {
-    // a page opened from disk cannot fetch: build.py writes the same object as data.js
-    var sc = document.createElement("script");
-    sc.src = "data.js";
-    sc.onload = function () { if (window.NHI_DATA) start(window.NHI_DATA); else fail("data.js loaded but set no NHI_DATA: run pipeline.build"); };
-    sc.onerror = function () { fail("data.js not found beside index.html: run pipeline.build"); };
-    document.head.appendChild(sc);
-  } else {
-    fetch("data.json", { cache: "no-store" }).then(function (r) {
-      if (!r.ok) throw new Error("data.json: HTTP " + r.status);
-      return r.json();
-    }).then(start).catch(function (e) { fail(String(e && e.message || e) + " (run pipeline.build)"); });
+    // ---------- keys ----------
+    const isTyping = t => t && (t.isContentEditable || t.tagName === "TEXTAREA" || (t.tagName === "INPUT" && t.type !== "range" && t.type !== "checkbox" && t.type !== "button"));
+    window.addEventListener("keydown", e => {
+      if (isTyping(e.target) || e.metaKey || e.ctrlKey || e.altKey) return;
+      if (e.target && e.target.type === "range" && /^Arrow/.test(e.code)) return;   // a focused slider keeps its arrows
+      const c = e.code;
+      if (c === "Escape") {
+        if (rail) { leaveRail(); return; }
+        if (document.body.classList.contains("panel-open")) { closePanel(); return; }
+        view.escape(); return;
+      }
+      if (c === "Slash" || e.key === "/") { e.preventDefault(); searchEl.focus(); return; }
+      if (c === "KeyK") { setKeysCollapsed(!keysWrap.classList.contains("collapsed")); return; }
+      if (c === "KeyM") { setMode(view.name === "globe" ? "corridor" : "globe"); return; }
+      if (c === "Tab") { e.preventDefault(); snap(); usedOnce(); return; }
+      if (RAIL_CODES[c]) { e.preventDefault(); if (rail) goRail(RAIL_CODES[c], rail.sid); else snap(RAIL_CODES[c]); usedOnce(); return; }
+      if (c === "BracketRight" || c === "Period" || c === "BracketLeft" || c === "Comma") {
+        e.preventDefault(); if (!e.repeat) holdStep(c, c === "BracketRight" || c === "Period" ? 1 : -1); usedOnce(); return;
+      }
+      view.keydown(e);
+    });
+    window.addEventListener("keyup", e => { if (stepHold && e.code === stepHold.code) clearHold(); view.keyup(e); });
+    window.addEventListener("blur", () => { view.blur(); clearHold(); });
+    // a clicked button gives focus back, so Space and the arrows fly instead of pressing it again
+    document.addEventListener("click", e => { const b = e.target.closest && e.target.closest("button"); if (b) b.blur(); });
+
+    // ---------- size and loop ----------
+    function resize() {
+      const w = window.innerWidth, h = window.innerHeight;
+      renderer.setSize(w, h, false);
+      corridor.resize(w, h);
+      if (globe) globe.resize(w, h);
+    }
+    window.addEventListener("resize", resize);
+
+    // ---------- start from the link: #story=, #mode=globe, #rail=, #trust=, #nohint, and each view's own ----------
+    if (hash.has("trust")) {
+      const t = parseFloat(hash.get("trust"));
+      if (!Number.isFinite(t) || t < M.trust.min || t > M.trust.max) throw new Error("the link asks for institutional trust " + JSON.stringify(hash.get("trust")) + "; expected " + M.trust.min + " to " + M.trust.max + ".");
+    }
+    const startMode = hash.get("mode") || "corridor";
+    if (startMode !== "corridor" && startMode !== "globe") throw new Error("the link asks for mode " + JSON.stringify(startMode) + "; expected corridor or globe.");
+    const panelEl = $("panel"); panelEl.style.transition = "none";
+    requestAnimationFrame(() => requestAnimationFrame(() => { panelEl.style.transition = ""; }));
+    setMode(startMode);
+    view.applyHash(hash);
+    setTrust(hash.has("trust") ? parseFloat(hash.get("trust")) : M.trust.def);
+    if (hash.has("story")) {
+      const sid = M.resolve(hash.get("story"));
+      if (!sid) throw new Error("the link names story " + JSON.stringify(hash.get("story")) + ", which is neither a story nor an alias of one in the data.");
+      select(sid, { fly: true, instant: true });
+      if (view.setPanelShiftInstant) view.setPanelShiftInstant();
+    }
+    if (hash.has("rail")) {
+      const r = hash.get("rail");
+      if (!RAIL_NAMES[r]) throw new Error("the link asks for rail " + JSON.stringify(r) + "; expected time, kind, strength or links.");
+      view.syncCamera();
+      const sid = selected || view.nearestStory();
+      if (sid) goRail(r, sid, true);
+    }
+    $("subtitle").title = D.stories.length + " stories, corpus of " + (D.corpus_date || "no date") + ", built " + (D.built || "unknown");
+    $("loading").hidden = true;
+
+    let last = performance.now();
+    function frame(now) {
+      const dt = Math.min(0.1, Math.max(0, (now - last) / 1000)); last = now;
+      view.frame(dt, now);
+      requestAnimationFrame(frame);
+    }
+    requestAnimationFrame(frame);
   }
 })();

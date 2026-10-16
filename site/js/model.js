@@ -24,6 +24,8 @@
   const PROFILE_NUM = ["independent_tellers", "firsthand", "official_records", "official_conclusions", "journalist", "secondhand", "researcher", "host", "documents", "credited_documents", "repetitions"];
   const WEIGHT_KEYS = ["firsthand", "official", "journalist", "secondhand", "researcher", "host", "document_telling", "document_credited"];
   const DISCUSSION_KINDS = ["debunk", "rebunk", "note"];
+  const STORY_IMAGE_KINDS = ["object", "place-then", "place-now"];
+  const LICENCE_KINDS = ["free", "fair-use"];
   const S_MIN = 0.2, S_MAX = 10;   // the log scale the views and the score bar use; 1.0 is the corpus median
 
   function fail(msg) { throw new Error("NHI data: " + msg); }
@@ -43,6 +45,16 @@
   function strengthOf(score) { // 0 weakest, 1 strongest, log scale from S_MIN to S_MAX
     const t = (Math.log(Math.max(S_MIN, Math.min(S_MAX, score))) - Math.log(S_MIN)) / (Math.log(S_MAX) - Math.log(S_MIN));
     return Math.min(1, Math.max(0, t));
+  }
+
+  // an image block from pipeline.build: a path relative to the page, a kind from the list, a caption, a credit and a licence
+  function checkImage(x, at, kinds) {
+    need(x && typeof x === "object", at + " is not an object.");
+    need(isStr(x.file) && !/^([a-z]+:|\/)/i.test(x.file), at + " needs a file path relative to the page.");
+    need(kinds.includes(x.kind), at + " has kind " + JSON.stringify(x.kind) + "; expected one of " + kinds.join(", ") + ".");
+    need(LICENCE_KINDS.includes(x.licence_kind), at + " has licence_kind " + JSON.stringify(x.licence_kind) + "; expected free or fair-use.");
+    need(isStr(x.caption) && isStr(x.credit) && isStr(x.licence), at + " needs a caption, a credit and a licence.");
+    need(isStr(x.source) && /^https?:\/\//.test(x.source), at + " needs a source URL.");
   }
 
   // ---------- validation ----------
@@ -112,6 +124,16 @@
         });
       }
       if (s.notes_open != null) need(Number.isInteger(s.notes_open) && s.notes_open >= 0, at + " notes_open must be a count.");
+      if (s.images != null) {
+        need(Array.isArray(s.images), at + " images must be a list.");
+        s.images.forEach((x, j) => checkImage(x, at + " image " + j, STORY_IMAGE_KINDS));
+      }
+    });
+    Object.keys(D.people).forEach(id => {
+      const im = D.people[id] && D.people[id].image;
+      if (im == null) return;
+      checkImage(im, "person " + id + " image", ["headshot"]);
+      need(im.licence_kind === "free", "person " + id + " has a fair-use headshot; a headshot is free-licensed only.");
     });
     D.links.forEach((l, i) => {
       need(ids.has(l.a) && ids.has(l.b), "link " + i + " (" + l.a + " to " + l.b + ") names a story that does not exist.");

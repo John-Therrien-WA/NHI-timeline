@@ -1,5 +1,7 @@
 /* The story panel: what is told, by whom, where to hear it, how well it is attested at the reader's
    institutional trust, what it is linked to, the back and forth about it, and a box for notes.
+   A story's photographs (objects and places) sit under the summary; a teller's headshot sits only
+   beside that teller's own tellings, never as the story's picture.
    NHI.panel(C) returns { render(sid) }. */
 (function () {
   "use strict";
@@ -16,6 +18,37 @@
     const SHOWN = ["independent_tellers", "firsthand", "official_records", "official_conclusions", "journalist", "secondhand", "researcher", "host", "documents", "credited_documents", "repetitions"];
     const swatch = (color, cls) => { const s = el("span", { class: cls || "sw" }); s.style.background = color; return s; };
     const num = (label, value) => { const n = el("span", { class: "num" }); n.appendChild(document.createTextNode(label + " ")); n.appendChild(el("b", null, value)); return n; };
+
+    const IMAGE_KINDS = { "object": "object", "place-then": "the place then", "place-now": "the place today" };
+    const creditText = x => x.credit + ", " + x.licence + (x.licence_kind === "fair-use" ? ", fair use" : "");
+    const headshotOf = id => (D.people[id] && D.people[id].image) || null;
+
+    function imageStrip(s) {
+      const strip = el("div", { class: "imgstrip" + (s.images.length === 1 ? " one" : "") });
+      s.images.forEach(x => {
+        const fig = el("figure", { class: "img" + (x.licence_kind === "fair-use" ? " fair" : "") });
+        const open = el("a", { href: x.file, target: "_blank", rel: "noopener", title: "open the image" });
+        open.appendChild(el("img", { src: x.file, alt: x.caption, loading: "lazy" }));
+        fig.appendChild(open);
+        const cap = el("figcaption");
+        cap.appendChild(el("span", { class: "ik" }, IMAGE_KINDS[x.kind] + (x.date ? ", " + x.date : "")));
+        cap.appendChild(document.createTextNode(" " + x.caption));
+        fig.appendChild(cap);
+        const cr = el("div", { class: "credit" });
+        cr.appendChild(el("a", { href: x.source, target: "_blank", rel: "noopener" }, creditText(x)));
+        fig.appendChild(cr);
+        strip.appendChild(fig);
+      });
+      return strip;
+    }
+
+    function headshot(id, name) {
+      const x = headshotOf(id);
+      if (!x) return null;
+      const a = el("a", { class: "headshot", href: x.source, target: "_blank", rel: "noopener", title: name + ". Photograph: " + creditText(x) });
+      a.appendChild(el("img", { src: x.file, alt: "Photograph of " + name, loading: "lazy" }));
+      return a;
+    }
 
     function relRow(sid, note, warn) {
       const o = M.storyById[sid];
@@ -65,7 +98,10 @@
     function telling(s, t) {
       const box = el("div", { class: "telling" });
       const who = el("div", { class: "who" });
-      who.appendChild(el("b", null, t.teller_name || M.personName(t.teller)));
+      const name = t.teller_name || M.personName(t.teller);
+      const face = headshot(t.teller, name);
+      if (face) who.appendChild(face);
+      who.appendChild(el("b", null, name));
       who.appendChild(el("span", { class: "badge" }, M.TELLING_KINDS[t.kind] || t.kind));
       if (t.repetition) who.appendChild(el("span", { class: "badge" }, "repetition"));
       const n = s.shared_teller_by && s.shared_teller_by[t.teller];
@@ -128,6 +164,7 @@
       body.appendChild(tag);
       body.appendChild(el("h2", null, s.title));
       if (s.summary) body.appendChild(el("p", { class: "summary" }, s.summary));
+      if ((s.images || []).length) body.appendChild(imageStrip(s));
       const dl = el("dl");
       const era = s.era ? M.eraById[s.era].era : null;
       [["Years", M.yearsText(s.years)], ["Era", era ? era.name + " (" + era.from + " to " + era.to + ")" : "no era"], ["Place", M.placeText(s)], ["Region", M.regionOf(s)]]
@@ -142,6 +179,18 @@
       const by = s.shared_teller_by || {}, ids = Object.keys(by);
       if (ids.length > 1) {
         const p = el("p", { class: "group-h" }, "Also told by these tellers: " + ids.map(id => M.personName(id) + " " + by[id] + (by[id] === 1 ? " story" : " stories")).join(", ") + ".");
+        body.appendChild(p);
+      }
+      const faces = [...new Set(s.tellings.map(t => t.teller))].filter(headshotOf);
+      if (faces.length) {
+        const p = el("p", { class: "group-h portraits" }, "Portraits beside the tellings: ");
+        faces.forEach((id, i) => {
+          const x = headshotOf(id);
+          if (i) p.appendChild(document.createTextNode("; "));
+          p.appendChild(document.createTextNode(M.personName(id) + ", "));
+          p.appendChild(el("a", { href: x.source, target: "_blank", rel: "noopener" }, creditText(x)));
+        });
+        p.appendChild(document.createTextNode("."));
         body.appendChild(p);
       }
 

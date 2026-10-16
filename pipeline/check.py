@@ -14,8 +14,11 @@ it), is no alias itself, and no alias is the id of a different person; every `di
 a known `kind`, a `by` and a `text`, a `source` that is an http(s) URL or an `episode` in
 data/episodes with an h:mm:ss `time`, and only the schema's fields (role and date from their lists
 and formats); every data/notes/<id>.json names a story or an alias and holds entries with `by`,
-`date`, `text` and a `status` of open, folded or dropped. Prints every problem, naming the story and
-the entry, and exits 1 when there is one.
+`date`, `text` and a `status` of open, folded or dropped; every image sidecar under data/images is
+well formed, its owner a story, an alias or a person, its kind fitting the owner, no headshot fair
+use, its file the JPEG or PNG it names under site/ within the size its licence allows, and every file
+under site/images has a sidecar (`images.problems`). Prints every problem, naming the story and the
+entry, and exits 1 when there is one.
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p`: the episodes without a `links/<id>.json` are extracted and merged unlinked
@@ -43,9 +46,11 @@ import shutil
 import sys
 import tempfile
 from pathlib import Path
+from unittest import mock
 
 import json
 
+from . import images
 from .common import (DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, NOTE_KEYS, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, seconds)
 
@@ -129,15 +134,10 @@ def problems(root: Root) -> list[str]:
     era_ids = {e["id"] for e in eras}
     place_ids = {p["id"] for p in places}
     caps: dict[str, Captions] = {}
-    owner: dict[str, str] = {}
-    for sid, s in sorted(stories.items()):
-        for a in s.get("aliases", []):
-            if a in stories:
-                out.append(f"story {sid}: alias {a!r} is also a story id")
-            elif a in owner:
-                out.append(f"story {sid}: alias {a!r} is also an alias of {owner[a]}")
-            else:
-                owner[a] = sid
+    try:
+        owner = root.story_aliases(stories)
+    except SystemExit as e:
+        return [str(e)]
     try:
         aliases = person_aliases(root.path)
     except SystemExit as e:
@@ -244,6 +244,7 @@ def problems(root: Root) -> list[str]:
             if r.get("relation") not in RELATIONS:
                 out.append(f"{where}: relation {r.get('relation')!r} is not one of {RELATIONS}")
     out += notes_problems(root, stories, owner)
+    out += images.problems(root, stories, owner, people)
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
             out.append(f"episode {eid}: captions file {e['captions']} is missing")
@@ -339,6 +340,17 @@ def expectations(root: Root) -> list[str]:
             out.append(f"expect: story {sid} has {len(b['discussion'])} discussion entries in site/data.json, expected {e.get('discussion', 0)}")
         if b["notes_open"] != e.get("notes_open", 0):
             out.append(f"expect: story {sid} has notes_open {b['notes_open']} in site/data.json, expected {e.get('notes_open', 0)}")
+        files = [i.get("file") for i in b.get("images", [])] if isinstance(b.get("images"), list) else None
+        if files != e.get("images", []):
+            out.append(f"expect: story {sid} has images {files} in site/data.json, expected {e.get('images', [])}")
+    people_built = load_json(root.site / "data.json")["people"]
+    want_img = exp.get("people_images", {})
+    for pid, pv in sorted(people_built.items()):
+        got = (pv.get("image") or {}).get("file") if "image" in pv else "absent"
+        if got != want_img.get(pid):
+            out.append(f"expect: person {pid} has image {got!r} in site/data.json, expected {want_img.get(pid)!r}")
+    out += image_refusal_problems(root)
+    out += image_ingest_problems(root)
     flare = built.get("the-lantern-was-a-flare-1958", {}).get("discussion", [])
     if len(flare) < 2 or not str(flare[1].get("url", "")).endswith("t=27"):
         out.append(f"expect: the flare's second discussion entry has url {flare[1].get('url') if len(flare) > 1 else None!r}, expected one ending t=27")
@@ -369,6 +381,157 @@ def expectations(root: Root) -> list[str]:
             out.append(f"expect: the extraction prompt has no line {line!r}")
     if any(k in prompt for k in extract.PLACEHOLDERS):
         out.append("expect: the extraction prompt still holds a placeholder")
+    return out
+
+
+def _image_context(root: Root):
+    stories, people = root.load_dir(root.stories), root.load_dir(root.people)
+    return stories, root.story_aliases(stories), people
+
+
+def image_refusal_problems(root: Root) -> list[str]:
+    """`images.problems` refuses each kind of bad sidecar or file, written one at a time into the
+    fixture root and removed again: the fixture's own images must pass, and each case must be named."""
+    import struct
+    stories, alias, people = _image_context(root)
+    vault = "the-vault-beneath-mount-fictus-1971"
+    good = load_json(root.data / "images" / "bo-fixture" / "1.json")
+    png = (root.site / "images" / "bo-fixture" / "1.png").read_bytes()
+    big = b"\x89PNG\r\n\x1a\n" + struct.pack(">I", 13) + b"IHDR" + struct.pack(">IIBBBBB", 600, 40, 8, 2, 0, 0, 0)
+    story_sc = {**good, "kind": "object", "caption": "A fictional crate."}
+    opaque = b"\x89PNG\r\n\x1a\n" + struct.pack(">I", 13) + b"IHDR" + struct.pack(">IIBBBBB", 1, 1, 8, 2, 0, 0, 0)
+    alias_sc = load_json(root.data / "images" / vault / "1.json")
+    alias_jpg = (root.site / "images" / vault / "1.jpg").read_bytes()
+    survivor = alias[vault]  # the vault's directory is an alias; its survivor must not hold the same image_url
+    cases = [  # (what, owner dir, n, sidecar or None, site file bytes or None, ext, the words the problem must carry)
+        ("a fair-use headshot", "bo-fixture", 2, {**good, "licence_kind": "fair-use"}, png, "png", "never fair use"),
+        ("a headshot as a story's picture", vault, 2, {**good, "file": f"images/{vault}/2.png"}, png, "png", "does not fit a story owner"),
+        ("an object owned by a person", "bo-fixture", 2, {**story_sc}, png, "png", "does not fit a person owner"),
+        ("an owner that is nothing", "nobody-fixture", 1, {**good, "file": "images/nobody-fixture/1.png"}, png, "png", "is no story id, alias or person id"),
+        ("an unknown field", "bo-fixture", 2, {**good, "photographer": "x"}, png, "png", "unknown field 'photographer'"),
+        ("a missing licence", "bo-fixture", 2, {k: v for k, v in good.items() if k != "licence"}, png, "png", "missing licence"),
+        ("a source that is not http(s)", "bo-fixture", 2, {**good, "source": "file:///x"}, png, "png", "is not an http(s) URL"),
+        ("a missing file", "bo-fixture", 2, {**good}, None, "png", "does not exist"),
+        ("a file that is no image", "bo-fixture", 2, {**good}, b"not an image at all", "png", "neither a JPEG nor a PNG"),
+        ("a file at another path", "bo-fixture", 2, {**good, "file": "images/bo-fixture/7.png"}, png, "png", "must be images/bo-fixture/2.jpg"),
+        ("a fair-use image above 480 px", vault, 2, {**story_sc, "licence_kind": "fair-use", "file": f"images/{vault}/2.png"}, big, "png", "larger than the 480 px"),
+        ("a file no sidecar claims", "bo-fixture", 9, None, png, "png", "no sidecar under data/images claims it"),
+        ("a PNG without transparency", "bo-fixture", 2, {**good}, opaque, "png", "without transparency"),
+        ("an alias directory's image_url again under the survivor", survivor, 1, {**alias_sc, "file": f"images/{survivor}/1.jpg"}, alias_jpg, "jpg", "image_url is the same as"),
+    ]
+    out: list[str] = []
+    for what, owner_dir, n, sc, data, ext, words in cases:
+        sc_file = root.data / "images" / owner_dir / f"{n}.json"
+        img = root.site / "images" / owner_dir / f"{n}.{ext}"
+        made = []
+        if sc is not None:
+            sc ={**sc, "file": sc["file"] if sc.get("file") != good["file"] else f"images/{owner_dir}/{n}.{ext}"}
+            sc_file.parent.mkdir(parents=True, exist_ok=True)
+            sc_file.write_text(json.dumps(sc), encoding="utf-8")
+            made.append(sc_file)
+        if data is not None:
+            img.parent.mkdir(parents=True, exist_ok=True)
+            img.write_bytes(data)
+            made.append(img)
+        try:
+            got = images.problems(root, stories, alias, people)
+        finally:
+            for f in made:
+                f.unlink()
+            for d in {f.parent for f in made}:
+                if not any(d.iterdir()):
+                    d.rmdir()
+        if not any(words in g for g in got):
+            out.append(f"expect: images.problems let {what} through (got {got})")
+    left = images.problems(root, stories, alias, people)
+    if left:
+        out.append(f"expect: the fixture's own images have problems after the refusal cases: {left}")
+    return out
+
+
+def image_ingest_problems(root: Root) -> list[str]:
+    """`images.ingest` offline, with a downloader that serves the fixture's own JPEG: a new object
+    image lands under the story id as 1.jpg with its sidecar, an image_url the alias directory already
+    holds is kept, a second run keeps everything, a failed download stops the run or, with keep_going,
+    is listed while the rest goes on, and a bad manifest is refused before anything is fetched. The
+    files it makes pass `images.problems` and are removed afterwards."""
+    jpeg = (root.site / "images" / "the-vault-beneath-mount-fictus-1971" / "1.jpg").read_bytes()
+    asked: list[str] = []
+
+    def fetch(url: str) -> bytes:
+        asked.append(url)
+        if url.endswith("/gone.jpg"):
+            raise SystemExit(f"download failed: {url}: HTTP 404 Not Found")
+        if url.endswith("/slow.jpg"):  # the real downloader, its urlopen timing out
+            with mock.patch.object(images.urllib.request, "urlopen", side_effect=TimeoutError("timed out")):
+                return images.download(url)
+        if url.endswith("/page.jpg"):
+            return b"<html>"
+        return jpeg
+
+    def quiet(line: str) -> None:
+        pass
+
+    vault = "a-vault-under-mount-fictus-1971"
+    entry = {"owner": vault, "kind": "object", "image_url": "https://example.org/fixture/crate.jpg",
+             "source": "https://example.org/fixture/crate", "licence": "Public domain (fixture)", "licence_kind": "free",
+             "credit": "Fixture Survey Office", "caption": "A fictional crate in a fictional vault.", "date": "1971-05"}
+    held = {**entry, "owner": "the-vault-beneath-mount-fictus-1971", "image_url": "https://example.org/fixture/mount-fictus.jpg", "kind": "place-then"}
+    out: list[str] = []
+    made_dir = root.data / "images" / vault
+    made_site = root.site / "images" / vault
+    try:
+        lines, failures = images.ingest(root, [entry, held], fetch=fetch, echo=quiet, today="2026-10-16")
+        sc_file = made_dir / "1.json"
+        if not sc_file.exists() or not (made_site / "1.jpg").exists():
+            out.append(f"expect: images.ingest did not write {vault}/1.json and site/images/{vault}/1.jpg (printed {lines})")
+        else:
+            sc = load_json(sc_file)
+            want = {"file": f"images/{vault}/1.jpg", **{k: entry[k] for k in ("kind", "caption", "source", "image_url", "licence", "licence_kind", "credit", "date")}, "fetched": "2026-10-16"}
+            if sc != want or list(sc) != list(images.SIDECAR_KEYS):
+                out.append(f"expect: images.ingest wrote the sidecar {sc}, expected {want} in the schema's field order")
+        if asked != [entry["image_url"]] or failures or not lines[1].startswith("kept"):
+            out.append(f"expect: images.ingest fetched {asked} and printed {lines}, expected one fetch and the held image kept")
+        asked.clear()
+        lines, _ = images.ingest(root, [entry, held], fetch=fetch, echo=quiet)
+        if asked or not all(l.startswith("kept") for l in lines):
+            out.append(f"expect: a second images.ingest fetched {asked} and printed {lines}, expected everything kept")
+        gone = {**entry, "image_url": "https://example.org/fixture/gone.jpg"}
+        later = {**entry, "image_url": "https://example.org/fixture/lid.jpg", "licence_kind": "fair-use"}
+        try:
+            images.ingest(root, [gone, later], fetch=fetch, echo=quiet)
+            out.append("expect: images.ingest went on after a failed download without keep_going")
+        except SystemExit as x:
+            if "HTTP 404" not in str(x) or "gone.jpg" not in str(x):
+                out.append(f"expect: a failed download raised {x!s}, expected the URL and the HTTP status")
+        lines, failures = images.ingest(root, [gone, later], fetch=fetch, echo=quiet, keep_going=True)
+        if len(failures) != 1 or not (made_dir / "2.json").exists():
+            out.append(f"expect: images.ingest with keep_going listed {failures} and wrote {sorted(p.name for p in made_dir.iterdir())}, expected one failure and 2.json")
+        for what, url in (("a download that times out", "https://example.org/fixture/slow.jpg"),
+                          ("a download that is no image", "https://example.org/fixture/page.jpg")):
+            lines, failures = images.ingest(root, [{**entry, "image_url": url}], fetch=fetch, echo=quiet, keep_going=True)
+            if len(failures) != 1 or url not in failures[0]:
+                out.append(f"expect: images.ingest with keep_going listed {failures} for {what}, expected one failure naming {url}")
+        stories, alias, people = _image_context(root)
+        left = images.problems(root, stories, alias, people)
+        if left:
+            out.append(f"expect: the images ingest wrote fail the check: {left}")
+        for what, bad in (("a fair-use headshot", {**entry, "owner": "bo-fixture", "kind": "headshot", "licence_kind": "fair-use"}),
+                          ("an owner that is nothing", {**entry, "owner": "nobody-fixture"}),
+                          ("a headshot for a story", {**entry, "kind": "headshot"}),
+                          ("an object for a person", {**entry, "owner": "bo-fixture"}),
+                          ("a file:// image_url", {**entry, "image_url": "file:///etc/hosts"}),
+                          ("a missing credit", {k: v for k, v in entry.items() if k != "credit"})):
+            asked.clear()
+            try:
+                images.ingest(root, [{**entry, "image_url": "https://example.org/fixture/first.jpg"}, bad], fetch=fetch, echo=quiet)
+                out.append(f"expect: images.ingest accepted a manifest with {what}")
+            except SystemExit:
+                if asked:
+                    out.append(f"expect: images.ingest fetched {asked} before refusing a manifest with {what}")
+    finally:
+        shutil.rmtree(made_dir, ignore_errors=True)
+        shutil.rmtree(made_site, ignore_errors=True)
     return out
 
 

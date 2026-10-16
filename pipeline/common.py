@@ -65,6 +65,21 @@ class Root:
             out[f.stem] = obj
         return out
 
+    def story_aliases(self, stories: dict[str, dict] | None = None) -> dict[str, str]:
+        """{alias: story id} from every story's `aliases` (the stories loaded here when not given).
+        Fails when an alias is also a story id or is claimed by two stories."""
+        if stories is None:
+            stories = self.load_dir(self.stories)
+        owner: dict[str, str] = {}
+        for sid, s in sorted(stories.items()):
+            for a in s.get("aliases", []):
+                if a in stories:
+                    raise SystemExit(f"story {sid}: alias {a!r} is also a story id")
+                if a in owner:
+                    raise SystemExit(f"story {sid}: alias {a!r} is also an alias of {owner[a]}")
+                owner[a] = sid
+        return owner
+
     def load_notes(self) -> dict[str, list]:
         """The viewer-note inboxes, data/notes/<story id>.json, keyed by the file name (a story id or an
         alias). Fails when a file is not a list of objects or an entry's `status` is not one of

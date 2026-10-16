@@ -121,7 +121,10 @@
             "to": 1972
           }
         }
-      }
+      },
+      "images": [
+        "images/the-vault-beneath-mount-fictus-1971/1.jpg"
+      ]
     },
     "the-harbour-light-was-a-weather-balloon-1958": {
       "tier": "told-once",
@@ -178,5 +181,8 @@
       "fixture": "bo-fixture",
       "repo": "beau-fixture"
     }
-  ]
+  ],
+  "people_images": {
+    "bo-fixture": "images/bo-fixture/1.png"
+  }
 }

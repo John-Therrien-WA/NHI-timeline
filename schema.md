@@ -46,6 +46,36 @@ Every file is JSON, UTF-8, pretty-printed, one object per file, the file name eq
 
 The inbox of notes viewers left on a story, kept out of the story file until a person folds them in: a list of `{ "by", "date", "text", "status" }`, `date` as `YYYY`, `YYYY-MM` or `YYYY-MM-DD`, `status` one of `open` (not yet read into the data), `folded` (made into a `discussion` entry or another edit of the story) and `dropped` (read and left out). The file name is a story id or an alias of one. The page saves notes to its artifact database; a session pulls them into these files by hand and marks each as it folds or drops it. `Root.load_notes` refuses a file that is not a list of objects or an entry whose `status` is not one of the three, `check.py` validates the rest; `build.py` counts the open entries (those of the story's aliases too) as the story's `notes_open`; nothing else reads them.
 
+## Images (`data/images/<owner>/<n>.json`, `site/images/<owner>/<n>.jpg`)
+
+One sidecar per photograph, beside the file it describes. The owner is a story id (or an alias of one) or a person id; `n` is 1, 2, ... per owner. `pipeline/images.py` writes both from a manifest (the scouts' findings), and a person may correct a sidecar by hand.
+
+```json
+{
+  "file": "images/roswell-1947/1.jpg",
+  "kind": "place-then",
+  "caption": "The Foster ranch debris field near Corona, New Mexico, photographed in 1947.",
+  "source": "https://commons.wikimedia.org/wiki/File:...",
+  "image_url": "https://upload.wikimedia.org/wikipedia/commons/...",
+  "licence": "Public domain (US government work)",
+  "licence_kind": "free",
+  "credit": "US Army Air Forces",
+  "date": "1947-07",
+  "fetched": "2026-10-16"
+}
+```
+
+- `file`: the image path relative to `site/`, always `images/<owner>/<n>.jpg`, or `.png` when the source is a PNG with transparency. Free images are at most 1200 px on the long side, fair-use ones at most 480 px.
+- `kind`: for a story owner `object` (a related object), `place-then` (the place at the time, preferred) or `place-now` (the place today, the last resort); for a person owner `headshot`. A story's pictures are objects and places only: a real person's face is never put next to a claim they did not make, so a headshot appears on the page only beside that person's own tellings.
+- `caption`: one sentence saying what the photograph shows and when, with no claim that any story is true.
+- `source`: the http(s) page the image came from; `image_url`: the file that was downloaded (`images.py` keeps an image whose `image_url` the owner already holds).
+- `licence`: the licence exactly as the source states it. `licence_kind`: `free` (public domain, CC0, CC BY, CC BY-SA, US government works) or `fair-use` (news photos, book covers, press images, credited and kept at thumbnail size); a headshot is `free` only, never fair use and never a frame from an episode.
+- `credit`: the author or holder as the source states it. `date` (optional): when the photograph was taken, `YYYY`, `YYYY-MM` or `YYYY-MM-DD`. `fetched`: the day it was downloaded, `YYYY-MM-DD`. No other field.
+
+`check.py` refuses a sidecar with a missing or unknown field, an owner that is no story, alias or person, a kind that does not fit the owner, a fair-use headshot, a `file` that is not the JPEG or PNG at its own path, is a PNG without transparency or is larger than its licence allows, an `image_url` a story already holds under its id or an alias, and any file under `site/images/` no sidecar claims. `build.py` gives each story `images` (its own and its aliases' sidecars as `{ file, kind, caption, credit, licence, licence_kind, source, date }`, an empty list when none) and each person `image` (the first headshot's block, or null).
+
+The manifest `images.py` reads is a JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind", "credit", "caption", "date"? }`, the fields as above; the whole manifest is checked before anything is downloaded, and an image lands under the story id an alias resolves to.
+
 ## Candidates (`data/candidates/<video id>.json`)
 
 What `extract.py` pulled from one episode before merging: `{ "episode", "captions", "model", "chunks", "candidates": [...], "dropped": [...] }`. A candidate carries the prompt's answer as given (`title`, `story_kind`, `years_text`, `place_text`, `teller` and `cites` as names, `documents` as titles, `kind`, `quote`) plus the parsed `years` and the `from_s` and `to_s` located in the cues. `dropped` lists the answers whose quote was not verbatim, with the reason. Generated; `merge.py` reads it, nobody edits it.
@@ -59,6 +89,8 @@ What `extract.py` pulled from one episode before merging: `{ "episode", "caption
 ```json
 { "id": "jesse-michels", "name": "Jesse Michels", "roles": ["host"], "affiliation": "American Alchemy (YouTube)", "links": ["https://www.youtube.com/@AmericanAlchemy"], "note": "" }
 ```
+
+A person's headshot is not in this file: it is a sidecar under `data/images/<person id>/` (see Images).
 
 ## Episode (`data/episodes/<video id>.json`)
 

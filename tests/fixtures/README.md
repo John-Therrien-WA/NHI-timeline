@@ -46,3 +46,18 @@ flag and attestation, and for the vault its aliases, the tellings that carry a `
 `as_told` years; the downgraded candidates; "Beau Fixture" resolving to `bo-fixture` against this
 root and to `beau-fixture` against the repo's), and the host and guests `captions.host_and_guests`
 must take from a set of invented titles.
+
+Two images ride along, both drawn stand-ins a few hundred bytes to a kilobyte in size: a
+`place-then` photograph of Mount Fictus filed under the vault's alias id
+(`data/images/the-vault-beneath-mount-fictus-1971/1.json`, `site/images/.../1.jpg`), which
+`site/data.json` must show on the surviving vault story, and a free `headshot` of Bo Fixture
+(`data/images/bo-fixture/1.json`, a PNG with transparency), which must be Bo Fixture's `image` while
+every other person's is null. The fixture has no `bad/` folder, so the refusals are written into the
+temporary copy one at a time and removed again (`check.image_refusal_problems`): a fair-use
+headshot, a headshot as a story's picture, an object owned by a person, an owner that is nothing, an
+unknown field, a missing licence, a source that is not http(s), a missing file, a file that is no
+image, a file at another path, a fair-use image above 480 px and a file no sidecar claims must each
+be named. `check.image_ingest_problems` runs `images.ingest` offline with a downloader that serves
+the fixture's JPEG: a new image lands under the story id with its sidecar, an image URL the alias
+directory holds is kept, a second run fetches nothing, a failed download stops the run or is listed
+under `keep_going`, and a bad manifest is refused before anything is fetched.

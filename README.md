@@ -16,6 +16,7 @@ uv run python -m pipeline.extract <video id>            # claude -p over the cap
 uv run python -m pipeline.link <video id>               # claude -p: is each candidate the same story as one held, a variant, or new
 uv run python -m pipeline.merge                         # candidates into data/stories, data/people, data/documents
 uv run python -m pipeline.score                         # score into each story, data/scores.json
+uv run python -m pipeline.images <manifest.json>        # found photographs in: site/images/<owner>/<n>.jpg, data/images/<owner>/<n>.json
 uv run python -m pipeline.build                         # site/data.json and site/data.js
 uv run python -m pipeline.check                         # every story has a telling, every id resolves, every quote is verbatim
 open site/index.html                                    # the 3D page from disk (reads site/data.js)
@@ -42,6 +43,18 @@ copy of `tests/fixtures/`). A story the pipeline got wrong is corrected by hand 
 null `place` or missing `place_text`, nothing else. A place the extractor names in words that
 `data/place-aliases.json` does not know stays unresolved until an alias or a place is added; the next
 `merge` then fills it.
+
+The images stage downloads with a descriptive User-Agent and resizes with macOS `sips`. It is run
+sandboxed first, `.venv/bin/python -m pipeline.images <manifest> --keep-going`, with the hosts
+commons.wikimedia.org, upload.wikimedia.org and thumb.wikimedia.org allowed. Only when a run fails
+with the `sips` temporary-file error, or with truncated downloads (the sandbox proxy cuts larger
+bodies, seen as `IncompleteRead`), is that one command run again outside the sandbox; the run is
+idempotent, so the images already added are kept. Its manifest is a
+JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind", "credit",
+"caption", "date"? }` (`schema.md`, Images); an image already held is kept, so a manifest can be run
+again. To publish the page as an artifact, pass `site/images/` in the artifact's `files` beside
+`data.json`, so the relative `images/...` paths resolve; while any `fair-use` image is among them the
+artifact stays private.
 
 To fold viewer notes: pull the page's saved notes into `data/notes/<story id>.json` (status `open`), turn each
 worth keeping into a `discussion` entry or another edit of the story by hand, mark it `folded` or `dropped`, then

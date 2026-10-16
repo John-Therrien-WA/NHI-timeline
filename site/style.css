@@ -154,6 +154,20 @@ body.panel-open #panel { transform: none; }
 #panel .kindtag { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
 #panel .kindtag .sw { width: 9px; height: 9px; border-radius: 50%; }
 #panel .summary { color: #c4cbe0; margin: 6px 0 10px; }
+/* a story's photographs, under the summary; a teller's headshot, beside their own tellings only */
+.imgstrip { display: flex; gap: 8px; overflow-x: auto; margin: 0 0 12px; padding-bottom: 2px; }
+.imgstrip figure { flex: 0 0 220px; margin: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: rgba(255,255,255,0.02); }
+.imgstrip.one figure { flex: 1 1 auto; }
+.imgstrip img { display: block; width: 100%; height: 150px; object-fit: contain; background: #000; }
+.imgstrip.one img { height: auto; max-height: 280px; }
+.imgstrip figcaption { padding: 6px 9px 2px; font-size: 12px; color: #c4cbe0; }
+.imgstrip .ik { color: var(--muted); text-transform: uppercase; letter-spacing: 0.05em; font-size: 10.5px; }
+.imgstrip .credit { padding: 0 9px 7px; font-size: 11px; }
+.imgstrip .credit a { color: var(--muted); }
+.imgstrip .fair .credit a { color: var(--hl); }
+.who .headshot { align-self: center; flex-shrink: 0; line-height: 0; }
+.who .headshot img { width: 28px; height: 28px; border-radius: 50%; object-fit: cover; border: 1px solid var(--line); background: #000; }
+.portraits a { color: var(--muted); }
 #panel dl { display: grid; grid-template-columns: auto 1fr; gap: 3px 12px; margin: 0 0 12px; font-size: 13px; }
 #panel dt { color: var(--muted); }
 #panel dd { margin: 0; }

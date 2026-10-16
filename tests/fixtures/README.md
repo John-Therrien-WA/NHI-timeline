@@ -13,8 +13,11 @@ gives them, including one quote that is not verbatim and must be dropped, and on
 and `links/existing.json` holds the answers `link --existing` gets for their stories (Cy Fixture's
 vault folds into Bo Fixture's as `same`, the harbour log's flare becomes a `variant` of the
 lantern). `FIXTURE0003`, `FIXTURE0004` and `FIXTURE0005` arrive afterwards: each is extracted, then
-all three are linked in one `link` call with the answers of `links/<id>.json` (keyed by candidate
-title, every answer with its `grain`) and merged. FIXTURE0003 has two `same` and one `variant`; its
+all three are linked in one `link` run with the answers of `links/<id>.json` and merged. A links
+file is a list of groups as one call at `--batch 10` sees them (`episode`, the `candidates` asked by
+title in order, and `decisions`, one per candidate numbered from 1, every one with its `grain`);
+each of these episodes has three candidates or fewer, so each is one group. `links/existing.json`
+gives each story's answer as a group of one (`{"decisions": [...]}` by story id). FIXTURE0003 has two `same` and one `variant`; its
 vault telling, dated 1972, joins the 1971 vault and keeps `as_told.years` 1972. FIXTURE0004 tells
 a new story (the ring in the ice of Lake Placeholder) that FIXTURE0005 tells again in the same run,
 `same` as the provisional story, so it ends as one story; it also tells one incident inside the
@@ -34,7 +37,12 @@ Gazette with a `source`, a `rebunk` by Bo Fixture with an `episode` and a `time`
 `data/notes/the-lantern-was-a-flare-1958.json` holds one `open` and one `folded` viewer note:
 `expect.json` asks for 2 discussion entries and `notes_open` 1 on that story in `site/data.json`,
 and 0 and 0 on every other, so the discussion survives merge, `link --existing` and score and
-reaches the page. A fold of two stories' discussions is checked in memory (`link.fold`).
+reaches the page. A fold of two stories' discussions is checked in memory (`link.fold`). The group call is checked
+on a tiny root of its own with a fake model (`check.link_group_problems`), since the fixture's
+decisions name no earlier candidate: `#1` resolves to an earlier candidate's provisional story, `#n`
+of a candidate that joined a held story resolves to that story, a `narrower` `same` through `#n` is
+downgraded naming the real id, a refused answer is asked once more with a note, a second refusal
+stops the run, and a run killed after its first group resumes with the rest.
 
 The captions also carry the shapes real auto-captions have: FIXTURE0001 opens on a trailer that
 repeats a line of the body (the quote must take the body's time code, the one nearest the answer's

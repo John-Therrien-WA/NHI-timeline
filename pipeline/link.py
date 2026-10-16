@@ -1,24 +1,33 @@
-"""Decide, telling by telling, whether a story is already in the corpus: one story, many tellings.
+"""Decide, a group of tellings per call, whether a story is already in the corpus: one story, many tellings.
 
-    uv run python -m pipeline.link [episode ...] [--root DIR] [--model sonnet] [--fixture FILE]
+    uv run python -m pipeline.link [episode ...] [--root DIR] [--model sonnet] [--batch 10] [--fixture FILE]
     uv run python -m pipeline.link --existing [--root DIR] [--model sonnet] [--fixture FILE] [--dry-run]
 
 Candidate mode (the default) reads data/candidates/<episode>.json (every file, or the episodes
-named) and, for each candidate without a `link` field, retrieves the nearest stories in
+named) and takes the candidates without a `link` field in file order, in groups of --batch (10),
+one `claude -p` call per group. For each candidate it retrieves the nearest stories in
 data/stories (shared cited names, the same teller, years overlapping or within two years, the same
 kind, content words of the candidate's title and quote shared with a story's title, summary and
-first quote, weighted by rarity), takes the top eight, and asks `claude -p` with prompts/link.md
-whether the candidate is the `same` story as one of them, a `variant` of one, or `new`, and at
-which grain (`same`, `broader`, `narrower`). When no story scores at all the decision is `new`
-without a call. A `same` at another grain, or a `same` joining a `program` to a story of another
-kind, is downgraded to `new` with the model's reason kept, the refusal in the link's `downgraded`
-and in data/links.json. The decision is written into the candidate as `link` ({decision, story,
-grain, reason, difference, against}, plus `id` for `new` and `variant`) and the candidate file is
-saved after each one; merge.py then honours it. Candidate files go in episode date order, then file
-order. A `new` or `variant` candidate becomes a provisional story at once (the id merge will give
-it, the candidate's framing, its quote as the first telling), so a later candidate of the same run
-can be `same` as it. A candidate whose telling a story already holds (merged before linking) is
-skipped and keeps no `link`.
+first quote, weighted by rarity) and takes the top eight; the call offers the union of the group's
+stories and asks with prompts/link.md, for each candidate, whether it is the `same` story as one
+of them, a `variant` of one, or `new`, and at which grain (`same`, `broader`, `narrower`). A
+candidate may also be `same` as, or a `variant` of, an earlier candidate of its group, named `#n`;
+that resolves to the story the earlier candidate joins, or to its provisional id. A candidate that
+scores against no story and no other candidate of its group is `new` without being asked, and a
+group where that holds for every candidate makes no call. A `same` at another grain, or a `same`
+joining a `program` to a story of another kind, is downgraded to `new` with the model's reason
+kept, the refusal in the link's `downgraded` and in data/links.json. An answer that names a story
+neither offered nor an earlier candidate is refused, and the group is asked once more with the
+refusal as a note; a second refusal stops the run. The decision is written into the candidate as
+`link` ({decision, story, grain, reason, difference, against}, plus `id` for `new` and `variant`;
+`against` is what the call let it name: the union of the group's nearest stories and the stories
+its earlier tellings `#n` end in, empty when no call was made), and the candidate file and the ledger are saved after each group, so a killed run
+resumes at the first candidate without a `link`, with the provisional stories of the candidates
+already linked `new` or `variant` held again; merge.py then honours it. Candidate files go in episode date order, then file order. A `new` or `variant`
+candidate becomes a provisional story at once (the id merge will give it, the candidate's framing,
+its quote as the first telling), so a later candidate of the same run can be `same` as it. A
+candidate whose telling a story already holds (merged before linking) is skipped and keeps no
+`link`.
 
 --existing links the stories of data/stories among themselves: each story in id order is asked
 about the nearest stories earlier in id order, with its first telling as the candidate. On `same`
@@ -27,13 +36,15 @@ the story is folded into the earlier one (its tellings appended with `difference
 appended to the survivor's in order, its id and aliases kept
 in the survivor's `aliases`, its file deleted); on `variant` a `variant` relation is added both
 ways with the reason as the note. A story created from a candidate that was linked when it
-arrived counts as decided. Every decision is kept in data/links.json with the stories it
+arrived counts as decided. Each story is asked in a call of its own (a group of one), because a
+fold changes which stories are earlier for the next. Every decision is kept in data/links.json with the stories it
 was compared against, and the ids the corpus held when a run began; a story already decided is
 asked again only about stories that arrived since (each decision is appended to the story's list), so a second run asks nothing.
 
---fixture FILE replaces `claude -p` with prepared answers: a JSON object from the candidate's
-title (candidate mode) or the story's id (--existing) to the answer object. A call without a
-prepared answer fails.
+--fixture FILE replaces `claude -p` with prepared answers, each the answer object the prompt's
+schema gives ({"decisions": [...]}): in candidate mode a JSON list of groups, each
+{"episode", "candidates": [the titles asked, in order], "decisions"}; for --existing a JSON object
+from the story's id to {"decisions"}. A call without a prepared answer fails.
 """
 from __future__ import annotations
 
@@ -49,21 +60,35 @@ from .common import REPO, Root, load_json, norm_ws, person_aliases, person_id, r
 DECISIONS = ("same", "variant", "new")
 GRAINS = ("same", "broader", "narrower")
 TOP = 8
+BATCH = 10
 ADJACENT_YEARS = 2
 W_CITE, W_TELLER, W_YEARS, W_KIND = 3.0, 1.0, 1.5, 1.0
 
+FIELDS = ("candidate", "reason", "story", "grain", "decision", "difference")
 SCHEMA = {
     "type": "object",
     "properties": {
-        "reason": {"type": "string"},
-        "story": {"type": ["string", "null"]},
-        "grain": {"type": "string", "enum": list(GRAINS)},
-        "decision": {"type": "string", "enum": list(DECISIONS)},
-        "difference": {"type": "string"},
+        "decisions": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "candidate": {"type": "integer"},
+                    "reason": {"type": "string"},
+                    "story": {"type": ["string", "null"]},
+                    "grain": {"type": "string", "enum": list(GRAINS)},
+                    "decision": {"type": "string", "enum": list(DECISIONS)},
+                    "difference": {"type": "string"},
+                },
+                "required": list(FIELDS),
+                "additionalProperties": False,
+            },
+        },
     },
-    "required": ["reason", "story", "grain", "decision", "difference"],
+    "required": ["decisions"],
     "additionalProperties": False,
 }
+EARLIER = re.compile(r"#([1-9][0-9]*)")
 
 STOP = set("""
 a about above after again against all also am an and any are as at be because been before being below between both
@@ -162,14 +187,17 @@ class Index:
         self._weigh()
 
     def score(self, probe: Probe, sid: str) -> float:
-        s = self.stories[sid]
+        return self.score_story(probe, self.stories[sid], self.words[sid])
+
+    def score_story(self, probe: Probe, s: dict, story_words: set[str]) -> float:
+        """`probe` against any story dict (a provisional one not in the index too), word weights the index's."""
         tellers = {t["teller"] for t in s["tellings"]}
         cited = {c for t in s["tellings"] for c in t.get("cites", [])}
         x = W_CITE * (len(set(probe.cites) & (tellers | cited)) + (probe.teller in cited))
         x += W_TELLER * (probe.teller in tellers)
         x += W_YEARS * years_close(probe.years, s.get("years"))
         x += W_KIND * (probe.story_kind is not None and probe.story_kind == s.get("kind"))
-        x += sum(self.idf.get(w, 0.0) for w in probe.words & self.words[sid])
+        x += sum(self.idf.get(w, 0.0) for w in probe.words & story_words)
         return x
 
     def nearest(self, probe: Probe, pool) -> list[str]:
@@ -202,77 +230,134 @@ def stories_text(stories: dict, ids: list[str], people: dict) -> str:
 def template(root: Root) -> str:
     f = root.path / "prompts" / "link.md"
     text = (f if f.exists() else REPO / "prompts" / "link.md").read_text(encoding="utf-8")
-    for key in ("{candidate}", "{stories}"):
+    for key in ("{candidates}", "{stories}"):
         if key not in text:
             raise SystemExit(f"prompts/link.md must contain {key}")
     return text
 
 
-class Asker:
-    """claude -p, or the prepared answers of a fixture."""
+def candidates_text(probes: list[Probe], people: dict) -> str:
+    return "\n\n".join(f"<telling number=\"{n}\">\n{p.text(people)}\n</telling>" for n, p in enumerate(probes, 1))
 
-    def __init__(self, root: Root, model: str, timeout: int, fixture: Path | None):
+
+def retry_note(error: Exception) -> str:
+    return (f"\n\nYour previous answer was refused: {error}. Answer again with one decision for every telling, "
+            "naming only a story id given in <stories> or an earlier telling of this group as #n.")
+
+
+class Asker:
+    """claude -p, or the prepared answers of a fixture. One call decides a group of tellings."""
+
+    def __init__(self, root: Root, model: str, timeout: int, fixture: Path | None, complete=None):
         self.template, self.model, self.timeout = template(root), model, timeout
+        self.complete = complete or llm.complete_json
         self.fixture = None
         if fixture:
-            self.fixture = load_json(fixture)
-            if not isinstance(self.fixture, dict):
-                raise SystemExit(f"link: fixture {fixture} must be an object of key to answer")
+            self.fixture = fixture_answers(load_json(fixture), fixture)
         self.used: list[str] = []
         self.calls = 0
 
-    def ask(self, key: str, probe: Probe, stories: dict, ids: list[str], people: dict) -> dict:
+    def ask(self, key: str, probes: list[Probe], stories: dict, ids: list[str], people: dict) -> list[dict]:
+        """One decision per probe, in order; `ids` are the stories offered to the whole group."""
         self.calls += 1
         kinds = {i: stories[i].get("kind") for i in ids}
         if self.fixture is not None:
             if key not in self.fixture:
                 raise SystemExit(f"link: fixture has no answer for {key!r} (offered {ids})")
             self.used.append(key)
-            return validate(self.fixture[key], ids, key, probe.story_kind, kinds)
-        prompt = self.template.replace("{candidate}", probe.text(people)).replace("{stories}", stories_text(stories, ids, people))
-        print(f"link: {key!r} against {len(ids)} stories -> claude -p {self.model}", file=sys.stderr)
-        last = None
-        for _ in range(2):
             try:
-                return validate(llm.complete_json(prompt, SCHEMA, model=self.model, timeout=self.timeout), ids, key,
-                                probe.story_kind, kinds)
+                return validate(self.fixture[key], ids, probes, kinds)
+            except ValueError as e:
+                raise SystemExit(f"link: fixture answer for {key!r} refused: {e}")
+        prompt = self.template.replace("{candidates}", candidates_text(probes, people)).replace(
+            "{stories}", stories_text(stories, ids, people))
+        print(f"link: {key!r}: {len(probes)} tellings against {len(ids)} stories -> claude -p {self.model}", file=sys.stderr)
+        last, note = None, ""
+        for attempt in range(2):
+            try:
+                return validate(self.complete(prompt + note, SCHEMA, model=self.model, timeout=self.timeout), ids,
+                                probes, kinds)
             except llm.LlmUnavailable:
                 raise
             except (llm.LlmError, ValueError) as e:
                 last = e
-                print(f"link: {key!r}: {e}; asking once more", file=sys.stderr)
+                note = retry_note(e) if isinstance(e, ValueError) else ""
+                print(f"link: {key!r}: {e}" + ("; asking once more" if attempt == 0 else ""), file=sys.stderr)
         raise SystemExit(f"link: {key!r}: no valid answer after two tries: {last}")
 
 
-def validate(ans, offered: list[str], key: str, probe_kind: str | None, kinds: dict[str, str | None]) -> dict:
-    """The answer checked and normalised. A `same` at another grain, or a `same` joining a `program`
-    to a story of another kind, is downgraded to `new`: the model's reason is kept and `downgraded`
-    says what was refused. `probe_kind` is the telling's story kind, `kinds` the offered stories'."""
-    if not isinstance(ans, dict) or set(ans) != {"reason", "story", "grain", "decision", "difference"}:
-        raise ValueError(f"answer for {key!r} must have exactly reason, story, grain, decision, difference: {str(ans)[:200]}")
-    if ans["decision"] not in DECISIONS:
-        raise ValueError(f"answer for {key!r}: decision {ans['decision']!r} is not one of {DECISIONS}")
-    if ans["grain"] not in GRAINS:
-        raise ValueError(f"answer for {key!r}: grain {ans['grain']!r} is not one of {GRAINS}")
-    if not isinstance(ans["reason"], str) or not ans["reason"].strip() or not isinstance(ans["difference"], str):
-        raise ValueError(f"answer for {key!r}: reason must be a non-empty string and difference a string")
-    if ans["decision"] == "new":
-        story, difference = None, ""
-    else:
-        story, difference = ans["story"], norm_ws(ans["difference"])
-        if story not in offered:
-            raise ValueError(f"answer for {key!r}: {ans['decision']} names {story!r}, which was not offered ({offered})")
-    out = {"decision": ans["decision"], "story": story, "grain": ans["grain"], "reason": norm_ws(ans["reason"]),
-           "difference": difference}
-    if out["decision"] == "same":
-        theirs = kinds.get(story)
-        why = None
-        if out["grain"] != "same":
-            why = f"the telling is {out['grain']} than {story}: another grain is never the same story"
-        elif probe_kind != theirs and "program" in (probe_kind, theirs):
-            why = f"a {probe_kind} telling and the {theirs} story {story}: a program and a story of another kind are different grains"
-        if why:
-            out.update(decision="new", story=None, difference="", downgraded={"from": "same", "story": story, "why": why})
+def group_key(episode: str | None, titles: list[str]) -> str:
+    return f"{episode}: " + " | ".join(titles)
+
+
+def fixture_answers(data, where: Path) -> dict:
+    """The prepared answers as key to answer: a list of groups (candidate mode) or an object of story id to answer."""
+    if isinstance(data, dict):
+        return data
+    if not isinstance(data, list):
+        raise SystemExit(f"link: fixture {where} must be a list of groups or an object of story id to answer")
+    out = {}
+    for g in data:
+        if not isinstance(g, dict) or set(g) != {"episode", "candidates", "decisions"}:
+            raise SystemExit(f"link: fixture {where}: a group must have exactly episode, candidates, decisions: {str(g)[:200]}")
+        key = group_key(g["episode"], g["candidates"])
+        if key in out:
+            raise SystemExit(f"link: fixture {where}: group {key!r} is given twice")
+        out[key] = {"decisions": g["decisions"]}
+    return out
+
+
+def validate(ans, offered: list[str], probes: list[Probe], kinds: dict[str, str | None]) -> list[dict]:
+    """The group's answer checked and normalised, one decision per probe in order. A decision's story is
+    an offered id or `#n`, an earlier telling of the group; `#n` is kept for the caller to resolve. A
+    `same` at another grain, or a `same` joining a `program` to a story of another kind, is downgraded
+    to `new`: the model's reason is kept and `downgraded` says what was refused. `kinds` are the
+    offered stories' kinds; an earlier telling's kind is that of the story it ends in."""
+    if not isinstance(ans, dict) or set(ans) != {"decisions"} or not isinstance(ans["decisions"], list):
+        raise ValueError(f"the answer must be an object with exactly a decisions list: {str(ans)[:200]}")
+    items = ans["decisions"]
+    for d in items:
+        if not isinstance(d, dict) or set(d) != set(FIELDS):
+            raise ValueError(f"a decision must have exactly {', '.join(FIELDS)}: {str(d)[:200]}")
+    numbers = sorted(d["candidate"] for d in items if isinstance(d["candidate"], int))
+    if numbers != list(range(1, len(probes) + 1)) or len(items) != len(probes):
+        raise ValueError(f"the answer must decide each telling 1 to {len(probes)} once, "
+                         f"got {[d['candidate'] for d in items]}")
+    out: list[dict] = []
+    ends: list[str | None] = []  # the kind of the story each telling ends in
+    for d in sorted(items, key=lambda d: d["candidate"]):
+        n, probe = d["candidate"], probes[d["candidate"] - 1]
+        where = f"telling {n}"
+        if d["decision"] not in DECISIONS:
+            raise ValueError(f"{where}: decision {d['decision']!r} is not one of {DECISIONS}")
+        if d["grain"] not in GRAINS:
+            raise ValueError(f"{where}: grain {d['grain']!r} is not one of {GRAINS}")
+        if not isinstance(d["reason"], str) or not d["reason"].strip() or not isinstance(d["difference"], str):
+            raise ValueError(f"{where}: reason must be a non-empty string and difference a string")
+        if d["decision"] == "new":
+            story, difference, theirs = None, "", None
+        else:
+            story, difference = d["story"], norm_ws(d["difference"])
+            m = EARLIER.fullmatch(story) if isinstance(story, str) else None
+            if m and int(m.group(1)) < n:
+                theirs = ends[int(m.group(1)) - 1]
+            elif story in offered:
+                theirs = kinds.get(story)
+            else:
+                raise ValueError(f"{where}: {d['decision']} names {story!r}, which is neither an offered story ({offered}) "
+                                 f"nor an earlier telling of the group (#1 to #{n - 1})")
+        link = {"decision": d["decision"], "story": story, "grain": d["grain"], "reason": norm_ws(d["reason"]),
+                "difference": difference}
+        if link["decision"] == "same":
+            why = None
+            if link["grain"] != "same":
+                why = f"the telling is {link['grain']} than {story}: another grain is never the same story"
+            elif probe.story_kind != theirs and "program" in (probe.story_kind, theirs):
+                why = f"a {probe.story_kind} telling and the {theirs} story {story}: a program and a story of another kind are different grains"
+            if why:
+                link.update(decision="new", story=None, difference="", downgraded={"from": "same", "story": story, "why": why})
+        ends.append(theirs if link["decision"] == "same" else probe.story_kind)
+        out.append(link)
     return out
 
 
@@ -367,48 +452,102 @@ def held_by(stories: dict, episode: str, quote: str) -> str | None:
     return None
 
 
-def run_candidates(root: Root, episodes: list[str] | None, asker: Asker) -> dict:
+def connected(index: Index, probes: list[Probe], nearest: list[list[str]], cands: list[dict], eid: str) -> list[bool]:
+    """Whether each candidate of a group is worth asking: it scores against a held story, or it and
+    another candidate of the group score against each other (the later as probe, the earlier as the
+    provisional story it may become)."""
+    out = [bool(ids) for ids in nearest]
+    for i in range(len(cands)):
+        held = provisional(cands[i], eid, probes[i], f"#{i + 1}")
+        held_words = words(f"{held['title']}  {held['tellings'][0]['quote']}")
+        for j in range(i + 1, len(cands)):
+            if index.score_story(probes[j], held, held_words) > 0:
+                out[i] = out[j] = True
+    return out
+
+
+def resolve_earlier(link: dict, ends: list[str]) -> None:
+    """`#n` in a decision of the group replaced by the story id telling n ends in."""
+    def real(x):
+        m = EARLIER.fullmatch(x) if isinstance(x, str) else None
+        return ends[int(m.group(1)) - 1] if m else x
+    if link["story"] is not None:
+        link["story"] = real(link["story"])
+    d = link.get("downgraded")
+    if d and real(d["story"]) != d["story"]:
+        d["why"] = d["why"].replace(d["story"], real(d["story"]))
+        d["story"] = real(d["story"])
+
+
+def run_candidates(root: Root, episodes: list[str] | None, asker: Asker, size: int = BATCH) -> dict:
+    if size < 1:
+        raise SystemExit(f"link: --batch must be at least 1, got {size}")
     stories = root.load_dir(root.stories)
     people = root.load_dir(root.people)
     names = person_aliases(root.path)
     story_aliases = alias_map(stories)
     index = Index(stories)
+    files = candidate_files(root, episodes)
+    for f in files:  # a resumed run holds the provisional stories the killed run created
+        eid = load_json(f).get("episode")
+        for cand in load_json(f)["candidates"]:
+            link = cand.get("link")
+            if link and link["decision"] in ("new", "variant") and link["id"] not in stories \
+                    and link["id"] not in story_aliases:
+                stories[link["id"]] = provisional(cand, eid, probe_of_candidate(cand, eid, names), link["id"])
+                index.add(link["id"])
     stats = {"same": 0, "variant": 0, "new": 0, "skipped": 0, "calls": 0, "downgraded": 0}
-    downgrades: list[tuple[str, str, dict]] = []
-    for f in candidate_files(root, episodes):
+    for f in files:
         batch = load_json(f)
         eid = batch.get("episode")
-        for cand in batch["candidates"]:
-            if "link" in cand:
-                continue
-            if held_by(stories, eid, cand["quote"]):
-                stats["skipped"] += 1
-                continue
-            probe = probe_of_candidate(cand, eid, names)
-            ids = index.nearest(probe, stories)
-            if ids:
-                link = asker.ask(cand["title"], probe, stories, ids, people)
+        todo = [c for c in batch["candidates"] if "link" not in c]  # a linked candidate was decided by an earlier run
+        while todo:
+            group: list[dict] = []
+            while todo and len(group) < size:
+                cand = todo.pop(0)
+                if held_by(stories, eid, cand["quote"]):
+                    stats["skipped"] += 1
+                else:
+                    group.append(cand)
+            if not group:
+                break
+            probes = [probe_of_candidate(c, eid, names) for c in group]
+            nearest = [index.nearest(p, stories) for p in probes]
+            asked = [i for i, yes in enumerate(connected(index, probes, nearest, group, eid)) if yes]
+            decided: dict[int, dict] = {}
+            offered: list[str] = []
+            if asked:
+                offered = list(dict.fromkeys(sid for i in asked for sid in nearest[i]))
+                key = group_key(eid, [group[i]["title"] for i in asked])
+                answers = asker.ask(key, [probes[i] for i in asked], stories, offered, people)
                 stats["calls"] += 1
-            else:
-                link = {"decision": "new", "story": None, "reason": NOTHING, "difference": ""}
-            link["against"] = ids
-            cand["link"] = link
-            stats[link["decision"]] += 1
-            if link["decision"] in ("new", "variant"):
-                sid = fresh_id(story_id(cand["title"], cand["years"]), stories, story_aliases)
-                link["id"] = sid
-                stories[sid] = provisional(cand, eid, probe, sid)
-                index.add(sid)
-            if "downgraded" in link:
-                stats["downgraded"] += 1
-                downgrades.append((cand["title"], eid, link))
+                decided = dict(zip(asked, answers))
+            ends: list[str] = []  # by position among the asked: the story id each ends in
+            downgrades = []
+            for i, cand in enumerate(group):
+                link = decided.get(i) or {"decision": "new", "story": None, "reason": NOTHING, "difference": ""}
+                if i in decided:
+                    resolve_earlier(link, ends)
+                link["against"] = list(dict.fromkeys(offered + ends)) if i in decided else []  # what the prompt let it name
+                cand["link"] = link
+                stats[link["decision"]] += 1
+                if link["decision"] in ("new", "variant"):
+                    sid = fresh_id(story_id(cand["title"], cand["years"]), stories, story_aliases)
+                    link["id"] = sid
+                    stories[sid] = provisional(cand, eid, probes[i], sid)
+                    index.add(sid)
+                if i in decided:
+                    ends.append(link["id"] if link["decision"] != "same" else link["story"])
+                if "downgraded" in link:
+                    stats["downgraded"] += 1
+                    downgrades.append((cand["title"], link))
+                print(f"link: {eid}: {cand['title']!r}: {link['decision']} {link['story'] or ''}", file=sys.stderr)
             save_json(f, batch)
-            print(f"link: {eid}: {cand['title']!r}: {link['decision']} {link['story'] or ''}", file=sys.stderr)
-    if downgrades:
-        ledger_file, ledger = load_ledger(root)
-        for key, eid, link in downgrades:
-            note_downgrade(ledger, key, eid, link)
-        save_json(ledger_file, ledger)
+            if downgrades:
+                ledger_file, ledger = load_ledger(root)
+                for title, link in downgrades:
+                    note_downgrade(ledger, title, eid, link)
+                save_json(ledger_file, ledger)
     print("link: " + ", ".join(f"{v} {k}" for k, v in stats.items()), file=sys.stderr)
     return stats
 
@@ -507,7 +646,7 @@ def run_existing(root: Root, asker: Asker, dry_run: bool = False) -> dict:
             stats["pending"] += 1
             print(f"link: would ask {sid} against {ids}", file=sys.stderr)
             continue
-        ans = asker.ask(sid, probe, stories, ids, people)
+        ans = asker.ask(sid, [probe], stories, ids, people)[0]
         stats["calls"] += 1
         stats[ans["decision"]] += 1
         ans["against"] = ids
@@ -537,6 +676,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--existing", action="store_true", help="link the stories in data/stories among themselves")
     ap.add_argument("--model", default="sonnet")
     ap.add_argument("--timeout", type=int, default=300, help="seconds per call")
+    ap.add_argument("--batch", type=int, default=None, help=f"candidates per call (candidate mode, default {BATCH})")
     ap.add_argument("--fixture", type=Path, help="prepared answers instead of claude -p")
     ap.add_argument("--dry-run", action="store_true", help="--existing only: list the calls a run would make")
     ap.add_argument("--root", type=Path, default=REPO)
@@ -546,9 +686,11 @@ def main(argv: list[str] | None = None) -> int:
     if a.existing:
         if a.episodes:
             raise SystemExit("link: --existing takes no episodes")
+        if a.batch is not None:
+            raise SystemExit("link: --existing takes no --batch")
         run_existing(root, asker, a.dry_run)
     else:
-        run_candidates(root, a.episodes or None, asker)
+        run_candidates(root, a.episodes or None, asker, BATCH if a.batch is None else a.batch)
     return 0
 
 

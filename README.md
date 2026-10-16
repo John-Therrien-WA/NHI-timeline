@@ -6,14 +6,16 @@ An interactive timeline of the stories told about non-human intelligence and dis
 
 Python 3.12 and `uv`; `yt-dlp` and `claude` on the path for the first two steps. No dependencies
 beyond the standard library; `../creator-watch` checked out beside this repo, with its `.venv` and
-keys file, for the Gemini fallback only.
+keys file, for the Gemini fallback only. The link pass works in groups of about ten candidates per
+`claude -p` call (`--batch N`, default 10), saving the candidate file after each group, so a killed
+run picks up at the first candidate without a `link`.
 
 ```sh
 uv run python -m pipeline.check --fixture               # the whole chain on the fictional fixtures, offline
 uv run python -m pipeline.captions <video id or URL>    # captions in: sources/captions/<id>.en.txt, data/episodes/<id>.json
 ../creator-watch/.venv/bin/python -m pipeline.gemini_captions <video id>   # fallback on a 429 or no caption track: a Gemini transcript as the caption text
 uv run python -m pipeline.extract <video id>            # claude -p over the captions: data/candidates/<id>.json
-uv run python -m pipeline.link <video id>               # claude -p: is each candidate the same story as one held, a variant, or new
+uv run python -m pipeline.link <video id>               # claude -p, about ten candidates a call (--batch): is each the same story as one held, a variant, or new
 uv run python -m pipeline.merge                         # candidates into data/stories, data/people, data/documents
 uv run python -m pipeline.score                         # score into each story, data/scores.json
 uv run python -m pipeline.images <manifest.json>        # found photographs in: site/images/<owner>/<n>.jpg, data/images/<owner>/<n>.json

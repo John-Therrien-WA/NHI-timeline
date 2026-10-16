@@ -1,23 +1,36 @@
-{
-  "The ring in the ice of Lake Placeholder": {
-    "reason": "A light on Lake Placeholder in 1980 is a different event from the lights over the Harbour of Nowhere in 1958.",
-    "story": null,
-    "grain": "same",
-    "decision": "new",
-    "difference": ""
-  },
-  "A crate in the vault opened by itself": {
-    "reason": "One night inside the vault under Mount Fictus, the vault the story is about.",
-    "story": "a-vault-under-mount-fictus-1971",
-    "grain": "narrower",
-    "decision": "same",
-    "difference": "One crate opening by itself, a single incident."
-  },
-  "The vault crew was sent away": {
-    "reason": "The crew who dug the vault under Mount Fictus, the vault the story is about.",
-    "story": "a-vault-under-mount-fictus-1971",
-    "grain": "same",
-    "decision": "same",
-    "difference": "The crew was sent away afterwards."
+[
+  {
+    "episode": "FIXTURE0004",
+    "candidates": [
+      "The ring in the ice of Lake Placeholder",
+      "A crate in the vault opened by itself",
+      "The vault crew was sent away"
+    ],
+    "decisions": [
+      {
+        "candidate": 1,
+        "reason": "A light on Lake Placeholder in 1980 is a different event from the lights over the Harbour of Nowhere in 1958.",
+        "story": null,
+        "grain": "same",
+        "decision": "new",
+        "difference": ""
+      },
+      {
+        "candidate": 2,
+        "reason": "One night inside the vault under Mount Fictus, the vault the story is about.",
+        "story": "a-vault-under-mount-fictus-1971",
+        "grain": "narrower",
+        "decision": "same",
+        "difference": "One crate opening by itself, a single incident."
+      },
+      {
+        "candidate": 3,
+        "reason": "The crew who dug the vault under Mount Fictus, the vault the story is about.",
+        "story": "a-vault-under-mount-fictus-1971",
+        "grain": "same",
+        "decision": "same",
+        "difference": "The crew was sent away afterwards."
+      }
+    ]
   }
-}
+]

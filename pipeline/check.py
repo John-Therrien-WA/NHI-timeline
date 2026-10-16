@@ -23,8 +23,9 @@ entry, and exits 1 when there is one.
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p`: the episodes without a `links/<id>.json` are extracted and merged unlinked
 (the corpus as it stood before linking), `link --existing` folds and relates their stories with
-`links/existing.json`, then the episodes with a links file are extracted, linked in one call (so
-one can join a story another creates) and merged; score and build follow. It checks the result and that every prepared link answer was asked for, then
+`links/existing.json`, then the episodes with a links file are extracted, linked in one run (so
+one can join a story another creates; each episode's candidates in groups of ten, one prepared
+answer per group) and merged; score and build follow. It checks the result and that every prepared link answer was asked for, then
 runs both link modes, merge and score again and verifies that nothing was asked and nothing
 changed. Last it checks `tests/fixtures/expect.json`: the time codes given candidates must have
 (the nearest of two occurrences, quotes across a `>>` or a bracketed tag), the people that must not
@@ -34,7 +35,9 @@ prompt carries the episode's title and date lines; then every story the chain ma
 `contradicted` flag and attestation (and for some its years, aliases, episodes, the tellings that
 carry a `difference` and a telling's `as_told`), every story's `discussion` length and `notes_open`
 in site/data.json (0 when expect.json gives none), that `link.fold` appends a folded story's
-discussion to the survivor's in order, the candidates `link` downgraded, and one name
+discussion to the survivor's in order, that a group call of `link` resolves `#n` to the story an
+earlier telling of the group ends in, asks a refused group once more with a note, stops on a
+second refusal and resumes after a killed run, the candidates `link` downgraded, and one name
 resolved against the fixture's person aliases and the repo's, which must differ.
 """
 from __future__ import annotations
@@ -52,7 +55,7 @@ import json
 
 from . import images
 from .common import (DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, NOTE_KEYS, REPO, RELATIONS,
-                     STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, seconds)
+                     STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds)
 
 FIXTURES = REPO / "tests" / "fixtures"
 DATE = re.compile(r"\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?")
@@ -365,6 +368,7 @@ def expectations(root: Root) -> list[str]:
     finally:
         notes_file.write_text(kept, encoding="utf-8")
     out += fold_discussion_problems()
+    out += link_group_problems()
     ledger = root.data / "links.json"
     got = [d["key"] for d in (load_json(ledger).get("downgraded", []) if ledger.exists() else [])]
     if got != exp.get("downgraded", []):
@@ -535,6 +539,125 @@ def image_ingest_problems(root: Root) -> list[str]:
     return out
 
 
+def link_group_problems() -> list[str]:
+    """A group call of `link.run_candidates` on a tiny root, with a fake model: `#n` resolves to an
+    earlier telling's provisional story or to the held story it joins, a `same` through `#n` at another
+    grain is downgraded naming the real id, a refused answer is asked once more with a note, a second
+    refusal stops the run, a run killed after one group resumes at the first unlinked candidate with the
+    killed run's provisional stories offered again, every `same` or `variant` names a story in its
+    `against`, and `--existing` refuses `--batch`."""
+    from . import link, llm
+    tmp = Path(tempfile.mkdtemp(prefix="nhi-link-group-"))
+    out: list[str] = []
+    try:
+        root = Root(tmp)
+        root.stories.mkdir(parents=True)
+        root.candidates.mkdir(parents=True)
+        vault = {"id": "a-vault-1971", "title": "A vault under Mount Fictus", "summary": "", "years": {"from": 1971, "to": 1971},
+                 "place_text": "Mount Fictus", "kind": "program", "related": [],
+                 "tellings": [{"episode": "G0", "from_s": 1, "teller": "cy-fixture", "quote": "We dug a vault under the mountain.",
+                               "kind": "firsthand", "cites": [], "documents": []}]}
+        save_json(root.stories / "a-vault-1971.json", vault)
+        def cand(title, kind, year, n):
+            return {"title": title, "story_kind": kind, "years_text": str(year), "years": {"from": year, "to": year},
+                    "place_text": None, "teller": "Ida Fixture", "kind": "firsthand", "quote": f"quote {n}",
+                    "from_s": n, "to_s": n + 1, "cites": [], "documents": []}
+        cands = [cand("The ring in the ice", "sighting", 1980, 1), cand("A melted ring", "sighting", 1980, 2),
+                 cand("Guarding the vault", "program", 1971, 3), cand("The vault again", "program", 1971, 4),
+                 cand("A crate in the vault", "incident", 1971, 5)]
+        plan = {"The ring in the ice": ("new", None, "same"), "A melted ring": ("same", "The ring in the ice", "same"),
+                "Guarding the vault": ("same", "a-vault-1971", "same"), "The vault again": ("same", "Guarding the vault", "same"),
+                "A crate in the vault": ("same", "Guarding the vault", "narrower")}
+        joined = {"Guarding the vault": "a-vault-1971"}  # a target in an earlier group: the story it ended in
+        prompts: list[str] = []
+        def model(bad=(), dead_after=None, always=False):
+            def complete(prompt, schema, *, model, timeout):
+                prompts.append(prompt)
+                if dead_after is not None and len(prompts) > dead_after:
+                    raise llm.LlmUnavailable("usage limit (fake)")
+                titles = re.findall(r'<telling number="\d+">\ntitle: (.*)', prompt)
+                ds = []
+                for n, t in enumerate(titles, 1):
+                    dec, target, grain = plan[t]
+                    if target in titles:
+                        story = f"#{titles.index(target) + 1}"
+                    else:  # the earlier telling went in another group: name the story it joined
+                        story = joined.get(target, target)
+                    if t in bad and (always or "previous answer was refused" not in prompt):
+                        story = "no-such-story"
+                    ds.append({"candidate": n, "reason": f"fake reason {n}", "story": story, "grain": grain,
+                               "decision": dec, "difference": ""})
+                return {"decisions": ds}
+            return complete
+        f = root.candidates / "G1.json"
+        save_json(f, {"episode": "G1", "candidates": cands})
+        asker = link.Asker(root, "fake", 1, None, complete=model(bad={"A melted ring"}))
+        link.run_candidates(root, None, asker)
+        got = {c["title"]: c["link"] for c in load_json(f)["candidates"]}
+        if asker.calls != 1 or len(prompts) != 2 or "previous answer was refused" not in prompts[1]:
+            out.append(f"expect: a refused group must be asked once more with a note (calls {asker.calls}, prompts {len(prompts)})")
+        if got["A melted ring"].get("story") != got["The ring in the ice"].get("id") or got["A melted ring"]["decision"] != "same":
+            out.append(f"expect: '#1' must resolve to the ring's provisional story, got {got['A melted ring']}")
+        if got["The vault again"].get("story") != "a-vault-1971":
+            out.append(f"expect: '#n' of a telling that joined a held story must resolve to it, got {got['The vault again']}")
+        dg = got["A crate in the vault"]
+        if dg["decision"] != "new" or dg.get("downgraded", {}).get("story") != "a-vault-1971" or "#" in dg["downgraded"]["why"]:
+            out.append(f"expect: a narrower same through '#n' must be downgraded naming a-vault-1971, got {dg}")
+        if got["The ring in the ice"]["against"] != ["a-vault-1971"]:
+            out.append(f"expect: the ring's against must be what its group was offered, ['a-vault-1971'], got {got['The ring in the ice']['against']}")
+        for t, ln in got.items():
+            if ln["decision"] in ("same", "variant") and ln["story"] not in ln["against"]:
+                out.append(f"expect: {t!r} is {ln['decision']} {ln['story']}, which must be in its against {ln['against']}")
+        ledger = load_json(root.data / "links.json")
+        if [d["key"] for d in ledger.get("downgraded", [])] != ["A crate in the vault"]:
+            out.append(f"expect: data/links.json must list the crate's downgrade, got {ledger.get('downgraded')}")
+        save_json(f, {"episode": "G1", "candidates": [dict(c) for c in cands]})
+        prompts.clear()
+        try:
+            link.run_candidates(root, None, link.Asker(root, "fake", 1, None, complete=model(bad=set(plan), always=True)))
+            out.append("expect: a group refused twice must stop the run")
+        except SystemExit:
+            pass
+        prompts.clear()
+        try:
+            link.run_candidates(root, None, link.Asker(root, "fake", 1, None, complete=model(dead_after=1)), size=2)
+            out.append("expect: an unavailable model must stop the run")
+        except llm.LlmUnavailable:
+            pass
+        linked = [c["title"] for c in load_json(f)["candidates"] if "link" in c]
+        if linked != ["The ring in the ice", "A melted ring"]:
+            out.append(f"expect: a run killed after its first group of two must keep exactly that group's links, got {linked}")
+        prompts.clear()
+        ring = next(c["link"] for c in load_json(f)["candidates"] if c["title"] == "The ring in the ice")
+        joined["The ring in the ice"] = ring["id"]
+        plan["A crate in the vault"] = ("same", "The ring in the ice", "same")
+        resumed = link.Asker(root, "fake", 1, None, complete=model())
+        try:
+            link.run_candidates(root, None, resumed, size=2)
+        except SystemExit as e:
+            out.append(f"expect: a resumed run must offer the ring the killed run created: {e}")
+        told = [t for x in prompts for t in re.findall(r'<telling number="\d+">\ntitle: (.*)', x)]
+        if resumed.calls != 2 or "The ring in the ice" in told:
+            out.append(f"expect: a resumed run must ask only the unlinked candidates, in two groups (calls {resumed.calls})")
+        after = {c["title"]: c.get("link") for c in load_json(f)["candidates"]}
+        if not all(after.values()):
+            out.append("expect: a resumed run must link every candidate")
+        elif after["A crate in the vault"]["story"] != ring["id"]:
+            out.append(f"expect: a resumed candidate same as the ring must join {ring['id']}, got {after['A crate in the vault']}")
+        else:
+            for t, ln in after.items():
+                if ln["decision"] in ("same", "variant") and ln["story"] not in ln["against"]:
+                    out.append(f"expect: resumed {t!r} is {ln['decision']} {ln['story']}, which must be in its against {ln['against']}")
+        try:
+            link.main(["--existing", "--batch", "5", "--root", str(tmp)])
+            out.append("expect: link --existing --batch must fail loud")
+        except SystemExit:
+            pass
+    finally:
+        shutil.rmtree(tmp)
+    return out
+
+
 def fold_discussion_problems() -> list[str]:
     """`link.fold` appends the folded story's discussion to the survivor's, in order, and drops none."""
     from . import link
@@ -578,13 +701,13 @@ def run_fixture() -> list[str]:
     askers = [link.Asker(root, "fixture", 1, existing)]
     link.run_existing(root, askers[0])
     linked = [f.stem for f in answers if (links / f.name).exists()]
-    prepared: dict = {}
+    prepared: list = []
     for e in linked:
         extract.run(root, e, model="fixture", chunk_words=12000, fixture=tmp / "answers" / f"{e}.json", timeout=1)
         more = load_json(links / f"{e}.json")
-        if set(more) & set(prepared):
-            raise SystemExit(f"fixture: links/{e}.json repeats a candidate title of another links file: {sorted(set(more) & set(prepared))}")
-        prepared.update(more)
+        if not isinstance(more, list) or any(g.get("episode") != e for g in more):
+            raise SystemExit(f"fixture: links/{e}.json must be a list of groups of episode {e}")
+        prepared += more
     together = tmp / "links-together.json"  # one link call over every linked episode, so they can join each other
     together.write_text(json.dumps(prepared), encoding="utf-8")
     askers.append(link.Asker(root, "fixture", 1, together))

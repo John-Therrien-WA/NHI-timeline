@@ -21,7 +21,8 @@ place is resolved to a place id through data/place-aliases.json (alias text to i
 contained in the text; the text itself is kept on the story as `place_text`. After the pass,
 `related` gets a `same-event` link between two stories that share years, place and kind and are
 not already related; every other relation is left for a person to add by hand. Idempotent: a
-second run changes nothing. Hand edits are kept: an existing story is only appended to, and its
+second run changes nothing. Hand edits are kept: an existing story is only appended to (its
+`discussion` and every other field a person wrote stay as they are), and its
 `place` and `place_text` are filled when they are missing or null and a candidate gives them,
 never overwritten.
 """

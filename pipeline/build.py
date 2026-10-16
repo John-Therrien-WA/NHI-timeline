@@ -8,6 +8,9 @@ documents, the alias map (an old id a fold retired to the story that absorbed it
 id>` still resolves), the links between stories (shared document and every `related` relation), the count of
 other stories told by each of a story's tellers (`shared_teller`, by teller and in all: a count,
 never a link, since one host telling fifty stories would link every story to every other), the
+story's `discussion` (the debunk, rebunk and note entries, an empty list when it has none; an
+entry with an episode also gets the YouTube `url` at its `time`) and `notes_open` (the open entries of data/notes/<id>.json and of the notes files of its
+aliases, 0 when there are none), the
 axes, the corpus date (the latest episode published), and beside the stories the scoring block
 (weights, the institutional-trust knob, the median floor and median, the tier counts) so the page
 can recompute each story's attestation from its `profile` at another knob value. Fails when a story
@@ -21,7 +24,7 @@ import json
 import sys
 from pathlib import Path
 
-from .common import REPO, Root, rel, save_json
+from .common import REPO, Root, rel, save_json, seconds
 from .score import attest
 
 
@@ -45,6 +48,13 @@ def run(root: Root, out: Path) -> dict:
     if not scores.exists():
         raise SystemExit("build: data/scores.json is missing: run pipeline.score first")
     summary = json.loads(scores.read_text(encoding="utf-8"))
+    owner = {a: sid for sid, s in sorted(stories.items()) for a in s.get("aliases", [])}
+    notes_open: dict[str, int] = {}
+    for key, entries in root.load_notes().items():
+        sid = key if key in stories else owner.get(key)
+        if sid is None:
+            raise SystemExit(f"build: data/notes/{key}.json names no story or alias")
+        notes_open[sid] = notes_open.get(sid, 0) + sum(e["status"] == "open" for e in entries)
     stories_of: dict[str, set[str]] = {}
     for sid, s in stories.items():
         for t in s["tellings"]:
@@ -82,6 +92,9 @@ def run(root: Root, out: Path) -> dict:
             "shared_teller_by": shared_by,
             "documents": [{"id": x, "title": documents[x]["title"], "url": documents[x].get("url"), "date": documents[x].get("date")} for x in docs],
             "related": s.get("related", []), "aliases": s.get("aliases", []),
+            "discussion": [{**e, "url": url_at(episodes[e["episode"]], seconds(e["time"]))} if e.get("episode") else e
+                           for e in s.get("discussion", [])],
+            "notes_open": notes_open.get(sid, 0),
         })
         for r in s.get("related", []):
             key = tuple(sorted((sid, r["story"]))) + (r["relation"],)
@@ -105,7 +118,7 @@ def run(root: Root, out: Path) -> dict:
         "counts": summary["counts"],
         "eras": root.eras(), "places": root.places(),
         "stories": out_stories, "links": links,
-        "aliases": {a: sid for sid, s in sorted(stories.items()) for a in s.get("aliases", [])},
+        "aliases": owner,
         "people": {p: {"name": v["name"], "roles": v.get("roles", [])} for p, v in people.items()},
         "episodes": {e: {"show": v.get("show"), "title": v.get("title"), "url": v.get("url"), "published": v.get("published")} for e, v in episodes.items()},
     }

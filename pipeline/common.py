@@ -18,8 +18,14 @@ STORY_KINDS = ("sighting", "encounter", "crash-retrieval", "reverse-engineering"
                "testimony", "theory", "cosmology", "place-lore")
 TELLING_KINDS = ("firsthand", "official", "journalist", "secondhand", "researcher", "host")
 RELATIONS = ("same-event", "variant", "corroborates", "contradicts")
+DISCUSSION_KINDS = ("debunk", "rebunk", "note")
+DISCUSSION_ROLES = ("witness", "participant", "official", "researcher", "journalist", "host", "viewer")
+DISCUSSION_KEYS = ("kind", "by", "role", "date", "source", "episode", "time", "text")
+NOTE_STATUSES = ("open", "folded", "dropped")
+NOTE_KEYS = ("by", "date", "text", "status")
 
-TIMECODE = re.compile(r"^\[(\d+):(\d\d):(\d\d)\] (.*)$")
+TIMECODE = re.compile(r"^\[(\d+:\d\d:\d\d)\] (.*)$")
+HMS = re.compile(r"(\d+):([0-5]\d):([0-5]\d)")
 WS = re.compile(r"\s+")
 SPEAKER = re.compile(r">>+")
 BRACKET_TAG = re.compile(r"\[[^\[\]]{0,40}\]")
@@ -37,6 +43,7 @@ class Root:
         self.episodes = self.data / "episodes"
         self.documents = self.data / "documents"
         self.candidates = self.data / "candidates"
+        self.notes = self.data / "notes"
         self.captions = self.path / "sources" / "captions"
         self.site = self.path / "site"
 
@@ -55,6 +62,25 @@ class Root:
             obj = load_json(f)
             if not isinstance(obj, dict) or obj.get("id") != f.stem:
                 raise SystemExit(f"{rel(f, self.path)}: the file name must equal the object's id (got {obj.get('id')!r})")
+            out[f.stem] = obj
+        return out
+
+    def load_notes(self) -> dict[str, list]:
+        """The viewer-note inboxes, data/notes/<story id>.json, keyed by the file name (a story id or an
+        alias). Fails when a file is not a list of objects or an entry's `status` is not one of
+        NOTE_STATUSES; check.py checks the other fields and that the name resolves."""
+        out: dict[str, list] = {}
+        if not self.notes.exists():
+            return out
+        for f in sorted(self.notes.glob("*.json")):
+            obj = load_json(f)
+            if not isinstance(obj, list):
+                raise SystemExit(f"{rel(f, self.path)}: a notes file must be a list of entries")
+            for i, e in enumerate(obj):
+                if not isinstance(e, dict):
+                    raise SystemExit(f"{rel(f, self.path)} entry {i + 1}: must be an object")
+                if e.get("status") not in NOTE_STATUSES:
+                    raise SystemExit(f"{rel(f, self.path)} entry {i + 1}: status {e.get('status')!r} is not one of {', '.join(NOTE_STATUSES)}")
             out[f.stem] = obj
         return out
 
@@ -177,6 +203,14 @@ def norm_quote(s: str) -> str:
     return SPACE_BEFORE_PUNCT.sub(r"\1", norm_ws(s))
 
 
+def seconds(hms: str) -> int:
+    """`h:mm:ss` to seconds; fails on anything else."""
+    m = HMS.fullmatch(hms) if isinstance(hms, str) else None
+    if not m:
+        raise SystemExit(f"time code {hms!r} is not h:mm:ss")
+    return int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
+
+
 class Captions:
     """The caption text of one episode: cues with seconds, and the normalised text they join to.
 
@@ -196,8 +230,8 @@ class Captions:
             m = TIMECODE.match(line)
             if not m:
                 raise SystemExit(f"{f}:{n}: expected '[h:mm:ss] words', got {line[:60]!r}")
-            t = int(m.group(1)) * 3600 + int(m.group(2)) * 60 + int(m.group(3))
-            text = norm_ws(m.group(4))
+            t = seconds(m.group(1))
+            text = norm_ws(m.group(2))
             if not text:
                 continue
             self.seconds.append(float(t))

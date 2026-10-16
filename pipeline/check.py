@@ -10,8 +10,12 @@ schema; `score` is absent, null or numeric; every alias belongs to one story and
 every candidate `link` names a story or an alias; every telling a `same` link added carries a
 `link_reason`, and so does every telling with a `difference`; every target of
 data/person-aliases.json has a person file or is the id of a name a candidate gives (merge creates
-it), is no alias itself, and no alias is the id of a different person. Prints every problem and
-exits 1 when there is one.
+it), is no alias itself, and no alias is the id of a different person; every `discussion` entry has
+a known `kind`, a `by` and a `text`, a `source` that is an http(s) URL or an `episode` in
+data/episodes with an h:mm:ss `time`, and only the schema's fields (role and date from their lists
+and formats); every data/notes/<id>.json names a story or an alias and holds entries with `by`,
+`date`, `text` and a `status` of open, folded or dropped. Prints every problem, naming the story and
+the entry, and exits 1 when there is one.
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p`: the episodes without a `links/<id>.json` are extracted and merged unlinked
@@ -25,13 +29,16 @@ exist (a spelling the person aliases fold), the host and guests `captions.host_a
 from each title, that `captions --refill` fills only host and guests, and that the extraction
 prompt carries the episode's title and date lines; then every story the chain made, with its tier,
 `contradicted` flag and attestation (and for some its years, aliases, episodes, the tellings that
-carry a `difference` and a telling's `as_told`), the candidates `link` downgraded, and one name
+carry a `difference` and a telling's `as_told`), every story's `discussion` length and `notes_open`
+in site/data.json (0 when expect.json gives none), that `link.fold` appends a folded story's
+discussion to the survivor's in order, the candidates `link` downgraded, and one name
 resolved against the fixture's person aliases and the repo's, which must differ.
 """
 from __future__ import annotations
 
 import argparse
 import hashlib
+import re
 import shutil
 import sys
 import tempfile
@@ -39,10 +46,77 @@ from pathlib import Path
 
 import json
 
-from .common import (REPO, RELATIONS, STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases,
-                     person_id, rel)
+from .common import (DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, NOTE_KEYS, REPO, RELATIONS,
+                     STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, seconds)
 
 FIXTURES = REPO / "tests" / "fixtures"
+DATE = re.compile(r"\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?")
+URL = re.compile(r"https?://\S+")
+
+
+def text_field(v) -> bool:
+    return isinstance(v, str) and bool(v.strip())
+
+
+def discussion_problems(where: str, entries, episodes: dict) -> list[str]:
+    """A story's `discussion`: a list of entries with kind, by and text, and a source URL or an episode with a time."""
+    if not isinstance(entries, list):
+        return [f"{where}: discussion must be a list"]
+    out: list[str] = []
+    for i, e in enumerate(entries):
+        ew = f"{where} discussion entry {i + 1}"
+        if not isinstance(e, dict):
+            out.append(f"{ew}: must be an object")
+            continue
+        for k in sorted(set(e) - set(DISCUSSION_KEYS)):
+            out.append(f"{ew}: unknown field {k!r} (the fields are {', '.join(DISCUSSION_KEYS)})")
+        if e.get("kind") not in DISCUSSION_KINDS:
+            out.append(f"{ew}: kind {e.get('kind')!r} is not one of {', '.join(DISCUSSION_KINDS)}")
+        for k in ("by", "text"):
+            if not text_field(e.get(k)):
+                out.append(f"{ew}: {k} must be a non-empty string")
+        if "role" in e and e["role"] not in DISCUSSION_ROLES:
+            out.append(f"{ew}: role {e['role']!r} is not one of {', '.join(DISCUSSION_ROLES)}")
+        if "date" in e and not (isinstance(e["date"], str) and DATE.fullmatch(e["date"])):
+            out.append(f"{ew}: date {e['date']!r} is not YYYY, YYYY-MM or YYYY-MM-DD")
+        if "source" in e and not (isinstance(e["source"], str) and URL.fullmatch(e["source"])):
+            out.append(f"{ew}: source {e['source']!r} is not an http(s) URL")
+        if ("episode" in e) != ("time" in e):
+            out.append(f"{ew}: episode and time come together")
+        if "episode" in e and e["episode"] not in episodes:
+            out.append(f"{ew}: episode {e['episode']!r} is not in data/episodes")
+        if "time" in e:
+            try:
+                seconds(e["time"])
+            except SystemExit as x:
+                out.append(f"{ew}: {x}")
+        if "source" not in e and not ("episode" in e and "time" in e):
+            out.append(f"{ew}: needs a source, or an episode and a time")
+    return out
+
+
+def notes_problems(root: Root, stories: dict, owner: dict[str, str]) -> list[str]:
+    """data/notes/<story id>.json: `Root.load_notes` checks the shape and the status; here the story (or an alias of
+    one) exists and every entry has by, date and text."""
+    try:
+        notes = root.load_notes()
+    except SystemExit as e:
+        return [str(e)]
+    out: list[str] = []
+    for key, entries in sorted(notes.items()):
+        where = f"data/notes/{key}.json"
+        if key not in stories and key not in owner:
+            out.append(f"{where}: {key!r} is no story id or alias")
+        for i, e in enumerate(entries):
+            ew = f"{where} entry {i + 1}"
+            for k in sorted(set(e) - set(NOTE_KEYS)):
+                out.append(f"{ew}: unknown field {k!r} (the fields are {', '.join(NOTE_KEYS)})")
+            for k in ("by", "text"):
+                if not text_field(e.get(k)):
+                    out.append(f"{ew}: {k} must be a non-empty string")
+            if not (isinstance(e.get("date"), str) and DATE.fullmatch(e["date"])):
+                out.append(f"{ew}: date {e.get('date')!r} is not YYYY, YYYY-MM or YYYY-MM-DD")
+    return out
 
 
 def problems(root: Root) -> list[str]:
@@ -162,11 +236,14 @@ def problems(root: Root) -> list[str]:
                         continue
                 if t.get("quote") and not caps[ep].contains(t["quote"]):
                     out.append(f"{tw}: quote is not a verbatim substring of {ep}'s caption text: {t['quote'][:60]!r}")
+        if "discussion" in s:
+            out += discussion_problems(where, s["discussion"], episodes)
         for r in s.get("related") or []:
             if r.get("story") not in stories:
                 out.append(f"{where}: related story {r.get('story')!r} does not exist")
             if r.get("relation") not in RELATIONS:
                 out.append(f"{where}: relation {r.get('relation')!r} is not one of {RELATIONS}")
+    out += notes_problems(root, stories, owner)
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
             out.append(f"episode {eid}: captions file {e['captions']} is missing")
@@ -249,6 +326,33 @@ def expectations(root: Root) -> list[str]:
             for k, v in fields.items():
                 if told.get(k) != v:
                     out.append(f"expect: story {sid}: the telling from {eid} has as_told {k} {told.get(k)!r}, expected {v!r}")
+    built = {s["id"]: s for s in load_json(root.site / "data.json")["stories"]}
+    for sid, e in sorted(want.items()):
+        b = built.get(sid)
+        if b is None:
+            out.append(f"expect: story {sid} is not in site/data.json")
+            continue
+        if not isinstance(b.get("discussion"), list) or not isinstance(b.get("notes_open"), int):
+            out.append(f"expect: story {sid} in site/data.json lacks a discussion list or a notes_open count")
+            continue
+        if len(b["discussion"]) != e.get("discussion", 0):
+            out.append(f"expect: story {sid} has {len(b['discussion'])} discussion entries in site/data.json, expected {e.get('discussion', 0)}")
+        if b["notes_open"] != e.get("notes_open", 0):
+            out.append(f"expect: story {sid} has notes_open {b['notes_open']} in site/data.json, expected {e.get('notes_open', 0)}")
+    flare = built.get("the-lantern-was-a-flare-1958", {}).get("discussion", [])
+    if len(flare) < 2 or not str(flare[1].get("url", "")).endswith("t=27"):
+        out.append(f"expect: the flare's second discussion entry has url {flare[1].get('url') if len(flare) > 1 else None!r}, expected one ending t=27")
+    notes_file = root.notes / "the-lantern-was-a-flare-1958.json"
+    kept = notes_file.read_text(encoding="utf-8")
+    notes_file.write_text(json.dumps([{"by": "a", "date": "2026", "text": "t", "status": "Open"}]), encoding="utf-8")
+    try:
+        root.load_notes()
+        out.append("expect: load_notes accepted a note with status 'Open'")
+    except SystemExit:
+        pass
+    finally:
+        notes_file.write_text(kept, encoding="utf-8")
+    out += fold_discussion_problems()
     ledger = root.data / "links.json"
     got = [d["key"] for d in (load_json(ledger).get("downgraded", []) if ledger.exists() else [])]
     if got != exp.get("downgraded", []):
@@ -265,6 +369,25 @@ def expectations(root: Root) -> list[str]:
             out.append(f"expect: the extraction prompt has no line {line!r}")
     if any(k in prompt for k in extract.PLACEHOLDERS):
         out.append("expect: the extraction prompt still holds a placeholder")
+    return out
+
+
+def fold_discussion_problems() -> list[str]:
+    """`link.fold` appends the folded story's discussion to the survivor's, in order, and drops none."""
+    from . import link
+    d1 = {"kind": "debunk", "by": "Ida Fixture", "source": "https://example.org/a", "text": "Ida Fixture says it was a lamp."}
+    d2 = {"kind": "rebunk", "by": "Jo Fixture", "source": "https://example.org/b", "text": "Jo Fixture says the lamp was off."}
+    d3 = {"kind": "note", "by": "Kit Fixture", "source": "https://example.org/c", "text": "Kit Fixture says the date is wrong."}
+    base = {"title": "t", "years": None, "place_text": None, "kind": "sighting", "related": [], "tellings": []}
+    stories = {"a": {**base, "id": "a", "discussion": [d1]}, "b": {**base, "id": "b", "discussion": [d2, d3]},
+               "c": {**base, "id": "c"}, "d": {**base, "id": "d", "discussion": [d1]}}
+    link.fold(stories, "b", "a", "r", "")
+    link.fold(stories, "d", "c", "r", "")
+    out = []
+    if stories["a"].get("discussion") != [d1, d2, d3]:
+        out.append(f"expect: fold left the survivor's discussion as {stories['a'].get('discussion')}, expected three entries in order")
+    if stories["c"].get("discussion") != [d1]:
+        out.append(f"expect: fold into a story without discussion left {stories['c'].get('discussion')}, expected the folded one's entry")
     return out
 
 

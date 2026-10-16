@@ -29,6 +29,13 @@ researcher, no document and no firsthand), the rest are `told-once` (the ring wi
 telling a repetition of Fay Fixture's); the hand-written flare
 `contradicts` the lantern, so both carry `contradicted: true`.
 
+The hand-written flare also carries a two-entry `discussion` (a `debunk` by the fictional Nowhere
+Gazette with a `source`, a `rebunk` by Bo Fixture with an `episode` and a `time`) and
+`data/notes/the-lantern-was-a-flare-1958.json` holds one `open` and one `folded` viewer note:
+`expect.json` asks for 2 discussion entries and `notes_open` 1 on that story in `site/data.json`,
+and 0 and 0 on every other, so the discussion survives merge, `link --existing` and score and
+reaches the page. A fold of two stories' discussions is checked in memory (`link.fold`).
+
 The captions also carry the shapes real auto-captions have: FIXTURE0001 opens on a trailer that
 repeats a line of the body (the quote must take the body's time code, the one nearest the answer's
 `from_s`), FIXTURE0002 has a `[laughter]` and a `>>` inside quotes the answers leave out, and

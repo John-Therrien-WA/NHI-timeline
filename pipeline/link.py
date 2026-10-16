@@ -23,7 +23,8 @@ skipped and keeps no `link`.
 --existing links the stories of data/stories among themselves: each story in id order is asked
 about the nearest stories earlier in id order, with its first telling as the candidate. On `same`
 the story is folded into the earlier one (its tellings appended with `difference` and
-`link_reason`, its `related` entries and every reference to it re-pointed, its id and aliases kept
+`link_reason`, its `related` entries and every reference to it re-pointed, its `discussion` entries
+appended to the survivor's in order, its id and aliases kept
 in the survivor's `aliases`, its file deleted); on `variant` a `variant` relation is added both
 ways with the reason as the note. A story created from a candidate that was linked when it
 arrived counts as decided. Every decision is kept in data/links.json with the stories it
@@ -424,7 +425,7 @@ def add_relation(s: dict, other: str, relation: str, note: str) -> bool:
 
 
 def fold(stories: dict, loser: str, survivor: str, reason: str, difference: str) -> None:
-    """The later story into the earlier: tellings, relations, references, aliases; the loser is removed."""
+    """The later story into the earlier: tellings, relations, references, discussion, aliases; the loser is removed."""
     lo, su = stories.pop(loser), stories[survivor]
     have = {telling_key(t) for t in su["tellings"]}
     told = as_told(framing_of_story(lo), su)
@@ -453,6 +454,8 @@ def fold(stories: dict, loser: str, survivor: str, reason: str, difference: str)
         for x in lo.get(key, []):
             if x not in su.setdefault(key, []):
                 su[key].append(x)
+    if lo.get("discussion"):  # the debate about the loser is the debate about the survivor, appended in order
+        su["discussion"] = su.get("discussion", []) + [e for e in lo["discussion"] if e not in su.get("discussion", [])]
     if su.get("place") is None and lo.get("place") is not None:
         su["place"] = lo["place"]
     if su.get("place_text") is None and lo.get("place_text"):

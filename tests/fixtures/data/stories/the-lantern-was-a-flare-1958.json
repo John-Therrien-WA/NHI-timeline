@@ -14,6 +14,10 @@
   "related": [
     { "story": "the-lantern-over-the-harbour-of-nowhere-1958", "relation": "contradicts", "note": "the official account (fixture)" }
   ],
+  "discussion": [
+    { "kind": "debunk", "by": "The Nowhere Gazette (fictional)", "role": "journalist", "date": "1958-11", "source": "https://example.org/nowhere-gazette/flare", "text": "The Nowhere Gazette says the pilot boat's flare explains every report of the lantern that evening." },
+    { "kind": "rebunk", "by": "Bo Fixture", "role": "witness", "date": "2026-01-02", "episode": "FIXTURE0002", "time": "0:00:27", "text": "Bo Fixture says the flare went up after the lantern had already hung over the harbour for an hour." }
+  ],
   "tags": ["fixture"],
   "score": null
 }

@@ -29,3 +29,7 @@ null `place` or missing `place_text`, nothing else. A place the extractor names 
 `data/place-aliases.json` does not know stays unresolved until an alias or a place is added; the next
 `merge` then fills it.
 
+To fold viewer notes: pull the page's saved notes into `data/notes/<story id>.json` (status `open`), turn each
+worth keeping into a `discussion` entry or another edit of the story by hand, mark it `folded` or `dropped`, then
+run `check` and `build` again.
+

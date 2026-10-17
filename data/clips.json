@@ -2401,12 +2401,13 @@
         }
       ],
       "verdict": "clip",
-      "speaker": "marconi-s-grandson",
-      "speaker_name": "Marconi's grandson",
+      "speaker": "prince-marconi",
+      "speaker_name": "Prince Marconi",
       "also_heard": [],
       "origin": "outside",
       "reason": "In both episodes Jesse introduces what Marconi's grandson told him in an interview, and the grandson's statement is then played. Neither episode is that interview, so the recording comes from outside.",
-      "model": "opus"
+      "model": "opus",
+      "by": "hand"
     },
     {
       "id": "8Rr_nE65KkI-7300",
@@ -5408,15 +5409,16 @@
         }
       ],
       "verdict": "clip",
-      "speaker": "robert-jamison",
-      "speaker_name": "Robert Jamison",
+      "speaker": "bob-jameson",
+      "speaker_name": "Bob Jameson",
       "also_heard": [],
       "origin": {
         "episode": "fzvwBBSmWYA",
         "from_s": 2482.0
       },
       "reason": "In occurrence 1 Jesse asks Bob Jamison whether the missiles just malfunctioned, and Jamison answers and keeps talking about the UFO report. In occurrence 2 the line is dropped into a narrated montage about Hastings' witnesses.",
-      "model": "opus"
+      "model": "opus",
+      "by": "hand"
     },
     {
       "id": "fzvwBBSmWYA-3972",

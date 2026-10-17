@@ -69,6 +69,7 @@ JOIN_GAP = 12
 JOIN_SHIFT = 3
 CONTEXT_S = 60
 SLACK_S = 4
+QUOTE_GRAM = 5  # words a quote must share in a row with a clip's text to lie inside it
 BATCH = 6
 VERDICTS = ("clip", "not-a-clip", "unclear")
 WORD = re.compile(r"[a-z0-9']+")
@@ -537,13 +538,25 @@ def inside(t: dict, o: dict) -> bool:
     return o["from_s"] - SLACK_S <= t["from_s"] and to <= o["to_s"] + SLACK_S
 
 
+def grams(text: str, n: int = QUOTE_GRAM) -> set[tuple[str, ...]]:
+    w = WORD.findall(norm_quote(text).lower())
+    return {tuple(w[i:i + n]) for i in range(len(w) - n + 1)}
+
+
+def shares_words(t: dict, g: dict) -> bool:
+    """A telling's quote shares a word run with the clip, so narration beside a clip is not taken
+    for the clip; a quote too short to judge passes on time alone."""
+    q = grams(t.get("quote", ""))
+    return not q or bool(q & grams(g["text"]))
+
+
 def covering(t: dict, groups: list[dict]) -> tuple[dict, dict] | None:
-    """The clip group and occurrence a telling lies inside, or None."""
+    """The clip group and occurrence a telling lies inside, by time and by words, or None."""
     for g in groups:
         if g.get("verdict") != "clip":
             continue
         for o in g["occurrences"]:
-            if inside(t, o):
+            if inside(t, o) and shares_words(t, g):
                 return g, o
     return None
 

@@ -36,6 +36,7 @@ import sys
 import tempfile
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 
@@ -289,19 +290,26 @@ def blocks(root: Root, stories: dict, story_alias: dict[str, str], people: dict)
 # ---------- ingest ----------
 
 DOWNLOAD_PAUSE_S = 2.0  # Wikimedia answers 429 to a burst of thumbnail requests
+THROTTLE_WAITS_S = (30, 90, 180)  # after a 429, the waits before each new try; then the download fails
 
 
 def download(url: str) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-    try:
-        with urllib.request.urlopen(req, timeout=60) as r:
-            return r.read()
-    except urllib.error.HTTPError as e:
-        raise SystemExit(f"download failed: {url}: HTTP {e.code} {e.reason}")
-    except urllib.error.URLError as e:
-        raise SystemExit(f"download failed: {url}: {e.reason}")
-    except (http.client.HTTPException, OSError) as e:
-        raise SystemExit(f"download failed: {url}: {e}")
+    # a file name with a letter outside ASCII (Mystères) is percent-encoded; an encoded one is left as it is
+    req = urllib.request.Request(urllib.parse.quote(url, safe=":/?=&%,()'!*;+@~$#"), headers={"User-Agent": USER_AGENT})
+    for wait in THROTTLE_WAITS_S + (None,):
+        try:
+            with urllib.request.urlopen(req, timeout=60) as r:
+                return r.read()
+        except urllib.error.HTTPError as e:
+            if e.code == 429 and wait is not None:
+                time.sleep(wait)
+                continue
+            raise SystemExit(f"download failed: {url}: HTTP {e.code} {e.reason}")
+        except urllib.error.URLError as e:
+            raise SystemExit(f"download failed: {url}: {e.reason}")
+        except (http.client.HTTPException, OSError) as e:
+            raise SystemExit(f"download failed: {url}: {e}")
+    raise AssertionError("unreachable: the last try either returns or raises")
 
 
 def sips() -> str:

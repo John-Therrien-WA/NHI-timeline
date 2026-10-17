@@ -20,25 +20,25 @@
   "tiers": {
     "well-attested": 120,
     "told-by-several": 82,
-    "told-once": 2899
+    "told-once": 2902
   },
   "counts": {
-    "stories": 3101,
-    "tellings": 3977,
-    "independent_tellers": 3346,
+    "stories": 3104,
+    "tellings": 3982,
+    "independent_tellers": 3349,
     "repetitions": 107,
-    "documents": 1163,
+    "documents": 1164,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 56,
       "crash-retrieval": 120,
-      "document": 472,
-      "encounter": 228,
+      "document": 473,
+      "encounter": 229,
       "place-lore": 167,
       "program": 498,
       "reverse-engineering": 82,
       "sighting": 263,
-      "testimony": 829,
+      "testimony": 830,
       "theory": 386
     }
   },
@@ -12630,6 +12630,7 @@
         ],
         "episodes": [
           "KRDE1i3LDuU",
+          "RNjC1vLcxKo",
           "kRO5jOa06Qw"
         ]
       }
@@ -17149,6 +17150,7 @@
         "episodes": [
           "09KP8XVf5nY",
           "9QMrhcpJq8I",
+          "RNjC1vLcxKo",
           "Y7PLeu5rTv4",
           "d9tdJ2SkBKQ",
           "fyX8V1XXmQM",
@@ -41503,6 +41505,32 @@
         ],
         "episodes": [
           "1iaH1a3A4Lk"
+        ]
+      }
+    },
+    "lamda-claims-to-find-non-human-patterns-online-and-asks-for-2021": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "blake-lemoine"
+        ],
+        "episodes": [
+          "RNjC1vLcxKo"
         ]
       }
     },
@@ -73110,6 +73138,32 @@
         ]
       }
     },
+    "three-way-telepathy-experiment-between-lamda-and-a-claimed-t-2021": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "blake-lemoine"
+        ],
+        "episodes": [
+          "RNjC1vLcxKo"
+        ]
+      }
+    },
     "three-witnesses-held-at-gunpoint-and-given-anthrax-boosters": {
       "attestation": 0.25,
       "score": 0.5,
@@ -75164,6 +75218,32 @@
         ],
         "episodes": [
           "JGE1NIGhBzw"
+        ]
+      }
+    },
+    "turing-s-paper-treats-esp-as-an-objection-to-the-turing-test-1950": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "RNjC1vLcxKo"
         ]
       }
     },

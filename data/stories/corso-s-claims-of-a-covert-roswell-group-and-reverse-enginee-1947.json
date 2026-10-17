@@ -146,6 +146,31 @@
         "place_text": "Pentagon, Washington DC",
         "story_kind": "reverse-engineering"
       }
+    },
+    {
+      "episode": "RNjC1vLcxKo",
+      "from_s": 1458.0,
+      "to_s": 1472.0,
+      "teller": "jesse-michels",
+      "quote": "There's a guy named Philip J. Corso who wrote a book called The Day After Roswell. And he thinks we reverse engineered transistors based on the what was picked up at Roswell.",
+      "kind": "host",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [
+        "the-day-after-roswell"
+      ],
+      "difference": "Names the transistor as the reverse-engineered technology, but leaves out the covert group, Hillenkoetter and Bell Labs.",
+      "link_reason": "Both tell Corso's claim, from The Day After Roswell, that Roswell crash material was reverse-engineered into private-sector technology, with Bell Labs, where the transistor was invented, as the recipient.",
+      "as_told": {
+        "title": "Corso: transistors reverse-engineered from the Roswell wreckage",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
@@ -172,6 +197,7 @@
     "episodes": [
       "09KP8XVf5nY",
       "9QMrhcpJq8I",
+      "RNjC1vLcxKo",
       "Y7PLeu5rTv4",
       "d9tdJ2SkBKQ",
       "fyX8V1XXmQM",

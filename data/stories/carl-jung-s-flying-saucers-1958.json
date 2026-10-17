@@ -51,6 +51,29 @@
         "place_text": "Unspecified",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "RNjC1vLcxKo",
+      "from_s": 2244.0,
+      "to_s": 2278.0,
+      "teller": "jesse-michels",
+      "quote": "And what I always found fascinating is he wrote a book about flying saucers as the uh the Sanskrit symbol of the mandala, the Sanskrit symbol of psychic completeness.",
+      "kind": "host",
+      "cites": [
+        "carl-jung"
+      ],
+      "documents": [],
+      "difference": "Describes the book as treating saucers as mandalas, symbols of psychic completeness, and dates it only to the 1950s.",
+      "link_reason": "Both are about Carl Jung's book on flying saucers.",
+      "as_told": {
+        "title": "Jung's book on flying saucers as mandalas",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Switzerland",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -76,6 +99,7 @@
     ],
     "episodes": [
       "KRDE1i3LDuU",
+      "RNjC1vLcxKo",
       "kRO5jOa06Qw"
     ]
   },

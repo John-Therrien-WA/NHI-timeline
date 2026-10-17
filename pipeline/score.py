@@ -2,7 +2,10 @@
 
     uv run python -m pipeline.score [--root DIR]
 
-For every story: group tellings by teller; build the citation graph from `cites` among the story's
+For every story: group tellings by teller (a replay, a telling with `replay_of`, carries the clip's
+speaker as its teller since pipeline/clips.py ran, so it falls in with that person's tellings and
+never adds a teller; its kind counts only for a teller whose every telling of the story is a replay,
+so a replay never weighs more than the speaker's own telling); build the citation graph from `cites` among the story's
 tellers; a teller who reaches another teller of the same story through `cites` is a repetition and
 adds nothing; the rest are independent. The profile counts the independent tellers by their
 strongest kind (an `official` teller is a record unless all its official tellings carry
@@ -49,8 +52,13 @@ def tellers_of(story: dict) -> dict[str, list[dict]]:
     return by
 
 
+def own(tellings: list[dict]) -> list[dict]:
+    """A teller's tellings that weigh: those that are not replays, or every one when all are replays."""
+    return [t for t in tellings if "replay_of" not in t] or tellings
+
+
 def strongest(tellings: list[dict]) -> str:
-    return min((t["kind"] for t in tellings), key=KINDS.index)
+    return min((t["kind"] for t in own(tellings)), key=KINDS.index)
 
 
 def reach(graph: dict[str, set[str]]) -> dict[str, set[str]]:
@@ -95,7 +103,7 @@ def count_key(tellings: list[dict]) -> str:
     k = strongest(tellings)
     if k != "official":
         return k
-    official = [t for t in tellings if t["kind"] == "official"]
+    official = [t for t in own(tellings) if t["kind"] == "official"]
     return "official_conclusions" if all(t.get("official_kind") == "conclusion" for t in official) else "official_records"
 
 

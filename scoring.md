@@ -7,6 +7,7 @@ The score has three layers. The **profile** is the evidence, counted and kept vi
 ## Tellers and independence
 
 1. **Tellers.** Collect every telling of the story and group them by `teller`. One person is one teller however often, and on however many shows, they tell it.
+   A **replay** (a telling with `replay_of`: a clip a host cut into another episode, `pipeline/clips.py`) is never a teller of its own. Its `teller` is the person who speaks in the clip, so it falls in with that person's tellings: the same words aired again add an episode to the profile's reach and no weight (a replay's kind counts only for a teller whose every telling of the story is a replay), and never make the story look told by the episode's guest. The teller the extractor gave stays visible as `teller_was`.
 2. **Independence.** Build the citation graph from `cites` among the story's tellers. Two tellers are independent when neither reaches the other through `cites` within the story and they are not the same person. A teller who reaches another teller of the story is dependent: their telling is a **repetition**, which the page shows as reach, never as weight. Tellers that cite each other in a cycle count once, as the strongest of them.
 3. **A teller's kind** is the strongest kind among their tellings, in the fixed order firsthand, official, journalist, secondhand, researcher, host. The order does not move with the institutional-trust knob: a teller who is both a witness and an official counts as a witness at every setting.
 

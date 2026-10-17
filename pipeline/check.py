@@ -18,16 +18,20 @@ and formats); every data/notes/<id>.json names a story or an alias and holds ent
 `date`, `text` and a `status` of open, folded or dropped; every image sidecar under data/images is
 well formed, its owner a story, an alias or a person, its kind fitting the owner, no headshot fair
 use, its file the JPEG or PNG it names under site/ within the size its licence allows, and every file
-under site/images has a sidecar (`images.problems`). Prints every problem, naming the story and the
-entry, and exits 1 when there is one.
+under site/images has a sidecar (`images.problems`); data/clips.json, when present, is well formed
+(`clips.ledger_problems`), and a telling that carries `replay_of` or `teller_was` is exactly what the
+ledger makes of it (`replay_of` an episode in data/episodes or `{"outside": true}`, inside an
+occurrence of a `clip` group, `teller_was` a person). A telling without either mark is not held to
+the ledger, so the check passes between judging and applying. Prints every problem, naming the
+story and the entry, and exits 1 when there is one.
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p` (`explain.json` stands in for the explain stage): the episodes without a `links/<id>.json` are extracted and merged unlinked
 (the corpus as it stood before linking), `link --existing` folds and relates their stories with
 `links/existing.json`, then the episodes with a links file are extracted, linked in one run (so
 one can join a story another creates; each episode's candidates in groups of ten, one prepared
-answer per group) and merged; score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link answer was asked for, then
-runs both link modes, merge, score and explain again and verifies that nothing was asked and nothing
+answer per group) and merged; clips (judged with `clips.json`), score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link and clips answer was asked for, then
+runs both link modes, merge, clips, score and explain again and verifies that nothing was asked and nothing
 changed. Last it checks `tests/fixtures/expect.json`: the time codes given candidates must have
 (the nearest of two occurrences, quotes across a `>>` or a bracketed tag), the people that must not
 exist (a spelling the person aliases fold), the host and guests `captions.host_and_guests` must take
@@ -41,7 +45,12 @@ lists, which keep `plain_by`), that `link.fold` appends a folded story's
 discussion to the survivor's in order, that a group call of `link` resolves `#n` to the story an
 earlier telling of the group ends in, asks a refused group once more with a note, stops on a
 second refusal and resumes after a killed run, the candidates `link` downgraded, and one name
-resolved against the fixture's person aliases and the repo's, which must differ.
+resolved against the fixture's person aliases and the repo's, which must differ. For the clips
+stage: the ledger's verdicts (`clips`), the tellings that must carry `replay_of` and `teller_was`
+(`replays`) and a story's independent tellers (`tellers`); that a hand-marked `not-a-clip` restores
+the teller and a second apply puts it back; and, with a fake model, that a refused clips answer is
+asked once more with a note and a second refusal stops the run; and that a first-hand replay never
+lifts a speaker whose own telling is second-hand.
 """
 from __future__ import annotations
 
@@ -56,7 +65,7 @@ from unittest import mock
 
 import json
 
-from . import images
+from . import clips, images
 from .common import (DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, NOTE_KEYS, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds)
 
@@ -149,6 +158,16 @@ def problems(root: Root) -> list[str]:
     except SystemExit as e:
         out.append(str(e))
         aliases = {}
+    clip_groups: list = []
+    if (root.data / "clips.json").exists():
+        try:
+            ledger = load_json(root.data / "clips.json")
+            bad = clips.ledger_problems(ledger, episodes)
+            out += bad
+            if not bad:
+                clip_groups = ledger["groups"]
+        except SystemExit as e:
+            out.append(str(e))
     named: set[str] = set()  # the person ids the candidates' names resolve to (merge creates each)
     for f in sorted(root.candidates.glob("*.json")) if root.candidates.exists() else []:
         try:
@@ -235,6 +254,8 @@ def problems(root: Root) -> list[str]:
                 out.append(f"{tw}: no quote")
             if "difference" in t and not (t.get("link_reason") or "").strip():
                 out.append(f"{tw}: has a difference but no link_reason")
+            if "replay_of" in t or "teller_was" in t:
+                out += replay_problems(tw, t, episodes, people, clip_groups)
             if ep:
                 if ep not in episodes:
                     out.append(f"{tw}: episode {ep!r} is not in data/episodes")
@@ -265,6 +286,26 @@ def problems(root: Root) -> list[str]:
             out.append(f"episode {eid}: captions_source {e['captions_source']!r} is not gemini or absent")
         if e.get("captions_source") == "gemini" and not isinstance(e.get("timestamps_approximate"), bool):
             out.append(f"episode {eid}: a gemini episode needs timestamps_approximate true or false")
+    return out
+
+
+def replay_problems(tw: str, t: dict, episodes: dict, people: dict, groups: list) -> list[str]:
+    """A telling marked by the clips stage: `replay_of` names an episode (or is `{"outside": true}`),
+    `teller_was` a person, and both are what data/clips.json makes of the telling."""
+    if not t.get("episode"):
+        return [f"{tw}: replay_of or teller_was on a telling without an episode"]
+    out: list[str] = []
+    r = t.get("replay_of")
+    if "replay_of" in t and r != {"outside": True}:
+        if not (isinstance(r, dict) and set(r) == {"episode", "from_s"} and isinstance(r["from_s"], (int, float))):
+            out.append(f"{tw}: replay_of {r!r} must be {{episode, from_s}} or {{\"outside\": true}}")
+        elif r["episode"] not in episodes:
+            out.append(f"{tw}: replay_of episode {r['episode']!r} is not in data/episodes")
+    if "teller_was" in t and t["teller_was"] not in people:
+        out.append(f"{tw}: teller_was {t['teller_was']!r} is not in data/people")
+    if not out and clips.corrected(t, groups) != t:
+        out.append(f"{tw}: replay_of and teller_was are not what data/clips.json makes of this telling "
+                   f"(no clip group covers it, or its speaker or origin differ): run pipeline.clips")
     return out
 
 
@@ -324,6 +365,8 @@ def expectations(root: Root) -> list[str]:
         got = {"tier": s.get("tier"), "contradicted": (s.get("profile") or {}).get("contradicted"), "attestation": s.get("attestation")}
         if got != {k: e[k] for k in got}:
             out.append(f"expect: story {sid} has {got}, expected {({k: e[k] for k in got})}")
+        if "tellers" in e and (s.get("profile") or {}).get("tellers") != e["tellers"]:
+            out.append(f"expect: story {sid} has independent tellers {(s.get('profile') or {}).get('tellers')}, expected {e['tellers']}")
         if "years" in e and s.get("years") != e["years"]:
             out.append(f"expect: story {sid} has years {s.get('years')}, expected {e['years']}")
         if "aliases" in e and sorted(s.get("aliases", [])) != sorted(e["aliases"]):
@@ -398,6 +441,9 @@ def expectations(root: Root) -> list[str]:
         notes_file.write_text(kept, encoding="utf-8")
     out += fold_discussion_problems()
     out += link_group_problems()
+    out += clips_expectations(root, exp)
+    out += clips_refusal_problems(root)
+    out += replay_weight_problems()
     ledger = root.data / "links.json"
     got = [d["key"] for d in (load_json(ledger).get("downgraded", []) if ledger.exists() else [])]
     if got != exp.get("downgraded", []):
@@ -436,7 +482,9 @@ def image_refusal_problems(root: Root) -> list[str]:
     alias_sc = load_json(root.data / "images" / vault / "1.json")
     alias_jpg = (root.site / "images" / vault / "1.jpg").read_bytes()
     survivor = alias[vault]  # the vault's directory is an alias; its survivor must not hold the same image_url
-    cases = [  # (what, owner dir, n, sidecar or None, site file bytes or None, ext, the words the problem must carry)
+    lantern = "the-lantern-over-the-harbour-of-nowhere-1958"  # told by bo-fixture alone; survivor by two tellers
+    person_sc = {**story_sc, "kind": "person", "person": "Someone Fixture"}
+    cases = [  # (what, owner dir, n, sidecar or None, site file bytes or None, ext, the words the problem must carry, None when it must pass)
         ("a fair-use headshot", "bo-fixture", 2, {**good, "licence_kind": "fair-use"}, png, "png", "never fair use"),
         ("a headshot as a story's picture", vault, 2, {**good, "file": f"images/{vault}/2.png"}, png, "png", "does not fit a story owner"),
         ("an object owned by a person", "bo-fixture", 2, {**story_sc}, png, "png", "does not fit a person owner"),
@@ -451,6 +499,12 @@ def image_refusal_problems(root: Root) -> list[str]:
         ("a file no sidecar claims", "bo-fixture", 9, None, png, "png", "no sidecar under data/images claims it"),
         ("a PNG without transparency", "bo-fixture", 2, {**good}, opaque, "png", "without transparency"),
         ("an alias directory's image_url again under the survivor", survivor, 1, {**alias_sc, "file": f"images/{survivor}/1.jpg"}, alias_jpg, "jpg", "image_url is the same as"),
+        ("a fair-use person picture", survivor, 2, {**person_sc, "licence_kind": "fair-use"}, png, "png", "never fair use"),
+        ("a person picture naming no one", survivor, 2, {k: v for k, v in person_sc.items() if k != "person"}, png, "png", "names who it shows"),
+        ("a person named on an object", survivor, 2, {**story_sc, "person": "Someone Fixture"}, png, "png", "belongs to a person picture only"),
+        ("a person picture beside one other teller's story", lantern, 2, {**person_sc}, png, "png", "needs two or more independent tellers"),
+        ("a person picture beside a story two tellers tell", survivor, 2, {**person_sc}, png, "png", None),
+        ("a person picture beside the person's own story", lantern, 2, {**person_sc, "person": "bo-fixture"}, png, "png", None),
     ]
     out: list[str] = []
     for what, owner_dir, n, sc, data, ext, words in cases:
@@ -474,7 +528,10 @@ def image_refusal_problems(root: Root) -> list[str]:
             for d in {f.parent for f in made}:
                 if not any(d.iterdir()):
                     d.rmdir()
-        if not any(words in g for g in got):
+        if words is None:
+            if got:
+                out.append(f"expect: images.problems refused {what}: {got}")
+        elif not any(words in g for g in got):
             out.append(f"expect: images.problems let {what} through (got {got})")
     left = images.problems(root, stories, alias, people)
     if left:
@@ -521,7 +578,7 @@ def image_ingest_problems(root: Root) -> list[str]:
         else:
             sc = load_json(sc_file)
             want = {"file": f"images/{vault}/1.jpg", **{k: entry[k] for k in ("kind", "caption", "source", "image_url", "licence", "licence_kind", "credit", "date")}, "fetched": "2026-10-16"}
-            if sc != want or list(sc) != list(images.SIDECAR_KEYS):
+            if sc != want or list(sc) != [k for k in images.SIDECAR_KEYS if k in sc]:
                 out.append(f"expect: images.ingest wrote the sidecar {sc}, expected {want} in the schema's field order")
         if asked != [entry["image_url"]] or failures or not lines[1].startswith("kept"):
             out.append(f"expect: images.ingest fetched {asked} and printed {lines}, expected one fetch and the held image kept")
@@ -687,6 +744,88 @@ def link_group_problems() -> list[str]:
     return out
 
 
+def clips_expectations(root: Root, exp: dict) -> list[str]:
+    """The clips ledger's verdicts and the tellings it marks, as expect.json gives them; then a hand-marked
+    `not-a-clip` restores the replayed telling's teller, and putting the ledger back marks it again."""
+    out: list[str] = []
+    ledger_file = root.data / "clips.json"
+    ledger = load_json(ledger_file)
+    got = {g["id"]: {"verdict": g["verdict"], "speaker": g["speaker"], "origin": g["origin"],
+                     "episodes": [o["episode"] for o in g["occurrences"]]} for g in ledger["groups"]}
+    if got != exp.get("clips", {}):
+        out.append(f"expect: data/clips.json holds {got}, expected {exp.get('clips', {})}")
+    stories = root.load_dir(root.stories)
+    marked = [{"story": sid, "episode": t["episode"], "teller": t["teller"], "teller_was": t.get("teller_was"),
+               "replay_of": t.get("replay_of")} for sid, s in sorted(stories.items()) for t in s["tellings"]
+              if "replay_of" in t or "teller_was" in t]
+    if marked != exp.get("replays", []):
+        out.append(f"expect: the tellings the clips stage marked are {marked}, expected {exp.get('replays', [])}")
+    if not marked:
+        return out
+    sid = marked[0]["story"]
+    story_file = root.stories / f"{sid}.json"
+    kept_ledger, kept_story = ledger_file.read_text(encoding="utf-8"), story_file.read_text(encoding="utf-8")
+    try:
+        hand = load_json(ledger_file)
+        for g in hand["groups"]:
+            g.update({"verdict": "not-a-clip", "speaker": None, "speaker_name": None, "also_heard": [], "origin": None, "by": "hand"})
+        save_json(ledger_file, hand)
+        clips.apply(root, write=True)
+        t = next(t for t in load_json(story_file)["tellings"] if t["episode"] == marked[0]["episode"])
+        if t["teller"] != marked[0]["teller_was"] or "replay_of" in t or "teller_was" in t:
+            out.append(f"expect: a hand not-a-clip must restore {sid}'s telling to {marked[0]['teller_was']} unmarked, got {t}")
+        ledger_file.write_text(kept_ledger, encoding="utf-8")
+        clips.apply(root, write=True)
+        if story_file.read_text(encoding="utf-8") != kept_story:
+            out.append(f"expect: applying the ledger again must mark {sid} exactly as before")
+    finally:
+        ledger_file.write_text(kept_ledger, encoding="utf-8")
+        story_file.write_text(kept_story, encoding="utf-8")
+    return out
+
+
+def clips_refusal_problems(root: Root) -> list[str]:
+    """`clips.Asker` with a fake model: a refused answer is asked once more with a note, a second refusal stops."""
+    prompts: list[str] = []
+    good = {"group": 1, "reason": "r", "verdict": "clip", "speaker": "fay-fixture", "also_heard": [], "origin": "#1"}
+
+    def model(always: bool):
+        def complete(prompt, schema, *, model, timeout):
+            prompts.append(prompt)
+            if always or "previous answer was refused" not in prompt:
+                return {"groups": [{**good, "origin": "#9"}]}
+            return {"groups": [good]}
+        return complete
+
+    out: list[str] = []
+    got = clips.Asker(root, "fake", 1, None, complete=model(False)).ask("<group number=\"1\">", ["g"], [2])
+    if len(prompts) != 2 or "previous answer was refused" not in prompts[1] or got[0]["origin"] != "#1":
+        out.append(f"expect: a refused clips answer must be asked once more with a note (prompts {len(prompts)}, got {got})")
+    prompts.clear()
+    try:
+        clips.Asker(root, "fake", 1, None, complete=model(True)).ask("<group number=\"1\">", ["g"], [2])
+        out.append("expect: a clips answer refused twice must stop the run")
+    except SystemExit:
+        pass
+    return out
+
+
+def replay_weight_problems() -> list[str]:
+    """`score.attest`: a replay labelled first-hand never lifts a speaker whose own telling is second-hand,
+    and a speaker heard only in replays keeps the replay's kind."""
+    from . import score
+    own = {"episode": "A", "from_s": 1, "teller": "fay-fixture", "quote": "q", "kind": "secondhand", "cites": [], "documents": []}
+    replay = {**own, "episode": "B", "kind": "firsthand", "teller_was": "hal-fixture", "replay_of": {"episode": "A", "from_s": 1}}
+    out = []
+    p = score.attest({"id": "r", "tellings": [own, replay]})["profile"]
+    if (p["independent_tellers"], p["secondhand"], p["firsthand"]) != (1, 1, 0):
+        out.append(f"expect: a first-hand replay beside a second-hand own telling must count one second-hand teller, got {p}")
+    p = score.attest({"id": "r", "tellings": [replay]})["profile"]
+    if (p["independent_tellers"], p["firsthand"]) != (1, 1):
+        out.append(f"expect: a speaker heard only in a replay must count by the replay's kind, got {p}")
+    return out
+
+
 def fold_discussion_problems() -> list[str]:
     """`link.fold` appends the folded story's discussion to the survivor's, in order, and drops none."""
     from . import link
@@ -746,6 +885,11 @@ def run_fixture() -> list[str]:
         unused = sorted(set(a.fixture) - set(a.used))
         if unused:
             out.append(f"link: prepared answers never asked for: {unused}")
+    clip_asker = clips.Asker(root, "fixture", 1, tmp / "clips.json")
+    clips.run(root, clip_asker)
+    unused = sorted(set(clip_asker.fixture) - clip_asker.used)
+    if unused:
+        out.append(f"clips: prepared answers never asked for: {unused}")
     score.run(root)
     explain.run(root, explain.Asker(root, "fixture", 1, tmp / "explain.json"))
     build.run(root, root.site / "data.json")
@@ -758,6 +902,10 @@ def run_fixture() -> list[str]:
     if again.calls:
         out.append(f"link is not idempotent: a second run asked {again.calls} question(s)")
     stats = merge.run(root)
+    clip_again = clips.Asker(root, "fixture", 1, tmp / "clips.json")
+    clips.run(root, clip_again)
+    if clip_again.calls:
+        out.append(f"clips is not idempotent: a second run asked {clip_again.calls} question(s)")
     score.run(root)
     explained = explain.Asker(root, "fixture", 1, tmp / "explain.json")
     explain.run(root, explained)

@@ -17,6 +17,8 @@ uv run python -m pipeline.captions <video id or URL>    # captions in: sources/c
 uv run python -m pipeline.extract <video id>            # claude -p over the captions: data/candidates/<id>.json
 uv run python -m pipeline.link <video id>               # claude -p, about ten candidates a call (--batch): is each the same story as one held, a variant, or new
 uv run python -m pipeline.merge                         # candidates into data/stories, data/people, data/documents
+uv run python -m pipeline.clips --report                # claude -p, about six groups a call: clips a host cut into another episode, who speaks them, from where (data/clips.json); prints what it would change
+uv run python -m pipeline.clips                         # the same, then a telling inside a replayed clip gets replay_of and the clip's speaker as teller
 uv run python -m pipeline.score                         # score into each story, data/scores.json
 uv run python -m pipeline.explain --all --model opus    # claude -p, about twelve stories a call: a plain telling for every story, written ground up
 uv run python -m pipeline.images <manifest.json>        # found photographs in: site/images/<owner>/<n>.jpg, data/images/<owner>/<n>.json

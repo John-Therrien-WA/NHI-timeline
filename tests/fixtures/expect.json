@@ -159,7 +159,11 @@
       "attestation": 1.0,
       "episodes": [
         "FIXTURE0004",
-        "FIXTURE0005"
+        "FIXTURE0005",
+        "FIXTURE0006"
+      ],
+      "tellers": [
+        "fay-fixture"
       ]
     },
     "the-vault-crew-was-sent-away": {
@@ -187,5 +191,31 @@
   },
   "plain_by_hand": [
     "the-lantern-was-a-flare-1958"
+  ],
+  "clips": {
+    "FIXTURE0004-8": {
+      "verdict": "clip",
+      "speaker": "fay-fixture",
+      "origin": {
+        "episode": "FIXTURE0004",
+        "from_s": 8.0
+      },
+      "episodes": [
+        "FIXTURE0004",
+        "FIXTURE0006"
+      ]
+    }
+  },
+  "replays": [
+    {
+      "story": "the-ring-in-the-ice-of-lake-placeholder-1980",
+      "episode": "FIXTURE0006",
+      "teller": "fay-fixture",
+      "teller_was": "hal-fixture",
+      "replay_of": {
+        "episode": "FIXTURE0004",
+        "from_s": 8.0
+      }
+    }
   ]
 }

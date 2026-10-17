@@ -1,10 +1,10 @@
 # Fixtures
 
-Five tiny, entirely fictional episodes so the whole chain runs offline: `pipeline.check --fixture`
+Six tiny, entirely fictional episodes so the whole chain runs offline: `pipeline.check --fixture`
 copies this folder to a temporary directory and runs extract (reading `answers/<id>.json` instead
-of asking `claude -p`), merge, score, build and the checks on it. Nothing here is a real claim, a
+of asking `claude -p`), link, merge, clips (reading `clips.json`), score, explain, build and the checks on it. Nothing here is a real claim, a
 real person, a real show or a real place; the video ids do not exist. `data/` holds the axes, the
-five episodes, one document and one hand-written story (the one that contradicts a merged one);
+six episodes, one document and one hand-written story (the one that contradicts a merged one);
 `sources/captions/` the invented caption text; `answers/` the model answers as the prompt's schema
 gives them, including one quote that is not verbatim and must be dropped, and one teller named with a role
 ("Bo Fixture (guest)") that must become the same person as "Bo Fixture".
@@ -12,8 +12,8 @@ gives them, including one quote that is not verbatim and must be dropped, and on
 `FIXTURE0001` and `FIXTURE0002` are the corpus as it stood before linking: they merge unlinked,
 and `links/existing.json` holds the answers `link --existing` gets for their stories (Cy Fixture's
 vault folds into Bo Fixture's as `same`, the harbour log's flare becomes a `variant` of the
-lantern). `FIXTURE0003`, `FIXTURE0004` and `FIXTURE0005` arrive afterwards: each is extracted, then
-all three are linked in one `link` run with the answers of `links/<id>.json` and merged. A links
+lantern). `FIXTURE0003` to `FIXTURE0006` arrive afterwards: each is extracted, then
+all four are linked in one `link` run with the answers of `links/<id>.json` and merged. A links
 file is a list of groups as one call at `--batch 10` sees them (`episode`, the `candidates` asked by
 title in order, and `decisions`, one per candidate numbered from 1, every one with its `grain`);
 each of these episodes has three candidates or fewer, so each is one group. `links/existing.json`
@@ -26,10 +26,24 @@ vault program, answered `same` at grain `narrower`, and a testimony about the va
 `downgraded` in `data/links.json`. Every prepared answer must be asked for, and a second run must
 ask nothing.
 
+`FIXTURE0006` is the replayed clip. Its host plays a clip of Fay Fixture from `FIXTURE0004` (the
+ring in the ice, a `>>` before and after it, introduced as "here is what fay fixture told this
+show") to her guest Hal Fixture, and the prepared extraction credits the clip's words to Hal; `link` joins it to the
+ring as `same`. Before the clips stage the ring would have two independent first-hand tellers and
+be `well-attested`. `clips` finds the 16 shared words as one group (`FIXTURE0004-8`), `clips.json`
+answers it `clip`, spoken by `fay-fixture`, origin `#1` (FIXTURE0004), and the stage gives Hal's
+telling `replay_of` FIXTURE0004 at 8 s, `teller` `fay-fixture` and `teller_was` `hal-fixture`; the
+ring ends with one independent teller (`tellers` in expect.json), `told-once`. `expect.json` names
+the ledger's verdict under `clips` and the marked telling under `replays`. The check also marks the
+group `not-a-clip` by hand and applies (Hal's telling must come back unmarked), puts the ledger back
+and applies again (the story must be byte for byte as before), and runs `clips.Asker` with a fake
+model to prove a refused answer is asked once more with a note and a second refusal stops the run; and scores, in memory, a first-hand replay beside the speaker's own second-hand telling,
+which must count one second-hand teller.
+
 The scored result covers every tier: the vault is `well-attested` (Cy and Eve, both firsthand, with
 Bo's telling a repetition of Cy's), the plains hum is `told-by-several` (Dee as host and Eve as
 researcher, no document and no firsthand), the rest are `told-once` (the ring with Gus Fixture's
-telling a repetition of Fay Fixture's); the hand-written flare
+telling a repetition of Fay Fixture's and the replayed clip hers); the hand-written flare
 `contradicts` the lantern, so both carry `contradicted: true`.
 
 The hand-written flare also carries a two-entry `discussion` (a `debunk` by the fictional Nowhere

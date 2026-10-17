@@ -13,4 +13,6 @@ Title: {title}
 Published: {published}
 Speakers: {speakers}. When the speakers are unknown, the guest is usually the person the title names. A line beginning with `>>` marks a change of speaker; name the teller by their name alone, without a role, spelled as the title spells it when the title names them.
 
+A host may cut in clips of other people: a guest of another episode, a news interview, a hearing, a documentary. Watch for a `>>` change of speaker together with an introduction such as "here's X", "listen to what X told me" or "as X said", and for a passage whose voice or subject does not fit the conversation around it. Credit a quote to the person actually speaking in it, never to the episode's guest by default; a clip's words are that person's telling, even when they are not in this episode.
+
 {captions}

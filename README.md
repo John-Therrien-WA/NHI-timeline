@@ -28,8 +28,9 @@ cd site && python3 -m http.server 8000                  # or over http (reads si
 
 The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr and no
 build step: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
-check, the score recomputed at the reader's institutional trust and the tiers; `corridor.js` and
-`globe.js` the two views; `panel.js` the story panel; `notes.js` the notes box). The corridor is the
+check, the score recomputed at the reader's institutional trust and the tiers; `cards.js` the picture
+cards, `corridor.js` and `globe.js` the two views (a story with pictures shows them as cards, in place of
+its sphere in the corridor and above its marker on the globe); `panel.js` the story panel; `notes.js` the notes box). The corridor is the
 default view: time runs ahead, stretched where many stories are told, the angle is the kind or the
 region, and the rings are the tiers. The globe is the second view: regions as patches sized by story
 count, eras as shells. `M` switches; the keys are listed on the page. On a phone or tablet (a coarse

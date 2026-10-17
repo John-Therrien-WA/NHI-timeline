@@ -748,7 +748,7 @@
       placeSorted.forEach(o => { if (!o.visible) return; const r = rectOf(o, o.userData.w, 14, 0.5, -0.4); if (hit(r)) o.visible = false; else taken.push(r); });
     }
     function labelCandidates(w, h) {
-      const out = [];
+      const out = [], fovK = (h / 2) / Math.tan(THREE.MathUtils.degToRad(camera.fov / 2));
       storyObjs.forEach(o => {
         const s = o.s, sel = s.id === selected;
         if (o.f < 0.5 || s.id === C.hoverSid()) return;
@@ -756,9 +756,17 @@
         const reach = M.TIERS[s._tier].labelAt * 0.6;
         if (!sel && dist > reach) return;
         if (occluded(o.pos)) return;
-        pv.copy(o.pos).project(camera);
-        if (pv.z > 1 || Math.abs(pv.x) > 0.95 || Math.abs(pv.y) > 0.92) return;
-        out.push({ id: s.id, x: (pv.x + 1) / 2 * w, y: (1 - pv.y) / 2 * h, rank: (sel ? 100 : 0) + (3 - s._tier) * 10 + s._str * 5 - dist * 0.02 });
+        let x, y;
+        if (o.card && o.card.pic.visible) {   // the label hangs under the card on screen, as in the corridor
+          pv.copy(cardTop(o)).project(camera);
+          if (pv.z > 1 || Math.abs(pv.x) > 0.95 || Math.abs(pv.y) > 0.92) return;
+          x = (pv.x + 1) / 2 * w; y = (1 - pv.y) / 2 * h + o.cardH * 0.5 * fovK / camera.position.distanceTo(o.pos) + 14;
+        } else {
+          pv.copy(o.pos).project(camera);
+          if (pv.z > 1 || Math.abs(pv.x) > 0.95 || Math.abs(pv.y) > 0.92) return;
+          x = (pv.x + 1) / 2 * w; y = (1 - pv.y) / 2 * h;
+        }
+        out.push({ id: s.id, x, y, rank: (sel ? 100 : 0) + (3 - s._tier) * 10 + s._str * 5 - dist * 0.02 });
       });
       return out;
     }

@@ -1,0 +1,103 @@
+{
+  "id": "jonathan-weygandt-and-the-crashed-craft-in-peru-1990",
+  "title": "Jonathan Weygandt and the crashed craft in Peru",
+  "summary": "James Fox tells of Jonathan Weygandt and the crashed craft in Peru, about early 1990s at Peru, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1993
+  },
+  "place": null,
+  "place_text": "Peru",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 5392.0,
+      "to_s": 5397.0,
+      "teller": "james-fox",
+      "quote": "He went up to the craft. He said there was like a green liquid dripping out of it.",
+      "kind": "secondhand",
+      "cites": [
+        "jonathan-wagant",
+        "steven-greer"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 8.0,
+      "to_s": 16.0,
+      "teller": "uapgerb",
+      "quote": "they encounter a a clearing. There's an enormous egg-shaped, teardrop-shaped craft embedded in the cliff face,",
+      "kind": "secondhand",
+      "cites": [
+        "jonathan-wagant"
+      ],
+      "documents": [],
+      "difference": "Describes the craft as egg- or teardrop-shaped and embedded in a cliff face in a clearing, but gives no place or date.",
+      "link_reason": "Both tell Jonathan Weygandt's encounter with a crashed craft. This telling describes it as egg-shaped and embedded in a cliff face, and the story places it in Peru in the early 1990s.",
+      "as_told": {
+        "title": "Jonathan Wagant finds egg-shaped craft in cliff face",
+        "years": null,
+        "place_text": null,
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 4540.0,
+      "to_s": 4547.0,
+      "teller": "uapgerb",
+      "quote": "Jonathan Wagant uh USMC Lance Corporal 1997 sent to Peru Operation Laser Strike which is a counter narcotics operation.",
+      "kind": "secondhand",
+      "cites": [
+        "jonathan-weygandt",
+        "sergeant-atkins",
+        "sergeant-allen"
+      ],
+      "documents": [],
+      "difference": "Dates it to 1997 rather than the early 1990s, places it in Operation Laser Strike and names Sergeants Atkins and Allen.",
+      "link_reason": "Both tell of Jonathan Weygandt's encounter with a crashed craft in Peru.",
+      "as_told": {
+        "title": "Jonathan Weygandt's 1997 Peru crash retrieval encounter",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Peru (Operation Laser Strike)",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox",
+      "uapgerb"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "maeterlinck-s-the-cloud-that-lifted-foretells-the-kennedy-as-1963",
+  "title": "Maeterlinck's 'The Cloud That Lifted' foretells the Kennedy assassination",
+  "summary": "Peter Levenda tells of Maeterlinck's 'The Cloud That Lifted' foretells the Kennedy assassination, about early 20th century play; 1963 assassination at Texas (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "texas",
+  "place_text": "Belgium / Dallas, Texas",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 5053.0,
+      "to_s": 5057.0,
+      "teller": "peter-levenda",
+      "quote": "Because the same guy who wrote that wrote a play called The Cloud That Lifted.",
+      "kind": "researcher",
+      "cites": [
+        "maurice-maeterlinck",
+        "lee-harvey-oswald"
+      ],
+      "documents": [
+        "the-cloud-that-lifted",
+        "the-blue-bird"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

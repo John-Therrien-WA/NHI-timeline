@@ -1,0 +1,87 @@
+{
+  "id": "wall-street-journal-emp-explanation-for-malmstrom-1967",
+  "title": "Wall Street Journal EMP explanation for Malmstrom",
+  "summary": "Jesse Michels tells of Wall Street Journal EMP explanation for Malmstrom, about 1967 at Malmstrom Air Force Base, Montana, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": null,
+  "place_text": "Malmstrom Air Force Base, Montana",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 2447.0,
+      "to_s": 2463.0,
+      "teller": "jesse-michels",
+      "quote": "And cut back to uh a year or two ago, the Wall Street Journal reports this clearly disinfo hit piece on UFOs and it's around this event and they say that an EMP in 1967",
+      "kind": "host",
+      "cites": [
+        "wall-street-journal"
+      ],
+      "documents": [
+        "wall-street-journal-article-on-malmstrom-emp"
+      ]
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 6091.0,
+      "to_s": 6100.0,
+      "teller": "jesse-michels",
+      "quote": "They said that they wheeled an EMP up to the base and fried all the electronics on site with people present.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "wall-street-journal-article"
+      ],
+      "difference": "Adds that the EMP device was said to have been wheeled up to the base and fried the electronics with people present.",
+      "link_reason": "Both are about the recent Wall Street Journal article that blamed the 1967 Malmstrom shutdown on an EMP.",
+      "as_told": {
+        "title": "Wall Street Journal article blaming Malmstrom on an EMP test",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom AFB, Montana",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "malmstrom-missiles-disabled-by-red-glowing-object-1967",
+      "relation": "variant",
+      "note": "The Wall Street Journal explains the same 1967 Malmstrom missile shutdown as an EMP rather than a UFO, a competing core claim about the same event."
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

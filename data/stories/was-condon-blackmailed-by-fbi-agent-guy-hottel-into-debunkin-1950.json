@@ -1,0 +1,67 @@
+{
+  "id": "was-condon-blackmailed-by-fbi-agent-guy-hottel-into-debunkin-1950",
+  "title": "Was Condon blackmailed by FBI agent Guy Hottel into debunking UFOs",
+  "summary": "Jesse Michels tells of Was Condon blackmailed by FBI agent Guy Hottel into debunking UFOs, about 1950s-1960s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 483.0,
+      "to_s": 496.0,
+      "teller": "jesse-michels",
+      "quote": "blackmailed you see while being\ninvestigated for communist sympathies in\nthe ' 50s a dossier of field reports was\nbeing created on him in the background\nby an FBI field agent named guy hoddle",
+      "kind": "host",
+      "cites": [
+        "edward-condon",
+        "guy-hottel"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "the-golden-age-of-general-relativity-bahnson-and-babson-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pilots-mistaking-u-2-and-sr-71-for-ufos-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "TH10mD9hQas"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

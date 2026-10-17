@@ -1,0 +1,54 @@
+{
+  "id": "curtis-lemay-chases-townsend-brown-down-the-stairs",
+  "title": "Curtis LeMay chases Townsend Brown down the stairs",
+  "summary": "Jesse Michels tells of Curtis LeMay chases Townsend Brown down the stairs, about an unknown time at an unknown place, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 10103.0,
+      "to_s": 10109.0,
+      "teller": "jesse-michels",
+      "quote": "me, Linda Brown, says Curtis LeMay chases Townsend Brown down the stairs",
+      "kind": "secondhand",
+      "cites": [
+        "linda-brown",
+        "curtis-lemay",
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

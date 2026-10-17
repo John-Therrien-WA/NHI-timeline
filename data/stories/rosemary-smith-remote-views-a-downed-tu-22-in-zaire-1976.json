@@ -1,0 +1,56 @@
+{
+  "id": "rosemary-smith-remote-views-a-downed-tu-22-in-zaire-1976",
+  "title": "Rosemary Smith remote-views a downed Tu-22 in Zaire",
+  "summary": "Jesse Michels tells of Rosemary Smith remote-views a downed Tu-22 in Zaire, about 1976-1980 at Zaire, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1976,
+    "to": 1980
+  },
+  "place": null,
+  "place_text": "Zaire",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 9792.0,
+      "to_s": 9807.0,
+      "teller": "jesse-michels",
+      "quote": "even Jimmy Carter is on record saying, \"The craziest thing of my presidency from 1976 to 1980 was actually this woman, Rosemary Smith, finding a downed TU22 Russian cargo plane.\"",
+      "kind": "host",
+      "cites": [
+        "jimmy-carter",
+        "rosemary-smith"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

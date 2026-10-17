@@ -1,0 +1,59 @@
+{
+  "id": "propheta-s-letters-to-jim-garrison-in-the-garrison-files-1960",
+  "title": "Propheta's letters to Jim Garrison in the Garrison files",
+  "summary": "Peter Levenda tells of Propheta's letters to Jim Garrison in the Garrison files, about 1960s at New Orleans, Louisiana; the Bronx, New York, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "New Orleans, Louisiana; the Bronx, New York",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 2946.0,
+      "to_s": 2958.0,
+      "teller": "peter-levenda",
+      "quote": "where the leader of the church, guy called Propheta, was writing letters to Jim Garrison saying, \"When you're finished with Jack Martin, can you send him back to us?\" Right.",
+      "kind": "researcher",
+      "cites": [
+        "propheta",
+        "jim-garrison",
+        "jack-martin"
+      ],
+      "documents": [
+        "jim-garrison-s-correspondence-files"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

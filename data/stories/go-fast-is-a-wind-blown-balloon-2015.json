@@ -1,0 +1,57 @@
+{
+  "id": "go-fast-is-a-wind-blown-balloon-2015",
+  "title": "Go Fast is a wind-blown balloon",
+  "summary": "Mick West tells of Go Fast is a wind-blown balloon, about 2015 at off Jacksonville, Florida, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": null,
+  "place_text": "off Jacksonville, Florida",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 4786.0,
+      "to_s": 4797.0,
+      "teller": "mick-west",
+      "quote": "So my hypothesis about this one is that it's uh probably just a windb blown object like a balloon.",
+      "kind": "researcher",
+      "cites": [
+        "yannick"
+      ],
+      "documents": [
+        "go-fast-video"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

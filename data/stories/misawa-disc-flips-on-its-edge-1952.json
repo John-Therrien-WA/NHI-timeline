@@ -1,0 +1,53 @@
+{
+  "id": "misawa-disc-flips-on-its-edge-1952",
+  "title": "Misawa disc flips on its edge",
+  "summary": "Merrick tells of Misawa disc flips on its edge, about 1952 at Japan (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": "japan",
+  "place_text": "Misawa, Japan",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 6832.0,
+      "to_s": 6843.0,
+      "teller": "merrick",
+      "quote": "Msawa, Japan, 1952 training uh exercise. Uh guys flying doing intercepts and he sees a disc come up to his plane",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

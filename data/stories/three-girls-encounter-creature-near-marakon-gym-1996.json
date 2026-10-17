@@ -1,0 +1,121 @@
+{
+  "id": "three-girls-encounter-creature-near-marakon-gym-1996",
+  "title": "Three girls encounter creature near Marakon gym",
+  "summary": "James Fox tells of Three girls encounter creature near Marakon gym, about January 20, 1996 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 1280.0,
+      "to_s": 1288.0,
+      "teller": "james-fox",
+      "quote": "from the military blockade. Three young girls had an encounter of the third kind.",
+      "kind": "secondhand",
+      "cites": [
+        "valquiria",
+        "liliane",
+        "katia"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 10273.0,
+      "to_s": 10280.0,
+      "teller": "jesse-michels",
+      "quote": "These three uh little girls at the time, now they're women, all testify to having seen this being.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the girls, now women, all still testify to it. Gives no names or location.",
+      "link_reason": "Both tell of the three Varginha girls seeing the being in 1996.",
+      "as_told": {
+        "title": "Three girls see the Varginha being",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "dr-italo-venturelli-meets-live-being-in-the-icu-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-marcos-vinicius-neves-operates-on-the-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "eric-lopes-and-the-second-capture-of-a-live-creature-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "foreign-men-offer-luiza-cash-in-dollars-to-retract-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kuber-lada-and-friends-meet-military-blockade-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "marco-chereze-dies-after-handling-the-varginha-creature-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "men-in-black-confront-carlos-de-souza-at-gas-station-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "witness-returns-with-luiza-and-sees-creature-s-footprint-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

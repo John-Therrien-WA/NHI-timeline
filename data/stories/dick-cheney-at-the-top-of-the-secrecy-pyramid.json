@@ -1,0 +1,104 @@
+{
+  "id": "dick-cheney-at-the-top-of-the-secrecy-pyramid",
+  "title": "Dick Cheney at the top of the secrecy pyramid",
+  "summary": "Jesse Michels tells of Dick Cheney at the top of the secrecy pyramid, about an unknown time at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 2405.0,
+      "to_s": 2422.0,
+      "teller": "jesse-michels",
+      "quote": "and I said to him who among all the people in society is keeping this secret who sits a top the Pyramid of classified information he said Dick Cheney",
+      "kind": "secondhand",
+      "cites": [
+        "walter-kirn",
+        "david-grusch",
+        "dick-cheney"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 5412.0,
+      "to_s": 5425.0,
+      "teller": "jesse-michels",
+      "quote": "you know a buddy of mine Walter Kern you know I introduced him to David Grush. He's a journalist. He came out saying, you know, uh, Grush told him that Cheney was the gate the the gatekeeper for all legacy UFO programs.",
+      "kind": "host",
+      "cites": [
+        "walter-kirn",
+        "david-grusch",
+        "dick-cheney"
+      ],
+      "documents": [],
+      "difference": "Calls Cheney the gatekeeper of all legacy UFO programs and notes that Michels introduced Kirn to Grusch.",
+      "link_reason": "The same account: Grusch told Walter Kirn that Cheney sits at the top of, or guards, the UFO secrecy.",
+      "as_told": {
+        "title": "Grusch told Walter Kirn that Cheney was gatekeeper of the legacy UFO programs",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 499.0,
+      "to_s": 507.0,
+      "teller": "uapgerb",
+      "quote": "that what did Walter Kern say? That Dave Grush told him that uh Dick Cheney was the head of the UFO pyramid for quite a while.",
+      "kind": "secondhand",
+      "cites": [
+        "walter-kern",
+        "david-grush",
+        "dick-cheney"
+      ],
+      "documents": [],
+      "difference": "Adds that Cheney held the role 'for quite a while', up to about 2009.",
+      "link_reason": "Both say Grusch told Walter Kirn that Dick Cheney sat atop the pyramid of UFO secrecy.",
+      "as_told": {
+        "title": "Grusch told Walter Kirn that Dick Cheney headed the UFO pyramid",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "dnnpyNuPdXs",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several"
+}

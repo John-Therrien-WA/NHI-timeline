@@ -1,0 +1,75 @@
+{
+  "id": "matthew-brown-amentum-hangars-at-pax-river-house-anomalous-m",
+  "title": "Matthew Brown: Amentum hangars at Pax River house anomalous material",
+  "summary": "UAPGerb tells of Matthew Brown: Amentum hangars at Pax River house anomalous material, about present at Naval Air Station Patuxent River, Maryland, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Naval Air Station Patuxent River, Maryland",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 8090.0,
+      "to_s": 8100.0,
+      "teller": "uapgerb",
+      "quote": "Um I think whistleblower Matthew Brown talked about Amentum hangers at at uh at Puxen River housing some anomalous stuff",
+      "kind": "secondhand",
+      "cites": [
+        "matthew-brown"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 6797.0,
+      "to_s": 6804.0,
+      "teller": "matthew-brown",
+      "quote": "shouldn't be an issue for you to get a tour of the special project hangers owned by Amentum Core",
+      "kind": "official",
+      "cites": [
+        "elon-musk"
+      ],
+      "documents": [
+        "matthew-brown-tweet-to-elon-musk"
+      ],
+      "difference": "Comes straight from Brown's tweet and suggests Musk tour the hangars, without explicitly saying they hold anomalous material.",
+      "link_reason": "Both are about Matthew Brown's claim of special Amentum hangars at Pax River.",
+      "as_told": {
+        "title": "Tweet: Amentum's special-project hangars at Pax River",
+        "years": null,
+        "place_text": "Naval Air Station Patuxent River, Maryland",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.1,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "matthew-brown"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.05,
+  "tier": "told-once"
+}

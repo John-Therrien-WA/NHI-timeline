@@ -1,0 +1,58 @@
+{
+  "id": "king-frederick-shelters-hermetic-thinkers-descartes-fights-o",
+  "title": "King Frederick shelters hermetic thinkers; Descartes fights on the other side",
+  "summary": "Jesse Michels tells of King Frederick shelters hermetic thinkers; Descartes fights on the other side, about early 17th century at Bohemia / Palatinate, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Bohemia / Palatinate",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 3192.0,
+      "to_s": 3210.0,
+      "teller": "jesse-michels",
+      "quote": "have this great book um I think Francis Yates, the Rosacrusian Enlightenment. She talks about King Frederick sort of housing a lot of these heretical thinkers, John D, um Edward Kelly\n>> um and I think Gordon Bruno as well uh and then uh there's this war and I think Deart fights on the other side of the war.",
+      "kind": "host",
+      "cites": [
+        "frances-yates",
+        "john-dee",
+        "edward-kelley",
+        "giordano-bruno",
+        "rene-descartes"
+      ],
+      "documents": [
+        "the-rosicrucian-enlightenment"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

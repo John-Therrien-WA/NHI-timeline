@@ -1,0 +1,50 @@
+{
+  "id": "humans-and-aliens-working-side-by-side-at-mount-zeal",
+  "title": "Humans and aliens working side by side at Mount Zeal",
+  "summary": "Lyn Buchanan tells of Humans and aliens working side by side at Mount Zeal, about unspecified at Mount Zeal (Mount Zeil), Australia, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Mount Zeal (Mount Zeil), Australia",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 5016.0,
+      "to_s": 5021.0,
+      "teller": "lyn-buchanan",
+      "quote": "And I've heard that from people who absolutely know for sure. Yeah.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "lyn-buchanan"
+    ],
+    "episodes": [
+      "1sxmSMzqnmA"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

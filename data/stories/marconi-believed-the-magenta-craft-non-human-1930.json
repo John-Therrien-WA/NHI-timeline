@@ -1,0 +1,55 @@
+{
+  "id": "marconi-believed-the-magenta-craft-non-human-1930",
+  "title": "Marconi believed the Magenta craft non-human",
+  "summary": "Jesse Michels tells of Marconi believed the Magenta craft non-human, about 1930s at Italy, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1930,
+    "to": 1939
+  },
+  "place": null,
+  "place_text": "Italy",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 5848.0,
+      "to_s": 5857.0,
+      "teller": "jesse-michels",
+      "quote": "Some documents on later family confirmations indicate Maronei genuinely believed the craft could be non-human.",
+      "kind": "host",
+      "cites": [
+        "guglielmo-marconi"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

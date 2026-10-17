@@ -1,0 +1,64 @@
+{
+  "id": "jimmy-carter-s-ufo-briefing-confirmed-by-alonzo-mcdonald-1977",
+  "title": "Jimmy Carter's UFO briefing confirmed by Alonzo McDonald",
+  "summary": "Eric Davis tells of Jimmy Carter's UFO briefing confirmed by Alonzo McDonald, about June 1977 at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1977
+  },
+  "place": "washington-dc",
+  "place_text": "Oval Office, White House, Washington DC",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 2409.0,
+      "to_s": 2424.0,
+      "teller": "eric-davis",
+      "quote": "but I know that Alonzo McDonald confirmed to several of us that um and our group during that era, the OAP era, that uh he talked to the staff that attended that briefing. He talked to Carter and it happened.",
+      "kind": "secondhand",
+      "cites": [
+        "alonzo-mcdonald",
+        "jimmy-carter"
+      ],
+      "documents": [
+        "carter-library-attendee-list-june-1977"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "carter-praying-with-his-head-on-the-table-after-the-briefing-1977",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

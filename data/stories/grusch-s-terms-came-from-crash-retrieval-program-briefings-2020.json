@@ -1,0 +1,61 @@
+{
+  "id": "grusch-s-terms-came-from-crash-retrieval-program-briefings-2020",
+  "title": "Grusch's terms came from crash retrieval program briefings",
+  "summary": "Eric Davis tells of Grusch's terms came from crash retrieval program briefings, about 2020s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2029
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 7771.0,
+      "to_s": 7781.0,
+      "teller": "eric-davis",
+      "quote": "yeah I think he's heard that from his briefings given to from the briefings given to him on the crash retrieval program",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "congressional-source-puts-crash-retrieval-programs-near-100-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

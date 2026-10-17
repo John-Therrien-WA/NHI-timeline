@@ -1,0 +1,57 @@
+{
+  "id": "shirley-maclaine-s-going-within-meeting-with-pell-hopkins-an",
+  "title": "Shirley MacLaine's Going Within: meeting with Pell, Hopkins and the prince",
+  "summary": "Jesse Michels tells of Shirley MacLaine's Going Within: meeting with Pell, Hopkins and the prince, about unspecified at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "washington-dc",
+  "place_text": "Washington, DC",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 7263.0,
+      "to_s": 7275.0,
+      "teller": "jesse-michels",
+      "quote": "was writing she wrote a book called going within and she was writing about being in like some government office in DC and she's with Claiborne Pell",
+      "kind": "host",
+      "cites": [
+        "shirley-maclaine",
+        "claiborne-pell",
+        "budd-hopkins",
+        "hans-adam"
+      ],
+      "documents": [
+        "going-within"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "world-commerce-corporation-founded-1945",
+  "title": "World Commerce Corporation founded 1945",
+  "summary": "Jason Simosa tells of World Commerce Corporation founded 1945, about 1945 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": "united-states",
+  "place_text": "United States / Bahamas",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 34.0,
+      "to_s": 47.0,
+      "teller": "jason-simosa",
+      "quote": "There is an organization which is created initially in 1945 and it's called the World Commerce Corporation. On the board, Donovan, Stephenson, Ambrose, Dulles [music] doing the legal counsel.",
+      "kind": "researcher",
+      "cites": [
+        "donovan",
+        "stephenson",
+        "ambrose",
+        "dulles",
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5051.0,
+      "to_s": 5059.0,
+      "teller": "jason",
+      "quote": "there is an organization which was created initially in 1945 and then rebranded in '47. It's called the World Commerce Corporation.",
+      "kind": "researcher",
+      "cites": [
+        "william-donovan",
+        "william-stephenson",
+        "charles-hambro",
+        "allen-dulles",
+        "tom-hill",
+        "peter-levenda",
+        "peter-dale-scott"
+      ],
+      "documents": [],
+      "difference": "Adds the 1947 rebranding, places it in Panama, and credits Hambro, Levenda and Peter Dale Scott; Ambrose is not mentioned.",
+      "link_reason": "Both tell of the World Commerce Corporation, founded in 1945 with Donovan, Stephenson and Dulles involved.",
+      "as_told": {
+        "title": "The World Commerce Corporation",
+        "years": {
+          "from": 1945,
+          "to": 1947
+        },
+        "place_text": "Panama",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason",
+      "jason-simosa"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several"
+}

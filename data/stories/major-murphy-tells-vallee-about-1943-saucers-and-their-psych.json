@@ -1,0 +1,58 @@
+{
+  "id": "major-murphy-tells-vallee-about-1943-saucers-and-their-psych",
+  "title": "Major Murphy tells Vallée about 1943 saucers and their psychotronic effect",
+  "summary": "JASON tells of Major Murphy tells Vallée about 1943 saucers and their psychotronic effect, about 1943 at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1943,
+    "to": 1943
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5274.0,
+      "to_s": 5285.0,
+      "teller": "jason",
+      "quote": "And he points to 1943 and he says, \"You know, what if someone was experimenting with this technology? It turns out its real advantage wasn't its flight capabilities, but its psychotronic effect.\"",
+      "kind": "researcher",
+      "cites": [
+        "major-murphy",
+        "jacques-vallee"
+      ],
+      "documents": [
+        "messengers-of-deception"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

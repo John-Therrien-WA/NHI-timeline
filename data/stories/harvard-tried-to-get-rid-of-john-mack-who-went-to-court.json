@@ -1,0 +1,102 @@
+{
+  "id": "harvard-tried-to-get-rid-of-john-mack-who-went-to-court",
+  "title": "Harvard tried to get rid of John Mack, who went to court",
+  "summary": "Lou Elizondo tells of Harvard tried to get rid of John Mack, who went to court, about unspecified at Harvard, Cambridge, Massachusetts, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "harvard-ma",
+  "place_text": "Harvard",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4309.0,
+      "to_s": 4320.0,
+      "teller": "luis-elizondo",
+      "quote": "that poor Harvard Professor right and and they they tried to try to get rid of him and he won a law case John John ma that's right John Mack who had to go to court",
+      "kind": "secondhand",
+      "cites": [
+        "john-mack"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 7694.0,
+      "to_s": 7705.0,
+      "teller": "whitley-strieber",
+      "quote": "He he was invited to a meeting. It was actually an ambush and they're going to try to take away my license to practice psychiatry",
+      "kind": "secondhand",
+      "cites": [
+        "john-mack"
+      ],
+      "documents": [],
+      "difference": "Describes the move as an ambush meeting aimed at his licence to practise psychiatry and does not mention a court case.",
+      "link_reason": "Both tell of Harvard moving against John Mack over his abduction work.",
+      "as_told": {
+        "title": "John Mack ambushed at Harvard",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Harvard University, Cambridge, Massachusetts",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 9136.0,
+      "to_s": 9146.0,
+      "teller": "daniel-sheehan",
+      "quote": "when he got confronted by this faculty committee and called me and asked me if I would legally represent him.",
+      "kind": "firsthand",
+      "cites": [
+        "john-mack"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Sheehan, who says Mack asked him to be his lawyer before the faculty committee and calls it a faculty committee rather than a court case.",
+      "link_reason": "Both describe Harvard's proceeding against John Mack, which a faculty committee confronted him with and which he fought.",
+      "as_told": {
+        "title": "Sheehan defends Mack before the Harvard faculty committee",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Harvard University",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 4.0,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "daniel-sheehan",
+      "luis-elizondo",
+      "whitley-strieber"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "ABOP8ZJsyIk",
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 2.0,
+  "tier": "well-attested"
+}

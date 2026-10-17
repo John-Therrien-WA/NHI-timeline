@@ -1,0 +1,65 @@
+{
+  "id": "bigelow-s-22-million-program-steered-by-colonel-alexander-2008",
+  "title": "Bigelow's $22 million program steered by Colonel Alexander",
+  "summary": "Steven Greer tells of Bigelow's $22 million program steered by Colonel Alexander, about 2008-2010 at Las Vegas, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2008,
+    "to": 2010
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, US",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 7720.0,
+      "to_s": 7730.0,
+      "teller": "steven-greer",
+      "quote": "Colonel Alexander, who was his concigli, that was all set up so that the $22 million that Harry Reid helped get to Bigalow Aerospace to research this would",
+      "kind": "secondhand",
+      "cites": [
+        "john-alexander",
+        "robert-bigelow",
+        "harry-reid",
+        "general-bob-herbert",
+        "luis-elizondo"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+      "relation": "variant",
+      "note": "The same $22 million Reid-funded program run through Bigelow Aerospace. The telling's core claim is new: Colonel Alexander set it up and steered it toward a fixed end, which the story's tellings do not say."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,56 @@
+{
+  "id": "brown-repeats-the-vacuum-experiment-at-bahnson-s-institute-o-1950",
+  "title": "Brown repeats the vacuum experiment at Bahnson's Institute of Field Physics",
+  "summary": "Jesse Michels tells of Brown repeats the vacuum experiment at Bahnson's Institute of Field Physics, about 1950s at Institute of Field Physics, North Carolina, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Institute of Field Physics, North Carolina",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 2801.0,
+      "to_s": 2809.0,
+      "teller": "jesse-michels",
+      "quote": "And then he does the same experiment at the Bonson labs at the Institute of Field Physics in North Carolina.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsen-brown",
+        "agnu-bonson"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "mOWwdIuyaQA"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "daily-mail-egg-shaped-ufo-from-area-51-2023",
+  "title": "Daily Mail: egg-shaped UFO from Area 51",
+  "summary": "Jesse Michels tells of Daily Mail: egg-shaped UFO from Area 51, about c. 2023 at Nevada test site and Area 51, and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2023
+  },
+  "place": "nevada-test-site",
+  "place_text": "Area 51, Nevada",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 7588.0,
+      "to_s": 7596.0,
+      "teller": "jesse-michels",
+      "quote": "The Daily Mail reporting about you know an egg-shaped UFO from Area 51 a year ago",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "daily-mail-reporting"
+      ]
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 11848.0,
+      "to_s": 11863.0,
+      "teller": "merrick",
+      "quote": "gentleman named Eric Taber who went to Arrow. Uh I don't know if Jesse if you're familiar with this but you who did speak to Arrow and he spoke of um an egg-shaped craft being retrieved and I I believe this was at Area 51.",
+      "kind": "secondhand",
+      "cites": [
+        "eric-taber",
+        "aaro"
+      ],
+      "documents": [],
+      "difference": "Credits the claim to Eric Taber speaking to AARO rather than to a Daily Mail report, and gives no date.",
+      "link_reason": "Both tell of an egg-shaped craft retrieved at Area 51. The Daily Mail story reports the same claim.",
+      "as_told": {
+        "title": "Eric Taber told AARO of egg-shaped craft at Area 51",
+        "years": null,
+        "place_text": "Area 51, Nevada",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

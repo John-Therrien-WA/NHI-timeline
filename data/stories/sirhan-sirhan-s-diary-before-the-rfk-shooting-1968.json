@@ -1,0 +1,57 @@
+{
+  "id": "sirhan-sirhan-s-diary-before-the-rfk-shooting-1968",
+  "title": "Sirhan Sirhan's diary before the RFK shooting",
+  "summary": "Jesse Michels tells of Sirhan Sirhan's diary before the RFK shooting, about 1968 at Los Angeles, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1968
+  },
+  "place": null,
+  "place_text": "Los Angeles",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 3363.0,
+      "to_s": 3369.0,
+      "teller": "jesse-michels",
+      "quote": "who had written in his diary right before he shot RFK,",
+      "kind": "host",
+      "cites": [
+        "sirhan-sirhan"
+      ],
+      "documents": [
+        "sirhan-sirhan-diary"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

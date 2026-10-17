@@ -1,0 +1,117 @@
+{
+  "id": "nnsa-reply-to-foia-request-on-starfish-prime-ufo-records-2022",
+  "title": "NNSA reply to FOIA request on Starfish Prime UFO records",
+  "summary": "Jesse Michels tells of NNSA reply to FOIA request on Starfish Prime UFO records, about 2022 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2022,
+    "to": 2022
+  },
+  "place": "united-states",
+  "place_text": "United States (NNSA)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 4048.0,
+      "to_s": 4064.0,
+      "teller": "jesse-michels",
+      "quote": "The letter back in June of 2022 reads, \"It was determined that an additional review of your case by the subject matter expert [music] with jurisdiction regarding responsive records was required.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "nnsa-foia-response-letter-june-2022"
+      ]
+    },
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 4441.0,
+      "to_s": 4450.0,
+      "teller": "jesse-michels",
+      "quote": "there was a FOIA request in the National Nuclear Security Administration and it was for everything, you know, all these UFO related acronyms. And this was around Starfish Prime.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "nnsa-foia-response"
+      ],
+      "difference": "Says the request covered all the UFO-related acronyms and does not quote the 2022 reply letter.",
+      "link_reason": "The same NNSA FOIA request for UFO-related records around Starfish Prime.",
+      "as_told": {
+        "title": "NNSA FOIA on UFO acronyms around Starfish Prime",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Johnston Atoll, Pacific; National Nuclear Security Administration",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 5134.0,
+      "to_s": 5147.0,
+      "teller": "jesse-michels",
+      "quote": "then there's um a guy who used the Freedom of Information Act to request all records of UAV, UAP, UFO, any acronym related to UFO from the Starfish Prime series.",
+      "kind": "host",
+      "cites": [
+        "anonymous-requester",
+        "nnsa"
+      ],
+      "documents": [
+        "foia-response"
+      ],
+      "difference": "Describes the requester as an anonymous individual and does not give the June 2022 reply date.",
+      "link_reason": "The same FOIA request to the NNSA for all UFO-related records from the Starfish Prime series.",
+      "as_told": {
+        "title": "FOIA to NNSA on Starfish Prime UFO records",
+        "years": {
+          "from": 1962,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "grusch-gave-hundreds-of-pages-to-the-icig-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aaro-s-latin-motto-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "V00WcEiKRAY",
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

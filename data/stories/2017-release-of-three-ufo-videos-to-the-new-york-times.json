@@ -1,0 +1,110 @@
+{
+  "id": "2017-release-of-three-ufo-videos-to-the-new-york-times",
+  "title": "2017 release of three UFO videos to the New York Times",
+  "summary": "Jesse Michels tells of 2017 release of three UFO videos to the New York Times, about 2017 at The Pentagon, Arlington, Virginia, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2017,
+    "to": 2017
+  },
+  "place": "pentagon",
+  "place_text": "Pentagon; New York Times",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 448.0,
+      "to_s": 473.0,
+      "teller": "jesse-michels",
+      "quote": "in 2017 after trying to brief General madg Mattis on UFOs and having the door shut in his face by some bureaucratic intermediaries elzando along with his friend former deputy assistant secretary for defense intelligence Chris melon decided to go off script they took matters into their own hands and they got three UFO videos cleared for release by the Pentagon",
+      "kind": "host",
+      "cites": [
+        "jim-mattis",
+        "christopher-mellon",
+        "luis-elizondo"
+      ],
+      "documents": [
+        "new-york-times-2017-article",
+        "three-pentagon-ufo-videos"
+      ]
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 6681.0,
+      "to_s": 6690.0,
+      "teller": "jesse-michels",
+      "quote": "two decades and 2017 with just putting the the videos in a on a platform that was you know perceived as a as a trusted one as the New York Times",
+      "kind": "host",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": [
+        "new-york-times-2017-story"
+      ],
+      "difference": "Stresses the New York Times as a trusted platform and does not mention Mattis, Mellon or the number of videos.",
+      "link_reason": "Both tell of the 2017 release of the UAP videos through the New York Times, with Elizondo behind it.",
+      "as_told": {
+        "title": "2017 New York Times release of the UAP videos",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 4253.0,
+      "to_s": 4261.0,
+      "teller": "michael-shermer",
+      "quote": "It's a little bit like when the government said in 2017 that UAPs are real and Lou Alexander goes the government says they're real.",
+      "kind": "researcher",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": [],
+      "difference": "Told by a skeptic, who frames it as the government saying UAPs are real rather than as a video release.",
+      "link_reason": "Both refer to the 2017 moment, tied to Elizondo, when the Navy UAP videos came out and were taken as government confirmation.",
+      "as_told": {
+        "title": "2017: government confirms the Navy UAP videos are real",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "michael-shermer"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested"
+}

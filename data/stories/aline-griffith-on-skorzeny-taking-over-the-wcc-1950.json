@@ -1,0 +1,59 @@
+{
+  "id": "aline-griffith-on-skorzeny-taking-over-the-wcc-1950",
+  "title": "Aline Griffith on Skorzeny taking over the WCC",
+  "summary": "JASON tells of Aline Griffith on Skorzeny taking over the WCC, about 1950s at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5751.0,
+      "to_s": 5760.0,
+      "teller": "jason",
+      "quote": "And then she says it was very different eight or nine years after that because Otto Skorzeny came in and took over the operation.",
+      "kind": "researcher",
+      "cites": [
+        "aline-griffith",
+        "frank-ryan",
+        "otto-skorzeny"
+      ],
+      "documents": [
+        "aline-griffith-journals"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

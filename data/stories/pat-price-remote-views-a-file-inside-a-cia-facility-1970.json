@@ -1,0 +1,80 @@
+{
+  "id": "pat-price-remote-views-a-file-inside-a-cia-facility-1970",
+  "title": "Pat Price remote views a file inside a CIA facility",
+  "summary": "Dan Sheehan tells of Pat Price remote views a file inside a CIA facility, about 1970s at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "CIA facility, United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 7595.0,
+      "to_s": 7600.0,
+      "teller": "daniel-sheehan",
+      "quote": "it's an American facility. It's a top CIA security facility.",
+      "kind": "firsthand",
+      "cites": [
+        "pat-price",
+        "russell-targ",
+        "ingo-swann"
+      ],
+      "documents": [
+        "ingo-swann-reports"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "ingo-swann-s-reports-to-scientology-on-the-oni-remote-viewin-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mark-felt-s-biography-nixon-shown-covert-technology-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roddenberry-s-script-the-nine-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-memo-popularizing-the-term-conspiracy-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

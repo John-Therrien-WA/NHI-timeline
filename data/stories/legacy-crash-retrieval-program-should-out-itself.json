@@ -1,0 +1,119 @@
+{
+  "id": "legacy-crash-retrieval-program-should-out-itself",
+  "title": "Legacy crash-retrieval program should out itself",
+  "summary": "David Grusch tells of Legacy crash-retrieval program should out itself, about an unknown time at United States (no place named), and reads it from an official document. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 4267.0,
+      "to_s": 4269.0,
+      "teller": "david-grusch",
+      "quote": "The program should want to out itself.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "Y26iMB0r-f8",
+      "from_s": 1139.0,
+      "to_s": 1149.0,
+      "teller": "david-grusch",
+      "quote": "when I started on interviewing people that were totally genuine and of course uncovering the the kind of Legacy program that I've talked about I mean I lost a lot of sleep",
+      "kind": "official",
+      "cites": [],
+      "documents": [],
+      "difference": "This telling describes Grusch finding the program by interviewing genuine witnesses and how much it troubled him (\"I lost a lot of sleep\"). The story's telling argues instead that the program should disclose itself.",
+      "link_reason": "Both are David Grusch's tellings about the same US legacy crash-retrieval program that holds non-human craft, and both are told at the level of the whole program.",
+      "as_told": {
+        "title": "Grusch uncovers a legacy program holding non-human craft",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 3.0,
+      "to_s": 16.0,
+      "teller": "jesse-michels",
+      "quote": "Intelligence officer David grush hey man\nhey who blew the cover on a covert\nmulti-decade long UFO crash retrieval\nand reverse engineering program being\nfunded by American Tax pair dollars",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "The host tells it second hand, crediting Grusch. He adds that the program ran for decades, reverse-engineered craft and was paid for with US taxpayer dollars, and he dates the disclosure to 2023.",
+      "link_reason": "Both are about the same covert US legacy crash-retrieval program that Grusch says he uncovered and disclosed. The nearest story's tellings describe Grusch uncovering this same program.",
+      "as_told": {
+        "title": "Grusch exposes covert UFO crash retrieval and reverse engineering program",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 3703.0,
+      "to_s": 3714.0,
+      "teller": "james-fox",
+      "quote": "we have a super secret crash retrieval program that's been going on since at least World War II",
+      "kind": "researcher",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [
+        "the-program"
+      ],
+      "difference": "James Fox tells it secondhand and dates the program's start to at least World War II, where the story's tellings say only that it is multi-decade.",
+      "link_reason": "Both describe the multi-decade US legacy UFO crash-retrieval program that David Grusch says he uncovered. This telling is James Fox passing on Grusch's claim.",
+      "as_told": {
+        "title": "A secret crash retrieval program since World War II",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 2,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "david-grusch"
+    ],
+    "episodes": [
+      "TH10mD9hQas",
+      "Y26iMB0r-f8",
+      "bVhSPH2A5Vw",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once"
+}

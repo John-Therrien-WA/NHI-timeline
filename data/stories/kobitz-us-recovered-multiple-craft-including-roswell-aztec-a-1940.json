@@ -1,0 +1,55 @@
+{
+  "id": "kobitz-us-recovered-multiple-craft-including-roswell-aztec-a-1940",
+  "title": "Kobitz: US recovered multiple craft, including Roswell, Aztec and Kingman",
+  "summary": "Ross Coulthart tells of Kobitz: US recovered multiple craft, including Roswell, Aztec and Kingman, about 1940s-1950s at Roswell, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1959
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, Aztec, Kingman, USA",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 1984.0,
+      "to_s": 1992.0,
+      "teller": "ross-coulthart",
+      "quote": "What he told me was that he'd been told that the United States had recovered multiple craft.",
+      "kind": "secondhand",
+      "cites": [
+        "nat-kobitz"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "grusch-the-symbol-rate-is-too-slow",
+  "title": "Grusch: the symbol rate is too slow",
+  "summary": "Jesse Michels tells of Grusch: the symbol rate is too slow, about not stated at not stated, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "not stated",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "KRDE1i3LDuU",
+      "from_s": 5768.0,
+      "to_s": 5775.0,
+      "teller": "jesse-michels",
+      "quote": "actually talking to David Gush about this in my interview with him and he was like it's almost like the symbol rate is too slow.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "KRDE1i3LDuU"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

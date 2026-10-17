@@ -1,0 +1,56 @@
+{
+  "id": "villarroel-transients-on-july-1952-plates",
+  "title": "Villarroel transients on July 1952 plates",
+  "summary": "Jesse Michels tells of Villarroel transients on July 1952 plates, about July 19 and 27, 1952 at astronomical survey plates, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": null,
+  "place_text": "astronomical survey plates",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 1212.0,
+      "to_s": 1234.0,
+      "teller": "jesse-michels",
+      "quote": "one is uh five objects on a narrow band and it's from the 27th of July 1952 and then my colleague enri found these three uh Stars the triple transient this one is from the 19th of July 1952",
+      "kind": "researcher",
+      "cites": [
+        "beatric-vel",
+        "enri"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

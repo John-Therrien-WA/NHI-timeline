@@ -1,0 +1,65 @@
+{
+  "id": "angleton-and-reuben-efron-s-mail-intercept-on-oswald-1959",
+  "title": "Angleton and Reuben Efron's mail intercept on Oswald",
+  "summary": "Jeremy Riss tells of Angleton and Reuben Efron's mail intercept on Oswald, about 1959-1963 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1959,
+    "to": 1963
+  },
+  "place": "united-states",
+  "place_text": "CIA, USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 663.0,
+      "to_s": 671.0,
+      "teller": "jeremy-riss",
+      "quote": "Ruben Efron is in the in the files and they ask him about do you know Ruben Efron and he says no that's a lie.",
+      "kind": "researcher",
+      "cites": [
+        "james-angleton",
+        "reuben-efron",
+        "lee-harvey-oswald"
+      ],
+      "documents": [
+        "jfk-files"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "priscilla-mcmillan-revealed-as-cia-asset-1959",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeremy-riss"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

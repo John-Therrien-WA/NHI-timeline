@@ -1,0 +1,84 @@
+{
+  "id": "townsend-s-repelling-bismuth-raised-at-martin-1950",
+  "title": "Townsend's repelling bismuth raised at Martin",
+  "summary": "Jesse Michels tells of Townsend's repelling bismuth raised at Martin, about 1950s at Martin Company / Indiana, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Martin Company / Indiana",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 2818.0,
+      "to_s": 2824.0,
+      "teller": "jesse-michels",
+      "quote": "a guy named Townsend discovered that there was a type of bismuth that was repelled instead of attracting.",
+      "kind": "host",
+      "cites": [
+        "louis-witten"
+      ],
+      "documents": [
+        "american-institute-of-physics-interview-with-louis-witten"
+      ]
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 10787.0,
+      "to_s": 10799.0,
+      "teller": "jesse-michels",
+      "quote": "And he says in this interview with the American Institute of Physics, there's a guy named Townsend [music] who claimed to have uh an isotope of bismuth that repelled instead of attracted.",
+      "kind": "researcher",
+      "cites": [
+        "louis-witten",
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "american-institute-of-physics-interview-with-louis-witten"
+      ],
+      "difference": "Names the American Institute of Physics interview as the source and mentions RIAS.",
+      "link_reason": "Both tell Louis Witten's account that Townsend found a bismuth that repelled instead of attracted, raised at Martin.",
+      "as_told": {
+        "title": "Louis Witten AIP interview: Townsend Brown's repelling bismuth isotope",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "RIAS, Martin Corporation",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

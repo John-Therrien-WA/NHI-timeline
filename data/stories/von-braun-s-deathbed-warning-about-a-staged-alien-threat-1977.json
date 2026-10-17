@@ -1,0 +1,86 @@
+{
+  "id": "von-braun-s-deathbed-warning-about-a-staged-alien-threat-1977",
+  "title": "Von Braun's deathbed warning about a staged alien threat",
+  "summary": "Steven Greer tells of Von Braun's deathbed warning about a staged alien threat, about 1977 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1977
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 4085.0,
+      "to_s": 4095.0,
+      "teller": "steven-greer",
+      "quote": "the card they want to play that Veron Brown warned about on his deathbed to my friend Carol Rosen was they want to create an alien threat to unite the world",
+      "kind": "secondhand",
+      "cites": [
+        "wernher-von-braun",
+        "carol-rosin"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 9214.0,
+      "to_s": 9221.0,
+      "teller": "steven-greer",
+      "quote": "And Warner von Brown was convinced that there would be this sort of false flag because he knew when he died in 74",
+      "kind": "secondhand",
+      "cites": [
+        "wernher-von-braun",
+        "carol-rosin"
+      ],
+      "documents": [],
+      "difference": "This telling dates the warning and von Braun's death to 1974, where the story says 1977, and calls it a 'false flag'.",
+      "link_reason": "Same story: von Braun warned Carol Rosin about a staged alien threat, a false flag, before he died.",
+      "as_told": {
+        "title": "Wernher von Braun warned of false flag",
+        "years": {
+          "from": 1974,
+          "to": 1974
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "spielberg-based-the-close-encounters-scientist-on-vallee-1977",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

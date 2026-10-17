@@ -1,0 +1,70 @@
+{
+  "id": "hikers-on-public-land-threatened-by-armed-elite-soldiers",
+  "title": "Hikers on public land threatened by armed elite soldiers",
+  "summary": "Ross Coulthart tells of Hikers on public land threatened by armed elite soldiers, about recent at Public parkland near Secret Mountain, Sedona, Arizona, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Public parkland near Secret Mountain, Sedona, Arizona",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 4961.0,
+      "to_s": 4981.0,
+      "teller": "ross-coulthart",
+      "quote": "But there was a number of people who would privately admit that they'd been walking in what is public land. Public parkland. Mhm. And they'd be stopped by men with guns, men in uniform with with with automatic weapons, clearly highly trained elite soldiers, probably tier one operatives from the way they moved.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 5146.0,
+      "to_s": 5162.0,
+      "teller": "jesse-michels",
+      "quote": "There are also reports of hikers near Sedona walking into something out of a black ops fever dream. [music] Armed men in black, insignia-free uniforms, M-16s in hand, standing in the middle of Coconino National Forest.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Names Coconino National Forest and adds black, insignia-free uniforms and M-16s.",
+      "link_reason": "Same reports of hikers near Sedona stopped by armed, uniformed men on public forest land.",
+      "as_told": {
+        "title": "Hikers encounter insignia-free armed men in Coconino National Forest",
+        "years": null,
+        "place_text": "Coconino National Forest, near Sedona, Arizona",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "OOr98r51Sj0",
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several"
+}

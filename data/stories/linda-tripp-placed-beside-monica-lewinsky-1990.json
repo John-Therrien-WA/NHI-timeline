@@ -1,0 +1,78 @@
+{
+  "id": "linda-tripp-placed-beside-monica-lewinsky-1990",
+  "title": "Linda Tripp placed beside Monica Lewinsky",
+  "summary": "Steven Greer tells of Linda Tripp placed beside Monica Lewinsky, about 1990s at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 8285.0,
+      "to_s": 8293.0,
+      "teller": "steven-greer",
+      "quote": "the whole Monica Lewinsky thing, Linda Trip was army intelligence NSA person was put right beside Monica Lewinsky at",
+      "kind": "researcher",
+      "cites": [
+        "bill-clinton",
+        "linda-tripp",
+        "monica-lewinsky"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 8299.0,
+      "to_s": 8308.0,
+      "teller": "steven-greer",
+      "quote": "And then it was set up because when he was asked about it, Clinton lied about it under oath which it led to his impeachment.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Says the setup was aimed at the 1998 impeachment through Clinton's perjury and doesn't mention Tripp.",
+      "link_reason": "Same Greer theory as telling 1, that the Lewinsky affair was an intelligence setup; here it is told through its result, Clinton lying under oath and being impeached.",
+      "as_told": {
+        "title": "Clinton affair set up to trigger impeachment",
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

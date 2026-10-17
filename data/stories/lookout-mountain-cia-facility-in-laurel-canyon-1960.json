@@ -1,0 +1,55 @@
+{
+  "id": "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+  "title": "Lookout Mountain CIA facility in Laurel Canyon",
+  "summary": "Eric Weinstein tells of Lookout Mountain CIA facility in Laurel Canyon, about 1960s at Lookout Mountain, Laurel Canyon, Los Angeles, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Lookout Mountain, Laurel Canyon, Los Angeles",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ZTIO-xAP0Dw",
+      "from_s": 2370.0,
+      "to_s": 2385.0,
+      "teller": "eric-weinstein",
+      "quote": "Um, and as you point out, Lookout Mountain is a CIA facility in Laurel Canyon and the whole history of drugs and the government and Vietnam and espionage and all this kind of stuff.",
+      "kind": "researcher",
+      "cites": [
+        "jesse-michels"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein"
+    ],
+    "episodes": [
+      "ZTIO-xAP0Dw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

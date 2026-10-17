@@ -1,0 +1,155 @@
+{
+  "id": "red-teaming-the-dopsr-review-with-a-faction-manuscript",
+  "title": "Red-teaming the DOPSR review with a 'faction' manuscript",
+  "summary": "Jake Barber tells of Red-teaming the DOPSR review with a 'faction' manuscript, about recent at The Pentagon, Arlington, Virginia, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "pentagon",
+  "place_text": "Pentagon (DOPSR)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 7434.0,
+      "to_s": 7452.0,
+      "teller": "jake-barber",
+      "quote": "uh we decided to query and run an interrogation of the Department of Defense and its private partners um by writing a historical fiction novel.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "120-000-word-historical-fiction-manuscript"
+      ]
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 6118.0,
+      "to_s": 6124.0,
+      "teller": "jesse-michels",
+      "quote": "He said he sort of tricked them by writing a sci-fi, you know, book",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [
+        "sentinels-of-ether"
+      ],
+      "difference": "Told secondhand, names the book chapter Sentinels of Ether, and frames it as tricking the reviewers.",
+      "link_reason": "Barber using a fiction manuscript to get information past DOPSR review.",
+      "as_told": {
+        "title": "Barber slips details past DOPSR in the sci-fi chapter Sentinels of Ether",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 512.0,
+      "to_s": 521.0,
+      "teller": "jesse-michels",
+      "quote": "This was a novel deemed so dangerous by the Pentagon that they spent 6 months reviewing just 20 pages of the book.",
+      "kind": "host",
+      "cites": [
+        "jake-barber",
+        "alva-douglas"
+      ],
+      "documents": [
+        "sentinels-of-ether"
+      ],
+      "difference": "Adds that the review took six months for only 20 pages, names the book Sentinels of Ether and says the Pentagon redacted it.",
+      "link_reason": "This is the same Pentagon pre-publication (DOPSR) review of Barber's 'faction' novel that the red-teaming story describes.",
+      "as_told": {
+        "title": "Pentagon pre-publication review redacts Sentinels of Ether",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Pentagon (DOPSR)",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 5584.0,
+      "to_s": 5597.0,
+      "teller": "jesse-michels",
+      "quote": "If just two chapters of this Sentinels of Ether [music] story that exists today online triggered a firestorm of black ink, what is hiding in the rest? What was redacted?",
+      "kind": "host",
+      "cites": [
+        "jake-barber",
+        "tom-delonge"
+      ],
+      "documents": [
+        "the-sentinels-of-ether",
+        "secret-machines"
+      ],
+      "difference": "Names the manuscript The Sentinels of Ether, credits Tom DeLonge, and says two chapters came back heavily redacted.",
+      "link_reason": "The manuscript Barber submitted for Pentagon review that came back heavily redacted is the faction-manuscript red-team of DOPSR.",
+      "as_told": {
+        "title": "Pentagon redactions of The Sentinels of Ether manuscript",
+        "years": null,
+        "place_text": "Pentagon",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 4212.0,
+      "to_s": 4220.0,
+      "teller": "jesse-michels",
+      "quote": "Jake Barber also wrote a book called Sentinels of Ether which was so redacted by by the you know the Pentagon censored it",
+      "kind": "host",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [
+        "sentinels-of-ether"
+      ],
+      "difference": "",
+      "link_reason": "Both tell of the Pentagon's heavy redaction of Barber's Sentinels of Ether manuscript.",
+      "as_told": {
+        "title": "Pentagon redacts Jake Barber's book Sentinels of Ether",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Pentagon, United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jake-barber"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "OOr98r51Sj0",
+      "dnnpyNuPdXs",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

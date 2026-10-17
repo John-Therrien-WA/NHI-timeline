@@ -5,16 +5,17 @@
   "era": null,
   "years": null,
   "place": null,
+  "place_text": "Oceans",
   "coordinates": null,
   "kind": "crash-retrieval",
   "claims": [],
   "tellings": [
     {
       "episode": "nRKNVFQBi38",
-      "from_s": 4868.0,
+      "from_s": 4872.0,
       "to_s": 4879.0,
       "teller": "tim-gallaudet",
-      "quote": "if any anybody does crash retrieval, by the way, Eric Davis has said there are more crash retrieval operations that have been occurred in the ocean than elsewhere.",
+      "quote": "by the way, Eric Davis has said there are more crash retrieval operations that have been occurred in the ocean than elsewhere.",
       "kind": "secondhand",
       "cites": [
         "eric-davis"
@@ -25,7 +26,6 @@
   "related": [],
   "tags": [],
   "score": 1.0,
-  "place_text": "Oceans",
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,

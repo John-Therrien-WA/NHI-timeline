@@ -1,0 +1,85 @@
+{
+  "id": "clinton-briefed-on-ufos-by-civilian-bruce-maccabee-via-ron-p-1990",
+  "title": "Clinton briefed on UFOs by civilian Bruce Maccabee via Ron Pandolfi",
+  "summary": "Jesse Michels tells of Clinton briefed on UFOs by civilian Bruce Maccabee via Ron Pandolfi, about 1990s at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "washington-dc",
+  "place_text": "White House / CIA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 6893.0,
+      "to_s": 6910.0,
+      "teller": "jesse-michels",
+      "quote": "And this guy Ron Pandalfi, who's at the CIA, uh he like is helping him, and he gets this like civilian researcher Bruce Makabe to brief Clinton.",
+      "kind": "host",
+      "cites": [
+        "bill-clinton",
+        "ron-pandolfi",
+        "bruce-maccabee",
+        "john-podesta"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 2965.0,
+      "to_s": 2981.0,
+      "teller": "jason-simosa",
+      "quote": "So, Bruce Maccabee relates the story, like you said, he's this Navy physicist, incredibly bright guy, who's obviously done phenomenal research. And he gets a call from Pandolphi, basically saying, \"Look, I need you to go in and give give the lecture you gave to the CIA once. I want you to give it to uh, the science advisor.\"",
+      "kind": "secondhand",
+      "cites": [
+        "bruce-maccabee",
+        "ron-pandolfi",
+        "william-the-palm"
+      ],
+      "documents": [],
+      "difference": "Says Maccabee briefed Clinton's science adviser rather than Clinton himself, at short notice, repeating a lecture he had given the CIA.",
+      "link_reason": "This is the same Maccabee briefing arranged by Pandolfi for the Clinton White House, told from Maccabee's own account.",
+      "as_told": {
+        "title": "Maccabee briefs Clinton's science adviser at short notice",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-simosa",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

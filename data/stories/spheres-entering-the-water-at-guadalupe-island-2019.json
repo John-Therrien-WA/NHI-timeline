@@ -1,0 +1,58 @@
+{
+  "id": "spheres-entering-the-water-at-guadalupe-island-2019",
+  "title": "Spheres entering the water at Guadalupe Island",
+  "summary": "Marik von Rennenkampf tells of Spheres entering the water at Guadalupe Island, about 2019 and after at Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2019,
+    "to": 2019
+  },
+  "place": "mexico",
+  "place_text": "Guadalupe Island, Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 9960.0,
+      "to_s": 9965.0,
+      "teller": "marik-von-rennenkampf",
+      "quote": "uh Lou Alzando and I think Sean Cahill went down to Guadalupe Island because there have been reports of",
+      "kind": "secondhand",
+      "cites": [
+        "luis-elizondo",
+        "sean-cahill"
+      ],
+      "documents": [
+        "unidentified-national-geographic-series"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "marik-von-rennenkampf"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

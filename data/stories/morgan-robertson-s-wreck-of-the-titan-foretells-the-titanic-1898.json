@@ -1,0 +1,57 @@
+{
+  "id": "morgan-robertson-s-wreck-of-the-titan-foretells-the-titanic-1898",
+  "title": "Morgan Robertson's Wreck of the Titan foretells the Titanic",
+  "summary": "Jesse Michels tells of Morgan Robertson's Wreck of the Titan foretells the Titanic, about 1898; 1912 at The Atlantic Ocean, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1898,
+    "to": 1912
+  },
+  "place": "atlantic-ocean",
+  "place_text": "North Atlantic",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 5127.0,
+      "to_s": 5138.0,
+      "teller": "jesse-michels",
+      "quote": "Morgan Robertson in 1898 called Wreck of the Titan or Futility Wreck of the Titan and this ship is called the Titan and it crashes in the middle of the Atlantic at night",
+      "kind": "host",
+      "cites": [
+        "morgan-robertson"
+      ],
+      "documents": [
+        "futility-or-the-wreck-of-the-titan"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "sagan-and-shklovskii-s-intelligent-life-in-the-universe-1960",
+  "title": "Sagan and Shklovskii's Intelligent Life in the Universe",
+  "summary": "Jason Jorjani tells of Sagan and Shklovskii's Intelligent Life in the Universe, about 1960s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States / Soviet Union",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 4152.0,
+      "to_s": 4158.0,
+      "teller": "jason-jorjani",
+      "quote": "the book he wrote with Schlavski the Soviet scientist. He co-wrote intelligent life in the universe.",
+      "kind": "researcher",
+      "cites": [
+        "carl-sagan",
+        "iosif-shklovsky"
+      ],
+      "documents": [
+        "intelligent-life-in-the-universe"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "condon-s-letters-with-colonel-robert-hippler-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "james-mcdonald-s-critique-of-the-condon-committee-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puharich-delgado-correspondence-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

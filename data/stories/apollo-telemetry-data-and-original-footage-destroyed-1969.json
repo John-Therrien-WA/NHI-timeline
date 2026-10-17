@@ -1,0 +1,55 @@
+{
+  "id": "apollo-telemetry-data-and-original-footage-destroyed-1969",
+  "title": "Apollo telemetry data and original footage destroyed",
+  "summary": "Joe Rogan tells of Apollo telemetry data and original footage destroyed, about 1969 at NASA, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "NASA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 6391.0,
+      "to_s": 6397.0,
+      "teller": "joe-rogan",
+      "quote": "Also, the all the telemetry data was destroyed, which is crazy.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "apollo-telemetry-data"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

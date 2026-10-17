@@ -1,0 +1,52 @@
+{
+  "id": "blue-book-landing-case-with-an-alien-footprint-diagram",
+  "title": "Blue Book landing case with an alien footprint diagram",
+  "summary": "James Fox tells of Blue Book landing case with an alien footprint diagram, about Project Blue Book era at National Archives, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "National Archives",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 9891.0,
+      "to_s": 9896.0,
+      "teller": "james-fox",
+      "quote": "the footprints of the alien was documented in a diagram by the first military officer on the scene",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "project-blue-book-files"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

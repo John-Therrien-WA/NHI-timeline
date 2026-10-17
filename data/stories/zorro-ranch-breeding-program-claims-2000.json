@@ -1,0 +1,55 @@
+{
+  "id": "zorro-ranch-breeding-program-claims-2000",
+  "title": "Zorro Ranch breeding program claims",
+  "summary": "Jason Jorjani tells of Zorro Ranch breeding program claims, about 2000s at New Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2009
+  },
+  "place": "new-mexico",
+  "place_text": "Zorro Ranch, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 9201.0,
+      "to_s": 9213.0,
+      "teller": "jason-jorjani",
+      "quote": "they claim that they were taken to Zoro Ranch specifically as part of a breeding program where Epstein intended to inseminate them with fetuses that had superior genetics.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "jason-jorjani-substack-piece-on-ghislaine-maxwell"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

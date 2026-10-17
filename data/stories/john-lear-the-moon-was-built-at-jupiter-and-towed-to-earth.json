@@ -1,0 +1,52 @@
+{
+  "id": "john-lear-the-moon-was-built-at-jupiter-and-towed-to-earth",
+  "title": "John Lear: the moon was built at Jupiter and towed to Earth",
+  "summary": "Bob Lazar tells of John Lear: the moon was built at Jupiter and towed to Earth, about ancient past at Jupiter / Earth orbit, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Jupiter / Earth orbit",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 7820.0,
+      "to_s": 7826.0,
+      "teller": "bob-lazar",
+      "quote": "they built the moon on Jupiter. And uh that's where they manufactured it and they towed it into Earth's orbit.",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

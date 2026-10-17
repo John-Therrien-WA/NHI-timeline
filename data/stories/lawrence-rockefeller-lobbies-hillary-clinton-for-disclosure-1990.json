@@ -1,0 +1,151 @@
+{
+  "id": "lawrence-rockefeller-lobbies-hillary-clinton-for-disclosure-1990",
+  "title": "Lawrence Rockefeller lobbies Hillary Clinton for disclosure",
+  "summary": "Jesse Michels tells of Lawrence Rockefeller lobbies Hillary Clinton for disclosure, about 1990s at Camp David, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "Camp David",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3595.0,
+      "to_s": 3600.0,
+      "teller": "jesse-michels",
+      "quote": "I think there are letters between Lawrence Rockefeller and Hillary Clinton in the nineties where he's sort of pushing for disclosure. That's right.",
+      "kind": "host",
+      "cites": [
+        "laurance-rockefeller",
+        "hillary-clinton",
+        "david-rockefeller",
+        "paul-davies"
+      ],
+      "documents": [
+        "rockefeller-clinton-letters",
+        "are-we-alone"
+      ]
+    },
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 6792.0,
+      "to_s": 6805.0,
+      "teller": "jesse-michels",
+      "quote": "Uh Hillary Clinton, there's a picture of her at Camp David and I think she had met with Lawrence Rockefeller who was really interested in UFO disclosure and she's holding this book by this physicist Paul Davies and it's are we alone?",
+      "kind": "host",
+      "cites": [
+        "hillary-clinton",
+        "laurance-rockefeller",
+        "paul-davies",
+        "john-podesta"
+      ],
+      "documents": [
+        "are-we-alone"
+      ],
+      "difference": "Cites a photo of Hillary holding 'Are We Alone?' rather than letters, and mentions John Podesta.",
+      "link_reason": "Both put Hillary Clinton with Laurance Rockefeller at Camp David in the 1990s, with Paul Davies's book, as part of a push for disclosure.",
+      "as_told": {
+        "title": "Hillary Clinton at Camp David with Laurance Rockefeller holding 'Are We Alone?'",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Camp David",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 7593.0,
+      "to_s": 7601.0,
+      "teller": "jesse-michels",
+      "quote": "the photo of her holding Are We Alone by Paul Davies and it's a gift from Lawrence Rockefeller who was trying to get her more into disclosure",
+      "kind": "host",
+      "cites": [
+        "laurance-rockefeller",
+        "hillary-clinton",
+        "paul-davies"
+      ],
+      "documents": [
+        "are-we-alone"
+      ],
+      "difference": "Says the book was a gift from Rockefeller, and gives no place, where the story puts the photo at Camp David.",
+      "link_reason": "Both tell of Laurance Rockefeller pushing Hillary Clinton toward disclosure, shown by the photo of her holding Paul Davies's 'Are We Alone'.",
+      "as_told": {
+        "title": "Laurance Rockefeller gives Hillary Clinton 'Are We Alone'",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 2920.0,
+      "to_s": 2933.0,
+      "teller": "jesse-michels",
+      "quote": ">> There's a photo of Hillary Clinton, and I think she's at Camp David, and she's holding a book, and it's a book by uh, University of Arizona physicist Paul Davies, and the book is titled Are We Alone?",
+      "kind": "host",
+      "cites": [
+        "hillary-clinton",
+        "paul-davies"
+      ],
+      "documents": [
+        "are-we-alone"
+      ],
+      "difference": "Does not link the photo or the book to Rockefeller, and calls Davies a University of Arizona physicist.",
+      "link_reason": "The photo of Hillary Clinton at Camp David holding Paul Davies' Are We Alone? is already one of this story's tellings.",
+      "as_told": {
+        "title": "Hillary Clinton photographed with 'Are We Alone?'",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Camp David",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "treat-team-under-albert-stubblebine-per-hans-adam-ii-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk",
+      "dnnpyNuPdXs",
+      "kRO5jOa06Qw",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

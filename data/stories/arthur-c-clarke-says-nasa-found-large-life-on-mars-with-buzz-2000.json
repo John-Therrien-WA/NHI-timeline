@@ -1,0 +1,56 @@
+{
+  "id": "arthur-c-clarke-says-nasa-found-large-life-on-mars-with-buzz-2000",
+  "title": "Arthur C. Clarke says NASA found large life on Mars, with Buzz Aldrin present",
+  "summary": "guest tells of Arthur C. Clarke says NASA found large life on Mars, with Buzz Aldrin present, about c. 2000 at Stanford Research Institute, Menlo Park, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2000
+  },
+  "place": "sri-menlo-park-ca",
+  "place_text": "Sri Lanka",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 5138.0,
+      "to_s": 5144.0,
+      "teller": "guest",
+      "quote": "what's really shocking and exciting to\nme is that uh NASA has basically\ndiscovered large forms of life on Mars.",
+      "kind": "secondhand",
+      "cites": [
+        "arthur-c-clarke",
+        "buzz-aldrin"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "guest"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

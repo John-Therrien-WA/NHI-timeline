@@ -1,0 +1,89 @@
+{
+  "id": "the-nine-seance-in-maine-new-year-s-eve-1952-53",
+  "title": "The Nine seance in Maine, New Year's Eve 1952-53",
+  "summary": "Peter Levenda tells of The Nine seance in Maine, New Year's Eve 1952-53, about 1952-1953 at Maine, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1953
+  },
+  "place": null,
+  "place_text": "Maine",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 904.0,
+      "to_s": 916.0,
+      "teller": "peter-levenda",
+      "quote": "there's a seance that's held in uh late 52, early 53. I think it was the New Year's Eve of 52 to 53. And there are nine people involved in the seance.",
+      "kind": "researcher",
+      "cites": [
+        "andrija-puharich",
+        "arthur-young",
+        "ruth-forbes-paine-young"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 2035.0,
+      "to_s": 2046.0,
+      "teller": "jesse-michels",
+      "quote": "there's a seance that's held in uh late '52, early '53. I think it was the New Year's Eve of '52 to '53.",
+      "kind": "host",
+      "cites": [
+        "peter-levenda",
+        "arthur-young",
+        "ruth-forbes-payne-young"
+      ],
+      "documents": [],
+      "difference": "Told by the host, citing Levenda, and adds that the nine people were elites.",
+      "link_reason": "This is the same New Year's Eve 1952-53 seance in Maine with nine people, Puharich and the Youngs.",
+      "as_told": {
+        "title": "New Year's Eve seance of nine elites with Puharich",
+        "years": {
+          "from": 1952,
+          "to": 1953
+        },
+        "place_text": "woods in Maine",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "dr-vinod-falls-into-a-trance-and-first-channels-the-nine-1952",
+      "relation": "variant",
+      "note": "Both describe the first channeling of the Nine at Puharich's group in Maine in 1952. This telling puts it at Dr. Vinod's unexpected trance on his first night, while the story puts it at a séance of nine people on New Year's Eve 1952-53."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

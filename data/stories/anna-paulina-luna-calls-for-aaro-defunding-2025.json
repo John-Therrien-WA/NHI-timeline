@@ -1,0 +1,68 @@
+{
+  "id": "anna-paulina-luna-calls-for-aaro-defunding-2025",
+  "title": "Anna Paulina Luna calls for AARO defunding",
+  "summary": "Ross Coulthart tells of Anna Paulina Luna calls for AARO defunding, about 2025 at Washington, D.C., and reports it citing named sources. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2025
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 5715.0,
+      "to_s": 5723.0,
+      "teller": "ross-coulthart",
+      "quote": "that um Representative Anna Paulina Luna, when she was tweeting earlier this week about what a hopeless cause AARO is,",
+      "kind": "journalist",
+      "cites": [
+        "anna-paulina-luna"
+      ],
+      "documents": [
+        "anna-paulina-luna-tweet"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "fbi-briefing-to-congress-and-ongoing-fbi-investigation-of-le-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "white-house-request-for-presidential-ufo-briefing-and-site-v-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

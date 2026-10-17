@@ -1,0 +1,53 @@
+{
+  "id": "joseph-of-arimathea-brings-the-grail-to-england-and-receives",
+  "title": "Joseph of Arimathea brings the Grail to England and receives land from Arviragus",
+  "summary": "Randall Carlson tells of Joseph of Arimathea brings the Grail to England and receives land from Arviragus, about 1st century AD at Glastonbury, England, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Glastonbury, England",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 7955.0,
+      "to_s": 7975.0,
+      "teller": "randall-carlson",
+      "quote": "when Joseph of Arythea arrived in England, he met up with Arvaros, the the pagan chieftain, who then granted him 120 hides of land as the sacred precinct where he would establish the first Christian church according to legend.",
+      "kind": "researcher",
+      "cites": [
+        "joseph-of-arimathea",
+        "arviragus"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "randall-carlson"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

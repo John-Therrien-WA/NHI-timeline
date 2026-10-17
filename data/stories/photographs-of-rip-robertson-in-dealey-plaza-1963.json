@@ -1,0 +1,81 @@
+{
+  "id": "photographs-of-rip-robertson-in-dealey-plaza-1963",
+  "title": "Photographs of Rip Robertson in Dealey Plaza",
+  "summary": "Dan Sheehan tells of Photographs of Rip Robertson in Dealey Plaza, about 1963 at Dealey Plaza, Dallas, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": null,
+  "place_text": "Dealey Plaza, Dallas",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 44.0,
+      "to_s": 49.0,
+      "teller": "daniel-sheehan",
+      "quote": "Photographs of Rip Robertson who's the field operations commander for the S force.",
+      "kind": "researcher",
+      "cites": [
+        "rip-robertson"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 4947.0,
+      "to_s": 4957.0,
+      "teller": "daniel-sheehan",
+      "quote": "You know, there's there's uh Rip Robertson, photographs of Rip Robertson, who's the field field operations commander for the S force standing right there in Delhi Plaza.",
+      "kind": "researcher",
+      "cites": [
+        "rip-robertson",
+        "ed-lansdale"
+      ],
+      "documents": [
+        "photographs-of-dealey-plaza"
+      ],
+      "difference": "The title also places Ed Lansdale in Dealey Plaza beside Robertson; Lansdale's photographs have their own story.",
+      "link_reason": "Same claim as the story: photographs show Rip Robertson, field operations commander of the S force, standing in Dealey Plaza. The quote is nearly word for word.",
+      "as_told": {
+        "title": "S force operatives Rip Robertson and Ed Lansdale photographed in Dealey Plaza",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "Dealey Plaza, Dallas",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "piri-reis-map-showing-antarctica",
+  "title": "Piri Reis map showing Antarctica",
+  "summary": "Jesse Michels tells of Piri Reis map showing Antarctica, about Ancient source maps (map dated 1513) at Antarctica, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "antarctica",
+  "place_text": "Antarctica",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 9058.0,
+      "to_s": 9067.0,
+      "teller": "jesse-michels",
+      "quote": "It's like the map of Piri Race where you have the sort of uh tropical parts of Antarctica that are shown uh you know at the top.",
+      "kind": "host",
+      "cites": [
+        "graham-hancock"
+      ],
+      "documents": [
+        "piri-reis-map",
+        "oronteus-finaeus-map"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

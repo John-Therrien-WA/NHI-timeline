@@ -1,0 +1,55 @@
+{
+  "id": "tesla-killed-in-1943",
+  "title": "Tesla killed in 1943",
+  "summary": "Steven Greer tells of Tesla killed in 1943, about 1943 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1943,
+    "to": 1943
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 4480.0,
+      "to_s": 4484.0,
+      "teller": "steven-greer",
+      "quote": "Brown 20s 30s 40s I mean Tesla was killed in 43.",
+      "kind": "researcher",
+      "cites": [
+        "nikola-tesla"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

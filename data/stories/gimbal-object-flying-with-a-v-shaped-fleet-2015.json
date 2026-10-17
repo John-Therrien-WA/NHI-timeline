@@ -1,0 +1,61 @@
+{
+  "id": "gimbal-object-flying-with-a-v-shaped-fleet-2015",
+  "title": "Gimbal object flying with a V-shaped fleet",
+  "summary": "Marik von Rennenkampf tells of Gimbal object flying with a V-shaped fleet, about 2015 at Off the US East Coast (Roosevelt, 2014 to 2015), and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": "off-us-east-coast",
+  "place_text": "Off the US East Coast",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 7805.0,
+      "to_s": 7814.0,
+      "teller": "marik-von-rennenkampf",
+      "quote": "One other one other fact I just want to introduce is that possibly this was also in involved the formation of of other correct. That's the fleet.",
+      "kind": "secondhand",
+      "cites": [
+        "ryan-graves"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "gallaudet-sees-the-go-fast-video-on-the-navy-secret-network-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "marik-von-rennenkampf"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

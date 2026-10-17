@@ -1,0 +1,59 @@
+{
+  "id": "1994-nellis-tonopah-range-video",
+  "title": "1994 Nellis/Tonopah range video",
+  "summary": "Jesse Michels tells of 1994 Nellis/Tonopah range video, about 1994 at Nellis/Tonopah range, Nevada, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1994,
+    "to": 1994
+  },
+  "place": null,
+  "place_text": "Nellis/Tonopah range, Nevada",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 10083.0,
+      "to_s": 10088.0,
+      "teller": "jesse-michels",
+      "quote": "So, this is a restricted airspace uh you know, testing range. Nellis is famous.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "nellis-object-as-balloons-drifting-in-the-wind-1994",
+      "relation": "variant",
+      "note": "Same 1994 Nellis video as telling 8, but explained as balloons drifting in the wind."
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

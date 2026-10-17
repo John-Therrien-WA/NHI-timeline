@@ -1,0 +1,58 @@
+{
+  "id": "general-starbird-leaves-johnston-island-hours-after-bluegill-1962",
+  "title": "General Starbird leaves Johnston Island hours after Bluegill Triple Prime",
+  "summary": "Jesse Michels tells of General Starbird leaves Johnston Island hours after Bluegill Triple Prime, about October 1962 at Johnston Atoll (Bluegill, 1962), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "johnston-atoll",
+  "place_text": "Johnston Island / USS Summit County",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 4119.0,
+      "to_s": 4127.0,
+      "teller": "jesse-michels",
+      "quote": "Operation Dominic. Ogle writes that General Starboard left Johnston Island at 4:00 a.m. the night of Operation Bluegill Triple Prime.",
+      "kind": "host",
+      "cites": [
+        "alfred-starbird",
+        "william-ogle"
+      ],
+      "documents": [
+        "uss-summit-county-logs"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

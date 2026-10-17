@@ -1,0 +1,71 @@
+{
+  "id": "air-force-and-cia-created-two-weeks-after-roswell-1947",
+  "title": "Air Force and CIA created two weeks after Roswell",
+  "summary": "Jake Barber tells of Air Force and CIA created two weeks after Roswell, about 1947 at Roswell, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico; United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 782.0,
+      "to_s": 793.0,
+      "teller": "jake-barber",
+      "quote": "since its inception in 1947, like two weeks after Roswell incident, you get the National Security Act, you get the formation of the Air Force, CIA at the same time,",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "national-security-act"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-as-exotic-human-technology-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-test-dummy-and-project-mogul-explanations-reje-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jake-barber"
+    ],
+    "episodes": [
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

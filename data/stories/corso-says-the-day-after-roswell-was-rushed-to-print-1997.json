@@ -1,0 +1,65 @@
+{
+  "id": "corso-says-the-day-after-roswell-was-rushed-to-print-1997",
+  "title": "Corso says The Day After Roswell was rushed to print",
+  "summary": "James Fox tells of Corso says The Day After Roswell was rushed to print, about 1997 at Roswell, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1997,
+    "to": 1997
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 6694.0,
+      "to_s": 6698.0,
+      "teller": "james-fox",
+      "quote": "he said that they rushed the book to print with William Burns",
+      "kind": "secondhand",
+      "cites": [
+        "philip-corso",
+        "william-burns",
+        "michael-hessman"
+      ],
+      "documents": [
+        "the-day-after-roswell"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "congressman-schiff-and-the-deleted-roswell-records-1997",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

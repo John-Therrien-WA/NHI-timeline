@@ -1,0 +1,134 @@
+{
+  "id": "custody-chain-manhattan-project-to-aec-to-doe-1940",
+  "title": "Custody chain: Manhattan Project to AEC to DOE",
+  "summary": "David Grusch tells of Custody chain: Manhattan Project to AEC to DOE, about 1940s-present at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 1449.0,
+      "to_s": 1455.0,
+      "teller": "david-grusch",
+      "quote": "The Manhattan Project would have custody of it, and then it would go into the Atomic Energy Commission,",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4224.0,
+      "to_s": 4240.0,
+      "teller": "jesse-michels",
+      "quote": "grush said very interesting stuff around uh the atomic classification system basically overlaying UFO secrecy the guys that were involved in Manhattan were overlaying the same ecosystem of secrecy",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Framed as the atomic classification system overlaying UFO secrecy, with the same Manhattan Project people running it, rather than as custody of material.",
+      "link_reason": "Both describe the atomic secrecy chain from the Manhattan Project to the AEC to the DOE covering UFO material, credited to Grusch.",
+      "as_told": {
+        "title": "Atomic classification system laid over UFO secrecy (Manhattan Project to AEC to DOE)",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 1945.0,
+      "to_s": 1960.0,
+      "teller": "matthew-pines",
+      "quote": "this kind of is consiliant with what David Grush was saying, saying, how these kind of were tucked underneath the architecture of secrecy for the Manhattan Project, you know, the um Atomic Energy Act, you know, that sort of set the institutional framework for these for these programs in the 40s and 50s and 60s.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [
+        "atomic-energy-act"
+      ],
+      "difference": "Names the Atomic Energy Act as the institutional framework and extends the period through the 1950s and 1960s, without spelling out the AEC-to-DOE custody steps.",
+      "link_reason": "Both credit Grusch with the claim that UFO secrecy was placed under the Manhattan Project and atomic-energy secrecy framework. That matches the host's telling within the custody-chain story.",
+      "as_told": {
+        "title": "Legacy programs hidden under Manhattan Project / Atomic Energy Act secrecy",
+        "years": {
+          "from": 1940,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "condon-worked-with-manhattan-project-figures-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "manhattan-project-as-the-first-blue-book-colleagues-grandpar-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-formed-at-behest-of-brown-brothers-harriman-sheehan-hist-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vought-flying-pancake-as-early-saucer-attempt-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "compartmentalization-carried-over-from-the-manhattan-project-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "legacy-program-secrecy-kept-through-trusted-family-lineages-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 2,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "david-grusch"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "LpLFWdsIU7M",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

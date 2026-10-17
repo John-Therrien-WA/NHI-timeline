@@ -1,0 +1,57 @@
+{
+  "id": "podesta-staffer-mentions-the-ufo-project-2015",
+  "title": "Podesta staffer mentions 'the UFO project'",
+  "summary": "Jason Simosa tells of Podesta staffer mentions 'the UFO project', about 2015 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": "washington-dc",
+  "place_text": "Center for American Progress, Washington DC",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 2442.0,
+      "to_s": 2451.0,
+      "teller": "jason-simosa",
+      "quote": "And at one point, there's an individual mentioned and one of the staffers said, \"Uh John, maybe we should consider this individual for the UFO project.\"",
+      "kind": "researcher",
+      "cites": [
+        "john-podesta"
+      ],
+      "documents": [
+        "podesta-emails"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-simosa"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

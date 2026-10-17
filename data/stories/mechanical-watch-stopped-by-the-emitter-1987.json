@@ -1,0 +1,55 @@
+{
+  "id": "mechanical-watch-stopped-by-the-emitter-1987",
+  "title": "Mechanical watch stopped by the emitter",
+  "summary": "Luigi Vendetelli tells of Mechanical watch stopped by the emitter, about late 1980s at S4, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "S4, Nevada",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 7352.0,
+      "to_s": 7356.0,
+      "teller": "luigi-vendetelli",
+      "quote": "it was like a mechanical watch that just stopped.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "luigi-vendetelli"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

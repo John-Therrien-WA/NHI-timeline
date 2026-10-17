@@ -1,0 +1,106 @@
+{
+  "id": "alcubierre-s-1994-faster-than-light-solution",
+  "title": "Alcubierre's 1994 faster-than-light solution",
+  "summary": "Karl Nell tells of Alcubierre's 1994 faster-than-light solution, about 1994 at Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1994,
+    "to": 1994
+  },
+  "place": "mexico",
+  "place_text": "University of Mexico, Mexico",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 316.0,
+      "to_s": 326.0,
+      "teller": "karl-nell",
+      "quote": "Miguel alcir a Mexican postgraduate student University of Mexico in 1994 solved Einstein's equations for an effective faster than light mechanism",
+      "kind": "researcher",
+      "cites": [
+        "miguel-alcubierre",
+        "nasa"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 5887.0,
+      "to_s": 5898.0,
+      "teller": "jesse-michels",
+      "quote": "But it is interesting because Miguel\nAlcubieri did this proof that\ntheoretically, even within general\nrelativity, you could get faster than\nlight travel if you do have negative\nenergy.",
+      "kind": "host",
+      "cites": [
+        "miguel-alcubierre"
+      ],
+      "documents": [],
+      "difference": "Stresses that the proof needs negative energy and leaves out the University of Mexico detail.",
+      "link_reason": "Same story: Miguel Alcubierre's 1994 proof that general relativity allows faster-than-light travel.",
+      "as_told": {
+        "title": "Alcubierre's proof of faster-than-light warp travel",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 2808.0,
+      "to_s": 2819.0,
+      "teller": "jesse-michels",
+      "quote": "I don't know if you know who Miguel Alubieri is. He's at the University of Mexico and he figured out a way, you know, for faster than light travel within the scope of general relativity.",
+      "kind": "host",
+      "cites": [
+        "miguel-alcubierre",
+        "sonny-white"
+      ],
+      "documents": [],
+      "difference": "Places Alcubierre at the University of Mexico and pairs his proof with Sonny White's Casimir-effect chip at NASA.",
+      "link_reason": "The quoted passage is Jesse Michels describing Alcubierre's proof that faster-than-light travel is possible within general relativity. That is the same claim as the Alcubierre 1994 story.",
+      "as_told": {
+        "title": "Alcubierre warp drive and Sonny White's Casimir chip",
+        "years": {
+          "from": 1994,
+          "to": 2029
+        },
+        "place_text": "National Autonomous University of Mexico; NASA",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "karl-nell"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "aa9Xx5wI8Rw",
+      "jMCavr3dVP0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

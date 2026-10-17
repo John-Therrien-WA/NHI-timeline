@@ -1,0 +1,55 @@
+{
+  "id": "frederick-valentich-disappearance-1978",
+  "title": "Frederick Valentich disappearance",
+  "summary": "Ross Coulthart tells of Frederick Valentich disappearance, about 1978 at Bass Strait, Australia, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1978,
+    "to": 1978
+  },
+  "place": null,
+  "place_text": "Bass Strait, Australia",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 1082.0,
+      "to_s": 1093.0,
+      "teller": "ross-coulthart",
+      "quote": "There'd been the Valentich story of a young boy called Frederick Valentich who had disappeared in his Cessna aircraft flying over Bass Strait in Australia just a few months before.",
+      "kind": "host",
+      "cites": [
+        "frederick-valentich"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

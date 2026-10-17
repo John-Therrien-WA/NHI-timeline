@@ -1,0 +1,65 @@
+{
+  "id": "benedict-gross-and-epstein-proposal-for-evolutionary-dynamic-2000",
+  "title": "Benedict Gross and Epstein proposal for evolutionary dynamics at Harvard",
+  "summary": "Eric Weinstein tells of Benedict Gross and Epstein proposal for evolutionary dynamics at Harvard, about 2000s at Harvard, Cambridge, Massachusetts, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2009
+  },
+  "place": "harvard-ma",
+  "place_text": "Harvard University",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 12493.0,
+      "to_s": 12499.0,
+      "teller": "eric-weinstein",
+      "quote": "and Harvard references an imaginative proposal by Benedict Gross and Jeffrey Epstein.",
+      "kind": "researcher",
+      "cites": [
+        "benedict-gross",
+        "jeffrey-epstein",
+        "martin-nowak"
+      ],
+      "documents": [
+        "harvard-reference-to-the-gross-epstein-proposal"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "susan-clancy-s-harvard-study-of-abductees-2000",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

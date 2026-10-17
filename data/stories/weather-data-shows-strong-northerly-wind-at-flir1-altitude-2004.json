@@ -1,0 +1,76 @@
+{
+  "id": "weather-data-shows-strong-northerly-wind-at-flir1-altitude-2004",
+  "title": "Weather data shows strong northerly wind at FLIR1 altitude",
+  "summary": "Merrick tells of Weather data shows strong northerly wind at FLIR1 altitude, about 2004 at Off Southern California, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "off Southern California",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 4328.0,
+      "to_s": 4335.0,
+      "teller": "merrick",
+      "quote": "we can look at the weather data from that time at that altitude and there's an extremely strong northerly wind",
+      "kind": "researcher",
+      "cites": [
+        "yannick"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "analysis-by-merrick-s-colleagues-points-to-a-tic-tac-shaped-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "flir1-object-may-be-a-balloon-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mick-s-analysis-flir1-object-is-a-distant-aircraft-and-its-z-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sun-angle-3d-reconstruction-of-the-flir1-object-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

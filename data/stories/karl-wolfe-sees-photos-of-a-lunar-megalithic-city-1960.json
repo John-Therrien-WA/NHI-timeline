@@ -1,0 +1,94 @@
+{
+  "id": "karl-wolfe-sees-photos-of-a-lunar-megalithic-city-1960",
+  "title": "Karl Wolfe sees photos of a lunar megalithic city",
+  "summary": "Jason Jorjani tells of Karl Wolfe sees photos of a lunar megalithic city, about 1960s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "NSA facility, United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 3839.0,
+      "to_s": 3855.0,
+      "teller": "jason-jorjani",
+      "quote": "And Carl Wolf, long story short, he says he in the course of repairing this machine was shown photographs, mosaic photographs of a huge megalithic city on the dark side of the moon.",
+      "kind": "secondhand",
+      "cites": [
+        "karl-wolfe"
+      ],
+      "documents": [
+        "lunar-orbiter-reconnaissance-photos"
+      ]
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 4412.0,
+      "to_s": 4421.0,
+      "teller": "jason-jorjani",
+      "quote": "we've got Carl Wolf telling us there's a city on the dark side of the moon. We've got Ingo Swan having done remote viewing that confirms that.",
+      "kind": "secondhand",
+      "cites": [
+        "carl-wolf",
+        "ingo-swann"
+      ],
+      "documents": [],
+      "difference": "Adds that Ingo Swann's remote viewing confirms the city, and leaves out the photographs and the NSA setting.",
+      "link_reason": "Both tell of Karl Wolfe's claim that a megalithic city stands on the far side of the Moon.",
+      "as_told": {
+        "title": "City on the dark side of the moon",
+        "years": null,
+        "place_text": "Far side of the Moon",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "marilyn-monroe-rumor-that-jfk-spilled-ufo-secrets-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "von-braun-in-puharich-s-circle-in-the-1960s",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

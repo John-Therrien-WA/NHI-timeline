@@ -1,0 +1,141 @@
+{
+  "id": "helicopter-recovery-of-the-20-foot-egg-2014",
+  "title": "Helicopter recovery of the 20-foot egg",
+  "summary": "Jake Barber tells of Helicopter recovery of the 20-foot egg, about c. 2014 (10+ years before 2025) at off the range, California desert, and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2014,
+    "to": 2025
+  },
+  "place": null,
+  "place_text": "off the range, California desert",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 2283.0,
+      "to_s": 2287.0,
+      "teller": "jake-barber",
+      "quote": "First experience I'm going to talk about is when we recovered an egg.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 11073.0,
+      "to_s": 11080.0,
+      "teller": "jesse-michels",
+      "quote": "the the vehicles that Jake Barber and his team retrieved were in fact of extraterrestrial origin, the egg",
+      "kind": "host",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Told by the host rather than by Barber firsthand, and it asserts the egg was of extraterrestrial origin; it gives no date and places the egg on test ranges.",
+      "link_reason": "Both are about Jake Barber's team recovering the egg-shaped craft in the California desert; here the host adds that it was extraterrestrial.",
+      "as_told": {
+        "title": "Jake Barber retrievals of the egg in California",
+        "years": null,
+        "place_text": "Test ranges in California",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 6069.0,
+      "to_s": 6079.0,
+      "teller": "jesse-michels",
+      "quote": "said that he retrieved an egg-shaped craft on this sort of, you know, generic range sort of, you know, California test range.",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber",
+        "ross-coulthart"
+      ],
+      "documents": [],
+      "difference": "Told secondhand, gives no date, and calls the site a generic California test range.",
+      "link_reason": "Barber's own retrieval of the egg-shaped craft in the California desert, near the range.",
+      "as_told": {
+        "title": "Jake Barber retrieves an egg-shaped craft on a California test range",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "California test range",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 4271.0,
+      "to_s": 4278.0,
+      "teller": "eric-burlison",
+      "quote": "when he described being in the helicopter while he's carrying what was I think he described as an egg.",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Told second hand by Burlison, with no date or place given.",
+      "link_reason": "Both tell of Barber carrying the egg-shaped craft by helicopter.",
+      "as_told": {
+        "title": "Jake Barber carries an egg-shaped craft by helicopter",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 6279.0,
+      "to_s": 6283.0,
+      "teller": "jesse-michels",
+      "quote": "We recovered an egg and we just call it the egg cuz that's what it was.",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Quotes Barber saying they called it the egg because of its shape, and gives no place or date.",
+      "link_reason": "Both are about Jake Barber's recovery of the egg-shaped craft.",
+      "as_told": {
+        "title": "Jake Barber's recovery of the 'egg'",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 2,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jake-barber"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "areO7Mej44E",
+      "dnnpyNuPdXs",
+      "u7g5Sn1DJF4",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

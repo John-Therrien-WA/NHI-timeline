@@ -1,0 +1,92 @@
+{
+  "id": "1950s-anti-gravity-research-went-quiet-possibly-went-black",
+  "title": "1950s anti-gravity research went quiet, possibly went black",
+  "summary": "Hal Puthoff tells of 1950s anti-gravity research went quiet, possibly went black, about 1950s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iQOibpIDx-4",
+      "from_s": 653.0,
+      "to_s": 666.0,
+      "teller": "hal-puthoff",
+      "quote": "i could take two implications of that and that is it quieted down because nobody ever got anywhere or quieted it down because it did get somewhere and it went black",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 2671.0,
+      "to_s": 2678.0,
+      "teller": "david-grusch",
+      "quote": "there was all these anti-grav groups up until the early sixties and then they, you know, totally vaporized.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Grusch, speaking secondhand, puts the disappearance in the early sixties rather than the 1950s and says only that the groups \"vaporized\", without Puthoff's choice between failing and going black.",
+      "link_reason": "Both tell the same theory: US anti-gravity research groups were active through the 1950s and then disappeared from public view. The scope is the same, the whole field of US anti-gravity work going quiet.",
+      "as_told": {
+        "title": "Antigravity groups vanish in the early sixties",
+        "years": {
+          "from": 1950,
+          "to": 1963
+        },
+        "place_text": "United States aerospace",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "presidency-cut-out-of-the-loop-under-eisenhower-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "host-s-reading-of-majestic-as-a-continuity-of-government-com-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "burkhard-heim-at-lockheed-and-extended-heim-theory-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "david-grusch",
+      "hal-puthoff"
+    ],
+    "episodes": [
+      "iQOibpIDx-4",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several"
+}

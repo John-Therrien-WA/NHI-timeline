@@ -1,0 +1,98 @@
+{
+  "id": "timothy-taylor-s-hierarchy-as-described-to-diana-pasulka-2010",
+  "title": "Timothy Taylor's hierarchy as described to Diana Pasulka",
+  "summary": "Matthew Pines tells of Timothy Taylor's hierarchy as described to Diana Pasulka, about 2010s-2020s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2029
+  },
+  "place": "united-states",
+  "place_text": "United States (NASA)",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 11579.0,
+      "to_s": 11596.0,
+      "teller": "matthew-pines",
+      "quote": "Timothy Taylor, right, the the anon sort of but now, you know, well well kind of known kind of NASA program manager um that's been deeply involved in this stuff and spooky spooky subjects for a long time. you know when he was asked kind of what's the hierarchy by Dana by by by by Dana Pulka",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "diana-pasulka"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 10853.0,
+      "to_s": 10860.0,
+      "teller": "jesse-michels",
+      "quote": ">> And then you have Tim Taylor telling Diana Pulka, here's the hierarchy of being.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "diana-pasulka"
+      ],
+      "documents": [],
+      "difference": "Told by Jesse Michels rather than Matthew Pines.",
+      "link_reason": "Both are about Timothy Taylor describing a hierarchy of beings to Diana Pasulka.",
+      "as_told": {
+        "title": "Tim Taylor gives Diana Pasulka a hierarchy of being",
+        "years": {
+          "from": 2010,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "cosmology"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "timothy-taylor-s-agency-credentials-and-a-possible-secret-sp-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "harassment-of-ufo-whistleblowers-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several"
+}

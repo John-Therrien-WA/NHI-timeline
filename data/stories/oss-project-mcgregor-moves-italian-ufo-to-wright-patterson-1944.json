@@ -1,0 +1,77 @@
+{
+  "id": "oss-project-mcgregor-moves-italian-ufo-to-wright-patterson-1944",
+  "title": "OSS Project McGregor moves Italian UFO to Wright-Patterson",
+  "summary": "Jesse Michels tells of OSS Project McGregor moves Italian UFO to Wright-Patterson, about 1944-1945 at Northern Italy; Wright-Patterson AFB, Ohio, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1944,
+    "to": 1945
+  },
+  "place": "italy-magenta",
+  "place_text": "Northern Italy; Wright-Patterson AFB, Ohio",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 5887.0,
+      "to_s": 5909.0,
+      "teller": "jesse-michels",
+      "quote": "Working under a secret project called McGregor, OSS operatives targeted advanced access technology, including the rumored crashed UFO. By 1945, the Americans had reportedly transferred the Italian UFO to Wright Patterson Air Force Base in Ohio for further study.",
+      "kind": "host",
+      "cites": [
+        "office-of-strategic-services"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 2839.0,
+      "to_s": 2851.0,
+      "teller": "jesse-michels",
+      "quote": "You have magenta before that in Italy, but then this this craft crashes there and that gets transferred to US possession.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names no agency, project, date or destination for the transfer, and dates the crash only to before the US events.",
+      "link_reason": "Both tell of the Italian (Magenta) crashed craft being moved into US possession.",
+      "as_told": {
+        "title": "Magenta crash in Italy transferred to the US",
+        "years": {
+          "from": 1930,
+          "to": 1939
+        },
+        "place_text": "Magenta, Italy",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

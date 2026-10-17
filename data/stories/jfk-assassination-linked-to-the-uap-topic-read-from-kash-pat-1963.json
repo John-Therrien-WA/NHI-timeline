@@ -1,0 +1,57 @@
+{
+  "id": "jfk-assassination-linked-to-the-uap-topic-read-from-kash-pat-1963",
+  "title": "JFK assassination linked to the UAP topic, read from Kash Patel's remarks",
+  "summary": "Jake Barber tells of JFK assassination linked to the UAP topic, read from Kash Patel's remarks, about 1963 at Dallas, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": null,
+  "place_text": "Dallas",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 7001.0,
+      "to_s": 7007.0,
+      "teller": "jake-barber",
+      "quote": "But what I hear him saying cryptically is that the JFK assassination is linked to the UAP topic.",
+      "kind": "secondhand",
+      "cites": [
+        "kash-patel"
+      ],
+      "documents": [
+        "jfk-file"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jake-barber"
+    ],
+    "episodes": [
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

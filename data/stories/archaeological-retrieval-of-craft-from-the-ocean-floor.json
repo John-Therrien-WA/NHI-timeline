@@ -1,0 +1,50 @@
+{
+  "id": "archaeological-retrieval-of-craft-from-the-ocean-floor",
+  "title": "Archaeological retrieval of craft from the ocean floor",
+  "summary": "Matthew Brown tells of Archaeological retrieval of craft from the ocean floor, about unspecified at ocean floor, and reads it from an official document. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "ocean floor",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 3779.0,
+      "to_s": 3786.0,
+      "teller": "matthew-brown",
+      "quote": "If you're digging something up under, you know, tens of meters of of sediment deposited on the ocean floor, like that takes time to build up.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "matthew-brown"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once"
+}

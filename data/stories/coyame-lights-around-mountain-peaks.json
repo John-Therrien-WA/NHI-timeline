@@ -1,0 +1,55 @@
+{
+  "id": "coyame-lights-around-mountain-peaks",
+  "title": "Coyame lights around mountain peaks",
+  "summary": "Jesse Michels tells of Coyame lights around mountain peaks, about decades at Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "mexico",
+  "place_text": "Coyame, Chihuahua, Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 1121.0,
+      "to_s": 1133.0,
+      "teller": "jesse-michels",
+      "quote": "Locals constantly talk about colored lights that wink in and out around the mountain peaks.",
+      "kind": "host",
+      "cites": [
+        "noe-torres",
+        "ruben-uriarte"
+      ],
+      "documents": [
+        "mexico-s-roswell"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "OOr98r51Sj0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

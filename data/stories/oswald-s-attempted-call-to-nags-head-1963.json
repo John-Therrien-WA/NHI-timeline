@@ -1,0 +1,66 @@
+{
+  "id": "oswald-s-attempted-call-to-nags-head-1963",
+  "title": "Oswald's attempted call to Nags Head",
+  "summary": "Jesse Michels tells of Oswald's attempted call to Nags Head, about 1963 at Texas (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "texas",
+  "place_text": "Dallas, Texas",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 4877.0,
+      "to_s": 4882.0,
+      "teller": "jesse-michels",
+      "quote": "And he tried to place the call. He asked for the telephone call to Nag Nags Head.",
+      "kind": "host",
+      "cites": [
+        "lee-harvey-oswald"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "byrd-took-the-sixth-floor-depository-window-for-his-trophy-r-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruth-paine-houses-lee-harvey-oswald-and-marina-in-texas-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

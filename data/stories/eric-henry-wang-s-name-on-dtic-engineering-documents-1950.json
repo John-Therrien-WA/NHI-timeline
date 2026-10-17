@@ -1,0 +1,57 @@
+{
+  "id": "eric-henry-wang-s-name-on-dtic-engineering-documents-1950",
+  "title": "Eric Henry Wang's name on DTIC engineering documents",
+  "summary": "UAPGerb tells of Eric Henry Wang's name on DTIC engineering documents, about 1950s at Wright-Patterson Air Force Base, Ohio, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Wright-Patterson Air Force Base, Ohio",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 7791.0,
+      "to_s": 7804.0,
+      "teller": "uapgerb",
+      "quote": "yes he no he he existed he existed if you look through the DTick the defense technical information center you can find actual um you can find uh old engineering documents with air Henry weighing on it",
+      "kind": "researcher",
+      "cites": [
+        "eric-henry-wang"
+      ],
+      "documents": [
+        "dtic-engineering-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

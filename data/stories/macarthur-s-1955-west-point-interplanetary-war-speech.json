@@ -1,0 +1,55 @@
+{
+  "id": "macarthur-s-1955-west-point-interplanetary-war-speech",
+  "title": "MacArthur's 1955 West Point interplanetary war speech",
+  "summary": "Jesse Michels tells of MacArthur's 1955 West Point interplanetary war speech, about 1955 at West Point, New York, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1955,
+    "to": 1955
+  },
+  "place": null,
+  "place_text": "West Point, New York",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 6024.0,
+      "to_s": 6035.0,
+      "teller": "jesse-michels",
+      "quote": "During a 1955 speech at West Point, General MacArthur told assembled cadetses, \"The next war will be an interplanetary war.",
+      "kind": "host",
+      "cites": [
+        "douglas-macarthur"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

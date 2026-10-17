@@ -1,0 +1,81 @@
+{
+  "id": "jesse-marcel-says-weather-balloon-was-a-cover-story-1978",
+  "title": "Jesse Marcel says weather balloon was a cover story",
+  "summary": "Jesse Michels tells of Jesse Marcel says weather balloon was a cover story, about 1978 at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1978,
+    "to": 1978
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico / Wright-Patterson AFB",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 1496.0,
+      "to_s": 1503.0,
+      "teller": "jesse-michels",
+      "quote": "Cut to 1978. Lieutenant Colonel Jesse Marcel said that this was all just a cover story",
+      "kind": "host",
+      "cites": [
+        "jesse-marcel"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 10166.0,
+      "to_s": 10174.0,
+      "teller": "bob-lazar",
+      "quote": "he said when you know, they came to take pictures or the pictures they took he said that wasn't the stuff that we found.",
+      "kind": "secondhand",
+      "cites": [
+        "jesse-marcel",
+        "roger-ramey"
+      ],
+      "documents": [],
+      "difference": "Says specifically that the debris in the press photographs was not the material Marcel found.",
+      "link_reason": "In both, Jesse Marcel says the debris shown publicly was a cover for what was really found at Roswell.",
+      "as_told": {
+        "title": "Jesse Marcel says the Ramey press photo debris was swapped",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Fort Worth / Roswell, New Mexico",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bob-lazar",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

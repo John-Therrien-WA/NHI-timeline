@@ -1,0 +1,117 @@
+{
+  "id": "apollo-crew-followed-by-something-to-the-moon-1969",
+  "title": "Apollo crew followed by something to the Moon",
+  "summary": "James Fox tells of Apollo crew followed by something to the Moon, about 1969 at The Moon, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "moon",
+  "place_text": "en route to the Moon",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 4637.0,
+      "to_s": 4640.0,
+      "teller": "james-fox",
+      "quote": "he had told her was that they were followed by something to the Moon",
+      "kind": "secondhand",
+      "cites": [
+        "fay-ann-potter",
+        "buzz-aldrin"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 8092.0,
+      "to_s": 8099.0,
+      "teller": "james-fox",
+      "quote": "She also told me that he had some UFO encounter on the way to the moon.",
+      "kind": "secondhand",
+      "cites": [
+        "fay-ann-potter",
+        "buzz-aldrin"
+      ],
+      "documents": [],
+      "difference": "Calls it a UFO encounter of Aldrin's own rather than the crew being followed.",
+      "link_reason": "In both, Fay Ann Potter relays that Buzz Aldrin met something on the way to the Moon in 1969.",
+      "as_told": {
+        "title": "Buzz Aldrin's UFO encounter on the way to the Moon",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "Space, en route to the Moon",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 1738.0,
+      "to_s": 1749.0,
+      "teller": "jesse-michels",
+      "quote": "Apollo 11's so weird. Uh because you have Buzz Aldrin openly admitting in multiple interviews that you had this thing following them",
+      "kind": "host",
+      "cites": [
+        "buzz-aldrin"
+      ],
+      "documents": [],
+      "difference": "Says Aldrin admitted it openly in several interviews, where the story has it through his sister Fay Ann Potter.",
+      "link_reason": "Both tell of something following the Apollo 11 crew on the way to the Moon, as told by Aldrin.",
+      "as_told": {
+        "title": "Buzz Aldrin's Apollo 11 object following the spacecraft",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "Translunar space, Apollo 11",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "apollo-11-crew-observes-a-glowing-aristarchus-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-11-trio-of-lights-frame-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

@@ -1,43 +1,43 @@
 {
   "id": "us-soviet-deconfliction-on-ufos-and-nato-collaboration",
   "title": "US-Soviet deconfliction on UFOs and NATO collaboration",
-  "summary": "Matthew Brown tells of US-Soviet deconfliction on UFOs and NATO collaboration, about unspecified at United States, Soviet Union, NATO, and summarises it without a named source. As told, not a fact.",
+  "summary": "Matthew Brown tells of US-Soviet deconfliction on UFOs and NATO collaboration, about Cold War to present at United States (no place named), and reads it from an official document. As told, not a fact.",
   "era": null,
   "years": null,
   "place": "united-states",
+  "place_text": "United States; Soviet Union; NATO",
   "coordinates": null,
-  "kind": "theory",
+  "kind": "program",
   "claims": [],
   "tellings": [
     {
       "episode": "yGtVzBbUvx4",
       "from_s": 9302.0,
-      "to_s": 9314.0,
+      "to_s": 9311.0,
       "teller": "matthew-brown",
-      "quote": "the deconliction, as we already know, established between the United States and the Soviet Union on UFOs. Um well, you know, we're integrated with the European militaries.",
-      "kind": "researcher",
+      "quote": "deterrence and the deconliction, as we already know, established between the United States and the Soviet Union on UFOs.",
+      "kind": "official",
       "cites": [],
       "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
-  "place_text": "United States, Soviet Union, NATO",
+  "score": 1.6,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
       "matthew-brown"
     ],
@@ -45,6 +45,6 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.25,
+  "attestation": 0.8,
   "tier": "told-once"
 }

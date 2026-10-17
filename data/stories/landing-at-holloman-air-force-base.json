@@ -1,0 +1,58 @@
+{
+  "id": "landing-at-holloman-air-force-base",
+  "title": "Landing at Holloman Air Force Base",
+  "summary": "James Fox tells of Landing at Holloman Air Force Base, about unspecified (Eisenhower meeting claimed) at Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "mexico",
+  "place_text": "Holloman Air Force Base, New Mexico",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 7491.0,
+      "to_s": 7497.0,
+      "teller": "james-fox",
+      "quote": "a landing did happen at Hollowman Air Force Base now I'm kind of convinced that it did",
+      "kind": "researcher",
+      "cites": [
+        "eisenhower"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+      "relation": "variant",
+      "note": "Both are James Fox telling of a UFO landing at Holloman Air Force Base, New Mexico. This telling ties the landing to a claimed meeting with Eisenhower, while the story places it in 1964 and rests it on footage Allan Sandler saw. Those are competing accounts of when the landing happened and who was there, so either could be right."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "cia-telepathy-drawing-tests-at-sri-1970",
+  "title": "CIA telepathy drawing tests at SRI",
+  "summary": "Uri Geller tells of CIA telepathy drawing tests at SRI, about 1970s at Stanford Research Institute, Menlo Park, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "sri-menlo-park-ca",
+  "place_text": "Stanford Research Institute, Palo Alto; Langley, Virginia",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 1763.0,
+      "to_s": 1776.0,
+      "teller": "uri-geller",
+      "quote": "So the CIA took me to Stanford Research Institute. drawings were done miles away and I had to receive those drawings telepathically.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "owens-approaches-puthoff-and-targ-at-sri-and-is-rebuffed-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puthoff-s-article-on-the-stargate-and-scanate-remote-viewing-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "uri-geller"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

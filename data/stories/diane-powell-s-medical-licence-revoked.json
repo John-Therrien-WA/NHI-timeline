@@ -1,0 +1,54 @@
+{
+  "id": "diane-powell-s-medical-licence-revoked",
+  "title": "Diane Powell's medical licence revoked",
+  "summary": "Jesse Michels tells of Diane Powell's medical licence revoked, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 7740.0,
+      "to_s": 7746.0,
+      "teller": "jesse-michels",
+      "quote": "Her medical license got revoked for studying these telepathic children.",
+      "kind": "host",
+      "cites": [
+        "diane-powell"
+      ],
+      "documents": [
+        "the-telepathy-tapes"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

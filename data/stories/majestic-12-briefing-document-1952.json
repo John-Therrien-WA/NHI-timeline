@@ -1,0 +1,131 @@
+{
+  "id": "majestic-12-briefing-document-1952",
+  "title": "Majestic 12 briefing document",
+  "summary": "Jesse Michels tells of Majestic 12 briefing document, about 1952 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 965.0,
+      "to_s": 976.0,
+      "teller": "jesse-michels",
+      "quote": "this document is easily the most controversial in UFO circles it is supposedly a briefing document prepared in 1952 for president-elect Dwight Eisenhower",
+      "kind": "host",
+      "cites": [
+        "dwight-eisenhower",
+        "harry-truman"
+      ],
+      "documents": [
+        "majestic-12-briefing-document"
+      ]
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 8187.0,
+      "to_s": 8192.0,
+      "teller": "jesse-michels",
+      "quote": "legitimate document it establishes one that a flying Sauer crashed two that the wreckage was recovered",
+      "kind": "secondhand",
+      "cites": [
+        "stanton-friedman",
+        "donald-menzel"
+      ],
+      "documents": [
+        "majestic-12-documents"
+      ],
+      "difference": "This telling is secondhand and credits Stanton Friedman. It names Donald Menzel as a rumored MJ-12 member, gives 1947 onward instead of 1952, and leaves out the Eisenhower briefing. It also stresses what the document would prove if it is real: that a saucer crashed and the wreckage was recovered.",
+      "link_reason": "Both tellings are about the Majestic 12 document, the controversial briefing paper said to show that a flying saucer crashed and its wreckage was recovered. They share the same teller (Jesse Michels) and the same document.",
+      "as_told": {
+        "title": "Majestic 12 document; Menzel rumored member",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 1452.0,
+      "to_s": 1456.0,
+      "teller": "uapgerb",
+      "quote": "I'm particularly fond of the Eisenhower briefing document.",
+      "kind": "researcher",
+      "cites": [
+        "dwight-d-eisenhower",
+        "james-v-forestto",
+        "harry-truman",
+        "walter-bedell-smith"
+      ],
+      "documents": [
+        "eisenhower-briefing-document",
+        "majestic-documents"
+      ],
+      "difference": "Gives the span 1947-1952 and adds Forrestal and Walter B. Smith to the people credited.",
+      "link_reason": "The same MJ-12 briefing document said to have been prepared for Eisenhower in 1952.",
+      "as_told": {
+        "title": "Eisenhower briefing document and MJ-12",
+        "years": {
+          "from": 1947,
+          "to": 1952
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "cia-memo-calls-ufos-a-national-security-matter-1952",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-in-look-magazine-on-sightings-at-atomic-sites-1952",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 4,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.75,
+  "tier": "well-attested"
+}

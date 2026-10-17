@@ -1,0 +1,86 @@
+{
+  "id": "trump-hints-at-knowledge-about-roswell-1947",
+  "title": "Trump hints at knowledge about Roswell",
+  "summary": "Jesse Michels tells of Trump hints at knowledge about Roswell, about 1947 at Roswell, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 7313.0,
+      "to_s": 7321.0,
+      "teller": "jesse-michels",
+      "quote": "want to see it. I won't talk to you about what I know about it, but it's very interesting. But Roswell's a very interesting place.",
+      "kind": "secondhand",
+      "cites": [
+        "donald-trump"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "clapper-and-brennan-speak-of-roswell-and-a-surviving-being-i-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "edgar-mitchell-heard-about-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "governor-richardson-on-looking-into-the-roswell-crash-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jan-rooney-s-general-father-on-roswell-and-religion-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "marcel-s-son-handled-the-roswell-material-at-home-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "walter-haut-s-posthumous-affidavit-craft-and-bodies-under-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

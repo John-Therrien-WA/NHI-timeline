@@ -1,0 +1,78 @@
+{
+  "id": "eisenhower-era-peads-used-to-create-waived-saps-1950",
+  "title": "Eisenhower-era PEADs used to create waived SAPs",
+  "summary": "Jack tells of Eisenhower-era PEADs used to create waived SAPs, about 1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 762.0,
+      "to_s": 772.0,
+      "teller": "jack",
+      "quote": "under Eisenhower pads is a presidential uh emergency action documents were kind of used to create wave special access programs free from congressional oversight",
+      "kind": "host",
+      "cites": [
+        "eric-davis"
+      ],
+      "documents": [
+        "presidential-emergency-action-documents"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "babson-s-gravity-research-foundation-in-new-boston-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brown-s-saucer-shaped-gravitator-and-founding-of-nicap-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "townsend-brown-s-anti-gravity-success-in-paris-sarbacher-pic-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "malmgren-tracked-by-majestic-12-guardians-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jack"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

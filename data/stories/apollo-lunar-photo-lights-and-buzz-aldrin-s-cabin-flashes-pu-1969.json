@@ -1,0 +1,121 @@
+{
+  "id": "apollo-lunar-photo-lights-and-buzz-aldrin-s-cabin-flashes-pu-1969",
+  "title": "Apollo lunar photo lights and Buzz Aldrin's cabin flashes put down to cosmic rays",
+  "summary": "Michael Shermer tells of Apollo lunar photo lights and Buzz Aldrin's cabin flashes put down to cosmic rays, about 1969 at The Moon, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "moon",
+  "place_text": "Apollo missions, Moon",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 3689.0,
+      "to_s": 3704.0,
+      "teller": "michael-shermer",
+      "quote": "So, he thinks, and I think he's probably right, that the um the lunar photos where you see the little blue uh lights in the the distant sky on the moon and Buzz Aldrin's report that inside the cabin, he sees lights.",
+      "kind": "researcher",
+      "cites": [
+        "avi-loeb",
+        "buzz-aldrin"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 1591.0,
+      "to_s": 1598.0,
+      "teller": "maaneli-derakhshani",
+      "quote": "know a Lobo has actually suggested this as the most likely explanation of the trio of blue lights in Apollo 17.",
+      "kind": "researcher",
+      "cites": [
+        "avi-loeb"
+      ],
+      "documents": [],
+      "difference": "Ties the explanation specifically to the Apollo 17 trio of blue lights and leaves out Aldrin's cabin flashes.",
+      "link_reason": "Both tell Avi Loeb's explanation that the blue lights in lunar photos were caused by cosmic rays.",
+      "as_told": {
+        "title": "Avi Loeb's cosmic ray explanation of Apollo 17 lights",
+        "years": {
+          "from": 1972,
+          "to": 1972
+        },
+        "place_text": "Lunar surface, Apollo 17",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 1648.0,
+      "to_s": 1658.0,
+      "teller": "jesse-michels",
+      "quote": "Neil Degrass Tyson came out with specifically kind of a debunk of Apollo 17 sightings >> citing basically that it was like case closed cosmic rays",
+      "kind": "host",
+      "cites": [
+        "neil-degrasse-tyson"
+      ],
+      "documents": [],
+      "difference": "Credits the explanation to Neil deGrasse Tyson as 'case closed' rather than to Avi Loeb.",
+      "link_reason": "This is the same cosmic-ray explanation of the Apollo lunar photo lights, this time voiced by Neil deGrasse Tyson as a debunk.",
+      "as_told": {
+        "title": "Neil deGrasse Tyson debunk of Apollo 17 sightings",
+        "years": {
+          "from": 1972,
+          "to": 1972
+        },
+        "place_text": "Lunar surface, Apollo 17",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "aldrin-s-communion-as-masonic-ritual-on-the-moon-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-intersecting-shadows-suggest-multiple-light-sources-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-moon-rang-like-a-bell-during-the-apollo-seismometer-expe-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "maaneli-derakhshani",
+      "michael-shermer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

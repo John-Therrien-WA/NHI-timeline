@@ -1,0 +1,88 @@
+{
+  "id": "sarbacher-involved-in-standing-up-the-program-1940",
+  "title": "Sarbacher involved in standing up the program",
+  "summary": "David Grusch tells of Sarbacher involved in standing up the program, about 1940s-1950s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3075.0,
+      "to_s": 3080.0,
+      "teller": "david-grusch",
+      "quote": "Sarbacher, somebody purportedly involved in the stand up of the stuff that I uncovered. Right.",
+      "kind": "secondhand",
+      "cites": [
+        "robert-sarbacher"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 919.0,
+      "to_s": 927.0,
+      "teller": "jesse-michels",
+      "quote": "David Grush has said on record that he set up UFO secrecy in 1954",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "robert-sarbacher",
+        "j-robert-oppenheimer",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "The host relays Grusch, puts the setup in 1954, and links Oppenheimer and Townsend Brown.",
+      "link_reason": "Both tell Grusch's claim that Sarbacher was involved in setting up the secrecy program around UFOs.",
+      "as_told": {
+        "title": "Grusch: Sarbacher set up UFO secrecy in 1954",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "oppenheimer-created-the-classification-covering-ufos-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "david-grusch"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

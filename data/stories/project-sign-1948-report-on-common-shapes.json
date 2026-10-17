@@ -1,0 +1,57 @@
+{
+  "id": "project-sign-1948-report-on-common-shapes",
+  "title": "Project Sign 1948 report on common shapes",
+  "summary": "Merrick tells of Project Sign 1948 report on common shapes, about 1948 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 5920.0,
+      "to_s": 5937.0,
+      "teller": "merrick",
+      "quote": "I think it's project sign one of their first reports. I think it was late 48 but it said the the most commonly reported shapes or morphologies are silver discs and spheres and balls of fire.",
+      "kind": "researcher",
+      "cites": [
+        "john-greenewald"
+      ],
+      "documents": [
+        "project-sign-report-late-1948"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

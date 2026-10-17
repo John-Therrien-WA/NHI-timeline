@@ -1,0 +1,57 @@
+{
+  "id": "bezos-s-grandfather-lawrence-gise-ran-the-aec-s-western-divi-1960",
+  "title": "Bezos's grandfather Lawrence Gise ran the AEC's Western Division",
+  "summary": "Matthew Pines tells of Bezos's grandfather Lawrence Gise ran the AEC's Western Division, about 1960s at Atomic Energy Commission, Western Division, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Atomic Energy Commission, Western Division",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 9749.0,
+      "to_s": 9754.0,
+      "teller": "matthew-pines",
+      "quote": "He was the director of the Western Division. Uh Harold Mgrren told me that story.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "lawrence-gise",
+        "jeff-bezos"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

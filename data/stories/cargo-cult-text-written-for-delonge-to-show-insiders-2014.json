@@ -1,0 +1,57 @@
+{
+  "id": "cargo-cult-text-written-for-delonge-to-show-insiders-2014",
+  "title": "Cargo cult text written for DeLonge to show insiders",
+  "summary": "Peter Levenda tells of Cargo cult text written for DeLonge to show insiders, about 2014-2015 at unspecified, and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2014,
+    "to": 2015
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 5883.0,
+      "to_s": 5895.0,
+      "teller": "peter-levenda",
+      "quote": "Tom asked me to write something that he could show people, >> okay, >> about what we were up to, what we were trying to do. And that became the very first opening pages of Secret Machines Gods.",
+      "kind": "firsthand",
+      "cites": [
+        "tom-delonge"
+      ],
+      "documents": [
+        "sekret-machines-gods"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

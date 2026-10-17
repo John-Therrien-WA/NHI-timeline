@@ -1,0 +1,135 @@
+{
+  "id": "overseas-prospecting-for-psionic-assets",
+  "title": "Overseas prospecting for psionic assets",
+  "summary": "Jake Barber tells of Overseas prospecting for psionic assets, about unspecified at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "outside the continental United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 4988.0,
+      "to_s": 5003.0,
+      "teller": "jake-barber",
+      "quote": "we also know that uh that there are operations okonis outside the continental United States where prospecting for psionic assets takes place and they're highly coveted.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 6108.0,
+      "to_s": 6114.0,
+      "teller": "steven-greer",
+      "quote": "And those were being created up and moved back to some covert places where they'd be screened, tested.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Greer, who calls it trafficking, places it in Indonesia and says the assets are screened and tested at covert sites.",
+      "link_reason": "Both describe a program that finds psionic assets outside the US and moves them to covert sites; Greer adds that they are screened and tested there.",
+      "as_told": {
+        "title": "Psionic assets trafficked for covert training programs",
+        "years": null,
+        "place_text": "Indonesia / covert US sites",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 1294.0,
+      "to_s": 1308.0,
+      "teller": "jesse-michels",
+      "quote": "We also know that uh that there are operations okonis outside the continental United States where prospecting for psionic assets takes place and they're highly coveted.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Here Jesse Michels speaks the line as host, where the story credits it to Jake Barber.",
+      "link_reason": "The wording is identical to the overseas-prospecting story's telling about operations outside the continental US prospecting for psionic assets.",
+      "as_told": {
+        "title": "Prospecting for psionic assets outside the US",
+        "years": null,
+        "place_text": "outside the continental United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 2527.0,
+      "to_s": 2537.0,
+      "teller": "jake-barber",
+      "quote": "There are operations [music] Oconus outside the continental United States where prospecting for [music] psionic assets takes place and they're highly coveted.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "",
+      "link_reason": "This is the same Barber claim, in nearly the same words, about operations outside the continental US that prospect for psionic assets.",
+      "as_told": {
+        "title": "Prospecting for psionic assets outside the US",
+        "years": {
+          "from": 2000,
+          "to": 2029
+        },
+        "place_text": "outside the continental United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 4129.0,
+      "to_s": 4137.0,
+      "teller": "jesse-michels",
+      "quote": "he's like talking about psionic assets getting rounded up in sometimes some not so ethical ways, right?",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Puts it in disaster zones and stresses that the rounding up was sometimes unethical, where the story speaks only of prospecting.",
+      "link_reason": "Both tell of psionic assets being gathered overseas and moved, in Barber's account of covert operations outside the US.",
+      "as_told": {
+        "title": "Psionic assets rounded up for black aerospace programs",
+        "years": {
+          "from": 2024,
+          "to": 2025
+        },
+        "place_text": "Disaster zones worldwide",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jake-barber",
+      "steven-greer"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "EzPmG_7WhXc",
+      "OOr98r51Sj0",
+      "areO7Mej44E",
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several"
+}

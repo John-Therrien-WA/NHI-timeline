@@ -1,0 +1,129 @@
+{
+  "id": "1945-trinity-crash-as-the-source-of-a-larger-piece",
+  "title": "1945 Trinity crash as the source of a larger piece",
+  "summary": "Jesse Michels tells of 1945 Trinity crash as the source of a larger piece, about 1945 at Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": "mexico",
+  "place_text": "Trinity site, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dzTZbSNsKV8",
+      "from_s": 1504.0,
+      "to_s": 1514.0,
+      "teller": "jesse-michels",
+      "quote": "Trinity, that crash was 1945 uh where the sort of larger piece came from.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 315.0,
+      "to_s": 325.0,
+      "teller": "jacques-vallee",
+      "quote": "through that opening of one panel that's missing they see three creatures they were human-like they had two eyes",
+      "kind": "secondhand",
+      "cites": [
+        "paola-harris",
+        "remy-baca",
+        "jose-padilla"
+      ],
+      "documents": [
+        "trinity-the-best-kept-secret"
+      ],
+      "difference": "Vallee tells it secondhand, crediting Paola Harris, Remy Baca, Jose Padilla and the book Trinity: The Best-Kept Secret, and places it at San Antonio, NM. He adds that three human-like two-eyed creatures were seen through a missing panel, where the story's host telling speaks only of a larger piece coming from the crash.",
+      "link_reason": "Both tellings describe the same 1945 Trinity crash-retrieval in New Mexico. The story is told at the same grain: one crash event, not a program or a group of crashes.",
+      "as_told": {
+        "title": "Trinity crash of 1945 at San Antonio, New Mexico",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "San Antonio, New Mexico, USA",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 10786.0,
+      "to_s": 10793.0,
+      "teller": "marik-von-rennenkampf",
+      "quote": "you have, you know, the Trinity test site possibly. There was a crash there. Unclear.",
+      "kind": "secondhand",
+      "cites": [
+        "dd-johnson",
+        "jacques-vallee"
+      ],
+      "documents": [],
+      "difference": "Told tentatively ('possibly', 'unclear'), credited to DD Johnson and Vallee, with no detail on debris or creatures.",
+      "link_reason": "Both describe a 1945 crash at the Trinity test site in New Mexico.",
+      "as_told": {
+        "title": "Possible crash at the Trinity test site",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "Trinity site, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 13275.0,
+      "to_s": 13287.0,
+      "teller": "jesse-michels",
+      "quote": "You had Trinity in 48. You have these sort of sequential uh uh nuclear related UFO crashes.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates it to 1948, not 1945, and counts it among a run of crashes tied to nuclear sites.",
+      "link_reason": "Both are the claimed UFO crash at the Trinity site in New Mexico.",
+      "as_told": {
+        "title": "Trinity crash and nuclear-related UFO crashes",
+        "years": {
+          "from": 1948,
+          "to": 1948
+        },
+        "place_text": "Trinity site, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jacques-vallee",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "dzTZbSNsKV8",
+      "fyX8V1XXmQM",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

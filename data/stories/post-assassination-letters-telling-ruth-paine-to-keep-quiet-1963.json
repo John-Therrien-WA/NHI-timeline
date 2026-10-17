@@ -1,0 +1,65 @@
+{
+  "id": "post-assassination-letters-telling-ruth-paine-to-keep-quiet-1963",
+  "title": "Post-assassination letters telling Ruth Paine to keep quiet about Oswald",
+  "summary": "Peter Levenda tells of Post-assassination letters telling Ruth Paine to keep quiet about Oswald, about 1963-1964 at Texas (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1964
+  },
+  "place": "texas",
+  "place_text": "Pennsylvania; Texas",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 1195.0,
+      "to_s": 1201.0,
+      "teller": "peter-levenda",
+      "quote": ">> And Arthur Young's wife is telling Ruth, her daughter-in-law, ix nay on the Oswald gay, right?",
+      "kind": "researcher",
+      "cites": [
+        "ruth-forbes-paine-young",
+        "ruth-paine",
+        "arthur-young"
+      ],
+      "documents": [
+        "correspondence-between-ruth-forbes-paine-young-and-ruth-pain"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "ruth-paine-and-marina-find-the-walker-note-after-the-fbi-sea-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,128 @@
+{
+  "id": "an-nsc-staffer-told-andreessen-and-horowitz-that-areas-of-ph",
+  "title": "An NSC staffer told Andreessen and Horowitz that areas of physics were classified",
+  "summary": "Jesse Michels tells of An NSC staffer told Andreessen and Horowitz that areas of physics were classified, about nuclear era at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4469.0,
+      "to_s": 4479.0,
+      "teller": "jesse-michels",
+      "quote": "finally this corroborates Mark Andre and Ben Horwitz saying that a National Security Council staffer told them that elements of physics were classified",
+      "kind": "secondhand",
+      "cites": [
+        "marc-andreessen",
+        "ben-horowitz"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 13626.0,
+      "to_s": 13643.0,
+      "teller": "matthew-pines",
+      "quote": "and we have recent evidence like again hearsay but Andre Horowitz and Ben Horitz had this meeting and they reported back with the National Security Council senior staff and an individual on that National Security Council said we have classified entire areas of fundamental physics before don't think we can do the same for AI.",
+      "kind": "secondhand",
+      "cites": [
+        "marc-andreessen",
+        "ben-horowitz"
+      ],
+      "documents": [],
+      "difference": "Pines tells it as hearsay. He adds that the staffer said entire areas of fundamental physics had been classified and that they couldn't do the same for AI, and he places the meeting with senior NSC staff.",
+      "link_reason": "This is the same account: a National Security Council staffer told Andreessen and Horowitz that areas of physics had been classified.",
+      "as_told": {
+        "title": "NSC official tells Andreessen and Horowitz that whole areas of physics were classified",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "Washington DC",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 10081.0,
+      "to_s": 10090.0,
+      "teller": "pippa-malmgren",
+      "quote": "many technologies, particularly in the nuclear space, were placed on the other side.",
+      "kind": "secondhand",
+      "cites": [
+        "eric-weinstein",
+        "marc-andreessen",
+        "ben-horowitz"
+      ],
+      "documents": [],
+      "difference": "Told by Pippa Malmgren, who also credits Weinstein and stresses technologies from the nuclear era.",
+      "link_reason": "Both rest on the claim, credited to Andreessen and Horowitz, that areas of physics, especially nuclear physics, were classified and put out of reach.",
+      "as_told": {
+        "title": "Nuclear-era physics classified behind a wall",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 4394.0,
+      "to_s": 4402.0,
+      "teller": "eric-weinstein",
+      "quote": "And they're sat down and told, \"Do not invest in AI startups. AI startups are not going to be allowed to be a thing.",
+      "kind": "secondhand",
+      "cites": [
+        "marc-andreessen",
+        "ben-horowitz"
+      ],
+      "documents": [],
+      "difference": "Adds that they were told not to invest in AI startups and that math could be classified; it does not name the NSC.",
+      "link_reason": "Both tell of Andreessen and Horowitz being told by federal officials that the government had classified areas of science before and would control AI.",
+      "as_told": {
+        "title": "Andreessen and Horowitz told the government would control AI and could classify math",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "unspecified meeting with federal officials",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 3,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-weinstein",
+      "jesse-michels",
+      "matthew-pines"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "1f16VvXaSSE",
+      "LpLFWdsIU7M",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "told-by-several"
+}

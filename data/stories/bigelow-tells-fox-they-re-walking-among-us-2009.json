@@ -1,0 +1,57 @@
+{
+  "id": "bigelow-tells-fox-they-re-walking-among-us-2009",
+  "title": "Bigelow tells Fox 'they're walking among us'",
+  "summary": "James Fox tells of Bigelow tells Fox 'they're walking among us', about 2009 at Las Vegas, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2009,
+    "to": 2009
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 7003.0,
+      "to_s": 7010.0,
+      "teller": "james-fox",
+      "quote": "And then he goes he goes, \"Uh, yeah, and they're walking among us.\"",
+      "kind": "secondhand",
+      "cites": [
+        "bigalow"
+      ],
+      "documents": [
+        "i-know-what-i-saw"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "grusch-on-sentient-plasmoid-life-2020",
+  "title": "Grusch on sentient plasmoid life",
+  "summary": "Jesse Michels tells of Grusch on sentient plasmoid life, about 2020s at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2029
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC press conference",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 3402.0,
+      "to_s": 3406.0,
+      "teller": "jesse-michels",
+      "quote": "of thing. And he gets into this idea of sensient plasmoid life.",
+      "kind": "host",
+      "cites": [
+        "david-grush"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "military-officer-briefs-gaetz-on-hybrid-breeding-programs-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

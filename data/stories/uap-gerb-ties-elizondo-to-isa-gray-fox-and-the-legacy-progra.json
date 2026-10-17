@@ -1,0 +1,53 @@
+{
+  "id": "uap-gerb-ties-elizondo-to-isa-gray-fox-and-the-legacy-progra",
+  "title": "UAP Gerb ties Elizondo to ISA/Gray Fox and the legacy program",
+  "summary": "Jesse Michels tells of UAP Gerb ties Elizondo to ISA/Gray Fox and the legacy program, about unspecified at Joint Special Operations Command, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Joint Special Operations Command",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 5044.0,
+      "to_s": 5061.0,
+      "teller": "jesse-michels",
+      "quote": "He kind of notes that um you know intelligence support activity uh and gray fox which do recon in super sensitive situations in areas before JOCK does but it's part of joint special operations command you know that Lou was a part of that",
+      "kind": "researcher",
+      "cites": [
+        "uap-gerb",
+        "luis-elizondo"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

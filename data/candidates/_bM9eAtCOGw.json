@@ -1,0 +1,915 @@
+{
+  "episode": "_bM9eAtCOGw",
+  "captions": "sources/captions/_bM9eAtCOGw.en.txt",
+  "model": "opus",
+  "chunks": 1,
+  "candidates": [
+    {
+      "title": "Pentagon releases UAP report",
+      "story_kind": "document",
+      "years_text": "2021",
+      "years": {
+        "from": 2021,
+        "to": 2021
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "On June 25th, 2021, the Pentagon released a report acknowledging the existence of objects in our sky that we cannot explain.",
+      "from_s": 11.0,
+      "to_s": 20.0,
+      "cites": [],
+      "documents": [
+        "June 25th Pentagon report"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "nine-page-pentagon-uap-report-2021",
+        "grain": "same",
+        "reason": "Both are about the June 2021 Pentagon UAP report, the same document at the same grain.",
+        "difference": "Gives the release date of June 25th, 2021 and frames the report as admitting there are objects nobody can explain, where Weinstein speaks of its nine dull pages and what they suggest.",
+        "against": [
+          "nine-page-pentagon-uap-report-2021",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "nanosims-analysis-finds-anomalous-magnesium-isotope-ratios-i-2010",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010"
+        ]
+      }
+    },
+    {
+      "title": "Fravor's Tic Tac encounter",
+      "story_kind": "encounter",
+      "years_text": "2004",
+      "years": {
+        "from": 2004,
+        "to": 2004
+      },
+      "place_text": "off the coast of San Diego",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Pilots like Commander David Fravor, who saw the famous Tic Tac in 2004 off the coast of San Diego.",
+      "from_s": 73.0,
+      "to_s": 79.0,
+      "cites": [
+        "David Fravor"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+        "grain": "same",
+        "reason": "Both describe David Fravor's 2004 encounter with a UFO off San Diego during the Nimitz events. This telling calls it the Tic Tac.",
+        "difference": "This telling names the object as the 'Tic Tac' and places it off San Diego, but it does not say the object seemed conscious or seemed to notice Fravor looking at it.",
+        "against": [
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "bismuth-magnesium-layers-could-shrink-terahertz-waveguides",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940"
+        ]
+      }
+    },
+    {
+      "title": "Air Force Project Blue Book",
+      "story_kind": "program",
+      "years_text": "1947-1968",
+      "years": {
+        "from": 1947,
+        "to": 1968
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "The Air Force even established its own UFO investigation program called Operation Blue Book.",
+      "from_s": 292.0,
+      "to_s": 301.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the Air Force's Project Blue Book (1947-1968). None of the stories covers it. The nearest is AATIP, which is a different program run by a different agency in a different period.",
+        "difference": "",
+        "against": [
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957"
+        ],
+        "id": "air-force-project-blue-book-1947"
+      }
+    },
+    {
+      "title": "Trinity and Roswell crashes",
+      "story_kind": "crash-retrieval",
+      "years_text": "1940s",
+      "years": {
+        "from": 1940,
+        "to": 1949
+      },
+      "place_text": "Trinity and Roswell, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Known crashes like those at Trinity and Roswell",
+      "from_s": 299.0,
+      "to_s": 304.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling mentions the Trinity and Roswell crashes together as examples of known crashes. The nearest story is the 1945 Trinity crash told as the source of a larger piece, which covers only one of those crashes and makes a specific claim about the material. The telling is a wider passing reference that covers two crashes, so it is not the same story.",
+        "difference": "",
+        "against": [
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "air-force-project-blue-book-1947",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007"
+        ],
+        "id": "trinity-and-roswell-crashes-1940"
+      }
+    },
+    {
+      "title": "Kenneth Arnold sighting",
+      "story_kind": "sighting",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "sightings like that of Kenneth Arnold",
+      "from_s": 301.0,
+      "to_s": 306.0,
+      "cites": [
+        "Kenneth Arnold"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is Kenneth Arnold's 1947 sighting in the United States. None of the stories is about Arnold. The closest ones, Project Blue Book and Roswell, are a program and a crash, not this sighting.",
+        "difference": "",
+        "against": [
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "air-force-project-blue-book-1947",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "trinity-and-roswell-crashes-1940",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo"
+        ],
+        "id": "kenneth-arnold-sighting-1947"
+      }
+    },
+    {
+      "title": "1952 Washington, D.C. sightings",
+      "story_kind": "sighting",
+      "years_text": "1952",
+      "years": {
+        "from": 1952,
+        "to": 1952
+      },
+      "place_text": "Washington, D.C.",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "There were an overwhelming series of sightings in Washington, D.C. in July of 1952.",
+      "from_s": 311.0,
+      "to_s": 317.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "None of the stories covers the July 1952 Washington, D.C. sightings. The closest ones (Kenneth Arnold 1947, Project Blue Book) are a different sighting and a broader program.",
+        "difference": "",
+        "against": [
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "kenneth-arnold-sighting-1947",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "air-force-project-blue-book-1947",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "nine-page-pentagon-uap-report-2021",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece"
+        ],
+        "id": "1952-washington-d-c-sightings"
+      }
+    },
+    {
+      "title": "CIA memo calls UFOs a national security matter",
+      "story_kind": "document",
+      "years_text": "1952",
+      "years": {
+        "from": 1952,
+        "to": 1952
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "This prompted a very concerned CIA to write a memo saying that the UFO phenomena was a matter of national security and could touch off mass hysteria and panic.",
+      "from_s": 321.0,
+      "to_s": 332.0,
+      "cites": [
+        "CIA"
+      ],
+      "documents": [
+        "CIA memo"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about a 1952 CIA memo that called UFOs a national security matter. The closest story is the July 1952 Washington, D.C. sightings, which seem to have prompted the memo, but those sightings are a separate event and the memo is a separate document. None of the other stories, such as Blue Book or AATIP, is about this memo.",
+        "difference": "",
+        "against": [
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "air-force-project-blue-book-1947",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "1952-washington-d-c-sightings",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h"
+        ],
+        "id": "cia-memo-calls-ufos-a-national-security-matter-1952"
+      }
+    },
+    {
+      "title": "Robertson panel recommends downplaying UFOs",
+      "story_kind": "program",
+      "years_text": "1953",
+      "years": {
+        "from": 1953,
+        "to": 1953
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "A commission of academics was then formed by Caltech physicist Dr. H.P. Robertson. It suggested that the government should systematically downplay the phenomena through media, movies, and other means.",
+      "from_s": 330.0,
+      "to_s": 343.0,
+      "cites": [
+        "H.P. Robertson"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The Robertson panel's 1953 recommendation to play down UFOs is its own event. The nearest story, the 1952 CIA memo calling UFOs a national security matter, is the document that led up to the panel, not the panel or its recommendations.",
+        "difference": "",
+        "against": [
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "air-force-project-blue-book-1947",
+          "1952-washington-d-c-sightings",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h"
+        ],
+        "id": "robertson-panel-recommends-downplaying-ufos-1953"
+      }
+    },
+    {
+      "title": "Condon report closes Blue Book",
+      "story_kind": "document",
+      "years_text": "1968",
+      "years": {
+        "from": 1968,
+        "to": 1968
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "The 1968 Condon report closed shop on Bluebook and dismissed a lot of its findings with very prosaic explanations.",
+      "from_s": 352.0,
+      "to_s": 360.0,
+      "cites": [],
+      "documents": [
+        "Condon report"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is the Air Force's Project Blue Book program as a whole. This telling is about one specific document, the 1968 Condon report, and its role in shutting that program down. That is a distinct event at a narrower grain, not the program itself.",
+        "difference": "",
+        "against": [
+          "air-force-project-blue-book-1947",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "nine-page-pentagon-uap-report-2021",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "1952-washington-d-c-sightings",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007"
+        ],
+        "id": "condon-report-closes-blue-book-1968"
+      }
+    },
+    {
+      "title": "AATIP revealed by Leslie Kean",
+      "story_kind": "program",
+      "years_text": "2007-2017",
+      "years": {
+        "from": 2007,
+        "to": 2017
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "That was until 2017 when a New York Times journalist named Leslie Kean revealed that the government had a UFO investigation program called AATIP that had formed in 2007 and was being run under the auspices of Bigelow Aerospace.",
+      "from_s": 360.0,
+      "to_s": 377.0,
+      "cites": [
+        "Leslie Kean",
+        "Bigelow Aerospace"
+      ],
+      "documents": [
+        "New York Times"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+        "grain": "same",
+        "reason": "Both tellings are about AATIP, the US government UFO program formed in 2007. This one describes the program by way of its 2017 New York Times disclosure rather than a separate incident inside it.",
+        "difference": "Adds that Leslie Kean revealed the program in the New York Times in 2017 and that it ran under Bigelow Aerospace, and gives no $22 million budget.",
+        "against": [
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "air-force-project-blue-book-1947",
+          "robertson-panel-recommends-downplaying-ufos-1953",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo"
+        ]
+      }
+    },
+    {
+      "title": "Pan-STARRS discovers 'Oumuamua",
+      "story_kind": "sighting",
+      "years_text": "2017",
+      "years": {
+        "from": 2017,
+        "to": 2017
+      },
+      "place_text": "Pan-STARRS telescope, Hawaii; interstellar space",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "In 2017, the Pan-STARRS telescope in Hawaii discovered a fast-traveling object in space called Oumuamua.",
+      "from_s": 413.0,
+      "to_s": 420.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Pan-STARRS discovering 'Oumuamua in 2017. No story in the corpus covers that object or that discovery. The nearest stories are other sightings (Nimitz, Kenneth Arnold, Washington 1952), and they are different events.",
+        "difference": "",
+        "against": [
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "air-force-project-blue-book-1947",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "1952-washington-d-c-sightings",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "kenneth-arnold-sighting-1947"
+        ],
+        "id": "pan-starrs-discovers-oumuamua-2017"
+      }
+    },
+    {
+      "title": "Loeb's artificial light-sail theory of 'Oumuamua",
+      "story_kind": "theory",
+      "years_text": "2017-2021",
+      "years": {
+        "from": 2017,
+        "to": 2021
+      },
+      "place_text": "interstellar space",
+      "teller": "Avi Loeb",
+      "kind": "researcher",
+      "quote": "All of the proposals that were put on the table to explain the anomalies of Oumuamua invoked a rock of a type that we've never seen before.",
+      "from_s": 443.0,
+      "to_s": 454.0,
+      "cites": [],
+      "documents": [
+        "Extraterrestrial"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The nearest story covers Pan-STARRS discovering 'Oumuamua in 2017. That is the sighting event. The telling is Loeb's later theory that the object is an artificial light sail, which is a separate story about how to interpret it.",
+        "difference": "",
+        "against": [
+          "nine-page-pentagon-uap-report-2021",
+          "pan-starrs-discovers-oumuamua-2017",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "nanosims-analysis-finds-anomalous-magnesium-isotope-ratios-i-2010"
+        ],
+        "id": "loeb-s-artificial-light-sail-theory-of-oumuamua-2017"
+      }
+    },
+    {
+      "title": "2020 Pan-STARRS object turns out to be a 1966 NASA booster",
+      "story_kind": "sighting",
+      "years_text": "2020 (1966 mission)",
+      "years": {
+        "from": 1966,
+        "to": 2020
+      },
+      "place_text": "space",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "In September of 2020, Pan-STARRS found another object that was similarly baffling.",
+      "from_s": 534.0,
+      "to_s": 543.0,
+      "cites": [
+        "NASA"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about a different Pan-STARRS object: one found in 2020 that turned out to be a 1966 NASA rocket booster. The nearest story is 'Oumuamua, discovered in 2017, which is a separate object and discovery.",
+        "difference": "",
+        "against": [
+          "pan-starrs-discovers-oumuamua-2017",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "air-force-project-blue-book-1947",
+          "condon-report-closes-blue-book-1968"
+        ],
+        "id": "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster"
+      }
+    },
+    {
+      "title": "Galileo Project instruments on Harvard College Observatory",
+      "story_kind": "program",
+      "years_text": "2021-2022",
+      "years": {
+        "from": 2021,
+        "to": 2022
+      },
+      "place_text": "Harvard College Observatory, Massachusetts",
+      "teller": "Avi Loeb",
+      "kind": "firsthand",
+      "quote": "I received thousands of emails from people that are excited to contribute to the project. By now, we have more than a hundred scientists engaged in the Galileo Project. We are purchasing the instrumentation that we will place on the roof of the Harvard College Observatory in the coming months.",
+      "from_s": 728.0,
+      "to_s": 744.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Avi Loeb's Galileo Project putting instruments on the Harvard College Observatory roof. No story here covers the Galileo Project. The nearest one, John Mack's 1990s Harvard abduction study, is a different program from a different decade that just happens to be at the same university.",
+        "difference": "",
+        "against": [
+          "nine-page-pentagon-uap-report-2021",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "air-force-project-blue-book-1947",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010"
+        ],
+        "id": "galileo-project-instruments-on-harvard-college-observatory-2021"
+      }
+    },
+    {
+      "title": "Fermi's 'Where is everybody?' lunch",
+      "story_kind": "theory",
+      "years_text": "c. 1950",
+      "years": {
+        "from": 1950,
+        "to": 1950
+      },
+      "place_text": "unspecified",
+      "teller": "Avi Loeb",
+      "kind": "secondhand",
+      "quote": "You know, 70 years ago, Enrico Fermi went to lunch with his colleagues, and they talked on the question of how likely it is that there are extraterrestrials out there.",
+      "from_s": 774.0,
+      "to_s": 787.0,
+      "cites": [
+        "Enrico Fermi"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+        "grain": "same",
+        "reason": "Both credit Enrico Fermi with musing about extraterrestrials around 1950, at the Los Alamos lunch that gave rise to the Fermi paradox. Michels's telling, about Fermi thinking about aliens in his off time at Los Alamos, points to the same episode.",
+        "difference": "Loeb sets it at a specific lunch with colleagues about 70 years ago and gives the question discussed (how likely extraterrestrials are), but names no place, where the story places it at Los Alamos without mentioning a lunch.",
+        "against": [
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "nine-page-pentagon-uap-report-2021",
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "1952-washington-d-c-sightings",
+          "air-force-project-blue-book-1947",
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "trinity-and-roswell-crashes-1940"
+        ]
+      }
+    },
+    {
+      "title": "John Mack's abductee interviews at Harvard",
+      "story_kind": "testimony",
+      "years_text": "1990s",
+      "years": {
+        "from": 1990,
+        "to": 1999
+      },
+      "place_text": "Harvard",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "You have a predecessor at Harvard, a guy named John Mack, who was head of the the psychiatry department, who looked into kind of alien abduction stuff on a more of an anecdotal, kind of personal level.",
+      "from_s": 820.0,
+      "to_s": 831.0,
+      "cites": [
+        "John Mack"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "Both tellings are about John Mack, head of Harvard psychiatry, studying alien abductions in the 1990s. That is the same research program at the same grain.",
+        "difference": "",
+        "downgraded": {
+          "from": "same",
+          "story": "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "why": "a testimony telling and the program story john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990: a program and a story of another kind are different grains"
+        },
+        "against": [
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "galileo-project-instruments-on-harvard-college-observatory-2021",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece"
+        ],
+        "id": "john-mack-s-abductee-interviews-at-harvard-1990"
+      }
+    },
+    {
+      "title": "Nolan's brain findings in pilots who see UFOs",
+      "story_kind": "theory",
+      "years_text": "2010s-2020s",
+      "years": {
+        "from": 2010,
+        "to": 2029
+      },
+      "place_text": "Stanford",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "But if we find out that a disproportionate amount of fighter pilots who see UFOs have an enlarged caudate nucleus and putamen.",
+      "from_s": 891.0,
+      "to_s": 899.0,
+      "cites": [
+        "Gary Nolan"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+        "grain": "same",
+        "reason": "Both tell of Garry Nolan's Stanford brain-imaging finding that people who had UFO encounters show an enlarged caudate nucleus and putamen. The host is retelling Nolan's finding, and Nolan tells it first-hand in the story.",
+        "difference": "The host tells it second-hand and as a hypothetical about fighter pilots who see UFOs being disproportionately affected, where Nolan describes MRIs of DoD and intelligence personnel he was shown.",
+        "against": [
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "nanosims-analysis-finds-anomalous-magnesium-isotope-ratios-i-2010",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "condon-report-closes-blue-book-1968",
+          "cia-memo-calls-ufos-a-national-security-matter-1952"
+        ]
+      }
+    },
+    {
+      "title": "Metaverse as answer to the Fermi paradox",
+      "story_kind": "theory",
+      "years_text": "2021",
+      "years": {
+        "from": 2021,
+        "to": 2021
+      },
+      "place_text": "unspecified",
+      "teller": "Avi Loeb",
+      "kind": "researcher",
+      "quote": "So, as soon as I heard about the metaverse being announced, Yes. I realized that it may be a solution to Enrico Fermi's paradox.",
+      "from_s": 997.0,
+      "to_s": 1005.0,
+      "cites": [
+        "Enrico Fermi"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "Loeb's theory says the metaverse could explain the Fermi paradox. The nearest stories are Fermi thinking about aliens at Los Alamos in the 1940s and Weinstein's North Sentinel Island analogy, and both are different claims.",
+        "difference": "",
+        "against": [
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "north-sentinel-island-analogy-for-hidden-non-human-observers",
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "galileo-project-instruments-on-harvard-college-observatory-2021",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021"
+        ],
+        "id": "metaverse-as-answer-to-the-fermi-paradox-2021"
+      }
+    },
+    {
+      "title": "Founding myths of star people teaching agriculture",
+      "story_kind": "cosmology",
+      "years_text": "c. 10,000 years ago",
+      "years": null,
+      "place_text": "worldwide",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "And just about every founding myth talks about people from the stars, you know, teaching us agriculture.",
+      "from_s": 1133.0,
+      "to_s": 1142.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling is a general cosmological claim that founding myths around the world describe star people teaching agriculture. None of the stories covers ancient myths or agriculture. They are all modern events, programs, documents or sightings.",
+        "difference": "",
+        "against": [
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "galileo-project-instruments-on-harvard-college-observatory-2021",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "nine-page-pentagon-uap-report-2021",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "1952-washington-d-c-sightings",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster"
+        ],
+        "id": "founding-myths-of-star-people-teaching-agriculture"
+      }
+    },
+    {
+      "title": "Cargo cults building landing tracks",
+      "story_kind": "place-lore",
+      "years_text": "20th century",
+      "years": null,
+      "place_text": "French Polynesia",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "You have cargo cults in French Polynesia building landing tracks for presumably some alien craft to return that's rooted in their mythology.",
+      "from_s": 1149.0,
+      "to_s": 1159.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about cargo cults in French Polynesia that build landing strips for craft they expect to come back. None of the stories covers cargo cults or anything in the Pacific. The nearest ones are New Mexico and Laurel Canyon place-lore and theories, which are unrelated.",
+        "difference": "",
+        "against": [
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "1952-washington-d-c-sightings",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster"
+        ],
+        "id": "cargo-cults-building-landing-tracks"
+      }
+    },
+    {
+      "title": "Sumerian astronomical knowledge",
+      "story_kind": "place-lore",
+      "years_text": "ancient",
+      "years": null,
+      "place_text": "Sumer",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "You have Sumerian um architecture that shows a precocious knowledge of astronomy.",
+      "from_s": 1161.0,
+      "to_s": 1169.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about ancient Sumerian architecture showing early astronomical knowledge. The nearest story is the French Polynesian cargo cults, another piece of place-lore from the same host, but it's a different culture and a different claim.",
+        "difference": "",
+        "against": [
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "cargo-cults-building-landing-tracks",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "1952-washington-d-c-sightings",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "air-force-project-blue-book-1947"
+        ],
+        "id": "sumerian-astronomical-knowledge"
+      }
+    },
+    {
+      "title": "Looking for city lights on Proxima b",
+      "story_kind": "theory",
+      "years_text": "2021",
+      "years": {
+        "from": 2021,
+        "to": 2021
+      },
+      "place_text": "Proxima b, Proxima Centauri",
+      "teller": "Avi Loeb",
+      "kind": "researcher",
+      "quote": "So, a few months ago I wrote a paper with the an undergraduate student from Stanford uh basically saying that the James Webb Space Telescope could look for city lights on the night side of Proxima b,",
+      "from_s": 1245.0,
+      "to_s": 1259.0,
+      "cites": [],
+      "documents": [
+        "paper with Stanford undergraduate on Proxima b city lights"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is Loeb's 2021 proposal that JWST could look for city lights on Proxima b's night side. None of the stories covers this. The nearest ones, his 'Oumuamua light-sail theory and his metaverse answer to the Fermi paradox, are different theories about different subjects.",
+        "difference": "",
+        "against": [
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "pan-starrs-discovers-oumuamua-2017",
+          "galileo-project-instruments-on-harvard-college-observatory-2021",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "metaverse-as-answer-to-the-fermi-paradox-2021",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010"
+        ],
+        "id": "looking-for-city-lights-on-proxima-b-2021"
+      }
+    },
+    {
+      "title": "Clyde Tombaugh's ashes on New Horizons",
+      "story_kind": "theory",
+      "years_text": "2006",
+      "years": {
+        "from": 2006,
+        "to": 2006
+      },
+      "place_text": "New Horizons spacecraft, Pluto",
+      "teller": "Avi Loeb",
+      "kind": "researcher",
+      "quote": "But, in fact, the most embarrassing thing was New Horizons, which was sent to explore Pluto. Mhm. And uh NASA decided to put uh 30 g of ashes of the person who discovered Pluto, Clyde Tombaugh, the scientist.",
+      "from_s": 1333.0,
+      "to_s": 1348.0,
+      "cites": [
+        "NASA",
+        "Clyde Tombaugh"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about NASA putting Clyde Tombaugh's ashes on the New Horizons probe to Pluto. None of the stories covers New Horizons or Tombaugh. The closest ones, Loeb's theories about 'Oumuamua, Proxima b and the metaverse, are about different subjects.",
+        "difference": "",
+        "against": [
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "galileo-project-instruments-on-harvard-college-observatory-2021",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "pan-starrs-discovers-oumuamua-2017",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "looking-for-city-lights-on-proxima-b-2021",
+          "metaverse-as-answer-to-the-fermi-paradox-2021"
+        ],
+        "id": "clyde-tombaugh-s-ashes-on-new-horizons-2006"
+      }
+    },
+    {
+      "title": "Eric Weinstein joins Galileo Project, geometric unity UAP physics",
+      "story_kind": "theory",
+      "years_text": "2021-2022",
+      "years": {
+        "from": 2021,
+        "to": 2022
+      },
+      "place_text": "Galileo Project",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "My colleague Eric Weinstein recently joined the Galileo project. We sometimes speculate about the physics of UAPs.",
+      "from_s": 1384.0,
+      "to_s": 1390.0,
+      "cites": [
+        "Eric Weinstein"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about Eric Weinstein joining the Galileo Project and speculating about how UAPs work physically. The nearest story covers the Galileo Project's instruments at Harvard, which is the program as a whole and not one person joining it or a physics theory.",
+        "difference": "",
+        "against": [
+          "nine-page-pentagon-uap-report-2021",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "north-sentinel-island-analogy-for-hidden-non-human-observers",
+          "galileo-project-instruments-on-harvard-college-observatory-2021",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "air-force-project-blue-book-1947",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007"
+        ],
+        "id": "eric-weinstein-joins-galileo-project-geometric-unity-uap-phy-2021"
+      }
+    },
+    {
+      "title": "Einstein's cosmological constant and cosmic antigravity",
+      "story_kind": "theory",
+      "years_text": "1917-present",
+      "years": {
+        "from": 1917,
+        "to": 1917
+      },
+      "place_text": "universe",
+      "teller": "Avi Loeb",
+      "kind": "researcher",
+      "quote": "Einstein liked the idea that the universe never expanded because then you don't have to imagine what was there before the beginning.",
+      "from_s": 1455.0,
+      "to_s": 1464.0,
+      "cites": [
+        "Albert Einstein"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This telling is about Einstein's cosmological constant and cosmic antigravity. None of the stories deals with Einstein or cosmology. The nearest are Loeb's other theory stories, such as 'Oumuamua and the Fermi paradox, and they are about different subjects.",
+        "difference": "",
+        "against": [
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "nine-page-pentagon-uap-report-2021",
+          "clyde-tombaugh-s-ashes-on-new-horizons-2006",
+          "looking-for-city-lights-on-proxima-b-2021",
+          "metaverse-as-answer-to-the-fermi-paradox-2021",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "eric-weinstein-joins-galileo-project-geometric-unity-uap-phy-2021",
+          "galileo-project-instruments-on-harvard-college-observatory-2021"
+        ],
+        "id": "einstein-s-cosmological-constant-and-cosmic-antigravity-1917"
+      }
+    }
+  ],
+  "dropped": []
+}

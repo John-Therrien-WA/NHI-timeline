@@ -1,0 +1,50 @@
+{
+  "id": "crashed-craft-found-with-nothing-inside",
+  "title": "Crashed craft found with nothing inside",
+  "summary": "Jesse Michels tells of Crashed craft found with nothing inside, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 9883.0,
+      "to_s": 9890.0,
+      "teller": "jesse-michels",
+      "quote": "And in fact a lot of people say when the crafts crash there's nothing inside the craft.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

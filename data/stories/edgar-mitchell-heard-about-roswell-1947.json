@@ -1,0 +1,112 @@
+{
+  "id": "edgar-mitchell-heard-about-roswell-1947",
+  "title": "Edgar Mitchell heard about Roswell",
+  "summary": "Jesse Michels tells of Edgar Mitchell heard about Roswell, about 1947 onward at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 5301.0,
+      "to_s": 5308.0,
+      "teller": "jesse-michels",
+      "quote": "and he succeeded, and being an\nApollo astronaut, he heard all sorts of things\nabout Roswell from people at all\nlevels.",
+      "kind": "host",
+      "cites": [
+        "edgar-mitchell",
+        "warner-von-braun"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 2332.0,
+      "to_s": 2343.0,
+      "teller": "maaneli-derakhshani",
+      "quote": "Mitchell was, you know, very uh clear that he believed that at Roswell, an extraterrestrial spacecraft had crashed and that the government had recovered it",
+      "kind": "secondhand",
+      "cites": [
+        "edgar-mitchell"
+      ],
+      "documents": [],
+      "difference": "States Mitchell's public belief that an extraterrestrial craft crashed and the government recovered it, rather than that he heard things from people at all levels.",
+      "link_reason": "Both are about what Edgar Mitchell said of the Roswell crash: that an alien craft crashed there and was recovered.",
+      "as_told": {
+        "title": "Mitchell's public belief in Roswell crash and legacy program",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "clapper-and-brennan-speak-of-roswell-and-a-surviving-being-i-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "governor-richardson-on-looking-into-the-roswell-crash-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jan-rooney-s-general-father-on-roswell-and-religion-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "marcel-s-son-handled-the-roswell-material-at-home-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "trump-hints-at-knowledge-about-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "walter-haut-s-posthumous-affidavit-craft-and-bodies-under-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "maaneli-derakhshani"
+    ],
+    "episodes": [
+      "IWui5cBkwoE",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

@@ -1,0 +1,95 @@
+{
+  "id": "host-s-reading-of-majestic-as-a-continuity-of-government-com-1950",
+  "title": "Host's reading of 'Majestic' as a continuity-of-government committee",
+  "summary": "Jesse Michels tells of Host's reading of 'Majestic' as a continuity-of-government committee, about 1950s-present at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 13379.0,
+      "to_s": 13386.0,
+      "teller": "jesse-michels",
+      "quote": "These sorts of committees have gone by many names. 5412, the [music] 303 committee, the committee of 40, and they",
+      "kind": "host",
+      "cites": [
+        "harold-malmgren"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 9379.0,
+      "to_s": 9392.0,
+      "teller": "jesse-michels",
+      "quote": "you know he said that the Majestic 12 you know and like the elite governance systems around UFOs >> uh are kind of like uh almost euphemisms for continuity of government programs.",
+      "kind": "secondhand",
+      "cites": [
+        "john-alexander"
+      ],
+      "documents": [],
+      "difference": "Credits the idea to John Alexander rather than to Harold Malmgren or the host.",
+      "link_reason": "Both make the same theory claim: Majestic is a name for a continuity-of-government committee.",
+      "as_told": {
+        "title": "John Alexander: Majestic 12 is a euphemism for continuity of government",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "1950s-anti-gravity-research-went-quiet-possibly-went-black",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "presidency-cut-out-of-the-loop-under-eisenhower-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "burkhard-heim-at-lockheed-and-extended-heim-theory-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

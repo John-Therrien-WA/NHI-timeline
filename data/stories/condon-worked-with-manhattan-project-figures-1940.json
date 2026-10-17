@@ -1,0 +1,143 @@
+{
+  "id": "condon-worked-with-manhattan-project-figures-1940",
+  "title": "Condon worked with Manhattan Project figures",
+  "summary": "David Grusch tells of Condon worked with Manhattan Project figures, about 1940s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3899.0,
+      "to_s": 3901.0,
+      "teller": "david-grusch",
+      "quote": "Condon was involved.",
+      "kind": "secondhand",
+      "cites": [
+        "edward-condon",
+        "vannevar-bush"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3959.0,
+      "to_s": 3965.0,
+      "teller": "jesse-michels",
+      "quote": "he's sometimes credited for helping Oppenheimer pick Los Alamos as the site for the Manhattan Project.",
+      "kind": "host",
+      "cites": [
+        "edward-condon",
+        "j-robert-oppenheimer"
+      ],
+      "documents": [
+        "los-alamos-primer",
+        "mcmahon-atomic-energy-act"
+      ],
+      "difference": "Where Grusch says only \"Condon was involved\", Jesse Michels names specific roles: helping Oppenheimer choose Los Alamos and helping draft the McMahon Atomic Energy Act. He also mentions the Los Alamos Primer.",
+      "link_reason": "Both tellings are about Edward Condon's part in the 1940s Manhattan Project and atomic-energy work alongside figures like Oppenheimer. The telling gives his roles there in more detail, but it covers the same subject at the same scope.",
+      "as_told": {
+        "title": "Condon helps pick Los Alamos and draft McMahon Act",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Los Alamos, New Mexico",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 6326.0,
+      "to_s": 6336.0,
+      "teller": "jesse-michels",
+      "quote": "in fact Conan and Oppenheimer were so close that Condon was partly credited for picking Los Alamos as the focal point for the Manhattan Project",
+      "kind": "host",
+      "cites": [
+        "edward-condon",
+        "j-robert-oppenheimer",
+        "max-born"
+      ],
+      "documents": [
+        "los-alamos-primer"
+      ],
+      "difference": "Adds his Göttingen years with Max Born and the Los Alamos Primer, and says he and Oppenheimer were very close.",
+      "link_reason": "Both tell of Condon's Manhattan Project closeness to Oppenheimer and his partial credit for choosing Los Alamos.",
+      "as_told": {
+        "title": "Condon's Manhattan Project role and choice of Los Alamos",
+        "years": {
+          "from": 1920,
+          "to": 1949
+        },
+        "place_text": "Los Alamos, New Mexico; Göttingen, Germany",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "custody-chain-manhattan-project-to-aec-to-doe-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "manhattan-project-as-the-first-blue-book-colleagues-grandpar-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-formed-at-behest-of-brown-brothers-harriman-sheehan-hist-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vought-flying-pancake-as-early-saucer-attempt-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "compartmentalization-carried-over-from-the-manhattan-project-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "legacy-program-secrecy-kept-through-trusted-family-lineages-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "david-grusch",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested"
+}

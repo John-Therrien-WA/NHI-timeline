@@ -1,0 +1,64 @@
+{
+  "id": "teenage-robert-temple-helps-arthur-young-draft-the-reflexive-1960",
+  "title": "Teenage Robert Temple helps Arthur Young draft The Reflexive Universe",
+  "summary": "Jeffrey Mishlove tells of Teenage Robert Temple helps Arthur Young draft The Reflexive Universe, about 1960s at Philadelphia, Pennsylvania, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "philadelphia-pa",
+  "place_text": "Philadelphia",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 8792.0,
+      "to_s": 8798.0,
+      "teller": "jeffrey-mishlove",
+      "quote": "he actually helped Arthur write the first draft of the reflexive universe.",
+      "kind": "secondhand",
+      "cites": [
+        "arthur-young",
+        "robert-temple"
+      ],
+      "documents": [
+        "the-reflexive-universe"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "owens-summons-lightning-near-the-camden-bridge-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeffrey-mishlove"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

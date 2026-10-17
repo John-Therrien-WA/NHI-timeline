@@ -1,0 +1,52 @@
+{
+  "id": "kabbalists-meet-the-dalai-lama",
+  "title": "Kabbalists meet the Dalai Lama",
+  "summary": "Jesse Michels tells of Kabbalists meet the Dalai Lama, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 2042.0,
+      "to_s": 2051.0,
+      "teller": "jesse-michels",
+      "quote": "story I think of Jewish kabalists meeting with the doy Lama and they're like talking about these non-human intelligences and the colors associated with them",
+      "kind": "host",
+      "cites": [
+        "dalai-lama"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "aa9Xx5wI8Rw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

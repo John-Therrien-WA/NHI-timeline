@@ -1,0 +1,65 @@
+{
+  "id": "priscilla-mcmillan-revealed-as-cia-asset-1959",
+  "title": "Priscilla McMillan revealed as CIA asset",
+  "summary": "Jeremy Riss tells of Priscilla McMillan revealed as CIA asset, about 1959-1963 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1959,
+    "to": 1963
+  },
+  "place": "united-states",
+  "place_text": "Russia / USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 272.0,
+      "to_s": 287.0,
+      "teller": "jeremy-riss",
+      "quote": "Priscilla McMillan who interviewed U Lee when he went to Russia and also befriended Marina Oswald and wrote her autobiography for her. Um she's a CIA agent. She's a witting CIA asset.",
+      "kind": "researcher",
+      "cites": [
+        "priscilla-mcmillan",
+        "marina-oswald",
+        "lee-harvey-oswald"
+      ],
+      "documents": [
+        "jfk-files"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "angleton-and-reuben-efron-s-mail-intercept-on-oswald-1959",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeremy-riss"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

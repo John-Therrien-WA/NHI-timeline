@@ -1,0 +1,74 @@
+{
+  "id": "catalina-as-a-ufo-hotspot",
+  "title": "Catalina as a UFO hotspot",
+  "summary": "Jesse Michels tells of Catalina as a UFO hotspot, about unspecified at Santa Catalina Island, California, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "catalina-island-ca",
+  "place_text": "Catalina, Southern California",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 3018.0,
+      "to_s": 3025.0,
+      "teller": "jesse-michels",
+      "quote": "It was for Catalina, which is one of... it's on the coast of Southern California, and many people think it's a UFO hotspot.",
+      "kind": "host",
+      "cites": [
+        "preston-dennit"
+      ],
+      "documents": [
+        "undersea-ufo-base"
+      ]
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 2319.0,
+      "to_s": 2326.0,
+      "teller": "tim-gallaudet",
+      "quote": "[clears throat] And then uh and then Southern California seems to be the Catalina Channel seems to be a hot spot.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Gallaudet names the Catalina Channel itself and makes it part of his ocean-hotspot argument, with no credit to Preston Dennett.",
+      "link_reason": "Both tell of the waters around Catalina off Southern California as a UFO hotspot.",
+      "as_told": {
+        "title": "Catalina Channel as a UAP hotspot",
+        "years": null,
+        "place_text": "Catalina Channel, Southern California",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "tim-gallaudet"
+    ],
+    "episodes": [
+      "IWui5cBkwoE",
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

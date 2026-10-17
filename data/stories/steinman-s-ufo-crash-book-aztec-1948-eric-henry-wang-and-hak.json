@@ -1,0 +1,117 @@
+{
+  "id": "steinman-s-ufo-crash-book-aztec-1948-eric-henry-wang-and-hak",
+  "title": "Steinman's UFO Crash book: Aztec 1948, Eric Henry Wang and \"HAK\"",
+  "summary": "Jesse Michels tells of Steinman's UFO Crash book: Aztec 1948, Eric Henry Wang and \"HAK\", about 1948 at Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "mexico",
+  "place_text": "Aztec, New Mexico; Wright-Patterson AFB",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 9922.0,
+      "to_s": 9936.0,
+      "teller": "jesse-michels",
+      "quote": "I was reading this book called UFO crash by this UFO researcher William Steinman about the Aztec crash in 1948. Talks about this head of special projects at Wright Patterson who came over uh with Operation Paperclip. His name is Eric Henry Wing.",
+      "kind": "host",
+      "cites": [
+        "william-steinman",
+        "eric-henry-wang",
+        "henry-kissinger"
+      ],
+      "documents": [
+        "ufo-crash-at-aztec"
+      ]
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 7860.0,
+      "to_s": 7864.0,
+      "teller": "jesse-michels",
+      "quote": "He goes, \"I figured out he reported to a guy named Hak.\"",
+      "kind": "secondhand",
+      "cites": [
+        "william-steinman",
+        "eric-henry-wang",
+        "henry-kissinger"
+      ],
+      "documents": [
+        "aztec-william-steinman-book"
+      ],
+      "difference": "Names the book Aztec, links Wang with Kirtland as well as Wright Field, and says outright that Steinman 'figured out' that Wang reported to HAK.",
+      "link_reason": "Steinman's book account of Eric Henry Wang reporting to 'HAK' is the story already held about Steinman's book, Wang and HAK.",
+      "as_told": {
+        "title": "Steinman finds Wang reported to HAK (Henry Kissinger)",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Wright Airfield and Kirtland Air Force Base",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5553.0,
+      "to_s": 5559.0,
+      "teller": "jesse-michels",
+      "quote": "my husband did work on UFOs and his boss was Henry Kissinger.\"",
+      "kind": "secondhand",
+      "cites": [
+        "william-steinman",
+        "eric-henry-wang",
+        "maria-wang",
+        "henry-kissinger"
+      ],
+      "documents": [],
+      "difference": "Puts the claim in the mouth of Wang's wife, Maria Wang, who says her husband worked on UFOs and his boss was Kissinger.",
+      "link_reason": "Both tell Steinman's finding that Eric Henry Wang, head of special projects at Wright-Patterson, reported to Kissinger ('HAK').",
+      "as_told": {
+        "title": "Maria Wang says her husband's boss was Kissinger",
+        "years": null,
+        "place_text": "Wright-Patterson AFB, Ohio",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "oppenheimer-on-the-aztec-crash-retrieval-team-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M",
+      "kccrkCGGzX4",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

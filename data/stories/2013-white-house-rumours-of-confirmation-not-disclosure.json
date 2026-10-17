@@ -1,0 +1,57 @@
+{
+  "id": "2013-white-house-rumours-of-confirmation-not-disclosure",
+  "title": "2013 White House rumours of 'confirmation, not disclosure'",
+  "summary": "Jason Simosa tells of 2013 White House rumours of 'confirmation, not disclosure', about 2013 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2013,
+    "to": 2013
+  },
+  "place": "washington-dc",
+  "place_text": "White House",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 2599.0,
+      "to_s": 2612.0,
+      "teller": "jason-simosa",
+      "quote": "You get to Vallée's most recent journals, he documents early in 2013 rumors coming out of the White House. And these rumors are essentially saying they're planning to do something called confirmation, not disclosure.",
+      "kind": "researcher",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": [
+        "vallee-s-journals"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-simosa"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

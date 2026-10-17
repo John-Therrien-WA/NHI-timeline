@@ -1,0 +1,75 @@
+{
+  "id": "carl-nell-points-to-thomas-townsend-brown-s-exotic-propulsio",
+  "title": "Carl Nell points to Thomas Townsend Brown's exotic propulsion",
+  "summary": "Jesse Michels tells of Carl Nell points to Thomas Townsend Brown's exotic propulsion, about not stated at not stated, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "not stated",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 2968.0,
+      "to_s": 2975.0,
+      "teller": "jesse-michels",
+      "quote": "he said go just watch Jesse's video on uh Thomas Towns and Brown.",
+      "kind": "host",
+      "cites": [
+        "karl-nell",
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 11444.0,
+      "to_s": 11458.0,
+      "teller": "jesse-michels",
+      "quote": "you have Carl Nell who ran a $2 billion P&L you know CTO of of like basically a Northrup subsidiary saying you know watch Jesse's video on Thomas Towns and Brown.",
+      "kind": "secondhand",
+      "cites": [
+        "karl-nell",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Adds Nell's credentials: he ran a $2 billion P&L and was CTO of a Northrop subsidiary.",
+      "link_reason": "Same account of Carl Nell telling people to watch Jesse's video on Townsend Brown.",
+      "as_told": {
+        "title": "Carl Nell points people to Jesse's Townsend Brown videos",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "dnnpyNuPdXs",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "wilson-green-works-with-puharich-at-the-round-table-1950",
+  "title": "Wilson Green works with Puharich at the Round Table",
+  "summary": "Unnamed guest tells of Wilson Green works with Puharich at the Round Table, about 1950s at Round Table lab, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Round Table lab",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 9723.0,
+      "to_s": 9731.0,
+      "teller": "unnamed-guest",
+      "quote": "guy Wilson Green was working with Puharich in the 50s at the round table doing everything they",
+      "kind": "researcher",
+      "cites": [
+        "wilson-green",
+        "jack-sarfatti"
+      ],
+      "documents": [
+        "puharich-journals"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

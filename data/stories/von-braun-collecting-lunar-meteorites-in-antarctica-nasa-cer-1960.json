@@ -1,0 +1,56 @@
+{
+  "id": "von-braun-collecting-lunar-meteorites-in-antarctica-nasa-cer-1960",
+  "title": "Von Braun collecting lunar meteorites in Antarctica; NASA ceramics lab",
+  "summary": "Bart Sibrel tells of Von Braun collecting lunar meteorites in Antarctica; NASA ceramics lab, about 1960s at Antarctica, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "antarctica",
+  "place_text": "Antarctica",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 5779.0,
+      "to_s": 5789.0,
+      "teller": "bart-sibrel",
+      "quote": "Von Braonn picked him up from Antarctica. There's a picture of that on the web. Picking up lunar meteorites before he went to the moon for the first time.",
+      "kind": "researcher",
+      "cites": [
+        "wernher-von-braun",
+        "unnamed-contractor"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "bart-sibrel"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

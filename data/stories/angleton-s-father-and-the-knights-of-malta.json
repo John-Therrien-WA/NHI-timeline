@@ -1,0 +1,122 @@
+{
+  "id": "angleton-s-father-and-the-knights-of-malta",
+  "title": "Angleton's father and the Knights of Malta",
+  "summary": "Harold Malmgren tells of Angleton's father and the Knights of Malta, about 20th century at United States (no place named), and reads it from an official document. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Italy / United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 374.0,
+      "to_s": 382.0,
+      "teller": "harold-malmgren",
+      "quote": "The relationship needs to be uncovered between Angleton's [music] father, Angleton, and the Knights of Bal.",
+      "kind": "official",
+      "cites": [
+        "james-angleton"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 5953.0,
+      "to_s": 5957.0,
+      "teller": "jesse-michels",
+      "quote": "But not only were Hugh Angleton and James Jesus Angleton Knights of Malta,",
+      "kind": "host",
+      "cites": [
+        "hugh-angleton",
+        "james-angleton"
+      ],
+      "documents": [],
+      "difference": "Michels states as fact that both were Knights of Malta, where Malmgren only says the link needs uncovering.",
+      "link_reason": "Both are about Hugh Angleton and James Jesus Angleton being tied to the Knights of Malta.",
+      "as_told": {
+        "title": "Angletons as Knights of Malta",
+        "years": {
+          "from": 1940,
+          "to": 1989
+        },
+        "place_text": "Italy / CIA",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 6136.0,
+      "to_s": 6141.0,
+      "teller": "harold-malmgren",
+      "quote": "Well, what I'm saying is yeah, they did because because Angle was there.",
+      "kind": "researcher",
+      "cites": [
+        "james-angleton",
+        "hugh-angleton"
+      ],
+      "documents": [],
+      "difference": "Places the tie in 1930s-40s Italy and the Vatican, and links it directly to UFO knowledge because Angleton was present there.",
+      "link_reason": "Both tellings are Malmgren's claim that the Angleton family is tied to the Knights of Malta, which in turn links that group to the UFO matter.",
+      "as_told": {
+        "title": "Knights of Malta tied to UFOs through Angleton",
+        "years": {
+          "from": 1930,
+          "to": 1949
+        },
+        "place_text": "Italy / Vatican",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 4911.0,
+      "to_s": 4920.0,
+      "teller": "jesse-michels",
+      "quote": ">> you have stuff with James Jesus Angleton and Hugh Angel being involved in the Knights of Malta and certain secret societies.",
+      "kind": "host",
+      "cites": [
+        "james-angleton"
+      ],
+      "documents": [],
+      "difference": "Adds secret societies in general beyond the Knights of Malta and gives no source.",
+      "link_reason": "Both tellings say that Hugh Angleton and James Jesus Angleton were Knights of Malta and tied to secret societies.",
+      "as_told": {
+        "title": "Angleton and Knights of Malta secret society links",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.8,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "harold-malmgren",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.9,
+  "tier": "well-attested"
+}

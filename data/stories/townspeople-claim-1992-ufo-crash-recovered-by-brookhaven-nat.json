@@ -1,0 +1,99 @@
+{
+  "id": "townspeople-claim-1992-ufo-crash-recovered-by-brookhaven-nat",
+  "title": "Townspeople claim 1992 UFO crash recovered by Brookhaven National Lab",
+  "summary": "Jesse Michels tells of Townspeople claim 1992 UFO crash recovered by Brookhaven National Lab, about 1992 at Brookhaven National Laboratory, Long Island, New York, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1992,
+    "to": 1992
+  },
+  "place": null,
+  "place_text": "Brookhaven National Laboratory, Long Island, New York",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 3636.0,
+      "to_s": 3646.0,
+      "teller": "jesse-michels",
+      "quote": "And um in '92 a lot of the town's people around uh Brook Haven said that there was a UFO crash that was actually collected by the facility there as well.",
+      "kind": "secondhand",
+      "cites": [
+        "brookhaven-townspeople"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 7520.0,
+      "to_s": 7528.0,
+      "teller": "jesse-michels",
+      "quote": "Now, um I really like the '9s Brook Haven crash. I think that's really fantast.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates it only to the 1990s and points to sheriff testimony rather than to townspeople.",
+      "link_reason": "Both are about the claimed early-1990s UFO crash at Brookhaven, Long Island.",
+      "as_told": {
+        "title": "1990s Brookhaven crash with sheriff testimony",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Brookhaven, New York",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 537.0,
+      "to_s": 554.0,
+      "teller": "jesse-michels",
+      "quote": "I believe there's a crash, a UFO crash in 1992 where everybody in that town, South Haven, um basically saw the National Labs itself recover this craft, collect it and like take it into the the national labs.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names the town as South Haven and says everybody in town saw the lab collect the craft.",
+      "link_reason": "The same 1992 UFO crash that townspeople say Brookhaven National Lab recovered.",
+      "as_told": {
+        "title": "1992 UFO crash recovered by Brookhaven National Lab",
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "place_text": "South Haven / Brookhaven National Laboratory, New York",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M",
+      "u7g5Sn1DJF4",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "babson-s-gravity-research-foundation-in-new-boston-1950",
+  "title": "Babson's Gravity Research Foundation in New Boston",
+  "summary": "Eric Weinstein tells of Babson's Gravity Research Foundation in New Boston, about 1950s at New Boston, New Hampshire, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "New Boston, New Hampshire",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iQOibpIDx-4",
+      "from_s": 673.0,
+      "to_s": 688.0,
+      "teller": "eric-weinstein",
+      "quote": "gravity research foundation in new boston new hampshire and i guess that was the work of babson and the story is sort of not really very plausible that his sister had drowned in a pond or something",
+      "kind": "researcher",
+      "cites": [
+        "roger-babson"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 2562.0,
+      "to_s": 2568.0,
+      "teller": "jesse-michels",
+      "quote": "Roger Babson, a patron of science, was obsessed with finding the solution to antigravity.",
+      "kind": "host",
+      "cites": [
+        "roger-babson"
+      ],
+      "documents": [],
+      "difference": "The host calls Babson a patron of science obsessed with solving antigravity, gives no New Boston location and leaves out the drowned-sister motive.",
+      "link_reason": "Both tellings describe Roger Babson's Gravity Research Foundation in the 1950s, his privately funded effort to find antigravity.",
+      "as_told": {
+        "title": "Babson's Gravity Research Foundation",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "brown-s-saucer-shaped-gravitator-and-founding-of-nicap-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "eisenhower-era-peads-used-to-create-waived-saps-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "townsend-brown-s-anti-gravity-success-in-paris-sarbacher-pic-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "malmgren-tracked-by-majestic-12-guardians-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "iQOibpIDx-4",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

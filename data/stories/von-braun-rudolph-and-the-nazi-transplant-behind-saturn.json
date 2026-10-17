@@ -1,0 +1,78 @@
+{
+  "id": "von-braun-rudolph-and-the-nazi-transplant-behind-saturn",
+  "title": "Von Braun, Rudolph and the Nazi transplant behind Saturn",
+  "summary": "Jesse Michels tells of Von Braun, Rudolph and the Nazi transplant behind Saturn, about an unknown time at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Germany; United States (NASA)",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1604.0,
+      "to_s": 1614.0,
+      "teller": "jesse-michels",
+      "quote": "he and Arthur Rudolph and created the the nas Saturn program that was 129 people it was a transplant of the Nazi program",
+      "kind": "host",
+      "cites": [
+        "wernher-von-braun",
+        "arthur-rudolph"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 8534.0,
+      "to_s": 8547.0,
+      "teller": "jesse-michels",
+      "quote": "literally a transplantation of the Nazi program space program it was it was word von Braun Arthur Rudolph and 129 Nazi scientists and that was it",
+      "kind": "host",
+      "cites": [
+        "wernher-von-braun",
+        "arthur-rudolph"
+      ],
+      "documents": [],
+      "difference": "Frames it as Apollo/Saturn and stresses that it was 'literally' the whole program.",
+      "link_reason": "Both tell the same claim: von Braun, Arthur Rudolph and 129 Nazi scientists transplanted the Nazi space program into NASA's Saturn program.",
+      "as_told": {
+        "title": "NASA Apollo/Saturn as transplanted Nazi space program",
+        "years": {
+          "from": 1950,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

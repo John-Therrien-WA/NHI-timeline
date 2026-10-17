@@ -1,0 +1,79 @@
+{
+  "id": "chris-bledsoe-case-in-north-carolina",
+  "title": "Chris Bledsoe case in North Carolina",
+  "summary": "Jesse Michels tells of Chris Bledsoe case in North Carolina, about an unknown time at North Carolina, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "North Carolina",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 9513.0,
+      "to_s": 9518.0,
+      "teller": "jesse-michels",
+      "quote": "there's this Chris Bledsoe this case in North Carolina where Hal Pavvenmire this longtime national",
+      "kind": "host",
+      "cites": [
+        "chris-bledsoe",
+        "hal-puthoff",
+        "jim-semivan"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 2004.0,
+      "to_s": 2017.0,
+      "teller": "jesse-michels",
+      "quote": "You have Hal Pavvenmeer, who was, I think he was from the CIA and NASA, showing up at Chris Bledso's door when he starts attracting UFOs.",
+      "kind": "host",
+      "cites": [
+        "hal-pavvenmeer",
+        "chris-bledso"
+      ],
+      "documents": [],
+      "difference": "Says Puthoff showed up at Bledsoe's door once Bledsoe began attracting UFOs, and places Puthoff at the CIA and NASA.",
+      "link_reason": "Both are about the Chris Bledsoe case in North Carolina, in which Hal Puthoff turned up in Bledsoe's life.",
+      "as_told": {
+        "title": "Hal Puthoff shows up at Chris Bledsoe's door",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "North Carolina",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "IWui5cBkwoE",
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

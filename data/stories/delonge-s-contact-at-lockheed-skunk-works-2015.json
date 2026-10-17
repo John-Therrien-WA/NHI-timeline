@@ -1,0 +1,56 @@
+{
+  "id": "delonge-s-contact-at-lockheed-skunk-works-2015",
+  "title": "DeLonge's contact at Lockheed Skunk Works",
+  "summary": "Jason Simosa tells of DeLonge's contact at Lockheed Skunk Works, about 2015 at Lockheed Martin Skunk Works, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": null,
+  "place_text": "Lockheed Martin Skunk Works",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 2131.0,
+      "to_s": 2141.0,
+      "teller": "jason-simosa",
+      "quote": "but Vallée, Jacques Vallée, validates the original original story, which is that DeLonge had made contact with someone who worked at Lockheed Martin's Skunk Works.",
+      "kind": "secondhand",
+      "cites": [
+        "jacques-vallee",
+        "tom-delonge"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-simosa"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

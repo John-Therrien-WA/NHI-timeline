@@ -1,0 +1,66 @@
+{
+  "id": "howard-hughes-and-the-mormon-mafia-1950",
+  "title": "Howard Hughes and the 'Mormon mafia'",
+  "summary": "Matthew Pines tells of Howard Hughes and the 'Mormon mafia', about 1950s-1970s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 12164.0,
+      "to_s": 12174.0,
+      "teller": "matthew-pines",
+      "quote": "deeply connected to the Mormon church. The Mormon church kind of like the uh his like senior managers and handlers for all of his his corporate apparatus were essentially Mormon. Um they call him the Mormon mafia, right?",
+      "kind": "researcher",
+      "cites": [
+        "howard-hughes"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "eric-weinstein-s-secret-branch-of-physics-tied-to-private-ae-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sensory-deprivation-training-as-sac-s-back-door-into-paranor-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

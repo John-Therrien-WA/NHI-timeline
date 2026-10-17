@@ -1,0 +1,63 @@
+{
+  "id": "susan-clancy-s-harvard-study-of-abductees-2000",
+  "title": "Susan Clancy's Harvard study of abductees",
+  "summary": "Michael Shurmer tells of Susan Clancy's Harvard study of abductees, about 2000s at Harvard, Cambridge, Massachusetts, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2009
+  },
+  "place": "harvard-ma",
+  "place_text": "Harvard University",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 311.0,
+      "to_s": 322.0,
+      "teller": "michael-shurmer",
+      "quote": "Also, there was, you know, Susan Clansancy at Harvard for a doctoral dissertation in psychology. She wrote a book on abducted and she did a study on people who had been abducted by alien.",
+      "kind": "researcher",
+      "cites": [
+        "susan-clancy"
+      ],
+      "documents": [
+        "abducted"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "benedict-gross-and-epstein-proposal-for-evolutionary-dynamic-2000",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "michael-shurmer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

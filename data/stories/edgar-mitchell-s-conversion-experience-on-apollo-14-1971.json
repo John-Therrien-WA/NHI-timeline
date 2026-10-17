@@ -1,0 +1,85 @@
+{
+  "id": "edgar-mitchell-s-conversion-experience-on-apollo-14-1971",
+  "title": "Edgar Mitchell's conversion experience on Apollo 14",
+  "summary": "Jesse Michels tells of Edgar Mitchell's conversion experience on Apollo 14, about 1971 at space, return from Apollo 14, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1971,
+    "to": 1971
+  },
+  "place": "moon",
+  "place_text": "space, return from Apollo 14",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 5292.0,
+      "to_s": 5299.0,
+      "teller": "jesse-michels",
+      "quote": "Edgar Mitchell who your your old friend had a conversion experience on the way back from Apollo 14",
+      "kind": "host",
+      "cites": [
+        "edgar-mitchell"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 2263.0,
+      "to_s": 2276.0,
+      "teller": "jesse-michels",
+      "quote": "But he also has this like telepathic conversion experience that he's public about this telepathic kind of parasychological conversion experience where he his whole worldview updates >> right >> on the way back from the moon.",
+      "kind": "host",
+      "cites": [
+        "edgar-mitchell"
+      ],
+      "documents": [],
+      "difference": "Calls the experience telepathic and parapsychological, and says it changed his whole worldview.",
+      "link_reason": "Both describe Edgar Mitchell's conversion experience on the way back from Apollo 14.",
+      "as_told": {
+        "title": "Edgar Mitchell's telepathic conversion experience on Apollo 14",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "Return from the Moon, Apollo 14",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "edgar-mitchell-on-the-moon-landing-imagery-1971",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

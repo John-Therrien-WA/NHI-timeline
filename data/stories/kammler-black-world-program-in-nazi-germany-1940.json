@@ -1,0 +1,55 @@
+{
+  "id": "kammler-black-world-program-in-nazi-germany-1940",
+  "title": "Kammler black-world program in Nazi Germany",
+  "summary": "Jesse Michels tells of Kammler black-world program in Nazi Germany, about 1940s at Nazi Germany, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Nazi Germany",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 6557.0,
+      "to_s": 6564.0,
+      "teller": "jesse-michels",
+      "quote": "Well, you have these rumors that you had Kammler stuff in in Nazi Germany where they were doing kind of black world nuclear stuff.",
+      "kind": "host",
+      "cites": [
+        "hans-kammler"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

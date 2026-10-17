@@ -1,0 +1,53 @@
+{
+  "id": "roswell-as-home-of-the-509th-atomic-bomber-squadron-1947",
+  "title": "Roswell as home of the 509th atomic bomber squadron",
+  "summary": "Marik von Rennenkampf tells of Roswell as home of the 509th atomic bomber squadron, about 1947 at Roswell, New Mexico, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 10781.0,
+      "to_s": 10789.0,
+      "teller": "marik-von-rennenkampf",
+      "quote": "Roswell Well, itself the site of the 509th atomic bomber squadron, the first bomber squadron in the US.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "marik-von-rennenkampf"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

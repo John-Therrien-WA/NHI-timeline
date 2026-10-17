@@ -1,0 +1,52 @@
+{
+  "id": "kammler-s-flying-saucer-work-and-die-glocke",
+  "title": "Kammler's flying saucer work and Die Glocke",
+  "summary": "Jesse Michels tells of Kammler's flying saucer work and Die Glocke, about WWII at Czechoslovakia / modern Poland, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Czechoslovakia / modern Poland",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 6238.0,
+      "to_s": 6252.0,
+      "teller": "jesse-michels",
+      "quote": "And right there in Czechoslovakia in modern day Poland is this thing called Commto where Hans Conler, the most ruthless Nazi who was doing the most kind of black world technology projects, was rumored to be working on flying saucers",
+      "kind": "host",
+      "cites": [
+        "hans-kammler"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

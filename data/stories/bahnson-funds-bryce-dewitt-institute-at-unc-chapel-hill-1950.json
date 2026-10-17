@@ -1,0 +1,139 @@
+{
+  "id": "bahnson-funds-bryce-dewitt-institute-at-unc-chapel-hill-1950",
+  "title": "Bahnson funds Bryce DeWitt institute at UNC Chapel Hill",
+  "summary": "Eric Weinstein tells of Bahnson funds Bryce DeWitt institute at UNC Chapel Hill, about 1950s at University of North Carolina, Chapel Hill, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "University of North Carolina, Chapel Hill",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iQOibpIDx-4",
+      "from_s": 705.0,
+      "to_s": 719.0,
+      "teller": "eric-weinstein",
+      "quote": "similarly named individual named bainson with some sort of tobacco or air conditioning fortune reaches out to bryce dewitt and asks whether he will found an institute at the university of north carolina chapel hill",
+      "kind": "researcher",
+      "cites": [
+        "bahnson",
+        "bryce-dewitt"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 2575.0,
+      "to_s": 2582.0,
+      "teller": "jesse-michels",
+      "quote": "Meanwhile, another industrialist, Agnew Bahnson, started the Institute of Field Physics in North Carolina,",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson",
+        "bryce-dewitt",
+        "richard-feynman",
+        "peter-bergman",
+        "freeman-dyson",
+        "john-wheeler"
+      ],
+      "documents": [],
+      "difference": "This telling names the Institute of Field Physics and the 1957 Chapel Hill conference, and credits Feynman, Bergmann, Dyson and Wheeler. The story's teller is unsure of Bahnson's name and fortune and doesn't name the institute.",
+      "link_reason": "Both tell of industrialist Agnew Bahnson founding and funding Bryce DeWitt's institute at UNC Chapel Hill in the 1950s. This telling also mentions the 1957 conference, but its quote centres on founding the institute.",
+      "as_told": {
+        "title": "Bahnson's Institute of Field Physics and 1957 Chapel Hill conference",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 7480.0,
+      "to_s": 7492.0,
+      "teller": "jesse-michels",
+      "quote": "Dwit was working on um you know with Agnu Bonson at the Institute of Field Physics at UNC North Carolina Chapel Hill. Um it was like often gravitational anomalies.",
+      "kind": "host",
+      "cites": [
+        "bryce-dewitt",
+        "agnew-bahnson"
+      ],
+      "documents": [],
+      "difference": "Adds that the institute's work often concerned gravitational anomalies.",
+      "link_reason": "Both tell of Bahnson and DeWitt's Institute of Field Physics at UNC Chapel Hill.",
+      "as_told": {
+        "title": "DeWitt and Bahnson's Institute of Field Physics studies gravity anomalies",
+        "years": {
+          "from": 1950,
+          "to": 1979
+        },
+        "place_text": "Institute of Field Physics, UNC Chapel Hill, North Carolina",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 4104.0,
+      "to_s": 4116.0,
+      "teller": "eric-weinstein",
+      "quote": "And they find two physicists to work through, one named Bryce Dwit. So Agnu Baineson and John Wheeler find Bryce Dit and set him up at the University of North Carolina Chapel Hill at the Institute of Field Physics.",
+      "kind": "researcher",
+      "cites": [
+        "agnew-bahnson",
+        "john-wheeler",
+        "bryce-dewitt"
+      ],
+      "documents": [
+        "old-newspaper-clip"
+      ],
+      "difference": "Has John Wheeler working with Bahnson to find DeWitt, frames the institute as being for anti-gravity, and cites an old newspaper clip.",
+      "link_reason": "Both tell of Bahnson setting up Bryce DeWitt at the Institute of Field Physics at UNC Chapel Hill in the 1950s.",
+      "as_told": {
+        "title": "Bahnson and Wheeler set up Bryce DeWitt at the UNC Institute of Field Physics for anti-gravity",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "University of North Carolina, Chapel Hill",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M",
+      "iQOibpIDx-4",
+      "kRO5jOa06Qw",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

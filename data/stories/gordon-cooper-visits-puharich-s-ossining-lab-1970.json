@@ -1,0 +1,93 @@
+{
+  "id": "gordon-cooper-visits-puharich-s-ossining-lab-1970",
+  "title": "Gordon Cooper visits Puharich's Ossining lab",
+  "summary": "Greg tells of Gordon Cooper visits Puharich's Ossining lab, about 1970s at Ossining, New York, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "ossining-ny",
+  "place_text": "Ossining, New York",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 6402.0,
+      "to_s": 6414.0,
+      "teller": "greg",
+      "quote": "He went to Ossining like many times and in his book he writes about um going there, seeing experiments with the Faraday cage, seeing the space kids.",
+      "kind": "researcher",
+      "cites": [
+        "gordon-cooper"
+      ],
+      "documents": [
+        "gordon-cooper-s-book"
+      ]
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 12123.0,
+      "to_s": 12127.0,
+      "teller": "unnamed-guest",
+      "quote": "Um and she brought Gordon Cooper there",
+      "kind": "researcher",
+      "cites": [
+        "valerie-ransone",
+        "gordon-cooper"
+      ],
+      "documents": [],
+      "difference": "Says Valerie Ransone brought Cooper there, in the late 1970s.",
+      "link_reason": "Both tell of Gordon Cooper going to Puharich's Lab Nine in Ossining in the 1970s.",
+      "as_told": {
+        "title": "Ransone brings Gordon Cooper to Lab Nine",
+        "years": {
+          "from": 1977,
+          "to": 1979
+        },
+        "place_text": "Lab Nine",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "a-space-kid-calls-the-nine-a-sandbox-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puthoff-visited-ossining-and-heard-about-the-nine-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg",
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "well-attested"
+}

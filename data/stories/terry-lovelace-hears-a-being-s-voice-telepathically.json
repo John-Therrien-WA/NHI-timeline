@@ -1,0 +1,52 @@
+{
+  "id": "terry-lovelace-hears-a-being-s-voice-telepathically",
+  "title": "Terry Lovelace hears a being's voice telepathically",
+  "summary": "Mike Masters tells of Terry Lovelace hears a being's voice telepathically, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y26iMB0r-f8",
+      "from_s": 1940.0,
+      "to_s": 1950.0,
+      "teller": "mike-masters",
+      "quote": "I remember Terry LEL talking about this when he met Betty Rubble he just heard her voice in his head in the same voice",
+      "kind": "secondhand",
+      "cites": [
+        "terry-lovelace"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "mike-masters"
+    ],
+    "episodes": [
+      "Y26iMB0r-f8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

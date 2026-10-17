@@ -1,0 +1,79 @@
+{
+  "id": "fungi-on-the-iss-and-crick-s-directed-panspermia",
+  "title": "Fungi on the ISS and Crick's directed panspermia",
+  "summary": "Jesse Michels tells of Fungi on the ISS and Crick's directed panspermia, about unspecified at International Space Station, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "International Space Station",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 6562.0,
+      "to_s": 6570.0,
+      "teller": "jesse-michels",
+      "quote": "you know they've been found on the\nInternational Space Station. And uh\nFrancis Crick, who of course discovered\nthe double helical structure of DNA",
+      "kind": "host",
+      "cites": [
+        "francis-crick"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 6950.0,
+      "to_s": 6958.0,
+      "teller": "jesse-michels",
+      "quote": "It's the reason like Francis Crick was\nlike there's no way that DNA could have\nformed in 100 million years.",
+      "kind": "host",
+      "cites": [
+        "francis-crick",
+        "carl-sagan"
+      ],
+      "documents": [
+        "life-itself"
+      ],
+      "difference": "Adds the 100-million-year argument, Crick's book Life Itself and Carl Sagan, but does not mention the ISS fungi.",
+      "link_reason": "Both are Jesse Michels telling of Francis Crick's directed panspermia, tied to DNA not having enough time to form on Earth.",
+      "as_told": {
+        "title": "Francis Crick's directed panspermia",
+        "years": {
+          "from": 1981,
+          "to": 1981
+        },
+        "place_text": "Earth",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "jMCavr3dVP0",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

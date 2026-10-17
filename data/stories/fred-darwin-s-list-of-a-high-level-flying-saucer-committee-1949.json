@@ -1,0 +1,62 @@
+{
+  "id": "fred-darwin-s-list-of-a-high-level-flying-saucer-committee-1949",
+  "title": "Fred Darwin's list of a high-level flying saucer committee",
+  "summary": "Jesse Michels tells of Fred Darwin's list of a high-level flying saucer committee, about 1949-1954 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1949,
+    "to": 1954
+  },
+  "place": "united-states",
+  "place_text": "United States (DoD R&D Board)",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 1363.0,
+      "to_s": 1370.0,
+      "teller": "jesse-michels",
+      "quote": "Darwin listed these names as involved in a special committee on flying [music] saucers at the highest level.",
+      "kind": "host",
+      "cites": [
+        "fred-darwin",
+        "william-steinman",
+        "vannevar-bush",
+        "lloyd-berkner",
+        "robert-f-reinhardt",
+        "eric-a-walker",
+        "john-von-neumann",
+        "karl-compton"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

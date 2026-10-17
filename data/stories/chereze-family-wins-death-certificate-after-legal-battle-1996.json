@@ -1,0 +1,58 @@
+{
+  "id": "chereze-family-wins-death-certificate-after-legal-battle-1996",
+  "title": "Chereze family wins death certificate after legal battle",
+  "summary": "James Fox tells of Chereze family wins death certificate after legal battle, about 1996-2002 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 2002
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 2040.0,
+      "to_s": 2046.0,
+      "teller": "james-fox",
+      "quote": "After a protracted legal battle, the family finally received the death certificate.",
+      "kind": "secondhand",
+      "cites": [
+        "roger-leir",
+        "marta"
+      ],
+      "documents": [
+        "marco-chereze-death-certificate-ipd-laboratory"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

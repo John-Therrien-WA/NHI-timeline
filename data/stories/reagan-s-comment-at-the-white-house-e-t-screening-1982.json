@@ -1,0 +1,56 @@
+{
+  "id": "reagan-s-comment-at-the-white-house-e-t-screening-1982",
+  "title": "Reagan's comment at the White House E.T. screening",
+  "summary": "Jesse Michels tells of Reagan's comment at the White House E.T. screening, about 1982 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1982,
+    "to": 1982
+  },
+  "place": "washington-dc",
+  "place_text": "White House",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 3771.0,
+      "to_s": 3782.0,
+      "teller": "jesse-michels",
+      "quote": "there's that audio recording of Steven Spielberg, I think, talking about his trip to the White House and they put on a screening of E.T.",
+      "kind": "host",
+      "cites": [
+        "steven-spielberg",
+        "reagan"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

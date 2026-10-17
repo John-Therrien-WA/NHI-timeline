@@ -1,0 +1,108 @@
+{
+  "id": "brown-terminated-by-navy-joins-martin-near-skunkworks-1942",
+  "title": "Brown terminated by Navy, joins Martin near Skunkworks",
+  "summary": "Jesse Michels tells of Brown terminated by Navy, joins Martin near Skunkworks, about 1942 at Burbank, California, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1942,
+    "to": 1942
+  },
+  "place": "united-states",
+  "place_text": "Burbank, California",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3085.0,
+      "to_s": 3093.0,
+      "teller": "jesse-michels",
+      "quote": "it shows that Brown was suddenly terminated by the Navy in 1942 with no explanation, despite strong performance.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "kelly-johnson"
+      ],
+      "documents": [
+        "naval-records"
+      ]
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 9644.0,
+      "to_s": 9653.0,
+      "teller": "jesse-michels",
+      "quote": "And he was part of the Navy up until 1942 when Skunk Works started and then he joined Martin Vega Corporation",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "fbi-file-on-townsend-brown"
+      ],
+      "difference": "Names the source as Brown's FBI file and does not say he was fired without explanation.",
+      "link_reason": "Both tell of Brown leaving the Navy in 1942 and joining Martin Vega around the start of Skunk Works, drawn from his file.",
+      "as_told": {
+        "title": "Townsend Brown's Navy career and FBI file",
+        "years": {
+          "from": 1942,
+          "to": 1942
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 2724.0,
+      "to_s": 2734.0,
+      "teller": "jesse-michels",
+      "quote": "high levels of aerospace. He was at the Navy for a very long time. He was at Martin Corporation the year that Skunkworks was formed in 1942 or three.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsen-brown"
+      ],
+      "documents": [],
+      "difference": "Gives the year as 1942 or 1943 and doesn't mention the Navy firing.",
+      "link_reason": "Same claim that Brown left the Navy and was at Martin Corporation around 1942 when Skunk Works was formed.",
+      "as_told": {
+        "title": "Brown at Martin Corporation the year Skunkworks was formed",
+        "years": {
+          "from": 1942,
+          "to": 1943
+        },
+        "place_text": "Martin Corporation, United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "kRO5jOa06Qw",
+      "mOWwdIuyaQA"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

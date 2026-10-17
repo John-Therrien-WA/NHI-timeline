@@ -1,0 +1,73 @@
+{
+  "id": "tom-delonge-says-nhi-are-archons",
+  "title": "Tom DeLonge says NHI are archons",
+  "summary": "Jesse Michels tells of Tom DeLonge says NHI are archons, about recent at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 5657.0,
+      "to_s": 5670.0,
+      "teller": "jesse-michels",
+      "quote": "control or not I I once I got breakfast with Tom dong who I know you worked with that to the Stars Academy and he was saying that um he thought that a lot of these nhi are not great",
+      "kind": "secondhand",
+      "cites": [
+        "tom-delonge"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 6618.0,
+      "to_s": 6625.0,
+      "teller": "jesse-michels",
+      "quote": ">> And he actually referenced Gnostic thought at the time. He was talking about the archons who were considered kind of",
+      "kind": "host",
+      "cites": [
+        "tom-delonge"
+      ],
+      "documents": [],
+      "difference": "Names Gnostic thought as the explicit frame for DeLonge's archon remarks.",
+      "link_reason": "Both tellings describe the same breakfast at which Tom DeLonge told Jesse Michels he thought NHI were archons.",
+      "as_told": {
+        "title": "Breakfast with Tom DeLonge discussing Gnostic archons",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

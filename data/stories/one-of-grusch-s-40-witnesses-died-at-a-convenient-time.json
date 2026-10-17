@@ -1,0 +1,52 @@
+{
+  "id": "one-of-grusch-s-40-witnesses-died-at-a-convenient-time",
+  "title": "One of Grusch's 40 witnesses died at a convenient time",
+  "summary": "Jake Barber tells of One of Grusch's 40 witnesses died at a convenient time, about recent at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 7228.0,
+      "to_s": 7242.0,
+      "teller": "jake-barber",
+      "quote": "one of them is the guy who's no longer with us. Um, whose demise was was quite conveniently timed for those who might have something to do with it.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jake-barber"
+    ],
+    "episodes": [
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

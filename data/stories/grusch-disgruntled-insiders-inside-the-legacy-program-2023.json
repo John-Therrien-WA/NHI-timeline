@@ -1,0 +1,61 @@
+{
+  "id": "grusch-disgruntled-insiders-inside-the-legacy-program-2023",
+  "title": "Grusch: disgruntled insiders inside the legacy program",
+  "summary": "Jesse Michels tells of Grusch: disgruntled insiders inside the legacy program, about 2023-2024 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2024
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 10171.0,
+      "to_s": 10180.0,
+      "teller": "jesse-michels",
+      "quote": "And clearly people even he he was said this in my interview with him. People on the inside want this stuff together. They were extremely disgruntled.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "grusch-named-sarbacher-as-the-key-to-the-program-s-architect-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

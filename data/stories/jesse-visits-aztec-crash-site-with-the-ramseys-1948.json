@@ -1,0 +1,84 @@
+{
+  "id": "jesse-visits-aztec-crash-site-with-the-ramseys-1948",
+  "title": "Jesse visits Aztec crash site with the Ramseys",
+  "summary": "Jesse Michels tells of Jesse visits Aztec crash site with the Ramseys, about 1948 at New Mexico (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 8997.0,
+      "to_s": 9007.0,
+      "teller": "jesse-michels",
+      "quote": ">> I I want to say $600,000 plus into this investigation over decades and they have so much evidence. I mean I went to the crash site with them.",
+      "kind": "firsthand",
+      "cites": [
+        "scott-ramsey",
+        "suzanne-ramsey"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 3649.0,
+      "to_s": 3655.0,
+      "teller": "jesse-michels",
+      "quote": "uh you know, you know, my editors here with me and we we both went to Aztec New Mexico to investigate the crash there.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Says he went with his editor and doesn't mention the Ramseys.",
+      "link_reason": "This is the same trip Jesse made to the Aztec, New Mexico crash site to investigate the 1948 crash.",
+      "as_told": {
+        "title": "Investigating the Aztec crash on site",
+        "years": {
+          "from": 1948,
+          "to": 1948
+        },
+        "place_text": "Aztec, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "aztec-crash-possibly-brought-down-by-the-lashup-radar-networ-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kccrkCGGzX4",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "norseen-report-under-nasa-weather-contract-n66001-2000",
+  "title": "Norseen report under NASA weather contract N66001",
+  "summary": "Jesse Michels tells of Norseen report under NASA weather contract N66001, about c. 2000 at Navy SPAWAR Systems Center, San Diego, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2000
+  },
+  "place": null,
+  "place_text": "Navy SPAWAR Systems Center, San Diego",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 4446.0,
+      "to_s": 4453.0,
+      "teller": "jesse-michels",
+      "quote": "According to Norseen citation, that report was funded under the contract N66001. [music]",
+      "kind": "host",
+      "cites": [
+        "john-norseen"
+      ],
+      "documents": [
+        "biofusion-reflexive-control-and-neuro-ergonomic-integration"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "OOr98r51Sj0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

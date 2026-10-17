@@ -1,0 +1,92 @@
+{
+  "id": "hal-puthoff-on-rogan-us-holds-15-crashed-craft-2025",
+  "title": "Hal Puthoff on Rogan: US holds 15 crashed craft",
+  "summary": "Jesse Michels tells of Hal Puthoff on Rogan: US holds 15 crashed craft, about 2025 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2025
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 16027.0,
+      "to_s": 16036.0,
+      "teller": "jesse-michels",
+      "quote": "Hal Putoff also went on Joe Rogan a few months ago and said, \"We have 15 crash craft in our possession.\"",
+      "kind": "host",
+      "cites": [
+        "hal-putoff",
+        "joe-rogan"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 10478.0,
+      "to_s": 10485.0,
+      "teller": "jesse-michels",
+      "quote": "like you know if he's saying definitively the 12 to 15 >> crafts you know on on Joe Rogan it's like where are you getting that",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff",
+        "joe-rogan"
+      ],
+      "documents": [],
+      "difference": "Gives the number as 12 to 15 rather than 15, and the teller doubts where Puthoff got it.",
+      "link_reason": "Same story: Puthoff said on Joe Rogan's show that the US holds about 15 crashed craft.",
+      "as_told": {
+        "title": "Puthoff on Rogan: 12 to 15 craft",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "jake-barber-psionic-crash-retrieval-team-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fewer-than-40-recovered-crashes-1930",
+      "relation": "variant",
+      "note": "Both give a count of the crashed craft the US holds. Davis says fewer than 40, which differs from Puthoff's 15, so one count could be right and the other wrong."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

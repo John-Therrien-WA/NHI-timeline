@@ -1,0 +1,54 @@
+{
+  "id": "princeton-studies-of-geller",
+  "title": "Princeton studies of Geller",
+  "summary": "Jesse Michels tells of Princeton studies of Geller, about unspecified at Princeton, New Jersey, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Princeton, New Jersey",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 7091.0,
+      "to_s": 7095.0,
+      "teller": "jesse-michels",
+      "quote": "they're they even have like a some papers where they studied him at Princeton and",
+      "kind": "host",
+      "cites": [
+        "friend-at-the-princeton-parapsychology-l"
+      ],
+      "documents": [
+        "princeton-papers-on-geller"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

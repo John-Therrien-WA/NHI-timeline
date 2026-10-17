@@ -1,0 +1,64 @@
+{
+  "id": "aztec-crash-possibly-brought-down-by-the-lashup-radar-networ-1948",
+  "title": "Aztec crash possibly brought down by the lashup radar network",
+  "summary": "UAPGerb tells of Aztec crash possibly brought down by the lashup radar network, about 1948 at New Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 7021.0,
+      "to_s": 7030.0,
+      "teller": "uapgerb",
+      "quote": "Uh one of the prevailing theories is that the uh the lashup radar network which was constructed over uh New Mexico to protect against Soviet bomber attacks",
+      "kind": "researcher",
+      "cites": [
+        "j-andrew-kissner",
+        "chris-ramsey",
+        "silas-newton",
+        "leo-gebauer"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "jesse-visits-aztec-crash-site-with-the-ramseys-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

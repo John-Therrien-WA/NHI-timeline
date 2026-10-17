@@ -1,0 +1,57 @@
+{
+  "id": "palomar-transients-missing-in-earth-s-shadow-1949",
+  "title": "Palomar transients missing in Earth's shadow",
+  "summary": "Jesse Michels tells of Palomar transients missing in Earth's shadow, about 1949-1957 at Palomar Observatory, San Diego, California, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1949,
+    "to": 1957
+  },
+  "place": null,
+  "place_text": "Palomar Observatory, San Diego, California",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 4611.0,
+      "to_s": 4620.0,
+      "teller": "jesse-michels",
+      "quote": "said, \"Yeah, you know, these objects\nare falling on the dark side of the Earth\nwhen they shouldn't be being\nilluminated by the sun?\"",
+      "kind": "host",
+      "cites": [
+        "beatrice-valale"
+      ],
+      "documents": [
+        "vasco-project-studies"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

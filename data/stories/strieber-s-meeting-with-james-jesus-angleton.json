@@ -1,0 +1,53 @@
+{
+  "id": "strieber-s-meeting-with-james-jesus-angleton",
+  "title": "Strieber's meeting with James Jesus Angleton",
+  "summary": "Jesse Michels tells of Strieber's meeting with James Jesus Angleton, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 10789.0,
+      "to_s": 10794.0,
+      "teller": "jesse-michels",
+      "quote": "told me on the podcast as well he met with James Jesus Engleton once",
+      "kind": "secondhand",
+      "cites": [
+        "whitley-strieber",
+        "james-angleton"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

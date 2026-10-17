@@ -1,0 +1,67 @@
+{
+  "id": "brown-meets-teller-and-lemay-driven-by-sarbacher-1950",
+  "title": "Brown meets Teller and LeMay; driven by Sarbacher",
+  "summary": "Jesse Michels tells of Brown meets Teller and LeMay; driven by Sarbacher, about 1950s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3062.0,
+      "to_s": 3072.0,
+      "teller": "jesse-michels",
+      "quote": "Townsend Brown's daughter Linda even recalls that he was often taken home in a black Cadillac driven by a man that she would eventually come to know as Robert Sarbacher.",
+      "kind": "researcher",
+      "cites": [
+        "linda-brown",
+        "robert-sarbacher",
+        "edward-teller",
+        "curtis-lemay",
+        "paul-schatzkin"
+      ],
+      "documents": [
+        "the-man-who-mastered-gravity"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "sarbacher-said-von-neumann-was-directly-involved-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

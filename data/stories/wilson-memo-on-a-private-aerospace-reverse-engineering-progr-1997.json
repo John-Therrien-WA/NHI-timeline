@@ -1,0 +1,267 @@
+{
+  "id": "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+  "title": "Wilson memo on a private aerospace reverse-engineering program",
+  "summary": "Jesse Michels tells of Wilson memo on a private aerospace reverse-engineering program, about 1997 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1997,
+    "to": 1997
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 526.0,
+      "to_s": 540.0,
+      "teller": "jesse-michels",
+      "quote": "is the notorious Wilson memo a leaked document describing a secret meeting occurring between the director of intelligence J2 Admiral Thomas Wilson and a physicist and propulsion expert named Eric Davis",
+      "kind": "host",
+      "cites": [
+        "thomas-wilson",
+        "eric-davis"
+      ],
+      "documents": [
+        "wilson-memo"
+      ]
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 6653.0,
+      "to_s": 6658.0,
+      "teller": "jesse-michels",
+      "quote": "this Wilson memo so you have Admiral Thomas J Wilson",
+      "kind": "host",
+      "cites": [
+        "thomas-j-wilson",
+        "eric-davis",
+        "richard-dolan"
+      ],
+      "documents": [
+        "wilson-memo"
+      ],
+      "difference": "This telling dates the memo to 2002, where the story says 1997, and it also credits Richard Dolan.",
+      "link_reason": "Both tellings are about the same leaked Wilson memo, which describes Admiral Thomas Wilson's meeting with Eric Davis, told by the same host. Both are about the document itself, so the grain matches.",
+      "as_told": {
+        "title": "The Wilson memo",
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 481.0,
+      "to_s": 486.0,
+      "teller": "eric-davis",
+      "quote": "look at the circumstances under which Admiral Wilson um gave me information",
+      "kind": "firsthand",
+      "cites": [
+        "admiral-wilson"
+      ],
+      "documents": [
+        "davis-wilson-memo-congressional-record"
+      ],
+      "difference": "Told firsthand by Davis rather than by the host, and places the memo in the Congressional Record; no year given.",
+      "link_reason": "Both tell of Admiral Wilson giving Eric Davis information, as recorded in the Wilson memo.",
+      "as_told": {
+        "title": "Admiral Wilson gave Davis information (alleged memo in Congressional Record)",
+        "years": null,
+        "place_text": null,
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 7986.0,
+      "to_s": 7997.0,
+      "teller": "jesse-michels",
+      "quote": "Which is strange that he even had that memo, which is which is documenting Eric Davis in the parking lot talking to Admiral Thomas J. Wilson who's head of J2 Joint Chiefs,",
+      "kind": "host",
+      "cites": [
+        "edgar-mitchell",
+        "eric-davis",
+        "thomas-j-wilson"
+      ],
+      "documents": [
+        "wilson-davis-memo"
+      ],
+      "difference": "Says the memo was found at Edgar Mitchell's house and places the meeting in a parking lot.",
+      "link_reason": "This is the same Wilson memo documenting the Davis–Wilson meeting with Admiral Thomas J. Wilson, head of J2.",
+      "as_told": {
+        "title": "Wilson–Davis memo found at Edgar Mitchell's house",
+        "years": {
+          "from": 1997,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 2183.0,
+      "to_s": 2190.0,
+      "teller": "uapgerb",
+      "quote": "that flag officer Thomas Wilson allegedly started to look through where he found the watch committee highle gatekeepers for UFO legacy programs.",
+      "kind": "researcher",
+      "cites": [
+        "thomas-wilson",
+        "paul-kaminsky"
+      ],
+      "documents": [
+        "wilson-davis-notes"
+      ],
+      "difference": "Brings in the 'watch committee' of gatekeepers for the legacy programs and credits Paul Kaminsky.",
+      "link_reason": "The Wilson-Davis notes are the same leaked document as the Wilson memo story, and Wilson finding the gatekeepers is part of what that memo describes.",
+      "as_told": {
+        "title": "Wilson-Davis notes: Admiral Wilson finds the watch committee",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 8922.0,
+      "to_s": 8933.0,
+      "teller": "uapgerb",
+      "quote": "I I think the fundamental facts of the Wilson Davis memo are very true in in the sense that Thomas Wilson was denied access into uh legacy programs while deputy director of the DIA.",
+      "kind": "researcher",
+      "cites": [
+        "eric-davis",
+        "thomas-wilson"
+      ],
+      "documents": [
+        "wilson-davis-memo"
+      ],
+      "difference": "uapgerb backs the memo's core fact that Wilson was denied access to legacy programs, and places Wilson as deputy director of the DIA rather than J2.",
+      "link_reason": "Both are about the 1997 Wilson memo of Admiral Thomas Wilson's meeting with Eric Davis about legacy reverse-engineering programs.",
+      "as_told": {
+        "title": "Wilson-Davis memo: Admiral Wilson denied access to legacy programs",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 3076.0,
+      "to_s": 3079.0,
+      "teller": "eric-davis",
+      "quote": "Yeah, they're real. They're legit. They're 100% accurate. Yeah.",
+      "kind": "firsthand",
+      "cites": [
+        "thomas-wilson",
+        "edgar-mitchell"
+      ],
+      "documents": [
+        "wilson-davis-notes"
+      ],
+      "difference": "Davis, one of the two people in the meeting, says the notes are real and 100% accurate.",
+      "link_reason": "This is about the same Wilson-Davis memo as the Wilson memo story, now with Davis vouching that it is genuine.",
+      "as_told": {
+        "title": "Davis confirms the Wilson-Davis notes are authentic",
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "place_text": "EG&G parking lot, Las Vegas, Nevada",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 8888.0,
+      "to_s": 8910.0,
+      "teller": "eric-davis",
+      "quote": "there's Admiral Wilson who said, \"I tried to get in the program. I met the program manager, the corporate security chief, the legal counsel, and the chief scientist, and they told me after a lot of resistance and arguing, they finally said, \"This is what you're looking for. It is a crash retrieval, nine human intelligence, non-human technology, off-world,",
+      "kind": "secondhand",
+      "cites": [
+        "thomas-wilson"
+      ],
+      "documents": [],
+      "difference": "Davis gives Wilson's own words and lists the officials he met, who told him the program was crash retrieval of off-world, non-human technology.",
+      "link_reason": "Admiral Wilson's 1997 meeting with the contractor's program manager, security chief and lawyer, ending in refused entry, is the meeting recorded in the Wilson memo story.",
+      "as_told": {
+        "title": "Admiral Wilson refused entry to a crash-retrieval program",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "aerospace contractor, USA",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 2121.0,
+      "to_s": 2130.0,
+      "teller": "jesse-michels",
+      "quote": "And they're in the parking lot of EG&G and Thomas Wilson is like furious that he doesn't have oversight over this specific corporate program which seems",
+      "kind": "host",
+      "cites": [
+        "eric-davis",
+        "thomas-wilson"
+      ],
+      "documents": [
+        "wilson-davis-memo"
+      ],
+      "difference": "Adds that Wilson was furious at being denied oversight, and places the meeting at EG&G.",
+      "link_reason": "Both tell of the Wilson memo describing Admiral Wilson and Eric Davis in the EG&G parking lot, with Wilson denied access to a corporate program.",
+      "as_told": {
+        "title": "Wilson-Davis memo: Admiral Wilson denied access to EG&G program",
+        "years": null,
+        "place_text": "EG&G parking lot",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "1997-unod-declaring-the-programs-illegal",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 2,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ",
+      "bVhSPH2A5Vw",
+      "d9tdJ2SkBKQ",
+      "fyX8V1XXmQM",
+      "hBrfe4hFuM0",
+      "u7g5Sn1DJF4",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "told-once"
+}

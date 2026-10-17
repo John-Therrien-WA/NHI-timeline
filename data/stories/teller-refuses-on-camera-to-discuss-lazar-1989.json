@@ -1,0 +1,55 @@
+{
+  "id": "teller-refuses-on-camera-to-discuss-lazar-1989",
+  "title": "Teller refuses on camera to discuss Lazar",
+  "summary": "Bob Lazar tells of Teller refuses on camera to discuss Lazar, about after 1989 at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1989,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 1332.0,
+      "to_s": 1339.0,
+      "teller": "bob-lazar",
+      "quote": "I mean, I spoke to the guy before he went and interviewed Teller. He was one of Teller's students.",
+      "kind": "secondhand",
+      "cites": [
+        "edward-teller"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

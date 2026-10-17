@@ -1,0 +1,91 @@
+{
+  "id": "robertson-panel-aim-to-debunk-sightings-1953",
+  "title": "Robertson Panel aim to debunk sightings",
+  "summary": "Jesse Michels tells of Robertson Panel aim to debunk sightings, about 1953 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1953,
+    "to": 1953
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 3236.0,
+      "to_s": 3253.0,
+      "teller": "jesse-michels",
+      "quote": "you look at, you know, the Robertson panel documentation, which is was meant to be classified at the time, saying Blue Book's literal explicit motive is to throw the public off and systematically downplay, suppress, and rationalize UFO sightings.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "robertson-panel-report"
+      ]
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 10411.0,
+      "to_s": 10417.0,
+      "teller": "jesse-michels",
+      "quote": "for for for the reasons outlined in the Robertson memo. You know, they would it would touch off mass hysteria.",
+      "kind": "host",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": [
+        "robertson-memo"
+      ],
+      "difference": "Gives fear of mass hysteria as the reason, where the story stresses a deliberate aim to debunk and suppress sightings, and credits Hal Puthoff.",
+      "link_reason": "Both are about the 1953 Robertson panel documentation as a reason for UFO secrecy and downplaying.",
+      "as_told": {
+        "title": "Robertson memo on UFO secrecy and mass hysteria",
+        "years": {
+          "from": 1953,
+          "to": 1953
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "cia-robertson-panel-1953",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "walter-b-smith-1953-letter-on-using-the-phenomenon-for-psych",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

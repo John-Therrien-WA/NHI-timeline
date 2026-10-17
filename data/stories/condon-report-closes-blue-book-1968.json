@@ -1,0 +1,113 @@
+{
+  "id": "condon-report-closes-blue-book-1968",
+  "title": "Condon report closes Blue Book",
+  "summary": "Jesse Michels tells of Condon report closes Blue Book, about 1968 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1968
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "_bM9eAtCOGw",
+      "from_s": 352.0,
+      "to_s": 360.0,
+      "teller": "jesse-michels",
+      "quote": "The 1968 Condon report closed shop on Bluebook and dismissed a lot of its findings with very prosaic explanations.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "condon-report"
+      ]
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 2419.0,
+      "to_s": 2435.0,
+      "teller": "jesse-michels",
+      "quote": "Condan committee reports which you know ended up saying blue book was a waste of time the air force project with Jen Heinneck where they were looking at UFOs and if you look at that report you actually look at the substance over 30% of cases were totally still unidentified.",
+      "kind": "host",
+      "cites": [
+        "j-allen-hynek"
+      ],
+      "documents": [
+        "condon-committee-report"
+      ],
+      "difference": "Says over 30% of the report's cases stayed unidentified despite its dismissive conclusion, and credits Hynek.",
+      "link_reason": "Both are about the Condon report that closed out Blue Book.",
+      "as_told": {
+        "title": "Condon report's unidentified cases",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 5467.0,
+      "to_s": 5472.0,
+      "teller": "jesse-michels",
+      "quote": "committee report it's over 30% still\nunidentified.",
+      "kind": "host",
+      "cites": [
+        "sean-kirkpatrick"
+      ],
+      "documents": [
+        "condon-committee-report"
+      ],
+      "difference": "Adds a comparison with AARO under Sean Kirkpatrick also leaving cases unidentified.",
+      "link_reason": "Same claim as the Condon report story's telling that over 30% of cases stayed unidentified despite the dismissal.",
+      "as_told": {
+        "title": "Condon report and AARO still leave over 30% unidentified",
+        "years": {
+          "from": 1969,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "robert-f-kennedy-s-1968-letter-to-a-ufo-researcher",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "_bM9eAtCOGw",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

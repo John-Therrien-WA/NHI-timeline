@@ -1,0 +1,84 @@
+{
+  "id": "kordylewski-clouds-and-1920s-long-delay-echoes",
+  "title": "Kordylewski clouds and 1920s long delay echoes",
+  "summary": "Jesse Michels tells of Kordylewski clouds and 1920s long delay echoes, about 1920s at The Moon, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1920,
+    "to": 1929
+  },
+  "place": "moon",
+  "place_text": "Earth-Moon Lagrangian point",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 3723.0,
+      "to_s": 3737.0,
+      "teller": "jesse-michels",
+      "quote": "um these cordallowski clouds these clouds of plasma that exist in lrangeian points between uh earth and uh the sun and those might be responsible for these long delay echo transmissions",
+      "kind": "host",
+      "cites": [
+        "robert-temple"
+      ],
+      "documents": [
+        "the-new-science-of-heaven",
+        "robert-temple-researchgate-paper"
+      ]
+    },
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 8916.0,
+      "to_s": 8925.0,
+      "teller": "jesse-michels",
+      "quote": "and he believes that it's responsible for these long delay echoes these radio transmissions that were sent in the early 1920s",
+      "kind": "host",
+      "cites": [
+        "robert-temple"
+      ],
+      "documents": [
+        "a-new-science-of-heaven"
+      ],
+      "difference": "Puts the clouds at the Earth-Moon L5 point, where the story's telling says the Lagrangian points lie between the Earth and the Sun.",
+      "link_reason": "Both credit Robert Temple with the theory that Kordylewski plasma clouds at a Lagrangian point caused the 1920s long-delay radio echoes.",
+      "as_told": {
+        "title": "Kordylewski cloud as the source of 1920s long-delay radio echoes",
+        "years": {
+          "from": 1920,
+          "to": 1929
+        },
+        "place_text": "L5 Lagrangian point between the Earth and the Moon",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

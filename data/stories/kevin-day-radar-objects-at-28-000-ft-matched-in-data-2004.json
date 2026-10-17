@@ -1,0 +1,72 @@
+{
+  "id": "kevin-day-radar-objects-at-28-000-ft-matched-in-data-2004",
+  "title": "Kevin Day radar objects at 28,000 ft matched in data",
+  "summary": "Merrick tells of Kevin Day radar objects at 28,000 ft matched in data, about 2004 at Off Southern California, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "off Southern California",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 4517.0,
+      "to_s": 4522.0,
+      "teller": "merrick",
+      "quote": "So, um Kevin Day said that these objects were at 28,000 ft.",
+      "kind": "secondhand",
+      "cites": [
+        "kevin-day",
+        "chad-underwood"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "fravor-and-dietrich-disagree-on-how-long-the-encounter-laste-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fravor-and-dietrich-saw-appendages-on-underwood-s-flir-tape-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "underwood-says-the-flir-could-not-have-lost-lock-active-duty-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

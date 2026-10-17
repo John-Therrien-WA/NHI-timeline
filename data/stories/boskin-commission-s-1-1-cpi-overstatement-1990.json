@@ -1,0 +1,66 @@
+{
+  "id": "boskin-commission-s-1-1-cpi-overstatement-1990",
+  "title": "Boskin Commission's 1.1% CPI overstatement",
+  "summary": "Eric Weinstein tells of Boskin Commission's 1.1% CPI overstatement, about 1990s at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 11175.0,
+      "to_s": 11189.0,
+      "teller": "eric-weinstein",
+      "quote": "So there was a crime going on which the Bosan Commission was committing against the American people by putting in a 1.1% overstatement in the CPI by hand",
+      "kind": "researcher",
+      "cites": [
+        "boskin-commission"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "rockefeller-pressure-leads-the-clinton-administration-to-loo-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pandolfi-steers-clinton-toward-a-maccabee-briefing-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

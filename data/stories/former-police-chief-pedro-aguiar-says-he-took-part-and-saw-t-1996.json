@@ -1,0 +1,80 @@
+{
+  "id": "former-police-chief-pedro-aguiar-says-he-took-part-and-saw-t-1996",
+  "title": "Former police chief Pedro Aguiar says he took part and saw the creature",
+  "summary": "James Fox tells of Former police chief Pedro Aguiar says he took part and saw the creature, about 1996 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 4500.0,
+      "to_s": 4512.0,
+      "teller": "james-fox",
+      "quote": "And and at one point we asked him like when things got more comfortable and he goes, \"I'm a I participated. I'm a witness.\" He saw the creature under a tarp, maybe the bottom half or something.",
+      "kind": "secondhand",
+      "cites": [
+        "pedro-agriar",
+        "marco-leo",
+        "dave"
+      ],
+      "documents": [
+        "moment-of-contact"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "general-tells-varginha-driver-what-he-saw-was-supernatural-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "night-meeting-with-military-x-about-the-varginha-operation-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-neurosurgeon-and-new-witness-testimony-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "senate-armed-services-staff-on-admiral-wilson",
+  "title": "Senate Armed Services staff on Admiral Wilson",
+  "summary": "James Fox tells of Senate Armed Services staff on Admiral Wilson, about recent at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 7069.0,
+      "to_s": 7075.0,
+      "teller": "james-fox",
+      "quote": "reverse engineered UFOs I talked to some staff members of the Senate arms committee",
+      "kind": "secondhand",
+      "cites": [
+        "thomas-j-wilson"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 8002.0,
+      "to_s": 8007.0,
+      "teller": "jesse-michels",
+      "quote": "And he goes and I talked to the people that subpoenaed him.",
+      "kind": "secondhand",
+      "cites": [
+        "thomas-j-wilson"
+      ],
+      "documents": [],
+      "difference": "Frames it as Wilson being subpoenaed into a SCIF in the 2020s.",
+      "link_reason": "In both, Fox talks to the Senate committee people who called Admiral Wilson in about reverse-engineered UFOs, and they relay his response.",
+      "as_told": {
+        "title": "Admiral Wilson's response to being called into a SCIF",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several"
+}

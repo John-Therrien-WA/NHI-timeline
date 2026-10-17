@@ -1,0 +1,59 @@
+{
+  "id": "soviet-microwave-beaming-of-the-us-embassy-in-moscow-1970",
+  "title": "Soviet microwave beaming of the US embassy in Moscow",
+  "summary": "Jesse Michels tells of Soviet microwave beaming of the US embassy in Moscow, about 1970s (c. 1976) at US Embassy, Moscow, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "US Embassy, Moscow",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 3306.0,
+      "to_s": 3322.0,
+      "teller": "jesse-michels",
+      "quote": "Interesting. Yeah, there's um I think\nit's 1976 salt uh talks and it's uh\nKissinger is talking to Door Brinan\nwho's the you know foreign minister uh\nfrom the Soviets and he's saying stop\nbeaming our embassy with microwaves.",
+      "kind": "host",
+      "cites": [
+        "henry-kissinger",
+        "anatoly-dobrynin",
+        "walter-stoessel"
+      ],
+      "documents": [
+        "der-spiegel-60-minutes-report"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "jMCavr3dVP0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

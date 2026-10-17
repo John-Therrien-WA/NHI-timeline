@@ -1,0 +1,57 @@
+{
+  "id": "henri-coanda-s-1936-saucer-patent-and-project-y-consulting",
+  "title": "Henri Coanda's 1936 saucer patent and Project Y consulting",
+  "summary": "Jesse Michels tells of Henri Coanda's 1936 saucer patent and Project Y consulting, about 1936; 1950s at Vichy France; Wright-Patterson AFB, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1936,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Vichy France; Wright-Patterson AFB",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 8357.0,
+      "to_s": 8362.0,
+      "teller": "jesse-michels",
+      "quote": ">> He had basically the first patent on a flying saucer in 1936.",
+      "kind": "host",
+      "cites": [
+        "henri-coanda"
+      ],
+      "documents": [
+        "coanda-flying-saucer-patent-1936"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

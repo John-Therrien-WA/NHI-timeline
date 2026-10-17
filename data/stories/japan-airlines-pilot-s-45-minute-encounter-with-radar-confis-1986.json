@@ -1,0 +1,103 @@
+{
+  "id": "japan-airlines-pilot-s-45-minute-encounter-with-radar-confis-1986",
+  "title": "Japan Airlines pilot's 45-minute encounter with radar confiscated by the White House",
+  "summary": "Jesse Michels tells of Japan Airlines pilot's 45-minute encounter with radar confiscated by the White House, about 1986 at Alaska, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1986,
+    "to": 1986
+  },
+  "place": null,
+  "place_text": "Alaska",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 4214.0,
+      "to_s": 4223.0,
+      "teller": "jesse-michels",
+      "quote": "We have Japan Airlines pilot flying for 45 minutes with radar that was confiscated by the White House and the radar is publicly available and physicists have looked at it",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 4076.0,
+      "to_s": 4080.0,
+      "teller": "jesse-michels",
+      "quote": "brought up like this Japan Airlines case in 1986",
+      "kind": "host",
+      "cites": [
+        "kevin-knuth",
+        "michael-shermer"
+      ],
+      "documents": [],
+      "difference": "Credits Kevin Knuth and Michael Shermer and gives no flight duration or confiscation detail.",
+      "link_reason": "Same story: the 1986 Japan Airlines radar case over Alaska.",
+      "as_told": {
+        "title": "Japan Airlines 1628 radar case",
+        "years": {
+          "from": 1986,
+          "to": 1986
+        },
+        "place_text": "Alaska airspace",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 3416.0,
+      "to_s": 3425.0,
+      "teller": "kevin-knuth",
+      "quote": "a JAL Airlines flight 6, JAL 1628. It was a Japan Airlines cargo flight piloted by Captain Kenju Teruchi.",
+      "kind": "researcher",
+      "cites": [
+        "kenju-teruchi",
+        "daniel-kumbbe"
+      ],
+      "documents": [],
+      "difference": "Names the captain (Kenju Teruchi) and the flight number (JAL 1628), calls it a cargo flight and a giant craft, and leaves out the 45 minutes and the White House taking the radar.",
+      "link_reason": "Both tell of the 1986 Japan Airlines encounter over Alaska.",
+      "as_told": {
+        "title": "JAL 1628 followed by a giant craft over Alaska",
+        "years": {
+          "from": 1986,
+          "to": 1986
+        },
+        "place_text": "Alaska",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "IWui5cBkwoE",
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

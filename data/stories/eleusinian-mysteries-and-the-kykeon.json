@@ -1,0 +1,138 @@
+{
+  "id": "eleusinian-mysteries-and-the-kykeon",
+  "title": "Eleusinian Mysteries and the kykeon",
+  "summary": "Jesse Michels tells of Eleusinian Mysteries and the kykeon, about ancient Greece at Eleusis, 13 miles northwest of Athens, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "ancient-greece",
+  "place_text": "Eleusis, 13 miles northwest of Athens",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "KRDE1i3LDuU",
+      "from_s": 5648.0,
+      "to_s": 5654.0,
+      "teller": "jesse-michels",
+      "quote": "of they they drink the kekon which is maybe as speculated by Brian Morescu this sort of urgot that contains LSD",
+      "kind": "host",
+      "cites": [
+        "brian-muraresku",
+        "plato",
+        "socrates",
+        "alcibiades"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 3179.0,
+      "to_s": 3187.0,
+      "teller": "andrew-gallimore",
+      "quote": "it could be the theian mysteries where they discovered this urgot preparation.",
+      "kind": "researcher",
+      "cites": [
+        "brian-muresco"
+      ],
+      "documents": [],
+      "difference": "Told by Gallimore rather than the host, and does not name the kykeon or LSD.",
+      "link_reason": "Both tell of the Eleusinian Mysteries using an ergot preparation, as speculated by Brian Muraresku.",
+      "as_told": {
+        "title": "Eleusinian Mysteries' ergot preparation",
+        "years": null,
+        "place_text": "Eleusis, Greece",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 2780.0,
+      "to_s": 2790.0,
+      "teller": "jesse-michels",
+      "quote": "people went to Elusus as human beings and from what little testimony survived, again, because it's secret, under penalty of death, they they walked away thinking they were immortal.",
+      "kind": "secondhand",
+      "cites": [
+        "brian-muraresku"
+      ],
+      "documents": [
+        "the-immortality-key"
+      ],
+      "difference": "Stresses that initiates came away believing they were immortal and that the rites were secret on pain of death, and does not mention the kykeon.",
+      "link_reason": "The same Eleusinian Mysteries at Eleusis, credited to Brian Muraresku.",
+      "as_told": {
+        "title": "The Eleusinian Mysteries",
+        "years": null,
+        "place_text": "Eleusis, Greece",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "6bqaHVSlVeU",
+      "from_s": 6561.0,
+      "to_s": 6567.0,
+      "teller": "jesse-michels",
+      "quote": "some, you know, crazy psychedelic kekon in the Greek Elusinian mystery rituals back in the day,",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Frames the kykeon as a psychedelic that freed the soul so people could see beings, and doesn't mention Muraresku's ergot/LSD idea.",
+      "link_reason": "Both tell of the kykeon drunk in the Eleusinian Mysteries at Eleusis as a mind-altering potion.",
+      "as_told": {
+        "title": "Eleusinian mysteries' kykeon used to free the soul and see beings",
+        "years": null,
+        "place_text": "Eleusis, Greece",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 6351.0,
+      "to_s": 6359.0,
+      "teller": "jesse-michels",
+      "quote": "this cathedral in Greece around the Elusinian mystery rituals, you had, you know, if you die before you die, you won't die when you die.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Frames the mysteries by the saying 'die before you die' and leaves out the kykeon and ergot.",
+      "link_reason": "Both are about the Eleusinian mystery rituals and what initiates came away with. The story's tellings already include initiates leaving convinced they were immortal.",
+      "as_told": {
+        "title": "Eleusinian mysteries: die before you die",
+        "years": null,
+        "place_text": "Eleusis, Greece",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "andrew-gallimore",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "6bqaHVSlVeU",
+      "8XD1ZiuhXoY",
+      "C_Na1tI5qpw",
+      "KRDE1i3LDuU",
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested"
+}

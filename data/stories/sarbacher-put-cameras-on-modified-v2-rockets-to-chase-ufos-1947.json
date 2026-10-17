@@ -1,0 +1,66 @@
+{
+  "id": "sarbacher-put-cameras-on-modified-v2-rockets-to-chase-ufos-1947",
+  "title": "Sarbacher put cameras on modified V2 rockets to chase UFOs",
+  "summary": "Jesse Michels tells of Sarbacher put cameras on modified V2 rockets to chase UFOs, about late 1940s-1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 982.0,
+      "to_s": 995.0,
+      "teller": "jesse-michels",
+      "quote": "Sarbacher's son has now gone on record saying, \"My father told me that he used to put cameras on, you know, modified versions of V2 rockets in order to chase UFOs.\"",
+      "kind": "host",
+      "cites": [
+        "robert-sarbacher-s-son"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "mj-12-scientists-really-were-involved-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-scientists-lose-clearances-while-nazis-are-put-in-charge-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

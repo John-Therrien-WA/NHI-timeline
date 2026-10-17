@@ -1,0 +1,55 @@
+{
+  "id": "travis-walton-is-struck-by-a-craft-s-energy-discharge-1975",
+  "title": "Travis Walton is struck by a craft's energy discharge",
+  "summary": "Joe Rogan tells of Travis Walton is struck by a craft's energy discharge, about 1975 at Arizona, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1975
+  },
+  "place": null,
+  "place_text": "Arizona",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 9614.0,
+      "to_s": 9618.0,
+      "teller": "joe-rogan",
+      "quote": ">> they didn't choose Travis Walton. He ran up to the craft and got blasted.",
+      "kind": "secondhand",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

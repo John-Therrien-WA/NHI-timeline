@@ -1,0 +1,97 @@
+{
+  "id": "john-lear-helped-get-bob-lazar-the-s4-job-1987",
+  "title": "John Lear helped get Bob Lazar the S4 job",
+  "summary": "UAPGerb tells of John Lear helped get Bob Lazar the S4 job, about late 1980s at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1989
+  },
+  "place": "nevada-test-site",
+  "place_text": "S4, Area 51, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 12075.0,
+      "to_s": 12085.0,
+      "teller": "uapgerb",
+      "quote": "John Lear uh is on record saying in an interview like I helped you know uh uh get Bob Lazar a job at S4 Area 51",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear",
+        "bob-lazar",
+        "mike-mcclellan",
+        "mike-mcconnell"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 8628.0,
+      "to_s": 8647.0,
+      "teller": "jesse-michels",
+      "quote": "yeah, uh Admiral McClellan, who was a Navy Admiral, came to me, and he was MJ level, you know, MJ obviously in the UFO lore would be like the elite, you know, kind of committee that governs this whole topic, came to me, and he said, \"We got to get Bob on the job because we know that we can hide his",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear",
+        "mike-mcconnell"
+      ],
+      "documents": [
+        "john-lear-interview"
+      ],
+      "difference": "Adds that an admiral at MJ level asked for Lazar to be placed so his role could be hidden (plausible deniability).",
+      "link_reason": "Both are Lear's interview claim that he helped get Lazar placed at S4, with McConnell/McClellan credited.",
+      "as_told": {
+        "title": "John Lear's claim that Admiral McConnell (MJ-1) wanted Lazar placed at S4 for plausible deniability",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "Las Vegas / S4, Nevada",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "1988-resume-to-teller-leads-to-eg-g-and-s-4",
+      "relation": "variant",
+      "note": "Both explain how Lazar got the S-4 job. The story credits John Lear's help, while this telling credits a 1988 resume sent to Edward Teller, so the core claims conflict."
+    },
+    {
+      "story": "name-dennis-mariani-confirmed-by-someone-at-the-nevada-test-1987",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested"
+}

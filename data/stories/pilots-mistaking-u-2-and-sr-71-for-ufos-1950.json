@@ -1,0 +1,64 @@
+{
+  "id": "pilots-mistaking-u-2-and-sr-71-for-ufos-1950",
+  "title": "Pilots mistaking U-2 and SR-71 for UFOs",
+  "summary": "Michael Shurmer tells of Pilots mistaking U-2 and SR-71 for UFOs, about 1950s-1960s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 2040.0,
+      "to_s": 2055.0,
+      "teller": "michael-shurmer",
+      "quote": "at UFOs that are streaking above them at like three or four times their speed, two or three times the height that they're at at 35,000 ft. Okay, they were seeing the U2 spy plane or the SR71 Blackbird, but they didn't know about that because that was secret.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "the-golden-age-of-general-relativity-bahnson-and-babson-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "was-condon-blackmailed-by-fbi-agent-guy-hottel-into-debunkin-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "michael-shurmer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

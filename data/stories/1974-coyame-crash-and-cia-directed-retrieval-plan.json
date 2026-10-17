@@ -1,0 +1,80 @@
+{
+  "id": "1974-coyame-crash-and-cia-directed-retrieval-plan",
+  "title": "1974 Coyame crash and CIA-directed retrieval plan",
+  "summary": "UAPGerb tells of 1974 Coyame crash and CIA-directed retrieval plan, about 1974 at Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1974,
+    "to": 1974
+  },
+  "place": "mexico",
+  "place_text": "Coyame, Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 7571.0,
+      "to_s": 7591.0,
+      "teller": "uapgerb",
+      "quote": "I love the 1974 Coyame New Mexico crash. There's not a ton of supporting evidence, but the story there if true is very very disturbing and also pretty interesting just the way that apparently the DEB report is a CIA directed like logistics plan like the OGA would do to uh gather rapid reaction teams and assets to go retrieve the CF craft",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "deb-report"
+      ]
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 1181.0,
+      "to_s": 1195.0,
+      "teller": "jesse-michels",
+      "quote": "According to the leaked report that surfaced in the '90s, the whole Mexican team ends up dead, and the mystery object is airlifted out by US forces.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "leaked-coyame-report"
+      ],
+      "difference": "Adds a mid-air collision, says the whole Mexican team died and that US forces airlifted the object out, and dates the report's surfacing to the 1990s.",
+      "link_reason": "This is the same 1974 Coyame crash and the US retrieval described in a leaked report.",
+      "as_told": {
+        "title": "1974 Coyame mid-air collision and US retrieval",
+        "years": {
+          "from": 1974,
+          "to": 1974
+        },
+        "place_text": "Coyame, Chihuahua, Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "OOr98r51Sj0",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

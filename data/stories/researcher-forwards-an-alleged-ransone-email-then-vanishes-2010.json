@@ -1,0 +1,57 @@
+{
+  "id": "researcher-forwards-an-alleged-ransone-email-then-vanishes-2010",
+  "title": "Researcher forwards an alleged Ransone email, then vanishes",
+  "summary": "Unnamed guest tells of Researcher forwards an alleged Ransone email, then vanishes, about 2010s-2021 at an unknown place, and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2021
+  },
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 12204.0,
+      "to_s": 12209.0,
+      "teller": "unnamed-guest",
+      "quote": "And and so he forwards me an email, which is allegedly from Valerie, which",
+      "kind": "firsthand",
+      "cites": [
+        "valerie-ransone"
+      ],
+      "documents": [
+        "email-allegedly-from-valerie-ransone"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

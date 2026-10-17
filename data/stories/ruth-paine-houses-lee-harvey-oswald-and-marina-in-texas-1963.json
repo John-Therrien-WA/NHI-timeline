@@ -1,0 +1,94 @@
+{
+  "id": "ruth-paine-houses-lee-harvey-oswald-and-marina-in-texas-1963",
+  "title": "Ruth Paine houses Lee Harvey Oswald and Marina in Texas",
+  "summary": "Peter Levenda tells of Ruth Paine houses Lee Harvey Oswald and Marina in Texas, about 1963 at Texas (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "texas",
+  "place_text": "Texas",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 1121.0,
+      "to_s": 1126.0,
+      "teller": "peter-levenda",
+      "quote": ">> So, they're living with Ruth Payne in this house in Texas.",
+      "kind": "researcher",
+      "cites": [
+        "ruth-paine",
+        "lee-harvey-oswald",
+        "marina-oswald"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 2116.0,
+      "to_s": 2122.0,
+      "teller": "jesse-michels",
+      "quote": "But I think her daughter is Ruth Payne, who takes in Lee Harvey Oswald.",
+      "kind": "host",
+      "cites": [
+        "ruth-paine",
+        "mary-bancroft"
+      ],
+      "documents": [],
+      "difference": "Told by the host, who frames Ruth Paine as the daughter(-in-law) in the Forbes/Young family and mentions Mary Bancroft.",
+      "link_reason": "This is the same 1963 account of Ruth Paine taking in Lee Harvey Oswald in Texas.",
+      "as_told": {
+        "title": "Ruth Paine takes in Lee Harvey Oswald",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "Texas",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "byrd-took-the-sixth-floor-depository-window-for-his-trophy-r-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "oswald-s-attempted-call-to-nags-head-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "peter-levenda"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

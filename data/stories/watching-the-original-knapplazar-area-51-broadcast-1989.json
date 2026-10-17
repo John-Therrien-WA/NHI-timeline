@@ -1,0 +1,67 @@
+{
+  "id": "watching-the-original-knapplazar-area-51-broadcast-1989",
+  "title": "Watching the original Knapp–Lazar Area 51 broadcast",
+  "summary": "Peter Levenda tells of Watching the original Knapp–Lazar Area 51 broadcast, about 1989 at Nevada test site and Area 51, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1989,
+    "to": 1989
+  },
+  "place": "nevada-test-site",
+  "place_text": "Area 51, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 15748.0,
+      "to_s": 15757.0,
+      "teller": "peter-levenda",
+      "quote": "I saw the original broadcast when it happened with George Knapp and Bob Lazar of Area about Area 51, but no one knew what that meant.",
+      "kind": "firsthand",
+      "cites": [
+        "george-knapp",
+        "bob-lazar"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "lazar-has-not-changed-his-story-since-1989",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "caught-on-the-last-trip-and-banned-from-s4-1989",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

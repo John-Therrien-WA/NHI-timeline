@@ -1,0 +1,83 @@
+{
+  "id": "fewer-than-40-recovered-crashes-1930",
+  "title": "Fewer than 40 recovered crashes",
+  "summary": "Eric Davis tells of Fewer than 40 recovered crashes, about 1930s-present at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1930,
+    "to": 1939
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 2856.0,
+      "to_s": 2863.0,
+      "teller": "eric-davis",
+      "quote": "Um I can't give you the official number because I know that number on a classified basis. I could say it's less than 40.",
+      "kind": "firsthand",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 8354.0,
+      "to_s": 8362.0,
+      "teller": "jesse-michels",
+      "quote": "according to Eric Davis or how put off we have like 10 to 40 crafts in hangers across the United States",
+      "kind": "secondhand",
+      "cites": [
+        "eric-davis",
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Gives a range of 10 to 40 craft held in hangars, where the story says fewer than 40 crashes.",
+      "link_reason": "Same classified count of recovered craft, credited to Eric Davis and Hal Puthoff.",
+      "as_told": {
+        "title": "10 to 40 craft held in US hangars",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "hal-puthoff-on-rogan-us-holds-15-crashed-craft-2025",
+      "relation": "variant",
+      "note": "Both give a count of the crashed craft the US holds. Davis says fewer than 40, which differs from Puthoff's 15, so one count could be right and the other wrong."
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "townsend-brown-s-1960s-work-northrop-b-2-and-rand",
+  "title": "Townsend Brown's 1960s work, Northrop B-2 and RAND",
+  "summary": "Jesse Michels tells of Townsend Brown's 1960s work, Northrop B-2 and RAND, about 1960s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 719.0,
+      "to_s": 732.0,
+      "teller": "jesse-michels",
+      "quote": "that's interesting because I know Towns and Brown did some experiments in the 60s right before his work got kind of covertly transferred to Northrup Grumman for the B2 and he did a presentation for Rand Corporation",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "dulles-reactivates-howard-hughes-s-s-force-against-jfk-sheeh-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "intelectron-td-100-transdermal-device-goes-dark-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "project-pandora-and-soviet-radio-frequency-weapons-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

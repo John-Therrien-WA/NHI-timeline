@@ -1,0 +1,52 @@
+{
+  "id": "kobitz-shown-an-atomically-bonded-bulkhead-underground-at-wr",
+  "title": "Kobitz shown an atomically bonded bulkhead underground at Wright-Patterson",
+  "summary": "Ross Coulthart tells of Kobitz shown an atomically bonded bulkhead underground at Wright-Patterson, about unspecified at Wright-Patterson Air Force Base, Ohio, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Wright-Patterson Air Force Base, Ohio",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 2113.0,
+      "to_s": 2125.0,
+      "teller": "ross-coulthart",
+      "quote": "And he was taken into a room under heavy guard Mhm. and shown what he described to me as the piece of a bulkhead.",
+      "kind": "secondhand",
+      "cites": [
+        "nat-kobitz"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

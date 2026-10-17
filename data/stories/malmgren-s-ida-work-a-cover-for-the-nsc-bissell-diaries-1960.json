@@ -1,0 +1,58 @@
+{
+  "id": "malmgren-s-ida-work-a-cover-for-the-nsc-bissell-diaries-1960",
+  "title": "Malmgren's IDA work a cover for the NSC; Bissell diaries",
+  "summary": "Jesse Michels tells of Malmgren's IDA work a cover for the NSC; Bissell diaries, about 1960s at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "washington-dc",
+  "place_text": "Institute for Defense Analyses / White House",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 9398.0,
+      "to_s": 9408.0,
+      "teller": "jesse-michels",
+      "quote": "And he said in a 2024 interview before he interviewed with me that his work at the IDA was actually a cover for what he was doing for the National Security Council in the White House.",
+      "kind": "host",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": [
+        "malmgren-diaries"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

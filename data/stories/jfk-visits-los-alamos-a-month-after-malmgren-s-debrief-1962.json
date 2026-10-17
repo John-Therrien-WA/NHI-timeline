@@ -1,0 +1,85 @@
+{
+  "id": "jfk-visits-los-alamos-a-month-after-malmgren-s-debrief-1962",
+  "title": "JFK visits Los Alamos a month after Malmgren's debrief",
+  "summary": "Jesse Michels tells of JFK visits Los Alamos a month after Malmgren's debrief, about 1962 at Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "mexico",
+  "place_text": "Los Alamos, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9QMrhcpJq8I",
+      "from_s": 5158.0,
+      "to_s": 5168.0,
+      "teller": "jesse-michels",
+      "quote": "director and then a month later you have JFK come out himself. And so that's not really that normal for for JFK to come just check on this",
+      "kind": "host",
+      "cites": [
+        "jeff-cruickshank",
+        "harold-malmgren",
+        "lawrence-gise"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 4283.0,
+      "to_s": 4301.0,
+      "teller": "pippa-malmgren",
+      "quote": "Just just to back up. So, you go out to Los Alamos, you get briefed, you meet Lawrence Keys, and like literally a couple of weeks later, suddenly JFK, LBJ, and their teams are going to Los Alamos.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "john-f-kennedy",
+        "lyndon-b-johnson",
+        "lawrence-gise"
+      ],
+      "documents": [],
+      "difference": "Adds LBJ and their teams, says it was a couple of weeks later instead of a month, and is told by Pippa Malmgren.",
+      "link_reason": "Both tell of JFK visiting Los Alamos shortly after Malmgren's briefing there with Gise.",
+      "as_told": {
+        "title": "JFK and LBJ visit Los Alamos weeks after Malmgren's briefing",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Los Alamos, New Mexico",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "pippa-malmgren"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "9QMrhcpJq8I"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

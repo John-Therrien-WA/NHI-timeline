@@ -1,0 +1,83 @@
+{
+  "id": "gary-mckinnon-finds-a-list-of-off-planet-officers-2001",
+  "title": "Gary McKinnon finds a list of off-planet officers",
+  "summary": "Jesse Michels tells of Gary McKinnon finds a list of off-planet officers, about 2001-2002 at US military databases (hacked from the UK), and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2001,
+    "to": 2002
+  },
+  "place": null,
+  "place_text": "US military databases (hacked from the UK)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 10800.0,
+      "to_s": 10810.0,
+      "teller": "jesse-michels",
+      "quote": "a page comes up and it's this list of 11 or 12 off Planet officers",
+      "kind": "secondhand",
+      "cites": [
+        "gary-mckinnon"
+      ],
+      "documents": [
+        "the-program"
+      ]
+    },
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 6263.0,
+      "to_s": 6272.0,
+      "teller": "jesse-michels",
+      "quote": "he then stumbles upon a\nlist of non-terrestrial officers of\nwhich there are 40",
+      "kind": "host",
+      "cites": [
+        "gary-mckinnon"
+      ],
+      "documents": [
+        "list-of-non-terrestrial-officers"
+      ],
+      "difference": "Puts the number of officers at 40 rather than 11 or 12, and adds a space supply-chain theory.",
+      "link_reason": "Both tell of Gary McKinnon's 2001 hack turning up a list of non-terrestrial/off-planet officers.",
+      "as_told": {
+        "title": "McKinnon's list of non-terrestrial officers; space supply-chain theory",
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "place_text": "Earth orbit",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "mOWwdIuyaQA"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

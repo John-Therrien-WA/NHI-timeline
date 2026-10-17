@@ -1,0 +1,131 @@
+{
+  "id": "carlos-de-souza-witnesses-the-crash-and-debris-field-1996",
+  "title": "Carlos de Souza witnesses the crash and debris field",
+  "summary": "James Fox tells of Carlos de Souza witnesses the crash and debris field, about January 13, 1996 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Molini Farm, near Varginha, Brazil",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 491.0,
+      "to_s": 500.0,
+      "teller": "james-fox",
+      "quote": "He turns off the freeway and he goes up to this place called the Molini Farm. It was a dirt road and he goes up there and he sees it struggling to stay in the air and then it just goes boom and hits the ground.",
+      "kind": "secondhand",
+      "cites": [
+        "carlos-de-souza"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 10253.0,
+      "to_s": 10261.0,
+      "teller": "jesse-michels",
+      "quote": "It crashes on the Myolini farm. This uh ultralight pilot and geography teacher Carlos Doza finds it.",
+      "kind": "host",
+      "cites": [
+        "carlos-de-souza",
+        "james-fox"
+      ],
+      "documents": [],
+      "difference": "Told by the host, crediting James Fox, and describes de Souza as an ultralight pilot and geography teacher.",
+      "link_reason": "Both tell of Carlos de Souza witnessing the 1996 crash on the Molini farm near Varginha and finding the debris.",
+      "as_told": {
+        "title": "Varginha 1996 crash and recovered material",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "clinic-doctor-turns-away-captured-creature-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fire-department-captures-screaming-being-with-a-net-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "footage-of-the-varginha-alien-transport-and-hospital-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fox-s-investigation-of-the-varginha-crash-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "military-driver-sees-non-human-creature-at-humanitas-hospita-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-air-force-plane-lands-at-campinas-and-helicopters-collect-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-being-taken-alive-to-regional-and-then-humanitas-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-witness-held-shape-returning-material-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aldo-rebelo-on-varginha-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-crash-and-captured-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

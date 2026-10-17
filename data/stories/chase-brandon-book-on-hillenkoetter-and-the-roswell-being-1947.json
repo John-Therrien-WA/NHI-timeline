@@ -1,0 +1,112 @@
+{
+  "id": "chase-brandon-book-on-hillenkoetter-and-the-roswell-being-1947",
+  "title": "Chase Brandon book on Hillenkoetter and the Roswell being",
+  "summary": "Jesse Michels tells of Chase Brandon book on Hillenkoetter and the Roswell being, about 1947 at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 2620.0,
+      "to_s": 2627.0,
+      "teller": "jesse-michels",
+      "quote": "talks about Hillen coder and you know one of the first CIA directors uh who dealt with Roswell",
+      "kind": "host",
+      "cites": [
+        "chase-brandon",
+        "roscoe-hillenkoetter",
+        "hal-puthoff"
+      ],
+      "documents": [
+        "cryptos-conundrum"
+      ]
+    },
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 7775.0,
+      "to_s": 7781.0,
+      "teller": "jesse-michels",
+      "quote": "You have another guy named Chase Brandon who's a CIA liaison to Hollywood. He wrote a great book called Crypto's Conundrum.",
+      "kind": "host",
+      "cites": [
+        "chase-brandon"
+      ],
+      "documents": [
+        "the-cryptos-conundrum"
+      ],
+      "difference": "Names the book generally without mentioning Hillenkoetter or Roswell.",
+      "link_reason": "The same book by Chase Brandon, the CIA's Hollywood liaison, presented as a document that reveals UFO history.",
+      "as_told": {
+        "title": "Chase Brandon's book 'The Cryptos Conundrum'",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 13510.0,
+      "to_s": 13518.0,
+      "teller": "jesse-michels",
+      "quote": "Under the pseudonym Chase Brandon, a CIA agent turned Hollywood liaison wrote a book in 2012.",
+      "kind": "host",
+      "cites": [
+        "chase-brandon"
+      ],
+      "documents": [],
+      "difference": "Dates the book to 2012, says Chase Brandon is a pseudonym, and stresses a secret NHI committee and timelines rather than Hillenkoetter and Roswell.",
+      "link_reason": "The same 2012 book by the CIA Hollywood liaison writing as Chase Brandon (The Cryptos Conundrum), which the corpus already holds as a document.",
+      "as_told": {
+        "title": "Chase Brandon's 2012 book about a secret NHI committee and timelines",
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "mj-12-document-cardinal-spellman-given-access-to-roswell-mat-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "bVhSPH2A5Vw",
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

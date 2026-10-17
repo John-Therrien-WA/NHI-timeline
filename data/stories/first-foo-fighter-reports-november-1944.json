@@ -1,0 +1,53 @@
+{
+  "id": "first-foo-fighter-reports-november-1944",
+  "title": "First Foo Fighter reports, November 1944",
+  "summary": "Merrick von Renenamp tells of First Foo Fighter reports, November 1944, about 1944 at unspecified, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1944,
+    "to": 1944
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 713.0,
+      "to_s": 719.0,
+      "teller": "merrick-von-renenamp",
+      "quote": "anniversary of the first reports of Foo Fighters. Like that happened November of 1944.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "merrick-von-renenamp"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

@@ -1,0 +1,70 @@
+{
+  "id": "rockefeller-pressure-leads-the-clinton-administration-to-loo-1990",
+  "title": "Rockefeller pressure leads the Clinton administration to look into Roswell",
+  "summary": "James Fox tells of Rockefeller pressure leads the Clinton administration to look into Roswell, about 1990s at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "washington-dc",
+  "place_text": "White House / Roswell",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 8582.0,
+      "to_s": 8587.0,
+      "teller": "james-fox",
+      "quote": "according to Podesta, Clinton was not happy with the answers they were getting. They were getting the runaround.",
+      "kind": "secondhand",
+      "cites": [
+        "john-podesta",
+        "laurance-rockefeller",
+        "bill-clinton"
+      ],
+      "documents": [
+        "rockefeller-briefing-document"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "boskin-commission-s-1-1-cpi-overstatement-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pandolfi-steers-clinton-toward-a-maccabee-briefing-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "anthony-hopkins-finds-feifer-s-annotated-copy-of-the-girl-fr-1972",
+  "title": "Anthony Hopkins finds Feifer's annotated copy of The Girl from Petrovka",
+  "summary": "Michael Shermer tells of Anthony Hopkins finds Feifer's annotated copy of The Girl from Petrovka, about 1972 at Leicester Square tube station, London, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1972,
+    "to": 1972
+  },
+  "place": null,
+  "place_text": "Leicester Square tube station, London",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 9056.0,
+      "to_s": 9062.0,
+      "teller": "michael-shermer",
+      "quote": "Heading for home, he chanced upon a book on a bench at the Lester Square tube station.",
+      "kind": "researcher",
+      "cites": [
+        "anthony-hopkins",
+        "george-feifer"
+      ],
+      "documents": [
+        "the-girl-from-petrovka"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "michael-shermer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

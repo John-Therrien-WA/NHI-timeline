@@ -1,0 +1,56 @@
+{
+  "id": "aawsap-to-aatip-to-elizondo-to-new-york-times-chain-2007",
+  "title": "AAWSAP to AATIP to Elizondo to New York Times chain",
+  "summary": "Merrick tells of AAWSAP to AATIP to Elizondo to New York Times chain, about 2007-2017 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2007,
+    "to": 2017
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 5775.0,
+      "to_s": 5781.0,
+      "teller": "merrick",
+      "quote": "There's a chain you can draw a direct link OSAP to ATIP to to Lu Alzano to New York Times.",
+      "kind": "researcher",
+      "cites": [
+        "luis-elizondo",
+        "new-york-times"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

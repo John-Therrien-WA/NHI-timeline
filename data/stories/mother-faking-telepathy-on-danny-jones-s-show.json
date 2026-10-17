@@ -1,0 +1,54 @@
+{
+  "id": "mother-faking-telepathy-on-danny-jones-s-show",
+  "title": "Mother faking telepathy on Danny Jones's show",
+  "summary": "Jesse Michels tells of Mother faking telepathy on Danny Jones's show, about recent at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 12888.0,
+      "to_s": 12903.0,
+      "teller": "jesse-michels",
+      "quote": "It's unfortunate that some of them like this woman that went on Danny Jones, I think are actually faking things. The mother of one of the kids and she clearly was peeking past this blindfold",
+      "kind": "host",
+      "cites": [
+        "danny-jones"
+      ],
+      "documents": [
+        "the-telepathy-tapes"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

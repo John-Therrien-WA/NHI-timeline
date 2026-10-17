@@ -1,0 +1,108 @@
+{
+  "id": "gary-mckinnon-s-hack-and-the-tic-tac-image-2001",
+  "title": "Gary McKinnon's hack and the tic tac image",
+  "summary": "Jesse Michels tells of Gary McKinnon's hack and the tic tac image, about 2001 at NASA mission control, Houston, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2001,
+    "to": 2001
+  },
+  "place": "nasa-houston-tx",
+  "place_text": "UK; NASA Johnson Space Center",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 6211.0,
+      "to_s": 6218.0,
+      "teller": "jesse-michels",
+      "quote": "he queried the Johnson Space Center\nbecause there were um there was a a UFO\nwhistleblower named Donna Hair",
+      "kind": "host",
+      "cites": [
+        "gary-mckinnon",
+        "theresa-may"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6435.0,
+      "to_s": 6444.0,
+      "teller": "jesse-michels",
+      "quote": "And McKinnon hacks in and he starts to see a a UFO pop up and populate on his screen. It's a tic-tac UFO and it's orbiting Earth",
+      "kind": "host",
+      "cites": [
+        "gary-mckinnon",
+        "theresa-may",
+        "steven-greer"
+      ],
+      "documents": [
+        "disclosure-project-book"
+      ],
+      "difference": "Dates it 2002-2003, says the tic-tac was orbiting Earth, and adds Steven Greer and the Disclosure Project book.",
+      "link_reason": "Gary McKinnon hacking US networks and seeing a tic-tac UFO image is the same hack-and-image story.",
+      "as_told": {
+        "title": "Gary McKinnon hacks US networks and sees a tic-tac UFO",
+        "years": {
+          "from": 2002,
+          "to": 2003
+        },
+        "place_text": "UK / US military and NASA networks",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 2713.0,
+      "to_s": 2724.0,
+      "teller": "jesse-michels",
+      "quote": "And McKinnon then sees a UFO pop up on his screen. He sees a tic-tac UFO that seems to be orbiting Earth pop up on his screen.",
+      "kind": "secondhand",
+      "cites": [
+        "gary-mckinnon"
+      ],
+      "documents": [],
+      "difference": "Describes the tic-tac as seeming to orbit Earth and places it in Building 8, 2001-2002.",
+      "link_reason": "Same story of Gary McKinnon's hack of the Johnson Space Center systems and the tic-tac image appearing on his screen.",
+      "as_told": {
+        "title": "Gary McKinnon sees tic-tac UFO in NASA system",
+        "years": {
+          "from": 2001,
+          "to": 2002
+        },
+        "place_text": "NASA Johnson Space Center Building 8, Houston",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "mOWwdIuyaQA",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

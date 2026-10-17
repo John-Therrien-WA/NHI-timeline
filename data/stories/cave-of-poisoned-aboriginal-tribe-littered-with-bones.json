@@ -1,0 +1,52 @@
+{
+  "id": "cave-of-poisoned-aboriginal-tribe-littered-with-bones",
+  "title": "Cave of poisoned Aboriginal tribe littered with bones",
+  "summary": "Joe Rogan tells of Cave of poisoned Aboriginal tribe littered with bones, about colonial era at Australia, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Australia",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 4112.0,
+      "to_s": 4127.0,
+      "teller": "joe-rogan",
+      "quote": "my friend Adam Greenree visited a site where um they had given food to this entire tribe of Australian aborigis that were tainted that was all poisoned and the the entire cave, he said, is just littered with human bones.",
+      "kind": "secondhand",
+      "cites": [
+        "adam-greenree"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

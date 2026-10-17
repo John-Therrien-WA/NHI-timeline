@@ -1,0 +1,54 @@
+{
+  "id": "japanese-hitodama-soul-orbs",
+  "title": "Japanese hitodama soul orbs",
+  "summary": "Jesse Michels tells of Japanese hitodama soul orbs, about traditional at Japan (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "japan",
+  "place_text": "Japan",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 9255.0,
+      "to_s": 9261.0,
+      "teller": "jesse-michels",
+      "quote": "Japanese concept of the hitoama but it's these uh plasma orbs",
+      "kind": "host",
+      "cites": [
+        "hayao-miyazaki"
+      ],
+      "documents": [
+        "the-boy-and-the-heron"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

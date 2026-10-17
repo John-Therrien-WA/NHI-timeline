@@ -1,0 +1,71 @@
+{
+  "id": "hastings-s-phone-calls-followed-by-heavy-breathing",
+  "title": "Hastings's phone calls followed by heavy breathing",
+  "summary": "Robert Hastings tells of Hastings's phone calls followed by heavy breathing, about unspecified at Hastings's home phone, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Hastings's home phone",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 326.0,
+      "to_s": 340.0,
+      "teller": "robert-hastings",
+      "quote": "after each one of those calls I would talk to them hang up the phone within a minute or five or 10 the phone would ring I would pick it up and there would be nothing but heavy breathing in the",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 6963.0,
+      "to_s": 6982.0,
+      "teller": "robert-hastings",
+      "quote": "calls this was primarily in February of 82 I would talk to them thank them hang up the phone within a minute or five or 10 the phone would ring I would pick it up and there would be nothing but heavy breathing in the phone",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates the calls mainly to February 1982.",
+      "link_reason": "Both tell of the heavy-breathing calls Hastings got right after his phone interviews with veterans.",
+      "as_told": {
+        "title": "Heavy-breathing calls after phone interviews with veterans",
+        "years": {
+          "from": 1981,
+          "to": 1982
+        },
+        "place_text": "Hastings's home, United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "robert-hastings"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

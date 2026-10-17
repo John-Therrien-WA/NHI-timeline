@@ -1,0 +1,77 @@
+{
+  "id": "malmgren-introduced-to-putin-at-an-arranged-meeting",
+  "title": "Malmgren introduced to Putin at an arranged meeting",
+  "summary": "Harold Malmgren tells of Malmgren introduced to Putin at an arranged meeting, about unspecified at unspecified, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 402.0,
+      "to_s": 412.0,
+      "teller": "harold-malmgren",
+      "quote": "Be looked for me, found me in the crowd, brought me over, and he introduced me to Putin.",
+      "kind": "firsthand",
+      "cites": [
+        "vladimir-putin"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 11844.0,
+      "to_s": 11858.0,
+      "teller": "harold-malmgren",
+      "quote": "and he introduced me to Putin. He said, \"This man is rising. He will soon be very important to Russia. You should know him.",
+      "kind": "firsthand",
+      "cites": [
+        "yevgeny-primakov",
+        "vladimir-putin",
+        "henry-kissinger"
+      ],
+      "documents": [],
+      "difference": "Names Primakov as the person who introduced him and places the meeting in St. Petersburg in 1992, with Primakov saying Putin was rising.",
+      "link_reason": "Both are Malmgren's own account of being found in a crowd and introduced to Putin.",
+      "as_told": {
+        "title": "Primakov introduces Malmgren to Putin",
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "place_text": "St. Petersburg, Russia",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "harold-malmgren"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

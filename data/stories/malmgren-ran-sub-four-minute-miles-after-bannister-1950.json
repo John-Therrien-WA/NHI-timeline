@@ -1,0 +1,56 @@
+{
+  "id": "malmgren-ran-sub-four-minute-miles-after-bannister-1950",
+  "title": "Malmgren ran sub-four-minute miles after Bannister",
+  "summary": "Jesse Michels tells of Malmgren ran sub-four-minute miles after Bannister, about 1950s at an unknown place, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 13420.0,
+      "to_s": 13428.0,
+      "teller": "jesse-michels",
+      "quote": "We even talked about the fact that Harold was one of the first people on Earth to break the 4-minute mile after Roger Banister.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "roger-bannister"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "compton-belkovich-heat-anomaly-on-the-lunar-far-side",
+  "title": "Compton-Belkovich heat anomaly on the lunar far side",
+  "summary": "guest tells of Compton-Belkovich heat anomaly on the lunar far side, about recent at The far side of the moon, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "moon-far-side",
+  "place_text": "Compton-Belkovich, far side of the Moon",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 5720.0,
+      "to_s": 5738.0,
+      "teller": "guest",
+      "quote": "And NASA has found in imaging uh\ninfrared imaging of the\nentire moon that there's this one area\nthat is emitting 20 times the average\nheat output of the rest of the far side\nof the moon.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "guest"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "salvatore-pais-filed-patents-at-pax-river-2010",
+  "title": "Salvatore Pais filed patents at Pax River",
+  "summary": "UAPGerb tells of Salvatore Pais filed patents at Pax River, about 2010s at Naval Air Station Patuxent River, Maryland, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2019
+  },
+  "place": null,
+  "place_text": "Naval Air Station Patuxent River, Maryland",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 8106.0,
+      "to_s": 8108.0,
+      "teller": "uapgerb",
+      "quote": ">> Yeah, he was at Pax River when he filed his patents.",
+      "kind": "researcher",
+      "cites": [
+        "salvatore-pais"
+      ],
+      "documents": [
+        "pais-patents"
+      ]
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 2117.0,
+      "to_s": 2125.0,
+      "teller": "jesse-michels",
+      "quote": "well, he these patents, these Navy patents involve inertial mass reduction, >> high frequency gravitational waves.",
+      "kind": "host",
+      "cites": [
+        "salvatore-py"
+      ],
+      "documents": [
+        "salvatore-pais-navy-patents"
+      ],
+      "difference": "Dates them to 2018 and names their content (inertial mass reduction, high-frequency gravitational waves), where the story only says he filed them at Pax River.",
+      "link_reason": "Both are about Salvatore Pais's Navy patents tied to Pax River; this telling describes what they cover.",
+      "as_told": {
+        "title": "Salvatore Pais Navy patents",
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "place_text": "Naval Air Station Patuxent River, Maryland",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

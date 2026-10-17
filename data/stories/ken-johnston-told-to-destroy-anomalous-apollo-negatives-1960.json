@@ -1,0 +1,55 @@
+{
+  "id": "ken-johnston-told-to-destroy-anomalous-apollo-negatives-1960",
+  "title": "Ken Johnston told to destroy anomalous Apollo negatives",
+  "summary": "Maaneli Derakhshani tells of Ken Johnston told to destroy anomalous Apollo negatives, about 1960s-1970s at NASA, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "NASA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 2780.0,
+      "to_s": 2794.0,
+      "teller": "maaneli-derakhshani",
+      "quote": "was told to destroy a bunch of like first generation or early generation Apollo negatives uh because they had some anomalies on them and they're not supposed to be there and they don't want to release them publicly and he actually saved some of them",
+      "kind": "secondhand",
+      "cites": [
+        "ken-johnston-sr"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "maaneli-derakhshani"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

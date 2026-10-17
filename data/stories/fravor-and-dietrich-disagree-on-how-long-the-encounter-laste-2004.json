@@ -1,0 +1,72 @@
+{
+  "id": "fravor-and-dietrich-disagree-on-how-long-the-encounter-laste-2004",
+  "title": "Fravor and Dietrich disagree on how long the encounter lasted",
+  "summary": "Mick West tells of Fravor and Dietrich disagree on how long the encounter lasted, about 2004 at Off Southern California, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "Pacific Ocean off Southern California",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 1883.0,
+      "to_s": 1892.0,
+      "teller": "mick-west",
+      "quote": "Dietri says her experience only lasted five, sorry, 8 to 10 seconds. the entire thing from merge plot to the thing flying away,",
+      "kind": "researcher",
+      "cites": [
+        "alex-dietrich",
+        "david-fravor"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "fravor-and-dietrich-saw-appendages-on-underwood-s-flir-tape-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kevin-day-radar-objects-at-28-000-ft-matched-in-data-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "underwood-says-the-flir-could-not-have-lost-lock-active-duty-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "gobekli-tepe-as-a-possible-origin-of-civilization",
+  "title": "Göbekli Tepe as a possible origin of civilization",
+  "summary": "Joe Rogan tells of Göbekli Tepe as a possible origin of civilization, about prehistoric at Göbekli Tepe, Turkey, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Göbekli Tepe, Turkey",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 3091.0,
+      "to_s": 3103.0,
+      "teller": "joe-rogan",
+      "quote": "a lot of people think Turkey where Gobecley, they think that might have been the origin of civilization that you know it wasn't Egypt",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 5084.0,
+      "to_s": 5089.0,
+      "teller": "jesse-michels",
+      "quote": "you would admit Gob Beckley rewrites the map as far as how old human civilization.",
+      "kind": "host",
+      "cites": [
+        "graham-hancock",
+        "national-geographic"
+      ],
+      "documents": [
+        "fingerprints-of-the-gods"
+      ],
+      "difference": "Dates the site to about 11,000 years ago, credits Hancock and National Geographic, and says outright that it rewrites civilization's age, where Rogan only calls it a possible origin.",
+      "link_reason": "Both claim that Göbekli Tepe changes the accepted age and origin of human civilization.",
+      "as_told": {
+        "title": "Göbekli Tepe rewrites the age of civilization",
+        "years": null,
+        "place_text": "Göbekli Tepe, Turkey",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "joe-rogan"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

@@ -1,0 +1,110 @@
+{
+  "id": "bentwaters-rendlesham-1980-multi-witness-incident",
+  "title": "Bentwaters/Rendlesham 1980 multi-witness incident",
+  "summary": "Jesse Michels tells of Bentwaters/Rendlesham 1980 multi-witness incident, about 1980 at RAF Bentwaters, England, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1980
+  },
+  "place": null,
+  "place_text": "RAF Bentwaters, England",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 10920.0,
+      "to_s": 10934.0,
+      "teller": "jesse-michels",
+      "quote": "Royal Air Force Bentwaters 1980, 1980, you have a bunch of witnesses. So, because it was joint, you know, managed by the US and the Royal Air Force, you have a bunch of, you know, John Burroughs, Jim Penniston, Colonel Halt, who did the investigation,",
+      "kind": "host",
+      "cites": [
+        "john-burroughs",
+        "jim-penniston",
+        "charles-halt"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 1728.0,
+      "to_s": 1734.0,
+      "teller": "jesse-michels",
+      "quote": "And you had uh uh Colonel Charles Halt as well do do an investigation afterwards and everything checked.",
+      "kind": "host",
+      "cites": [
+        "charles-halt",
+        "jim-penniston",
+        "john-burroughs"
+      ],
+      "documents": [],
+      "difference": "Adds that Halt's investigation afterwards found that everything checked out.",
+      "link_reason": "The same 1980 Bentwaters/Rendlesham incident, told by the same host with the same witnesses: Burroughs, Penniston, and Halt as investigator.",
+      "as_told": {
+        "title": "Rendlesham Forest incident and Colonel Halt's investigation",
+        "years": {
+          "from": 1980,
+          "to": 1980
+        },
+        "place_text": "RAF Bentwaters, Suffolk, UK",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 5524.0,
+      "to_s": 5532.0,
+      "teller": "jesse-michels",
+      "quote": "So 1980 uh three different uh US Air Force sergeants uh Jim Penniston, John Burroughs,",
+      "kind": "host",
+      "cites": [
+        "jim-penniston",
+        "john-burroughs",
+        "lord-hill-norton",
+        "charles-halt"
+      ],
+      "documents": [],
+      "difference": "Adds Lord Hill-Norton and calls the witnesses three US Air Force sergeants.",
+      "link_reason": "The 1980 Rendlesham/Bentwaters incident told by the host with the witnesses Penniston, Burroughs and Halt, matching the multi-witness incident story.",
+      "as_told": {
+        "title": "1980 Rendlesham Forest incident",
+        "years": {
+          "from": 1980,
+          "to": 1980
+        },
+        "place_text": "Rendlesham Forest, near RAF Woodbridge, England",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "1sxmSMzqnmA",
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

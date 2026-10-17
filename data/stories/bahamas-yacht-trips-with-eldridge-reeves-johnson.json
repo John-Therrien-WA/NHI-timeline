@@ -1,0 +1,57 @@
+{
+  "id": "bahamas-yacht-trips-with-eldridge-reeves-johnson",
+  "title": "Bahamas yacht trips with Eldridge Reeves Johnson",
+  "summary": "Jesse Michels tells of Bahamas yacht trips with Eldridge Reeves Johnson, about unspecified at Bahamas, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Bahamas",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5423.0,
+      "to_s": 5432.0,
+      "teller": "jesse-michels",
+      "quote": "They they they also went on these sort of trips to the Bahamas on this yacht owned by this guy Eldridge Reeves Johnson",
+      "kind": "host",
+      "cites": [
+        "william-stephenson",
+        "thomas-townsend-brown",
+        "eldridge-reeves-johnson",
+        "william-stevenson"
+      ],
+      "documents": [
+        "a-man-called-intrepid"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "hmnzs-southland-followed-by-an-800-foot-uso-1980",
+  "title": "HMNZS Southland followed by an 800-foot USO",
+  "summary": "Kevin Knuth tells of HMNZS Southland followed by an 800-foot USO, about 1980s at at sea, New Zealand navy ship, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "at sea, New Zealand navy ship",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 1488.0,
+      "to_s": 1496.0,
+      "teller": "kevin-knuth",
+      "quote": "New Zealand ship in the 1980s, the HMNZS Southland, had an 800- foot-long USO following it,",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

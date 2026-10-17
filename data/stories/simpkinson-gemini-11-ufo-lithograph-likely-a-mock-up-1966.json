@@ -1,0 +1,59 @@
+{
+  "id": "simpkinson-gemini-11-ufo-lithograph-likely-a-mock-up-1966",
+  "title": "Simpkinson Gemini 11 UFO lithograph likely a mock-up",
+  "summary": "Kevin Knuth tells of Simpkinson Gemini 11 UFO lithograph likely a mock-up, about 1966 at NASA; University of Arizona archives, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1966,
+    "to": 1966
+  },
+  "place": null,
+  "place_text": "NASA; University of Arizona archives",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 5502.0,
+      "to_s": 5514.0,
+      "teller": "kevin-knuth",
+      "quote": "Ed actually found the The\noriginal photograph in the University\nof Arizona archives shows Earth with\nthat cloud pattern in the background, and there's\nno UFO there.",
+      "kind": "researcher",
+      "cites": [
+        "ed-wilson",
+        "scott-simkinson"
+      ],
+      "documents": [
+        "simpkinson-ufo-file",
+        "gemini-11-lithograph"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

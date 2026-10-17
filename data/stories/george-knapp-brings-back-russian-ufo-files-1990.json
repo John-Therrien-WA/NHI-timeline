@@ -1,0 +1,84 @@
+{
+  "id": "george-knapp-brings-back-russian-ufo-files-1990",
+  "title": "George Knapp brings back Russian UFO files",
+  "summary": "Jesse Michels tells of George Knapp brings back Russian UFO files, about 1990s at Russia, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Russia",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 10800.0,
+      "to_s": 10808.0,
+      "teller": "jesse-michels",
+      "quote": "Like George Knap went to like Russia and like brought back all these files about like their activities when it comes to UFOs.",
+      "kind": "host",
+      "cites": [
+        "george-knapp"
+      ],
+      "documents": [
+        "russian-ufo-files"
+      ]
+    },
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 2294.0,
+      "to_s": 2308.0,
+      "teller": "eric-davis",
+      "quote": "but Russia is one that had some crash retrievals and that's been released when the Soviet Union fell KGB opened up the files George knap went there other people went there found the thread three documents",
+      "kind": "researcher",
+      "cites": [
+        "george-knapp"
+      ],
+      "documents": [
+        "thread-three-documents"
+      ],
+      "difference": "Says the files revealed Soviet crash retrievals and names the Thread Three documents.",
+      "link_reason": "Both describe George Knapp going to Russia after the Soviet collapse and bringing back opened KGB UFO files.",
+      "as_told": {
+        "title": "Soviet crash retrievals revealed in opened KGB files",
+        "years": {
+          "from": 1991,
+          "to": 1991
+        },
+        "place_text": "Russia / former Soviet Union",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-davis",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

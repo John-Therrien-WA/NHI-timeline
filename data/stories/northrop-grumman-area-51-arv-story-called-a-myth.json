@@ -1,0 +1,58 @@
+{
+  "id": "northrop-grumman-area-51-arv-story-called-a-myth",
+  "title": "Northrop Grumman / Area 51 ARV story called a myth",
+  "summary": "Eric Davis tells of Northrop Grumman / Area 51 ARV story called a myth, about an unknown time at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "nevada-test-site",
+  "place_text": "Area 51; Northrop Grumman",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 2063.0,
+      "to_s": 2074.0,
+      "teller": "eric-davis",
+      "quote": "I said so what's the story about North or gemman had having an arv or somebody out at Area 51 having an arv and he said oh that's all myth",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+      "relation": "variant",
+      "note": "The same subject as Lazar's claim of an ARV being reverse-engineered at Area 51, but this source calls the ARV story a myth, so the core claim conflicts with Lazar's."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

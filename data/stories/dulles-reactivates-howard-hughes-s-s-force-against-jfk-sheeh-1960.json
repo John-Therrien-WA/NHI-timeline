@@ -1,0 +1,107 @@
+{
+  "id": "dulles-reactivates-howard-hughes-s-s-force-against-jfk-sheeh-1960",
+  "title": "Dulles reactivates Howard Hughes's S Force against JFK (Sheehan narrative)",
+  "summary": "Jesse Michels tells of Dulles reactivates Howard Hughes's S Force against JFK (Sheehan narrative), about 1960s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 2990.0,
+      "to_s": 3007.0,
+      "teller": "jesse-michels",
+      "quote": "it's JFK scatters the CIA to the Wendy or he threatens to fires Dulles. Dulles goes from his perch at Brown Brothers Haramman at a private company reoperationalizes the S force which Howard Hughes created to go after JFK.",
+      "kind": "secondhand",
+      "cites": [
+        "daniel-sheehan",
+        "howard-hughes",
+        "allen-dulles",
+        "richard-nixon",
+        "john-f-kennedy"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 10936.0,
+      "to_s": 10952.0,
+      "teller": "jesse-michels",
+      "quote": "narrative is that Nixon who is head of the 5412 committee under Eisenhower along with being his VP he was working with Howard Hughes to create this quote unquote s force",
+      "kind": "secondhand",
+      "cites": [
+        "daniel-sheehan",
+        "richard-nixon",
+        "howard-hughes",
+        "allen-dulles"
+      ],
+      "documents": [],
+      "difference": "Adds that the S Force began with Nixon, as head of the 5412 committee and Vice President under Eisenhower, working with Hughes, and links it to Cuba, 1959-1963.",
+      "link_reason": "This is the same Sheehan narrative about the S Force that Howard Hughes created and Dulles used against JFK.",
+      "as_told": {
+        "title": "Danny Sheehan's S-force narrative of the JFK assassination",
+        "years": {
+          "from": 1959,
+          "to": 1963
+        },
+        "place_text": "United States / Cuba",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "townsend-brown-s-1960s-work-northrop-b-2-and-rand",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "intelectron-td-100-transdermal-device-goes-dark-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "project-pandora-and-soviet-radio-frequency-weapons-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

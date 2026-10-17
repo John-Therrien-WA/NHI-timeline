@@ -1,0 +1,59 @@
+{
+  "id": "podkletnov-s-gravity-shielding-and-a-schauberger-soviet-line-1990",
+  "title": "Podkletnov's gravity shielding and a Schauberger/Soviet lineage",
+  "summary": "Jesse Michels tells of Podkletnov's gravity shielding and a Schauberger/Soviet lineage, about WWII-1990s at University of Tampere, Finland, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "University of Tampere, Finland",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 5895.0,
+      "to_s": 5906.0,
+      "teller": "jesse-michels",
+      "quote": "Yeah, there's this guy Pleenov at the\nUniversity of Tampir in Finland who\nclaims um weight reduction based on\nspinning superconductors.",
+      "kind": "host",
+      "cites": [
+        "eugene-podkletnov",
+        "viktor-schauberger",
+        "nick-cook"
+      ],
+      "documents": [
+        "the-hunt-for-zero-point"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "mOWwdIuyaQA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

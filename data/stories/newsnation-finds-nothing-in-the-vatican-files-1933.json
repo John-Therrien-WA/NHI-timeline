@@ -1,0 +1,57 @@
+{
+  "id": "newsnation-finds-nothing-in-the-vatican-files-1933",
+  "title": "NewsNation finds nothing in the Vatican files",
+  "summary": "Michael Shermer tells of NewsNation finds nothing in the Vatican files, about 1933 at Vatican, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1933,
+    "to": 1933
+  },
+  "place": null,
+  "place_text": "Vatican",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6664.0,
+      "to_s": 6669.0,
+      "teller": "michael-shermer",
+      "quote": "NewsNation itself went to the Vatican and checked in the Vatican files. Said we couldn't find anything.",
+      "kind": "researcher",
+      "cites": [
+        "newsnation"
+      ],
+      "documents": [
+        "vatican-files"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "michael-shermer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

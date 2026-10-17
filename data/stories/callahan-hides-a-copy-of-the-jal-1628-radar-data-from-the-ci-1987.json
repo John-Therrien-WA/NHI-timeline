@@ -1,0 +1,57 @@
+{
+  "id": "callahan-hides-a-copy-of-the-jal-1628-radar-data-from-the-ci-1987",
+  "title": "Callahan hides a copy of the JAL 1628 radar data from the CIA",
+  "summary": "Kevin Knuth tells of Callahan hides a copy of the JAL 1628 radar data from the CIA, about 1987 at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1987
+  },
+  "place": "washington-dc",
+  "place_text": "FAA, Washington",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 3689.0,
+      "to_s": 3696.0,
+      "teller": "kevin-knuth",
+      "quote": "Callahan copied them and put them in a box that he placed under the table.",
+      "kind": "secondhand",
+      "cites": [
+        "john-callahan"
+      ],
+      "documents": [
+        "jal-1628-radar-data"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

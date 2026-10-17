@@ -1,0 +1,50 @@
+{
+  "id": "skinwalker-ranch-freaky-stories",
+  "title": "Skinwalker Ranch freaky stories",
+  "summary": "Michael Shellenberger tells of Skinwalker Ranch freaky stories, about an unknown time at United States (no place named), and reports it citing named sources. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Skinwalker Ranch, Utah, USA",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "DPmO-2E7Ayg",
+      "from_s": 2215.0,
+      "to_s": 2221.0,
+      "teller": "michael-shellenberger",
+      "quote": "Skinwalker Ranch is a very freaky and there's a lot of freaky stories that comes out of it",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "michael-shellenberger"
+    ],
+    "episodes": [
+      "DPmO-2E7Ayg"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "strieber-s-written-account-to-sarbacher-undeliverable-sarbac-1986",
+  "title": "Strieber's written account to Sarbacher undeliverable: Sarbacher died that night",
+  "summary": "Whitley Strieber tells of Strieber's written account to Sarbacher undeliverable: Sarbacher died that night, about 1986 at upstate New York cabin; Florida, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1986,
+    "to": 1986
+  },
+  "place": null,
+  "place_text": "upstate New York cabin; Florida",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 831.0,
+      "to_s": 842.0,
+      "teller": "whitley-strieber",
+      "quote": "The next morning, I get a call from the UPS guy on the scene saying, \"We can't deliver it. The recipient has expired.",
+      "kind": "firsthand",
+      "cites": [
+        "robert-sarbacher"
+      ],
+      "documents": [
+        "communion"
+      ]
+    },
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 5882.0,
+      "to_s": 5884.0,
+      "teller": "whitley-strieber",
+      "quote": "Sarbacher wanted me to write it all out.",
+      "kind": "firsthand",
+      "cites": [
+        "robert-sarbacher"
+      ],
+      "documents": [],
+      "difference": "Puts the weight on Sarbacher asking for the account and does not mention his death or the failed delivery.",
+      "link_reason": "Both tell how Strieber wrote his account for Robert Sarbacher. The stored story covers that written account and why it could not be delivered.",
+      "as_told": {
+        "title": "Sarbacher wanted Strieber to write it all out",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "whitley-strieber"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "dam-flooded-the-egyptian-labyrinth-in-the-1960s",
+  "title": "Dam flooded the Egyptian labyrinth in the 1960s",
+  "summary": "Joe Rogan tells of Dam flooded the Egyptian labyrinth in the 1960s, about 1960s; ancient at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "egypt",
+  "place_text": "Egyptian labyrinth, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 7020.0,
+      "to_s": 7033.0,
+      "teller": "joe-rogan",
+      "quote": "What happened was they put up a dam and when they put up a dam to help the farmers out, they diverted the water and the water filled up this labyrinth.",
+      "kind": "secondhand",
+      "cites": [
+        "ben-van-kerkwyk",
+        "herodotus",
+        "pliny-the-elder"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

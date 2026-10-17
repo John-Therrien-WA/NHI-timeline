@@ -1,0 +1,82 @@
+{
+  "id": "travis-walton-handed-over-from-greys-to-nordics-1975",
+  "title": "Travis Walton handed over from greys to Nordics",
+  "summary": "Jason Jorjani tells of Travis Walton handed over from greys to Nordics, about 1975 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1975
+  },
+  "place": "united-states",
+  "place_text": "Arizona, USA (aboard craft)",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 4732.0,
+      "to_s": 4737.0,
+      "teller": "jason-jorjani",
+      "quote": "down the hallway and he bumped into these Nordics and from [snorts] there on he was handled by these people.",
+      "kind": "researcher",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 4749.0,
+      "to_s": 4760.0,
+      "teller": "travis-walton",
+      "quote": "A man came in while I was trying to find a way out there. And this was a a humanlook person.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Walton, who describes one human-looking man and does not mention greys handing him over.",
+      "link_reason": "This is the same moment as telling #8, the human-looking being Walton meets aboard the craft, now told by Walton himself.",
+      "as_told": {
+        "title": "Travis Walton's own account of the human-looking being",
+        "years": {
+          "from": 1975,
+          "to": 1975
+        },
+        "place_text": "Arizona, USA (aboard craft)",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "travis-walton-wakes-with-a-full-beard-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "travis-walton"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

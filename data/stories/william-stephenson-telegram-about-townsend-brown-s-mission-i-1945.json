@@ -1,0 +1,85 @@
+{
+  "id": "william-stephenson-telegram-about-townsend-brown-s-mission-i-1945",
+  "title": "William Stephenson telegram about Townsend Brown's mission into Germany",
+  "summary": "Jesse Michels tells of William Stephenson telegram about Townsend Brown's mission into Germany, about 1945 at Nazi Germany, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Nazi Germany",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 10072.0,
+      "to_s": 10078.0,
+      "teller": "jesse-michels",
+      "quote": "and there's a telegram from um him to Josephine, who's Townsend Brown's wife,",
+      "kind": "secondhand",
+      "cites": [
+        "jan-lundquist",
+        "william-stephenson",
+        "josephine-brown",
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "william-stephenson-telegram"
+      ]
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5402.0,
+      "to_s": 5419.0,
+      "teller": "jesse-michels",
+      "quote": "when Thomas Townsend Brown did a tech retrieval mission in behind enemy lines in World War there's a telegram from William Stevenson to Townsend's wife Josephine and he says your husband is okay.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "william-stephenson",
+        "josephine-brown"
+      ],
+      "documents": [
+        "stephenson-telegram"
+      ],
+      "difference": "Quotes the telegram as saying 'your husband is okay' and calls the mission a tech retrieval; it does not credit Jan Lundquist.",
+      "link_reason": "Both tell of the telegram from William Stephenson to Josephine Brown about Townsend Brown's mission behind enemy lines.",
+      "as_told": {
+        "title": "Townsend Brown's WWII tech retrieval and Stephenson's telegram",
+        "years": null,
+        "place_text": "behind enemy lines, Europe",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

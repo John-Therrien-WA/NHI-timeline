@@ -1,0 +1,55 @@
+{
+  "id": "john-lear-people-live-in-the-sun-1980",
+  "title": "John Lear: people live in the sun",
+  "summary": "Bob Lazar tells of John Lear: people live in the sun, about 1980s at the sun, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "the sun",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 7811.0,
+      "to_s": 7815.0,
+      "teller": "bob-lazar",
+      "quote": "And he said there are people living in the sun.",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

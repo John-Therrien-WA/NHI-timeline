@@ -1,0 +1,61 @@
+{
+  "id": "german-submarine-carrying-uranium-to-japan-1945",
+  "title": "German submarine carrying uranium to Japan",
+  "summary": "Peter Levenda tells of German submarine carrying uranium to Japan, about 1945 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": "united-states",
+  "place_text": "Atlantic; United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 8510.0,
+      "to_s": 8524.0,
+      "teller": "peter-levenda",
+      "quote": "that famous submarine that they stopped that had the measurement you know in pieces in it and all the uranium you know and the engineers that was going to Japan that supposedly Oenheimer visited at a crucial time because he couldn't figure out how to make the freaking bomb work.",
+      "kind": "researcher",
+      "cites": [
+        "j-robert-oppenheimer"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "republican-politician-angered-by-argentina-sheltering-nazis-1945",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

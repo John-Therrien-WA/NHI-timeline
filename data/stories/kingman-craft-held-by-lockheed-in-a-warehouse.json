@@ -1,0 +1,52 @@
+{
+  "id": "kingman-craft-held-by-lockheed-in-a-warehouse",
+  "title": "Kingman craft held by Lockheed in a warehouse",
+  "summary": "Jesse Michels tells of Kingman craft held by Lockheed in a warehouse, about an unknown time at Kingman, Arizona, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Kingman, Arizona",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 8685.0,
+      "to_s": 8693.0,
+      "teller": "jesse-michels",
+      "quote": "the Kingman craft from Arizona and it's some warehouse or whatever and it's just like no seams, no rivets, like this beautiful thing",
+      "kind": "host",
+      "cites": [
+        "lockheed"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "eleanor-roosevelt-letter-to-oppenheimer-1947",
+  "title": "Eleanor Roosevelt letter to Oppenheimer",
+  "summary": "Jesse Michels tells of Eleanor Roosevelt letter to Oppenheimer, about late 1940s-1950s at Los Alamos, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Los Alamos",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 1466.0,
+      "to_s": 1492.0,
+      "teller": "jesse-michels",
+      "quote": "the rumors of UFOs at Los Alamos and other nuclear sites were so widespread that Elanor Roosevelt wrote to Oppenheimer inquiring about them responding with a letter that's been fully verified and archived in the Library of Congress Oppenheimer wrote back reassuring the former first lady that these were just rumors",
+      "kind": "host",
+      "cites": [
+        "elanor-roosevelt",
+        "j-robert-oppenheimer"
+      ],
+      "documents": [
+        "oppenheimer-letter-library-of-congress"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

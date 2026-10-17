@@ -1,0 +1,85 @@
+{
+  "id": "lou-elizondo-told-kirkpatrick-where-the-big-sur-shootdown-fi-1960",
+  "title": "Lou Elizondo told Kirkpatrick where the Big Sur shootdown film was kept",
+  "summary": "Robert Hastings tells of Lou Elizondo told Kirkpatrick where the Big Sur shootdown film was kept, about 2023 (film from 1960s) at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 2023
+  },
+  "place": "washington-dc",
+  "place_text": "Big Sur, California; Washington, DC",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 6451.0,
+      "to_s": 6471.0,
+      "teller": "robert-hastings",
+      "quote": "McConnell Kurt McConnell sent me an email saying I drove Lou down to his interview with arrow on the way back from his interview Lou told me that he told Kurt Patrick that he had seen the Big Sur film The shootdown of a dummy nuclear warhead by a UFO",
+      "kind": "secondhand",
+      "cites": [
+        "kirk-mcconnell",
+        "luis-elizondo",
+        "sean-kirkpatrick",
+        "bob-jacobs"
+      ],
+      "documents": [
+        "big-sur-film"
+      ]
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 8827.0,
+      "to_s": 8832.0,
+      "teller": "jesse-michels",
+      "quote": "phenomenal. And Louo said he saw that footage.",
+      "kind": "secondhand",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": [],
+      "difference": "Told by Jesse Michels secondhand and leaves out Kirkpatrick and McConnell.",
+      "link_reason": "Both tell of Lou Elizondo saying he had seen the 1964 Vandenberg (Big Sur) shootdown film.",
+      "as_told": {
+        "title": "Lue Elizondo saw the Vandenberg footage",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Pentagon",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "robert-hastings"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested"
+}

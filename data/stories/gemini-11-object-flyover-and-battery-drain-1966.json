@@ -1,0 +1,85 @@
+{
+  "id": "gemini-11-object-flyover-and-battery-drain-1966",
+  "title": "Gemini 11 object flyover and battery drain",
+  "summary": "Jesse Michels tells of Gemini 11 object flyover and battery drain, about 1966 at Earth orbit, Gemini 11, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1966,
+    "to": 1966
+  },
+  "place": null,
+  "place_text": "Earth orbit, Gemini 11",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 4990.0,
+      "to_s": 4997.0,
+      "teller": "jesse-michels",
+      "quote": "um, drained one of their batteries.\nBattery Charlie was drained. Then\nbattery C was drained.",
+      "kind": "host",
+      "cites": [
+        "pete-conrad",
+        "gordon"
+      ],
+      "documents": [
+        "gemini-11-transcripts"
+      ]
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 3414.0,
+      "to_s": 3422.0,
+      "teller": "jesse-michels",
+      "quote": "and I spoke to Kevin Kuth about and it seems like there was an actual UFO around Gemini 11 that caused this electromagnetic outage",
+      "kind": "secondhand",
+      "cites": [
+        "kevin-knuth",
+        "chris-ramsay"
+      ],
+      "documents": [
+        "simpkinson-nasa-archive-photo"
+      ],
+      "difference": "Credits Kevin Knuth and Chris Ramsay, calls it an electromagnetic outage caused by an actual UFO, and mentions the Simpkinson archive photo.",
+      "link_reason": "Both tell of an object near Gemini 11 in 1966 and the electrical or battery failure linked to it.",
+      "as_told": {
+        "title": "Gemini 11 UFO electromagnetic outage and Simpkinson archive photo",
+        "years": {
+          "from": 1966,
+          "to": 1966
+        },
+        "place_text": "Earth orbit, Gemini 11",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "IWui5cBkwoE",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

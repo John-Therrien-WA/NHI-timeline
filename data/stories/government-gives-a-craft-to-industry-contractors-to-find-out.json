@@ -1,0 +1,70 @@
+{
+  "id": "government-gives-a-craft-to-industry-contractors-to-find-out",
+  "title": "Government gives a craft to industry contractors to find out how it works",
+  "summary": "Eric Davis tells of Government gives a craft to industry contractors to find out how it works, about unspecified at aerospace industry contractors, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "aerospace industry contractors",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 8344.0,
+      "to_s": 8356.0,
+      "teller": "eric-davis",
+      "quote": "this is how it works according to my two industry sources. Okay, the government says, \"Here's the craft. We want to know how it works.\"",
+      "kind": "secondhand",
+      "cites": [
+        "two-unnamed-industry-sources"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 8421.0,
+      "to_s": 8442.0,
+      "teller": "eric-davis",
+      "quote": "So they get the soul source contract and they've already laid out what the tasking is to be done on that contract. And the tasking is to be done that needs to be done is the engineering to take this thing apart piece by piece, reverse engineer it, put it back together again and try to figure out if they can make it work or not",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds the sole-source contract and its set tasking: take the craft apart piece by piece, rebuild it and try to make it work.",
+      "link_reason": "This continues telling 5's account of how a craft goes to a contractor, now as the sole-source contract for taking it apart and reverse engineering it.",
+      "as_told": {
+        "title": "Sole-source contract to take apart and reverse engineer a craft",
+        "years": null,
+        "place_text": "legacy aerospace company, USA",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,112 @@
+{
+  "id": "marcel-s-son-handled-the-roswell-material-at-home-1947",
+  "title": "Marcel's son handled the Roswell material at home",
+  "summary": "Jesse Michels tells of Marcel's son handled the Roswell material at home, about 1947 at Roswell, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 10192.0,
+      "to_s": 10198.0,
+      "teller": "jesse-michels",
+      "quote": "And his son who's a Air Force flight surgeon said that he took the material home and he played with the material.",
+      "kind": "secondhand",
+      "cites": [
+        "jesse-marcel-jr",
+        "jesse-marcel"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 7005.0,
+      "to_s": 7014.0,
+      "teller": "jesse-michels",
+      "quote": "kind of memory metal thing, which totally comports with what Army intelligence officer Jesse Marcel said. Jesse Marcel's son said that he took the material home.",
+      "kind": "host",
+      "cites": [
+        "jesse-marcel",
+        "jesse-marcel-jr"
+      ],
+      "documents": [],
+      "difference": "Calls the material memory metal and ties it to Marcel's own account.",
+      "link_reason": "Both say Jesse Marcel brought the Roswell material home and his son handled it.",
+      "as_told": {
+        "title": "Jesse Marcel's memory metal brought home",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "governor-richardson-on-looking-into-the-roswell-crash-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jan-rooney-s-general-father-on-roswell-and-religion-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "clapper-and-brennan-speak-of-roswell-and-a-surviving-being-i-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "edgar-mitchell-heard-about-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "trump-hints-at-knowledge-about-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "walter-haut-s-posthumous-affidavit-craft-and-bodies-under-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

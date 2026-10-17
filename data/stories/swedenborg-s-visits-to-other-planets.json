@@ -1,0 +1,52 @@
+{
+  "id": "swedenborg-s-visits-to-other-planets",
+  "title": "Swedenborg's visits to other planets",
+  "summary": "Jesse Michels tells of Swedenborg's visits to other planets, about 17th-18th century at Sweden / other planets, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Sweden / other planets",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 9193.0,
+      "to_s": 9199.0,
+      "teller": "jesse-michels",
+      "quote": ">> 17th century Swedish mystic Emanuel Swedenborg you know saying he went to other planets and coming back",
+      "kind": "host",
+      "cites": [
+        "emanuel-swedenborg"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1sxmSMzqnmA"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

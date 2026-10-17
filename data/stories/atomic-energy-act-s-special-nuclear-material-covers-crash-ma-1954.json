@@ -1,0 +1,105 @@
+{
+  "id": "atomic-energy-act-s-special-nuclear-material-covers-crash-ma-1954",
+  "title": "Atomic Energy Act's special nuclear material covers crash material",
+  "summary": "David Grusch tells of Atomic Energy Act's special nuclear material covers crash material, about 1954 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1954,
+    "to": 1954
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 1286.0,
+      "to_s": 1299.0,
+      "teller": "david-grusch",
+      "quote": "If you read the definition of special nuclear material in the Public Atomic Energy Act of 1954, it basically states any material that releases any kind of atomic energy.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ]
+    },
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 266.0,
+      "to_s": 281.0,
+      "teller": "jesse-michels",
+      "quote": "grush shows that the language of the\n1954 atomic energy act which defines\nwhich materials are subject to nuclear\nsecrecy was written in a sneaky but\ndeliberate way to protect our UFO\nsecrets too",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ],
+      "difference": "The host relays it from Grusch and says the language was written deliberately and sneakily to protect UFO secrets, which is a stronger claim than Grusch's reading of what the definition covers.",
+      "link_reason": "Both tellings make the same claim, credited to Grusch: that the Atomic Energy Act of 1954's definition of nuclear materials covers UFO crash material and so keeps it secret.",
+      "as_told": {
+        "title": "1954 Atomic Energy Act language written to protect UFO secrets",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 11870.0,
+      "to_s": 11878.0,
+      "teller": "jesse-michels",
+      "quote": "because if they retrieve a thing, it's born secret under the Atomic Energy Act of 1954.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ],
+      "difference": "Uses the phrase 'born secret' and mentions aerospace contractors, without Grusch's argument about the definition of special nuclear material.",
+      "link_reason": "Both claim that the 1954 Atomic Energy Act's secrecy rules automatically cover recovered crash material.",
+      "as_told": {
+        "title": "Retrieved craft 'born secret' under the Atomic Energy Act",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "USA, aerospace contractors",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "david-grusch"
+    ],
+    "episodes": [
+      "TH10mD9hQas",
+      "kRO5jOa06Qw",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

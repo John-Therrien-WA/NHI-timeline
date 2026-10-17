@@ -1,0 +1,101 @@
+{
+  "id": "mick-s-analysis-flir1-object-is-a-distant-aircraft-and-its-z-2004",
+  "title": "Mick's analysis: FLIR1 object is a distant aircraft and its 'zip off' is camera movement",
+  "summary": "Mick West tells of Mick's analysis: FLIR1 object is a distant aircraft and its 'zip off' is camera movement, about 2004 at Off Southern California, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "Pacific Ocean off Southern California",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 2734.0,
+      "to_s": 2740.0,
+      "teller": "mick-west",
+      "quote": "Fleer one in particular uh was deemed to be amazing because the object appears to zip off screen",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "flir1-video"
+      ]
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 3600.0,
+      "to_s": 3609.0,
+      "teller": "merrick-von-renenamp",
+      "quote": "video and um one of them he hypothesizes that it's a a distant airliner. I think you said on a a podcast that it's probably 50 to 100 miles away.",
+      "kind": "researcher",
+      "cites": [
+        "mick-west"
+      ],
+      "documents": [
+        "mick-west-flir1-airliner-video"
+      ],
+      "difference": "Told by Merrick about Mick's YouTube video. It specifies an airliner 50 to 100 miles away but does not mention the 'zip off' being camera movement.",
+      "link_reason": "Both are Mick West's analysis that the FLIR1 object is a distant aircraft; this telling describes his video making that case.",
+      "as_told": {
+        "title": "Mick's video calling the FLIR1 object a distant airliner",
+        "years": {
+          "from": 2017,
+          "to": 2020
+        },
+        "place_text": "YouTube",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "analysis-by-merrick-s-colleagues-points-to-a-tic-tac-shaped-2004",
+      "relation": "variant",
+      "note": "An analysis of the same FLIR1 footage that concludes it shows a Tic Tac-shaped craft, against telling 6's distant aircraft."
+    },
+    {
+      "story": "flir1-object-may-be-a-balloon-2004",
+      "relation": "variant",
+      "note": "This explains the same FLIR1 object as a balloon, while the existing story calls it a distant aircraft. These are competing core claims about one object."
+    },
+    {
+      "story": "sun-angle-3d-reconstruction-of-the-flir1-object-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "weather-data-shows-strong-northerly-wind-at-flir1-altitude-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

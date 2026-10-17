@@ -1,0 +1,63 @@
+{
+  "id": "mj-12-document-cardinal-spellman-given-access-to-roswell-mat-1947",
+  "title": "MJ-12 document: Cardinal Spellman given access to Roswell materials",
+  "summary": "Jesse Michels tells of MJ-12 document: Cardinal Spellman given access to Roswell materials, about 1947 at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 8595.0,
+      "to_s": 8603.0,
+      "teller": "jesse-michels",
+      "quote": "And there's one document around uh Francis Spellman being given access to the Roswell materials.",
+      "kind": "host",
+      "cites": [
+        "francis-spellman"
+      ],
+      "documents": [
+        "majestic-12-documents"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "chase-brandon-book-on-hillenkoetter-and-the-roswell-being-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

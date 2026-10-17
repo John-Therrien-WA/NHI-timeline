@@ -1,0 +1,57 @@
+{
+  "id": "c-d-jackson-visits-betty-and-barney-hill-1961",
+  "title": "C.D. Jackson visits Betty and Barney Hill",
+  "summary": "Jesse Michels tells of C.D. Jackson visits Betty and Barney Hill, about 1961 at New Hampshire, US, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1961
+  },
+  "place": null,
+  "place_text": "New Hampshire, US",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 8066.0,
+      "to_s": 8072.0,
+      "teller": "jesse-michels",
+      "quote": "Uh uh he showed up uh at Betty and Barney Hills house two weeks after they encountered what they encountered.",
+      "kind": "host",
+      "cites": [
+        "charles-douglas-jackson",
+        "betty-hill",
+        "barney-hill"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

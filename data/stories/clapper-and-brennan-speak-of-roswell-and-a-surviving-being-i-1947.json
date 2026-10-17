@@ -1,0 +1,109 @@
+{
+  "id": "clapper-and-brennan-speak-of-roswell-and-a-surviving-being-i-1947",
+  "title": "Clapper and Brennan speak of Roswell and a surviving being in a film",
+  "summary": "Jesse Michels tells of Clapper and Brennan speak of Roswell and a surviving being in a film, about 1947 at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 7147.0,
+      "to_s": 7160.0,
+      "teller": "jesse-michels",
+      "quote": "intelligence, people like James Clapper, you know, people like Brennan, why do you think they would come out in a movie talking about Roswell being real and there being, you know, a surviving being from Roswell?",
+      "kind": "host",
+      "cites": [
+        "james-clapper",
+        "john-brennan"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 3193.0,
+      "to_s": 3203.0,
+      "teller": "jesse-michels",
+      "quote": "Obama's uh CIA director, uh you know, Brennan and his uh director of national intelligence, James Clapper, are showing up in a movie",
+      "kind": "host",
+      "cites": [
+        "john-brennan",
+        "james-clapper"
+      ],
+      "documents": [],
+      "difference": "Names them as Obama's CIA director and DNI but does not say what they said, with no mention of Roswell or a surviving being.",
+      "link_reason": "Both tell of former intelligence chiefs Brennan and Clapper appearing in a UFO film.",
+      "as_told": {
+        "title": "Brennan and Clapper appear in a UFO film",
+        "years": null,
+        "place_text": "Area 51",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "edgar-mitchell-heard-about-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "governor-richardson-on-looking-into-the-roswell-crash-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jan-rooney-s-general-father-on-roswell-and-religion-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "marcel-s-son-handled-the-roswell-material-at-home-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "trump-hints-at-knowledge-about-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "walter-haut-s-posthumous-affidavit-craft-and-bodies-under-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

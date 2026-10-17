@@ -1,0 +1,63 @@
+{
+  "id": "robert-f-kennedy-s-1968-letter-to-a-ufo-researcher",
+  "title": "Robert F. Kennedy's 1968 letter to a UFO researcher",
+  "summary": "Steven Greer tells of Robert F. Kennedy's 1968 letter to a UFO researcher, about 1968 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1968
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 5548.0,
+      "to_s": 5557.0,
+      "teller": "steven-greer",
+      "quote": "writing to um a uh a UFO researcher back in ' 68. It's dated one month before they killed him.",
+      "kind": "researcher",
+      "cites": [
+        "robert-f-kennedy"
+      ],
+      "documents": [
+        "rfk-letter-to-ufo-researcher-amalgamated-flying-saucer-clubs"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "condon-report-closes-blue-book-1968",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "pandolfi-s-uncle-a-founding-member-of-the-oss-1940",
+  "title": "Pandolfi's uncle a founding member of the OSS",
+  "summary": "Jason Simosa tells of Pandolfi's uncle a founding member of the OSS, about 1940s-1990s at CIA / OSS, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "CIA / OSS",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 3041.0,
+      "to_s": 3049.0,
+      "teller": "jason-simosa",
+      "quote": ">> And uh he wants the information and it's shut down by Dr. Pandolfe, who by the way, his uncle Louis Pandolfe was a founding member of the OSS.",
+      "kind": "secondhand",
+      "cites": [
+        "jacques-vallee",
+        "danny-jones",
+        "louis-pandolfi"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-simosa"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

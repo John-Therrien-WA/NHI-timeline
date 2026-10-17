@@ -1,0 +1,55 @@
+{
+  "id": "nasa-employee-wrote-a-cia-remote-viewing-training-manual-2000",
+  "title": "NASA employee wrote a CIA remote viewing training manual",
+  "summary": "Kevin Knuth tells of NASA employee wrote a CIA remote viewing training manual, about before the 2000s at NASA / CIA, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2009
+  },
+  "place": null,
+  "place_text": "NASA / CIA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 2045.0,
+      "to_s": 2053.0,
+      "teller": "kevin-knuth",
+      "quote": "one of the people at NASA wrote a CIA training manual for remote viewing.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "cia-remote-viewing-training-manual"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

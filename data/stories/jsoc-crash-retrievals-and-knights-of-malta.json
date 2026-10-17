@@ -1,0 +1,53 @@
+{
+  "id": "jsoc-crash-retrievals-and-knights-of-malta",
+  "title": "JSOC crash retrievals and Knights of Malta",
+  "summary": "Jesse Michels tells of JSOC crash retrievals and Knights of Malta, about present at United States (no place named), and reports it citing named sources. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 6094.0,
+      "to_s": 6105.0,
+      "teller": "jesse-michels",
+      "quote": "According to journalist Seymour Hirsch, one of the modern heads of Joc, General Stanley Mcristel, and many of the members of JOC themselves are all Knights of Malta.",
+      "kind": "journalist",
+      "cites": [
+        "seymour-hersh",
+        "stanley-mcchrystal"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

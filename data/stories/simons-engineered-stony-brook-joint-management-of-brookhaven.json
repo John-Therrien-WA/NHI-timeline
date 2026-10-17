@@ -1,0 +1,53 @@
+{
+  "id": "simons-engineered-stony-brook-joint-management-of-brookhaven",
+  "title": "Simons engineered Stony Brook joint management of Brookhaven National Lab",
+  "summary": "Matthew Pines tells of Simons engineered Stony Brook joint management of Brookhaven National Lab, about unspecified at Brookhaven National Laboratory, Long Island, New York, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Brookhaven National Laboratory, Long Island, New York",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 3494.0,
+      "to_s": 3512.0,
+      "teller": "matthew-pines",
+      "quote": "Stony Brook University was um uh engineered essentially a uh a joint venture essentially to manage Brook Haven National Lab with Vattel Memorial Institute. That partnership was personally engineered by Jim Simons himself",
+      "kind": "researcher",
+      "cites": [
+        "jim-simons",
+        "battelle-memorial-institute"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

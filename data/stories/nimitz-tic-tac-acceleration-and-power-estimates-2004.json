@@ -1,0 +1,64 @@
+{
+  "id": "nimitz-tic-tac-acceleration-and-power-estimates-2004",
+  "title": "Nimitz Tic Tac acceleration and power estimates",
+  "summary": "Kevin Knuth tells of Nimitz Tic Tac acceleration and power estimates, about 2004 at Off Southern California, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "off Southern California (USS Nimitz)",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 1270.0,
+      "to_s": 1284.0,
+      "teller": "kevin-knuth",
+      "quote": "in the case of the Nimtt, we estimate the acceleration of the Tic Tac falling from 28,000 feet to sea level at 7.5 seconds or so, 78 seconds.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "marine-squadron-commander-saw-the-churning-white-water-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tic-tac-flir-video-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

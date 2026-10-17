@@ -1,0 +1,52 @@
+{
+  "id": "photo-from-scotland-shown-in-fox-s-film",
+  "title": "Photo from Scotland shown in Fox's film",
+  "summary": "Jesse Michels tells of Photo from Scotland shown in Fox's film, about unspecified at Scotland, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Scotland",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 3897.0,
+      "to_s": 3901.0,
+      "teller": "jesse-michels",
+      "quote": "show like an incredible photo out of out of Scotland",
+      "kind": "host",
+      "cites": [
+        "james-fox"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

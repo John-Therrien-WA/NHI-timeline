@@ -1,0 +1,50 @@
+{
+  "id": "nazi-missions-to-antarctica",
+  "title": "Nazi missions to Antarctica",
+  "summary": "Lou Elizondo tells of Nazi missions to Antarctica, about an unknown time at Antarctica, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "antarctica",
+  "place_text": "Antarctica",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 2141.0,
+      "to_s": 2147.0,
+      "teller": "luis-elizondo",
+      "quote": "they were they were fascinated Antarctica they had several missions down there",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luis-elizondo"
+    ],
+    "episodes": [
+      "1f16VvXaSSE"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

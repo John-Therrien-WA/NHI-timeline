@@ -1,0 +1,83 @@
+{
+  "id": "kurt-russell-saw-the-phoenix-lights-while-flying-1997",
+  "title": "Kurt Russell saw the Phoenix Lights while flying",
+  "summary": "Jesse Michels tells of Kurt Russell saw the Phoenix Lights while flying, about 1997 at Phoenix, Arizona, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1997,
+    "to": 1997
+  },
+  "place": "united-states",
+  "place_text": "Phoenix, Arizona",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 5014.0,
+      "to_s": 5017.0,
+      "teller": "jesse-michels",
+      "quote": "Kurt Russell you know said he could have landed his airplane on it",
+      "kind": "host",
+      "cites": [
+        "kurt-russell"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 843.0,
+      "to_s": 855.0,
+      "teller": "kurt-russell",
+      "quote": "So, we're going into Phoenix and uh there's these bank of lights, six lights in the shape of a triangle going back right over the airport.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Russell: six lights in a triangle over the airport, where the story's telling says he could have landed his plane on it.",
+      "link_reason": "Both are about Kurt Russell seeing the Phoenix Lights while flying into Phoenix in 1997.",
+      "as_told": {
+        "title": "Kurt Russell sees Phoenix Lights while flying",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Phoenix, Arizona, USA",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "fox-breaks-the-fife-symington-phoenix-lights-story-1997",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "kurt-russell"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

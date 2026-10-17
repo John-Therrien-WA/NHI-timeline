@@ -1,0 +1,74 @@
+{
+  "id": "project-pandora-and-soviet-radio-frequency-weapons-1960",
+  "title": "Project Pandora and Soviet radio frequency weapons",
+  "summary": "Greg tells of Project Pandora and Soviet radio frequency weapons, about 1960s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "USA / USSR",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 5037.0,
+      "to_s": 5043.0,
+      "teller": "greg",
+      "quote": "Project Pandora, which started in I think that the '60s,",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "dulles-reactivates-howard-hughes-s-s-force-against-jfk-sheeh-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "intelectron-td-100-transdermal-device-goes-dark-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "townsend-brown-s-1960s-work-northrop-b-2-and-rand",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

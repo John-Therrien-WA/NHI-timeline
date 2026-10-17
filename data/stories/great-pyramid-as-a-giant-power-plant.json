@@ -1,0 +1,60 @@
+{
+  "id": "great-pyramid-as-a-giant-power-plant",
+  "title": "Great Pyramid as a giant power plant",
+  "summary": "Joe Rogan tells of Great Pyramid as a giant power plant, about c. 2500 BC at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Giza, Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 9962.0,
+      "to_s": 9966.0,
+      "teller": "joe-rogan",
+      "quote": "uh the Christopher Dunn stuff like where he thinks it was a gigantic power plant.",
+      "kind": "researcher",
+      "cites": [
+        "christopher-dunn",
+        "danny-jones",
+        "ben-van-kirkwick"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "hancock-the-great-pyramid-was-not-a-tomb-but-a-portal",
+      "relation": "variant",
+      "note": "Both are about the true purpose of the Great Pyramid. Dunn says it was a power plant and Hancock says it was a portal rather than a tomb, so the two claims compete."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

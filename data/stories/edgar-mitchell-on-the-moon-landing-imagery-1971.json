@@ -1,0 +1,61 @@
+{
+  "id": "edgar-mitchell-on-the-moon-landing-imagery-1971",
+  "title": "Edgar Mitchell on the Moon landing imagery",
+  "summary": "James Fox tells of Edgar Mitchell on the Moon landing imagery, about 1971 at The Moon, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1971,
+    "to": 1971
+  },
+  "place": "moon",
+  "place_text": "Moon (Apollo 14)",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 8333.0,
+      "to_s": 8337.0,
+      "teller": "james-fox",
+      "quote": "\"James, it wouldn't surprise me.\" me. He goes, \"We had hustleblot cameras with no viewfinders, gardening gloves on.\"",
+      "kind": "secondhand",
+      "cites": [
+        "edgar-mitchell"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "edgar-mitchell-s-conversion-experience-on-apollo-14-1971",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

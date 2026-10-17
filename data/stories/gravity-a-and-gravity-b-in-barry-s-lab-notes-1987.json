@@ -1,0 +1,57 @@
+{
+  "id": "gravity-a-and-gravity-b-in-barry-s-lab-notes-1987",
+  "title": "Gravity A and gravity B in Barry's lab notes",
+  "summary": "Bob Lazar tells of Gravity A and gravity B in Barry's lab notes, about late 1980s at S4, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "S4, Nevada",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 6995.0,
+      "to_s": 7010.0,
+      "teller": "bob-lazar",
+      "quote": "Barry had um, other lab notes, Mhm. and I don't know if those were previous docu- or documents that he had, but they were lab notes, and these this was the direction they were going in at one time.",
+      "kind": "secondhand",
+      "cites": [
+        "barry-castilio"
+      ],
+      "documents": [
+        "barry-s-lab-notes"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

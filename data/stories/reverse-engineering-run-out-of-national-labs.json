@@ -1,0 +1,68 @@
+{
+  "id": "reverse-engineering-run-out-of-national-labs",
+  "title": "Reverse engineering run out of national labs",
+  "summary": "Matthew Brown tells of Reverse engineering run out of national labs, about ongoing at US national labs and defense contractors, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "US national labs and defense contractors",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 3718.0,
+      "to_s": 3724.0,
+      "teller": "matthew-brown",
+      "quote": "something like that is is ongoing and is ran out of our national labs for sure",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 8898.0,
+      "to_s": 8904.0,
+      "teller": "matthew-brown",
+      "quote": "national labs are where uh samples are stored of exotic technologies",
+      "kind": "official",
+      "cites": [],
+      "documents": [],
+      "difference": "Stresses that the labs store samples of exotic technology, not only that the work is run from them.",
+      "link_reason": "Matthew Brown again places exotic technology work at US national labs, the same claim as the story that reverse engineering is run out of national labs.",
+      "as_told": {
+        "title": "National labs store samples of exotic technology",
+        "years": null,
+        "place_text": "US national laboratories",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "matthew-brown"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once"
+}

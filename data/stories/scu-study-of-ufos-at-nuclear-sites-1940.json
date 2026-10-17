@@ -1,0 +1,57 @@
+{
+  "id": "scu-study-of-ufos-at-nuclear-sites-1940",
+  "title": "SCU study of UFOs at nuclear sites",
+  "summary": "Kevin Knuth tells of SCU study of UFOs at nuclear sites, about 1940s onward at US nuclear sites, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "US nuclear sites",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 4186.0,
+      "to_s": 4195.0,
+      "teller": "kevin-knuth",
+      "quote": "SEU did a study on this. UFOs monitoring nuclear sites.",
+      "kind": "researcher",
+      "cites": [
+        "scu"
+      ],
+      "documents": [
+        "scu-study-on-ufos-at-nuclear-sites"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

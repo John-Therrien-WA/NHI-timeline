@@ -1,0 +1,79 @@
+{
+  "id": "locked-car-found-open-repeatedly-fear-of-car-bomb-1989",
+  "title": "Locked car found open repeatedly; fear of car bomb",
+  "summary": "Bob Lazar tells of Locked car found open repeatedly; fear of car bomb, about 1989-1990 at Las Vegas, Nevada, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1989,
+    "to": 1990
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, Nevada",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 8994.0,
+      "to_s": 9001.0,
+      "teller": "bob-lazar",
+      "quote": ">> Yeah, and I mean, we would lock it and test the door and because it had happened before and go, \"All right, It's locked.",
+      "kind": "firsthand",
+      "cites": [
+        "mario"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 9063.0,
+      "to_s": 9076.0,
+      "teller": "luigi",
+      "quote": "He said, 'I was with Bob all the time and we were scared that something was going to blow up.'\" And he says, \"I was so going through all my hard times that I didn't care. I just told Bob, 'Stay out and I'll try it.'\"",
+      "kind": "secondhand",
+      "cites": [
+        "mario"
+      ],
+      "documents": [],
+      "difference": "Told secondhand from Mario, who says he started the car himself while Lazar stayed back.",
+      "link_reason": "The same car-bomb fear around Lazar's car in Las Vegas in 1989-90, told from Mario's side.",
+      "as_told": {
+        "title": "Mario's account of starting Lazar's car for fear of a bomb",
+        "years": {
+          "from": 1989,
+          "to": 1990
+        },
+        "place_text": "Las Vegas, Nevada",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-lazar",
+      "luigi"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested"
+}

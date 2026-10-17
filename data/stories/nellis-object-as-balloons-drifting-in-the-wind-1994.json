@@ -1,0 +1,59 @@
+{
+  "id": "nellis-object-as-balloons-drifting-in-the-wind-1994",
+  "title": "Nellis object as balloons drifting in the wind",
+  "summary": "Mick West tells of Nellis object as balloons drifting in the wind, about 1994 at Nellis/Tonopah range, Nevada, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1994,
+    "to": 1994
+  },
+  "place": null,
+  "place_text": "Nellis/Tonopah range, Nevada",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 10124.0,
+      "to_s": 10135.0,
+      "teller": "mick-west",
+      "quote": "I think that's just a balloon or a bunch of balloons floating in the wind.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "1994-nellis-tonopah-range-video",
+      "relation": "variant",
+      "note": "Same 1994 Nellis video as telling 8, but explained as balloons drifting in the wind."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

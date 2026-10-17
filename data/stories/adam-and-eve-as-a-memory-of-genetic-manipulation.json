@@ -1,0 +1,52 @@
+{
+  "id": "adam-and-eve-as-a-memory-of-genetic-manipulation",
+  "title": "Adam and Eve as a memory of genetic manipulation",
+  "summary": "Joe Rogan tells of Adam and Eve as a memory of genetic manipulation, about prehistory at Garden of Eden, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Garden of Eden",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 10537.0,
+      "to_s": 10544.0,
+      "teller": "joe-rogan",
+      "quote": ">> when uh they talk about the first human beings I assume that that is a recounting of a genetic manipulation.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "bible"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

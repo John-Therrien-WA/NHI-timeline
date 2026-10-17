@@ -1,0 +1,118 @@
+{
+  "id": "congressional-safe-harbor-bill-gutted-2023",
+  "title": "Congressional safe-harbor bill gutted",
+  "summary": "Steven Greer tells of Congressional safe-harbor bill gutted, about 2023 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2023
+  },
+  "place": "washington-dc",
+  "place_text": "U.S. Congress",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 8795.0,
+      "to_s": 8811.0,
+      "teller": "steven-greer",
+      "quote": "And we got really close to it when the Congress was supposed to pass that bill to give them safe harbor or amnesty and protect them, but it it was gutted by Turner, Rogers, Pelosi, some other people.",
+      "kind": "host",
+      "cites": [
+        "turner",
+        "rogers",
+        "pelosi"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 9631.0,
+      "to_s": 9642.0,
+      "teller": "daniel-sheehan",
+      "quote": "primarily Mike Turner who was the the uh congressman from Ohio right part Wright Patterson uh district you know was was stopping the the full bill from being",
+      "kind": "firsthand",
+      "cites": [
+        "mike-turner",
+        "dan-crenshaw"
+      ],
+      "documents": [
+        "uap-disclosure-act"
+      ],
+      "difference": "Sheehan stresses that Turner's district includes Wright-Patterson, mentions Crenshaw, and leaves out Rogers and Pelosi.",
+      "link_reason": "Both say the full UAP disclosure bill was gutted or blocked in the House, mainly by Mike Turner.",
+      "as_told": {
+        "title": "Mike Turner blocked the full UAP disclosure bill in the House",
+        "years": {
+          "from": 2023,
+          "to": 2024
+        },
+        "place_text": "US House of Representatives",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 5882.0,
+      "to_s": 5886.0,
+      "teller": "jesse-michels",
+      "quote": "the last time around the UAPDA was killed by Mike Turner",
+      "kind": "host",
+      "cites": [
+        "mike-turner"
+      ],
+      "documents": [
+        "uap-disclosure-act"
+      ],
+      "difference": "Names the bill as the UAPDA and credits Turner alone, without Rogers or Pelosi.",
+      "link_reason": "Both tell of the 2023 UAP disclosure/safe-harbor legislation being gutted in Congress, with Mike Turner named as the one who stopped it.",
+      "as_told": {
+        "title": "UAPDA killed by Mike Turner",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "US Congress, Washington, D.C.",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "aaro-scif-briefing-showing-only-resolved-cases-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.9,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 2,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "daniel-sheehan",
+      "jesse-michels",
+      "steven-greer"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w",
+      "V00WcEiKRAY",
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 1.45,
+  "tier": "well-attested"
+}

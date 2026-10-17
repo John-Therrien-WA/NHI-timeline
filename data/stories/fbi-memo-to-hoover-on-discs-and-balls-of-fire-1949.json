@@ -1,0 +1,57 @@
+{
+  "id": "fbi-memo-to-hoover-on-discs-and-balls-of-fire-1949",
+  "title": "FBI memo to Hoover on discs and balls of fire",
+  "summary": "Jesse Michels tells of FBI memo to Hoover on discs and balls of fire, about 1949 at Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1949,
+    "to": 1949
+  },
+  "place": "mexico",
+  "place_text": "Los Alamos, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 1373.0,
+      "to_s": 1391.0,
+      "teller": "jesse-michels",
+      "quote": "also that year a now public FBI memo was sent to direct J N your Hoover reporting flying discs flying saucers and Balls of Fire quote unquote considered Top Secret by Intelligence Officers of both the Army and Air Force",
+      "kind": "host",
+      "cites": [
+        "j-edgar-hoover"
+      ],
+      "documents": [
+        "fbi-memo-to-hoover"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

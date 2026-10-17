@@ -1,0 +1,110 @@
+{
+  "id": "ben-rich-deathbed-claim-that-we-can-go-to-the-stars-via-esp-1990",
+  "title": "Ben Rich deathbed claim that we can go to the stars via ESP",
+  "summary": "Jesse Michels tells of Ben Rich deathbed claim that we can go to the stars via ESP, about 1990s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "Lockheed Skunk Works, USA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 9829.0,
+      "to_s": 9847.0,
+      "teller": "jesse-michels",
+      "quote": "Ben Rich [snorts] who was the head of Lockheed Skunkworks on his deathbed said we have the the ability to go to the stars whenever we want and we've built it. And a journalist asked him, \"Well, how do we do that?\" And he goes, \"Well, have you heard of ESP?\" And the journalist goes, \"Yes.\" And then he goes, \"Well, that's how.\"",
+      "kind": "secondhand",
+      "cites": [
+        "ben-rich"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 3433.0,
+      "to_s": 3448.0,
+      "teller": "jesse-michels",
+      "quote": "And then you have Ben Rich, former head of Lockheed Skunk Works, saying things like, \"We already have the means to travel among the stars, but these technologies are locked up in black projects,",
+      "kind": "host",
+      "cites": [
+        "ben-rich"
+      ],
+      "documents": [],
+      "difference": "Says the technology is locked up in black projects rather than giving the ESP punchline, dates it 1995, and does not frame it as a deathbed remark.",
+      "link_reason": "The same Ben Rich statement that we already have the means to travel to the stars.",
+      "as_told": {
+        "title": "Ben Rich on star travel locked in black projects",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "Lockheed Skunk Works",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "rockefeller-funding-intercepted-by-cia-nocs-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "1990s-meeting-of-eg-g-head-greer-dick-d-amato-and-o-donnell",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dan-howe-vouches-for-dan-sherman-s-elint-knowledge-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "high-level-unnamed-source-corroborates-the-sherman-story-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "claimed-carl-sagan-aliens-are-real-statement-redacted-denied-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "steven-greer-laurence-rockefeller-defected-from-his-family-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw",
+      "OOr98r51Sj0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

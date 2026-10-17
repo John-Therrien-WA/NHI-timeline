@@ -1,0 +1,64 @@
+{
+  "id": "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+  "title": "Vallee hints Bob Lazar was an MK Ultra subject",
+  "summary": "Jesse Michels tells of Vallee hints Bob Lazar was an MK Ultra subject, about 1980s-1990s at Las Vegas, Nevada, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1999
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Nevada, USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 109.0,
+      "to_s": 120.0,
+      "teller": "jesse-michels",
+      "quote": "when he hints that Bob Lazar was actually an MK Ultra patient possibly the subject of government brainwashing which led him to believe he worked on reverse engineering UFOs",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee",
+        "bob-lazar"
+      ],
+      "documents": [
+        "revelations-alien-contact-and-human-deception"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+      "relation": "variant",
+      "note": "Both are about Bob Lazar's claim to have reverse-engineered UFOs at S4 in Nevada in the late 1980s. This telling, drawn from Vallee's book Revelations, explains that claim as the product of MK Ultra-style government brainwashing, not real work on alien craft, so the two accounts cannot both be right."
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fyX8V1XXmQM"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

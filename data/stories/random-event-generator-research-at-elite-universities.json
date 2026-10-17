@@ -1,0 +1,98 @@
+{
+  "id": "random-event-generator-research-at-elite-universities",
+  "title": "Random event generator research at elite universities",
+  "summary": "Jesse Michels tells of Random event generator research at elite universities, about unspecified at elite universities, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "sri-menlo-park-ca",
+  "place_text": "elite universities",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 6794.0,
+      "to_s": 6801.0,
+      "teller": "jesse-michels",
+      "quote": "whatever. But you speak to some of these people who were at elite universities studying random event generators.",
+      "kind": "secondhand",
+      "cites": [
+        "jessica-utts"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 5778.0,
+      "to_s": 5790.0,
+      "teller": "jesse-michels",
+      "quote": "random event generator experiments that occurred at elite universities across the United States. The Princeton Engineering and Anomalous Research Lab, SRRI, all these schools, elite schools studied this stuff.",
+      "kind": "host",
+      "cites": [
+        "princeton-engineering-anomalies-research",
+        "sri"
+      ],
+      "documents": [],
+      "difference": "Names PEAR and SRI as the institutions, and does not credit Jessica Utts.",
+      "link_reason": "The host again describes random event generator research at elite universities, and names PEAR and SRI.",
+      "as_told": {
+        "title": "Random event generator experiments at PEAR and SRI",
+        "years": {
+          "from": 1970,
+          "to": 2009
+        },
+        "place_text": "Princeton and SRI, USA",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 9559.0,
+      "to_s": 9566.0,
+      "teller": "jesse-michels",
+      "quote": "look at uh the Princeton you know engineering and anomalous research lab which was started by Bob John who was the dean of the engineering school.",
+      "kind": "host",
+      "cites": [
+        "robert-jahn"
+      ],
+      "documents": [],
+      "difference": "Credits Bob Jahn, dean of the engineering school, as the founder of PEAR.",
+      "link_reason": "Both tell of psi and random-event research at elite institutions, naming the Princeton PEAR lab and SRI.",
+      "as_told": {
+        "title": "Princeton PEAR lab and SRI psi research",
+        "years": null,
+        "place_text": "Princeton University; Stanford Research Institute",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "EzPmG_7WhXc",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

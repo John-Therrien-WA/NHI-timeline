@@ -1,0 +1,53 @@
+{
+  "id": "amy-reynolds-taken-and-found-at-a-petrol-station-790-km-away",
+  "title": "Amy Reynolds taken and found at a petrol station 790 km away",
+  "summary": "Mike Masters tells of Amy Reynolds taken and found at a petrol station 790 km away, about unspecified at petrol station 790 km from where she was taken, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "petrol station 790 km from where she was taken",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y26iMB0r-f8",
+      "from_s": 1394.0,
+      "to_s": 1412.0,
+      "teller": "mike-masters",
+      "quote": "Amy ryance is probably one of my favorite cases in this regard because she was taken her friend Petra watched her being taken through the window all of a sudden they get this call that she's been found at a petrol station 790 km away",
+      "kind": "researcher",
+      "cites": [
+        "amy-reynolds",
+        "petra"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "mike-masters"
+    ],
+    "episodes": [
+      "Y26iMB0r-f8"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

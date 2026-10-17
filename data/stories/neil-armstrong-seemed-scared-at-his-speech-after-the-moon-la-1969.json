@@ -1,0 +1,55 @@
+{
+  "id": "neil-armstrong-seemed-scared-at-his-speech-after-the-moon-la-1969",
+  "title": "Neil Armstrong seemed scared at his speech after the moon landing",
+  "summary": "Jesse Michels tells of Neil Armstrong seemed scared at his speech after the moon landing, about 1969 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 3336.0,
+      "to_s": 3348.0,
+      "teller": "jesse-michels",
+      "quote": "Neil Armstrong comes back. He gives a speech three weeks afterwards and he's giving the speech and he he looks kind of he goes this is a big step for mankind and he looks very kind of scared and sheepish",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

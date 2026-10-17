@@ -1,0 +1,54 @@
+{
+  "id": "plato-took-ergot-at-eleusis",
+  "title": "Plato took ergot at Eleusis",
+  "summary": "Jesse Michels tells of Plato took ergot at Eleusis, about classical Greece at Greece (the ancient oracle sites), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "ancient-greece",
+  "place_text": "Eleusis, Greece",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 3434.0,
+      "to_s": 3440.0,
+      "teller": "jesse-michels",
+      "quote": "he went to Elusis and he was tripping on Urgot",
+      "kind": "host",
+      "cites": [
+        "plato"
+      ],
+      "documents": [
+        "the-republic"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8XD1ZiuhXoY"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

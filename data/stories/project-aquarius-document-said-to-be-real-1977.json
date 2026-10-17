@@ -1,0 +1,59 @@
+{
+  "id": "project-aquarius-document-said-to-be-real-1977",
+  "title": "Project Aquarius document said to be real",
+  "summary": "Eric Davis tells of Project Aquarius document said to be real, about 1977 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1977
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 2589.0,
+      "to_s": 2605.0,
+      "teller": "eric-davis",
+      "quote": "I've seen the Aquarius document. Alonzo said it was real. People have been saying for years that that was fabricated by Bill Moore uh and Rick Dodie and it turns out no, Alonzo said those guys had nothing to do with anything.",
+      "kind": "secondhand",
+      "cites": [
+        "alonzo-mcdonald",
+        "bill-moore",
+        "rick-doty"
+      ],
+      "documents": [
+        "project-aquarius-briefing-document"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

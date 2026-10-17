@@ -1,0 +1,55 @@
+{
+  "id": "puharich-found-dead-at-the-bottom-of-the-stairs-1995",
+  "title": "Puharich found dead at the bottom of the stairs",
+  "summary": "Unnamed guest tells of Puharich found dead at the bottom of the stairs, about 1995 at Puharich's house, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1995,
+    "to": 1995
+  },
+  "place": null,
+  "place_text": "Puharich's house",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 8982.0,
+      "to_s": 8986.0,
+      "teller": "unnamed-guest",
+      "quote": "he he was found at the bottom of the stairs. He fell.",
+      "kind": "researcher",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

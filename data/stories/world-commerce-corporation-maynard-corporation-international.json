@@ -1,0 +1,57 @@
+{
+  "id": "world-commerce-corporation-maynard-corporation-international",
+  "title": "World Commerce Corporation / Maynard Corporation international cabal",
+  "summary": "Jesse Michels tells of World Commerce Corporation / Maynard Corporation international cabal, about post-WWII at Caribbean; international, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Caribbean; international",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 9049.0,
+      "to_s": 9058.0,
+      "teller": "jesse-michels",
+      "quote": "He places that in the World Commerce Corporation, which is this Caribbean constellation of shell sort of companies.",
+      "kind": "host",
+      "cites": [
+        "otto-scorzani",
+        "tom-dong",
+        "jason-samosa",
+        "matthew-brown"
+      ],
+      "documents": [
+        "secret-machines"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "gallimore-and-strassman-s-2015-extended-state-dmt-dmtx-propo",
+  "title": "Gallimore and Strassman's 2015 extended-state DMT (DMTx) proposal and paper",
+  "summary": "Andrew Gallimore tells of Gallimore and Strassman's 2015 extended-state DMT (DMTx) proposal and paper, about 2015 at unspecified, and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 3837.0,
+      "to_s": 3844.0,
+      "teller": "andrew-gallimore",
+      "quote": "So this was a model, a proposal by myself and Rick Strasman back in 2015",
+      "kind": "firsthand",
+      "cites": [
+        "rick-strasman"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 5457.0,
+      "to_s": 5466.0,
+      "teller": "andrew-gallimore",
+      "quote": "either. And it didn't end in 2015 when myself and Rick Strazman developed the DMTX protocol. Um I think we're still",
+      "kind": "firsthand",
+      "cites": [
+        "rick-strassman"
+      ],
+      "documents": [],
+      "difference": "Calls it a protocol and stresses that the work did not end in 2015.",
+      "link_reason": "Both are the 2015 extended-state DMT (DMTx) protocol that Gallimore and Strassman developed.",
+      "as_told": {
+        "title": "Gallimore and Strassman develop the DMTX protocol",
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "place_text": "unspecified",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "andrew-gallimore"
+    ],
+    "episodes": [
+      "8XD1ZiuhXoY"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

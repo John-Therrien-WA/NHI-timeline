@@ -1,0 +1,59 @@
+{
+  "id": "apollo-11-halfway-to-the-moon-window-footage-faked-in-earth-1969",
+  "title": "Apollo 11 'halfway to the moon' window footage faked in Earth orbit",
+  "summary": "Joe Rogan tells of Apollo 11 'halfway to the moon' window footage faked in Earth orbit, about 1969 at Earth orbit, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Earth orbit",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 6546.0,
+      "to_s": 6558.0,
+      "teller": "joe-rogan",
+      "quote": "There's also the uncovered footage that BART has that shows them saying that they're 230,000 miles out or or 30,000 halfway, right?",
+      "kind": "secondhand",
+      "cites": [
+        "bart-sibrel",
+        "david-percy",
+        "neil-armstrong"
+      ],
+      "documents": [
+        "apollo-11-in-flight-footage"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

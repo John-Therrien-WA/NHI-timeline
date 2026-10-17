@@ -1,0 +1,82 @@
+{
+  "id": "general-stubblebine-s-2-billion-offer-1992",
+  "title": "General Stubblebine's $2 billion offer",
+  "summary": "Steven Greer tells of General Stubblebine's $2 billion offer, about 1992 at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1992,
+    "to": 1992
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 1499.0,
+      "to_s": 1504.0,
+      "teller": "steven-greer",
+      "quote": "You know what kind of I said, well, in '92, General Stubble offered me $2 billion.",
+      "kind": "firsthand",
+      "cites": [
+        "albert-stubblebine",
+        "patrick-bet-david"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 5840.0,
+      "to_s": 5848.0,
+      "teller": "jesse-michels",
+      "quote": "And Stubble is first on the scene to you know ostensibly try to almost recruit him into some sort of government program.",
+      "kind": "host",
+      "cites": [
+        "albert-stubblebine",
+        "stephven-greer"
+      ],
+      "documents": [],
+      "difference": "Told by the host, without the $2 billion figure or the 1992 date.",
+      "link_reason": "Stubblebine's attempt to recruit Greer into a government program; it matches Greer's own story of Stubblebine's 1992 offer.",
+      "as_told": {
+        "title": "Stubblebine tries to recruit Steven Greer",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels",
+      "steven-greer"
+    ],
+    "episodes": [
+      "1sxmSMzqnmA",
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested"
+}

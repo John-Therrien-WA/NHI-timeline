@@ -1,0 +1,54 @@
+{
+  "id": "burchett-s-five-to-seven-undersea-bases-claim-traced-to-the",
+  "title": "Burchett's 'five to seven undersea bases' claim traced to the email",
+  "summary": "Tim Gallaudet tells of Burchett's 'five to seven undersea bases' claim traced to the email, about unspecified at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "washington-dc",
+  "place_text": "US Congress",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 1551.0,
+      "to_s": 1556.0,
+      "teller": "tim-gallaudet",
+      "quote": "what I think happened is someone who'd seen that email is the one who talked to Burchett.",
+      "kind": "researcher",
+      "cites": [
+        "tim-burchett"
+      ],
+      "documents": [
+        "naval-intelligence-commander-s-email"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "tim-gallaudet"
+    ],
+    "episodes": [
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

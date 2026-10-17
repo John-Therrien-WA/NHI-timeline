@@ -1,0 +1,156 @@
+{
+  "id": "grusch-dodges-the-question-about-agreements-in-his-testimony-2023",
+  "title": "Grusch dodges the question about agreements in his testimony",
+  "summary": "Matthew Pines tells of Grusch dodges the question about agreements in his testimony, about 2023 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2023
+  },
+  "place": "washington-dc",
+  "place_text": "US Congress",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 11451.0,
+      "to_s": 11457.0,
+      "teller": "matthew-pines",
+      "quote": "question that David Grush, you know, very pointedly dodged in testimony, which was like agreements.",
+      "kind": "researcher",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 4600.0,
+      "to_s": 4606.0,
+      "teller": "matthew-brown",
+      "quote": "Uh, David Gush under oath was asked about agreements and said that he could not provide further detail.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Told second hand by Matthew Brown, who says Grusch stated he could not give further detail.",
+      "link_reason": "Both are about Grusch, under oath in 2023, declining to give details when asked about agreements.",
+      "as_told": {
+        "title": "David Grusch asked about agreements under oath",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "US Congress, Washington DC",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "congress-denied-a-scif-for-grusch-s-classified-briefing-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "david-grush-s-congressional-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-testifies-before-congress-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "host-attended-the-congressional-uap-hearing-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jacobs-gives-kirkpatrick-his-case-and-is-dismissed-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-irad-fraud-allegation-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-public-testimony-cleared-by-dopsr-the-rest-given-in-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kirkpatrick-tells-gillibrand-s-committee-there-was-no-eviden-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "barber-s-group-back-channeled-the-psionic-asset-transfer-exp-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "barber-sent-to-red-team-whistleblowers-at-the-2023-national",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "senior-ge-scalar-physicist-at-greer-s-2023-conference",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grush-tells-moskowitz-he-would-answer-on-overhead-collection-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-speaks-of-interdimensional-beings-and-holography-at-a-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "burles-sees-grusch-on-the-news-and-contacts-him-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "following-david-grusch-from-his-testimony-back-to-colorado-f-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "matthew-brown",
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several"
+}

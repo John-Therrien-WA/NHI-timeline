@@ -1,0 +1,53 @@
+{
+  "id": "predecessor-killed-when-a-running-reactor-was-cut-open-1988",
+  "title": "Predecessor killed when a running reactor was cut open",
+  "summary": "Bob Lazar tells of Predecessor killed when a running reactor was cut open, about before 1988 at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1988,
+    "to": 1988
+  },
+  "place": "nevada-test-site",
+  "place_text": "Nevada Test Site",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 5703.0,
+      "to_s": 5717.0,
+      "teller": "bob-lazar",
+      "quote": "They took it out to the nuclear test site and they physically cut into it while it was running under load. Mhm. And it exploded.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

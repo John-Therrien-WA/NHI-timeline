@@ -1,0 +1,85 @@
+{
+  "id": "condon-committee-coordinated-with-air-force-1966",
+  "title": "Condon Committee coordinated with Air Force",
+  "summary": "Jesse Michels tells of Condon Committee coordinated with Air Force, about 1966-1968 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1966,
+    "to": 1968
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3922.0,
+      "to_s": 3929.0,
+      "teller": "jesse-michels",
+      "quote": "This 1966 investigation into UFOs was paid for, but supposed to be uninfluenced by the Air Force.",
+      "kind": "host",
+      "cites": [
+        "edward-condon",
+        "robert-hippler"
+      ],
+      "documents": [
+        "condon-committee-report"
+      ]
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 8270.0,
+      "to_s": 8274.0,
+      "teller": "jesse-michels",
+      "quote": "the University of Colorado Boulder and he does an absolute hit job on",
+      "kind": "host",
+      "cites": [
+        "edward-condon",
+        "robert-hippler"
+      ],
+      "documents": [
+        "condon-report"
+      ],
+      "difference": "This telling names the University of Colorado Boulder as where the committee worked, calls the study an outright \"hit job\", credits the Condon Report, and runs the dates to 1969.",
+      "link_reason": "Both are Jesse Michels's tellings of the Condon Committee, the 1966–1968/69 UFO study program, and both credit Edward Condon and Robert Hippler. Calling it a \"hit job\" fits with the story's claim that the Air Force paid for and steered the committee rather than contradicting it.",
+      "as_told": {
+        "title": "Condon Committee hit job at University of Colorado",
+        "years": {
+          "from": 1966,
+          "to": 1969
+        },
+        "place_text": "University of Colorado Boulder",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

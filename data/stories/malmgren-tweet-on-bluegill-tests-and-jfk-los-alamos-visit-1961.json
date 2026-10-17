@@ -1,0 +1,57 @@
+{
+  "id": "malmgren-tweet-on-bluegill-tests-and-jfk-los-alamos-visit-1961",
+  "title": "Malmgren tweet on Bluegill tests and JFK Los Alamos visit",
+  "summary": "Jesse Michels tells of Malmgren tweet on Bluegill tests and JFK Los Alamos visit, about 1961-1962 at Los Alamos, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1962
+  },
+  "place": null,
+  "place_text": "Los Alamos",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 2092.0,
+      "to_s": 2110.0,
+      "teller": "jesse-michels",
+      "quote": "tweeted am now reconstructing my personal interactions with Los Alamos Lawrence G bluegill ICBM interception tests 1961 62 and JFK visit to Los alos November 1962",
+      "kind": "host",
+      "cites": [
+        "harold-melgram"
+      ],
+      "documents": [
+        "harold-malmgren-tweet"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

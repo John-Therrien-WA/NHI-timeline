@@ -1,0 +1,99 @@
+{
+  "id": "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+  "title": "The 1952 Hottel memo on a crashed UFO with alien crew",
+  "summary": "Jesse Michels tells of The 1952 Hottel memo on a crashed UFO with alien crew, about 1952 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": "united-states",
+  "place_text": "United States (FBI)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 496.0,
+      "to_s": 511.0,
+      "teller": "jesse-michels",
+      "quote": "hoddle is now famous for his 1952 hoddle\nmemo the most read document on the FBI's\nwebsite it describes an Air Force\nofficer writing to hoddle about a\ncrashed UFO with an alien crew inside of\nit",
+      "kind": "host",
+      "cites": [
+        "guy-hottel"
+      ],
+      "documents": [
+        "hottel-memo"
+      ]
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 8082.0,
+      "to_s": 8096.0,
+      "teller": "jesse-michels",
+      "quote": "the number one memo on the FBI's website the number one the most searched for memo is called the Huddle memo and it's basically describing an air a force technical officer coming upon a craft that is crashed",
+      "kind": "host",
+      "cites": [
+        "guy-hottel"
+      ],
+      "documents": [
+        "hottel-memo"
+      ],
+      "difference": "This telling dates the memo to 1950 rather than 1952, calls the officer an Air Force technical officer, and doesn't mention an alien crew.",
+      "link_reason": "Both tellings describe the Hottel memo, the most-searched document on the FBI website, in which an Air Force officer reports a crashed craft. The teller is the same and the grain matches.",
+      "as_told": {
+        "title": "The Hottel memo on the FBI website",
+        "years": {
+          "from": 1950,
+          "to": 1950
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "cia-memo-calls-ufos-a-national-security-matter-1952",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "majestic-12-briefing-document-1952",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-in-look-magazine-on-sightings-at-atomic-sites-1952",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "TH10mD9hQas",
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

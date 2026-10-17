@@ -1,0 +1,55 @@
+{
+  "id": "jorjani-s-dinner-with-jacques-vallee-on-time-travel-2016",
+  "title": "Jorjani's dinner with Jacques Vallée on time travel",
+  "summary": "Jason Jorjani tells of Jorjani's dinner with Jacques Vallée on time travel, about c. 2016-2017 at Jacques Vallée's home, and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2016,
+    "to": 2017
+  },
+  "place": null,
+  "place_text": "Jacques Vallée's home",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 2612.0,
+      "to_s": 2624.0,
+      "teller": "jason-jorjani",
+      "quote": "He had invited me to his home and we had a nice dinner and and a fairly intimate conversation and I brought this question up with him",
+      "kind": "firsthand",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

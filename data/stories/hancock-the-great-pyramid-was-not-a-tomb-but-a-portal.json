@@ -1,0 +1,83 @@
+{
+  "id": "hancock-the-great-pyramid-was-not-a-tomb-but-a-portal",
+  "title": "Hancock: the Great Pyramid was not a tomb but a portal",
+  "summary": "Jesse Michels tells of Hancock: the Great Pyramid was not a tomb but a portal, about Ancient Egypt at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Great Pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 10868.0,
+      "to_s": 10878.0,
+      "teller": "jesse-michels",
+      "quote": "So when I speak to Graham Hancock, he says, you know, I don't think that a lot of this ancient architecture, you know, for example, he says that the the pyramid was not a tomb",
+      "kind": "secondhand",
+      "cites": [
+        "graham-hancock"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 7468.0,
+      "to_s": 7477.0,
+      "teller": "jesse-michels",
+      "quote": "I I asked Graham Hancock point blank, what do you think their actual function was if they weren't a tomb? And he almost implied that they were like a a Stargate.",
+      "kind": "secondhand",
+      "cites": [
+        "graham-hancock",
+        "christopher-dunn",
+        "robert-schoch"
+      ],
+      "documents": [
+        "book-of-enoch"
+      ],
+      "difference": "Adds the Orion's belt alignment and the word 'stargate', and also credits Dunn, Schoch and the Book of Enoch.",
+      "link_reason": "Both relay Graham Hancock's view that the Great Pyramid was not a tomb but a portal or stargate.",
+      "as_told": {
+        "title": "Giza pyramids aligned with Orion's belt as a stargate",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "great-pyramid-as-a-giant-power-plant",
+      "relation": "variant",
+      "note": "Both are about the true purpose of the Great Pyramid. Dunn says it was a power plant and Hancock says it was a portal rather than a tomb, so the two claims compete."
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

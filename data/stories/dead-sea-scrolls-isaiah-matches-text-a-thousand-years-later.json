@@ -1,0 +1,56 @@
+{
+  "id": "dead-sea-scrolls-isaiah-matches-text-a-thousand-years-later",
+  "title": "Dead Sea Scrolls Isaiah matches text a thousand years later",
+  "summary": "Joe Rogan tells of Dead Sea Scrolls Isaiah matches text a thousand years later, about ancient at Qumran, Dead Sea, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Qumran, Dead Sea",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 2658.0,
+      "to_s": 2670.0,
+      "teller": "joe-rogan",
+      "quote": "Wes Huff when he was on my podcast explained to me that the book of Isaiah that they found in the Dead Sea Scrolls is verbatim the same as the book of Isaiah that was a thousand years more recent.",
+      "kind": "secondhand",
+      "cites": [
+        "wes-huff"
+      ],
+      "documents": [
+        "dead-sea-scrolls",
+        "book-of-isaiah",
+        "book-of-enoch"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "wright-patterson-as-reverse-engineering-site-for-enemy-equip-1940",
+  "title": "Wright-Patterson as reverse-engineering site for enemy equipment",
+  "summary": "Jesse Michels tells of Wright-Patterson as reverse-engineering site for enemy equipment, about 1940s at Wright-Patterson Air Force Base, Ohio, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Wright-Patterson Air Force Base, Ohio",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 1520.0,
+      "to_s": 1526.0,
+      "teller": "jesse-michels",
+      "quote": "Wright Pat was the place that the military would take enemy equipment in order to reverse engineer it.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

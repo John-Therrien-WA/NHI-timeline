@@ -1,0 +1,52 @@
+{
+  "id": "aristotle-the-planets-are-intelligences",
+  "title": "Aristotle: the planets are intelligences",
+  "summary": "James Madden tells of Aristotle: the planets are intelligences, about ancient Greece at the heavens, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "the heavens",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "KRDE1i3LDuU",
+      "from_s": 4928.0,
+      "to_s": 4934.0,
+      "teller": "james-madden",
+      "quote": "I mean they're not for Aristotle, you know, I mean literally the planets are intelligences, right? So they're not flying ships or something like that.",
+      "kind": "researcher",
+      "cites": [
+        "aristotle"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "james-madden"
+    ],
+    "episodes": [
+      "KRDE1i3LDuU"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

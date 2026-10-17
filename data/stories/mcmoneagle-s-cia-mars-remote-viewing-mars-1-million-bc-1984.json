@@ -1,0 +1,79 @@
+{
+  "id": "mcmoneagle-s-cia-mars-remote-viewing-mars-1-million-bc-1984",
+  "title": "McMoneagle's CIA Mars remote viewing (Mars 1 Million BC)",
+  "summary": "Jason Jorjani tells of McMoneagle's CIA Mars remote viewing (Mars 1 Million BC), about 1984 at Monroe Institute, Virginia; Mars, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1984,
+    "to": 1984
+  },
+  "place": null,
+  "place_text": "Monroe Institute, Virginia; Mars",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 4259.0,
+      "to_s": 4266.0,
+      "teller": "jason-jorjani",
+      "quote": "1984, Joe McMel at the Monroe Institute did a remote viewing of Mars for the CIA.",
+      "kind": "researcher",
+      "cites": [
+        "joseph-mcmoneagle"
+      ],
+      "documents": [
+        "mars-1-million-bc"
+      ]
+    },
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 4240.0,
+      "to_s": 4246.0,
+      "teller": "jesse-michels",
+      "quote": "Joseph McMongle was tasked with remote viewing Mars a million years ago.",
+      "kind": "host",
+      "cites": [
+        "joseph-mcmongle"
+      ],
+      "documents": [],
+      "difference": "Told by the host with no date, CIA tasking or Monroe Institute mentioned.",
+      "link_reason": "Both are McMoneagle's remote viewing of Mars a million years ago.",
+      "as_told": {
+        "title": "McMoneagle remote views Mars a million years ago",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1sxmSMzqnmA",
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

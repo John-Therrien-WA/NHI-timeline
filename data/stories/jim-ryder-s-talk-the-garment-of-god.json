@@ -1,0 +1,75 @@
+{
+  "id": "jim-ryder-s-talk-the-garment-of-god",
+  "title": "Jim Ryder's talk \"The Garment of God\"",
+  "summary": "Jesse Michels tells of Jim Ryder's talk \"The Garment of God\", about an unknown time at an unknown place, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Lucis Trust event",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 3323.0,
+      "to_s": 3329.0,
+      "teller": "jesse-michels",
+      "quote": "urge everyone to listen to this talk Jim Ryder gave called the Garment of God",
+      "kind": "secondhand",
+      "cites": [
+        "jim-ryder"
+      ],
+      "documents": [
+        "the-garment-of-god"
+      ]
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 14939.0,
+      "to_s": 14944.0,
+      "teller": "jesse-michels",
+      "quote": "He was speaking at this event for Lucus Trust",
+      "kind": "host",
+      "cites": [
+        "jim-ryder"
+      ],
+      "documents": [],
+      "difference": "Places the talk at a Lucis Trust event and calls Ryder a Lockheed VP, but does not give the talk's title.",
+      "link_reason": "Both are about a talk by Lockheed's Jim Ryder that Jesse Michels points listeners to; the Garment of God talk is plausibly the one given at the Lucis Trust event.",
+      "as_told": {
+        "title": "Lockheed VP Jim Ryder's talk at a Lucis Trust event",
+        "years": null,
+        "place_text": "Lucis Trust event",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

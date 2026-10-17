@@ -1,0 +1,163 @@
+{
+  "id": "lonnie-zamora-s-socorro-landing-1964",
+  "title": "Lonnie Zamora's Socorro landing",
+  "summary": "James Fox tells of Lonnie Zamora's Socorro landing, about April 24, 1964 at Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "mexico",
+  "place_text": "Socorro, New Mexico",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 1748.0,
+      "to_s": 1754.0,
+      "teller": "james-fox",
+      "quote": "landing case that I was investigating at sakur New Mexico that happened April 24th 1964",
+      "kind": "researcher",
+      "cites": [
+        "lonnie-zamora",
+        "ray-stanford",
+        "j-allen-hynek"
+      ],
+      "documents": [
+        "socorro-saucer-in-a-pentagon-pantry"
+      ]
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 3935.0,
+      "to_s": 3943.0,
+      "teller": "jesse-michels",
+      "quote": "Lonnie Zamore's famous graph that came down in ' 64 and in New Mexico allegedly had little legs",
+      "kind": "host",
+      "cites": [
+        "lonnie-zamora"
+      ],
+      "documents": [],
+      "difference": "Adds that the craft allegedly had little legs.",
+      "link_reason": "This is Lonnie Zamora's 1964 New Mexico landing, the Socorro case.",
+      "as_told": {
+        "title": "Lonnie Zamora craft with little legs",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "New Mexico",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 3321.0,
+      "to_s": 3331.0,
+      "teller": "jesse-michels",
+      "quote": "You have Lonnie Zamora, Sakoro, New Mexico, 1964, where he's this police officer. He sees this egg actually land, sees burnt vegetation in the area.",
+      "kind": "host",
+      "cites": [
+        "lonnie-zamora"
+      ],
+      "documents": [],
+      "difference": "Describes the craft as an egg and mentions burnt vegetation at the site.",
+      "link_reason": "Same 1964 Socorro landing witnessed by Lonnie Zamora.",
+      "as_told": {
+        "title": "Lonnie Zamora egg landing at Socorro",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Socorro, New Mexico",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 5788.0,
+      "to_s": 5796.0,
+      "teller": "james-fox",
+      "quote": "I think about, you know, Sakoro like officer Lonnie Zamora like face contact, you know, locked eyes with one of these beings.",
+      "kind": "researcher",
+      "cites": [
+        "lonnie-zamora"
+      ],
+      "documents": [],
+      "difference": "Stresses that Zamora made face-to-face contact and locked eyes with one of the beings.",
+      "link_reason": "The same 1964 Socorro encounter by Officer Lonnie Zamora.",
+      "as_told": {
+        "title": "Lonnie Zamora's Socorro encounter",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Socorro, New Mexico",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 10436.0,
+      "to_s": 10443.0,
+      "teller": "james-fox",
+      "quote": "was investigating Sakoro and that happened in ' 64, April 24th, 1964.",
+      "kind": "journalist",
+      "cites": [
+        "ray-stanford"
+      ],
+      "documents": [
+        "socorro-saucer-in-a-pentagon-pantry"
+      ],
+      "difference": "Credits only Ray Stanford and the document 'Socorro Saucer in a Pentagon Pantry'.",
+      "link_reason": "Both are about the April 24, 1964 Socorro landing that Fox investigated.",
+      "as_told": {
+        "title": "Socorro landing investigation",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Socorro, New Mexico",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.9,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "james-fox",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "bVhSPH2A5Vw",
+      "dnnpyNuPdXs",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.95,
+  "tier": "well-attested"
+}

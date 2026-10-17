@@ -1,0 +1,53 @@
+{
+  "id": "townsend-brown-s-gravitational-anomaly-expeditions-in-nassau",
+  "title": "Townsend Brown's gravitational anomaly expeditions in Nassau",
+  "summary": "Jesse Michels tells of Townsend Brown's gravitational anomaly expeditions in Nassau, about unspecified at Nassau, Bahamas, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Nassau, Bahamas",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 9345.0,
+      "to_s": 9354.0,
+      "teller": "jesse-michels",
+      "quote": "Town Towns and Brown also spent a ton of time in the Bahamas. Did you know that? In Nassau specifically, and he would do these expeditions where he'd look at gravitational anomalies there.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "william-stevenson"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

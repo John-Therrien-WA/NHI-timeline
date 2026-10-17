@@ -1,0 +1,54 @@
+{
+  "id": "22-000-year-old-footprints-in-north-america",
+  "title": "22,000-year-old footprints in North America",
+  "summary": "Jesse Michels tells of 22,000-year-old footprints in North America, about 22,000 years ago at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "North America",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 7216.0,
+      "to_s": 7221.0,
+      "teller": "jesse-michels",
+      "quote": "Graham Hanok on Ancient Apocalypse is showing footprints in North America",
+      "kind": "secondhand",
+      "cites": [
+        "graham-hancock"
+      ],
+      "documents": [
+        "ancient-apocalypse"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

@@ -1,0 +1,62 @@
+{
+  "id": "southwest-research-analysis-of-the-implant-sliver-1993",
+  "title": "Southwest Research analysis of the implant sliver",
+  "summary": "Whitley Strieber tells of Southwest Research analysis of the implant sliver, about mid-1990s at Texas (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1993,
+    "to": 1996
+  },
+  "place": "texas",
+  "place_text": "Southwest Research Institute, San Antonio, Texas",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 5204.0,
+      "to_s": 5231.0,
+      "teller": "whitley-strieber",
+      "quote": "Bill says, \"I've got your piece of your sliver of the implant.\" And he [clears throat] says it is um a metal metallic base with febrow motion moving uh uh celia coming off of it.",
+      "kind": "secondhand",
+      "cites": [
+        "william-malow",
+        "tom-slick"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "classified-signals-lab-picks-up-a-signal-from-the-implant-1993",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "whitley-strieber"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

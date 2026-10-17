@@ -1,0 +1,58 @@
+{
+  "id": "sighting-map-clusters-around-trinity-site-1940",
+  "title": "Sighting map clusters around Trinity Site",
+  "summary": "James Fox tells of Sighting map clusters around Trinity Site, about 1940s-1950s cases at Mexico (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1959
+  },
+  "place": "mexico",
+  "place_text": "Trinity Site, New Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 9046.0,
+      "to_s": 9052.0,
+      "teller": "james-fox",
+      "quote": "the proximity to Trinity site was unbelievable",
+      "kind": "firsthand",
+      "cites": [
+        "lance-mungia",
+        "robert-hastings"
+      ],
+      "documents": [
+        "the-phenomenon"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

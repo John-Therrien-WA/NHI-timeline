@@ -1,0 +1,58 @@
+{
+  "id": "parviz-jafari-s-1976-tehran-ufo-encounter",
+  "title": "Parviz Jafari's 1976 Tehran UFO encounter",
+  "summary": "James Fox tells of Parviz Jafari's 1976 Tehran UFO encounter, about 1976 at Tehran, Iran, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1976,
+    "to": 1976
+  },
+  "place": null,
+  "place_text": "Tehran, Iran",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 6094.0,
+      "to_s": 6108.0,
+      "teller": "james-fox",
+      "quote": "met this uh this this Iranian pilot that had this dramatic UFO encounter over Tyron Iran in 19 I want to say 75 in a phantom F4 jet",
+      "kind": "secondhand",
+      "cites": [
+        "parviz-jafari",
+        "leslie-kean"
+      ],
+      "documents": [
+        "dia-assessment-of-the-tehran-incident"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

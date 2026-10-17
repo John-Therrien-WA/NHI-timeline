@@ -1,0 +1,64 @@
+{
+  "id": "children-gain-psychic-powers-after-seeing-geller-on-tv-1970",
+  "title": "Children gain psychic powers after seeing Geller on TV",
+  "summary": "Greg tells of Children gain psychic powers after seeing Geller on TV, about early–mid 1970s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1973
+  },
+  "place": "united-states",
+  "place_text": "USA, UK, China",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 7193.0,
+      "to_s": 7204.0,
+      "teller": "greg",
+      "quote": "these kids would see um Geller on TV and all of a sudden like that would uh cause them to just spontaneously like do something psychic.",
+      "kind": "researcher",
+      "cites": [
+        "uri-geller",
+        "andrija-puharich"
+      ],
+      "documents": [
+        "newspaper-articles"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "rare-book-theft-ring-and-the-burning-of-stolen-books-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

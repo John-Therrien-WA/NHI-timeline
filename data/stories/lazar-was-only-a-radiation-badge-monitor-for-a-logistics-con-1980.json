@@ -1,0 +1,71 @@
+{
+  "id": "lazar-was-only-a-radiation-badge-monitor-for-a-logistics-con-1980",
+  "title": "Lazar was only a radiation badge monitor for a logistics contractor and never went to Area 51",
+  "summary": "Eric Davis tells of Lazar was only a radiation badge monitor for a logistics contractor and never went to Area 51, about 1980s at Las Vegas, Nevada, and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, near McCarran Airport; Area 51",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 6966.0,
+      "to_s": 6983.0,
+      "teller": "eric-davis",
+      "quote": "uh he doesn't know what he's talking about because he was a radiation health monitor for uh uh Kimber Meyer company and they were a logistics service uh company servicing Los Alamos National Lab in Area 51.",
+      "kind": "official",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "attempts-to-discredit-lazar-s-los-alamos-and-s4-employment-1980",
+      "relation": "variant",
+      "note": "Both are about whether Lazar really worked at Los Alamos and S4. The story's teller says his work there was confirmed; Davis says he was only a radiation badge monitor for a logistics contractor and never went to Area 51."
+    },
+    {
+      "story": "meeting-john-lear-through-gene-huff-s-appraisal-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "riding-the-l-1011-jump-seat-posing-as-faa-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once"
+}

@@ -1,0 +1,71 @@
+{
+  "id": "burkhard-heim-at-lockheed-and-extended-heim-theory-1950",
+  "title": "Burkhard Heim at Lockheed and extended Heim theory",
+  "summary": "Jesse Michels tells of Burkhard Heim at Lockheed and extended Heim theory, about 1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "Lockheed Martin, United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 7111.0,
+      "to_s": 7121.0,
+      "teller": "jesse-michels",
+      "quote": "And he was a German, and he ended up moving over to the US and working for Lockheed Martin in the '50s, and was renowned as just a total genius.",
+      "kind": "host",
+      "cites": [
+        "burkhard-heim"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "1950s-anti-gravity-research-went-quiet-possibly-went-black",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "host-s-reading-of-majestic-as-a-continuity-of-government-com-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "presidency-cut-out-of-the-loop-under-eisenhower-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

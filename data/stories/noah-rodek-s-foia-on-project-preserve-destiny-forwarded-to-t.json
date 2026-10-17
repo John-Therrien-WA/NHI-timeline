@@ -1,0 +1,104 @@
+{
+  "id": "noah-rodek-s-foia-on-project-preserve-destiny-forwarded-to-t",
+  "title": "Noah Rodek's FOIA on Project Preserve Destiny forwarded to the NSA",
+  "summary": "Jesse Michels tells of Noah Rodek's FOIA on Project Preserve Destiny forwarded to the NSA, about unspecified at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 5088.0,
+      "to_s": 5100.0,
+      "teller": "jesse-michels",
+      "quote": "Independently this researcher foyed the air force said does you know just asking for information about project preserve destiny.",
+      "kind": "host",
+      "cites": [
+        "noah-rodek"
+      ],
+      "documents": [
+        "foia-request-on-project-preserve-destiny"
+      ]
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 10119.0,
+      "to_s": 10130.0,
+      "teller": "jesse-michels",
+      "quote": "you know, this guy Noah Rodic actually foyed uh, you know, this independent researcher foyed Project Preserve Destiny and the foyer was sent to the Air Force and the Air Force forwarded it to the NSA.",
+      "kind": "host",
+      "cites": [
+        "noah-rodic",
+        "dan-sherman"
+      ],
+      "documents": [
+        "project-preserve-destiny-foia"
+      ],
+      "difference": "Spells the name Rodic, names Dan Sherman, and states outright that the Air Force forwarded the request to the NSA.",
+      "link_reason": "Same story: the independent researcher Noah Rodek filed a FOIA request about Project Preserve Destiny, and the Air Force forwarded it to the NSA.",
+      "as_told": {
+        "title": "Project Preserve Destiny FOIA forwarded from the Air Force to the NSA",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 4709.0,
+      "to_s": 4717.0,
+      "teller": "jesse-michels",
+      "quote": "can foyer, you know, project preserve destiny, you know, with visav the air force. The air force then forwards it to the NSA",
+      "kind": "host",
+      "cites": [
+        "dan-sherman"
+      ],
+      "documents": [
+        "above-black"
+      ],
+      "difference": "Does not name the researcher, Noah Rodek.",
+      "link_reason": "Both are about the FOIA request on Project Preserve Destiny that was sent to the Air Force and forwarded to the NSA.",
+      "as_told": {
+        "title": "FOIA request on Project Preserve Destiny forwarded from Air Force to NSA",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0",
+      "u7g5Sn1DJF4",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

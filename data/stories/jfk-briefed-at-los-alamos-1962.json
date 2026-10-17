@@ -1,0 +1,53 @@
+{
+  "id": "jfk-briefed-at-los-alamos-1962",
+  "title": "JFK briefed at Los Alamos",
+  "summary": "Jesse Michels tells of JFK briefed at Los Alamos, about 1962 at Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "mexico",
+  "place_text": "Los Alamos, New Mexico",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 3171.0,
+      "to_s": 3179.0,
+      "teller": "jesse-michels",
+      "quote": "And then JFK, I think a couple weeks later, a few weeks later, ends up at Los Alamos getting briefed.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

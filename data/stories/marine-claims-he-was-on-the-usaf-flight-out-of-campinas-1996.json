@@ -1,0 +1,55 @@
+{
+  "id": "marine-claims-he-was-on-the-usaf-flight-out-of-campinas-1996",
+  "title": "Marine claims he was on the USAF flight out of Campinas",
+  "summary": "James Fox tells of Marine claims he was on the USAF flight out of Campinas, about 1996 at Campinas, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": null,
+  "place_text": "Campinas, Brazil",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 5177.0,
+      "to_s": 5190.0,
+      "teller": "james-fox",
+      "quote": "claimed to have been part of the Varia operation from Campenis. It was Youf. He goes, \"I was on the flight.\"",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "email-from-anonymous-marine"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

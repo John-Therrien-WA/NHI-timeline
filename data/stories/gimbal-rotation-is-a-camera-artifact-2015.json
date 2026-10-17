@@ -1,0 +1,108 @@
+{
+  "id": "gimbal-rotation-is-a-camera-artifact-2015",
+  "title": "Gimbal rotation is a camera artifact",
+  "summary": "Mick West tells of Gimbal rotation is a camera artifact, about 2015 at off Florida, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": "off-us-east-coast",
+  "place_text": "off Florida",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 6287.0,
+      "to_s": 6293.0,
+      "teller": "mick-west",
+      "quote": "analysis that I've done suggests that it might actually be a camera artifact",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "gimbal-video"
+      ]
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 7853.0,
+      "to_s": 7858.0,
+      "teller": "mick-west",
+      "quote": "I think what we see here is some kind of optical effect that is rotating because of some d- rotation mechanism.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Names a de-rotation mechanism rotating an optical effect as the cause.",
+      "link_reason": "Both are Mick West's theory that the Gimbal object's apparent rotation comes from the camera, not from the object itself.",
+      "as_told": {
+        "title": "Gimbal as an optical effect rotated by a de-rotation mechanism",
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "place_text": "Off the US East Coast",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 12482.0,
+      "to_s": 12488.0,
+      "teller": "mick-west",
+      "quote": "as you know I think that the gimbal shape is actually uh you know a camera artifact.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Applies the artifact explanation to the object's shape, where the story applies it to the rotation.",
+      "link_reason": "Both are Mick West's theory that what appears in the Gimbal video is a camera artifact.",
+      "as_told": {
+        "title": "Gimbal shape as camera artifact",
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "place_text": "US Navy, East Coast",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "gimbal-j-hook-path-matches-aircrew-radar-account-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "gimbal-radar-returns-as-interference-or-echoes-of-a-distant-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

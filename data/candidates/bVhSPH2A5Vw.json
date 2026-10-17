@@ -1,0 +1,4175 @@
+{
+  "episode": "bVhSPH2A5Vw",
+  "captions": "sources/captions/bVhSPH2A5Vw.en.txt",
+  "model": "opus",
+  "chunks": 4,
+  "candidates": [
+    {
+      "title": "Boss tells Fox the government admitted the Roswell recovery",
+      "story_kind": "crash-retrieval",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "he goes ah yeah the US government actually admitted that they recovered I said really",
+      "from_s": 453.0,
+      "to_s": 460.0,
+      "cites": [
+        "Richard vanle",
+        "Renee Harris"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Fox's boss telling him that the US government admitted it had recovered something at Roswell, which points to the official admission of a recovery. The nearest story is about rancher Mac Brazel finding the debris, not about a government admission, and none of the other Roswell stories (Hoover, Corso, the bismuth sample, Vallee-Pasulka) is about that admission.",
+        "difference": "",
+        "against": [
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "roswell-crash-debris-retrieved-by-mac-brazel-1947",
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "trinity-and-roswell-crashes-1940",
+          "briefing-on-engineered-isotopic-ratios-of-recovered-craft-2019",
+          "non-human-biologics-recovered-with-crashed-craft",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo"
+        ],
+        "id": "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947"
+      }
+    },
+    {
+      "title": "Robertson panel adopts a policy of ridicule",
+      "story_kind": "document",
+      "years_text": "1952-1953",
+      "years": {
+        "from": 1952,
+        "to": 1953
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "you know the Robertson panel in 1953 absolutely adopted this policy of ridicule",
+      "from_s": 592.0,
+      "to_s": 599.0,
+      "cites": [
+        "Howard P Robertson"
+      ],
+      "documents": [
+        "Robertson panel report"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "Both tellings are about the 1953 Robertson panel's recommendation that the government play down UFOs in public. A policy of ridicule is the same core claim as systematic downplaying, said more sharply.",
+        "difference": "",
+        "downgraded": {
+          "from": "same",
+          "story": "robertson-panel-recommends-downplaying-ufos-1953",
+          "why": "a document telling and the program story robertson-panel-recommends-downplaying-ufos-1953: a program and a story of another kind are different grains"
+        },
+        "against": [
+          "robertson-panel-recommends-downplaying-ufos-1953",
+          "walter-b-smith-1953-letter-on-using-the-phenomenon-for-psych",
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "atomic-energy-act-s-special-nuclear-material-covers-crash-ma-1954",
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "townsend-s-repelling-bismuth-raised-at-martin-1950",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960"
+        ],
+        "id": "robertson-panel-adopts-a-policy-of-ridicule-1952"
+      }
+    },
+    {
+      "title": "Harry Turner's 1971 Australian intelligence document on US UFO and anti-gravity research",
+      "story_kind": "document",
+      "years_text": "1952-1971",
+      "years": {
+        "from": 1952,
+        "to": 1971
+      },
+      "place_text": "Australia / United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "there's actually this 1971 document that came out of Australia from The Joint intelligence organization by their head of their nulear division named Harry Turner",
+      "from_s": 683.0,
+      "to_s": 693.0,
+      "cites": [
+        "Harry Turner",
+        "Freeman Dyson",
+        "Edward Teller",
+        "Robert Oppenheimer",
+        "John Wheeler"
+      ],
+      "documents": [
+        "1971 Joint Intelligence Organisation document"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about a particular 1971 Australian Joint Intelligence Organisation document by Harry Turner on US UFO and anti-gravity research. The closest story is the Talbert newspaper series on 1950s aerospace anti-gravity interest, but that is a different document, from a different author, country and decade.",
+        "difference": "",
+        "against": [
+          "talbert-newspaper-series-on-1950s-aerospace-anti-gravity-int",
+          "glenn-martin-company-employs-louis-witten-for-anti-gravity-r-1950",
+          "blue-book-heads-grow-increasingly-anti-ufo-1952-1969",
+          "1950s-anti-gravity-research-went-quiet-possibly-went-black",
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "babson-s-gravity-research-foundation-in-new-boston-1950",
+          "bahnson-funds-bryce-dewitt-institute-at-unc-chapel-hill-1950",
+          "chapel-hill-gravity-conference-kicks-off-anti-gravity-flurry-1950"
+        ],
+        "id": "harry-turner-s-1971-australian-intelligence-document-on-us-u-1952"
+      }
+    },
+    {
+      "title": "Vallee finds a classified Battelle letter about a secret program running parallel to Blue Book",
+      "story_kind": "document",
+      "years_text": "1950s-1960s",
+      "years": {
+        "from": 1950,
+        "to": 1969
+      },
+      "place_text": "United States (Hynek's files)",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "came jacqu valet Came Upon a file of of a document that was classified that he shouldn't have seen",
+      "from_s": 779.0,
+      "to_s": 787.0,
+      "cites": [
+        "Jacques Vallee",
+        "J. Allen Hynek",
+        "HC cross"
+      ],
+      "documents": [
+        "Battelle letter signed by HC Cross",
+        "The Phenomenon"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is Vallee's general suspicion that a secret, real project ran behind Blue Book. This telling is about one specific event: Vallee finding a classified Battelle letter, signed by HC Cross, in Hynek's files. That letter is evidence offered for the program, so it is a narrower, distinct document story.",
+        "difference": "",
+        "against": [
+          "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960",
+          "john-mccarthy-s-bureau-of-simulation-story-1968",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "air-force-project-blue-book-1947",
+          "vallee-s-study-of-small-ufo-religions-1970",
+          "san-jose-woman-s-disc-that-was-bigger-inside-than-outside",
+          "shamans-accounts-of-little-men-out-of-a-big-light-passport-t",
+          "condon-report-closes-blue-book-1968"
+        ],
+        "id": "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950"
+      }
+    },
+    {
+      "title": "Oppenheimer on the Aztec crash retrieval team",
+      "story_kind": "crash-retrieval",
+      "years_text": "1948",
+      "years": {
+        "from": 1948,
+        "to": 1948
+      },
+      "place_text": "Aztec, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "there's a book by William Steinman called you know um UFO crash about the Aztec crash retrieval and they say Oppenheimer was part of the retrieval team",
+      "from_s": 901.0,
+      "to_s": 911.0,
+      "cites": [
+        "William Steinman",
+        "Robert Oppenheimer"
+      ],
+      "documents": [
+        "UFO Crash at Aztec"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about the 1948 Aztec, New Mexico crash retrieval, with Oppenheimer named on the retrieval team. None of the stories cover the Aztec crash. The closest ones are the Roswell retrieval stories and Oppenheimer creating the UFO classification, and those are different events or a different, more general claim.",
+        "difference": "",
+        "against": [
+          "oppenheimer-created-the-classification-covering-ufos-1940",
+          "air-force-project-blue-book-1947",
+          "legacy-crash-retrieval-program-should-out-itself",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "manhattan-project-as-the-first-blue-book-colleagues-grandpar-1940",
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "roswell-crash-debris-retrieved-by-mac-brazel-1947"
+        ],
+        "id": "oppenheimer-on-the-aztec-crash-retrieval-team-1948"
+      }
+    },
+    {
+      "title": "Theory that Oppenheimer's security hearing was really about UFOs",
+      "story_kind": "theory",
+      "years_text": "1945-1954",
+      "years": {
+        "from": 1945,
+        "to": 1954
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "the head of the kangaroo court was a guy named Gordon gray who you know who",
+      "from_s": 946.0,
+      "to_s": 951.0,
+      "cites": [
+        "Gordon Gray",
+        "John von Neumann",
+        "Robert Oppenheimer"
+      ],
+      "documents": [
+        "Oppenheimer hearing transcript",
+        "Majestic 12 document"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is a theory that Oppenheimer's 1954 security hearing, chaired by Gordon Gray, was secretly about UFOs. The nearest story, Grusch's claim that Oppenheimer created the classification covering UFOs, is a different claim about a different subject: who set up a classification system, not what the hearing was really about.",
+        "difference": "",
+        "against": [
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "was-condon-blackmailed-by-fbi-agent-guy-hottel-into-debunkin-1950",
+          "harry-turner-s-1971-australian-intelligence-document-on-us-u-1952",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "e-howard-hunt-links-jfk-s-death-to-ufo-inquiries-1963",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "oppenheimer-created-the-classification-covering-ufos-1940"
+        ],
+        "id": "theory-that-oppenheimer-s-security-hearing-was-really-about-1945"
+      }
+    },
+    {
+      "title": "Majestic 12 briefing document",
+      "story_kind": "document",
+      "years_text": "1952",
+      "years": {
+        "from": 1952,
+        "to": 1952
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "this document is easily the most controversial in UFO circles it is supposedly a briefing document prepared in 1952 for president-elect Dwight Eisenhower",
+      "from_s": 965.0,
+      "to_s": 976.0,
+      "cites": [
+        "Dwight Eisenhower",
+        "Harry Truman"
+      ],
+      "documents": [
+        "Majestic 12 briefing document"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the Majestic 12 briefing document, said to have been prepared for President-elect Eisenhower in 1952. None of the stories is MJ-12. The closest ones are other 1952 documents: the CIA national-security memo and the FBI Hottel memo. Those are separate documents.",
+        "difference": "",
+        "against": [
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "doolittle-sent-to-investigate-swedish-ghost-rockets-1946",
+          "jfk-letter-to-cia-director-mccone-requesting-ufo-data-1963",
+          "blue-book-heads-grow-increasingly-anti-ufo-1952-1969",
+          "1952-washington-d-c-sightings",
+          "harry-turner-s-1971-australian-intelligence-document-on-us-u-1952",
+          "1952-h-bomb-test-as-a-signal-to-the-cosmos"
+        ],
+        "id": "majestic-12-briefing-document-1952"
+      }
+    },
+    {
+      "title": "Westall landing case: two witnesses talk after 50 years",
+      "story_kind": "encounter",
+      "years_text": "1966",
+      "years": {
+        "from": 1966,
+        "to": 1966
+      },
+      "place_text": "Westall, Australia",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "I arrived I was investigating this Landing case happened in the 60s they're like they like you know we've been going at it for 50 years",
+      "from_s": 2812.0,
+      "to_s": 2819.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the 1966 Westall school landing in Australia, with witnesses talking about it 50 years later. The nearest story is the Ariel School landing in Zimbabwe in 1994, which is a different school event in a different country and decade.",
+        "difference": "",
+        "against": [
+          "cia-approaches-puthoff-over-russian-psychic-research-1970",
+          "founding-myths-of-star-people-teaching-agriculture",
+          "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960",
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "close-up-witnesses-sensed-being-watched",
+          "amy-reynolds-taken-and-found-at-a-petrol-station-790-km-away",
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "betty-and-barney-hill-abduction-and-the-outer-limits-episode-1961"
+        ],
+        "id": "westall-landing-case-two-witnesses-talk-after-50-years-1966"
+      }
+    },
+    {
+      "title": "Ariel School landing at Ruwa",
+      "story_kind": "encounter",
+      "years_text": "1994",
+      "years": {
+        "from": 1994,
+        "to": 1994
+      },
+      "place_text": "Ruwa, Zimbabwe",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "well I had excuse me an alleged Landing case in Ru Zimbabwe 1994 where roughly you know there were 66 school children reported",
+      "from_s": 1178.0,
+      "to_s": 1188.0,
+      "cites": [
+        "Harry Reid"
+      ],
+      "documents": [
+        "The Phenomenon"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "ariel-school-landing-near-a-uranium-mine-1994",
+        "grain": "same",
+        "reason": "The telling and the story both describe the 1994 landing seen by schoolchildren at Ariel School in Ruwa, Zimbabwe, and both treat it as a whole event. The other Ariel story is narrower: it covers only one girl's remark to John Mack.",
+        "difference": "James Fox tells it as a case he investigated himself and calls it an 'alleged' landing; he gives roughly 66 children, where the story's tellings give 62 and 100, and he places it in Ruwa without mentioning a uranium mine.",
+        "against": [
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "westall-landing-case-two-witnesses-talk-after-50-years-1966",
+          "linda-jones-and-grass-growing-rapidly-while-fleeing-a-ufo",
+          "chinese-uap-task-force-reported-in-south-china-morning-post-2021",
+          "amy-reynolds-taken-and-found-at-a-petrol-station-790-km-away",
+          "betty-and-barney-hill-abduction-and-the-outer-limits-episode-1961",
+          "cargo-cults-building-landing-tracks"
+        ]
+      }
+    },
+    {
+      "title": "Ariel School witnesses reunite in Los Angeles",
+      "story_kind": "testimony",
+      "years_text": "2013",
+      "years": {
+        "from": 2013,
+        "to": 2013
+      },
+      "place_text": "Los Angeles, California",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "they all just agreed for the first time ever to get back together after 20 years of the case The Landing case in Ru Zimbabwe",
+      "from_s": 3332.0,
+      "to_s": 3340.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the witnesses meeting again in Los Angeles in 2013, about 20 years after the case. The nearest story is the 1994 landing at the Ariel School in Zimbabwe, which is the earlier sighting itself. The reunion is a separate event that only refers back to it.",
+        "difference": "",
+        "against": [
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "westall-landing-case-two-witnesses-talk-after-50-years-1966",
+          "fbi-image-cheapening-of-jean-seberg-1970",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "masters-childhood-precognition-of-a-gray-alien-at-age-8",
+          "checking-out-scientology-while-setting-up-remote-viewing-1970",
+          "grusch-files-ig-complaint-and-names-witnesses-2022"
+        ],
+        "id": "ariel-school-witnesses-reunite-in-los-angeles-2013"
+      }
+    },
+    {
+      "title": "Northwest Airlines pilot's telepathic encounter",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Arizona",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "interviewing this guy who was a former I think he was a North Northwest Airlines",
+      "from_s": 1378.0,
+      "to_s": 1382.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about a former Northwest Airlines pilot's telepathic encounter in Arizona, which James Fox heard in an interview. None of the stories involves this pilot or place. The closest is the Ariel School telepathy account, a different encounter with different witnesses in Zimbabwe.",
+        "difference": "",
+        "against": [
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "pompeo-i-saw-the-ufo-files-too",
+          "st-francis-of-assisi-s-stigmata-as-ufo-radiation",
+          "military-members-saw-football-field-size-triangular-craft-2019",
+          "spielberg-based-the-close-encounters-scientist-on-vallee-1977",
+          "vallee-argues-with-spielberg-on-close-encounters-set-over-ti-1977",
+          "bahnson-funds-bryce-dewitt-institute-at-unc-chapel-hill-1950",
+          "chapel-hill-gravity-conference-kicks-off-anti-gravity-flurry-1950"
+        ],
+        "id": "northwest-airlines-pilot-s-telepathic-encounter"
+      }
+    },
+    {
+      "title": "Nellis range face-to-face encounter",
+      "story_kind": "encounter",
+      "years_text": "August 1994",
+      "years": {
+        "from": 1994,
+        "to": 1994
+      },
+      "place_text": "Nellis testing range, Nevada",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "Nellis Nellis testing range in Nevada 1994 it was August",
+      "from_s": 1593.0,
+      "to_s": 1601.0,
+      "cites": [
+        "Jason Sands"
+      ],
+      "documents": [
+        "The Program"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is Jason Sands' face-to-face encounter on the Nellis range in Nevada in August 1994. The closest stories are a different James Fox interview (the Northwest Airlines pilot in Arizona) and the Lazar stories set in Nevada, and none of them is this encounter.",
+        "difference": "",
+        "against": [
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "northwest-airlines-pilot-s-telepathic-encounter",
+          "masters-face-to-face-contact-with-future-humans-at-a-phoenix-2022",
+          "lazar-s-account-to-vallee-of-a-drink-causing-memory-lapses-1989",
+          "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+          "vallee-and-davis-six-level-uap-paper",
+          "spielberg-based-the-close-encounters-scientist-on-vallee-1977"
+        ],
+        "id": "nellis-range-face-to-face-encounter-1994"
+      }
+    },
+    {
+      "title": "Charles Hall and the tall whites at Indian Springs",
+      "story_kind": "encounter",
+      "years_text": "1960s",
+      "years": {
+        "from": 1960,
+        "to": 1969
+      },
+      "place_text": "Indian Springs Valley, Nevada",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "have you heard of uh Colonel Charles Hall",
+      "from_s": 1607.0,
+      "to_s": 1611.0,
+      "cites": [
+        "Charles Hall"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Charles Hall's tall whites encounters at Indian Springs, Nevada. No story in the corpus covers Hall, the tall whites or Indian Springs. The closest are other 1960s encounters (Malmstrom, Betty and Barney Hill), and those are different events.",
+        "difference": "",
+        "against": [
+          "jesse-marcel-says-weather-balloon-was-a-cover-story-1978",
+          "voice-in-masters-head-behind-morton-hall-at-ohio-university",
+          "terry-lovelace-hears-a-being-s-voice-telepathically",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "1952-h-bomb-test-as-a-signal-to-the-cosmos",
+          "metaverse-as-answer-to-the-fermi-paradox-2021",
+          "betty-and-barney-hill-abduction-and-the-outer-limits-episode-1961",
+          "malmstrom-missiles-disabled-by-red-glowing-object-1967"
+        ],
+        "id": "charles-hall-and-the-tall-whites-at-indian-springs-1960"
+      }
+    },
+    {
+      "title": "Holloman AFB landing footage that Allan Sandler saw",
+      "story_kind": "encounter",
+      "years_text": "1964",
+      "years": {
+        "from": 1964,
+        "to": 1964
+      },
+      "place_text": "Holloman Air Force Base, New Mexico",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "he goes well he goes it might have been a training video I don't know but it was real flying sauce and there were three flying saucers that came in over",
+      "from_s": 2002.0,
+      "to_s": 2012.0,
+      "cites": [
+        "Allan Sandler",
+        "Robert Emenegger",
+        "Paul Shartle",
+        "Colonel Coleman",
+        "Coral Lorenzen"
+      ],
+      "documents": [
+        "UFOs Past Present and Future",
+        "UFO bulletin articles by Coral Lorenzen"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about the 1964 Holloman AFB saucer-landing footage that Allan Sandler saw. None of the stories covers Holloman or that footage. The nearest one, AFOSI confiscating footage from missile men, is a different general claim about nuclear sites.",
+        "difference": "",
+        "against": [
+          "brown-s-saucer-shaped-gravitator-and-founding-of-nicap-1950",
+          "carl-jung-s-flying-saucers-1958",
+          "nine-page-pentagon-uap-report-2021",
+          "westall-landing-case-two-witnesses-talk-after-50-years-1966",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960",
+          "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950",
+          "malmstrom-missiles-disabled-by-red-glowing-object-1967"
+        ],
+        "id": "holloman-afb-landing-footage-that-allan-sandler-saw-1964"
+      }
+    },
+    {
+      "title": "Lonnie Zamora's Socorro landing",
+      "story_kind": "encounter",
+      "years_text": "April 24, 1964",
+      "years": {
+        "from": 1964,
+        "to": 1964
+      },
+      "place_text": "Socorro, New Mexico",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "landing case that I was investigating at sakur New Mexico that happened April 24th 1964",
+      "from_s": 1748.0,
+      "to_s": 1754.0,
+      "cites": [
+        "Lonnie Zamora",
+        "Ray Stanford",
+        "J. Allen Hynek"
+      ],
+      "documents": [
+        "Socorro Saucer in a Pentagon Pantry"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Lonnie Zamora's landing sighting at Socorro, New Mexico, on April 24, 1964. The closest story, the Holloman AFB landing footage Allan Sandler saw, is also from 1964 and New Mexico, but it is about film of three saucers landing at Holloman. Zamora's Socorro encounter is a different event.",
+        "difference": "",
+        "against": [
+          "westall-landing-case-two-witnesses-talk-after-50-years-1966",
+          "ariel-school-witnesses-reunite-in-los-angeles-2013",
+          "vandenberg-ufo-takes-down-dummy-warhead-1964",
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "jesse-marcel-says-weather-balloon-was-a-cover-story-1978",
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947"
+        ],
+        "id": "lonnie-zamora-s-socorro-landing-1964"
+      }
+    },
+    {
+      "title": "Vallee urges Hynek to review Blue Book's 'psychological' cases",
+      "story_kind": "program",
+      "years_text": "1964",
+      "years": {
+        "from": 1964,
+        "to": 1964
+      },
+      "place_text": "Wright-Patterson Air Force Base, Dayton, Ohio",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "jacqu valet had just met with Dr at rright patteron Air Force Base in Dayton Ohio in 1964",
+      "from_s": 1765.0,
+      "to_s": 1775.0,
+      "cites": [
+        "Jacques Vallee",
+        "J. Allen Hynek"
+      ],
+      "documents": [
+        "Project Blue Book files"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about a specific 1964 meeting at Wright-Patterson where Vallee urged Hynek to review Blue Book cases dismissed as 'psychological'. The closest stories are Vallee finding the classified Battelle letter in Hynek's files and Vallee's general suspicion of a secret project behind Blue Book. Both are different events or claims from this one.",
+        "difference": "",
+        "against": [
+          "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950",
+          "wright-patterson-as-nuclear-antigravity-and-blue-book-site-1950",
+          "glenn-martin-company-employs-louis-witten-for-anti-gravity-r-1950",
+          "lonnie-zamora-s-socorro-landing-1964",
+          "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter",
+          "wright-patterson-as-reverse-engineering-site-for-enemy-equip-1940",
+          "vandenberg-ufo-takes-down-dummy-warhead-1964",
+          "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960"
+        ],
+        "id": "vallee-urges-hynek-to-review-blue-book-s-psychological-cases-1964"
+      }
+    },
+    {
+      "title": "Fox's investigation of the Varginha crash",
+      "story_kind": "crash-retrieval",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "Varginha, Brazil",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "I started looking into it I traveled there five times over a 12year period",
+      "from_s": 2522.0,
+      "to_s": 2526.0,
+      "cites": [
+        "Tim Coleman"
+      ],
+      "documents": [
+        "Moment of Contact"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about James Fox's investigation of the 1996 Varginha, Brazil crash. None of the stories is about Varginha. The nearest ones are crash retrievals at Roswell, Aztec and Trinity, which are different events in different places.",
+        "difference": "",
+        "against": [
+          "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "fbi-image-cheapening-of-jean-seberg-1970",
+          "shamans-accounts-of-little-men-out-of-a-big-light-passport-t",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "oppenheimer-on-the-aztec-crash-retrieval-team-1948",
+          "roswell-crash-debris-retrieved-by-mac-brazel-1947"
+        ],
+        "id": "fox-s-investigation-of-the-varginha-crash-1996"
+      }
+    },
+    {
+      "title": "Marco Chereze dies after handling the Varginha creature",
+      "story_kind": "encounter",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "Varginha, Brazil",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "this oily greasy stuff on his body and",
+      "from_s": 2585.0,
+      "to_s": 2587.0,
+      "cites": [
+        "Marco Chereze"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is Fox's investigation of the Varginha crash, which covers the whole 1996 case and his research into it. This telling is about one incident inside that case: officer Marco Chereze dying after he handled the creature. That is a narrower, separate story.",
+        "difference": "",
+        "against": [
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "free-edgar-mitchell-experiencer-study-humanlike-beings-and-f",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "three-body-problem-as-chinese-soft-disclosure",
+          "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter",
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "ariel-school-landing-near-a-uranium-mine-1994"
+        ],
+        "id": "marco-chereze-dies-after-handling-the-varginha-creature-1996"
+      }
+    },
+    {
+      "title": "Eric Lopes and the second capture of a live creature",
+      "story_kind": "encounter",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "Varginha, Brazil",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "right Eric Lopes and he was the alleged driver during the second capture of one of the alive creatures",
+      "from_s": 3232.0,
+      "to_s": 3240.0,
+      "cites": [
+        "Eric Lopes",
+        "Marco Chereze"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "Both are set in Varginha in 1996 and both name Marco Chereze. But the telling is about the second capture of a live creature, with Eric Lopes as the alleged driver. The nearest story is about Chereze dying after handling the creature, which is a different event.",
+        "difference": "",
+        "against": [
+          "marco-chereze-dies-after-handling-the-varginha-creature-1996",
+          "skinwalker-ranch-cattle-mutilations-and-bigelow-experiments-1990",
+          "corporal-armando-vanishes-for-15-minutes-but-lives-5-days-1970",
+          "free-edgar-mitchell-experiencer-study-humanlike-beings-and-f",
+          "project-blue-book-and-the-pentagon-report-contradict-each-ot-1952",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "nellis-range-face-to-face-encounter-1994",
+          "1952-h-bomb-test-as-a-signal-to-the-cosmos"
+        ],
+        "id": "eric-lopes-and-the-second-capture-of-a-live-creature-1996"
+      }
+    },
+    {
+      "title": "Hospital wing closed because of the creature's smell",
+      "story_kind": "place-lore",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "Varginha hospital, Brazil",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "they had to close that Wing in the hospital for like weeks cuz the smell was so intense",
+      "from_s": 2670.0,
+      "to_s": 2676.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This telling is about a hospital wing in Varginha, Brazil, that was closed in 1996 because of the creature's smell. None of the stories in the corpus covers Varginha. The listed stories are about Blue Book, Nimitz, Grusch and others, so they are unrelated.",
+        "difference": "",
+        "against": [
+          "condon-report-closes-blue-book-1968",
+          "udo-wartena-s-tour-of-a-craft-with-counter-rotating-flywheel",
+          "b-2-uses-biefield-brown-effect-1992",
+          "controller-reports-objects-descending-from-above-80-000-feet-2004",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "intercept-article-on-grusch-s-2018-hospitalization",
+          "close-up-witnesses-sensed-being-watched",
+          "colleagues-close-the-door-and-reveal-hidden-programs-2019"
+        ],
+        "id": "hospital-wing-closed-because-of-the-creature-s-smell-1996"
+      }
+    },
+    {
+      "title": "Chase Brandon book on Hillenkoetter and the Roswell being",
+      "story_kind": "document",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "talks about Hillen coder and you know one of the first CIA directors uh who dealt with Roswell",
+      "from_s": 2620.0,
+      "to_s": 2627.0,
+      "cites": [
+        "Chase Brandon",
+        "Roscoe Hillenkoetter",
+        "Hal Puthoff"
+      ],
+      "documents": [
+        "Cryptos Conundrum"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Chase Brandon's book The Cryptos Conundrum, which describes Hillenkoetter dealing with Roswell. The nearest story is Corso's account in The Day After Roswell of a covert group led by Hillenkoetter. That story also names Hillenkoetter and Roswell, but it is a different book by a different author making a different claim.",
+        "difference": "",
+        "against": [
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+          "manhattan-project-as-the-first-blue-book-colleagues-grandpar-1940",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "jfk-letter-to-cia-director-mccone-requesting-ufo-data-1963",
+          "walter-b-smith-1953-letter-on-using-the-phenomenon-for-psych",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "pompeo-i-saw-the-ufo-files-too",
+          "presidents-not-told-unless-like-bush-41-they-were-cia-direct"
+        ],
+        "id": "chase-brandon-book-on-hillenkoetter-and-the-roswell-being-1947"
+      }
+    },
+    {
+      "title": "Night meeting with 'military X' about the Varginha operation",
+      "story_kind": "testimony",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "North of Varginha, Brazil",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "we drove up into the depths of Brazil like 4 hours into the night north of Virginia",
+      "from_s": 2830.0,
+      "to_s": 2838.0,
+      "cites": [
+        "military X"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is Fox's whole Varginha investigation, which spans five trips over 12 years. This telling is one specific event inside it, a night drive north of Varginha to meet an informant called 'military X', so it is a narrower, distinct story.",
+        "difference": "",
+        "against": [
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "marco-chereze-dies-after-handling-the-varginha-creature-1996",
+          "air-force-disinformation-drives-paul-bennewitz-crazy-1979",
+          "training-army-intelligence-officers-in-remote-viewing",
+          "chris-bledsoe-claims-similar-ufo-sensitivity-2000",
+          "northwest-airlines-pilot-s-telepathic-encounter",
+          "antonio-villas-boas-has-intercourse-with-a-humanlike-woman-1957"
+        ],
+        "id": "night-meeting-with-military-x-about-the-varginha-operation-1996"
+      }
+    },
+    {
+      "title": "Footage of the Varginha alien transport and hospital",
+      "story_kind": "crash-retrieval",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "Varginha, Brazil",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "apparently it was like it goes from as a military base into the town of Virginia and all the way back again",
+      "from_s": 2983.0,
+      "to_s": 2989.0,
+      "cites": [
+        "Marco",
+        "military X"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "This telling is about claimed footage of the creature being moved from the military base to the Varginha hospital and back, credited to Marco and military X. The nearest story, Fox's investigation of the Varginha crash, covers the whole case, so the footage is a single item inside it. The night meeting and the hospital-smell stories are other separate incidents.",
+        "difference": "",
+        "against": [
+          "night-meeting-with-military-x-about-the-varginha-operation-1996",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "hospital-wing-closed-because-of-the-creature-s-smell-1996",
+          "wright-patterson-as-reverse-engineering-site-for-enemy-equip-1940",
+          "marco-chereze-dies-after-handling-the-varginha-creature-1996",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994"
+        ],
+        "id": "footage-of-the-varginha-alien-transport-and-hospital-1996"
+      }
+    },
+    {
+      "title": "Military base calls a witness after the Fox interview",
+      "story_kind": "testimony",
+      "years_text": "2021-2022",
+      "years": {
+        "from": 2021,
+        "to": 2022
+      },
+      "place_text": "Brazil",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "right the military base calls the guy that we had just met with on camera",
+      "from_s": 3138.0,
+      "to_s": 3142.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about something that happened while Fox was filming in Brazil in 2021–2022: after an on-camera interview, the military base phoned the witness. The nearest stories are about the 1996 Varginha events: the footage and the night meeting with 'military X'. A call to a witness during filming is a separate event from either of those.",
+        "difference": "",
+        "against": [
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "footage-of-the-varginha-alien-transport-and-hospital-1996",
+          "vallee-urges-hynek-to-review-blue-book-s-psychological-cases-1964",
+          "wright-patterson-as-reverse-engineering-site-for-enemy-equip-1940",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+          "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010",
+          "grusch-files-ig-complaint-and-names-witnesses-2022",
+          "night-meeting-with-military-x-about-the-varginha-operation-1996"
+        ],
+        "id": "military-base-calls-a-witness-after-the-fox-interview-2021"
+      }
+    },
+    {
+      "title": "Roger Leir's tapes and book: doctors' telepathy with the Varginha alien",
+      "story_kind": "document",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "Varginha, Brazil",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "he describes a meeting with these two doctors at a hospital",
+      "from_s": 3478.0,
+      "to_s": 3483.0,
+      "cites": [
+        "Roger Leir",
+        "Ubirajara Rodrigues"
+      ],
+      "documents": [
+        "Roger Leir tapes",
+        "Roger Leir book on the Varginha case"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about Roger Leir's tapes and book, which describe two hospital doctors' telepathic contact with the Varginha creature. The nearest stories are other Varginha hospital accounts (the wing closed because of the smell, the transport footage) or Fox's investigation as a whole, and none of them is this telepathy account or Leir's documents.",
+        "difference": "",
+        "against": [
+          "footage-of-the-varginha-alien-transport-and-hospital-1996",
+          "night-meeting-with-military-x-about-the-varginha-operation-1996",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "hospital-wing-closed-because-of-the-creature-s-smell-1996",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "marco-chereze-dies-after-handling-the-varginha-creature-1996"
+        ],
+        "id": "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996"
+      }
+    },
+    {
+      "title": "Forensic pathologists with physical evidence and bacteria from Varginha",
+      "story_kind": "testimony",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "Varginha, Brazil",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "I've got two forensic Pathologists that are coming that just came forward",
+      "from_s": 3569.0,
+      "to_s": 3575.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about two forensic pathologists who recently came forward with physical evidence and bacteria from Varginha. That is a specific new strand of evidence. The nearest story is Fox's overall investigation of the Varginha crash, which covers the whole inquiry rather than this one disclosure.",
+        "difference": "",
+        "against": [
+          "night-meeting-with-military-x-about-the-varginha-operation-1996",
+          "non-human-biologics-recovered-with-crashed-craft",
+          "nine-page-pentagon-uap-report-2021",
+          "footage-of-the-varginha-alien-transport-and-hospital-1996",
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996",
+          "marco-chereze-dies-after-handling-the-varginha-creature-1996",
+          "antonio-villas-boas-has-intercourse-with-a-humanlike-woman-1957"
+        ],
+        "id": "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996"
+      }
+    },
+    {
+      "title": "A secret crash retrieval program since World War II",
+      "story_kind": "program",
+      "years_text": "1940s-present",
+      "years": {
+        "from": 1940,
+        "to": 1949
+      },
+      "place_text": "United States",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "we have a super secret crash retrieval program that's been going on since at least World War II",
+      "from_s": 3703.0,
+      "to_s": 3714.0,
+      "cites": [
+        "David Grusch"
+      ],
+      "documents": [
+        "The Program"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "legacy-crash-retrieval-program-should-out-itself",
+        "grain": "same",
+        "reason": "Both describe the multi-decade US legacy UFO crash-retrieval program that David Grusch says he uncovered. This telling is James Fox passing on Grusch's claim.",
+        "difference": "James Fox tells it secondhand and dates the program's start to at least World War II, where the story's tellings say only that it is multi-decade.",
+        "against": [
+          "legacy-crash-retrieval-program-should-out-itself",
+          "oppenheimer-on-the-aztec-crash-retrieval-team-1948",
+          "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950",
+          "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter",
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "sarbacher-involved-in-standing-up-the-program-1940",
+          "ufos-at-nuclear-facilities-as-future-humans-guarding-their-t",
+          "stargate-psychic-spy-program-1972-1995"
+        ]
+      }
+    },
+    {
+      "title": "Photo from Scotland shown in Fox's film",
+      "story_kind": "document",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Scotland",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "show like an incredible photo out of out of Scotland",
+      "from_s": 3897.0,
+      "to_s": 3901.0,
+      "cites": [
+        "James Fox"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about a photo from Scotland that appears in James Fox's film. None of the stories is about this. The nearest is Fox's Varginha investigation, which is a separate Brazilian crash case, and the 1950s butane-tank photos, which are a different set of documents.",
+        "difference": "",
+        "against": [
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "nine-page-pentagon-uap-report-2021",
+          "vallee-argues-with-spielberg-on-close-encounters-set-over-ti-1977",
+          "brown-terminated-by-navy-joins-martin-near-skunkworks-1942",
+          "1950s-flying-butane-tanks-in-air-force-osi-reports",
+          "vandenberg-ufo-takes-down-dummy-warhead-1964",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010"
+        ],
+        "id": "photo-from-scotland-shown-in-fox-s-film"
+      }
+    },
+    {
+      "title": "December 2017 story on the DoD's secret UFO program",
+      "story_kind": "program",
+      "years_text": "2017",
+      "years": {
+        "from": 2017,
+        "to": 2017
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "I was one of three journalists who broke the story in December of 2017 about the Department of Defense secret program studying UFOs",
+      "from_s": 3978.0,
+      "to_s": 3987.0,
+      "cites": [
+        "Leslie Kean"
+      ],
+      "documents": [
+        "New York Times article (2017)"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+        "grain": "same",
+        "reason": "Both are about the DoD's secret UFO program (AATIP) being made public in the 2017 New York Times article that Leslie Kean co-wrote. The story already holds a telling about Kean revealing the program in 2017.",
+        "difference": "This telling is in Kean's own first-person voice as one of three journalists who broke the story in December 2017. It does not name AATIP, Bigelow Aerospace or the $22 million budget.",
+        "against": [
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "ufo-obsessed-japanese-town-near-fukushima-2011",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "b-2-uses-biefield-brown-effect-1992",
+          "spielberg-based-the-close-encounters-scientist-on-vallee-1977",
+          "spielberg-tells-robert-liefeld-ufos-may-be-humans-from-the-f-1993",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997"
+        ]
+      }
+    },
+    {
+      "title": "Fox watches the David Grusch testimony live",
+      "story_kind": "testimony",
+      "years_text": "2023",
+      "years": {
+        "from": 2023,
+        "to": 2023
+      },
+      "place_text": "Washington, D.C. (watched live by phone)",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "David grush came forward and testified under oath uh to a bipartisan group of lawmakers",
+      "from_s": 4025.0,
+      "to_s": 4035.0,
+      "cites": [
+        "David Grusch"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "grusch-testifies-before-congress-2023",
+        "grain": "same",
+        "reason": "Both are about David Grusch's 2023 sworn testimony before Congress in Washington, D.C. Fox's quote describes the testimony itself, and the only added detail is that he watched it live.",
+        "difference": "James Fox tells it firsthand as someone who watched the testimony live on his phone, and he describes the audience as a bipartisan group of lawmakers; he does not give the July date.",
+        "against": [
+          "grusch-testimony-some-craft-were-gifted-2023",
+          "grusch-testifies-before-congress-2023",
+          "non-human-biologics-recovered-with-crashed-craft",
+          "agencies-deny-grusch-access-to-programs-2019",
+          "colleagues-close-the-door-and-reveal-hidden-programs-2019",
+          "congress-denied-a-scif-for-grusch-s-classified-briefing-2023",
+          "grusch-files-ig-complaint-and-names-witnesses-2022",
+          "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996"
+        ]
+      }
+    },
+    {
+      "title": "Roswell witnesses describe threats made in 1947",
+      "story_kind": "crash-retrieval",
+      "years_text": "1947 (interviews at the 50th anniversary, 1997)",
+      "years": {
+        "from": 1947,
+        "to": 1997
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "threats they'll be picking your bones out of the desert not they I had guys tell me this is what was said at the time",
+      "from_s": 4274.0,
+      "to_s": 4282.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about witnesses who say they were threatened in 1947 to keep quiet about Roswell. None of the stories covers witness intimidation. The nearest ones (Brazel's debris retrieval, the boss saying the government admitted the recovery) deal with the crash or the recovery itself, not with threats.",
+        "difference": "",
+        "against": [
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "roswell-crash-debris-retrieved-by-mac-brazel-1947",
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996",
+          "lazar-s-account-to-vallee-of-a-drink-causing-memory-lapses-1989"
+        ],
+        "id": "roswell-witnesses-describe-threats-made-in-1947"
+      }
+    },
+    {
+      "title": "A founder's grandfather saw Roswell base personnel spooked",
+      "story_kind": "crash-retrieval",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "my grandfather was in you know the 9th Atomic bomber Squadron he was stationed at Roswell in 47",
+      "from_s": 4325.0,
+      "to_s": 4336.0,
+      "cites": [
+        "unnamed founder of a Fortune 500 company"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is a secondhand account from a Fortune 500 founder whose grandfather served with the atomic bomber squadron at Roswell in 1947 and saw base personnel spooked. The closest story, the bismuth-magnesium sample, also involves a grandfather tied to Roswell, but it is about an army officer finding a physical sample in his grandfather's archives. The witness and the claim are different, so this is a different story.",
+        "difference": "",
+        "against": [
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "roswell-crash-debris-retrieved-by-mac-brazel-1947",
+          "trinity-and-roswell-crashes-1940",
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "b-2-uses-biefield-brown-effect-1992",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947"
+        ],
+        "id": "a-founder-s-grandfather-saw-roswell-base-personnel-spooked-1947"
+      }
+    },
+    {
+      "title": "Building owner's scientist boyfriend told her of a New Mexico crash with bodies",
+      "story_kind": "crash-retrieval",
+      "years_text": "early 1950s (told); late 1990s (retold)",
+      "years": {
+        "from": 1950,
+        "to": 1993
+      },
+      "place_text": "New Mexico",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "husband boyfriend at the time in the early 50s told her he was a very prominent scientist that a spaceship crashed in New Mexico and that there were bodies Al I recovered",
+      "from_s": 4453.0,
+      "to_s": 4468.0,
+      "cites": [
+        "unnamed 88-year-old building owner",
+        "Boris Zubov"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "This telling is a private secondhand account: an unnamed prominent scientist told his girlfriend in the early 1950s that a craft with bodies crashed in New Mexico. The nearest stories are the Roswell crash tellings, but none of them is this scientist's account, and the telling never names Roswell. It is a distinct testimony chain rather than the Roswell story already in the corpus.",
+        "difference": "",
+        "against": [
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "roswell-crash-debris-retrieved-by-mac-brazel-1947",
+          "non-human-biologics-recovered-with-crashed-craft",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "lonnie-zamora-s-socorro-landing-1964",
+          "trinity-and-roswell-crashes-1940",
+          "ingo-swann-affects-shielded-quark-detector-at-sri-1970",
+          "ingo-swann-s-thermistor-experiments-at-city-college-1970"
+        ],
+        "id": "building-owner-s-scientist-boyfriend-told-her-of-a-new-mexic-1950"
+      }
+    },
+    {
+      "title": "Jan Rooney's general father on Roswell and religion",
+      "story_kind": "testimony",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "Jan Rooney goes my dad was a general in in Roswell in uh in 47 and he told me that if what really if the truth about Roswell came out it would have a devast impact on organized religion",
+      "from_s": 4539.0,
+      "to_s": 4557.0,
+      "cites": [
+        "Jan Rooney",
+        "Mickey Rooney"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is Jan Rooney's account of what her general father said: that the truth about Roswell would devastate organized religion. None of the stories holds this. The nearest Roswell stories cover the debris retrieval, threats made to witnesses and a boss saying the government admitted the recovery, and none of them is this claim from Rooney's father.",
+        "difference": "",
+        "against": [
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "roswell-crash-debris-retrieved-by-mac-brazel-1947",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "vallee-s-study-of-small-ufo-religions-1970",
+          "roswell-witnesses-describe-threats-made-in-1947",
+          "doolittle-sent-to-investigate-swedish-ghost-rockets-1946",
+          "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996",
+          "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter"
+        ],
+        "id": "jan-rooney-s-general-father-on-roswell-and-religion-1947"
+      }
+    },
+    {
+      "title": "Buzz Aldrin chased a disc in a military jet",
+      "story_kind": "sighting",
+      "years_text": "1950s or 1960s",
+      "years": {
+        "from": 1950,
+        "to": 1969
+      },
+      "place_text": "unspecified",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "my brother told me about a UFO encounter that he had while piloting a a jet a military jet",
+      "from_s": 4607.0,
+      "to_s": 4617.0,
+      "cites": [
+        "Fay Ann Potter",
+        "Buzz Aldrin"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is Buzz Aldrin's own sighting of a disc while flying a military jet, relayed through his sister. None of the stories is about Aldrin or a pilot chasing a disc. The nearest, the Northwest Airlines pilot's telepathic encounter, involves a different witness and a different event.",
+        "difference": "",
+        "against": [
+          "st-francis-of-assisi-s-stigmata-as-ufo-radiation",
+          "frank-tipler-s-rotating-disc-time-machine-resembles-ufos-1915",
+          "wright-patterson-as-reverse-engineering-site-for-enemy-equip-1940",
+          "nellis-range-face-to-face-encounter-1994",
+          "northwest-airlines-pilot-s-telepathic-encounter",
+          "footage-of-the-varginha-alien-transport-and-hospital-1996",
+          "military-base-calls-a-witness-after-the-fox-interview-2021",
+          "military-members-saw-football-field-size-triangular-craft-2019"
+        ],
+        "id": "buzz-aldrin-chased-a-disc-in-a-military-jet-1950"
+      }
+    },
+    {
+      "title": "Apollo crew followed by something to the Moon",
+      "story_kind": "sighting",
+      "years_text": "1969",
+      "years": {
+        "from": 1969,
+        "to": 1969
+      },
+      "place_text": "en route to the Moon",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "he had told her was that they were followed by something to the Moon",
+      "from_s": 4637.0,
+      "to_s": 4640.0,
+      "cites": [
+        "Fay Ann Potter",
+        "Buzz Aldrin"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The nearest story is Buzz Aldrin's jet chase of a disc, which also comes from Fay-Ann Potter. That is a different encounter from this Apollo 11 claim of being followed on the way to the Moon.",
+        "difference": "",
+        "against": [
+          "buzz-aldrin-chased-a-disc-in-a-military-jet-1950",
+          "eglin-afb-diamond-formation-of-orbs-gaetz-denied-access-to-c-2023",
+          "army-officers-visiting-the-utah-ranch-followed-home-by-pheno-1990",
+          "philadelphia-experiment-ship-teleportation-1940",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "photo-from-scotland-shown-in-fox-s-film",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "building-owner-s-scientist-boyfriend-told-her-of-a-new-mexic-1950"
+        ],
+        "id": "apollo-crew-followed-by-something-to-the-moon-1969"
+      }
+    },
+    {
+      "title": "Buzz Aldrin cancels his interview in Monte Carlo",
+      "story_kind": "testimony",
+      "years_text": "late 1990s",
+      "years": {
+        "from": 1997,
+        "to": 1999
+      },
+      "place_text": "Monte Carlo, Monaco",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "I'm not doing the interview I said",
+      "from_s": 4812.0,
+      "to_s": 4815.0,
+      "cites": [
+        "Buzz Aldrin",
+        "Tim Coleman",
+        "Samara"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Fox's own experience of Buzz Aldrin cancelling an interview in Monte Carlo in the late 1990s. The closest stories are Aldrin's jet chase and the Apollo sighting, which Fox relays secondhand through Fay Ann Potter. Those are different events.",
+        "difference": "",
+        "against": [
+          "buzz-aldrin-chased-a-disc-in-a-military-jet-1950",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "military-base-calls-a-witness-after-the-fox-interview-2021",
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "george-trimble-s-1956-claim-on-cancelling-gravity",
+          "grusch-files-ig-complaint-and-names-witnesses-2022",
+          "apollo-crew-followed-by-something-to-the-moon-1969",
+          "masters-face-to-face-contact-with-future-humans-at-a-phoenix-2022"
+        ],
+        "id": "buzz-aldrin-cancels-his-interview-in-monte-carlo-1997"
+      }
+    },
+    {
+      "title": "Fox breaks the Fife Symington Phoenix Lights story",
+      "story_kind": "sighting",
+      "years_text": "1997",
+      "years": {
+        "from": 1997,
+        "to": 1997
+      },
+      "place_text": "Phoenix, Arizona",
+      "teller": "James Fox",
+      "kind": "journalist",
+      "quote": "anyway I break the story of the governor of Arizona 5 simonon",
+      "from_s": 4902.0,
+      "to_s": 4909.0,
+      "cites": [
+        "Fife Symington"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the 1997 Phoenix Lights and Governor Fife Symington's account of them, as broken by James Fox. None of the stories is about the Phoenix Lights. The nearest one, Masters' 2022 encounter at a Phoenix conference, is a different event.",
+        "difference": "",
+        "against": [
+          "masters-face-to-face-contact-with-future-humans-at-a-phoenix-2022",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "military-base-calls-a-witness-after-the-fox-interview-2021",
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "looking-for-city-lights-on-proxima-b-2021",
+          "shamans-accounts-of-little-men-out-of-a-big-light-passport-t",
+          "witness-burns-as-blue-shifted-light-from-a-warp-bubble",
+          "b-2-uses-biefield-brown-effect-1992"
+        ],
+        "id": "fox-breaks-the-fife-symington-phoenix-lights-story-1997"
+      }
+    },
+    {
+      "title": "Kurt Russell saw the Phoenix Lights while flying",
+      "story_kind": "sighting",
+      "years_text": "1997",
+      "years": {
+        "from": 1997,
+        "to": 1997
+      },
+      "place_text": "Phoenix, Arizona",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Kurt Russell you know said he could have landed his airplane on it",
+      "from_s": 5014.0,
+      "to_s": 5017.0,
+      "cites": [
+        "Kurt Russell"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "Both concern the 1997 Phoenix Lights, but the nearest story is about Fox breaking Governor Fife Symington's account. This telling is Kurt Russell's own sighting from his plane, so it comes from a different witness.",
+        "difference": "",
+        "against": [
+          "fox-breaks-the-fife-symington-phoenix-lights-story-1997",
+          "brown-s-saucer-shaped-gravitator-and-founding-of-nicap-1950",
+          "carl-jung-s-flying-saucers-1958",
+          "masters-face-to-face-contact-with-future-humans-at-a-phoenix-2022",
+          "1950s-flying-butane-tanks-in-air-force-osi-reports",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "looking-for-city-lights-on-proxima-b-2021"
+        ],
+        "id": "kurt-russell-saw-the-phoenix-lights-while-flying-1997"
+      }
+    },
+    {
+      "title": "Larry King Live with Buzz Aldrin, and 'somebody's gotten to him'",
+      "story_kind": "testimony",
+      "years_text": "about 2007",
+      "years": {
+        "from": 2007,
+        "to": 2007
+      },
+      "place_text": "Larry King Live studio",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "be respectful but I sat there knowing what I knew and I watched him lie on television",
+      "from_s": 5144.0,
+      "to_s": 5151.0,
+      "cites": [
+        "Buzz Aldrin",
+        "Fife Symington",
+        "Fay Ann Potter",
+        "Darcy Weir",
+        "Larry King"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This telling is about James Fox watching Buzz Aldrin on Larry King Live around 2007 and believing he lied on air. The nearest story is Aldrin cancelling his interview with Fox in Monte Carlo in 1997–1999. That is a different event in a different place, and no story here covers the TV appearance.",
+        "difference": "",
+        "against": [
+          "buzz-aldrin-chased-a-disc-in-a-military-jet-1950",
+          "buzz-aldrin-cancels-his-interview-in-monte-carlo-1997",
+          "apollo-crew-followed-by-something-to-the-moon-1969",
+          "eric-lopes-and-the-second-capture-of-a-live-creature-1996",
+          "antonio-villas-boas-has-intercourse-with-a-humanlike-woman-1957",
+          "amy-reynolds-taken-and-found-at-a-petrol-station-790-km-away",
+          "close-up-witnesses-sensed-being-watched",
+          "corporal-armando-vanishes-for-15-minutes-but-lives-5-days-1970"
+        ],
+        "id": "larry-king-live-with-buzz-aldrin-and-somebody-s-gotten-to-hi-2007"
+      }
+    },
+    {
+      "title": "Neil Armstrong's 'truth's protective layers' speech",
+      "story_kind": "testimony",
+      "years_text": "1980s (as stated)",
+      "years": {
+        "from": 1980,
+        "to": 1989
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "yeah you had Neil Armstrong I think he was winning the Congressional Medal of Honor something in the 80s",
+      "from_s": 5244.0,
+      "to_s": 5250.0,
+      "cites": [
+        "Neil Armstrong"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Neil Armstrong's speech mentioning 'truth's protective layers'. None of the stories involves Armstrong or that speech; the closest in kind are other testimony stories, such as Jesse Marcel's cover-story claim, and they cover unrelated events.",
+        "difference": "",
+        "against": [
+          "bismuth-magnesium-layers-could-shrink-terahertz-waveguides",
+          "jesse-marcel-says-weather-balloon-was-a-cover-story-1978",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "lazar-s-account-to-vallee-of-a-drink-causing-memory-lapses-1989",
+          "nick-cook-rebuffed-by-a-scared-george-trimble-1990",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "air-force-disinformation-drives-paul-bennewitz-crazy-1979"
+        ],
+        "id": "neil-armstrong-s-truth-s-protective-layers-speech-1980"
+      }
+    },
+    {
+      "title": "Edgar Mitchell's conversion experience on Apollo 14",
+      "story_kind": "testimony",
+      "years_text": "1971",
+      "years": {
+        "from": 1971,
+        "to": 1971
+      },
+      "place_text": "space, return from Apollo 14",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Edgar Mitchell who your your old friend had a conversion experience on the way back from Apollo 14",
+      "from_s": 5292.0,
+      "to_s": 5299.0,
+      "cites": [
+        "Edgar Mitchell"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Edgar Mitchell's own conversion experience while returning from Apollo 14 in 1971. The closest stories are the FREE experiencer study named after Mitchell and the 1969 Apollo crew being followed to the Moon, and both are different events.",
+        "difference": "",
+        "against": [
+          "free-edgar-mitchell-experiencer-study-humanlike-beings-and-f",
+          "nick-cook-rebuffed-by-a-scared-george-trimble-1990",
+          "apollo-crew-followed-by-something-to-the-moon-1969",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "san-jose-woman-s-disc-that-was-bigger-inside-than-outside",
+          "checking-out-scientology-while-setting-up-remote-viewing-1970",
+          "eben-alexander-near-death-experience-2008",
+          "skinwalker-ranch-cattle-mutilations-and-bigelow-experiments-1990"
+        ],
+        "id": "edgar-mitchell-s-conversion-experience-on-apollo-14-1971"
+      }
+    },
+    {
+      "title": "Fox's vision of Tim Coleman keying his car",
+      "story_kind": "testimony",
+      "years_text": "late 1990s / early 2000s",
+      "years": {
+        "from": 1990,
+        "to": 2003
+      },
+      "place_text": "editing building for Out of the Blue",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "editing I get a visual image in my head I see him with a key clear as day",
+      "from_s": 5445.0,
+      "to_s": 5454.0,
+      "cites": [
+        "Tim Coleman"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Fox's psychic vision of Tim Coleman keying his car during editing of Out of the Blue. The closest story is the Buzz Aldrin cancellation, which also involves Coleman in the same era, but that is a separate event.",
+        "difference": "",
+        "against": [
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "photo-from-scotland-shown-in-fox-s-film",
+          "buzz-aldrin-cancels-his-interview-in-monte-carlo-1997",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "project-blue-book-and-the-pentagon-report-contradict-each-ot-1952",
+          "skinwalker-ranch-cattle-mutilations-and-bigelow-experiments-1990",
+          "fbi-image-cheapening-of-jean-seberg-1970",
+          "nine-page-pentagon-uap-report-2021"
+        ],
+        "id": "fox-s-vision-of-tim-coleman-keying-his-car-1990"
+      }
+    },
+    {
+      "title": "Stargate remote viewing program",
+      "story_kind": "program",
+      "years_text": "1972-1995",
+      "years": {
+        "from": 1972,
+        "to": 1995
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "and yeah and you have in in Stargate H put off's program it was up for funding and defunding every year from 1972 to 1995",
+      "from_s": 5769.0,
+      "to_s": 5778.0,
+      "cites": [
+        "Hal Puthoff",
+        "Dean Radin",
+        "Joseph McMoneagle",
+        "Jessica Utts",
+        "Ray Hyman"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "stargate-psychic-spy-program-1972-1995",
+        "grain": "same",
+        "reason": "Both cover the Stargate psychic spy program as a whole: it ran in the US from 1972 to 1995 and is tied to Hal Puthoff, with Jesse Michels as the teller.",
+        "difference": "This telling adds that the program came up for funding and defunding every year, and it also credits Dean Radin, Joseph McMoneagle, Jessica Utts and Ray Hyman.",
+        "against": [
+          "stargate-psychic-spy-program-1972-1995",
+          "checking-out-scientology-while-setting-up-remote-viewing-1970",
+          "remote-viewers-tested-in-submarines",
+          "remote-viewing-used-to-trade-silver-futures",
+          "training-army-intelligence-officers-in-remote-viewing",
+          "skinwalkers-at-the-pentagon-on-aatip-and-remote-viewing-2007",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "cia-approaches-puthoff-over-russian-psychic-research-1970"
+        ]
+      }
+    },
+    {
+      "title": "Psychic locates a crashed plane in Zaire",
+      "story_kind": "program",
+      "years_text": "late 1970s (revealed 1995)",
+      "years": {
+        "from": 1977,
+        "to": 1995
+      },
+      "place_text": "Zaire",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "something in Africa yeah in uh Zer in 1995 former President Jimmy Carter revealed that the CIA without his knowledge consulted a psychic to locate a missing government plane in Africa",
+      "from_s": 5846.0,
+      "to_s": 5860.0,
+      "cites": [
+        "Jimmy Carter"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about one incident: Carter revealing in 1995 that the CIA used a psychic to find a plane that went down in Zaire. That incident sits inside the psychic spy program, and the Stargate story covers the whole 1972-1995 program, so this is a narrower, distinct story.",
+        "difference": "",
+        "against": [
+          "stargate-psychic-spy-program-1972-1995",
+          "john-lear-possibly-fed-disinformation-to-lazar-1970",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "pompeo-i-saw-the-ufo-files-too",
+          "cia-approaches-puthoff-over-russian-psychic-research-1970",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "presidents-not-told-unless-like-bush-41-they-were-cia-direct",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987"
+        ],
+        "id": "psychic-locates-a-crashed-plane-in-zaire-1977"
+      }
+    },
+    {
+      "title": "Telepathic escape plan with cousin Ian",
+      "story_kind": "testimony",
+      "years_text": "Fox at age 13",
+      "years": null,
+      "place_text": "downtown San Francisco",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "communicate he communicated to me telepathically he said on the count of",
+      "from_s": 6014.0,
+      "to_s": 6018.0,
+      "cites": [
+        "Ian"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is James Fox's own childhood memory of his cousin Ian telepathically giving him an escape plan in San Francisco when Fox was 13. The closest story is the Northwest Airlines pilot's telepathic encounter, but that is a different witness and a different event in Arizona.",
+        "difference": "",
+        "against": [
+          "northwest-airlines-pilot-s-telepathic-encounter",
+          "planck-joked-planck-length-would-be-best-way-to-communicate",
+          "terry-lovelace-hears-a-being-s-voice-telepathically",
+          "st-francis-of-assisi-s-stigmata-as-ufo-radiation",
+          "photo-from-scotland-shown-in-fox-s-film",
+          "ariel-school-witnesses-reunite-in-los-angeles-2013",
+          "buzz-aldrin-cancels-his-interview-in-monte-carlo-1997",
+          "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996"
+        ],
+        "id": "telepathic-escape-plan-with-cousin-ian"
+      }
+    },
+    {
+      "title": "Parviz Jafari's 1976 Tehran UFO encounter",
+      "story_kind": "encounter",
+      "years_text": "1976",
+      "years": {
+        "from": 1976,
+        "to": 1976
+      },
+      "place_text": "Tehran, Iran",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "met this uh this this Iranian pilot that had this dramatic UFO encounter over Tyron Iran in 19 I want to say 75 in a phantom F4 jet",
+      "from_s": 6094.0,
+      "to_s": 6108.0,
+      "cites": [
+        "Parviz Jafari",
+        "Leslie Kean"
+      ],
+      "documents": [
+        "DIA assessment of the Tehran incident"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Parviz Jafari's F-4 encounter over Tehran in 1976. None of the stories covers the Tehran incident. The closest ones are other pilots' encounters (Aldrin, the Northwest pilot, Nellis), and each of those is a different witness and a different event.",
+        "difference": "",
+        "against": [
+          "buzz-aldrin-chased-a-disc-in-a-military-jet-1950",
+          "nellis-range-face-to-face-encounter-1994",
+          "northwest-airlines-pilot-s-telepathic-encounter",
+          "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010",
+          "spielberg-based-the-close-encounters-scientist-on-vallee-1977",
+          "vallee-argues-with-spielberg-on-close-encounters-set-over-ti-1977",
+          "ingo-swann-affects-shielded-quark-detector-at-sri-1970",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007"
+        ],
+        "id": "parviz-jafari-s-1976-tehran-ufo-encounter"
+      }
+    },
+    {
+      "title": "2007 National Press Club event with international officials",
+      "story_kind": "testimony",
+      "years_text": "2007",
+      "years": {
+        "from": 2007,
+        "to": 2007
+      },
+      "place_text": "National Press Club, Washington, D.C.",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "closer to 3we Expedition and Leslie and I were putting on this event at the",
+      "from_s": 6197.0,
+      "to_s": 6200.0,
+      "cites": [
+        "Leslie Kean",
+        "Parviz Jafari"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling is about the 2007 National Press Club event that James Fox and Leslie Kean put on with international officials. The closest story is Parviz Jafari's 1976 Tehran encounter, which is a separate event that Jafari recounted, even if he spoke at this one. None of the stories covers the press conference itself.",
+        "difference": "",
+        "against": [
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "parviz-jafari-s-1976-tehran-ufo-encounter",
+          "earlier-undisclosed-events-before-wwii-1944",
+          "aatip-modeled-uap-using-general-relativity-2007",
+          "skinwalkers-at-the-pentagon-on-aatip-and-remote-viewing-2007",
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "larry-king-live-with-buzz-aldrin-and-somebody-s-gotten-to-hi-2007"
+        ],
+        "id": "2007-national-press-club-event-with-international-officials"
+      }
+    },
+    {
+      "title": "Spielberg's tip about the Ariel School landing in Africa",
+      "story_kind": "encounter",
+      "years_text": "1990s",
+      "years": {
+        "from": 1990,
+        "to": 1999
+      },
+      "place_text": "Ruwa, Zimbabwe (Africa)",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "on UFOs he should look into this Landing",
+      "from_s": 6464.0,
+      "to_s": 6466.0,
+      "cites": [
+        "Steven Spielberg",
+        "Janet Yang"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This telling is about Spielberg passing on a tip, through Janet Yang, that the Ariel School landing was worth looking into. The nearest story is the 1994 landing itself, which this telling only mentions as the subject of the tip. Spielberg's recommendation is a separate event about that case, not a retelling of the encounter.",
+        "difference": "",
+        "against": [
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "ariel-school-witnesses-reunite-in-los-angeles-2013",
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "spielberg-tells-robert-liefeld-ufos-may-be-humans-from-the-f-1993",
+          "vallee-s-the-invisible-college-1975",
+          "psychic-locates-a-crashed-plane-in-zaire-1977",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "lonnie-zamora-s-socorro-landing-1964"
+        ],
+        "id": "spielberg-s-tip-about-the-ariel-school-landing-in-africa-1990"
+      }
+    },
+    {
+      "title": "1994 encounter at the Nellis test range",
+      "story_kind": "encounter",
+      "years_text": "1994",
+      "years": {
+        "from": 1994,
+        "to": 1994
+      },
+      "place_text": "Nellis test range, Nevada",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "for including that encounter in Nellis",
+      "from_s": 6503.0,
+      "to_s": 6507.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "nellis-range-face-to-face-encounter-1994",
+        "grain": "same",
+        "reason": "Both tellings come from James Fox and are about the same 1994 encounter on the Nellis test range in Nevada.",
+        "difference": "This telling only mentions the encounter in passing and credits no source, where the story's telling credits Jason Sands and gives August as the month.",
+        "against": [
+          "nellis-range-face-to-face-encounter-1994",
+          "ariel-school-girl-to-john-mack-in-space-there-s-no-love-1994",
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "cranial-modification-told-to-have-been-ordered-by-the-gods-1995",
+          "northwest-airlines-pilot-s-telepathic-encounter",
+          "parviz-jafari-s-1976-tehran-ufo-encounter",
+          "lazar-s-account-to-vallee-of-a-drink-causing-memory-lapses-1989",
+          "buzz-aldrin-chased-a-disc-in-a-military-jet-1950"
+        ]
+      }
+    },
+    {
+      "title": "The Wilson memo",
+      "story_kind": "document",
+      "years_text": "2002",
+      "years": {
+        "from": 2002,
+        "to": 2002
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "this Wilson memo so you have Admiral Thomas J Wilson",
+      "from_s": 6653.0,
+      "to_s": 6658.0,
+      "cites": [
+        "Thomas J Wilson",
+        "Eric Davis",
+        "Richard Dolan"
+      ],
+      "documents": [
+        "Wilson memo"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+        "grain": "same",
+        "reason": "Both tellings are about the same leaked Wilson memo, which describes Admiral Thomas Wilson's meeting with Eric Davis, told by the same host. Both are about the document itself, so the grain matches.",
+        "difference": "This telling dates the memo to 2002, where the story says 1997, and it also credits Richard Dolan.",
+        "against": [
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "congressman-on-progress-of-reverse-engineering-programs-and",
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "twining-memo-and-its-postscript-on-independent-programs-1947",
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "vallee-and-davis-six-level-uap-paper"
+        ]
+      }
+    },
+    {
+      "title": "Fox's interview with Edgar Mitchell at his Florida home",
+      "story_kind": "testimony",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Edgar Mitchell's home, Florida",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "yes there have been ET visitation",
+      "from_s": 6783.0,
+      "to_s": 6787.0,
+      "cites": [
+        "Edgar Mitchell"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is Fox's own interview with Edgar Mitchell at his Florida home, where Mitchell says there has been ET visitation. The closest story is Mitchell's conversion experience on Apollo 14 in 1971, which is a different event, and the FREE study is a document.",
+        "difference": "",
+        "against": [
+          "edgar-mitchell-s-conversion-experience-on-apollo-14-1971",
+          "free-edgar-mitchell-experiencer-study-humanlike-beings-and-f",
+          "photo-from-scotland-shown-in-fox-s-film",
+          "fox-s-vision-of-tim-coleman-keying-his-car-1990",
+          "buzz-aldrin-cancels-his-interview-in-monte-carlo-1997",
+          "military-base-calls-a-witness-after-the-fox-interview-2021",
+          "brown-meets-teller-and-lemay-driven-by-sarbacher-1950",
+          "fox-s-investigation-of-the-varginha-crash-1996"
+        ],
+        "id": "fox-s-interview-with-edgar-mitchell-at-his-florida-home"
+      }
+    },
+    {
+      "title": "Australian man leaves Edgar Mitchell's house with files",
+      "story_kind": "document",
+      "years_text": "after Mitchell's death (2016)",
+      "years": {
+        "from": 2016,
+        "to": 2016
+      },
+      "place_text": "Edgar Mitchell's house, Florida",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "house and this Australian guy I caught",
+      "from_s": 6833.0,
+      "to_s": 6835.0,
+      "cites": [
+        "anares"
+      ],
+      "documents": [
+        "Wilson memo"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about files being taken out of Edgar Mitchell's house after he died in 2016. The nearest story is Fox's own interview with Mitchell at that house, which is a different event, so this is new.",
+        "difference": "",
+        "against": [
+          "edgar-mitchell-s-conversion-experience-on-apollo-14-1971",
+          "gary-nolan-s-cia-file-on-ufo-experiencers-and-havana-syndrom-2010",
+          "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950",
+          "harry-turner-s-1971-australian-intelligence-document-on-us-u-1952",
+          "fox-s-interview-with-edgar-mitchell-at-his-florida-home",
+          "free-edgar-mitchell-experiencer-study-humanlike-beings-and-f",
+          "san-jose-woman-s-disc-that-was-bigger-inside-than-outside",
+          "tic-tac-flir-video-2004"
+        ],
+        "id": "australian-man-leaves-edgar-mitchell-s-house-with-files-2016"
+      }
+    },
+    {
+      "title": "Westall landing case",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Westall, Australia",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "covering the landing case in westall so",
+      "from_s": 6877.0,
+      "to_s": 6879.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "westall-landing-case-two-witnesses-talk-after-50-years-1966",
+        "grain": "same",
+        "reason": "Both are James Fox talking about his investigation of the Westall landing case in Australia. The existing story's telling is also about that landing case, which happened in the 1960s.",
+        "difference": "This telling just mentions covering the case, with no date and nothing about witnesses who have talked about it for 50 years.",
+        "against": [
+          "westall-landing-case-two-witnesses-talk-after-50-years-1966",
+          "lonnie-zamora-s-socorro-landing-1964",
+          "ariel-school-witnesses-reunite-in-los-angeles-2013",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "spielberg-s-tip-about-the-ariel-school-landing-in-africa-1990",
+          "oppenheimer-created-the-classification-covering-ufos-1940",
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "amy-reynolds-taken-and-found-at-a-petrol-station-790-km-away"
+        ]
+      }
+    },
+    {
+      "title": "Senate Armed Services staff on Admiral Wilson",
+      "story_kind": "testimony",
+      "years_text": "recent",
+      "years": null,
+      "place_text": "Washington, D.C.",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "reverse engineered UFOs I talked to some staff members of the Senate arms committee",
+      "from_s": 7069.0,
+      "to_s": 7075.0,
+      "cites": [
+        "Thomas J Wilson"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The nearest story is the 1997 Wilson memo about Wilson's meeting with Eric Davis. This telling is about something else: James Fox's own recent conversation with Senate Armed Services staff about Wilson and reverse-engineered UFOs. It is a separate event that may back up the memo but is not the memo story.",
+        "difference": "",
+        "against": [
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "congressman-on-progress-of-reverse-engineering-programs-and",
+          "condon-committee-coordinated-with-air-force-1966",
+          "neighbor-moved-to-roswell-to-see-ufos",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+          "commander-george-hoover-on-aliens-saying-you-don-t-know-how"
+        ],
+        "id": "senate-armed-services-staff-on-admiral-wilson"
+      }
+    },
+    {
+      "title": "Wilson meeting at the EG&G parking lot where Bob Lazar worked",
+      "story_kind": "program",
+      "years_text": "2002",
+      "years": {
+        "from": 2002,
+        "to": 2002
+      },
+      "place_text": "EG&G",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "that meeting took place in the parking lot & which is where Bob Lazar I pretty sure worked",
+      "from_s": 7115.0,
+      "to_s": 7125.0,
+      "cites": [
+        "Bob Lazar",
+        "Eric Davis",
+        "Thomas J Wilson"
+      ],
+      "documents": [
+        "Wilson memo"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "Both are about the secret meeting between Admiral Thomas Wilson and Eric Davis that the Wilson memo describes. This telling only adds where the meeting supposedly took place.",
+        "difference": "",
+        "downgraded": {
+          "from": "same",
+          "story": "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "why": "a program telling and the document story wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997: a program and a story of another kind are different grains"
+        },
+        "against": [
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "john-lear-possibly-fed-disinformation-to-lazar-1970",
+          "grusch-has-no-information-on-lazar-1989",
+          "senate-armed-services-staff-on-admiral-wilson",
+          "air-force-disinformation-drives-paul-bennewitz-crazy-1979",
+          "puthoff-skeptical-of-lazar-after-a-clearance-check"
+        ],
+        "id": "wilson-meeting-at-the-eg-g-parking-lot-where-bob-lazar-worke-2002"
+      }
+    },
+    {
+      "title": "Fox interviewed all three Rendlesham witnesses",
+      "story_kind": "encounter",
+      "years_text": "1980",
+      "years": {
+        "from": 1980,
+        "to": 1980
+      },
+      "place_text": "RAF Woodbridge, Suffolk, England",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "only I'm the only person to have interviewed cabansag burough and penison",
+      "from_s": 7213.0,
+      "to_s": 7219.0,
+      "cites": [
+        "Jim Penniston",
+        "John Burroughs",
+        "Cabansag",
+        "Charles Halt"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "This telling is Fox's own claim that he is the only person to have interviewed Cabansag, Burroughs and Penniston. The nearest stories are Mike Masters' accounts of particular things Penniston experienced at Rendlesham: the beings from the future and the 'sphere of influence'. Those are different stories from Fox's claim about his own interviews.",
+        "difference": "",
+        "against": [
+          "jim-penniston-told-the-beings-come-from-8-000-years-in-the-f-1980",
+          "penniston-s-sphere-of-influence-near-the-rendlesham-craft-1980",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "roswell-witnesses-describe-threats-made-in-1947",
+          "westall-landing-case-two-witnesses-talk-after-50-years-1966",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "fox-breaks-the-fife-symington-phoenix-lights-story-1997",
+          "military-base-calls-a-witness-after-the-fox-interview-2021"
+        ],
+        "id": "fox-interviewed-all-three-rendlesham-witnesses-1980"
+      }
+    },
+    {
+      "title": "John Alexander knew of Rendlesham before anyone in the US",
+      "story_kind": "testimony",
+      "years_text": "1980",
+      "years": {
+        "from": 1980,
+        "to": 1980
+      },
+      "place_text": "RAF Woodbridge, England / United States",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "that relates to Alexander is I think John Alexander gave the readout and",
+      "from_s": 7247.0,
+      "to_s": 7252.0,
+      "cites": [
+        "John Alexander",
+        "unnamed well-connected friend"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about John Alexander getting a readout of the Rendlesham incident before anyone else in the US. The closest Rendlesham stories cover Fox's interviews with the witnesses and Penniston's encounter details. Those are different stories about the same 1980 event, and none is about Alexander's early knowledge.",
+        "difference": "",
+        "against": [
+          "eben-alexander-near-death-experience-2008",
+          "jfk-letter-to-cia-director-mccone-requesting-ufo-data-1963",
+          "john-lear-possibly-fed-disinformation-to-lazar-1970",
+          "fox-interviewed-all-three-rendlesham-witnesses-1980",
+          "jim-penniston-told-the-beings-come-from-8-000-years-in-the-f-1980",
+          "penniston-s-sphere-of-influence-near-the-rendlesham-craft-1980",
+          "larry-king-live-with-buzz-aldrin-and-somebody-s-gotten-to-hi-2007",
+          "john-mack-s-abductee-interviews-at-harvard-1990"
+        ],
+        "id": "john-alexander-knew-of-rendlesham-before-anyone-in-the-us-1980"
+      }
+    },
+    {
+      "title": "Richard Doty as Air Force counterintelligence",
+      "story_kind": "program",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "you know Richard Dodie who was we now",
+      "from_s": 7436.0,
+      "to_s": 7441.0,
+      "cites": [
+        "Richard Doty",
+        "John Lear",
+        "Bill Cooper"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling is about Richard Doty's role as an Air Force counterintelligence agent in general, and it credits John Lear and Bill Cooper. The nearest story is the 1979 Bennewitz disinformation operation, which is one specific case Doty is credited in, not his overall role.",
+        "difference": "",
+        "against": [
+          "air-force-disinformation-drives-paul-bennewitz-crazy-1979",
+          "air-force-project-blue-book-1947",
+          "condon-committee-coordinated-with-air-force-1966",
+          "glenn-martin-company-employs-louis-witten-for-anti-gravity-r-1950",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "twining-memo-and-its-postscript-on-independent-programs-1947"
+        ],
+        "id": "richard-doty-as-air-force-counterintelligence"
+      }
+    },
+    {
+      "title": "Landing at Holloman Air Force Base",
+      "story_kind": "encounter",
+      "years_text": "unspecified (Eisenhower meeting claimed)",
+      "years": null,
+      "place_text": "Holloman Air Force Base, New Mexico",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "a landing did happen at Hollowman Air Force Base now I'm kind of convinced that it did",
+      "from_s": 7491.0,
+      "to_s": 7497.0,
+      "cites": [
+        "Eisenhower"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "variant",
+        "story": "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+        "grain": "same",
+        "reason": "Both are James Fox telling of a UFO landing at Holloman Air Force Base, New Mexico. This telling ties the landing to a claimed meeting with Eisenhower, while the story places it in 1964 and rests it on footage Allan Sandler saw. Those are competing accounts of when the landing happened and who was there, so either could be right.",
+        "difference": "This telling links the Holloman landing to an Eisenhower meeting, gives no date or footage and has Fox saying he is personally convinced, where the story dates it to 1964 and cites the footage Sandler saw of three saucers.",
+        "against": [
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "vallee-urges-hynek-to-review-blue-book-s-psychological-cases-1964",
+          "eglin-afb-diamond-formation-of-orbs-gaetz-denied-access-to-c-2023",
+          "glenn-martin-company-employs-louis-witten-for-anti-gravity-r-1950",
+          "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter",
+          "wright-patterson-as-nuclear-antigravity-and-blue-book-site-1950",
+          "wright-patterson-as-reverse-engineering-site-for-enemy-equip-1940",
+          "vandenberg-ufo-takes-down-dummy-warhead-1964"
+        ],
+        "id": "landing-at-holloman-air-force-base"
+      }
+    },
+    {
+      "title": "Book's claim of alien contact at Bentwaters, disputed by witnesses",
+      "story_kind": "encounter",
+      "years_text": "1980",
+      "years": {
+        "from": 1980,
+        "to": 1980
+      },
+      "place_text": "RAF Bentwaters, England",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "about that there was actual contact with aliens at bent wers in 1980",
+      "from_s": 7521.0,
+      "to_s": 7526.0,
+      "cites": [
+        "Gordon Williams",
+        "Charles Halt",
+        "Jim Penniston",
+        "John Burroughs",
+        "Cabansag"
+      ],
+      "documents": [
+        "Left at East Gate"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the claim in the book Left at East Gate that there was real contact with aliens at Bentwaters in 1980, a claim the witnesses dispute. The nearest story, Fox's interviews of the three Rendlesham witnesses, is about the same incident but tells a different story: Fox's own work interviewing them. The other Rendlesham stories are Penniston's separate experiences.",
+        "difference": "",
+        "against": [
+          "fox-interviewed-all-three-rendlesham-witnesses-1980",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "jim-penniston-told-the-beings-come-from-8-000-years-in-the-f-1980",
+          "penniston-s-sphere-of-influence-near-the-rendlesham-craft-1980",
+          "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010",
+          "roswell-witnesses-describe-threats-made-in-1947",
+          "vallee-urges-hynek-to-review-blue-book-s-psychological-cases-1964",
+          "westall-landing-case-two-witnesses-talk-after-50-years-1966"
+        ],
+        "id": "book-s-claim-of-alien-contact-at-bentwaters-disputed-by-witn-1980"
+      }
+    },
+    {
+      "title": "Daily Mail: CIA Office of Global Access runs crash retrieval",
+      "story_kind": "program",
+      "years_text": "c. 2023-2024",
+      "years": {
+        "from": 2023,
+        "to": 2024
+      },
+      "place_text": "Worldwide / United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "global access being the main you know part of the crash retrieval program all around the world",
+      "from_s": 7598.0,
+      "to_s": 7605.0,
+      "cites": [],
+      "documents": [
+        "Daily Mail reporting"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is Grusch's general claim that a legacy crash-retrieval program exists and should out itself. This telling is narrower: it is the Daily Mail's report that one named CIA office, the Office of Global Access, runs crash retrievals worldwide. That office-level claim is not in any of the story's tellings.",
+        "difference": "",
+        "against": [
+          "colleagues-close-the-door-and-reveal-hidden-programs-2019",
+          "legacy-crash-retrieval-program-should-out-itself",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "oppenheimer-on-the-aztec-crash-retrieval-team-1948",
+          "agencies-deny-grusch-access-to-programs-2019",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "cia-approaches-puthoff-over-russian-psychic-research-1970",
+          "john-lear-possibly-fed-disinformation-to-lazar-1970"
+        ],
+        "id": "daily-mail-cia-office-of-global-access-runs-crash-retrieval-2023"
+      }
+    },
+    {
+      "title": "Daily Mail: egg-shaped UFO from Area 51",
+      "story_kind": "crash-retrieval",
+      "years_text": "c. 2023",
+      "years": {
+        "from": 2023,
+        "to": 2023
+      },
+      "place_text": "Area 51, Nevada",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "The Daily Mail reporting about you know an egg-shaped UFO from Area 51 a year ago",
+      "from_s": 7588.0,
+      "to_s": 7596.0,
+      "cites": [],
+      "documents": [
+        "Daily Mail reporting"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about one specific Daily Mail report of an egg-shaped craft retrieved at Area 51. The nearest story is the Daily Mail's claim that the CIA Office of Global Access runs crash retrieval, which is a whole program rather than one specific craft. The Lazar S4 story is a different claim from a different era.",
+        "difference": "",
+        "against": [
+          "daily-mail-cia-office-of-global-access-runs-crash-retrieval-2023",
+          "founding-myths-of-star-people-teaching-agriculture",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "shamans-accounts-of-little-men-out-of-a-big-light-passport-t",
+          "eglin-afb-diamond-formation-of-orbs-gaetz-denied-access-to-c-2023",
+          "looking-for-city-lights-on-proxima-b-2021",
+          "brown-s-saucer-shaped-gravitator-and-founding-of-nicap-1950",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987"
+        ],
+        "id": "daily-mail-egg-shaped-ufo-from-area-51-2023"
+      }
+    },
+    {
+      "title": "Robert Maxwell owned the National Enquirer to shape UFO coverage",
+      "story_kind": "theory",
+      "years_text": "1980s",
+      "years": {
+        "from": 1980,
+        "to": 1989
+      },
+      "place_text": "United States / United Kingdom",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "he owned the national Inquirer",
+      "from_s": 7664.0,
+      "to_s": 7671.0,
+      "cites": [
+        "Robert Maxwell",
+        "Ghislaine Maxwell",
+        "Rupert Murdoch"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling says Robert Maxwell owned the National Enquirer as a way to steer UFO coverage. None of the stories is about Maxwell, the Enquirer or media control of UFO news. The closest is the 1952 CIA memo calling UFOs a national security matter, which is a different document from a different era.",
+        "difference": "",
+        "against": [
+          "cia-memo-calls-ufos-a-national-security-matter-1952",
+          "brown-meets-teller-and-lemay-driven-by-sarbacher-1950",
+          "malmstrom-missiles-disabled-by-red-glowing-object-1967",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+          "spielberg-tells-robert-liefeld-ufos-may-be-humans-from-the-f-1993",
+          "jfk-letter-to-cia-director-mccone-requesting-ufo-data-1963",
+          "vallee-s-invisible-college-research-group-of-the-1970s",
+          "2007-national-press-club-event-with-international-officials"
+        ],
+        "id": "robert-maxwell-owned-the-national-enquirer-to-shape-ufo-cove-1980"
+      }
+    },
+    {
+      "title": "UFOs Past, Present and Future and the Holloman AFB contact",
+      "story_kind": "document",
+      "years_text": "1972-1974",
+      "years": {
+        "from": 1972,
+        "to": 1974
+      },
+      "place_text": "Holloman Air Force Base, New Mexico",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "contact look they're saying contact yeah with acted military at Hallman Air Force Base in 1972 or 74",
+      "from_s": 7735.0,
+      "to_s": 7744.0,
+      "cites": [
+        "Robert Emenegger",
+        "Allan Sandler",
+        "Rod Serling"
+      ],
+      "documents": [
+        "UFOs: Past, Present, and Future"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "This telling is about the 1974 documentary UFOs: Past, Present, and Future and how it presents a military contact at Holloman, dated 1972 or 1974. The nearest story is the 1964 landing footage Allan Sandler said he saw. That story is the encounter itself, not the film, so this telling is a different story.",
+        "difference": "",
+        "against": [
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "landing-at-holloman-air-force-base",
+          "eglin-afb-diamond-formation-of-orbs-gaetz-denied-access-to-c-2023",
+          "glenn-martin-company-employs-louis-witten-for-anti-gravity-r-1950",
+          "wright-patterson-as-reverse-engineering-site-for-enemy-equip-1940",
+          "masters-face-to-face-contact-with-future-humans-at-a-phoenix-2022",
+          "malmstrom-missiles-disabled-by-red-glowing-object-1967",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940"
+        ],
+        "id": "ufos-past-present-and-future-and-the-holloman-afb-contact-1972"
+      }
+    },
+    {
+      "title": "Allan Sandler's Vandenberg Atlas rocket disc footage",
+      "story_kind": "sighting",
+      "years_text": "1970s; escrow attempt c. 2013-2014",
+      "years": {
+        "from": 1970,
+        "to": 2014
+      },
+      "place_text": "Vandenberg Air Force Base, California",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "a a launch at vanderberg Air Force Base of an atlas rocket MH and there's uh two or I think it's two discs that are flying around the tip of this Atlas rocket",
+      "from_s": 7769.0,
+      "to_s": 7781.0,
+      "cites": [
+        "Allan Sandler"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The nearest story is Bob Jacobs' 1964 Vandenberg film of a UFO taking down a dummy warhead. This telling is about footage Allan Sandler says he saw, of two discs circling the tip of an Atlas rocket in the 1970s, with an escrow attempt around 2013-2014. The witness, the decade and the core claim all differ, so it is a different story.",
+        "difference": "",
+        "against": [
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "ufos-past-present-and-future-and-the-holloman-afb-contact-1972",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "vandenberg-ufo-takes-down-dummy-warhead-1964",
+          "wright-patterson-as-nuclear-antigravity-and-blue-book-site-1950",
+          "footage-of-the-varginha-alien-transport-and-hospital-1996",
+          "1950s-flying-butane-tanks-in-air-force-osi-reports",
+          "eglin-afb-diamond-formation-of-orbs-gaetz-denied-access-to-c-2023"
+        ],
+        "id": "allan-sandler-s-vandenberg-atlas-rocket-disc-footage-1970"
+      }
+    },
+    {
+      "title": "Condon wrote the McMahon secrecy language later used for UFO secrecy",
+      "story_kind": "theory",
+      "years_text": "1946-1954",
+      "years": {
+        "from": 1946,
+        "to": 1954
+      },
+      "place_text": "Los Alamos / United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "so so cond is basically writing up UFO secrecy before he then debunks the entire thing",
+      "from_s": 8029.0,
+      "to_s": 8038.0,
+      "cites": [
+        "Edward Condon",
+        "J. Robert Oppenheimer",
+        "Leslie Groves"
+      ],
+      "documents": [
+        "McMahon Act",
+        "Atomic Energy Act",
+        "Los Alamos Primer"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling makes one specific claim: that Condon drafted the McMahon/Atomic Energy Act secrecy language that was later used to keep UFOs secret. The nearest story covers Condon's whole career, from atomic insider to UFO debunker, so it is a broader story and only mentions this episode inside it.",
+        "difference": "",
+        "against": [
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "condon-worked-with-manhattan-project-figures-1940",
+          "lefschetz-recruited-for-nonlinear-group-later-moved-to-brown-1950",
+          "was-condon-blackmailed-by-fbi-agent-guy-hottel-into-debunkin-1950",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "looking-for-city-lights-on-proxima-b-2021",
+          "twining-memo-and-its-postscript-on-independent-programs-1947",
+          "condon-committee-coordinated-with-air-force-1966"
+        ],
+        "id": "condon-wrote-the-mcmahon-secrecy-language-later-used-for-ufo-1946"
+      }
+    },
+    {
+      "title": "The Hottel memo on the FBI website",
+      "story_kind": "document",
+      "years_text": "1950",
+      "years": {
+        "from": 1950,
+        "to": 1950
+      },
+      "place_text": "Washington, D.C.",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "the number one memo on the FBI's website the number one the most searched for memo is called the Huddle memo and it's basically describing an air a force technical officer coming upon a craft that is crashed",
+      "from_s": 8082.0,
+      "to_s": 8096.0,
+      "cites": [
+        "Guy Hottel"
+      ],
+      "documents": [
+        "Hottel memo"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+        "grain": "same",
+        "reason": "Both tellings describe the Hottel memo, the most-searched document on the FBI website, in which an Air Force officer reports a crashed craft. The teller is the same and the grain matches.",
+        "difference": "This telling dates the memo to 1950 rather than 1952, calls the officer an Air Force technical officer, and doesn't mention an alien crew.",
+        "against": [
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "was-condon-blackmailed-by-fbi-agent-guy-hottel-into-debunkin-1950",
+          "glenn-martin-company-employs-louis-witten-for-anti-gravity-r-1950",
+          "twining-memo-and-its-postscript-on-independent-programs-1947",
+          "air-force-project-blue-book-1947",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter",
+          "eglin-afb-diamond-formation-of-orbs-gaetz-denied-access-to-c-2023"
+        ]
+      }
+    },
+    {
+      "title": "FBI agent Guy Hottel investigates Condon; Q clearance stripped",
+      "story_kind": "testimony",
+      "years_text": "early 1950s",
+      "years": {
+        "from": 1950,
+        "to": 1953
+      },
+      "place_text": "Washington, D.C.",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "guy hoddle is investigating Condon in the early 50s",
+      "from_s": 8109.0,
+      "to_s": 8117.0,
+      "cites": [
+        "Guy Hottel",
+        "Edward Condon"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is only about Hottel's FBI investigation of Condon in the early 1950s and the loss of his Q clearance. The nearest story makes a bigger claim, that this investigation was used to blackmail Condon into debunking UFOs. The investigation is one event inside that theory, so this is a narrower, separate story.",
+        "difference": "",
+        "against": [
+          "was-condon-blackmailed-by-fbi-agent-guy-hottel-into-debunkin-1950",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "building-owner-s-scientist-boyfriend-told-her-of-a-new-mexic-1950",
+          "condon-worked-with-manhattan-project-figures-1940",
+          "condon-wrote-the-mcmahon-secrecy-language-later-used-for-ufo-1946",
+          "condon-committee-coordinated-with-air-force-1966",
+          "doolittle-sent-to-investigate-swedish-ghost-rockets-1946"
+        ],
+        "id": "fbi-agent-guy-hottel-investigates-condon-q-clearance-strippe-1950"
+      }
+    },
+    {
+      "title": "Branscomb tells Condon to get his clearance back",
+      "story_kind": "document",
+      "years_text": "1966",
+      "years": {
+        "from": 1966,
+        "to": 1966
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "and he says hey you know maybe it's time you get your clearance back",
+      "from_s": 8247.0,
+      "to_s": 8252.0,
+      "cites": [
+        "Lewis Branscomb",
+        "Edward Condon",
+        "Donald Menzel"
+      ],
+      "documents": [
+        "American Institute of Physics interview transcript"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is Condon's whole career arc, which only mentions that his clearance was 'mysteriously restored' in 1966. This telling is one specific moment inside that career: Lewis Branscomb telling Condon it was time to get his clearance back, sourced to an American Institute of Physics interview transcript. That makes it a different, narrower story.",
+        "difference": "",
+        "against": [
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "fbi-agent-guy-hottel-investigates-condon-q-clearance-strippe-1950",
+          "condon-committee-coordinated-with-air-force-1966",
+          "was-condon-blackmailed-by-fbi-agent-guy-hottel-into-debunkin-1950",
+          "condon-worked-with-manhattan-project-figures-1940",
+          "condon-wrote-the-mcmahon-secrecy-language-later-used-for-ufo-1946",
+          "condon-report-closes-blue-book-1968",
+          "intercept-article-on-grusch-s-2018-hospitalization"
+        ],
+        "id": "branscomb-tells-condon-to-get-his-clearance-back-1966"
+      }
+    },
+    {
+      "title": "Condon Committee hit job at University of Colorado",
+      "story_kind": "program",
+      "years_text": "1966-1969",
+      "years": {
+        "from": 1966,
+        "to": 1969
+      },
+      "place_text": "University of Colorado Boulder",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "the University of Colorado Boulder and he does an absolute hit job on",
+      "from_s": 8270.0,
+      "to_s": 8274.0,
+      "cites": [
+        "Edward Condon",
+        "Robert Hippler"
+      ],
+      "documents": [
+        "Condon Report"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "condon-committee-coordinated-with-air-force-1966",
+        "grain": "same",
+        "reason": "Both are Jesse Michels's tellings of the Condon Committee, the 1966–1968/69 UFO study program, and both credit Edward Condon and Robert Hippler. Calling it a \"hit job\" fits with the story's claim that the Air Force paid for and steered the committee rather than contradicting it.",
+        "difference": "This telling names the University of Colorado Boulder as where the committee worked, calls the study an outright \"hit job\", credits the Condon Report, and runs the dates to 1969.",
+        "against": [
+          "condon-committee-coordinated-with-air-force-1966",
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "branscomb-tells-condon-to-get-his-clearance-back-1966",
+          "was-condon-blackmailed-by-fbi-agent-guy-hottel-into-debunkin-1950",
+          "condon-worked-with-manhattan-project-figures-1940",
+          "condon-wrote-the-mcmahon-secrecy-language-later-used-for-ufo-1946",
+          "fbi-agent-guy-hottel-investigates-condon-q-clearance-strippe-1950",
+          "condon-report-closes-blue-book-1968"
+        ]
+      }
+    },
+    {
+      "title": "Majestic 12 document; Menzel rumored member",
+      "story_kind": "document",
+      "years_text": "1947 onward",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "legitimate document it establishes one that a flying Sauer crashed two that the wreckage was recovered",
+      "from_s": 8187.0,
+      "to_s": 8192.0,
+      "cites": [
+        "Stanton Friedman",
+        "Donald Menzel"
+      ],
+      "documents": [
+        "Majestic 12 documents"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "majestic-12-briefing-document-1952",
+        "grain": "same",
+        "reason": "Both tellings are about the Majestic 12 document, the controversial briefing paper said to show that a flying saucer crashed and its wreckage was recovered. They share the same teller (Jesse Michels) and the same document.",
+        "difference": "This telling is secondhand and credits Stanton Friedman. It names Donald Menzel as a rumored MJ-12 member, gives 1947 onward instead of 1952, and leaves out the Eisenhower briefing. It also stresses what the document would prove if it is real: that a saucer crashed and the wreckage was recovered.",
+        "against": [
+          "building-owner-s-scientist-boyfriend-told-her-of-a-new-mexic-1950",
+          "non-human-biologics-recovered-with-crashed-craft",
+          "majestic-12-briefing-document-1952",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "carl-jung-s-flying-saucers-1958",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "branscomb-tells-condon-to-get-his-clearance-back-1966",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987"
+        ]
+      }
+    },
+    {
+      "title": "Hoover handwritten note: Army grabbed recovered disc",
+      "story_kind": "document",
+      "years_text": "July 1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "United States",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "we must insist upon full access to discs recovered Hoover continued the Army grabbed it and wouldn't let the bureau have it for cursory examination",
+      "from_s": 8341.0,
+      "to_s": 8352.0,
+      "cites": [
+        "J. Edgar Hoover"
+      ],
+      "documents": [
+        "FBI memo with Hoover handwritten note",
+        "Out of the Blue"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about a particular document: Hoover's handwritten note on an FBI memo complaining that the Army took a recovered disc. The closest story, the boss telling Fox that the government admitted the Roswell recovery, is a different account about a public admission. No story here is about the Hoover memo.",
+        "difference": "",
+        "against": [
+          "host-s-trifield-meter-drained-at-skinwalker-ranch",
+          "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "frank-tipler-s-rotating-disc-time-machine-resembles-ufos-1915",
+          "building-owner-s-scientist-boyfriend-told-her-of-a-new-mexic-1950",
+          "chinese-uap-task-force-reported-in-south-china-morning-post-2021"
+        ],
+        "id": "hoover-handwritten-note-army-grabbed-recovered-disc-1947"
+      }
+    },
+    {
+      "title": "Fox sends Out of the Blue to all 535 members of Congress",
+      "story_kind": "testimony",
+      "years_text": "c. 2000",
+      "years": {
+        "from": 2000,
+        "to": 2000
+      },
+      "place_text": "Washington, D.C.",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "I went around and I gave out copies of out of the blue to every single member of the House and Senate",
+      "from_s": 8398.0,
+      "to_s": 8409.0,
+      "cites": [],
+      "documents": [
+        "Out of the Blue"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This telling is Fox handing copies of Out of the Blue to every member of Congress around 2000. None of the stories covers that. The closest is Fox talking to Senate Armed Services staff about Admiral Wilson, which is a different event in Washington with a different subject.",
+        "difference": "",
+        "against": [
+          "blue-book-heads-grow-increasingly-anti-ufo-1952-1969",
+          "senate-armed-services-staff-on-admiral-wilson",
+          "congress-denied-a-scif-for-grusch-s-classified-briefing-2023",
+          "vallee-s-study-of-small-ufo-religions-1970",
+          "military-base-calls-a-witness-after-the-fox-interview-2021",
+          "john-alexander-knew-of-rendlesham-before-anyone-in-the-us-1980",
+          "allan-sandler-s-vandenberg-atlas-rocket-disc-footage-1970",
+          "australian-man-leaves-edgar-mitchell-s-house-with-files-2016"
+        ],
+        "id": "fox-sends-out-of-the-blue-to-all-535-members-of-congress-2000"
+      }
+    },
+    {
+      "title": "Duell's diary records meeting the president on the MJ-12 briefing day",
+      "story_kind": "document",
+      "years_text": "1950s",
+      "years": {
+        "from": 1950,
+        "to": 1959
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "now have doull's diary coming out and it says on the day that you know Eisenhower was supposedly sort of briefed on this stuff it says you know meeting with the president",
+      "from_s": 8459.0,
+      "to_s": 8469.0,
+      "cites": [
+        "Dwight Eisenhower"
+      ],
+      "documents": [
+        "Duell's diary",
+        "Majestic 12 documents"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about a different document, Duell's diary, which is said to record a meeting with the president on the day of the supposed MJ-12 briefing. The nearest story is the Majestic 12 briefing document itself. The diary is offered as outside support for that briefing, so it is a separate story about a separate document, not another telling of the briefing paper.",
+        "difference": "",
+        "against": [
+          "majestic-12-briefing-document-1952",
+          "briefing-on-engineered-isotopic-ratios-of-recovered-craft-2019",
+          "doolittle-sent-to-investigate-swedish-ghost-rockets-1946",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "navy-says-brown-s-work-still-classified",
+          "jfk-letter-to-cia-director-mccone-requesting-ufo-data-1963",
+          "glenn-martin-company-employs-louis-witten-for-anti-gravity-r-1950",
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947"
+        ],
+        "id": "duell-s-diary-records-meeting-the-president-on-the-mj-12-bri-1950"
+      }
+    },
+    {
+      "title": "Elizondo on 60 Minutes: the government said they're real",
+      "story_kind": "testimony",
+      "years_text": "2021",
+      "years": {
+        "from": 2021,
+        "to": 2021
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "not telling you they're real yeah the government just admitted that they're real",
+      "from_s": 8490.0,
+      "to_s": 8495.0,
+      "cites": [
+        "Luis Elizondo"
+      ],
+      "documents": [
+        "60 Minutes"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Elizondo's 2021 appearance on 60 Minutes, framed as the government admitting UAPs are real. The closest story, the Tic Tac videos Puthoff saw in the Pentagon, is a different event: a 2017 video release, not the 60 Minutes broadcast.",
+        "difference": "",
+        "against": [
+          "tic-tac-videos-seen-in-the-pentagon-before-release-better-vi-2017",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "lockheed-skunk-works-response-to-grusch-s-testimony-2023",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960",
+          "corporal-armando-vanishes-for-15-minutes-but-lives-5-days-1970",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964"
+        ],
+        "id": "elizondo-on-60-minutes-the-government-said-they-re-real-2021"
+      }
+    },
+    {
+      "title": "British and French governments release UFO files",
+      "story_kind": "document",
+      "years_text": "2007-2008",
+      "years": {
+        "from": 2007,
+        "to": 2008
+      },
+      "place_text": "United Kingdom / France",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "I remember in 20072 2008 there was a release of previously classified documents of the British government the French government",
+      "from_s": 8557.0,
+      "to_s": 8564.0,
+      "cites": [],
+      "documents": [
+        "British and French government UFO files"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the British and French governments releasing their UFO files in 2007-2008. None of the stories covers that release. The nearest ones are about US documents: a classified Battelle letter, Edgar Mitchell's files, and a CIA file given to Nolan.",
+        "difference": "",
+        "against": [
+          "gary-nolan-s-cia-file-on-ufo-experiencers-and-havana-syndrom-2010",
+          "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950",
+          "tic-tac-videos-seen-in-the-pentagon-before-release-better-vi-2017",
+          "st-francis-of-assisi-s-stigmata-as-ufo-radiation",
+          "eben-alexander-near-death-experience-2008",
+          "australian-man-leaves-edgar-mitchell-s-house-with-files-2016",
+          "pompeo-i-saw-the-ufo-files-too",
+          "atomic-energy-act-s-special-nuclear-material-covers-crash-ma-1954"
+        ],
+        "id": "british-and-french-governments-release-ufo-files-2007"
+      }
+    },
+    {
+      "title": "Insiders say there will be proof we're not alone by 2030",
+      "story_kind": "testimony",
+      "years_text": "2024-2030",
+      "years": {
+        "from": 2024,
+        "to": 2030
+      },
+      "place_text": "United States",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "that we're not alone now that I'm told by 2030",
+      "from_s": 8609.0,
+      "to_s": 8614.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is James Fox passing on what insiders told him: that there will be proof we are not alone by 2030. None of the stories is about a predicted disclosure date. The nearest ones (Mellon's insider contact, agencies denying Grusch access) are separate insider events, not this forecast.",
+        "difference": "",
+        "against": [
+          "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010",
+          "edward-condon-atomic-insider-turned-ufo-debunker-1920",
+          "military-base-calls-a-witness-after-the-fox-interview-2021",
+          "photo-from-scotland-shown-in-fox-s-film",
+          "agencies-deny-grusch-access-to-programs-2019",
+          "chris-bledsoe-claims-similar-ufo-sensitivity-2000",
+          "congress-denied-a-scif-for-grusch-s-classified-briefing-2023",
+          "grusch-files-ig-complaint-and-names-witnesses-2022"
+        ],
+        "id": "insiders-say-there-will-be-proof-we-re-not-alone-by-2030-2024"
+      }
+    },
+    {
+      "title": "Nimitz encounter as multisensory evidence",
+      "story_kind": "sighting",
+      "years_text": "2004",
+      "years": {
+        "from": 2004,
+        "to": 2004
+      },
+      "place_text": "Off California (Nimitz carrier strike group)",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "multisensory you have 11 or 12 Witnesses you have three days",
+      "from_s": 8741.0,
+      "to_s": 8746.0,
+      "cites": [],
+      "documents": [
+        "FLIR video"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The closest story is Fravor's 2004 Nimitz sighting. That story is about one pilot's own encounter with the Tic Tac. This telling covers the whole Nimitz incident as multisensory evidence, with 11 or 12 witnesses over three days, so it is a wider grain than one witness's sighting.",
+        "difference": "",
+        "against": [
+          "controller-reports-objects-descending-from-above-80-000-feet-2004",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "fox-interviewed-all-three-rendlesham-witnesses-1980",
+          "jfk-letter-to-cia-director-mccone-requesting-ufo-data-1963",
+          "army-officers-visiting-the-utah-ranch-followed-home-by-pheno-1990",
+          "nine-page-pentagon-uap-report-2021",
+          "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996",
+          "buzz-aldrin-chased-a-disc-in-a-military-jet-1950"
+        ],
+        "id": "nimitz-encounter-as-multisensory-evidence-2004"
+      }
+    },
+    {
+      "title": "Russia used nuclear material to bait UFOs",
+      "story_kind": "theory",
+      "years_text": "Soviet era",
+      "years": null,
+      "place_text": "Russia",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "apparently in Russia they would use uh nuclear material to bait UFOs",
+      "from_s": 8838.0,
+      "to_s": 8843.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is a specific claim that the Soviets used nuclear material as bait to attract UFOs. The closest story is about UFOs at nuclear facilities in general, framed as future humans guarding their timeline. That story is a different theory with no Russian baiting practice in it.",
+        "difference": "",
+        "against": [
+          "atomic-energy-act-s-special-nuclear-material-covers-crash-ma-1954",
+          "ufos-at-nuclear-facilities-as-future-humans-guarding-their-t",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+          "condon-wrote-the-mcmahon-secrecy-language-later-used-for-ufo-1946",
+          "walter-b-smith-1953-letter-on-using-the-phenomenon-for-psych",
+          "paranormal-activity-in-towns-after-nuclear-explosions-1945",
+          "skinwalker-ranch-cattle-mutilations-and-bigelow-experiments-1990"
+        ],
+        "id": "russia-used-nuclear-material-to-bait-ufos"
+      }
+    },
+    {
+      "title": "Russian admiral: the phenomenon's reality isn't in question",
+      "story_kind": "testimony",
+      "years_text": "1990s",
+      "years": {
+        "from": 1990,
+        "to": 1999
+      },
+      "place_text": "Russia",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "Russia and I remember sitting down with this Admiral and he said to my interpreter he's like look if you're here to ask me whether or not the phenomenon is real the door is right over there",
+      "from_s": 8843.0,
+      "to_s": 8856.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is James Fox's own meeting with a Russian admiral in the 1990s, who waved off any question of whether the phenomenon is real. The nearest stories are Fox's Senate staff account about the US Admiral Wilson and the Wilson memo, but those are about a different admiral, in a different country, making a different claim.",
+        "difference": "",
+        "against": [
+          "colleagues-close-the-door-and-reveal-hidden-programs-2019",
+          "lazar-s-account-to-vallee-of-a-drink-causing-memory-lapses-1989",
+          "senate-armed-services-staff-on-admiral-wilson",
+          "spielberg-s-tip-about-the-ariel-school-landing-in-africa-1990",
+          "army-officers-visiting-the-utah-ranch-followed-home-by-pheno-1990",
+          "lockheed-skunk-works-response-to-grusch-s-testimony-2023",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "elizondo-on-60-minutes-the-government-said-they-re-real-2021"
+        ],
+        "id": "russian-admiral-the-phenomenon-s-reality-isn-t-in-question-1990"
+      }
+    },
+    {
+      "title": "Senator Reid: they're shutting down our nukes",
+      "story_kind": "testimony",
+      "years_text": "c. 2019-2020",
+      "years": {
+        "from": 2019,
+        "to": 2020
+      },
+      "place_text": "United States",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "immediately without a pause he goes the fact that they're shutting down our nukes basically",
+      "from_s": 8984.0,
+      "to_s": 8991.0,
+      "cites": [
+        "Harry Reid",
+        "Robert Hastings"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "This telling is James Fox's own account of Senator Reid telling him, around 2019–2020, that UFOs are shutting down US nukes. The nearest story is Robert Hastings' interviews about UFOs at nuclear bases, which is a broad research project. Reid's remark to Fox is a separate conversation, not one of Hastings' interviews.",
+        "difference": "",
+        "against": [
+          "robert-hastings-feels-subliminally-guided-toward-disclosure-2023",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+          "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter",
+          "looking-for-city-lights-on-proxima-b-2021",
+          "jan-rooney-s-general-father-on-roswell-and-religion-1947",
+          "masters-face-to-face-contact-with-future-humans-at-a-phoenix-2022",
+          "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+          "footage-of-the-varginha-alien-transport-and-hospital-1996"
+        ],
+        "id": "senator-reid-they-re-shutting-down-our-nukes-2019"
+      }
+    },
+    {
+      "title": "Sighting map clusters around Trinity Site",
+      "story_kind": "place-lore",
+      "years_text": "1940s-1950s cases",
+      "years": {
+        "from": 1940,
+        "to": 1959
+      },
+      "place_text": "Trinity Site, New Mexico",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "the proximity to Trinity site was unbelievable",
+      "from_s": 9046.0,
+      "to_s": 9052.0,
+      "cites": [
+        "Lance Mungia",
+        "Robert Hastings"
+      ],
+      "documents": [
+        "The Phenomenon"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling is about a map that shows 1940s-50s sightings clustering around Trinity Site, which is place-lore about sighting patterns near nuclear sites. The nearest stories are about the 1945 Trinity crash, a single crash-retrieval event at the same place, so they are a different story.",
+        "difference": "",
+        "against": [
+          "wright-patterson-as-nuclear-antigravity-and-blue-book-site-1950",
+          "wright-patterson-as-reverse-engineering-site-for-enemy-equip-1940",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "custody-of-the-trinity-craft-passed-through-manhattan-projec-1945",
+          "trinity-and-roswell-crashes-1940",
+          "1952-washington-d-c-sightings",
+          "kenneth-arnold-sighting-1947",
+          "twining-memo-and-its-postscript-on-independent-programs-1947"
+        ],
+        "id": "sighting-map-clusters-around-trinity-site-1940"
+      }
+    },
+    {
+      "title": "Iitate, Fukushima: a UFO town near a nuclear site",
+      "story_kind": "place-lore",
+      "years_text": "2011; documentary c. 2020",
+      "years": {
+        "from": 2011,
+        "to": 2020
+      },
+      "place_text": "Iitate, Fukushima, Japan",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "called Leno which is in Fukushima which is famous for its 2011 spill",
+      "from_s": 9088.0,
+      "to_s": 9094.0,
+      "cites": [
+        "Vice"
+      ],
+      "documents": [
+        "Vice documentary"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "ufo-obsessed-japanese-town-near-fukushima-2011",
+        "grain": "same",
+        "reason": "Both tellings are about the same Vice-reported Japanese town near Fukushima that is obsessed with UFOs, told by Jesse Michels as place-lore.",
+        "difference": "Here the town is named Iitate (heard as \"Leno\") and tied to the 2011 nuclear spill. The Vice documentary is dated about 2020, not 2022.",
+        "against": [
+          "ufo-obsessed-japanese-town-near-fukushima-2011",
+          "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960",
+          "wright-patterson-as-nuclear-antigravity-and-blue-book-site-1950",
+          "paranormal-activity-in-towns-after-nuclear-explosions-1945",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940"
+        ]
+      }
+    },
+    {
+      "title": "UFOs over Bariloche nuclear site",
+      "story_kind": "sighting",
+      "years_text": "1995",
+      "years": {
+        "from": 1995,
+        "to": 1995
+      },
+      "place_text": "Bariloche, Argentina",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "baral loce is a is is a nuclear energy grid um and uf's buzzing there Argentina 95",
+      "from_s": 9127.0,
+      "to_s": 9135.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about one specific sighting: UFOs over the Bariloche nuclear site in Argentina in 1995. None of the stories covers Bariloche or Argentina. The nearest ones, about UFOs at nuclear facilities in general or at US sites, are broader general claims, not this incident.",
+        "difference": "",
+        "against": [
+          "atomic-energy-act-s-special-nuclear-material-covers-crash-ma-1954",
+          "wright-patterson-as-nuclear-antigravity-and-blue-book-site-1950",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+          "russia-used-nuclear-material-to-bait-ufos",
+          "ufos-at-nuclear-facilities-as-future-humans-guarding-their-t",
+          "lazar-s-account-to-vallee-of-a-drink-causing-memory-lapses-1989"
+        ],
+        "id": "ufos-over-bariloche-nuclear-site-1995"
+      }
+    },
+    {
+      "title": "F.E. Warren missile outage blamed on a Tic Tac",
+      "story_kind": "sighting",
+      "years_text": "2010",
+      "years": {
+        "from": 2010,
+        "to": 2010
+      },
+      "place_text": "F.E. Warren Air Force Base, Wyoming",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "wrote an article about Fe Warren",
+      "from_s": 9168.0,
+      "to_s": 9170.0,
+      "cites": [
+        "Robert Hastings"
+      ],
+      "documents": [
+        "Wired article"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the 2010 missile outage at F.E. Warren in Wyoming, which it blames on a Tic Tac. The closest stories cover different events: the 1967 Malmstrom shutdown and the 2004 Nimitz Tic Tac video. Neither is the same incident.",
+        "difference": "",
+        "against": [
+          "tic-tac-flir-video-2004",
+          "1950s-flying-butane-tanks-in-air-force-osi-reports",
+          "tic-tac-videos-seen-in-the-pentagon-before-release-better-vi-2017",
+          "robert-hastings-feels-subliminally-guided-toward-disclosure-2023",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "malmstrom-missiles-disabled-by-red-glowing-object-1967",
+          "george-trimble-s-1956-claim-on-cancelling-gravity",
+          "intercept-article-on-grusch-s-2018-hospitalization"
+        ],
+        "id": "f-e-warren-missile-outage-blamed-on-a-tic-tac-2010"
+      }
+    },
+    {
+      "title": "Project Sign Estimate burned by Vandenberg",
+      "story_kind": "document",
+      "years_text": "1948-1949",
+      "years": {
+        "from": 1948,
+        "to": 1949
+      },
+      "place_text": "Wright Field, Ohio",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "in 1949 sign Personnel wrote a top secret report concluding UFOs were extraterrestrial craft",
+      "from_s": 9225.0,
+      "to_s": 9234.0,
+      "cites": [
+        "Hoyt Vandenberg"
+      ],
+      "documents": [
+        "Project Sign Estimate of the Situation"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about the 1948-49 Project Sign Estimate of the Situation and Vandenberg ordering it destroyed. None of the stories covers that document. The nearest one, Vallee suspecting a secret project behind Blue Book in the 1960s, is a different program in a different decade.",
+        "difference": "",
+        "against": [
+          "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+          "nine-page-pentagon-uap-report-2021",
+          "manhattan-project-as-the-first-blue-book-colleagues-grandpar-1940",
+          "colleagues-grandparents-were-ufo-report-people-on-the-manhat-1940",
+          "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "vallee-s-the-invisible-college-1975",
+          "a-founder-s-grandfather-saw-roswell-base-personnel-spooked-1947"
+        ],
+        "id": "project-sign-estimate-burned-by-vandenberg-1948"
+      }
+    },
+    {
+      "title": "Orange orb lands near an open Minot missile silo",
+      "story_kind": "sighting",
+      "years_text": "1966 or 1968",
+      "years": {
+        "from": 1966,
+        "to": 1968
+      },
+      "place_text": "Minot Air Force Base, North Dakota",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "the morning and a UFO came over the base and apparently was like hovering and the guy was screaming like it's it's Landing",
+      "from_s": 9311.0,
+      "to_s": 9321.0,
+      "cites": [],
+      "documents": [
+        "The Phenomenon"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about an orange orb landing near an open missile silo at Minot AFB in 1966 or 1968. The nearest stories are Malmstrom (1967, a different base and a missile shutdown) and the general AFOSI cover-up claim. Neither is this Minot incident.",
+        "difference": "",
+        "against": [
+          "ariel-school-landing-near-a-uranium-mine-1994",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+          "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960",
+          "malmstrom-missiles-disabled-by-red-glowing-object-1967",
+          "footage-of-the-varginha-alien-transport-and-hospital-1996",
+          "landing-at-holloman-air-force-base",
+          "military-base-calls-a-witness-after-the-fox-interview-2021"
+        ],
+        "id": "orange-orb-lands-near-an-open-minot-missile-silo-1966"
+      }
+    },
+    {
+      "title": "Bob Jacobs films a UFO circling an Atlas missile at Vandenberg",
+      "story_kind": "sighting",
+      "years_text": "1964",
+      "years": {
+        "from": 1964,
+        "to": 1964
+      },
+      "place_text": "Vandenberg Air Force Base, California",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "was the photo instrumentation specialist vandenbberg sees in 64 sees the UFO circling around you know the atlas 5 dumy missile filmed it",
+      "from_s": 9423.0,
+      "to_s": 9434.0,
+      "cites": [
+        "Bob Jacobs",
+        "Robert Hastings"
+      ],
+      "documents": [
+        "Confessions"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "vandenberg-ufo-takes-down-dummy-warhead-1964",
+        "grain": "same",
+        "reason": "Both are about Bob Jacobs, the photo instrumentation specialist at Vandenberg in 1964, filming a UFO near an Atlas dummy warhead/missile test. It is the same incident with the same people, place and year.",
+        "difference": "This telling says the UFO circled the Atlas dummy missile and was filmed, but doesn't mention it bringing the warhead down. It also credits Robert Hastings and the document 'Confessions'.",
+        "against": [
+          "vandenberg-ufo-takes-down-dummy-warhead-1964",
+          "allan-sandler-s-vandenberg-atlas-rocket-disc-footage-1970",
+          "photo-from-scotland-shown-in-fox-s-film",
+          "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960",
+          "f-e-warren-missile-outage-blamed-on-a-tic-tac-2010",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "orange-orb-lands-near-an-open-minot-missile-silo-1966",
+          "john-lear-possibly-fed-disinformation-to-lazar-1970"
+        ]
+      }
+    },
+    {
+      "title": "Jacobs gives Kirkpatrick his case and is dismissed",
+      "story_kind": "testimony",
+      "years_text": "c. 2023",
+      "years": {
+        "from": 2023,
+        "to": 2023
+      },
+      "place_text": "Washington, D.C.",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "upset because apparently he went he went and met with him he gave him all the the documents",
+      "from_s": 9465.0,
+      "to_s": 9472.0,
+      "cites": [
+        "Bob Jacobs",
+        "Sean Kirkpatrick",
+        "David Grusch"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Bob Jacobs meeting Kirkpatrick (AARO), giving him his documents and being dismissed around 2023. The nearest story, the 1964 Vandenberg warhead incident, is the Jacobs encounter itself, not this later meeting with AARO, and none of the other stories cover that meeting.",
+        "difference": "",
+        "against": [
+          "grusch-testimony-some-craft-were-gifted-2023",
+          "fox-sends-out-of-the-blue-to-all-535-members-of-congress-2000",
+          "agencies-deny-grusch-access-to-programs-2019",
+          "vandenberg-ufo-takes-down-dummy-warhead-1964",
+          "vallee-urges-hynek-to-review-blue-book-s-psychological-cases-1964",
+          "st-francis-of-assisi-s-stigmata-as-ufo-radiation",
+          "military-base-calls-a-witness-after-the-fox-interview-2021",
+          "1950s-anti-gravity-research-went-quiet-possibly-went-black"
+        ],
+        "id": "jacobs-gives-kirkpatrick-his-case-and-is-dismissed-2023"
+      }
+    },
+    {
+      "title": "Penniston's career stalled after Rendlesham",
+      "story_kind": "testimony",
+      "years_text": "1980 onward",
+      "years": {
+        "from": 1980,
+        "to": 1980
+      },
+      "place_text": "Rendlesham Forest, England",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "um uh peniston you know not not making it to as high of a rank as he probably could have because he you know was a witness for the Rend",
+      "from_s": 9514.0,
+      "to_s": 9522.0,
+      "cites": [
+        "Jim Penniston"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "This telling is about how Penniston's military career suffered after he became a Rendlesham witness. The nearest stories are his own encounter claims at Rendlesham (the sphere of influence, the beings from 8,000 years in the future). Those are about the event itself, not what happened to his career afterwards, so they are different stories.",
+        "difference": "",
+        "against": [
+          "penniston-s-sphere-of-influence-near-the-rendlesham-craft-1980",
+          "fox-interviewed-all-three-rendlesham-witnesses-1980",
+          "jim-penniston-told-the-beings-come-from-8-000-years-in-the-f-1980",
+          "john-alexander-knew-of-rendlesham-before-anyone-in-the-us-1980",
+          "carl-sagan-met-with-kit-green-and-got-into-ufos-1997",
+          "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h"
+        ],
+        "id": "penniston-s-career-stalled-after-rendlesham-1980"
+      }
+    },
+    {
+      "title": "Hastings' Confessions: his own abduction experiences",
+      "story_kind": "document",
+      "years_text": "after UFOs and Nukes (2008)",
+      "years": {
+        "from": 2008,
+        "to": 2008
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "he wrote after UFOs and nukes is called confessions and it's about his own his personal experien abduction cases",
+      "from_s": 9535.0,
+      "to_s": 9541.0,
+      "cites": [
+        "Robert Hastings"
+      ],
+      "documents": [
+        "Confessions",
+        "UFOs and Nukes"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Hastings' later book Confessions and the abduction experiences he describes in it. The nearest story covers his UFOs and Nukes interviews about nuclear bases, which is a different book on a different subject.",
+        "difference": "",
+        "against": [
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+          "robert-hastings-feels-subliminally-guided-toward-disclosure-2023",
+          "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "f-e-warren-missile-outage-blamed-on-a-tic-tac-2010",
+          "carl-jung-s-flying-saucers-1958",
+          "betty-and-barney-hill-abduction-and-the-outer-limits-episode-1961",
+          "st-francis-of-assisi-s-stigmata-as-ufo-radiation"
+        ],
+        "id": "hastings-confessions-his-own-abduction-experiences-2008"
+      }
+    },
+    {
+      "title": "Budd Hopkins' abductees all drew the same symbol",
+      "story_kind": "encounter",
+      "years_text": "c. 2000s",
+      "years": {
+        "from": 2000,
+        "to": 2009
+      },
+      "place_text": "New York City",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "and he said I want you to draw what you see on the inside of the ship on the the table and they all drew the same symbol on the wall",
+      "from_s": 9704.0,
+      "to_s": 9712.0,
+      "cites": [
+        "Budd Hopkins",
+        "Leslie Kean"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about Budd Hopkins' abductees in New York all drawing the same symbol from inside the ship. The closest story is John Mack's abductee interviews at Harvard, but that one has a different researcher, a different place and a different claim.",
+        "difference": "",
+        "against": [
+          "ingo-swann-affects-shielded-quark-detector-at-sri-1970",
+          "parviz-jafari-s-1976-tehran-ufo-encounter",
+          "philadelphia-experiment-ship-teleportation-1940",
+          "fox-s-vision-of-tim-coleman-keying-his-car-1990",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "2007-national-press-club-event-with-international-officials",
+          "project-blue-book-and-the-pentagon-report-contradict-each-ot-1952",
+          "skinwalker-ranch-cattle-mutilations-and-bigelow-experiments-1990"
+        ],
+        "id": "budd-hopkins-abductees-all-drew-the-same-symbol-2000"
+      }
+    },
+    {
+      "title": "Garry Nolan's childhood bedside visitors",
+      "story_kind": "encounter",
+      "years_text": "childhood (age 6-7)",
+      "years": null,
+      "place_text": "Windsor",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "Gary noan who's a Stanford Professor he's you know claimed not an abduction but you know aliens at the foot of his bed",
+      "from_s": 9769.0,
+      "to_s": 9778.0,
+      "cites": [
+        "Garry Nolan"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Nolan's own childhood encounter with beings at the foot of his bed. None of the stories covers it. The closest ones are about Nolan's work with the CIA and Stanford in the 2010s, and Masters' childhood precognition, which is another witness's own experience.",
+        "difference": "",
+        "against": [
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "gary-nolan-s-cia-file-on-ufo-experiencers-and-havana-syndrom-2010",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "nanosims-analysis-finds-anomalous-magnesium-isotope-ratios-i-2010",
+          "masters-childhood-precognition-of-a-gray-alien-at-age-8",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021"
+        ],
+        "id": "garry-nolan-s-childhood-bedside-visitors"
+      }
+    },
+    {
+      "title": "Blue Book landing case with an alien footprint diagram",
+      "story_kind": "document",
+      "years_text": "Project Blue Book era",
+      "years": null,
+      "place_text": "National Archives",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "the footprints of the alien was documented in a diagram by the first military officer on the scene",
+      "from_s": 9891.0,
+      "to_s": 9896.0,
+      "cites": [],
+      "documents": [
+        "Project Blue Book files"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about a document: a Project Blue Book file holding a diagram of an alien's footprints, drawn by the first military officer on the scene, which Fox saw at the National Archives. The nearest story, Zamora's 1964 Socorro landing, is an encounter told by a police officer. Nothing in the telling names Socorro or any witness, so it can't be tied to that story or to the other landing cases.",
+        "difference": "",
+        "against": [
+          "ariel-school-witnesses-reunite-in-los-angeles-2013",
+          "manhattan-project-as-the-first-blue-book-colleagues-grandpar-1940",
+          "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "chase-brandon-book-on-hillenkoetter-and-the-roswell-being-1947",
+          "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996",
+          "lonnie-zamora-s-socorro-landing-1964",
+          "westall-landing-case-two-witnesses-talk-after-50-years-1966"
+        ],
+        "id": "blue-book-landing-case-with-an-alien-footprint-diagram"
+      }
+    },
+    {
+      "title": "Chuck Clark's road-trip tape of a wobbling orange disc",
+      "story_kind": "sighting",
+      "years_text": "1995",
+      "years": {
+        "from": 1995,
+        "to": 1995
+      },
+      "place_text": "Rachel, Nevada (near Area 51)",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "and then the next thing you see is a orange disc shaped thing just wobbling",
+      "from_s": 10123.0,
+      "to_s": 10130.0,
+      "cites": [
+        "Chuck Clark"
+      ],
+      "documents": [
+        "Chuck Clark VHS tape"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This telling is about Chuck Clark's 1995 tape of a wobbling orange disc near Rachel, Nevada. The closest stories are the orange orb at Minot and Sandler's disc footage at Vandenberg, but those happened at different places and times, with different witnesses.",
+        "difference": "",
+        "against": [
+          "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996",
+          "allan-sandler-s-vandenberg-atlas-rocket-disc-footage-1970",
+          "orange-orb-lands-near-an-open-minot-missile-silo-1966",
+          "fox-s-vision-of-tim-coleman-keying-his-car-1990",
+          "buzz-aldrin-chased-a-disc-in-a-military-jet-1950",
+          "eglin-afb-diamond-formation-of-orbs-gaetz-denied-access-to-c-2023",
+          "remote-viewing-used-to-trade-silver-futures",
+          "project-blue-book-and-the-pentagon-report-contradict-each-ot-1952"
+        ],
+        "id": "chuck-clark-s-road-trip-tape-of-a-wobbling-orange-disc-1995"
+      }
+    },
+    {
+      "title": "Feds ransack Chuck Clark's place",
+      "story_kind": "testimony",
+      "years_text": "1990s",
+      "years": {
+        "from": 1990,
+        "to": 1999
+      },
+      "place_text": "Rachel, Nevada",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "his place was was ransacked by the by the feds",
+      "from_s": 10353.0,
+      "to_s": 10359.0,
+      "cites": [
+        "George Knapp",
+        "Chuck Clark"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about federal agents ransacking Chuck Clark's home in Rachel. The closest story is Chuck Clark's 1995 videotape of an orange disc. That story involves the same person and place, but it is a different event: a sighting, not a raid.",
+        "difference": "",
+        "against": [
+          "chuck-clark-s-road-trip-tape-of-a-wobbling-orange-disc-1995",
+          "buzz-aldrin-cancels-his-interview-in-monte-carlo-1997",
+          "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996",
+          "fox-s-vision-of-tim-coleman-keying-his-car-1990",
+          "fox-sends-out-of-the-blue-to-all-535-members-of-congress-2000",
+          "night-meeting-with-military-x-about-the-varginha-operation-1996",
+          "russian-admiral-the-phenomenon-s-reality-isn-t-in-question-1990",
+          "photo-from-scotland-shown-in-fox-s-film"
+        ],
+        "id": "feds-ransack-chuck-clark-s-place-1990"
+      }
+    },
+    {
+      "title": "Logan Paul offers Chuck Clark $100,000 for the tape",
+      "story_kind": "testimony",
+      "years_text": "c. 2022",
+      "years": {
+        "from": 2022,
+        "to": 2022
+      },
+      "place_text": "Remote Arizona",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "he offered him 100 Grand but he wouldn't",
+      "from_s": 10281.0,
+      "to_s": 10283.0,
+      "cites": [
+        "Logan Paul",
+        "Chuck Clark"
+      ],
+      "documents": [
+        "Chuck Clark VHS tape"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is Chuck Clark's 1995 tape of an orange disc near Rachel, Nevada. This telling is a separate, later event: around 2022, Logan Paul offered Clark $100,000 for that tape and Clark refused. It mentions the tape but is not the sighting itself.",
+        "difference": "",
+        "against": [
+          "chuck-clark-s-road-trip-tape-of-a-wobbling-orange-disc-1995",
+          "feds-ransack-chuck-clark-s-place-1990",
+          "hoover-handwritten-note-army-grabbed-recovered-disc-1947",
+          "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996",
+          "air-force-disinformation-drives-paul-bennewitz-crazy-1979",
+          "ingo-swann-affects-shielded-quark-detector-at-sri-1970",
+          "congressman-on-progress-of-reverse-engineering-programs-and",
+          "controller-reports-objects-descending-from-above-80-000-feet-2004"
+        ],
+        "id": "logan-paul-offers-chuck-clark-100-000-for-the-tape-2022"
+      }
+    },
+    {
+      "title": "TV producer's master tape lost on his death",
+      "story_kind": "testimony",
+      "years_text": "1995; c. 2020s",
+      "years": {
+        "from": 1995,
+        "to": 2029
+      },
+      "place_text": "Los Angeles",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "the guy that gave it to Chuck Clark was a TV producer in Los Angeles",
+      "from_s": 10409.0,
+      "to_s": 10416.0,
+      "cites": [
+        "Chuck Clark"
+      ],
+      "documents": [
+        "Beta SP master tape"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is Chuck Clark's 1995 tape of the wobbling orange disc, which is about the sighting on the footage. This telling is a separate event: a Los Angeles TV producer, who gave Clark the tape, died and his Beta SP master was lost.",
+        "difference": "",
+        "against": [
+          "logan-paul-offers-chuck-clark-100-000-for-the-tape-2022",
+          "chuck-clark-s-road-trip-tape-of-a-wobbling-orange-disc-1995",
+          "ariel-school-witnesses-reunite-in-los-angeles-2013",
+          "feds-ransack-chuck-clark-s-place-1990",
+          "fbi-image-cheapening-of-jean-seberg-1970",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "fox-sends-out-of-the-blue-to-all-535-members-of-congress-2000",
+          "jacobs-gives-kirkpatrick-his-case-and-is-dismissed-2023"
+        ],
+        "id": "tv-producer-s-master-tape-lost-on-his-death-1995"
+      }
+    },
+    {
+      "title": "Little A'Le'Inn: we made a digital copy",
+      "story_kind": "testimony",
+      "years_text": "2023",
+      "years": {
+        "from": 2023,
+        "to": 2023
+      },
+      "place_text": "Rachel, Nevada",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "she was like you think we're that stupid you don't think we would have made a digital copy",
+      "from_s": 10490.0,
+      "to_s": 10497.0,
+      "cites": [],
+      "documents": [
+        "Chuck Clark VHS tape"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about James Fox at the Little A'Le'Inn in Rachel, Nevada in 2023, being told a digital copy had been made of Chuck Clark's VHS tape. None of the stories covers this. The nearest one, about Lazar's memory-lapse drink near Area 51, is a different event with different people.",
+        "difference": "",
+        "against": [
+          "lazar-s-account-to-vallee-of-a-drink-causing-memory-lapses-1989",
+          "roswell-witnesses-describe-threats-made-in-1947",
+          "vallee-s-study-of-small-ufo-religions-1970",
+          "antonio-villas-boas-has-intercourse-with-a-humanlike-woman-1957",
+          "shamans-accounts-of-little-men-out-of-a-big-light-passport-t",
+          "voice-in-masters-head-behind-morton-hall-at-ohio-university",
+          "insiders-say-there-will-be-proof-we-re-not-alone-by-2030-2024",
+          "jacobs-gives-kirkpatrick-his-case-and-is-dismissed-2023"
+        ],
+        "id": "little-a-le-inn-we-made-a-digital-copy-2023"
+      }
+    },
+    {
+      "title": "Gary McKinnon finds a list of off-planet officers",
+      "story_kind": "document",
+      "years_text": "2001-2002",
+      "years": {
+        "from": 2001,
+        "to": 2002
+      },
+      "place_text": "US military databases (hacked from the UK)",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "a page comes up and it's this list of 11 or 12 off Planet officers",
+      "from_s": 10800.0,
+      "to_s": 10810.0,
+      "cites": [
+        "Gary McKinnon"
+      ],
+      "documents": [
+        "The Program"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is Gary McKinnon hacking US military databases and finding a list of off-planet officers. None of the stories is about McKinnon. The nearest ones are other documents, such as Vallee's Battelle letter and Nolan's CIA file, which involve different people, times and records.",
+        "difference": "",
+        "against": [
+          "gary-nolan-s-cia-file-on-ufo-experiencers-and-havana-syndrom-2010",
+          "nine-page-pentagon-uap-report-2021",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew",
+          "garry-nolan-s-childhood-bedside-visitors",
+          "schumer-s-64-page-uap-amendment-2023",
+          "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950",
+          "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+          "army-officers-visiting-the-utah-ranch-followed-home-by-pheno-1990"
+        ],
+        "id": "gary-mckinnon-finds-a-list-of-off-planet-officers-2001"
+      }
+    },
+    {
+      "title": "Varginha UFO crash in Brazil",
+      "story_kind": "crash-retrieval",
+      "years_text": "1996",
+      "years": {
+        "from": 1996,
+        "to": 1996
+      },
+      "place_text": "Varginha, Brazil",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "God and that was 96 MH that's when the UFO crashed in Brazil",
+      "from_s": 10946.0,
+      "to_s": 10952.0,
+      "cites": [
+        "Gary McKinnon"
+      ],
+      "documents": [
+        "Moment of Contact"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "fox-s-investigation-of-the-varginha-crash-1996",
+        "grain": "same",
+        "reason": "The telling and the story are both James Fox's account of the 1996 UFO crash at Varginha, Brazil. The story is framed through his investigation of that crash, while the telling only mentions the crash in passing.",
+        "difference": "This telling is a passing reference made in a conversation tied to Gary McKinnon, and it cites the film Moment of Contact. It does not describe the five trips over 12 years or credit Tim Coleman.",
+        "against": [
+          "night-meeting-with-military-x-about-the-varginha-operation-1996",
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "building-owner-s-scientist-boyfriend-told-her-of-a-new-mexic-1950",
+          "footage-of-the-varginha-alien-transport-and-hospital-1996",
+          "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996",
+          "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996",
+          "oppenheimer-on-the-aztec-crash-retrieval-team-1948",
+          "the-1952-hottel-memo-on-a-crashed-ufo-with-alien-crew"
+        ]
+      }
+    },
+    {
+      "title": "Nonhuman in military dress at Nellis",
+      "story_kind": "encounter",
+      "years_text": "1994",
+      "years": {
+        "from": 1994,
+        "to": 1994
+      },
+      "place_text": "Nellis Air Force Base, Nevada",
+      "teller": "James Fox",
+      "kind": "researcher",
+      "quote": "alleged encounter at Nellis in '94 with a guy dressed in you know military outfit that clearly according to him did not appear to be human",
+      "from_s": 11044.0,
+      "to_s": 11058.0,
+      "cites": [],
+      "documents": [
+        "The Program"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "nellis-range-face-to-face-encounter-1994",
+        "grain": "same",
+        "reason": "Both are James Fox's telling of the 1994 face-to-face encounter at Nellis in Nevada. This telling describes the being as dressed in military clothing and not appearing human.",
+        "difference": "This telling describes the being as wearing a military outfit and not appearing human, and points to The Program as the source. It does not credit Jason Sands or give the month of August.",
+        "against": [
+          "nellis-range-face-to-face-encounter-1994",
+          "spielberg-tells-robert-liefeld-ufos-may-be-humans-from-the-f-1993",
+          "northwest-airlines-pilot-s-telepathic-encounter",
+          "eric-lopes-and-the-second-capture-of-a-live-creature-1996",
+          "buzz-aldrin-chased-a-disc-in-a-military-jet-1950",
+          "military-base-calls-a-witness-after-the-fox-interview-2021",
+          "project-blue-book-and-the-pentagon-report-contradict-each-ot-1952",
+          "footage-of-the-varginha-alien-transport-and-hospital-1996"
+        ]
+      }
+    },
+    {
+      "title": "Haim Eshed and the Galactic Federation",
+      "story_kind": "cosmology",
+      "years_text": "c. 2020",
+      "years": {
+        "from": 2020,
+        "to": 2020
+      },
+      "place_text": "Israel / Mars",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "you know High mesed you know who's head of the Israeli space force",
+      "from_s": 11104.0,
+      "to_s": 11109.0,
+      "cites": [
+        "Haim Eshed"
+      ],
+      "documents": [
+        "Haim Eshed biography"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "None of the stories in the corpus are about Haim Eshed's 2020 claims of a Galactic Federation. The closest ones are other secondhand testimonies Jesse Michels relays, such as Garry Nolan's bedside visitors, but those are different people making different claims.",
+        "difference": "",
+        "against": [
+          "vandenberg-ufo-takes-down-dummy-warhead-1964",
+          "twining-memo-and-its-postscript-on-independent-programs-1947",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "garry-nolan-s-childhood-bedside-visitors",
+          "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960",
+          "penniston-s-career-stalled-after-rendlesham-1980",
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "looking-for-city-lights-on-proxima-b-2021"
+        ],
+        "id": "haim-eshed-and-the-galactic-federation-2020"
+      }
+    },
+    {
+      "title": "Phoenix Lights boomerang over the hospice workers",
+      "story_kind": "sighting",
+      "years_text": "March 13, 1997",
+      "years": {
+        "from": 1997,
+        "to": 1997
+      },
+      "place_text": "Arizona",
+      "teller": "James Fox",
+      "kind": "firsthand",
+      "quote": "interviewed some hospice workers in the 90s that had that huge uh Boomerang shaped craft that we talked about earlier in March 13th 1997",
+      "from_s": 11161.0,
+      "to_s": 11173.0,
+      "cites": [
+        "Fife Symington"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Fox interviewing hospice workers who saw the boomerang-shaped craft on March 13, 1997. The nearest stories are also about the Phoenix Lights, but one is Fox breaking Governor Fife Symington's story and the other is Kurt Russell's sighting from his plane. Those are different witnesses and different accounts, so this is not the same story.",
+        "difference": "",
+        "against": [
+          "fox-breaks-the-fife-symington-phoenix-lights-story-1997",
+          "kurt-russell-saw-the-phoenix-lights-while-flying-1997",
+          "chuck-clark-s-road-trip-tape-of-a-wobbling-orange-disc-1995",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "cranial-modification-told-to-have-been-ordered-by-the-gods-1995",
+          "fox-interviewed-all-three-rendlesham-witnesses-1980",
+          "senate-armed-services-staff-on-admiral-wilson",
+          "eglin-afb-diamond-formation-of-orbs-gaetz-denied-access-to-c-2023"
+        ],
+        "id": "phoenix-lights-boomerang-over-the-hospice-workers-1997"
+      }
+    },
+    {
+      "title": "Five witnesses watch a huge craft pass overhead for five minutes and do nothing",
+      "story_kind": "sighting",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "so all five of\nyou stood here you know sat here looking\nup at this thing as it passed overhead\nand you say it took like five minutes\nthat's how big it was",
+      "from_s": 11220.0,
+      "to_s": 11232.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "phoenix-lights-boomerang-over-the-hospice-workers-1997",
+        "grain": "same",
+        "reason": "Both have James Fox recounting a group of witnesses he interviewed who watched a huge craft pass slowly overhead. That matches his account of the hospice workers who saw the Phoenix Lights boomerang. The telling gives no place or date, so this match is inferred from the matching details and is not certain.",
+        "difference": "This telling adds that there were five witnesses, that the craft took about five minutes to pass overhead because of its size, and that they did nothing while it passed. It gives no date, place or boomerang shape.",
+        "against": [
+          "phoenix-lights-boomerang-over-the-hospice-workers-1997",
+          "fox-s-investigation-of-the-varginha-crash-1996",
+          "corporal-armando-vanishes-for-15-minutes-but-lives-5-days-1970",
+          "custody-of-the-trinity-craft-passed-through-manhattan-projec-1945",
+          "larry-king-live-with-buzz-aldrin-and-somebody-s-gotten-to-hi-2007",
+          "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "tic-tac-flir-video-2004"
+        ]
+      }
+    },
+    {
+      "title": "Head of Israel's space force equivalent makes public statements",
+      "story_kind": "testimony",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Israel",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "he's head of the Israel\nequivalent of space force okay which is\nan extremely important position",
+      "from_s": 11283.0,
+      "to_s": 11291.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "haim-eshed-and-the-galactic-federation-2020",
+        "grain": "same",
+        "reason": "Both tellings are about the head of Israel's space program (Haim Eshed) making public statements. That is the 2020 Galactic Federation story.",
+        "difference": "James Fox doesn't name Eshed, give a year or mention the Galactic Federation. He stresses only how important the position is, calling it the Israeli equivalent of a space force.",
+        "against": [
+          "haim-eshed-and-the-galactic-federation-2020",
+          "vandenberg-ufo-takes-down-dummy-warhead-1964",
+          "ingo-swann-s-thermistor-experiments-at-city-college-1970",
+          "twining-memo-and-its-postscript-on-independent-programs-1947",
+          "fox-s-vision-of-tim-coleman-keying-his-car-1990",
+          "atomic-energy-act-s-special-nuclear-material-covers-crash-ma-1954",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster"
+        ]
+      }
+    },
+    {
+      "title": "David Grusch comes forward at great personal sacrifice",
+      "story_kind": "testimony",
+      "years_text": "2023",
+      "years": {
+        "from": 2023,
+        "to": 2023
+      },
+      "place_text": "United States",
+      "teller": "James Fox",
+      "kind": "secondhand",
+      "quote": "David came forward like he put in his\ncredibility he lost his position like he\nat Great sa at Great personal sacrifice\nhe came forward",
+      "from_s": 11330.0,
+      "to_s": 11340.0,
+      "cites": [
+        "David Grusch"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling is about Grusch's decision to go public in general and what it cost him (his credibility, his position). The nearest story, Grusch filing his IG complaint and naming witnesses, is one specific step in that process. None of the stories is about the personal cost of his whistleblowing.",
+        "difference": "",
+        "against": [
+          "grusch-testimony-some-craft-were-gifted-2023",
+          "non-human-biologics-recovered-with-crashed-craft",
+          "agencies-deny-grusch-access-to-programs-2019",
+          "colleagues-close-the-door-and-reveal-hidden-programs-2019",
+          "congress-denied-a-scif-for-grusch-s-classified-briefing-2023",
+          "grusch-files-ig-complaint-and-names-witnesses-2022",
+          "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996",
+          "briefing-on-engineered-isotopic-ratios-of-recovered-craft-2019"
+        ],
+        "id": "david-grusch-comes-forward-at-great-personal-sacrifice-2023"
+      }
+    },
+    {
+      "title": "Leslie Kean publishes the Grusch article in The Debrief after the New York Times passes",
+      "story_kind": "document",
+      "years_text": "2023",
+      "years": {
+        "from": 2023,
+        "to": 2023
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "Leslie Kane published the initial\narticle that prompted the whole thing\nbut she had to do it in the debrief\nbecause Julian Barnes",
+      "from_s": 11374.0,
+      "to_s": 11383.0,
+      "cites": [
+        "Leslie Kean",
+        "Julian Barnes",
+        "David Grusch"
+      ],
+      "documents": [
+        "The Debrief article on David Grusch"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This telling is about The Debrief publishing the first Grusch article after the New York Times passed on it. The closest stories are Grusch's IG complaint (2022) and his congressional testimony (2023). Those are different events in the Grusch saga, not the story of how the article got published.",
+        "difference": "",
+        "against": [
+          "chinese-uap-task-force-reported-in-south-china-morning-post-2021",
+          "chinese-journal-of-ufo-research-tacitly-endorsed-by-ccp-1997",
+          "three-body-problem-as-chinese-soft-disclosure",
+          "2007-national-press-club-event-with-international-officials",
+          "ingo-swann-s-thermistor-experiments-at-city-college-1970",
+          "grusch-files-ig-complaint-and-names-witnesses-2022",
+          "grusch-testifies-before-congress-2023",
+          "grusch-testimony-some-craft-were-gifted-2023"
+        ],
+        "id": "leslie-kean-publishes-the-grusch-article-in-the-debrief-afte-2023"
+      }
+    },
+    {
+      "title": "Leslie Kean's 2017 New York Times UFO story",
+      "story_kind": "document",
+      "years_text": "2017",
+      "years": {
+        "from": 2017,
+        "to": 2017
+      },
+      "place_text": "United States",
+      "teller": "James Fox",
+      "kind": "host",
+      "quote": "it was her biggest\nstory in 2017 right wasn't the most\npopular stories they've ever published",
+      "from_s": 11388.0,
+      "to_s": 11394.0,
+      "cites": [
+        "Leslie Kean"
+      ],
+      "documents": [
+        "2017 New York Times UFO article"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Leslie Kean's 2017 New York Times UFO article. The closest story is her 2023 Grusch article in The Debrief, which she published there after the Times passed on it. That is a different publication in a different year. The 2017 Tic Tac story concerns the Pentagon videos, not the Times article.",
+        "difference": "",
+        "against": [
+          "leslie-kean-publishes-the-grusch-article-in-the-debrief-afte-2023",
+          "three-body-problem-as-chinese-soft-disclosure",
+          "2007-national-press-club-event-with-international-officials",
+          "ingo-swann-s-thermistor-experiments-at-city-college-1970",
+          "fbi-image-cheapening-of-jean-seberg-1970",
+          "chinese-journal-of-ufo-research-tacitly-endorsed-by-ccp-1997",
+          "ufo-obsessed-japanese-town-near-fukushima-2011",
+          "tic-tac-videos-seen-in-the-pentagon-before-release-better-vi-2017"
+        ],
+        "id": "leslie-kean-s-2017-new-york-times-ufo-story"
+      }
+    }
+  ],
+  "dropped": []
+}

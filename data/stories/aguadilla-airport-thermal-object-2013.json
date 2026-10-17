@@ -1,0 +1,84 @@
+{
+  "id": "aguadilla-airport-thermal-object-2013",
+  "title": "Aguadilla airport thermal object",
+  "summary": "Mick West tells of Aguadilla airport thermal object, about 2013 at Aguadilla, Puerto Rico, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2013,
+    "to": 2013
+  },
+  "place": "aguadilla-pr",
+  "place_text": "Aguadilla, Puerto Rico",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 10375.0,
+      "to_s": 10381.0,
+      "teller": "mick-west",
+      "quote": "This is this is over the airport uh at Daguidia, big tourist destination.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 1819.0,
+      "to_s": 1832.0,
+      "teller": "jesse-michels",
+      "quote": "2013, I believe in Auadilla, you have this uh in Puerto Rico, you have this uh, you know, 3inute video of a trans medium object, an object that seems to descend into the Atlantic Ocean and then come out as well.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "aguadilla-video"
+      ],
+      "difference": "Michels calls it a transmedium object about 3 minutes long that goes into the Atlantic and comes back out. He gives no thermal or mundane reading.",
+      "link_reason": "Same 2013 Aguadilla, Puerto Rico video of an object over the airport area that seems to go into the ocean and come back out.",
+      "as_told": {
+        "title": "Aguadilla transmedium object video",
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "place_text": "Aguadilla, Puerto Rico",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "aaro-resolution-of-aguadilla-video-2013",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

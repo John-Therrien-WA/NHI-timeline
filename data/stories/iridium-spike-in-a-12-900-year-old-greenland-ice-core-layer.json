@@ -1,0 +1,70 @@
+{
+  "id": "iridium-spike-in-a-12-900-year-old-greenland-ice-core-layer",
+  "title": "Iridium spike in a 12,900-year-old Greenland ice core layer",
+  "summary": "Randall Carlson tells of Iridium spike in a 12,900-year-old Greenland ice core layer, about 12,900 years ago at Greenland, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Greenland",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 11151.0,
+      "to_s": 11167.0,
+      "teller": "randall-carlson",
+      "quote": "excavate a core ice core from Greenland and then you discover that there is a 12,900year layer of glacial ice that has a spike of aridium in it hundreds of times greater than the background.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 3620.0,
+      "to_s": 3624.0,
+      "teller": "joe-rogan",
+      "quote": "they've got core samples that show a large amount of aridium.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told second hand by Joe Rogan, who does not say Greenland, give the 12,900-year date or say how large the spike is.",
+      "link_reason": "Both say core samples from the Younger Dryas boundary show a large spike of iridium.",
+      "as_told": {
+        "title": "Younger Dryas impact and core-sample iridium",
+        "years": null,
+        "place_text": "Earth",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan",
+      "randall-carlson"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several"
+}

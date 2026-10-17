@@ -1,0 +1,74 @@
+{
+  "id": "presocratic-cave-rituals",
+  "title": "Presocratic cave rituals",
+  "summary": "Jesse Michels tells of Presocratic cave rituals, about ancient Greece (pre-Socratic) at caves, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "ancient-greece",
+  "place_text": "caves",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 3153.0,
+      "to_s": 3159.0,
+      "teller": "jesse-michels",
+      "quote": "there were caving rituals. There are prescratic caving rituals. A guy named Peter Kingsley writes about this",
+      "kind": "host",
+      "cites": [
+        "peter-kingsley"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 6457.0,
+      "to_s": 6463.0,
+      "teller": "jesse-michels",
+      "quote": "Peter Kingsley writes about prescratic rituals even before the Elusinian mystery rituals",
+      "kind": "host",
+      "cites": [
+        "peter-kingsley",
+        "martin-heidegger"
+      ],
+      "documents": [],
+      "difference": "Calls the rituals sensory deprivation, says they came before Eleusis and adds Heidegger as a credit.",
+      "link_reason": "Same presocratic ritual practice described by Peter Kingsley, which the story calls caving rituals.",
+      "as_told": {
+        "title": "Presocratic sensory deprivation rituals",
+        "years": null,
+        "place_text": "Ancient Greece",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8XD1ZiuhXoY",
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

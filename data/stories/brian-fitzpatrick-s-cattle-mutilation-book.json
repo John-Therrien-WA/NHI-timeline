@@ -1,0 +1,54 @@
+{
+  "id": "brian-fitzpatrick-s-cattle-mutilation-book",
+  "title": "Brian Fitzpatrick's cattle mutilation book",
+  "summary": "Tim Gallaudet tells of Brian Fitzpatrick's cattle mutilation book, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 1959.0,
+      "to_s": 1967.0,
+      "teller": "tim-gallaudet",
+      "quote": "And it's it's an astonishing book. I it's the I think it's the biggest reveal about cattle mutilations out there.",
+      "kind": "secondhand",
+      "cites": [
+        "brian-fitzpatrick"
+      ],
+      "documents": [
+        "the-operator"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "tim-gallaudet"
+    ],
+    "episodes": [
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

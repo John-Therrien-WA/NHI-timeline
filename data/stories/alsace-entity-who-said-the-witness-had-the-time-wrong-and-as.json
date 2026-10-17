@@ -1,0 +1,50 @@
+{
+  "id": "alsace-entity-who-said-the-witness-had-the-time-wrong-and-as",
+  "title": "Alsace entity who said the witness had the time wrong and asked if this was Italy or Germany",
+  "summary": "Jacques Vallee tells of Alsace entity who said the witness had the time wrong and asked if this was Italy or Germany, about unspecified at Alsace, France, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Alsace, France",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 2152.0,
+      "to_s": 2159.0,
+      "teller": "jacques-vallee",
+      "quote": "right then he says am I in Italy or Germany witness says you're in alzace",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jacques-vallee"
+    ],
+    "episodes": [
+      "fyX8V1XXmQM"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

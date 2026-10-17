@@ -1,0 +1,92 @@
+{
+  "id": "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996",
+  "title": "Roger Leir's tapes and book: doctors' telepathy with the Varginha alien",
+  "summary": "James Fox tells of Roger Leir's tapes and book: doctors' telepathy with the Varginha alien, about 1996 at Varginha, Brazil, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 3478.0,
+      "to_s": 3483.0,
+      "teller": "james-fox",
+      "quote": "he describes a meeting with these two doctors at a hospital",
+      "kind": "researcher",
+      "cites": [
+        "roger-leir",
+        "ubirajara-rodrigues"
+      ],
+      "documents": [
+        "roger-leir-tapes",
+        "roger-leir-book-on-the-varginha-case"
+      ]
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 3779.0,
+      "to_s": 3790.0,
+      "teller": "james-fox",
+      "quote": "one section that wasn't in the tapes that was in the book and that was he met with two doctors from humanitas hospital and they talk about a creature",
+      "kind": "researcher",
+      "cites": [
+        "roger-leir"
+      ],
+      "documents": [
+        "roger-leir-s-book-on-varginha",
+        "roger-leir-tapes"
+      ],
+      "difference": "Names Humanitas Hospital and says this section appears in the book but not in the tapes.",
+      "link_reason": "Both tell of Roger Leir's tapes and book describing a meeting with two hospital doctors who had contact with the Varginha being.",
+      "as_told": {
+        "title": "Roger Leir's book: Humanitas doctors' contact with a being",
+        "years": {
+          "from": 1996,
+          "to": 2013
+        },
+        "place_text": "Humanitas Hospital, Varginha, Brazil",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "alleged-photograph-of-one-live-and-one-dead-creature-held-by-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

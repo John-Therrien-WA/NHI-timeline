@@ -1,0 +1,55 @@
+{
+  "id": "whitley-strieber-s-abduction-books-and-films-1980",
+  "title": "Whitley Strieber's abduction books and films",
+  "summary": "Joe Rogan tells of Whitley Strieber's abduction books and films, about 1980s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 1583.0,
+      "to_s": 1591.0,
+      "teller": "joe-rogan",
+      "quote": "he's this guy who made these movies and books about being abducted by aliens.",
+      "kind": "secondhand",
+      "cites": [
+        "whitley-strieber"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

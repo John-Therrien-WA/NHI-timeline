@@ -1,0 +1,113 @@
+{
+  "id": "randy-anderson-taken-to-an-underground-facility-at-crane",
+  "title": "Randy Anderson taken to an underground facility at Crane",
+  "summary": "Jesse Michels tells of Randy Anderson taken to an underground facility at Crane, about unspecified at Crane, Indiana, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Crane, Indiana",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 3566.0,
+      "to_s": 3575.0,
+      "teller": "jesse-michels",
+      "quote": "like Randy Anderson who I've interviewed who you know said he was taken down to an underground facility you know at Crane Indiana",
+      "kind": "host",
+      "cites": [
+        "randy-anderson"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 306.0,
+      "to_s": 318.0,
+      "teller": "jesse-michels",
+      "quote": "And then Randy Anderson is this guy who was taken underground, you know, at um Crane Naval Surface Warfare Crane, and was possibly shown some off-world technology.",
+      "kind": "secondhand",
+      "cites": [
+        "randy-anderson"
+      ],
+      "documents": [],
+      "difference": "Adds that he was possibly shown off-world technology there and names the site as Naval Surface Warfare Center Crane.",
+      "link_reason": "Both tell of Randy Anderson being taken to an underground facility at Crane, Indiana, as told by Jesse Michels.",
+      "as_told": {
+        "title": "Randy Anderson taken underground at Crane and shown off-world technology",
+        "years": null,
+        "place_text": "Naval Surface Warfare Center Crane, Indiana",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 6335.0,
+      "to_s": 6347.0,
+      "teller": "jesse-michels",
+      "quote": "then we did a show with later is Randy Anderson talks about being at uh Naval Service Warfare Crane he's taken down in some elevator goes deep below you know the ground",
+      "kind": "secondhand",
+      "cites": [
+        "randy-anderson"
+      ],
+      "documents": [],
+      "difference": "Adds that he went down by elevator, deep below ground, and names the Off-World Technologies Division.",
+      "link_reason": "Same account: Randy Anderson taken underground at NSWC Crane and possibly shown off-world technology.",
+      "as_told": {
+        "title": "Randy Anderson taken below NSWC Crane to the Off-World Technologies Division",
+        "years": null,
+        "place_text": "Naval Surface Warfare Center Crane, Indiana",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 2852.0,
+      "to_s": 2856.0,
+      "teller": "randy-anderson",
+      "quote": "I'm looking at it and it and it almost looked like a mirage type of effect.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand, and names the object as a gauntlet with holographic symbols that looked like a mirage.",
+      "link_reason": "Anderson's own account of what he was shown underground at Crane is the same visit as the story of him being taken to the underground facility there and shown possible off-world technology.",
+      "as_told": {
+        "title": "Gauntlet with holographic symbols underground at Crane",
+        "years": null,
+        "place_text": "Crane Naval Surface Warfare Center, Indiana",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "randy-anderson"
+    ],
+    "episodes": [
+      "OOr98r51Sj0",
+      "V00WcEiKRAY",
+      "areO7Mej44E",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

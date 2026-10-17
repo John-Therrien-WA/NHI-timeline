@@ -1,0 +1,108 @@
+{
+  "id": "rfk-jr-says-thane-eugene-cesar-killed-his-father-1968",
+  "title": "RFK Jr. says Thane Eugene Cesar killed his father",
+  "summary": "Jesse Michels tells of RFK Jr. says Thane Eugene Cesar killed his father, about 1968 at Los Angeles, US, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1968
+  },
+  "place": null,
+  "place_text": "Los Angeles, US",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 5528.0,
+      "to_s": 5537.0,
+      "teller": "jesse-michels",
+      "quote": "says that his father was not killed by Sir Hans Sirhan but by this guy Eugene Thain Caesar who I believe was a skunk works security guard or something.",
+      "kind": "host",
+      "cites": [
+        "robert-f-kennedy-jr",
+        "thane-eugene-cesar"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 10855.0,
+      "to_s": 10867.0,
+      "teller": "jesse-michels",
+      "quote": "you talk to RFK Jr. He'll say my dad was not shot by him. He was shot by or he was shot by him but from the back he was also shot by kind of Eugene Thane Cer who was then a skunk work security guard",
+      "kind": "secondhand",
+      "cites": [
+        "rfk-jr",
+        "thane-eugene-cesar",
+        "bob-maheu",
+        "howard-hughes"
+      ],
+      "documents": [],
+      "difference": "Here Sirhan may also have fired but Cesar shot from behind, where the story says Sirhan did not kill him; this telling also brings in Bob Maheu and Howard Hughes.",
+      "link_reason": "Both tell RFK Jr.'s claim that Thane Eugene Cesar, described as a Skunk Works security guard, shot his father in Los Angeles in 1968.",
+      "as_told": {
+        "title": "RFK assassination: Thane Eugene Cesar and Bob Maheu",
+        "years": {
+          "from": 1968,
+          "to": 1968
+        },
+        "place_text": "Los Angeles",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 3393.0,
+      "to_s": 3397.0,
+      "teller": "jesse-michels",
+      "quote": "actually shot from the back and not from the front.",
+      "kind": "host",
+      "cites": [
+        "rfk-jr",
+        "william-jennings-bryan"
+      ],
+      "documents": [],
+      "difference": "Does not name Thane Eugene Cesar and also credits William Jennings Bryan.",
+      "link_reason": "Same theory, credited to RFK Jr.: Robert Kennedy was shot from behind by a second gunman in Los Angeles in 1968.",
+      "as_told": {
+        "title": "RFK shot from behind by a second gunman",
+        "years": {
+          "from": 1968,
+          "to": 1968
+        },
+        "place_text": "Los Angeles",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "EzPmG_7WhXc",
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

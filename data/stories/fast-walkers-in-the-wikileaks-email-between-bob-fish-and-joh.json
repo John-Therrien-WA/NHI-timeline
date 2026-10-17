@@ -1,0 +1,161 @@
+{
+  "id": "fast-walkers-in-the-wikileaks-email-between-bob-fish-and-joh",
+  "title": "Fast walkers in the Wikileaks email between Bob Fish and John Podesta",
+  "summary": "Jesse Michels tells of Fast walkers in the Wikileaks email between Bob Fish and John Podesta, about an unknown time at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "DPmO-2E7Ayg",
+      "from_s": 1035.0,
+      "to_s": 1044.0,
+      "teller": "jesse-michels",
+      "quote": "fast Walkers was mentioned in the Wikileaks email between an aerospace contractor named Bob Fish and John podesta",
+      "kind": "host",
+      "cites": [
+        "bob-fish",
+        "john-podesta"
+      ],
+      "documents": [
+        "wikileaks-email-between-bob-fish-and-john-podesta"
+      ]
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 8616.0,
+      "to_s": 8628.0,
+      "teller": "jesse-michels",
+      "quote": "And it's him uh meeting with a guy named Bob Fish, who um I think might have worked at Aerospace Corporation in Elsagundo",
+      "kind": "host",
+      "cites": [
+        "john-podesta",
+        "tom-delonge",
+        "bob-fish"
+      ],
+      "documents": [
+        "podesta-emails-wikileaks"
+      ],
+      "difference": "Adds Tom DeLonge, the 2015-2016 date and Fish's possible Aerospace Corporation job in El Segundo.",
+      "link_reason": "Both tell of the WikiLeaks Podesta emails with aerospace contractor Bob Fish that mention fast walkers.",
+      "as_told": {
+        "title": "Podesta emails with DeLonge and Bob Fish about fast walkers",
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "place_text": "El Segundo, California",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 1096.0,
+      "to_s": 1106.0,
+      "teller": "jesse-michels",
+      "quote": "even a Wikileaks email between John Podesta and an IT contractor uh there about fast walkers.",
+      "kind": "host",
+      "cites": [
+        "john-podesta"
+      ],
+      "documents": [
+        "wikileaks-podesta-email"
+      ],
+      "difference": "Calls the contractor an IT contractor and dates the email to the 2010s, without naming Bob Fish.",
+      "link_reason": "The same WikiLeaks email between John Podesta and an aerospace contractor that mentions fast walkers.",
+      "as_told": {
+        "title": "Podesta WikiLeaks email on fast walkers",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "Aerospace Corporation",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 4598.0,
+      "to_s": 4606.0,
+      "teller": "jesse-michels",
+      "quote": "there's an\nemail as well from the Wikileaks drop\n>> um that involves Podesta, John Podesta,",
+      "kind": "host",
+      "cites": [
+        "john-podesta",
+        "bob-fish"
+      ],
+      "documents": [
+        "wikileaks-podesta-emails"
+      ],
+      "difference": "Dates it to 2016 and places it at El Segundo.",
+      "link_reason": "Both tell of the WikiLeaks Podesta email with Bob Fish that mentions fast walkers.",
+      "as_told": {
+        "title": "Podesta WikiLeaks email on fast walkers",
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "place_text": "El Segundo, California",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 7882.0,
+      "to_s": 7890.0,
+      "teller": "jesse-michels",
+      "quote": "There's an email I believe leaked by Wikileaks uh between Podesta and this guy Bob Fish",
+      "kind": "host",
+      "cites": [
+        "john-podesta",
+        "bob-fish",
+        "john-greenewald"
+      ],
+      "documents": [
+        "wikileaks-podesta-email"
+      ],
+      "difference": "Also credits John Greenwald and mentions geostationary orbit.",
+      "link_reason": "The same leaked Wikileaks email between Podesta and Bob Fish about fast walkers.",
+      "as_told": {
+        "title": "Fast walkers: leaked Podesta–Bob Fish email",
+        "years": null,
+        "place_text": "El Segundo, California; geostationary orbit",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 4,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "DPmO-2E7Ayg",
+      "hBrfe4hFuM0",
+      "uVVqFg2v7ro",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "told-once"
+}

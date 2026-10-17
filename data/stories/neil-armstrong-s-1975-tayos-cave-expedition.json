@@ -1,0 +1,85 @@
+{
+  "id": "neil-armstrong-s-1975-tayos-cave-expedition",
+  "title": "Neil Armstrong's 1975 Tayos cave expedition",
+  "summary": "Jesse Michels tells of Neil Armstrong's 1975 Tayos cave expedition, about 1975 at Tayos cave, Ecuador, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1975
+  },
+  "place": null,
+  "place_text": "Tayos cave, Ecuador",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 6889.0,
+      "to_s": 6899.0,
+      "teller": "jesse-michels",
+      "quote": "In 1975, he brought a BBC film crew to explore what he thought was, you know, maybe an alien cave at the edge of the Amazon in Ecuador.",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong",
+        "erich-von-daniken"
+      ],
+      "documents": [
+        "chariots-of-the-gods"
+      ]
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 4817.0,
+      "to_s": 4824.0,
+      "teller": "jesse-michels",
+      "quote": "Neil Armstrong when he came back\nfrom the moon in 1976, he does this\nother mission at the edge of the Amazon.",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong",
+        "erich-von-daniken"
+      ],
+      "documents": [
+        "chariots-of-the-gods"
+      ],
+      "difference": "Dates it to 1976 instead of 1975 and leaves out the BBC film crew.",
+      "link_reason": "Both tell of Neil Armstrong's expedition to the Tayos cave at the edge of the Amazon in Ecuador.",
+      "as_told": {
+        "title": "Neil Armstrong's expedition to the Tayos cave",
+        "years": {
+          "from": 1976,
+          "to": 1976
+        },
+        "place_text": "Tayos cave, Ecuador",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

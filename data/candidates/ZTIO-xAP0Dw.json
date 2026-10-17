@@ -1,0 +1,92 @@
+{
+  "episode": "ZTIO-xAP0Dw",
+  "captions": "sources/captions/ZTIO-xAP0Dw.en.txt",
+  "model": "opus",
+  "chunks": 1,
+  "candidates": [
+    {
+      "title": "Nine-page Pentagon UAP report",
+      "story_kind": "document",
+      "years_text": "2021",
+      "years": {
+        "from": 2021,
+        "to": 2021
+      },
+      "place_text": "Pentagon, Washington, USA",
+      "teller": "Eric Weinstein",
+      "kind": "researcher",
+      "quote": "Nine pages came out from the Pentagon. Six of which are relevant. Three, I think, you know, it's like a a cover and a back page. I don't know what it is. And it's very clear in that report that that report was meant to be as dull as is humanly possible about the most exciting thing that you could possibly imagine, which is that either we're engaged in an incredible psychological operation coming out of the Pentagon or some people inside the Pentagon believe with near certainty that we've been contacted and observed by extra extraterrestrials uh visiting Earth.",
+      "from_s": 1638.0,
+      "to_s": 1678.0,
+      "cites": [],
+      "documents": [
+        "nine pages from the Pentagon"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "reason": "no story shares a cited name, a teller, the years, the kind or a content word",
+        "difference": "",
+        "against": [],
+        "id": "nine-page-pentagon-uap-report-2021"
+      }
+    },
+    {
+      "title": "North Sentinel Island analogy for hidden non-human observers",
+      "story_kind": "theory",
+      "years_text": "present day",
+      "years": null,
+      "place_text": "North Sentinel Island, India",
+      "teller": "Eric Weinstein",
+      "kind": "researcher",
+      "quote": "And I've given the example of North Sentinel Island where India manages North Sentinel Island but doesn't land there. And in such a circumstance, there would be a fermy paradox among the natives of North Sentinel Island.",
+      "from_s": 1753.0,
+      "to_s": 1768.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling is Weinstein's general analogy, built on North Sentinel Island, for observers who stay hidden and so create a Fermi paradox. The nearest story is the 2021 Pentagon UAP report. That is a specific document, not this theory.",
+        "difference": "",
+        "against": [
+          "nine-page-pentagon-uap-report-2021"
+        ],
+        "id": "north-sentinel-island-analogy-for-hidden-non-human-observers"
+      }
+    },
+    {
+      "title": "Lookout Mountain CIA facility in Laurel Canyon",
+      "story_kind": "place-lore",
+      "years_text": "1960s",
+      "years": {
+        "from": 1960,
+        "to": 1969
+      },
+      "place_text": "Lookout Mountain, Laurel Canyon, Los Angeles",
+      "teller": "Eric Weinstein",
+      "kind": "researcher",
+      "quote": "Um, and as you point out, Lookout Mountain is a CIA facility in Laurel Canyon and the whole history of drugs and the government and Vietnam and espionage and all this kind of stuff.",
+      "from_s": 2370.0,
+      "to_s": 2385.0,
+      "cites": [
+        "Jesse Michels"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Lookout Mountain in Laurel Canyon described as a CIA facility. Neither story matches: the nearest ones are a 2021 Pentagon report and a North Sentinel Island analogy, and they share only the teller.",
+        "difference": "",
+        "against": [
+          "nine-page-pentagon-uap-report-2021",
+          "north-sentinel-island-analogy-for-hidden-non-human-observers"
+        ],
+        "id": "lookout-mountain-cia-facility-in-laurel-canyon-1960"
+      }
+    }
+  ],
+  "dropped": []
+}

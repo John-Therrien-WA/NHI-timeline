@@ -1,0 +1,52 @@
+{
+  "id": "three-campers-frozen-and-abducted-at-a-lake",
+  "title": "Three campers frozen and abducted at a lake",
+  "summary": "Lyn Buchanan tells of Three campers frozen and abducted at a lake, about unspecified at a lake (unspecified), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "a lake (unspecified)",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 6114.0,
+      "to_s": 6130.0,
+      "teller": "lyn-buchanan",
+      "quote": "And this one um this one event that I got the record of, there were three guys camping at a lake and they it was nighttime.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "record-of-the-event-classified-study-materials"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "lyn-buchanan"
+    ],
+    "episodes": [
+      "1sxmSMzqnmA"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

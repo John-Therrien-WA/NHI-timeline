@@ -1,0 +1,56 @@
+{
+  "id": "feds-ransack-chuck-clark-s-place-1990",
+  "title": "Feds ransack Chuck Clark's place",
+  "summary": "James Fox tells of Feds ransack Chuck Clark's place, about 1990s at Rachel, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Rachel, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 10353.0,
+      "to_s": 10359.0,
+      "teller": "james-fox",
+      "quote": "his place was was ransacked by the by the feds",
+      "kind": "secondhand",
+      "cites": [
+        "george-knapp",
+        "chuck-clark"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,85 @@
+{
+  "id": "jacobo-grinberg-disappears-a-month-after-puharich-s-death-1995",
+  "title": "Jacobo Grinberg disappears a month after Puharich's death",
+  "summary": "Unnamed guest tells of Jacobo Grinberg disappears a month after Puharich's death, about 1995 at Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1995,
+    "to": 1995
+  },
+  "place": "mexico",
+  "place_text": "Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 9231.0,
+      "to_s": 9239.0,
+      "teller": "unnamed-guest",
+      "quote": "Um in '95, uh less than a month after Puharich dies, he this guy disappears, Grinberg.",
+      "kind": "researcher",
+      "cites": [
+        "jacobo-grinberg",
+        "ida"
+      ],
+      "documents": [
+        "documentary-film-about-grinberg"
+      ]
+    },
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 3113.0,
+      "to_s": 3121.0,
+      "teller": "jesse-michels",
+      "quote": "and you know he goes missing and I think the last note he writes is about how he figured it out or whatever and and then he's never sort of found again.",
+      "kind": "host",
+      "cites": [
+        "jacobo-grinberg",
+        "alex-gomez-marin",
+        "andrija-puharich"
+      ],
+      "documents": [],
+      "difference": "Dated 1994 rather than 1995. It adds that his last note said he had figured it out, and credits Alex Gomez-Marin.",
+      "link_reason": "Both tell of Jacobo Grinberg disappearing in the 1990s, and both tie it to Puharich.",
+      "as_told": {
+        "title": "Jacobo Grinberg vanishes after saying he figured it out",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "not stated",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

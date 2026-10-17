@@ -1,0 +1,57 @@
+{
+  "id": "project-sign-estimate-burned-by-vandenberg-1948",
+  "title": "Project Sign Estimate burned by Vandenberg",
+  "summary": "Jesse Michels tells of Project Sign Estimate burned by Vandenberg, about 1948-1949 at Wright Field, Ohio, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Wright Field, Ohio",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 9225.0,
+      "to_s": 9234.0,
+      "teller": "jesse-michels",
+      "quote": "in 1949 sign Personnel wrote a top secret report concluding UFOs were extraterrestrial craft",
+      "kind": "host",
+      "cites": [
+        "hoyt-vandenberg"
+      ],
+      "documents": [
+        "project-sign-estimate-of-the-situation"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

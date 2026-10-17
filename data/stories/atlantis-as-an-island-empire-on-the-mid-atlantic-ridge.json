@@ -1,0 +1,75 @@
+{
+  "id": "atlantis-as-an-island-empire-on-the-mid-atlantic-ridge",
+  "title": "Atlantis as an island empire on the Mid-Atlantic Ridge",
+  "summary": "Randall Carlson tells of Atlantis as an island empire on the Mid-Atlantic Ridge, about ice age at The Atlantic Ocean, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "atlantic-ocean",
+  "place_text": "Mid-Atlantic Ridge / Azores",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 8870.0,
+      "to_s": 8890.0,
+      "teller": "randall-carlson",
+      "quote": "If we take Plato's account as being legitimate to some extent, he's describing an a midatlantic island-based empire with sophisticated maritime and navigational skills.",
+      "kind": "researcher",
+      "cites": [
+        "plato"
+      ],
+      "documents": [
+        "atlantis-lecture"
+      ]
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 3463.0,
+      "to_s": 3467.0,
+      "teller": "jesse-michels",
+      "quote": "I think the Azors is interesting.",
+      "kind": "host",
+      "cites": [
+        "randall-carlson"
+      ],
+      "documents": [],
+      "difference": "Told by Michels as host, crediting Carlson, with no detail on the empire.",
+      "link_reason": "Same theory that Atlantis lay in the Azores on the Mid-Atlantic Ridge, credited to Randall Carlson.",
+      "as_told": {
+        "title": "Atlantis placed in the Azores",
+        "years": null,
+        "place_text": "Azores",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "randall-carlson"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw",
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

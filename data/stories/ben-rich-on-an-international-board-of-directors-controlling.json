@@ -1,0 +1,105 @@
+{
+  "id": "ben-rich-on-an-international-board-of-directors-controlling",
+  "title": "Ben Rich on an international board of directors controlling the UFO topic",
+  "summary": "Jesse Michels tells of Ben Rich on an international board of directors controlling the UFO topic, about Ben Rich era (Skunk Works) at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Lockheed Skunk Works, United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 3682.0,
+      "to_s": 3695.0,
+      "teller": "jesse-michels",
+      "quote": "have Ben Rich as well, who's director of uh Skunk Works, uh, lamenting that there's almost this runaway of control when it comes to quote unquote an international board of directors on the UFO topic",
+      "kind": "secondhand",
+      "cites": [
+        "ben-rich"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 3545.0,
+      "to_s": 3556.0,
+      "teller": "jesse-michels",
+      "quote": "and even Ben Rich, there's a quote in the early 90s, I think, with his uh letters between him and and uh John Andrews, I think, of Testor Motor Corp,",
+      "kind": "host",
+      "cites": [
+        "ben-rich",
+        "john-andrews",
+        "jacqu-valet"
+      ],
+      "documents": [
+        "ben-rich-john-andrews-letters",
+        "forbidden-science"
+      ],
+      "difference": "Places the remark in Rich's early-1990s letters to John Andrews of Testor, and credits Vallee's Forbidden Science.",
+      "link_reason": "Both tellings are about Ben Rich's remark on an international board of directors controlling the UFO topic.",
+      "as_told": {
+        "title": "Ben Rich letters on international UFO governance board",
+        "years": {
+          "from": 1990,
+          "to": 1993
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 4659.0,
+      "to_s": 4665.0,
+      "teller": "jesse-michels",
+      "quote": "He writes about an international corporate board of directors that deals with the UFO issue.",
+      "kind": "secondhand",
+      "cites": [
+        "ben-rich"
+      ],
+      "documents": [],
+      "difference": "Calls it an international corporate board and places it in the 1990s.",
+      "link_reason": "Both tell of Ben Rich writing about an international board of directors that controls the UFO issue.",
+      "as_told": {
+        "title": "Ben Rich on an international corporate board that runs the UFO issue",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "USA",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M",
+      "kccrkCGGzX4",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

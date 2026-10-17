@@ -1,0 +1,95 @@
+{
+  "id": "tsiolkovsky-in-touch-with-angelic-beings",
+  "title": "Tsiolkovsky in touch with angelic beings",
+  "summary": "Jesse Michels tells of Tsiolkovsky in touch with angelic beings, about an unknown time at Russia, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Russia",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1883.0,
+      "to_s": 1889.0,
+      "teller": "jesse-michels",
+      "quote": "chowski believed that he was actually in touch with Angelic beings and he talks about and writes about it",
+      "kind": "secondhand",
+      "cites": [
+        "diana-pasulka",
+        "konstantin-tsiolkovsky"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 11870.0,
+      "to_s": 11878.0,
+      "teller": "jesse-michels",
+      "quote": "Chikovski in Russia was the same way. He believed he had this worldview called cosmism where he thought he was in touch with angelic beings",
+      "kind": "host",
+      "cites": [
+        "konstantin-tsiolkovsky"
+      ],
+      "documents": [],
+      "difference": "Names his worldview as cosmism and is told by the host directly, without crediting Pasulka.",
+      "link_reason": "Both tellings say Tsiolkovsky in Russia believed he was in touch with angelic beings.",
+      "as_told": {
+        "title": "Tsiolkovsky's cosmism and contact with angelic beings",
+        "years": null,
+        "place_text": "Russia",
+        "story_kind": "cosmology"
+      }
+    },
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 1452.0,
+      "to_s": 1460.0,
+      "teller": "diana-pasulka",
+      "quote": "Constantine chikovsky believed in nhi and that he was you know he believed in this and he wrote books about it and he's the father of Russian rocketry",
+      "kind": "researcher",
+      "cites": [
+        "konstantin-tsiolkovsky"
+      ],
+      "documents": [],
+      "difference": "Told by Pasulka herself as a belief in NHI, and adds that he was the father of Russian rocketry.",
+      "link_reason": "Both say Tsiolkovsky, the father of Russian rocketry, believed in non-human or angelic beings and wrote about them.",
+      "as_told": {
+        "title": "Tsiolkovsky and Russian cosmism",
+        "years": null,
+        "place_text": "Russia",
+        "story_kind": "cosmology"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "diana-pasulka"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "LpLFWdsIU7M",
+      "aa9Xx5wI8Rw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

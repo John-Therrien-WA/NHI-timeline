@@ -1,0 +1,56 @@
+{
+  "id": "hornig-guards-the-trinity-bomb-the-night-before-the-test-1945",
+  "title": "Hornig guards the Trinity bomb the night before the test",
+  "summary": "Kevin Knuth tells of Hornig guards the Trinity bomb the night before the test, about 1945 at White Sands and Holloman, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": "white-sands-nm",
+  "place_text": "Trinity site, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 3975.0,
+      "to_s": 3985.0,
+      "teller": "kevin-knuth",
+      "quote": "And on the night before the first test at Trinity, Oenheimer gave him a weapon and made him guard the bomb in the tower during a storm.",
+      "kind": "secondhand",
+      "cites": [
+        "donald-hornig",
+        "j-robert-oppenheimer"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

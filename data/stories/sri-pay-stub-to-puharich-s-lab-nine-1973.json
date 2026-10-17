@@ -1,0 +1,57 @@
+{
+  "id": "sri-pay-stub-to-puharich-s-lab-nine-1973",
+  "title": "SRI pay stub to Puharich's Lab Nine",
+  "summary": "Greg tells of SRI pay stub to Puharich's Lab Nine, about 1973 at Ossining, New York, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1973,
+    "to": 1973
+  },
+  "place": "ossining-ny",
+  "place_text": "SRI / Lab Nine, Ossining",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 7587.0,
+      "to_s": 7601.0,
+      "teller": "greg",
+      "quote": "disappeared. Not true. There's a a pay stub in Puharich's archives that is a is from SRI to lab nine Puharich's lab from 73.",
+      "kind": "researcher",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": [
+        "sri-pay-stub-in-puharich-s-archives"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "jfk-asks-mccone-for-a-full-ufo-briefing-on-june-5-1963",
+  "title": "JFK asks McCone for a full UFO briefing on June 5, 1963",
+  "summary": "Dan Sheehan tells of JFK asks McCone for a full UFO briefing on June 5, 1963, about 1963 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 2959.0,
+      "to_s": 2971.0,
+      "teller": "daniel-sheehan",
+      "quote": "he contacts McCone the new CIA director because he'd already forced into retirement Dulles and he says he wants to get fully briefed in on the UFO stuff.",
+      "kind": "researcher",
+      "cites": [
+        "john-mccone"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "jfk-letter-to-cia-director-mccone-requesting-ufo-data-1963",
+      "relation": "variant",
+      "note": "Both are about JFK asking CIA Director McCone for UFO information in 1963. This telling has it as a request for a full briefing on June 5, 1963, while the story has it as a letter dated November 12, 1963."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

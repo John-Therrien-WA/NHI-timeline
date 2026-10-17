@@ -1,0 +1,61 @@
+{
+  "id": "senate-findings-that-uap-records-were-wrongly-classified-and-2023",
+  "title": "Senate findings that UAP records were wrongly classified and withheld",
+  "summary": "Matthew Pines tells of Senate findings that UAP records were wrongly classified and withheld, about 2023-2024 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2024
+  },
+  "place": "washington-dc",
+  "place_text": "US Senate, Washington DC",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 10510.0,
+      "to_s": 10523.0,
+      "teller": "matthew-pines",
+      "quote": "So the Senate is basically saying in their findings that they believe credible evidence indicates that relevant UAP records have been inappropriately classified and withheld from appropriate, you know, elected officials in both the legislative and executive branch.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "senate-uap-disclosure-legislation-findings"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "senate-language-on-historical-exotic-technology-antecedents-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "guarded-portal-facility-under-forest-service-cover",
+  "title": "Guarded portal facility under Forest Service cover",
+  "summary": "Ross Coulthart tells of Guarded portal facility under Forest Service cover, about unspecified at Bradshaw Ranch, Arizona, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Bradshaw Ranch, Arizona",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 3499.0,
+      "to_s": 3501.0,
+      "teller": "ross-coulthart",
+      "quote": "There is a portal in the United States.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "OOr98r51Sj0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

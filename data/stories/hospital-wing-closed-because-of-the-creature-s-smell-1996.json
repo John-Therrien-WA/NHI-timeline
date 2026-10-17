@@ -1,0 +1,75 @@
+{
+  "id": "hospital-wing-closed-because-of-the-creature-s-smell-1996",
+  "title": "Hospital wing closed because of the creature's smell",
+  "summary": "James Fox tells of Hospital wing closed because of the creature's smell, about 1996 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha hospital, Brazil",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 2670.0,
+      "to_s": 2676.0,
+      "teller": "james-fox",
+      "quote": "they had to close that Wing in the hospital for like weeks cuz the smell was so intense",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 3624.0,
+      "to_s": 3634.0,
+      "teller": "james-fox",
+      "quote": "was regional. And uh he said that the room where the he did the performance of doing the X-rays that stank like for they had to close that wing",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Names the Hospital Regional and places the smell in the radiology room where X-rays of the being were taken.",
+      "link_reason": "Both say a Varginha hospital wing was closed because the being's smell was so strong.",
+      "as_told": {
+        "title": "Radiology wing closed over being's smell",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Hospital Regional, Varginha, Brazil",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

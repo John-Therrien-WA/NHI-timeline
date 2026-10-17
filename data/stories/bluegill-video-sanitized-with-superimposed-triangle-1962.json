@@ -1,0 +1,89 @@
+{
+  "id": "bluegill-video-sanitized-with-superimposed-triangle-1962",
+  "title": "Bluegill video sanitized with superimposed triangle",
+  "summary": "Jesse Michels tells of Bluegill video sanitized with superimposed triangle, about 1962 at Johnston Atoll, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "united-states",
+  "place_text": "Johnston Atoll",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 2006.0,
+      "to_s": 2015.0,
+      "teller": "jesse-michels",
+      "quote": "kushank says that this video was later sanitized and censored to cover up the UFO he says that a white triangle was later superimposed on the video where",
+      "kind": "secondhand",
+      "cites": [
+        "jeff-kushank"
+      ],
+      "documents": [
+        "bluegill-triple-prime-test-video"
+      ]
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 3942.0,
+      "to_s": 3952.0,
+      "teller": "jesse-michels",
+      "quote": "At the declassification review, the Defense Special Weapons Agency led by Dr. Byron L. wrist vet applied a large white triangle to the footage,",
+      "kind": "host",
+      "cites": [
+        "byron-l-ristvet"
+      ],
+      "documents": [
+        "kettle-1-footage"
+      ],
+      "difference": "Dates the censoring to the 1998 declassification review and credits the Defense Special Weapons Agency under Byron Ristvet.",
+      "link_reason": "Both tell of the white triangle laid over the Bluegill footage to hide the object.",
+      "as_told": {
+        "title": "Kettle 1 footage censored with a white triangle at the 1998 declassification",
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "place_text": "United States (Defense Special Weapons Agency)",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "angleton-signed-cia-wiretap-of-marilyn-monroe-1962",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

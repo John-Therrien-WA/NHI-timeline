@@ -1,0 +1,50 @@
+{
+  "id": "canadian-scientists-in-the-legacy-program",
+  "title": "Canadian scientists in the legacy program",
+  "summary": "Ross Coulthart tells of Canadian scientists in the legacy program, about ongoing at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Canada / USA",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 3442.0,
+      "to_s": 3450.0,
+      "teller": "ross-coulthart",
+      "quote": "because Canadian scientists have been and are involved in the legacy program.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

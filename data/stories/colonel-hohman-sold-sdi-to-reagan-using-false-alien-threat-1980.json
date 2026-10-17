@@ -1,0 +1,57 @@
+{
+  "id": "colonel-hohman-sold-sdi-to-reagan-using-false-alien-threat-1980",
+  "title": "Colonel Hohman sold SDI to Reagan using false alien threat",
+  "summary": "Steven Greer tells of Colonel Hohman sold SDI to Reagan using false alien threat, about 1980s at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 11945.0,
+      "to_s": 11952.0,
+      "teller": "steven-greer",
+      "quote": "Now, he told me, he said, \"We knew that was false, but it got billions of dollars for SDI.\"",
+      "kind": "secondhand",
+      "cites": [
+        "colonel-hohman",
+        "ronald-reagan",
+        "jimmy-carter"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

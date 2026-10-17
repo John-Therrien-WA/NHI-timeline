@@ -1,0 +1,90 @@
+{
+  "id": "advanced-theoretical-physics-group-studying-ufo-physics-1980",
+  "title": "Advanced Theoretical Physics group studying UFO physics",
+  "summary": "Jesse Michels tells of Advanced Theoretical Physics group studying UFO physics, about 1980s onward at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 7263.0,
+      "to_s": 7273.0,
+      "teller": "jesse-michels",
+      "quote": "he then joined something called the advanced theoretical physics group ATP group",
+      "kind": "host",
+      "cites": [
+        "hal-puthoff",
+        "oki-shannon",
+        "john-alexander",
+        "eric-davis"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 8231.0,
+      "to_s": 8236.0,
+      "teller": "uapgerb",
+      "quote": ">> Of course, BDM Mlane was out there where the advanced theoretical physics working group was held and",
+      "kind": "researcher",
+      "cites": [
+        "hal-puthoff",
+        "kit-green"
+      ],
+      "documents": [],
+      "difference": "Places the group's meetings at BDM in McLean, Virginia, and credits Kit Green.",
+      "link_reason": "The Advanced Theoretical Physics working group of the 1980s with Puthoff, the same program as the ATP group story.",
+      "as_told": {
+        "title": "BDM McLean hosted the Advanced Theoretical Physics working group",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "McLean, Virginia",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "sdi-brilliant-pebbles-as-a-black-budget-front-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

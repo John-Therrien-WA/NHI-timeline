@@ -1,0 +1,58 @@
+{
+  "id": "wilbert-smith-s-1950-canadian-memo",
+  "title": "Wilbert Smith's 1950 Canadian memo",
+  "summary": "Steven Greer tells of Wilbert Smith's 1950 Canadian memo, about 1950 at Canada, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1950
+  },
+  "place": null,
+  "place_text": "Canada",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 5399.0,
+      "to_s": 5410.0,
+      "teller": "steven-greer",
+      "quote": "what Wilbur Smith said in the 1950 document. It's in the briefing document that was top secret from the Canadian government that I think accidentally got declassified.",
+      "kind": "researcher",
+      "cites": [
+        "wilbert-smith"
+      ],
+      "documents": [
+        "wilbert-smith-1950-canadian-government-memo",
+        "greer-briefing-document"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

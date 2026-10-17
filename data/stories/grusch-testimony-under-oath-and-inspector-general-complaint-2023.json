@@ -1,0 +1,138 @@
+{
+  "id": "grusch-testimony-under-oath-and-inspector-general-complaint-2023",
+  "title": "Grusch testimony under oath and inspector general complaint",
+  "summary": "Merrick von Renenamp tells of Grusch testimony under oath and inspector general complaint, about 2023 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2023
+  },
+  "place": "united-states",
+  "place_text": "United States Congress",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 1231.0,
+      "to_s": 1241.0,
+      "teller": "merrick-von-renenamp",
+      "quote": "I had the firstand people go to the inspector general to submit a complaint. Uh Luis Alzando goes under oath. Yes, we have crash retrieval programs.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch",
+        "luis-elizondo"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 1005.0,
+      "to_s": 1016.0,
+      "teller": "jesse-michels",
+      "quote": "you have David Grush giving 40 firsthand you know whistleblowers to the inspector general of the intelligence community Thomas Mannheim. He says it's urgent, incredible.",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "thomas-monheim"
+      ],
+      "documents": [],
+      "difference": "Puts the number at 40 firsthand whistleblowers, names Thomas Monheim and says he called it urgent and credible.",
+      "link_reason": "Both tell of Grusch bringing firsthand witnesses to the Inspector General with a complaint.",
+      "as_told": {
+        "title": "Grusch gives 40 firsthand whistleblowers to the Intelligence Community Inspector General",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "Washington, D.C., USA",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "aaro-asks-hastings-to-bring-in-nuclear-site-veterans-for-int-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aaro-briefing-ai-quantum-and-the-grusch-stuff-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aaro-did-not-record-the-veterans-interviews-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "david-grusch-comes-forward-at-great-personal-sacrifice-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "george-knapp-says-harry-reid-read-hastings-s-book-before-see-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-testimony-some-craft-were-gifted-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mario-woods-reports-the-incident-to-aaro-which-never-followe-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sean-ryan-threatened-after-the-herrera-interview-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "learning-of-david-grusch-from-program-insiders-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-40-witnesses-are-firsthand-and-none-are-physicists-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "matthew-sullivan-s-death-and-his-legacy-program-experience-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "merrick-von-renenamp"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

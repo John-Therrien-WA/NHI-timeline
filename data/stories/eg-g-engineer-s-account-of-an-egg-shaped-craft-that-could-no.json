@@ -1,0 +1,52 @@
+{
+  "id": "eg-g-engineer-s-account-of-an-egg-shaped-craft-that-could-no",
+  "title": "EG&G engineer's account of an egg-shaped craft that could not be opened",
+  "summary": "Jesse Michels tells of EG&G engineer's account of an egg-shaped craft that could not be opened, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 5335.0,
+      "to_s": 5342.0,
+      "teller": "jesse-michels",
+      "quote": "The senior EG&G engineer described to my great uncle that it was egg-shaped about the size of a SUV.",
+      "kind": "host",
+      "cites": [
+        "senior-eg-g-engineer"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

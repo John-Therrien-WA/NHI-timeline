@@ -1,0 +1,98 @@
+{
+  "id": "army-officers-visiting-the-utah-ranch-followed-home-by-pheno-1990",
+  "title": "Army officers visiting the Utah ranch followed home by phenomena",
+  "summary": "Jacques Vallee tells of Army officers visiting the Utah ranch followed home by phenomena, about 1990s-2000s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 2009
+  },
+  "place": "united-states",
+  "place_text": "ranch in Utah, USA",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 1396.0,
+      "to_s": 1414.0,
+      "teller": "jacques-vallee",
+      "quote": "people have described people who were you know trained army officers who went to the ranch a few days went home and boom they there was some phenomenon following them",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 3817.0,
+      "to_s": 3829.0,
+      "teller": "jesse-michels",
+      "quote": "experienced more of is the Skinwalker Ranch stuff where people come come out of you know exper being at Skinwalker Ranch studying stuff there and they say stuff follows me around in my home and I have to rid myself of it",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by the host about researchers studying at the ranch in general, not trained army officers, and adds that they have to rid themselves of it.",
+      "link_reason": "Both describe the Utah ranch lore that people who visit Skinwalker Ranch are followed home by phenomena.",
+      "as_told": {
+        "title": "Skinwalker Ranch phenomena follow people home",
+        "years": null,
+        "place_text": "Skinwalker Ranch",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 1827.0,
+      "to_s": 1838.0,
+      "teller": "jesse-michels",
+      "quote": "Um if you look at the testimony of Jake Barber or even look at the people under Bigalow, you know, studying, you know, stuff at Skinwalker Ranch, these things seem to sort of follow them home.",
+      "kind": "host",
+      "cites": [
+        "jake-barber",
+        "robert-bigelow"
+      ],
+      "documents": [],
+      "difference": "Names Jake Barber and the people working under Bigelow as the ones followed home, where the story speaks of army officers.",
+      "link_reason": "Both say people who studied things at Skinwalker Ranch were followed home by phenomena. Michels' own telling in that story says almost the same thing.",
+      "as_told": {
+        "title": "Jake Barber and Skinwalker Ranch researchers followed home by phenomena",
+        "years": {
+          "from": 2000,
+          "to": 2029
+        },
+        "place_text": "Skinwalker Ranch, Utah",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jacques-vallee",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "fyX8V1XXmQM",
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

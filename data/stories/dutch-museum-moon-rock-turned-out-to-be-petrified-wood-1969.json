@@ -1,0 +1,55 @@
+{
+  "id": "dutch-museum-moon-rock-turned-out-to-be-petrified-wood-1969",
+  "title": "Dutch museum moon rock turned out to be petrified wood",
+  "summary": "Jesse Michels tells of Dutch museum moon rock turned out to be petrified wood, about 1969-2009 at Netherlands, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 2009
+  },
+  "place": null,
+  "place_text": "Netherlands",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 6698.0,
+      "to_s": 6711.0,
+      "teller": "jesse-michels",
+      "quote": "And then you have the Apollo Goodwill tour where I think it was through Neil Armstrong, the American ambassador, ended up with this moon rock or whatever, went to the the former prime minister of the Netherlands gave him the thing.",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

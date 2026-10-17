@@ -1,0 +1,105 @@
+{
+  "id": "lawrence-gise-told-malmgren-about-recovering-and-reverse-eng-1963",
+  "title": "Lawrence Gise told Malmgren about recovering and reverse engineering UFO objects",
+  "summary": "Matthew Pines tells of Lawrence Gise told Malmgren about recovering and reverse engineering UFO objects, about 1963 at Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "mexico",
+  "place_text": "Los Alamos or Albuquerque, New Mexico",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 9839.0,
+      "to_s": 9846.0,
+      "teller": "matthew-pines",
+      "quote": "yeah he met with Lawrence P guys who told him that you know we have been recovering and trying to reverse engineer uh UFO objects",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "lawrence-gise"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "9QMrhcpJq8I",
+      "from_s": 4699.0,
+      "to_s": 4710.0,
+      "teller": "matthew-pines",
+      "quote": "Lawrence Pis who told him like of their efforts to retrieve UFOs out at out at um you know in uh you know around Los Alamos.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "lawrence-gise"
+      ],
+      "documents": [],
+      "difference": "Dated 1962 rather than 1963, and it stresses retrieval rather than reverse engineering.",
+      "link_reason": "Both are Lawrence Gise telling Malmgren about efforts to recover UFOs around Los Alamos.",
+      "as_told": {
+        "title": "Lawrence Gise tells Malmgren of UFO retrievals near Los Alamos",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Los Alamos, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 4396.0,
+      "to_s": 4407.0,
+      "teller": "harold-malmgren",
+      "quote": "He said, \"Well, he reached for some stuff sitting on his desk. These are things that have come down.\"",
+      "kind": "firsthand",
+      "cites": [
+        "lawrence-gise"
+      ],
+      "documents": [],
+      "difference": "Malmgren tells it firsthand, says he handled the debris sitting on Gise's desk and dates it to 1962 rather than 1963.",
+      "link_reason": "Both tell of Lawrence Gise at Los Alamos telling Malmgren about recovered UFO material in their meeting. This telling is Malmgren's own account of being shown the pieces on Gise's desk.",
+      "as_told": {
+        "title": "Malmgren handles UFO debris on Lawrence Gise's desk at Los Alamos",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Los Alamos, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "harold-malmgren"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "9QMrhcpJq8I",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

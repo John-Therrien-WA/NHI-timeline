@@ -1,0 +1,130 @@
+{
+  "id": "grusch-files-ig-complaint-and-names-witnesses-2022",
+  "title": "Grusch files IG complaint and names witnesses",
+  "summary": "David Grusch tells of Grusch files IG complaint and names witnesses, about 2022 at Washington, D.C., and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2022,
+    "to": 2022
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C. (DoD Inspector General)",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 104.0,
+      "to_s": 110.0,
+      "teller": "david-grusch",
+      "quote": "I filed my complaint. I told them who to interview. And, you know, they ultimately were like, Holy shit, this is credible.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "inspector-general-complaint"
+      ]
+    },
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 697.0,
+      "to_s": 703.0,
+      "teller": "david-grusch",
+      "quote": "I made them get interviewed by the inspector general because we're crossing our T's here because this shit is crazy.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "This telling adds that he vetted nearly 40 sources over about 2019-2022 and made them sit for IG interviews to be thorough, but it leaves out the IG's reaction that the complaint was credible.",
+      "link_reason": "Both are Grusch's firsthand account of pointing the DoD Inspector General to his witnesses so they could be interviewed as part of his complaint. The core event is the same: he sent his sources to the IG.",
+      "as_told": {
+        "title": "Vetting nearly 40 sources and sending interviewers to the IG",
+        "years": {
+          "from": 2019,
+          "to": 2022
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 41.0,
+      "to_s": 51.0,
+      "teller": "jesse-michels",
+      "quote": "importantly he's not alone he's brought\n40 people who have handled exotic UFO\nmaterial firsthand to the intelligence\ncommunity's Inspector General",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "The host gives a count of 40 witnesses who handled exotic UFO material firsthand and names the Intelligence Community Inspector General, where the story's place is the DoD Inspector General and no number is given.",
+      "link_reason": "Both tell of Grusch filing his Inspector General complaint and getting named witnesses interviewed by the IG in Washington around 2022, so this is the same event at the same grain.",
+      "as_told": {
+        "title": "Grusch brings 40 firsthand witnesses to the Intelligence Community Inspector General",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4197.0,
+      "to_s": 4206.0,
+      "teller": "luis-elizondo",
+      "quote": "he talked to 40 some witnesses it's all secondhand no it's not that's what that's the only thing he can tell you but I'm telling you there's a hell of a lot more",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Told second hand by Elizondo, who denies the testimony is all secondhand and says there is far more that Grusch cannot say.",
+      "link_reason": "Both describe the roughly 40 witnesses Grusch brought forward to the Inspector General.",
+      "as_told": {
+        "title": "Grusch interviewed 40-some witnesses and knows more than he can say",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "senate-intelligence-scif-meeting-and-black-hawks-over-the-in-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 2,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "david-grusch"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "TH10mD9hQas",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

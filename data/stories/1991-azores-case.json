@@ -1,0 +1,55 @@
+{
+  "id": "1991-azores-case",
+  "title": "1991 Azores case",
+  "summary": "Steven Greer tells of 1991 Azores case, about 1991 at Off the Azores, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1991,
+    "to": 1991
+  },
+  "place": null,
+  "place_text": "Off the Azores",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 9159.0,
+      "to_s": 9161.0,
+      "teller": "steven-greer",
+      "quote": "1991 off the Azors.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "disclosure-an-illustrated-history"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

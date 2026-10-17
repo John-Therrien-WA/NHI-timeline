@@ -1,0 +1,69 @@
+{
+  "id": "the-moon-s-low-density-old-material-and-rare-metals-don-t-fi",
+  "title": "The moon's low density, old material and rare metals don't fit an impact origin",
+  "summary": "Jesse Michels tells of The moon's low density, old material and rare metals don't fit an impact origin, about unspecified at The Moon, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "moon",
+  "place_text": "Moon",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 266.0,
+      "to_s": 279.0,
+      "teller": "jesse-michels",
+      "quote": "What's up with the moon? It is way less dense than the Earth. The material predates the Earth and yet it's supposed to have come from the Earth itself from some sort of asteroid impact.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 10113.0,
+      "to_s": 10125.0,
+      "teller": "randall-carlson",
+      "quote": "And it's extremely challenging to get from a ring of debris around the Earth to the moon that we see today.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Argues that it is mathematically hard to form the Moon from a debris ring, and also doubts the capture theory, rather than pointing to density, the age of the material and rare metals.",
+      "link_reason": "Both tell the theory that the standard origin of the Moon, an Earth impact producing a debris ring, does not work. This telling answers the host's question about the Moon's origin.",
+      "as_told": {
+        "title": "Mathematical problems with the Moon's capture and impact origin theories",
+        "years": null,
+        "place_text": "Moon",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "randall-carlson"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

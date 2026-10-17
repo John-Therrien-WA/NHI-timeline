@@ -1,0 +1,55 @@
+{
+  "id": "joint-chiefs-propose-operation-northwoods-1962",
+  "title": "Joint Chiefs propose Operation Northwoods",
+  "summary": "Dan Sheehan tells of Joint Chiefs propose Operation Northwoods, about 1962 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 2830.0,
+      "to_s": 2832.0,
+      "teller": "daniel-sheehan",
+      "quote": "him this Operation Northwoods, you know,",
+      "kind": "researcher",
+      "cites": [
+        "curtis-lemay"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

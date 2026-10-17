@@ -1,0 +1,109 @@
+{
+  "id": "malmgren-sent-into-the-tank-to-stall-curtis-lemay-1962",
+  "title": "Malmgren sent into the tank to stall Curtis LeMay",
+  "summary": "Matthew Pines tells of Malmgren sent into the tank to stall Curtis LeMay, about 1962 at The Pentagon, Arlington, Virginia, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "pentagon",
+  "place_text": "the Pentagon",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 9774.0,
+      "to_s": 9783.0,
+      "teller": "matthew-pines",
+      "quote": "He was sent when he was like 26 27. He was sent into the tank, you know, by by um by Kennedy and was just like stall stall him out.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "curtis-lemay",
+        "john-f-kennedy"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "9QMrhcpJq8I",
+      "from_s": 4549.0,
+      "to_s": 4555.0,
+      "teller": "matthew-pines",
+      "quote": "like holding Curtis Slimy back from potentially nuking during the Cuban missile crisis.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "curtis-lemay"
+      ],
+      "documents": [],
+      "difference": "Frames it as keeping LeMay from possibly launching nukes, without mentioning Kennedy sending him or the tank.",
+      "link_reason": "Both are Malmgren being used to restrain Curtis LeMay during the 1962 Cuban missile crisis, told by Pines.",
+      "as_told": {
+        "title": "Malmgren holds back Curtis LeMay during Cuban missile crisis",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 2870.0,
+      "to_s": 2887.0,
+      "teller": "harold-malmgren",
+      "quote": "That's we went through that because I I said it's madness. You don't If you're going to start something and you need to stop in that system, there's only one point of decision. If you hit Moscow, there's no one to talk to.",
+      "kind": "firsthand",
+      "cites": [
+        "robert-mcnamara",
+        "curtis-lemay",
+        "mcgeorge-bundy",
+        "john-f-kennedy"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Malmgren, it gives his argument that hitting Moscow leaves no one to negotiate with and names McNamara and Bundy as present.",
+      "link_reason": "Both tell of Malmgren in the Pentagon tank during the Cuban Missile Crisis holding back Curtis LeMay; here Malmgren tells it himself.",
+      "as_told": {
+        "title": "Malmgren in the Cuban Missile Crisis war room confronts Curtis LeMay",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Pentagon war room, Washington DC",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "harold-malmgren"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "9QMrhcpJq8I",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

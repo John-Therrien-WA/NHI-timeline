@@ -1,0 +1,67 @@
+{
+  "id": "kirkpatrick-s-aaro-denied-the-herrera-incident-but-he-privat-2023",
+  "title": "Kirkpatrick's AARO denied the Herrera incident but he privately admitted it to the Senate Intelligence Committee",
+  "summary": "Jake Barber tells of Kirkpatrick's AARO denied the Herrera incident but he privately admitted it to the Senate Intelligence Committee, about 2023-2024 at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2024
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 5239.0,
+      "to_s": 5257.0,
+      "teller": "jake-barber",
+      "quote": "And I know for a fact that Sean Kapatrick has admitted outside of the office of arrow directly to members of the Senate Intelligence Committee that it did in fact happen exactly as reported by Michael Herrera and with my additions.",
+      "kind": "secondhand",
+      "cites": [
+        "sean-kirkpatrick",
+        "michael-herrera"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "jake-sullivan-in-at-least-one-uap-briefing-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "greer-gave-grusch-and-luna-an-unredacted-hard-drive-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jake-barber"
+    ],
+    "episodes": [
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

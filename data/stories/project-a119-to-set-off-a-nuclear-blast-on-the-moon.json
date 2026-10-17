@@ -1,0 +1,100 @@
+{
+  "id": "project-a119-to-set-off-a-nuclear-blast-on-the-moon",
+  "title": "Project A119 to set off a nuclear blast on the Moon",
+  "summary": "Jesse Michels tells of Project A119 to set off a nuclear blast on the Moon, about unspecified at Kirtland Air Force Base, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Kirtland Air Force Base",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4988.0,
+      "to_s": 4998.0,
+      "teller": "jesse-michels",
+      "quote": "know he was a secret consultant on a project called a119 a top secret Air Force Project based out of Kirtland Air Force Base",
+      "kind": "host",
+      "cites": [
+        "carl-sagan"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 10572.0,
+      "to_s": 10579.0,
+      "teller": "jesse-michels",
+      "quote": "was involved in this 1958 project called A119 where we were going to nuke the moon as a show of force against the Soviets.",
+      "kind": "host",
+      "cites": [
+        "carl-sagan"
+      ],
+      "documents": [],
+      "difference": "Dates it to 1958 and gives the motive as a show of force against the Soviets, but leaves out Kirtland AFB.",
+      "link_reason": "Both are the Project A119 plan to set off a nuclear blast on the Moon, with Sagan involved.",
+      "as_told": {
+        "title": "Project A119: plan to nuke the moon, Sagan involved",
+        "years": {
+          "from": 1958,
+          "to": 1958
+        },
+        "place_text": "United States / the Moon",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 3821.0,
+      "to_s": 3830.0,
+      "teller": "jesse-michels",
+      "quote": "We know that he was part of Project A119, which was a plan to nuke the moon as a show of force against the Soviets in 1958.",
+      "kind": "host",
+      "cites": [
+        "carl-sagan"
+      ],
+      "documents": [],
+      "difference": "Dates it to 1958 and gives the motive as a show of force against the Soviets, but does not mention Kirtland.",
+      "link_reason": "Both tell of Project A119, the plan to set off a nuclear blast on the Moon, with Carl Sagan involved.",
+      "as_told": {
+        "title": "Project A119 plan to nuke the Moon",
+        "years": {
+          "from": 1958,
+          "to": 1958
+        },
+        "place_text": "United States / the Moon",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "8Rr_nE65KkI",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

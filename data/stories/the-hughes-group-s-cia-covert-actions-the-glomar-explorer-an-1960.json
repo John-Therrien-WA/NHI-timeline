@@ -1,0 +1,61 @@
+{
+  "id": "the-hughes-group-s-cia-covert-actions-the-glomar-explorer-an-1960",
+  "title": "The Hughes group's CIA covert actions, the Glomar Explorer and the Kennedy killings",
+  "summary": "Matthew Pines tells of The Hughes group's CIA covert actions, the Glomar Explorer and the Kennedy killings, about 1960s-1970s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 12183.0,
+      "to_s": 12190.0,
+      "teller": "matthew-pines",
+      "quote": "And this was the same group that was doing all the covert actions for the CIA, the Lamar Explorer, etc. And potentially even doing the hits",
+      "kind": "researcher",
+      "cites": [
+        "howard-hughes"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "carl-sagan-as-a-majestic-member-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

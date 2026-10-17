@@ -1,0 +1,72 @@
+{
+  "id": "senior-intelligence-official-and-his-wife-abducted",
+  "title": "Senior intelligence official and his wife abducted",
+  "summary": "Jesse Michels tells of Senior intelligence official and his wife abducted, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 11302.0,
+      "to_s": 11312.0,
+      "teller": "jesse-michels",
+      "quote": "Anecdotally, I know of one extremely senior intelligence official who had a pretty gnarly abduction experience along with his wife.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 14389.0,
+      "to_s": 14395.0,
+      "teller": "peter-levenda",
+      "quote": "Jim Seivian comes out and blatantly openly talks about a kind of an abduction experience",
+      "kind": "secondhand",
+      "cites": [
+        "jim-semivan"
+      ],
+      "documents": [],
+      "difference": "Names the official as Jim Semivan of the CIA and says he talks about it openly.",
+      "link_reason": "A senior intelligence official and his wife sharing an abduction experience. This is the same account Michels gave without the name.",
+      "as_told": {
+        "title": "Jim Semivan and his wife's abduction experience",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "peter-levenda"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several"
+}

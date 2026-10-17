@@ -1,0 +1,76 @@
+{
+  "id": "gordon-macdonald-said-the-moon-only-makes-sense-if-it-is-hol",
+  "title": "Gordon MacDonald said the moon only makes sense if it is hollow",
+  "summary": "Jesse Michels tells of Gordon MacDonald said the moon only makes sense if it is hollow, about Apollo era at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Moon / United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 1337.0,
+      "to_s": 1346.0,
+      "teller": "jesse-michels",
+      "quote": "And there's a famous uh space adviser, I think he was NASA affiliated uh to Eisenhower named Gordon McDonald who said the only way that I've read his work,",
+      "kind": "host",
+      "cites": [
+        "gordon-macdonald"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 7442.0,
+      "to_s": 7450.0,
+      "teller": "jesse-michels",
+      "quote": ">> even Gordon McDonald who was Eisenhower's chief space adviser said that you know the only way the moon makes if it was hollow.",
+      "kind": "host",
+      "cites": [
+        "gordon-macdonald"
+      ],
+      "documents": [],
+      "difference": "Calls him Eisenhower's chief space adviser and states the hollow-moon claim in full.",
+      "link_reason": "Both tell of Eisenhower's space adviser Gordon MacDonald saying the moon only makes sense if hollow.",
+      "as_told": {
+        "title": "Gordon MacDonald: the moon makes sense only if hollow",
+        "years": {
+          "from": 1950,
+          "to": 1969
+        },
+        "place_text": "Moon",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc",
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

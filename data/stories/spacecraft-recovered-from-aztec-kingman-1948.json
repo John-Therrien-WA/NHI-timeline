@@ -1,0 +1,56 @@
+{
+  "id": "spacecraft-recovered-from-aztec-kingman-1948",
+  "title": "Spacecraft recovered from Aztec (Kingman)",
+  "summary": "Ross Coulthart tells of Spacecraft recovered from Aztec (Kingman), about 1948 / 1953 at New Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1953
+  },
+  "place": "new-mexico",
+  "place_text": "Aztec, New Mexico; Kingman, Arizona",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 5849.0,
+      "to_s": 5853.0,
+      "teller": "ross-coulthart",
+      "quote": "Oh, by the way, there's a there's a spacecraft recovered from Aztec.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch",
+        "jesse-michels"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

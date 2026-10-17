@@ -1,0 +1,61 @@
+{
+  "id": "gimbal-pilot-confirms-the-lns-radar-target-2015",
+  "title": "Gimbal pilot confirms the LNS radar target",
+  "summary": "Marik von Rennenkampf tells of Gimbal pilot confirms the LNS radar target, about 2015 at Off the US East Coast (Roosevelt, 2014 to 2015), and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": "off-us-east-coast",
+  "place_text": "Off the US East Coast",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 8067.0,
+      "to_s": 8073.0,
+      "teller": "marik-von-rennenkampf",
+      "quote": "explain the LNS is the launch and steering which is the selected radar target",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "gimbal-video-audio"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "go-fast-object-one-of-four-in-line-abreast-formation-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "marik-von-rennenkampf"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

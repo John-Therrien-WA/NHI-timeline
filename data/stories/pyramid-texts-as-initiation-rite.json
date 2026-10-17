@@ -1,0 +1,75 @@
+{
+  "id": "pyramid-texts-as-initiation-rite",
+  "title": "Pyramid Texts as initiation rite",
+  "summary": "Karl Nell tells of Pyramid Texts as initiation rite, about c. 2500 BC at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 1995.0,
+      "to_s": 2009.0,
+      "teller": "karl-nell",
+      "quote": "the initiatic experience into the pyramid texts based on something called the said Festival which is essentially a kingship ritual that's known to exist then the pyramid and the pyramid text become an initiatic engine",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "pyramid-texts"
+      ]
+    },
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 8470.0,
+      "to_s": 8478.0,
+      "teller": "jesse-michels",
+      "quote": "talks about the festival of said and the Egyptian magical papyrie where you have these sort of you know secret brotherhoods in Egypt.",
+      "kind": "host",
+      "cites": [
+        "karl-nell"
+      ],
+      "documents": [
+        "egyptian-magical-papyri"
+      ],
+      "difference": "Relayed by the host instead of Nell himself, and it adds the Egyptian magical papyri and secret brotherhoods.",
+      "link_reason": "This is Karl Nell's theory of Egyptian initiation built on the Sed festival, the same theory as the Pyramid Texts initiation story. Here the host relays it.",
+      "as_told": {
+        "title": "Karl Nell on the Sed festival and the Egyptian magical papyri",
+        "years": null,
+        "place_text": "Egypt",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "karl-nell"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk",
+      "aa9Xx5wI8Rw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

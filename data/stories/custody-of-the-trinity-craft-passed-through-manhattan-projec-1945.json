@@ -1,0 +1,84 @@
+{
+  "id": "custody-of-the-trinity-craft-passed-through-manhattan-projec-1945",
+  "title": "Custody of the Trinity craft passed through Manhattan Project, AEC and DOE clearances",
+  "summary": "Jacques Vallee tells of Custody of the Trinity craft passed through Manhattan Project, AEC and DOE clearances, about 1945-present at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 456.0,
+      "to_s": 469.0,
+      "teller": "jacques-vallee",
+      "quote": "Manhattan Project would have custody of it and then it would go into the atomic energy commission and then it would go into the department of energy which has its own line of clearances",
+      "kind": "researcher",
+      "cites": [
+        "paola-harris",
+        "j-robert-oppenheimer"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 304.0,
+      "to_s": 318.0,
+      "teller": "jacques-vallee",
+      "quote": "the Manhattan Project\nwould have custody of it and then it\nwould go into the atomic energy\ncommission and then it would go into the\ndepartment of energy which has its own\nline of clearances",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "This telling credits nobody, while the story's telling credits Paola Harris and Robert Oppenheimer; it also says only \"UFO custody\" from the 1940s on, without naming the Trinity craft or the year 1945.",
+      "link_reason": "Both are Jacques Vallee's account of the custody chain from the Manhattan Project to the AEC to the DOE's own clearance system, in almost the same words. The \"it\" in the telling is the craft the story names as the Trinity craft.",
+      "as_told": {
+        "title": "UFO custody passed from Manhattan Project to AEC to Department of Energy clearance system",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "United States (Manhattan Project, AEC, DOE)",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "oppenheimer-first-nuclear-weapon-in-modern-history-1945",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jacques-vallee"
+    ],
+    "episodes": [
+      "TH10mD9hQas",
+      "fyX8V1XXmQM"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

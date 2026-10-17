@@ -1,0 +1,56 @@
+{
+  "id": "clyde-tombaugh-s-ashes-on-new-horizons-2006",
+  "title": "Clyde Tombaugh's ashes on New Horizons",
+  "summary": "Avi Loeb tells of Clyde Tombaugh's ashes on New Horizons, about 2006 at New Horizons spacecraft, Pluto, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2006,
+    "to": 2006
+  },
+  "place": null,
+  "place_text": "New Horizons spacecraft, Pluto",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "_bM9eAtCOGw",
+      "from_s": 1333.0,
+      "to_s": 1348.0,
+      "teller": "avi-loeb",
+      "quote": "But, in fact, the most embarrassing thing was New Horizons, which was sent to explore Pluto. Mhm. And uh NASA decided to put uh 30 g of ashes of the person who discovered Pluto, Clyde Tombaugh, the scientist.",
+      "kind": "researcher",
+      "cites": [
+        "nasa",
+        "clyde-tombaugh"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "avi-loeb"
+    ],
+    "episodes": [
+      "_bM9eAtCOGw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

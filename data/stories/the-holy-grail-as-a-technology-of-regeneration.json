@@ -1,0 +1,57 @@
+{
+  "id": "the-holy-grail-as-a-technology-of-regeneration",
+  "title": "The Holy Grail as a technology of regeneration",
+  "summary": "Randall Carlson tells of The Holy Grail as a technology of regeneration, about late 12th-early 13th century romances at Europe, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Europe",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 7096.0,
+      "to_s": 7101.0,
+      "teller": "randall-carlson",
+      "quote": "I think I'll put it this way. I think it's a technology.",
+      "kind": "researcher",
+      "cites": [
+        "chretien-de-troyes",
+        "robert-de-boron",
+        "wolfram-von-eschenbach"
+      ],
+      "documents": [
+        "grail-romances",
+        "parzival"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "randall-carlson"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

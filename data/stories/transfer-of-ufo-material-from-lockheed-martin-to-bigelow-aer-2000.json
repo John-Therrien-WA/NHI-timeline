@@ -1,0 +1,105 @@
+{
+  "id": "transfer-of-ufo-material-from-lockheed-martin-to-bigelow-aer-2000",
+  "title": "Transfer of UFO material from Lockheed Martin to Bigelow Aerospace",
+  "summary": "Jesse Michels tells of Transfer of UFO material from Lockheed Martin to Bigelow Aerospace, about 2000s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2009
+  },
+  "place": "united-states",
+  "place_text": "Lockheed Martin / Bigelow Aerospace, United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 14926.0,
+      "to_s": 14937.0,
+      "teller": "jesse-michels",
+      "quote": "this transfer of UFO material from Loheed Martin using some sort of uh special access program to Bigalow Aerospace.",
+      "kind": "host",
+      "cites": [
+        "jim-ryder",
+        "david-grusch",
+        "luis-elizondo",
+        "george-knapp"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 1517.0,
+      "to_s": 1539.0,
+      "teller": "jesse-michels",
+      "quote": "OSAP was originally intended to skip out Bigalow Aerospace facilities in Las Vegas due to a UAP material divestment plan proposal to OAP leadership by Loheed Martin space systems vice president Dr. James Ryder now deceased.",
+      "kind": "host",
+      "cites": [
+        "james-ryder",
+        "bob-bigelow"
+      ],
+      "documents": [],
+      "difference": "Calls it a divestment plan proposal to OSAP leadership, ~2008, and notes Ryder is deceased.",
+      "link_reason": "Both describe Jim Ryder's proposal to transfer Lockheed-held UAP material to Bigelow Aerospace under OSAP.",
+      "as_told": {
+        "title": "James Ryder's UAP material divestment proposal to OSAP",
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "place_text": "Bigelow Aerospace, Las Vegas, Nevada",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 3309.0,
+      "to_s": 3320.0,
+      "teller": "jesse-michels",
+      "quote": "like we have real UFO programs, that you know, Kona Blue and this idea that we were transferring assets between Lockheed Martin who had UFO material to Bigelow Aerospace.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names Kona Blue next to the transfer as a real UFO program and credits no source.",
+      "link_reason": "The core claim is the same: UFO material moved from Lockheed Martin to Bigelow Aerospace.",
+      "as_told": {
+        "title": "Kona Blue and a Lockheed-to-Bigelow material transfer",
+        "years": {
+          "from": 2000,
+          "to": 2019
+        },
+        "place_text": "Lockheed Martin / Bigelow Aerospace",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4",
+      "kccrkCGGzX4",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

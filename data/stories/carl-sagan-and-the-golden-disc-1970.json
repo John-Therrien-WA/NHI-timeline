@@ -1,0 +1,55 @@
+{
+  "id": "carl-sagan-and-the-golden-disc-1970",
+  "title": "Carl Sagan and the Golden Disc",
+  "summary": "Lou Elizondo tells of Carl Sagan and the Golden Disc, about 1970s at interstellar space, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "interstellar space",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4948.0,
+      "to_s": 4957.0,
+      "teller": "luis-elizondo",
+      "quote": "he was the one who helped put that Golden Disc together that's now in our extra solar system",
+      "kind": "secondhand",
+      "cites": [
+        "carl-sagan"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "luis-elizondo"
+    ],
+    "episodes": [
+      "1f16VvXaSSE"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "kenneth-arnold-s-paranormal-experiences-after-his-1947-sight",
+  "title": "Kenneth Arnold's paranormal experiences after his 1947 sighting",
+  "summary": "Jeffrey Mishlove tells of Kenneth Arnold's paranormal experiences after his 1947 sighting, about 1947 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 387.0,
+      "to_s": 398.0,
+      "teller": "jeffrey-mishlove",
+      "quote": "I believe his daughter has now written a book talking about the mysterious paranormal experiences he had following his first sighting.",
+      "kind": "secondhand",
+      "cites": [
+        "kenneth-arnold",
+        "kenneth-arnold-s-daughter"
+      ],
+      "documents": [
+        "book-by-kenneth-arnold-s-daughter"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "kenneth-arnold-sighting-1947",
+      "relation": "variant",
+      "note": "Concerns paranormal experiences Arnold had after his 1947 sighting, as told in his daughter's book, not the sighting itself; that makes it a distinct story from the Arnold sighting."
+    },
+    {
+      "story": "kenneth-arnold-s-1947-craft-matched-horten-design",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "weather-bureau-employees-see-four-metallic-discs-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeffrey-mishlove"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

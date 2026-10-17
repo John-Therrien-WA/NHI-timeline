@@ -1,0 +1,55 @@
+{
+  "id": "seal-beach-weapons-station-sightings-2009",
+  "title": "Seal Beach weapons station sightings",
+  "summary": "Robert Hastings tells of Seal Beach weapons station sightings, about March 2009 at Seal Beach Naval Weapons Station, Orange County, California, and reports it citing named sources. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2009,
+    "to": 2009
+  },
+  "place": null,
+  "place_text": "Seal Beach Naval Weapons Station, Orange County, California",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 3697.0,
+      "to_s": 3715.0,
+      "teller": "robert-hastings",
+      "quote": "civilians citing reports in Orange County California at the uh Naval uh Seal Beach Naval weapons station a series of bunkers again containing nuclear weapons uh there were local media reports of multiple sightings in March of 09 near this weapon storage",
+      "kind": "journalist",
+      "cites": [],
+      "documents": [
+        "local-media-reports"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "robert-hastings"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

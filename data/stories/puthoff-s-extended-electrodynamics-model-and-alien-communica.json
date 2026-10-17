@@ -1,0 +1,79 @@
+{
+  "id": "puthoff-s-extended-electrodynamics-model-and-alien-communica",
+  "title": "Puthoff's extended electrodynamics model and alien communication",
+  "summary": "Jesse Michels tells of Puthoff's extended electrodynamics model and alien communication, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 2110.0,
+      "to_s": 2119.0,
+      "teller": "jesse-michels",
+      "quote": "he has a model of extended electronamics that involves uh vector and scalar potentials.",
+      "kind": "host",
+      "cites": [
+        "hal-putoff"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 6574.0,
+      "to_s": 6590.0,
+      "teller": "jesse-michels",
+      "quote": "I believe in a podcast with Anna Brady Estz, how put off openly discussed uh this idea of extended electronamics and him even working with uh Joseph junctions and uh this idea of vector and scalar potential.",
+      "kind": "host",
+      "cites": [
+        "hal-puthoff",
+        "anna-brady-estevez",
+        "lewis-darro",
+        "larry-forsley"
+      ],
+      "documents": [],
+      "difference": "Says Puthoff discussed the model openly on Anna Brady-Estevez's podcast, adds his work with Josephson junctions, and credits Lewis Darro and Larry Forsley.",
+      "link_reason": "Both describe Puthoff's extended electrodynamics model built on vector and scalar potentials. This telling places his discussion of it on Anna Brady-Estevez's podcast.",
+      "as_told": {
+        "title": "Puthoff discusses extended electrodynamics and Josephson junctions on Anna Brady-Estevez's podcast",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "podcast",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8XD1ZiuhXoY",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

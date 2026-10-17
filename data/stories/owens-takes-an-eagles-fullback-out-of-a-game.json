@@ -1,0 +1,55 @@
+{
+  "id": "owens-takes-an-eagles-fullback-out-of-a-game",
+  "title": "Owens takes an Eagles fullback out of a game",
+  "summary": "Jeffrey Mishlove tells of Owens takes an Eagles fullback out of a game, about not stated at Philadelphia, Pennsylvania, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "philadelphia-pa",
+  "place_text": "Philadelphia Eagles game",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 3414.0,
+      "to_s": 3421.0,
+      "teller": "jeffrey-mishlove",
+      "quote": "middle of the game, Owens said, \"I'm going to take out this player, told the reporter.\"",
+      "kind": "secondhand",
+      "cites": [
+        "ted-owens",
+        "sports-writer"
+      ],
+      "documents": [
+        "sports-writer-s-newspaper-article"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeffrey-mishlove"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

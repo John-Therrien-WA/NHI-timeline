@@ -1,0 +1,77 @@
+{
+  "id": "american-orthodox-catholic-church-demands-fbi-background-che-1965",
+  "title": "American Orthodox Catholic Church demands FBI background checks",
+  "summary": "Peter Levenda tells of American Orthodox Catholic Church demands FBI background checks, about 1965 at The Bronx, New York, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1965,
+    "to": 1965
+  },
+  "place": null,
+  "place_text": "The Bronx, New York",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 2165.0,
+      "to_s": 2177.0,
+      "teller": "peter-levenda",
+      "quote": "And then he starts demanding the other churches submit to a background check by the FBI to make sure that they're acceptable to him in the Bronx in New York.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 3306.0,
+      "to_s": 3311.0,
+      "teller": "peter-levenda",
+      "quote": "his people were vetted by Jay Edgar Hoover himself.",
+      "kind": "secondhand",
+      "cites": [
+        "propheta",
+        "j-edgar-hoover"
+      ],
+      "documents": [],
+      "difference": "Says Hoover personally vetted Propheta's own priests and bishops, and dates it 1968-69 rather than 1965.",
+      "link_reason": "The same arrangement as the story: Propheta's church and FBI or Hoover vetting of clergy in the Bronx.",
+      "as_told": {
+        "title": "Hoover personally vetting Propheta's priests and bishops",
+        "years": {
+          "from": 1968,
+          "to": 1969
+        },
+        "place_text": "The Bronx, New York",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

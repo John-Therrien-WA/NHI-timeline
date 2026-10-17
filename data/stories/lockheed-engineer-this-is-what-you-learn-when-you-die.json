@@ -1,0 +1,55 @@
+{
+  "id": "lockheed-engineer-this-is-what-you-learn-when-you-die",
+  "title": "Lockheed engineer: 'This is what you learn when you die'",
+  "summary": "Peter Levenda tells of Lockheed engineer: 'This is what you learn when you die', about unspecified at Lockheed, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Lockheed",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 15160.0,
+      "to_s": 15170.0,
+      "teller": "peter-levenda",
+      "quote": "Ben Rich said something else. This was somebody else then. Ben Rich was kind of pro. This guy was conh and he said, \"No, we don't you're not supposed to learn about this. This is what you learn about when you die.\"",
+      "kind": "secondhand",
+      "cites": [
+        "john-alexander",
+        "ben-rich"
+      ],
+      "documents": [
+        "john-alexander-s-book"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

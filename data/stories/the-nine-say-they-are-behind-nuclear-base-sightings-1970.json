@@ -1,0 +1,57 @@
+{
+  "id": "the-nine-say-they-are-behind-nuclear-base-sightings-1970",
+  "title": "The Nine say they are behind nuclear-base sightings",
+  "summary": "Unnamed guest tells of The Nine say they are behind nuclear-base sightings, about 1970s at nuclear bases, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "nuclear bases",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 10575.0,
+      "to_s": 10583.0,
+      "teller": "unnamed-guest",
+      "quote": "Uh they kind of say like we're kind of behind a lot of the sightings that that are occurring at nuclear bases.",
+      "kind": "researcher",
+      "cites": [
+        "the-nine"
+      ],
+      "documents": [
+        "puharich-session-tapes"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

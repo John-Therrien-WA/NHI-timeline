@@ -1,0 +1,58 @@
+{
+  "id": "jack-ruby-as-mk-ultra-patient-seen-by-jolly-west-1963",
+  "title": "Jack Ruby as MK Ultra patient seen by Jolly West",
+  "summary": "Jesse Michels tells of Jack Ruby as MK Ultra patient seen by Jolly West, about 1963-1964 at Dallas jail, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1964
+  },
+  "place": null,
+  "place_text": "Dallas jail",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 3012.0,
+      "to_s": 3018.0,
+      "teller": "jesse-michels",
+      "quote": "We know that Jack Ruby was an MK Ultra patient.",
+      "kind": "host",
+      "cites": [
+        "jolly-west",
+        "sidney-gottlieb"
+      ],
+      "documents": [
+        "letters-between-jolly-west-and-sidney-gottlieb"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

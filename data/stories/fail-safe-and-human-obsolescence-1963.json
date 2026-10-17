@@ -1,0 +1,57 @@
+{
+  "id": "fail-safe-and-human-obsolescence-1963",
+  "title": "Fail-Safe and human obsolescence",
+  "summary": "James Madden tells of Fail-Safe and human obsolescence, about 1963-1964 at not stated, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1964
+  },
+  "place": null,
+  "place_text": "not stated",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "KRDE1i3LDuU",
+      "from_s": 4989.0,
+      "to_s": 4997.0,
+      "teller": "james-madden",
+      "quote": "it's based on a novel um failafe. Okay. And I think it was originally made in like 196364.",
+      "kind": "researcher",
+      "cites": [
+        "gunther-anders"
+      ],
+      "documents": [
+        "fail-safe"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "james-madden"
+    ],
+    "episodes": [
+      "KRDE1i3LDuU"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,103 @@
+{
+  "id": "whitley-strieber-s-ear-implant-evaded-the-surgeon",
+  "title": "Whitley Strieber's ear implant evaded the surgeon",
+  "summary": "Jesse Michels tells of Whitley Strieber's ear implant evaded the surgeon, about an unknown time at an unknown place, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "texas",
+  "place_text": "San Antonio, Texas",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1249.0,
+      "to_s": 1262.0,
+      "teller": "jesse-michels",
+      "quote": "Whitley has has an implant in his ear that has been documented under like an x-ray and and in an attempt for him to to extract it it had the same behavior it evaded the surgeon",
+      "kind": "secondhand",
+      "cites": [
+        "whitley-strieber"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 5085.0,
+      "to_s": 5101.0,
+      "teller": "whitley-strieber",
+      "quote": "Ann's there and there we're vid Ann's videotaping it and she says it's a white disc and the doctor touches it with a scalpel or something a probe of some kind and it goes down into my earlobe at that point",
+      "kind": "firsthand",
+      "cites": [
+        "anne-strieber",
+        "roger-leir"
+      ],
+      "documents": [
+        "video-of-the-removal-attempt"
+      ],
+      "difference": "Told firsthand: San Antonio in 1994 or 1996, Anne videotaping, Roger Leir named, and a white disc that sank into the earlobe when probed.",
+      "link_reason": "Both tell of the attempt to remove Strieber's ear implant, in which it moved away from the surgeon.",
+      "as_told": {
+        "title": "Videotaped attempt to remove the ear implant",
+        "years": {
+          "from": 1994,
+          "to": 1996
+        },
+        "place_text": "San Antonio, Texas",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 10463.0,
+      "to_s": 10471.0,
+      "teller": "jesse-michels",
+      "quote": "there's a video of the surgeon trying to remove it and the thing [ __ ] moving at its own like it's",
+      "kind": "firsthand",
+      "cites": [
+        "whitley-strieber"
+      ],
+      "documents": [],
+      "difference": "Jesse Michels says he saw the video himself and describes the implant moving on its own.",
+      "link_reason": "This is the same implant in Strieber's ear that moved away from the surgeon on video.",
+      "as_told": {
+        "title": "Whitley Strieber's moving ear implant",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Jesse Michels podcast recording",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "whitley-strieber"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "ABOP8ZJsyIk",
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

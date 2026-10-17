@@ -1,0 +1,127 @@
+{
+  "id": "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+  "title": "Holloman AFB landing footage that Allan Sandler saw",
+  "summary": "James Fox tells of Holloman AFB landing footage that Allan Sandler saw, about 1964 at Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "mexico",
+  "place_text": "Holloman Air Force Base, New Mexico",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 2002.0,
+      "to_s": 2012.0,
+      "teller": "james-fox",
+      "quote": "he goes well he goes it might have been a training video I don't know but it was real flying sauce and there were three flying saucers that came in over",
+      "kind": "secondhand",
+      "cites": [
+        "allan-sandler",
+        "robert-emenegger",
+        "paul-shartle",
+        "colonel-coleman",
+        "coral-lorenzen"
+      ],
+      "documents": [
+        "ufos-past-present-and-future",
+        "ufo-bulletin-articles-by-coral-lorenzen"
+      ]
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 10575.0,
+      "to_s": 10580.0,
+      "teller": "james-fox",
+      "quote": "No question about it. Three came in over the base. Two peeled away. One came down and landed.",
+      "kind": "journalist",
+      "cites": [
+        "allan-sandler",
+        "paul-shartle",
+        "robert-emenegger",
+        "coral-lorenzen",
+        "william-coleman"
+      ],
+      "documents": [
+        "coral-lorenzen-articles",
+        "ufos-past-present-and-future"
+      ],
+      "difference": "Fox states it with certainty ('No question about it') and says two craft peeled away while one landed.",
+      "link_reason": "Both are about the Holloman AFB landing footage (three craft come in, one lands), credited to Sandler, Shartle, Emenegger, Coleman and Lorenzen.",
+      "as_told": {
+        "title": "Holloman AFB landing footage",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "Holloman AFB, New Mexico",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 1793.0,
+      "to_s": 1818.0,
+      "teller": "eric-davis",
+      "quote": "three craft, UAP craft, UFO craft came in. One of them landed not on the runway but on the tarmac close to a u a hanger. The other two took off and uh a gang way cames down, extended down and down comes a humanoid looking very tall uh NHI being uh he looked of Northern European descent.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the craft landed on the tarmac near a hangar and that a tall Nordic-looking NHI came down a gangway; dates it to April 1964 and gives no source.",
+      "link_reason": "Both tell of the 1964 Holloman AFB landing: three craft come in over the base and one lands. Davis also describes a tall Nordic-looking being coming down a gangway.",
+      "as_told": {
+        "title": "Holloman AFB landing and tall Nordic NHI",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Holloman Air Force Base, New Mexico",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "landing-at-holloman-air-force-base",
+      "relation": "variant",
+      "note": "Both are James Fox telling of a UFO landing at Holloman Air Force Base, New Mexico. This telling ties the landing to a claimed meeting with Eisenhower, while the story places it in 1964 and rests it on footage Allan Sandler saw. Those are competing accounts of when the landing happened and who was there, so either could be right."
+    },
+    {
+      "story": "lonnie-zamora-s-socorro-landing-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "eric-davis",
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 1.6,
+  "tier": "well-attested"
+}

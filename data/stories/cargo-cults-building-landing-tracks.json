@@ -1,0 +1,91 @@
+{
+  "id": "cargo-cults-building-landing-tracks",
+  "title": "Cargo cults building landing tracks",
+  "summary": "Jesse Michels tells of Cargo cults building landing tracks, about 20th century at French Polynesia, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "French Polynesia",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "_bM9eAtCOGw",
+      "from_s": 1149.0,
+      "to_s": 1159.0,
+      "teller": "jesse-michels",
+      "quote": "You have cargo cults in French Polynesia building landing tracks for presumably some alien craft to return that's rooted in their mythology.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 5928.0,
+      "to_s": 5938.0,
+      "teller": "peter-levenda",
+      "quote": "islands in the 20th early 20th century uh planes would land on islands in the South Pacific",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Levenda and placed on South Pacific islands in the early 20th century and WWII, not specifically French Polynesia, with no mention of alien craft.",
+      "link_reason": "South Pacific cargo cults that grew up around landing planes, the same place-lore as the cargo-cult landing-strip story.",
+      "as_told": {
+        "title": "South Pacific cargo cults",
+        "years": null,
+        "place_text": "South Pacific islands",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 2221.0,
+      "to_s": 2231.0,
+      "teller": "jason-simosa",
+      "quote": "And the idea being that there were these uh gosh, I didn't even know geographically where this happened, but there was some sort of tribe in remote area in French Polynesia.",
+      "kind": "secondhand",
+      "cites": [
+        "peter-levenda"
+      ],
+      "documents": [],
+      "difference": "Told second hand, crediting Levenda, and the teller isn't sure of the geography.",
+      "link_reason": "Both tell of cargo cults in French Polynesia, a remote tribe waiting for craft to return; Levenda is already a teller of this story.",
+      "as_told": {
+        "title": "Cargo cults in French Polynesia",
+        "years": null,
+        "place_text": "French Polynesia",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4",
+      "_bM9eAtCOGw",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

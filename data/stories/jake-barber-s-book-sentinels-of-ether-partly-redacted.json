@@ -1,0 +1,54 @@
+{
+  "id": "jake-barber-s-book-sentinels-of-ether-partly-redacted",
+  "title": "Jake Barber's book Sentinels of Ether partly redacted",
+  "summary": "Jesse Michels tells of Jake Barber's book Sentinels of Ether partly redacted, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 9986.0,
+      "to_s": 9999.0,
+      "teller": "jesse-michels",
+      "quote": "Jake Barber wrote a book called Sentinels of Ether and he came out with the first chapter of the book and it was 20 pages. Seven pages of that book were redacted by subject matter experts for some reason",
+      "kind": "host",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [
+        "sentinels-of-ether"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

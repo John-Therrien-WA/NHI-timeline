@@ -1,0 +1,88 @@
+{
+  "id": "the-moon-as-a-logical-refuge-for-a-space-faring-civilization",
+  "title": "The moon as a logical refuge for a space-faring civilization facing catastrophe",
+  "summary": "Randall Carlson tells of The moon as a logical refuge for a space-faring civilization facing catastrophe, about prehistoric cataclysm cycles at The Moon, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "moon",
+  "place_text": "Moon",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 4102.0,
+      "to_s": 4114.0,
+      "teller": "randall-carlson",
+      "quote": "which could be off planet and to a a civilization with space fairing capabilities. To me, the moon would be the logical place.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 4703.0,
+      "to_s": 4714.0,
+      "teller": "randall-carlson",
+      "quote": "And the logical place, and this is even scenarios that have been profered by NASA, is that a logical place for us to create a place of refuge would be the moon.",
+      "kind": "researcher",
+      "cites": [
+        "nasa"
+      ],
+      "documents": [],
+      "difference": "Ties the catastrophe to a Younger Dryas–scale comet, credits NASA with similar scenarios, and frames the refuge as one we would build ourselves.",
+      "link_reason": "Randall Carlson again calls the moon the logical refuge from a cosmic catastrophe, the same theory he gave in telling 2.",
+      "as_told": {
+        "title": "Moon as a refuge from a Younger Dryas–scale comet catastrophe",
+        "years": null,
+        "place_text": "Moon",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 12111.0,
+      "to_s": 12114.0,
+      "teller": "randall-carlson",
+      "quote": "Well, the most obvious one would be the moon.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Ties the refuge explicitly to the Younger Dryas catastrophe.",
+      "link_reason": "Carlson again names the moon as the obvious refuge for a civilization fleeing catastrophe.",
+      "as_told": {
+        "title": "Moon as a refuge for an ancient civilization fleeing the Younger Dryas catastrophe",
+        "years": null,
+        "place_text": "Moon",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "randall-carlson"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

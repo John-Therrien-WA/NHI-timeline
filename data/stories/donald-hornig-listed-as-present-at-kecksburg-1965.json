@@ -1,0 +1,58 @@
+{
+  "id": "donald-hornig-listed-as-present-at-kecksburg-1965",
+  "title": "Donald Hornig listed as present at Kecksburg",
+  "summary": "Kevin Knuth tells of Donald Hornig listed as present at Kecksburg, about 1965 at Kecksburg, Pennsylvania, and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1965,
+    "to": 1965
+  },
+  "place": null,
+  "place_text": "Kecksburg, Pennsylvania",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 4039.0,
+      "to_s": 4048.0,
+      "teller": "kevin-knuth",
+      "quote": "And I discovered that I had found a document about the Kexsburg UFO, and Donald Horn was listed as being present.",
+      "kind": "official",
+      "cites": [
+        "donald-hornig",
+        "lily-hornig"
+      ],
+      "documents": [
+        "government-summary-of-the-kecksburg-accident"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.1,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 1.05,
+  "tier": "told-once"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "liberation-times-piece-on-the-legacy-program-ecosystem-doe-c",
+  "title": "Liberation Times piece on the legacy program ecosystem (DOE, CIA counterproliferation)",
+  "summary": "Jesse Michels tells of Liberation Times piece on the legacy program ecosystem (DOE, CIA counterproliferation), about an unknown time at an unknown place, and reports it citing named sources. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "CIA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 981.0,
+      "to_s": 988.0,
+      "teller": "jesse-michels",
+      "quote": "you actually sent me the article to Liberation times piece that Chris sharp wrote he was kind of describing for I think the first time",
+      "kind": "journalist",
+      "cites": [
+        "christopher-sharp"
+      ],
+      "documents": [
+        "liberation-times-article"
+      ]
+    },
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 6489.0,
+      "to_s": 6504.0,
+      "teller": "jesse-michels",
+      "quote": "And then even up until today, you have Chris Sharp writing a great article for the Liberation Times. He's talking about kind of the the chain of command for the UFO program, and he cites Glenn Gaffne as the CIA's director of science and technology",
+      "kind": "host",
+      "cites": [
+        "chris-sharp",
+        "glenn-gaffney"
+      ],
+      "documents": [
+        "liberation-times-article"
+      ],
+      "difference": "Highlights that the article names Glenn Gaffney, the CIA's director of science and technology, as a gatekeeper.",
+      "link_reason": "Both are Chris Sharp's Liberation Times article on the chain of command of the legacy UFO program.",
+      "as_told": {
+        "title": "Chris Sharp's Liberation Times article naming Glenn Gaffney as a gatekeeper",
+        "years": null,
+        "place_text": "CIA",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ",
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

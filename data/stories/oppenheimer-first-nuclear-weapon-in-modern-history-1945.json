@@ -1,0 +1,63 @@
+{
+  "id": "oppenheimer-first-nuclear-weapon-in-modern-history-1945",
+  "title": "Oppenheimer: first nuclear weapon 'in modern history'",
+  "summary": "Jesse Michels tells of Oppenheimer: first nuclear weapon 'in modern history', about 1945; ancient past at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": "united-states",
+  "place_text": "United States; ancient India",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 9974.0,
+      "to_s": 9986.0,
+      "teller": "jesse-michels",
+      "quote": "There's an apocryphal story of a student going up to Oenheimer being like, \"You how does it feel to be the first person to create the nuclear weapon?\" And he goes, \"Uh, I'm the first person in modern history.\"",
+      "kind": "host",
+      "cites": [
+        "j-robert-oppenheimer"
+      ],
+      "documents": [
+        "bhagavad-gita"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "custody-of-the-trinity-craft-passed-through-manhattan-projec-1945",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

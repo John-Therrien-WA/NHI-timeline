@@ -1,0 +1,78 @@
+{
+  "id": "spielberg-tells-robert-liefeld-ufos-may-be-humans-from-the-f-1993",
+  "title": "Spielberg tells Robert Liefeld UFOs may be humans from the future",
+  "summary": "Jesse Michels tells of Spielberg tells Robert Liefeld UFOs may be humans from the future, about 1993 at unspecified, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1993,
+    "to": 1993
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y26iMB0r-f8",
+      "from_s": 145.0,
+      "to_s": 161.0,
+      "teller": "jesse-michels",
+      "quote": "according to Deadpool Creator Robert leafield Spielberg said to Robert in 1993 what's easier to believe that we are being monitored by aliens from another world or that we are monitoring ourselves and studying us from the future",
+      "kind": "host",
+      "cites": [
+        "robert-liefeld",
+        "steven-spielberg"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 5841.0,
+      "to_s": 5853.0,
+      "teller": "jesse-michels",
+      "quote": "clearly very into UFOs he had a conversation with this guy Robert leafield I think the the um creator of Deadpool and he says what do you think is more likely is it future versions of ourselves guarding Us in the present",
+      "kind": "secondhand",
+      "cites": [
+        "steven-spielberg",
+        "rob-liefeld"
+      ],
+      "documents": [],
+      "difference": "Gives no date where the story says 1993, and puts it as future humans guarding us in the present.",
+      "link_reason": "Both are about Spielberg asking Rob Liefeld whether UFOs might be future humans rather than aliens.",
+      "as_told": {
+        "title": "Spielberg asked Rob Liefeld whether UFOs are future humans",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "Y26iMB0r-f8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

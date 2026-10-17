@@ -1,0 +1,71 @@
+{
+  "id": "a-ufo-control-panel-inside-a-hangar",
+  "title": "A UFO control panel inside a hangar",
+  "summary": "Lyn Buchanan tells of A UFO control panel inside a hangar, about unspecified at A hangar (undisclosed), and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "A hangar (undisclosed)",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 85.0,
+      "to_s": 91.0,
+      "teller": "lyn-buchanan",
+      "quote": "That's where I came across this control panel. And that's when I said, \"Hey, that's out of a UFO.\"",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 6499.0,
+      "to_s": 6506.0,
+      "teller": "lyn-buchanan",
+      "quote": "And we passed by this one and here was the control panel of a UFO which I had seen and operated before.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the hangar was a metal Quonset building holding midair-collision wreckage, visited about a year after the DIA interview, in the late 1980s.",
+      "link_reason": "Buchanan's firsthand account of finding a UFO control panel he recognised in a hangar, which is the event the control-panel story records.",
+      "as_told": {
+        "title": "UFO control panel in midair-collision wreckage hangar",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "undisclosed facility hangar (metal Quonset building)",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "lyn-buchanan"
+    ],
+    "episodes": [
+      "1sxmSMzqnmA"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

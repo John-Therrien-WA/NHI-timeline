@@ -1,0 +1,55 @@
+{
+  "id": "hawksbill-creek-agreement-and-devco-1950",
+  "title": "Hawksbill Creek agreement and Devco",
+  "summary": "JASON tells of Hawksbill Creek agreement and Devco, about 1950s-1960s at Bahamas, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Bahamas",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5974.0,
+      "to_s": 5983.0,
+      "teller": "jason",
+      "quote": "Something happened down there where a group of people had done what was called the Hawksbill Creek agreement.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "hawksbill-creek-agreement"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

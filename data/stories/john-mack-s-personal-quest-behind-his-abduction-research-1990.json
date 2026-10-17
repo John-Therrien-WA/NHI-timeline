@@ -1,0 +1,59 @@
+{
+  "id": "john-mack-s-personal-quest-behind-his-abduction-research-1990",
+  "title": "John Mack's personal quest behind his abduction research",
+  "summary": "Jesse Michels tells of John Mack's personal quest behind his abduction research, about 1990s at Harvard, Cambridge, Massachusetts, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "harvard-ma",
+  "place_text": "Harvard, Massachusetts",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 6936.0,
+      "to_s": 6943.0,
+      "teller": "jesse-michels",
+      "quote": "and you know you read Ralph Blumenthal's amazing you know uh the believer you know about John Mack",
+      "kind": "host",
+      "cites": [
+        "ralph-blumenthal",
+        "john-mack",
+        "stanislav-grof"
+      ],
+      "documents": [
+        "the-believer"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "book-of-enoch-watchers-mating-with-humans-and-giants",
+  "title": "Book of Enoch Watchers mating with humans and giants",
+  "summary": "Jesse Michels tells of Book of Enoch Watchers mating with humans and giants, about Antediluvian era at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 9304.0,
+      "to_s": 9310.0,
+      "teller": "jesse-michels",
+      "quote": "the you know in the book of Enoch you had the watchers that you know mated there were giants in the earth in those days",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "book-of-enoch"
+      ]
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 2359.0,
+      "to_s": 2368.0,
+      "teller": "joe-rogan",
+      "quote": "the book of Enoch the watchers that came down and bred with men and created the Nephilim.",
+      "kind": "secondhand",
+      "cites": [
+        "anna-paulina-luna"
+      ],
+      "documents": [
+        "book-of-enoch"
+      ],
+      "difference": "Reads the story as genetic engineering, credits Anna Paulina Luna and names the Nephilim.",
+      "link_reason": "The same Book of Enoch account of the Watchers coming down, breeding with humans and producing giants or Nephilim.",
+      "as_told": {
+        "title": "Book of Enoch Watchers and Nephilim as genetic engineering",
+        "years": null,
+        "place_text": "ancient Near East",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

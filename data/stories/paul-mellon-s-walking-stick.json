@@ -1,0 +1,52 @@
+{
+  "id": "paul-mellon-s-walking-stick",
+  "title": "Paul Mellon's walking stick",
+  "summary": "Harold Malmgren tells of Paul Mellon's walking stick, about recent at Virginia, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Virginia",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 6520.0,
+      "to_s": 6525.0,
+      "teller": "harold-malmgren",
+      "quote": "I was told it was Paul Melon's washing stick.",
+      "kind": "secondhand",
+      "cites": [
+        "paul-mellon"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "harold-malmgren"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

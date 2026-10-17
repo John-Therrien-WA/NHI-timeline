@@ -1,0 +1,84 @@
+{
+  "id": "roberto-pinotti-s-book-and-the-1933-blackout-telegrams",
+  "title": "Roberto Pinotti's book and the 1933 blackout telegrams",
+  "summary": "Jesse Michels tells of Roberto Pinotti's book and the 1933 blackout telegrams, about 1933 at Italy, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1933,
+    "to": 1933
+  },
+  "place": null,
+  "place_text": "Italy",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6787.0,
+      "to_s": 6791.0,
+      "teller": "jesse-michels",
+      "quote": "You have Roberto Penote wrote a book about it.",
+      "kind": "host",
+      "cites": [
+        "roberto-pinotti"
+      ],
+      "documents": [
+        "roberto-pinotti-s-book",
+        "fascist-era-telegrams"
+      ]
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6807.0,
+      "to_s": 6817.0,
+      "teller": "roberto-pinotti",
+      "quote": "the personal order of Iluche absolutely no mention is to be made of the alleged landing of an unknown aircraft on national soil.",
+      "kind": "researcher",
+      "cites": [
+        "benito-mussolini",
+        "stefani-agency"
+      ],
+      "documents": [
+        "fascist-era-telegrams"
+      ],
+      "difference": "Quotes Mussolini's order banning any mention of an unknown aircraft landing, and credits the Stefani agency.",
+      "link_reason": "The same Fascist-era blackout telegrams that Pinotti documents in telling 8, now quoted directly.",
+      "as_told": {
+        "title": "Il Duce's telegram banning mention of an unknown aircraft landing",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Italy",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "roberto-pinotti"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,101 @@
+{
+  "id": "pax-river-facility-for-lockheed-to-bigelow-transfer-2025",
+  "title": "Pax River facility for Lockheed-to-Bigelow transfer",
+  "summary": "Eric Burles tells of Pax River facility for Lockheed-to-Bigelow transfer, about 2025 at Naval Air Station Patuxent River, Maryland, and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2025
+  },
+  "place": null,
+  "place_text": "Naval Air Station Patuxent River, Maryland",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 2072.0,
+      "to_s": 2083.0,
+      "teller": "eric-burles",
+      "quote": "I was able to actually be on site and see the facility that would have been that facility that they were going to transfer from Loheed Martin to Bigalow Airspace.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 4966.0,
+      "to_s": 4983.0,
+      "teller": "jesse-michels",
+      "quote": "he visited Pax River and he said, you know, and it's public that, you know, it's probably the most advanced, you know, aviation naval aviation facility in the US. And he he visited and he said, if we if we were to store a craft, it would be here.",
+      "kind": "secondhand",
+      "cites": [
+        "eric-burlison",
+        "robert-bigelow"
+      ],
+      "documents": [],
+      "difference": "Michels relays it second hand, quoting Burlison as saying that if a craft were stored anywhere it would be at Pax River, without mentioning the Lockheed-to-Bigelow transfer.",
+      "link_reason": "Both tell of Congressman Burlison's site visit to the Pax River facility linked to Bigelow as the place a craft would be kept.",
+      "as_told": {
+        "title": "Pax River as likely craft storage site",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Naval Air Station Patuxent River, Maryland",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 7039.0,
+      "to_s": 7052.0,
+      "teller": "matthew-brown",
+      "quote": "Yes. And it's interesting to me that Berles did get a tour of Pax River, but was not shown anything resembling a technology of unknown origin.",
+      "kind": "secondhand",
+      "cites": [
+        "eric-burlison"
+      ],
+      "documents": [],
+      "difference": "Told secondhand by Matthew Brown, who adds that Burlison was shown nothing resembling technology of unknown origin.",
+      "link_reason": "Both are about Burlison's own visit to the Pax River facility tied to the Lockheed-to-Bigelow transfer. This telling stresses that he was shown no exotic technology there.",
+      "as_told": {
+        "title": "Rep. Burlison toured Pax River but saw no exotic technology",
+        "years": null,
+        "place_text": "Naval Air Station Patuxent River, Maryland",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 4.0,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "eric-burles",
+      "jesse-michels",
+      "matthew-brown"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "nRKNVFQBi38",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 2.0,
+  "tier": "well-attested"
+}

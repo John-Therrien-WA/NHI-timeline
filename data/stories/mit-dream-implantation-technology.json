@@ -1,0 +1,70 @@
+{
+  "id": "mit-dream-implantation-technology",
+  "title": "MIT dream implantation technology",
+  "summary": "Matthew Brown tells of MIT dream implantation technology, about unspecified at MIT, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "MIT",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 115.0,
+      "to_s": 120.0,
+      "teller": "matthew-brown",
+      "quote": "Technical applications from MIT itself relating to dream implantation, including at a distance.",
+      "kind": "researcher",
+      "cites": [
+        "mit"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 12038.0,
+      "to_s": 12048.0,
+      "teller": "matthew-brown",
+      "quote": "anymore uh you can look at technical applications from MIT itself relating to dream implantation um including at a distance",
+      "kind": "official",
+      "cites": [],
+      "documents": [],
+      "difference": "Places it as recent and frames it as public technical applications.",
+      "link_reason": "The same MIT technical applications for dream implantation, including at a distance, told by Brown.",
+      "as_told": {
+        "title": "MIT dream implantation research",
+        "years": null,
+        "place_text": "MIT, Cambridge, Massachusetts",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "matthew-brown"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once"
+}

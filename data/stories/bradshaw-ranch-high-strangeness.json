@@ -1,0 +1,52 @@
+{
+  "id": "bradshaw-ranch-high-strangeness",
+  "title": "Bradshaw Ranch high strangeness",
+  "summary": "Jesse Michels tells of Bradshaw Ranch high strangeness, about unspecified at Bradshaw Ranch, Secret Canyon, Sedona, Arizona, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Bradshaw Ranch, Secret Canyon, Sedona, Arizona",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 4964.0,
+      "to_s": 4969.0,
+      "teller": "jesse-michels",
+      "quote": "The notorious Bradshaw Ranch is ground zero for Sedona's high strangeness.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "merging-dimensions"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "OOr98r51Sj0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

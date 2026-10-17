@@ -1,0 +1,95 @@
+{
+  "id": "eric-davis-craft-defying-physics-but-no-physicists",
+  "title": "Eric Davis: craft defying physics, but no physicists",
+  "summary": "Eric Weinstein tells of Eric Davis: craft defying physics, but no physicists, about recent at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 14167.0,
+      "to_s": 14176.0,
+      "teller": "eric-weinstein",
+      "quote": "Eric Davis saying, \"We have things that defy the laws of physics and no physicists.\"",
+      "kind": "secondhand",
+      "cites": [
+        "eric-davis"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 3735.0,
+      "to_s": 3740.0,
+      "teller": "jesse-michels",
+      "quote": "Eric Davis saying there were no physicists on the program.",
+      "kind": "secondhand",
+      "cites": [
+        "eric-davis"
+      ],
+      "documents": [],
+      "difference": "Leaves out the part about craft defying the laws of physics.",
+      "link_reason": "This is the same remark from Eric Davis that the program had no physicists.",
+      "as_told": {
+        "title": "Eric Davis says there were no physicists on the program",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 8472.0,
+      "to_s": 8478.0,
+      "teller": "jesse-michels",
+      "quote": "so did you find any theoretical\nphysicists on the program and he was\nlike no there none of them were\ntheoretical physicist",
+      "kind": "secondhand",
+      "cites": [
+        "eric-davis",
+        "eric-weinstein"
+      ],
+      "documents": [],
+      "difference": "Told by Michels as Davis's answer to a direct question about theoretical physicists.",
+      "link_reason": "Both relay Eric Davis's claim that the program had no physicists, and this telling also credits Eric Weinstein.",
+      "as_told": {
+        "title": "Eric Davis says the program had almost no theoretical physicists",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-weinstein"
+    ],
+    "episodes": [
+      "kccrkCGGzX4",
+      "uVVqFg2v7ro",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

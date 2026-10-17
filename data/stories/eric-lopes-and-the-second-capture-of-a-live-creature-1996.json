@@ -1,0 +1,122 @@
+{
+  "id": "eric-lopes-and-the-second-capture-of-a-live-creature-1996",
+  "title": "Eric Lopes and the second capture of a live creature",
+  "summary": "James Fox tells of Eric Lopes and the second capture of a live creature, about 1996 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 3232.0,
+      "to_s": 3240.0,
+      "teller": "james-fox",
+      "quote": "right Eric Lopes and he was the alleged driver during the second capture of one of the alive creatures",
+      "kind": "secondhand",
+      "cites": [
+        "eric-lopes",
+        "marco-chereze"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 1687.0,
+      "to_s": 1702.0,
+      "teller": "james-fox",
+      "quote": "Roughly 3 hours after the girls witnessed the strange creature, military police officers Eric Lopes and Marco Cherzi drive down this road on the lookout for something unusual when suddenly it runs right across their path.",
+      "kind": "secondhand",
+      "cites": [
+        "marco-chereze",
+        "eric-lopes"
+      ],
+      "documents": [],
+      "difference": "Dates it to January 20, 1996, roughly three hours after the girls' sighting, and says the creature ran across the road in front of their car.",
+      "link_reason": "Both describe military police officers Eric Lopes and Marco Chereze capturing a live creature in Varginha in 1996.",
+      "as_told": {
+        "title": "Military police Marco Chereze and Eric Lopes capture creature",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "marco-chereze-dies-after-handling-the-varginha-creature-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-italo-venturelli-meets-live-being-in-the-icu-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-marcos-vinicius-neves-operates-on-the-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "foreign-men-offer-luiza-cash-in-dollars-to-retract-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kuber-lada-and-friends-meet-military-blockade-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "men-in-black-confront-carlos-de-souza-at-gas-station-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "three-girls-encounter-creature-near-marakon-gym-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "witness-returns-with-luiza-and-sees-creature-s-footprint-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

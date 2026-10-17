@@ -1,0 +1,72 @@
+{
+  "id": "underwood-says-the-flir-could-not-have-lost-lock-active-duty-2004",
+  "title": "Underwood says the FLIR could not have lost lock; active-duty WSO disagrees",
+  "summary": "Merrick von Renenamp tells of Underwood says the FLIR could not have lost lock; active-duty WSO disagrees, about 2004 at Off Southern California, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "Pacific Ocean off Southern California",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 3439.0,
+      "to_s": 3447.0,
+      "teller": "merrick-von-renenamp",
+      "quote": "who's the Wizo who filmed it, he said, \"Nope, there's no way the system would have lost it. I've talked to an active duty Wizo serving now and he said it's a finick.\"",
+      "kind": "secondhand",
+      "cites": [
+        "chad-underwood",
+        "unnamed-active-duty-wso"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "fravor-and-dietrich-disagree-on-how-long-the-encounter-laste-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fravor-and-dietrich-saw-appendages-on-underwood-s-flir-tape-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kevin-day-radar-objects-at-28-000-ft-matched-in-data-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "merrick-von-renenamp"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

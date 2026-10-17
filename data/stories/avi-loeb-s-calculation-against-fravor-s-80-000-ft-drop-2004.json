@@ -1,0 +1,77 @@
+{
+  "id": "avi-loeb-s-calculation-against-fravor-s-80-000-ft-drop-2004",
+  "title": "Avi Loeb's calculation against Fravor's 80,000-ft drop",
+  "summary": "Michael Shurmer tells of Avi Loeb's calculation against Fravor's 80,000-ft drop, about 2004 at Off San Diego (Nimitz, 2004), and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "pacific-nimitz",
+  "place_text": "USS Nimitz, Pacific off San Diego",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 2706.0,
+      "to_s": 2716.0,
+      "teller": "michael-shurmer",
+      "quote": "Navy pilot David Fraver um talks about the UAP going from 80,000 ft to sea level like that, right?",
+      "kind": "researcher",
+      "cites": [
+        "david-fravor",
+        "avi-loeb"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "greer-s-claim-that-nimitz-objects-were-lockheed-special-acce-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "greer-tells-fravor-the-tic-tac-was-a-skunk-works-craft-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mick-west-tic-tac-video-zoom-change-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nuclear-weapons-aboard-the-nimitz-group-and-the-ufo-nukes-li-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "michael-shurmer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

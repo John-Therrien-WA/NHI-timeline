@@ -1,0 +1,116 @@
+{
+  "id": "tic-tac-flir-video-2004",
+  "title": "Tic Tac FLIR video",
+  "summary": "Jesse Michels tells of Tic Tac FLIR video, about 2004 at Off Southern California, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "off Southern California (USS Nimitz)",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 5210.0,
+      "to_s": 5214.0,
+      "teller": "jesse-michels",
+      "quote": "Forward looking infrared caught the famous tic tac video in 2004.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 2320.0,
+      "to_s": 2334.0,
+      "teller": "merrick-von-renenamp",
+      "quote": "uh the four uh air crew and those two jets go back uh to the carrier. They get out. Um apparently Fraver tells Underwood, \"Hey, we just saw something weird.",
+      "kind": "secondhand",
+      "cites": [
+        "chad-underwood",
+        "david-fravor"
+      ],
+      "documents": [
+        "flir1-video"
+      ],
+      "difference": "Names Chad Underwood as the one who filmed it after Fravor told him about the sighting, and mentions radar hits.",
+      "link_reason": "Both tell of the 2004 FLIR video of the Tic Tac captured off Southern California by the Nimitz aircrew.",
+      "as_told": {
+        "title": "Chad Underwood's FLIR1 video and radar hits",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Pacific Ocean off Southern California",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "y_8IKKcTntQ",
+      "from_s": 2275.0,
+      "to_s": 2280.0,
+      "teller": "jesse-michels",
+      "quote": "The Nimitz case 2004 year, and I think that the best the image there was thermal imager,",
+      "kind": "host",
+      "cites": [
+        "david-frever"
+      ],
+      "documents": [],
+      "difference": "Emphasizes the thermal imager as the best image of the case.",
+      "link_reason": "Host's brief mention of the 2004 Nimitz tic-tac case and its thermal footage matches the Tic Tac FLIR video story.",
+      "as_told": {
+        "title": "Nimitz tic-tac case and its infrared footage",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "USS Nimitz / USS Princeton, Pacific",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "marine-squadron-commander-saw-the-churning-white-water-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nimitz-tic-tac-acceleration-and-power-estimates-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "merrick-von-renenamp"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "kRO5jOa06Qw",
+      "y_8IKKcTntQ"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

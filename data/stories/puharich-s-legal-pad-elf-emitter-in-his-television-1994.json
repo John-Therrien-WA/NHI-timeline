@@ -1,0 +1,57 @@
+{
+  "id": "puharich-s-legal-pad-elf-emitter-in-his-television-1994",
+  "title": "Puharich's legal pad: ELF emitter in his television",
+  "summary": "Unnamed guest tells of Puharich's legal pad: ELF emitter in his television, about 1994-1995 at Puharich's house, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1994,
+    "to": 1995
+  },
+  "place": null,
+  "place_text": "Puharich's house",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 9078.0,
+      "to_s": 9089.0,
+      "teller": "unnamed-guest",
+      "quote": "installed this ELF uh emitter in his television set so when he would turn on the TV, he would get hit by this",
+      "kind": "researcher",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [
+        "puharich-legal-pad-notes"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,68 @@
+{
+  "id": "nhi-communication-ci-wizards-are-messing-with-the-timeline",
+  "title": "NHI communication: 'CI wizards are messing with the timeline'",
+  "summary": "Matthew Pines tells of NHI communication: 'CI wizards are messing with the timeline', about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 37.0,
+      "to_s": 43.0,
+      "teller": "matthew-pines",
+      "quote": "It was communication with some NHI. It was like, what's going on? Like, why are you here or something? It was like CI wizards are messing with the timeline.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 7627.0,
+      "to_s": 7636.0,
+      "teller": "matthew-pines",
+      "quote": "some communication with some NHI was like what's going on like why are you here or something it was like CIA wizards are messing with the timeline right",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "The story's quote reads 'CI wizards'; this one reads 'CIA wizards'.",
+      "link_reason": "This is the same NHI communication saying wizards are messing with the timeline, told by the same teller.",
+      "as_told": {
+        "title": "NHI communication: \"CIA wizards are messing with the timeline\"",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "bill-lear-cut-john-lear-out-of-his-will-1970",
+  "title": "Bill Lear cut John Lear out of his will",
+  "summary": "Bob Lazar tells of Bill Lear cut John Lear out of his will, about 1970s at unspecified, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 7955.0,
+      "to_s": 7959.0,
+      "teller": "bob-lazar",
+      "quote": "John showed me his will, you know, every paragraph",
+      "kind": "firsthand",
+      "cites": [
+        "bill-lear",
+        "john-lear"
+      ],
+      "documents": [
+        "bill-lear-s-will"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

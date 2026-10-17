@@ -1,0 +1,58 @@
+{
+  "id": "howard-hughes-visiting-george-van-tassel-at-giant-rock-1950",
+  "title": "Howard Hughes visiting George Van Tassel at Giant Rock",
+  "summary": "Jason Jorjani tells of Howard Hughes visiting George Van Tassel at Giant Rock, about 1950s at Giant Rock, California, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Giant Rock, California",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 9606.0,
+      "to_s": 9614.0,
+      "teller": "jason-jorjani",
+      "quote": "George Van Tassel used to have Howard Hughes land on his private airirstrip and come eat his wife's ties.",
+      "kind": "researcher",
+      "cites": [
+        "george-van-tassel",
+        "howard-hughes"
+      ],
+      "documents": [
+        "closer-encounters"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

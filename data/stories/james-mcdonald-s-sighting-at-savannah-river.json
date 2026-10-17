@@ -1,0 +1,74 @@
+{
+  "id": "james-mcdonald-s-sighting-at-savannah-river",
+  "title": "James McDonald's sighting at Savannah River",
+  "summary": "Lou Elizondo tells of James McDonald's sighting at Savannah River, about unspecified at Savannah River site, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Savannah River site",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4295.0,
+      "to_s": 4309.0,
+      "teller": "luis-elizondo",
+      "quote": "James McDonald famous physicist who was kind of very marginalized over this topic he was at I think Arizona State I believe he saw his sighting I think was at Savannah riversite",
+      "kind": "secondhand",
+      "cites": [
+        "james-mcdonald"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 7458.0,
+      "to_s": 7471.0,
+      "teller": "jesse-michels",
+      "quote": "James McDon Donald was a physicist at Arizona State who after seeing a UFO at Savannah riversite nuclear facility at South Carolina was made a public mockery of",
+      "kind": "host",
+      "cites": [
+        "james-mcdonald"
+      ],
+      "documents": [],
+      "difference": "Told by the host rather than secondhand by Elizondo, and says he was publicly mocked.",
+      "link_reason": "Both tell of physicist James McDonald's UFO sighting at the Savannah River site and his being marginalised.",
+      "as_told": {
+        "title": "James McDonald's UFO sighting at Savannah River",
+        "years": null,
+        "place_text": "Savannah River Site, South Carolina",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "luis-elizondo"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

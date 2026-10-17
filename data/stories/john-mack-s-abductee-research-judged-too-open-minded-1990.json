@@ -1,0 +1,61 @@
+{
+  "id": "john-mack-s-abductee-research-judged-too-open-minded-1990",
+  "title": "John Mack's abductee research judged too open-minded",
+  "summary": "Michael Shermer tells of John Mack's abductee research judged too open-minded, about 1990s at Harvard, Cambridge, Massachusetts, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "harvard-ma",
+  "place_text": "Harvard",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 7687.0,
+      "to_s": 7690.0,
+      "teller": "michael-shermer",
+      "quote": "I think he I think he was a little too open-minded.",
+      "kind": "researcher",
+      "cites": [
+        "john-mack"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "john-mack-s-abduction-cases-were-done-by-humans-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "michael-shermer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

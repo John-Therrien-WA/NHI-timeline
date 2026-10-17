@@ -1,0 +1,74 @@
+{
+  "id": "roswell-crash-test-dummy-and-project-mogul-explanations-reje-1947",
+  "title": "Roswell crash-test-dummy and Project Mogul explanations rejected",
+  "summary": "Jesse Michels tells of Roswell crash-test-dummy and Project Mogul explanations rejected, about 1947 at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 7875.0,
+      "to_s": 7884.0,
+      "teller": "jesse-michels",
+      "quote": "Oh, these bluish dummies. It's like and that happened like way later. And then Project Mogul like Project Mogul is like later",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "air-force-and-cia-created-two-weeks-after-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-as-exotic-human-technology-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "air-force-roswell-reports-project-mogul-and-crash-dummies-1994",
+      "relation": "variant",
+      "note": "Both concern the Air Force's Project Mogul and crash-dummy explanations for Roswell. Shermer presents the 1994 and 1996 reports as the explanation, while the story's teller rejects those explanations."
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

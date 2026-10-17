@@ -1,0 +1,77 @@
+{
+  "id": "sarbacher-s-letter-to-william-steinman-1980",
+  "title": "Sarbacher's letter to William Steinman",
+  "summary": "Jesse Michels tells of Sarbacher's letter to William Steinman, about 1980s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 891.0,
+      "to_s": 896.0,
+      "teller": "jesse-michels",
+      "quote": "Sarbacher had just written a letter to William Steinman, who's another UFO researcher",
+      "kind": "host",
+      "cites": [
+        "robert-sarbacher",
+        "william-steinman",
+        "john-von-neumann",
+        "vannevar-bush",
+        "j-robert-oppenheimer"
+      ],
+      "documents": [
+        "sarbacher-letter-to-william-steinman"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "bill-sweetman-s-1980s-look-at-sap-compartmentalization-and-d",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-gateway-documents-show-psionics-were-taken-seriously-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "reagan-diary-on-the-capacity-to-put-300-people-in-orbit-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

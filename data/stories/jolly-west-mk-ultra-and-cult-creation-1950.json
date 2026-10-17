@@ -1,0 +1,105 @@
+{
+  "id": "jolly-west-mk-ultra-and-cult-creation-1950",
+  "title": "Jolly West, MK Ultra and cult creation",
+  "summary": "Jesse Michels tells of Jolly West, MK Ultra and cult creation, about 1950s-1960s at UCLA, Los Angeles, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "UCLA, Los Angeles",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 694.0,
+      "to_s": 706.0,
+      "teller": "jesse-michels",
+      "quote": "Jolly West, do you know who that is? He was one of the architects of MK Ultra and he was ahead of UCLA psychiatry out in LA, actually.",
+      "kind": "host",
+      "cites": [
+        "jolly-west",
+        "charles-manson"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 12075.0,
+      "to_s": 12086.0,
+      "teller": "jesse-michels",
+      "quote": "Jolly West, for example, was like >> head of UCLA psychiatry for a very long time. and he's talking with Sydney Gotautley back and forth. He's probably MK Ultraing, you know, Charles Manson.",
+      "kind": "host",
+      "cites": [
+        "colin-ross",
+        "jolly-west",
+        "sydney-gotautley"
+      ],
+      "documents": [
+        "cia-doctors"
+      ],
+      "difference": "Adds West's exchanges with Sidney Gottlieb and credits Colin Ross's book CIA Doctors.",
+      "link_reason": "Jolly West as an MK Ultra psychiatrist heading UCLA psychiatry and linked to Charles Manson, the same subject as the Jolly West cult-creation story.",
+      "as_told": {
+        "title": "MK Ultra psychiatrists: Jolly West, Gottlieb and Manson",
+        "years": {
+          "from": 1950,
+          "to": 1979
+        },
+        "place_text": "UCLA, United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "gorilla-masks-for-u-2-and-sr-71-test-pilots-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mk-ultra-bluebird-artichoke-and-occult-research-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "oscar-wolf-s-project-blue-book-special-unit-on-700-unexplain-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "project-blue-book-and-the-condon-study-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kccrkCGGzX4",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

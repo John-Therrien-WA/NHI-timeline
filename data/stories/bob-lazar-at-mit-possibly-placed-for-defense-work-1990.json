@@ -1,0 +1,77 @@
+{
+  "id": "bob-lazar-at-mit-possibly-placed-for-defense-work-1990",
+  "title": "Bob Lazar at MIT, possibly placed for defense work",
+  "summary": "Eric Weinstein tells of Bob Lazar at MIT, possibly placed for defense work, about early 1990s or before at MIT, Lincoln Labs or Draper, Massachusetts, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1993
+  },
+  "place": null,
+  "place_text": "MIT, Lincoln Labs or Draper, Massachusetts",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 10587.0,
+      "to_s": 10599.0,
+      "teller": "eric-weinstein",
+      "quote": "I I don't know, but my sense is he was put there to work on um something defense related.",
+      "kind": "researcher",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 1651.0,
+      "to_s": 1654.0,
+      "teller": "bob-lazar",
+      "quote": "I was sent there.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Lazar tells it firsthand and says flatly that he was sent there, putting it before 1988, where Weinstein only guesses and places it in the early 1990s.",
+      "link_reason": "Both tell of Bob Lazar being placed at MIT for classified or defense work. Here Lazar says it himself; in the story Weinstein guesses it.",
+      "as_told": {
+        "title": "Sent to MIT for classified work",
+        "years": {
+          "from": 1988,
+          "to": 1988
+        },
+        "place_text": "MIT, Massachusetts",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

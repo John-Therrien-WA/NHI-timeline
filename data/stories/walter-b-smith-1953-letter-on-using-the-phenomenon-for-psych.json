@@ -1,0 +1,96 @@
+{
+  "id": "walter-b-smith-1953-letter-on-using-the-phenomenon-for-psych",
+  "title": "Walter B. Smith 1953 letter on using the phenomenon for psychological warfare",
+  "summary": "Jesse Michels tells of Walter B. Smith 1953 letter on using the phenomenon for psychological warfare, about 1953 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1953,
+    "to": 1953
+  },
+  "place": "united-states",
+  "place_text": "United States (CIA)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 783.0,
+      "to_s": 796.0,
+      "teller": "jesse-michels",
+      "quote": "letters like the one by CIA director\nWalter B Smith in\n1953 saying that we should use the\nphenomena for psychological warfare\nagainst the Soviets you have similar\nleaked letters from Alan Dulles",
+      "kind": "host",
+      "cites": [
+        "walter-bedell-smith",
+        "allen-dulles"
+      ],
+      "documents": [
+        "walter-b-smith-1953-letter",
+        "allen-dulles-letters"
+      ]
+    },
+    {
+      "episode": "9QMrhcpJq8I",
+      "from_s": 4110.0,
+      "to_s": 4122.0,
+      "teller": "jesse-michels",
+      "quote": "there's even a I believe a memo from Walter B. Smith uh who I believe took over the CIA in 52-53 and he's saying you know how do we you know use the UFO phenomena",
+      "kind": "host",
+      "cites": [
+        "walter-bedell-smith"
+      ],
+      "documents": [
+        "walter-b-smith-memo"
+      ],
+      "difference": "The teller is unsure of the date (1952-53), calls it a memo rather than a letter, and does not mention Dulles or psychological warfare explicitly.",
+      "link_reason": "Both are about CIA Director Walter B. Smith's letter/memo on using the UFO phenomenon against the Soviets.",
+      "as_told": {
+        "title": "Walter B. Smith memo on using UFO phenomena against Soviets",
+        "years": {
+          "from": 1952,
+          "to": 1953
+        },
+        "place_text": "CIA, Washington, D.C.",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "cia-robertson-panel-1953",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "robertson-panel-aim-to-debunk-sightings-1953",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "9QMrhcpJq8I",
+      "TH10mD9hQas"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

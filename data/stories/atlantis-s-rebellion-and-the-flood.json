@@ -1,0 +1,77 @@
+{
+  "id": "atlantis-s-rebellion-and-the-flood",
+  "title": "Atlantis's rebellion and the flood",
+  "summary": "Jason Jorjani tells of Atlantis's rebellion and the flood, about prehistory at Atlantis, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Atlantis",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 2404.0,
+      "to_s": 2418.0,
+      "teller": "jason-jorjani",
+      "quote": "this is what Plato tells us was the great sin of the Atlanteanss is that they stop sacrificing to the gods and worshiping them. So that Zeus basically calls the convocation of the Olympians and decides to wipe the world clean in what we more commonly know as Noah's flood.",
+      "kind": "researcher",
+      "cites": [
+        "plato"
+      ],
+      "documents": [
+        "plato-s-account-of-atlantis"
+      ]
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 6405.0,
+      "to_s": 6414.0,
+      "teller": "jason-jorjani",
+      "quote": "if there was some rebellion in Atlantis or whatever you want to call that civilization, which Plato recounts in Tmus and Critius and so forth,",
+      "kind": "researcher",
+      "cites": [
+        "plato"
+      ],
+      "documents": [
+        "timaeus",
+        "critias"
+      ],
+      "difference": "Names the Timaeus and Critias as sources and does not mention the flood.",
+      "link_reason": "Jorjani again tells of the rebellion in Atlantis as Plato recounts it.",
+      "as_told": {
+        "title": "The rebellion in Atlantis recounted by Plato",
+        "years": null,
+        "place_text": "Atlantis",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

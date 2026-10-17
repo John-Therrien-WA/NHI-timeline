@@ -1,0 +1,55 @@
+{
+  "id": "congressional-report-on-the-1944-maison-rouge-meeting",
+  "title": "Congressional report on the 1944 Maison Rouge meeting",
+  "summary": "Peter Levenda tells of Congressional report on the 1944 Maison Rouge meeting, about 1944-1945 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1944,
+    "to": 1945
+  },
+  "place": "washington-dc",
+  "place_text": "Strasbourg, France; US Congress",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 7898.0,
+      "to_s": 7921.0,
+      "teller": "peter-levenda",
+      "quote": "The US Congress published in June of 1945 before the war in Asia was over. They published a report on basically what was the Maison Rouge meeting that happened in 1944 uh in Straborg.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "us-congressional-record-report-on-the-maison-rouge-meeting-j"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

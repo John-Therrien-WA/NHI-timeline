@@ -1,0 +1,56 @@
+{
+  "id": "elizondo-saw-jacobs-s-film-at-aatip-2010",
+  "title": "Elizondo saw Jacobs's film at AATIP",
+  "summary": "Jesse Michels tells of Elizondo saw Jacobs's film at AATIP, about 2010s at The Pentagon, Arlington, Virginia, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2019
+  },
+  "place": "pentagon",
+  "place_text": "Pentagon",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 2242.0,
+      "to_s": 2249.0,
+      "teller": "jesse-michels",
+      "quote": "he verified when he was in charge of atip he saw my my film my account",
+      "kind": "secondhand",
+      "cites": [
+        "robert-jacobs",
+        "luis-alzando"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

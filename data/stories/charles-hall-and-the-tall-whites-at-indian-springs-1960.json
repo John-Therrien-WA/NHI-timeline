@@ -1,0 +1,55 @@
+{
+  "id": "charles-hall-and-the-tall-whites-at-indian-springs-1960",
+  "title": "Charles Hall and the tall whites at Indian Springs",
+  "summary": "Jesse Michels tells of Charles Hall and the tall whites at Indian Springs, about 1960s at Indian Springs Valley, Nevada, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Indian Springs Valley, Nevada",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 1607.0,
+      "to_s": 1611.0,
+      "teller": "jesse-michels",
+      "quote": "have you heard of uh Colonel Charles Hall",
+      "kind": "host",
+      "cites": [
+        "charles-hall"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

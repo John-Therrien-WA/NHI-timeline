@@ -1,0 +1,55 @@
+{
+  "id": "jacobs-records-denied-and-mailbox-blown-up-1964",
+  "title": "Jacobs records denied and mailbox blown up",
+  "summary": "Robert Hastings tells of Jacobs records denied and mailbox blown up, about after 1964 at Vandenberg Space Force Base, California, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "vandenberg-ca",
+  "place_text": "Jacobs's farm; Vandenberg Air Force Base records",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 291.0,
+      "to_s": 309.0,
+      "teller": "robert-hastings",
+      "quote": "they denied there was ever a Robert Jacobs in the Air Force he gets a phone call one night he and his wife come home from a movie the phone rings the voice says your mailbox Al light what a beautiful sight you're going down",
+      "kind": "secondhand",
+      "cites": [
+        "robert-jacobs"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "robert-hastings"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

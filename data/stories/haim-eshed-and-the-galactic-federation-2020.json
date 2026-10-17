@@ -1,0 +1,99 @@
+{
+  "id": "haim-eshed-and-the-galactic-federation-2020",
+  "title": "Haim Eshed and the Galactic Federation",
+  "summary": "Jesse Michels tells of Haim Eshed and the Galactic Federation, about c. 2020 at Israel / Mars, and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2020
+  },
+  "place": null,
+  "place_text": "Israel / Mars",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 11104.0,
+      "to_s": 11109.0,
+      "teller": "jesse-michels",
+      "quote": "you know High mesed you know who's head of the Israeli space force",
+      "kind": "secondhand",
+      "cites": [
+        "haim-eshed"
+      ],
+      "documents": [
+        "haim-eshed-biography"
+      ]
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 11283.0,
+      "to_s": 11291.0,
+      "teller": "james-fox",
+      "quote": "he's head of the Israel\nequivalent of space force okay which is\nan extremely important position",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "James Fox doesn't name Eshed, give a year or mention the Galactic Federation. He stresses only how important the position is, calling it the Israeli equivalent of a space force.",
+      "link_reason": "Both tellings are about the head of Israel's space program (Haim Eshed) making public statements. That is the 2020 Galactic Federation story.",
+      "as_told": {
+        "title": "Head of Israel's space force equivalent makes public statements",
+        "years": null,
+        "place_text": "Israel",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 6664.0,
+      "to_s": 6669.0,
+      "teller": "jesse-michels",
+      "quote": ">> And he just writes this autobiography where he talks about uh the Galactic Federation.",
+      "kind": "host",
+      "cites": [
+        "haim-eshed"
+      ],
+      "documents": [
+        "haim-eshed-autobiography"
+      ],
+      "difference": "Names Eshed's autobiography as where he made the claim.",
+      "link_reason": "Both are about Haim Eshed, the Israeli space official, and his claims about a Galactic Federation.",
+      "as_told": {
+        "title": "Haim Eshed and the Galactic Federation",
+        "years": null,
+        "place_text": "Israel",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested"
+}

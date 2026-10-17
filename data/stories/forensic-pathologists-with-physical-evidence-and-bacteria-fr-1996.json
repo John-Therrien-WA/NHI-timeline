@@ -1,0 +1,102 @@
+{
+  "id": "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996",
+  "title": "Forensic pathologists with physical evidence and bacteria from Varginha",
+  "summary": "James Fox tells of Forensic pathologists with physical evidence and bacteria from Varginha, about 1996 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 3569.0,
+      "to_s": 3575.0,
+      "teller": "james-fox",
+      "quote": "I've got two forensic Pathologists that are coming that just came forward",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 1750.0,
+      "to_s": 1766.0,
+      "teller": "jesse-michels",
+      "quote": "But you have the autopsy of this soldier who's died because he basically grabbed an alien being and and it shows bacteria.",
+      "kind": "host",
+      "cites": [
+        "dr-janini",
+        "dr-armando"
+      ],
+      "documents": [
+        "marco-chereze-autopsy-report-ipd"
+      ],
+      "difference": "Names the autopsy report and Chereze as the dead soldier, and credits Dr. Janini and Dr. Armando.",
+      "link_reason": "Both concern the forensic pathology of the Varginha case finding bacteria, here tied to the autopsy of Marco Chereze.",
+      "as_told": {
+        "title": "Autopsy of Marco Chereze shows unknown bacteria",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "night-meeting-with-military-x-about-the-varginha-operation-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "former-police-chief-pedro-aguiar-says-he-took-part-and-saw-t-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "general-tells-varginha-driver-what-he-saw-was-supernatural-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-neurosurgeon-and-new-witness-testimony-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

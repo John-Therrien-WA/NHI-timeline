@@ -1,0 +1,154 @@
+{
+  "id": "richard-bissell-briefed-malmgren-privately-on-otherworld-tec-1973",
+  "title": "Richard Bissell briefed Malmgren privately on \"otherworld technologies\"",
+  "summary": "Matthew Pines tells of Richard Bissell briefed Malmgren privately on \"otherworld technologies\", about c. 1973 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1973,
+    "to": 1973
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 9863.0,
+      "to_s": 9871.0,
+      "teller": "matthew-pines",
+      "quote": "Richard Abyssell told him in a private briefing that um of quote otherworld technologies that they'd been working on.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "9QMrhcpJq8I",
+      "from_s": 4710.0,
+      "to_s": 4715.0,
+      "teller": "matthew-pines",
+      "quote": "similar with Richard Bissell who told him of their efforts to retrieve and figure out other world technologies",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": [],
+      "difference": "Dated to the 1950s-60s and linked to the CIA and Area 51, where the story has c. 1973 and a private briefing.",
+      "link_reason": "Both are Richard Bissell telling Malmgren about efforts with otherworld technologies.",
+      "as_told": {
+        "title": "Richard Bissell tells Malmgren of retrieving other-world technologies",
+        "years": {
+          "from": 1950,
+          "to": 1969
+        },
+        "place_text": "CIA; Area 51",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 5055.0,
+      "to_s": 5072.0,
+      "teller": "harold-malmgren",
+      "quote": "word yet. They presented forces that were beyond CIA's knowledge or control and they interfered perhaps with what CIA was doing with private industry.",
+      "kind": "firsthand",
+      "cites": [
+        "richard-bissell"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Malmgren and dated 1963 rather than c. 1973. Adds that these forces were beyond the CIA's control and interfered with its work with private industry.",
+      "link_reason": "Both tell of Richard Bissell privately briefing Malmgren on otherworld technologies; here Malmgren tells it firsthand.",
+      "as_told": {
+        "title": "Bissell's briefing on UFOs and other-world technology",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "Washington DC",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 3159.0,
+      "to_s": 3168.0,
+      "teller": "jesse-michels",
+      "quote": "goes and and briefs him on quote unquote otherworld technologies and all these kind of past crash retrievals, including Magenta of 1933.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": [],
+      "difference": "Dates the briefing to 1962 rather than about 1973 and names Magenta 1933 among the retrievals covered.",
+      "link_reason": "Same private briefing of Malmgren by Bissell on 'otherworld technologies' and past crash retrievals.",
+      "as_told": {
+        "title": "Bissell briefs Malmgren on crash retrievals including Magenta 1933",
+        "years": {
+          "from": 1933,
+          "to": 1962
+        },
+        "place_text": "Magenta, Italy / USA",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 3712.0,
+      "to_s": 3717.0,
+      "teller": "uapgerb",
+      "quote": "Richard Bissell allegedly briefing Malman otherworldly technologies",
+      "kind": "secondhand",
+      "cites": [
+        "richard-bissell",
+        "harold-malgrren",
+        "randy-anderson"
+      ],
+      "documents": [],
+      "difference": "Told second hand and marked 'allegedly'; credits Randy Anderson and gives no date.",
+      "link_reason": "Both tell of Richard Bissell briefing Harold Malmgren on 'otherworld' technologies.",
+      "as_told": {
+        "title": "Bissell briefed Malmgren on otherworldly technologies",
+        "years": null,
+        "place_text": null,
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 2,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "harold-malmgren",
+      "uapgerb"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "9QMrhcpJq8I",
+      "C4rSj5Aum7w",
+      "LpLFWdsIU7M",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "brandenburg-s-xenon-129-nuclear-signature-at-cydonia-2010",
+  "title": "Brandenburg's xenon-129 nuclear signature at Cydonia",
+  "summary": "Jason Jorjani tells of Brandenburg's xenon-129 nuclear signature at Cydonia, about ancient Mars; research 2010s at New Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2019
+  },
+  "place": "new-mexico",
+  "place_text": "Cydonia, Mars; New Mexico",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 4079.0,
+      "to_s": 4096.0,
+      "teller": "jason-jorjani",
+      "quote": "Yeah. I spent several days with Dr. Brandenburgg in New Mexico and I I put this in Closer Encounters, this research of of uh Dr. Brandenburgg that basically the the deviation from normal of the isizotopic ratio of xenon 129 in Sedonia",
+      "kind": "researcher",
+      "cites": [
+        "john-brandenburg"
+      ],
+      "documents": [
+        "closer-encounters"
+      ]
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 11686.0,
+      "to_s": 11690.0,
+      "teller": "jason-jorjani",
+      "quote": "and as we discussed earlier Brandenburg saw evidence of nuclear war on Mars",
+      "kind": "secondhand",
+      "cites": [
+        "john-brandenburg"
+      ],
+      "documents": [],
+      "difference": "States the conclusion, nuclear war on Mars, without naming the xenon-129 evidence or Cydonia.",
+      "link_reason": "Jorjani refers back to Brandenburg's evidence of nuclear war on Mars, which is the xenon-129 signature at Cydonia he talked about earlier in the episode.",
+      "as_told": {
+        "title": "Brandenburg's evidence of nuclear war on Mars",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 9443.0,
+      "to_s": 9456.0,
+      "teller": "jesse-michels",
+      "quote": "Argon 40 and Xenon 129. So, there's this one friend of mine who's uh he's uh was at Lawrence Livermore in Sandia and he thinks that there was a nuclear holocaust on Mars.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds argon-40 as evidence and credits an unnamed friend from Lawrence Livermore and Sandia instead of naming Brandenburg; Cydonia is not mentioned.",
+      "link_reason": "Both claim a nuclear war on ancient Mars, inferred from isotope evidence including xenon-129. Brandenburg's theory is the same one, here told through an unnamed friend from Lawrence Livermore and Sandia.",
+      "as_told": {
+        "title": "Nuclear holocaust on Mars inferred from argon-40 and xenon-129",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 3796.0,
+      "to_s": 3809.0,
+      "teller": "jesse-michels",
+      "quote": "argon 40 and xenon 129 exist in excess of what you would ever expect with just natural radioactive isotope decay implying that there was a nuclear holocaust on Mars.",
+      "kind": "secondhand",
+      "cites": [
+        "john-brandenburg"
+      ],
+      "documents": [],
+      "difference": "Names Brandenburg directly and does not mention Cydonia.",
+      "link_reason": "Both tell Brandenburg's theory that excess argon-40 and xenon-129 point to a nuclear holocaust on Mars.",
+      "as_told": {
+        "title": "Brandenburg's Mars nuclear holocaust theory",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-jorjani",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc",
+      "jMCavr3dVP0",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested"
+}

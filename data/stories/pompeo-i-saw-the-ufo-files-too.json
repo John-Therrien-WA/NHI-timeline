@@ -1,0 +1,80 @@
+{
+  "id": "pompeo-i-saw-the-ufo-files-too",
+  "title": "Pompeo: 'I saw the UFO files, too'",
+  "summary": "Jesse Michels tells of Pompeo: 'I saw the UFO files, too', about an unknown time at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 4387.0,
+      "to_s": 4398.0,
+      "teller": "jesse-michels",
+      "quote": "But I will say this is a very weird non-sequitur from former CIA Director Mike Pompeo, when asked why the nearly 5000 JFK files still won't be released to this day.",
+      "kind": "host",
+      "cites": [
+        "mike-pompeo"
+      ],
+      "documents": [
+        "jfk-files"
+      ]
+    },
+    {
+      "episode": "DPmO-2E7Ayg",
+      "from_s": 930.0,
+      "to_s": 944.0,
+      "teller": "michael-shellenberger",
+      "quote": "Pompeo when he was interviewed by judge NPO aano very awkward kind of segue from you know was like are you going to release the JFK files he goes no you know we can't do that some of the people are still alive and then he goes uh you know I've seen the the UAP files as well",
+      "kind": "journalist",
+      "cites": [
+        "mike-pompeo",
+        "judge-napolitano"
+      ],
+      "documents": [
+        "jfk-files",
+        "uap-files"
+      ],
+      "difference": "Names Judge Napolitano as the interviewer and gives Pompeo's reason for withholding the files: some of the people are still alive.",
+      "link_reason": "Both tell of Pompeo's odd segue from the withheld JFK files to saying he had also seen the UFO/UAP files.",
+      "as_told": {
+        "title": "Pompeo links the withheld JFK files to the UAP files in his Napolitano interview",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.4,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "jesse-michels",
+      "michael-shellenberger"
+    ],
+    "episodes": [
+      "DPmO-2E7Ayg",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 1.2,
+  "tier": "well-attested"
+}

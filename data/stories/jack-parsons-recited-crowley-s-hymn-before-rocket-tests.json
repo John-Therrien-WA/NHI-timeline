@@ -1,0 +1,53 @@
+{
+  "id": "jack-parsons-recited-crowley-s-hymn-before-rocket-tests",
+  "title": "Jack Parsons recited Crowley's hymn before rocket tests",
+  "summary": "Jesse Michels tells of Jack Parsons recited Crowley's hymn before rocket tests, about an unknown time at Jet Propulsion Laboratory, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Jet Propulsion Laboratory",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1735.0,
+      "to_s": 1750.0,
+      "teller": "jesse-michels",
+      "quote": "Jack parsons's The Godfather of American rocketry and founder of jet propulsion Laboratories would often recite a cultist Alistair Crowley's version of the him toan before every rocket test",
+      "kind": "host",
+      "cites": [
+        "jack-parsons",
+        "aleister-crowley"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

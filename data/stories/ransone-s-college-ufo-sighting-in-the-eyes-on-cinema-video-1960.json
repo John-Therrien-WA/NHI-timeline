@@ -1,0 +1,82 @@
+{
+  "id": "ransone-s-college-ufo-sighting-in-the-eyes-on-cinema-video-1960",
+  "title": "Ransone's college UFO sighting in the Eyes on Cinema video",
+  "summary": "Unnamed guest tells of Ransone's college UFO sighting in the Eyes on Cinema video, about 1960s at northern Illinois, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "dekalb-il",
+  "place_text": "northern Illinois",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 11966.0,
+      "to_s": 11976.0,
+      "teller": "unnamed-guest",
+      "quote": "in the video, she tells this crazy story about how she had a UFO experience when she was a a kid in college and her friend saw it.",
+      "kind": "secondhand",
+      "cites": [
+        "valerie-ransone"
+      ],
+      "documents": [
+        "eyes-on-cinema-youtube-interview"
+      ]
+    },
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 7217.0,
+      "to_s": 7228.0,
+      "teller": "jesse-michels",
+      "quote": "And up at Northern Illinois University, 1971 October, it's around 11:00 a.m. and I noticed a strange object above the student union building.",
+      "kind": "secondhand",
+      "cites": [
+        "valerie-ransone"
+      ],
+      "documents": [],
+      "difference": "Dates it to October 1971, around 11 a.m., above the Northern Illinois University student union, where the story puts it in the 1960s and mentions a friend who also saw it.",
+      "link_reason": "Both tell of Valerie Ransone's own UFO sighting while she was a college student in northern Illinois.",
+      "as_told": {
+        "title": "Valerie Ransone's sighting over the Northern Illinois University student union",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "Northern Illinois University, DeKalb, Illinois",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested"
+}

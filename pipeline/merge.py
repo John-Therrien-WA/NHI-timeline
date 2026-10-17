@@ -180,12 +180,21 @@ def run(root: Root, episodes_only: list[str] | None = None) -> dict:
         if "tellings" not in s or "related" not in s:
             raise SystemExit(f"story {s['id']} lacks tellings or related")
     stats = {"stories": 0, "tellings": 0, "people": 0, "documents": 0, "places_filled": 0, "same_event": 0}
+    work: list[tuple] = []  # (file, episode id, candidate) in episode date order
     for f in candidate_files(root, episodes_only):
         batch = load_json(f)
         eid = batch.get("episode")
         if eid not in episodes:
             raise SystemExit(f"{rel(f, root.path)}: episode {eid!r} has no data/episodes file")
-        for cand in batch["candidates"]:
+        work.extend((f, eid, cand) for cand in batch["candidates"])
+    # A resumed link run may join a candidate to a story that a later candidate of the pass creates (the
+    # provisional story stood when the join was decided). Such a candidate waits for its story; one whose
+    # story nothing in the pass creates still fails loudly.
+    created_later = {c["link"]["id"] for _, _, c in work if c.get("link") and c["link"].get("id")}
+    strict = False  # set when a pass deferred everything: the next pass takes the loud error instead of waiting
+    while work:
+        deferred: list[tuple] = []
+        for f, eid, cand in work:
             cand = dict(cand)
             cand["place"] = resolver.resolve(cand.get("place_text"))
             teller = ensure_person(people, cand["teller"], role_for(cand["kind"]), names)
@@ -197,6 +206,10 @@ def run(root: Root, episodes_only: list[str] | None = None) -> dict:
             aliases = alias_map(stories)
             link = cand.get("link")
             held = next((s for s in stories.values() if any(same_telling(telling, t) for t in s["tellings"])), None)
+            waits_for = link.get("story") if held is None and link and link["decision"] in ("same", "variant") else None
+            if waits_for is not None and resolve(waits_for, stories, aliases) is None and waits_for in created_later and not strict:
+                deferred.append((f, eid, cand))
+                continue
             if held is not None:
                 story = held
             elif link is None:
@@ -245,6 +258,8 @@ def run(root: Root, episodes_only: list[str] | None = None) -> dict:
                 if story.get("place") is None and cand["place"] is not None:
                     story["place"] = cand["place"]
                     stats["places_filled"] += 1
+        strict = len(deferred) == len(work)
+        work = deferred
     # same-event links: shared years, place and kind, no relation yet in either direction
     ids = sorted(stories)
     for i, a in enumerate(ids):

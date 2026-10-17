@@ -1,0 +1,77 @@
+{
+  "id": "private-contractor-and-jsoc-team-exchange-fire-at-a-crash-si",
+  "title": "Private contractor and JSOC team exchange fire at a crash site",
+  "summary": "Jack tells of Private contractor and JSOC team exchange fire at a crash site, about an unknown time at an unknown place, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "mexico",
+  "place_text": "Coyame, Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 1823.0,
+      "to_s": 1838.0,
+      "teller": "jack",
+      "quote": "there's a there's a story of apparently um a private military contractor you know contracted by locky Martin sent out to recover a crash and the jck team sent out to the same crash site",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 6015.0,
+      "to_s": 6027.0,
+      "teller": "jesse-michels",
+      "quote": "Uh, I believe there's a rumor of a a dog fight between Loied crash retrieval team and a JSOW crash retrieval team in 2004",
+      "kind": "host",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [
+        "sentinels-of-ether"
+      ],
+      "difference": "Dates it to 2004, places it at Coyame, Mexico, and ties it to Barber's Sentinels of Ether.",
+      "link_reason": "The same story of a Lockheed contractor team and a JSOC team fighting over one crash site.",
+      "as_told": {
+        "title": "Rumored 2004 dogfight between Lockheed and JSOC crash retrieval teams",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Coyame, Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.9,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 2,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jack",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.45,
+  "tier": "well-attested"
+}

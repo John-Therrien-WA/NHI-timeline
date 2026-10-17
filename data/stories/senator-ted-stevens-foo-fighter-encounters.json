@@ -1,0 +1,75 @@
+{
+  "id": "senator-ted-stevens-foo-fighter-encounters",
+  "title": "Senator Ted Stevens' Foo Fighter encounters",
+  "summary": "Lou Elizondo tells of Senator Ted Stevens' Foo Fighter encounters, about World War II at wartime Europe, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "wartime Europe",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1333.0,
+      "to_s": 1348.0,
+      "teller": "luis-elizondo",
+      "quote": "let's talk about one of the the founders of my program atip Senator Stevens from Alaska this was a World War II pilot he who he himself admitted he had encounters with Foo Fighters during the war",
+      "kind": "secondhand",
+      "cites": [
+        "ted-stevens"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 5761.0,
+      "to_s": 5773.0,
+      "teller": "merrick",
+      "quote": "Ted Stevens, who later became senator uh in Alaska and co-sponsored UFO research with Harry Reid through OAP, uh saw a Foo Fighter.",
+      "kind": "researcher",
+      "cites": [
+        "ted-stevens",
+        "harry-reid"
+      ],
+      "documents": [],
+      "difference": "Speaks of a single foo fighter sighting with no place given, and ties Stevens to Harry Reid and the OSAP/AATIP research.",
+      "link_reason": "Both tell of Senator Ted Stevens seeing foo fighters during WWII.",
+      "as_told": {
+        "title": "Ted Stevens saw a foo fighter",
+        "years": null,
+        "place_text": "not stated",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "luis-elizondo",
+      "merrick"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several"
+}

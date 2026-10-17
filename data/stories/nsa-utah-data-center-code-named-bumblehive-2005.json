@@ -1,0 +1,53 @@
+{
+  "id": "nsa-utah-data-center-code-named-bumblehive-2005",
+  "title": "NSA Utah data center code-named Bumblehive",
+  "summary": "Matthew Pines tells of NSA Utah data center code-named Bumblehive, about c. 2005-2013 at Utah, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2005,
+    "to": 2013
+  },
+  "place": null,
+  "place_text": "Utah",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 12360.0,
+      "to_s": 12374.0,
+      "teller": "matthew-pines",
+      "quote": "Yes. And what was interesting, so Utah data center, it's now declassified this code name. What the NSA set up then the largest sort of single data center in Utah back in the 2005s, something like that. And the code name for it was Bumblehive.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

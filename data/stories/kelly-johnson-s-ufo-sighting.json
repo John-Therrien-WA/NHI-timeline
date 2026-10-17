@@ -1,0 +1,74 @@
+{
+  "id": "kelly-johnson-s-ufo-sighting",
+  "title": "Kelly Johnson's UFO sighting",
+  "summary": "Jesse Michels tells of Kelly Johnson's UFO sighting, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4592.0,
+      "to_s": 4608.0,
+      "teller": "jesse-michels",
+      "quote": "at approximately 5:00 p.m. uh Mr Johnson was looking out of a large window facing the west and just watching the sunset he watched this black thing",
+      "kind": "secondhand",
+      "cites": [
+        "kelly-johnson"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 6864.0,
+      "to_s": 6877.0,
+      "teller": "merrick",
+      "quote": "Kelly Johnson, who is um the uh skunk works, the basically the the most famous, the most well-known aeronautical engineer in American history, sees the same object from his ranch.",
+      "kind": "researcher",
+      "cites": [
+        "kelly-johnson"
+      ],
+      "documents": [],
+      "difference": "Places it at his ranch in Southern California near the Channel Islands, says a Lockheed crew saw it too, and calls the object elliptical.",
+      "link_reason": "Both tellings are Kelly Johnson's own sighting, where he watched a dark object from his window at sunset.",
+      "as_told": {
+        "title": "Kelly Johnson and Lockheed crew see elliptical object",
+        "years": null,
+        "place_text": "Southern California, Channel Islands",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "merrick"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several"
+}

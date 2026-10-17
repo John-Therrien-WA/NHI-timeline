@@ -1,0 +1,57 @@
+{
+  "id": "gimbal-recorded-by-ryan-graves-squadron-vfa-11-2015",
+  "title": "Gimbal recorded by Ryan Graves' squadron VFA-11",
+  "summary": "Merrick tells of Gimbal recorded by Ryan Graves' squadron VFA-11, about 2015 at off Florida, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": null,
+  "place_text": "off Florida",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 6003.0,
+      "to_s": 6011.0,
+      "teller": "merrick",
+      "quote": "this is Ryan Grave Squadron. I think it's VFA1, the Red Rippers.",
+      "kind": "researcher",
+      "cites": [
+        "ryan-graves"
+      ],
+      "documents": [
+        "gimbal-video"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

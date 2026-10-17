@@ -1,0 +1,74 @@
+{
+  "id": "briefing-on-engineered-isotopic-ratios-of-recovered-craft-2019",
+  "title": "Briefing on engineered isotopic ratios of recovered craft",
+  "summary": "David Grusch tells of Briefing on engineered isotopic ratios of recovered craft, about c. 2019-2022 at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2019,
+    "to": 2022
+  },
+  "place": "united-states",
+  "place_text": "United States intelligence community",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 529.0,
+      "to_s": 540.0,
+      "teller": "david-grusch",
+      "quote": "Based on the very specific properties that I was briefed on, you know, isotopic ratios that would have to be engineered for it to be at those levels.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "intel-reports"
+      ]
+    },
+    {
+      "episode": "Y26iMB0r-f8",
+      "from_s": 1509.0,
+      "to_s": 1525.0,
+      "teller": "david-grusch",
+      "quote": "I talked to people who really did analyze the stuff from the real deal stuff and it's super weird it's like heavy element um you know europium californium stuff it's like in these Atomic Arrangements that make like no sense",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "This telling relays what the analysts themselves told him, where the story has him being briefed directly, and it names heavy elements (europium, californium) in senseless atomic arrangements instead of engineered isotopic ratios.",
+      "link_reason": "Both are Grusch describing what analysis of material from recovered non-human craft showed: anomalous, apparently engineered composition. The briefing story is his own account of what he learned about the recovered craft's material properties, and this telling covers the same subject.",
+      "as_told": {
+        "title": "Analysis of recovered material: europium and californium in strange atomic arrangements",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "david-grusch"
+    ],
+    "episodes": [
+      "Y26iMB0r-f8",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,78 @@
+{
+  "id": "prince-hans-adam-gathered-the-roswell-witnesses-1970",
+  "title": "Prince Hans-Adam gathered the Roswell witnesses",
+  "summary": "Jesse Michels tells of Prince Hans-Adam gathered the Roswell witnesses, about 1970s or 1980s at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1989
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 9204.0,
+      "to_s": 9217.0,
+      "teller": "jesse-michels",
+      "quote": "and he he gathered the guy named John Brandenberg who I interviewed said that uh Prince Hans Adams um had uh gathered all of the uh Roswell witnesses",
+      "kind": "host",
+      "cites": [
+        "john-brandenburg",
+        "prince-hans-adam"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 7314.0,
+      "to_s": 7324.0,
+      "teller": "jesse-michels",
+      "quote": "and then apparently he convened the royal prince of Liechtenstein Hans Adams convened all of the Roswell witnesses as well",
+      "kind": "host",
+      "cites": [
+        "hans-adam",
+        "whitley-strieber"
+      ],
+      "documents": [],
+      "difference": "Links it to Whitley Strieber instead of John Brandenburg as the source, and gives no decade.",
+      "link_reason": "Same claim that Prince Hans-Adam gathered the Roswell witnesses.",
+      "as_told": {
+        "title": "Prince Hans-Adam convened the Roswell witnesses",
+        "years": null,
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

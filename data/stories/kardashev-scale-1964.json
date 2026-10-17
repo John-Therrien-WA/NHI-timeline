@@ -1,0 +1,55 @@
+{
+  "id": "kardashev-scale-1964",
+  "title": "Kardashev scale",
+  "summary": "Karl Nell tells of Kardashev scale, about 1964 at Russia, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": null,
+  "place_text": "Russia",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 1580.0,
+      "to_s": 1598.0,
+      "teller": "karl-nell",
+      "quote": "Nicolai kardashev Uh Russian astronomer back in 1964 sort of proposed during the age where Optical astronomy was becoming popular and radioastronomy is coming on to identify civilizations based on the ability of uh them to access the energy of entire star",
+      "kind": "researcher",
+      "cites": [
+        "nikolai-kardashev"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "karl-nell"
+    ],
+    "episodes": [
+      "aa9Xx5wI8Rw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

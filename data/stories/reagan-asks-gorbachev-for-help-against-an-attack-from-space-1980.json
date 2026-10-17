@@ -1,0 +1,57 @@
+{
+  "id": "reagan-asks-gorbachev-for-help-against-an-attack-from-space-1980",
+  "title": "Reagan asks Gorbachev for help against an attack from space",
+  "summary": "Pippa Malmgren tells of Reagan asks Gorbachev for help against an attack from space, about 1980s at US-Soviet summit, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "US-Soviet summit",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 8741.0,
+      "to_s": 8754.0,
+      "teller": "pippa-malmgren",
+      "quote": "\"If the United States were attacked by someone from outer space, would you help us?\"",
+      "kind": "secondhand",
+      "cites": [
+        "mikhail-gorbachev",
+        "charlie-rose",
+        "ronald-reagan"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "pippa-malmgren"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

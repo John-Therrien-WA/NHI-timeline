@@ -1,0 +1,52 @@
+{
+  "id": "townsend-brown-s-experiments-in-oil",
+  "title": "Townsend Brown's experiments in oil",
+  "summary": "Charles tells of Townsend Brown's experiments in oil, about 20th century at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 6662.0,
+      "to_s": 6665.0,
+      "teller": "charles",
+      "quote": "I he\ndid things in oil.",
+      "kind": "researcher",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "charles"
+    ],
+    "episodes": [
+      "mOWwdIuyaQA"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

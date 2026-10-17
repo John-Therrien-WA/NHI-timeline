@@ -1,0 +1,55 @@
+{
+  "id": "malmgren-diaries-record-meetings-with-richard-bissell",
+  "title": "Malmgren diaries record meetings with Richard Bissell",
+  "summary": "Ross Coulthart tells of Malmgren diaries record meetings with Richard Bissell, about Cold War era at Washington, D.C., and reports it citing named sources. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 4495.0,
+      "to_s": 4507.0,
+      "teller": "ross-coulthart",
+      "quote": "I've also seen his diaries, which are now in a safe place and they're backed up, so don't mess with them. And I have seen a lot of meetings between Harold Malmgren and Richard Bissell.",
+      "kind": "journalist",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": [
+        "harold-malmgren-s-diaries"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

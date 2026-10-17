@@ -1,0 +1,76 @@
+{
+  "id": "general-tells-varginha-driver-what-he-saw-was-supernatural-1996",
+  "title": "General tells Varginha driver what he saw was 'supernatural'",
+  "summary": "military X tells of General tells Varginha driver what he saw was 'supernatural', about 1996 at Varginha, Brazil, and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha / Campinas, Brazil",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 7319.0,
+      "to_s": 7335.0,
+      "teller": "military-x",
+      "quote": "It was then that he stated that what I had witnessed was a particular thing. Super natural.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "moment-of-contact"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "forensic-pathologists-with-physical-evidence-and-bacteria-fr-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "former-police-chief-pedro-aguiar-says-he-took-part-and-saw-t-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "night-meeting-with-military-x-about-the-varginha-operation-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-neurosurgeon-and-new-witness-testimony-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "military-x"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

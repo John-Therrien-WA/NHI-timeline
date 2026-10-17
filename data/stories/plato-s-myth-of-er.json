@@ -1,0 +1,78 @@
+{
+  "id": "plato-s-myth-of-er",
+  "title": "Plato's Myth of Er",
+  "summary": "Diana Pasulka tells of Plato's Myth of Er, about Classical Greece at Greece (the ancient oracle sites), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "ancient-greece",
+  "place_text": "Greece",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 2838.0,
+      "to_s": 2846.0,
+      "teller": "diana-pasulka",
+      "quote": "recorded ndes which is the myth of er which is about the soldier who dies in battle and has a near-death experience",
+      "kind": "researcher",
+      "cites": [
+        "plato"
+      ],
+      "documents": [
+        "the-republic"
+      ]
+    },
+    {
+      "episode": "KRDE1i3LDuU",
+      "from_s": 5482.0,
+      "to_s": 5492.0,
+      "teller": "james-madden",
+      "quote": "Yeah. So, uh, in in the in the Republic, uh, uh, Er was a was a a a virtuous person. He dies in battle for the city",
+      "kind": "researcher",
+      "cites": [
+        "plato"
+      ],
+      "documents": [
+        "republic"
+      ],
+      "difference": "Er is called a virtuous man who died fighting for his city; it is not framed as a near-death experience.",
+      "link_reason": "Plato's Myth of Er in the Republic, about a man who dies in battle. This is the stored story Pasulka tells.",
+      "as_told": {
+        "title": "Myth of Er",
+        "years": null,
+        "place_text": "afterlife (Plato's Republic)",
+        "story_kind": "cosmology"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "diana-pasulka",
+      "james-madden"
+    ],
+    "episodes": [
+      "KRDE1i3LDuU",
+      "aa9Xx5wI8Rw"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested"
+}

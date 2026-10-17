@@ -1,0 +1,58 @@
+{
+  "id": "fbi-records-on-karl-compton-destroyed-foia-reply-2006",
+  "title": "FBI records on Karl Compton destroyed, FOIA reply",
+  "summary": "Jesse Michels tells of FBI records on Karl Compton destroyed, FOIA reply, about 2006-2014 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2006,
+    "to": 2014
+  },
+  "place": "united-states",
+  "place_text": "United States (FBI)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 1393.0,
+      "to_s": 1406.0,
+      "teller": "jesse-michels",
+      "quote": "Quote unquote, records which may [music] have been responsive to your request were destroyed August 30th, 2006.",
+      "kind": "host",
+      "cites": [
+        "john-greenewald",
+        "karl-compton"
+      ],
+      "documents": [
+        "foia-response-april-2014"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

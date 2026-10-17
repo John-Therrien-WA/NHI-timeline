@@ -1,0 +1,73 @@
+{
+  "id": "fravor-and-dietrich-saw-appendages-on-underwood-s-flir-tape-2004",
+  "title": "Fravor and Dietrich saw appendages on Underwood's FLIR tape",
+  "summary": "Merrick tells of Fravor and Dietrich saw appendages on Underwood's FLIR tape, about 2004 at Off Southern California, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "USS Nimitz area, off Southern California",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 3912.0,
+      "to_s": 3926.0,
+      "teller": "merrick",
+      "quote": "both commander uh Fraver and uh Lieutenant Commander Dietrich have stated that when they reviewed Underwood's tapes afterwards, they saw these little appendages, these protrusions.",
+      "kind": "secondhand",
+      "cites": [
+        "david-fravor",
+        "alex-dietrich",
+        "chad-underwood"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "fravor-and-dietrich-disagree-on-how-long-the-encounter-laste-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kevin-day-radar-objects-at-28-000-ft-matched-in-data-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "underwood-says-the-flir-could-not-have-lost-lock-active-duty-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

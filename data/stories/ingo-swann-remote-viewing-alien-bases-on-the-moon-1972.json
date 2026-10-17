@@ -1,0 +1,83 @@
+{
+  "id": "ingo-swann-remote-viewing-alien-bases-on-the-moon-1972",
+  "title": "Ingo Swann remote viewing alien bases on the Moon",
+  "summary": "Jesse Michels tells of Ingo Swann remote viewing alien bases on the Moon, about 1972 onward at The Moon, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1972,
+    "to": 1972
+  },
+  "place": "moon",
+  "place_text": "Moon",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 7145.0,
+      "to_s": 7153.0,
+      "teller": "jesse-michels",
+      "quote": "some of these guys like Ingo Swan would like remote view alien bases on the moon and things like that.",
+      "kind": "host",
+      "cites": [
+        "ingo-swann"
+      ],
+      "documents": [
+        "penetration"
+      ]
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 3948.0,
+      "to_s": 3967.0,
+      "teller": "jason-jorjani",
+      "quote": "tall Nordic people, statuesque Nordic people who gave him a look like, \"You don't belong here. Get the [ __ ] out of here and don't come back.\" And he saw these same people lording over basically armies of slave laborers who he said were naked",
+      "kind": "secondhand",
+      "cites": [
+        "ingo-swann",
+        "axelrod"
+      ],
+      "documents": [],
+      "difference": "Adds tall Nordic beings who warned him off, ruling over naked slave labourers on the far side, and credits Axelrod.",
+      "link_reason": "Both tell of Ingo Swann remote viewing beings or bases on the Moon in the 1970s.",
+      "as_told": {
+        "title": "Ingo Swann remote views Nordics and slave labor on the Moon",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "the Moon (far side)",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-jorjani",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w",
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

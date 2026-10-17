@@ -1,0 +1,62 @@
+{
+  "id": "attempts-to-discredit-lazar-s-los-alamos-and-s4-employment-1980",
+  "title": "Attempts to discredit Lazar's Los Alamos and S4 employment",
+  "summary": "Joe Rogan tells of Attempts to discredit Lazar's Los Alamos and S4 employment, about 1980s at Los Alamos, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "los-alamos-nm",
+  "place_text": "Los Alamos, New Mexico; S4, Area 51, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 1026.0,
+      "to_s": 1037.0,
+      "teller": "joe-rogan",
+      "quote": "they tried to say that he never worked at Los Alamos, but that's been confirmed. And then they tried to say that he was never at Area S4 or Area 51 site 4, but he was there and he knew it.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar",
+        "george-knapp"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "lazar-was-only-a-radiation-badge-monitor-for-a-logistics-con-1980",
+      "relation": "variant",
+      "note": "Both are about whether Lazar really worked at Los Alamos and S4. The story's teller says his work there was confirmed; Davis says he was only a radiation badge monitor for a logistics contractor and never went to Area 51."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

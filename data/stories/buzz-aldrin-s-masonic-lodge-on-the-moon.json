@@ -1,0 +1,76 @@
+{
+  "id": "buzz-aldrin-s-masonic-lodge-on-the-moon",
+  "title": "Buzz Aldrin's Masonic lodge on the Moon",
+  "summary": "Jesse Michels tells of Buzz Aldrin's Masonic lodge on the Moon, about an unknown time at The Moon, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "moon",
+  "place_text": "the Moon",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1685.0,
+      "to_s": 1696.0,
+      "teller": "jesse-michels",
+      "quote": "Buzz aldron even established a masonic lodge on the Moon called Tranquility Lodge 2000 chartered by the Grand Lodge of Texas",
+      "kind": "host",
+      "cites": [
+        "buzz-aldrin"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 11900.0,
+      "to_s": 11913.0,
+      "teller": "jesse-michels",
+      "quote": "and you had launchpad 33 for NASA and then you also had Buzz Aldrin who was a Freemason literally stake out the moon if you know that with a with a a Freemasonic flag or whatever.",
+      "kind": "host",
+      "cites": [
+        "buzz-aldrin"
+      ],
+      "documents": [],
+      "difference": "Speaks of a Masonic flag rather than a chartered lodge, and adds NASA's launch pad 33.",
+      "link_reason": "Both tell of Buzz Aldrin staking a Masonic claim on the Moon.",
+      "as_told": {
+        "title": "Launch pad 33 and Buzz Aldrin's Masonic flag on the Moon",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "NASA / the Moon",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

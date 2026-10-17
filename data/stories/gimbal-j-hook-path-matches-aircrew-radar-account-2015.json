@@ -1,0 +1,88 @@
+{
+  "id": "gimbal-j-hook-path-matches-aircrew-radar-account-2015",
+  "title": "Gimbal J-hook path matches aircrew radar account",
+  "summary": "Merrick tells of Gimbal J-hook path matches aircrew radar account, about 2015 at off Florida, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": "off-us-east-coast",
+  "place_text": "off Florida",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 7188.0,
+      "to_s": 7200.0,
+      "teller": "merrick",
+      "quote": "vertical U-turn, this J hook path that that matches precisely with what uh the air crew say that the uh that the object on that was tracked on radar does.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "gimbal-video"
+      ]
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 8994.0,
+      "to_s": 9006.0,
+      "teller": "marik-von-rennenkampf",
+      "quote": "I'm only saying it is a there's a spectacular match between the eyewitness accounts right of that anomalous trajectory that that direction reversal with no radius of turn",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Says the match is with the eyewitness accounts of a direction reversal with no turn radius, without naming the radar.",
+      "link_reason": "Both claim that the reconstructed Gimbal trajectory (a reversal with no turn radius, a J-hook) closely matches the aircrew's account.",
+      "as_told": {
+        "title": "Gimbal eyewitness accounts match the reconstructed trajectory",
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "place_text": "Off the US East Coast",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "gimbal-radar-returns-as-interference-or-echoes-of-a-distant-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "gimbal-rotation-is-a-camera-artifact-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "marik-von-rennenkampf",
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "well-attested"
+}

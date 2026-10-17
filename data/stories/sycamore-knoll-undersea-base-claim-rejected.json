@@ -1,0 +1,81 @@
+{
+  "id": "sycamore-knoll-undersea-base-claim-rejected",
+  "title": "Sycamore Knoll undersea base claim rejected",
+  "summary": "Tim Gallaudet tells of Sycamore Knoll undersea base claim rejected, about unspecified at Point Dume, Malibu, California, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "point-dume-ca",
+  "place_text": "Sycamore Knoll, off Point Dume, Southern California",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 2397.0,
+      "to_s": 2399.0,
+      "teller": "tim-gallaudet",
+      "quote": "There was no alien base there.",
+      "kind": "researcher",
+      "cites": [
+        "preston-denn"
+      ],
+      "documents": [
+        "undersea-ufo-base"
+      ]
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 2419.0,
+      "to_s": 2425.0,
+      "teller": "jesse-michels",
+      "quote": "we did the research and we're like I don't think there's anything",
+      "kind": "firsthand",
+      "cites": [
+        "will-o-brien"
+      ],
+      "documents": [],
+      "difference": "Michels describes his own research with Will O'Brien into a rover survey, rather than Gallaudet's assessment.",
+      "link_reason": "Like telling 1, it dismisses the Point Dume undersea base claim, here based on Michels and Will O'Brien's own look at the rover survey.",
+      "as_told": {
+        "title": "Michels and Will O'Brien look into a rover survey at Point Dume",
+        "years": null,
+        "place_text": "Point Dume, California",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "point-dume-alien-base-erased-from-maps",
+      "relation": "variant",
+      "note": "Both concern the claimed alien base off Point Dume (Sycamore Knoll); the story asserts a base that was erased from maps, while this telling says there was no base."
+    }
+  ],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels",
+      "tim-gallaudet"
+    ],
+    "episodes": [
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested"
+}

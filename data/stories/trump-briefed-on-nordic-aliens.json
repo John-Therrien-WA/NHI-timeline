@@ -1,0 +1,52 @@
+{
+  "id": "trump-briefed-on-nordic-aliens",
+  "title": "Trump briefed on Nordic aliens",
+  "summary": "Jesse Michels tells of Trump briefed on Nordic aliens, about unspecified at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 6847.0,
+      "to_s": 6851.0,
+      "teller": "jesse-michels",
+      "quote": "yeah, wasn't he briefed on like Nordics or something like Nordic aliens?",
+      "kind": "host",
+      "cites": [
+        "donald-trump"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

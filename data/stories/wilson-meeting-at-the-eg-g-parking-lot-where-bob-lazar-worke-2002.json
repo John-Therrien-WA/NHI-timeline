@@ -1,0 +1,59 @@
+{
+  "id": "wilson-meeting-at-the-eg-g-parking-lot-where-bob-lazar-worke-2002",
+  "title": "Wilson meeting at the EG&G parking lot where Bob Lazar worked",
+  "summary": "Jesse Michels tells of Wilson meeting at the EG&G parking lot where Bob Lazar worked, about 2002 at EG&G, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2002,
+    "to": 2002
+  },
+  "place": null,
+  "place_text": "EG&G",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 7115.0,
+      "to_s": 7125.0,
+      "teller": "jesse-michels",
+      "quote": "that meeting took place in the parking lot & which is where Bob Lazar I pretty sure worked",
+      "kind": "host",
+      "cites": [
+        "bob-lazar",
+        "eric-davis",
+        "thomas-j-wilson"
+      ],
+      "documents": [
+        "wilson-memo"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

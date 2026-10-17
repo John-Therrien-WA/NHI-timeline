@@ -1,0 +1,52 @@
+{
+  "id": "china-holds-at-least-one-craft-via-puthoff",
+  "title": "China holds at least one craft, via Puthoff",
+  "summary": "Eric Davis tells of China holds at least one craft, via Puthoff, about an unknown time at China, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "China",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 2272.0,
+      "to_s": 2284.0,
+      "teller": "eric-davis",
+      "quote": "China is like a closed door I know through how put up that they have at least one and I think he might have gotten that officially through some work he did with the DIA",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

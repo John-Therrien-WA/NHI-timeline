@@ -1,0 +1,59 @@
+{
+  "id": "jack-ruby-seen-by-mk-ultra-psychiatrist-jolly-west-1964",
+  "title": "Jack Ruby seen by MK Ultra psychiatrist Jolly West",
+  "summary": "Jesse Michels tells of Jack Ruby seen by MK Ultra psychiatrist Jolly West, about 1964 at Dallas jail, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": null,
+  "place_text": "Dallas jail",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 5241.0,
+      "to_s": 5250.0,
+      "teller": "jesse-michels",
+      "quote": "And then he's seen court-ordered by a psychiatrist who is on record as being part of MK Ultra, a guy named Jolly West,",
+      "kind": "host",
+      "cites": [
+        "jack-ruby",
+        "jolly-west",
+        "sidney-gottlieb"
+      ],
+      "documents": [
+        "west-gottlieb-letters"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

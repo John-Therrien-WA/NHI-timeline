@@ -1,0 +1,70 @@
+{
+  "id": "unnamed-southern-california-facility-storing-non-human-bodie",
+  "title": "Unnamed Southern California facility storing non-human bodies",
+  "summary": "UAPGerb tells of Unnamed Southern California facility storing non-human bodies, about present at Southern California, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Southern California",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 9617.0,
+      "to_s": 9625.0,
+      "teller": "uapgerb",
+      "quote": ">> Yeah. A place out in California. Oh, an unnamed place. A place that doesn't have its own designation.",
+      "kind": "secondhand",
+      "cites": [
+        "unnamed-source"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 12834.0,
+      "to_s": 12838.0,
+      "teller": "uapgerb",
+      "quote": "hey the bodies are st stored over there in California",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Says only 'California', not Southern California.",
+      "link_reason": "Both are the same teller's claim that non-human bodies are stored at an unnamed place in California.",
+      "as_told": {
+        "title": "Non-human bodies stored in California",
+        "years": null,
+        "place_text": "California",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

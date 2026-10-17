@@ -1,0 +1,99 @@
+{
+  "id": "von-neumann-paper-the-presence-must-be-believed-into-our-rea-1950",
+  "title": "Von Neumann paper: the presence must be believed into our reality",
+  "summary": "Whitley Strieber tells of Von Neumann paper: the presence must be believed into our reality, about 1950s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 1311.0,
+      "to_s": 1322.0,
+      "teller": "whitley-strieber",
+      "quote": "there is supposedly a paper and General Exon who was no scientist but had been exposed to a lot of scientists involved in this",
+      "kind": "secondhand",
+      "cites": [
+        "arthur-exon",
+        "john-von-neumann"
+      ],
+      "documents": [
+        "von-neumann-paper-unnamed"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "1950s-flying-butane-tanks-in-air-force-osi-reports",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "duell-s-diary-records-meeting-the-president-on-the-mj-12-bri-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-s-book-reports-metallic-spheres-in-formation-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-s-serious-cases-cluster-near-nuclear-facilities-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "talbert-newspaper-series-on-1950s-aerospace-anti-gravity-int",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nick-cook-s-search-for-1950s-gravity-research",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "blue-book-special-report-14-contradicts-its-press-release-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-documents-describing-flat-mirror-like-objects-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "whitley-strieber"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

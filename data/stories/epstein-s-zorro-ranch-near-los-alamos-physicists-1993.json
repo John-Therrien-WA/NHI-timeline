@@ -1,0 +1,106 @@
+{
+  "id": "epstein-s-zorro-ranch-near-los-alamos-physicists-1993",
+  "title": "Epstein's Zorro Ranch near Los Alamos physicists",
+  "summary": "Jesse Michels tells of Epstein's Zorro Ranch near Los Alamos physicists, about 1993 at New Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1993,
+    "to": 1993
+  },
+  "place": "new-mexico",
+  "place_text": "Zorro Ranch, New Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 11905.0,
+      "to_s": 11919.0,
+      "teller": "jesse-michels",
+      "quote": "DOE security is so lax that Epstein can move to, you know, Zoro Ranch with the explicit intent of being near retired Los Alamos physicists so he can gain.",
+      "kind": "host",
+      "cites": [
+        "jeffrey-epstein"
+      ],
+      "documents": [
+        "epstein-interview-with-steve-bannon"
+      ]
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 9315.0,
+      "to_s": 9320.0,
+      "teller": "jesse-michels",
+      "quote": "interviewed by Steve Bannon and Epstein is. This is at the end of his life.",
+      "kind": "secondhand",
+      "cites": [
+        "jeffrey-epstein",
+        "steve-bannon"
+      ],
+      "documents": [
+        "steve-bannon-interview-with-jeffrey-epstein"
+      ],
+      "difference": "Sources the claim to Epstein's 2019 interview with Steve Bannon near the end of his life.",
+      "link_reason": "Both say Epstein moved to Zorro Ranch to be near retired Los Alamos physicists.",
+      "as_told": {
+        "title": "Epstein placed Zorro Ranch near retiring Los Alamos physicists",
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "place_text": "Zorro Ranch / Los Alamos, New Mexico",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 6392.0,
+      "to_s": 6401.0,
+      "teller": "jesse-michels",
+      "quote": "He said he tells Bannon that he's, you know, decides to set up Zorro Ranch because Los Alamos physicists are retiring",
+      "kind": "host",
+      "cites": [
+        "jeffrey-epstein",
+        "steve-bannon"
+      ],
+      "documents": [],
+      "difference": "Gives no year, where the story gives 1993.",
+      "link_reason": "Same account: Epstein tells Bannon he set up Zorro Ranch because Los Alamos physicists were retiring nearby.",
+      "as_told": {
+        "title": "Epstein's Zorro Ranch near retiring Los Alamos physicists",
+        "years": null,
+        "place_text": "New Mexico",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "kccrkCGGzX4",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "vallee-s-diaries-keep-pointing-to-the-carlyle-group",
+  "title": "Vallée's diaries keep pointing to the Carlyle Group",
+  "summary": "Jesse Michels tells of Vallée's diaries keep pointing to the Carlyle Group, about unspecified at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 3017.0,
+      "to_s": 3037.0,
+      "teller": "jesse-michels",
+      "quote": "Oh yeah. So like you read Jock Valet's diaries, you know, he he publishes his diaries, Forbidden Science volumes 1 through five. And I think it's like three or volume three or four. He always has lunch with all these people and you know these like spooky insider types and they're constantly like look at the Carile group",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee",
+        "carlyle-group"
+      ],
+      "documents": [
+        "forbidden-science"
+      ]
+    },
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 3667.0,
+      "to_s": 3677.0,
+      "teller": "jesse-michels",
+      "quote": "think like uh because Carile Group has a lot of defense interests right? It's this multinational conglomerate. Do you think there's anything to the jock valet theory",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": [],
+      "difference": "Calls it Vallée's theory and stresses Carlyle's multinational defense interests, without citing the diaries' lunch conversations.",
+      "link_reason": "Both are about the claim, drawn from Vallée, that the Carlyle Group is tied to the UFO secret. This telling frames it as Vallée's theory and points to Carlyle's defense interests.",
+      "as_told": {
+        "title": "Vallee theory and Carlyle Group defense interests",
+        "years": null,
+        "place_text": "United States / multinational",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

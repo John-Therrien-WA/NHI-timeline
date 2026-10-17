@@ -1,0 +1,59 @@
+{
+  "id": "apollo-14-blue-orb-above-mitchell-blacked-out-in-lpi-scan-1971",
+  "title": "Apollo 14 blue orb above Mitchell blacked out in LPI scan",
+  "summary": "Maaneli Derakhshani tells of Apollo 14 blue orb above Mitchell blacked out in LPI scan, about 1971 at Lunar surface, Apollo 14, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1971,
+    "to": 1971
+  },
+  "place": null,
+  "place_text": "Lunar surface, Apollo 14",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 2937.0,
+      "to_s": 2949.0,
+      "teller": "maaneli-derakhshani",
+      "quote": "there is a blue orb in the lunar sky very clearly. It's very obvious above uh Mitchell.",
+      "kind": "researcher",
+      "cites": [
+        "edgar-mitchell",
+        "ross-coulthart"
+      ],
+      "documents": [
+        "lunar-and-planetary-institute-archive",
+        "march-to-the-moon-archive"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "maaneli-derakhshani"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

@@ -1,0 +1,97 @@
+{
+  "id": "nasa-administrator-isaacman-says-some-cases-are-unresolved-2026",
+  "title": "NASA administrator Isaacman says some cases are unresolved",
+  "summary": "Jesse Michels tells of NASA administrator Isaacman says some cases are unresolved, about 2026 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2026,
+    "to": 2026
+  },
+  "place": "united-states",
+  "place_text": "NASA, United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6127.0,
+      "to_s": 6134.0,
+      "teller": "jesse-michels",
+      "quote": "Yeah, but even Jared Isaacman, the current NASA admin, is admitting that some of these cases are unresolved in I",
+      "kind": "host",
+      "cites": [
+        "jared-isaacman"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 911.0,
+      "to_s": 940.0,
+      "teller": "jesse-michels",
+      "quote": "new department of ward drop uh with there have been kind of a series but the first batch really focused on kind of space exploration and astronaut encounters and it basically forced Jared Isaacman who's the current NASA admin to say yeah you know we're not talking about you know reverse engineering UFOs necessarily or you know confirmed alien bodies you know nothing like that but these sightings were unexplained which is a huge update",
+      "kind": "host",
+      "cites": [
+        "jared-isaacman"
+      ],
+      "documents": [
+        "department-of-war-uap-file-release"
+      ],
+      "difference": "Says the Department of War's first file batch, on space and astronaut encounters, forced the admission, and that he denied reverse engineering and alien bodies.",
+      "link_reason": "Same admission by NASA administrator Jared Isaacman that some sightings remain unexplained.",
+      "as_told": {
+        "title": "Department of War UAP file drop forces Isaacman admission",
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "grusch-sends-someone-to-interview-mccasland-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "intelligence-figures-convene-pastors-to-prepare-their-church-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pastor-apologizes-for-misattributing-the-all-demons-view-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

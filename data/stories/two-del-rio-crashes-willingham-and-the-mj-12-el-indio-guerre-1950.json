@@ -1,0 +1,59 @@
+{
+  "id": "two-del-rio-crashes-willingham-and-the-mj-12-el-indio-guerre-1950",
+  "title": "Two Del Rio crashes: Willingham and the MJ-12 El Indio-Guerrero case",
+  "summary": "UAPGerb tells of Two Del Rio crashes: Willingham and the MJ-12 El Indio-Guerrero case, about 1950-1955 at Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1955
+  },
+  "place": "mexico",
+  "place_text": "Del Rio, Texas / El Indio-Guerrero, Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 9025.0,
+      "to_s": 9044.0,
+      "teller": "uapgerb",
+      "quote": ">> which that's a huge can of worms because there's two crashes there. 1955 Robert Willingham in Del Rio, Texas and the 1954 Del 1950 Del Rio crash which is actually Elindio/g Guerrero, Texas, Mexico, which is only really talked about in the Eisenhower briefing document of the Majestic 12 documents.",
+      "kind": "researcher",
+      "cites": [
+        "robert-willingham",
+        "eric-davis"
+      ],
+      "documents": [
+        "eisenhower-briefing-document",
+        "majestic-12-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

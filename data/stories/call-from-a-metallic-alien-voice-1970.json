@@ -1,0 +1,82 @@
+{
+  "id": "call-from-a-metallic-alien-voice-1970",
+  "title": "Call from a metallic alien voice",
+  "summary": "Greg Malatzi tells of Call from a metallic alien voice, about 1970s at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 33.0,
+      "to_s": 39.0,
+      "teller": "greg-malatzi",
+      "quote": "So, he gets this call from a metallic voice that was some sort of, you know, alien intelligence.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 9635.0,
+      "to_s": 9643.0,
+      "teller": "jesse-michels",
+      "quote": ">> And he was he gets a call from the future saying you're going to meet the others, you're going to be work on like building UFOs essentially, which he",
+      "kind": "host",
+      "cites": [
+        "jack-sarfatti",
+        "hal-puthoff",
+        "hans-bethe",
+        "david-kaiser"
+      ],
+      "documents": [
+        "the-hippies-saved-physics"
+      ],
+      "difference": "Names Sarfatti as the one who got the call, dates it to the 1950s rather than the 1970s, frames the caller as from the future, and says the voice told him he would meet the others and work on building UFOs.",
+      "link_reason": "Both tell of a phone call from a strange voice, presumably alien or from the future, which matches Sarfatti's well-known childhood call. The match is uncertain because the stored telling does not name who got the call.",
+      "as_told": {
+        "title": "Sarfatti's call from the future",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": null,
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg-malatzi",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

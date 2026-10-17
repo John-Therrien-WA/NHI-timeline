@@ -1,0 +1,70 @@
+{
+  "id": "cosmonaut-drew-an-object-that-stopped-beside-their-spacecraf",
+  "title": "Cosmonaut drew an object that stopped beside their spacecraft",
+  "summary": "Kevin Knuth tells of Cosmonaut drew an object that stopped beside their spacecraft, about unspecified at Earth orbit, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Earth orbit",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 61.0,
+      "to_s": 70.0,
+      "teller": "kevin-knuth",
+      "quote": "fact, they had a spacecraft that stopped next to them halfway through their orbit. And the cosmonaut drew a picture of the object.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 4843.0,
+      "to_s": 4851.0,
+      "teller": "kevin-knuth",
+      "quote": "had a spacecraft that stopped beside them\nhalfway through orbit and they took pictures. The\ncosmonaut drew a picture of the\nobject.",
+      "kind": "secondhand",
+      "cites": [
+        "akan-atanv"
+      ],
+      "documents": [],
+      "difference": "Adds that photographs were taken and credits the source 'akan-atanv'.",
+      "link_reason": "Both are Knuth's secondhand account of a cosmonaut who drew an object that stopped beside the spacecraft mid-orbit.",
+      "as_told": {
+        "title": "Cosmonaut sees windowed craft pacing their spacecraft",
+        "years": null,
+        "place_text": "Earth orbit",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

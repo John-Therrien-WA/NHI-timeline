@@ -1,0 +1,82 @@
+{
+  "id": "buzz-aldrin-chased-a-disc-in-a-military-jet-1950",
+  "title": "Buzz Aldrin chased a disc in a military jet",
+  "summary": "James Fox tells of Buzz Aldrin chased a disc in a military jet, about 1950s or 1960s at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": "japan",
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 4607.0,
+      "to_s": 4617.0,
+      "teller": "james-fox",
+      "quote": "my brother told me about a UFO encounter that he had while piloting a a jet a military jet",
+      "kind": "secondhand",
+      "cites": [
+        "fay-ann-potter",
+        "buzz-aldrin"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 1871.0,
+      "to_s": 1885.0,
+      "teller": "jesse-michels",
+      "quote": "because James Fox called him out on another sighting he had had as a fighter pilot over Japan cuz Feyenne Potter, his sister, had told Fox that he had had two sightings.",
+      "kind": "secondhand",
+      "cites": [
+        "james-fox",
+        "fay-potter",
+        "buzz-aldrin"
+      ],
+      "documents": [],
+      "difference": "Places the encounter over Japan and says the sister told Fox of two sightings.",
+      "link_reason": "Both tell of Aldrin's UFO encounter as a military jet pilot, as his sister relayed it to James Fox.",
+      "as_told": {
+        "title": "Aldrin's fighter pilot sighting over Japan, per his sister",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Japan",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

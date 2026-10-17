@@ -1,0 +1,86 @@
+{
+  "id": "senate-intelligence-scif-meeting-and-black-hawks-over-the-in-2022",
+  "title": "Senate Intelligence SCIF meeting and Black Hawks over the investigator's house",
+  "summary": "Steven Greer tells of Senate Intelligence SCIF meeting and Black Hawks over the investigator's house, about c. 2022 at Washington, D.C., and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2022,
+    "to": 2022
+  },
+  "place": "washington-dc",
+  "place_text": "Senate Intelligence Committee, Washington DC",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 5166.0,
+      "to_s": 5176.0,
+      "teller": "steven-greer",
+      "quote": "And boy, within a day or two of that meeting, the main investigator for Senate Intelligence had two Blackhawks over his house, unmarked,",
+      "kind": "firsthand",
+      "cites": [
+        "marco-rubio"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 5942.0,
+      "to_s": 5954.0,
+      "teller": "ross-coulthart",
+      "quote": "and asked Jake, \"Are you able to help me get security because somebody from the Defense Department is ordering helicopters to fly across and over my home. They're harassing my home.\"",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Relayed via Jake Barber, says the staffer asked Barber for security and blames someone in the Defense Department, dated 2024-2025 rather than c. 2022.",
+      "link_reason": "Both tell of the Senate Intelligence investigator/staffer having Black Hawk helicopters flown over his home as harassment.",
+      "as_told": {
+        "title": "Senate staffer harassed by Black Hawks over his home",
+        "years": {
+          "from": 2024,
+          "to": 2025
+        },
+        "place_text": "Washington, D.C. area",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "grusch-files-ig-complaint-and-names-witnesses-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "ross-coulthart",
+      "steven-greer"
+    ],
+    "episodes": [
+      "V00WcEiKRAY",
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested"
+}

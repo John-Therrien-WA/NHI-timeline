@@ -1,0 +1,84 @@
+{
+  "id": "elizondo-neither-confirms-nor-denies-being-read-into-immacul-2024",
+  "title": "Elizondo neither confirms nor denies being read into Immaculate Constellation",
+  "summary": "Jesse Michels tells of Elizondo neither confirms nor denies being read into Immaculate Constellation, about 2024 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2024,
+    "to": 2024
+  },
+  "place": "washington-dc",
+  "place_text": "House Oversight Committee hearing, Washington, D.C.",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "DPmO-2E7Ayg",
+      "from_s": 663.0,
+      "to_s": 672.0,
+      "teller": "jesse-michels",
+      "quote": "he was asked if he was read into Immaculate constellation he had a very interesting answer he said I can neither confirm nor deny",
+      "kind": "host",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 2240.0,
+      "to_s": 2250.0,
+      "teller": "jesse-michels",
+      "quote": "I would not be authorized to confirm nor deny the existence of any ongoing or past program",
+      "kind": "host",
+      "cites": [
+        "luis-elizondo",
+        "michael-shellenberger",
+        "nancy-mace",
+        "jeremy-corbell"
+      ],
+      "documents": [
+        "immaculate-constellation-report"
+      ],
+      "difference": "Quotes his wording as not being authorized to confirm or deny any ongoing or past program, and brings in Shellenberger, Mace and Corbell.",
+      "link_reason": "Both describe Elizondo at the 2024 congressional hearing neither confirming nor denying Immaculate Constellation.",
+      "as_told": {
+        "title": "Elizondo declines to confirm Immaculate Constellation at congressional hearing",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "US Congress",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "DPmO-2E7Ayg",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

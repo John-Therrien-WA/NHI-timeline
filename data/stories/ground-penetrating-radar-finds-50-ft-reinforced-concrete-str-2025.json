@@ -1,0 +1,76 @@
+{
+  "id": "ground-penetrating-radar-finds-50-ft-reinforced-concrete-str-2025",
+  "title": "Ground-penetrating radar finds 50-ft reinforced concrete structure",
+  "summary": "Ross Coulthart tells of Ground-penetrating radar finds 50-ft reinforced concrete structure, about 2025 at Bradshaw Ranch, Sedona, Arizona, and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2025
+  },
+  "place": null,
+  "place_text": "Bradshaw Ranch, Sedona, Arizona",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 5243.0,
+      "to_s": 5257.0,
+      "teller": "ross-coulthart",
+      "quote": "He did a ground penetrating radar check on the road around Bradshaw Ranch, and we found a 50-ft wide reinforced steel concrete, highly visible on ground penetrating radar.",
+      "kind": "firsthand",
+      "cites": [
+        "paul"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 5119.0,
+      "to_s": 5133.0,
+      "teller": "ross-coulthart",
+      "quote": "He did a ground-penetrating radar check on the road around Bradshaw Ranch. And we found a 50-ft wide, reinforced steel concrete, highly visible on ground-penetrating radar, literally just under the ground.",
+      "kind": "firsthand",
+      "cites": [
+        "paul"
+      ],
+      "documents": [],
+      "difference": "Adds that the structure was literally just under the ground.",
+      "link_reason": "Same ground-penetrating radar check by Paul and Coulthart that found a 50-ft reinforced concrete structure under the road around Bradshaw Ranch.",
+      "as_told": {
+        "title": "Ground-penetrating radar finds 50-ft reinforced structure under Bradshaw Ranch road",
+        "years": null,
+        "place_text": "Bradshaw Ranch, Sedona, Arizona",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "OOr98r51Sj0",
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

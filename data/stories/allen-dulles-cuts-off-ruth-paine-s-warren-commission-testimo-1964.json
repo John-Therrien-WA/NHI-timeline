@@ -1,0 +1,85 @@
+{
+  "id": "allen-dulles-cuts-off-ruth-paine-s-warren-commission-testimo-1964",
+  "title": "Allen Dulles cuts off Ruth Paine's Warren Commission testimony",
+  "summary": "Peter Levenda tells of Allen Dulles cuts off Ruth Paine's Warren Commission testimony, about 1964 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, DC",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 1308.0,
+      "to_s": 1313.0,
+      "teller": "peter-levenda",
+      "quote": "Alan Dulles is part of that committee hearing. He stops her.",
+      "kind": "researcher",
+      "cites": [
+        "allen-dulles",
+        "ruth-paine"
+      ],
+      "documents": [
+        "warren-commission-volumes"
+      ]
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 2970.0,
+      "to_s": 2979.0,
+      "teller": "jesse-michels",
+      "quote": "Apparently, Dulles did not want the fact that Ruth Paine had actually been at the summer house or whatever.",
+      "kind": "host",
+      "cites": [
+        "allen-dulles",
+        "mary-bancroft",
+        "ruth-paine"
+      ],
+      "documents": [],
+      "difference": "Says outright that what Dulles was hiding was her presence at the summer house, and credits Mary Bancroft.",
+      "link_reason": "Both describe Dulles keeping Ruth Paine's testimony from revealing her stay at the summer house with his mistress's circle. This matches Levenda's account of Dulles stopping her at the Warren Commission hearing.",
+      "as_told": {
+        "title": "Dulles hides Ruth Paine's visit to the summer house",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "peter-levenda"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

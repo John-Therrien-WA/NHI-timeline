@@ -1,0 +1,77 @@
+{
+  "id": "operation-highjump-laser-shooting-discs",
+  "title": "Operation Highjump laser-shooting discs",
+  "summary": "Jesse Michels tells of Operation Highjump laser-shooting discs, about an unknown time at Antarctica, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "antarctica",
+  "place_text": "Off Argentina towards Antarctica",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 2115.0,
+      "to_s": 2126.0,
+      "teller": "jesse-michels",
+      "quote": "Admiral Richard Bird Goes Down the coast of Argentina towards Antarctica and he and his Fleet encounter laser shooting discs",
+      "kind": "host",
+      "cites": [
+        "admiral-byrd"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 8399.0,
+      "to_s": 8422.0,
+      "teller": "jesse-michels",
+      "quote": "Admiral Bird who engaged in Operation High Jump, you know, bringing probably like 70 or so ships, uh, and 33, I think, you know, airplanes and almost 5,000 men down the coast of of Argentina and towards Antarctica. And they reportedly encounter all these flying saucers that are shooting at them with lasers.",
+      "kind": "host",
+      "cites": [
+        "admiral-byrd",
+        "james-forrestal"
+      ],
+      "documents": [],
+      "difference": "Adds the fleet's size (about 70 ships, 33 aircraft, nearly 5,000 men), credits Forrestal and dates it 1946-1947.",
+      "link_reason": "Same Operation Highjump account: Byrd's fleet goes down the coast of Argentina towards Antarctica and meets saucers that shoot lasers.",
+      "as_told": {
+        "title": "Operation Highjump saucer encounters",
+        "years": {
+          "from": 1946,
+          "to": 1947
+        },
+        "place_text": "Antarctica",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "1f16VvXaSSE"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pope-pius-xii-informs-allies-of-the-craft-1937",
+  "title": "Pope Pius XII informs Allies of the craft",
+  "summary": "Jesse Michels tells of Pope Pius XII informs Allies of the craft, about late 1930s-1940s at Vatican / Italy, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1937,
+    "to": 1949
+  },
+  "place": "italy-magenta",
+  "place_text": "Vatican / Italy",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 5866.0,
+      "to_s": 5874.0,
+      "teller": "jesse-michels",
+      "quote": "Through discrete channels, the Pope quietly informed the Allies about the craft's existence and storage location.",
+      "kind": "host",
+      "cites": [
+        "pope-pius-xii"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 8566.0,
+      "to_s": 8585.0,
+      "teller": "jesse-michels",
+      "quote": "And then you have the Magenta crash probably being held by the Vatican as well or or at least under the knowledge I think it was held at the Soratte bunker which was outside of Rome. But it was the information about it was back channeled through Pope Pius the 12th to FDR.",
+      "kind": "host",
+      "cites": [
+        "pope-pius-xii",
+        "franklin-d-roosevelt"
+      ],
+      "documents": [],
+      "difference": "Names the storage place as the Soratte bunker outside Rome and names FDR as the person receiving the back-channel.",
+      "link_reason": "Both say Pope Pius XII quietly told the Allies (here FDR) about the Magenta craft and where it was stored.",
+      "as_told": {
+        "title": "Magenta crash held at Soratte bunker, back-channelled via Pius XII to FDR",
+        "years": {
+          "from": 1933,
+          "to": 1945
+        },
+        "place_text": "Magenta and Soratte bunker near Rome, Italy",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

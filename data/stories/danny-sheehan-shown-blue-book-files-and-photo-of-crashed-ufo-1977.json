@@ -1,0 +1,84 @@
+{
+  "id": "danny-sheehan-shown-blue-book-files-and-photo-of-crashed-ufo-1977",
+  "title": "Danny Sheehan shown Blue Book files and photo of crashed UFO with symbols",
+  "summary": "Jesse Michels tells of Danny Sheehan shown Blue Book files and photo of crashed UFO with symbols, about late 1970s (Carter administration) at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1979
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C. (SCIF)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 14094.0,
+      "to_s": 14120.0,
+      "teller": "jesse-michels",
+      "quote": "You're making me think of the Danny Shehan story where he's taken into a skiff in Washington at the behest of the Carter administration to review the blue book files on all these UFOs and he claims he sees a picture high definition picture of a UFO crashed into a mountaintop and he traced the photo and drew all these like bizarre kind of hieroglyphic looking symbols",
+      "kind": "secondhand",
+      "cites": [
+        "daniel-sheehan"
+      ],
+      "documents": [
+        "project-blue-book-files"
+      ]
+    },
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 7026.0,
+      "to_s": 7030.0,
+      "teller": "daniel-sheehan",
+      "quote": "No, it was just it was just this room that they had downstairs in the Madison.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "project-blue-book-files"
+      ],
+      "difference": "Told firsthand by Sheehan, who places it in a downstairs room of the Madison Building rather than a SCIF.",
+      "link_reason": "Both describe Sheehan in Washington being shown Blue Book files that included a UFO photograph.",
+      "as_told": {
+        "title": "Blue Book UFO photo viewed in the Madison building",
+        "years": null,
+        "place_text": "Madison Building, Washington, DC",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "alonzo-mcdonald-in-vallee-s-journals-1977",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

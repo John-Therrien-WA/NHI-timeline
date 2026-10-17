@@ -1,0 +1,55 @@
+{
+  "id": "robert-sarbacher-liaison-with-australian-scientists-1950",
+  "title": "Robert Sarbacher liaison with Australian scientists",
+  "summary": "Ross Coulthart tells of Robert Sarbacher liaison with Australian scientists, about 1950s at Australia, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Australia",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 3156.0,
+      "to_s": 3160.0,
+      "teller": "ross-coulthart",
+      "quote": "Robert Sarbacher was definitely involved in liaison.",
+      "kind": "researcher",
+      "cites": [
+        "robert-sarbacher"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

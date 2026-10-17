@@ -1,0 +1,81 @@
+{
+  "id": "cia-osi-takes-ufo-research-underground-blue-book-as-cover-1952",
+  "title": "CIA OSI takes UFO research underground, Blue Book as cover",
+  "summary": "Jesse Michels tells of CIA OSI takes UFO research underground, Blue Book as cover, about 1952 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 1907.0,
+      "to_s": 1922.0,
+      "teller": "jesse-michels",
+      "quote": "1952 the cia's office of scientific intelligence took the real UFO investigations underground they did this while performing a psychological operation the American population in the form of Air Force's Project Blue Book",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "project-blue-book"
+      ]
+    },
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 6467.0,
+      "to_s": 6477.0,
+      "teller": "jesse-michels",
+      "quote": "the long-standing rumors are that this is run by the CIA that in 52 you had public facing UFO UFO research in the form of blue book,",
+      "kind": "host",
+      "cites": [
+        "cia-office-of-scientific-intelligence",
+        "battelle-memorial-institute",
+        "atomic-energy-commission"
+      ],
+      "documents": [],
+      "difference": "Framed as long-standing rumor, and credits Battelle and the Atomic Energy Commission.",
+      "link_reason": "Both say that in 1952 the CIA ran the real UFO study, with Blue Book as the public-facing front.",
+      "as_told": {
+        "title": "CIA running the real UFO study behind Project Blue Book from 1952",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "dnnpyNuPdXs",
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

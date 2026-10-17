@@ -1,0 +1,94 @@
+{
+  "id": "fbi-document-calling-brown-the-navy-s-lead-radar-scientist-1940",
+  "title": "FBI document calling Brown the Navy's lead radar scientist",
+  "summary": "Jesse Michels tells of FBI document calling Brown the Navy's lead radar scientist, about 1940s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "United States Navy",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 2734.0,
+      "to_s": 2745.0,
+      "teller": "jesse-michels",
+      "quote": "there's a an FBI document um that is circulated now and out about him uh and says that he's the lead radar scientist in the entire Navy.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsen-brown"
+      ],
+      "documents": [
+        "fbi-document-on-thomas-townsen-brown"
+      ]
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 704.0,
+      "to_s": 719.0,
+      "teller": "jesse-michels",
+      "quote": "gravity. There's an FBI document from the 40s on him that says he is the lead radar scientist in the entire Navy. Knows more about radar than anyone in the Navy. And then now I think we have pretty good evidence that his work made it into the B2 stealth bomber.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsen-brown"
+      ],
+      "documents": [
+        "fbi-document-on-thomas-townsend-brown"
+      ],
+      "difference": "Adds that his work made it into the B-2 stealth bomber.",
+      "link_reason": "The same 1940s FBI document calling Townsend Brown the Navy's lead radar scientist.",
+      "as_told": {
+        "title": "FBI document on Thomas Townsend Brown and B-2 link",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "United States Navy",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "william-dudley-pelley-s-star-guests-and-soulcraft-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "mOWwdIuyaQA"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

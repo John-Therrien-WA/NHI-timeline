@@ -1,0 +1,64 @@
+{
+  "id": "eisenhower-era-presidential-emergency-action-directives-cove-1950",
+  "title": "Eisenhower-era presidential emergency action directives covering UAPs",
+  "summary": "Eric Davis tells of Eisenhower-era presidential emergency action directives covering UAPs, about 1950s onward at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "washington-dc",
+  "place_text": "White House, Washington DC",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 8683.0,
+      "to_s": 8702.0,
+      "teller": "eric-davis",
+      "quote": "think the presidential emergency action directives are so strict. They were instituted in the White House admin uh in the Eisenhower White House administration. So Eisenhower instituted that and that's been carried forward on many different topics but specifically Jim Seivan and I know that they were instituted for this topic",
+      "kind": "secondhand",
+      "cites": [
+        "jim-semivan",
+        "dwight-eisenhower"
+      ],
+      "documents": [
+        "presidential-emergency-action-directives"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "puharich-s-journal-records-a-meeting-with-allen-dulles-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

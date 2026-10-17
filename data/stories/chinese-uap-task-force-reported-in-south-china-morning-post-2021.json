@@ -1,0 +1,77 @@
+{
+  "id": "chinese-uap-task-force-reported-in-south-china-morning-post-2021",
+  "title": "Chinese UAP task force reported in South China Morning Post",
+  "summary": "David Grusch tells of Chinese UAP task force reported in South China Morning Post, about 2021 at China, and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2021,
+    "to": 2021
+  },
+  "place": null,
+  "place_text": "China",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 5807.0,
+      "to_s": 5815.0,
+      "teller": "david-grusch",
+      "quote": "Do note in the South China Morning post, I want to say it was June 2021 and they had an article like, Oh yeah, we have a UAP task force too.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "south-china-morning-post-article-june-2021"
+      ]
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 2748.0,
+      "to_s": 2754.0,
+      "teller": "luis-elizondo",
+      "quote": "in fact China had a couple years ago in the China Morning Sun an article about the five continents initiative",
+      "kind": "official",
+      "cites": [],
+      "documents": [
+        "china-morning-sun-article-on-the-five-continents-initiative"
+      ],
+      "difference": "Calls the effort the 'five continents initiative' and the paper the 'China Morning Sun', with no date beyond 'a couple years ago'; Grusch's telling puts it in June 2021 and calls it a UAP task force.",
+      "link_reason": "Both describe a Chinese newspaper article from a few years back reporting a Chinese state UAP effort. 'China Morning Sun' looks like a garbled South China Morning Post.",
+      "as_told": {
+        "title": "China's Five Continents Initiative article",
+        "years": null,
+        "place_text": "China",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.6,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "david-grusch",
+      "luis-elizondo"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 1.8,
+  "tier": "well-attested"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "michael-aquino-s-ceremony-at-wewelsburg-castle-1980",
+  "title": "Michael Aquino's ceremony at Wewelsburg Castle",
+  "summary": "Peter Levenda tells of Michael Aquino's ceremony at Wewelsburg Castle, about 1980s at Wewelsburg Castle, Germany, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "Wewelsburg Castle, Germany",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 9367.0,
+      "to_s": 9374.0,
+      "teller": "peter-levenda",
+      "quote": "he conducted a ceremony at Vavsburg Castle, you know, the the Nazi SS Castle, some sort of satanic ceremony.",
+      "kind": "researcher",
+      "cites": [
+        "michael-aquino"
+      ],
+      "documents": [
+        "unholy-alliance"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

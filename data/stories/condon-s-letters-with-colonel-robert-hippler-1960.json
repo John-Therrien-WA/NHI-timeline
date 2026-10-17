@@ -1,0 +1,74 @@
+{
+  "id": "condon-s-letters-with-colonel-robert-hippler-1960",
+  "title": "Condon's letters with Colonel Robert Hippler",
+  "summary": "Jesse Michels tells of Condon's letters with Colonel Robert Hippler, about 1960s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 6367.0,
+      "to_s": 6375.0,
+      "teller": "jesse-michels",
+      "quote": "but later from verified letters we learned that Condon was closely coordinating with Air Force Colonel Robert hippler",
+      "kind": "host",
+      "cites": [
+        "edward-condon",
+        "robert-hippler"
+      ],
+      "documents": [
+        "condonhippler-letters"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "james-mcdonald-s-critique-of-the-condon-committee-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sagan-and-shklovskii-s-intelligent-life-in-the-universe-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puharich-delgado-correspondence-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

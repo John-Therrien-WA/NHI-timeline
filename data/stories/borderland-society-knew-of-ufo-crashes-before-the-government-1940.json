@@ -1,0 +1,104 @@
+{
+  "id": "borderland-society-knew-of-ufo-crashes-before-the-government-1940",
+  "title": "Borderland Society knew of UFO crashes before the government",
+  "summary": "Jesse Michels tells of Borderland Society knew of UFO crashes before the government, about 1940s at unspecified, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 4901.0,
+      "to_s": 4910.0,
+      "teller": "jesse-michels",
+      "quote": ">> you know the Borderlands Society, this sort of occult research group like in the ' 40s. They were aware of certain UFO crashes before the government was and there's documentation of that.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 6136.0,
+      "to_s": 6151.0,
+      "teller": "jesse-michels",
+      "quote": "And he he has uncovered like a couple of UFO either crashes or appearances where the Borderlands Society knew about these UFO appearances before the military did before the army before the air force.",
+      "kind": "host",
+      "cites": [
+        "richard-geldreich"
+      ],
+      "documents": [],
+      "difference": "Credits Richard Geldreich with uncovering it, includes appearances as well as crashes, and gives no decade.",
+      "link_reason": "Both claim the Borderland(s) Society knew of UFO crashes or appearances before the military or government did.",
+      "as_told": {
+        "title": "Borderlands Research Society knew of UFO events before the military",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 5324.0,
+      "to_s": 5331.0,
+      "teller": "jesse-michels",
+      "quote": "and he says that they knew about some of the early crashes in the 40s and 50s before the army and the air force",
+      "kind": "host",
+      "cites": [
+        "richard-geldrite"
+      ],
+      "documents": [],
+      "difference": "Says they knew through remote viewing and extends the period into the 1950s.",
+      "link_reason": "Same claim: the Borderlands society knew of early UFO crashes before the military, as uncovered by Geldreich.",
+      "as_told": {
+        "title": "Borderlands Research Society knew of early crashes through remote viewing",
+        "years": {
+          "from": 1940,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "allen-dulles-arranged-transfer-of-the-magenta-object-under-t-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1sxmSMzqnmA",
+      "2-GeTxXi670",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "hostile-telepaths-encountered-on-mars",
+  "title": "Hostile telepaths encountered on Mars",
+  "summary": "Jeffrey Mishlove tells of Hostile telepaths encountered on Mars, about unspecified at Mars, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 4824.0,
+      "to_s": 4835.0,
+      "teller": "jeffrey-mishlove",
+      "quote": "If you go to Mars telepathically, the first thing you'll encounter is a group of five telepaths who are not exactly welcoming.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey-mishlove"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

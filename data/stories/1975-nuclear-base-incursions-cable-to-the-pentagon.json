@@ -1,0 +1,57 @@
+{
+  "id": "1975-nuclear-base-incursions-cable-to-the-pentagon",
+  "title": "1975 nuclear base incursions cable to the Pentagon",
+  "summary": "Marik von Rennenkampf tells of 1975 nuclear base incursions cable to the Pentagon, about 1975 at US nuclear bases, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1975
+  },
+  "place": null,
+  "place_text": "US nuclear bases",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 10824.0,
+      "to_s": 10835.0,
+      "teller": "marik-von-rennenkampf",
+      "quote": "you got to read the cable like 1975 are youware do you know anything about those incursions where where you can see in a in a literally a um a cable to the Pentagon",
+      "kind": "researcher",
+      "cites": [
+        "john-greenewald"
+      ],
+      "documents": [
+        "1975-cable-to-the-pentagon"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "marik-von-rennenkampf"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

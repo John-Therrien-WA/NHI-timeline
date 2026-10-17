@@ -1,0 +1,53 @@
+{
+  "id": "air-force-lunex-crewed-moon-base-plan-1957",
+  "title": "Air Force Lunex crewed moon-base plan",
+  "summary": "guest tells of Air Force Lunex crewed moon-base plan, about 1957-1961 at Vandenberg Space Force Base, California, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1957,
+    "to": 1961
+  },
+  "place": "vandenberg-ca",
+  "place_text": "Vandenberg Air Force Base; Moon",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 6249.0,
+      "to_s": 6261.0,
+      "teller": "guest",
+      "quote": "I\nrecently learned that the Air Force had\ndetailed plans for like an Air Force\nmanned mission to the moon.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "guest"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

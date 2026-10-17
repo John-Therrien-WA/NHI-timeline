@@ -1,0 +1,66 @@
+{
+  "id": "kennedy-s-silver-certificates-on-june-5-1963",
+  "title": "Kennedy's silver certificates on June 5, 1963",
+  "summary": "Dan Sheehan tells of Kennedy's silver certificates on June 5, 1963, about 1963 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 3940.0,
+      "to_s": 3947.0,
+      "teller": "daniel-sheehan",
+      "quote": "he did this weird thing which I've never been to quite figure out yet about the printing these uh these silver certificates.",
+      "kind": "researcher",
+      "cites": [
+        "oliver-stone"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "bill-holden-kennedy-on-air-force-one-says-ufos-are-out-of-hi-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pope-john-xxiii-to-broker-the-warhead-destruction-deal-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

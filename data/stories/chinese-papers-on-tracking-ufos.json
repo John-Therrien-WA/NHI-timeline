@@ -1,0 +1,52 @@
+{
+  "id": "chinese-papers-on-tracking-ufos",
+  "title": "Chinese papers on tracking UFOs",
+  "summary": "Jesse Michels tells of Chinese papers on tracking UFOs, about unspecified, recent at China, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "China",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 10806.0,
+      "to_s": 10811.0,
+      "teller": "jesse-michels",
+      "quote": "Uh China's published a couple of papers around like tracking UFOs.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "chinese-papers-on-tracking-ufos"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

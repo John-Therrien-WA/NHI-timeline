@@ -1,0 +1,52 @@
+{
+  "id": "uri-geller-abducted-as-a-child",
+  "title": "Uri Geller abducted as a child",
+  "summary": "Jesse Michels tells of Uri Geller abducted as a child, about Geller's childhood at Israel, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Israel",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 970.0,
+      "to_s": 979.0,
+      "teller": "jesse-michels",
+      "quote": "Yuri Geller has a similar story of being abducted, I think, as a as a young child and then he gained his psychic powers that way.",
+      "kind": "host",
+      "cites": [
+        "uri-geller"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

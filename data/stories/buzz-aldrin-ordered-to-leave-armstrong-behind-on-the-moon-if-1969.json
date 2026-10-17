@@ -1,0 +1,74 @@
+{
+  "id": "buzz-aldrin-ordered-to-leave-armstrong-behind-on-the-moon-if-1969",
+  "title": "Buzz Aldrin ordered to leave Armstrong behind on the Moon if needed",
+  "summary": "James Fox tells of Buzz Aldrin ordered to leave Armstrong behind on the Moon if needed, about 1969 at The Moon, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "moon",
+  "place_text": "Moon (Apollo 11)",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 8075.0,
+      "to_s": 8084.0,
+      "teller": "james-fox",
+      "quote": "and that and that if if uh if if if Neil Armstrong came out and anything happened to him Buzz was not supposed to play the hero.",
+      "kind": "secondhand",
+      "cites": [
+        "fay-ann-potter",
+        "buzz-aldrin",
+        "neil-armstrong",
+        "michael-collins"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "apollo-astronauts-given-suicide-pills-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "michael-collins-said-no-stars-visible-contradicted-in-his-bo-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "buzz-aldrin-tells-conan-o-brien-the-landing-footage-was-anim-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

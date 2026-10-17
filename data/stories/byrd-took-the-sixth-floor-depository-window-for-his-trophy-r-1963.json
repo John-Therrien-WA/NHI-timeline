@@ -1,0 +1,66 @@
+{
+  "id": "byrd-took-the-sixth-floor-depository-window-for-his-trophy-r-1963",
+  "title": "Byrd took the sixth-floor depository window for his trophy room",
+  "summary": "Dan Sheehan tells of Byrd took the sixth-floor depository window for his trophy room, about 1963 onward at Texas (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "texas",
+  "place_text": "Dallas, Texas",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 4408.0,
+      "to_s": 4417.0,
+      "teller": "daniel-sheehan",
+      "quote": "You know what else he did? He took the window out of the sixth floor depository building and he put it in his trophy room at his house.",
+      "kind": "researcher",
+      "cites": [
+        "d-harold-byrd"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "oswald-s-attempted-call-to-nags-head-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruth-paine-houses-lee-harvey-oswald-and-marina-in-texas-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

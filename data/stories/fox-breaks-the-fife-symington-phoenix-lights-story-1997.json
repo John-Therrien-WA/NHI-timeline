@@ -1,0 +1,85 @@
+{
+  "id": "fox-breaks-the-fife-symington-phoenix-lights-story-1997",
+  "title": "Fox breaks the Fife Symington Phoenix Lights story",
+  "summary": "James Fox tells of Fox breaks the Fife Symington Phoenix Lights story, about 1997 at Phoenix, Arizona, and reports it citing named sources. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1997,
+    "to": 1997
+  },
+  "place": "united-states",
+  "place_text": "Phoenix, Arizona",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 4902.0,
+      "to_s": 4909.0,
+      "teller": "james-fox",
+      "quote": "anyway I break the story of the governor of Arizona 5 simonon",
+      "kind": "journalist",
+      "cites": [
+        "fife-symington"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 2733.0,
+      "to_s": 2746.0,
+      "teller": "james-fox",
+      "quote": "that he too was a witness to the event and then he looked into it and and he he as a pilot in the Air Force, he said that thing could not have been from here.",
+      "kind": "firsthand",
+      "cites": [
+        "fife-symington"
+      ],
+      "documents": [],
+      "difference": "Adds that the admission came about 10 years later, and that Symington, as an Air Force pilot, said the craft could not have been from here.",
+      "link_reason": "Both are about Governor Fife Symington admitting he saw the 1997 Phoenix Lights, the story Fox broke.",
+      "as_told": {
+        "title": "Governor Fife Symington admits seeing Phoenix Lights",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Arizona, USA",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "kurt-russell-saw-the-phoenix-lights-while-flying-1997",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

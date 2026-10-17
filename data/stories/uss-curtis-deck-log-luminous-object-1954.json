@@ -1,0 +1,55 @@
+{
+  "id": "uss-curtis-deck-log-luminous-object-1954",
+  "title": "USS Curtis deck log luminous object",
+  "summary": "Jesse Michels tells of USS Curtis deck log luminous object, about 1954 at Bikini Atoll, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1954,
+    "to": 1954
+  },
+  "place": null,
+  "place_text": "Bikini Atoll",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 1294.0,
+      "to_s": 1318.0,
+      "teller": "jesse-michels",
+      "quote": "the entry from the deck log of the USS Curtis the ship that detonated the hydrogen bomb at bikini at toll reads at 2305 an unidentified luminous object passed over ship from bow to stern yellowish orange in color traveling at a high rate of speed and a low altitude",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "uss-curtis-deck-log"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

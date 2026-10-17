@@ -1,0 +1,57 @@
+{
+  "id": "refugees-moved-as-cargo-in-conex-containers-2004",
+  "title": "Refugees moved as cargo in conex containers",
+  "summary": "Jesse Michels tells of Refugees moved as cargo in conex containers, about 2004 at Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "mexico",
+  "place_text": "Coyame, Mexico",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 1390.0,
+      "to_s": 1404.0,
+      "teller": "jesse-michels",
+      "quote": "According to Barber, this is how they moved them. These refugees aren't being rescued, they are the cargo.",
+      "kind": "host",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [
+        "sentinels-of-ether"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "OOr98r51Sj0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

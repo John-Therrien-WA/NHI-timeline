@@ -1,0 +1,79 @@
+{
+  "id": "martin-cannon-s-the-controllers-and-john-alexander-s-threat",
+  "title": "Martin Cannon's The Controllers and John Alexander's threat",
+  "summary": "Jesse Michels tells of Martin Cannon's The Controllers and John Alexander's threat, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 10895.0,
+      "to_s": 10906.0,
+      "teller": "jesse-michels",
+      "quote": "I mean there's a book called um the controllers by a guy name I think Martin Cannon and apparently John Alexander like threatened him when he wrote this book",
+      "kind": "host",
+      "cites": [
+        "martin-cannon",
+        "john-alexander"
+      ],
+      "documents": [
+        "the-controllers"
+      ]
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 3561.0,
+      "to_s": 3568.0,
+      "teller": "greg-malatzi",
+      "quote": "it's basically about this idea of the the fabrication of alien abductions,",
+      "kind": "researcher",
+      "cites": [
+        "martin-cannon"
+      ],
+      "documents": [
+        "the-controllers"
+      ],
+      "difference": "Describes the book's thesis on fabricated abductions and leaves out John Alexander's threat.",
+      "link_reason": "Same book, Martin Cannon's The Controllers; this telling gives its thesis that alien abductions were fabricated.",
+      "as_told": {
+        "title": "The Controllers: alien abductions fabricated",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg-malatzi",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

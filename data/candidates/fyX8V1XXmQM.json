@@ -1,0 +1,818 @@
+{
+  "episode": "fyX8V1XXmQM",
+  "captions": "sources/captions/fyX8V1XXmQM.en.txt",
+  "model": "opus",
+  "chunks": 1,
+  "candidates": [
+    {
+      "title": "Vallee hints Bob Lazar was an MK Ultra subject",
+      "story_kind": "document",
+      "years_text": "1980s-1990s",
+      "years": {
+        "from": 1980,
+        "to": 1999
+      },
+      "place_text": "Nevada, USA",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "when he hints that Bob Lazar was actually an MK Ultra patient possibly the subject of government brainwashing which led him to believe he worked on reverse engineering UFOs",
+      "from_s": 109.0,
+      "to_s": 120.0,
+      "cites": [
+        "Jacques Vallee",
+        "Bob Lazar"
+      ],
+      "documents": [
+        "Revelations: Alien Contact and Human Deception"
+      ],
+      "link": {
+        "decision": "variant",
+        "story": "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+        "grain": "same",
+        "reason": "Both are about Bob Lazar's claim to have reverse-engineered UFOs at S4 in Nevada in the late 1980s. This telling, drawn from Vallee's book Revelations, explains that claim as the product of MK Ultra-style government brainwashing, not real work on alien craft, so the two accounts cannot both be right.",
+        "difference": "Credits Jacques Vallee's book Revelations: Alien Contact and Human Deception with hinting that Lazar was an MK Ultra subject brainwashed into believing he had reverse-engineered UFOs, where the story presents Lazar's own claim that he really did that work.",
+        "against": [
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "vallee-and-davis-six-level-uap-paper",
+          "nine-page-pentagon-uap-report-2021",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "navajo-curse-legend-of-skinwalker-ranch",
+          "robertson-panel-recommends-downplaying-ufos-1953",
+          "puthoff-skeptical-of-lazar-after-a-clearance-check"
+        ],
+        "id": "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980"
+      }
+    },
+    {
+      "title": "Spielberg based the Close Encounters scientist on Vallee",
+      "story_kind": "testimony",
+      "years_text": "1977",
+      "years": {
+        "from": 1977,
+        "to": 1977
+      },
+      "place_text": "USA",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "when Steven Spielberg wanted to depict an eccentric yet brilliant scientist studying UFOs for his famous movie Close Encounters of the Third Kind he decided to base the character played by Francois truffaut off of Jacques",
+      "from_s": 157.0,
+      "to_s": 172.0,
+      "cites": [
+        "Steven Spielberg",
+        "Francois Truffaut"
+      ],
+      "documents": [
+        "Close Encounters of the Third Kind"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Spielberg modelling Truffaut's Close Encounters scientist on Jacques Vallee. None of the stories covers this. The nearest ones are about Vallee's crash-parts address and his Lazar hint, which are different events.",
+        "difference": "",
+        "against": [
+          "robertson-panel-recommends-downplaying-ufos-1953",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "clyde-tombaugh-s-ashes-on-new-horizons-2006",
+          "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+          "condon-report-closes-blue-book-1968",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010"
+        ],
+        "id": "spielberg-based-the-close-encounters-scientist-on-vallee-1977"
+      }
+    },
+    {
+      "title": "Vallee suspected a secret real project behind Project Blue Book",
+      "story_kind": "program",
+      "years_text": "1960s",
+      "years": {
+        "from": 1960,
+        "to": 1969
+      },
+      "place_text": "USA (US Air Force)",
+      "teller": "Jacques Vallee",
+      "kind": "firsthand",
+      "quote": "project rule book was the best I could do at the time because I felt they had a real project going on that was secret",
+      "from_s": 194.0,
+      "to_s": 204.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The nearest story, air-force-project-blue-book-1947, tells of Blue Book itself as the Air Force's UFO investigation. This telling is Vallee's firsthand suspicion that a separate, secret real project sat behind Blue Book. That is a distinct claim about a hidden program, not an account of Blue Book, so it is a different story.",
+        "difference": "",
+        "against": [
+          "air-force-project-blue-book-1947",
+          "project-blue-book-and-the-pentagon-report-contradict-each-ot-1952",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "blue-book-heads-grow-increasingly-anti-ufo-1952-1969",
+          "remote-viewers-tested-in-submarines",
+          "condon-report-closes-blue-book-1968",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "vallee-and-davis-six-level-uap-paper"
+        ],
+        "id": "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960"
+      }
+    },
+    {
+      "title": "Trinity crash of 1945 at San Antonio, New Mexico",
+      "story_kind": "crash-retrieval",
+      "years_text": "1945",
+      "years": {
+        "from": 1945,
+        "to": 1945
+      },
+      "place_text": "San Antonio, New Mexico, USA",
+      "teller": "Jacques Vallee",
+      "kind": "secondhand",
+      "quote": "through that opening of one panel that's missing they see three creatures they were human-like they had two eyes",
+      "from_s": 315.0,
+      "to_s": 325.0,
+      "cites": [
+        "Paola Harris",
+        "Remy Baca",
+        "Jose Padilla"
+      ],
+      "documents": [
+        "Trinity: The Best-Kept Secret"
+      ],
+      "link": {
+        "decision": "same",
+        "story": "1945-trinity-crash-as-the-source-of-a-larger-piece",
+        "grain": "same",
+        "reason": "Both tellings describe the same 1945 Trinity crash-retrieval in New Mexico. The story is told at the same grain: one crash event, not a program or a group of crashes.",
+        "difference": "Vallee tells it secondhand, crediting Paola Harris, Remy Baca, Jose Padilla and the book Trinity: The Best-Kept Secret, and places it at San Antonio, NM. He adds that three human-like two-eyed creatures were seen through a missing panel, where the story's host telling speaks only of a larger piece coming from the crash.",
+        "against": [
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "trinity-and-roswell-crashes-1940",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "ingo-swann-affects-shielded-quark-detector-at-sri-1970",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc"
+        ]
+      }
+    },
+    {
+      "title": "Custody of the Trinity craft passed through Manhattan Project, AEC and DOE clearances",
+      "story_kind": "theory",
+      "years_text": "1945-present",
+      "years": {
+        "from": 1945,
+        "to": 1945
+      },
+      "place_text": "USA",
+      "teller": "Jacques Vallee",
+      "kind": "researcher",
+      "quote": "Manhattan Project would have custody of it and then it would go into the atomic energy commission and then it would go into the department of energy which has its own line of clearances",
+      "from_s": 456.0,
+      "to_s": 469.0,
+      "cites": [
+        "Paola Harris",
+        "Robert Oppenheimer"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The nearest story is the 1945 Trinity crash told as the source of a larger piece. This telling is a separate theory about who held the recovered craft afterwards, passing from the Manhattan Project to the AEC and then the DOE from 1945 to the present. It is about what happened after the crash, not the crash itself.",
+        "difference": "",
+        "against": [
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "1945-trinity-crash-as-the-source-of-a-larger-piece",
+          "trinity-and-roswell-crashes-1940",
+          "air-force-project-blue-book-1947",
+          "cargo-cults-building-landing-tracks",
+          "puthoff-skeptical-of-lazar-after-a-clearance-check",
+          "robertson-panel-recommends-downplaying-ufos-1953"
+        ],
+        "id": "custody-of-the-trinity-craft-passed-through-manhattan-projec-1945"
+      }
+    },
+    {
+      "title": "Chris Mellon's aerospace insider contact died before they could meet",
+      "story_kind": "testimony",
+      "years_text": "2010s-2020s",
+      "years": {
+        "from": 2010,
+        "to": 2029
+      },
+      "place_text": "USA",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "claims he almost met with someone from the UFO program",
+      "from_s": 498.0,
+      "to_s": 503.0,
+      "cites": [
+        "Chris Mellon"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "This telling is about one personal incident: Chris Mellon nearly met an aerospace insider from a UFO program, and the contact died before the meeting. None of the stories covers it. The closest is the AATIP program story, but that describes the whole program, not a single missed meeting.",
+        "difference": "",
+        "against": [
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "air-force-project-blue-book-1947",
+          "bismuth-magnesium-layers-could-shrink-terahertz-waveguides",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "1952-h-bomb-test-as-a-signal-to-the-cosmos",
+          "aatip-modeled-uap-using-general-relativity-2007"
+        ],
+        "id": "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010"
+      }
+    },
+    {
+      "title": "Wilson memo on a private aerospace reverse-engineering program",
+      "story_kind": "document",
+      "years_text": "1997",
+      "years": {
+        "from": 1997,
+        "to": 1997
+      },
+      "place_text": "USA",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "is the notorious Wilson memo a leaked document describing a secret meeting occurring between the director of intelligence J2 Admiral Thomas Wilson and a physicist and propulsion expert named Eric Davis",
+      "from_s": 526.0,
+      "to_s": 540.0,
+      "cites": [
+        "Thomas Wilson",
+        "Eric Davis"
+      ],
+      "documents": [
+        "Wilson memo"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about the Wilson memo, which describes a 1997 meeting between Admiral Thomas Wilson and Eric Davis about a private reverse-engineering program. The nearest story is the Vallee–Davis six-level paper, which has Davis in common but is a different document, and the Lazar S4 story is a different claim about reverse engineering.",
+        "difference": "",
+        "against": [
+          "vallee-and-davis-six-level-uap-paper",
+          "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "talbert-newspaper-series-on-1950s-aerospace-anti-gravity-int",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010"
+        ],
+        "id": "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997"
+      }
+    },
+    {
+      "title": "Corso's claims of a covert Roswell group and reverse-engineered technology",
+      "story_kind": "reverse-engineering",
+      "years_text": "1947-1960s",
+      "years": {
+        "from": 1947,
+        "to": 1969
+      },
+      "place_text": "Roswell, New Mexico, USA",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "in his book The Day After Roswell Corso claims a covert government group was assembled under the leadership of Admiral Roscoe hilenquitter",
+      "from_s": 965.0,
+      "to_s": 977.0,
+      "cites": [
+        "Philip J. Corso",
+        "Roscoe Hillenkoetter"
+      ],
+      "documents": [
+        "The Day After Roswell"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "This telling is Corso's book claim that a covert group led by Hillenkoetter was formed after Roswell to reverse-engineer the technology. The closest stories are the Roswell bismuth-magnesium sample and Lazar's S4 claim, but those are different events with different people and sources.",
+        "difference": "",
+        "against": [
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "trinity-and-roswell-crashes-1940",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "lefschetz-recruited-for-nonlinear-group-later-moved-to-brown-1950"
+        ],
+        "id": "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947"
+      }
+    },
+    {
+      "title": "Priest tells Vallee to burn an IBM circuit card as 'from the Devil'",
+      "story_kind": "testimony",
+      "years_text": "1950s-1960s",
+      "years": {
+        "from": 1950,
+        "to": 1969
+      },
+      "place_text": "France",
+      "teller": "Jacques Vallee",
+      "kind": "firsthand",
+      "quote": "and he looked at it and he said my son burn it it is from the Devil",
+      "from_s": 1059.0,
+      "to_s": 1069.0,
+      "cites": [
+        "Michelle"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This telling is Vallee's own account of a priest in France telling him to burn an IBM circuit card as being from the Devil. None of the stories covers this. The nearest ones, about Vallee publishing his address for crash parts or suspecting a secret project behind Blue Book, are different events.",
+        "difference": "",
+        "against": [
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "vallee-and-davis-six-level-uap-paper",
+          "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "spielberg-based-the-close-encounters-scientist-on-vallee-1977",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010"
+        ],
+        "id": "priest-tells-vallee-to-burn-an-ibm-circuit-card-as-from-the-1950"
+      }
+    },
+    {
+      "title": "Vallee's own UFO sighting at age 15",
+      "story_kind": "sighting",
+      "years_text": "1950s",
+      "years": {
+        "from": 1950,
+        "to": 1959
+      },
+      "place_text": "France",
+      "teller": "Jacques Vallee",
+      "kind": "firsthand",
+      "quote": "after I saw when I was 15 I saw that object outside the room over the the yard",
+      "from_s": 1093.0,
+      "to_s": 1102.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is Vallee's own boyhood sighting in France in the 1950s. None of the stories is about it. The nearest one is about Vallee asking people to mail him crash parts, which is a different event and a different kind of story.",
+        "difference": "",
+        "against": [
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "1952-washington-d-c-sightings",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "kenneth-arnold-sighting-1947",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "pan-starrs-discovers-oumuamua-2017",
+          "ingo-swann-affects-shielded-quark-detector-at-sri-1970"
+        ],
+        "id": "vallee-s-own-ufo-sighting-at-age-15-1950"
+      }
+    },
+    {
+      "title": "San Jose woman's disc that was bigger inside than outside",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "San Jose, California, USA",
+      "teller": "Jacques Vallee",
+      "kind": "secondhand",
+      "quote": "there was one one casing good old San Jose a woman had seen something over her house it was a big disc",
+      "from_s": 1142.0,
+      "to_s": 1152.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about a San Jose woman who reported a large disc over her house, which seemed bigger inside than outside. None of the stories covers this case. The closest, Vallee's own sighting at 15 in France, is about a different witness, place and event.",
+        "difference": "",
+        "against": [
+          "ingo-swann-affects-shielded-quark-detector-at-sri-1970",
+          "vallee-s-own-ufo-sighting-at-age-15-1950",
+          "fbi-image-cheapening-of-jean-seberg-1970",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "nine-page-pentagon-uap-report-2021",
+          "tic-tac-videos-seen-in-the-pentagon-before-release-better-vi-2017",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010"
+        ],
+        "id": "san-jose-woman-s-disc-that-was-bigger-inside-than-outside"
+      }
+    },
+    {
+      "title": "Ted Owens, 'Mr PK', claimed to be a biological sensor of UFOs",
+      "story_kind": "testimony",
+      "years_text": "20th century",
+      "years": null,
+      "place_text": "USA",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "he wrote about a guy named Mr PK tetto and tedo and claimed to be a almost a biological censor of UFOs",
+      "from_s": 1324.0,
+      "to_s": 1334.0,
+      "cites": [
+        "Jeffrey Mishlove",
+        "Ted Owens"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Ted Owens, the self-styled 'PK Man' who claimed to be a biological sensor of UFOs, as written up by Jeffrey Mishlove. None of the stories mentions Owens or Mishlove. The nearest, the MRIs of UFO-contact personnel, is a different subject about different people.",
+        "difference": "",
+        "against": [
+          "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "spielberg-based-the-close-encounters-scientist-on-vallee-1977",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "bob-lazar-s-claim-of-reverse-engineering-at-s4-1987",
+          "cia-memo-calls-ufos-a-national-security-matter-1952"
+        ],
+        "id": "ted-owens-mr-pk-claimed-to-be-a-biological-sensor-of-ufos"
+      }
+    },
+    {
+      "title": "Chris Bledsoe claims similar UFO sensitivity",
+      "story_kind": "testimony",
+      "years_text": "2000s-2020s",
+      "years": {
+        "from": 2000,
+        "to": 2029
+      },
+      "place_text": "North Carolina, USA",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "think Chris Bledsoe in North Carolina there are a couple of other people who sort of claim similar things",
+      "from_s": 1334.0,
+      "to_s": 1339.0,
+      "cites": [
+        "Chris Bledsoe"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Chris Bledsoe in North Carolina claiming he is sensitive to UFOs. None of the stories involves Bledsoe. The closest are the Chapel Hill stories, which share only the state and are about 1950s gravity research.",
+        "difference": "",
+        "against": [
+          "chris-mellon-s-aerospace-insider-contact-died-before-they-co-2010",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "bahnson-funds-bryce-dewitt-institute-at-unc-chapel-hill-1950",
+          "chapel-hill-gravity-conference-kicks-off-anti-gravity-flurry-1950",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "nine-page-pentagon-uap-report-2021",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc"
+        ],
+        "id": "chris-bledsoe-claims-similar-ufo-sensitivity-2000"
+      }
+    },
+    {
+      "title": "Army officers visiting the Utah ranch followed home by phenomena",
+      "story_kind": "place-lore",
+      "years_text": "1990s-2000s",
+      "years": {
+        "from": 1990,
+        "to": 2009
+      },
+      "place_text": "ranch in Utah, USA",
+      "teller": "Jacques Vallee",
+      "kind": "researcher",
+      "quote": "people have described people who were you know trained army officers who went to the ranch a few days went home and boom they there was some phenomenon following them",
+      "from_s": 1396.0,
+      "to_s": 1414.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is the general Skinwalker Ranch account of cattle mutilations and Bigelow's experiments. This telling makes one narrower claim inside that place-lore: trained army officers who visited the ranch were followed home by phenomena (the \"hitchhiker\" effect), which the story never mentions.",
+        "difference": "",
+        "against": [
+          "skinwalker-ranch-cattle-mutilations-and-bigelow-experiments-1990",
+          "navajo-curse-legend-of-skinwalker-ranch",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "training-army-intelligence-officers-in-remote-viewing",
+          "nine-page-pentagon-uap-report-2021",
+          "vallee-and-davis-six-level-uap-paper",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010"
+        ],
+        "id": "army-officers-visiting-the-utah-ranch-followed-home-by-pheno-1990"
+      }
+    },
+    {
+      "title": "Shamans' accounts of little men out of a big light (Passport to Magonia)",
+      "story_kind": "cosmology",
+      "years_text": "ancient times to 20th century",
+      "years": null,
+      "place_text": "Pacific, Siberia",
+      "teller": "Jacques Vallee",
+      "kind": "researcher",
+      "quote": "say by the way the shaman also told me 50 years ago they were little men who came out of a big light",
+      "from_s": 1504.0,
+      "to_s": 1513.0,
+      "cites": [],
+      "documents": [
+        "Passport to Magonia"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about shamans' folklore accounts of little men coming out of a big light, as told in Passport to Magonia. The closest story is the star-people founding myths, but that one is about beings teaching agriculture, which is a different folklore claim.",
+        "difference": "",
+        "against": [
+          "founding-myths-of-star-people-teaching-agriculture",
+          "looking-for-city-lights-on-proxima-b-2021",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "cia-approaches-puthoff-over-russian-psychic-research-1970",
+          "san-jose-woman-s-disc-that-was-bigger-inside-than-outside",
+          "loeb-s-artificial-light-sail-theory-of-oumuamua-2017",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "vallee-and-davis-six-level-uap-paper"
+        ],
+        "id": "shamans-accounts-of-little-men-out-of-a-big-light-passport-t"
+      }
+    },
+    {
+      "title": "Betty and Barney Hill abduction and the Outer Limits episode",
+      "story_kind": "encounter",
+      "years_text": "1961",
+      "years": {
+        "from": 1961,
+        "to": 1961
+      },
+      "place_text": "USA",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Betty and Barney Hill perhaps one of the most famous abduction cases in the U.S occurred in 1961.",
+      "from_s": 1572.0,
+      "to_s": 1580.0,
+      "cites": [
+        "Betty Hill",
+        "Barney Hill"
+      ],
+      "documents": [
+        "The Outer Limits"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about the Hill abduction case in 1961 and its link to The Outer Limits. None of the stories covers the Hills. The nearest ones are about John Mack's abduction research at Harvard in the 1990s, which is a different subject at a different time.",
+        "difference": "",
+        "against": [
+          "chapel-hill-gravity-conference-kicks-off-anti-gravity-flurry-1950",
+          "bahnson-funds-bryce-dewitt-institute-at-unc-chapel-hill-1950",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "john-mack-s-abductee-interviews-at-harvard-1990",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "spielberg-based-the-close-encounters-scientist-on-vallee-1977",
+          "air-force-project-blue-book-1947",
+          "blue-book-heads-grow-increasingly-anti-ufo-1952-1969"
+        ],
+        "id": "betty-and-barney-hill-abduction-and-the-outer-limits-episode-1961"
+      }
+    },
+    {
+      "title": "Paranormal activity in towns after nuclear explosions",
+      "story_kind": "theory",
+      "years_text": "1945 onward",
+      "years": {
+        "from": 1945,
+        "to": 1945
+      },
+      "place_text": "New Mexico, USA",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "in the towns after the explosions you have people report Devils chasing them around and all sorts of Paranormal Activity",
+      "from_s": 1886.0,
+      "to_s": 1895.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about paranormal reports in New Mexico towns after the nuclear tests. The nearest story, Fermi thinking about aliens at Los Alamos, has the same place and era but makes a different claim, and none of the other stories is about nuclear explosions.",
+        "difference": "",
+        "against": [
+          "skinwalker-ranch-cattle-mutilations-and-bigelow-experiments-1990",
+          "nine-page-pentagon-uap-report-2021",
+          "cia-approaches-puthoff-over-russian-psychic-research-1970",
+          "navajo-curse-legend-of-skinwalker-ranch",
+          "condon-report-closes-blue-book-1968",
+          "project-blue-book-and-the-pentagon-report-contradict-each-ot-1952",
+          "priest-tells-vallee-to-burn-an-ibm-circuit-card-as-from-the-1950",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940"
+        ],
+        "id": "paranormal-activity-in-towns-after-nuclear-explosions-1945"
+      }
+    },
+    {
+      "title": "John McCarthy's 'Bureau of Simulation' story",
+      "story_kind": "theory",
+      "years_text": "1968",
+      "years": {
+        "from": 1968,
+        "to": 1968
+      },
+      "place_text": "Stanford AI Lab, California, USA",
+      "teller": "Jacques Vallee",
+      "kind": "secondhand",
+      "quote": "and then one day you're going to get a letter from the Bureau of simulation the Bureau of simulation says Dear Sir",
+      "from_s": 2005.0,
+      "to_s": 2014.0,
+      "cites": [
+        "John McCarthy"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about John McCarthy's 1968 Stanford AI Lab 'Bureau of Simulation' thought experiment. None of the stories covers McCarthy, Stanford or simulation. The closest is the Vallee-Pasulka Roswell dividing-line theory, but that is a different theory from different people.",
+        "difference": "",
+        "against": [
+          "fbi-image-cheapening-of-jean-seberg-1970",
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "north-sentinel-island-analogy-for-hidden-non-human-observers",
+          "babson-s-gravity-research-foundation-in-new-boston-1950",
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "glenn-martin-company-employs-louis-witten-for-anti-gravity-r-1950",
+          "john-mack-s-abductee-interviews-at-harvard-1990"
+        ],
+        "id": "john-mccarthy-s-bureau-of-simulation-story-1968"
+      }
+    },
+    {
+      "title": "Nimitz F-18s chasing an object over the Pacific",
+      "story_kind": "sighting",
+      "years_text": "2004",
+      "years": {
+        "from": 2004,
+        "to": 2004
+      },
+      "place_text": "Pacific Ocean",
+      "teller": "Jacques Vallee",
+      "kind": "researcher",
+      "quote": "I mean why would you want to have 11 f-18s chasing you all over the Pacific",
+      "from_s": 2106.0,
+      "to_s": 2114.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "same",
+        "story": "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+        "grain": "same",
+        "reason": "Both tellings describe the 2004 USS Nimitz encounter, in which Navy F-18s pursued an unidentified object over the Pacific off California. The story's tellings already cover the Tic Tac event itself through Fravor, so this is the same event at the same grain.",
+        "difference": "Vallee names no pilot and says 11 F-18s chased the object all over the Pacific, framing it as a question of why the object would allow itself to be chased, where the story's tellings centre on Fravor's impression that the object seemed conscious.",
+        "against": [
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "2020-pan-starrs-object-turns-out-to-be-a-1966-nasa-booster",
+          "vallee-s-own-ufo-sighting-at-age-15-1950",
+          "1952-h-bomb-test-as-a-signal-to-the-cosmos",
+          "ingo-swann-affects-shielded-quark-detector-at-sri-1970",
+          "paranormal-activity-in-towns-after-nuclear-explosions-1945",
+          "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021",
+          "pan-starrs-discovers-oumuamua-2017"
+        ]
+      }
+    },
+    {
+      "title": "Alsace entity who said the witness had the time wrong and asked if this was Italy or Germany",
+      "story_kind": "encounter",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "Alsace, France",
+      "teller": "Jacques Vallee",
+      "kind": "researcher",
+      "quote": "right then he says am I in Italy or Germany witness says you're in alzace",
+      "from_s": 2152.0,
+      "to_s": 2159.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is an Alsace encounter where an entity told the witness they had the time wrong and asked whether this was Italy or Germany. None of the stories covers this event. The closest are Vallee's other encounter cases, such as the San Jose disc and the Utah ranch, which are different places and different witnesses.",
+        "difference": "",
+        "against": [
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "dan-sheehan-discredited-through-stigma-1987",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "vallee-and-davis-six-level-uap-paper",
+          "vallee-hints-bob-lazar-was-an-mk-ultra-subject-1980",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "san-jose-woman-s-disc-that-was-bigger-inside-than-outside",
+          "army-officers-visiting-the-utah-ranch-followed-home-by-pheno-1990"
+        ],
+        "id": "alsace-entity-who-said-the-witness-had-the-time-wrong-and-as"
+      }
+    },
+    {
+      "title": "Vallee's Invisible College research group of the 1970s",
+      "story_kind": "program",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "USA",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "in the 70s Jacques named both his independent group of UFO researchers and his seminal book about their learnings the invisible College",
+      "from_s": 2388.0,
+      "to_s": 2399.0,
+      "cites": [
+        "Robert Boyle"
+      ],
+      "documents": [
+        "The Invisible College"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling is about Vallee's Invisible College, a research group from the 1970s. The closest story is Vallee publishing his address so witnesses can send him crash parts. That is a different activity with no time given, and it doesn't mention the Invisible College group or book.",
+        "difference": "",
+        "against": [
+          "checking-out-scientology-while-setting-up-remote-viewing-1970",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+          "air-force-project-blue-book-1947",
+          "blue-book-heads-grow-increasingly-anti-ufo-1952-1969",
+          "cia-approaches-puthoff-over-russian-psychic-research-1970",
+          "ingo-swann-s-thermistor-experiments-at-city-college-1970",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h"
+        ],
+        "id": "vallee-s-invisible-college-research-group-of-the-1970s"
+      }
+    },
+    {
+      "title": "Vallee's study of small UFO religions",
+      "story_kind": "testimony",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "unspecified",
+      "teller": "Jacques Vallee",
+      "kind": "firsthand",
+      "quote": "other books where I went around for a while looking at little UFO religions",
+      "from_s": 2489.0,
+      "to_s": 2496.0,
+      "cites": [],
+      "documents": [
+        "Messengers of Deception"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Vallee's study of small UFO religions (Messengers of Deception). The nearest story, the Invisible College research group, is about a different project of his. No story here covers his look into UFO cults.",
+        "difference": "",
+        "against": [
+          "vallee-s-invisible-college-research-group-of-the-1970s",
+          "cia-approaches-puthoff-over-russian-psychic-research-1970",
+          "vallee-s-own-ufo-sighting-at-age-15-1950",
+          "air-force-project-blue-book-1947",
+          "blue-book-heads-grow-increasingly-anti-ufo-1952-1969",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "vallee-suspected-a-secret-real-project-behind-project-blue-b-1960"
+        ],
+        "id": "vallee-s-study-of-small-ufo-religions-1970"
+      }
+    }
+  ],
+  "dropped": []
+}

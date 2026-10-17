@@ -1,0 +1,63 @@
+{
+  "id": "phone-call-to-bobby-ray-inman-about-puharich-and-bob-beck-1970",
+  "title": "Phone call to Bobby Ray Inman about Puharich and Bob Beck",
+  "summary": "Greg tells of Phone call to Bobby Ray Inman about Puharich and Bob Beck, about late 1970s–early 1980s (call made recently) at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1983
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 12576.0,
+      "to_s": 12589.0,
+      "teller": "greg",
+      "quote": "And he was pretty nice, but I just straight up was like, \"Hey, have you ever heard, you know, the name Andrija Puharich? Do you know Bob Beck?\" That cuz those were the two working at that time um with the space kids, and he was like, \"No, I've never never heard the name.\"",
+      "kind": "firsthand",
+      "cites": [
+        "bobby-ray-inman",
+        "andrija-puharich",
+        "bob-beck"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "disappearance-of-sharon-the-space-kid-psychic-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "greg"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

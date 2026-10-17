@@ -1,0 +1,84 @@
+{
+  "id": "immaculate-constellation-usap-managed-by-dod-but-held-at-the-2024",
+  "title": "Immaculate Constellation USAP managed by DoD but held at the White House",
+  "summary": "Michael Shellenberger tells of Immaculate Constellation USAP managed by DoD but held at the White House, about 2024 at Washington, D.C., and reports it citing named sources. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2024,
+    "to": 2024
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C., USA",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "DPmO-2E7Ayg",
+      "from_s": 384.0,
+      "to_s": 398.0,
+      "teller": "michael-shellenberger",
+      "quote": "I will say that after I published I was told that this program that the usap was actually um managed by the Department of Defense but held at the White House",
+      "kind": "journalist",
+      "cites": [],
+      "documents": [
+        "immaculate-constellation-report"
+      ]
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 1208.0,
+      "to_s": 1214.0,
+      "teller": "matthew-brown",
+      "quote": "it's actually ran out of and owned by the National Security Council out of the White House.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Brown says the NSC runs and owns it, not that DoD manages it, and calls it an old mission that predates 2017.",
+      "link_reason": "Both say Immaculate Constellation is held at the White House. Shellenberger's story says it is held there; Brown says it is run and owned by the NSC there.",
+      "as_told": {
+        "title": "Immaculate Constellation actually an old NSC-owned mission",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "National Security Council, White House",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "elizondo-won-t-confirm-or-deny-immaculate-constellation-befo-2024",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "matthew-brown",
+      "michael-shellenberger"
+    ],
+    "episodes": [
+      "DPmO-2E7Ayg",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.35,
+  "tier": "well-attested"
+}

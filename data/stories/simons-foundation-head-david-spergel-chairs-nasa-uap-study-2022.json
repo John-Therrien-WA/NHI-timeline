@@ -1,0 +1,159 @@
+{
+  "id": "simons-foundation-head-david-spergel-chairs-nasa-uap-study-2022",
+  "title": "Simons Foundation head David Spergel chairs NASA UAP study",
+  "summary": "Matthew Pines tells of Simons Foundation head David Spergel chairs NASA UAP study, about 2022-2023 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2022,
+    "to": 2023
+  },
+  "place": "united-states",
+  "place_text": "NASA, United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 3485.0,
+      "to_s": 3494.0,
+      "teller": "matthew-pines",
+      "quote": "the head of of the Simons Foundation. Um this guy named uh Dr. David Spurggle. He was uh tapped to be the chair of the NASA UAP working group.",
+      "kind": "researcher",
+      "cites": [
+        "david-spergel",
+        "jim-simons"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 6805.0,
+      "to_s": 6816.0,
+      "teller": "jesse-michels",
+      "quote": "now just look at who ran the independent NASA review panel on uaps in 2022 might they have any ties to Jim Simons",
+      "kind": "host",
+      "cites": [
+        "jim-simons",
+        "eric-weinstein"
+      ],
+      "documents": [],
+      "difference": "Does not name Spergel; frames it as a rhetorical question and credits Eric Weinstein.",
+      "link_reason": "Both tell of the 2022 NASA UAP panel being led by someone tied to Jim Simons.",
+      "as_told": {
+        "title": "NASA's 2022 UAP panel led by someone tied to Jim Simons",
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "place_text": "NASA; Simons Foundation",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 9362.0,
+      "to_s": 9372.0,
+      "teller": "jesse-michels",
+      "quote": "And the person overseeing that panel is this guy, David Spurggle. Of course, Jim Simon started Renaissance Technologies and Spurgle was head of his foundation.",
+      "kind": "host",
+      "cites": [
+        "david-spergel",
+        "jim-simons"
+      ],
+      "documents": [],
+      "difference": "This telling adds that Jim Simons founded Renaissance Technologies.",
+      "link_reason": "Both say David Spergel of the Simons Foundation led NASA's 2022 UAP study panel.",
+      "as_told": {
+        "title": "NASA's 2022 UAP panel led by David Spergel of the Simons Foundation",
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "place_text": "NASA, USA",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 6577.0,
+      "to_s": 6584.0,
+      "teller": "jesse-michels",
+      "quote": "There was a NASA UAP panel and then\nDavid Spurggle, who is\nJim Simons' principal scientific advisor and\nruns the science foundation.",
+      "kind": "host",
+      "cites": [
+        "david-spurggle",
+        "jim-simons",
+        "eric-weinstein"
+      ],
+      "documents": [
+        "nasa-uap-review-panel-report"
+      ],
+      "difference": "Calls Spergel Simons' 'principal scientific advisor' and says he runs the foundation.",
+      "link_reason": "It tells the same story: David Spergel, head of Jim Simons' foundation, oversaw NASA's 2022-2023 UAP panel.",
+      "as_told": {
+        "title": "Simons Foundation's David Spergel leads NASA UAP panel",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 577.0,
+      "to_s": 586.0,
+      "teller": "jesse-michels",
+      "quote": "David Spurggle who is head of the Simons Science Foundation um ended up in 2022 on the NASA review panel.",
+      "kind": "host",
+      "cites": [
+        "david-spergel"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "The same claim that Simons Foundation head David Spergel led NASA's 2022 UAP review panel.",
+      "as_told": {
+        "title": "Simons Foundation's David Spergel chairs NASA UAP review panel",
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "place_text": "NASA, United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "matthew-pines"
+    ],
+    "episodes": [
+      "IWui5cBkwoE",
+      "LpLFWdsIU7M",
+      "fzvwBBSmWYA",
+      "uVVqFg2v7ro",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

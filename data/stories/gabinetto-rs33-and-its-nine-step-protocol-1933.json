@@ -1,0 +1,157 @@
+{
+  "id": "gabinetto-rs33-and-its-nine-step-protocol-1933",
+  "title": "Gabinetto RS33 and its nine-step protocol",
+  "summary": "Jesse Michels tells of Gabinetto RS33 and its nine-step protocol, about 1933 at Italy (SIAI Marchetti hangars), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1933,
+    "to": 1933
+  },
+  "place": null,
+  "place_text": "Italy (SIAI Marchetti hangars)",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 5819.0,
+      "to_s": 5829.0,
+      "teller": "jesse-michels",
+      "quote": "This secret research group reportedly drew up a nine-step protocol to manage the Magenta crash and any similar future incidents.",
+      "kind": "host",
+      "cites": [
+        "benito-mussolini",
+        "italo-balbo",
+        "guglielmo-marconi"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 7455.0,
+      "to_s": 7465.0,
+      "teller": "jesse-michels",
+      "quote": "interview. He's a prince, Prince Maronei. And he was like, \"My grandfather was on cabinet RS33, this cabinet with Mussolini, and they were working on the extraterrestrial issue.\"",
+      "kind": "secondhand",
+      "cites": [
+        "prince-marconi",
+        "guglielmo-marconi",
+        "mussolini"
+      ],
+      "documents": [],
+      "difference": "Sourced to Marconi's grandson, a prince, who says his grandfather sat on the cabinet; the nine-step protocol and the Magenta crash are not mentioned.",
+      "link_reason": "Both are about Gabinetto RS33, the 1933 Mussolini-era cabinet in Italy said to have worked on the extraterrestrial issue, with Marconi involved.",
+      "as_told": {
+        "title": "Marconi on Mussolini's cabinet RS/33 working on the extraterrestrial issue",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Italy",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 7474.0,
+      "to_s": 7489.0,
+      "teller": "jesse-michels",
+      "quote": "chair was the president and Enrico Ferimi was the vice president and they made some searches and studies on this phenomenon because 1953 uh they say that in VZA north of Italy there were some apparitions of so-called UFOs.",
+      "kind": "secondhand",
+      "cites": [
+        "marconi-s-grandson",
+        "enrico-fermi"
+      ],
+      "documents": [],
+      "difference": "Names Enrico Fermi as vice-president and says the committee studied UFO sightings in 1953 near Varese in northern Italy.",
+      "link_reason": "This continues the grandson's account from telling 4 of the same Italian committee chaired by Marconi.",
+      "as_told": {
+        "title": "Italian scientific committee chaired by Marconi with Fermi studies 1953 UFO apparitions north of Italy",
+        "years": {
+          "from": 1933,
+          "to": 1953
+        },
+        "place_text": "Northern Italy (Varese area, between Lombardy and Veneto)",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6734.0,
+      "to_s": 6740.0,
+      "teller": "jesse-michels",
+      "quote": "Marone's grandson said that he knew through the family, not through any sort",
+      "kind": "host",
+      "cites": [
+        "guglielmo-marconi",
+        "benito-mussolini",
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Stresses that the grandson knew through the family rather than from documents.",
+      "link_reason": "Both describe Marconi's grandson confirming, from what he knew through the family, that Marconi sat on the RS33 cabinet under Mussolini.",
+      "as_told": {
+        "title": "Marconi's grandson confirms RS33 under Mussolini",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Italy",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6750.0,
+      "to_s": 6765.0,
+      "teller": "marconi-s-grandson",
+      "quote": "1933 the Italian government set up uh this uh group the secret research uh 33 cabinet where Maronei was the uh chair was the president and fermy was the vice president",
+      "kind": "secondhand",
+      "cites": [
+        "guglielmo-marconi",
+        "enrico-fermi"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "Both describe the 1933 RS33 cabinet, with Marconi as president and Fermi as vice president, as told by Marconi's grandson.",
+      "as_told": {
+        "title": "Marconi's grandson describes the RS33 cabinet",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Italy",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "marconi-s-grandson"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "8Rr_nE65KkI",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

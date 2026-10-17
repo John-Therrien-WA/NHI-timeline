@@ -1,0 +1,69 @@
+{
+  "id": "mj-12-scientists-really-were-involved-1947",
+  "title": "MJ-12 scientists really were involved",
+  "summary": "Whitley Strieber tells of MJ-12 scientists really were involved, about late 1940s-1950s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 685.0,
+      "to_s": 699.0,
+      "teller": "whitley-strieber",
+      "quote": "these scientists who were supposedly in the Majestic 12 group, if that was even its real name, that's all nonsense. It's just San Freriedman made the whole thing up.\" That's not true. They were involved.",
+      "kind": "researcher",
+      "cites": [
+        "stanton-friedman",
+        "john-von-neumann"
+      ],
+      "documents": [
+        "majestic-12"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "sarbacher-put-cameras-on-modified-v2-rockets-to-chase-ufos-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-scientists-lose-clearances-while-nazis-are-put-in-charge-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "whitley-strieber"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

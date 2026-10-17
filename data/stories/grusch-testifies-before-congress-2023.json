@@ -1,0 +1,204 @@
+{
+  "id": "grusch-testifies-before-congress-2023",
+  "title": "Grusch testifies before Congress",
+  "summary": "Jesse Michels tells of Grusch testifies before Congress, about July 2023 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2023
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 127.0,
+      "to_s": 131.0,
+      "teller": "jesse-michels",
+      "quote": "Then in late July, he testified before Congress in Washington, D.C.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 54.0,
+      "to_s": 62.0,
+      "teller": "jesse-michels",
+      "quote": "it before I I didn't need this and he\ntestified about his findings under oath\nin front of Congress this summer",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "This telling stresses that the testimony was given under oath and says it was about his findings, while the story's telling gives late July as the time.",
+      "link_reason": "The telling and the story describe the same event: David Grusch testifying before Congress in Washington, D.C. in summer 2023, told by host Jesse Michels.",
+      "as_told": {
+        "title": "Grusch testifies under oath before Congress",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "US Congress, Washington, DC",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 4025.0,
+      "to_s": 4035.0,
+      "teller": "james-fox",
+      "quote": "David grush came forward and testified under oath uh to a bipartisan group of lawmakers",
+      "kind": "firsthand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "James Fox tells it firsthand as someone who watched the testimony live on his phone, and he describes the audience as a bipartisan group of lawmakers; he does not give the July date.",
+      "link_reason": "Both are about David Grusch's 2023 sworn testimony before Congress in Washington, D.C. Fox's quote describes the testimony itself, and the only added detail is that he watched it live.",
+      "as_told": {
+        "title": "Fox watches the David Grusch testimony live",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "Washington, D.C. (watched live by phone)",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4153.0,
+      "to_s": 4159.0,
+      "teller": "jesse-michels",
+      "quote": "David grush July 26 2023 testified before Congress",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Gives the exact date, July 26, 2023.",
+      "link_reason": "Both are Grusch's July 2023 testimony before Congress.",
+      "as_told": {
+        "title": "David Grusch's congressional testimony",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "US Congress",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "congress-denied-a-scif-for-grusch-s-classified-briefing-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jacobs-gives-kirkpatrick-his-case-and-is-dismissed-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "david-grush-s-congressional-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-dodges-the-question-about-agreements-in-his-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "host-attended-the-congressional-uap-hearing-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-irad-fraud-allegation-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-public-testimony-cleared-by-dopsr-the-rest-given-in-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kirkpatrick-tells-gillibrand-s-committee-there-was-no-eviden-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "barber-s-group-back-channeled-the-psionic-asset-transfer-exp-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "barber-sent-to-red-team-whistleblowers-at-the-2023-national",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "senior-ge-scalar-physicist-at-greer-s-2023-conference",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grush-tells-moskowitz-he-would-answer-on-overhead-collection-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-speaks-of-interdimensional-beings-and-holography-at-a-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "burles-sees-grusch-on-the-news-and-contacts-him-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "following-david-grusch-from-his-testimony-back-to-colorado-f-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "james-fox",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "TH10mD9hQas",
+      "bVhSPH2A5Vw",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested"
+}

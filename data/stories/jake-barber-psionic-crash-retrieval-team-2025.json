@@ -1,0 +1,84 @@
+{
+  "id": "jake-barber-psionic-crash-retrieval-team-2025",
+  "title": "Jake Barber psionic crash retrieval team",
+  "summary": "Jesse Michels tells of Jake Barber psionic crash retrieval team, about 2025 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2025
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 11645.0,
+      "to_s": 11662.0,
+      "teller": "jesse-michels",
+      "quote": "Ross Kolithart's NewsNation story involving psionic assets, specifically a guy named Jake Barber, who was part of a crash retrieval team involving these psionic assets, people psychically calling in uh exotic material",
+      "kind": "secondhand",
+      "cites": [
+        "ross-coulthart",
+        "jake-barber"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 9929.0,
+      "to_s": 9939.0,
+      "teller": "jesse-michels",
+      "quote": "that they could they call them P3s uh people with uh psionic predisposition potentials and they act as the bridge.",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber",
+        "michael-herreras"
+      ],
+      "documents": [],
+      "difference": "Adds the P3 and 'pink assets' terms, frames the purpose as shootdowns, and also credits Michael Herrera.",
+      "link_reason": "Both tell of the program in which Jake Barber's team used psionic assets to call in craft for retrieval; this telling uses the 'P3' and 'pink asset' terms and describes the assets as the bridge for luring craft to a shootdown.",
+      "as_told": {
+        "title": "P3 psionic 'pink assets' used to lure craft for shootdown",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "hal-puthoff-on-rogan-us-holds-15-crashed-craft-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

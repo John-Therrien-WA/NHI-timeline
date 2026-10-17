@@ -1,0 +1,54 @@
+{
+  "id": "martin-gardner-finds-his-own-lost-book",
+  "title": "Martin Gardner finds his own lost book",
+  "summary": "Michael Shermer tells of Martin Gardner finds his own lost book, about an unknown time at Used bookstore, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Used bookstore",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 9015.0,
+      "to_s": 9022.0,
+      "teller": "michael-shermer",
+      "quote": "One day Martin was perusing a used bookstore when he came across a familiar title.",
+      "kind": "researcher",
+      "cites": [
+        "martin-gardner",
+        "persi-diaconis",
+        "frederick-mosteller"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "michael-shermer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

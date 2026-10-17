@@ -1,0 +1,54 @@
+{
+  "id": "how-the-atlantis-story-passed-from-solon-to-critias",
+  "title": "How the Atlantis story passed from Solon to Critias",
+  "summary": "Randall Carlson tells of How the Atlantis story passed from Solon to Critias, about 6th-4th century BC at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Egypt / Athens",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 8687.0,
+      "to_s": 8698.0,
+      "teller": "randall-carlson",
+      "quote": "I believe it was um Solon to Dropus to Critius the Elder to Critius the Younger who then presented the story at the Socratic forum.",
+      "kind": "researcher",
+      "cites": [
+        "solon",
+        "plato",
+        "critias"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "randall-carlson"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

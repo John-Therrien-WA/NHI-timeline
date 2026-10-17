@@ -1,0 +1,58 @@
+{
+  "id": "kaikoura-ufo-incident-1978",
+  "title": "Kaikoura UFO incident",
+  "summary": "Ross Coulthart tells of Kaikoura UFO incident, about 1978 at Kaikoura, South Island, New Zealand, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1978,
+    "to": 1978
+  },
+  "place": null,
+  "place_text": "Kaikoura, South Island, New Zealand",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 942.0,
+      "to_s": 953.0,
+      "teller": "ross-coulthart",
+      "quote": "there was a really big UFO incident in 1978 when I was 16 years old in a place called Kaikoura on the east coast of the South Island of New Zealand",
+      "kind": "researcher",
+      "cites": [
+        "john-cordy",
+        "quentin-fogarty",
+        "dennis-grant",
+        "bruce-maccabee"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

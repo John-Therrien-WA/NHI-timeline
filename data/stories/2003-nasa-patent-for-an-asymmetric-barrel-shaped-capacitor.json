@@ -1,0 +1,58 @@
+{
+  "id": "2003-nasa-patent-for-an-asymmetric-barrel-shaped-capacitor",
+  "title": "2003 NASA patent for an asymmetric barrel-shaped capacitor",
+  "summary": "Jesse Michels tells of 2003 NASA patent for an asymmetric barrel-shaped capacitor, about 2003 at NASA / University of Alabama Huntsville, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2003,
+    "to": 2003
+  },
+  "place": null,
+  "place_text": "NASA / University of Alabama Huntsville",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 2079.0,
+      "to_s": 2085.0,
+      "teller": "jesse-michels",
+      "quote": "You know, they also have a patent, I believe from 2003, on an asymmetrical barrel-shaped capacitor",
+      "kind": "host",
+      "cites": [
+        "larry-smallley",
+        "towns-and-brown"
+      ],
+      "documents": [
+        "nasa-asymmetrical-capacitor-patent"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

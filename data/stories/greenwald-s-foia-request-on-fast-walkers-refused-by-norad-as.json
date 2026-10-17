@@ -1,0 +1,74 @@
+{
+  "id": "greenwald-s-foia-request-on-fast-walkers-refused-by-norad-as",
+  "title": "Greenwald's FOIA request on fast walkers refused by NORAD as sensitive",
+  "summary": "Jesse Michels tells of Greenwald's FOIA request on fast walkers refused by NORAD as sensitive, about an unknown time at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "NORAD, USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "DPmO-2E7Ayg",
+      "from_s": 1025.0,
+      "to_s": 1035.0,
+      "teller": "jesse-michels",
+      "quote": "he tried to Foya um uh uh fast Walkers and NORAD said this is you know actually just very sensitive material",
+      "kind": "host",
+      "cites": [
+        "john-greenewald"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 4377.0,
+      "to_s": 4395.0,
+      "teller": "maaneli-derakhshani",
+      "quote": "And, um, John Greenwall Jr. of the black vault. Uh he has tried to uh submit foyer requests for all of uh US space forc's documents, the DoD's documents referring to fast walkers and slow walkers.",
+      "kind": "secondhand",
+      "cites": [
+        "john-greenewald-jr"
+      ],
+      "documents": [],
+      "difference": "Names the Black Vault, says the requests went to Space Force and the DoD and also covered slow walkers, and calls the refusal an exemption rather than a NORAD 'sensitive' answer.",
+      "link_reason": "Both tell of John Greenewald's FOIA request on fast walkers being refused as sensitive or exempt.",
+      "as_told": {
+        "title": "Black Vault FOIA on fast walkers denied as exempt",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "maaneli-derakhshani"
+    ],
+    "episodes": [
+      "DPmO-2E7Ayg",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

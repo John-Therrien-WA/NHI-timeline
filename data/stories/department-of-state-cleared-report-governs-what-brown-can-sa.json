@@ -1,0 +1,52 @@
+{
+  "id": "department-of-state-cleared-report-governs-what-brown-can-sa",
+  "title": "Department of State cleared report governs what Brown can say",
+  "summary": "Matthew Brown tells of Department of State cleared report governs what Brown can say, about recent at US Department of State, and reads it from an official document. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "US Department of State",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 11305.0,
+      "to_s": 11312.0,
+      "teller": "matthew-brown",
+      "quote": "largely based on the department of state cleared report and then inferences drawn from that report.",
+      "kind": "official",
+      "cites": [],
+      "documents": [
+        "department-of-state-cleared-report"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.1,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "matthew-brown"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.05,
+  "tier": "told-once"
+}

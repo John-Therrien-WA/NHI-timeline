@@ -1,0 +1,91 @@
+{
+  "id": "intelligence-figures-convene-pastors-to-prepare-their-church-2026",
+  "title": "Intelligence figures convene pastors to prepare their churches",
+  "summary": "Jesse Michels tells of Intelligence figures convene pastors to prepare their churches, about c. 2026 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2026,
+    "to": 2026
+  },
+  "place": "united-states",
+  "place_text": "United States (Airbnb meeting)",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 5395.0,
+      "to_s": 5406.0,
+      "teller": "jesse-michels",
+      "quote": "And they are meeting with these pastors and religious leaders across the country and convening them and telling them to prepare their their churches.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 5781.0,
+      "to_s": 5797.0,
+      "teller": "eric-burlison",
+      "quote": "they decided they were going to put together a group of pastors kind of slowly bring them into this conversation, see where they are and and they invited me to that event. I said I couldn't make it, but I would be happy to be on a phone call.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by the congressman, who says he was invited and took part by phone.",
+      "link_reason": "Both describe the 2026 meeting where pastors were convened to prepare their churches. Here the congressman says he was invited and joined by phone.",
+      "as_told": {
+        "title": "Congressman joins the pastors' meeting by phone",
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "grusch-sends-someone-to-interview-mccasland-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pastor-apologizes-for-misattributing-the-all-demons-view-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nasa-administrator-isaacman-says-some-cases-are-unresolved-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "eric-burlison",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "michael-levin-frog-embryo-in-a-faraday-cage",
+  "title": "Michael Levin frog embryo in a Faraday cage",
+  "summary": "Jesse Michels tells of Michael Levin frog embryo in a Faraday cage, about recent at Tufts, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Tufts",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 12128.0,
+      "to_s": 12137.0,
+      "teller": "jesse-michels",
+      "quote": "you put a frog embryo for example in a Faraday cage so you eliminate you know all electromagnetic interference it won't grow correctly",
+      "kind": "host",
+      "cites": [
+        "michael-lean"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

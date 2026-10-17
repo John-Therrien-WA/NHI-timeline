@@ -1,0 +1,73 @@
+{
+  "id": "musgrave-saw-snake-like-things-writhing-in-space",
+  "title": "Musgrave saw snake-like things writhing in space",
+  "summary": "Kevin Knuth tells of Musgrave saw snake-like things writhing in space, about Space Shuttle era at Earth orbit, Space Shuttle, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Earth orbit, Space Shuttle",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 68.0,
+      "to_s": 73.0,
+      "teller": "kevin-knuth",
+      "quote": "The story of Musgrave, a space shuttle pilot, also spoke of seeing things like snakes.",
+      "kind": "secondhand",
+      "cites": [
+        "musgrave"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 5022.0,
+      "to_s": 5027.0,
+      "teller": "jesse-michels",
+      "quote": "the story of Musgrave,\na space shuttle pilot, also\ntalked about seeing things like snakes.",
+      "kind": "host",
+      "cites": [
+        "musgrave"
+      ],
+      "documents": [],
+      "difference": "Told by the host instead of Knuth.",
+      "link_reason": "Both are Musgrave seeing snake-like things in space from the Space Shuttle.",
+      "as_told": {
+        "title": "Musgrave sees snake-like things in space",
+        "years": null,
+        "place_text": "Earth orbit, Space Shuttle",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

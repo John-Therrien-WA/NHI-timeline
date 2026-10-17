@@ -1,0 +1,54 @@
+{
+  "id": "john-p-craven-s-the-silent-war-on-retrieving-exotic-technolo",
+  "title": "John P. Craven's The Silent War on retrieving exotic technology from the seafloor",
+  "summary": "Jesse Michels tells of John P. Craven's The Silent War on retrieving exotic technology from the seafloor, about Cold War era at seafloor, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "seafloor",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 4333.0,
+      "to_s": 4344.0,
+      "teller": "jesse-michels",
+      "quote": "there's a great book called The Silent War by John P. Craven, and he was a high up in the Navy, and he talks about retrieval of exotic technology on the seafloor.",
+      "kind": "host",
+      "cites": [
+        "john-p-craven"
+      ],
+      "documents": [
+        "the-silent-war"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

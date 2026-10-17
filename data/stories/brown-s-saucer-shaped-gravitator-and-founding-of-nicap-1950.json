@@ -1,0 +1,100 @@
+{
+  "id": "brown-s-saucer-shaped-gravitator-and-founding-of-nicap-1950",
+  "title": "Brown's saucer-shaped gravitator and founding of NICAP",
+  "summary": "Jesse Michels tells of Brown's saucer-shaped gravitator and founding of NICAP, about 1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3001.0,
+      "to_s": 3004.0,
+      "teller": "jesse-michels",
+      "quote": "Well, his gravitator looked exactly like a flying saucer.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 650.0,
+      "to_s": 665.0,
+      "teller": "jesse-michels",
+      "quote": "about UFOs he even formed the national\ninvestigations committee on aerial\nphenomena or nikat for short the first\ncivilian UFO study\ngroup",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "This telling states the NICAP founding outright and calls it the first civilian UFO study group; the story's existing telling only mentions the gravitator looking like a saucer.",
+      "link_reason": "The telling and the story both have Jesse Michels saying Townsend Brown founded NICAP in the 1950s in the United States, and the story's title names that founding outright. It is the same claim at the same scope.",
+      "as_told": {
+        "title": "Townsend Brown forms NICAP",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "babson-s-gravity-research-foundation-in-new-boston-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "eisenhower-era-peads-used-to-create-waived-saps-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "townsend-brown-s-anti-gravity-success-in-paris-sarbacher-pic-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "malmgren-tracked-by-majestic-12-guardians-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "TH10mD9hQas",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

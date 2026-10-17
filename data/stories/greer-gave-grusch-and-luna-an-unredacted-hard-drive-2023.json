@@ -1,0 +1,67 @@
+{
+  "id": "greer-gave-grusch-and-luna-an-unredacted-hard-drive-2023",
+  "title": "Greer gave Grusch and Luna an unredacted hard drive",
+  "summary": "Steven Greer tells of Greer gave Grusch and Luna an unredacted hard drive, about 2023-2024 at Washington, D.C., and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2024
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 1591.0,
+      "to_s": 1598.0,
+      "teller": "steven-greer",
+      "quote": "Because I I've met and discussed this with with Grush and Luna and others and I go here here's a hard drive.",
+      "kind": "firsthand",
+      "cites": [
+        "david-grusch",
+        "anna-paulina-luna"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "jake-sullivan-in-at-least-one-uap-briefing-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kirkpatrick-s-aaro-denied-the-herrera-incident-but-he-privat-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

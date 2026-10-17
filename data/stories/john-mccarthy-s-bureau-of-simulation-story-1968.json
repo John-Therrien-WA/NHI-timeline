@@ -1,0 +1,55 @@
+{
+  "id": "john-mccarthy-s-bureau-of-simulation-story-1968",
+  "title": "John McCarthy's 'Bureau of Simulation' story",
+  "summary": "Jacques Vallee tells of John McCarthy's 'Bureau of Simulation' story, about 1968 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1968
+  },
+  "place": "united-states",
+  "place_text": "Stanford AI Lab, California, USA",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 2005.0,
+      "to_s": 2014.0,
+      "teller": "jacques-vallee",
+      "quote": "and then one day you're going to get a letter from the Bureau of simulation the Bureau of simulation says Dear Sir",
+      "kind": "secondhand",
+      "cites": [
+        "john-mccarthy"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jacques-vallee"
+    ],
+    "episodes": [
+      "fyX8V1XXmQM"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "ipu-documents-released-to-tim-cooper-1994",
+  "title": "IPU documents released to Tim Cooper",
+  "summary": "UAPGerb tells of IPU documents released to Tim Cooper, about 1994-1995 at an unknown place, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1994,
+    "to": 1995
+  },
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 1484.0,
+      "to_s": 1496.0,
+      "teller": "uapgerb",
+      "quote": "interplanetary phenomenon unit documents that were I think released in 1994 1995 to Tim Cooper from uh a pseudonym Thomas Kwell",
+      "kind": "researcher",
+      "cites": [
+        "tim-cooper",
+        "thomas-kwell"
+      ],
+      "documents": [
+        "interplanetary-phenomenon-unit-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

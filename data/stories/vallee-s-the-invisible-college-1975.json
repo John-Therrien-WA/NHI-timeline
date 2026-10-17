@@ -1,0 +1,57 @@
+{
+  "id": "vallee-s-the-invisible-college-1975",
+  "title": "Vallee's The Invisible College",
+  "summary": "Jesse Michels tells of Vallee's The Invisible College, about 1975 at an unknown place, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1975
+  },
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 4546.0,
+      "to_s": 4555.0,
+      "teller": "jesse-michels",
+      "quote": "Who really, if you read like The Invisible College, which he wrote in 1975, that is the tip of the spear now, in terms of theory on UFOs,",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": [
+        "the-invisible-college"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

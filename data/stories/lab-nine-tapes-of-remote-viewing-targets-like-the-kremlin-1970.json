@@ -1,0 +1,89 @@
+{
+  "id": "lab-nine-tapes-of-remote-viewing-targets-like-the-kremlin-1970",
+  "title": "Lab Nine tapes of remote viewing targets like the Kremlin",
+  "summary": "Greg tells of Lab Nine tapes of remote viewing targets like the Kremlin, about 1970s at Ossining, New York, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "ossining-ny",
+  "place_text": "Lab Nine, Ossining, New York",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 7990.0,
+      "to_s": 7999.0,
+      "teller": "greg",
+      "quote": "there's other tapes that are like you know what time is the best to to remove you the Kremlin so we can get into it",
+      "kind": "researcher",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [
+        "lab-nine-session-tapes"
+      ]
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 8615.0,
+      "to_s": 8630.0,
+      "teller": "unnamed-guest",
+      "quote": "viewing stuff of like some of the questions that they're asking are like you know, what are what is the code name that you know, the the the you, know, Russian gorilla soldiers are using.",
+      "kind": "researcher",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [
+        "puharich-session-tapes"
+      ],
+      "difference": "The example question is the code names of Russian guerrilla soldiers rather than the best time to remote view the Kremlin.",
+      "link_reason": "Like telling 2, these are Puharich session tapes on which the Nine are asked intelligence-style remote viewing questions about Soviet targets, so it is the same body of tapes.",
+      "as_told": {
+        "title": "Questions to the Nine about Russian guerrilla code names",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "space-kids-channeling-tapes-name-israeli-generals-such-as-ah-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg",
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested"
+}

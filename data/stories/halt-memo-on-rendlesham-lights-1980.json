@@ -1,0 +1,57 @@
+{
+  "id": "halt-memo-on-rendlesham-lights-1980",
+  "title": "Halt memo on Rendlesham lights",
+  "summary": "Jesse Michels tells of Halt memo on Rendlesham lights, about December 1980 at RAF Bentwaters / Rendlesham Forest, England, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1980
+  },
+  "place": null,
+  "place_text": "RAF Bentwaters / Rendlesham Forest, England",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 2983.0,
+      "to_s": 2999.0,
+      "teller": "jesse-michels",
+      "quote": "Lieutenant Colonel Charles halt detailed the entire incident in a memo to the UK Ministry of Defense he said that a security patrol saw strange lights descending into the nearby rendlesham Forest",
+      "kind": "host",
+      "cites": [
+        "charles-halt"
+      ],
+      "documents": [
+        "halt-memo-to-uk-ministry-of-defence"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

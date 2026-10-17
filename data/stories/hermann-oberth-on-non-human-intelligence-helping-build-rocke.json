@@ -1,0 +1,99 @@
+{
+  "id": "hermann-oberth-on-non-human-intelligence-helping-build-rocke",
+  "title": "Hermann Oberth on non-human intelligence helping build rockets",
+  "summary": "Jesse Michels tells of Hermann Oberth on non-human intelligence helping build rockets, about 20th century at Germany, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 7716.0,
+      "to_s": 7725.0,
+      "teller": "jesse-michels",
+      "quote": "his mentor Herman Oberth on record saying that non-human intelligence allowed them to build rockets to go to space.",
+      "kind": "host",
+      "cites": [
+        "hermann-oberth",
+        "wernher-von-braun"
+      ],
+      "documents": [
+        "secret-machines"
+      ]
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 4289.0,
+      "to_s": 4298.0,
+      "teller": "jesse-michels",
+      "quote": "And there's even a audio of him talking about UFOs and he said he he they were aided and had help.",
+      "kind": "researcher",
+      "cites": [
+        "hermann-oberth"
+      ],
+      "documents": [
+        "oberth-audio"
+      ],
+      "difference": "Names an audio recording as the source and does not mention rockets or von Braun.",
+      "link_reason": "Both tell of Hermann Oberth on record saying they had help from non-human intelligence.",
+      "as_told": {
+        "title": "Recording of Hermann Oberth saying they were aided",
+        "years": null,
+        "place_text": "Germany",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 8222.0,
+      "to_s": 8225.0,
+      "teller": "jason-samosa",
+      "quote": "The German guy, the Nazi guy who claimed that they had relationship.",
+      "kind": "researcher",
+      "cites": [
+        "hermann-oberth"
+      ],
+      "documents": [],
+      "difference": "This telling puts it vaguely as a 'relationship' and calls him 'the Nazi guy'; it does not say the help was with building rockets.",
+      "link_reason": "Both tell Oberth's claim that he and his colleagues had help from, or a relationship with, nonhuman beings.",
+      "as_told": {
+        "title": "Hermann Oberth claimed a relationship with nonhuman beings",
+        "years": null,
+        "place_text": "Germany",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-samosa",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested"
+}

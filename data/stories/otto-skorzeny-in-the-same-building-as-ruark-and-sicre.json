@@ -1,0 +1,54 @@
+{
+  "id": "otto-skorzeny-in-the-same-building-as-ruark-and-sicre",
+  "title": "Otto Skorzeny in the same building as Ruark and Sicre",
+  "summary": "JASON tells of Otto Skorzeny in the same building as Ruark and Sicre, about post-WWII at Spain, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Spain",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5645.0,
+      "to_s": 5651.0,
+      "teller": "jason",
+      "quote": "Who lives in the same building as Roark and Sicre? Otto Skorzeny.",
+      "kind": "researcher",
+      "cites": [
+        "otto-skorzeny",
+        "robert-ruark",
+        "ricardo-sicre"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

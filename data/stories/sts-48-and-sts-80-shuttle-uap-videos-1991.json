@@ -1,0 +1,74 @@
+{
+  "id": "sts-48-and-sts-80-shuttle-uap-videos-1991",
+  "title": "STS-48 and STS-80 shuttle UAP videos",
+  "summary": "Maaneli Derakhshani tells of STS-48 and STS-80 shuttle UAP videos, about 1991, 1996 at Earth orbit, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1991,
+    "to": 1996
+  },
+  "place": null,
+  "place_text": "Earth orbit",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 3160.0,
+      "to_s": 3170.0,
+      "teller": "maaneli-derakhshani",
+      "quote": "One is STS48 from the 1991 STS48 mission and the other one is uh STS80 in 1996.",
+      "kind": "researcher",
+      "cites": [
+        "james-oberg"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 9098.0,
+      "to_s": 9106.0,
+      "teller": "max",
+      "quote": "I'm referring to STS48, STS80, the two space shuttle cases that I mentioned earlier.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Mentioned only in passing, with no mission years given.",
+      "link_reason": "The same two space shuttle UAP cases, STS-48 and STS-80, apparently from the same researcher.",
+      "as_told": {
+        "title": "STS-48 and STS-80 space shuttle cases",
+        "years": null,
+        "place_text": "Earth orbit",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "maaneli-derakhshani",
+      "max"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several"
+}

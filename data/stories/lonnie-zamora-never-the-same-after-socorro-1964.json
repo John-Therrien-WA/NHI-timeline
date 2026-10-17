@@ -1,0 +1,56 @@
+{
+  "id": "lonnie-zamora-never-the-same-after-socorro-1964",
+  "title": "Lonnie Zamora never the same after Socorro",
+  "summary": "James Fox tells of Lonnie Zamora never the same after Socorro, about 1964 at Socorro, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "socorro-nm",
+  "place_text": "Socorro, New Mexico, USA",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 3341.0,
+      "to_s": 3351.0,
+      "teller": "james-fox",
+      "quote": "you know, Sakor, New Mexico. I remember the wife of Lonnie Zamora looking at me and she goes, \"I don't know what happened when he looked at that creature, but he was never the same.\"",
+      "kind": "secondhand",
+      "cites": [
+        "wife-of-lonnie-zamora",
+        "lonnie-zamora"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

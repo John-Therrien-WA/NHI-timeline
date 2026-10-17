@@ -1,0 +1,77 @@
+{
+  "id": "robert-maxwell-interrogated-nazi-scientists",
+  "title": "Robert Maxwell interrogated Nazi scientists",
+  "summary": "Jesse Michels tells of Robert Maxwell interrogated Nazi scientists, about post-WWII at Germany, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 6433.0,
+      "to_s": 6443.0,
+      "teller": "jesse-michels",
+      "quote": "so you have this MI6 guy in Robert Maxwell, who I I also don't think anybody knows interrogated Nazi scientists post-World War II.",
+      "kind": "host",
+      "cites": [
+        "robert-maxwell"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 9494.0,
+      "to_s": 9501.0,
+      "teller": "jesse-michels",
+      "quote": "he he interviewed Nazis after Nazi scientists after World War II and then he he came to own the Pergamon press",
+      "kind": "host",
+      "cites": [
+        "whitney-webb",
+        "robert-maxwell",
+        "matthew-brown"
+      ],
+      "documents": [
+        "one-nation-under-blackmail"
+      ],
+      "difference": "Adds that Maxwell then came to own Pergamon Press, and credits Whitney Webb's One Nation Under Blackmail.",
+      "link_reason": "Jesse Michels again tells how Robert Maxwell interrogated Nazi scientists after WWII.",
+      "as_told": {
+        "title": "Robert Maxwell, Nazi scientists and Pergamon Press",
+        "years": null,
+        "place_text": "United States; United Kingdom",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kccrkCGGzX4",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "aerospace-employee-with-an-object-moving-in-their-body",
+  "title": "Aerospace employee with an object moving in their body",
+  "summary": "Jesse Michels tells of Aerospace employee with an object moving in their body, about an unknown time at an aerospace corporation, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "an aerospace corporation",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1262.0,
+      "to_s": 1274.0,
+      "teller": "jesse-michels",
+      "quote": "there's a a person at one of the Aerospace corporations I cannot say their name because I don't want to get them any kind of trouble but they've had something moving in their body now for several years",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

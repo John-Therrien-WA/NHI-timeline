@@ -1,0 +1,87 @@
+{
+  "id": "oppenheimer-created-the-classification-covering-ufos-1940",
+  "title": "Oppenheimer created the classification covering UFOs",
+  "summary": "David Grusch tells of Oppenheimer created the classification covering UFOs, about 1940s-1950s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "Manhattan Project, United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 1267.0,
+      "to_s": 1272.0,
+      "teller": "david-grusch",
+      "quote": "because Oppenheimer was the one who created the classification that included the UFO stuff.",
+      "kind": "secondhand",
+      "cites": [
+        "j-robert-oppenheimer",
+        "robert-sarbacher"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 4826.0,
+      "to_s": 4836.0,
+      "teller": "jesse-michels",
+      "quote": "Dave grush said that uh Oppenheimer was part of setting up the original UFO secrecy protocols with the atomic energy commission",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch",
+        "j-robert-oppenheimer"
+      ],
+      "documents": [],
+      "difference": "Tells it as setting up secrecy protocols with the Atomic Energy Commission, where the story's telling has Oppenheimer creating the classification.",
+      "link_reason": "Both credit Grusch with the claim that Oppenheimer set up the secrecy and classification that covered UFOs.",
+      "as_told": {
+        "title": "Oppenheimer helped set up UFO secrecy protocols with the AEC",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Atomic Energy Commission",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "sarbacher-involved-in-standing-up-the-program-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "david-grusch"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

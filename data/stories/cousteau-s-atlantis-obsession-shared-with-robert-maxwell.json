@@ -1,0 +1,53 @@
+{
+  "id": "cousteau-s-atlantis-obsession-shared-with-robert-maxwell",
+  "title": "Cousteau's Atlantis obsession shared with Robert Maxwell",
+  "summary": "Jason Jorjani tells of Cousteau's Atlantis obsession shared with Robert Maxwell, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 9411.0,
+      "to_s": 9426.0,
+      "teller": "jason-jorjani",
+      "quote": "And Gilen Maxwell was obsessed with Atlantis from childhood because her father, Robert Maxwell, was friends with Jacqu Kustoau. and Jacqu Kustoau admitted to them that his interest in oceanography really came from an obsession with finding Atlantis.",
+      "kind": "secondhand",
+      "cites": [
+        "robert-maxwell",
+        "jacques-cousteau"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

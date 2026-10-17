@@ -1,0 +1,58 @@
+{
+  "id": "john-aristotle-phillips-atomic-bomb-junior-thesis-at-princet-1976",
+  "title": "John Aristotle Phillips' atomic bomb junior thesis at Princeton",
+  "summary": "Eric Weinstein tells of John Aristotle Phillips' atomic bomb junior thesis at Princeton, about 1976-1977 at Princeton University, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1976,
+    "to": 1977
+  },
+  "place": null,
+  "place_text": "Princeton University",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 4664.0,
+      "to_s": 4675.0,
+      "teller": "eric-weinstein",
+      "quote": "You had a guy named John Aristotle Phillips who was a junior at Princeton who chose Freeman Dyson for his advisor for his junior thesis.",
+      "kind": "researcher",
+      "cites": [
+        "john-aristotle-phillips",
+        "freeman-dyson"
+      ],
+      "documents": [
+        "john-aristotle-phillips-junior-thesis"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,80 @@
+{
+  "id": "pascagoula-abduction-near-a-nuclear-sub-shipyard-1973",
+  "title": "Pascagoula abduction near a nuclear sub shipyard",
+  "summary": "Jesse Michels tells of Pascagoula abduction near a nuclear sub shipyard, about 1973 at Pascagoula, Mississippi, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1973,
+    "to": 1973
+  },
+  "place": null,
+  "place_text": "Pascagoula, Mississippi",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 4302.0,
+      "to_s": 4314.0,
+      "teller": "jesse-michels",
+      "quote": "in 1973 Charles Hixon and Calvin Parker claimed that they were abducted and examined before being released by aliens while fishing near Pascagoula Mississippi",
+      "kind": "host",
+      "cites": [
+        "charles-hixon",
+        "calvin-parker"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 4405.0,
+      "to_s": 4421.0,
+      "teller": "jesse-michels",
+      "quote": "Pascagoula, Missouri was the site of production of nuclear subs for the Navy. And you have a famous case there of some fishermen who, you know, experience an alien abduction and have a UFO experience.",
+      "kind": "host",
+      "cites": [
+        "luigi-vendetelli"
+      ],
+      "documents": [],
+      "difference": "Places Pascagoula in Missouri, not Mississippi, credits Luigi Vendetelli, and leaves the fishermen unnamed.",
+      "link_reason": "Both tell of the 1973 Pascagoula fishermen's abduction near a Navy nuclear sub yard.",
+      "as_told": {
+        "title": "Pascagoula fishermen abduction near a Navy nuclear sub yard",
+        "years": {
+          "from": 1973,
+          "to": 1973
+        },
+        "place_text": "Pascagoula",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "miracle-of-fatima-mass-sighting-1917",
+  "title": "Miracle of Fatima mass sighting",
+  "summary": "Michael Shermer tells of Miracle of Fatima mass sighting, about 1917 at Fatima, Portugal, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1917,
+    "to": 1917
+  },
+  "place": null,
+  "place_text": "Fatima, Portugal",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 10231.0,
+      "to_s": 10236.0,
+      "teller": "michael-shermer",
+      "quote": "the miracle of Fatima. You know, there was 50,000 people or 70,000 or whatever it was.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 8488.0,
+      "to_s": 8498.0,
+      "teller": "jason-samosa",
+      "quote": "And the clouds part and there's this thing in the sky and the sources that we have from lawyers and doctors and you know very serious people describe it as a silvery disc.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Describes the object as a silvery disc, cites lawyers and doctors as sources, and puts the crowd at 70,000.",
+      "link_reason": "Both are about the 1917 Fatima mass sighting witnessed by tens of thousands.",
+      "as_told": {
+        "title": "Fatima miracle: silvery disc seen by 70,000",
+        "years": {
+          "from": 1917,
+          "to": 1917
+        },
+        "place_text": "Fatima, Portugal",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-samosa",
+      "michael-shermer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several"
+}

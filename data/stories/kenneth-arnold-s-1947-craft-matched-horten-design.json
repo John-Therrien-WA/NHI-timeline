@@ -1,0 +1,72 @@
+{
+  "id": "kenneth-arnold-s-1947-craft-matched-horten-design",
+  "title": "Kenneth Arnold's 1947 craft matched Horten design",
+  "summary": "Peter Levenda tells of Kenneth Arnold's 1947 craft matched Horten design, about 1947 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 7841.0,
+      "to_s": 7850.0,
+      "teller": "peter-levenda",
+      "quote": "kind that that Kenneth uh um Arnold saw you know in 1947. The same design without him knowing at the time",
+      "kind": "researcher",
+      "cites": [
+        "kenneth-arnold",
+        "horten-brothers"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "kenneth-arnold-sighting-1947",
+      "relation": "variant",
+      "note": "Same 1947 Kenneth Arnold sighting, but this telling claims the craft matched the Horten brothers' design, which recasts the object as a human-built craft."
+    },
+    {
+      "story": "weather-bureau-employees-see-four-metallic-discs-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kenneth-arnold-s-paranormal-experiences-after-his-1947-sight",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

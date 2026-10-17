@@ -1,0 +1,76 @@
+{
+  "id": "water-damage-suggests-the-egyptian-monuments-were-built-earl",
+  "title": "Water damage suggests the Egyptian monuments were built earlier",
+  "summary": "Jesse Michels tells of Water damage suggests the Egyptian monuments were built earlier, about ancient at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 5075.0,
+      "to_s": 5084.0,
+      "teller": "jesse-michels",
+      "quote": "there's water damage on the L the of the correct there two guys John Anthony West and Robert shock that think that these things were sort of built early",
+      "kind": "secondhand",
+      "cites": [
+        "john-anthony-west",
+        "robert-schoch"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 10333.0,
+      "to_s": 10338.0,
+      "teller": "randall-carlson",
+      "quote": "I'm convinced that that it is water erosion.",
+      "kind": "firsthand",
+      "cites": [
+        "john-anthony-west",
+        "schwaller-de-lubicz"
+      ],
+      "documents": [],
+      "difference": "Told first hand by Carlson, who is convinced it is water erosion. He names the Sphinx enclosure, credits Schwaller de Lubicz and gives about 12,000 years ago.",
+      "link_reason": "Both tell the water-erosion claim, credited to John Anthony West, that the Egyptian monuments, the Sphinx above all, are older than accepted.",
+      "as_told": {
+        "title": "Water erosion of the Sphinx and the Sphinx enclosure",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels",
+      "randall-carlson"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested"
+}

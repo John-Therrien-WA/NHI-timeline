@@ -1,0 +1,64 @@
+{
+  "id": "eg-g-interview-switched-mid-way-to-the-s-4-job-1988",
+  "title": "EG&G interview switched mid-way to the S-4 job",
+  "summary": "Bob Lazar tells of EG&G interview switched mid-way to the S-4 job, about 1988 at Las Vegas, Nevada, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1988,
+    "to": 1988
+  },
+  "place": "las-vegas-nv",
+  "place_text": "EG&G, Las Vegas, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 2147.0,
+      "to_s": 2156.0,
+      "teller": "bob-lazar",
+      "quote": "interviewed me for that and somewhere in the middle of it they said, \"You know, we actually have a different job that we're thinking of plugging you into now.\"",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "1988-resume-to-teller-leads-to-eg-g-and-s-4",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "first-question-at-eg-g-was-about-john-lear-1988",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

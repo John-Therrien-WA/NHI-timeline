@@ -1,0 +1,71 @@
+{
+  "id": "aldrin-s-communion-as-masonic-ritual-on-the-moon-1969",
+  "title": "Aldrin's communion as Masonic ritual on the Moon",
+  "summary": "Jesse Michels tells of Aldrin's communion as Masonic ritual on the Moon, about 1969 at The Moon, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "moon",
+  "place_text": "The Moon, Apollo 11",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 2533.0,
+      "to_s": 2541.0,
+      "teller": "jesse-michels",
+      "quote": "Buzz Aldrin planted they did like communion and then Buzz Aldrin like it was a masonic ritual on the moon.",
+      "kind": "host",
+      "cites": [
+        "buzz-aldrin"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "apollo-intersecting-shadows-suggest-multiple-light-sources-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-lunar-photo-lights-and-buzz-aldrin-s-cabin-flashes-pu-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-moon-rang-like-a-bell-during-the-apollo-seismometer-expe-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

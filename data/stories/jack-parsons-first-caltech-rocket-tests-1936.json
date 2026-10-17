@@ -1,0 +1,55 @@
+{
+  "id": "jack-parsons-first-caltech-rocket-tests-1936",
+  "title": "Jack Parsons' first Caltech rocket tests",
+  "summary": "Jesse Michels tells of Jack Parsons' first Caltech rocket tests, about 1936 at Caltech, western Pasadena, California, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1936,
+    "to": 1936
+  },
+  "place": null,
+  "place_text": "Caltech, western Pasadena, California",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 176.0,
+      "to_s": 189.0,
+      "teller": "jesse-michels",
+      "quote": "The original godfather of American rocketry, Jack Parsons, believed this as well. In 1936, he and some colleagues at Caltech began launching the first rocket tests in western Pasadena.",
+      "kind": "host",
+      "cites": [
+        "jack-parsons"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "mOWwdIuyaQA"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

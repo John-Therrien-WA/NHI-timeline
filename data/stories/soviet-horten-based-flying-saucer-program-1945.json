@@ -1,0 +1,57 @@
+{
+  "id": "soviet-horten-based-flying-saucer-program-1945",
+  "title": "Soviet Horten-based flying saucer program",
+  "summary": "Peter Levenda tells of Soviet Horten-based flying saucer program, about post-1945; revealed after 1991 at Soviet Union, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1991
+  },
+  "place": null,
+  "place_text": "Soviet Union",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 7813.0,
+      "to_s": 7825.0,
+      "teller": "peter-levenda",
+      "quote": "programs and it was revealed when the after the Soviet Union fell some of this documentation became available was to to build a kind of flying saucer and it was based on the Horton model.",
+      "kind": "researcher",
+      "cites": [
+        "horten-brothers"
+      ],
+      "documents": [
+        "soviet-documentation-released-after-the-fall-of-the-soviet-u"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

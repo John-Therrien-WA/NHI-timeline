@@ -1,0 +1,71 @@
+{
+  "id": "neil-armstrong-we-were-told-not-to-come-back-to-the-moon-1970",
+  "title": "Neil Armstrong: 'We were told not to come back to the moon'",
+  "summary": "Jesse Michels tells of Neil Armstrong: 'We were told not to come back to the moon', about 1970s at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 2232.0,
+      "to_s": 2241.0,
+      "teller": "jesse-michels",
+      "quote": "these apocryphal stories of Neil Armstrong telling similar stories in Washington DC saying, \"We were told not to come back to the moon.\"",
+      "kind": "secondhand",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "daniel-sheehan-as-chief-of-station-for-the-jesuits-in-dc-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "illuminati-poster-in-the-dupont-circle-hotel-room-during-nat-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ribicoff-mission-on-soviet-jewish-emigration-and-a-mossad-sh-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

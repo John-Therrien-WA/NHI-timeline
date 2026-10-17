@@ -1,0 +1,529 @@
+{
+  "episode": "dzTZbSNsKV8",
+  "captions": "sources/captions/dzTZbSNsKV8.en.txt",
+  "model": "opus",
+  "chunks": 1,
+  "candidates": [
+    {
+      "title": "CIA visits Nolan's Stanford office to recruit him",
+      "story_kind": "program",
+      "years_text": "c. 2010s",
+      "years": {
+        "from": 2010,
+        "to": 2019
+      },
+      "place_text": "Stanford University, California",
+      "teller": "Garry Nolan",
+      "kind": "firsthand",
+      "quote": "From my point of view, when I got involved, the CIA came to my office.",
+      "from_s": 309.0,
+      "to_s": 315.0,
+      "cites": [
+        "Jacques Vallee",
+        "Hal Puthoff",
+        "Eric Davis",
+        "Robert Bigelow",
+        "Kit Green"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Gary Nolan's own experience of the CIA coming to his Stanford office to recruit him. Neither story matches it: one is about the 2021 Pentagon UAP report and the other is about the Lookout Mountain facility in the 1960s.",
+        "difference": "",
+        "against": [
+          "nine-page-pentagon-uap-report-2021",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960"
+        ],
+        "id": "cia-visits-nolan-s-stanford-office-to-recruit-him-2010"
+      }
+    },
+    {
+      "title": "MRIs of UFO-contact DoD and intelligence personnel show enlarged caudate-putamen region",
+      "story_kind": "testimony",
+      "years_text": "c. 2010s",
+      "years": {
+        "from": 2010,
+        "to": 2019
+      },
+      "place_text": "Stanford University, California",
+      "teller": "Garry Nolan",
+      "kind": "firsthand",
+      "quote": "And then they showed me MRIs of some of these people and most of those people had interactions with UFOs and these were Department of Defense and intelligence people.",
+      "from_s": 342.0,
+      "to_s": 354.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The nearest story is the CIA visiting Nolan at Stanford to recruit him. This telling is one specific finding from that involvement: MRIs of DoD and intelligence personnel with UFO contact showing an enlarged caudate-putamen region. That makes it a narrower, distinct story rather than the recruitment itself.",
+        "difference": "",
+        "against": [
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "nine-page-pentagon-uap-report-2021"
+        ],
+        "id": "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010"
+      }
+    },
+    {
+      "title": "AATIP, the DoD's UFO program, and its $22 million budget",
+      "story_kind": "program",
+      "years_text": "c. 2007-2021",
+      "years": {
+        "from": 2007,
+        "to": 2021
+      },
+      "place_text": "United States (Department of Defense)",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Just look at the main UFO program over the last 15 years out of the DoD. It's called ATIP or the Advanced Aerospace Threat Identification Program. ATIP has a $22 million budget.",
+      "from_s": 272.0,
+      "to_s": 285.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "broader",
+        "reason": "The telling is about the AATIP program and its $22 million budget. The nearest story, the 2021 nine-page Pentagon UAP report, is a different DoD document. None of the stories covers AATIP itself.",
+        "difference": "",
+        "against": [
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "nine-page-pentagon-uap-report-2021"
+        ],
+        "id": "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007"
+      }
+    },
+    {
+      "title": "Jacques Vallee publishes his address so witnesses can send him UFO crash parts",
+      "story_kind": "program",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Jacqu Vallet publishes his address online so people who witness UFO crashes across the country can send him the parts",
+      "from_s": 597.0,
+      "to_s": 607.0,
+      "cites": [
+        "Jacques Vallee",
+        "Garry Nolan"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Vallee posting his address publicly so people could mail him UFO crash material. The nearest story, the CIA recruiting Nolan at Stanford, involves the same people but is a different event, and no story here covers Vallee collecting crash parts.",
+        "difference": "",
+        "against": [
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "nine-page-pentagon-uap-report-2021"
+        ],
+        "id": "jacques-vallee-publishes-his-address-so-witnesses-can-send-h"
+      }
+    },
+    {
+      "title": "Fisherman sees an orb explode off Ubatuba and collects fragments",
+      "story_kind": "sighting",
+      "years_text": "1957",
+      "years": {
+        "from": 1957,
+        "to": 1957
+      },
+      "place_text": "Ubatuba, Brazil",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "One of the most interesting samples Nolan mentions is from Uba Tuba, Brazil, where [music] a fisherman witnessed an exploding orb off the coast and collected some of the parts.",
+      "from_s": 620.0,
+      "to_s": 634.0,
+      "cites": [
+        "Garry Nolan"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about one specific 1957 sighting in Ubatuba, Brazil, where a fisherman saw an orb explode and collected fragments. The closest story is Vallee publishing his address so people can send him crash parts, but that is a general collection effort, not this incident.",
+        "difference": "",
+        "against": [
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007"
+        ],
+        "id": "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957"
+      }
+    },
+    {
+      "title": "NanoSIMS analysis finds anomalous magnesium isotope ratios in Ubatuba fragments",
+      "story_kind": "reverse-engineering",
+      "years_text": "c. 2010s-2021",
+      "years": {
+        "from": 2010,
+        "to": 2021
+      },
+      "place_text": "Stanford University, California",
+      "teller": "Garry Nolan",
+      "kind": "firsthand",
+      "quote": "And one of them was anomalous. The magnesium ratios were way off.",
+      "from_s": 667.0,
+      "to_s": 674.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The nearest story is the 1957 Ubatuba sighting, where a fisherman saw an orb explode and collected fragments. This telling is about something that happened decades later and somewhere else: Nolan's NanoSIMS isotope analysis of those fragments at Stanford. It is a separate, later event, not the sighting itself.",
+        "difference": "",
+        "against": [
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "nine-page-pentagon-uap-report-2021"
+        ],
+        "id": "nanosims-analysis-finds-anomalous-magnesium-isotope-ratios-i-2010"
+      }
+    },
+    {
+      "title": "Fravor's 2004 Nimitz sighting of an object that seemed conscious",
+      "story_kind": "sighting",
+      "years_text": "2004",
+      "years": {
+        "from": 2004,
+        "to": 2004
+      },
+      "place_text": "off the coast of California (USS Nimitz)",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "Commander David Fraver, the Nimtt sighting 2004, him saying looking at the UFO and it's almost as if the thing sees that he's looking at it and is conscious and almost breathing.",
+      "from_s": 781.0,
+      "to_s": 793.0,
+      "cites": [
+        "David Fravor"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "No story here covers the 2004 Nimitz encounter. The closest is AATIP, the DoD program, but that is a whole program, while Fravor's sighting is one incident related to it.",
+        "difference": "",
+        "against": [
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010"
+        ],
+        "id": "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc"
+      }
+    },
+    {
+      "title": "John Mack's Harvard study of alien abductions, encouraged by Thomas Kuhn",
+      "story_kind": "program",
+      "years_text": "1990s",
+      "years": {
+        "from": 1990,
+        "to": 1999
+      },
+      "place_text": "Harvard University, Massachusetts",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "And Thomas [ __ ] was friends with John Mack who was Yeah. the head of the Harvard psychiatry department who spent the latter part of his career studying alien abductions",
+      "from_s": 912.0,
+      "to_s": 922.0,
+      "cites": [
+        "John Mack",
+        "Thomas Kuhn"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about John Mack's 1990s Harvard study of alien abductions and his friendship with Thomas Kuhn. None of the stories mentions Mack, Kuhn, Harvard or abductions. The closest one, the Stanford MRI testimony, is a different program run by different people.",
+        "difference": "",
+        "against": [
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc"
+        ],
+        "id": "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990"
+      }
+    },
+    {
+      "title": "Vallee-Pasulka theory that the 1947 Roswell crash divides folklore entities from aliens",
+      "story_kind": "theory",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "The theory maybe I like best is the Jacques Valle uh Diana Pulka theory that 1947 in the Roswell crash represented this dividing line.",
+      "from_s": 949.0,
+      "to_s": 961.0,
+      "cites": [
+        "Jacques Vallee",
+        "Diana Pasulka"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "This is a theory that Roswell in 1947 was the dividing line between folklore entities and aliens. None of the stories covers Roswell or this theory. The nearest one, Vallee publishing his address so people can send him crash parts, is a different story about his collecting program.",
+        "difference": "",
+        "against": [
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "north-sentinel-island-analogy-for-hidden-non-human-observers"
+        ],
+        "id": "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo"
+      }
+    },
+    {
+      "title": "Enrico Fermi thinks about aliens at Los Alamos",
+      "story_kind": "theory",
+      "years_text": "1940s-1950",
+      "years": {
+        "from": 1940,
+        "to": 1950
+      },
+      "place_text": "Los Alamos, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "that's enrio fermy that guy created the theoretical underpinnings for splitting the atom right you know he was in the Manhattan project sort of as conventionally well regarded as it gets and he was thinking about aliens in his off time at Los Alamos",
+      "from_s": 1090.0,
+      "to_s": 1106.0,
+      "cites": [
+        "Enrico Fermi"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Enrico Fermi thinking about aliens at Los Alamos. The nearest story is the North Sentinel Island analogy, which brings up the Fermi paradox, but it is Weinstein's own analogy about hidden observers and not Fermi's thinking at Los Alamos.",
+        "difference": "",
+        "against": [
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "north-sentinel-island-analogy-for-hidden-non-human-observers",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h"
+        ],
+        "id": "enrico-fermi-thinks-about-aliens-at-los-alamos-1940"
+      }
+    },
+    {
+      "title": "Hal Puthoff starts the government's psychic spy program at SRI",
+      "story_kind": "program",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "Stanford Research Institute, California",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "He was first a laser physicist and then out of Stanford Research Institute. He started the government's psychic spy program.",
+      "from_s": 1272.0,
+      "to_s": 1282.0,
+      "cites": [
+        "Hal Puthoff"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about Puthoff starting the SRI psychic spy (remote viewing) program in the 1970s. None of the stories covers it. The nearest is the CIA recruiting Nolan at Stanford, which happened decades later and involves a different event.",
+        "difference": "",
+        "against": [
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "john-mack-s-harvard-study-of-alien-abductions-encouraged-by-1990",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc"
+        ],
+        "id": "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970"
+      }
+    },
+    {
+      "title": "Bismuth-magnesium sample said to be from Roswell, found in an army officer's grandfather's archives",
+      "story_kind": "crash-retrieval",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "Long story short, this army officer was going through his grandfather's archives when he found this rare sample. And then written in the diary was that it was a piece from uh Roswell.",
+      "from_s": 1299.0,
+      "to_s": 1312.0,
+      "cites": [
+        "Hal Puthoff"
+      ],
+      "documents": [
+        "grandfather's diary"
+      ],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "narrower",
+        "reason": "The telling is about one particular bismuth-magnesium sample, said to come from Roswell, that turned up in an army officer's grandfather's archives. The nearest story is the Vallee-Pasulka theory about Roswell as a dividing line. That is a general theory, not a story about where a physical sample came from, so this is a different story.",
+        "difference": "",
+        "against": [
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "nanosims-analysis-finds-anomalous-magnesium-isotope-ratios-i-2010",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007"
+        ],
+        "id": "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947"
+      }
+    },
+    {
+      "title": "Bismuth-magnesium layers could shrink terahertz waveguides",
+      "story_kind": "reverse-engineering",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "secondhand",
+      "quote": "Howal claims that they even have the properties to microize wave guides for terraertz frequencies.",
+      "from_s": 1316.0,
+      "to_s": 1323.0,
+      "cites": [
+        "Hal Puthoff"
+      ],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The nearest story is about how the bismuth-magnesium sample was found and where it was said to come from: an army officer's grandfather's archives, with Roswell as the source. This telling makes a separate reverse-engineering claim, credited to Puthoff, about what the material can do: shrink waveguides for terahertz frequencies. Same material, but it is not the same story.",
+        "difference": "",
+        "against": [
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "nanosims-analysis-finds-anomalous-magnesium-isotope-ratios-i-2010",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957"
+        ],
+        "id": "bismuth-magnesium-layers-could-shrink-terahertz-waveguides"
+      }
+    },
+    {
+      "title": "Email to Nolan about a glowing object that drops molten metal",
+      "story_kind": "sighting",
+      "years_text": "2021",
+      "years": {
+        "from": 2021,
+        "to": 2021
+      },
+      "place_text": "unspecified",
+      "teller": "Garry Nolan",
+      "kind": "secondhand",
+      "quote": "Actually, there's one that I just got in the last few weeks an email from somebody who uh it's a a glowing object that drops molten metal.",
+      "from_s": 1429.0,
+      "to_s": 1438.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about an email Nolan got recently (2021) describing a glowing object that drops molten metal. The closest story is the 1957 Ubatuba orb, but that one is a separate, specific event with a fisherman, a place and an explosion, and the email names none of these.",
+        "difference": "",
+        "against": [
+          "fisherman-sees-an-orb-explode-off-ubatuba-and-collects-fragm-1957",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+          "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "mris-of-ufo-contact-dod-and-intelligence-personnel-show-enla-2010",
+          "nanosims-analysis-finds-anomalous-magnesium-isotope-ratios-i-2010",
+          "nine-page-pentagon-uap-report-2021"
+        ],
+        "id": "email-to-nolan-about-a-glowing-object-that-drops-molten-meta-2021"
+      }
+    },
+    {
+      "title": "1945 Trinity crash as the source of a larger piece",
+      "story_kind": "crash-retrieval",
+      "years_text": "1945",
+      "years": {
+        "from": 1945,
+        "to": 1945
+      },
+      "place_text": "Trinity site, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Trinity, that crash was 1945 uh where the sort of larger piece came from.",
+      "from_s": 1504.0,
+      "to_s": 1514.0,
+      "cites": [],
+      "documents": [],
+      "link": {
+        "decision": "new",
+        "story": null,
+        "grain": "same",
+        "reason": "The telling is about a 1945 crash at the Trinity site that supposedly produced a larger piece of material. The nearest story is the bismuth-magnesium sample said to be from Roswell, but that is a different crash, in 1947, with a different piece found in a grandfather's archives.",
+        "difference": "",
+        "against": [
+          "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+          "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+          "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+          "jacques-vallee-publishes-his-address-so-witnesses-can-send-h",
+          "enrico-fermi-thinks-about-aliens-at-los-alamos-1940",
+          "cia-visits-nolan-s-stanford-office-to-recruit-him-2010",
+          "nine-page-pentagon-uap-report-2021",
+          "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007"
+        ],
+        "id": "1945-trinity-crash-as-the-source-of-a-larger-piece"
+      }
+    }
+  ],
+  "dropped": []
+}

@@ -1,0 +1,81 @@
+{
+  "id": "frank-tipler-s-rotating-disc-time-machine-resembles-ufos-1915",
+  "title": "Frank Tipler's rotating-disc time machine resembles UFOs",
+  "summary": "Mike Masters tells of Frank Tipler's rotating-disc time machine resembles UFOs, about 1915–1970s at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1915,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y26iMB0r-f8",
+      "from_s": 1257.0,
+      "to_s": 1270.0,
+      "teller": "mike-masters",
+      "quote": "importantly in the 19 1970s with Frank tippler that's all shrunk down to the size that's finite and it's a rapidly rotating ring sphere or disc as he said",
+      "kind": "researcher",
+      "cites": [
+        "frank-tipler",
+        "albert-einstein",
+        "van-stockum",
+        "kurt-godel"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 1706.0,
+      "to_s": 1718.0,
+      "teller": "jesse-michels",
+      "quote": "who is a contemporary of Wheeler and a\nphysicist uh shrunk down uh the girdle\ntime travel model and it was he had this\nthing called the the Tippler disc and it\nwas it's a flying saucer.",
+      "kind": "host",
+      "cites": [
+        "kurt-godel",
+        "frank-tipler"
+      ],
+      "documents": [],
+      "difference": "Told by Jesse Michels as host, who calls Tipler a contemporary of Wheeler and doesn't mention Einstein or van Stockum.",
+      "link_reason": "Both say Tipler shrank Gödel's time-travel model into a rotating disc that resembles a flying saucer.",
+      "as_told": {
+        "title": "Tipler disc time machine as flying saucer",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "mike-masters"
+    ],
+    "episodes": [
+      "Y26iMB0r-f8",
+      "jMCavr3dVP0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

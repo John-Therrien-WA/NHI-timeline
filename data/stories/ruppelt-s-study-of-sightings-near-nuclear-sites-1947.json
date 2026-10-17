@@ -1,0 +1,55 @@
+{
+  "id": "ruppelt-s-study-of-sightings-near-nuclear-sites-1947",
+  "title": "Ruppelt's study of sightings near nuclear sites",
+  "summary": "Jesse Michels tells of Ruppelt's study of sightings near nuclear sites, about 1947-1956 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1956
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 11038.0,
+      "to_s": 11048.0,
+      "teller": "jesse-michels",
+      "quote": "Well, yeah, it would be Edward J. Pelt's original study where he came in that was done from 1947 1952 and then he wrote a book about it in 1956.",
+      "kind": "host",
+      "cites": [
+        "edward-ruppelt"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

@@ -1,0 +1,91 @@
+{
+  "id": "bill-holden-kennedy-on-air-force-one-says-ufos-are-out-of-hi-1963",
+  "title": "Bill Holden: Kennedy on Air Force One says UFOs are out of his hands",
+  "summary": "Steven Greer tells of Bill Holden: Kennedy on Air Force One says UFOs are out of his hands, about 1963 at Air Force One, en route to Berlin, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "united-states",
+  "place_text": "Air Force One, en route to Berlin",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 5710.0,
+      "to_s": 5721.0,
+      "teller": "steven-greer",
+      "quote": "this. Kennedy turned to him and says, \"I know this is true and I know these are real, but the whole matter is out of my hands and I don't know why.\"",
+      "kind": "secondhand",
+      "cites": [
+        "bill-holden",
+        "john-f-kennedy"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 12685.0,
+      "to_s": 12693.0,
+      "teller": "steven-greer",
+      "quote": "Jack Kennedy said the same thing to Bill Holden, his the stu chief steward on Air Force One.",
+      "kind": "secondhand",
+      "cites": [
+        "bill-holden",
+        "john-f-kennedy"
+      ],
+      "documents": [],
+      "difference": "Gives the time only as Kennedy's presidency, with no Berlin trip named, and puts it as Kennedy saying 'the same thing' as Eisenhower.",
+      "link_reason": "Both tellings are Greer relaying what steward Bill Holden said: that Kennedy, on Air Force One, told him the UFO matter was out of his hands.",
+      "as_told": {
+        "title": "Kennedy told Air Force One steward Bill Holden he had been sidelined",
+        "years": {
+          "from": 1961,
+          "to": 1963
+        },
+        "place_text": "Air Force One, USA",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "kennedy-s-silver-certificates-on-june-5-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pope-john-xxiii-to-broker-the-warhead-destruction-deal-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

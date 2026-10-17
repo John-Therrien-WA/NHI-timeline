@@ -1,0 +1,58 @@
+{
+  "id": "nasa-telepathy-experiments-and-remote-viewing-the-moon-1960",
+  "title": "NASA telepathy experiments and remote viewing the moon",
+  "summary": "Greg tells of NASA telepathy experiments and remote viewing the moon, about 1960s at NASA, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "NASA",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 6323.0,
+      "to_s": 6329.0,
+      "teller": "greg",
+      "quote": "So he he claims that they sent remote viewers to the moon",
+      "kind": "researcher",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [
+        "newspaper-articles",
+        "puharich-nasa-contracts"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

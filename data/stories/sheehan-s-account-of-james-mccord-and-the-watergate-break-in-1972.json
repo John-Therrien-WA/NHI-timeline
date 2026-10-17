@@ -1,0 +1,111 @@
+{
+  "id": "sheehan-s-account-of-james-mccord-and-the-watergate-break-in-1972",
+  "title": "Sheehan's account of James McCord and the Watergate break-in",
+  "summary": "Jesse Michels tells of Sheehan's account of James McCord and the Watergate break-in, about 1972 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1972,
+    "to": 1972
+  },
+  "place": "washington-dc",
+  "place_text": "Watergate, Washington, DC",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 9578.0,
+      "to_s": 9589.0,
+      "teller": "jesse-michels",
+      "quote": "he was he was ordered to you know uh uh burglarize the DNC and bug Larry O'Brien's phone, but like he he wasn't clued in",
+      "kind": "host",
+      "cites": [
+        "daniel-sheehan",
+        "james-mccord",
+        "gordon-liddy",
+        "allen-dulles"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 5442.0,
+      "to_s": 5453.0,
+      "teller": "daniel-sheehan",
+      "quote": "And so he said, \"We've got to we've got to find out whether whether O'Brien knows about it and is thinking at all about using it. So we've got to not only wiretap his telephone, but bug his office.\"",
+      "kind": "researcher",
+      "cites": [
+        "richard-nixon",
+        "larry-o-brien",
+        "howard-hughes",
+        "james-mccord"
+      ],
+      "documents": [],
+      "difference": "Told by Sheehan himself, it adds the motive: Nixon wanted to learn whether O'Brien knew about the Hughes S Force and might use it.",
+      "link_reason": "Both are Sheehan's account of the 1972 Watergate break-in and the bugging of Larry O'Brien.",
+      "as_told": {
+        "title": "Watergate break-in aimed at Larry O'Brien over the S force",
+        "years": {
+          "from": 1972,
+          "to": 1972
+        },
+        "place_text": "Watergate, Washington, DC",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 777.0,
+      "to_s": 787.0,
+      "teller": "jesse-michels",
+      "quote": "Larry O'Brien was running McGovern's campaign and he was the guy whose cell phone got bugged in the Watergate scandal.",
+      "kind": "host",
+      "cites": [
+        "larry-o-brien",
+        "howard-hughes",
+        "richard-nixon"
+      ],
+      "documents": [],
+      "difference": "Says O'Brien was running McGovern's campaign and calls the bugged phone his cell phone.",
+      "link_reason": "The same 1972 Watergate break-in to bug Larry O'Brien over what he knew about Hughes, as in Sheehan's account.",
+      "as_told": {
+        "title": "Larry O'Brien as the motive for the Watergate break-in",
+        "years": {
+          "from": 1972,
+          "to": 1972
+        },
+        "place_text": "Watergate, Washington, DC",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w",
+      "LpLFWdsIU7M",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "ufos-at-civilian-nuclear-sites-in-hastings-appendix",
+  "title": "UFOs at civilian nuclear sites in Hastings' appendix",
+  "summary": "Jesse Michels tells of UFOs at civilian nuclear sites in Hastings' appendix, about various at Japan (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "japan",
+  "place_text": "Bariloche, Argentina; Chernobyl; Fukushima, Japan",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 5997.0,
+      "to_s": 6006.0,
+      "teller": "jesse-michels",
+      "quote": "So he actually has an appendex\nwhere he details six to eight civilian\nnuclear energy grids. And there's a\nfamous case in Baroce, Argentina.",
+      "kind": "secondhand",
+      "cites": [
+        "robert-hastings"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 8786.0,
+      "to_s": 8795.0,
+      "teller": "jesse-michels",
+      "quote": "reports that are similar at Chernobyl at Baroce Argentina where they have civilian, you know, energy grid. There was a famous sighting u in 1995 there,",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Does not credit Hastings' appendix and gives the 1995 date for Bariloche.",
+      "link_reason": "Same set of UFO reports at civilian nuclear sites, including Chernobyl and the 1995 Bariloche case.",
+      "as_told": {
+        "title": "UFO sightings around nuclear sites: Chernobyl and Bariloche 1995",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "Chernobyl, Ukraine; Bariloche, Argentina",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

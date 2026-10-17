@@ -1,0 +1,55 @@
+{
+  "id": "minot-afb-radar-reviewed-by-kevin-knuth-1968",
+  "title": "Minot AFB radar reviewed by Kevin Knuth",
+  "summary": "Jesse Michels tells of Minot AFB radar reviewed by Kevin Knuth, about 1968 at Minot Air Force Base, North Dakota, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1968
+  },
+  "place": null,
+  "place_text": "Minot Air Force Base, North Dakota",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 955.0,
+      "to_s": 965.0,
+      "teller": "jesse-michels",
+      "quote": "in the case of May not uh Air Force Base in 1968, we actually have radar associated with it and physicists have reviewed the radar.",
+      "kind": "host",
+      "cites": [
+        "kevin-knuth"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

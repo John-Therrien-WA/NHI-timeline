@@ -1,0 +1,104 @@
+{
+  "id": "nine-page-pentagon-uap-report-2021",
+  "title": "Nine-page Pentagon UAP report",
+  "summary": "Eric Weinstein tells of Nine-page Pentagon UAP report, about 2021 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2021,
+    "to": 2021
+  },
+  "place": "washington-dc",
+  "place_text": "Pentagon, Washington, USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ZTIO-xAP0Dw",
+      "from_s": 1638.0,
+      "to_s": 1678.0,
+      "teller": "eric-weinstein",
+      "quote": "Nine pages came out from the Pentagon. Six of which are relevant. Three, I think, you know, it's like a a cover and a back page. I don't know what it is. And it's very clear in that report that that report was meant to be as dull as is humanly possible about the most exciting thing that you could possibly imagine, which is that either we're engaged in an incredible psychological operation coming out of the Pentagon or some people inside the Pentagon believe with near certainty that we've been contacted and observed by extra extraterrestrials uh visiting Earth.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "nine-pages-from-the-pentagon"
+      ]
+    },
+    {
+      "episode": "_bM9eAtCOGw",
+      "from_s": 11.0,
+      "to_s": 20.0,
+      "teller": "jesse-michels",
+      "quote": "On June 25th, 2021, the Pentagon released a report acknowledging the existence of objects in our sky that we cannot explain.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "june-25th-pentagon-report"
+      ],
+      "difference": "Gives the release date of June 25th, 2021 and frames the report as admitting there are objects nobody can explain, where Weinstein speaks of its nine dull pages and what they suggest.",
+      "link_reason": "Both are about the June 2021 Pentagon UAP report, the same document at the same grain.",
+      "as_told": {
+        "title": "Pentagon releases UAP report",
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "iQOibpIDx-4",
+      "from_s": 206.0,
+      "to_s": 223.0,
+      "teller": "eric-weinstein",
+      "quote": "reason i found the report fascinating was because it reeked of conflict i could clearly detect a voice an authorial voice that wanted to disclose more and one that said over my dead body",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "odni-preliminary-assessment-on-unidentified-aerial-phenomena"
+      ],
+      "difference": "Weinstein says the report shows a conflict between an author who wanted to disclose more and one who refused ('over my dead body'), where the story's telling stresses how deliberately dull it was; this telling also names the ODNI as the source.",
+      "link_reason": "Both are about the same 2021 ODNI/Pentagon preliminary UAP assessment, and Eric Weinstein comments on it in both. Each is his reading of the same document, and the two readings don't contradict each other.",
+      "as_told": {
+        "title": "Congressional UAP report shows internal conflict over disclosure",
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "place_text": "United States (ODNI / Department of Defense)",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ZTIO-xAP0Dw",
+      "_bM9eAtCOGw",
+      "iQOibpIDx-4"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested"
+}

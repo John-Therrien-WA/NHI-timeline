@@ -1,0 +1,75 @@
+{
+  "id": "imperial-college-extended-the-dmt-state-to-30-minutes-2015",
+  "title": "Imperial College extended the DMT state to 30 minutes",
+  "summary": "Andrew Gallimore tells of Imperial College extended the DMT state to 30 minutes, about after 2015 at Imperial College, London, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": null,
+  "place_text": "Imperial College, London",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 4089.0,
+      "to_s": 4098.0,
+      "teller": "andrew-gallimore",
+      "quote": "fortunately um Imperial College picked it up um and they developed a much better model",
+      "kind": "researcher",
+      "cites": [
+        "chris-timberman"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 8059.0,
+      "to_s": 8069.0,
+      "teller": "andrew-gallimore",
+      "quote": ">> So far, so far um all of the the subjects at Imperial College got through it. Um there was no",
+      "kind": "researcher",
+      "cites": [
+        "imperial-college"
+      ],
+      "documents": [],
+      "difference": "Adds that all subjects got through the trials with no serious adverse effects.",
+      "link_reason": "Same Imperial College extended-state DMT trials, here with a note on how safe they were.",
+      "as_told": {
+        "title": "DMTX trials at Imperial College had no serious adverse effects",
+        "years": null,
+        "place_text": "Imperial College London",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "andrew-gallimore"
+    ],
+    "episodes": [
+      "8XD1ZiuhXoY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

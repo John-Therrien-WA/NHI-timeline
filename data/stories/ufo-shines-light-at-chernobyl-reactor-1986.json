@@ -1,0 +1,74 @@
+{
+  "id": "ufo-shines-light-at-chernobyl-reactor-1986",
+  "title": "UFO shines light at Chernobyl reactor",
+  "summary": "Jesse Michels tells of UFO shines light at Chernobyl reactor, about 1986 at Chernobyl, Soviet Ukraine, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1986,
+    "to": 1986
+  },
+  "place": null,
+  "place_text": "Chernobyl, Soviet Ukraine",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 529.0,
+      "to_s": 547.0,
+      "teller": "jesse-michels",
+      "quote": "Harvard PhD Jensen andreon writes about UFO activity at the height of the Chernobyl disaster when many people in in the area observed a UFO come stay for 3 minutes shine a light at the reactor and depart",
+      "kind": "researcher",
+      "cites": [
+        "jensen-andreon"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 2030.0,
+      "to_s": 2033.0,
+      "teller": "jesse-michels",
+      "quote": "you have similar accounts at Chernobyl.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Mentions the accounts only briefly, with no date, details or source.",
+      "link_reason": "Both are about UFO accounts at Chernobyl, which the corpus holds as a UFO seen at the reactor.",
+      "as_told": {
+        "title": "UFO accounts at Chernobyl",
+        "years": null,
+        "place_text": "Chernobyl, Ukraine",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

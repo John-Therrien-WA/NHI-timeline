@@ -1,29 +1,35 @@
 {
   "id": "legacy-program-recruits-psionic-assets-from-native-cultures",
   "title": "Legacy program recruits psionic assets from native cultures",
-  "summary": "Jesse Michels tells of Legacy program recruits psionic assets from native cultures, about present at Third world countries, and relays what a named person told them. As told, not a fact.",
+  "summary": "Jeffrey Mishlove tells of Legacy program recruits psionic assets from native cultures, about present day at worldwide, and relays what a named person told them. As told, not a fact.",
   "era": null,
   "years": null,
   "place": null,
+  "place_text": "worldwide",
   "coordinates": null,
   "kind": "program",
   "claims": [],
   "tellings": [
     {
       "episode": "lcaY-rd9Dhc",
-      "from_s": 2267.0,
-      "to_s": 2282.0,
-      "teller": "jesse-michels",
-      "quote": "the so-called legacy program working with what they called psionic assets to lure UFOs has been reaching out to people from native cultures around the world",
+      "from_s": 2270.0,
+      "to_s": 2286.0,
+      "teller": "jeffrey-mishlove",
+      "quote": "so-called legacy program working with what they called psionic assets to lure UFOs has been reaching out to people from native cultures around the world, especially young children who have never been taught that this is impossible.",
       "kind": "secondhand",
       "cites": [],
       "documents": []
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "young-people-gathered-to-pilot-craft-at-black-facilities",
+      "relation": "variant",
+      "note": "Both say a program recruits young people from around the world. This telling says children from native cultures are recruited as psionic assets to lure UFOs, while the story says they are gathered to pilot craft at black facilities."
+    }
+  ],
   "tags": [],
   "score": 1.0,
-  "place_text": "Third world countries",
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,7 +45,7 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jeffrey-mishlove"
     ],
     "episodes": [
       "lcaY-rd9Dhc"

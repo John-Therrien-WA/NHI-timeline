@@ -1,0 +1,77 @@
+{
+  "id": "prayer-breakfasts-and-doug-coe",
+  "title": "Prayer breakfasts and Doug Coe",
+  "summary": "Peter Levenda tells of Prayer breakfasts and Doug Coe, about unspecified at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "washington-dc",
+  "place_text": "US government, Washington DC",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 15126.0,
+      "to_s": 15132.0,
+      "teller": "peter-levenda",
+      "quote": "I think they had prayer breakfasts and that kind of thing. They they get together and they talk about >> Doug Co.",
+      "kind": "researcher",
+      "cites": [
+        "doug-co"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 1223.0,
+      "to_s": 1235.0,
+      "teller": "jesse-michels",
+      "quote": "this guy Doug Coe was the one of the leaders of the family in the '80s, and he would hold this prayer breakfast, and all of the presidents would have to attend the prayer breakfast",
+      "kind": "host",
+      "cites": [
+        "doug-coe"
+      ],
+      "documents": [],
+      "difference": "Puts it in the 1980s and says every president had to attend.",
+      "link_reason": "Both tell of Doug Coe, a leader of the Family, holding prayer breakfasts in Washington.",
+      "as_told": {
+        "title": "Doug Coe's prayer breakfast",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

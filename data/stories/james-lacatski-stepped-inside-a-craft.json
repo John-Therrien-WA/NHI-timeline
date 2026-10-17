@@ -1,0 +1,107 @@
+{
+  "id": "james-lacatski-stepped-inside-a-craft",
+  "title": "James Lacatski stepped inside a craft",
+  "summary": "Jesse Michels tells of James Lacatski stepped inside a craft, about an unknown time at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 3165.0,
+      "to_s": 3175.0,
+      "teller": "jesse-michels",
+      "quote": "scientist James latsky telling Jeremy Corbell on his podcast weaponized that he actually stepped inside the hull of a craft",
+      "kind": "secondhand",
+      "cites": [
+        "james-lacatski",
+        "jeremy-corbell"
+      ],
+      "documents": [
+        "weaponized-podcast"
+      ]
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 8769.0,
+      "to_s": 8778.0,
+      "teller": "eric-davis",
+      "quote": "I've I've I've heard physical descriptions from Jim Latsky um >> who said that he breached the hole and walked inside of a UFO.",
+      "kind": "secondhand",
+      "cites": [
+        "jim-lacatski",
+        "jay-stratton"
+      ],
+      "documents": [
+        "lacatski-s-book"
+      ],
+      "difference": "Davis heard it from Lacatski directly and cites Lacatski's book, while the story's telling goes through Corbell's podcast.",
+      "link_reason": "Both tell of Jim Lacatski saying he breached the hull of a craft and went inside.",
+      "as_told": {
+        "title": "Jim Lacatski breached the hull and walked inside a UFO",
+        "years": null,
+        "place_text": "undisclosed location, USA",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 8265.0,
+      "to_s": 8268.0,
+      "teller": "matthew-brown",
+      "quote": "Oh, I I fully believe uh Dr. Lowsky.",
+      "kind": "secondhand",
+      "cites": [
+        "james-lacatski",
+        "jeremy-corbell",
+        "george-knapp"
+      ],
+      "documents": [],
+      "difference": "Told by Matthew Brown, who says he believes Lacatski, and credits George Knapp as well.",
+      "link_reason": "Same claim that James Lacatski entered a craft, as told to Jeremy Corbell.",
+      "as_told": {
+        "title": "James Lacatski and a craft in a hangar",
+        "years": {
+          "from": 2000,
+          "to": 2019
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 4.0,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 3,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis",
+      "jesse-michels",
+      "matthew-brown"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "xnxasfyHtfo",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 2.0,
+  "tier": "well-attested"
+}

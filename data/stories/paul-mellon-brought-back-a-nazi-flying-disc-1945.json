@@ -1,0 +1,106 @@
+{
+  "id": "paul-mellon-brought-back-a-nazi-flying-disc-1945",
+  "title": "Paul Mellon brought back a Nazi flying disc",
+  "summary": "Steven Greer tells of Paul Mellon brought back a Nazi flying disc, about 1945 at Germany, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 605.0,
+      "to_s": 610.0,
+      "teller": "steven-greer",
+      "quote": "That's what I'm talking about. And he admitted this. And he admitted going over and getting a Nazi disc.",
+      "kind": "secondhand",
+      "cites": [
+        "john-warner-iv",
+        "paul-mellon"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 6209.0,
+      "to_s": 6219.0,
+      "teller": "jesse-michels",
+      "quote": "he's with Allen Dulles doing tech retrieval in specifically he says I'm in Czechoslovakia and I'm standing on top of a saucer with Allen Dulles",
+      "kind": "secondhand",
+      "cites": [
+        "john-warner-iv",
+        "paul-mellon",
+        "allen-dulles"
+      ],
+      "documents": [],
+      "difference": "Puts the retrieval in Czechoslovakia rather than Germany, has Allen Dulles there with Mellon standing on the saucer, and is told by Michels rather than Greer.",
+      "link_reason": "Both pass on John Warner IV's account that Paul Mellon went over and recovered a Nazi-era flying disc.",
+      "as_told": {
+        "title": "Paul Mellon and Allen Dulles standing on a saucer in Czechoslovakia",
+        "years": null,
+        "place_text": "Czechoslovakia",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 4421.0,
+      "to_s": 4433.0,
+      "teller": "jesse-michels",
+      "quote": "And he talks about, he said he was on his third martini with Paul Mellon and Paul Mellon tells him that he and Allen Dulles were on this, like, you know, tech retrieval operation",
+      "kind": "secondhand",
+      "cites": [
+        "john-warner-iv",
+        "paul-mellon",
+        "allen-dulles"
+      ],
+      "documents": [],
+      "difference": "Names Pilsen as the place and adds the third-martini setting of the conversation.",
+      "link_reason": "Both tell of Paul Mellon telling John Warner IV that he and Allen Dulles retrieved a saucer in Czechoslovakia in 1945.",
+      "as_told": {
+        "title": "Paul Mellon and Allen Dulles stand on a saucer in Pilsen",
+        "years": {
+          "from": 1944,
+          "to": 1945
+        },
+        "place_text": "Pilsen, Czechoslovakia",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "steven-greer"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "areO7Mej44E",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several"
+}

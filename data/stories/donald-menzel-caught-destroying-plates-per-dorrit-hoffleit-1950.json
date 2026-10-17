@@ -1,0 +1,80 @@
+{
+  "id": "donald-menzel-caught-destroying-plates-per-dorrit-hoffleit-1950",
+  "title": "Donald Menzel caught destroying plates, per Dorrit Hoffleit",
+  "summary": "Jesse Michels tells of Donald Menzel caught destroying plates, per Dorrit Hoffleit, about 1950s at Harvard, Cambridge, Massachusetts, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "harvard-ma",
+  "place_text": "Harvard",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 7341.0,
+      "to_s": 7347.0,
+      "teller": "jesse-michels",
+      "quote": "could think of and he's the guy caught destroying plates by somebody who's very reputable Dor at Hofflight.",
+      "kind": "secondhand",
+      "cites": [
+        "donald-menzel",
+        "dorrit-hoffleit"
+      ],
+      "documents": [
+        "dorrit-hoffleit-s-book"
+      ]
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 4261.0,
+      "to_s": 4276.0,
+      "teller": "jesse-michels",
+      "quote": "like Don Menzel, right? >> Who was caught destroying astronomical plates, right? >> Uh by his um kind of assistant who was an astronomer in her own right at Harvard, uh Dorit Hofflight.",
+      "kind": "host",
+      "cites": [
+        "donald-menzel",
+        "dorrit-hoffleit"
+      ],
+      "documents": [],
+      "difference": "Calls Hoffleit Menzel's assistant and an astronomer in her own right, and gives no date.",
+      "link_reason": "Menzel caught by Dorrit Hoffleit destroying astronomical plates at Harvard, the same incident as the story.",
+      "as_told": {
+        "title": "Donald Menzel caught destroying astronomical plates",
+        "years": null,
+        "place_text": "Harvard",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "aatip-modeled-uap-using-general-relativity-2007",
+  "title": "AATIP modeled UAP using general relativity",
+  "summary": "Hal Puthoff tells of AATIP modeled UAP using general relativity, about 2007-2012 at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2007,
+    "to": 2012
+  },
+  "place": "united-states",
+  "place_text": "Bigelow Aerospace, United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iQOibpIDx-4",
+      "from_s": 919.0,
+      "to_s": 927.0,
+      "teller": "hal-puthoff",
+      "quote": "the best that uh you know we could do in the in the a-tip program was say okay let's accept einstein's gr as being the theory",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 6316.0,
+      "to_s": 6323.0,
+      "teller": "luis-elizondo",
+      "quote": "that's that's what we were looking at a tip uhhuh that's absolutely the fundamental Theory that's not a possibility",
+      "kind": "firsthand",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Told by Elizondo, crediting Puthoff, who calls metric manipulation the fundamental theory, not just a possibility.",
+      "link_reason": "Both tell of AATIP's theoretical framework: modeling UAP as craft working within general relativity by manipulating the spacetime metric.",
+      "as_told": {
+        "title": "AATIP studied craft that manipulate the spacetime metric",
+        "years": null,
+        "place_text": "AATIP",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "hal-puthoff"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "iQOibpIDx-4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

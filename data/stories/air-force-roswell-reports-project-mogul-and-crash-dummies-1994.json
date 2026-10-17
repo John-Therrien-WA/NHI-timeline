@@ -1,0 +1,87 @@
+{
+  "id": "air-force-roswell-reports-project-mogul-and-crash-dummies-1994",
+  "title": "Air Force Roswell reports: Project Mogul and crash dummies",
+  "summary": "Michael Shermer tells of Air Force Roswell reports: Project Mogul and crash dummies, about 1994-1997 at Roswell, New Mexico, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1994,
+    "to": 1997
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6929.0,
+      "to_s": 6936.0,
+      "teller": "michael-shermer",
+      "quote": "Two different reports. So there was the 94 report and then the 96 report. The 94 report was about Project Mosul.",
+      "kind": "researcher",
+      "cites": [
+        "us-air-force"
+      ],
+      "documents": [
+        "1994-roswell-report",
+        "1996-roswell-report"
+      ]
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 7219.0,
+      "to_s": 7230.0,
+      "teller": "michael-shermer",
+      "quote": "In the 90s in the two 1990 reports they said yes we made this up because it was the coal. We didn't want the Russians to know we were launching these high altitude spy balloons.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "1990s-air-force-roswell-reports"
+      ],
+      "difference": "Adds the motive that the cover story kept the Soviets from learning about the high-altitude spy balloons.",
+      "link_reason": "The same 1990s Air Force reports that explained Roswell as Project Mogul and crash dummies, told by the same teller.",
+      "as_told": {
+        "title": "1990s Air Force reports on Project Mogul and crash dummies",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "roswell-crash-test-dummy-and-project-mogul-explanations-reje-1947",
+      "relation": "variant",
+      "note": "Both concern the Air Force's Project Mogul and crash-dummy explanations for Roswell. Shermer presents the 1994 and 1996 reports as the explanation, while the story's teller rejects those explanations."
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "michael-shermer"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

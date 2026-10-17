@@ -1,0 +1,75 @@
+{
+  "id": "wright-patterson-as-nuclear-antigravity-and-blue-book-site-1950",
+  "title": "Wright-Patterson as nuclear, antigravity and Blue Book site",
+  "summary": "Jesse Michels tells of Wright-Patterson as nuclear, antigravity and Blue Book site, about 1950s-1960s at Wright-Patterson Air Force Base, Ohio, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Wright-Patterson Air Force Base, Ohio",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 1606.0,
+      "to_s": 1613.0,
+      "teller": "jesse-michels",
+      "quote": "it would become a nuclear engineering test facility and an antigravity research center. It also was the site for Blue Book,",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "TH10mD9hQas",
+      "from_s": 665.0,
+      "to_s": 676.0,
+      "teller": "jesse-michels",
+      "quote": "Wright Patterson Air Force Base in Ohio\nit's where the Roswell crash materials\nwere reportedly taken it becomes an\nanti-gravity Research Center in the '\n50s",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "This telling adds that the Roswell crash materials were reportedly taken to Wright-Patterson in 1947, and it leaves out the nuclear test facility and the Blue Book role.",
+      "link_reason": "The telling and the story are both Jesse Michels's place-lore about Wright-Patterson AFB. Both say the base became an anti-gravity research center in the 1950s, so they make the same core claim about the same site and era.",
+      "as_told": {
+        "title": "Wright-Patterson AFB: Roswell materials and anti-gravity research",
+        "years": {
+          "from": 1947,
+          "to": 1959
+        },
+        "place_text": "Wright-Patterson Air Force Base, Ohio",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "TH10mD9hQas",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

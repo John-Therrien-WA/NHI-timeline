@@ -1,0 +1,58 @@
+{
+  "id": "publication-of-the-necronomicon-financed-by-larry-barnes-1975",
+  "title": "Publication of the Necronomicon financed by Larry Barnes",
+  "summary": "Peter Levenda tells of Publication of the Necronomicon financed by Larry Barnes, about 1975-1977 at New York, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1977
+  },
+  "place": null,
+  "place_text": "New York",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 11630.0,
+      "to_s": 11640.0,
+      "teller": "peter-levenda",
+      "quote": "So by finally by 1977 uh by December of 77 there was a completed actual book for sale.",
+      "kind": "firsthand",
+      "cites": [
+        "larry-barnes",
+        "herman-slater"
+      ],
+      "documents": [
+        "necronomicon"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

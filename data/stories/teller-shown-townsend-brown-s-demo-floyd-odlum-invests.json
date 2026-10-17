@@ -1,0 +1,55 @@
+{
+  "id": "teller-shown-townsend-brown-s-demo-floyd-odlum-invests",
+  "title": "Teller shown Townsend Brown's demo; Floyd Odlum invests",
+  "summary": "Jesse Michels tells of Teller shown Townsend Brown's demo; Floyd Odlum invests, about an unknown time at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 8802.0,
+      "to_s": 8815.0,
+      "teller": "jesse-michels",
+      "quote": "he was, you know, friendly with Thomas Townsen Brown and was shown uh kind of a demo of his uh fan precipitator experiment and said, \"I have no idea how this works.\" And freaks out",
+      "kind": "host",
+      "cites": [
+        "edward-teller",
+        "thomas-townsend-brown",
+        "floyd-odlum",
+        "northrop"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

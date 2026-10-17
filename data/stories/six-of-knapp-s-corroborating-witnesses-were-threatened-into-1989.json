@@ -1,0 +1,71 @@
+{
+  "id": "six-of-knapp-s-corroborating-witnesses-were-threatened-into-1989",
+  "title": "Six of Knapp's corroborating witnesses were threatened into silence",
+  "summary": "Luigi Vendetelli tells of Six of Knapp's corroborating witnesses were threatened into silence, about 1989 at Las Vegas, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1989,
+    "to": 1989
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 5531.0,
+      "to_s": 5539.0,
+      "teller": "luigi-vendetelli",
+      "quote": "he says they all received the phone call, they were all threatened and they never went public.",
+      "kind": "secondhand",
+      "cites": [
+        "george-knapp"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "followed-during-his-clearance-and-told-gene-huff-1989",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "george-knapp-urges-lazar-to-go-public-1989",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "lazar-recognizes-the-craft-in-billy-meier-material-1989",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "luigi-vendetelli"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

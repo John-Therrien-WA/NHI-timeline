@@ -1,0 +1,82 @@
+{
+  "id": "grusch-dick-cheney-headed-the-ufo-program-2000",
+  "title": "Grusch: Dick Cheney headed the UFO program",
+  "summary": "Jesse Michels tells of Grusch: Dick Cheney headed the UFO program, about 2000s-2025 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2025
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 9291.0,
+      "to_s": 9297.0,
+      "teller": "jesse-michels",
+      "quote": "you know, David Grush has come out saying Cheney who just died was head of the UFO program.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grush",
+        "dick-cheney",
+        "walter-kern"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 1433.0,
+      "to_s": 1442.0,
+      "teller": "jesse-michels",
+      "quote": "Do do you take uh David Grush at face value that Dick Cheney was the last head honcho of this sort of program",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "dick-cheney"
+      ],
+      "documents": [],
+      "difference": "Frames Cheney as the last head, until 2009, posed as a question to Davis.",
+      "link_reason": "Same claim relayed from Grusch that Dick Cheney headed the UFO program.",
+      "as_told": {
+        "title": "Dick Cheney as last head of the program",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

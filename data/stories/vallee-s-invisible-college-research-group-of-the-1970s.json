@@ -1,0 +1,91 @@
+{
+  "id": "vallee-s-invisible-college-research-group-of-the-1970s",
+  "title": "Vallee's Invisible College research group of the 1970s",
+  "summary": "Jesse Michels tells of Vallee's Invisible College research group of the 1970s, about 1970s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 2388.0,
+      "to_s": 2399.0,
+      "teller": "jesse-michels",
+      "quote": "in the 70s Jacques named both his independent group of UFO researchers and his seminal book about their learnings the invisible College",
+      "kind": "host",
+      "cites": [
+        "robert-boyle"
+      ],
+      "documents": [
+        "the-invisible-college"
+      ]
+    },
+    {
+      "episode": "KRDE1i3LDuU",
+      "from_s": 7485.0,
+      "to_s": 7502.0,
+      "teller": "jesse-michels",
+      "quote": "You have Jacqu Fleet, you know, uh calling his working group on UFO ufology, studying UFOs with Jon Heinik and a bunch of these guys in the 70s the invisible college. He even named his book The Invisible College, which is uh homage to, you know, Robert Bole.",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee",
+        "j-allen-hynek",
+        "robert-boyle"
+      ],
+      "documents": [
+        "the-invisible-college"
+      ],
+      "difference": "Names J. Allen Hynek as a member and calls it a working group studying UFOs.",
+      "link_reason": "Vallée's 1970s Invisible College group with Hynek and others, and the book named after it as a nod to Robert Boyle. This is the stored story about the research group.",
+      "as_told": {
+        "title": "Vallée's Invisible College working group",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "not stated",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "rogue-elements-of-us-government-managing-uap-programs-per-gr-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "KRDE1i3LDuU",
+      "fyX8V1XXmQM"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

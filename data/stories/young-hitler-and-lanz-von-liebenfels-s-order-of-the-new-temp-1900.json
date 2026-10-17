@@ -1,0 +1,57 @@
+{
+  "id": "young-hitler-and-lanz-von-liebenfels-s-order-of-the-new-temp-1900",
+  "title": "Young Hitler and Lanz von Liebenfels's Order of the New Templars",
+  "summary": "Peter Levenda tells of Young Hitler and Lanz von Liebenfels's Order of the New Templars, about early 1900s at Vienna, Austria, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1900,
+    "to": 1903
+  },
+  "place": null,
+  "place_text": "Vienna, Austria",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 12719.0,
+      "to_s": 12723.0,
+      "teller": "peter-levenda",
+      "quote": "It said that he actually visited Lans van Libfels in his office.",
+      "kind": "researcher",
+      "cites": [
+        "lanz-von-liebenfels"
+      ],
+      "documents": [
+        "unholy-alliance"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

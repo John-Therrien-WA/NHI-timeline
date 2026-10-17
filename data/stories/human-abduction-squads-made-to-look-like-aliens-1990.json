@@ -1,0 +1,96 @@
+{
+  "id": "human-abduction-squads-made-to-look-like-aliens-1990",
+  "title": "Human abduction squads made to look like aliens",
+  "summary": "Steven Greer tells of Human abduction squads made to look like aliens, about unspecified (whistleblowers came forward from the 1990s) at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 4045.0,
+      "to_s": 4057.0,
+      "teller": "steven-greer",
+      "quote": "And it wasn't until I started having people come forward who said, \"Oh, we piloted these.\" And then I had guys come forward who had actually been on the abduction squads made to look like aliens.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 7560.0,
+      "to_s": 7566.0,
+      "teller": "steven-greer",
+      "quote": "I was debriefing people who were the ones operating the abduction program that was human.",
+      "kind": "secondhand",
+      "cites": [
+        "david-jacobs",
+        "budd-hopkins",
+        "john-mack"
+      ],
+      "documents": [],
+      "difference": "Adds that the program's cases were fed to Jacobs, Hopkins and Mack, and gives no decade.",
+      "link_reason": "Both tell of Greer debriefing people who ran a human abduction program meant to look alien.",
+      "as_told": {
+        "title": "Human-run abduction program fed to abduction researchers",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "clinton-era-pressure-on-the-dod-that-shaped-barber-s-path-in-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "rockefellers-fund-greer-mack-and-the-princeton-lab-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "laurence-rockefeller-pushes-the-clintons-on-disclosure-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "laurence-rockefeller-s-ufo-initiative-with-hillary-clinton-a-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "jessica-utts-statistical-analysis-of-cia-stargate-psychic-sp-1970",
+  "title": "Jessica Utts statistical analysis of CIA Stargate psychic spying",
+  "summary": "Jesse Michels tells of Jessica Utts statistical analysis of CIA Stargate psychic spying, about 1970s-1990s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "CIA / United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 5799.0,
+      "to_s": 5813.0,
+      "teller": "jesse-michels",
+      "quote": "Jessica Us uh the statistician studying all the sort of you know psychic spy Stargate stuff coming out coming out of the CIA it does seem like a lot of these things fall way below you know p values that you'd expect",
+      "kind": "secondhand",
+      "cites": [
+        "jessica-utts"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "fouche-tr3b-program-led-by-nro-cia-and-nsa-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-stargate-program-s-hits-questioned-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

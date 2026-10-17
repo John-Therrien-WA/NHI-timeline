@@ -1,0 +1,105 @@
+{
+  "id": "george-h-w-bush-as-cia-director-told-of-a-uap-event-and-refu-1960",
+  "title": "George H.W. Bush as CIA director told of a UAP event and refused the film",
+  "summary": "Eric Davis tells of George H.W. Bush as CIA director told of a UAP event and refused the film, about 1976 (event early 1960s) at The Pentagon, Arlington, Virginia, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1976
+  },
+  "place": "pentagon",
+  "place_text": "CIA / Pentagon",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 1415.0,
+      "to_s": 1428.0,
+      "teller": "eric-davis",
+      "quote": "he started rattling off about a major U UAP event um that was took place in early 60s and Bush's eyes lit up and this is what he's told me he said what are you talking about",
+      "kind": "secondhand",
+      "cites": [
+        "george-h-w-bush"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 10710.0,
+      "to_s": 10714.0,
+      "teller": "jesse-michels",
+      "quote": "As head of the CIA, he was made aware of it accidentally",
+      "kind": "secondhand",
+      "cites": [
+        "eric-davis",
+        "george-h-w-bush"
+      ],
+      "documents": [],
+      "difference": "Identifies the event as the Holloman footage, says Bush learned of it accidentally, and is told by Michels secondhand rather than by Davis.",
+      "link_reason": "Both say George H.W. Bush, as CIA director, was told of an early-1960s UAP event and its film, relayed through Eric Davis.",
+      "as_told": {
+        "title": "George H.W. Bush made aware of the Holloman footage",
+        "years": {
+          "from": 1976,
+          "to": 1976
+        },
+        "place_text": "CIA",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 1768.0,
+      "to_s": 1788.0,
+      "teller": "eric-davis",
+      "quote": "So he goes into this for his first briefing as director of the CIA. The first thing that came out of this briefer's mouth was the Hollowman landing in April 1964 at Hollowman uh Air Force Base in New Mexico. So he started briefing Bush on that and Bush said, \"What are you talking about? I've never heard of this before.\"",
+      "kind": "researcher",
+      "cites": [
+        "george-h-w-bush",
+        "gerald-ford"
+      ],
+      "documents": [],
+      "difference": "Names the event as the April 1964 Holloman AFB landing and places it in his first briefing, without the film refusal.",
+      "link_reason": "Both tell Bush as new CIA director being briefed on an early-1960s UAP event and reacting with surprise.",
+      "as_told": {
+        "title": "George H.W. Bush's first CIA briefing on the Holloman landing",
+        "years": {
+          "from": 1976,
+          "to": 1976
+        },
+        "place_text": "CIA, Langley, Virginia",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ",
+      "hBrfe4hFuM0",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

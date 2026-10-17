@@ -1,0 +1,109 @@
+{
+  "id": "buzz-aldrin-cancels-his-interview-in-monte-carlo-1997",
+  "title": "Buzz Aldrin cancels his interview in Monte Carlo",
+  "summary": "James Fox tells of Buzz Aldrin cancels his interview in Monte Carlo, about late 1990s at Monte Carlo, Monaco, and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1997,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Monte Carlo, Monaco",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 4812.0,
+      "to_s": 4815.0,
+      "teller": "james-fox",
+      "quote": "I'm not doing the interview I said",
+      "kind": "firsthand",
+      "cites": [
+        "buzz-aldrin",
+        "tim-coleman",
+        "samara"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6280.0,
+      "to_s": 6286.0,
+      "teller": "jesse-michels",
+      "quote": "And James Fox actually chased Buzz Aldrin all around the world, finally cornering him in Monte Carlo.",
+      "kind": "host",
+      "cites": [
+        "james-fox",
+        "buzz-aldrin",
+        "paul-allen"
+      ],
+      "documents": [],
+      "difference": "Told by the host, who places it in the 2000s, says Fox 'cornered' Aldrin and brings in Paul Allen, without mentioning the cancellation.",
+      "link_reason": "James Fox chasing Buzz Aldrin and catching up with him in Monte Carlo for an interview is the same Monte Carlo episode.",
+      "as_told": {
+        "title": "James Fox corners Buzz Aldrin in Monte Carlo",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "Monte Carlo",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 1965.0,
+      "to_s": 1977.0,
+      "teller": "jesse-michels",
+      "quote": "chased him all the way to Monte Carlo and Buzz Aldrin was like uh you know at the very last minute when he was about to give him an interview, he goes, \"What would my testimony do anyways?\"",
+      "kind": "secondhand",
+      "cites": [
+        "james-fox",
+        "buzz-aldrin",
+        "paul-allen"
+      ],
+      "documents": [],
+      "difference": "Adds Aldrin's line 'What would my testimony do anyways?' and credits Paul Allen.",
+      "link_reason": "Both tell of James Fox pursuing Aldrin to Monte Carlo, only for Aldrin to back out of the interview at the last minute.",
+      "as_told": {
+        "title": "James Fox chases Aldrin to Monte Carlo",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "Monte Carlo, Monaco",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "bVhSPH2A5Vw",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

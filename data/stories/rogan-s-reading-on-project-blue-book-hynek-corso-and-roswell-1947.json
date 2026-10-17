@@ -1,0 +1,58 @@
+{
+  "id": "rogan-s-reading-on-project-blue-book-hynek-corso-and-roswell-1947",
+  "title": "Rogan's reading on Project Blue Book, Hynek, Corso and Roswell",
+  "summary": "Joe Rogan tells of Rogan's reading on Project Blue Book, Hynek, Corso and Roswell, about 1947-1969 at Roswell, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1969
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico; USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 888.0,
+      "to_s": 902.0,
+      "teller": "joe-rogan",
+      "quote": "I got really into Project Blue Book and I read a lot of the stuff on Jay Allen Heinik and you know and all the Philip Corso stuff and the stuff from Roswell",
+      "kind": "secondhand",
+      "cites": [
+        "j-allen-hynek",
+        "philip-corso"
+      ],
+      "documents": [
+        "project-blue-book"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

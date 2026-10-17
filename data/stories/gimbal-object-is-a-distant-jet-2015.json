@@ -1,0 +1,57 @@
+{
+  "id": "gimbal-object-is-a-distant-jet-2015",
+  "title": "Gimbal object is a distant jet",
+  "summary": "Mick West tells of Gimbal object is a distant jet, about 2015 at off Florida, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": null,
+  "place_text": "off Florida",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 6480.0,
+      "to_s": 6484.0,
+      "teller": "mick-west",
+      "quote": "my hypothesis is that it's a distant jet.",
+      "kind": "researcher",
+      "cites": [
+        "ryan-graves"
+      ],
+      "documents": [
+        "gimbal-video"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "rumsfeld-admits-trillions-missing-in-audit-day-before-9-11-2001",
+  "title": "Rumsfeld admits trillions missing in audit day before 9/11",
+  "summary": "Ross Coulthart tells of Rumsfeld admits trillions missing in audit day before 9/11, about 2001-09-10 at Washington, D.C., and reports it citing named sources. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2001,
+    "to": 2001
+  },
+  "place": "washington-dc",
+  "place_text": "Pentagon, Washington",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 5473.0,
+      "to_s": 5477.0,
+      "teller": "ross-coulthart",
+      "quote": "I actually dug it out when I was writing my book that Donald Rumsfeld admitted that there was something",
+      "kind": "journalist",
+      "cites": [
+        "donald-rumsfeld"
+      ],
+      "documents": [
+        "rumsfeld-speech"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

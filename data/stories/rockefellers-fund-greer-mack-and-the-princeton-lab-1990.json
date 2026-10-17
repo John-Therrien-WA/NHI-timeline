@@ -1,0 +1,129 @@
+{
+  "id": "rockefellers-fund-greer-mack-and-the-princeton-lab-1990",
+  "title": "Rockefellers fund Greer, Mack and the Princeton lab",
+  "summary": "Jesse Michels tells of Rockefellers fund Greer, Mack and the Princeton lab, about 1990s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3583.0,
+      "to_s": 3587.0,
+      "teller": "jesse-michels",
+      "quote": "So the Rockefellers funded Steven Greer in the nineties-",
+      "kind": "host",
+      "cites": [
+        "steven-greer",
+        "john-mack"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 7640.0,
+      "to_s": 7644.0,
+      "teller": "jesse-michels",
+      "quote": "And they funded the Princeton Parasychology Lab which was studying mind over matter.",
+      "kind": "host",
+      "cites": [
+        "john-mack",
+        "steven-greer"
+      ],
+      "documents": [],
+      "difference": "Puts the weight on the Princeton lab and says it was studying mind over matter.",
+      "link_reason": "Both tell of 1990s Rockefeller funding that included the Princeton parapsychology lab, alongside Greer and Mack.",
+      "as_told": {
+        "title": "Rockefeller funding of the Princeton parapsychology lab",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Princeton, New Jersey",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 9164.0,
+      "to_s": 9169.0,
+      "teller": "jesse-michels",
+      "quote": "Lawrence Rockefeller was a patron for a lot of early UFO research. He funded John Mack.",
+      "kind": "host",
+      "cites": [
+        "laurance-rockefeller",
+        "john-mack",
+        "steven-greer",
+        "whitley-strieber"
+      ],
+      "documents": [],
+      "difference": "Names Laurance Rockefeller specifically, adds Whitley Strieber and a Teton ranch, and leaves out the Princeton lab.",
+      "link_reason": "Both are about Rockefeller money funding 1990s UFO researchers, including Mack and Greer.",
+      "as_told": {
+        "title": "Laurance Rockefeller as patron of UFO research",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States; Teton ranch, Wyoming",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "clinton-era-pressure-on-the-dod-that-shaped-barber-s-path-in-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "human-abduction-squads-made-to-look-like-aliens-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "laurence-rockefeller-pushes-the-clintons-on-disclosure-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "laurence-rockefeller-s-ufo-initiative-with-hillary-clinton-a-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk",
+      "C4rSj5Aum7w",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

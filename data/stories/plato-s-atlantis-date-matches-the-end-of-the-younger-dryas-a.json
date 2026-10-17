@@ -1,0 +1,82 @@
+{
+  "id": "plato-s-atlantis-date-matches-the-end-of-the-younger-dryas-a",
+  "title": "Plato's Atlantis date matches the end of the Younger Dryas and Meltwater Pulse 1B",
+  "summary": "Randall Carlson tells of Plato's Atlantis date matches the end of the Younger Dryas and Meltwater Pulse 1B, about 9600 BC; Solon c. 600 BC at The Atlantic Ocean, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "atlantic-ocean",
+  "place_text": "Atlantic / Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 1754.0,
+      "to_s": 1765.0,
+      "teller": "randall-carlson",
+      "quote": "and his date is is very interesting. you know, 9,000 years before Solon's uh exile to Egypt, right? Which occurred in 600 BC.",
+      "kind": "researcher",
+      "cites": [
+        "plato",
+        "solon"
+      ],
+      "documents": [
+        "plato-s-dialogues-timaeus-and-critias"
+      ]
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 3002.0,
+      "to_s": 3011.0,
+      "teller": "jesse-michels",
+      "quote": "This was told at a mythos festival in in 600 BC in Tmus and Creta.",
+      "kind": "secondhand",
+      "cites": [
+        "graham-hancock",
+        "plato",
+        "solon"
+      ],
+      "documents": [
+        "timaeus",
+        "critias"
+      ],
+      "difference": "Told second hand by Jesse Michels, crediting Graham Hancock. It names the Timaeus and Critias and Sais as the place.",
+      "link_reason": "Both match Plato's Atlantis date, 9,000 years before Solon's c. 600 BC visit to Egypt, to the end of the Younger Dryas and Meltwater Pulse 1B.",
+      "as_told": {
+        "title": "Solon's Atlantis account and Meltwater Pulse 1B",
+        "years": null,
+        "place_text": "Atlantis; Sais, Egypt",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "randall-carlson"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested"
+}

@@ -1,0 +1,76 @@
+{
+  "id": "puthoff-s-article-on-the-stargate-and-scanate-remote-viewing-1970",
+  "title": "Puthoff's article on the Stargate and Scanate remote-viewing programs",
+  "summary": "guest tells of Puthoff's article on the Stargate and Scanate remote-viewing programs, about 1970s at Stanford Research Institute, Menlo Park, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "sri-menlo-park-ca",
+  "place_text": "Stanford (SRI); DIA and CIA",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 7550.0,
+      "to_s": 7562.0,
+      "teller": "guest",
+      "quote": "And here is an article um\nthat I wrote about the remote viewing\nprogram uh with Stargate and Scanate or\nDIA and CIA.",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff",
+        "russell-targ",
+        "uri-geller",
+        "james-randi"
+      ],
+      "documents": [
+        "mind-at-large"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "cia-telepathy-drawing-tests-at-sri-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "owens-approaches-puthoff-and-targ-at-sri-and-is-rebuffed-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "guest"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

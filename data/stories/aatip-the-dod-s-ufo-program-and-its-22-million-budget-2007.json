@@ -1,0 +1,162 @@
+{
+  "id": "aatip-the-dod-s-ufo-program-and-its-22-million-budget-2007",
+  "title": "AATIP, the DoD's UFO program, and its $22 million budget",
+  "summary": "Jesse Michels tells of AATIP, the DoD's UFO program, and its $22 million budget, about c. 2007-2021 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2007,
+    "to": 2021
+  },
+  "place": "united-states",
+  "place_text": "United States (Department of Defense)",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dzTZbSNsKV8",
+      "from_s": 272.0,
+      "to_s": 285.0,
+      "teller": "jesse-michels",
+      "quote": "Just look at the main UFO program over the last 15 years out of the DoD. It's called ATIP or the Advanced Aerospace Threat Identification Program. ATIP has a $22 million budget.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "_bM9eAtCOGw",
+      "from_s": 360.0,
+      "to_s": 377.0,
+      "teller": "jesse-michels",
+      "quote": "That was until 2017 when a New York Times journalist named Leslie Kean revealed that the government had a UFO investigation program called AATIP that had formed in 2007 and was being run under the auspices of Bigelow Aerospace.",
+      "kind": "host",
+      "cites": [
+        "leslie-kean",
+        "bigelow-aerospace"
+      ],
+      "documents": [
+        "new-york-times"
+      ],
+      "difference": "Adds that Leslie Kean revealed the program in the New York Times in 2017 and that it ran under Bigelow Aerospace, and gives no $22 million budget.",
+      "link_reason": "Both tellings are about AATIP, the US government UFO program formed in 2007. This one describes the program by way of its 2017 New York Times disclosure rather than a separate incident inside it.",
+      "as_told": {
+        "title": "AATIP revealed by Leslie Kean",
+        "years": {
+          "from": 2007,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 3978.0,
+      "to_s": 3987.0,
+      "teller": "jesse-michels",
+      "quote": "I was one of three journalists who broke the story in December of 2017 about the Department of Defense secret program studying UFOs",
+      "kind": "host",
+      "cites": [
+        "leslie-kean"
+      ],
+      "documents": [
+        "new-york-times-article-2017"
+      ],
+      "difference": "This telling is in Kean's own first-person voice as one of three journalists who broke the story in December 2017. It does not name AATIP, Bigelow Aerospace or the $22 million budget.",
+      "link_reason": "Both are about the DoD's secret UFO program (AATIP) being made public in the 2017 New York Times article that Leslie Kean co-wrote. The story already holds a telling about Kean revealing the program in 2017.",
+      "as_told": {
+        "title": "December 2017 story on the DoD's secret UFO program",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 3034.0,
+      "to_s": 3044.0,
+      "teller": "jesse-michels",
+      "quote": "oap stands for the advanced Aerospace Weapons Systems application program a pentagon program that ran from 2007 to 2012",
+      "kind": "host",
+      "cites": [
+        "harry-reid",
+        "daniel-inouye",
+        "ted-stevens"
+      ],
+      "documents": [],
+      "difference": "Names the program AAWSAP rather than AATIP, ends it in 2012, credits Reid, Inouye and Stevens, and ties it to Skinwalker Ranch.",
+      "link_reason": "Both describe the Pentagon UFO program that began in 2007, was run through Bigelow and had a $22 million budget.",
+      "as_told": {
+        "title": "AAWSAP's $22 million Bigelow contract, 2007-2012",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "Pentagon; Skinwalker Ranch",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 3289.0,
+      "to_s": 3303.0,
+      "teller": "jesse-michels",
+      "quote": "It's what Harry Reid set up from 2007 to 2012, this AATIP program, which then turned into sort of this ATIP overhang program which seemed a lot slimmer.",
+      "kind": "host",
+      "cites": [
+        "harry-reid"
+      ],
+      "documents": [],
+      "difference": "Adds that AATIP later became a slimmer follow-on 'ATIP overhang' program, and gives no budget.",
+      "link_reason": "This is the same DoD program Harry Reid set up and ran from 2007 to 2012, which the AATIP story already tells, crediting Reid.",
+      "as_told": {
+        "title": "Harry Reid's AATIP, 2007–2012",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "bigelow-s-22-million-program-steered-by-colonel-alexander-2008",
+      "relation": "variant",
+      "note": "The same $22 million Reid-funded program run through Bigelow Aerospace. The telling's core claim is new: Colonel Alexander set it up and steered it toward a fixed end, which the story's tellings do not say."
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "_bM9eAtCOGw",
+      "bVhSPH2A5Vw",
+      "dzTZbSNsKV8",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once"
+}

@@ -1,0 +1,66 @@
+{
+  "id": "fouche-tr3b-program-led-by-nro-cia-and-nsa-1970",
+  "title": "Fouche: TR3B program led by NRO, CIA and NSA",
+  "summary": "UAPGerb tells of Fouche: TR3B program led by NRO, CIA and NSA, about 1970s-1990s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 11918.0,
+      "to_s": 11924.0,
+      "teller": "uapgerb",
+      "quote": "He said that the program was spearheaded by NRO, CIA and NSA",
+      "kind": "secondhand",
+      "cites": [
+        "edgar-fouche"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "jessica-utts-statistical-analysis-of-cia-stargate-psychic-sp-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-stargate-program-s-hits-questioned-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

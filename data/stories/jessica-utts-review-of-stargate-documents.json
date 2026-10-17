@@ -1,0 +1,131 @@
+{
+  "id": "jessica-utts-review-of-stargate-documents",
+  "title": "Jessica Utts' review of Stargate documents",
+  "summary": "Jesse Michels tells of Jessica Utts' review of Stargate documents, about an unknown time at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 3605.0,
+      "to_s": 3619.0,
+      "teller": "jesse-michels",
+      "quote": "this woman named Jessica UTS who's this famous statistician came in skeptical looking at all of the kind of Foyd uh Stargate or Declassified Stargate documents and she came out of this study saying you know I think there's something here",
+      "kind": "secondhand",
+      "cites": [
+        "jessica-utts",
+        "ray-hyman"
+      ],
+      "documents": [
+        "declassified-stargate-documents"
+      ]
+    },
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 4949.0,
+      "to_s": 4957.0,
+      "teller": "jesse-michels",
+      "quote": "this woman Jessica UTS who is president\nof the American Statistical Association.\nShe looked at all the CIA data around\nStargate did a meta study",
+      "kind": "host",
+      "cites": [
+        "jessica-utts"
+      ],
+      "documents": [],
+      "difference": "Calls it a meta-analysis and says Utts was president of the American Statistical Association.",
+      "link_reason": "Jessica Utts' statistical study of the CIA Stargate data, told by the same host.",
+      "as_told": {
+        "title": "Jessica Utts' meta-analysis of the CIA Stargate data",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 9274.0,
+      "to_s": 9284.0,
+      "teller": "jesse-michels",
+      "quote": "there was actually a meta study done by Jessica Us, who was president of the American Statistical Association, and a fellow skeptic, Ray Hyman.",
+      "kind": "host",
+      "cites": [
+        "jessica-utts",
+        "ray-hyman",
+        "karl-popper"
+      ],
+      "documents": [
+        "utts-hyman-remote-viewing-evaluation"
+      ],
+      "difference": "Dates the evaluation to 1995 and casts Ray Hyman as the skeptic co-evaluator.",
+      "link_reason": "Both tell of Jessica Utts, president of the American Statistical Association, doing a meta-study of the government remote viewing (Stargate) data, with Ray Hyman involved.",
+      "as_told": {
+        "title": "Utts and Hyman evaluation of remote viewing",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 7946.0,
+      "to_s": 7952.0,
+      "teller": "jesse-michels",
+      "quote": "And she did this whole kind of\nmetaanalysis of Stargate and the remote\nviewing stuff",
+      "kind": "secondhand",
+      "cites": [
+        "jessica-utts"
+      ],
+      "documents": [],
+      "difference": "Places the analysis in the 1990s.",
+      "link_reason": "Both tell of Jessica Utts' meta-analysis of the Stargate remote-viewing data.",
+      "as_told": {
+        "title": "Jessica Utts' meta-analysis of the Stargate remote viewing",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "8Rr_nE65KkI",
+      "jMCavr3dVP0",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

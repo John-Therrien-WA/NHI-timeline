@@ -1,0 +1,84 @@
+{
+  "id": "carl-jung-s-flying-saucers-1958",
+  "title": "Carl Jung's Flying Saucers",
+  "summary": "Jesse Michels tells of Carl Jung's Flying Saucers, about 1958 at Switzerland, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1958,
+    "to": 1958
+  },
+  "place": null,
+  "place_text": "Switzerland",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3775.0,
+      "to_s": 3780.0,
+      "teller": "jesse-michels",
+      "quote": "Carl Jung wrote a book about flying- the book is called Flying Saucers,",
+      "kind": "host",
+      "cites": [
+        "carl-jung"
+      ],
+      "documents": [
+        "flying-saucers"
+      ]
+    },
+    {
+      "episode": "KRDE1i3LDuU",
+      "from_s": 2034.0,
+      "to_s": 2042.0,
+      "teller": "james-madden",
+      "quote": "And then as the book goes on, it's like it's getting harder for him to dismiss it though. And if you've read it like at the end he's like and yet they're on radar.",
+      "kind": "researcher",
+      "cites": [
+        "carl-jung"
+      ],
+      "documents": [
+        "flying-saucers-a-modern-myth-of-things-seen-in-the-skies"
+      ],
+      "difference": "Adds that Jung starts by treating saucers as mass rumor, finds them harder to dismiss as the book goes on, and ends by noting they show up on radar.",
+      "link_reason": "Both are about Carl Jung's book Flying Saucers. This telling describes how the book's argument shifts as it goes on.",
+      "as_told": {
+        "title": "Jung's UFO book: from mass rumor to 'and yet they're on radar'",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Unspecified",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "james-madden",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "KRDE1i3LDuU",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

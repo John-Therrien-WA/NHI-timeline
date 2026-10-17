@@ -1,0 +1,54 @@
+{
+  "id": "southcom-tic-tac-detected-by-space-asset-near-a-naval-vessel",
+  "title": "SOUTHCOM: tic tac detected by space asset near a naval vessel",
+  "summary": "Jesse Michels tells of SOUTHCOM: tic tac detected by space asset near a naval vessel, about unspecified at SOUTHCOM area of responsibility, ocean, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "SOUTHCOM area of responsibility, ocean",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 2523.0,
+      "to_s": 2530.0,
+      "teller": "jesse-michels",
+      "quote": "Southcom southern command tic tac detected by space asset in proximity of vessel.",
+      "kind": "host",
+      "cites": [
+        "matthew-brown"
+      ],
+      "documents": [
+        "immaculate-constellation-report"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

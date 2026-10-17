@@ -1,0 +1,89 @@
+{
+  "id": "controller-reports-objects-descending-from-above-80-000-feet-2004",
+  "title": "Controller reports objects descending from above 80,000 feet",
+  "summary": "Jesse Michels tells of Controller reports objects descending from above 80,000 feet, about 2004 at Off San Diego (Nimitz, 2004), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "pacific-nimitz",
+  "place_text": "off San Diego (Nimitz)",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 2108.0,
+      "to_s": 2113.0,
+      "teller": "jesse-michels",
+      "quote": "The controller told us that these objects had been observed for over two weeks coming down from over 80,000 feet,",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 1565.0,
+      "to_s": 1575.0,
+      "teller": "merrick-von-renenamp",
+      "quote": "10 days sure okay um they begin tracking anomalous objects at 28,000 ft heading south at 100 knots very strange tracks",
+      "kind": "secondhand",
+      "cites": [
+        "kevin-day"
+      ],
+      "documents": [],
+      "difference": "Gives about 10 days instead of over two weeks, puts the tracks at 28,000 ft heading south at 100 knots, and credits Kevin Day.",
+      "link_reason": "The same radar tracking of anomalous objects in the days before the 2004 Nimitz encounter, which the controller story also describes.",
+      "as_told": {
+        "title": "Princeton radar tracks over ten days before the Nimitz encounter",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Pacific Ocean off Southern California",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nimitz-encounter-as-multisensory-evidence-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "merrick-von-renenamp"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

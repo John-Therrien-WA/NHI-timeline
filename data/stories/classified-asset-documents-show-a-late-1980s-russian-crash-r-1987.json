@@ -1,0 +1,79 @@
+{
+  "id": "classified-asset-documents-show-a-late-1980s-russian-crash-r-1987",
+  "title": "Classified asset documents show a late-1980s Russian crash retrieval",
+  "summary": "Eric Davis tells of Classified asset documents show a late-1980s Russian crash retrieval, about late 1980s at Russia, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "Russia",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 2312.0,
+      "to_s": 2326.0,
+      "teller": "eric-davis",
+      "quote": "through the assap program I had a connection in with a three-letter agency that collected um not from the KGB open records they collected it from their own asset",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 13102.0,
+      "to_s": 13117.0,
+      "teller": "jesse-michels",
+      "quote": "disclosure. Eric Davis says in 1989 we should have brought this up with him. 1989 uh the Soviets uh engaged in a UFO crash retrieval where they were able to derive a directed energy weapon from this particular craft.",
+      "kind": "host",
+      "cites": [
+        "eric-davis"
+      ],
+      "documents": [
+        "the-age-of-disclosure"
+      ],
+      "difference": "Dates it to 1989 and adds that the Soviets got a directed energy weapon from the craft. It credits The Age of Disclosure, not classified asset documents.",
+      "link_reason": "Both are Eric Davis's account of a Soviet/Russian crash retrieval in the late 1980s.",
+      "as_told": {
+        "title": "1989 Soviet UFO crash retrieval yielding a directed energy weapon",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "Soviet Union",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

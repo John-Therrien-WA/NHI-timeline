@@ -1,0 +1,53 @@
+{
+  "id": "foo-fighters-drawn-to-wwii-atomic-and-military-programs-1944",
+  "title": "Foo Fighters drawn to WWII atomic and military programs",
+  "summary": "Lou Elizondo tells of Foo Fighters drawn to WWII atomic and military programs, about 1944-1945 at Southern Germany, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1944,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Southern Germany",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1414.0,
+      "to_s": 1425.0,
+      "teller": "luis-elizondo",
+      "quote": "military operations right we know that U are interested in nuclear capabilities and our military capabilities so um what was going on at the height of World War II",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luis-elizondo"
+    ],
+    "episodes": [
+      "1f16VvXaSSE"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

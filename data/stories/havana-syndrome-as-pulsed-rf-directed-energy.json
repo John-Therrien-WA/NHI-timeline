@@ -1,0 +1,73 @@
+{
+  "id": "havana-syndrome-as-pulsed-rf-directed-energy",
+  "title": "Havana syndrome as pulsed RF directed energy",
+  "summary": "Chris Gilbert tells of Havana syndrome as pulsed RF directed energy, about recent at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 3694.0,
+      "to_s": 3710.0,
+      "teller": "chris-gilbert",
+      "quote": ">> So, we think what what it is now, what\nwe think it is, it's a radio frequency\nmicrowave or directed energy using\nrepetitive\npulse train, very short, very high peak\npower radiation",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 12163.0,
+      "to_s": 12173.0,
+      "teller": "jesse-michels",
+      "quote": "fundamental. Yeah. And if you look at all the Havana syndrome directed energy stuff, the person is being wholly destabilized by microwaves essentially.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Michels rather than Gilbert, says it 'wholly destabilizes' the person, and places it in Havana from 2016.",
+      "link_reason": "The same theory that Havana syndrome is caused by microwave or RF directed energy.",
+      "as_told": {
+        "title": "Havana syndrome directed energy",
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "place_text": "Havana, Cuba",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "chris-gilbert",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "jMCavr3dVP0",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

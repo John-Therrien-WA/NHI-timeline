@@ -1,0 +1,104 @@
+{
+  "id": "oberth-and-von-braun-s-neopagan-rituals-in-the-nazi-space-pr-1930",
+  "title": "Oberth and von Braun's neopagan rituals in the Nazi space program",
+  "summary": "Jesse Michels tells of Oberth and von Braun's neopagan rituals in the Nazi space program, about 1930s-1940s at Germany, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1930,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 11885.0,
+      "to_s": 11895.0,
+      "teller": "jesse-michels",
+      "quote": "Herman Oorth you know Oorth was von Braun's mentor went through weird neopagan rituals that you know were in the kind of Nazi space program",
+      "kind": "host",
+      "cites": [
+        "hermann-oberth",
+        "wernher-von-braun"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 7714.0,
+      "to_s": 7718.0,
+      "teller": "jesse-michels",
+      "quote": "You had Warner von Braonn going through these rituals.",
+      "kind": "host",
+      "cites": [
+        "wernher-von-braun"
+      ],
+      "documents": [],
+      "difference": "Names only von Braun as going through the rituals, where the story centres on Oberth as his mentor.",
+      "link_reason": "Both say von Braun took part in neopagan rituals tied to the Nazi space program, told by the same host.",
+      "as_told": {
+        "title": "Wernher von Braun in neopagan rituals",
+        "years": {
+          "from": 1930,
+          "to": 1949
+        },
+        "place_text": "Nazi Germany",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 6201.0,
+      "to_s": 6208.0,
+      "teller": "jesse-michels",
+      "quote": "believe a Freemason and he had gone through all these weird neo-pagan rituals as part of the German space program.",
+      "kind": "host",
+      "cites": [
+        "wernher-von-braun"
+      ],
+      "documents": [],
+      "difference": "Adds that von Braun was believed to be a Freemason and leaves out Oberth.",
+      "link_reason": "Both claim von Braun went through neo-pagan rituals in the German space program.",
+      "as_told": {
+        "title": "Von Braun's neo-pagan rituals in the German space program",
+        "years": {
+          "from": 1930,
+          "to": 1949
+        },
+        "place_text": "Germany",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "LpLFWdsIU7M",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

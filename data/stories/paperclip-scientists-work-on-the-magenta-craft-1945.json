@@ -1,0 +1,53 @@
+{
+  "id": "paperclip-scientists-work-on-the-magenta-craft-1945",
+  "title": "Paperclip scientists work on the Magenta craft",
+  "summary": "Jesse Michels tells of Paperclip scientists work on the Magenta craft, about post-1945 at Wright-Patterson AFB, Dayton, Ohio, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Wright-Patterson AFB, Dayton, Ohio",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 5912.0,
+      "to_s": 5925.0,
+      "teller": "jesse-michels",
+      "quote": "Many of the top Nazi scientists as a part of Operation Paperclip that the Allies had exfiltrated also made their way to Wright Patterson to work on the magenta craft.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "vallee-says-there-are-protocols-for-leaving-the-cave",
+  "title": "Vallée says there are protocols for leaving the cave",
+  "summary": "Jesse Michels tells of Vallée says there are protocols for leaving the cave, about not stated at not stated, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "not stated",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "KRDE1i3LDuU",
+      "from_s": 6189.0,
+      "to_s": 6197.0,
+      "teller": "jesse-michels",
+      "quote": "And I asked Jacques Valle this. I said, \"Are there protocols?\" And he said, he's like, \"Yes, there are.\"",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "KRDE1i3LDuU"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

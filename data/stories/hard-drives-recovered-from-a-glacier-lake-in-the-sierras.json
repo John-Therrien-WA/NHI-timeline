@@ -1,0 +1,74 @@
+{
+  "id": "hard-drives-recovered-from-a-glacier-lake-in-the-sierras",
+  "title": "Hard drives recovered from a glacier lake in the Sierras",
+  "summary": "Jake Barber tells of Hard drives recovered from a glacier lake in the Sierras, about within the last four years at glacier lake, Sierra Nevada, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "glacier lake, Sierra Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 5930.0,
+      "to_s": 5944.0,
+      "teller": "jake-barber",
+      "quote": "We found the human and our human uh asset led us to another location high in the Sierras which was a a glacier lake and the hard drives were sealed in a steel container like 25 ft underwater.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 828.0,
+      "to_s": 844.0,
+      "teller": "jake-barber",
+      "quote": "Our human asset led us to another location high in the Sierras which was a a glacier lake and the hard drives were sealed in a steel container like 25 ft underwater.",
+      "kind": "firsthand",
+      "cites": [
+        "don-paul-bales"
+      ],
+      "documents": [],
+      "difference": "Says the hard drives were Toughbooks' drives and credits Don Paul Bales.",
+      "link_reason": "This is the same recovery of hard drives sealed in a steel container 25 ft under a Sierra glacier lake, told firsthand by Barber.",
+      "as_told": {
+        "title": "Recovery of missing Toughbooks and hard drives from a glacier lake",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Sierra Nevada, California",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jake-barber"
+    ],
+    "episodes": [
+      "OOr98r51Sj0",
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

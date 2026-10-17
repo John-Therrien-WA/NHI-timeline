@@ -1,0 +1,76 @@
+{
+  "id": "avrocar-project-moved-to-wright-pat-as-project-y-bug-1950",
+  "title": "Avrocar project moved to Wright-Pat as Project Y bug",
+  "summary": "Dan Sheehan tells of Avrocar project moved to Wright-Pat as Project Y bug, about 1950s at Canada; Wright-Patterson AFB, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Canada; Wright-Patterson AFB",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 4265.0,
+      "to_s": 4272.0,
+      "teller": "daniel-sheehan",
+      "quote": "Well, the Aro car project was Canada. So that was that that's but then it got moved to right Pat as project Y bug.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 8284.0,
+      "to_s": 8290.0,
+      "teller": "jesse-michels",
+      "quote": "think you you do have also the Avro car project which was an attempted to build a flying saucer",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by the host rather than by Sheehan, and stresses that the project was an attempt to build a flying saucer.",
+      "link_reason": "Both tell of the Canadian Avrocar flying-saucer project and its link to Project Y at Wright-Patterson.",
+      "as_told": {
+        "title": "Avrocar and Project Y flying saucer",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Canada; Wright-Patterson AFB",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "daniel-sheehan",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w",
+      "Y7PLeu5rTv4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "ufo-programs-hidden-under-the-department-of-energy-1954",
+  "title": "UFO programs hidden under the Department of Energy",
+  "summary": "Jesse Michels tells of UFO programs hidden under the Department of Energy, about 1954-present at Department of Energy, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1954,
+    "to": 1954
+  },
+  "place": null,
+  "place_text": "Department of Energy",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 9314.0,
+      "to_s": 9326.0,
+      "teller": "jesse-michels",
+      "quote": "because I was told I think it was Chris Melon was telling me this that they hide things because anything nuclear would be national security.",
+      "kind": "secondhand",
+      "cites": [
+        "chris-mellon"
+      ],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

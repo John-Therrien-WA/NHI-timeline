@@ -1,0 +1,55 @@
+{
+  "id": "eric-davis-offers-full-testimony-for-blanket-immunity",
+  "title": "Eric Davis offers full testimony for blanket immunity",
+  "summary": "Eric Weinstein tells of Eric Davis offers full testimony for blanket immunity, about recent at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 14234.0,
+      "to_s": 14244.0,
+      "teller": "eric-weinstein",
+      "quote": "Eric Davis is actually on record as part of James Fox's last movie saying if you give me blanket immunity, I will say everything I know.",
+      "kind": "secondhand",
+      "cites": [
+        "eric-davis",
+        "james-fox"
+      ],
+      "documents": [
+        "james-fox-s-last-movie"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-weinstein"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

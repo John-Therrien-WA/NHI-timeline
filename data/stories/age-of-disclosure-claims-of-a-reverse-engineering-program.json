@@ -1,0 +1,61 @@
+{
+  "id": "age-of-disclosure-claims-of-a-reverse-engineering-program",
+  "title": "Age of Disclosure claims of a reverse-engineering program",
+  "summary": "Jesse Michels tells of Age of Disclosure claims of a reverse-engineering program, about unspecified at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 2789.0,
+      "to_s": 2810.0,
+      "teller": "jesse-michels",
+      "quote": "you have this movie, I don't know if\nyou've seen this, the age of disclosure\nwhere you have guys like Jim Semian, you\nknow, high up at the CIA or uh Chris\nMelon who is deputy assistant secretary\nof defense for intelligence. um you know\nalso cleared do a lot of stuff and\nthey're saying we have a program that's\nlike reverse engineering this stuff",
+      "kind": "host",
+      "cites": [
+        "jim-semivan",
+        "chris-mellon"
+      ],
+      "documents": [
+        "the-age-of-disclosure"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "grusch-s-claims-of-reverse-engineering-programs-and-craft-in-2023",
+      "relation": "variant",
+      "note": "Grusch and others claiming real reverse-engineering programs with craft in hangars is a general claim akin to the Age of Disclosure program claims."
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "jMCavr3dVP0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

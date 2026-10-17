@@ -1,0 +1,133 @@
+{
+  "id": "aaro-briefing-ai-quantum-and-the-grusch-stuff-2023",
+  "title": "AARO briefing: 'AI, quantum, and the Grusch stuff'",
+  "summary": "Matthew Pines tells of AARO briefing: 'AI, quantum, and the Grusch stuff', about c. 2023 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2023
+  },
+  "place": "united-states",
+  "place_text": "United States (Department of Defense / AARO)",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 13753.0,
+      "to_s": 13762.0,
+      "teller": "matthew-pines",
+      "quote": "it and they said, um, you know, it's a triangle, AI, quantum, and the grush stuff.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 2130.0,
+      "to_s": 2140.0,
+      "teller": "jesse-michels",
+      "quote": "speaking to some like CIA guy and the CIA guy was like you know it's a triangle AI quantum and the grush stuff.",
+      "kind": "secondhand",
+      "cites": [
+        "matthew-pines",
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Jesse Michels says the remark came from a CIA man rather than an AARO briefing.",
+      "link_reason": "The same remark that it is a triangle of AI, quantum and the Grusch material, credited to Matthew Pines.",
+      "as_told": {
+        "title": "CIA source: the AI, quantum and Grusch triangle",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "david-grusch-comes-forward-at-great-personal-sacrifice-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-testimony-some-craft-were-gifted-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aaro-asks-hastings-to-bring-in-nuclear-site-veterans-for-int-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aaro-did-not-record-the-veterans-interviews-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "george-knapp-says-harry-reid-read-hastings-s-book-before-see-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mario-woods-reports-the-incident-to-aaro-which-never-followe-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-testimony-under-oath-and-inspector-general-complaint-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sean-ryan-threatened-after-the-herrera-interview-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "learning-of-david-grusch-from-program-insiders-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-40-witnesses-are-firsthand-and-none-are-physicists-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "matthew-sullivan-s-death-and-his-legacy-program-experience-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

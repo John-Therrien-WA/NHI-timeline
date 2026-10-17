@@ -1,0 +1,57 @@
+{
+  "id": "long-delay-echoes-behind-sagan-s-contact-1920",
+  "title": "Long delay echoes behind Sagan's Contact",
+  "summary": "Jesse Michels tells of Long delay echoes behind Sagan's Contact, about 1920s-1930s at Earth radio, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1920,
+    "to": 1939
+  },
+  "place": null,
+  "place_text": "Earth radio",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 4130.0,
+      "to_s": 4141.0,
+      "teller": "jesse-michels",
+      "quote": "I think he's talking about these long delay echoes which are this phenomena that occurred in the 1920s and 30s at the invention of the radio",
+      "kind": "host",
+      "cites": [
+        "carl-sagan"
+      ],
+      "documents": [
+        "contact"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

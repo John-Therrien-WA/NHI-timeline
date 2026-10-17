@@ -1,0 +1,74 @@
+{
+  "id": "flir1-object-may-be-a-balloon-2004",
+  "title": "FLIR1 object may be a balloon",
+  "summary": "Mick West tells of FLIR1 object may be a balloon, about 2004 at Off Southern California, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "off Southern California",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 4589.0,
+      "to_s": 4592.0,
+      "teller": "mick-west",
+      "quote": "That of course suggests that what we're looking at is actually a balloon.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "mick-s-analysis-flir1-object-is-a-distant-aircraft-and-its-z-2004",
+      "relation": "variant",
+      "note": "This explains the same FLIR1 object as a balloon, while the existing story calls it a distant aircraft. These are competing core claims about one object."
+    },
+    {
+      "story": "analysis-by-merrick-s-colleagues-points-to-a-tic-tac-shaped-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sun-angle-3d-reconstruction-of-the-flir1-object-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "weather-data-shows-strong-northerly-wind-at-flir1-altitude-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

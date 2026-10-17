@@ -1,0 +1,80 @@
+{
+  "id": "rumoured-jfk-joint-space-program-with-the-soviets-1961",
+  "title": "Rumoured JFK joint space program with the Soviets",
+  "summary": "Jesse Michels tells of Rumoured JFK joint space program with the Soviets, about 1961-1963 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1963
+  },
+  "place": "united-states",
+  "place_text": "United States / USSR",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 8044.0,
+      "to_s": 8055.0,
+      "teller": "jesse-michels",
+      "quote": "there are rumors that JFK wanted to do a joint space program with the Soviets around this and use the UFO thing as kind of a unifying, you know, rallying cry or something.",
+      "kind": "host",
+      "cites": [
+        "john-f-kennedy"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 8120.0,
+      "to_s": 8140.0,
+      "teller": "harold-malmgren",
+      "quote": "The fact that he wanted he expressed verbally to a number of the senior people his desire to share our knowledge of UFOs with Russia caused alarm",
+      "kind": "official",
+      "cites": [
+        "john-f-kennedy",
+        "nikita-khrushchev"
+      ],
+      "documents": [],
+      "difference": "Malmgren speaks as an official, describes it as sharing UFO knowledge rather than a joint space program, and adds that senior officials were alarmed and that Khrushchev was involved.",
+      "link_reason": "Same subject as #6: JFK wanted to cooperate with the Soviets on UFOs.",
+      "as_told": {
+        "title": "JFK's wish to share UFO knowledge with Russia alarmed officials",
+        "years": {
+          "from": 1962,
+          "to": 1963
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.8,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "harold-malmgren",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.9,
+  "tier": "well-attested"
+}

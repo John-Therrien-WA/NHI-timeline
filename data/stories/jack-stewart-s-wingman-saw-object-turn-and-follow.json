@@ -1,0 +1,53 @@
+{
+  "id": "jack-stewart-s-wingman-saw-object-turn-and-follow",
+  "title": "Jack Stewart's wingman saw object turn and follow",
+  "summary": "Merrick tells of Jack Stewart's wingman saw object turn and follow, about not stated at not stated, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "not stated",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 5827.0,
+      "to_s": 5832.0,
+      "teller": "merrick",
+      "quote": "said, \"Yeah, dude. That thing turned around and followed you.\"",
+      "kind": "secondhand",
+      "cites": [
+        "jack-stewart",
+        "ryan-graves"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

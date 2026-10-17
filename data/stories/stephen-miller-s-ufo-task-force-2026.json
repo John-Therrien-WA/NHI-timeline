@@ -1,0 +1,67 @@
+{
+  "id": "stephen-miller-s-ufo-task-force-2026",
+  "title": "Stephen Miller's UFO task force",
+  "summary": "Eric Burlison tells of Stephen Miller's UFO task force, about 2026 at Washington, D.C., and reads it from an official document. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2026,
+    "to": 2026
+  },
+  "place": "washington-dc",
+  "place_text": "White House",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 7700.0,
+      "to_s": 7705.0,
+      "teller": "eric-burlison",
+      "quote": "has to do with, you know, this task force that Stephen Miller has put together",
+      "kind": "official",
+      "cites": [
+        "stephen-miller",
+        "donald-trump"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "anna-paulina-luna-s-mk-ultra-hearing-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "uap-science-advisory-committee-s-first-zoom-meeting-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "eric-burlison"
+    ],
+    "episodes": [
+      "A2-y_HasHEw"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once"
+}

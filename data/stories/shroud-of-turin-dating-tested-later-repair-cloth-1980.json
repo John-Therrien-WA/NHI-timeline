@@ -1,0 +1,58 @@
+{
+  "id": "shroud-of-turin-dating-tested-later-repair-cloth-1980",
+  "title": "Shroud of Turin dating tested later repair cloth",
+  "summary": "Randall Carlson tells of Shroud of Turin dating tested later repair cloth, about 1980s-early 1990s testing at Turin, Italy, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1993
+  },
+  "place": null,
+  "place_text": "Turin, Italy",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 8281.0,
+      "to_s": 8290.0,
+      "teller": "randall-carlson",
+      "quote": "there were several repair jobs that were done to it. And so you have se several pieces of cloth that were much younger than the original piece of cloth.",
+      "kind": "researcher",
+      "cites": [
+        "geoffroi-de-charny",
+        "vatican"
+      ],
+      "documents": [
+        "shroud-of-turin"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "randall-carlson"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

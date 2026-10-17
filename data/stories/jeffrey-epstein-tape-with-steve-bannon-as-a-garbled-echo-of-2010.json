@@ -1,0 +1,85 @@
+{
+  "id": "jeffrey-epstein-tape-with-steve-bannon-as-a-garbled-echo-of-2010",
+  "title": "Jeffrey Epstein tape with Steve Bannon as a garbled echo of informed people",
+  "summary": "Eric Weinstein tells of Jeffrey Epstein tape with Steve Bannon as a garbled echo of informed people, about 2010s at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2019
+  },
+  "place": "new-mexico",
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 7011.0,
+      "to_s": 7017.0,
+      "teller": "eric-weinstein",
+      "quote": "But you can tell that Jeffrey Epstein was talking to people who knew what they talk what what they were talking about",
+      "kind": "researcher",
+      "cites": [
+        "jeffrey-epstein",
+        "steve-bannon"
+      ],
+      "documents": [
+        "jeffrey-epstein-tape-with-steve-bannon"
+      ]
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 10338.0,
+      "to_s": 10348.0,
+      "teller": "eric-weinstein",
+      "quote": "So he founded the Santa Fe Institute in 1990 to 93 when it was founded in 1984 by other people.",
+      "kind": "researcher",
+      "cites": [
+        "jeffrey-epstein",
+        "steve-bannon",
+        "murray-gell-mann"
+      ],
+      "documents": [
+        "epstein-interview-with-steve-bannon"
+      ],
+      "difference": "Names specific errors: Epstein says he founded the Santa Fe Institute in 1990–93, when others founded it in 1984, plus a mistake about quarks and Gell-Mann.",
+      "link_reason": "Both are about the same taped Epstein–Bannon interview and Weinstein's view that it garbles what informed people told Epstein.",
+      "as_told": {
+        "title": "Errors in Epstein's Bannon interview about the Santa Fe Institute and quarks",
+        "years": {
+          "from": 1984,
+          "to": 1993
+        },
+        "place_text": "Santa Fe, New Mexico",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

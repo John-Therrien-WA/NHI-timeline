@@ -1,0 +1,52 @@
+{
+  "id": "stargate-inscriptions-at-dendera",
+  "title": "Stargate inscriptions at Dendera",
+  "summary": "Jesse Michels tells of Stargate inscriptions at Dendera, about ancient at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Dendera, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 7514.0,
+      "to_s": 7522.0,
+      "teller": "jesse-michels",
+      "quote": "And Ben Van Kirkwick on your show talks about how literal translations at Dandera move to Stargate",
+      "kind": "secondhand",
+      "cites": [
+        "ben-van-kerkwyk"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

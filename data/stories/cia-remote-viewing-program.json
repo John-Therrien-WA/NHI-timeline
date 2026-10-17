@@ -1,0 +1,52 @@
+{
+  "id": "cia-remote-viewing-program",
+  "title": "CIA remote viewing program",
+  "summary": "Steven Greer tells of CIA remote viewing program, about unspecified at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 1864.0,
+      "to_s": 1870.0,
+      "teller": "steven-greer",
+      "quote": "Um, so the cheap end of it is the remote viewing program that the CIA had,",
+      "kind": "researcher",
+      "cites": [
+        "bob-monroe"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

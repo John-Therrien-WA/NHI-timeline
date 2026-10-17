@@ -1,0 +1,63 @@
+{
+  "id": "the-open-doors-von-neumann-s-fear-at-his-death-1957",
+  "title": "'The Open Doors': von Neumann's fear at his death",
+  "summary": "Whitley Strieber tells of 'The Open Doors': von Neumann's fear at his death, about 1957 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1957,
+    "to": 1957
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 1500.0,
+      "to_s": 1507.0,
+      "teller": "whitley-strieber",
+      "quote": "And I wrote a short story about this about Bon Norman's death called the open doors",
+      "kind": "researcher",
+      "cites": [
+        "john-von-neumann"
+      ],
+      "documents": [
+        "the-open-doors"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "string-theory-as-an-intentional-dead-end-1957",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "whitley-strieber"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

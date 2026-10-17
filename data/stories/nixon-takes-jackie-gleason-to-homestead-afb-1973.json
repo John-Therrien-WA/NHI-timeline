@@ -1,0 +1,84 @@
+{
+  "id": "nixon-takes-jackie-gleason-to-homestead-afb-1973",
+  "title": "Nixon takes Jackie Gleason to Homestead AFB",
+  "summary": "Jesse Michels tells of Nixon takes Jackie Gleason to Homestead AFB, about 1973 at Homestead Air Force Base, Florida, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1973,
+    "to": 1973
+  },
+  "place": null,
+  "place_text": "Homestead Air Force Base, Florida",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 8153.0,
+      "to_s": 8163.0,
+      "teller": "jesse-michels",
+      "quote": "there's this famous story of Nixon showing up at Jackie Gleason's place in 1973 and telling him, \"We have secret UFO technology, taking him to Homestead Air Force Base.\"",
+      "kind": "host",
+      "cites": [
+        "richard-nixon",
+        "jackie-gleason"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 9051.0,
+      "to_s": 9067.0,
+      "teller": "joe-rogan",
+      "quote": ">> Homestead. And there he encountered a recovered crashed UFO and they had biological alien bodies that were in freezers. And uh Gleason was so profoundly affected by it, it became a UFO nut, which is absolutely true.",
+      "kind": "secondhand",
+      "cites": [
+        "richard-nixon",
+        "jackie-gleason"
+      ],
+      "documents": [
+        "unnamed-magazine-article"
+      ],
+      "difference": "Adds a crashed craft and alien bodies in freezers, and credits a magazine article.",
+      "link_reason": "The same story of Nixon taking Jackie Gleason to Homestead AFB to see secret UFO material.",
+      "as_told": {
+        "title": "Nixon shows Jackie Gleason a crashed UFO and frozen alien bodies at Homestead AFB",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Homestead Air Force Base, Florida",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested"
+}

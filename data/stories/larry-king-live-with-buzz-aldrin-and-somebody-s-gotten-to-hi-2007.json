@@ -1,0 +1,92 @@
+{
+  "id": "larry-king-live-with-buzz-aldrin-and-somebody-s-gotten-to-hi-2007",
+  "title": "Larry King Live with Buzz Aldrin, and 'somebody's gotten to him'",
+  "summary": "James Fox tells of Larry King Live with Buzz Aldrin, and 'somebody's gotten to him', about about 2007 at Larry King Live studio, and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2007,
+    "to": 2007
+  },
+  "place": null,
+  "place_text": "Larry King Live studio",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 5144.0,
+      "to_s": 5151.0,
+      "teller": "james-fox",
+      "quote": "be respectful but I sat there knowing what I knew and I watched him lie on television",
+      "kind": "firsthand",
+      "cites": [
+        "buzz-aldrin",
+        "fife-symington",
+        "fay-ann-potter",
+        "darcy-weir",
+        "larry-king"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 1802.0,
+      "to_s": 1815.0,
+      "teller": "maaneli-derakhshani",
+      "quote": "particular on Larry King Live in like 2007 >> where James Fox was there too and Stanton Friedman. He he says, \"Well, I'm now almost certain that it was a panel of like the S4B rocket booster",
+      "kind": "secondhand",
+      "cites": [
+        "buzz-aldrin",
+        "james-fox",
+        "stanton-friedman",
+        "larry-king"
+      ],
+      "documents": [],
+      "difference": "Has Aldrin saying it was an S-IVB booster panel and names Stanton Friedman as a guest.",
+      "link_reason": "Both tell of Aldrin's 2007 Larry King Live appearance, with James Fox present, where he played down the sighting.",
+      "as_told": {
+        "title": "Aldrin on Larry King Live calls it an S-IVB panel",
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "place_text": "Larry King Live",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "buzz-aldrin-s-apollo-11-sighting-retold-on-larry-king-live-1969",
+      "relation": "variant",
+      "note": "The same Larry King Live appearance with Buzz Aldrin and UFO people that James Fox describes. Shermer's account seems to present Aldrin's explanation as honest, while Fox says Aldrin lied because someone had got to him."
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

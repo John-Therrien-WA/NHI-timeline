@@ -1,0 +1,115 @@
+{
+  "id": "neil-armstrong-s-truth-s-protective-layers-speech-1980",
+  "title": "Neil Armstrong's 'truth's protective layers' speech",
+  "summary": "Jesse Michels tells of Neil Armstrong's 'truth's protective layers' speech, about 1980s (as stated) at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 5244.0,
+      "to_s": 5250.0,
+      "teller": "jesse-michels",
+      "quote": "yeah you had Neil Armstrong I think he was winning the Congressional Medal of Honor something in the 80s",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 6048.0,
+      "to_s": 6056.0,
+      "teller": "joe-rogan",
+      "quote": "And then he gives this speech 25 years later at the anniversary of the moon landing to all the brightest high school kids.",
+      "kind": "secondhand",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": [],
+      "difference": "Puts the speech in 1994, at the 25th anniversary of the moon landing and before top high school students, where the story says the 1980s at a medal ceremony.",
+      "link_reason": "Both tell of Neil Armstrong's speech about truth's protective layers given in the United States.",
+      "as_told": {
+        "title": "Neil Armstrong's 'truth's protective layers' speech",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 8250.0,
+      "to_s": 8268.0,
+      "teller": "jesse-michels",
+      "quote": "There are great ideas undiscovered. Breakthroughs available to those who can remove one of truth's protective layers",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": [],
+      "difference": "Places the speech at the White House in 1994 rather than in the 1980s.",
+      "link_reason": "This is the same Neil Armstrong speech about removing one of truth's protective layers.",
+      "as_told": {
+        "title": "Neil Armstrong's 'truth's protective layers' speech",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "White House",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "senator-inouye-on-a-shadow-government-during-iran-contra-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "havana-syndrome-as-russian-attacks-since-the-1980s-per-60-mi",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "bVhSPH2A5Vw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

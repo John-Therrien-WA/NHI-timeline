@@ -1,0 +1,55 @@
+{
+  "id": "algorithm-analysis-of-john-ward-s-mars-anomalies",
+  "title": "Algorithm analysis of John Ward's Mars anomalies",
+  "summary": "guest tells of Algorithm analysis of John Ward's Mars anomalies, about recent at Mars, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 5241.0,
+      "to_s": 5252.0,
+      "teller": "guest",
+      "quote": "I apply some algorithms\nto evaluate that evaluate the likelihood\nthat they can be naturally formed\nfractal and texture-based algorithms.",
+      "kind": "researcher",
+      "cites": [
+        "john-ward"
+      ],
+      "documents": [
+        "mars-global-surveyor-images",
+        "hirise-images"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "guest"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

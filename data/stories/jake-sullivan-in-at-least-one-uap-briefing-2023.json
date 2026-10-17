@@ -1,0 +1,67 @@
+{
+  "id": "jake-sullivan-in-at-least-one-uap-briefing-2023",
+  "title": "Jake Sullivan in at least one UAP briefing",
+  "summary": "Matthew Pines tells of Jake Sullivan in at least one UAP briefing, about 2023-2024 at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2024
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, DC",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 10393.0,
+      "to_s": 10401.0,
+      "teller": "matthew-pines",
+      "quote": "Ross Coltard says that he know he knows that uh that um that Salt Jake was in at least one briefing",
+      "kind": "secondhand",
+      "cites": [
+        "ross-coulthart",
+        "jake-sullivan"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "kirkpatrick-s-aaro-denied-the-herrera-incident-but-he-privat-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "greer-gave-grusch-and-luna-an-unredacted-hard-drive-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "matthew-pines"
+    ],
+    "episodes": [
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

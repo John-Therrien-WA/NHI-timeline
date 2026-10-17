@@ -1,0 +1,55 @@
+{
+  "id": "malmgren-read-into-legacy-uap-retrieval-program-by-bissell",
+  "title": "Malmgren read into legacy UAP retrieval program by Bissell",
+  "summary": "Ross Coulthart tells of Malmgren read into legacy UAP retrieval program by Bissell, about Cold War era at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.; Area 51; CIA",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 4508.0,
+      "to_s": 4523.0,
+      "teller": "ross-coulthart",
+      "quote": "In the diary, Richard Bissell who founded Area 51, mayor of Area 51. was key to Harold Malmgren's claims that he was read into the existence of the legacy UAP retrieval program by Richard Bissell.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": [
+        "harold-malmgren-s-diaries"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

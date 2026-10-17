@@ -1,0 +1,61 @@
+{
+  "id": "falcon-and-the-mj-12-films-from-dia-humint-and-angleton-s-ch-1980",
+  "title": "Falcon and the MJ-12 films from DIA HUMINT and Angleton's chop shop",
+  "summary": "Eric Davis tells of Falcon and the MJ-12 films from DIA HUMINT and Angleton's chop shop, about 1980s at Defense Intelligence Agency, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "Defense Intelligence Agency",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 2762.0,
+      "to_s": 2788.0,
+      "teller": "eric-davis",
+      "quote": "senior falcon was a DIA uh officer who was sent to communicate with Jamie Shandere and Bill Moore. He's the one that passed undeveloped 35mm film of the so-called MJ12 documents. These are the first generation documents that were created by James Jesus Angleton's chop shop, his his mole hunting document production factory.",
+      "kind": "researcher",
+      "cites": [
+        "jaime-shandera",
+        "bill-moore",
+        "james-angleton",
+        "edward-burkhalter",
+        "rick-doty"
+      ],
+      "documents": [
+        "mj-12-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

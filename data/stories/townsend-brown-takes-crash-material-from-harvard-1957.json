@@ -1,0 +1,88 @@
+{
+  "id": "townsend-brown-takes-crash-material-from-harvard-1957",
+  "title": "Townsend Brown takes crash material from Harvard",
+  "summary": "Jesse Michels tells of Townsend Brown takes crash material from Harvard, about late 1950s at Harvard, Cambridge, Massachusetts, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1957,
+    "to": 1959
+  },
+  "place": "harvard-ma",
+  "place_text": "Hartford, Connecticut; Harvard",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 10033.0,
+      "to_s": 10039.0,
+      "teller": "jesse-michels",
+      "quote": "And Townsend Brown walks in to to Harvard, flashes his credentials, and takes the material.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "robert-brown",
+        "robert-friend",
+        "j-allen-hynek"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 4208.0,
+      "to_s": 4212.0,
+      "teller": "jesse-michels",
+      "quote": "in 1958 in Hartford, Connecticut that Michael Swords documents, fascinating.",
+      "kind": "researcher",
+      "cites": [
+        "thomas-townsend-brown",
+        "michael-swords",
+        "robert-friend",
+        "j-allen-hynek"
+      ],
+      "documents": [
+        "project-moon-watch",
+        "project-blue-book"
+      ],
+      "difference": "Gives the year as 1958, names Michael Swords as the one who documented it, and mentions Project Moon Watch and Blue Book.",
+      "link_reason": "Both tell of Townsend Brown taking material from the late-1950s Hartford crash, with the same people credited (Friend, Hynek).",
+      "as_told": {
+        "title": "Townsend Brown takes material from the 1958 Hartford crash",
+        "years": {
+          "from": 1958,
+          "to": 1958
+        },
+        "place_text": "Hartford, Connecticut",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

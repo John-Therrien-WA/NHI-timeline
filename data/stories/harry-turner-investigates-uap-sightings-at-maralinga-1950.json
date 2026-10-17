@@ -1,0 +1,56 @@
+{
+  "id": "harry-turner-investigates-uap-sightings-at-maralinga-1950",
+  "title": "Harry Turner investigates UAP sightings at Maralinga",
+  "summary": "Ross Coulthart tells of Harry Turner investigates UAP sightings at Maralinga, about 1950s-1960s at Maralinga and Woomera, Australia, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Maralinga and Woomera, Australia",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 3007.0,
+      "to_s": 3016.0,
+      "teller": "ross-coulthart",
+      "quote": "And he was invited to investigate multiple UAP UAP sightings that took place at Maralinga during the sightings.",
+      "kind": "researcher",
+      "cites": [
+        "harry-turner",
+        "bill-chalker"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

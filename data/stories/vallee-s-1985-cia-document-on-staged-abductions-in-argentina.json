@@ -1,0 +1,81 @@
+{
+  "id": "vallee-s-1985-cia-document-on-staged-abductions-in-argentina",
+  "title": "Vallee's 1985 CIA document on staged abductions in Argentina and Brazil",
+  "summary": "Steven Greer tells of Vallee's 1985 CIA document on staged abductions in Argentina and Brazil, about 1985 at Argentina and Brazil, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1985,
+    "to": 1985
+  },
+  "place": null,
+  "place_text": "Argentina and Brazil",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 8000.0,
+      "to_s": 8017.0,
+      "teller": "steven-greer",
+      "quote": "The document is a description of CIA operations in Argentina and Brazil to abduct peasants so that they think they're being abducted by aliens for its quote, I'm quoting psychological warfare value.",
+      "kind": "researcher",
+      "cites": [
+        "jacques-vallee",
+        "john-alexander"
+      ],
+      "documents": [
+        "jacques-vallee-1992-book-journal",
+        "cia-document-1985"
+      ]
+    },
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 9046.0,
+      "to_s": 9056.0,
+      "teller": "steven-greer",
+      "quote": "go look up this this reference that Jock File's document from the CIA has it black and white says we're conducting the abductions,",
+      "kind": "official",
+      "cites": [
+        "jock-file"
+      ],
+      "documents": [
+        "cia-document"
+      ],
+      "difference": "This telling has the document saying the abductions are carried out globally, not only in Argentina and Brazil, and gives no date.",
+      "link_reason": "Both are about the CIA document credited to Jacques Vallée saying the CIA staged alien abductions using humans.",
+      "as_told": {
+        "title": "CIA document says abductions are conducted by humans globally",
+        "years": null,
+        "place_text": "Global",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.1,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 1.55,
+  "tier": "told-once"
+}

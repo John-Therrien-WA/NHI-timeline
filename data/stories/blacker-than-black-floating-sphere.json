@@ -1,0 +1,69 @@
+{
+  "id": "blacker-than-black-floating-sphere",
+  "title": "Blacker-than-black floating sphere",
+  "summary": "Eric Burles tells of Blacker-than-black floating sphere, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 43.0,
+      "to_s": 54.0,
+      "teller": "eric-burles",
+      "quote": ">> This thing was blacker than black sphere that was floating and it just gave this sense of just complete evil and darkness.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 4322.0,
+      "to_s": 4337.0,
+      "teller": "eric-burlison",
+      "quote": "he uh served in special forces, was in he was um he was in the field and was brought into a room and and what he describes as a hovering black",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the source was in special forces and saw the sphere overseas during the wars, in a room he was brought into.",
+      "link_reason": "Both tell of the same blacker-than-black floating sphere, relayed by Burlison from a source.",
+      "as_told": {
+        "title": "Special forces source sees a blacker-than-black hovering sphere overseas",
+        "years": null,
+        "place_text": "Overseas, possibly Iraq or Afghanistan",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-burles",
+      "eric-burlison"
+    ],
+    "episodes": [
+      "A2-y_HasHEw"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several"
+}

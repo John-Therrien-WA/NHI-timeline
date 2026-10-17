@@ -1,0 +1,61 @@
+{
+  "id": "garry-nolan-s-magnesium-bismuth-sample-from-ubatuba-1950",
+  "title": "Garry Nolan's magnesium-bismuth sample from Ubatuba",
+  "summary": "Jesse Michels tells of Garry Nolan's magnesium-bismuth sample from Ubatuba, about 1950s-1960s at Ubatuba, Brazil; Stanford, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Ubatuba, Brazil; Stanford",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 11378.0,
+      "to_s": 11386.0,
+      "teller": "jesse-michels",
+      "quote": "Gary Nolan has this magnesium bismuth piece in his lab at Stanford.",
+      "kind": "researcher",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+      "relation": "variant",
+      "note": "The same magnesium-bismuth piece in Nolan's Stanford lab, but this telling attributes it to Ubatuba, Brazil, where the story says it came from Roswell."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

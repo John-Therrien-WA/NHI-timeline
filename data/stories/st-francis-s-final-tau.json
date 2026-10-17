@@ -1,0 +1,54 @@
+{
+  "id": "st-francis-s-final-tau",
+  "title": "St Francis's final Tau",
+  "summary": "Jesse Michels tells of St Francis's final Tau, about 1200s at Italy, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Italy",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 2309.0,
+      "to_s": 2322.0,
+      "teller": "jesse-michels",
+      "quote": "aisi seeing what was probably a craft or an orb a seraphim and um the last thing he writes in his diary is the Greek letter Tao which uh means conversion",
+      "kind": "host",
+      "cites": [
+        "st-francis-of-assisi"
+      ],
+      "documents": [
+        "st-francis-s-diary"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "aa9Xx5wI8Rw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

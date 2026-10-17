@@ -1,0 +1,50 @@
+{
+  "id": "incident-at-nellis-area-2-weapon-storage",
+  "title": "Incident at Nellis Area 2 weapon storage",
+  "summary": "Robert Hastings tells of Incident at Nellis Area 2 weapon storage, about unspecified at Nellis Air Force Base, Nevada, Area 2, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Nellis Air Force Base, Nevada, Area 2",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 3689.0,
+      "to_s": 3697.0,
+      "teller": "robert-hastings",
+      "quote": "another incident occurred at the Nellis Air Force Base Nevada area 2 weapon storage area",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "robert-hastings"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

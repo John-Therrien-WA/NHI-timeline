@@ -1,0 +1,86 @@
+{
+  "id": "cia-brings-anomalous-experience-files-to-garry-nolan-2010",
+  "title": "CIA brings anomalous-experience files to Garry Nolan",
+  "summary": "Jesse Michels tells of CIA brings anomalous-experience files to Garry Nolan, about 2010s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2019
+  },
+  "place": "united-states",
+  "place_text": "Stanford, USA",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 1163.0,
+      "to_s": 1169.0,
+      "teller": "jesse-michels",
+      "quote": "CIA came knocking at his door and they're like we have this files of people who've had all these anomalous experiences",
+      "kind": "host",
+      "cites": [
+        "gary-nolan",
+        "cia"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 1372.0,
+      "to_s": 1378.0,
+      "teller": "jesse-michels",
+      "quote": "he also was approached by the CIA in I think 2016ish",
+      "kind": "host",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Puts the approach at about 2016 and frames it as being about the biological effects of UAP encounters.",
+      "link_reason": "Both tell of the CIA coming to Garry Nolan with files on people's anomalous experiences.",
+      "as_told": {
+        "title": "CIA approached Gary Nolan about the biological effects of UAP encounters",
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "place_text": "not stated",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "pete-worden-connected-tom-delonge-and-general-neil-mccasland-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "aa9Xx5wI8Rw",
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

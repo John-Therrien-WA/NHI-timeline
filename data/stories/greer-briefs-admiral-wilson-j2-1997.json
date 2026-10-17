@@ -1,0 +1,69 @@
+{
+  "id": "greer-briefs-admiral-wilson-j2-1997",
+  "title": "Greer briefs Admiral Wilson (J2), 1997",
+  "summary": "Steven Greer tells of Greer briefs Admiral Wilson (J2), 1997, about 1997 at Washington, D.C., and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1997,
+    "to": 1997
+  },
+  "place": "washington-dc",
+  "place_text": "Pentagon, Washington DC",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 4869.0,
+      "to_s": 4879.0,
+      "teller": "steven-greer",
+      "quote": "Then in 1997, well, and many other people, but in 97, I briefed the J2, the head of intelligence, joint staff, Admiral Wilson.",
+      "kind": "firsthand",
+      "cites": [
+        "admiral-thomas-wilson",
+        "eric-davis"
+      ],
+      "documents": [
+        "eric-davis-memo"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "1997-contact-10-000-people-paid-10-million-each",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "infiltrator-removed-before-the-1997-congressional-briefing",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

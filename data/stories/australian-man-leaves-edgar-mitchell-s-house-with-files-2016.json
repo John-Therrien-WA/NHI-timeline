@@ -1,0 +1,57 @@
+{
+  "id": "australian-man-leaves-edgar-mitchell-s-house-with-files-2016",
+  "title": "Australian man leaves Edgar Mitchell's house with files",
+  "summary": "James Fox tells of Australian man leaves Edgar Mitchell's house with files, about after Mitchell's death (2016) at Edgar Mitchell's house, Florida, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2016,
+    "to": 2016
+  },
+  "place": null,
+  "place_text": "Edgar Mitchell's house, Florida",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 6833.0,
+      "to_s": 6835.0,
+      "teller": "james-fox",
+      "quote": "house and this Australian guy I caught",
+      "kind": "secondhand",
+      "cites": [
+        "anares"
+      ],
+      "documents": [
+        "wilson-memo"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

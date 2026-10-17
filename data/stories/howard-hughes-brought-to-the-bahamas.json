@@ -1,0 +1,52 @@
+{
+  "id": "howard-hughes-brought-to-the-bahamas",
+  "title": "Howard Hughes brought to the Bahamas",
+  "summary": "JASON tells of Howard Hughes brought to the Bahamas, about unspecified at Bahamas, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Bahamas",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 6040.0,
+      "to_s": 6046.0,
+      "teller": "jason",
+      "quote": "the the island there. And you also have Howard Hughes, who suddenly gets brought down there.",
+      "kind": "researcher",
+      "cites": [
+        "howard-hughes"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

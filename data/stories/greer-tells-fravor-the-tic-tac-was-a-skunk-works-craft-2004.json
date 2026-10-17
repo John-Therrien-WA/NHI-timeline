@@ -1,0 +1,128 @@
+{
+  "id": "greer-tells-fravor-the-tic-tac-was-a-skunk-works-craft-2004",
+  "title": "Greer tells Fravor the Tic Tac was a Skunk Works craft",
+  "summary": "Steven Greer tells of Greer tells Fravor the Tic Tac was a Skunk Works craft, about 2004 at Off San Diego (Nimitz, 2004), and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "pacific-nimitz",
+  "place_text": "off California (Nimitz encounter)",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 3852.0,
+      "to_s": 3862.0,
+      "teller": "steven-greer",
+      "quote": "It was some years ago. And David goes, \"Oh, yeah. That was, you know, it had to be alien.\" I said, \"Sir, with all due respect, that was how the Lockheed skunk works.\"",
+      "kind": "firsthand",
+      "cites": [
+        "david-fravor",
+        "sully-erna"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 4119.0,
+      "to_s": 4128.0,
+      "teller": "steven-greer",
+      "quote": "craft like that because they don't want the National Military Command structure to know that something they encounter like Mr. Fraver did was ours.",
+      "kind": "secondhand",
+      "cites": [
+        "david-fravor"
+      ],
+      "documents": [],
+      "difference": "Adds that it was kept from the National Military Command structure on purpose, and does not name Lockheed.",
+      "link_reason": "The same claim as telling 1, that the Tic Tac Fravor met was a secret human-made craft.",
+      "as_told": {
+        "title": "Fravor's Tic Tac encounter was a human-made craft",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Off San Diego, US",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 4490.0,
+      "to_s": 4496.0,
+      "teller": "ross-coulthart",
+      "quote": "I now know categorically that the Tic Tac is Lockheed Martin technology.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Ross Coulthart states it as his own certain knowledge, with no named source and no mention of Fravor or Greer.",
+      "link_reason": "Both tellings claim the 2004 Nimitz Tic Tac was Lockheed (Skunk Works) technology rather than a non-human craft.",
+      "as_told": {
+        "title": "Tic Tac is Lockheed Martin technology",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "off San Diego (Nimitz)",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+      "relation": "variant",
+      "note": "Same 2004 Nimitz Tic Tac that Fravor saw, but Greer says it was a Lockheed Skunk Works craft, not a non-human object that seemed conscious."
+    },
+    {
+      "story": "greer-s-claim-that-nimitz-objects-were-lockheed-special-acce-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nuclear-weapons-aboard-the-nimitz-group-and-the-ufo-nukes-li-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "avi-loeb-s-calculation-against-fravor-s-80-000-ft-drop-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mick-west-tic-tac-video-zoom-change-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "ross-coulthart",
+      "steven-greer"
+    ],
+    "episodes": [
+      "OOr98r51Sj0",
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested"
+}

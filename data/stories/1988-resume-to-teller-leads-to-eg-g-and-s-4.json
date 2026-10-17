@@ -1,0 +1,117 @@
+{
+  "id": "1988-resume-to-teller-leads-to-eg-g-and-s-4",
+  "title": "1988 resume to Teller leads to EG&G and S-4",
+  "summary": "Bob Lazar tells of 1988 resume to Teller leads to EG&G and S-4, about 1988 at Las Vegas, Nevada, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1988,
+    "to": 1988
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 1901.0,
+      "to_s": 1910.0,
+      "teller": "bob-lazar",
+      "quote": "Now I never met Dr. Teller again, but 1988 when I decided to re-enter the scientific community, I sent him a resume and inquired about a job.",
+      "kind": "firsthand",
+      "cites": [
+        "edward-teller"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 8793.0,
+      "to_s": 8802.0,
+      "teller": "jesse-michels",
+      "quote": "then you have the fact that he got Lazar his job with EG which I think you can almost definitively say at this point there's too much data there to dismiss.",
+      "kind": "host",
+      "cites": [
+        "edward-teller",
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Told by the host as near-certain, not firsthand by Lazar, with no date and no mention of the resume.",
+      "link_reason": "Teller getting Lazar his EG&G job is the same claim as the 1988 resume to Teller that led to EG&G and S-4.",
+      "as_told": {
+        "title": "Teller got Lazar his job with EG&G",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 7100.0,
+      "to_s": 7103.0,
+      "teller": "jesse-michels",
+      "quote": "Yeah. I mean Bob Lazar got a job at EGNG.",
+      "kind": "host",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "The host mentions the EG&G job only in passing, with no Teller resume, and places it around 1989.",
+      "link_reason": "Both are about Lazar getting his job at EG&G, which led to S-4.",
+      "as_told": {
+        "title": "Bob Lazar's job at EG&G",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "Nevada",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "john-lear-helped-get-bob-lazar-the-s4-job-1987",
+      "relation": "variant",
+      "note": "Both explain how Lazar got the S-4 job. The story credits John Lear's help, while this telling credits a 1988 resume sent to Edward Teller, so the core claims conflict."
+    },
+    {
+      "story": "eg-g-interview-switched-mid-way-to-the-s-4-job-1988",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "first-question-at-eg-g-was-about-john-lear-1988",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "uVVqFg2v7ro",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

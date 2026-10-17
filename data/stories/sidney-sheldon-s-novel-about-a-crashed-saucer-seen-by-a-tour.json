@@ -1,0 +1,56 @@
+{
+  "id": "sidney-sheldon-s-novel-about-a-crashed-saucer-seen-by-a-tour",
+  "title": "Sidney Sheldon's novel about a crashed saucer seen by a tour bus",
+  "summary": "Dan Sheehan tells of Sidney Sheldon's novel about a crashed saucer seen by a tour bus, about unspecified at Italy (in the novel), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Italy (in the novel)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 9443.0,
+      "to_s": 9452.0,
+      "teller": "daniel-sheehan",
+      "quote": "He too wouldn't dare ever be public about it. So he wrote this book called The Doomsday Project, you know, a hypothetical",
+      "kind": "secondhand",
+      "cites": [
+        "sidney-sheldon",
+        "bill-todman-jr",
+        "bill-todman-sr"
+      ],
+      "documents": [
+        "the-doomsday-project"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

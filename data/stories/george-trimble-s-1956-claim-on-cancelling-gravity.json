@@ -1,0 +1,63 @@
+{
+  "id": "george-trimble-s-1956-claim-on-cancelling-gravity",
+  "title": "George Trimble's 1956 claim on cancelling gravity",
+  "summary": "Jesse Michels tells of George Trimble's 1956 claim on cancelling gravity, about 1956 at Martin Corporation, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1956,
+    "to": 1956
+  },
+  "place": null,
+  "place_text": "Martin Corporation",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 2636.0,
+      "to_s": 2646.0,
+      "teller": "jesse-michels",
+      "quote": "in a 1956 article found in Jane's Defense Weekly. George Trimble said, We're already working on nuclear fuels and equipment to cancel out gravity,",
+      "kind": "host",
+      "cites": [
+        "george-trimble"
+      ],
+      "documents": [
+        "jane-s-defense-weekly-article-1956"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "lawrence-bell-s-1956-article-quote-on-working-with-nuclear-f",
+      "relation": "variant",
+      "note": "Same 1956 article and the same quote about working with nuclear fuels to cancel out gravity, but the story gives it to George Trimble and this telling gives it to Lawrence Bell."
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

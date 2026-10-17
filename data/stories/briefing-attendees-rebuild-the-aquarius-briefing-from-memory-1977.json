@@ -1,0 +1,58 @@
+{
+  "id": "briefing-attendees-rebuild-the-aquarius-briefing-from-memory-1977",
+  "title": "Briefing attendees rebuild the Aquarius briefing from memory in a motel",
+  "summary": "Eric Davis tells of Briefing attendees rebuild the Aquarius briefing from memory in a motel, about 1977 at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1977
+  },
+  "place": "washington-dc",
+  "place_text": "motel, Washington DC area",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 2624.0,
+      "to_s": 2637.0,
+      "teller": "eric-davis",
+      "quote": "They the guys of the in the briefing got together afterwards, went to a motel and they basically wrote down from memory uh what they recalled about the briefing",
+      "kind": "secondhand",
+      "cites": [
+        "alonzo-mcdonald",
+        "bill-moore"
+      ],
+      "documents": [
+        "project-aquarius-briefing-document"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

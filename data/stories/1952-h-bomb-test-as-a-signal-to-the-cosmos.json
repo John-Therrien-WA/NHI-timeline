@@ -1,0 +1,77 @@
+{
+  "id": "1952-h-bomb-test-as-a-signal-to-the-cosmos",
+  "title": "1952 H-bomb test as a signal to the cosmos",
+  "summary": "Eric Weinstein tells of 1952 H-bomb test as a signal to the cosmos, about 1952 at Pacific, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": null,
+  "place_text": "Pacific",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iQOibpIDx-4",
+      "from_s": 2323.0,
+      "to_s": 2342.0,
+      "teller": "eric-weinstein",
+      "quote": "the concern that i have is that in 1952 what if there was someone there to hear what we said in the pacific if there was something or someone there to hear us they probably heard us as saying we're on the verge of being able to come visit",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 1060.0,
+      "to_s": 1072.0,
+      "teller": "jesse-michels",
+      "quote": "I think in 1952 we sent a signal to the cosmos which is that we're very very close to being in possession of root level knowledge",
+      "kind": "secondhand",
+      "cites": [
+        "eric-weinstein"
+      ],
+      "documents": [],
+      "difference": "Relayed second hand by Jesse Michels, and framed as a signal that we were close to 'root level knowledge' rather than close to being able to visit.",
+      "link_reason": "Both tell Eric Weinstein's theory that the 1952 Pacific H-bomb test acted as a signal to whoever might be listening in the cosmos.",
+      "as_told": {
+        "title": "Weinstein: 1952 H-bomb sent a signal to the cosmos",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Pacific (Ivy Mike test)",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-weinstein"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA",
+      "iQOibpIDx-4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,79 @@
+{
+  "id": "grusch-assigned-to-the-uap-task-force-2019",
+  "title": "Grusch assigned to the UAP Task Force",
+  "summary": "David Grusch tells of Grusch assigned to the UAP Task Force, about 2019 at The Pentagon, Arlington, Virginia, and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2019,
+    "to": 2019
+  },
+  "place": "pentagon",
+  "place_text": "Pentagon / UAPTF",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 379.0,
+      "to_s": 383.0,
+      "teller": "david-grusch",
+      "quote": "The UAP task force director funneled the request through the ops center like, Hey,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "xnxasfyHtfo",
+      "from_s": 666.0,
+      "to_s": 675.0,
+      "teller": "eric-davis",
+      "quote": "Dave was the NRO liaison officer to the UAP task force. So he uh took direction from J Stratton.",
+      "kind": "firsthand",
+      "cites": [
+        "david-grusch",
+        "jay-stratton",
+        "travis-taylor"
+      ],
+      "documents": [],
+      "difference": "Specifies he was the NRO liaison taking direction from Jay Stratton, dated 2020-2021 rather than 2019.",
+      "link_reason": "Both concern Grusch's assignment to the UAP Task Force.",
+      "as_told": {
+        "title": "David Grusch as NRO liaison to the UAP Task Force",
+        "years": {
+          "from": 2020,
+          "to": 2021
+        },
+        "place_text": "Aerospace Corporation, Colorado Springs, Colorado",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "david-grusch"
+    ],
+    "episodes": [
+      "kRO5jOa06Qw",
+      "xnxasfyHtfo"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

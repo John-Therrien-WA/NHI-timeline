@@ -1,0 +1,55 @@
+{
+  "id": "nro-program-b-ground-element-at-pine-gap-1982",
+  "title": "NRO Program B ground element at Pine Gap",
+  "summary": "UAPGerb tells of NRO Program B ground element at Pine Gap, about 1982-1989 at Pine Gap, Australia, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1982,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "Pine Gap, Australia",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 2001.0,
+      "to_s": 2005.0,
+      "teller": "uapgerb",
+      "quote": "the ground element of NRO program B was established at Pineap Australia.",
+      "kind": "researcher",
+      "cites": [
+        "r-evans-heinman"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

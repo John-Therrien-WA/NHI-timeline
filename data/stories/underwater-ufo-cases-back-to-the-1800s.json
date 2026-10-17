@@ -1,0 +1,57 @@
+{
+  "id": "underwater-ufo-cases-back-to-the-1800s",
+  "title": "Underwater UFO cases back to the 1800s",
+  "summary": "Kevin Knuth tells of Underwater UFO cases back to the 1800s, about 1800s-present at Oceans, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1800,
+    "to": 1809
+  },
+  "place": null,
+  "place_text": "Oceans",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 6265.0,
+      "to_s": 6273.0,
+      "teller": "kevin-knuth",
+      "quote": "he just released a book\nabout UFOs in the water,\nunderwater UFOs, and his cases go back to the\n1800s.",
+      "kind": "researcher",
+      "cites": [
+        "richard-dolan"
+      ],
+      "documents": [
+        "richard-dolan-book-on-underwater-ufos"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

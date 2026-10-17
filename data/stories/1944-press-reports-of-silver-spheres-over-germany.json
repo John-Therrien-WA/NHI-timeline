@@ -1,0 +1,59 @@
+{
+  "id": "1944-press-reports-of-silver-spheres-over-germany",
+  "title": "1944 press reports of silver spheres over Germany",
+  "summary": "Merrick tells of 1944 press reports of silver spheres over Germany, about 1944 at German Reich, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1944,
+    "to": 1944
+  },
+  "place": null,
+  "place_text": "German Reich",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 5704.0,
+      "to_s": 5717.0,
+      "teller": "merrick",
+      "quote": "there's a whole bunch of stories in 1944 Newsweek ran the silver sphere sp puzzle um Christmas day in 1944 Associated Press balls of silver scene over the German Reich intrigue science",
+      "kind": "researcher",
+      "cites": [
+        "newsweek",
+        "associated-press"
+      ],
+      "documents": [
+        "newsweek-the-silver-sphere-puzzle-1944",
+        "associated-press-balls-of-silver-seen-over-the-german-reich"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "merrick"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

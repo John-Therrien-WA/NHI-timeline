@@ -1,0 +1,101 @@
+{
+  "id": "sport-model-came-from-an-underwater-archaeological-dig-found-1989",
+  "title": "Sport model came from an underwater archaeological dig found by the Navy",
+  "summary": "Bob Lazar tells of Sport model came from an underwater archaeological dig found by the Navy, about before 1989 at unspecified body of water, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1989,
+    "to": 1989
+  },
+  "place": "nevada-test-site",
+  "place_text": "unspecified body of water",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 4270.0,
+      "to_s": 4276.0,
+      "teller": "bob-lazar",
+      "quote": "from what Barry said, that was an archaeological dig, which by the way isn't in the desert, it's in the water.",
+      "kind": "secondhand",
+      "cites": [
+        "barry-castilio"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 4911.0,
+      "to_s": 4933.0,
+      "teller": "jesse-michels",
+      "quote": "And and Bob Lazar, it's interesting. So he did this first kind of press run and he talked about obviously element 115 reverse engineering a craft at S4 Area 51 and he recently there was a documentary that came out about him and he just did some other interviews and he goes actually I didn't mean archaeological dig. I meant this was a Navy find on the seafloor.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar",
+        "barry"
+      ],
+      "documents": [],
+      "difference": "Michels relays it second hand and frames it as Lazar recently correcting his earlier 'archaeological dig' wording to 'a Navy find on the seafloor'.",
+      "link_reason": "Both tell Lazar's claim that the S4 craft came from an underwater find by the Navy, not from a desert dig.",
+      "as_told": {
+        "title": "Lazar: S4 craft was a Navy find on the seafloor",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "S4, Area 51, Nevada; seafloor",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 3810.0,
+      "to_s": 3818.0,
+      "teller": "jesse-michels",
+      "quote": "Bob Lazar said that uh you know the craft that he worked on was from an archaeological dig on the ocean floor and it came from the Navy",
+      "kind": "host",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Told by the host crediting Lazar rather than by Lazar relaying Barry Castilio, and it says outright that the dig was the Navy's and on the ocean floor.",
+      "link_reason": "Both tell Lazar's account that the craft he worked on came from an underwater archaeological dig tied to the Navy.",
+      "as_told": {
+        "title": "Lazar's craft came from Navy ocean floor dig",
+        "years": null,
+        "place_text": "ocean floor",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "nRKNVFQBi38",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "johnston-island-scuttlebutt-soviet-orbital-nuke-shot-down-ob-1962",
+  "title": "Johnston Island scuttlebutt: Soviet orbital nuke shot down, object recovered",
+  "summary": "Jesse Michels tells of Johnston Island scuttlebutt: Soviet orbital nuke shot down, object recovered, about 1962-1963 at Johnston Atoll (Bluegill, 1962), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1963
+  },
+  "place": "johnston-atoll",
+  "place_text": "Johnston Island (Johnston Atoll), Pacific",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 4355.0,
+      "to_s": 4373.0,
+      "teller": "jesse-michels",
+      "quote": "First of all something had fallen down toward the island from that explosion in the sky. The explosion lit up the entire South Pacific and and caused all sorts of alarm and reports of UFOs and so on. And something had been recovered.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-jacobs"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "bluegill-recovery-of-spherical-debris-in-deck-logs-1962",
+      "relation": "variant",
+      "note": "Same Johnston Island event, with something falling from the blast and being recovered. Here the object is explained as a Soviet orbital nuke that was shot down, not a UFO."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "V00WcEiKRAY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

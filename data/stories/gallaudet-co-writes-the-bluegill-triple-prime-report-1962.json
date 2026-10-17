@@ -1,0 +1,57 @@
+{
+  "id": "gallaudet-co-writes-the-bluegill-triple-prime-report-1962",
+  "title": "Gallaudet co-writes the Bluegill Triple Prime report",
+  "summary": "Tim Gallaudet tells of Gallaudet co-writes the Bluegill Triple Prime report, about 1962 at Johnston Atoll (Bluegill, 1962), and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "johnston-atoll",
+  "place_text": "Bluegill Triple Prime nuclear test site",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 82.0,
+      "to_s": 86.0,
+      "teller": "tim-gallaudet",
+      "quote": "I helped Jeff Krookchank write the report on it.",
+      "kind": "firsthand",
+      "cites": [
+        "jeff-krookchank"
+      ],
+      "documents": [
+        "report-on-bluegill-triple-prime"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "tim-gallaudet"
+    ],
+    "episodes": [
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

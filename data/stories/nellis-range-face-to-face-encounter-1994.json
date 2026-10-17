@@ -1,0 +1,123 @@
+{
+  "id": "nellis-range-face-to-face-encounter-1994",
+  "title": "Nellis range face-to-face encounter",
+  "summary": "James Fox tells of Nellis range face-to-face encounter, about August 1994 at Nellis testing range, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1994,
+    "to": 1994
+  },
+  "place": null,
+  "place_text": "Nellis testing range, Nevada",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 1593.0,
+      "to_s": 1601.0,
+      "teller": "james-fox",
+      "quote": "Nellis Nellis testing range in Nevada 1994 it was August",
+      "kind": "secondhand",
+      "cites": [
+        "jason-sands"
+      ],
+      "documents": [
+        "the-program"
+      ]
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 6503.0,
+      "to_s": 6507.0,
+      "teller": "james-fox",
+      "quote": "for including that encounter in Nellis",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "This telling only mentions the encounter in passing and credits no source, where the story's telling credits Jason Sands and gives August as the month.",
+      "link_reason": "Both tellings come from James Fox and are about the same 1994 encounter on the Nellis test range in Nevada.",
+      "as_told": {
+        "title": "1994 encounter at the Nellis test range",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "Nellis test range, Nevada",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 11044.0,
+      "to_s": 11058.0,
+      "teller": "james-fox",
+      "quote": "alleged encounter at Nellis in '94 with a guy dressed in you know military outfit that clearly according to him did not appear to be human",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "the-program"
+      ],
+      "difference": "This telling describes the being as wearing a military outfit and not appearing human, and points to The Program as the source. It does not credit Jason Sands or give the month of August.",
+      "link_reason": "Both are James Fox's telling of the 1994 face-to-face encounter at Nellis in Nevada. This telling describes the being as dressed in military clothing and not appearing human.",
+      "as_told": {
+        "title": "Nonhuman in military dress at Nellis",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "Nellis Air Force Base, Nevada",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "9QMrhcpJq8I",
+      "from_s": 5830.0,
+      "to_s": 5838.0,
+      "teller": "jesse-michels",
+      "quote": "he sort of saw this like blue alien being at Nellis testing range in Nevada and he was part of James Fox's the program.",
+      "kind": "secondhand",
+      "cites": [
+        "jason-sands",
+        "james-fox"
+      ],
+      "documents": [],
+      "difference": "Describes the being as blue and gives no date, where the story has a 1994 being in military dress.",
+      "link_reason": "Both are Jason Sands's encounter with a non-human being at the Nellis range, which appeared in James Fox's film.",
+      "as_told": {
+        "title": "Jason Sands sees blue alien being at Nellis range",
+        "years": null,
+        "place_text": "Nellis testing range, Nevada",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "9QMrhcpJq8I",
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

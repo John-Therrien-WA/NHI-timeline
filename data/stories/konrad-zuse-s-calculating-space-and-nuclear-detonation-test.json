@@ -1,0 +1,55 @@
+{
+  "id": "konrad-zuse-s-calculating-space-and-nuclear-detonation-test",
+  "title": "Konrad Zuse's calculating space and nuclear detonation test",
+  "summary": "Jason Jorjani tells of Konrad Zuse's calculating space and nuclear detonation test, about World War II at Germany, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 11559.0,
+      "to_s": 11571.0,
+      "teller": "jason-jorjani",
+      "quote": "He theorized that it would be possible to test this in extremely high entropy events such as for example the detonation of a nuclear bomb.",
+      "kind": "researcher",
+      "cites": [
+        "konrad-zuse"
+      ],
+      "documents": [
+        "nuking-the-matrix-substack",
+        "rechnender-raum"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

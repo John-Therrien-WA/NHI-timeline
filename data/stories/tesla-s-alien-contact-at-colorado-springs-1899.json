@@ -1,0 +1,76 @@
+{
+  "id": "tesla-s-alien-contact-at-colorado-springs-1899",
+  "title": "Tesla's alien contact at Colorado Springs",
+  "summary": "Jesse Michels tells of Tesla's alien contact at Colorado Springs, about 1899 at Colorado Springs, Colorado, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1899,
+    "to": 1899
+  },
+  "place": null,
+  "place_text": "Colorado Springs, Colorado",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 9684.0,
+      "to_s": 9691.0,
+      "teller": "jesse-michels",
+      "quote": "Well, Tesla's another guy. He said he spoke he communicated with aliens in Colorado Springs",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 11616.0,
+      "to_s": 11622.0,
+      "teller": "jesse-michels",
+      "quote": "Tesla saying he saw the past, present, and future all in one and spoke to aliens,",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla"
+      ],
+      "documents": [],
+      "difference": "Adds that Tesla saw past, present and future all at once, and does not name Colorado Springs or 1899.",
+      "link_reason": "Both tell of Tesla's claim that he communicated with aliens.",
+      "as_told": {
+        "title": "Tesla seeing past, present and future and speaking to aliens",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "09KP8XVf5nY",
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

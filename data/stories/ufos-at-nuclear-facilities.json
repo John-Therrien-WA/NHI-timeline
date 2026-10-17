@@ -1,0 +1,94 @@
+{
+  "id": "ufos-at-nuclear-facilities",
+  "title": "UFOs at nuclear facilities",
+  "summary": "Eric Hazeline tells of UFOs at nuclear facilities, about unspecified at nuclear weapons facilities and plants worldwide, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "nuclear weapons facilities and plants worldwide",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 3943.0,
+      "to_s": 3952.0,
+      "teller": "eric-hazeline",
+      "quote": "We have. And uh we're trying to be\nhonest and say, \"Yo, maybe yes, maybe\nno.\" First of all, there's a lot more\nsensors around nuclear plants.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "6bqaHVSlVeU",
+      "from_s": 6486.0,
+      "to_s": 6492.0,
+      "teller": "jesse-michels",
+      "quote": "but they show up around UFOs show up around nuclear sites all over the world.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "The host states it as anecdotal place-lore without Hazeline's caveat about there being more sensors near nuclear plants.",
+      "link_reason": "Both make the general claim that UFOs appear around nuclear sites worldwide. The future-humans story and the Q-cleared witnesses story are a specific explanation and a specific case.",
+      "as_told": {
+        "title": "UFOs appearing around nuclear sites worldwide",
+        "years": null,
+        "place_text": "nuclear sites worldwide",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 1303.0,
+      "to_s": 1314.0,
+      "teller": "matthew-brown",
+      "quote": ">> it's it's established beyond a reasonable doubt that uh not just nuclear uh facilities draw their attention. Um, but WMD in general.",
+      "kind": "official",
+      "cites": [
+        "robert-salas"
+      ],
+      "documents": [
+        "ufos-and-nukes"
+      ],
+      "difference": "Says the attraction is established beyond reasonable doubt and extends it to WMD facilities in general, crediting Robert Salas.",
+      "link_reason": "Both make the general claim that UAP are drawn to nuclear facilities.",
+      "as_told": {
+        "title": "UAP drawn to nuclear and WMD facilities",
+        "years": null,
+        "place_text": "nuclear and WMD facilities",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.8,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "eric-hazeline",
+      "jesse-michels",
+      "matthew-brown"
+    ],
+    "episodes": [
+      "6bqaHVSlVeU",
+      "jMCavr3dVP0",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.4,
+  "tier": "well-attested"
+}

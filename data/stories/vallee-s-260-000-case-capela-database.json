@@ -1,0 +1,54 @@
+{
+  "id": "vallee-s-260-000-case-capela-database",
+  "title": "Vallée's 260,000-case Capela database",
+  "summary": "JASON tells of Vallée's 260,000-case Capela database, about unspecified at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 3860.0,
+      "to_s": 3865.0,
+      "teller": "jason",
+      "quote": "260,000 cases, like I said, the Capela database that he made.",
+      "kind": "researcher",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": [
+        "capela-database"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

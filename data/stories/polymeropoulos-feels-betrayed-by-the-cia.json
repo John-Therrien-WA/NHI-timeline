@@ -1,0 +1,54 @@
+{
+  "id": "polymeropoulos-feels-betrayed-by-the-cia",
+  "title": "Polymeropoulos feels betrayed by the CIA",
+  "summary": "Eric Hazeline tells of Polymeropoulos feels betrayed by the CIA, about recent at CIA, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "CIA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 3683.0,
+      "to_s": 3693.0,
+      "teller": "eric-hazeline",
+      "quote": "Mark Poly Moropoulos,\nwho was on the 60 Minutes piece, said it\nvery well. It's like he loves the CIA,\nbut\n>> they've betrayed him.",
+      "kind": "secondhand",
+      "cites": [
+        "marc-polymeropoulos"
+      ],
+      "documents": [
+        "60-minutes-report-on-havana-syndrome"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-hazeline"
+    ],
+    "episodes": [
+      "jMCavr3dVP0"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

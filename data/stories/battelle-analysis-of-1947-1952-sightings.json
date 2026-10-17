@@ -1,0 +1,55 @@
+{
+  "id": "battelle-analysis-of-1947-1952-sightings",
+  "title": "Battelle analysis of 1947-1952 sightings",
+  "summary": "Jesse Michels tells of Battelle analysis of 1947-1952 sightings, about 1947-1952 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1952
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 13328.0,
+      "to_s": 13344.0,
+      "teller": "jesse-michels",
+      "quote": "But Battel put out a a very very deep analysis uh of of the 1947 and 1952 sightings. And guess what? Fascinating. Uh 33% of the most credible sightings were unknown.",
+      "kind": "host",
+      "cites": [
+        "battelle"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

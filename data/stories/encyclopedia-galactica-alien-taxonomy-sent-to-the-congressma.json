@@ -1,0 +1,52 @@
+{
+  "id": "encyclopedia-galactica-alien-taxonomy-sent-to-the-congressma",
+  "title": "Encyclopedia Galactica alien taxonomy sent to the congressman",
+  "summary": "Eric Burlison tells of Encyclopedia Galactica alien taxonomy sent to the congressman, about unspecified at unspecified, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 6310.0,
+      "to_s": 6315.0,
+      "teller": "eric-burlison",
+      "quote": "somebody sent me both volumes of the Encyclopedia Galactica",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "encyclopedia-galactica"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "eric-burlison"
+    ],
+    "episodes": [
+      "A2-y_HasHEw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

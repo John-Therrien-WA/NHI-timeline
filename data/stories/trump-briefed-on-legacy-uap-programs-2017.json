@@ -1,0 +1,80 @@
+{
+  "id": "trump-briefed-on-legacy-uap-programs-2017",
+  "title": "Trump briefed on legacy UAP programs",
+  "summary": "Matthew Pines tells of Trump briefed on legacy UAP programs, about 2017-2024 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2017,
+    "to": 2024
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LpLFWdsIU7M",
+      "from_s": 1457.0,
+      "to_s": 1473.0,
+      "teller": "matthew-pines",
+      "quote": "I believe he's been briefed on some aspects of these legacy programs and of course, you know, there's speculation exactly how much he knows, etc., but I'm pretty confident he knows at least broad contours that this is real.",
+      "kind": "researcher",
+      "cites": [
+        "donald-trump"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 113.0,
+      "to_s": 127.0,
+      "teller": "eric-burles",
+      "quote": ">> I do believe he's been briefed and that during that briefing he was told that there are hybrids. Trump's response was, \"You mean like Adam Schiff",
+      "kind": "secondhand",
+      "cites": [
+        "donald-trump"
+      ],
+      "documents": [],
+      "difference": "Says the briefing told him there are hybrids, and gives Trump's 'You mean like Adam Schiff' reply; Burles relays this second hand.",
+      "link_reason": "Both say Trump was briefed on secret UAP matters while in office and learned it was real.",
+      "as_told": {
+        "title": "Trump told about hybrids in UFO briefing",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "White House, Washington DC",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "eric-burles",
+      "matthew-pines"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "LpLFWdsIU7M"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several"
+}

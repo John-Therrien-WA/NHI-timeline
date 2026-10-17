@@ -1,0 +1,75 @@
+{
+  "id": "von-braun-shows-uri-geller-a-piece-of-a-crashed-ufo",
+  "title": "Von Braun shows Uri Geller a piece of a crashed UFO",
+  "summary": "Jesse Michels tells of Von Braun shows Uri Geller a piece of a crashed UFO, about an unknown time at NASA secret base, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "NASA secret base",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 1570.0,
+      "to_s": 1577.0,
+      "teller": "jesse-michels",
+      "quote": "you're right this is a piece of a UFO that crashed on our planet",
+      "kind": "secondhand",
+      "cites": [
+        "uri-geller",
+        "edgar-mitchell",
+        "wernher-von-braun"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 5342.0,
+      "to_s": 5365.0,
+      "teller": "uri-geller",
+      "quote": ">> Wernher von Braun takes me into his personal office. There's a safe in the office. He opens the safe. I see a piece of metal. I've never seen such a color. Pulls it out. It's not heavy. Says, \"Uri, touch this. Tell me what you feel now.\" I put my hand on it, and I say, \"Wernher, this is not from here.\" He says, \"You're right. This is a piece of a UFO that crashed on our planet.\"",
+      "kind": "firsthand",
+      "cites": [
+        "wernher-von-braun"
+      ],
+      "documents": [],
+      "difference": "Told first hand by Geller, with the metal kept in a safe in von Braun's personal office rather than at a NASA secret base.",
+      "link_reason": "Both tell of von Braun showing Geller a piece of metal that he says came from a UFO that crashed on Earth. The quoted line is the same.",
+      "as_told": {
+        "title": "Von Braun shows Geller a crashed UFO fragment in his safe",
+        "years": null,
+        "place_text": "Wernher von Braun's office",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "uri-geller"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

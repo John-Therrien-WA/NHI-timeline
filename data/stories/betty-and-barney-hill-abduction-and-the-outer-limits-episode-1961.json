@@ -1,0 +1,170 @@
+{
+  "id": "betty-and-barney-hill-abduction-and-the-outer-limits-episode-1961",
+  "title": "Betty and Barney Hill abduction and the Outer Limits episode",
+  "summary": "Jesse Michels tells of Betty and Barney Hill abduction and the Outer Limits episode, about 1961 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1961
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 1572.0,
+      "to_s": 1580.0,
+      "teller": "jesse-michels",
+      "quote": "Betty and Barney Hill perhaps one of the most famous abduction cases in the U.S occurred in 1961.",
+      "kind": "host",
+      "cites": [
+        "betty-hill",
+        "barney-hill"
+      ],
+      "documents": [
+        "the-outer-limits"
+      ]
+    },
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3454.0,
+      "to_s": 3457.0,
+      "teller": "jesse-michels",
+      "quote": "So the classic example is Betty and Barney Hill in 1961.",
+      "kind": "host",
+      "cites": [
+        "betty-hill",
+        "barney-hill",
+        "diana-pasulka",
+        "jacques-vallee"
+      ],
+      "documents": [
+        "american-cosmic",
+        "passport-to-magonia"
+      ],
+      "difference": "This telling calls the case the \"classic example\" and credits Diana Pasulka and Jacques Vallee (American Cosmic, Passport to Magonia), where the story credits only Betty and Barney Hill.",
+      "link_reason": "The telling and the story are both about the 1961 Betty and Barney Hill abduction and the Outer Limits episode tied to it, and the same host tells both.",
+      "as_told": {
+        "title": "Betty and Barney Hill and the Outer Limits episode",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "United States",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "Y26iMB0r-f8",
+      "from_s": 800.0,
+      "to_s": 809.0,
+      "teller": "jesse-michels",
+      "quote": "you talk about uh Barney Hill reluctantly saying that Sean samples were taken from him",
+      "kind": "host",
+      "cites": [
+        "barney-hill",
+        "mike-masters"
+      ],
+      "documents": [],
+      "difference": "Adds Barney Hill's reluctant claim that sperm samples were taken from him, credits Mike Masters, and names New Hampshire as the place.",
+      "link_reason": "Both are about the Betty and Barney Hill abduction in New Hampshire in 1961. This telling picks out Barney's reluctant report that sperm samples were taken during that same abduction, not a separate event.",
+      "as_told": {
+        "title": "Barney Hill reluctantly reports sperm samples taken",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire, USA",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 409.0,
+      "to_s": 413.0,
+      "teller": "jesse-michels",
+      "quote": "Oh jeez. First abductees 1961.",
+      "kind": "host",
+      "cites": [
+        "betty-hill",
+        "barney-hill",
+        "angela-hill"
+      ],
+      "documents": [],
+      "difference": "Calls them the first abductees and places it in New Hampshire.",
+      "link_reason": "Both are about the 1961 Betty and Barney Hill abduction itself, told by the host as a classic case.",
+      "as_told": {
+        "title": "Betty and Barney Hill, the first abductees",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire, USA",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 6170.0,
+      "to_s": 6176.0,
+      "teller": "jesse-michels",
+      "quote": "obviously, uh, Betty and Barney Hills saying they're from a binary star system mapped out looked like Zeta Reticuli,",
+      "kind": "host",
+      "cites": [
+        "betty-hill",
+        "barney-hill"
+      ],
+      "documents": [],
+      "difference": "Brings in the star map pointing to a binary system that looks like Zeta Reticuli.",
+      "link_reason": "This is the 1961 Betty and Barney Hill abduction. The Zeta Reticuli star map is a detail of that same case.",
+      "as_told": {
+        "title": "Betty and Barney Hill and the Zeta Reticuli star map",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "betty-and-barney-hill-abduction-possibly-done-by-humans-1961",
+      "relation": "variant",
+      "note": "Both are about the same 1961 Betty and Barney Hill abduction. Greer offers a competing explanation, that humans did it rather than non-humans."
+    }
+  ],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "C_Na1tI5qpw",
+      "Y26iMB0r-f8",
+      "fyX8V1XXmQM",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once"
+}

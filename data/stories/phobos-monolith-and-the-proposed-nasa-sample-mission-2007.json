@@ -1,0 +1,55 @@
+{
+  "id": "phobos-monolith-and-the-proposed-nasa-sample-mission-2007",
+  "title": "Phobos monolith and the proposed NASA sample mission",
+  "summary": "guest tells of Phobos monolith and the proposed NASA sample mission, about 2007 at Phobos, Mars, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2007,
+    "to": 2007
+  },
+  "place": null,
+  "place_text": "Phobos, Mars",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 4919.0,
+      "to_s": 4926.0,
+      "teller": "guest",
+      "quote": "this uh monolith that NASA has imaged on\nPhobos one of the moons of Mars",
+      "kind": "researcher",
+      "cites": [
+        "buzz-aldrin"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "guest"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

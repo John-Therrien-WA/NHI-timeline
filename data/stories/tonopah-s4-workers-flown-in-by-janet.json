@@ -1,0 +1,52 @@
+{
+  "id": "tonopah-s4-workers-flown-in-by-janet",
+  "title": "Tonopah S4 workers flown in by Janet",
+  "summary": "UAPGerb tells of Tonopah S4 workers flown in by Janet, about present at Tonopah Test Range, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Tonopah Test Range, Nevada",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 12355.0,
+      "to_s": 12364.0,
+      "teller": "uapgerb",
+      "quote": "employees on the S4 area of Tonipa test range have to be taken there directly from Janet and cannot drive on site like other employees at Tonipa can.",
+      "kind": "secondhand",
+      "cites": [
+        "lazy-g-ranch"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "nasa-attempt-to-read-the-ramey-memo-with-algorithms-2000",
+  "title": "NASA attempt to read the Ramey memo with algorithms",
+  "summary": "Kevin Knuth tells of NASA attempt to read the Ramey memo with algorithms, about early 2000s at NASA Intelligent Systems Division, and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2003
+  },
+  "place": null,
+  "place_text": "NASA Intelligent Systems Division",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IWui5cBkwoE",
+      "from_s": 2404.0,
+      "to_s": 2411.0,
+      "teller": "kevin-knuth",
+      "quote": "So we actually wrote the algorithms to actually read this memo.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "ramey-memo"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "kevin-knuth"
+    ],
+    "episodes": [
+      "IWui5cBkwoE"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

@@ -1,0 +1,89 @@
+{
+  "id": "go-fast-object-one-of-four-in-line-abreast-formation-2015",
+  "title": "Go Fast object one of four in line-abreast formation",
+  "summary": "Merrick tells of Go Fast object one of four in line-abreast formation, about 2015 at off Jacksonville, Florida, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": "off-us-east-coast",
+  "place_text": "off Jacksonville, Florida",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 4954.0,
+      "to_s": 4960.0,
+      "teller": "merrick",
+      "quote": "this was one of four objects that were in a line of breast formation",
+      "kind": "secondhand",
+      "cites": [
+        "ryan-graves"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 626.0,
+      "to_s": 640.0,
+      "teller": "tim-gallaudet",
+      "quote": "I don't dispute that. What I dispute is the fact that this was a spherical object that had no flight control services or means propulsion traveling in in a in an intelligently controlled manner and and it was in formation. By the way, there was four.",
+      "kind": "firsthand",
+      "cites": [
+        "ryan-graves",
+        "john-kazowski"
+      ],
+      "documents": [
+        "go-fast-video"
+      ],
+      "difference": "Adds that the object had no flight control surfaces or propulsion and moved under intelligent control, and rejects the parallax explanation.",
+      "link_reason": "Both say the Go Fast object was one of four flying in formation, citing Ryan Graves.",
+      "as_told": {
+        "title": "Go Fast object was intelligently controlled and in a formation of four, not parallax",
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "place_text": "Off the US East Coast",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "gimbal-pilot-confirms-the-lns-radar-target-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "merrick",
+      "tim-gallaudet"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 1.75,
+  "tier": "well-attested"
+}

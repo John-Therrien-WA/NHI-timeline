@@ -1,0 +1,78 @@
+{
+  "id": "roddenberry-s-script-the-nine-1970",
+  "title": "Roddenberry's script The Nine",
+  "summary": "Greg tells of Roddenberry's script The Nine, about 1970s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 6574.0,
+      "to_s": 6579.0,
+      "teller": "greg",
+      "quote": "Gene Roddenberry wrote a script called The Nine.",
+      "kind": "researcher",
+      "cites": [
+        "gene-roddenberry"
+      ],
+      "documents": [
+        "the-nine-screenplay"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "ingo-swann-s-reports-to-scientology-on-the-oni-remote-viewin-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mark-felt-s-biography-nixon-shown-covert-technology-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pat-price-remote-views-a-file-inside-a-cia-facility-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-memo-popularizing-the-term-conspiracy-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

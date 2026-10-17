@@ -1,0 +1,55 @@
+{
+  "id": "john-lear-a-billion-aliens-live-in-the-mountains-by-a-highwa-1980",
+  "title": "John Lear: a billion aliens live in the mountains by a highway",
+  "summary": "Bob Lazar tells of John Lear: a billion aliens live in the mountains by a highway, about 1980s at mountains along a highway, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "mountains along a highway",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 8103.0,
+      "to_s": 8106.0,
+      "teller": "bob-lazar",
+      "quote": "he used to tell me there were aliens living in the mountains",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

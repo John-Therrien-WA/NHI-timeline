@@ -1,0 +1,94 @@
+{
+  "id": "ufos-over-bariloche-nuclear-site-1995",
+  "title": "UFOs over Bariloche nuclear site",
+  "summary": "Jesse Michels tells of UFOs over Bariloche nuclear site, about 1995 at Bariloche, Argentina, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1995,
+    "to": 1995
+  },
+  "place": null,
+  "place_text": "Bariloche, Argentina",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 9127.0,
+      "to_s": 9135.0,
+      "teller": "jesse-michels",
+      "quote": "baral loce is a is is a nuclear energy grid um and uf's buzzing there Argentina 95",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 10738.0,
+      "to_s": 10743.0,
+      "teller": "jesse-michels",
+      "quote": "there have been sightings in Barilloce Argentina which has its own civilian nuclear grid",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives no year, where the story says 1995.",
+      "link_reason": "Both describe UFO sightings at Bariloche, Argentina, linked to its civilian nuclear grid.",
+      "as_told": {
+        "title": "Sightings at Bariloche nuclear site",
+        "years": null,
+        "place_text": "Bariloche, Argentina",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 2022.0,
+      "to_s": 2032.0,
+      "teller": "jesse-michels",
+      "quote": "Baraloce, Argentina, next to their civilian, you know, energy grid, you have UFOs showing up, and you have a famous case in '95 with a commercial plane.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the famous 1995 case involved a commercial plane.",
+      "link_reason": "Both are about the 1995 UFO sightings at Bariloche, Argentina, near its civilian nuclear grid.",
+      "as_told": {
+        "title": "Bariloche commercial plane case",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "Bariloche, Argentina",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "8Rr_nE65KkI",
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

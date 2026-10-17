@@ -1,0 +1,54 @@
+{
+  "id": "atlantis-search-atlantic-region-matching-plato-s-description",
+  "title": "Atlantis search: Atlantic region matching Plato's description",
+  "summary": "Tim Gallaudet tells of Atlantis search: Atlantic region matching Plato's description, about present; Atlantis before Egypt at The Atlantic Ocean, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "atlantic-ocean",
+  "place_text": "Atlantic Ocean (location withheld)",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 2911.0,
+      "to_s": 2925.0,
+      "teller": "tim-gallaudet",
+      "quote": "we believe we found the a region in the u Atlantic that is uh fits all the descriptions of Plato's d in Plato's dialogues",
+      "kind": "firsthand",
+      "cites": [
+        "max-direct-shawnie"
+      ],
+      "documents": [
+        "plato-s-dialogues"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "tim-gallaudet"
+    ],
+    "episodes": [
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

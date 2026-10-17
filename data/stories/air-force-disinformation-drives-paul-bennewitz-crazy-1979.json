@@ -1,0 +1,110 @@
+{
+  "id": "air-force-disinformation-drives-paul-bennewitz-crazy-1979",
+  "title": "Air Force disinformation drives Paul Bennewitz crazy",
+  "summary": "Jesse Michels tells of Air Force disinformation drives Paul Bennewitz crazy, about 1979 at Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1979,
+    "to": 1979
+  },
+  "place": "mexico",
+  "place_text": "Albuquerque, New Mexico",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 5895.0,
+      "to_s": 5905.0,
+      "teller": "jesse-michels",
+      "quote": "but later in 1979, the Air Force drove a man crazy by playing up his belief in aliens. Paul Bennewitz I'm sure you're- are you familiar with him?",
+      "kind": "host",
+      "cites": [
+        "paul-bennewitz",
+        "richard-doty"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 4942.0,
+      "to_s": 4957.0,
+      "teller": "jesse-michels",
+      "quote": "Dodie was an Air Force Counter Intelligence agent basically tasked with performing a psychological operation on an innocent researcher named Paul benowitz who had seen an exotic craft at Kirtland Air Force Base",
+      "kind": "host",
+      "cites": [
+        "richard-doty",
+        "paul-bennewitz",
+        "greg-bishop"
+      ],
+      "documents": [
+        "project-beta"
+      ],
+      "difference": "Names Doty as the counterintelligence agent who ran it, places it at Kirtland AFB after Bennewitz saw a craft there, and credits Project Beta and Greg Bishop.",
+      "link_reason": "Both tell of the Air Force disinformation operation run on Paul Bennewitz around 1979, with Richard Doty involved, in New Mexico.",
+      "as_told": {
+        "title": "Richard Doty's psychological operation against Paul Bennewitz",
+        "years": {
+          "from": 1979,
+          "to": 1989
+        },
+        "place_text": "Kirtland Air Force Base, New Mexico",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "Y7PLeu5rTv4",
+      "from_s": 9676.0,
+      "to_s": 9679.0,
+      "teller": "peter-levenda",
+      "quote": ">> Oh, it has been. We know that Richard Dodie did it.",
+      "kind": "researcher",
+      "cites": [
+        "richard-doty",
+        "paul-bennewitz"
+      ],
+      "documents": [],
+      "difference": "Levenda tells it as researcher, says only 1980s instead of 1979, and stresses that it is known Doty did it.",
+      "link_reason": "Both tell of Richard Doty's disinformation campaign against Paul Bennewitz around Kirtland AFB.",
+      "as_told": {
+        "title": "Richard Doty's disinformation against Paul Bennewitz",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Kirtland AFB, New Mexico",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "peter-levenda"
+    ],
+    "episodes": [
+      "Y7PLeu5rTv4",
+      "fzvwBBSmWYA",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested"
+}

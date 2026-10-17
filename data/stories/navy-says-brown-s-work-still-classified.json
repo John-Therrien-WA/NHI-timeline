@@ -1,0 +1,77 @@
+{
+  "id": "navy-says-brown-s-work-still-classified",
+  "title": "Navy says Brown's work still classified",
+  "summary": "Jesse Michels tells of Navy says Brown's work still classified, about unspecified at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "U.S. Navy",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 3020.0,
+      "to_s": 3027.0,
+      "teller": "jesse-michels",
+      "quote": "When Townsend's daughter, Linda Brown, and his biographer requested the scientist’s records from the Navy, they were at first very uncooperative.",
+      "kind": "host",
+      "cites": [
+        "linda-brown",
+        "paul-schatzkin"
+      ],
+      "documents": [
+        "navy-records"
+      ]
+    },
+    {
+      "episode": "mOWwdIuyaQA",
+      "from_s": 359.0,
+      "to_s": 365.0,
+      "teller": "jesse-michels",
+      "quote": "Brown's work is still likely classified by the Navy to this day.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Given as the host's own belief ('still likely classified'), with no mention of the records request by Linda Brown and the biographer.",
+      "link_reason": "Both claim the Navy still keeps Brown's work classified.",
+      "as_told": {
+        "title": "Brown's work still classified by the Navy",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kRO5jOa06Qw",
+      "mOWwdIuyaQA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

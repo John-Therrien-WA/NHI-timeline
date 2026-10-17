@@ -1,0 +1,107 @@
+{
+  "id": "s4-imagery-covered-up-on-google-earth-project-gravitar-docum-1980",
+  "title": "S4 imagery covered up on Google Earth; Project Gravitar documentary",
+  "summary": "Jesse Michels tells of S4 imagery covered up on Google Earth; Project Gravitar documentary, about 1980s-present at S4, Nevada, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "S4, Nevada",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 1154.0,
+      "to_s": 1160.0,
+      "teller": "jesse-michels",
+      "quote": "then he he has that data, but it's like stuff they tried to cover up on Google Earth.",
+      "kind": "host",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [
+        "project-gravitar"
+      ]
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 12259.0,
+      "to_s": 12267.0,
+      "teller": "uapgerb",
+      "quote": "Luigi painstakingly go tries to show how like foliage is rearranged around S4 sites",
+      "kind": "secondhand",
+      "cites": [
+        "luigi"
+      ],
+      "documents": [
+        "project-gravitar"
+      ],
+      "difference": "Credits Luigi as the researcher, describes foliage being rearranged around S4 sites, and places S4 near Papoose Lake.",
+      "link_reason": "Both are about the Project Gravitar work using satellite imagery to locate S4 and show changes made to the site.",
+      "as_told": {
+        "title": "Luigi's Project Gravitar locates S4",
+        "years": null,
+        "place_text": "S4 near Papoose Lake, Nevada",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 5272.0,
+      "to_s": 5287.0,
+      "teller": "jesse-michels",
+      "quote": "But Luigi used Google Earth's historical imagery to go back in time and found a 2022 version of the area surrounding S4 that was not yet blurred to obscure the site.",
+      "kind": "host",
+      "cites": [
+        "luigi-vendetelli"
+      ],
+      "documents": [
+        "google-earth-historical-imagery"
+      ],
+      "difference": "Names a 2022 historical image, taken before the blurring, that shows vehicle tracks around S4.",
+      "link_reason": "Luigi's Google Earth analysis of S4 imagery that was later covered up. This telling adds the unblurred 2022 historical image.",
+      "as_told": {
+        "title": "Unblurred 2022 Google Earth imagery shows vehicle tracks around S4",
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "place_text": "S4, Papoose Lake, Nevada",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "d9tdJ2SkBKQ",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested"
+}

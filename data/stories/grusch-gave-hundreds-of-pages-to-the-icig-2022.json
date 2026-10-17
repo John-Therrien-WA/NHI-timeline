@@ -1,0 +1,145 @@
+{
+  "id": "grusch-gave-hundreds-of-pages-to-the-icig-2022",
+  "title": "Grusch gave hundreds of pages to the ICIG",
+  "summary": "Jesse Michels tells of Grusch gave hundreds of pages to the ICIG, about 2022 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2022,
+    "to": 2022
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 10444.0,
+      "to_s": 10449.0,
+      "teller": "jesse-michels",
+      "quote": "hundreds of pages that he gave to the ICIG,",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "thomas-monheim"
+      ],
+      "documents": [
+        "grusch-icig-complaint"
+      ]
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 6734.0,
+      "to_s": 6744.0,
+      "teller": "jesse-michels",
+      "quote": "work. He compiled hundreds of pages of documents. He gave it to the in, you know, intelligence community, inspector general. They said it was urgent, and credible.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Adds that the IG found the complaint urgent and credible, and dates it 2022-2023.",
+      "link_reason": "Both describe Grusch handing hundreds of pages to the Intelligence Community Inspector General.",
+      "as_told": {
+        "title": "Grusch's hundreds of pages to the IC Inspector General",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "Intelligence Community Inspector General",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6551.0,
+      "to_s": 6558.0,
+      "teller": "jesse-michels",
+      "quote": "He also gave hundreds of pages to the intelligence community inspector general who called his claims urgent and credible.",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "intelligence-community-inspector-general"
+      ],
+      "documents": [
+        "grusch-congressional-testimony"
+      ],
+      "difference": "Dates it 2022-2023, and the telling is framed as testimony rather than as a document.",
+      "link_reason": "Both say Grusch gave hundreds of pages to the Inspector General for the intelligence community, who called his claims urgent and credible.",
+      "as_told": {
+        "title": "Inspector General finds Grusch's claims urgent and credible",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 5808.0,
+      "to_s": 5819.0,
+      "teller": "jesse-michels",
+      "quote": "he's saying that he has like hundreds of pages of documentation of this legacy UFO crash retrieval program going on, Sub Rosa.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch",
+        "omar"
+      ],
+      "documents": [],
+      "difference": "Told secondhand, crediting Omar, and dated 2023, without saying the pages went to the ICIG.",
+      "link_reason": "Both concern Grusch's hundreds of pages of documentation about the legacy crash retrieval program.",
+      "as_told": {
+        "title": "Grusch's documentation of a legacy UFO crash retrieval program",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "nnsa-reply-to-foia-request-on-starfish-prime-ufo-records-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aaro-s-latin-motto-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "A2-y_HasHEw",
+      "lcaY-rd9Dhc",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

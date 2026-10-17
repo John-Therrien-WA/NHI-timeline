@@ -1,0 +1,145 @@
+{
+  "id": "hal-puthoff-starts-the-government-s-psychic-spy-program-at-s-1970",
+  "title": "Hal Puthoff starts the government's psychic spy program at SRI",
+  "summary": "Jesse Michels tells of Hal Puthoff starts the government's psychic spy program at SRI, about 1970s at Stanford Research Institute, Menlo Park, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "sri-menlo-park-ca",
+  "place_text": "Stanford Research Institute, California",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dzTZbSNsKV8",
+      "from_s": 1272.0,
+      "to_s": 1282.0,
+      "teller": "jesse-michels",
+      "quote": "He was first a laser physicist and then out of Stanford Research Institute. He started the government's psychic spy program.",
+      "kind": "host",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 2096.0,
+      "to_s": 2101.0,
+      "teller": "jesse-michels",
+      "quote": "he he ran the government psychic spy program for the CIA.",
+      "kind": "host",
+      "cites": [
+        "hal-putoff",
+        "joe-rogan"
+      ],
+      "documents": [],
+      "difference": "Says he ran it for the CIA, gives no decade and credits Joe Rogan.",
+      "link_reason": "Both have the host saying Puthoff ran or started the government/CIA psychic spy program out of Stanford Research Institute.",
+      "as_told": {
+        "title": "Hal Puthoff ran the CIA psychic spy program",
+        "years": null,
+        "place_text": "Stanford Research Institute",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 10544.0,
+      "to_s": 10550.0,
+      "teller": "jesse-michels",
+      "quote": "also look at put offs you know he's the founding architect of Stargate all the psychic spy stuff",
+      "kind": "host",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Calls Puthoff the 'founding architect' of Stargate by name and gives no SRI or CIA detail.",
+      "link_reason": "Both say Puthoff founded or started the government's psychic spy program, here named Stargate.",
+      "as_told": {
+        "title": "Puthoff as founding architect of Stargate",
+        "years": {
+          "from": 1970,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 5984.0,
+      "to_s": 5996.0,
+      "teller": "tim-gallaudet",
+      "quote": "First off, Hal Pudof is a good friend and colleague of mine and he he's shared extensively about his experience with that the Stargate program",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff",
+        "paul-smith",
+        "ingo-swann",
+        "joe-mcmoneagle"
+      ],
+      "documents": [],
+      "difference": "Runs the dates to 1995 and adds Paul Smith, Ingo Swann and Joe McMoneagle.",
+      "link_reason": "The Stargate remote-viewing program as a whole, which Puthoff founded, is the same as the story about Puthoff starting the government's psychic spy program.",
+      "as_told": {
+        "title": "Stargate remote viewing program",
+        "years": {
+          "from": 1970,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "cia-telepathy-drawing-tests-at-sri-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "owens-approaches-puthoff-and-targ-at-sri-and-is-rebuffed-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puthoff-s-article-on-the-stargate-and-scanate-remote-viewing-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "tim-gallaudet"
+    ],
+    "episodes": [
+      "8XD1ZiuhXoY",
+      "dzTZbSNsKV8",
+      "nRKNVFQBi38",
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

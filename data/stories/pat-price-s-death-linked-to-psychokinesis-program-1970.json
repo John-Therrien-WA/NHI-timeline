@@ -1,0 +1,66 @@
+{
+  "id": "pat-price-s-death-linked-to-psychokinesis-program-1970",
+  "title": "Pat Price's death linked to psychokinesis program",
+  "summary": "Jason Jorjani tells of Pat Price's death linked to psychokinesis program, about 1970s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 983.0,
+      "to_s": 992.0,
+      "teller": "jason-jorjani",
+      "quote": "think the reason Pat Price wound up dead is that he was recruited into that program and tasked with certain operations and he wound up having serious moral reservations to that.",
+      "kind": "secondhand",
+      "cites": [
+        "pat-price"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "no-physicists-on-the-claimed-crash-retrieval-program-and-the-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puthoff-head-of-stargate-and-leader-on-ufo-propulsion-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

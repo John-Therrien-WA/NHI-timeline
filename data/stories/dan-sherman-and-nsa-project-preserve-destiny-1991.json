@@ -1,0 +1,132 @@
+{
+  "id": "dan-sherman-and-nsa-project-preserve-destiny-1991",
+  "title": "Dan Sherman and NSA Project Preserve Destiny",
+  "summary": "Jesse Michels tells of Dan Sherman and NSA Project Preserve Destiny, about 1991-1992 at NSA complex, Maryland, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1991,
+    "to": 1992
+  },
+  "place": "united-states",
+  "place_text": "NSA complex, Maryland",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 5048.0,
+      "to_s": 5056.0,
+      "teller": "jesse-michels",
+      "quote": "that he was part of this secret NSA program and it was called Project Preserve Destiny",
+      "kind": "host",
+      "cites": [
+        "dan-sherman"
+      ],
+      "documents": [
+        "above-black"
+      ]
+    },
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 5067.0,
+      "to_s": 5076.0,
+      "teller": "jesse-michels",
+      "quote": "There's one guy I interviewed who's his\nname is Dan Sherman and he said he was\ntaken to an NSA complex",
+      "kind": "secondhand",
+      "cites": [
+        "dan-sherman"
+      ],
+      "documents": [
+        "above-black",
+        "project-preserve-destiny"
+      ],
+      "difference": "Adds the tone-training detail and credits the book Above Black.",
+      "link_reason": "Dan Sherman taken to an NSA complex for tone training to communicate with NHI is the Project Preserve Destiny story.",
+      "as_told": {
+        "title": "Dan Sherman's tone training at an NSA complex to communicate with NHI",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "NSA complex, United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 4087.0,
+      "to_s": 4100.0,
+      "teller": "dan-sherman",
+      "quote": "The genesis of it was in 1947, we came in contact with an alien species, and and 1960, they started a a project that was called Project Preserve Destiny,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the program came from contact with an alien species in 1947 and began in 1960; Sherman tells it firsthand rather than through the host.",
+      "link_reason": "Both are about Project Preserve Destiny as described by Dan Sherman; this telling gives the program's origin story.",
+      "as_told": {
+        "title": "Project Preserve Destiny born from 1947 alien contact",
+        "years": {
+          "from": 1947,
+          "to": 1960
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 4645.0,
+      "to_s": 4652.0,
+      "teller": "jesse-michels",
+      "quote": "genetically he was genetically altered as a fetus in the womb. His mother was abducted when she was pregnant with him",
+      "kind": "secondhand",
+      "cites": [
+        "dan-sherman"
+      ],
+      "documents": [
+        "above-black"
+      ],
+      "difference": "Adds that Sherman was genetically altered as a fetus after his mother was abducted while pregnant, gives a 1960s-1990s span and cites Above Black.",
+      "link_reason": "Both are about Dan Sherman's account of the NSA's Project Preserve Destiny.",
+      "as_told": {
+        "title": "Dan Sherman and Project Preserve Destiny",
+        "years": {
+          "from": 1960,
+          "to": 1999
+        },
+        "place_text": "Maryland NSA complex; United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "dan-sherman"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "hBrfe4hFuM0",
+      "jMCavr3dVP0",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

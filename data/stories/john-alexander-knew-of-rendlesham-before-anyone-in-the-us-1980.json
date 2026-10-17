@@ -1,0 +1,80 @@
+{
+  "id": "john-alexander-knew-of-rendlesham-before-anyone-in-the-us-1980",
+  "title": "John Alexander knew of Rendlesham before anyone in the US",
+  "summary": "Jesse Michels tells of John Alexander knew of Rendlesham before anyone in the US, about 1980 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1980
+  },
+  "place": "united-states",
+  "place_text": "RAF Woodbridge, England / United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 7247.0,
+      "to_s": 7252.0,
+      "teller": "jesse-michels",
+      "quote": "that relates to Alexander is I think John Alexander gave the readout and",
+      "kind": "secondhand",
+      "cites": [
+        "john-alexander",
+        "unnamed-well-connected-friend"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "1sxmSMzqnmA",
+      "from_s": 5773.0,
+      "to_s": 5781.0,
+      "teller": "jesse-michels",
+      "quote": "Yeah. And I believe Colonel John Alexander knew about Rendlessham before just about anybody else in the United States.",
+      "kind": "host",
+      "cites": [
+        "john-alexander"
+      ],
+      "documents": [],
+      "difference": "Calls Alexander a Colonel and gives no friend as the source.",
+      "link_reason": "The host's same claim that John Alexander knew of Rendlesham before almost anyone in the US.",
+      "as_told": {
+        "title": "John Alexander's early knowledge of Rendlesham",
+        "years": {
+          "from": 1980,
+          "to": 1980
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1sxmSMzqnmA",
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

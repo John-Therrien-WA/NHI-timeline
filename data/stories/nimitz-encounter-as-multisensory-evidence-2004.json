@@ -1,0 +1,117 @@
+{
+  "id": "nimitz-encounter-as-multisensory-evidence-2004",
+  "title": "Nimitz encounter as multisensory evidence",
+  "summary": "Jesse Michels tells of Nimitz encounter as multisensory evidence, about 2004 at Off San Diego (Nimitz, 2004), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "pacific-nimitz",
+  "place_text": "Off California (Nimitz carrier strike group)",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 8741.0,
+      "to_s": 8746.0,
+      "teller": "jesse-michels",
+      "quote": "multisensory you have 11 or 12 Witnesses you have three days",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "flir-video"
+      ]
+    },
+    {
+      "episode": "jMCavr3dVP0",
+      "from_s": 3100.0,
+      "to_s": 3117.0,
+      "teller": "jesse-michels",
+      "quote": "So, in in 2004,\nyou have, you know, Nimmits off the\ncoast of San Diego, you have soul\ncarrier strike group, uh, you have\nradar, you have, you know, eyewitness\nobservation, and then you have thermal\nimaging that's been released, this\nforward-looking infrared",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Lists radar, eyewitness observation and the released FLIR footage, where the story gives the number of witnesses and days.",
+      "link_reason": "Both describe the 2004 Nimitz encounter off San Diego as multisensory evidence: radar, eyewitnesses and FLIR.",
+      "as_told": {
+        "title": "Nimitz 2004 Tic Tac encounter",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "off the coast of San Diego",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 4121.0,
+      "to_s": 4126.0,
+      "teller": "jesse-michels",
+      "quote": "then you have the Nimtt's case where it's similar profile with David Fraver and you have Fleer alongside it.",
+      "kind": "host",
+      "cites": [
+        "david-fravor"
+      ],
+      "documents": [],
+      "difference": "Names Fravor and compares it to the JAL case's profile.",
+      "link_reason": "Both present the 2004 Nimitz case as having multiple kinds of evidence: Fravor as eyewitness, plus FLIR.",
+      "as_told": {
+        "title": "Nimitz encounter with FLIR",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Off Southern California",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "controller-reports-objects-descending-from-above-80-000-feet-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fravor-s-2004-nimitz-sighting-of-an-object-that-seemed-consc",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tic-tac-encounter-as-testimony-from-reliable-witnesses",
+      "relation": "variant",
+      "note": "Both concern what kind of evidence the Nimitz Tic Tac encounter gives. Madden treats it as testimony from reliable witnesses, while the story calls it multisensory evidence."
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "bVhSPH2A5Vw",
+      "jMCavr3dVP0",
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

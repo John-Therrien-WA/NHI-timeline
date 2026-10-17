@@ -1,0 +1,166 @@
+{
+  "id": "1952-washington-d-c-sightings",
+  "title": "1952 Washington, D.C. sightings",
+  "summary": "Jesse Michels tells of 1952 Washington, D.C. sightings, about 1952 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "_bM9eAtCOGw",
+      "from_s": 311.0,
+      "to_s": 317.0,
+      "teller": "jesse-michels",
+      "quote": "There were an overwhelming series of sightings in Washington, D.C. in July of 1952.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1f16VvXaSSE",
+      "from_s": 856.0,
+      "to_s": 880.0,
+      "teller": "jesse-michels",
+      "quote": "one of the last living Witnesses of the famous DC flyover a slew of UFO sightings in July of 1952 in the capital prompting headlines like this newspaper article and a call between Truman and then American Chief UFO investigator Edward J Rupel it also sent the CIA into a frenzy about how to manage the UFO problem",
+      "kind": "host",
+      "cites": [
+        "harry-truman",
+        "edward-ruppelt"
+      ],
+      "documents": [
+        "1952-newspaper-article"
+      ],
+      "difference": "This telling adds that newspapers ran headlines on it, that Truman called Ruppelt about it and that it sent the CIA into a frenzy over how to handle the UFO problem.",
+      "link_reason": "The telling and the story are about the same July 1952 run of UFO sightings over Washington, D.C., and both come from Jesse Michels as host. The Maurice Hill story is narrower, since it covers one witness's account.",
+      "as_told": {
+        "title": "1952 DC flyover prompts Truman–Ruppelt call and CIA frenzy",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington DC",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "aa9Xx5wI8Rw",
+      "from_s": 571.0,
+      "to_s": 584.0,
+      "teller": "karl-nell",
+      "quote": "1952 the radar visual sightings over Washington DC for two weekends including air-to-air intercepts that precipitated the largest press conference since World War II up to that time",
+      "kind": "official",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that it lasted two weekends, included air-to-air intercepts and led to the largest press conference since WWII.",
+      "link_reason": "Both are about the series of radar and visual sightings over Washington DC in July 1952.",
+      "as_told": {
+        "title": "1952 Washington DC radar-visual sightings",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington DC, USA",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 999.0,
+      "to_s": 1012.0,
+      "teller": "jesse-michels",
+      "quote": "this was a very famous incident where saucers were seen everywhere in and around Washington DC causing headlines like saucers on the White House lawn",
+      "kind": "host",
+      "cites": [
+        "edward-ruppelt",
+        "president-truman"
+      ],
+      "documents": [],
+      "difference": "Quotes the 'saucers on the White House lawn' headline.",
+      "link_reason": "Both tell of the July 1952 wave of saucer sightings over Washington DC that made headlines and involved Ruppelt and Truman.",
+      "as_told": {
+        "title": "Washington DC flyover",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington DC",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 6044.0,
+      "to_s": 6050.0,
+      "teller": "jesse-michels",
+      "quote": "People seeing things. You know, I actually recently met a a witness from 1952",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Stresses that he recently met a witness in person.",
+      "link_reason": "Both are Jesse Michels telling the July 1952 Washington DC sightings, and the story already includes his mention of meeting one of the last living witnesses.",
+      "as_told": {
+        "title": "1952 Washington DC flyover and a living witness",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "fighter-jet-scrambled-and-possibly-fired-on-the-1952-dc-ligh",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "maurice-hill-witnessed-the-1952-washington-dc-ufo-flyover",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "1952-washington-dc-flyover",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.3,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "jesse-michels",
+      "karl-nell"
+    ],
+    "episodes": [
+      "1f16VvXaSSE",
+      "2-GeTxXi670",
+      "_bM9eAtCOGw",
+      "aa9Xx5wI8Rw",
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 1.15,
+  "tier": "well-attested"
+}

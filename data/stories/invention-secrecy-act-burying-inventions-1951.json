@@ -1,0 +1,55 @@
+{
+  "id": "invention-secrecy-act-burying-inventions-1951",
+  "title": "Invention Secrecy Act burying inventions",
+  "summary": "Jesse Michels tells of Invention Secrecy Act burying inventions, about 1951 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1951,
+    "to": 1951
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 3402.0,
+      "to_s": 3408.0,
+      "teller": "jesse-michels",
+      "quote": "And let's not forget about the Invention Secrecy Act of 1951.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "invention-secrecy-act-of-1951"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "OOr98r51Sj0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

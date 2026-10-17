@@ -1,0 +1,72 @@
+{
+  "id": "buzz-aldrin-tells-conan-o-brien-the-landing-footage-was-anim-1969",
+  "title": "Buzz Aldrin tells Conan O'Brien the landing footage was animation",
+  "summary": "guest tells of Buzz Aldrin tells Conan O'Brien the landing footage was animation, about 1969 at The Moon, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "moon",
+  "place_text": "Moon",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 7209.0,
+      "to_s": 7215.0,
+      "teller": "guest",
+      "quote": "there is this particular\nexchange between Buzz Aldrin and Conan\nO'Brien.",
+      "kind": "secondhand",
+      "cites": [
+        "buzz-aldrin",
+        "conan-o-brien"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "apollo-astronauts-given-suicide-pills-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "buzz-aldrin-ordered-to-leave-armstrong-behind-on-the-moon-if-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "michael-collins-said-no-stars-visible-contradicted-in-his-bo-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "guest"
+    ],
+    "episodes": [
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

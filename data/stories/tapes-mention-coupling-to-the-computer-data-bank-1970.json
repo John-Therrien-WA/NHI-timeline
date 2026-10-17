@@ -1,0 +1,55 @@
+{
+  "id": "tapes-mention-coupling-to-the-computer-data-bank-1970",
+  "title": "Tapes mention coupling to the computer data bank",
+  "summary": "Unnamed guest tells of Tapes mention coupling to the computer data bank, about 1970s at an unknown place, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 10991.0,
+      "to_s": 10997.0,
+      "teller": "unnamed-guest",
+      "quote": "cuz on a lot of the tapes there's mention of um coupling to the computer data bank",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "puharich-session-tapes"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

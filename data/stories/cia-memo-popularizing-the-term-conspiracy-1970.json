@@ -1,0 +1,78 @@
+{
+  "id": "cia-memo-popularizing-the-term-conspiracy-1970",
+  "title": "CIA memo popularizing the term 'conspiracy'",
+  "summary": "Jesse Michels tells of CIA memo popularizing the term 'conspiracy', about 1970s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "United States (CIA)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 10902.0,
+      "to_s": 10909.0,
+      "teller": "jesse-michels",
+      "quote": "There's a CIA memo from the 70s saying we're going to popularize the term conspiracy to to have people look away.",
+      "kind": "host",
+      "cites": [
+        "cia"
+      ],
+      "documents": [
+        "cia-memo-from-the-70s"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "ingo-swann-s-reports-to-scientology-on-the-oni-remote-viewin-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mark-felt-s-biography-nixon-shown-covert-technology-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pat-price-remote-views-a-file-inside-a-cia-facility-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roddenberry-s-script-the-nine-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

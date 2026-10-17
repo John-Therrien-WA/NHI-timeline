@@ -1,0 +1,82 @@
+{
+  "id": "wall-street-journal-op-ed-and-david-spergel-s-dismissal-2023",
+  "title": "Wall Street Journal op-ed and David Spergel's dismissal",
+  "summary": "Jesse Michels tells of Wall Street Journal op-ed and David Spergel's dismissal, about 2023-2025 at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2025
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "V00WcEiKRAY",
+      "from_s": 2513.0,
+      "to_s": 2519.0,
+      "teller": "jesse-michels",
+      "quote": "A friend of mine was planning an op-ed with a former cabinet member in the US.",
+      "kind": "firsthand",
+      "cites": [
+        "david-spergel"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 6126.0,
+      "to_s": 6136.0,
+      "teller": "jesse-michels",
+      "quote": "I also went to the Wall Street Journal and I advocated for uh an article to be published",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "wall-street-journal"
+      ],
+      "difference": "Names the co-author as a former Secretary of Defense and stresses that the WSJ rejected it, without mentioning Spergel.",
+      "link_reason": "Both tell of Jesse pushing for a Wall Street Journal op-ed co-written with a former cabinet member that the paper did not run.",
+      "as_told": {
+        "title": "WSJ rejects op-ed co-written by a former Secretary of Defense",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "private-sector-companies-with-wet-works-arms-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "V00WcEiKRAY",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

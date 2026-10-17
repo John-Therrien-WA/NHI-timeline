@@ -1,0 +1,56 @@
+{
+  "id": "staff-found-the-kalmykian-president-missing-from-his-room-1990",
+  "title": "Staff found the Kalmykian president missing from his room",
+  "summary": "Jesse Michels tells of Staff found the Kalmykian president missing from his room, about 1990s at Kalmykia, Russia, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Kalmykia, Russia",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 9490.0,
+      "to_s": 9498.0,
+      "teller": "jesse-michels",
+      "quote": ">> This is what's crazy. I have his staff on record being like, \"We went into his room, his clothes were missing, and we couldn't find him anywhere.",
+      "kind": "secondhand",
+      "cites": [
+        "president-of-kalmykia-s-staff",
+        "gary-kasparov"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

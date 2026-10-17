@@ -1,0 +1,64 @@
+{
+  "id": "mary-s-mosaic-mary-pinchot-meyer-and-jfk-1960",
+  "title": "Mary's Mosaic: Mary Pinchot Meyer and JFK",
+  "summary": "Jesse Michels tells of Mary's Mosaic: Mary Pinchot Meyer and JFK, about 1960s at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 2606.0,
+      "to_s": 2610.0,
+      "teller": "jesse-michels",
+      "quote": "And there's a there's this book um I think called Mary's Mosaic.",
+      "kind": "host",
+      "cites": [
+        "mary-pinchot-meyer",
+        "cord-meyer"
+      ],
+      "documents": [
+        "mary-s-mosaic"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "1960s-patent-for-nuclear-powered-tunneling-device-and-underg",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

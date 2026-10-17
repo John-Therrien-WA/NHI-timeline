@@ -1,0 +1,70 @@
+{
+  "id": "three-fingered-mummies-in-peru",
+  "title": "Three-fingered mummies in Peru",
+  "summary": "Joe Rogan tells of Three-fingered mummies in Peru, about present at Peru, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Peru",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 59.0,
+      "to_s": 62.0,
+      "teller": "joe-rogan",
+      "quote": "And now we have three-fingered mummies in Peru.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 6855.0,
+      "to_s": 6862.0,
+      "teller": "jesse-michels",
+      "quote": "You recreate it. And you know, I've seen beings in Peru that are skeletons with three fingers,",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Jesse Michels says he has seen the beings himself and dates them to 800-1,700 years ago.",
+      "link_reason": "Both tell the place-lore of three-fingered skeletons or mummies in Peru.",
+      "as_told": {
+        "title": "Three-fingered skeletons in Peru",
+        "years": null,
+        "place_text": "Peru",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw",
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

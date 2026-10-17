@@ -1,0 +1,57 @@
+{
+  "id": "hemi-sync-paper-from-the-mid-1980s-1983",
+  "title": "Hemi-Sync paper from the mid-1980s",
+  "summary": "Jesse Michels tells of Hemi-Sync paper from the mid-1980s, about mid-1980s at Monroe Institute, Virginia, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1983,
+    "to": 1986
+  },
+  "place": null,
+  "place_text": "Monroe Institute, Virginia",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 7850.0,
+      "to_s": 7855.0,
+      "teller": "jesse-michels",
+      "quote": "A lot of people now cite this Hemisync paper from the mid1 1980s",
+      "kind": "host",
+      "cites": [
+        "robert-monroe"
+      ],
+      "documents": [
+        "hemi-sync-paper"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

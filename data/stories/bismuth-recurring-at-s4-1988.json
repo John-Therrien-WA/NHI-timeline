@@ -1,0 +1,76 @@
+{
+  "id": "bismuth-recurring-at-s4-1988",
+  "title": "Bismuth recurring at S4",
+  "summary": "Jesse Michels tells of Bismuth recurring at S4, about 1988-1989 at S4, Nevada, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1988,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "S4, Nevada",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 10733.0,
+      "to_s": 10737.0,
+      "teller": "jesse-michels",
+      "quote": "There's a reason why Bob Lazar kept hearing about it at S4. [music]",
+      "kind": "host",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "yGtVzBbUvx4",
+      "from_s": 11138.0,
+      "to_s": 11145.0,
+      "teller": "jesse-michels",
+      "quote": "take one like bismouth I think which I think comes up a lot in sort of UFO lore",
+      "kind": "host",
+      "cites": [
+        "lazar"
+      ],
+      "documents": [],
+      "difference": "Speaks of UFO lore in general and does not name S4.",
+      "link_reason": "Both tell of bismuth recurring in UFO lore through Bob Lazar and S4.",
+      "as_told": {
+        "title": "Bismuth and UFO lore (Lazar)",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "d9tdJ2SkBKQ",
+      "yGtVzBbUvx4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

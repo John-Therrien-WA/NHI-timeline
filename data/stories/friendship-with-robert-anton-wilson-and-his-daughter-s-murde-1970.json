@@ -1,0 +1,80 @@
+{
+  "id": "friendship-with-robert-anton-wilson-and-his-daughter-s-murde-1970",
+  "title": "Friendship with Robert Anton Wilson and his daughter's murder",
+  "summary": "Jeffrey Mishlove tells of Friendship with Robert Anton Wilson and his daughter's murder, about 1970s at Berkeley, California, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "berkeley-ca",
+  "place_text": "Berkeley, California",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 6283.0,
+      "to_s": 6294.0,
+      "teller": "jeffrey-mishlove",
+      "quote": "his daughter, his beautiful 15-year-old daughter was tragically murdered in in Berkeley.",
+      "kind": "firsthand",
+      "cites": [
+        "robert-anton-wilson",
+        "gabriel-kennedy",
+        "timothy-leary"
+      ],
+      "documents": [
+        "reality-is-what-you-can-get-away-with"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "berkeley-parapsychology-professor-quits-mishlove-s-committee-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "hosting-the-mind-s-ear-on-kpfa-radio-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "living-at-arthur-young-s-institute-for-the-study-of-consciou-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "robert-monroe-invites-mishlove-to-join-his-program-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jeffrey-mishlove"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

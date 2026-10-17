@@ -1,0 +1,58 @@
+{
+  "id": "us-and-china-crash-retrieval-and-back-engineering-race",
+  "title": "US and China crash retrieval and back-engineering race",
+  "summary": "Joe Rogan tells of US and China crash retrieval and back-engineering race, about present at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States; China",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 1437.0,
+      "to_s": 1450.0,
+      "teller": "joe-rogan",
+      "quote": "He firmly believes that both the United States and China has retrieved these crashed vehicles and that they are also in this back engineering program.",
+      "kind": "secondhand",
+      "cites": [
+        "dan-farah",
+        "marco-rubio",
+        "james-woolsey",
+        "james-clapper",
+        "john-brennan"
+      ],
+      "documents": [
+        "the-age-of-disclosure"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "joe-rogan"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

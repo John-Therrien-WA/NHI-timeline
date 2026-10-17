@@ -1,0 +1,79 @@
+{
+  "id": "jfk-knew-about-ufos-before-becoming-president-1961",
+  "title": "JFK knew about UFOs before becoming president",
+  "summary": "Harold Malmgren tells of JFK knew about UFOs before becoming president, about before 1961 at United States (no place named), and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1961
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 160.0,
+      "to_s": 170.0,
+      "teller": "harold-malmgren",
+      "quote": "JFK fully knew all about UFOs long before he became president.",
+      "kind": "official",
+      "cites": [
+        "john-f-kennedy"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 8357.0,
+      "to_s": 8363.0,
+      "teller": "harold-malmgren",
+      "quote": "I think JFK fully knew all about UFOs long before he became president.",
+      "kind": "researcher",
+      "cites": [
+        "james-forrestal",
+        "john-f-kennedy"
+      ],
+      "documents": [],
+      "difference": "Names Forrestal and naval intelligence in the 1940s as where JFK learned about UFOs.",
+      "link_reason": "Same claim, nearly word for word, that JFK knew all about UFOs long before he became president.",
+      "as_told": {
+        "title": "JFK briefed on UFOs by Forrestal",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "United States (naval intelligence)",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "harold-malmgren"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once"
+}

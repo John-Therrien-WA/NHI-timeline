@@ -1,0 +1,142 @@
+{
+  "id": "the-moon-rang-like-a-bell-during-the-apollo-seismometer-expe-1969",
+  "title": "The moon rang like a bell during the Apollo seismometer experiments",
+  "summary": "Jesse Michels tells of The moon rang like a bell during the Apollo seismometer experiments, about 1969 at The Moon, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "moon",
+  "place_text": "Moon (Apollo 10, Apollo 11)",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 668.0,
+      "to_s": 678.0,
+      "teller": "jesse-michels",
+      "quote": "So Apollo 10, right, uh it took off from the moon and it rang like a bell and NASA became very confused.",
+      "kind": "host",
+      "cites": [
+        "nasa"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 296.0,
+      "to_s": 307.0,
+      "teller": "randall-carlson",
+      "quote": "I think for three or four years NASA was able to gather data and yes it shows that the moon has a long uh vibrational train",
+      "kind": "researcher",
+      "cites": [
+        "nasa"
+      ],
+      "documents": [],
+      "difference": "Carlson says NASA gathered three or four years of data and calls it a long vibrational train. He does not name Apollo 10 or mention NASA being confused.",
+      "link_reason": "Same subject as telling 4: Apollo-era seismometer data showing the moon vibrating for a long time after impacts.",
+      "as_told": {
+        "title": "Apollo seismometers recorded a long vibration train on the moon",
+        "years": {
+          "from": 1969,
+          "to": 1979
+        },
+        "place_text": "Moon",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 4550.0,
+      "to_s": 4560.0,
+      "teller": "jason-jorjani",
+      "quote": "it rang like a bell. And so then they repeated this test deliberately a second time. I think it was an Apollo 13.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Says the test was then repeated deliberately, naming Apollo 13 where the story names Apollo 10.",
+      "link_reason": "Both tell of Apollo impacts making the Moon ring like a bell in the seismometer experiments.",
+      "as_told": {
+        "title": "Apollo impacts make the moon ring like a bell",
+        "years": {
+          "from": 1969,
+          "to": 1979
+        },
+        "place_text": "Moon",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 6514.0,
+      "to_s": 6519.0,
+      "teller": "jesse-michels",
+      "quote": "where it rang like a bell and they put\nseismometers and they intentionally\ncrashed the booster into it",
+      "kind": "host",
+      "cites": [
+        "gordon-macdonald"
+      ],
+      "documents": [],
+      "difference": "Credits Gordon MacDonald and says the booster was crashed into the Moon on purpose.",
+      "link_reason": "Same claim that the Moon rang like a bell during the Apollo seismometer experiments in 1969.",
+      "as_told": {
+        "title": "The Moon rang like a bell in the Apollo seismic tests",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "Moon",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "apollo-intersecting-shadows-suggest-multiple-light-sources-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aldrin-s-communion-as-masonic-ritual-on-the-moon-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-lunar-photo-lights-and-buzz-aldrin-s-cabin-flashes-pu-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani",
+      "jesse-michels",
+      "randall-carlson"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc",
+      "JGE1NIGhBzw",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

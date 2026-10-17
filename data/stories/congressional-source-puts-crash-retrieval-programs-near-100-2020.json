@@ -1,0 +1,61 @@
+{
+  "id": "congressional-source-puts-crash-retrieval-programs-near-100-2020",
+  "title": "Congressional source puts crash-retrieval programs near 100% likely",
+  "summary": "Merrick von Renenamp tells of Congressional source puts crash-retrieval programs near 100% likely, about 2020s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2029
+  },
+  "place": "united-states",
+  "place_text": "United States Congress",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 1252.0,
+      "to_s": 1265.0,
+      "teller": "merrick-von-renenamp",
+      "quote": "this. I talked to a a congressional source told me um I asked point blank, what's your confidence level in in the existence of such programs? The answer was hovering around 100%.",
+      "kind": "secondhand",
+      "cites": [
+        "unnamed-congressional-source"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "grusch-s-terms-came-from-crash-retrieval-program-briefings-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "merrick-von-renenamp"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "echo-flight-incident-and-the-boeing-sac-report-1967",
+  "title": "Echo Flight incident and the Boeing/SAC report",
+  "summary": "Jesse Michels tells of Echo Flight incident and the Boeing/SAC report, about 1967 at Malmstrom Air Force Base, Montana, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": null,
+  "place_text": "Malmstrom Air Force Base, Montana",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 2422.0,
+      "to_s": 2436.0,
+      "teller": "jesse-michels",
+      "quote": "The reason I think that it was actually UFO related is there was a Boeing uh uh strategic air command report where they actually looked and they tried to recreate the effect and this is on the Echolight incident.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "strategic-air-command-boeing-echo-flight-report"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

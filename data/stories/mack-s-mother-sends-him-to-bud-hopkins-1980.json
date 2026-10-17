@@ -1,0 +1,56 @@
+{
+  "id": "mack-s-mother-sends-him-to-bud-hopkins-1980",
+  "title": "Mack's mother sends him to Bud Hopkins",
+  "summary": "Dan Sheehan tells of Mack's mother sends him to Bud Hopkins, about 1980s-1990s at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 9117.0,
+      "to_s": 9121.0,
+      "teller": "daniel-sheehan",
+      "quote": "And so that's how it happened is he ended up talking to Bud Hopkins",
+      "kind": "secondhand",
+      "cites": [
+        "john-mack",
+        "budd-hopkins"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

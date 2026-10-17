@@ -1,0 +1,58 @@
+{
+  "id": "harry-reid-s-request-for-sap-status-denied-by-william-lynn-2009",
+  "title": "Harry Reid's request for SAP status denied by William Lynn",
+  "summary": "Eric Davis tells of Harry Reid's request for SAP status denied by William Lynn, about AAWSAP era (c. 2009) at The Pentagon, Arlington, Virginia, and says they saw it or took part. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2009,
+    "to": 2009
+  },
+  "place": "pentagon",
+  "place_text": "Pentagon",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "LnAiNChnuEQ",
+      "from_s": 1164.0,
+      "to_s": 1173.0,
+      "teller": "eric-davis",
+      "quote": "Harry Reid was trying to get deputy secretary defense William Lynn to give us an sap and William Lyn denied his request",
+      "kind": "firsthand",
+      "cites": [
+        "harry-reid",
+        "william-lynn"
+      ],
+      "documents": [
+        "harry-reid-letter-to-william-lynn"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "eric-davis"
+    ],
+    "episodes": [
+      "LnAiNChnuEQ"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

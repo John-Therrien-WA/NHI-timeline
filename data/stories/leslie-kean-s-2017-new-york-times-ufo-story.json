@@ -1,0 +1,138 @@
+{
+  "id": "leslie-kean-s-2017-new-york-times-ufo-story",
+  "title": "Leslie Kean's 2017 New York Times UFO story",
+  "summary": "James Fox tells of Leslie Kean's 2017 New York Times UFO story, about 2017 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2017,
+    "to": 2017
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bVhSPH2A5Vw",
+      "from_s": 11388.0,
+      "to_s": 11394.0,
+      "teller": "james-fox",
+      "quote": "it was her biggest\nstory in 2017 right wasn't the most\npopular stories they've ever published",
+      "kind": "host",
+      "cites": [
+        "leslie-kean"
+      ],
+      "documents": [
+        "2017-new-york-times-ufo-article"
+      ]
+    },
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 418.0,
+      "to_s": 433.0,
+      "teller": "mick-west",
+      "quote": "almost coincided with the uh 2017 December 2017 release of a New York Times article which came with these other videos, gimbal uh and the Fleer 1 video and Go Fast was released a little later.",
+      "kind": "researcher",
+      "cites": [
+        "leslie-kean",
+        "ralph-blumenthal"
+      ],
+      "documents": [
+        "new-york-times-article-december-2017"
+      ],
+      "difference": "Credits Ralph Blumenthal as co-author and names the Gimbal and FLIR1 videos as coming with the article, with GoFast released a little later.",
+      "link_reason": "Both tell of the December 2017 New York Times UFO article by Leslie Kean that ran with the Navy videos.",
+      "as_told": {
+        "title": "New York Times December 2017 article releasing the Navy videos",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "9QMrhcpJq8I",
+      "from_s": 309.0,
+      "to_s": 323.0,
+      "teller": "matthew-pines",
+      "quote": "right from since 2017 where it was completely somewhat fringe and kind of this um this outgroup culture and then had gone through this period of you know gradual um semi-official legitimization, right? So, starting with the New York Times articles",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "new-york-times-articles"
+      ],
+      "difference": "Presents the articles as the start of a gradual semi-official legitimization and names no authors.",
+      "link_reason": "Same 2017 New York Times UFO articles.",
+      "as_told": {
+        "title": "2017 New York Times articles begin the semi-official legitimization of UAPs",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 4921.0,
+      "to_s": 4934.0,
+      "teller": "jesse-michels",
+      "quote": "he helped get that New York Times article published in 2017 uh through Leslie Kaine and he was, you know, in charge of OAP.",
+      "kind": "host",
+      "cites": [
+        "luis-elizondo",
+        "leslie-kean"
+      ],
+      "documents": [
+        "new-york-times-article-2017"
+      ],
+      "difference": "Credits Elizondo, then head of AATIP, with helping get the article published through Kean.",
+      "link_reason": "Both are about Leslie Kean's 2017 New York Times UFO article; this telling stresses Elizondo's part in getting it published.",
+      "as_told": {
+        "title": "Elizondo helps get the 2017 New York Times article published",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.4,
+  "profile": {
+    "independent_tellers": 4,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 2,
+    "documents": 0,
+    "credited_documents": 4,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "james-fox",
+      "jesse-michels",
+      "matthew-pines",
+      "mick-west"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk",
+      "9QMrhcpJq8I",
+      "A2-y_HasHEw",
+      "bVhSPH2A5Vw"
+    ]
+  },
+  "attestation": 1.7,
+  "tier": "well-attested"
+}

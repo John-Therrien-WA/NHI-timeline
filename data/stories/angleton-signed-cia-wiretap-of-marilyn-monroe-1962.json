@@ -1,0 +1,65 @@
+{
+  "id": "angleton-signed-cia-wiretap-of-marilyn-monroe-1962",
+  "title": "Angleton-signed CIA wiretap of Marilyn Monroe, 1962",
+  "summary": "Steven Greer tells of Angleton-signed CIA wiretap of Marilyn Monroe, 1962, about 1962 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 5784.0,
+      "to_s": 5794.0,
+      "teller": "steven-greer",
+      "quote": "That's a basic, it's in the do briefing document. It's a wiretap of Marilyn Monroe in ' 62, a couple days before they killed her, threatening to hold a press conference.",
+      "kind": "researcher",
+      "cites": [
+        "james-angleton",
+        "marilyn-monroe"
+      ],
+      "documents": [
+        "cia-wiretap-document-on-marilyn-monroe",
+        "greer-briefing-document"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "bluegill-video-sanitized-with-superimposed-triangle-1962",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "steven-greer"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

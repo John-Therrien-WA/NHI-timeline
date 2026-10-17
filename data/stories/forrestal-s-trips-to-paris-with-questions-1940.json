@@ -1,0 +1,55 @@
+{
+  "id": "forrestal-s-trips-to-paris-with-questions-1940",
+  "title": "Forrestal's trips to Paris with questions",
+  "summary": "Harold Malmgren tells of Forrestal's trips to Paris with questions, about 1940s at Paris, France, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Paris, France",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "09KP8XVf5nY",
+      "from_s": 8435.0,
+      "to_s": 8447.0,
+      "teller": "harold-malmgren",
+      "quote": "I found several references to Portol for him going to Paris with questions and getting answers.",
+      "kind": "researcher",
+      "cites": [
+        "james-forrestal"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "harold-malmgren"
+    ],
+    "episodes": [
+      "09KP8XVf5nY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

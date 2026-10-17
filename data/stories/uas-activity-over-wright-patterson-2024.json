@@ -1,0 +1,55 @@
+{
+  "id": "uas-activity-over-wright-patterson-2024",
+  "title": "UAS activity over Wright-Patterson",
+  "summary": "Jesse Michels tells of UAS activity over Wright-Patterson, about 2024 at Wright-Patterson Air Force Base, Ohio, and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2024,
+    "to": 2024
+  },
+  "place": null,
+  "place_text": "Wright-Patterson Air Force Base, Ohio",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 3851.0,
+      "to_s": 3859.0,
+      "teller": "jesse-michels",
+      "quote": "Med flight at patteron Tower use Extreme Caution for heavy uas uh movement on the base",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "wright-patterson-tower-audio"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

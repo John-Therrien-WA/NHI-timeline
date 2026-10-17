@@ -1,0 +1,79 @@
+{
+  "id": "townsend-brown-s-anti-gravity-success-in-paris-sarbacher-pic-1950",
+  "title": "Townsend Brown's anti-gravity success in Paris; Sarbacher picks him up",
+  "summary": "Jesse Michels tells of Townsend Brown's anti-gravity success in Paris; Sarbacher picks him up, about 1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "Paris; United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABOP8ZJsyIk",
+      "from_s": 1050.0,
+      "to_s": 1065.0,
+      "teller": "jesse-michels",
+      "quote": "uh Towns and Brown finally achieved a positive result with his anti-gravity experiments, this was in uh Paris, he flies back to the US and um Robert Sarbacher picks him up in his in his uh big Cadillac.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "robert-sarbacher",
+        "linda-brown",
+        "paul-schatzkin"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "babson-s-gravity-research-foundation-in-new-boston-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brown-s-saucer-shaped-gravitator-and-founding-of-nicap-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "eisenhower-era-peads-used-to-create-waived-saps-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "malmgren-tracked-by-majestic-12-guardians-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ABOP8ZJsyIk"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

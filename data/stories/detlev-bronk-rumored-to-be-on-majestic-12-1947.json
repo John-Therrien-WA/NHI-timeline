@@ -1,0 +1,61 @@
+{
+  "id": "detlev-bronk-rumored-to-be-on-majestic-12-1947",
+  "title": "Detlev Bronk rumored to be on Majestic 12",
+  "summary": "Jesse Michels tells of Detlev Bronk rumored to be on Majestic 12, about late 1940s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 5382.0,
+      "to_s": 5393.0,
+      "teller": "jesse-michels",
+      "quote": "Detlev Bronk was the president of the Rockefeller Foundation. He was rumored to be the Yeah, president. He was rumored to be on the Majestic 12, rumored to do all the early alien autopsies",
+      "kind": "host",
+      "cites": [
+        "detlev-bronk"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "forrestal-on-majestic-12-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

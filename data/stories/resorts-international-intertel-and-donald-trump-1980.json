@@ -1,0 +1,79 @@
+{
+  "id": "resorts-international-intertel-and-donald-trump-1980",
+  "title": "Resorts International, Intertel and Donald Trump",
+  "summary": "Jason Simosa tells of Resorts International, Intertel and Donald Trump, about 1980s at Bahamas, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "Bahamas",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 61.0,
+      "to_s": 73.0,
+      "teller": "jason-simosa",
+      "quote": ">> There's this paint company called the Merry Carter Paint Company which is then converted into this organization called Resorts International. It suddenly has a subsidiary which has a private intelligence network called Intertel",
+      "kind": "researcher",
+      "cites": [
+        "donald-trump"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 6152.0,
+      "to_s": 6158.0,
+      "teller": "jason",
+      "quote": "Which then gets rebranded into what's called International Intelligence Incorporated. Intertel.",
+      "kind": "researcher",
+      "cites": [
+        "meyer-lansky"
+      ],
+      "documents": [],
+      "difference": "Credits Meyer Lansky, places it on Paradise Island in the 1960s-1970s, and does not mention Trump.",
+      "link_reason": "Both tell how the Mary Carter Paint Company became Resorts International, with Intertel as its private intelligence subsidiary, in the Bahamas.",
+      "as_told": {
+        "title": "Resorts International and Intertel",
+        "years": {
+          "from": 1960,
+          "to": 1979
+        },
+        "place_text": "Paradise Island, Bahamas",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason",
+      "jason-simosa"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several"
+}

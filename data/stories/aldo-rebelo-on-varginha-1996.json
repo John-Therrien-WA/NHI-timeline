@@ -1,0 +1,132 @@
+{
+  "id": "aldo-rebelo-on-varginha-1996",
+  "title": "Aldo Rebelo on Varginha 1996",
+  "summary": "Jesse Michels tells of Aldo Rebelo on Varginha 1996, about 1996 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 1463.0,
+      "to_s": 1470.0,
+      "teller": "jesse-michels",
+      "quote": ">> Yeah. Yeah. I just got back from Brazil actually where I interviewed the a current presidential candidate and former defense minister Aldo Rebello.",
+      "kind": "secondhand",
+      "cites": [
+        "aldo-rebello",
+        "james-fox"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 10310.0,
+      "to_s": 10320.0,
+      "teller": "jesse-michels",
+      "quote": "And I just interviewed a former defense minister and a current presidential candidate, a guy named Aldo Rebello, and he was like, \"Yeah, this happened.\"",
+      "kind": "secondhand",
+      "cites": [
+        "aldo-rebelo",
+        "jesse-marcel"
+      ],
+      "documents": [],
+      "difference": "Adds Rebelo's direct confirmation, 'Yeah, this happened.'",
+      "link_reason": "Both are Jesse Michels relaying his interview with former defense minister Aldo Rebelo confirming the 1996 Varginha event.",
+      "as_told": {
+        "title": "Former defense minister Aldo Rebelo confirms Varginha",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "carlos-de-souza-witnesses-the-crash-and-debris-field-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "clinic-doctor-turns-away-captured-creature-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fire-department-captures-screaming-being-with-a-net-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "footage-of-the-varginha-alien-transport-and-hospital-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fox-s-investigation-of-the-varginha-crash-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "military-driver-sees-non-human-creature-at-humanitas-hospita-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-air-force-plane-lands-at-campinas-and-helicopters-collect-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-being-taken-alive-to-regional-and-then-humanitas-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-witness-held-shape-returning-material-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "varginha-crash-and-captured-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI",
+      "A2-y_HasHEw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

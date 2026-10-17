@@ -1,0 +1,61 @@
+{
+  "id": "travis-walton-abduction-1975",
+  "title": "Travis Walton abduction",
+  "summary": "James Fox tells of Travis Walton abduction, about 1975 at Snowflake, Arizona, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1975
+  },
+  "place": null,
+  "place_text": "Snowflake, Arizona",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hBrfe4hFuM0",
+      "from_s": 5780.0,
+      "to_s": 5788.0,
+      "teller": "james-fox",
+      "quote": "It's a very remote area of the snowflake, Arizona up in the mountains when that encounter occurred.",
+      "kind": "researcher",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "travis-walton-case-dismissed-as-fabrication-1975",
+      "relation": "variant",
+      "note": "Same 1975 Travis Walton abduction, but the core claim is different: Shermer says it was made up and points to a failed lie detector test."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "hBrfe4hFuM0"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

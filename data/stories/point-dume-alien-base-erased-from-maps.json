@@ -1,0 +1,56 @@
+{
+  "id": "point-dume-alien-base-erased-from-maps",
+  "title": "Point Dume alien base erased from maps",
+  "summary": "Jesse Michels tells of Point Dume alien base erased from maps, about unspecified at Point Dume, Malibu, California, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "point-dume-ca",
+  "place_text": "Point Dume, Malibu, California",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C_Na1tI5qpw",
+      "from_s": 1160.0,
+      "to_s": 1165.0,
+      "teller": "jesse-michels",
+      "quote": "It's like that Point Doom alien base that they erased or",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "sycamore-knoll-undersea-base-claim-rejected",
+      "relation": "variant",
+      "note": "Both concern the claimed alien base off Point Dume (Sycamore Knoll); the story asserts a base that was erased from maps, while this telling says there was no base."
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C_Na1tI5qpw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

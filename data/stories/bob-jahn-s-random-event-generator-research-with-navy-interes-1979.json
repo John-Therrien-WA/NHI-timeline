@@ -1,0 +1,80 @@
+{
+  "id": "bob-jahn-s-random-event-generator-research-with-navy-interes-1979",
+  "title": "Bob Jahn's random event generator research with Navy interest",
+  "summary": "Jesse Michels tells of Bob Jahn's random event generator research with Navy interest, about c. 1979-2007 at Princeton, New Jersey, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1979,
+    "to": 2007
+  },
+  "place": null,
+  "place_text": "Princeton, New Jersey",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uVVqFg2v7ro",
+      "from_s": 7973.0,
+      "to_s": 7985.0,
+      "teller": "jesse-michels",
+      "quote": "and uh he's basically spent the last 40\nyears of his life working on random\nevent generators and trying to prove out\nthis mind matter effect.",
+      "kind": "host",
+      "cites": [
+        "robert-jahn",
+        "dean-radin"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "lcaY-rd9Dhc",
+      "from_s": 6798.0,
+      "to_s": 6807.0,
+      "teller": "jesse-michels",
+      "quote": "great book written about this by a guy named Herb Mertz who is at the um you know Princeton Engineering and Anomalous Research Center and he describes this.",
+      "kind": "host",
+      "cites": [
+        "herb-mertz"
+      ],
+      "documents": [],
+      "difference": "Cites a book by Herb Mertz as the source and doesn't name Jahn.",
+      "link_reason": "Same program: the random event generator experiments at Princeton's PEAR lab, which Bob Jahn ran from 1979 to 2007.",
+      "as_told": {
+        "title": "Random event generator experiments at PEAR",
+        "years": {
+          "from": 1979,
+          "to": 2007
+        },
+        "place_text": "Princeton Engineering Anomalies Research, Princeton University",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "lcaY-rd9Dhc",
+      "uVVqFg2v7ro"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

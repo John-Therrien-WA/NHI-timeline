@@ -1,0 +1,57 @@
+{
+  "id": "philip-k-dick-s-metz-speech-claiming-the-man-in-the-high-cas-1977",
+  "title": "Philip K. Dick's Metz speech claiming the Man in the High Castle world was real",
+  "summary": "Jesse Michels tells of Philip K. Dick's Metz speech claiming the Man in the High Castle world was real, about 1977 at Metz, France, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1977
+  },
+  "place": null,
+  "place_text": "Metz, France",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8XD1ZiuhXoY",
+      "from_s": 4915.0,
+      "to_s": 4926.0,
+      "teller": "jesse-michels",
+      "quote": ">> where you know he gave this famous speech uh in Mets France where he I think it was called um you know if you if you think this world sucks you should see the others or something",
+      "kind": "host",
+      "cites": [
+        "philip-k-dick"
+      ],
+      "documents": [
+        "if-you-find-this-world-bad-you-should-see-some-of-the-others"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8XD1ZiuhXoY"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "takano-josen-met-hermann-oberth-and-discussed-ufos",
+  "title": "Takano Josen met Hermann Oberth and discussed UFOs",
+  "summary": "Jesse Michels tells of Takano Josen met Hermann Oberth and discussed UFOs, about unspecified at Japan (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "japan",
+  "place_text": "Japan",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 4296.0,
+      "to_s": 4306.0,
+      "teller": "jesse-michels",
+      "quote": "And I was just in Japan actually, and there's a guy named Takano Josen, and he met Hermann Oberth and they discussed UFOs openly.",
+      "kind": "secondhand",
+      "cites": [
+        "takano-josen",
+        "hermann-oberth"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 4315.0,
+      "to_s": 4322.0,
+      "teller": "takano-josen",
+      "quote": "But Dr. Oberth truly respected the beings actually riding in UFOs.",
+      "kind": "firsthand",
+      "cites": [
+        "hermann-oberth"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Takano; adds that Oberth respected the beings riding in UFOs.",
+      "link_reason": "Takano Josen's own account of what Oberth expressed in the discussion that telling 6 describes.",
+      "as_told": {
+        "title": "Oberth respected the beings riding in UFOs",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "takano-josen"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

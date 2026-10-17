@@ -1,0 +1,129 @@
+{
+  "id": "talbert-newspaper-series-on-1950s-aerospace-anti-gravity-int",
+  "title": "Talbert newspaper series on 1950s aerospace anti-gravity interest",
+  "summary": "Hal Puthoff tells of Talbert newspaper series on 1950s aerospace anti-gravity interest, about 1950s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iQOibpIDx-4",
+      "from_s": 610.0,
+      "to_s": 625.0,
+      "teller": "hal-puthoff",
+      "quote": "series came out in miami herald and other newspapers in probably the 50s the author was talbert and he did a series where he found out that a number of aerospace engineering companies were suddenly interested in anti-gravity",
+      "kind": "researcher",
+      "cites": [
+        "talbert",
+        "bryce-dewitt"
+      ],
+      "documents": [
+        "talbert-anti-gravity-series-miami-herald"
+      ]
+    },
+    {
+      "episode": "EzPmG_7WhXc",
+      "from_s": 5215.0,
+      "to_s": 5223.0,
+      "teller": "jason-jorjani",
+      "quote": "Encounters, there were these newspaper articles quoting the chairman of Martin Aircraft, Lear Convair,",
+      "kind": "researcher",
+      "cites": [
+        "martin-aircraft",
+        "lear",
+        "convair"
+      ],
+      "documents": [
+        "1950s-newspaper-articles-on-electrogravitics",
+        "closer-encounters"
+      ],
+      "difference": "Names the chairmen of Martin, Lear and Convair as the people quoted, says the firms had cracked anti-gravity, and cites Closer Encounters. Does not name Talbert.",
+      "link_reason": "Both describe 1950s newspaper articles reporting that aerospace companies were pursuing anti-gravity. The Trimble and Bell stories are single quotes inside that coverage.",
+      "as_told": {
+        "title": "1950s press reports that aircraft firms had cracked anti-gravity",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "USA",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "1950s-flying-butane-tanks-in-air-force-osi-reports",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "duell-s-diary-records-meeting-the-president-on-the-mj-12-bri-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-s-book-reports-metallic-spheres-in-formation-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-s-serious-cases-cluster-near-nuclear-facilities-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "von-neumann-paper-the-presence-must-be-believed-into-our-rea-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nick-cook-s-search-for-1950s-gravity-research",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "blue-book-special-report-14-contradicts-its-press-release-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-documents-describing-flat-mirror-like-objects-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "hal-puthoff",
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "EzPmG_7WhXc",
+      "iQOibpIDx-4"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested"
+}

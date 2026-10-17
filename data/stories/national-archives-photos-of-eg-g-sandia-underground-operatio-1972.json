@@ -1,0 +1,55 @@
+{
+  "id": "national-archives-photos-of-eg-g-sandia-underground-operatio-1972",
+  "title": "National Archives photos of EG&G/Sandia underground operations at the Nevada Test Site",
+  "summary": "UAPGerb tells of National Archives photos of EG&G/Sandia underground operations at the Nevada Test Site, about 1972-1992 at Nevada test site and Area 51, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1972,
+    "to": 1992
+  },
+  "place": "nevada-test-site",
+  "place_text": "Nevada Test Site",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "u7g5Sn1DJF4",
+      "from_s": 5387.0,
+      "to_s": 5397.0,
+      "teller": "uapgerb",
+      "quote": "test and training range. There's a series of photographs in the national archives ranging from 1972 to at that time 1992 before uh Martin Marietta purchased Sandia back in 1993.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "national-archives-eg-g-sandia-nevada-test-site-photographs"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "u7g5Sn1DJF4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

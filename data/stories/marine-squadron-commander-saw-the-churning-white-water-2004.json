@@ -1,0 +1,66 @@
+{
+  "id": "marine-squadron-commander-saw-the-churning-white-water-2004",
+  "title": "Marine squadron commander saw the churning white water",
+  "summary": "Merrick von Renenamp tells of Marine squadron commander saw the churning white water, about 2004 at Off Southern California, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "off-southern-california",
+  "place_text": "Pacific Ocean off Southern California",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1iaH1a3A4Lk",
+      "from_s": 2198.0,
+      "to_s": 2205.0,
+      "teller": "merrick-von-renenamp",
+      "quote": "believe, a squadron commander from a a Marine Corps squadron that was actually flying by U. Kurt, I think, is his name.",
+      "kind": "secondhand",
+      "cites": [
+        "kurth"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "tic-tac-flir-video-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nimitz-tic-tac-acceleration-and-power-estimates-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "merrick-von-renenamp"
+    ],
+    "episodes": [
+      "1iaH1a3A4Lk"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

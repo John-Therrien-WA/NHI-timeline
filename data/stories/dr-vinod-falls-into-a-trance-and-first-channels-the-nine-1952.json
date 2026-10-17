@@ -1,0 +1,91 @@
+{
+  "id": "dr-vinod-falls-into-a-trance-and-first-channels-the-nine-1952",
+  "title": "Dr. Vinod falls into a trance and first channels the Nine",
+  "summary": "Greg Malatzi tells of Dr. Vinod falls into a trance and first channels the Nine, about 1952 at Round Table Foundation, Maine, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": null,
+  "place_text": "Round Table Foundation, Maine",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 1296.0,
+      "to_s": 1309.0,
+      "teller": "greg-malatzi",
+      "quote": "And the story goes, he shows up in Maine, goes to the Round Table Foundation, and the first night he's there, he just unexpectedly falls into a into a trance.",
+      "kind": "researcher",
+      "cites": [
+        "dr-vinod"
+      ],
+      "documents": [
+        "round-table-tape-recordings",
+        "nine-session-transcripts"
+      ]
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 6085.0,
+      "to_s": 6090.0,
+      "teller": "greg",
+      "quote": ">> But a lot of that early channeling with Vinod, that was all you know, 52.",
+      "kind": "researcher",
+      "cites": [
+        "dr-vinod",
+        "andrija-puharich"
+      ],
+      "documents": [
+        "puharich-journals"
+      ],
+      "difference": "Speaks of the early Vinod channeling in general, citing Puharich's journals, and does not single out the first-night trance.",
+      "link_reason": "Both are about Dr. Vinod channeling the Nine at the Round Table Foundation in 1952.",
+      "as_told": {
+        "title": "Early Vinod channeling of the Nine in 1952",
+        "years": {
+          "from": 1952,
+          "to": 1953
+        },
+        "place_text": "Round Table Foundation",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "the-nine-seance-in-maine-new-year-s-eve-1952-53",
+      "relation": "variant",
+      "note": "Both describe the first channeling of the Nine at Puharich's group in Maine in 1952. This telling puts it at Dr. Vinod's unexpected trance on his first night, while the story puts it at a séance of nine people on New Year's Eve 1952-53."
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg",
+      "greg-malatzi"
+    ],
+    "episodes": [
+      "2-GeTxXi670"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested"
+}

@@ -1,0 +1,74 @@
+{
+  "id": "bill-napier-links-the-younger-dryas-impact-to-the-taurids",
+  "title": "Bill Napier links the Younger Dryas impact to the Taurids",
+  "summary": "Randall Carlson tells of Bill Napier links the Younger Dryas impact to the Taurids, about Younger Dryas, about 12,900 years ago at Astrophysical observatory, England, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Astrophysical observatory, England",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JGE1NIGhBzw",
+      "from_s": 11078.0,
+      "to_s": 11092.0,
+      "teller": "randall-carlson",
+      "quote": "I think it was from Bill Napier over in uh the astrophysical observatory in England who first proposed it could have been the um the uh the torids.",
+      "kind": "researcher",
+      "cites": [
+        "bill-napier"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "nRKNVFQBi38",
+      "from_s": 3517.0,
+      "to_s": 3524.0,
+      "teller": "jesse-michels",
+      "quote": "that's what those two guys think is that maybe there was a comet um air burst in the torid meteor stream",
+      "kind": "host",
+      "cites": [
+        "randall-carlson",
+        "graham-hancock"
+      ],
+      "documents": [],
+      "difference": "Dates it c. 9,600 BC and credits Carlson and Hancock rather than Bill Napier.",
+      "link_reason": "Same theory that a Taurid-stream comet impact or airburst caused the Ice Age cataclysm at the Younger Dryas.",
+      "as_told": {
+        "title": "Taurid comet airburst and an Ice Age cataclysm",
+        "years": null,
+        "place_text": "Global",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "randall-carlson"
+    ],
+    "episodes": [
+      "JGE1NIGhBzw",
+      "nRKNVFQBi38"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

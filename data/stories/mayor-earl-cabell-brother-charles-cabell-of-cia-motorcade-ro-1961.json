@@ -1,0 +1,56 @@
+{
+  "id": "mayor-earl-cabell-brother-charles-cabell-of-cia-motorcade-ro-1961",
+  "title": "Mayor Earl Cabell, brother Charles Cabell of CIA, motorcade route",
+  "summary": "Jesse Michels tells of Mayor Earl Cabell, brother Charles Cabell of CIA, motorcade route, about 1961-1963 at Texas (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1963
+  },
+  "place": "texas",
+  "place_text": "Dallas, Texas",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "C4rSj5Aum7w",
+      "from_s": 4363.0,
+      "to_s": 4376.0,
+      "teller": "jesse-michels",
+      "quote": "Um the mayor of Dallas was a guy named Earl Cabel. Yeah. And um his his brother Charles was Dallas's number two at the CIA on the Bay of Pigs.",
+      "kind": "host",
+      "cites": [
+        "earl-cabell",
+        "charles-cabell"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "C4rSj5Aum7w"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

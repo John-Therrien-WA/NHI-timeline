@@ -1,0 +1,59 @@
+{
+  "id": "messerschmitt-s-1952-interview-with-a-french-paper",
+  "title": "Messerschmitt's 1952 interview with a French paper",
+  "summary": "Jesse Michels tells of Messerschmitt's 1952 interview with a French paper, about 1952 at France / Germany; Škoda Works, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": null,
+  "place_text": "France / Germany; Škoda Works",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "kccrkCGGzX4",
+      "from_s": 4384.0,
+      "to_s": 4401.0,
+      "teller": "jesse-michels",
+      "quote": "Messerschmitt in '52 gives this interview to this French paper and he says, \"If you see UFOs in the sky, they're probably the ones that I designed and was built by, you know, the Habermohl project and, you know, Škoda Works under Hans Kammler.",
+      "kind": "host",
+      "cites": [
+        "messerschmitt",
+        "hans-kammler",
+        "habermohl"
+      ],
+      "documents": [
+        "french-newspaper-interview"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "kccrkCGGzX4"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once"
+}

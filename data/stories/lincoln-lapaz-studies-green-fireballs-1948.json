@@ -1,0 +1,79 @@
+{
+  "id": "lincoln-lapaz-studies-green-fireballs-1948",
+  "title": "Lincoln LaPaz studies green fireballs",
+  "summary": "Jesse Michels tells of Lincoln LaPaz studies green fireballs, about 1948 at Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "mexico",
+  "place_text": "New Mexico nuclear facilities",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fzvwBBSmWYA",
+      "from_s": 913.0,
+      "to_s": 929.0,
+      "teller": "jesse-michels",
+      "quote": "in 1948 a renowned expert in meteor rights at the University of New Mexico named Lincoln leaz began studying green Fireballs often in correlation with nuclear facilities and detonations",
+      "kind": "researcher",
+      "cites": [
+        "lincoln-leaz"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "2-GeTxXi670",
+      "from_s": 10616.0,
+      "to_s": 10623.0,
+      "teller": "jesse-michels",
+      "quote": "Uh Lincoln LaPaz, this meteorite expert uh at University of New Mexico, was talking about green fireballs that seem",
+      "kind": "host",
+      "cites": [
+        "lincoln-lapaz"
+      ],
+      "documents": [],
+      "difference": "Gives no year and is cut off before saying how the fireballs relate to nuclear sites.",
+      "link_reason": "The same story of Lincoln LaPaz, the University of New Mexico meteorite expert, studying the green fireballs in the late 1940s.",
+      "as_told": {
+        "title": "Lincoln LaPaz and the green fireballs",
+        "years": {
+          "from": 1947,
+          "to": 1949
+        },
+        "place_text": "New Mexico",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2-GeTxXi670",
+      "fzvwBBSmWYA"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

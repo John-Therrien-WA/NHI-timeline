@@ -1,0 +1,55 @@
+{
+  "id": "1904-chilean-cattle-mutilations",
+  "title": "1904 Chilean cattle mutilations",
+  "summary": "Jesse Michels tells of 1904 Chilean cattle mutilations, about 1904 at Chile, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1904,
+    "to": 1904
+  },
+  "place": null,
+  "place_text": "Chile",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "areO7Mej44E",
+      "from_s": 11984.0,
+      "to_s": 11990.0,
+      "teller": "jesse-michels",
+      "quote": "in 1904 there's like this Chilean cattle mutilation series",
+      "kind": "secondhand",
+      "cites": [
+        "chris-ramsey"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "areO7Mej44E"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

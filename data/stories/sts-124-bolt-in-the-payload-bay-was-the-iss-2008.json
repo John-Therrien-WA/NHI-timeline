@@ -1,0 +1,55 @@
+{
+  "id": "sts-124-bolt-in-the-payload-bay-was-the-iss-2008",
+  "title": "STS-124 'bolt' in the payload bay was the ISS",
+  "summary": "Scott Kelly tells of STS-124 'bolt' in the payload bay was the ISS, about 2008 at Space Shuttle, STS-124, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2008,
+    "to": 2008
+  },
+  "place": null,
+  "place_text": "Space Shuttle, STS-124",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8Rr_nE65KkI",
+      "from_s": 6066.0,
+      "to_s": 6077.0,
+      "teller": "scott-kelly",
+      "quote": "My brother Mark Kelly, a former NASA astronaut and also now a US senator, shared a story with me about an experience he had years ago that when he was commander of the STS124,",
+      "kind": "secondhand",
+      "cites": [
+        "mark-kelly"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "scott-kelly"
+    ],
+    "episodes": [
+      "8Rr_nE65KkI"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

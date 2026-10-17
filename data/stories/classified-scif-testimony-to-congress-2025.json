@@ -1,0 +1,61 @@
+{
+  "id": "classified-scif-testimony-to-congress-2025",
+  "title": "Classified SCIF testimony to Congress",
+  "summary": "Jake Barber tells of Classified SCIF testimony to Congress, about before 2025 at Washington, D.C., and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2025
+  },
+  "place": "washington-dc",
+  "place_text": "SCIF, US Congress",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dnnpyNuPdXs",
+      "from_s": 3254.0,
+      "to_s": 3265.0,
+      "teller": "jake-barber",
+      "quote": "I'm telling you um and more has been shared with Congress in a in a in a skiff in a top secret uh TSCI",
+      "kind": "firsthand",
+      "cites": [
+        "congress"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "eric-davis-at-closed-hearing-nhi-control-disclosure-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jake-barber"
+    ],
+    "episodes": [
+      "dnnpyNuPdXs"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

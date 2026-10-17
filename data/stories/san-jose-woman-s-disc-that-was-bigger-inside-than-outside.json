@@ -1,0 +1,71 @@
+{
+  "id": "san-jose-woman-s-disc-that-was-bigger-inside-than-outside",
+  "title": "San Jose woman's disc that was bigger inside than outside",
+  "summary": "Jacques Vallee tells of San Jose woman's disc that was bigger inside than outside, about unspecified at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "San Jose, California, USA",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fyX8V1XXmQM",
+      "from_s": 1142.0,
+      "to_s": 1152.0,
+      "teller": "jacques-vallee",
+      "quote": "there was one one casing good old San Jose a woman had seen something over her house it was a big disc",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "kRO5jOa06Qw",
+      "from_s": 4988.0,
+      "to_s": 4994.0,
+      "teller": "jesse-michels",
+      "quote": "So Jacques Vallee describes a woman in San Jose seeing this, you know, flying saucer. She walks in, she's in a movie theater all of a sudden.",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": [],
+      "difference": "The host retells it citing Vallee and adds that the woman went inside and found herself in what seemed like a movie theater.",
+      "link_reason": "Both tell the same Vallee case: a San Jose woman sees a disc, and its inside turns out bigger than its outside. Michels retells it citing Vallee.",
+      "as_told": {
+        "title": "San Jose woman: inside of disk bigger than outside",
+        "years": null,
+        "place_text": "San Jose, California",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jacques-vallee"
+    ],
+    "episodes": [
+      "fyX8V1XXmQM",
+      "kRO5jOa06Qw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

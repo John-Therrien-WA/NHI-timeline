@@ -1,0 +1,77 @@
+{
+  "id": "black-ball-of-no-light-formed-by-the-emitter-1987",
+  "title": "Black ball of no light formed by the emitter",
+  "summary": "Bob Lazar tells of Black ball of no light formed by the emitter, about late 1980s at S4, Nevada, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "S4, Nevada",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "d9tdJ2SkBKQ",
+      "from_s": 6242.0,
+      "to_s": 6250.0,
+      "teller": "bob-lazar",
+      "quote": "it made a little black ball in the air where no light was escaping looking like a little black hole.",
+      "kind": "firsthand",
+      "cites": [
+        "barry-castilio"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "A2-y_HasHEw",
+      "from_s": 4413.0,
+      "to_s": 4426.0,
+      "teller": "bob-lazar",
+      "quote": "And then rotated the emitter. I don't know if it was another direction or more the same way, but it made a little black ball in the air where no light was escape escaping looking like a little black hole",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the emitter was rotated to make the ball.",
+      "link_reason": "Both are Lazar's firsthand account of the S-4 emitter making a little black ball where no light escaped.",
+      "as_told": {
+        "title": "Lazar's reactor emitter creates a little black ball",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "S-4, Nevada",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "A2-y_HasHEw",
+      "d9tdJ2SkBKQ"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "lazar-s-holographic-book-at-s4-1980",
+  "title": "Lazar's holographic book at S4",
+  "summary": "Robert Bigelow tells of Lazar's holographic book at S4, about 1980s at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "nevada-test-site",
+  "place_text": "S4, Area 51, Nevada",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OOr98r51Sj0",
+      "from_s": 2788.0,
+      "to_s": 2795.0,
+      "teller": "robert-bigelow",
+      "quote": "It was some kind of a holographic book that as you opened up the pages, whatever the stories were became a hologram.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "robert-bigelow"
+    ],
+    "episodes": [
+      "OOr98r51Sj0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

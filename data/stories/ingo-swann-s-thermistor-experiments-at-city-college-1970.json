@@ -1,0 +1,56 @@
+{
+  "id": "ingo-swann-s-thermistor-experiments-at-city-college-1970",
+  "title": "Ingo Swann's thermistor experiments at City College",
+  "summary": "Hal Puthoff tells of Ingo Swann's thermistor experiments at City College, about early 1970s at City College, New York, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1973
+  },
+  "place": null,
+  "place_text": "City College, New York",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iQOibpIDx-4",
+      "from_s": 2740.0,
+      "to_s": 2751.0,
+      "teller": "hal-puthoff",
+      "quote": "had done experiments at city college in new york under professor gertrude schmeider she had set up thermistors and from across the room he could make the temperatures go up and down",
+      "kind": "secondhand",
+      "cites": [
+        "ingo-swann",
+        "gertrude-schmeidler"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "hal-puthoff"
+    ],
+    "episodes": [
+      "iQOibpIDx-4"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

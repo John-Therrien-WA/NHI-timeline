@@ -1,6 +1,7 @@
 /* The globe: each region a circular patch on a sphere, sized by how many stories it holds, not by its
    geography; height above a patch is time, with one shell per era, thicker where more stories fall.
-   Flatten collapses the altitude and paints time as colour. NHI.globe(C, addons) builds the view. */
+   Flatten collapses the altitude and paints time as colour. A story with pictures carries its first
+   one as a card above its marker. NHI.globe(C, addons) builds the view. */
 (function () {
   "use strict";
   const NHI = window.NHI = window.NHI || {};
@@ -331,6 +332,10 @@
     // the tier sets the floor: a well-attested story is always crisp and large, a told-once story soft and small
     const looks = [{ soft: 0.05, size: 0.95, bright: 1.0 }, { soft: 0.45, size: 0.62, bright: 0.82 }, { soft: 0.85, size: 0.4, bright: 0.58 }];
     function sizeOf(s) { const L = looks[s._tier]; return L.size * (0.65 + 0.6 * s._str); }
+    // a story with pictures carries its first one as a card above its marker, asked for when the
+    // story faces the camera, sized with the tier; the marker stays as the card's foot
+    const cards = NHI.cards(THREE);
+    function cardHeight(s) { return (s._tier === 0 ? 1.35 : s._tier === 1 ? 1.0 : 0.72) * (0.75 + 0.25 * s._str); }
     function lineMat(color, opacity) { return new THREE.LineBasicMaterial({ color, transparent: true, opacity, depthWrite: false }); }
     const storyObjs = D.stories.map(s => {
       const kc = new THREE.Color(M.KIND_COLORS[s.kind]);
@@ -345,10 +350,14 @@
       scene.add(stem);
       const span = s.years && s._alt2 > s._alt + 0.02 ? new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(), new THREE.Vector3()]), lineMat(kc.clone(), 1)) : null;
       if (span) scene.add(span);
-      const o = { s, sprite, glow, ring, stem, span, kc, tc, col: new THREE.Color(), base: {}, f: 1, target: 1, pos: new THREE.Vector3(), dir: V(s._dir) };
+      const pics = cards.pictures(s), card = pics.length ? cards.card(kc) : null;
+      if (card) { scene.add(card.pic); scene.add(card.frame); card.pic.renderOrder = 6; card.frame.renderOrder = 5; }
+      const o = { s, sprite, glow, ring, stem, span, kc, tc, col: new THREE.Color(), base: {}, f: 1, target: 1, pos: new THREE.Vector3(), dir: V(s._dir),
+        card, asked: false, cardH: 0 };
       s._gobj = o;
       return o;
     });
+    function cardTop(o) { return o.pos.clone().addScaledVector(o.dir, o.cardH * 0.55 + 0.12); }
     function styleStories() {
       storyObjs.forEach(o => {
         const s = o.s, L = looks[s._tier], t = s._str;
@@ -358,6 +367,7 @@
         o.glow.scale.setScalar(sizeOf(s) * (s._tier === 0 ? 4.5 : s._tier === 1 ? 3 : 2.2));
         o.base = { op: Math.min(1, L.bright * (0.7 + 0.3 * t)), bright: L.bright * (0.75 + 0.25 * t),
           glow: s._tier === 0 ? 0.35 + 0.4 * t : s._tier === 1 ? 0.1 + 0.15 * t : 0, stem: (s._tier === 0 ? 0.3 : 0.08) + 0.25 * t, span: 0.4 + 0.5 * t };
+        o.cardH = o.card ? cardHeight(s) : 0;
       });
     }
 
@@ -380,6 +390,7 @@
         const s = o.s, r = radiusOf(s, ts);
         o.pos.copy(o.dir).multiplyScalar(r);
         o.sprite.position.copy(o.pos); o.glow.position.copy(o.pos); o.ring.position.copy(o.pos);
+        if (o.card) { o.card.pic.position.copy(cardTop(o)); o.card.frame.position.copy(o.card.pic.position).addScaledVector(o.dir, -0.01); }
         const sp = o.stem.geometry.attributes.position;
         sp.setXYZ(0, o.pos.x, o.pos.y, o.pos.z); sp.setXYZ(1, o.dir.x * (R + 0.01), o.dir.y * (R + 0.01), o.dir.z * (R + 0.01));
         sp.needsUpdate = true; o.stem.geometry.computeBoundingSphere();
@@ -454,6 +465,11 @@
         o.glow.material.opacity = o.base.glow * f;
         o.stem.material.opacity = o.base.stem * f * ts;
         if (o.span) { o.span.visible = vis && ts > 0.3; o.span.material.opacity = o.base.span * f * ts; }
+        if (o.card) {
+          const facing = o.dir.dot(camDir);
+          if (!o.asked && vis && facing > 0.1) { o.asked = true; cards.request(o.s, got => { if (!o.card.image) cards.give(o.card, got[0]); }); }
+          cards.setCard(o.card, o.cardH, o.card.image && vis && facing > 0 ? Math.min(1, o.base.op * 0.4 + 0.6) * f : 0);
+        }
       });
       const f0 = focus || selected;
       linkObjs.forEach(L => {
@@ -515,8 +531,15 @@
         if (p.z > 1 || p.z < -1) return;
         const sx = (p.x + 1) / 2 * w, sy = (1 - p.y) / 2 * h;
         const dist = camera.position.distanceTo(o.pos);
-        const reach = Math.max(8, sizeOf(o.s) * 0.5 * fovK / dist + 3);
-        const d = Math.hypot(sx - clientX, sy - clientY);
+        let reach = Math.max(8, sizeOf(o.s) * 0.5 * fovK / dist + 3);
+        let d = Math.hypot(sx - clientX, sy - clientY);
+        if (o.card && o.card.image) {   // the card above the marker is part of the target
+          const q = cardTop(o).project(camera), qx = (q.x + 1) / 2 * w, qy = (1 - q.y) / 2 * h;
+          const half = o.cardH * 0.5 * fovK / dist;
+          const dx = Math.max(0, Math.abs(qx - clientX) - half * o.card.aspect), dy = Math.max(0, Math.abs(qy - clientY) - half);
+          const dc = Math.hypot(dx, dy);
+          if (dc < d) { d = dc; reach = Math.max(reach, 8); }
+        }
         if (d <= reach) { const sc = d / reach + dist * 0.004; if (sc < bestScore) { bestScore = sc; best = o.s.id; } }
       });
       return best;

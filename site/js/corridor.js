@@ -1,6 +1,8 @@
 /* The corridor: time runs ahead of the viewer, stretched where many stories are told; the angle around the
    centre line is the kind or the region; the rings, centre out, are the tiers, and inside a ring the
-   distance from the centre is the score on a log scale. WASD and QE fly, the arrows look.
+   distance from the centre is the score on a log scale. A story with pictures shows its first one
+   as a card in place of its sphere (a well-attested one fans up to three), loaded as the story comes
+   near and fading out behind the camera. WASD and QE fly, the arrows look.
    NHI.corridor(C) builds the view; C is the controller from app.js. */
 (function () {
   "use strict";
@@ -232,6 +234,11 @@
     const hitMat = new THREE.MeshBasicMaterial({ transparent: true, opacity: 0, depthWrite: false, colorWrite: false });
     const hitTargets = [];
     const nodes = new Map();
+    // a story with pictures shows a card in place of its sphere (the sphere shrinks to a dot, the
+    // halo stays as the tier's glow behind the card); the pictures are asked for when the story
+    // comes within CARD_AHEAD and fade in over CARD_FADE, out again just behind the camera
+    const cards = NHI.cards(THREE);
+    const CARD_AHEAD = 90, CARD_FADE = 25, CARD_BEHIND = 4;
     D.stories.forEach(s => {
       const kc = new THREE.Color(KIND_COLORS[s.kind]);
       const mesh = new THREE.Mesh(sphereGeo, new THREE.MeshBasicMaterial({ color: kc.clone(), transparent: true }));
@@ -240,9 +247,29 @@
       scene.add(halo);
       const hit = new THREE.Mesh(sphereGeo, hitMat);
       hit.userData.sid = s.id; scene.add(hit); hitTargets.push(hit);
-      nodes.set(s.id, { s, pos: new THREE.Vector3(), mesh, halo, hit, kc, base: new THREE.Color(), size: 1, baseOpacity: 1, baseHalo: 0, haloMul: 3,
-        cur: 1, want: 1, r: 0, aK: angleOf.kind.get(s.id), aR: angleOf.region.get(s.id) });
+      const n = { s, pos: new THREE.Vector3(), mesh, halo, hit, kc, base: new THREE.Color(), size: 1, baseOpacity: 1, baseHalo: 0, haloMul: 3,
+        cur: 1, want: 1, r: 0, aK: angleOf.kind.get(s.id), aR: angleOf.region.get(s.id),
+        pics: cards.pictures(s), cards: [], asked: false, cardH: 0 };
+      n.pics.forEach(() => { const c = cards.card(kc); scene.add(c.pic); scene.add(c.frame); n.cards.push(c); });
+      nodes.set(s.id, n);
     });
+    function askCards(n) {
+      n.asked = true;
+      cards.request(n.s, got => got.forEach((entry, i) => { if (!n.cards[i].image) cards.give(n.cards[i], entry); }));
+    }
+    function placeCards(n) {
+      // the first card sits on the story, the sphere a dot at its foot; further cards fan to the
+      // right, each past the previous one's edge, a little lower and further back
+      let x = n.pos.x, prevHalf = 0;
+      n.cards.forEach((c, i) => {
+        const w = c.pic.scale.x, h = c.pic.scale.y;
+        if (i) x += prevHalf + h * 0.12 + w / 2;
+        prevHalf = w / 2;
+        c.pic.position.set(x, n.pos.y - i * n.cards[0].pic.scale.y * 0.18, n.pos.z - i * 0.3);
+        c.frame.position.copy(c.pic.position); c.frame.position.z -= 0.02;
+      });
+      n.mesh.position.set(n.pos.x, n.pos.y - n.cards[0].pic.scale.y * 0.5 - n.mesh.scale.y * 0.6, n.pos.z + 0.05);
+    }
     function styleNodes() {
       nodes.forEach(n => {
         const s = n.s, T = M.TIERS[s._tier], str = s._str;
@@ -251,7 +278,8 @@
         n.baseOpacity = Math.min(1, T.bright * (0.55 + 0.45 * str) + (s._tier === 0 ? 0.15 : 0));
         n.baseHalo = s._tier === 0 ? 0.45 + 0.4 * str : s._tier === 1 ? 0.18 + 0.3 * str : 0.05 + 0.12 * str;
         n.haloMul = s._tier === 0 ? 4.5 : s._tier === 1 ? 3.2 : 2.4;
-        n.hit.scale.setScalar(Math.max(0.55, n.size * 1.8));
+        n.cardH = n.pics.length ? (s._tier === 0 ? 2.3 : s._tier === 1 ? 1.7 : 1.25) * (0.75 + 0.25 * str) : 0;
+        n.hit.scale.setScalar(Math.max(0.55, n.size * 1.8, n.cardH * 0.6));
       });
     }
 
@@ -521,7 +549,7 @@
       linkObjs.forEach(o => { o.line.material.opacity = !focus ? o.base : (o.l.a === focus || o.l.b === focus) ? 1 : o.base * 0.25; });
     }
     function applyVisibility() {
-      nodes.forEach(n => { const v = M.isVisible(n.s); n.mesh.visible = n.halo.visible = n.hit.visible = v; });
+      nodes.forEach(n => { const v = M.isVisible(n.s); n.mesh.visible = n.halo.visible = n.hit.visible = v; n.shown = v; });
       linkObjs.forEach(o => { o.line.visible = M.isVisible(M.storyById[o.l.a]) && M.isVisible(M.storyById[o.l.b]); });
       drawMinimapStatic();
     }
@@ -530,7 +558,7 @@
       selectedSid = sid;
       if (!sid) { selRing.visible = false; return; }
       const n = nodes.get(sid);
-      selRing.visible = true; selRing.position.copy(n.pos); selRing.scale.setScalar(Math.max(0.45, n.size * 1.35));
+      selRing.visible = true; selRing.position.copy(n.pos); selRing.scale.setScalar(Math.max(0.45, n.size * 1.35, n.cardH * 0.5));
     }
 
     // ---------- minimap ----------
@@ -631,7 +659,9 @@
           if (overview) { if (n.s._tier !== 0) return; }
           else if (ahead < 1.5 || ahead > T.labelAt) return;
         }
-        tmpV.copy(n.pos).project(camera);
+        tmpV.copy(n.pos);
+        if (n.cards.length && n.cards[0].pic.visible) tmpV.y -= n.cards[0].pic.scale.y * 0.5 + 0.1;
+        tmpV.project(camera);
         if (tmpV.z > 1 || Math.abs(tmpV.x) > 0.95 || Math.abs(tmpV.y) > 0.92) return;
         out.push({ id, x: (tmpV.x + 1) / 2 * w, y: (1 - tmpV.y) / 2 * h, rank: (sel ? 100 : 0) + (3 - n.s._tier) * 10 + n.s._str * 5 - (overview ? 0 : ahead * 0.05) });
       });
@@ -690,10 +720,22 @@
       nodes.forEach(n => { const want = radiusOf(n.s), d = want - n.r; if (Math.abs(d) > 1e-3) { n.r += d * damp(6, dt); moved = true; } else n.r = want; });
       if (moved) placeNodes();
 
+      const camZ = camera.position.z;
       nodes.forEach(n => {
         n.cur += (n.want - n.cur) * damp(10, dt);
         const e = n.cur;
-        n.mesh.scale.setScalar(boost * n.size * (e > 1 ? 1 + (e - 1) * 0.45 : 1));
+        let dot = 1;   // a story whose card is up shrinks its sphere to a dot
+        if (n.cards.length) {
+          const ahead = camZ - n.pos.z;   // distance along the corridor, positive ahead of the camera
+          if (!n.asked && ahead < CARD_AHEAD + 30 && ahead > -CARD_BEHIND * 2) askCards(n);
+          const zone = mb > 0.5 ? 1 : Math.min(1, Math.max(0, (CARD_AHEAD - ahead) / CARD_FADE)) * Math.min(1, Math.max(0, (ahead + CARD_BEHIND) / CARD_BEHIND));
+          const op = (n.shown === false ? 0 : zone) * Math.min(1, n.baseOpacity * 0.5 + 0.5) * (e < 1 ? 0.35 + 0.65 * e : 1);
+          const h = boost * n.cardH * (e > 1 ? 1 + (e - 1) * 0.35 : 1);
+          n.cards.forEach((c, i) => cards.setCard(c, h * (i ? 0.62 : 1), c.image ? op * (i ? 0.85 : 1) : 0));
+          if (n.cards[0].image && op > 0.01) dot = 0.35 + 0.65 * (1 - op);
+        }
+        n.mesh.scale.setScalar(boost * n.size * dot * (e > 1 ? 1 + (e - 1) * 0.45 : 1));
+        if (n.cards.length) { if (dot < 1) placeCards(n); else n.mesh.position.copy(n.pos); }
         n.halo.scale.setScalar(boost * n.size * n.haloMul);
         n.mesh.material.opacity = Math.min(1, n.baseOpacity * (e < 1 ? e : 1) + (e > 1 ? (e - 1) * 0.6 : 0));
         n.mesh.material.color.copy(n.base);

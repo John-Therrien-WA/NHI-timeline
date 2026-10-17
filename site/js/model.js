@@ -24,7 +24,7 @@
   const PROFILE_NUM = ["independent_tellers", "firsthand", "official_records", "official_conclusions", "journalist", "secondhand", "researcher", "host", "documents", "credited_documents", "repetitions"];
   const WEIGHT_KEYS = ["firsthand", "official", "journalist", "secondhand", "researcher", "host", "document_telling", "document_credited"];
   const DISCUSSION_KINDS = ["debunk", "rebunk", "note"];
-  const STORY_IMAGE_KINDS = ["object", "place-then", "place-now"];
+  const STORY_IMAGE_KINDS = ["object", "place-then", "place-now", "person"];
   const LICENCE_KINDS = ["free", "fair-use"];
   const S_MIN = 0.2, S_MAX = 10;   // the log scale the views and the score bar use; 1.0 is the corpus median
 
@@ -126,7 +126,10 @@
       if (s.notes_open != null) need(Number.isInteger(s.notes_open) && s.notes_open >= 0, at + " notes_open must be a count.");
       if (s.images != null) {
         need(Array.isArray(s.images), at + " images must be a list.");
-        s.images.forEach((x, j) => checkImage(x, at + " image " + j, STORY_IMAGE_KINDS));
+        s.images.forEach((x, j) => {
+          checkImage(x, at + " image " + j, STORY_IMAGE_KINDS);
+          if (x.kind === "person") need(isStr(x.person) && x.licence_kind === "free", at + " image " + j + " is a person picture; it names the person and is free-licensed only.");
+        });
       }
     });
     Object.keys(D.people).forEach(id => {

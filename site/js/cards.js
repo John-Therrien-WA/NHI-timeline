@@ -1,6 +1,6 @@
 /* Picture cards: a story's photograph standing in for its sphere in the corridor and above its marker
    on the globe. A story with `images` shows its first picture (the place at the time preferred,
-   then an object, then the place today) as a camera-facing card with a thin frame in the kind's
+   then a person picture, then an object, then the place today) as a camera-facing card with a thin frame in the kind's
    colour; a well-attested story with more pictures fans one or two smaller ones beside it. The
    textures are loaded lazily, when a view asks for a story that has come near, and downscaled
    through a canvas to CARD_PX on the long side, so a phone is never asked for the full image
@@ -10,7 +10,7 @@
 (function () {
   const NHI = window.NHI = window.NHI || {};
   const CARD_PX = 384;
-  const KIND_RANK = { "place-then": 0, object: 1, "place-now": 2 };
+  const KIND_RANK = { "place-then": 0, person: 1, object: 2, "place-now": 3 };
   const FAN = [3, 2, 1];                  // pictures shown per tier (well-attested, told-by-several, told-once)
 
   NHI.cards = function (THREE) {

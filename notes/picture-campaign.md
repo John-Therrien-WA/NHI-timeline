@@ -8,11 +8,12 @@ You find photographs for a batch of stories about non-human intelligence and dis
 
 **Read first**: the batch file named in your prompt. Each entry has `id`, `title`, `kind`, `years`, `place_text`, `claims`, `summary` and often `plain` (a plain-language telling). The `plain` text tells you what the story is about; the title alone often does not.
 
-**What a picture may be**: an object or a place, never a person's face.
+**What a picture may be**: an object or a place, or, for a story two or more tellers tell or one the person shown tells themselves, a person picture.
 - `object`: a thing the story is about or that stands for it: a document's cover or first page, an aircraft or ship type named in the story, a building, a craft model, an instrument, a map, a newspaper page, a book cover (a book cover or press image is fair use).
 - `place-then`: the place at the time of the story (preferred): an airfield in the 1950s for a 1952 story, a base as it was built, a town in that decade.
 - `place-now`: the place today, the last resort, only when nothing closer exists.
-A photograph of a person, a crowd close enough to show faces, or a frame from a video or podcast is refused. A picture that would put a real person's face next to a claim they did not make is the one thing the project forbids.
+- `person`: a free-licensed photograph of someone the story is about (a hearing, the person at the place or with the aircraft named), with an extra field `"person"`: their person id when the batch names them as a teller, else their name. Only for a story whose batch entry (`independent_tellers`, `tellers`, from `data/scores.json`) shows two or more independent tellers, or names the person shown as its teller; never fair use. `images.py` refuses the rest.
+A frame from a podcast or interview video is refused, and so is a photograph of a person or a crowd close enough to show faces for any other story. A picture that would put a real person's face next to one other person's claim about them is the one thing the project forbids.
 
 **Licence**: `free` is preferred: public domain, CC0, CC BY, CC BY-SA, a US government work (US Air Force, Navy, NASA, NARA, Library of Congress, ODNI, Congress). Wikimedia Commons is the first place to look; Flickr Commons, NASA, NARA, the Library of Congress and government sites are others. `fair-use` is allowed for a news photo, a book cover, a document scan or a press image when nothing free exists: it is kept at thumbnail size and flagged; give the holder as credit and the page it is on as source. Copy the licence text as the source states it (a Commons file page states it under "Licensing"). Never guess a licence: a file whose licence you cannot see is not returned.
 

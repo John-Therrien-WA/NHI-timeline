@@ -31,7 +31,8 @@
         open.appendChild(el("img", { src: x.file, alt: x.caption, loading: "lazy" }));
         fig.appendChild(open);
         const cap = el("figcaption");
-        cap.appendChild(el("span", { class: "ik" }, IMAGE_KINDS[x.kind] + (x.date ? ", " + x.date : "")));
+        const kindText = x.kind === "person" ? (D.people[x.person] ? D.people[x.person].name : x.person) : IMAGE_KINDS[x.kind];
+        cap.appendChild(el("span", { class: "ik" }, kindText + (x.date ? ", " + x.date : "")));
         cap.appendChild(document.createTextNode(" " + x.caption));
         fig.appendChild(cap);
         const cr = el("div", { class: "credit" });

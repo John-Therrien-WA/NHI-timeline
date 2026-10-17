@@ -5,13 +5,18 @@
 An image is a file `site/images/<owner>/<n>.jpg` (or `.png` when the source is a PNG with
 transparency) and a sidecar `data/images/<owner>/<n>.json`, the owner a story id, an alias of one,
 or a person id, `n` = 1, 2, ... A story's images are objects and places (`object`, `place-then`,
-`place-now`), free-licensed or credited fair use; a person's image is a `headshot`, free-licensed
-only, and the page shows it only beside that person's own tellings, never as a story's picture.
+`place-now`), free-licensed or credited fair use, or a `person` picture: a free-licensed photograph
+showing someone the story is about, named in `person` (their person id when they are in data/people,
+else their name), allowed only when two or more independent tellers tell the story or the person shown
+tells it themselves (read from data/scores.json), so a face never stands beside one other person's
+claim about them. A person's own image is a `headshot`, free-licensed only, and the page shows it only
+beside that person's own tellings, never as a story's picture.
 Free images are at most 1200 px on the long side, fair-use ones at most 480 px.
 
 The manifest is a JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind",
-"credit", "caption", "date"? }`. Every entry is checked before anything is downloaded: an owner that
-resolves to no story, alias or person, a kind that does not fit the owner, a fair-use headshot, an
+"credit", "caption", "date"?, "person"? }`. Every entry is checked before anything is downloaded: an owner that
+resolves to no story, alias or person, a kind that does not fit the owner, a fair-use headshot or
+person picture, a person picture the story's tellers do not allow, an
 `image_url` or `source` that is not http(s), or a missing or unknown field stops the run. An entry
 whose `image_url` already has a sidecar under the owner (or under the story's id or aliases) is
 `kept`; the others are downloaded (urllib, with a descriptive User-Agent), resized and converted
@@ -42,14 +47,14 @@ from pathlib import Path
 
 from .common import REPO, Root, load_json, rel, save_json
 
-STORY_IMAGE_KINDS = ("object", "place-then", "place-now")
+STORY_IMAGE_KINDS = ("object", "place-then", "place-now", "person")
 PERSON_IMAGE_KINDS = ("headshot",)
 LICENCE_KINDS = ("free", "fair-use")
-SIDECAR_KEYS = ("file", "kind", "caption", "source", "image_url", "licence", "licence_kind", "credit", "date", "fetched")
-SIDECAR_OPTIONAL = ("date",)
-MANIFEST_KEYS = ("owner", "kind", "image_url", "source", "licence", "licence_kind", "credit", "caption", "date")
-MANIFEST_OPTIONAL = ("date",)
-BLOCK_KEYS = ("file", "kind", "caption", "credit", "licence", "licence_kind", "source", "date")
+SIDECAR_KEYS = ("file", "kind", "caption", "source", "image_url", "licence", "licence_kind", "credit", "date", "person", "fetched")
+SIDECAR_OPTIONAL = ("date", "person")
+MANIFEST_KEYS = ("owner", "kind", "image_url", "source", "licence", "licence_kind", "credit", "caption", "date", "person")
+MANIFEST_OPTIONAL = ("date", "person")
+BLOCK_KEYS = ("file", "kind", "caption", "credit", "licence", "licence_kind", "source", "date", "person")
 MAX_PX = {"free": 1200, "fair-use": 480}
 USER_AGENT = "NHI-timeline/0.1 (research; contact via github John-Therrien-WA)"
 DATE = re.compile(r"\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?")
@@ -192,7 +197,34 @@ def fields_problems(where: str, e: dict, keys: tuple, optional: tuple, owner_typ
             out.append(f"{where}: kind {e['kind']!r} does not fit a {owner_type} owner (one of {', '.join(allowed)})")
     if e.get("kind") == "headshot" and e.get("licence_kind") == "fair-use":
         out.append(f"{where}: a headshot must be free-licensed, never fair use")
+    if e.get("kind") == "person":
+        if not _text(e.get("person")):
+            out.append(f"{where}: a person picture names who it shows in person")
+        if e.get("licence_kind") == "fair-use":
+            out.append(f"{where}: a person picture must be free-licensed, never fair use")
+    elif "person" in e:
+        out.append(f"{where}: person belongs to a person picture only, not a {e.get('kind')!r} one")
     return out
+
+
+def load_profiles(root: Root) -> dict[str, dict]:
+    """{story id: evidence profile} from data/scores.json, or {} when it is not there yet."""
+    p = root.data / "scores.json"
+    return {sid: s["profile"] for sid, s in load_json(p)["stories"].items()} if p.exists() else {}
+
+
+def person_problem(where: str, story_id: str, e: dict, profiles: dict[str, dict]) -> str | None:
+    """A person picture stands only beside a story two or more independent tellers tell, or one the
+    person shown tells themselves."""
+    if e.get("kind") != "person" or not _text(e.get("person")):
+        return None
+    prof = profiles.get(story_id)
+    if prof is None:
+        return f"{where}: story {story_id} has no profile in data/scores.json (run pipeline.score) to allow a person picture"
+    if prof["independent_tellers"] >= 2 or e["person"] in prof["tellers"]:
+        return None
+    return (f"{where}: a person picture of {e['person']!r} needs two or more independent tellers or {e['person']!r} "
+            f"among them; story {story_id} is told by {', '.join(prof['tellers'])} only")
 
 
 def problems(root: Root, stories: dict, story_alias: dict[str, str], people: dict) -> list[str]:
@@ -205,6 +237,7 @@ def problems(root: Root, stories: dict, story_alias: dict[str, str], people: dic
     except SystemExit as e:
         return [str(e)]
     claimed: set[str] = set()
+    profiles = load_profiles(root)
     seen_urls: dict[tuple[str, str], dict[str, str]] = {}  # resolved owner -> {image_url: "<dir>/<n>"}
     for owner, rows in sorted(sidecars.items()):
         try:
@@ -218,6 +251,8 @@ def problems(root: Root, stories: dict, story_alias: dict[str, str], people: dic
         for n, sc in rows:
             where = f"data/images/{owner}/{n}.json"
             out += fields_problems(where, sc, SIDECAR_KEYS, SIDECAR_OPTIONAL, resolved[0] if resolved else None)
+            if resolved and resolved[0] == "story" and (bad := person_problem(where, resolved[1], sc, profiles)):
+                out.append(bad)
             if "fetched" in sc and not (isinstance(sc["fetched"], str) and DAY.fullmatch(sc["fetched"])):
                 out.append(f"{where}: fetched {sc['fetched']!r} is not YYYY-MM-DD")
             url = sc.get("image_url")
@@ -359,7 +394,7 @@ def convert(data: bytes, out_stem: Path, max_px: int) -> Path:
     return target
 
 
-def manifest_problems(entries, stories: dict, story_alias: dict[str, str], people: dict) -> list[str]:
+def manifest_problems(entries, stories: dict, story_alias: dict[str, str], people: dict, profiles: dict[str, dict]) -> list[str]:
     if not isinstance(entries, list):
         return ["manifest: must be a JSON list of entries"]
     out: list[str] = []
@@ -382,6 +417,8 @@ def manifest_problems(entries, stories: dict, story_alias: dict[str, str], peopl
                 if resolved is None:
                     out.append(f"{where}: owner {owner!r} is no story id, alias or person id")
         out += fields_problems(where, e, MANIFEST_KEYS, MANIFEST_OPTIONAL, resolved[0] if resolved else None)
+        if resolved and resolved[0] == "story" and (bad := person_problem(where, resolved[1], e, profiles)):
+            out.append(bad)
     return out
 
 
@@ -391,7 +428,7 @@ def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today:
     local bytes and a silent printer)."""
     stories, people = root.load_dir(root.stories), root.load_dir(root.people)
     story_alias = root.story_aliases(stories)
-    bad = manifest_problems(entries, stories, story_alias, people)
+    bad = manifest_problems(entries, stories, story_alias, people, load_profiles(root))
     if bad:
         raise SystemExit("images: the manifest is refused:\n" + "\n".join(bad))
     today = today or dt.date.today().isoformat()
@@ -427,8 +464,9 @@ def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today:
         sc = {"file": target.relative_to(root.site).as_posix(), "kind": e["kind"], "caption": e["caption"],
               "source": e["source"], "image_url": e["image_url"], "licence": e["licence"],
               "licence_kind": e["licence_kind"], "credit": e["credit"]}
-        if "date" in e:
-            sc["date"] = e["date"]
+        for k in MANIFEST_OPTIONAL:
+            if k in e:
+                sc[k] = e[k]
         sc["fetched"] = today
         save_json(images_dir(root) / oid / f"{n}.json", sc)
         w, h = dimensions(target.read_bytes())

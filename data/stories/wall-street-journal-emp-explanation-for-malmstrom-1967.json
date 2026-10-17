@@ -49,6 +49,32 @@
         "place_text": "Malmstrom AFB, Montana",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 284.0,
+      "to_s": 291.0,
+      "teller": "jesse-michels",
+      "quote": "ridiculous Wall Street Journal uh piece comes out by this guy named Joel Shectman.",
+      "kind": "host",
+      "cites": [
+        "joel-shectman",
+        "sean-kirkpatrick"
+      ],
+      "documents": [
+        "wall-street-journal-article"
+      ],
+      "difference": "Names the author, Joel Shectman, links Sean Kirkpatrick to the piece and dates it to 2025.",
+      "link_reason": "Both are about the Wall Street Journal piece that blamed the Malmstrom missile shutdown on an EMP and that Michels calls a hit piece.",
+      "as_told": {
+        "title": "Wall Street Journal EMP article on Malmstrom",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -56,6 +82,11 @@
       "story": "malmstrom-missiles-disabled-by-red-glowing-object-1967",
       "relation": "variant",
       "note": "The Wall Street Journal explains the same 1967 Malmstrom missile shutdown as an EMP rather than a UFO, a competing core claim about the same event."
+    },
+    {
+      "story": "non-operational-emp-testing-at-samso-and-hill-afb-1960",
+      "relation": "variant",
+      "note": "Both are about EMP testing on missile equipment as an explanation for the shutdowns. The WSJ account says an EMP was wheeled up to Malmstrom itself; Salas says such testing was done only at SAMSO and Hill AFB, not at operational bases."
     }
   ],
   "tags": [],
@@ -78,6 +109,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "8Rr_nE65KkI",
       "yGtVzBbUvx4"
     ]

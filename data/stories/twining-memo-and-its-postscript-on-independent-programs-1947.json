@@ -101,6 +101,32 @@
         "place_text": "Alaska / Air Materiel Command",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3882.0,
+      "to_s": 3890.0,
+      "teller": "jesse-michels",
+      "quote": ">> Yeah. Yeah. Well, you had Nathan Twining writing in this 1947 memo to this guy Brigadier Schulgrren",
+      "kind": "host",
+      "cites": [
+        "nathan-twining",
+        "george-schulgen"
+      ],
+      "documents": [
+        "twining-memo"
+      ],
+      "difference": "Names Brigadier General Schulgen as the person the memo went to.",
+      "link_reason": "Both are Nathan Twining's 1947 UFO memo.",
+      "as_told": {
+        "title": "Twining 1947 memo",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "United States Air Force",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -131,6 +157,7 @@
       "merrick"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "1iaH1a3A4Lk",
       "A2-y_HasHEw",
       "IWui5cBkwoE",

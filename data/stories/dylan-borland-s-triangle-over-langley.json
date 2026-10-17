@@ -84,34 +84,72 @@
         "place_text": "Langley Air Force Base, Virginia, near the NASA hangar",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 4529.0,
+      "to_s": 4539.0,
+      "teller": "jeremy-corbell",
+      "quote": "Um he told you in Congress is there was a large triangular shaped craft that was near the NASA hangar.",
+      "kind": "secondhand",
+      "cites": [
+        "dylan-borland"
+      ],
+      "documents": [],
+      "difference": "Corbell retells it, places the craft near the NASA hangar and notes Borland told it to Congress.",
+      "link_reason": "This is the same large triangle Borland saw at Langley, which has a NASA hangar, here retold by Corbell.",
+      "as_told": {
+        "title": "Dylan Borland's triangular craft near the NASA hangar (Corbell's retelling)",
+        "years": null,
+        "place_text": "Military base, near a NASA hangar",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 4555.0,
+      "to_s": 4563.0,
+      "teller": "dylan-borland",
+      "quote": "It was between one to two stories thick, equilateral triangle. I could never see the top of it and the edges were 90°",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Firsthand from Borland, with details: an equilateral triangle one to two stories thick, 90° edges and a gold lava-plasma flow.",
+      "link_reason": "Borland's own description of the same Langley triangle, played as a clip.",
+      "as_told": {
+        "title": "Borland describes the triangle with gold lava-plasma flow (clip)",
+        "years": null,
+        "place_text": "Military base, near a NASA hangar",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 1,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 3,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels",
-      "uapgerb"
+      "dylan-borland"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "u7g5Sn1DJF4",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-by-several"
+  "attestation": 1.0,
+  "tier": "told-once"
 }

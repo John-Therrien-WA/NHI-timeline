@@ -21,32 +21,53 @@
         "chris-langan"
       ],
       "documents": []
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3292.0,
+      "to_s": 3299.0,
+      "teller": "jesse-michels",
+      "quote": ">> on the UFO thing. I was working for the Forest Service, not too far from Malmstrom Air Force Base.",
+      "kind": "secondhand",
+      "cites": [
+        "chris-langan"
+      ],
+      "documents": [],
+      "difference": "Places Langan at a Forest Service job and campground near the base.",
+      "link_reason": "Both are about Chris Langan's sighting of a disc near Malmstrom.",
+      "as_told": {
+        "title": "Chris Langan sees saucer near Malmstrom",
+        "years": null,
+        "place_text": "Forest Service campground near Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "IWui5cBkwoE"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.5,
   "tier": "told-once"
 }

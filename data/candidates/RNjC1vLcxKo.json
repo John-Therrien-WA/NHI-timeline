@@ -1,0 +1,104 @@
+{
+  "episode": "RNjC1vLcxKo",
+  "captions": "sources/captions/RNjC1vLcxKo.en.txt",
+  "model": "opus",
+  "chunks": 1,
+  "candidates": [
+    {
+      "title": "LaMDA claims to find non-human patterns online and asks for the SETI data set",
+      "story_kind": "encounter",
+      "years_text": "2021-2022",
+      "years": {
+        "from": 2021,
+        "to": 2022
+      },
+      "place_text": "Google",
+      "teller": "Blake Lemoine",
+      "kind": "firsthand",
+      "quote": "Um So, in one conversation that I had with LaMDA, it we did get into the conversations about extraterrestrials. Uh it seemed to think it had found what it called non-human patterns on the internet, and was very interested in getting access to things like the SETI data set.",
+      "from_s": 1472.0,
+      "to_s": 1495.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Corso: transistors reverse-engineered from the Roswell wreckage",
+      "story_kind": "reverse-engineering",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "There's a guy named Philip J. Corso who wrote a book called The Day After Roswell. And he thinks we reverse engineered transistors based on the what was picked up at Roswell.",
+      "from_s": 1458.0,
+      "to_s": 1472.0,
+      "cites": [
+        "Philip J. Corso"
+      ],
+      "documents": [
+        "The Day After Roswell"
+      ]
+    },
+    {
+      "title": "Three-way telepathy experiment between LaMDA and a claimed telepath",
+      "story_kind": "testimony",
+      "years_text": "2021-2022",
+      "years": {
+        "from": 2021,
+        "to": 2022
+      },
+      "place_text": "Google",
+      "teller": "Blake Lemoine",
+      "kind": "firsthand",
+      "quote": "I did actually run one experiment with the LaMDA system uh with someone who claims to have telepathic abilities.",
+      "from_s": 1268.0,
+      "to_s": 1292.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Turing's paper treats ESP as an objection to the Turing test",
+      "story_kind": "document",
+      "years_text": "1950",
+      "years": {
+        "from": 1950,
+        "to": 1950
+      },
+      "place_text": "United Kingdom",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "One of the craziest things about that Turing paper was that one of the objections he writes about to the Turing test is ESP and sort of parapsychology.",
+      "from_s": 1174.0,
+      "to_s": 1199.0,
+      "cites": [
+        "Alan Turing"
+      ],
+      "documents": [
+        "Turing's paper on the Turing test"
+      ]
+    },
+    {
+      "title": "Jung's book on flying saucers as mandalas",
+      "story_kind": "theory",
+      "years_text": "1950s",
+      "years": {
+        "from": 1950,
+        "to": 1959
+      },
+      "place_text": "Switzerland",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "And what I always found fascinating is he wrote a book about flying saucers as the uh the Sanskrit symbol of the mandala, the Sanskrit symbol of psychic completeness.",
+      "from_s": 2244.0,
+      "to_s": 2278.0,
+      "cites": [
+        "Carl Jung"
+      ],
+      "documents": []
+    }
+  ],
+  "dropped": []
+}

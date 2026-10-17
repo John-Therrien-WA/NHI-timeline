@@ -66,6 +66,26 @@
         "place_text": "Israel",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 6343.0,
+      "to_s": 6360.0,
+      "teller": "jesse-michels",
+      "quote": "Hashed your you know the head of your space force equivalent has said all these kind of really interesting things about UFOs but also like uh you know this kind of secret space program and um you know this galactic federation or whatever",
+      "kind": "host",
+      "cites": [
+        "haim-eshed"
+      ],
+      "documents": [],
+      "difference": "Adds the secret space program and gives no date or autobiography.",
+      "link_reason": "Both are about Haim Eshed, head of Israel's space-force equivalent, speaking of UFOs and a galactic federation.",
+      "as_told": {
+        "title": "Haim Eshed on UFOs and a galactic federation",
+        "years": null,
+        "place_text": "Israel",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -90,6 +110,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "2-GeTxXi670",
       "bVhSPH2A5Vw"
     ]

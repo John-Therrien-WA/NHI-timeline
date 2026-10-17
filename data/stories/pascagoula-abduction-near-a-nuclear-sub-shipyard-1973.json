@@ -48,6 +48,27 @@
         "place_text": "Pascagoula",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 4888.0,
+      "to_s": 4896.0,
+      "teller": "jesse-michels",
+      "quote": "right there or the Pasigula you know the fisherman in Pasigula you know and in 74",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates it to '74 instead of 1973.",
+      "link_reason": "The same abduction of the Pascagoula fishermen.",
+      "as_told": {
+        "title": "Pascagoula fishermen",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Pascagoula, Mississippi",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -71,6 +92,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "d9tdJ2SkBKQ",
       "fzvwBBSmWYA"
     ]

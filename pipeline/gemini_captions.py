@@ -40,7 +40,7 @@ import sys
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .captions import video_id
+from .captions import host_and_guests, video_id
 from .common import REPO, Root, dump_json, load_json, norm_ws, rel
 
 CREATOR_WATCH = REPO.parent / "creator-watch"
@@ -156,8 +156,9 @@ def run(root: Root, vid: str, *, force: bool = False, cap_hours: float = CAP_HOU
     txt.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
     ep = root.episodes / f"{vid}.json"
+    host, guests = host_and_guests(meta.channel_title, meta.title)
     doc = load_json(ep) if ep.exists() else {
-        "id": vid, "show": meta.channel_title, "title": meta.title, "host": None, "guests": [],
+        "id": vid, "show": meta.channel_title, "title": meta.title, "host": host, "guests": guests,
         "published": meta.published.astimezone(timezone.utc).date().isoformat(),
         "url": f"https://www.youtube.com/watch?v={vid}", "duration_s": meta.duration_seconds,
     }

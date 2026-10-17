@@ -1,0 +1,80 @@
+{
+  "id": "fred-maywald-confirms-the-story-in-recorded-call-1967",
+  "title": "Fred Maywald confirms the story in recorded call",
+  "summary": "Robert Salas tells of Fred Maywald confirms the story in recorded call, about 1967; recorded later at Oscar Flight, Montana, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": null,
+  "place_text": "Oscar Flight, Montana",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 1493.0,
+      "to_s": 1500.0,
+      "teller": "robert-salas",
+      "quote": "Uh but of course he verified the essentials of the story.",
+      "kind": "secondhand",
+      "cites": [
+        "fred-maywald"
+      ],
+      "documents": [
+        "recording-on-spiralgalaxy-org"
+      ]
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3449.0,
+      "to_s": 3460.0,
+      "teller": "robert-salas",
+      "quote": "I didn't find that out until 1996 when I finally contacted uh I was able to contact my commander Fred Maywald",
+      "kind": "firsthand",
+      "cites": [
+        "fred-maywald"
+      ],
+      "documents": [],
+      "difference": "Dates the contact to 1996 and says what it revealed: Salas was at Oscar, not Echo Flight.",
+      "link_reason": "Both are Salas's later contact with his commander Fred Maywald, which confirmed the account. Here that contact is dated 1996, and it is when Salas learned he was at Oscar Flight.",
+      "as_told": {
+        "title": "Salas learns in 1996 he was at Oscar, not Echo Flight",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Oscar Flight, Montana",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

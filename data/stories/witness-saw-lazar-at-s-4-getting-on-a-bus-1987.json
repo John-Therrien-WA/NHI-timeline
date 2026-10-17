@@ -1,0 +1,68 @@
+{
+  "id": "witness-saw-lazar-at-s-4-getting-on-a-bus-1987",
+  "title": "Witness saw Lazar at S-4 getting on a bus",
+  "summary": "Jeremy Corbell tells of Witness saw Lazar at S-4 getting on a bus, about late 1980s at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1989
+  },
+  "place": "nevada-test-site",
+  "place_text": "S-4 / Area 51, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 3731.0,
+      "to_s": 3738.0,
+      "teller": "jeremy-corbell",
+      "quote": "but also public. I got one dude on Ancient Aliens to give his testimony that, you know, he saw Lazar there, you know.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [
+        "ancient-aliens"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "john-lear-helped-get-bob-lazar-the-s4-job-1987",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "name-dennis-mariani-confirmed-by-someone-at-the-nevada-test-1987",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeremy-corbell"
+    ],
+    "episodes": [
+      "-XdvIrexF08"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

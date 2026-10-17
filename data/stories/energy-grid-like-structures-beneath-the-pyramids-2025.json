@@ -46,6 +46,26 @@
         "place_text": "Giza, Egypt",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 5285.0,
+      "to_s": 5295.0,
+      "teller": "jesse-michels",
+      "quote": "they're now There's a guy named Filippo Biondi who I've had on my show. He's an Italian radar scientist who with synthetic aperture radar Doppler tomography has found these this energy",
+      "kind": "host",
+      "cites": [
+        "filippo-biondi"
+      ],
+      "documents": [],
+      "difference": "Names the method, synthetic aperture radar Doppler tomography, and says Biondi has been on Michels's show.",
+      "link_reason": "Both are about Biondi's radar finding structures under the Giza pyramids. Jesse Michels already tells this story, crediting Biondi.",
+      "as_told": {
+        "title": "Filippo Biondi's radar scans of structures under the pyramid",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -70,6 +90,7 @@
       "joe-rogan"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "C_Na1tI5qpw"
     ]
   },

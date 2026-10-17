@@ -1,0 +1,68 @@
+{
+  "id": "chase-letter-after-june-1967-meeting-of-base-ufo-officers",
+  "title": "Chase letter after June 1967 meeting of base UFO officers",
+  "summary": "Robert Salas tells of Chase letter after June 1967 meeting of base UFO officers, about June 1967 at United States (no place named), and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": "united-states",
+  "place_text": "United States Air Force / Condon Committee",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 2219.0,
+      "to_s": 2231.0,
+      "teller": "robert-salas",
+      "quote": ">> And then there was another letter that Chase had written after having a big meeting in June of ' 67 with other base UFO officers",
+      "kind": "official",
+      "cites": [
+        "lewis-chase"
+      ],
+      "documents": [
+        "chase-letter"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "low-s-handwritten-note-hippler-blames-emp-from-nuclear-testi-1967",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nasa-assessor-baron-killed-by-train-500-page-report-vanished-1967",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.1,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 1.05,
+  "tier": "told-once"
+}

@@ -25,6 +25,30 @@
         "edward-condon"
       ],
       "documents": []
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 4287.0,
+      "to_s": 4299.0,
+      "teller": "jesse-michels",
+      "quote": "I did know that a guy named Guy Hodddle, who's an FBI field agent in Washington, is basically uh creating a dossier on Condan",
+      "kind": "host",
+      "cites": [
+        "guy-hottel",
+        "edward-condon"
+      ],
+      "documents": [],
+      "difference": "Calls it a dossier and does not mention the Q clearance being stripped.",
+      "link_reason": "Both say FBI field agent Guy Hottel in Washington built a file on Condon in the 1950s.",
+      "as_told": {
+        "title": "FBI agent Guy Hottel's dossier on Condon",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -48,6 +72,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "bVhSPH2A5Vw"
     ]
   },

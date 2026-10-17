@@ -26,32 +26,55 @@
       "documents": [
         "ufos-and-nukes"
       ]
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3139.0,
+      "to_s": 3152.0,
+      "teller": "robert-salas",
+      "quote": "we're talking between September of ' 66 and March of ' 67, we lost 30 missiles to UFO activity.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Robert Salas as a researcher rather than by Michels crediting Hastings, and names Minot and Malmstrom as the bases.",
+      "link_reason": "Both make the same claim, in nearly the same words, that 30 missiles were lost to UFO activity between September 1966 and March 1967.",
+      "as_told": {
+        "title": "30 missiles lost to UFO activity 1966–67",
+        "years": {
+          "from": 1966,
+          "to": 1967
+        },
+        "place_text": "Minot and Malmstrom Air Force Bases",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "robert-salas"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once"
+  "attestation": 0.6,
+  "tier": "well-attested"
 }

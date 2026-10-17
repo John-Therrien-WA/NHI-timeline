@@ -44,6 +44,31 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 6555.0,
+      "to_s": 6564.0,
+      "teller": "jesse-michels",
+      "quote": "spoke to them about getting an op-ed published between Carl Mel and uh a a cabinet a former cabinet member.",
+      "kind": "host",
+      "cites": [
+        "karl-nell"
+      ],
+      "documents": [
+        "op-ed-submitted-to-the-wall-street-journal"
+      ],
+      "difference": "Names the friend as Karl Nell and says the WSJ rejected the op-ed.",
+      "link_reason": "Both are about a friend's planned Wall Street Journal op-ed with a former cabinet member.",
+      "as_told": {
+        "title": "WSJ rejects Karl Nell and cabinet member op-ed",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -54,7 +79,7 @@
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -65,7 +90,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -73,10 +98,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "V00WcEiKRAY",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.25,
+  "attestation": 1.5,
   "tier": "told-once"
 }

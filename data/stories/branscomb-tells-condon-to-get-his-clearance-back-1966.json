@@ -28,32 +28,86 @@
       "documents": [
         "american-institute-of-physics-interview-transcript"
       ]
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 4185.0,
+      "to_s": 4195.0,
+      "teller": "robert-salas",
+      "quote": "but Bransk told him uh you know the Air Force needs someone to head up this UFO study and",
+      "kind": "secondhand",
+      "cites": [
+        "lewis-branscomb",
+        "edward-condon"
+      ],
+      "documents": [
+        "american-institute-of-physics-interview-with-edward-condon"
+      ],
+      "difference": "Cites the American Institute of Physics interview with Condon as the source and names the University of Colorado as the place.",
+      "link_reason": "Both are Branscomb telling Condon in 1966 to take the UFO study so he could get his clearance back.",
+      "as_told": {
+        "title": "Branscomb steers Condon to UFO study for his clearance",
+        "years": {
+          "from": 1966,
+          "to": 1966
+        },
+        "place_text": "University of Colorado",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 4261.0,
+      "to_s": 4267.0,
+      "teller": "jesse-michels",
+      "quote": "back.\" The interviewer in this American Institute of Physics interview with uh Condan then says,",
+      "kind": "host",
+      "cites": [
+        "edward-condon",
+        "lewis-branscomb"
+      ],
+      "documents": [
+        "american-institute-of-physics-interview-with-edward-condon"
+      ],
+      "difference": "Names the American Institute of Physics interview as the source of the exchange.",
+      "link_reason": "The AIP interview is where Branscomb tells Condon it may be time to get his clearance back. That is the same 1966 exchange as the story.",
+      "as_told": {
+        "title": "Condon's AIP interview on needing a clearance",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "American Institute of Physics",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "robert-salas"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "bVhSPH2A5Vw"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once"
+  "attestation": 1.1,
+  "tier": "well-attested"
 }

@@ -1,0 +1,63 @@
+{
+  "id": "lockheed-martin-vp-tried-to-bring-the-craft-out-into-the-ope-2008",
+  "title": "Lockheed Martin VP tried to bring the craft out into the open",
+  "summary": "Jeremy Corbell tells of Lockheed Martin VP tried to bring the craft out into the open, about c. 2008-2010 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2008,
+    "to": 2010
+  },
+  "place": "united-states",
+  "place_text": "Lockheed Martin, United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 1548.0,
+      "to_s": 1562.0,
+      "teller": "jeremy-corbell",
+      "quote": "That's why you had the vice president of Lockheed Martin trying to get the craft and hardware that they have obtained a long time ago out the back door",
+      "kind": "secondhand",
+      "cites": [
+        "jim-ryder",
+        "colm-kelleher",
+        "james-lacatski"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "glenn-gaffney-blocked-transfer-of-nhi-material-to-bigelow-2008",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeremy-corbell"
+    ],
+    "episodes": [
+      "-XdvIrexF08"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

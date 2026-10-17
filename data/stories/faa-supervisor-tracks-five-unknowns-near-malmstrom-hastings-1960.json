@@ -124,6 +124,29 @@
         "place_text": "Malmstrom Air Force Base, Montana",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3172.0,
+      "to_s": 3178.0,
+      "teller": "jesse-michels",
+      "quote": ">> he was a janitor at Malmstrom Air Force Base, I believe, in ' 67,",
+      "kind": "secondhand",
+      "cites": [
+        "robert-hastings"
+      ],
+      "documents": [],
+      "difference": "Dates the event to March 1967 specifically.",
+      "link_reason": "Both tell of young Robert Hastings, working as a janitor at Malmstrom, being shown radar unknowns.",
+      "as_told": {
+        "title": "Robert Hastings sees radar unknowns at Malmstrom",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -147,6 +170,7 @@
       "robert-hastings"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "8Rr_nE65KkI",
       "IWui5cBkwoE",
       "TH10mD9hQas",

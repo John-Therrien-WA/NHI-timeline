@@ -124,6 +124,29 @@
         "place_text": "Italy",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 5789.0,
+      "to_s": 5799.0,
+      "teller": "jesse-michels",
+      "quote": "So, he is rumored to be part of, you know, this Majestic 12 equivalent, quote unquote, in Italy called the RS33.",
+      "kind": "host",
+      "cites": [
+        "guglielmo-marconi"
+      ],
+      "documents": [],
+      "difference": "Calls RS33 an Italian Majestic 12 equivalent and says Marconi's role is only rumoured.",
+      "link_reason": "Both describe Marconi as a member of the Italian RS33 group, a secret Italian UFO committee.",
+      "as_told": {
+        "title": "Marconi and the Italian RS33 group",
+        "years": {
+          "from": 1930,
+          "to": 1939
+        },
+        "place_text": "Italy",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -147,6 +170,7 @@
       "marconi-s-grandson"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "09KP8XVf5nY",
       "8Rr_nE65KkI",
       "u7g5Sn1DJF4"

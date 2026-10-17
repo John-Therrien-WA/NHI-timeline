@@ -24,32 +24,57 @@
         "robert-jacobs"
       ],
       "documents": []
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3415.0,
+      "to_s": 3422.0,
+      "teller": "jesse-michels",
+      "quote": "people like Bob Jacobs, photo instrumentation specialist at Vandenberg in ' 64,",
+      "kind": "host",
+      "cites": [
+        "bob-jacobs"
+      ],
+      "documents": [],
+      "difference": "Told by the host rather than Hastings, and gives no details of the reprisals in the quote.",
+      "link_reason": "The title is about reprisals against Bob Jacobs after his 1964 Vandenberg filming. That matches the story of his records being denied and his mailbox being blown up.",
+      "as_told": {
+        "title": "Bob Jacobs Vandenberg reprisals",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Vandenberg Air Force Base",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "robert-hastings"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once"
+  "attestation": 0.6,
+  "tier": "told-by-several"
 }

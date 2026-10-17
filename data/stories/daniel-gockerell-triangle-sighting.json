@@ -1,0 +1,54 @@
+{
+  "id": "daniel-gockerell-triangle-sighting",
+  "title": "Daniel Gockerell triangle sighting",
+  "summary": "Jeremy Corbell tells of Daniel Gockerell triangle sighting, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 8377.0,
+      "to_s": 8384.0,
+      "teller": "jeremy-corbell",
+      "quote": "You never got to hear Daniel Gockerell. Small story, but I had him on Weaponized After. He saw a a triangle.",
+      "kind": "secondhand",
+      "cites": [
+        "daniel-gockerell"
+      ],
+      "documents": [
+        "weaponized"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeremy-corbell"
+    ],
+    "episodes": [
+      "-XdvIrexF08"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once"
+}

@@ -26,6 +26,58 @@
         "matthew-sullivan"
       ],
       "documents": []
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 70.0,
+      "to_s": 84.0,
+      "teller": "jeremy-corbell",
+      "quote": "Matthew Sullivan was, in fact, going to testify 2 weeks about before he died, I think. And that's why people and the FBI are investigating if his death was suspicious.",
+      "kind": "secondhand",
+      "cites": [
+        "matthew-sullivan",
+        "fbi"
+      ],
+      "documents": [],
+      "difference": "Says Sullivan was due to testify about two weeks before he died and that the FBI is investigating whether his death was suspicious; it does not mention his firsthand craft experience.",
+      "link_reason": "Both are about the death of Matthew Sullivan, the legacy-program insider. This telling adds that he was about to testify and that the FBI is looking into it.",
+      "as_told": {
+        "title": "Matthew Sullivan was due to testify before his death",
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 8289.0,
+      "to_s": 8294.0,
+      "teller": "jeremy-corbell",
+      "quote": "He had direct direct hands-on with the craft.",
+      "kind": "secondhand",
+      "cites": [
+        "matthew-sullivan",
+        "david-grusch",
+        "icig",
+        "fbi"
+      ],
+      "documents": [
+        "congressional-letter"
+      ],
+      "difference": "Dates it 2025-2026 rather than c. 2023, calls the death suspicious and timed before closed-door testimony, and brings in the ICIG, the FBI and a congressional letter.",
+      "link_reason": "Both tell of Matthew Sullivan's death and his claimed firsthand experience with craft in the legacy program, linked to Grusch.",
+      "as_told": {
+        "title": "Matthew Sullivan's suspicious death before closed-door testimony",
+        "years": {
+          "from": 2025,
+          "to": 2026
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -86,28 +138,30 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "eric-burlison"
+      "eric-burlison",
+      "jeremy-corbell"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "A2-y_HasHEw"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once"
+  "attestation": 1.25,
+  "tier": "well-attested"
 }

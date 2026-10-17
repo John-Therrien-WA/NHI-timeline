@@ -1,0 +1,63 @@
+{
+  "id": "blue-book-closed-in-1969-citing-condon",
+  "title": "Blue Book closed in 1969 citing Condon",
+  "summary": "Robert Salas tells of Blue Book closed in 1969 citing Condon, about 1969 at United States (no place named), and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States Air Force",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3330.0,
+      "to_s": 3341.0,
+      "teller": "robert-salas",
+      "quote": "get out of in in 1969 they even quoted the Condan investigation",
+      "kind": "official",
+      "cites": [
+        "edward-condon"
+      ],
+      "documents": [
+        "condon-report"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "national-underwater-reconnaissance-office-established-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.1,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 1.05,
+  "tier": "told-once"
+}

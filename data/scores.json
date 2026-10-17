@@ -18,31 +18,57 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 108,
-    "told-by-several": 76,
-    "told-once": 2818
+    "well-attested": 120,
+    "told-by-several": 82,
+    "told-once": 2899
   },
   "counts": {
-    "stories": 3002,
-    "tellings": 3825,
-    "independent_tellers": 3229,
-    "repetitions": 97,
-    "documents": 1115,
+    "stories": 3101,
+    "tellings": 3977,
+    "independent_tellers": 3346,
+    "repetitions": 107,
+    "documents": 1163,
     "contradicted": 0,
     "by_kind": {
-      "cosmology": 55,
-      "crash-retrieval": 119,
-      "document": 456,
-      "encounter": 224,
-      "place-lore": 164,
-      "program": 482,
-      "reverse-engineering": 77,
-      "sighting": 254,
-      "testimony": 793,
-      "theory": 378
+      "cosmology": 56,
+      "crash-retrieval": 120,
+      "document": 472,
+      "encounter": 228,
+      "place-lore": 167,
+      "program": 498,
+      "reverse-engineering": 82,
+      "sighting": 263,
+      "testimony": 829,
+      "theory": 386
     }
   },
   "stories": {
+    "13-year-old-corbell-hears-knapp-s-lazar-interview-on-the-rad-1990": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "170-odd-q-cleared-witnesses-of-ufos-at-sensitive-sites": {
       "attestation": 0.1,
       "score": 0.2,
@@ -627,6 +653,32 @@
         "episodes": [
           "OOr98r51Sj0",
           "u7g5Sn1DJF4"
+        ]
+      }
+    },
+    "1975-norad-report-of-ufos-over-malmstrom": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -1363,27 +1415,29 @@
       }
     },
     "30-missiles-lost-to-ufo-activity-1966-67": {
-      "attestation": 0.35,
-      "score": 0.7,
-      "tier": "told-once",
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
+        "researcher": 1,
         "host": 1,
         "documents": 0,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "researcher",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-salas"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "hBrfe4hFuM0"
         ]
       }
@@ -1415,28 +1469,28 @@
       }
     },
     "40-meter-metallic-object-in-the-labyrinth": {
-      "attestation": 0.85,
-      "score": 1.7,
-      "tier": "well-attested",
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 1,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jesse-michels",
           "joe-rogan"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "C_Na1tI5qpw"
         ]
       }
@@ -2196,16 +2250,42 @@
         ]
       }
     },
-    "aaro-undercut-by-cia-and-air-force-figures-such-as-kirkpatri-2022": {
-      "attestation": 0.5,
-      "score": 1.0,
+    "aaro-told-the-wsj-the-shutdown-was-an-emp-test-2025": {
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
-        "firsthand": 0,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
+    "aaro-undercut-by-cia-and-air-force-figures-such-as-kirkpatri-2022": {
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "told-by-several",
+      "profile": {
+        "independent_tellers": 2,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
         "secondhand": 1,
         "researcher": 0,
         "host": 0,
@@ -2213,11 +2293,13 @@
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "journalist",
         "tellers": [
+          "jeremy-corbell",
           "matthew-pines"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "LpLFWdsIU7M"
         ]
       }
@@ -2938,6 +3020,32 @@
         ]
       }
     },
+    "afosi-agent-has-crew-sign-non-disclosure-agreement-1967": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "afosi-confiscates-footage-and-swears-missile-men-to-secrecy-1960": {
       "attestation": 0.1,
       "score": 0.2,
@@ -3327,6 +3435,32 @@
         ],
         "episodes": [
           "V00WcEiKRAY"
+        ]
+      }
+    },
+    "air-force-academy-friend-flew-a-back-engineered-ufo-like-cra": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -3938,27 +4072,29 @@
       }
     },
     "alien-bodies-studied-in-secret-by-biologists": {
-      "attestation": 0.25,
-      "score": 0.5,
-      "tier": "told-once",
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 0,
+        "secondhand": 1,
         "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "secondhand",
         "tellers": [
+          "robert-salas",
           "whitley-strieber"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "ABOP8ZJsyIk"
         ]
       }
@@ -6011,6 +6147,7 @@
           "peter-levenda"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "1iaH1a3A4Lk",
           "Y7PLeu5rTv4",
           "aa9Xx5wI8Rw",
@@ -7256,6 +7393,58 @@
         ]
       }
     },
+    "baghdad-phantom-mission-report-released-early-was-due-for-de": {
+      "attestation": 0.85,
+      "score": 1.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "baghdad-phantom-seven-still-images-then-video-in-the-governm": {
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "bahamas-yacht-trips-with-eldridge-reeves-johnson": {
       "attestation": 0.35,
       "score": 0.7,
@@ -7939,6 +8128,32 @@
         ],
         "episodes": [
           "u7g5Sn1DJF4"
+        ]
+      }
+    },
+    "belt-montana-truck-driver-sees-light-land-in-ravine-1967": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -9103,27 +9318,29 @@
       }
     },
     "bissell-mentions-the-1933-magenta-crash": {
-      "attestation": 0.8,
-      "score": 1.6,
-      "tier": "told-once",
+      "attestation": 1.3,
+      "score": 2.6,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 0,
+        "credited_documents": 1,
         "repetitions": 2,
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "david-grusch"
+          "david-grusch",
+          "robert-salas"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "09KP8XVf5nY",
           "2-GeTxXi670",
           "8Rr_nE65KkI",
@@ -9339,6 +9556,32 @@
         ],
         "episodes": [
           "lcaY-rd9Dhc"
+        ]
+      }
+    },
+    "blue-book-closed-in-1969-citing-condon": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -10181,6 +10424,110 @@
         ]
       }
     },
+    "borland-claims-first-hand-knowledge-of-crash-recovery-revers": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "dylan-borland"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "borland-on-stage-will-neither-confirm-nor-deny-project-rubik": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "dylan-borland"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "borland-s-alleged-classified-drawing-of-a-hieroglyph-like-sy-2020": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "borland-s-alleged-classified-icig-drawing-of-a-pyramid-shape-2020": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "boskin-commission-s-1-1-cpi-overstatement-1990": {
       "attestation": 0.25,
       "score": 0.5,
@@ -10396,27 +10743,29 @@
       }
     },
     "branscomb-tells-condon-to-get-his-clearance-back-1966": {
-      "attestation": 0.35,
-      "score": 0.7,
-      "tier": "told-once",
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 0,
+        "secondhand": 1,
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 1,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "secondhand",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-salas"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "bVhSPH2A5Vw"
         ]
       }
@@ -12862,6 +13211,32 @@
         ]
       }
     },
+    "centcom-bottleneck-on-uap-information": {
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "centcom-formation-of-12-metallic-orbs-skimming-the-ocean": {
       "attestation": 0.35,
       "score": 0.7,
@@ -13304,6 +13679,32 @@
         ],
         "episodes": [
           "1iaH1a3A4Lk"
+        ]
+      }
+    },
+    "chase-letter-after-june-1967-meeting-of-base-ufo-officers": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -13753,8 +14154,8 @@
       }
     },
     "chris-langan-sees-a-disc-near-malmstrom": {
-      "attestation": 0.1,
-      "score": 0.2,
+      "attestation": 0.5,
+      "score": 1.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -13762,18 +14163,19 @@
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 0,
+        "secondhand": 1,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "IWui5cBkwoE"
         ]
       }
@@ -13935,6 +14337,58 @@
         "episodes": [
           "aa9Xx5wI8Rw",
           "dnnpyNuPdXs"
+        ]
+      }
+    },
+    "cia-created-ufo-news-outlet-appearing-around-the-time-of-the-2018": {
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "cia-document-mandating-shaping-the-emerging-uap-narrative": {
+      "attestation": 0.85,
+      "score": 1.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -14118,6 +14572,32 @@
         ],
         "episodes": [
           "2-GeTxXi670"
+        ]
+      }
+    },
+    "cia-official-blocking-transfer-of-a-non-human-craft-between": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -15749,8 +16229,8 @@
       }
     },
     "condon-s-letters-with-colonel-robert-hippler-1960": {
-      "attestation": 0.35,
-      "score": 0.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -15762,7 +16242,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 1,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -15770,6 +16250,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "fzvwBBSmWYA"
         ]
       }
@@ -15803,8 +16284,8 @@
       }
     },
     "condon-wrote-the-mcmahon-secrecy-language-later-used-for-ufo-1946": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -15816,7 +16297,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 4,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -15824,6 +16305,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "bVhSPH2A5Vw"
         ]
       }
@@ -16382,6 +16864,84 @@
         ]
       }
     },
+    "corbell-first-meets-bob-lazar-at-john-lear-s-house-2010": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "corbell-fought-for-grusch-to-testify-in-congress-2023": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "corbell-presses-jacques-vallee-on-lazar-at-his-ranch": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "corbell-s-2018-iraq-jellyfish-ufo-video": {
       "attestation": 0.75,
       "score": 1.5,
@@ -16405,6 +16965,32 @@
         ],
         "episodes": [
           "1f16VvXaSSE"
+        ]
+      }
+    },
+    "corbell-s-private-source-on-the-existence-of-the-s-4-facilit": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -16723,6 +17309,32 @@
         ],
         "episodes": [
           "dnnpyNuPdXs"
+        ]
+      }
+    },
+    "cover-up-of-retrieved-craft-and-beings-since-1947": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -17079,13 +17691,14 @@
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
           "bob-lazar"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "d9tdJ2SkBKQ"
         ]
       }
@@ -17649,6 +18262,32 @@
         ]
       }
     },
+    "daniel-gockerell-triangle-sighting": {
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "daniel-sheehan-as-chief-of-station-for-the-jesuits-in-dc-1970": {
       "attestation": 0.25,
       "score": 0.5,
@@ -17985,6 +18624,32 @@
         ],
         "episodes": [
           "bVhSPH2A5Vw"
+        ]
+      }
+    },
+    "david-grusch-testimony-and-icig-report-2022": {
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -19251,6 +19916,32 @@
         ]
       }
     },
+    "different-pieces-of-legacy-hardware-held-in-different-places-2020": {
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "dimethyl-sulfide-found-on-exoplanets-as-a-sign-of-life-elsew": {
       "attestation": 0.25,
       "score": 0.5,
@@ -19586,6 +20277,32 @@
         ],
         "episodes": [
           "Y7PLeu5rTv4"
+        ]
+      }
+    },
+    "doe-check-finds-no-nuclear-tests-on-shutdown-dates-1967": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -20587,28 +21304,28 @@
       }
     },
     "dylan-borland-s-triangle-over-langley": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-by-several",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 0,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 3,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
-          "uapgerb"
+          "dylan-borland"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "u7g5Sn1DJF4",
           "yGtVzBbUvx4"
         ]
@@ -20878,28 +21595,57 @@
         ]
       }
     },
-    "echo-flight-incident-and-the-boeing-sac-report-1967": {
-      "attestation": 0.35,
-      "score": 0.7,
-      "tier": "told-once",
+    "echo-flight-incident-1967": {
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels",
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
+    "echo-flight-incident-and-the-boeing-sac-report-1967": {
+      "attestation": 1.4,
+      "score": 2.8,
+      "tier": "well-attested",
+      "profile": {
+        "independent_tellers": 2,
+        "firsthand": 0,
+        "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 1,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "official",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-salas"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "8Rr_nE65KkI"
         ]
       }
@@ -21060,6 +21806,32 @@
         "episodes": [
           "bVhSPH2A5Vw",
           "uVVqFg2v7ro"
+        ]
+      }
+    },
+    "edgar-mitchell-s-last-filmed-interview-a-secret-group-withho-2015": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -21346,6 +22118,32 @@
         ],
         "episodes": [
           "1sxmSMzqnmA"
+        ]
+      }
+    },
+    "einstein-letter-to-fdr-leads-to-the-manhattan-project-1939": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -22271,6 +23069,7 @@
           "joe-rogan"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "C_Na1tI5qpw"
         ]
       }
@@ -23426,6 +24225,7 @@
           "robert-hastings"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "8Rr_nE65KkI",
           "IWui5cBkwoE",
           "TH10mD9hQas",
@@ -23719,6 +24519,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "bVhSPH2A5Vw"
         ]
       }
@@ -25087,6 +25888,32 @@
         ]
       }
     },
+    "former-dig-head-tells-congress-cia-spied-on-whistleblowers-2026": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "former-dni-discusses-ufo-tracking-program-at-area-51": {
       "attestation": 0.1,
       "score": 0.2,
@@ -25990,6 +26817,32 @@
         ]
       }
     },
+    "fred-maywald-confirms-the-story-in-recorded-call-1967": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "frederick-valentich-disappearance-1978": {
       "attestation": 0.1,
       "score": 0.2,
@@ -26483,6 +27336,7 @@
           "marconi-s-grandson"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "09KP8XVf5nY",
           "8Rr_nE65KkI",
           "u7g5Sn1DJF4"
@@ -27201,15 +28055,15 @@
       }
     },
     "general-neil-mccasland-goes-missing-2020": {
-      "attestation": 0.35,
-      "score": 0.7,
-      "tier": "told-once",
+      "attestation": 0.95,
+      "score": 1.9,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
@@ -27217,11 +28071,13 @@
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "journalist",
         "tellers": [
+          "jeremy-corbell",
           "jesse-michels"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "8Rr_nE65KkI",
           "A2-y_HasHEw",
           "kccrkCGGzX4"
@@ -27754,6 +28610,32 @@
         ],
         "episodes": [
           "1sxmSMzqnmA"
+        ]
+      }
+    },
+    "getting-bob-lazar-onto-joe-rogan-s-show-by-speakerphone-call-2019": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -28573,6 +29455,32 @@
         ]
       }
     },
+    "gordon-cooper-s-book-von-braun-worked-on-ufo-craft-in-nazi-g-1940": {
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "gordon-cooper-s-saucer-shaped-craft-flying-in-formation-1950": {
       "attestation": 1.0,
       "score": 2.0,
@@ -29095,6 +30003,32 @@
         ],
         "episodes": [
           "1sxmSMzqnmA"
+        ]
+      }
+    },
+    "great-falls-tribune-reports-of-strange-lights-that-week-1967": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -29727,6 +30661,32 @@
         ]
       }
     },
+    "grusch-approaches-knapp-and-corbell-at-a-bar-at-the-scu-even-2022": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "grusch-assigned-to-the-uap-task-force-2019": {
       "attestation": 1.0,
       "score": 2.0,
@@ -29916,8 +30876,8 @@
       }
     },
     "grusch-gave-hundreds-of-pages-to-the-icig-2022": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -29929,7 +30889,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -29937,6 +30897,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "8Rr_nE65KkI",
           "A2-y_HasHEw",
           "lcaY-rd9Dhc",
@@ -29945,16 +30906,16 @@
       }
     },
     "grusch-harassed-and-his-medical-file-leaked-after-whistleblo-2022": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 2,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -29963,9 +30924,11 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-davis"
+          "eric-davis",
+          "jeremy-corbell"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "LnAiNChnuEQ"
         ]
       }
@@ -30127,27 +31090,29 @@
       }
     },
     "grusch-s-claims-of-reverse-engineering-programs-and-craft-in-2023": {
-      "attestation": 0.1,
-      "score": 0.2,
-      "tier": "told-once",
+      "attestation": 0.85,
+      "score": 1.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 0,
+        "secondhand": 1,
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 0,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "secondhand",
         "tellers": [
+          "jeremy-corbell",
           "jesse-michels"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "y_8IKKcTntQ"
         ]
       }
@@ -30732,6 +31697,58 @@
         ]
       }
     },
+    "h-g-wells-the-world-set-free-predicts-the-atomic-bomb-1914": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
+    "hahn-splits-the-atom-in-1938": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "haim-eshed-and-the-galactic-federation-2020": {
       "attestation": 1.5,
       "score": 3.0,
@@ -30755,6 +31772,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "2-GeTxXi670",
           "bVhSPH2A5Vw"
         ]
@@ -31482,6 +32500,32 @@
         ]
       }
     },
+    "heisenberg-s-heavy-water-program-and-deuterium-reactor-ufo-p-1940": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "helen-mccall-s-sol-foundation-white-paper-on-uaps-and-financ-2024": {
       "attestation": 0.5,
       "score": 1.0,
@@ -31771,6 +32815,32 @@
         "episodes": [
           "Y7PLeu5rTv4",
           "kccrkCGGzX4"
+        ]
+      }
+    },
+    "hermann-oberth-on-video-about-ufos": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -32403,6 +33473,32 @@
         ]
       }
     },
+    "homeless-man-says-look-up-and-corbell-sees-a-globe-in-the-sk-2004": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "hooded-figures-spraying-plague-from-landed-craft": {
       "attestation": 0.5,
       "score": 1.0,
@@ -32452,6 +33548,32 @@
         ],
         "episodes": [
           "bVhSPH2A5Vw"
+        ]
+      }
+    },
+    "hoover-letter-calling-condon-a-russian-spy-1949": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -34259,6 +35381,32 @@
         ]
       }
     },
+    "intel-sources-seeding-claim-of-a-craft-slowly-moving-to-eart-2025": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "intelectron-hearing-device-for-the-deaf-1962": {
       "attestation": 0.25,
       "score": 0.5,
@@ -34808,6 +35956,32 @@
         ]
       }
     },
+    "israeli-nuclear-program-entrepreneur-deflects-on-ufos-2025": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "italian-air-force-chief-introduces-malmgren-s-book-2025": {
       "attestation": 1.0,
       "score": 2.0,
@@ -35331,27 +36505,29 @@
       }
     },
     "jacobs-records-denied-and-mailbox-blown-up-1964": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
         "researcher": 0,
-        "host": 0,
+        "host": 1,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
+          "jesse-michels",
           "robert-hastings"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "fzvwBBSmWYA"
         ]
       }
@@ -35905,29 +37081,29 @@
       }
     },
     "james-lacatski-stepped-inside-a-craft": {
-      "attestation": 2.0,
-      "score": 4.0,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 3,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
-        "repetitions": 0,
+        "credited_documents": 1,
+        "repetitions": 2,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "firsthand",
         "tellers": [
           "eric-davis",
-          "jesse-michels",
-          "matthew-brown"
+          "jeremy-corbell"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "1f16VvXaSSE",
           "xnxasfyHtfo",
           "yGtVzBbUvx4"
@@ -36514,6 +37690,32 @@
         ]
       }
     },
+    "jesse-michels-also-told-of-an-incoming-craft-2025": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "jesse-visits-aztec-crash-site-with-the-ramseys-1948": {
       "attestation": 1.0,
       "score": 2.0,
@@ -36804,6 +38006,32 @@
         ]
       }
     },
+    "jfk-back-channels-with-khrushchev-and-dulles-1960": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "jfk-briefed-at-los-alamos-1962": {
       "attestation": 0.1,
       "score": 0.2,
@@ -37053,8 +38281,8 @@
       }
     },
     "jim-ryder-s-talk-the-garment-of-god": {
-      "attestation": 0.75,
-      "score": 1.5,
+      "attestation": 1.0,
+      "score": 2.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -37066,7 +38294,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 1,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -37074,6 +38302,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "1f16VvXaSSE",
           "Y7PLeu5rTv4"
         ]
@@ -37706,6 +38935,32 @@
         ]
       }
     },
+    "john-lear-s-1977-lake-level-photos-of-groom-lake-and-the-fil": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "john-lear-s-area-51-access-and-the-f-117-leak-1980": {
       "attestation": 0.1,
       "score": 0.2,
@@ -38120,6 +39375,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "fzvwBBSmWYA"
         ]
       }
@@ -38542,6 +39798,32 @@
         ],
         "episodes": [
           "hBrfe4hFuM0"
+        ]
+      }
+    },
+    "journalists-on-cia-payroll-operation-mockingbird-1960": {
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -39673,6 +40955,32 @@
         ]
       }
     },
+    "knapp-and-corbell-broke-the-fravor-tic-tac-story-on-radio-be-2017": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "knew-bigelow-at-the-rockefeller-ranch-1993": {
       "attestation": 1.0,
       "score": 2.0,
@@ -40091,6 +41399,32 @@
         ],
         "episodes": [
           "2-GeTxXi670"
+        ]
+      }
+    },
+    "lacatski-s-warning-that-yankee-blue-was-a-psyop": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -40907,6 +42241,32 @@
         ]
       }
     },
+    "lazar-s-work-on-power-and-propulsion-in-project-galileo-1987": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "lazar-s-work-on-the-los-alamos-linear-accelerator-1980": {
       "attestation": 1.0,
       "score": 2.0,
@@ -41164,6 +42524,110 @@
         ],
         "episodes": [
           "yGtVzBbUvx4"
+        ]
+      }
+    },
+    "lear-and-the-stealth-fighter-story-given-to-ned-day-1980": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "lear-flew-drug-flights-for-cia-operations-1980": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "lear-s-soul-catcher-on-the-moon-theory": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "lear-takes-ufo-claims-to-klas-knapp-checks-the-files-1987": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -41852,6 +43316,32 @@
         ]
       }
     },
+    "lewis-chase-reports-to-air-force-headquarters-and-condon-1967": {
+      "attestation": 1.3,
+      "score": 2.6,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 2,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "liberation-times-piece-on-the-legacy-program-ecosystem-doe-c": {
       "attestation": 0.85,
       "score": 1.7,
@@ -42191,6 +43681,32 @@
         ],
         "episodes": [
           "areO7Mej44E"
+        ]
+      }
+    },
+    "lockheed-martin-vp-tried-to-bring-the-craft-out-into-the-ope-2008": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -42587,6 +44103,33 @@
         "episodes": [
           "fzvwBBSmWYA",
           "hBrfe4hFuM0"
+        ]
+      }
+    },
+    "low-s-handwritten-note-hippler-blames-emp-from-nuclear-testi-1967": {
+      "attestation": 1.4,
+      "score": 2.8,
+      "tier": "well-attested",
+      "profile": {
+        "independent_tellers": 2,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 2,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "jesse-michels",
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -43161,6 +44704,32 @@
         ],
         "episodes": [
           "09KP8XVf5nY"
+        ]
+      }
+    },
+    "magenta-craft-taken-to-nazi-germany-1930": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -43823,31 +45392,32 @@
       }
     },
     "malmstrom-missiles-disabled-by-red-glowing-object-1967": {
-      "attestation": 3.3,
-      "score": 6.6,
+      "attestation": 3.55,
+      "score": 7.1,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 5,
-        "firsthand": 0,
+        "firsthand": 1,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 4,
+        "secondhand": 3,
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
-        "repetitions": 0,
+        "credited_documents": 1,
+        "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "official",
+        "strongest_kind": "firsthand",
         "tellers": [
           "daniel-sheehan",
           "james-fox",
-          "jesse-michels",
           "karl-nell",
-          "kevin-knuth"
+          "kevin-knuth",
+          "robert-salas"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "1iaH1a3A4Lk",
           "8Rr_nE65KkI",
           "C4rSj5Aum7w",
@@ -44250,6 +45820,32 @@
         ],
         "episodes": [
           "09KP8XVf5nY"
+        ]
+      }
+    },
+    "marconi-s-grandson-tells-oggi-about-the-ufo-committee-1930": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -44830,6 +46426,110 @@
         ]
       }
     },
+    "matthew-brown-discovers-immaculate-constellation-on-intellin-2020": {
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "matthew-brown-s-view-of-humans-as-a-resource-for-nhi-2020": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "matthew-brown-s-wmd-corruption-whistleblowing-2020": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "matthew-brown-snuck-into-secret-congressional-briefing-2024": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "matthew-brown-white-house-ai-timeline-management-system": {
       "attestation": 0.5,
       "score": 1.0,
@@ -44858,27 +46558,29 @@
       }
     },
     "matthew-sullivan-s-death-and-his-legacy-program-experience-2023": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 2,
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 0,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-burlison"
+          "eric-burlison",
+          "jeremy-corbell"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "A2-y_HasHEw"
         ]
       }
@@ -45062,6 +46764,32 @@
         ],
         "episodes": [
           "A2-y_HasHEw"
+        ]
+      }
+    },
+    "mccasland-delonge-contacts-as-a-disclosure-operation-meant-t-2015": {
+      "attestation": 0.85,
+      "score": 1.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -45377,6 +47105,32 @@
         ],
         "episodes": [
           "8Rr_nE65KkI"
+        ]
+      }
+    },
+    "medvedev-april-fool-s-interview-on-russia-s-ufo-file": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -46684,6 +48438,58 @@
         ]
       }
     },
+    "military-video-of-instantaneous-acceleration-with-a-weapons": {
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "minot-afb-all-ten-missiles-down-after-ufo-1966": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "minot-afb-radar-reviewed-by-kevin-knuth-1968": {
       "attestation": 0.1,
       "score": 0.2,
@@ -47181,27 +48987,28 @@
       }
     },
     "months-of-swarms-over-navy-ships-off-southern-california-2019": {
-      "attestation": 0.5,
-      "score": 1.0,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
-        "secondhand": 1,
+        "journalist": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "journalist",
         "tellers": [
-          "marik-von-rennenkampf"
+          "jeremy-corbell"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "1iaH1a3A4Lk"
         ]
       }
@@ -49199,6 +51006,32 @@
         ]
       }
     },
+    "new-start-treaty-to-reduce-nuclear-weapons-2010": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "new-zealand-archives-reveal-kaikoura-cover-up-and-squid-boat-1978": {
       "attestation": 0.5,
       "score": 1.0,
@@ -50304,30 +52137,58 @@
       }
     },
     "non-human-biologics-recovered-with-crashed-craft": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 1.75,
+      "score": 3.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 2,
+        "secondhand": 3,
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 0,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
           "david-grusch",
-          "jake-barber"
+          "jake-barber",
+          "jeremy-corbell"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "dnnpyNuPdXs",
           "kRO5jOa06Qw"
+        ]
+      }
+    },
+    "non-operational-emp-testing-at-samso-and-hill-afb-1960": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -50825,6 +52686,32 @@
         ]
       }
     },
+    "nuclear-posture-review-and-the-motive-to-discredit-witnesses-1950": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "nuclear-weapons-aboard-the-nimitz-group-and-the-ufo-nukes-li-2004": {
       "attestation": 0.35,
       "score": 0.7,
@@ -51168,6 +53055,32 @@
         ]
       }
     },
+    "objects-on-radar-and-seen-by-airmen-over-malmstrom-1967": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "oceanographer-says-the-objects-are-undersea-or-subterranean-2025": {
       "attestation": 0.5,
       "score": 1.0,
@@ -51191,6 +53104,84 @@
         ],
         "episodes": [
           "09KP8XVf5nY"
+        ]
+      }
+    },
+    "odni-claim-that-dylan-borland-drew-a-sensor-system-2025": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "odni-nine-month-operation-against-whistleblowers-and-journal-2025": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
+    "odni-tells-corbell-that-borland-told-the-icig-about-project-2020": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -51690,6 +53681,32 @@
         ]
       }
     },
+    "oppenheimer-s-late-speech-on-abolishing-nuclear-weapons": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "orange-orb-lands-near-an-open-minot-missile-silo-1966": {
       "attestation": 0.5,
       "score": 1.0,
@@ -51819,6 +53836,32 @@
         ],
         "episodes": [
           "C4rSj5Aum7w"
+        ]
+      }
+    },
+    "oscar-wolfe-deathbed-interview-about-s4-autopsy-film-and-gra": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -51976,6 +54019,32 @@
         ],
         "episodes": [
           "C4rSj5Aum7w"
+        ]
+      }
+    },
+    "other-ufo-nuclear-witnesses": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -52686,6 +54755,32 @@
         ]
       }
     },
+    "paperclip-scientists-confirm-german-ufo-work-to-astronauts-1960": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "paperclip-scientists-in-new-mexico-mail-soviet-held-colleagu-1947": {
       "attestation": 0.25,
       "score": 0.5,
@@ -52942,6 +55037,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "d9tdJ2SkBKQ",
           "fzvwBBSmWYA"
         ]
@@ -53156,6 +55252,32 @@
         ],
         "episodes": [
           "hBrfe4hFuM0"
+        ]
+      }
+    },
+    "patient-17-s-implant-cut-from-his-leg-and-tested-for-zinc-64-2010": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -56331,27 +58453,29 @@
       }
     },
     "project-sign-estimate-burned-by-vandenberg-1948": {
-      "attestation": 0.35,
-      "score": 0.7,
-      "tier": "told-once",
+      "attestation": 1.65,
+      "score": 3.3,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
-        "official_records": 0,
+        "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 1,
+        "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "official",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-salas"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "bVhSPH2A5Vw"
         ]
       }
@@ -58080,6 +60204,7 @@
           "randy-anderson"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "OOr98r51Sj0",
           "V00WcEiKRAY",
           "areO7Mej44E",
@@ -58190,6 +60315,32 @@
         ],
         "episodes": [
           "Y7PLeu5rTv4"
+        ]
+      }
+    },
+    "ray-fowler-s-sylvania-contractors-report-ufos-to-condon-inve-1967": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -59658,6 +61809,33 @@
         ]
       }
     },
+    "reverse-engineering-of-a-laser-weapon-from-a-downed-russian": {
+      "attestation": 0.7,
+      "score": 1.4,
+      "tier": "told-by-several",
+      "profile": {
+        "independent_tellers": 2,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell",
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "reverse-engineering-run-out-of-national-labs": {
       "attestation": 0.8,
       "score": 1.6,
@@ -60156,6 +62334,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "09KP8XVf5nY",
           "1iaH1a3A4Lk",
           "8Rr_nE65KkI",
@@ -60167,6 +62346,32 @@
           "kRO5jOa06Qw",
           "uVVqFg2v7ro",
           "yGtVzBbUvx4"
+        ]
+      }
+    },
+    "robert-jameson-s-targeting-team-called-in-to-restart-oscar-f-1967": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -60193,6 +62398,32 @@
         ],
         "episodes": [
           "C4rSj5Aum7w"
+        ]
+      }
+    },
+    "robert-low-memo-on-condon-study-1966": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -60480,6 +62711,32 @@
         ],
         "episodes": [
           "8Rr_nE65KkI"
+        ]
+      }
+    },
+    "robertson-panel-directive-to-watch-and-infiltrate-ufo-groups-1953": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -61431,6 +63688,32 @@
         ]
       }
     },
+    "roy-craig-interview-with-lewis-chase-who-denies-knowledge-1967": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "rubio-credible-witnesses-with-high-clearances-fear-for-their-2020": {
       "attestation": 0.5,
       "score": 1.0,
@@ -61875,6 +64158,32 @@
         ]
       }
     },
+    "russian-general-alexeyev-in-german-magazine-2000": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "russian-high-school-taught-moon-landing-hoax": {
       "attestation": 0.5,
       "score": 1.0,
@@ -61898,6 +64207,32 @@
         ],
         "episodes": [
           "C_Na1tI5qpw"
+        ]
+      }
+    },
+    "russian-officials-studying-ufos": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -62192,6 +64527,32 @@
         ]
       }
     },
+    "sac-telegram-on-echo-flight-demands-boeing-investigation-1967": {
+      "attestation": 1.05,
+      "score": 2.1,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
     "sagan-and-shklovskii-s-intelligent-life-in-the-universe-1960": {
       "attestation": 0.5,
       "score": 1.0,
@@ -62371,6 +64732,58 @@
         ],
         "episodes": [
           "uVVqFg2v7ro"
+        ]
+      }
+    },
+    "salas-s-14-point-wsj-rebuttal-2025": {
+      "attestation": 1.5,
+      "score": 3.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 2,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
+        ]
+      }
+    },
+    "salas-s-2-5-hour-aaro-interview": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -64064,6 +66477,32 @@
         ]
       }
     },
+    "shafts-below-the-sphinx-admitted-by-zahi-hawass": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "shallow-lunar-craters-with-a-hard-convex-floor": {
       "attestation": 0.25,
       "score": 0.5,
@@ -64557,6 +66996,32 @@
         ],
         "episodes": [
           "EzPmG_7WhXc"
+        ]
+      }
+    },
+    "silver-surfer-video-bill-nye-s-brine-shrimp-claim-and-the-re-2008": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -65811,6 +68276,32 @@
         ],
         "episodes": [
           "y_8IKKcTntQ"
+        ]
+      }
+    },
+    "special-ufo-briefing-for-maintenance-teams-1967": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "robert-salas"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -72166,13 +74657,14 @@
         "host": 0,
         "documents": 0,
         "credited_documents": 1,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
           "matthew-brown"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "yGtVzBbUvx4"
         ]
       }
@@ -72828,6 +75320,7 @@
           "merrick"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "1iaH1a3A4Lk",
           "A2-y_HasHEw",
           "IWui5cBkwoE",
@@ -74015,16 +76508,16 @@
       }
     },
     "ufo-trapped-in-canyon-near-belt-montana-1967": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 2,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -74033,9 +76526,11 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-salas"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "fzvwBBSmWYA"
         ]
       }
@@ -74305,6 +76800,32 @@
         ],
         "episodes": [
           "C_Na1tI5qpw"
+        ]
+      }
+    },
+    "ukraine-peace-deal-of-april-2022": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -74958,6 +77479,32 @@
         ]
       }
     },
+    "us-fitted-a-non-human-power-source-into-a-human-built-craft": {
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
+        ]
+      }
+    },
     "us-racing-to-occupy-earth-moon-lagrangian-point-2020": {
       "attestation": 0.8,
       "score": 1.6,
@@ -75430,27 +77977,30 @@
       }
     },
     "vallee-finds-a-classified-battelle-letter-about-a-secret-pro-1950": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 1.35,
+      "score": 2.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
         "researcher": 0,
-        "host": 0,
+        "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "james-fox"
+          "james-fox",
+          "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
+          "-XdvIrexF08",
           "bVhSPH2A5Vw"
         ]
       }
@@ -76774,27 +79324,29 @@
       }
     },
     "von-braun-s-deathbed-warning-about-a-staged-alien-threat-1977": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
         "researcher": 0,
-        "host": 0,
+        "host": 1,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
+          "jesse-michels",
           "steven-greer"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "areO7Mej44E"
         ]
       }
@@ -76823,6 +79375,32 @@
         "episodes": [
           "1f16VvXaSSE",
           "2-GeTxXi670"
+        ]
+      }
+    },
+    "von-braun-tells-edgar-mitchell-of-his-knowledge": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-0g3lLGxNfc"
         ]
       }
     },
@@ -76978,14 +79556,15 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "8Rr_nE65KkI",
           "yGtVzBbUvx4"
         ]
       }
     },
     "wall-street-journal-op-ed-and-david-spergel-s-dismissal-2023": {
-      "attestation": 1.25,
-      "score": 2.5,
+      "attestation": 1.5,
+      "score": 3.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -76997,7 +79576,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 1,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -77005,6 +79584,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "-0g3lLGxNfc",
           "V00WcEiKRAY",
           "yGtVzBbUvx4"
         ]
@@ -77326,15 +79906,15 @@
       }
     },
     "webster-hubbell-s-book-on-clinton-s-jfk-and-ufo-inquiries-1990": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
@@ -77342,11 +79922,13 @@
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "journalist",
         "tellers": [
+          "jeremy-corbell",
           "steven-greer"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "areO7Mej44E"
         ]
       }
@@ -77771,6 +80353,32 @@
         ],
         "episodes": [
           "areO7Mej44E"
+        ]
+      }
+    },
+    "white-house-ai-timeline-manipulator-2020": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },
@@ -78220,27 +80828,29 @@
       }
     },
     "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "told-once",
+      "attestation": 2.25,
+      "score": 4.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 0,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 3,
         "repetitions": 2,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-davis"
+          "eric-davis",
+          "jeremy-corbell"
         ],
         "episodes": [
+          "-XdvIrexF08",
           "LnAiNChnuEQ",
           "bVhSPH2A5Vw",
           "d9tdJ2SkBKQ",
@@ -78378,6 +80988,32 @@
         ],
         "episodes": [
           "hBrfe4hFuM0"
+        ]
+      }
+    },
+    "witness-saw-lazar-at-s-4-getting-on-a-bus-1987": {
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jeremy-corbell"
+        ],
+        "episodes": [
+          "-XdvIrexF08"
         ]
       }
     },

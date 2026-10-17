@@ -1,0 +1,56 @@
+{
+  "id": "doe-check-finds-no-nuclear-tests-on-shutdown-dates-1967",
+  "title": "DOE check finds no nuclear tests on shutdown dates",
+  "summary": "Robert Salas tells of DOE check finds no nuclear tests on shutdown dates, about March 16 and 24, 1967 at Nevada test site and Area 51, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": "nevada-test-site",
+  "place_text": "Nevada test site",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 2358.0,
+      "to_s": 2366.0,
+      "teller": "robert-salas",
+      "quote": "There were no there were no nuclear tests on June or March 16th or March 24th.",
+      "kind": "researcher",
+      "cites": [
+        "james-clattz",
+        "department-of-energy"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

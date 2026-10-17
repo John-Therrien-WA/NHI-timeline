@@ -224,6 +224,28 @@
         "place_text": "EG&G parking lot",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 6630.0,
+      "to_s": 6633.0,
+      "teller": "jeremy-corbell",
+      "quote": "I knew about the Wilson-Davis thing long before.",
+      "kind": "secondhand",
+      "cites": [
+        "edgar-mitchell"
+      ],
+      "documents": [
+        "wilson-davis"
+      ],
+      "difference": "Corbell says he knew of it early through Mitchell, but gives no content or date.",
+      "link_reason": "The Wilson-Davis memo is the stored Wilson memo story, which already links Mitchell to having the memo.",
+      "as_told": {
+        "title": "Wilson-Davis matter known early through Mitchell",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -234,25 +256,27 @@
     }
   ],
   "tags": [],
-  "score": 3.0,
+  "score": 4.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "eric-davis"
+      "eric-davis",
+      "jeremy-corbell"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "LnAiNChnuEQ",
       "bVhSPH2A5Vw",
       "d9tdJ2SkBKQ",
@@ -262,6 +286,6 @@
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 1.5,
-  "tier": "told-once"
+  "attestation": 2.25,
+  "tier": "well-attested"
 }

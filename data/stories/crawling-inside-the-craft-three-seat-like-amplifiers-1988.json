@@ -22,6 +22,29 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 3288.0,
+      "to_s": 3296.0,
+      "teller": "jeremy-corbell",
+      "quote": "I know there are alien craft here >> [music] >> from another planet. I now I saw other ones, but I was inside one.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Relayed secondhand by Corbell, stressing that the craft was from another planet and that Lazar saw others, with no mention of seats or amplifiers.",
+      "link_reason": "Both tell of Lazar's claim that he was inside an alien craft at S-4 in the late 1980s.",
+      "as_told": {
+        "title": "Lazar says he was inside an alien craft",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "S-4, Nevada",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
@@ -38,13 +61,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "bob-lazar"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "d9tdJ2SkBKQ"
     ]
   },

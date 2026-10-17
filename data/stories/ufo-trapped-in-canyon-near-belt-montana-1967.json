@@ -24,18 +24,41 @@
         "bob-jameson"
       ],
       "documents": []
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 1449.0,
+      "to_s": 1459.0,
+      "teller": "robert-salas",
+      "quote": "there. And I found out later, yeah, as soon as daylight came, they sent the helicopters and this UFO just went right through the helicopters and out between the helicopters and out.",
+      "kind": "secondhand",
+      "cites": [
+        "robert-jameson"
+      ],
+      "documents": [],
+      "difference": "Adds that helicopters were sent at daylight and the UFO escaped between them.",
+      "link_reason": "Both tell of the UFO trapped in the canyon near Belt, Montana, credited to Bob Jameson.",
+      "as_told": {
+        "title": "UFO trapped in Belt canyon escapes between helicopters",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Belt, Montana",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -44,12 +67,14 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "robert-salas"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once"
+  "attestation": 1.0,
+  "tier": "told-by-several"
 }

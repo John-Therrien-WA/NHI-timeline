@@ -1,0 +1,55 @@
+{
+  "id": "russian-general-alexeyev-in-german-magazine-2000",
+  "title": "Russian general Alexeyev in German magazine",
+  "summary": "Jesse Michels tells of Russian general Alexeyev in German magazine, about 2000 at Russia / Germany, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2000
+  },
+  "place": null,
+  "place_text": "Russia / Germany",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 5776.0,
+      "to_s": 5784.0,
+      "teller": "jesse-michels",
+      "quote": "Russian general Vasilei Alexa coming out in a German magazine 2000 saying >> this stuff.",
+      "kind": "host",
+      "cites": [
+        "vasily-alexeyev"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once"
+}

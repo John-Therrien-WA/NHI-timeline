@@ -1,0 +1,79 @@
+{
+  "id": "aaro-told-the-wsj-the-shutdown-was-an-emp-test-2025",
+  "title": "AARO told the WSJ the shutdown was an EMP test",
+  "summary": "Robert Salas tells of AARO told the WSJ the shutdown was an EMP test, about 2025 at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2025
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 6242.0,
+      "to_s": 6251.0,
+      "teller": "robert-salas",
+      "quote": "so that they were able to tell Joel Sheckchman that this was some sort of EMP test.",
+      "kind": "firsthand",
+      "cites": [
+        "joel-schectman",
+        "sean-kirkpatrick"
+      ],
+      "documents": [
+        "wall-street-journal-article"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "five-executive-orders-given-to-the-president-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "michael-kratsios-statement-on-manipulating-time-and-space-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "salas-s-14-point-wsj-rebuttal-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "trump-executive-order-making-nasa-an-intelligence-agency-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once"
+}

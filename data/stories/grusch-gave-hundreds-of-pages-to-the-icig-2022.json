@@ -100,6 +100,32 @@
         "place_text": "United States",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 917.0,
+      "to_s": 924.0,
+      "teller": "jesse-michels",
+      "quote": "he gave presumably hundreds of pages to Thomas Monheim, the IC Inspector General.",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "thomas-monheim"
+      ],
+      "documents": [
+        "icig-complaint"
+      ],
+      "difference": "Dates it 2022-2023 and says the page count is presumed.",
+      "link_reason": "Both are Grusch handing hundreds of pages to Inspector General Thomas Monheim.",
+      "as_told": {
+        "title": "Grusch's submission to the IC Inspector General",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "Office of the IC Inspector General, United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -115,7 +141,7 @@
     }
   ],
   "tags": [],
-  "score": 2.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -126,7 +152,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -134,12 +160,13 @@
       "jesse-michels"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "8Rr_nE65KkI",
       "A2-y_HasHEw",
       "lcaY-rd9Dhc",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.25,
   "tier": "told-once"
 }

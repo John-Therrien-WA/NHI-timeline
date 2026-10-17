@@ -25,6 +25,27 @@
         "george-knapp"
       ],
       "documents": []
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 6039.0,
+      "to_s": 6049.0,
+      "teller": "jeremy-corbell",
+      "quote": "show you like with the 2019 100 UAP swarms some were pyramid in shape",
+      "kind": "journalist",
+      "cites": [],
+      "documents": [],
+      "difference": "Puts the swarms at about 100 UAP and says some were pyramid-shaped, without giving a place.",
+      "link_reason": "Both are about the 2019 UAP swarms that Corbell and Knapp reported. These are the same swarms as the months of incursions over Navy ships off Southern California.",
+      "as_told": {
+        "title": "2019 swarms of about 100 UAP, some pyramid-shaped",
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "place_text": "unspecified",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [
@@ -40,28 +61,29 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
-    "secondhand": 1,
+    "journalist": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "journalist",
     "tellers": [
-      "marik-von-rennenkampf"
+      "jeremy-corbell"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "1iaH1a3A4Lk"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.6,
   "tier": "told-once"
 }

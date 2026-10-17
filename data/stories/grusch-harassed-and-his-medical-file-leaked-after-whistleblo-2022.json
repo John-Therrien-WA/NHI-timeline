@@ -7,7 +7,7 @@
     "from": 2022,
     "to": 2023
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Grusch's home and vehicles; National Reconnaissance Office",
   "coordinates": null,
   "kind": "testimony",
@@ -24,18 +24,41 @@
         "david-grusch"
       ],
       "documents": []
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 716.0,
+      "to_s": 719.0,
+      "teller": "jeremy-corbell",
+      "quote": "I was in combat Afghanistan 2013.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Names the diagnosis as PTSD from combat in Afghanistan in 2013, and does not mention harassment of his wife or the NRO.",
+      "link_reason": "Both say Grusch's medical and mental-health history was used against him by an agency after he came forward.",
+      "as_told": {
+        "title": "Grusch's PTSD diagnosis used against him by an agency",
+        "years": {
+          "from": 2013,
+          "to": 2013
+        },
+        "place_text": "Afghanistan; United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -44,12 +67,14 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "eric-davis"
+      "eric-davis",
+      "jeremy-corbell"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "LnAiNChnuEQ"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once"
+  "attestation": 1.0,
+  "tier": "told-by-several"
 }

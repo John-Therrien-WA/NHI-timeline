@@ -24,6 +24,29 @@
         "john-mills"
       ],
       "documents": []
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3247.0,
+      "to_s": 3256.0,
+      "teller": "jesse-michels",
+      "quote": ">> And then I believe um, in 1993, there's a a now retired missile technician, a guy named John Mills,",
+      "kind": "host",
+      "cites": [
+        "john-mills"
+      ],
+      "documents": [],
+      "difference": "Adds that Malmstrom was swarmed and does not mention the zigzagging motion.",
+      "link_reason": "Both are about retired missile technician John Mills seeing a UFO near Malmstrom in 1993.",
+      "as_told": {
+        "title": "John Mills sees UFO; Malmstrom swarmed",
+        "years": {
+          "from": 1993,
+          "to": 1993
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -47,6 +70,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "fzvwBBSmWYA"
     ]
   },

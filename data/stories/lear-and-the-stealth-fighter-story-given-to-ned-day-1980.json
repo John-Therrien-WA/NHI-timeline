@@ -1,0 +1,63 @@
+{
+  "id": "lear-and-the-stealth-fighter-story-given-to-ned-day-1980",
+  "title": "Lear and the stealth fighter story given to Ned Day",
+  "summary": "Jeremy Corbell tells of Lear and the stealth fighter story given to Ned Day, about 1980s at Las Vegas, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, Nevada",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 2938.0,
+      "to_s": 2943.0,
+      "teller": "jeremy-corbell",
+      "quote": "He did break the story of the stealth fighter, but it was Ned Day.",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear",
+        "ned-day",
+        "george-knapp"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "john-lear-s-area-51-access-and-the-f-117-leak-1980",
+      "relation": "variant",
+      "note": "The same leak of the stealth fighter (F-117) by John Lear, but Corbell says Lear gave it to Ned Day, not George Knapp."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeremy-corbell"
+    ],
+    "episodes": [
+      "-XdvIrexF08"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

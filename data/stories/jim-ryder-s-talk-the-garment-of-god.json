@@ -43,11 +43,33 @@
         "place_text": "Lucis Trust event",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 1623.0,
+      "to_s": 1628.0,
+      "teller": "jesse-michels",
+      "quote": "And he gave a very interesting speech called the Garment of the Gods.",
+      "kind": "host",
+      "cites": [
+        "jim-ryder"
+      ],
+      "documents": [
+        "garment-of-the-gods"
+      ],
+      "difference": "Titled 'Garment of the Gods' and tied to Lockheed Martin Space Systems rather than a Lucis Trust event.",
+      "link_reason": "The same speech by Jim Ryder, there called 'The Garment of God'.",
+      "as_told": {
+        "title": "Jim Ryder's 'Garment of the Gods' speech",
+        "years": null,
+        "place_text": "Lockheed Martin Space Systems",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -58,7 +80,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -66,10 +88,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "1f16VvXaSSE",
       "Y7PLeu5rTv4"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.0,
   "tier": "told-once"
 }

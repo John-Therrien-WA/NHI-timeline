@@ -24,17 +24,43 @@
         "sean-kirkpatrick"
       ],
       "documents": []
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 6309.0,
+      "to_s": 6316.0,
+      "teller": "jeremy-corbell",
+      "quote": "AARO was acting as a counterintelligence against the American public",
+      "kind": "journalist",
+      "cites": [
+        "sean-kirkpatrick",
+        "james-lacatski",
+        "tim-phillips",
+        "george-knapp"
+      ],
+      "documents": [],
+      "difference": "Goes further: AARO acted as counterintelligence against the public and as a honey trap that harassed whistleblowers. Credits Lacatski, Phillips and Knapp.",
+      "link_reason": "Both say AARO under Kirkpatrick, 2022-2024, was compromised and worked against disclosure.",
+      "as_told": {
+        "title": "AARO under Kirkpatrick acted as counterintelligence and a honey trap, harassing whistleblowers",
+        "years": {
+          "from": 2022,
+          "to": 2024
+        },
+        "place_text": "United States (AARO)",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
@@ -42,14 +68,16 @@
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "journalist",
     "tellers": [
+      "jeremy-corbell",
       "matthew-pines"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "LpLFWdsIU7M"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once"
+  "attestation": 1.1,
+  "tier": "told-by-several"
 }

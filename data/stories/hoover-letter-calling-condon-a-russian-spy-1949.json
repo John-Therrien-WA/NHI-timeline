@@ -1,0 +1,58 @@
+{
+  "id": "hoover-letter-calling-condon-a-russian-spy-1949",
+  "title": "Hoover letter calling Condon a Russian spy",
+  "summary": "Robert Salas tells of Hoover letter calling Condon a Russian spy, about 1949 at Washington, D.C., and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1949,
+    "to": 1949
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 4037.0,
+      "to_s": 4048.0,
+      "teller": "robert-salas",
+      "quote": "I believe it was, um, Jed Ghuber wrote a letter, um, to Congress.",
+      "kind": "official",
+      "cites": [
+        "j-edgar-hoover",
+        "edward-condon"
+      ],
+      "documents": [
+        "hoover-letter-to-congress"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.1,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 1.05,
+  "tier": "told-once"
+}

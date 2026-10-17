@@ -261,6 +261,50 @@
         "place_text": "Malmstrom AFB, Montana (Oscar launch facility)",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 892.0,
+      "to_s": 903.0,
+      "teller": "robert-salas",
+      "quote": "before I could tell them about the phone calls, we get a big horn go off. One of the missiles went off alert status or went from green to red.",
+      "kind": "firsthand",
+      "cites": [
+        "fred-maywald"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Salas with an exact date (March 24, 1967) and the alarm horn as the first missile went from green to red.",
+      "link_reason": "Salas's own account of the March 1967 Oscar Flight missiles going off alert while a red glowing object was seen. The Malmstrom story already holds Salas and Meywald tellings of this event.",
+      "as_told": {
+        "title": "Oscar Flight missile shutdown during UFO sighting",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Oscar Flight launch control center near Roy, Montana (Malmstrom AFB)",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 5083.0,
+      "to_s": 5087.0,
+      "teller": "jesse-michels",
+      "quote": "like the intervention you saw at Melmstrom in ' 67",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Only a passing mention, with no details.",
+      "link_reason": "The same 1967 UFO interference with the missiles at Malmstrom.",
+      "as_told": {
+        "title": "Malmstrom 1967 missile intervention",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom AFB, Montana",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [
@@ -271,29 +315,30 @@
     }
   ],
   "tags": [],
-  "score": 6.6,
+  "score": 7.1,
   "profile": {
     "independent_tellers": 5,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 4,
+    "secondhand": 3,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "official",
+    "strongest_kind": "firsthand",
     "tellers": [
       "daniel-sheehan",
       "james-fox",
-      "jesse-michels",
       "karl-nell",
-      "kevin-knuth"
+      "kevin-knuth",
+      "robert-salas"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "1iaH1a3A4Lk",
       "8Rr_nE65KkI",
       "C4rSj5Aum7w",
@@ -306,6 +351,6 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 3.3,
+  "attestation": 3.55,
   "tier": "well-attested"
 }

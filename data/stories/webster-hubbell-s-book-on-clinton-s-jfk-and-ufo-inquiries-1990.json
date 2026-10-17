@@ -27,17 +27,41 @@
       "documents": [
         "webster-hubbell-book-title-not-recalled"
       ]
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 7133.0,
+      "to_s": 7139.0,
+      "teller": "jeremy-corbell",
+      "quote": "because her husband really tried until they crushed down Webster Hubble after asking",
+      "kind": "journalist",
+      "cites": [
+        "bill-clinton",
+        "webster-hubble"
+      ],
+      "documents": [],
+      "difference": "Adds that Hubbell was 'crushed down' after asking, and does not mention the book or JFK.",
+      "link_reason": "Both tell of Bill Clinton and Webster Hubbell trying to get to the bottom of UFOs in the 1990s.",
+      "as_told": {
+        "title": "Bill Clinton's disclosure attempt and Webster Hubbell",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "White House, Washington DC",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
@@ -45,14 +69,16 @@
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "journalist",
     "tellers": [
+      "jeremy-corbell",
       "steven-greer"
     ],
     "episodes": [
+      "-XdvIrexF08",
       "areO7Mej44E"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once"
+  "attestation": 1.1,
+  "tier": "well-attested"
 }

@@ -1,0 +1,55 @@
+{
+  "id": "hahn-splits-the-atom-in-1938",
+  "title": "Hahn splits the atom in 1938",
+  "summary": "Robert Salas tells of Hahn splits the atom in 1938, about 1938 at Germany, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1938,
+    "to": 1938
+  },
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 5166.0,
+      "to_s": 5188.0,
+      "teller": "robert-salas",
+      "quote": "That was um uh happened to be a Nazi scientist by the name of um Han I think uh who did an experiment in 1938 and uh was first uh to split the atom.",
+      "kind": "researcher",
+      "cites": [
+        "otto-hahn"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once"
+}

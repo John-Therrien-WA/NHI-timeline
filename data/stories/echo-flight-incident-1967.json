@@ -1,0 +1,77 @@
+{
+  "id": "echo-flight-incident-1967",
+  "title": "Echo Flight incident",
+  "summary": "Robert Salas tells of Echo Flight incident, about March 16, 1967 at Echo Flight, Malmstrom Air Force Base, Montana, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": null,
+  "place_text": "Echo Flight, Malmstrom Air Force Base, Montana",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 3044.0,
+      "to_s": 3053.0,
+      "teller": "robert-salas",
+      "quote": "at first he couldn't believe what they were saying, but uh, very shortly after that, all 10 of his missiles went down.",
+      "kind": "secondhand",
+      "cites": [
+        "walt-feele"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 6493.0,
+      "to_s": 6500.0,
+      "teller": "jesse-michels",
+      "quote": "the Echo Flight case eight days before and all the cases since at Malmstrom",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by the host, who places it eight days before Salas's own incident and ties it to later Malmstrom cases.",
+      "link_reason": "Both are about the 1967 Echo Flight missile shutdown at Malmstrom.",
+      "as_told": {
+        "title": "Echo Flight case at Malmstrom",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom AFB, Montana",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several"
+}

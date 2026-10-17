@@ -167,6 +167,27 @@
         "place_text": "Ruwa, Zimbabwe",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 4882.0,
+      "to_s": 4892.0,
+      "teller": "jesse-michels",
+      "quote": "the aerial school sighting in 1994 with you have 60 you know school children in Zimbabwe and you learn that there's a uranium mine right there",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Puts the number of children at about 60.",
+      "link_reason": "The same 1994 Ariel School sighting by schoolchildren in Zimbabwe, near a uranium mine.",
+      "as_told": {
+        "title": "Ariel School sighting near uranium mine",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "Zimbabwe",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -195,6 +216,7 @@
       "peter-levenda"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "1iaH1a3A4Lk",
       "Y7PLeu5rTv4",
       "aa9Xx5wI8Rw",

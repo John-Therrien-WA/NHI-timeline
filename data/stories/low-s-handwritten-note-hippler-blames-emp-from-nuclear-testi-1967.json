@@ -1,0 +1,96 @@
+{
+  "id": "low-s-handwritten-note-hippler-blames-emp-from-nuclear-testi-1967",
+  "title": "Low's handwritten note: Hippler blames EMP from nuclear testing",
+  "summary": "Robert Salas tells of Low's handwritten note: Hippler blames EMP from nuclear testing, about 1967 at Condon Committee, and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": "united-states",
+  "place_text": "Condon Committee",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 2539.0,
+      "to_s": 2547.0,
+      "teller": "robert-salas",
+      "quote": "[gasps] handwritten note by Robert Low that he talked to Hitler and Hit Hitler told him",
+      "kind": "official",
+      "cites": [
+        "robert-low",
+        "robert-hippler",
+        "roy-craig"
+      ],
+      "documents": [
+        "robert-low-handwritten-note"
+      ]
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 6699.0,
+      "to_s": 6706.0,
+      "teller": "jesse-michels",
+      "quote": "Colonel Robert Hiper is saying that this was due to a, you know, an EMP fallout from a nuclear detonation,",
+      "kind": "host",
+      "cites": [
+        "robert-hippert"
+      ],
+      "documents": [
+        "wall-street-journal-article"
+      ],
+      "difference": "Comes through the 2025 Wall Street Journal article rather than Low's handwritten 1967 note.",
+      "link_reason": "Both attribute the missile shutdown to Colonel Robert Hippler blaming EMP from nuclear testing or detonation.",
+      "as_told": {
+        "title": "Col. Robert Hippert's EMP explanation",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "chase-letter-after-june-1967-meeting-of-base-ufo-officers",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nasa-assessor-baron-killed-by-train-500-page-report-vanished-1967",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.8,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "jesse-michels",
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 1.4,
+  "tier": "well-attested"
+}

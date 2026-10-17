@@ -1,0 +1,69 @@
+{
+  "id": "reverse-engineering-of-a-laser-weapon-from-a-downed-russian",
+  "title": "Reverse engineering of a laser weapon from a downed Russian asset",
+  "summary": "Jesse Michels tells of Reverse engineering of a laser weapon from a downed Russian asset, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 85.0,
+      "to_s": 92.0,
+      "teller": "jesse-michels",
+      "quote": "worked on the reverse engineering >> Yeah. >> of a laser weapon system from a downed Russian asset.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 6792.0,
+      "to_s": 6803.0,
+      "teller": "jeremy-corbell",
+      "quote": "worked on a laser weapon system from a downed Russian NH I spaceship.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": [],
+      "difference": "Corbell calls the downed Russian object an NHI spaceship, where the story's telling says only 'asset'.",
+      "link_reason": "Same claim of someone who worked on a laser weapon system reverse-engineered from a downed Russian object.",
+      "as_told": {
+        "title": "Reverse engineering of a laser weapon from a downed Russian NHI spaceship",
+        "years": null,
+        "place_text": "Russia / unspecified",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.4,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "jeremy-corbell",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "-XdvIrexF08"
+    ]
+  },
+  "attestation": 0.7,
+  "tier": "told-by-several"
+}

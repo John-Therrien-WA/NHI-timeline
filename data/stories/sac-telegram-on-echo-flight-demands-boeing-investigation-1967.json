@@ -1,0 +1,57 @@
+{
+  "id": "sac-telegram-on-echo-flight-demands-boeing-investigation-1967",
+  "title": "SAC telegram on Echo Flight demands Boeing investigation",
+  "summary": "Robert Salas tells of SAC telegram on Echo Flight demands Boeing investigation, about 1967 at Strategic Air Command headquarters / Malmstrom AFB, and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": null,
+  "place_text": "Strategic Air Command headquarters / Malmstrom AFB",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 1682.0,
+      "to_s": 1694.0,
+      "teller": "robert-salas",
+      "quote": "There were uh one of the documents we received from the air force was a telegram or TX about the echoflight shutdown.",
+      "kind": "official",
+      "cites": [
+        "boeing"
+      ],
+      "documents": [
+        "sac-telegram-tx-on-echo-flight-shutdown"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.1,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 1.05,
+  "tier": "told-once"
+}

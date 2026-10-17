@@ -217,29 +217,58 @@
         "place_text": "Magenta, Italy",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 5851.0,
+      "to_s": 5879.0,
+      "teller": "robert-salas",
+      "quote": "You mentioned Roberto Penotei. He just finished a book about the magenta crash and and shows documentation that yeah really did happen. Maronei uh who invented radio um uh was assigned by Mussolini to head up the group that would investigate this and study the craft",
+      "kind": "researcher",
+      "cites": [
+        "roberto-pinotti",
+        "guglielmo-marconi",
+        "benito-mussolini"
+      ],
+      "documents": [
+        "roberto-pinotti-s-book-on-the-magenta-crash"
+      ],
+      "difference": "Cites Roberto Pinotti's new book as documentation and says Marconi was assigned by Mussolini to head the investigating group.",
+      "link_reason": "Both tell of the 1933 crash and recovery of a craft near Magenta, Italy, under Mussolini.",
+      "as_told": {
+        "title": "Magenta crash of 1933",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Magenta, Italy",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.6,
+  "score": 2.6,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
-      "david-grusch"
+      "david-grusch",
+      "robert-salas"
     ],
     "episodes": [
+      "-0g3lLGxNfc",
       "09KP8XVf5nY",
       "2-GeTxXi670",
       "8Rr_nE65KkI",
@@ -247,6 +276,6 @@
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 0.8,
-  "tier": "told-once"
+  "attestation": 1.3,
+  "tier": "well-attested"
 }

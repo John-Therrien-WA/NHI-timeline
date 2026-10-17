@@ -1,0 +1,55 @@
+{
+  "id": "john-lear-s-1977-lake-level-photos-of-groom-lake-and-the-fil",
+  "title": "John Lear's 1977 lake-level photos of Groom Lake and the film swap",
+  "summary": "Jeremy Corbell tells of John Lear's 1977 lake-level photos of Groom Lake and the film swap, about 1977 at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1977
+  },
+  "place": "nevada-test-site",
+  "place_text": "Groom Lake (Area 51), Nevada",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-XdvIrexF08",
+      "from_s": 2809.0,
+      "to_s": 2822.0,
+      "teller": "jeremy-corbell",
+      "quote": "original photographs from 1977 Groom Lake lake level with a chain going across.",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeremy-corbell"
+    ],
+    "episodes": [
+      "-XdvIrexF08"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

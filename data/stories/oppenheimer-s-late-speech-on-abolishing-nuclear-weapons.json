@@ -1,0 +1,52 @@
+{
+  "id": "oppenheimer-s-late-speech-on-abolishing-nuclear-weapons",
+  "title": "Oppenheimer's late speech on abolishing nuclear weapons",
+  "summary": "Robert Salas tells of Oppenheimer's late speech on abolishing nuclear weapons, about an unknown time at an unknown place, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "-0g3lLGxNfc",
+      "from_s": 5570.0,
+      "to_s": 5588.0,
+      "teller": "robert-salas",
+      "quote": "As Openheimer said in his one of his last speeches that he gave u to his scientists, uh, we can't afford to think that we can't abolish all nuclear weapons.",
+      "kind": "secondhand",
+      "cites": [
+        "j-robert-oppenheimer"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "robert-salas"
+    ],
+    "episodes": [
+      "-0g3lLGxNfc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once"
+}

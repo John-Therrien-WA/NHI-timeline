@@ -69,3 +69,9 @@ be named. `check.image_ingest_problems` runs `images.ingest` offline with a down
 the fixture's JPEG: a new image lands under the story id with its sidecar, an image URL the alias
 directory holds is kept, a second run fetches nothing, a failed download stops the run or is listed
 under `keep_going`, and a bad manifest is refused before anything is fetched.
+
+`explain.json` stands in for the explain stage: the plain telling for each of the eight stories the
+chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:
+"hand"` and is in no answer: the chain must never ask for it or change it. Every story in
+site/data.json must carry the `plain` the file gives it, or its own hand-written one, and a second
+explain run must ask nothing.

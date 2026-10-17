@@ -320,7 +320,7 @@
 
     // ---------- search ----------
     const searchEl = $("search"), resultsEl = $("results");
-    const searchIndex = D.stories.map(s => ({ s, text: [s.title, s.summary || "", M.placeText(s), M.KIND_NAMES[s.kind], M.regionOf(s), M.yearsText(s.years),
+    const searchIndex = D.stories.map(s => ({ s, text: [s.title, s.plain || "", s.summary || "", M.placeText(s), M.KIND_NAMES[s.kind], M.regionOf(s), M.yearsText(s.years),
       ...s.tellings.map(t => (t.teller_name || M.personName(t.teller)) + " " + t.cites.map(M.personName).join(" "))].join(" ").toLowerCase() }));
     let resultIds = [], resultHi = 0;
     const closeResults = () => resultsEl.classList.remove("open");

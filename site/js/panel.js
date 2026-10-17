@@ -163,7 +163,11 @@
       if (s.notes_open) tag.appendChild(el("span", { class: "notebadge", title: "notes viewers left that are not yet read into the data" }, s.notes_open + (s.notes_open === 1 ? " open note" : " open notes")));
       body.appendChild(tag);
       body.appendChild(el("h2", null, s.title));
-      if (s.summary) body.appendChild(el("p", { class: "summary" }, s.summary));
+      if (s.plain) body.appendChild(el("p", { class: "plain" }, s.plain));
+      if (s.summary) {
+        if (s.plain) body.appendChild(el("h3", null, "In the corpus"));
+        body.appendChild(el("p", { class: "summary" }, s.summary));
+      }
       if ((s.images || []).length) body.appendChild(imageStrip(s));
       const dl = el("dl");
       const era = s.era ? M.eraById[s.era].era : null;

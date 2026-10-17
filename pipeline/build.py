@@ -2,7 +2,7 @@
 
     uv run python -m pipeline.build [--root DIR] [--out site/data.json]
 
-Stories with era, place (and the free place text for the unresolved), years, score, attestation, tier, evidence profile and the
+Stories with the plain telling (`plain`, null until pipeline.explain has run), era, place (and the free place text for the unresolved), years, score, attestation, tier, evidence profile and the
 repetition count, tellings with quotes and time codes and the YouTube URL at that second, the
 documents, the alias map (an old id a fold retired to the story that absorbed it, so `#story=<old
 id>` still resolves), the links between stories (shared document and every `related` relation), the count of
@@ -86,7 +86,7 @@ def run(root: Root, out: Path) -> dict:
         tellers = sorted({t["teller"] for t in s["tellings"]})
         shared_by = {p: len(stories_of[p]) - 1 for p in tellers}
         out_stories.append({
-            "id": sid, "title": s["title"], "summary": s["summary"], "era": s.get("era"), "years": s.get("years"),
+            "id": sid, "title": s["title"], "summary": s["summary"], "plain": s.get("plain"), "era": s.get("era"), "years": s.get("years"),
             "place": s.get("place"), "place_text": s.get("place_text"), "coordinates": s.get("coordinates"),
             "kind": s.get("kind"), "claims": s.get("claims", []),
             "tags": s.get("tags", []), "score": s["score"], "attestation": s["attestation"], "tier": s["tier"],

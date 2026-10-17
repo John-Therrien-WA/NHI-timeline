@@ -6,7 +6,8 @@
 Every story has at least one telling; every episode, document, person, era, place and related
 story id resolves; every quote with an episode is a verbatim substring of that episode's caption
 text (time codes stripped, whitespace collapsed, otherwise exact); kinds and relations are from the
-schema; `score` is absent, null or numeric; every alias belongs to one story and is no story's id;
+schema; `score` is absent, null or numeric; every alias belongs to one story and is no story's id; `plain`, when present, is a non-empty string
+and `plain_by` is absent or "hand" beside a `plain`;
 every candidate `link` names a story or an alias; every telling a `same` link added carries a
 `link_reason`, and so does every telling with a `difference`; every target of
 data/person-aliases.json has a person file or is the id of a name a candidate gives (merge creates
@@ -21,12 +22,12 @@ under site/images has a sidecar (`images.problems`). Prints every problem, namin
 entry, and exits 1 when there is one.
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
-answers, no `claude -p`: the episodes without a `links/<id>.json` are extracted and merged unlinked
+answers, no `claude -p` (`explain.json` stands in for the explain stage): the episodes without a `links/<id>.json` are extracted and merged unlinked
 (the corpus as it stood before linking), `link --existing` folds and relates their stories with
 `links/existing.json`, then the episodes with a links file are extracted, linked in one run (so
 one can join a story another creates; each episode's candidates in groups of ten, one prepared
-answer per group) and merged; score and build follow. It checks the result and that every prepared link answer was asked for, then
-runs both link modes, merge and score again and verifies that nothing was asked and nothing
+answer per group) and merged; score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link answer was asked for, then
+runs both link modes, merge, score and explain again and verifies that nothing was asked and nothing
 changed. Last it checks `tests/fixtures/expect.json`: the time codes given candidates must have
 (the nearest of two occurrences, quotes across a `>>` or a bracketed tag), the people that must not
 exist (a spelling the person aliases fold), the host and guests `captions.host_and_guests` must take
@@ -34,7 +35,9 @@ from each title, that `captions --refill` fills only host and guests, and that t
 prompt carries the episode's title and date lines; then every story the chain made, with its tier,
 `contradicted` flag and attestation (and for some its years, aliases, episodes, the tellings that
 carry a `difference` and a telling's `as_told`), every story's `discussion` length and `notes_open`
-in site/data.json (0 when expect.json gives none), that `link.fold` appends a folded story's
+in site/data.json (0 when expect.json gives none), that every story in site/data.json carries the
+`plain` telling `explain.json` gives it, or its own hand-written one (the stories `plain_by_hand`
+lists, which keep `plain_by`), that `link.fold` appends a folded story's
 discussion to the survivor's in order, that a group call of `link` resolves `#n` to the story an
 earlier telling of the group ends in, asks a refused group once more with a note, stops on a
 second refusal and resumes after a killed run, the candidates `link` downgraded, and one name
@@ -204,6 +207,13 @@ def problems(root: Root) -> list[str]:
                     out.append(f"{where}: era {s['era']} does not hold {y['from']}")
         if "score" in s and s["score"] is not None and (isinstance(s["score"], bool) or not isinstance(s["score"], (int, float))):
             out.append(f"{where}: score must be absent, null or numeric")
+        if "plain" in s and (not isinstance(s["plain"], str) or not s["plain"].strip()):
+            out.append(f"{where}: plain must be a non-empty string when present")
+        if "plain_by" in s:
+            if s["plain_by"] != "hand":
+                out.append(f"{where}: plain_by must be \"hand\" when present, got {s['plain_by']!r}")
+            if "plain" not in s:
+                out.append(f"{where}: plain_by without a plain telling")
         for i, t in enumerate(s.get("tellings") or []):
             tw = f"{where} telling {i + 1}"
             ep, doc = t.get("episode"), t.get("document")
@@ -346,6 +356,25 @@ def expectations(root: Root) -> list[str]:
         files = [i.get("file") for i in b.get("images", [])] if isinstance(b.get("images"), list) else None
         if files != e.get("images", []):
             out.append(f"expect: story {sid} has images {files} in site/data.json, expected {e.get('images', [])}")
+    prepared = load_json(root.path / "explain.json")
+    for sid, b in sorted(built.items()):
+        if not isinstance(b.get("plain"), str) or not b["plain"].strip():
+            out.append(f"expect: story {sid} has no plain telling in site/data.json")
+            continue
+        src = load_json(root.stories / f"{sid}.json")
+        if src.get("plain_by") == "hand":
+            if sid in prepared:
+                out.append(f"expect: story {sid} is hand-written and must not be in explain.json")
+            if b["plain"] != src["plain"]:
+                out.append(f"expect: story {sid}: the hand-written plain telling did not reach site/data.json unchanged")
+        elif sid not in prepared:
+            out.append(f"expect: story {sid} has a plain telling that explain.json did not give")
+        elif b["plain"] != prepared[sid]:
+            out.append(f"expect: story {sid}: plain in site/data.json differs from explain.json")
+    for sid in exp.get("plain_by_hand", []):
+        src = load_json(root.stories / f"{sid}.json")
+        if src.get("plain_by") != "hand":
+            out.append(f"expect: story {sid} must still carry plain_by \"hand\" after the chain")
     people_built = load_json(root.site / "data.json")["people"]
     want_img = exp.get("people_images", {})
     for pid, pv in sorted(people_built.items()):
@@ -682,7 +711,7 @@ def snapshot(d: Path) -> dict[str, str]:
 
 
 def run_fixture() -> list[str]:
-    from . import build, extract, link, merge, score
+    from . import build, explain, extract, link, merge, score
     if not FIXTURES.exists():
         raise SystemExit(f"no fixtures at {FIXTURES}")
     tmp = Path(tempfile.mkdtemp(prefix="nhi-fixture-"))
@@ -718,6 +747,7 @@ def run_fixture() -> list[str]:
         if unused:
             out.append(f"link: prepared answers never asked for: {unused}")
     score.run(root)
+    explain.run(root, explain.Asker(root, "fixture", 1, tmp / "explain.json"))
     build.run(root, root.site / "data.json")
     out += problems(root)
     out += expectations(root)
@@ -729,6 +759,10 @@ def run_fixture() -> list[str]:
         out.append(f"link is not idempotent: a second run asked {again.calls} question(s)")
     stats = merge.run(root)
     score.run(root)
+    explained = explain.Asker(root, "fixture", 1, tmp / "explain.json")
+    explain.run(root, explained)
+    if explained.calls:
+        out.append(f"explain is not idempotent: a second run asked {explained.calls} question(s)")
     after = snapshot(root.data)
     if before != after:
         changed = sorted(k for k in set(before) | set(after) if before.get(k) != after.get(k))

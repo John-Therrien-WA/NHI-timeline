@@ -72,6 +72,15 @@
       <tr><td><kbd>/</kbd> <kbd>K</kbd></td><td>search; these keys</td></tr>
       <tr><td>click</td><td>open a story</td></tr>
     </table>
+    <table class="only-touch">
+      <tr><td>tap</td><td>open a story</td></tr>
+      <tr><td>drag</td><td>look around (corridor); orbit (globe)</td></tr>
+      <tr><td>two fingers</td><td>drag up, down to move along time (corridor); pinch to zoom (globe)</td></tr>
+      <tr><td>&#9650; &#9660;</td><td>hold to fly forward, back (corridor); zoom in, out (globe)</td></tr>
+      <tr><td>Glide</td><td>fly on by itself; tap again to pause</td></tr>
+      <tr><td>Rail</td><td>snap to the nearest story and ride a rail; the bar below steps and switches rails</td></tr>
+      <tr><td>Overview</td><td>the whole corridor from the side; tap a story there</td></tr>
+    </table>
   </div>
   <button class="btn" id="keys-show" title="Show the keys (K)">Keys</button>
 </div>
@@ -132,10 +141,21 @@
 </div>
 <div id="mm-tip"></div>
 
+<div id="pad" class="hud" aria-label="Touch controls">
+  <button class="pb only-corridor" data-key="KeyW" title="Fly forward (hold)">&#9650;</button>
+  <button class="pb only-corridor" data-key="KeyS" title="Fly back (hold)">&#9660;</button>
+  <button class="pb only-corridor" data-key="Space" data-tap="1" title="Glide on, or pause">Glide</button>
+  <button class="pb only-globe" data-key="KeyW" title="Zoom in (hold)">&#9650;</button>
+  <button class="pb only-globe" data-key="KeyS" title="Zoom out (hold)">&#9660;</button>
+  <button class="pb only-globe" data-key="KeyQ" data-tap="1" title="Time window back an era">&lsaquo; era</button>
+  <button class="pb only-globe" data-key="KeyE" data-tap="1" title="Time window forward an era">era &rsaquo;</button>
+  <button class="pb" id="pad-rail" title="Snap to the nearest story and ride a rail; on a rail, back to free flight"><span class="off-rail">Rail</span><span class="on-rail">Free</span></button>
+</div>
+
 <div id="railhud" aria-live="polite">
   <div class="rh-top"><span class="rh-name"></span><span class="rh-pos"></span></div>
   <div class="rh-peek"><button class="rh-prev" title="Previous on the rail ( [ or , )"></button><button class="rh-next" title="Next on the rail ( ] or . )"></button></div>
-  <div class="rh-rails"><span><kbd>[</kbd> <kbd>]</kbd> step</span><b data-r="time"><kbd>1</kbd> Time</b><b data-r="kind"><kbd>2</kbd> Kind</b><b data-r="strength"><kbd>3</kbd> Strength</b><b data-r="links"><kbd>4</kbd> Links</b><span><kbd>Esc</kbd> free flight</span></div>
+  <div class="rh-rails"><span class="rh-stepkey"><kbd>[</kbd> <kbd>]</kbd> step</span><b data-r="time"><kbd>1</kbd> Time</b><b data-r="kind"><kbd>2</kbd> Kind</b><b data-r="strength"><kbd>3</kbd> Strength</b><b data-r="links"><kbd>4</kbd> Links</b><b class="rh-free" title="Leave the rail (Esc)"><kbd>Esc</kbd> free flight</b></div>
   <div class="rh-note"></div>
 </div>
 

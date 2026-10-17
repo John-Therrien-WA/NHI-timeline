@@ -97,7 +97,23 @@ body.panel-open #railhud { left: calc((100vw - var(--panel-w)) / 2 + 150px); wid
 .rh-rails { display: flex; flex-wrap: wrap; gap: 4px 10px; margin-top: 7px; color: var(--muted); font-size: 11.5px; align-items: center; }
 .rh-rails b { font-weight: 500; cursor: pointer; padding: 0 4px; border-radius: 5px; }
 .rh-rails b.on { color: #e6ecff; background: rgba(159,184,255,0.18); }
+.rh-rails .rh-free { margin-left: auto; }
 .rh-note { display: none; margin-top: 6px; color: #ffe2a8; font-size: 12px; }
+
+/* the touch pad: on a coarse pointer the held buttons stand in for the flight keys */
+#pad { display: none; right: 10px; top: 50%; transform: translateY(-50%); flex-direction: column; gap: 10px; z-index: 6; }
+body.touch #pad { display: flex; }
+.pb { width: 50px; height: 50px; border-radius: 50%; padding: 0; display: flex; align-items: center; justify-content: center;
+  background: rgba(20, 26, 44, 0.94); border: 1px solid rgba(150, 170, 220, 0.4); font-size: 12.5px; font-weight: 600; cursor: pointer;
+  touch-action: none; user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+.pb.held { background: #2a3a6e; border-color: var(--accent); }
+.pb .on-rail { display: none; }
+body.on-rail .pb .off-rail { display: none; }
+body.on-rail .pb .on-rail { display: inline; }
+#keys table.only-touch { display: none; }
+body.touch #keys table.only-touch { display: table; }
+body.touch #keys table:not(.only-touch) { display: none !important; }
+body.touch .rh-rails kbd, body.touch .rh-stepkey { display: none; }
 #railhud.noting .rh-note { display: block; }
 
 /* legend and filters */
@@ -252,7 +268,7 @@ body.panel-open #panel { transform: none; }
 
 /* failure: the whole screen, for a page that cannot run */
 #fatal { position: fixed; inset: 0; z-index: 20; display: none; align-items: center; justify-content: center; background: #12040a; padding: 16px; }
-#fatal div { max-width: 680px; border: 2px solid var(--warn); border-radius: 12px; padding: 18px 20px; background: #1d0810; }
+#fatal div { max-width: min(680px, calc(100vw - 32px)); border: 2px solid var(--warn); border-radius: 12px; padding: 18px 20px; background: #1d0810; }
 #fatal h2 { margin: 0 0 8px; color: var(--warn); }
 #fatal pre { white-space: pre-wrap; margin: 0; font-size: 13px; }
 #loading { position: fixed; inset: 0; z-index: 19; display: flex; align-items: center; justify-content: center; color: var(--muted); background: var(--bg); }
@@ -279,6 +295,9 @@ body.panel-open #panel { transform: none; }
   body.panel-open #railhud, #railhud { left: 50%; transform: translateX(-50%); width: calc(100vw - 32px); }
   body.panel-open #railhud { bottom: calc(60vh + 8px); }
   #keys-wrap { top: 118px; }
+  body.touch #keys-wrap { right: auto; left: 16px; align-items: flex-start; max-width: calc(100vw - 86px); }
+  body.touch #keys { width: 100%; }
+  body.panel-open #pad { display: none; }
   #legend-wrap { top: 118px; bottom: 110px; }
   #legend { width: min(268px, calc(100vw - 32px)); }
   #bottom { left: 8px; right: 8px; bottom: 8px; padding: 6px 8px; }

@@ -77,6 +77,7 @@
     const C = {
       THREE, M, canvas, renderer, el, damp, ease,
       select, preview, hover, hoverSid: () => hoverSid, leaveRail, onRail: () => !!rail, usedOnce, placeLabels,
+      touch: matchMedia("(pointer: coarse)").matches || hash.has("touch"),   // #touch forces the touch layer on a computer
     };
     const panel = NHI.panel(C);
     const corridor = NHI.corridor(C);
@@ -296,7 +297,26 @@
     }
     railHud.querySelector(".rh-prev").addEventListener("click", () => railStep(-1));
     railHud.querySelector(".rh-next").addEventListener("click", () => railStep(1));
-    railHud.querySelectorAll(".rh-rails b").forEach(b => b.addEventListener("click", () => { if (rail) goRail(b.dataset.r, rail.sid); }));
+    railHud.querySelectorAll(".rh-rails b[data-r]").forEach(b => b.addEventListener("click", () => { if (rail) goRail(b.dataset.r, rail.sid); }));
+    railHud.querySelector(".rh-free").addEventListener("click", leaveRail);
+
+    // ---------- the touch pad: a held button is a held key, so the views' own flight code moves the camera ----------
+    document.body.classList.toggle("touch", C.touch);
+    const fakeKey = code => ({ code, key: "", repeat: false, preventDefault() {} });
+    document.querySelectorAll("#pad .pb[data-key]").forEach(b => {
+      const code = b.dataset.key;
+      let held = false;
+      const up = () => { if (!held) return; held = false; b.classList.remove("held"); view.keyup(fakeKey(code)); };
+      b.addEventListener("pointerdown", e => {
+        e.preventDefault(); usedOnce();
+        if (b.dataset.tap) { view.keydown(fakeKey(code)); return; }
+        held = true; b.classList.add("held"); b.setPointerCapture(e.pointerId); view.keydown(fakeKey(code));
+      });
+      ["pointerup", "pointercancel", "lostpointercapture"].forEach(t => b.addEventListener(t, up));
+      b.addEventListener("contextmenu", e => e.preventDefault());
+    });
+    $("pad-rail").addEventListener("pointerdown", e => { e.preventDefault(); if (rail) leaveRail(); else snap(); usedOnce(); });
+    $("pad-rail").addEventListener("contextmenu", e => e.preventDefault());
 
     // ---------- search ----------
     const searchEl = $("search"), resultsEl = $("results");
@@ -340,7 +360,9 @@
     try { seen = sessionStorage.getItem("nhi-keys-seen") === "1"; sessionStorage.setItem("nhi-keys-seen", "1"); } catch (e) { seen = false; }
     const setKeysCollapsed = c => keysWrap.classList.toggle("collapsed", c);
     function usedOnce() { if (usedYet) return; usedYet = true; setTimeout(() => setKeysCollapsed(true), 4000); }
-    setKeysCollapsed(seen || hash.has("nohint") || window.innerWidth < 760);
+    // a touch device gets the guidance open at the start whatever its width: there is no key to discover
+    setKeysCollapsed(seen || hash.has("nohint") || (window.innerWidth < 760 && !C.touch));
+    if (C.touch) { keysWrap.querySelector("#keys h2").textContent = "How to move"; $("keys-show").textContent = "How to move"; $("keys-show").title = "Show how to move"; }
     $("keys-hide").addEventListener("click", () => setKeysCollapsed(true));
     $("keys-show").addEventListener("click", () => setKeysCollapsed(false));
 
@@ -400,7 +422,7 @@
     }
     window.addEventListener("resize", resize);
 
-    // ---------- start from the link: #story=, #mode=globe, #rail=, #trust=, #nohint, and each view's own ----------
+    // ---------- start from the link: #story=, #mode=globe, #rail=, #trust=, #nohint, #touch (the touch layer on a computer), and each view's own ----------
     if (hash.has("trust")) {
       const t = parseFloat(hash.get("trust"));
       if (!Number.isFinite(t) || t < M.trust.min || t > M.trust.max) throw new Error("the link asks for institutional trust " + JSON.stringify(hash.get("trust")) + "; expected " + M.trust.min + " to " + M.trust.max + ".");

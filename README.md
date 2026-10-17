@@ -31,8 +31,11 @@ check, the score recomputed at the reader's institutional trust and the tiers; `
 `globe.js` the two views; `panel.js` the story panel; `notes.js` the notes box). The corridor is the
 default view: time runs ahead, stretched where many stories are told, the angle is the kind or the
 region, and the rings are the tiers. The globe is the second view: regions as patches sized by story
-count, eras as shells. `M` switches; the keys are listed on the page. A link may carry
-`#story=<id or alias>`, `mode=globe`, `rail=time|kind|strength|links` and `trust=<0.5 to 1.25>`;
+count, eras as shells. `M` switches; the keys are listed on the page. On a phone or tablet (a coarse
+pointer) the page shows a touch pad and touch guidance instead of the keys: one finger looks around,
+two fingers move along time in the corridor and pinch the globe. A link may carry
+`#story=<id or alias>`, `mode=globe`, `rail=time|kind|strength|links`, `trust=<0.5 to 1.25>` and
+`touch` (the touch layer on a computer);
 `?data=<path>` loads another data file from a relative path beside the page (a `.js` defining
 `window.NHI_DATA`, or JSON over http), for a test copy. At load the page recomputes every attestation
 and score from the profiles and refuses to draw when they differ from the stored values. Published as an artifact with the `db` capability,

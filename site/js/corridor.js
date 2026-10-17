@@ -413,9 +413,34 @@
       const hits = raycaster.intersectObjects(hitTargets.filter(h => h.visible), false);
       return hits.length ? hits[0].object.userData.sid : null;
     }
-    canvas.addEventListener("pointerdown", e => { if (!active) return; dragging = { x: e.clientX, y: e.clientY, sx: e.clientX, sy: e.clientY, moved: false }; canvas.setPointerCapture(e.pointerId); });
+    // touch: one finger looks (and taps a story), two fingers dragged up or down move along time in the
+    // corridor and pinch the overview's distance; a second finger ends the one-finger drag and its tap
+    const touches = new Map();   // pointerId to its last point
+    let twoF = null;
+    function twoFingers() { const [a, b] = [...touches.values()]; return { my: (a.y + b.y) / 2, dist: Math.max(1, Math.hypot(a.x - b.x, a.y - b.y)) }; }
+    canvas.addEventListener("pointerdown", e => {
+      if (!active) return;
+      canvas.setPointerCapture(e.pointerId);
+      if (e.pointerType === "touch") {
+        touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (touches.size >= 2) { dragging = null; canvas.classList.remove("dragging"); C.hover(null); twoF = touches.size === 2 ? twoFingers() : null; return; }
+      }
+      dragging = { x: e.clientX, y: e.clientY, sx: e.clientX, sy: e.clientY, moved: false };
+    });
     canvas.addEventListener("pointermove", e => {
       if (!active) return;
+      if (touches.has(e.pointerId)) {
+        touches.set(e.pointerId, { x: e.clientX, y: e.clientY });
+        if (touches.size >= 2) {
+          if (twoF && touches.size === 2) {
+            const s = twoFingers(), dy = s.my - twoF.my;
+            if (mode === "corridor") { auto = null; tween = null; C.leaveRail(); pendingScroll -= dy * 0.06; }
+            else { ov.dist *= twoF.dist / s.dist; clampFlight(); }
+            twoF = s; C.usedOnce();
+          }
+          return;
+        }
+      }
       if (dragging) {
         const dx = e.clientX - dragging.x, dy = e.clientY - dragging.y;
         dragging.x = e.clientX; dragging.y = e.clientY;
@@ -429,12 +454,16 @@
       }
       C.hover(pick(e.clientX, e.clientY), e.clientX, e.clientY);
     });
-    canvas.addEventListener("pointerup", e => {
+    function release(e, mayClick) {
+      touches.delete(e.pointerId);
+      if (touches.size < 2) twoF = null;
       if (!active) return;
-      const wasClick = dragging && !dragging.moved;
+      const wasClick = mayClick && dragging && !dragging.moved;
       dragging = null; canvas.classList.remove("dragging");
       if (wasClick) { const sid = pick(e.clientX, e.clientY); if (sid) C.select(sid, { fly: true }); }
-    });
+    }
+    canvas.addEventListener("pointerup", e => release(e, true));
+    canvas.addEventListener("pointercancel", e => release(e, false));
     canvas.addEventListener("pointerleave", () => { if (active && !dragging) C.hover(null); });
     canvas.addEventListener("wheel", e => {
       if (!active) return;
@@ -673,10 +702,11 @@
       });
       if (selRing.visible) { selRing.lookAt(camera.position); selRing.material.opacity = 0.6 + 0.3 * Math.sin(now / 300); }
 
-      const ro = mode === "overview" ? { year: "Overview", era: "the whole corridor from the side; drag or arrows to orbit, scroll or W and S to zoom, O to return" } : dToReadout(-camera.position.z + 6);
+      const ro = mode === "overview" ? { year: "Overview", era: "the whole corridor from the side; " + (C.touch ? "drag to orbit, pinch to zoom, Overview to return" : "drag or arrows to orbit, scroll or W and S to zoom, O to return") } : dToReadout(-camera.position.z + 6);
       const rk = ro.year + ro.era;
       if (rk !== lastReadout) { yearEl.textContent = ro.year; eraEl.textContent = ro.era; lastReadout = rk; }
-      const st = auto ? auto.label + ", Space stops" : glide ? "gliding, Space pauses" : "";
+      const stop = C.touch ? "Glide" : "Space";
+      const st = auto ? auto.label + ", " + stop + " stops" : glide ? "gliding, " + stop + " pauses" : "";
       if (st !== lastStatus) { statusEl.textContent = st; statusEl.style.display = st ? "inline-block" : "none"; lastStatus = st; }
 
       C.renderer.render(scene, camera);
@@ -703,7 +733,7 @@
     return {
       name: "corridor",
       activate() { active = true; requestAnimationFrame(resizeMinimap); },
-      deactivate() { active = false; keys.clear(); dragging = null; },
+      deactivate() { active = false; keys.clear(); dragging = null; touches.clear(); twoF = null; },
       blur() { keys.clear(); },
       frame, resize, keydown, keyup, escape, flyTo, railArrive, railRelease, nearestStory, setEmphasis,
       applyVisibility, restyle, setSelected, applyHash, syncCamera, reveal() {},

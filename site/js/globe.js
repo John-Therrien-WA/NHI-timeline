@@ -521,8 +521,9 @@
       });
       return best;
     }
-    let down = null;
-    canvas.addEventListener("pointerdown", e => { if (!active) return; down = { x: e.clientX, y: e.clientY }; fly = null; keyOrbit.az = keyOrbit.po = 0; cancelTween(); });
+    let down = null, fingers = 0;
+    canvas.addEventListener("pointerdown", e => { if (!active) return; fingers++; down = fingers === 1 ? { x: e.clientX, y: e.clientY } : null; fly = null; keyOrbit.az = keyOrbit.po = 0; cancelTween(); });
+    canvas.addEventListener("pointercancel", () => { fingers = Math.max(0, fingers - 1); down = null; });
     canvas.addEventListener("wheel", () => { if (active) cancelTween(); }, { passive: true });
     canvas.addEventListener("pointermove", e => {
       if (!active) return;
@@ -533,6 +534,7 @@
     });
     canvas.addEventListener("pointerleave", () => { if (active) C.hover(null); });
     canvas.addEventListener("pointerup", e => {
+      fingers = Math.max(0, fingers - 1);
       if (!active || !down || Math.hypot(e.clientX - down.x, e.clientY - down.y) > 5) return;
       const sid = pick(e.clientX, e.clientY);
       if (sid) C.select(sid, { fly: true }); else C.select(null);

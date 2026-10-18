@@ -24,6 +24,7 @@ telling; a story asked for that the file lacks fails.
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -148,7 +149,12 @@ def validate(ans, ids: list[str]) -> dict[str, str]:
             raise ValueError(f"a telling must have exactly id and plain: {str(item)[:200]}")
         sid, plain = item["id"], item["plain"]
         if sid not in ids:
-            raise ValueError(f"{sid!r} is not one of the stories asked about ({ids})")
+            # the model drops a numbered or year suffix now and then: an id that is one group id
+            # with its last `-<digits>` removed, and nothing else's, is that id
+            prefixed = [i for i in ids if re.fullmatch(re.escape(sid) + r"-\d+", i)]
+            if len(prefixed) != 1:
+                raise ValueError(f"{sid!r} is not one of the stories asked about ({ids})")
+            sid = prefixed[0]
         if sid in out:
             raise ValueError(f"{sid!r} is answered twice")
         if not isinstance(plain, str) or not plain.strip():

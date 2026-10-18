@@ -24,33 +24,56 @@
         "lewis-chase"
       ],
       "documents": []
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 222.0,
+      "to_s": 256.0,
+      "teller": "jesse-michels",
+      "quote": "A local truck driver in Montana and police officer are also on record having seen the UFO in the area.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds a police officer as a second witness and leaves out the light landing in a ravine.",
+      "link_reason": "Both are the 1967 sighting by a local truck driver near Malmstrom, told elsewhere as the Belt truck driver.",
+      "as_told": {
+        "title": "Montana truck driver and police officer see the UFO",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "near Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "robert-salas"
     ],
     "episodes": [
-      "-0g3lLGxNfc"
+      "-0g3lLGxNfc",
+      "h0hAit-KH9A"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "Robert Salas, a former US Air Force officer who says a UFO once shut down nuclear missiles he was guarding, tells a side story he credits to a man named Lewis Chase. According to Salas, around March 24, 1967, a truck driver passing through the small town of Belt, Montana, about 35 miles southeast of the area he was describing, saw a light come down and land in a ravine. Told alongside the missile story, it would mean the strange lights were seen by ordinary people nearby too, not only by the military."
 }

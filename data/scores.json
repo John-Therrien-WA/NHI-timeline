@@ -18,28 +18,28 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 120,
+    "well-attested": 121,
     "told-by-several": 79,
-    "told-once": 2905
+    "told-once": 2912
   },
   "counts": {
-    "stories": 3104,
-    "tellings": 3982,
-    "independent_tellers": 3346,
-    "repetitions": 106,
-    "documents": 1165,
+    "stories": 3112,
+    "tellings": 4015,
+    "independent_tellers": 3356,
+    "repetitions": 107,
+    "documents": 1179,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 56,
       "crash-retrieval": 120,
-      "document": 473,
+      "document": 474,
       "encounter": 229,
       "place-lore": 167,
-      "program": 498,
+      "program": 500,
       "reverse-engineering": 82,
       "sighting": 263,
-      "testimony": 830,
-      "theory": 386
+      "testimony": 833,
+      "theory": 388
     }
   },
   "stories": {
@@ -8132,28 +8132,30 @@
       }
     },
     "belt-montana-truck-driver-sees-light-land-in-ravine-1967": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
         "researcher": 0,
-        "host": 0,
+        "host": 1,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
+          "jesse-michels",
           "robert-salas"
         ],
         "episodes": [
-          "-0g3lLGxNfc"
+          "-0g3lLGxNfc",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -14155,29 +14157,30 @@
       }
     },
     "chris-langan-sees-a-disc-near-malmstrom": {
-      "attestation": 0.5,
-      "score": 1.0,
+      "attestation": 1.0,
+      "score": 2.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
-        "firsthand": 0,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "firsthand",
         "tellers": [
           "chris-langan"
         ],
         "episodes": [
           "-0g3lLGxNfc",
-          "IWui5cBkwoE"
+          "IWui5cBkwoE",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -20495,8 +20498,8 @@
       }
     },
     "donald-menzel-caught-destroying-plates-per-dorrit-hoffleit-1950": {
-      "attestation": 0.75,
-      "score": 1.5,
+      "attestation": 1.0,
+      "score": 2.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -20508,7 +20511,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 1,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -20516,6 +20519,7 @@
           "jesse-michels"
         ],
         "episodes": [
+          "h0hAit-KH9A",
           "u7g5Sn1DJF4",
           "uVVqFg2v7ro"
         ]
@@ -21627,8 +21631,8 @@
       }
     },
     "echo-flight-incident-and-the-boeing-sac-report-1967": {
-      "attestation": 1.4,
-      "score": 2.8,
+      "attestation": 1.65,
+      "score": 3.3,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -21640,7 +21644,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
@@ -21650,7 +21654,8 @@
         ],
         "episodes": [
           "-0g3lLGxNfc",
-          "8Rr_nE65KkI"
+          "8Rr_nE65KkI",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -24233,7 +24238,8 @@
           "8Rr_nE65KkI",
           "IWui5cBkwoE",
           "TH10mD9hQas",
-          "fzvwBBSmWYA"
+          "fzvwBBSmWYA",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -24660,8 +24666,8 @@
       }
     },
     "fbi-memo-to-hoover-on-discs-and-balls-of-fire-1949": {
-      "attestation": 0.35,
-      "score": 0.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -24673,7 +24679,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 1,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -24681,7 +24687,8 @@
           "jesse-michels"
         ],
         "episodes": [
-          "fzvwBBSmWYA"
+          "fzvwBBSmWYA",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -31067,6 +31074,32 @@
         ]
       }
     },
+    "grusch-reprisals-at-the-nga-2020": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "h0hAit-KH9A"
+        ]
+      }
+    },
     "grusch-s-40-witnesses-are-firsthand-and-none-are-physicists-2023": {
       "attestation": 0.5,
       "score": 1.0,
@@ -33683,6 +33716,32 @@
         ],
         "episodes": [
           "LpLFWdsIU7M"
+        ]
+      }
+    },
+    "host-has-seen-jacobs-dd214-1964": {
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -36509,30 +36568,31 @@
       }
     },
     "jacobs-records-denied-and-mailbox-blown-up-1964": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-by-several",
+      "attestation": 1.75,
+      "score": 3.5,
+      "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
-        "firsthand": 0,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
-        "credited_documents": 0,
-        "repetitions": 0,
+        "credited_documents": 1,
+        "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
+          "bob-jacobs",
           "robert-hastings"
         ],
         "episodes": [
           "-0g3lLGxNfc",
-          "fzvwBBSmWYA"
+          "fzvwBBSmWYA",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -37954,7 +38014,8 @@
           "jesse-michels"
         ],
         "episodes": [
-          "09KP8XVf5nY"
+          "09KP8XVf5nY",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -39357,8 +39418,8 @@
       }
     },
     "john-mills-sees-zigzagging-object-near-malmstrom-1993": {
-      "attestation": 0.1,
-      "score": 0.2,
+      "attestation": 0.5,
+      "score": 1.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -39366,20 +39427,21 @@
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 0,
+        "secondhand": 1,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels"
         ],
         "episodes": [
           "-0g3lLGxNfc",
-          "fzvwBBSmWYA"
+          "fzvwBBSmWYA",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -40620,8 +40682,8 @@
       }
     },
     "killeen-base-emergency-meeting-1949": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.85,
+      "score": 1.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -40633,7 +40695,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -40642,6 +40704,7 @@
         ],
         "episodes": [
           "fzvwBBSmWYA",
+          "h0hAit-KH9A",
           "u7g5Sn1DJF4"
         ]
       }
@@ -40773,6 +40836,32 @@
         ],
         "episodes": [
           "yGtVzBbUvx4"
+        ]
+      }
+    },
+    "kirkpatrick-lobbied-against-the-uap-disclosure-act-2023": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -45422,16 +45511,16 @@
       }
     },
     "malmstrom-missiles-disabled-by-red-glowing-object-1967": {
-      "attestation": 4.05,
-      "score": 8.1,
+      "attestation": 4.55,
+      "score": 9.1,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 6,
-        "firsthand": 1,
+        "firsthand": 2,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 4,
+        "secondhand": 3,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -45440,7 +45529,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bob-jameson",
+          "bob-jamieson",
           "daniel-sheehan",
           "james-fox",
           "karl-nell",
@@ -45456,6 +45545,7 @@
           "V00WcEiKRAY",
           "aa9Xx5wI8Rw",
           "fzvwBBSmWYA",
+          "h0hAit-KH9A",
           "hBrfe4hFuM0",
           "kRO5jOa06Qw",
           "yGtVzBbUvx4"
@@ -47604,6 +47694,58 @@
         ],
         "episodes": [
           "2-GeTxXi670"
+        ]
+      }
+    },
+    "menzel-stops-the-harvard-sky-survey-in-1953": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "h0hAit-KH9A"
+        ]
+      }
+    },
+    "menzel-the-objects-are-not-unidentified-1950": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "donald-menzel"
+        ],
+        "episodes": [
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -62372,6 +62514,7 @@
           "TH10mD9hQas",
           "d9tdJ2SkBKQ",
           "dnnpyNuPdXs",
+          "h0hAit-KH9A",
           "kRO5jOa06Qw",
           "uVVqFg2v7ro",
           "yGtVzBbUvx4"
@@ -64764,6 +64907,32 @@
         ]
       }
     },
+    "salas-rebuts-the-emp-explanation-1967": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "h0hAit-KH9A"
+        ]
+      }
+    },
     "salas-s-14-point-wsj-rebuttal-2025": {
       "attestation": 1.5,
       "score": 3.0,
@@ -67105,18 +67274,18 @@
       }
     },
     "simons-foundation-head-david-spergel-chairs-nasa-uap-study-2022": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.7,
+      "score": 1.4,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
-        "host": 1,
+        "host": 2,
         "documents": 0,
         "credited_documents": 1,
         "repetitions": 0,
@@ -67124,12 +67293,14 @@
         "strongest_kind": "researcher",
         "tellers": [
           "jesse-michels",
+          "matthew",
           "matthew-pines"
         ],
         "episodes": [
           "IWui5cBkwoE",
           "LpLFWdsIU7M",
           "fzvwBBSmWYA",
+          "h0hAit-KH9A",
           "uVVqFg2v7ro",
           "xnxasfyHtfo"
         ]
@@ -70407,6 +70578,32 @@
         ],
         "episodes": [
           "u7g5Sn1DJF4"
+        ]
+      }
+    },
+    "susan-gough-s-psychological-operations-role-as-a-source-for-2025": {
+      "attestation": 0.6,
+      "score": 1.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 2,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -75402,6 +75599,7 @@
           "1iaH1a3A4Lk",
           "A2-y_HasHEw",
           "IWui5cBkwoE",
+          "h0hAit-KH9A",
           "kRO5jOa06Qw"
         ]
       }
@@ -76371,6 +76569,7 @@
           "IWui5cBkwoE",
           "bVhSPH2A5Vw",
           "fzvwBBSmWYA",
+          "h0hAit-KH9A",
           "kRO5jOa06Qw",
           "uVVqFg2v7ro"
         ]
@@ -76824,7 +77023,8 @@
         "episodes": [
           "1iaH1a3A4Lk",
           "8Rr_nE65KkI",
-          "bVhSPH2A5Vw"
+          "bVhSPH2A5Vw",
+          "h0hAit-KH9A"
         ]
       }
     },
@@ -79612,36 +79812,37 @@
       }
     },
     "wall-street-journal-emp-explanation-for-malmstrom-1967": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 1.35,
+      "score": 2.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "journalist",
         "tellers": [
           "jesse-michels"
         ],
         "episodes": [
           "-0g3lLGxNfc",
           "8Rr_nE65KkI",
+          "h0hAit-KH9A",
           "yGtVzBbUvx4"
         ]
       }
     },
     "wall-street-journal-op-ed-and-david-spergel-s-dismissal-2023": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 2.25,
+      "score": 4.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -79653,7 +79854,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 5,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -79663,6 +79864,7 @@
         "episodes": [
           "-0g3lLGxNfc",
           "V00WcEiKRAY",
+          "h0hAit-KH9A",
           "yGtVzBbUvx4"
         ]
       }
@@ -80085,6 +80287,7 @@
         ],
         "episodes": [
           "LpLFWdsIU7M",
+          "h0hAit-KH9A",
           "uVVqFg2v7ro",
           "xnxasfyHtfo"
         ]
@@ -81405,6 +81608,32 @@
         ],
         "episodes": [
           "aa9Xx5wI8Rw"
+        ]
+      }
+    },
+    "wsj-claim-that-air-force-hazing-rituals-explain-ufo-mytholog-2025": {
+      "attestation": 0.85,
+      "score": 1.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 1,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "journalist",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "h0hAit-KH9A"
         ]
       }
     },

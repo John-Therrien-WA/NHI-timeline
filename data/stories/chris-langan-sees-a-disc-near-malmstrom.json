@@ -45,34 +45,57 @@
         "outside": true
       },
       "teller_was": "jesse-michels"
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 256.0,
+      "to_s": 285.0,
+      "teller": "chris-langan",
+      "quote": "On the UFO thing, I was working for the forest service, not too far from Malmstrom Air Force Base. One day I was up there in a forest service pickup truck at a certain campground, and I was there and suddenly I look up and I would I say suddenly it was just in the sky.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "The speaker is not named here, and the object is described as a huge elliptical saucer.",
+      "link_reason": "Both are the forest service worker's sighting near Malmstrom, which the corpus credits to Chris Langan.",
+      "as_told": {
+        "title": "Forest service worker sees a huge elliptical saucer near Malmstrom",
+        "years": null,
+        "place_text": "campground near Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "unidentified-clip-speaker"
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
       "chris-langan"
     ],
     "episodes": [
       "-0g3lLGxNfc",
-      "IWui5cBkwoE"
+      "IWui5cBkwoE",
+      "h0hAit-KH9A"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that a man named Chris Langan saw UFOs near Malmstrom Air Force Base in Montana, a base that oversees nuclear missiles. In one retelling, Michels has Langan say he was working for the Forest Service, the US agency that runs national forests, not far from the base at the time. If true, it would add another sighting to a place where others have reported strange objects near nuclear weapons."
 }

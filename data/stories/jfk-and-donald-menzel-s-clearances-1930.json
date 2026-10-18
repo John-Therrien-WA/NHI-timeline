@@ -25,6 +25,29 @@
         "john-f-kennedy"
       ],
       "documents": []
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 902.0,
+      "to_s": 931.0,
+      "teller": "jesse-michels",
+      "quote": "Menzel happened to hold extremely high clearances at the NSA, CIA, and Navy.",
+      "kind": "host",
+      "cites": [
+        "donald-menzel"
+      ],
+      "documents": [],
+      "difference": "Leaves out JFK and the claim that Menzel admitted the clearances to him.",
+      "link_reason": "Same claim: Donald Menzel held very high clearances at the NSA, CIA and Navy.",
+      "as_told": {
+        "title": "Menzel's high clearances",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "NSA, CIA, Navy",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -48,7 +71,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "h0hAit-KH9A"
     ]
   },
   "attestation": 0.1,

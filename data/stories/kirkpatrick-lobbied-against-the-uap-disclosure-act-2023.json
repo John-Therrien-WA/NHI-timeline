@@ -1,0 +1,74 @@
+{
+  "id": "kirkpatrick-lobbied-against-the-uap-disclosure-act-2023",
+  "title": "Kirkpatrick lobbied against the UAP Disclosure Act",
+  "summary": "Jesse Michels tells of Kirkpatrick lobbied against the UAP Disclosure Act, about 2023-2024 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2024
+  },
+  "place": "washington-dc",
+  "place_text": "US Congress",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 1046.0,
+      "to_s": 1078.0,
+      "teller": "jesse-michels",
+      "quote": "And hopefully, when the UAP Disclosure Act goes up for vote again, Sean Kirkpatrick won't lobby against it like he did last time.",
+      "kind": "host",
+      "cites": [
+        "sean-kirkpatrick"
+      ],
+      "documents": [
+        "uap-disclosure-act"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "greer-gave-grusch-and-luna-an-unredacted-hard-drive-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jake-sullivan-in-at-least-one-uap-briefing-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kirkpatrick-s-aaro-denied-the-herrera-incident-but-he-privat-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "h0hAit-KH9A"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Sean Kirkpatrick, who once led a Pentagon office set up to look into UAP (unidentified anomalous phenomena, the government's term for UFOs), lobbied against the UAP Disclosure Act around 2023 and 2024. That act is a proposed law meant to make the government release its UFO records. Michels says he hopes Kirkpatrick won't do it again when it next comes to a vote, since in his telling it would mean an official worked to keep the records closed."
+}

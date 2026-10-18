@@ -50,11 +50,36 @@
         "place_text": "Boeing",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 285.0,
+      "to_s": 326.0,
+      "teller": "jesse-michels",
+      "quote": "There's even documentation from Malmstrom's strategic air command itself, saying that they were extremely puzzled around the event and that they had no idea what was going on.",
+      "kind": "host",
+      "cites": [
+        "boeing"
+      ],
+      "documents": [
+        "strategic-air-command-documentation-on-malmstrom"
+      ],
+      "difference": "Stresses that SAC documents say the command was extremely puzzled and had no idea what happened.",
+      "link_reason": "Both tell of the 1967 Echo Flight/Malmstrom SAC documentation and Boeing's investigation into the shutdown.",
+      "as_told": {
+        "title": "SAC documents show puzzlement and a Boeing investigation",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.8,
+  "score": 3.3,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
@@ -65,7 +90,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
@@ -75,10 +100,11 @@
     ],
     "episodes": [
       "-0g3lLGxNfc",
-      "8Rr_nE65KkI"
+      "8Rr_nE65KkI",
+      "h0hAit-KH9A"
     ]
   },
-  "attestation": 1.4,
+  "attestation": 1.65,
   "tier": "well-attested",
   "plain": "In 1967, at Malmstrom Air Force Base in Montana, a group of nuclear missiles known as Echo Flight went out of action, and some people tell this as a UFO event. A former Air Force officer, Robert Salas, appeared on a show whose title says a UFO shut down ten nuclear missiles. He says that Boeing, the company that built the missiles, ran a bench test on a part called a logic coupler to work out what happened. He credits a researcher, James Klotz, as a source for this. A podcast host, Jesse Michels, tells it his own way. He says a report by Boeing and Strategic Air Command, the Air Force branch that ran the nuclear bombers and missiles, tried to recreate the effect. Michels says this report is why he thinks the incident really was UFO related. If the tellers are right, a company and the military tried to explain the shutdown and could not find an ordinary cause."
 }

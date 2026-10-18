@@ -1,0 +1,62 @@
+{
+  "id": "salas-rebuts-the-emp-explanation-1967",
+  "title": "Salas rebuts the EMP explanation",
+  "summary": "Jesse Michels tells of Salas rebuts the EMP explanation, about 1967 at Malmstrom Air Force Base, Montana, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1967,
+    "to": 1967
+  },
+  "place": null,
+  "place_text": "Malmstrom Air Force Base, Montana",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 326.0,
+      "to_s": 350.0,
+      "teller": "jesse-michels",
+      "quote": "Bob Salas responded to this claim, quote unquote, it would have been irresponsible and unthinkable for the U.S. Air Force to jeopardize the operational status of these weapons.",
+      "kind": "secondhand",
+      "cites": [
+        "robert-salas"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "wall-street-journal-emp-explanation-for-malmstrom-1967",
+      "relation": "variant",
+      "note": "Salas's rebuttal disputes the WSJ claim that an EMP test caused the 1967 Malmstrom shutdowns; it is a competing account of the same event."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "h0hAit-KH9A"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "In 1967, according to accounts, nuclear missiles at Malmstrom Air Force Base in Montana went offline, and a Wall Street Journal article suggested the cause was the Air Force testing an EMP, a burst of energy that can knock out electronics. A podcast host, Jesse Michels, relays that Robert \"Bob\" Salas, a former Air Force officer tied to the incident, answered that it would have been \"irresponsible and unthinkable\" for the Air Force to put those weapons out of action on purpose. The point is that if Salas is right, the shutdown still needs another explanation."
+}

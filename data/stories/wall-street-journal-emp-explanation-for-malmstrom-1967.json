@@ -75,6 +75,32 @@
         "place_text": "Malmstrom Air Force Base, Montana",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 285.0,
+      "to_s": 326.0,
+      "teller": "jesse-michels",
+      "quote": "So anyways, this Wall Street Journal reporter named Joel Schechtman writes that this was all a secret EMP or electromagnetic pulse experiment, seeing if the US could shut down our own nukes with people present as if that's not incredibly dangerous and reckless and has any precedent.",
+      "kind": "journalist",
+      "cites": [
+        "joel-schechtman",
+        "sean-kirkpatrick"
+      ],
+      "documents": [
+        "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol"
+      ],
+      "difference": "Adds that the host called it dangerous, reckless and without precedent.",
+      "link_reason": "Both are the WSJ claim that the 1967 Malmstrom shutdown was a secret EMP experiment, in Schechtman's article.",
+      "as_told": {
+        "title": "WSJ claim that Malmstrom was a secret EMP experiment",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -87,34 +113,40 @@
       "story": "non-operational-emp-testing-at-samso-and-hill-afb-1960",
       "relation": "variant",
       "note": "Both are about EMP testing on missile equipment as an explanation for the shutdowns. The WSJ account says an EMP was wheeled up to Malmstrom itself; Salas says such testing was done only at SAMSO and Hill AFB, not at operational bases."
+    },
+    {
+      "story": "salas-rebuts-the-emp-explanation-1967",
+      "relation": "variant",
+      "note": "Salas's rebuttal disputes the WSJ claim that an EMP test caused the 1967 Malmstrom shutdowns; it is a competing account of the same event."
     }
   ],
   "tags": [],
-  "score": 1.2,
+  "score": 2.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "journalist",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
       "-0g3lLGxNfc",
       "8Rr_nE65KkI",
+      "h0hAit-KH9A",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 1.35,
   "tier": "told-once",
   "plain": "In 1967, at Malmstrom, an Air Force base in Montana that housed nuclear missiles, others tell of missiles being shut down while a glowing object hovered nearby. The podcast host Jesse Michels says that a Wall Street Journal article, written by a reporter named Joel Shectman and linked by Michels to a man named Sean Kirkpatrick, explained the event as a test of an EMP, a burst of electromagnetic energy that can fry electronics. As Michels retells it, the article said the device was wheeled up to the base and knocked out the electronics with people present, and he calls the piece a deliberate disinformation hit job."
 }

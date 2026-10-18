@@ -49,11 +49,34 @@
         "place_text": "Killeen, Texas",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 465.0,
+      "to_s": 509.0,
+      "teller": "jesse-michels",
+      "quote": "Can someone please, for the love of God, explain documents from the Air Force dating back to 1949 discussing an emergency meeting around UFOs and nukes, taking place at Killeen base camps with the Army CIC, FBI, Office of Naval Intelligence and CIA present?",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "air-force-documents-from-1949"
+      ],
+      "difference": "Lists Army CIC, FBI, ONI and CIA as present at the meeting.",
+      "link_reason": "The same 1949 emergency meeting at Killeen Base, Texas, about UFOs near the nuclear stockpile.",
+      "as_told": {
+        "title": "1949 emergency meeting on UFOs and nukes at Killeen base",
+        "years": {
+          "from": 1949,
+          "to": 1949
+        },
+        "place_text": "Killeen base camps, Texas",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 1.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -64,7 +87,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -73,10 +96,11 @@
     ],
     "episodes": [
       "fzvwBBSmWYA",
+      "h0hAit-KH9A",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 0.85,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says declassified documents show that in 1949, after several sightings over Killeen Base at Camp Hood, an army post in Texas that he says held America's largest nuclear weapons stockpile at the time, an emergency meeting was called. In a later episode he credits the story to researcher Robert Hastings' book UFOs and Nukes and is less sure of the year. If true, it would mean unknown objects were taking an interest in American nuclear weapons from early on."
 }

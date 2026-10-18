@@ -47,34 +47,58 @@
         "place_text": "Malmstrom Air Force Base, Montana",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 222.0,
+      "to_s": 256.0,
+      "teller": "jesse-michels",
+      "quote": "In 1993, a missile technician named John Mills stationed at Malmstrom also saw UFOs on his way back to the base. When he returned, officers there said the base had been swarmed.",
+      "kind": "secondhand",
+      "cites": [
+        "john-mills"
+      ],
+      "documents": [],
+      "difference": "Adds that officers said the base had been swarmed when he got back.",
+      "link_reason": "Both are John Mills' January 1993 sighting while driving back to Malmstrom.",
+      "as_told": {
+        "title": "John Mills' 1993 sighting and the base being swarmed",
+        "years": {
+          "from": 1993,
+          "to": 1993
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
       "-0g3lLGxNfc",
-      "fzvwBBSmWYA"
+      "fzvwBBSmWYA",
+      "h0hAit-KH9A"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in January 1993 John Mills, a member of a missile targeting team at Malmstrom Air Force Base in Montana, a base that looks after nuclear missiles, was driving back to base with a crew of six. According to Michels, Mills recalls seeing a bright object zigzagging around the sky, and in another telling Michels says the base was swarmed with objects. He tells it as part of a pattern of unexplained objects watching nuclear sites."
 }

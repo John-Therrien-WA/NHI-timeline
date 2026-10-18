@@ -48,11 +48,37 @@
         "place_text": "Harvard",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 931.0,
+      "to_s": 954.0,
+      "teller": "jesse-michels",
+      "quote": "He was also caught destroying astronomical records by fellow astronomer Dorrit Hoffleit, as she documents in her biography.",
+      "kind": "researcher",
+      "cites": [
+        "dorrit-hoffleit",
+        "donald-menzel"
+      ],
+      "documents": [
+        "dorrit-hoffleit-biography"
+      ],
+      "difference": "Names Hoffleit's biography as the document where she records it.",
+      "link_reason": "Same story: Dorrit Hoffleit caught Donald Menzel destroying astronomical plates or records at Harvard.",
+      "as_told": {
+        "title": "Menzel caught destroying astronomical records",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Harvard, Massachusetts",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -63,7 +89,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -71,11 +97,12 @@
       "jesse-michels"
     ],
     "episodes": [
+      "h0hAit-KH9A",
       "u7g5Sn1DJF4",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "The podcast host Jesse Michels says that Donald Menzel, an astronomer at Harvard in the 1950s, was caught destroying astronomical plates, the glass photographs of the night sky that observatories keep as records. Michels says the person who caught him was Dorrit Hoffleit, a respected Harvard astronomer whom he also describes as Menzel's assistant, and that she wrote about it in her book. If true, a leading scientist would have been getting rid of records of the sky."
 }

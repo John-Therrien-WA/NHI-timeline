@@ -1,0 +1,58 @@
+{
+  "id": "host-has-seen-jacobs-dd214-1964",
+  "title": "Host has seen Jacobs' DD214",
+  "summary": "Jesse Michels tells of Host has seen Jacobs' DD214, about 1964 at Vandenberg Space Force Base, California, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "vandenberg-ca",
+  "place_text": "Vandenberg Air Force Base, California",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 551.0,
+      "to_s": 576.0,
+      "teller": "jesse-michels",
+      "quote": "By the way, I've seen Bob Jacobs' DD214. He definitely worked at Vandenberg.",
+      "kind": "firsthand",
+      "cites": [
+        "bob-jacobs"
+      ],
+      "documents": [
+        "bob-jacobs-dd214"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "h0hAit-KH9A"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says he has personally seen the DD214 of a man named Bob Jacobs. A DD214 is the paper the US military gives people when they leave service, listing where they served. Michels says it shows Jacobs really worked at Vandenberg, a military base in California, around 1964, which matters because it would back up Jacobs' own account of what he says he saw there."
+}

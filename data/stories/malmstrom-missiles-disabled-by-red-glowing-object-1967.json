@@ -76,7 +76,7 @@
       "episode": "fzvwBBSmWYA",
       "from_s": 2468.0,
       "to_s": 2482.0,
-      "teller": "bob-jameson",
+      "teller": "bob-jamieson",
       "quote": "on job control they have a wall and they have green lights where all the missiles are on alert except for one corner all 10 missiles were off alert all 10 whole flight was off alert all red",
       "kind": "secondhand",
       "cites": [
@@ -93,6 +93,9 @@
         },
         "place_text": "Malmstrom Air Force Base, Montana",
         "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
       },
       "teller_was": "jesse-michels"
     },
@@ -306,6 +309,56 @@
         "place_text": "Malmstrom AFB, Montana",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 99.0,
+      "to_s": 133.0,
+      "teller": "jesse-michels",
+      "quote": "On March 24th, 1967, Robert Salas, a first lieutenant stationed at Malmstrom Air Force Base, said he received a call from top side guards saying that they had seen strange lights in the sky making odd maneuvers.",
+      "kind": "secondhand",
+      "cites": [
+        "robert-salas",
+        "bob-jamieson",
+        "larry-king"
+      ],
+      "documents": [],
+      "difference": "Gives the date as March 24, 1967 and centres on the guards' call about lights moving oddly, credited to Salas, Jamieson and Larry King.",
+      "link_reason": "Both are the March 1967 Malmstrom encounter, where guards reported a red glowing object and Salas's missiles were disabled.",
+      "as_told": {
+        "title": "Malmstrom 1967: guards report a red glowing object at the front gate",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 133.0,
+      "to_s": 148.0,
+      "teller": "bob-jamieson",
+      "quote": "All 10 missiles were off alert. All 10. Whole flight was off alert. All red.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Salas, where the matching corpus quote is credited to Bob Jameson.",
+      "link_reason": "This is the same Malmstrom shutdown, where all 10 missiles went off alert. A corpus telling uses the same words.",
+      "as_told": {
+        "title": "Salas: all 10 missiles went off alert",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "robert-salas"
     }
   ],
   "related": [
@@ -316,14 +369,14 @@
     }
   ],
   "tags": [],
-  "score": 8.1,
+  "score": 9.1,
   "profile": {
     "independent_tellers": 6,
-    "firsthand": 1,
+    "firsthand": 2,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 4,
+    "secondhand": 3,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -332,7 +385,7 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "bob-jameson",
+      "bob-jamieson",
       "daniel-sheehan",
       "james-fox",
       "karl-nell",
@@ -348,12 +401,13 @@
       "V00WcEiKRAY",
       "aa9Xx5wI8Rw",
       "fzvwBBSmWYA",
+      "h0hAit-KH9A",
       "hBrfe4hFuM0",
       "kRO5jOa06Qw",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 4.05,
+  "attestation": 4.55,
   "tier": "well-attested",
   "plain": "Malmstrom Air Force Base in Montana held some of America's nuclear missiles, the long-range kind called ICBMs, or intercontinental ballistic missiles. Robert Salas, a former Air Force officer, says that on March 24, 1967 he was on duty underground at a launch control center called Oscar when guards reported a red glowing object hovering above. He says that before he could even pass on the phone calls, an alarm horn went off and the first missile went from green to red, and soon the missiles were in a \"no-go\" condition, meaning they could not be launched. If true, it would mean something unknown could switch off nuclear weapons at will, or as filmmaker James Fox puts it, take matches out of a baby's hands. The details shift between tellings: most say all ten missiles went down, while podcast host Jesse Michels once says nine of ten. Michels, who met Salas, repeats the story across many episodes, and another Air Force man, Bob Jamison, says a whole flight of ten missiles showed red on the control wall. Researcher Robert Hastings gathered Salas and other Air Force witnesses at a 2010 press conference, a former official named Karl Nell says missiles there were taken offline in the 1960s, and a guest named Danny Sheehan says the base commander, Arie Arnoldson, filed a UFO report with NORAD, the military command that watches North American airspace."
 }

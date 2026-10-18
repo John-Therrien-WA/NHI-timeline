@@ -288,6 +288,31 @@
         "place_text": "US nuclear sites",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 148.0,
+      "to_s": 177.0,
+      "teller": "jesse-michels",
+      "quote": "His name is Robert Hastings, and he is the authoritative chronicler of 167 Q-cleared nuclear base employees that have all witnessed UFOs.",
+      "kind": "researcher",
+      "cites": [
+        "robert-hastings"
+      ],
+      "documents": [
+        "ufos-and-nukes"
+      ],
+      "difference": "Describes the witnesses as Q-cleared.",
+      "link_reason": "Both are Hastings' record of 167 nuclear base witnesses in UFOs and Nukes.",
+      "as_told": {
+        "title": "Robert Hastings' record of 167 nuclear base witnesses",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "US nuclear weapons sites",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -331,6 +356,7 @@
       "TH10mD9hQas",
       "d9tdJ2SkBKQ",
       "dnnpyNuPdXs",
+      "h0hAit-KH9A",
       "kRO5jOa06Qw",
       "uVVqFg2v7ro",
       "yGtVzBbUvx4"

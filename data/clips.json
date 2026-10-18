@@ -57,17 +57,20 @@
           "from_s": 2472.0,
           "to_s": 2482.0,
           "words": 19
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 133.0,
+          "to_s": 148.0,
+          "words": 15
         }
       ],
       "verdict": "clip",
-      "speaker": "bob-jameson",
-      "speaker_name": "Bob Jameson",
+      "speaker": "bob-jamieson",
+      "speaker_name": "Bob Jamieson",
       "also_heard": [],
-      "origin": {
-        "episode": "fzvwBBSmWYA",
-        "from_s": 2472.0
-      },
-      "reason": "In occurrence 3 this is Jameson answering inside the interview, and the interviewer follows up with 'is it possible they just malfunctioned'. Occurrence 2 is a cold-open montage under the narration, and in the Salas episode it is cut in among >> segments.",
+      "origin": "outside",
+      "reason": "This is a first-hand account of going to job control and seeing Oscar flight's missiles off alert. That fits the targeting officer Bob Jamieson, not Salas, who was underground in the launch capsule. In #3 Jamieson is questioned as 'Bob Jameson you were there too', and #4 says he 'backed up his testimony on record with Larry King', so all occurrences replay an outside interview.",
       "model": "opus"
     },
     {
@@ -234,6 +237,12 @@
           "from_s": 720.0,
           "to_s": 752.0,
           "words": 67
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 222.0,
+          "to_s": 256.0,
+          "words": 21
         }
       ],
       "verdict": "clip",
@@ -244,24 +253,30 @@
         "episode": "fzvwBBSmWYA",
         "from_s": 720.0
       },
-      "reason": "In occurrence 3, Hastings tells the story without a break: he meets the FAA supervisor Bob Grasser, sees the blips, then goes home and tells his dad. In occurrences 1 and 2, the host introduces Hastings in the third person and a >> opens the passage, so it is played in.",
+      "reason": "In #3, Hastings' own episode, the passage sits inside his running story (father at Malmstrom, janitor job, Bob Grasser) and he carries on after it. In #1 a >> opens it right after the host describes Hastings, and in #2 and #4 it is cut into the host's narration.",
       "model": "opus"
     },
     {
       "id": "-0g3lLGxNfc-3292",
-      "text": "the ufo thing i was working for the forest service not too far from malmstrom air force base one day i was up there in a forest service",
+      "text": "on the ufo thing i was working for the forest service not too far from malmstrom air force base one day i was up there in a forest service pickup truck at a certain campground and uh i was there and suddenly i look up and i i say suddenly it was just in the sky i became aware that it was up there and i looked up there's this huge spheroidal you know but elliptical not not a perfect spheroid like a",
       "occurrences": [
         {
           "episode": "-0g3lLGxNfc",
           "from_s": 3292.0,
-          "to_s": 3301.0,
-          "words": 28
+          "to_s": 3323.0,
+          "words": 91
         },
         {
           "episode": "IWui5cBkwoE",
           "from_s": 817.0,
           "to_s": 826.0,
           "words": 28
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 256.0,
+          "to_s": 285.0,
+          "words": 92
         }
       ],
       "verdict": "clip",
@@ -269,7 +284,7 @@
       "speaker_name": "Chris Langan",
       "also_heard": [],
       "origin": "outside",
-      "reason": "In both episodes the host introduces Chris Langan's sighting ('there's a guy named Chris Langan', 'you even have an interview with this guy') and then plays it. In occurrence 1 a >> opens it, and in both the host carries on his own point afterwards. Neither episode is the interview it was recorded in.",
+      "reason": "In every occurrence the host introduces Chris Langan's sighting and then the passage is played (a >> opens it in #1). Langan is not part of any of these conversations, so the recording comes from an outside interview.",
       "model": "opus"
     },
     {
@@ -2896,22 +2911,40 @@
           "words": 229
         },
         {
+          "episode": "EzPmG_7WhXc",
+          "from_s": 1951.0,
+          "to_s": 1961.0,
+          "words": 15
+        },
+        {
           "episode": "KRDE1i3LDuU",
           "from_s": 2862.0,
           "to_s": 2945.0,
           "words": 229
         },
         {
+          "episode": "KRDE1i3LDuU",
+          "from_s": 2953.0,
+          "to_s": 2961.0,
+          "words": 16
+        },
+        {
           "episode": "V00WcEiKRAY",
           "from_s": 1736.0,
-          "to_s": 1819.0,
-          "words": 231
+          "to_s": 1836.0,
+          "words": 279
         },
         {
           "episode": "areO7Mej44E",
           "from_s": 1890.0,
           "to_s": 1986.0,
           "words": 255
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 576.0,
+          "to_s": 686.0,
+          "words": 276
         }
       ],
       "verdict": "not-a-clip",
@@ -2919,7 +2952,7 @@
       "speaker_name": null,
       "also_heard": [],
       "origin": null,
-      "reason": "These are the host's sponsor reads for Qualia Senolytic, placed as ad breaks in each episode, so it is a sponsor read and not a clip.",
+      "reason": "This is the host's Qualia sponsor read, inserted into several unrelated conversations. It is a stock ad read, not a clip of a person.",
       "model": "opus"
     },
     {
@@ -3283,37 +3316,6 @@
       "model": "opus"
     },
     {
-      "id": "EzPmG_7WhXc-1951",
-      "text": "for an extra 15 off your purchase thanks so much to qualia for sponsoring this episode",
-      "occurrences": [
-        {
-          "episode": "EzPmG_7WhXc",
-          "from_s": 1951.0,
-          "to_s": 1961.0,
-          "words": 16
-        },
-        {
-          "episode": "KRDE1i3LDuU",
-          "from_s": 2953.0,
-          "to_s": 2961.0,
-          "words": 17
-        },
-        {
-          "episode": "V00WcEiKRAY",
-          "from_s": 1823.0,
-          "to_s": 1836.0,
-          "words": 17
-        }
-      ],
-      "verdict": "not-a-clip",
-      "speaker": null,
-      "speaker_name": null,
-      "also_heard": [],
-      "origin": null,
-      "reason": "This is a Qualia sponsor read by the host, and the wording differs slightly between episodes. Each read sits in its own ad break before the host goes back to that episode's conversation.",
-      "model": "opus"
-    },
-    {
       "id": "JGE1NIGhBzw-1866",
       "text": "they'll ask you where you heard about them please support our show and tell them",
       "occurrences": [
@@ -3414,6 +3416,64 @@
       "model": "opus"
     },
     {
+      "id": "LpLFWdsIU7M-3392",
+      "text": "weinstein is is on rogan actively speculating that this is housing a sort of secret physics program involving all the top differential geometers in the us what do you think matthew i mean if such a thing were to exist that's exactly where it would exist yeah",
+      "occurrences": [
+        {
+          "episode": "LpLFWdsIU7M",
+          "from_s": 3392.0,
+          "to_s": 3408.0,
+          "words": 47
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 1003.0,
+          "to_s": 1023.0,
+          "words": 47
+        }
+      ],
+      "verdict": "clip",
+      "speaker": "matthew-pines",
+      "speaker_name": "Matthew Pines",
+      "also_heard": [
+        "jesse-michels"
+      ],
+      "origin": {
+        "episode": "LpLFWdsIU7M",
+        "from_s": 3392.0
+      },
+      "reason": "In #1 Jesse's question about Weinstein's Rogan remarks follows from the Renaissance Technologies discussion, and Matthew Pines answers and carries on about Jim Simons. #4's episode stitches the exchange into its narration.",
+      "model": "opus"
+    },
+    {
+      "id": "LpLFWdsIU7M-3452",
+      "text": "and you look at what else jim simons was really engaged in right he set up the simons foundation um which is probably like one of the leading private sector sources of",
+      "occurrences": [
+        {
+          "episode": "LpLFWdsIU7M",
+          "from_s": 3452.0,
+          "to_s": 3465.0,
+          "words": 32
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 976.0,
+          "to_s": 1003.0,
+          "words": 32
+        }
+      ],
+      "verdict": "clip",
+      "speaker": "matthew-pines",
+      "speaker_name": "Matthew Pines",
+      "also_heard": [],
+      "origin": {
+        "episode": "LpLFWdsIU7M",
+        "from_s": 3452.0
+      },
+      "reason": "In #1 this is part of Matthew Pines' continuous answer about Jim Simons, and it runs on into the Spergel point. The Wall Street Journal episode replays it inside its narration.",
+      "model": "opus"
+    },
+    {
       "id": "LpLFWdsIU7M-3524",
       "text": "you don't have to like be the conspiracy theorist drawing the red dots of yarn to be like here's a black here's a money making machine started by a guy deeply connected to the nsa that's also like a super physics genius and it can attract the smartest physics and math people on the planet to work for his blackbox money machine",
       "occurrences": [
@@ -3443,19 +3503,31 @@
     },
     {
       "id": "LpLFWdsIU7M-3549",
-      "text": "and his you know guy running his his private research foundation and and fun physics gets tat to run the uap working group for nasa yeah a working group that sort of says you know nothing to see here like we we'll keep an open mind but there's probably nothing here which i find interesting",
+      "text": "and his you know guy running his his private research foundation and and fun physics gets tat to run the uap working group for nasa yeah a working group that sort of says you know nothing to see here like we we'll keep an open mind but there's probably nothing here which i find interesting yeah i mean i don't know i have no smoking gun it just seems quite a curious set of coincidences",
       "occurrences": [
         {
           "episode": "LpLFWdsIU7M",
           "from_s": 3549.0,
-          "to_s": 3567.0,
-          "words": 55
+          "to_s": 3572.0,
+          "words": 75
         },
         {
           "episode": "fzvwBBSmWYA",
           "from_s": 6830.0,
           "to_s": 6853.0,
           "words": 55
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 954.0,
+          "to_s": 1003.0,
+          "words": 50
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 976.0,
+          "to_s": 1023.0,
+          "words": 25
         }
       ],
       "verdict": "clip",
@@ -3468,7 +3540,7 @@
         "episode": "LpLFWdsIU7M",
         "from_s": 3549.0
       },
-      "reason": "In the Pines episode Pines speaks, Jesse answers ('A working group that sort of says...'), and Pines carries on. In the Hastings episode the same exchange is cut straight into a NASA panel quote and narration.",
+      "reason": "In occurrence 1 the passage sits inside the running Pines–Michels conversation about Jim Simons, Stony Brook and Spergel, and both carry on talking after it. In occurrences 2–4 it is cut into narration: after it come a separate NASA quote and Jesse's 'What do you think, Matthew?', and in the June 2025 episode the segments come out of order.",
       "model": "opus"
     },
     {
@@ -5563,6 +5635,31 @@
       "model": "opus"
     },
     {
+      "id": "fzvwBBSmWYA-670",
+      "text": "us government documents and witness testimony from former or retired us military personnel confirmed beyond any doubt the reality of ongoing ufo incursions at nuclear weapons sites",
+      "occurrences": [
+        {
+          "episode": "fzvwBBSmWYA",
+          "from_s": 670.0,
+          "to_s": 689.0,
+          "words": 27
+        },
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 177.0,
+          "to_s": 222.0,
+          "words": 27
+        }
+      ],
+      "verdict": "clip",
+      "speaker": "robert-hastings",
+      "speaker_name": "Robert Hastings",
+      "also_heard": [],
+      "origin": "outside",
+      "reason": "In the Hastings episode the statement stands alone after a sponsor read and answers no question; Jesse then opens the interview fresh with 'how does anybody get into the topic'. Its formal 'today declassified documents...' wording suggests a prepared public statement (probably his press conference). In the Wall Street Journal episode it is played as a clip inside Jesse's narration.",
+      "model": "opus"
+    },
+    {
       "id": "fzvwBBSmWYA-6787",
       "text": "it's about 7 00 at night and being november it was full dark and all of a sudden it was lighter out than it is right now brook",
       "occurrences": [
@@ -5642,6 +5739,31 @@
       ],
       "origin": "outside",
       "reason": "In both episodes this question-and-answer exchange from the congressional hearing sits inside a narrated montage: the cold open in occurrence 1 and a narration segment in occurrence 2. It is not part of either episode's own conversation, so both replay the hearing recording.",
+      "model": "opus"
+    },
+    {
+      "id": "h0hAit-KH9A-99",
+      "text": "this time he was screaming into the phone saying they're looking at an object a red glowing object",
+      "occurrences": [
+        {
+          "episode": "h0hAit-KH9A",
+          "from_s": 99.0,
+          "to_s": 133.0,
+          "words": 18
+        },
+        {
+          "episode": "kRO5jOa06Qw",
+          "from_s": 1911.0,
+          "to_s": 1918.0,
+          "words": 18
+        }
+      ],
+      "verdict": "clip",
+      "speaker": "robert-salas",
+      "speaker_name": "Robert Salas",
+      "also_heard": [],
+      "origin": "outside",
+      "reason": "In both episodes Salas's first-person memory ('he was screaming into the phone') is dropped into Jesse's narration. Nothing around it is an interview with Salas, so it is archival footage of Salas from outside both episodes.",
       "model": "opus"
     },
     {

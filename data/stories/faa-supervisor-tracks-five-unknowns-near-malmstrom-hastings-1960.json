@@ -147,6 +147,54 @@
         "place_text": "Malmstrom Air Force Base, Montana",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 177.0,
+      "to_s": 222.0,
+      "teller": "jesse-michels",
+      "quote": "In high school, Hastings worked as a janitor there, and a radar operator who took young Hastings under his wing called the 16-year-old over to show him that the base was actually tracking what they called unknowns at the time.",
+      "kind": "secondhand",
+      "cites": [
+        "robert-hastings"
+      ],
+      "documents": [],
+      "difference": "Gives his age as 16 and calls the man a radar operator.",
+      "link_reason": "Both are teenage Hastings, working as a janitor at Malmstrom, being called over by a radar operator to see unknowns.",
+      "as_told": {
+        "title": "Teenage Hastings shown radar tracking unknowns at Malmstrom",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 222.0,
+      "to_s": 256.0,
+      "teller": "robert-hastings",
+      "quote": "I saw five blips in the sort of northeast quadrant of his radar scope.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "No difference; a corpus telling already has this quote.",
+      "link_reason": "This is Hastings' own account of seeing five blips on the Malmstrom radar scope.",
+      "as_told": {
+        "title": "Hastings sees five blips on the radar scope",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      },
+      "replay_of": {
+        "episode": "fzvwBBSmWYA",
+        "from_s": 720.0
+      }
     }
   ],
   "related": [],
@@ -174,7 +222,8 @@
       "8Rr_nE65KkI",
       "IWui5cBkwoE",
       "TH10mD9hQas",
-      "fzvwBBSmWYA"
+      "fzvwBBSmWYA",
+      "h0hAit-KH9A"
     ]
   },
   "attestation": 1.0,

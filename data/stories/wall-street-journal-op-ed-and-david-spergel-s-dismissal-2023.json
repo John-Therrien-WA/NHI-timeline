@@ -69,6 +69,82 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 753.0,
+      "to_s": 778.0,
+      "teller": "jesse-michels",
+      "quote": "Last year, my friend Karl Nell, army representative of the UAP task force, who helped spearhead many of the army's most important tech modernization efforts, wrote an op-ed intended for The Wall Street Journal.",
+      "kind": "firsthand",
+      "cites": [
+        "karl-nell",
+        "kirk-mcconnell"
+      ],
+      "documents": [
+        "karl-nell-op-ed",
+        "emails-between-karl-nell-and-the-wall-street-journal"
+      ],
+      "difference": "Dates it to 2024 ('last year'), names Nell as the Army's UAP task force representative, cites emails with the WSJ and credits Kurt McConnell.",
+      "link_reason": "Same story: the op-ed Karl Nell co-wrote with a former cabinet member, which the Wall Street Journal did not publish.",
+      "as_told": {
+        "title": "Karl Nell's op-ed co-authored by a former cabinet member, refused by WSJ",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "The Wall Street Journal, USA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 835.0,
+      "to_s": 859.0,
+      "teller": "jesse-michels",
+      "quote": "I even met her in person at The Wall Street Journal headquarters.",
+      "kind": "firsthand",
+      "cites": [
+        "lena-bell"
+      ],
+      "documents": [
+        "ufos-and-nukes"
+      ],
+      "difference": "Names the opinion editor, Lena Bell, says they met at WSJ headquarters in New York, and mentions the 'UFOs and Nukes' document.",
+      "link_reason": "The host's in-person visit to the WSJ to argue for the op-ed is the same advocacy effort the story already records ('I also went to the Wall Street Journal').",
+      "as_told": {
+        "title": "Host meets WSJ opinion editor Lena Bell",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "The Wall Street Journal headquarters, New York",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 902.0,
+      "to_s": 931.0,
+      "teller": "jesse-michels",
+      "quote": "Lena told me that a guy named David Spergel is their de facto advisor on UFOs, and he says that UFOs are all space trash, light reflections, and temperature inversions.",
+      "kind": "secondhand",
+      "cites": [
+        "lena-bell",
+        "david-spergel"
+      ],
+      "documents": [],
+      "difference": "Says Lena Bell is the source and spells out Spergel's explanation: space trash, light reflections and temperature inversions.",
+      "link_reason": "Same story: during the WSJ op-ed effort, David Spergel was the paper's adviser on UFOs and dismissed them.",
+      "as_told": {
+        "title": "David Spergel as WSJ's de facto UFO advisor",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "The Wall Street Journal, USA",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -79,7 +155,7 @@
     }
   ],
   "tags": [],
-  "score": 3.0,
+  "score": 4.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -90,7 +166,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 5,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -100,10 +176,11 @@
     "episodes": [
       "-0g3lLGxNfc",
       "V00WcEiKRAY",
+      "h0hAit-KH9A",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.5,
+  "attestation": 2.25,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says a friend of his, Karl Nell, planned an opinion piece about UFOs with a former US cabinet member, in one telling a former Secretary of Defense, and that Michels himself pushed the Wall Street Journal to publish it. He says the paper turned it down, and in one telling he ties the episode to a scientist, David Spergel, and how the subject was brushed aside."
 }

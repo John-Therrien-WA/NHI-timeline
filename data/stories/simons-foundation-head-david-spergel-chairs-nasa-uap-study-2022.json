@@ -123,20 +123,44 @@
         "place_text": "NASA, United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "h0hAit-KH9A",
+      "from_s": 954.0,
+      "to_s": 976.0,
+      "teller": "matthew",
+      "quote": "The head of the Simons Foundation, guy named Dr. David Spergel. He was tapped to be the chair of the NASA UAP working group.",
+      "kind": "host",
+      "cites": [
+        "david-spergel",
+        "jim-simons"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "Both say David Spergel, head of Jim Simons' foundation, was chosen to chair NASA's UAP working group in 2022-2023.",
+      "as_told": {
+        "title": "Spergel of the Simons Foundation chairs the NASA UAP working group",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "NASA / Simons Foundation, USA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 1.4,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 1,
+    "host": 2,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
@@ -144,17 +168,19 @@
     "strongest_kind": "researcher",
     "tellers": [
       "jesse-michels",
+      "matthew",
       "matthew-pines"
     ],
     "episodes": [
       "IWui5cBkwoE",
       "LpLFWdsIU7M",
       "fzvwBBSmWYA",
+      "h0hAit-KH9A",
       "uVVqFg2v7ro",
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 0.7,
   "tier": "well-attested",
   "plain": "In 2022 the US space agency NASA set up an independent panel to study UAP, which stands for unidentified anomalous phenomena, the newer name for UFOs. A researcher named Matthew Pines, speaking on Jesse Michels' podcast, says the panel was chaired by Dr. David Spergel, the head of the Simons Foundation, a science foundation linked to Jim Simons. Michels, the host, returns to this on several later episodes. Once he poses it as a question, asking whether the panel's leader had ties to Simons. Another time he adds that Simons started a company called Renaissance Technologies, and another time he calls Spergel Simons' principal scientific adviser. Michels credits the researcher Eric Weinstein for drawing attention to the link. They raise it because, if it means what they suggest, the same small circle of wealthy patrons may shape how official UFO science is done."
 }

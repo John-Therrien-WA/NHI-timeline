@@ -169322,7 +169322,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bob-jamieson",
+          "bob-jameson",
           "daniel-sheehan",
           "james-fox",
           "karl-nell",
@@ -169345,7 +169345,7 @@
         ]
       },
       "independent": [
-        "bob-jamieson",
+        "bob-jameson",
         "daniel-sheehan",
         "james-fox",
         "karl-nell",
@@ -169452,8 +169452,8 @@
           "show": "Jesse Michels",
           "episode_title": "UFOs Are Monitoring Nuclear Bases Globally (Ft. Robert Hastings)",
           "published": "2024-12-24",
-          "teller": "bob-jamieson",
-          "teller_name": "Bob Jamieson",
+          "teller": "bob-jameson",
+          "teller_name": "Bob Jameson",
           "quote": "on job control they have a wall and they have green lights where all the missiles are on alert except for one corner all 10 missiles were off alert all 10 whole flight was off alert all red",
           "kind": "secondhand",
           "cites": [
@@ -169772,7 +169772,7 @@
           "kind": "secondhand",
           "cites": [
             "robert-salas",
-            "bob-jamieson",
+            "bob-jameson",
             "larry-king"
           ],
           "documents": [],
@@ -169799,8 +169799,8 @@
           "show": "Jesse Michels",
           "episode_title": "The Wall Street Journal Is Lying About UFOs",
           "published": "2025-06-13",
-          "teller": "bob-jamieson",
-          "teller_name": "Bob Jamieson",
+          "teller": "bob-jameson",
+          "teller_name": "Bob Jameson",
           "quote": "All 10 missiles were off alert. All 10. Whole flight was off alert. All red.",
           "kind": "firsthand",
           "cites": [],
@@ -169819,9 +169819,9 @@
           }
         }
       ],
-      "shared_teller": 1232,
+      "shared_teller": 1233,
       "shared_teller_by": {
-        "bob-jamieson": 0,
+        "bob-jameson": 1,
         "daniel-sheehan": 89,
         "james-fox": 108,
         "jesse-michels": 982,
@@ -281143,9 +281143,9 @@
           }
         }
       ],
-      "shared_teller": 0,
+      "shared_teller": 1,
       "shared_teller_by": {
-        "bob-jameson": 0
+        "bob-jameson": 1
       },
       "documents": [],
       "related": [],
@@ -313291,11 +313291,6 @@
     },
     "bob-jameson": {
       "name": "Bob Jameson",
-      "roles": [],
-      "image": null
-    },
-    "bob-jamieson": {
-      "name": "Bob Jamieson",
       "roles": [],
       "image": null
     },

@@ -17,7 +17,9 @@ What it writes: `sources/captions/<id>.<lang>.txt`, one line per paragraph, "[h:
 shape `captions.py` writes, so `common.Captions`, extract and the verbatim quote check read it
 unchanged; and `data/episodes/<id>.json` with the fields `captions.py` writes plus
 `"captions_source": "gemini"` and `"timestamps_approximate"` (true when Gemini's time stamps overshot
-the duration and were rescaled to fit, so a time-coded link may land some seconds off). An existing
+the duration and were rescaled to fit, or went backwards and were made non-decreasing, so a time-coded
+link may land some seconds off; a transcript with backward stamps is kept, never asked for again, since
+a retry is charged the whole video). An existing
 episode file keeps its hand-edited fields (host, guests); the caption fields are set. There is no .vtt.
 
 The ledger: `sources/gemini-ledger.json`, `{ "<UTC day>": seconds }`, counts the seconds of video
@@ -141,7 +143,8 @@ def run(root: Root, vid: str, *, force: bool = False, cap_hours: float = CAP_HOU
         min_wpm=cfg.gemini_min_wpm, max_continuations=cfg.gemini_max_continuations,
         min_rescale_factor=cfg.gemini_min_rescale_factor, redact=keys.redact,
         timeout_base_seconds=cfg.gemini_timeout_base, timeout_per_video_minute=cfg.gemini_timeout_per_minute,
-        timeout_max_seconds=cfg.gemini_timeout_max, media_resolution=cfg.gemini_media_resolution)
+        timeout_max_seconds=cfg.gemini_timeout_max, media_resolution=cfg.gemini_media_resolution,
+        keep_disordered=True)
     try:
         result = tr.transcribe(vid, meta.duration_seconds, meta.language)
     except gemini.GeminiBlocked as e:

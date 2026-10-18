@@ -42,6 +42,46 @@
         "place_text": "USA",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 5532.0,
+      "to_s": 5539.0,
+      "teller": "jesse-michels",
+      "quote": "into this stuff. Towns and Brown had similar experiences where he he had space brother experiences that he discusses.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "No mention of shortwave radio; framed as experiences Brown himself described.",
+      "link_reason": "Both say Townsend Brown claimed experiences or communication with space brothers.",
+      "as_told": {
+        "title": "Townsend Brown's space brother experiences",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 14600.0,
+      "to_s": 14606.0,
+      "teller": "jesse-michels",
+      "quote": "literally Close Encounters of the Third Kind. He says he's communicating with space brothers.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Frames it as Close Encounters of the Third Kind and does not mention shortwave.",
+      "link_reason": "Both tell of Townsend Brown claiming he was communicating with space brothers, with Michels as the teller.",
+      "as_told": {
+        "title": "Thomas Townsend Brown's close encounters and space brothers",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -66,6 +106,8 @@
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "CiQTBOQ1dTg",
+      "iPxbILOMQ08",
       "kccrkCGGzX4"
     ]
   },

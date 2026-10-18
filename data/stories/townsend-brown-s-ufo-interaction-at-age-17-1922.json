@@ -92,18 +92,61 @@
         "place_text": "Catalina Island, California",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 6064.0,
+      "to_s": 6073.0,
+      "teller": "linda-brown",
+      "quote": "And he said that he learned so much standing there with that ball of light that he went back to his",
+      "kind": "secondhand",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Told by Linda Brown herself, who stresses how much he learned standing with the ball of light.",
+      "link_reason": "Both describe the teenage Townsend Brown meeting a ball of light on Catalina Island that inspired his life's work.",
+      "as_told": {
+        "title": "Townsend Brown's teenage encounter with a ball of light on Catalina",
+        "years": {
+          "from": 1910,
+          "to": 1929
+        },
+        "place_text": "Catalina Island, California",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 2786.0,
+      "to_s": 2792.0,
+      "teller": "jesse-michels",
+      "quote": "And then he himself had a UFO experience that inspired a lot of his work, kind of like your thing.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Gives no age, place or date for the experience.",
+      "link_reason": "Both tell of Townsend Brown's own UFO experience inspiring his life's work.",
+      "as_told": {
+        "title": "Townsend Brown's own UFO experience",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -112,16 +155,19 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "linda-brown"
     ],
     "episodes": [
+      "5OUzGygIrSw",
+      "RTEWLSTyUic",
       "areO7Mej44E",
       "lcaY-rd9Dhc",
       "mOWwdIuyaQA",
       "nRKNVFQBi38"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "The podcast host Jesse Michels has told several times how the inventor Townsend Brown, who worked on electric anti-gravity ideas, had a UFO experience around 1922 at about age 17, possibly on Catalina Island off California, where he says a small orb of light came right up to him. Michels says that, according to Brown's daughter, this was when Brown 'downloaded his life's work', at a time when he had a lab in Pasadena, though once he hedges on the age and the place. If true, it would mean one of the pioneers of anti-gravity research got his ideas from a close encounter."
 }

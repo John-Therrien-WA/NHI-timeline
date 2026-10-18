@@ -76,6 +76,30 @@
         "place_text": "Monte Carlo, Monaco",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 4792.0,
+      "to_s": 4795.0,
+      "teller": "james-fox",
+      "quote": "And um Buzz Aldrin says, \"I'm not doing",
+      "kind": "firsthand",
+      "cites": [
+        "buzz-aldrin",
+        "paul-allen"
+      ],
+      "documents": [],
+      "difference": "Names the Monte Carlo Hotel and credits Paul Allen.",
+      "link_reason": "The same event: Aldrin cancels his interview with James Fox at the last minute in Monte Carlo, late 1990s.",
+      "as_told": {
+        "title": "Buzz Aldrin refuses James Fox interview",
+        "years": {
+          "from": 1997,
+          "to": 1999
+        },
+        "place_text": "Monte Carlo Hotel, Monaco",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -100,6 +124,7 @@
     ],
     "episodes": [
       "8Rr_nE65KkI",
+      "Rjr3Yq-dMUE",
       "bVhSPH2A5Vw",
       "uVVqFg2v7ro"
     ]

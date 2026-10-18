@@ -24,6 +24,29 @@
         "rudolf-schriever"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3293.0,
+      "to_s": 3307.0,
+      "teller": "jesse-michels",
+      "quote": "Miethe's contemporary, German technician Rudolf Schriever, claims to have worked on a disc-shaped craft in Prague that made its first flight test in February of 1945, climbing to 40,000 ft in 3 minutes.",
+      "kind": "host",
+      "cites": [
+        "rudolf-schriever"
+      ],
+      "documents": [],
+      "difference": "Dates the first flight to February 1945 rather than 1944, places it in Prague and specifies 3 minutes.",
+      "link_reason": "Both tell of Schriever's claim that his disc flew and climbed to 40,000 ft in minutes.",
+      "as_told": {
+        "title": "Schriever's disc flight from Prague",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "Prague",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
@@ -47,6 +70,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "RTEWLSTyUic",
       "kccrkCGGzX4"
     ]
   },

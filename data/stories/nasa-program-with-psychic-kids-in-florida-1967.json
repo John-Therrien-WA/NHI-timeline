@@ -7,7 +7,7 @@
     "from": 1967,
     "to": 1969
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Florida",
   "coordinates": null,
   "kind": "program",
@@ -22,18 +22,36 @@
       "kind": "secondhand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 5912.0,
+      "to_s": 5915.0,
+      "teller": "jay-anderson",
+      "quote": "I mean, NASA had the star kids.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Calls the children 'star kids' and gives no place or date, where the story puts it in Florida in the late 1960s.",
+      "link_reason": "Both describe a NASA program built around psychic children. The 'star kids' line matches the story about a NASA program with psychic kids.",
+      "as_told": {
+        "title": "NASA star kids remote viewing program",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -42,13 +60,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "greg"
+      "greg",
+      "jay-anderson"
     ],
     "episodes": [
-      "2-GeTxXi670"
+      "2-GeTxXi670",
+      "51N8OxqZIWY"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "A researcher named Greg says he has heard a lot about a programme somewhere in Florida in the late 1960s. According to what he heard, it was a NASA project, NASA being the US space agency, that worked with children, which the story takes to mean children thought to have psychic abilities. If true, it would mean the space agency was quietly studying such abilities."
 }

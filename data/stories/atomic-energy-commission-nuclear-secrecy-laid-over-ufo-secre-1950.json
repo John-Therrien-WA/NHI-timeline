@@ -7,7 +7,7 @@
     "from": 1950,
     "to": 1959
   },
-  "place": null,
+  "place": "los-alamos-nm",
   "place_text": "Los Alamos and other nuclear sites",
   "coordinates": null,
   "kind": "theory",
@@ -22,11 +22,34 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 32.0,
+      "to_s": 37.0,
+      "teller": "jesse-michels",
+      "quote": ">> I believe nuclear secrecy [music] was used as a Trojan horse for UFO secrecy.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "atomic-energy-act"
+      ],
+      "difference": "Calls it a Trojan horse, extends it to the Manhattan Project and DOE, and cites the Atomic Energy Act.",
+      "link_reason": "Same theory, told by the same host: nuclear secrecy was laid over UFO secrecy and used to hide it.",
+      "as_told": {
+        "title": "Nuclear secrecy as a Trojan horse for UFO secrecy",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "United States (Manhattan Project, AEC, DOE)",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -37,7 +60,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -45,10 +68,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
       "dnnpyNuPdXs"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in the 1950s the Atomic Energy Commission, the US agency set up to run the country's nuclear work, was handling secrets at Los Alamos, the New Mexico lab where the atomic bomb was built, and at other nuclear sites. His sense is that UFO activity was going on around those same places, so the strict rules on nuclear secrets got laid on top of UFO secrets. If so, that would help explain why the UFO material stayed so tightly hidden."
 }

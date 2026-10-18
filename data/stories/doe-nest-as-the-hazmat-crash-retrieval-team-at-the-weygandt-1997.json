@@ -26,11 +26,36 @@
       "documents": [
         "1954-atomic-energy-act"
       ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 498.0,
+      "to_s": 506.0,
+      "teller": "uapgerb",
+      "quote": "But I think this is likely a DOE nest team nuclear emergency search teams.",
+      "kind": "researcher",
+      "cites": [
+        "eg-g"
+      ],
+      "documents": [
+        "wilson-davis-memo"
+      ],
+      "difference": "Cites the Wilson Davis memo and links EG&G.",
+      "link_reason": "Same theory by UAPGerb: the Weygandt recovery team in Peru in 1997 was a DOE Nuclear Emergency Search/Support Team.",
+      "as_told": {
+        "title": "DOE NEST teams as Weygandt's recovery team",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Peru",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -41,7 +66,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -49,10 +74,11 @@
       "uapgerb"
     ],
     "episodes": [
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "An online commentator who goes by UAPGerb talks about the account of Jonathan Weygandt, who has described a crashed craft site in Peru in 1997 where people from the \"DOE\", the US Department of Energy, showed up. UAPGerb says those people were very likely the Department of Energy's Nuclear Emergency Support Team, or NEST, a unit that handles nuclear and hazardous material incidents, acting as the crash recovery team, and he links this to the 1954 Atomic Energy Act, a law governing nuclear secrets. If true, it would mean an existing nuclear response team quietly doubles as the group that recovers crashed craft around the world."
 }

@@ -1,0 +1,101 @@
+{
+  "id": "the-non-terrestrial-officers-spreadsheet-2000",
+  "title": "The non-terrestrial officers spreadsheet",
+  "summary": "Gary McKinnon tells of The non-terrestrial officers spreadsheet, about 2000-2002 at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2002
+  },
+  "place": "united-states",
+  "place_text": "a US Navy system (accessed from London)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 3074.0,
+      "to_s": 3091.0,
+      "teller": "gary-mckinnon",
+      "quote": "this spreadsheet was titled non-terrestrial officers, so not on the Earth, which isn't necessarily alien. It could just mean space-based marines or, you know, secret space force.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 3100.0,
+      "to_s": 3113.0,
+      "teller": "gary-mckinnon",
+      "quote": "it was transfers of weird chemicals like malibdenum and other weird things that are hard to pronounce. Uh, shipto- ship transfers and fleetto fleet transfers.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that it listed transfers of exotic chemicals such as molybdenum, plus ship-to-ship and fleet-to-fleet transfers.",
+      "link_reason": "What was in the same non-terrestrial officers spreadsheet described in telling 9.",
+      "as_told": {
+        "title": "Exotic chemical and fleet-to-fleet transfers in the spreadsheet",
+        "years": {
+          "from": 2000,
+          "to": 2002
+        },
+        "place_text": "a US Navy system (accessed from London)",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 4537.0,
+      "to_s": 4544.0,
+      "teller": "gary-mckinnon",
+      "quote": "Yeah. I've always thought there weren't aliens. I thought this is bound to be because it says non-aterrestrial obviously, not extraterrestrial.",
+      "kind": "firsthand",
+      "cites": [
+        "jesse-michels",
+        "james-fox"
+      ],
+      "documents": [
+        "non-terrestrial-officers-list"
+      ],
+      "difference": "Frames the list as an off-Earth fleet and space supply chain, and credits Jesse Michels and James Fox as present.",
+      "link_reason": "Both are McKinnon reading the non-terrestrial officers list as off-Earth personnel rather than aliens.",
+      "as_told": {
+        "title": "Non-terrestrial officers list read as an off-Earth fleet / space supply chain",
+        "years": {
+          "from": 2001,
+          "to": 2002
+        },
+        "place_text": "US military/NASA networks; Earth orbit",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "gary-mckinnon"
+    ],
+    "episodes": [
+      "2ttdlCa5ZCI"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "Gary McKinnon, a computer hacker who worked from London, says that around 2000 to 2002 he got into a US Navy computer system and found a spreadsheet titled \"non-terrestrial officers\". He says it also listed transfers of unusual chemicals such as molybdenum, along with transfers between ships and between whole fleets. McKinnon says he took it to mean people based off Earth, like a secret space force, rather than aliens, which would point to a hidden fleet and supply chain in space."
+}

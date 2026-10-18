@@ -21,14 +21,32 @@
         "bob-maguire"
       ],
       "documents": []
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 5552.0,
+      "to_s": 5565.0,
+      "teller": "bob-mcgwier",
+      "quote": "I have a video online of me moving this field meter across her head and watching that implant pul RF Transmissions",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by McGwier, who says the implant sends out pulses and that he has a video of it online; the story's telling is the host's secondhand account of measuring the frequency.",
+      "link_reason": "Both describe Bob McGwier measuring his girlfriend's head implant with an RF meter and seeing it transmit.",
+      "as_told": {
+        "title": "Girlfriend's forehead implant pulses RF transmissions",
+        "years": null,
+        "place_text": "undated",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -39,15 +57,17 @@
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "bob-mcgwier",
       "jesse-michels"
     ],
     "episodes": [
+      "2Xxmguz0GEQ",
       "ABOP8ZJsyIk"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says he interviewed a man named Bob Maguire, whose girlfriend has an implant in her head. According to Michels, Maguire held an RF detector, a device that picks up radio signals, over her head and could measure the frequency coming out of it. If true, it would mean the implant is an active device sending out a signal."
 }

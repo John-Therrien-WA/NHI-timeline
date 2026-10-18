@@ -51,7 +51,18 @@
       }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "1970s-flanagan-samples-find-calcium-sulfate-inside-the-great",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "1970s-muon-scan-of-the-central-pyramid",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 1.5,
   "profile": {

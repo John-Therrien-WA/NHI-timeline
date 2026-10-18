@@ -1,0 +1,58 @@
+{
+  "id": "air-force-documents-on-hans-kohler-s-capture-by-the-american-1940",
+  "title": "Air Force documents on Hans Kohler's capture by the Americans",
+  "summary": "Jesse Michels tells of Air Force documents on Hans Kohler's capture by the Americans, about 1940s at Germany, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 9757.0,
+      "to_s": 9762.0,
+      "teller": "jesse-michels",
+      "quote": "we now even have air force documents knowing that we Hans Conler was apprehended by the Americans.",
+      "kind": "host",
+      "cites": [
+        "hans-kohler"
+      ],
+      "documents": [
+        "air-force-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that US Air Force documents now show that a man named Hans Kohler was caught by the Americans in Germany in the 1940s. He brings it up as written proof of a story that had circulated about this man, which would tie him to what the Americans took from Germany after the war."
+}

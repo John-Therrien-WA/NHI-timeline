@@ -26,6 +26,27 @@
       "documents": [
         "condon-report"
       ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 3136.0,
+      "to_s": 3142.0,
+      "teller": "bryce-zable",
+      "quote": "Air Force holding the line, you know, closed down Blue Book in ' 69 said, \"We're washing our hands of that.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Does not mention Condon; frames it as the Air Force washing its hands of the subject.",
+      "link_reason": "Both tell of the Air Force closing Blue Book in 1969.",
+      "as_told": {
+        "title": "Air Force closes Project Blue Book",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -36,15 +57,15 @@
     }
   ],
   "tags": [],
-  "score": 2.1,
+  "score": 2.6,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
@@ -52,13 +73,15 @@
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "bryce-zable",
       "robert-salas"
     ],
     "episodes": [
-      "-0g3lLGxNfc"
+      "-0g3lLGxNfc",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 1.05,
-  "tier": "told-once",
+  "attestation": 1.3,
+  "tier": "well-attested",
   "plain": "Robert Salas, a former US Air Force officer, says that when the Air Force shut down Project Blue Book, its UFO study of the 1950s and 60s, in 1969, it pointed to the Condon investigation, a scientific study of UFOs led by physicist Edward Condon, as its reason. He tells it to suggest the closing was a way for the Air Force to get out of the subject."
 }

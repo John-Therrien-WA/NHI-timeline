@@ -1,0 +1,66 @@
+{
+  "id": "tom-delonge-email-to-john-podesta-about-general-mccasland-2015",
+  "title": "Tom DeLonge email to John Podesta about General McCasland",
+  "summary": "Jesse Michels tells of Tom DeLonge email to John Podesta about General McCasland, about 2015-2016 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2016
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 846.0,
+      "to_s": 862.0,
+      "teller": "jesse-michels",
+      "quote": "Buried in that email dump is an email from Tom Dong to Podesta. The subject line, General McCassland Dong writes, he mentioned he's a skeptic. He's not. I've been working with him for 4 months.",
+      "kind": "host",
+      "cites": [
+        "tom-delonge",
+        "john-podesta",
+        "neil-mccasland"
+      ],
+      "documents": [
+        "wikileaks-podesta-emails"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "susan-mccasland-accepted-a-calendar-invite-for-a-delonge-pod-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that among the emails of John Podesta, a Washington political figure, which were leaked and published by WikiLeaks, a website that posts leaked documents, there is one from a man named Tom DeLonge with the subject line \"General McCasland.\" According to Michels, DeLonge writes that the general had said he was a skeptic, but he is not, and that DeLonge had been working with him for four months. If true, it would suggest a senior military officer was quietly helping DeLonge around 2015 or 2016."
+}

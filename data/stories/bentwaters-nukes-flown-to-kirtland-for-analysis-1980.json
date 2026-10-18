@@ -7,7 +7,7 @@
     "from": 1980,
     "to": 1981
   },
-  "place": null,
+  "place": "sandia-nm",
   "place_text": "RAF Bentwaters to Kirtland Air Force Base",
   "coordinates": null,
   "kind": "testimony",
@@ -26,7 +26,13 @@
       "documents": []
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "hynek-delivers-a-prepared-computer-to-benowitz-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 1.0,
   "profile": {

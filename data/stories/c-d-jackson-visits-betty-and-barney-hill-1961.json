@@ -26,6 +26,53 @@
         "barney-hill"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 3733.0,
+      "to_s": 3741.0,
+      "teller": "jesse-michels",
+      "quote": "like like Betty and Barney Hills this famous you know uh case in 1961",
+      "kind": "host",
+      "cites": [
+        "c-d-jackson",
+        "henry-luce"
+      ],
+      "documents": [],
+      "difference": "Links Henry Luce to Jackson's involvement.",
+      "link_reason": "Both are about C.D. Jackson visiting Betty and Barney Hill after their 1961 encounter in New Hampshire.",
+      "as_told": {
+        "title": "The Betty and Barney Hill encounter and C.D. Jackson's visit",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 2707.0,
+      "to_s": 2722.0,
+      "teller": "jesse-michels",
+      "quote": "You know, also another weird fact\nabout that case is CD Jackson, Charles\nDouglas Jackson, who ran psychological\nwarfare and was very involved in MK\nUltra",
+      "kind": "host",
+      "cites": [
+        "c-d-jackson"
+      ],
+      "documents": [],
+      "difference": "Adds that Jackson ran psychological warfare and was involved in MK Ultra; it does not give the two-week timing.",
+      "link_reason": "C.D. Jackson, the psychological-warfare figure, visiting the Hills after their 1961 encounter.",
+      "as_told": {
+        "title": "C. D. Jackson visits the Hills",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -49,6 +96,8 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
+      "Rjr3Yq-dMUE",
       "areO7Mej44E"
     ]
   },

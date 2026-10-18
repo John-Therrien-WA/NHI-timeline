@@ -118,9 +118,115 @@
         "place_text": null,
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 3517.0,
+      "to_s": 3532.0,
+      "teller": "jesse-michels",
+      "quote": "Harold mgram a top adviser to JFK Nixon LBJ and Ford claimed that he was personally briefed on other world Technologies by Richard Bissell of the CIA",
+      "kind": "host",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": [],
+      "difference": "Puts it in the 1960s rather than c. 1973 and stresses Malmgren's role as adviser to four presidents.",
+      "link_reason": "Both tell of Richard Bissell of the CIA privately briefing Harold Malmgren on 'otherworld technologies'.",
+      "as_told": {
+        "title": "Malmgren briefed on other-world technologies by Bissell",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1630.0,
+      "to_s": 1641.0,
+      "teller": "jesse-michels",
+      "quote": "He knew his way around Area 51 and he was famously [music] named by presidential adviser Harold Malmgrren as being the person who had briefed Malmgrren on other world technologies.",
+      "kind": "host",
+      "cites": [
+        "richard-bissell",
+        "harold-malmgrren"
+      ],
+      "documents": [],
+      "difference": "Places it in the 1950s-1960s rather than c. 1973 and ties Bissell to Area 51.",
+      "link_reason": "Same claim that Richard Bissell briefed Harold Malmgren on otherworld technologies.",
+      "as_told": {
+        "title": "Bissell named by Malmgren as the man who briefed him on otherworldly technology",
+        "years": {
+          "from": 1950,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1641.0,
+      "to_s": 1644.0,
+      "teller": "harold-malmgren",
+      "quote": "Said there are things you need to know.",
+      "kind": "firsthand",
+      "cites": [
+        "richard-bissell"
+      ],
+      "documents": [],
+      "difference": "Firsthand quote of Bissell's opening words, 'there are things you need to know'.",
+      "link_reason": "Malmgren's own clip of Bissell telling him there were things he needed to know is part of the same briefing story.",
+      "as_told": {
+        "title": "Malmgren clip: 'there are things you need to know'",
+        "years": {
+          "from": 1950,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 4046.0,
+      "to_s": 4057.0,
+      "teller": "jesse-michels",
+      "quote": "I've seen his diary and I don't think it's a fake diary and Richard Bissell is all over it. Richard Bissell is the founder of Area 51 and the guy who he claimed to get briefed on other world technologies from",
+      "kind": "host",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell",
+        "paul-mellon",
+        "tom-farmer",
+        "dean-johnson"
+      ],
+      "documents": [
+        "harold-malmgren-diary"
+      ],
+      "difference": "The host says he has seen Malmgren's diary, believes it is genuine, and that Bissell appears throughout it.",
+      "link_reason": "Both tell of Richard Bissell briefing Malmgren on 'other world technologies'.",
+      "as_told": {
+        "title": "Harold Malmgren's diary and Richard Bissell briefings on other-world technology",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "United States (CIA, Area 51)",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "nixon-takes-jackie-gleason-to-homestead-afb-1973",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 3.0,
   "profile": {
@@ -145,7 +251,10 @@
       "09KP8XVf5nY",
       "9QMrhcpJq8I",
       "C4rSj5Aum7w",
+      "Jpf0ZGY87c0",
       "LpLFWdsIU7M",
+      "Sct30Qijfv8",
+      "WBTqsbwJyqU",
       "u7g5Sn1DJF4"
     ]
   },

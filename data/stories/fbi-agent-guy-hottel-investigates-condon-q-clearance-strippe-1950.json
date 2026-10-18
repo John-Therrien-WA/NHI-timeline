@@ -49,11 +49,37 @@
         "place_text": "Washington, D.C.",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 2280.0,
+      "to_s": 2285.0,
+      "teller": "jesse-michels",
+      "quote": "uh Condon actually loses his security\nclearance kind of mysteriously in 19353",
+      "kind": "host",
+      "cites": [
+        "edward-condon",
+        "robert-j-oppenheimer"
+      ],
+      "documents": [
+        "los-alamos-primer"
+      ],
+      "difference": "Calls the loss 'mysterious', places it in 1953 and ties it to Oppenheimer and the Los Alamos primer rather than to Hottel's FBI dossier.",
+      "link_reason": "Both tell of Condon losing his security clearance in the early 1950s; the Hottel story ends with his Q clearance being stripped in 1953.",
+      "as_told": {
+        "title": "Condon loses security clearance",
+        "years": {
+          "from": 1953,
+          "to": 1954
+        },
+        "place_text": "Los Alamos / United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -64,7 +90,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -73,10 +99,11 @@
     ],
     "episodes": [
       "-0g3lLGxNfc",
+      "5udx_SDdL3Y",
       "bVhSPH2A5Vw"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in the early 1950s an FBI field agent in Washington named Guy Hottel was investigating Edward Condon, a physicist, and building a file on him. The story as told includes Condon losing his Q clearance, a high US security clearance for nuclear secrets, though one of Michels's tellings only speaks of the file. It matters because Condon later had a role in studying these sightings, so his standing with the government would color that work."
 }

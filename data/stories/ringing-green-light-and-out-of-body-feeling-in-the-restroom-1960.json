@@ -23,7 +23,53 @@
       "cites": [
         "master-sergeant-gray"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "episode": "73YBwFvcmF8",
+        "from_s": 2904.0
+      }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 2904.0,
+      "to_s": 2914.0,
+      "teller": "mario-woods",
+      "quote": "I get this ringing in my ears that was as if somebody struck a Liberty Bell right next to my head",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Dated 1977 and placed at November-1, where the story says the 1960s and a missile site; does not mention the green light.",
+      "link_reason": "This is the same restroom episode as the story: Woods hears Liberty-Bell ringing and has an out-of-body feeling, told in the same words.",
+      "as_told": {
+        "title": "Bell-like ringing and an out-of-body feeling in the November-1 restroom",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "November-1 launch control facility, South Dakota",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 2345.0,
+      "to_s": 2350.0,
+      "teller": "mario-woods",
+      "quote": "All of a sudden, I get this ringing in my ears.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Dated November 1977 at the November 1 launch control facility, where the story says the 1960s at a missile site.",
+      "link_reason": "Both are Mario's ringing in the ears and out-of-body experience in the restroom at the launch control facility.",
+      "as_told": {
+        "title": "Mario's out-of-body experience in the launch control facility bathroom",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "November 1 launch control facility, South Dakota",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -47,7 +93,9 @@
       "mario-woods"
     ],
     "episodes": [
-      "fzvwBBSmWYA"
+      "73YBwFvcmF8",
+      "fzvwBBSmWYA",
+      "rjUdn6FklAU"
     ]
   },
   "attestation": 1.0,

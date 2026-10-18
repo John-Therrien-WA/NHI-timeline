@@ -24,6 +24,72 @@
         "travis-walton"
       ],
       "documents": []
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 3413.0,
+      "to_s": 3417.0,
+      "teller": "john-blitch",
+      "quote": "coming back five days later M with a",
+      "kind": "researcher",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": [],
+      "difference": "Says he came back five days later; no year or place given.",
+      "link_reason": "Travis Walton coming back from his abduction with a full beard is the stored beard story.",
+      "as_told": {
+        "title": "Travis Walton returns after five days with a full beard",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 11098.0,
+      "to_s": 11103.0,
+      "teller": "jesse-michels",
+      "quote": "Travis Walton uh was fully shaved and he came back 4 days later later with a full beard.",
+      "kind": "host",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": [],
+      "difference": "Gives the gap as four days.",
+      "link_reason": "Both say Travis Walton came back from his 1975 Arizona abduction with a full beard after being clean-shaven.",
+      "as_told": {
+        "title": "Travis Walton returned with a full beard after four days",
+        "years": {
+          "from": 1975,
+          "to": 1975
+        },
+        "place_text": "Arizona",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "QkuDvTFN7ms",
+      "from_s": 3178.0,
+      "to_s": 3184.0,
+      "teller": "jesse-michels",
+      "quote": ">> That's also a common trope with alien abductions. You have, you know, Travis Walton coming back with a fully grown beard.",
+      "kind": "host",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": [],
+      "difference": "Mentioned in passing by the host as a common abduction trope, without saying Walton had shaved just before.",
+      "link_reason": "Both tell of Travis Walton coming back from his 1975 abduction with a full beard.",
+      "as_told": {
+        "title": "Travis Walton's return with a full beard",
+        "years": {
+          "from": 1975,
+          "to": 1975
+        },
+        "place_text": "not stated",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [
@@ -31,32 +97,47 @@
       "story": "travis-walton-handed-over-from-greys-to-nordics-1975",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "travis-walton-abduction-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "travis-walton-abduction-as-shown-in-fire-in-the-sky-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.5,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
-    "host": 0,
+    "researcher": 2,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "jesse-michels",
+      "john-blitch",
       "mike-masters"
     ],
     "episodes": [
-      "Y26iMB0r-f8"
+      "ABw7EsWh2Us",
+      "QkuDvTFN7ms",
+      "Y26iMB0r-f8",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "A researcher, Mike Masters, who argues that aliens may be humans from the future, tells podcast host Jesse Michels about Travis Walton, a man who says he was abducted by a UFO in Arizona in 1975. Masters says Walton had shaved right before the experience but woke up afterwards with a full beard. If true, it would suggest far more time passed for Walton than for the world around him."
 }

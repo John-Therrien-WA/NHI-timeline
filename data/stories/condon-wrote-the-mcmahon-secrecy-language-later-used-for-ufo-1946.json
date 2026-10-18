@@ -56,11 +56,63 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 2304.0,
+      "to_s": 2313.0,
+      "teller": "jesse-michels",
+      "quote": "wrote the McMahon secrecy Act of 19 19\n46 which is the precursor to the atomic\nenergy Act of 1954",
+      "kind": "host",
+      "cites": [
+        "edward-condon"
+      ],
+      "documents": [
+        "mcmahon-act-of-1946"
+      ],
+      "difference": "Explicitly links the 1946 act to the 1954 Atomic Energy Act as its precursor.",
+      "link_reason": "Both tell of Condon writing the 1946 McMahon secrecy act, the precursor to the 1954 Atomic Energy Act.",
+      "as_told": {
+        "title": "Condon writes the McMahon Act",
+        "years": {
+          "from": 1946,
+          "to": 1946
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 3962.0,
+      "to_s": 3975.0,
+      "teller": "jesse-michels",
+      "quote": "In fact, if you believe David Grush, which I do, the Atomic Energy Commission, which created UFO secrecy in 1954, the precursor to that was the McMahon Secrecy Act of 46, which Condan wrote.",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "edward-condon",
+        "j-robert-oppenheimer"
+      ],
+      "documents": [
+        "mcmahon-act-of-1946"
+      ],
+      "difference": "Credits David Grusch and names the AEC's 1954 UFO secrecy as what followed from the McMahon Act.",
+      "link_reason": "Both say Condon wrote the 1946 McMahon Act secrecy that later became the basis for UFO secrecy.",
+      "as_told": {
+        "title": "Condon wrote the McMahon Act behind UFO secrecy",
+        "years": {
+          "from": 1946,
+          "to": 1954
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.2,
+  "score": 2.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -71,7 +123,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 4,
+    "credited_documents": 5,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -80,10 +132,12 @@
     ],
     "episodes": [
       "-0g3lLGxNfc",
+      "5udx_SDdL3Y",
+      "KGD1nuM4MR8",
       "bVhSPH2A5Vw"
     ]
   },
-  "attestation": 1.1,
+  "attestation": 1.35,
   "tier": "told-once",
   "plain": "The podcast host Jesse Michels says the physicist Edward Condon wrote the secrecy rules in the McMahon Act, the 1946 US law that put atomic research under tight control, which later fed into the Atomic Energy Act of 1954. Michels argues that this meant Condon was, in effect, writing the rules of UFO secrecy before he went on to dismiss the whole UFO subject, which would make the official debunker the author of the cover."
 }

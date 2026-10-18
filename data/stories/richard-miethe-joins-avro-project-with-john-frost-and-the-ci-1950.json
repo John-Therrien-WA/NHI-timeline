@@ -25,6 +25,53 @@
         "john-frost"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3433.0,
+      "to_s": 3445.0,
+      "teller": "jesse-michels",
+      "quote": "By most accounts, Miethe, one of the key aerospace engineers on the project, and the guy that Townsend Brown captured, ends up in Canada working on the Avrocar.",
+      "kind": "host",
+      "cites": [
+        "richard-miethe",
+        "john-frost"
+      ],
+      "documents": [],
+      "difference": "Names the Avrocar, calls Miethe the man Townsend Brown captured and does not mention the CIA.",
+      "link_reason": "Both tell of Richard Miethe going to Canada to work on the Avro saucer project with John Frost.",
+      "as_told": {
+        "title": "Avrocar and Miethe",
+        "years": {
+          "from": 1950,
+          "to": 1961
+        },
+        "place_text": "Canada",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 4474.0,
+      "to_s": 4483.0,
+      "teller": "jesse-michels",
+      "quote": "in Mita's case I believe he there's speculation he worked uh on the Avarocar project the Canadian version",
+      "kind": "host",
+      "cites": [
+        "richard-miethe"
+      ],
+      "documents": [],
+      "difference": "Called speculation, with no mention of John Frost or the CIA.",
+      "link_reason": "Miethe working on the Canadian Avro saucer project is the same story as Miethe joining the Avro project.",
+      "as_told": {
+        "title": "Miethe and the Avro Canada Avrocar",
+        "years": {
+          "from": 1940,
+          "to": 1959
+        },
+        "place_text": "Canada",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -48,6 +95,8 @@
       "jesse-michels"
     ],
     "episodes": [
+      "D2tKCFmJjks",
+      "RTEWLSTyUic",
       "Y7PLeu5rTv4"
     ]
   },

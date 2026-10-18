@@ -1,0 +1,56 @@
+{
+  "id": "tomb-of-the-birds-and-the-wooden-bird-found-during-wwii-1940",
+  "title": "Tomb of the Birds and the wooden bird found during WWII",
+  "summary": "Luke Caverns tells of Tomb of the Birds and the wooden bird found during WWII, about 1940s at Northern cliff west of Great Pyramid, Giza, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Northern cliff west of Great Pyramid, Giza",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 2168.0,
+      "to_s": 2174.0,
+      "teller": "luke-caverns",
+      "quote": "uh there's this tomb called the tombs of the birds.",
+      "kind": "researcher",
+      "cites": [
+        "mythbusters"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Luke Caverns, talking with podcast host Jesse Michels in 2025, describes a tomb called the Tomb of the Birds in a cliff west of the Great Pyramid at Giza. He tells of a wooden bird said to have been found there during the Second World War, and mentions the television science show Mythbusters in connection with it, suggesting the object may show the ancients knew something about flight."
+}

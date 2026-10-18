@@ -24,7 +24,13 @@
       "documents": []
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "german-perforated-metal-found-at-roswell-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 0.2,
   "profile": {

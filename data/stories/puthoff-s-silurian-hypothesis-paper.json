@@ -1,0 +1,55 @@
+{
+  "id": "puthoff-s-silurian-hypothesis-paper",
+  "title": "Puthoff's Silurian hypothesis paper",
+  "summary": "Jesse Michels tells of Puthoff's Silurian hypothesis paper, about modern at Texas (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "texas",
+  "place_text": "Austin, Texas",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 6148.0,
+      "to_s": 6155.0,
+      "teller": "jesse-michels",
+      "quote": "Hal Putoff who actually lives out here in Austin who wrote an interesting paper about the saluran hypothesis",
+      "kind": "host",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": [
+        "silurian-hypothesis-paper"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, mentions a researcher named Hal Puthoff, who he says lives in Austin, Texas. According to Michels, Puthoff wrote an interesting paper on the Silurian hypothesis, the idea that an advanced civilisation could have lived on Earth long before humans and left few traces."
+}

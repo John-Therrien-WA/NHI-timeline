@@ -47,35 +47,76 @@
         "place_text": "Off the US East Coast, VFA-11 from USS Theodore Roosevelt",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 1015.0,
+      "to_s": 1026.0,
+      "teller": "ryan-graves",
+      "quote": "As soon as they cross that threshold, boom, object shoots down the left or the right wing of the lead aircraft. Uh came within about 50 ft of the cockpit, which is extremely close.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "hazard-report-hazrep"
+      ],
+      "difference": "Describes the object as a dark cube inside a clear sphere passing within about 50 ft of the cockpit at the working-area entry, and says a HAZREP was filed.",
+      "link_reason": "Both tell of the near miss in which a cube-and-sphere object passed between a section of jets off Virginia Beach/Oceana, as Graves relates it.",
+      "as_told": {
+        "title": "Near-miss with a dark cube inside a clear sphere",
+        "years": null,
+        "place_text": "Entry point of the working area off Virginia Beach",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 4695.0,
+      "to_s": 4708.0,
+      "teller": "jesse-michels",
+      "quote": "When you hear stories like Ryan Graves, Navy pilot, talk about a sphere inside a cube or other kind of exotic, you know, looking objects that do have pointy edges",
+      "kind": "host",
+      "cites": [
+        "ryan-graves"
+      ],
+      "documents": [],
+      "difference": "Passing mention only, with no near miss, place or date, used to make a point about objects with pointy edges.",
+      "link_reason": "The host cites Ryan Graves' account of a sphere inside a cube, the same object as the Oceana near-miss story.",
+      "as_told": {
+        "title": "Host cites Ryan Graves' account of a sphere inside a cube",
+        "years": null,
+        "place_text": "unspecified (Navy pilot reports)",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels",
-      "tim-gallaudet"
+      "ryan-graves"
     ],
     "episodes": [
       "1iaH1a3A4Lk",
+      "6WC4o2yY9Ws",
+      "QgxjtDS2sIQ",
       "nRKNVFQBi38"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
+  "attestation": 0.75,
+  "tier": "told-once",
   "plain": "This story is about a near collision between a Navy fighter jet and a strange object around 2014 or 2015, off the US East Coast. A podcast host, Jesse Michels, relays what a Navy pilot named Ryan Graves has described: an object that almost hit a pilot and looked like a sphere inside a cube. Michels places it around Naval Air Station Oceana, a Navy airbase in Virginia. A retired Navy admiral, Tim Gallaudet, tells it as happening during a training exercise with the aircraft carrier Roosevelt and a fighter squadron called VFA-11, and says the cube-and-sphere object flew right between two jets flying together. If true, it would mean unknown objects were putting military pilots in danger."
 }

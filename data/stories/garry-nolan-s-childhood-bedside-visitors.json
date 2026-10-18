@@ -21,6 +21,46 @@
         "gary-nolan"
       ],
       "documents": []
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 4410.0,
+      "to_s": 4413.0,
+      "teller": "jesse-michels",
+      "quote": "remembers graay in his room and I think",
+      "kind": "secondhand",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Adds a saucer Nolan saw on a paper route; gives no place.",
+      "link_reason": "Garry Nolan's childhood memory of Grays in his room is the stored bedside visitors story.",
+      "as_told": {
+        "title": "Garry Nolan's grays in his room and saucer seen on a paper route",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 5576.0,
+      "to_s": 5591.0,
+      "teller": "jesse-michels",
+      "quote": "Even a scientist as reputable as Garry Nolan at Stanford, it's similar where like he kind of started to uncover experiences he had had in his childhood when he got into the subject professionally later in life.",
+      "kind": "host",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Stresses that Nolan only uncovered the childhood experiences later in life, after taking up the subject professionally, and gives no detail of them.",
+      "link_reason": "Both are about Garry Nolan's childhood experiences, which the story gives as visitors at the foot of his bed.",
+      "as_told": {
+        "title": "Garry Nolan recovers childhood experiences",
+        "years": null,
+        "place_text": "Stanford (Nolan's institution); childhood location unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -44,7 +84,9 @@
       "jesse-michels"
     ],
     "episodes": [
-      "bVhSPH2A5Vw"
+      "aGqFOxuYRT0",
+      "bVhSPH2A5Vw",
+      "yAvD5UTziTo"
     ]
   },
   "attestation": 0.5,

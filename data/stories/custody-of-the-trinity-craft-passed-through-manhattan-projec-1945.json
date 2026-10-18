@@ -45,16 +45,17 @@
         },
         "place_text": "United States (Manhattan Project, AEC, DOE)",
         "story_kind": "theory"
-      },
-      "replay_of": {
-        "episode": "fyX8V1XXmQM",
-        "from_s": 453.0
       }
     }
   ],
   "related": [
     {
       "story": "oppenheimer-first-nuclear-weapon-in-modern-history-1945",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-endless-frontier-read-as-working-back-from-airdropped-al-1945",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }

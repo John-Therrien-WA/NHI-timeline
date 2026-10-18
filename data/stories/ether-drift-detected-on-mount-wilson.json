@@ -1,0 +1,53 @@
+{
+  "id": "ether-drift-detected-on-mount-wilson",
+  "title": "Ether drift detected on Mount Wilson",
+  "summary": "Steve Coburn tells of Ether drift detected on Mount Wilson, about early 20th century at Mount Wilson, California, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Mount Wilson, California",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 1837.0,
+      "to_s": 1844.0,
+      "teller": "steve-coburn",
+      "quote": "He didn't detect it directly, but he detected um Earth's motion through the by an experiment on Mount Wilson, I believe it was.",
+      "kind": "researcher",
+      "cites": [
+        "milikin"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "steve-coburn"
+    ],
+    "episodes": [
+      "iPxbILOMQ08"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Steve Coburn, a guest on Jesse Michels' podcast, talks about the ether, an old idea that an invisible substance fills all of space. He says a scientist he calls Millikan did not detect the ether directly, but did detect Earth's motion through it with an experiment done, he believes, on Mount Wilson in California. If true, it would mean the ether really exists."
+}

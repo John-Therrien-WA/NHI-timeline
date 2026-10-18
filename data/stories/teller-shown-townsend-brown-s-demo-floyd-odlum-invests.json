@@ -24,33 +24,132 @@
         "northrop"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1221.0,
+      "to_s": 1234.0,
+      "teller": "jesse-michels",
+      "quote": "The final credible witness is none other than Edward Teller, the father of the American hydrogen bomb, who observed Brown's experiment at his home in Berkeley with Brown's daughter Linda and Teller's wife Augusta present.",
+      "kind": "host",
+      "cites": [
+        "edward-teller",
+        "linda-brown",
+        "augusta-teller"
+      ],
+      "documents": [],
+      "difference": "Places the demo at Teller's Berkeley home in the 1960s, with Linda Brown and Augusta Teller present.",
+      "link_reason": "Same story of Edward Teller being shown Brown's demo and saying he couldn't explain it.",
+      "as_told": {
+        "title": "Edward Teller dumbstruck by Brown's demo in Berkeley",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "Berkeley, California",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1935.0,
+      "to_s": 1938.0,
+      "teller": "jesse-michels",
+      "quote": "Townsend Brown met with Edward Teller in 1965,",
+      "kind": "host",
+      "cites": [
+        "edward-teller",
+        "linda-brown"
+      ],
+      "documents": [],
+      "difference": "Dates the meeting to 1965 and places it in Berkeley; Linda Brown is credited.",
+      "link_reason": "Both describe Edward Teller being shown Townsend Brown's demonstration.",
+      "as_told": {
+        "title": "Townsend Brown demonstrates to Edward Teller",
+        "years": {
+          "from": 1965,
+          "to": 1965
+        },
+        "place_text": "Berkeley, California",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1962.0,
+      "to_s": 1970.0,
+      "teller": "linda-brown",
+      "quote": "And he looks at him and finally he said, \"I don't understand how it works.\"",
+      "kind": "firsthand",
+      "cites": [
+        "edward-teller"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Linda Brown, dated 1965 in Berkeley.",
+      "link_reason": "This is the same demo to Teller and the same remark from him, 'I don't understand how it works', now told firsthand by Linda Brown.",
+      "as_told": {
+        "title": "Teller: 'I don't understand how it works'",
+        "years": {
+          "from": 1965,
+          "to": 1965
+        },
+        "place_text": "Berkeley, California",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1350.0,
+      "to_s": 1360.0,
+      "teller": "jesse-michels",
+      "quote": "actually sees uh a modified version of\ntowns and Brown's fan precipitator\nexperiment and his quote is I don't know\nhow this works",
+      "kind": "secondhand",
+      "cites": [
+        "edward-teller",
+        "linda-brown"
+      ],
+      "documents": [],
+      "difference": "Credits Linda Brown as the source and does not mention Odlum.",
+      "link_reason": "Same event: Teller is shown Brown's fan precipitator demonstration and says he doesn't know how it works.",
+      "as_told": {
+        "title": "Edward Teller witnesses Brown fan precipitator",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": null,
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "linda-brown"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
+      "G7Ns4Aq1tVc",
+      "RTEWLSTyUic",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that the physicist Edward Teller was friendly with Thomas Townsend Brown, an inventor of unusual electrical propulsion devices, and was shown a demonstration of one of Brown's experiments. According to Michels, Teller said he had no idea how it worked and was alarmed, and a wealthy investor named Floyd Odlum put money into Brown's work. The story is told to suggest Brown had found something that even top scientists could not explain."
 }

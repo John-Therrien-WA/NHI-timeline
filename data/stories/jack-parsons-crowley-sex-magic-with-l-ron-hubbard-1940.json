@@ -27,6 +27,30 @@
         "wernher-von-braun"
       ],
       "documents": []
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 3359.0,
+      "to_s": 3374.0,
+      "teller": "jesse-michels",
+      "quote": "his American counterpart Jack Parsons was equally unbounded by convention he was part of the Pasadena cult Otto along with Scientology Creator elron hubard the two would perform sex magic rituals",
+      "kind": "host",
+      "cites": [
+        "jack-parsons",
+        "l-ron-hubbard"
+      ],
+      "documents": [],
+      "difference": "Names the OTO in Pasadena.",
+      "link_reason": "Same claim that Jack Parsons performed Crowleyan sex magic rituals with L. Ron Hubbard in 1940s California.",
+      "as_told": {
+        "title": "Jack Parsons, the OTO and sex magic rituals",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Pasadena, California",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -50,7 +74,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "LpLFWdsIU7M"
+      "LpLFWdsIU7M",
+      "tS_64sTN5AU"
     ]
   },
   "attestation": 0.1,

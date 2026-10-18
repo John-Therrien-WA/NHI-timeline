@@ -26,11 +26,44 @@
         "avi-loeb"
       ],
       "documents": []
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 9998.0,
+      "to_s": 10009.0,
+      "teller": "jesse-michels",
+      "quote": "favorite line from from his and I have disagreements with him all on the Brown stuff, but like uh uh my favorite statement of him was he goes, \"The NHI are controlling disclosure.\"",
+      "kind": "host",
+      "cites": [
+        "eric-davis"
+      ],
+      "documents": [],
+      "difference": "Does not say the hearing was closed or name the other witnesses, and adds that Jesse disagrees with Davis about Townsend Brown.",
+      "link_reason": "Same statement by Eric Davis to Congress that the NHI themselves are controlling disclosure.",
+      "as_told": {
+        "title": "Eric Davis tells Congress the NHI are controlling disclosure",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "US Congress",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
     {
       "story": "classified-scif-testimony-to-congress-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "high-ranking-nasa-official-tells-chris-he-s-a-huge-fan-at-th-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "request-to-bring-harrington-to-testify-to-house-oversight-co-2025",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -55,6 +88,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "51N8OxqZIWY",
       "u7g5Sn1DJF4"
     ]
   },

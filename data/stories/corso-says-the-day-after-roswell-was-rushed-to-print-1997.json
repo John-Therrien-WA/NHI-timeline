@@ -28,6 +28,32 @@
       "documents": [
         "the-day-after-roswell"
       ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1295.0,
+      "to_s": 1301.0,
+      "teller": "uapgerb",
+      "quote": "No. No. Rumor has it he only had 24 hours to edit it. And according to his son, he put his hand to his head and said, \"I I can't believe this.\"",
+      "kind": "secondhand",
+      "cites": [
+        "philip-corso",
+        "corso-s-son"
+      ],
+      "documents": [
+        "the-day-after-roswell"
+      ],
+      "difference": "Adds the rumour that he had only 24 hours to edit it and his son's account of his dismayed reaction.",
+      "link_reason": "Both tell that The Day After Roswell was rushed to print in 1997 without Corso being able to edit it properly.",
+      "as_told": {
+        "title": "Corso had 24 hours to edit The Day After Roswell",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -35,17 +61,22 @@
       "story": "congressman-schiff-and-the-deleted-roswell-records-1997",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "reading-corso-s-the-day-after-roswell-1997",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -54,13 +85,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "james-fox"
+      "james-fox",
+      "uapgerb"
     ],
     "episodes": [
-      "hBrfe4hFuM0"
+      "hBrfe4hFuM0",
+      "nTiFs8LudUo"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "James Fox tells podcast host Jesse Michels about The Day After Roswell, a 1997 book by Philip J. Corso about events at Roswell, New Mexico. Fox passes on that Corso said the book was rushed into print with a co-writer named William Burns, and he also mentions a man named Michael Hessman. If true, the rush might explain problems in the book without throwing out what Corso claimed."
 }

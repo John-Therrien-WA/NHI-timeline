@@ -22,6 +22,68 @@
         "graham-hancock"
       ],
       "documents": []
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 1198.0,
+      "to_s": 1211.0,
+      "teller": "graham-hancock",
+      "quote": "are due south on the meridian at dawn on the spring equinox is also precisely the moment that the Great Sphinx is looking at the constellation of Leo 12,500 years ago, not 4,500 years ago.",
+      "kind": "researcher",
+      "cites": [
+        "robert-bauval"
+      ],
+      "documents": [],
+      "difference": "Told by Hancock himself and ties it to the Orion belt stars lying on the meridian at the same moment.",
+      "link_reason": "Both date the Sphinx to 10,500 BC because it faced Leo at the spring-equinox sunrise, as Bauval and Hancock argue.",
+      "as_told": {
+        "title": "Orion correlation and Sphinx–Leo alignment date Giza to 10,500 BC",
+        "years": null,
+        "place_text": "Giza Plateau, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 3042.0,
+      "to_s": 3051.0,
+      "teller": "jesse-michels",
+      "quote": "That's what Graham Hancock and Robert Shock think is that um when the procession was in Leo or whatever, it was made as you know a lion",
+      "kind": "host",
+      "cites": [
+        "graham-hancock",
+        "robert-schoch"
+      ],
+      "documents": [],
+      "difference": "Credits Hancock and Schoch rather than Bauval and Hancock, and puts the stress on the Sphinx being carved as a lion.",
+      "link_reason": "Both date the Sphinx's lion form to the Age of Leo through precession, around 10,500 BC, credited to Hancock.",
+      "as_told": {
+        "title": "Sphinx carved as a lion in the Age of Leo",
+        "years": null,
+        "place_text": "Sphinx, Giza",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 1818.0,
+      "to_s": 1835.0,
+      "teller": "jesse-michels",
+      "quote": "You mentioned Robert Schoch. You know, he and Graham Hancock would say that the Sphinx itself is actually an homage to, you know, the former procession and that, you know, the the the constellation Leo, which was, you know, facing true north was what it was, you know, pointing towards",
+      "kind": "host",
+      "cites": [
+        "robert-schoch",
+        "graham-hancock"
+      ],
+      "documents": [],
+      "difference": "Credits Schoch together with Hancock instead of Bauval, and frames the Sphinx as an homage to Leo, not as a way of dating it.",
+      "link_reason": "The same theory that the Sphinx was aligned with the constellation Leo through precession, credited to Hancock.",
+      "as_told": {
+        "title": "Schoch and Hancock: the Sphinx as an homage to Leo",
+        "years": null,
+        "place_text": "Sphinx, Giza, Egypt",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -38,14 +100,17 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "randall-carlson"
+      "graham-hancock"
     ],
     "episodes": [
-      "JGE1NIGhBzw"
+      "92XrddiKjHY",
+      "9PJJiut0Iuw",
+      "JGE1NIGhBzw",
+      "NvQXmtcwHA8"
     ]
   },
   "attestation": 0.25,

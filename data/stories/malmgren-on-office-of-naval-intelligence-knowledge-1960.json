@@ -44,11 +44,36 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 2110.0,
+      "to_s": 2116.0,
+      "teller": "jesse-michels",
+      "quote": "Uh Harold Malgrren said, you know, Office of Naval Intelligence, that's where all the secrets are kept.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren"
+      ],
+      "documents": [],
+      "difference": "Phrased as 'that's where all the secrets are kept', with no period given.",
+      "link_reason": "Same claim relayed from Malmgren: the Office of Naval Intelligence holds the deepest secrets about this.",
+      "as_told": {
+        "title": "Malmgren: ONI is where the secrets are kept",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
     {
       "story": "harold-malmgren-tweets-about-bissell-briefings-and-tesla-bro-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "hynek-says-he-played-a-part-in-the-blue-book-cover-up-1960",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -74,7 +99,8 @@
     ],
     "episodes": [
       "2-GeTxXi670",
-      "u7g5Sn1DJF4"
+      "u7g5Sn1DJF4",
+      "yJUBSuPh1pM"
     ]
   },
   "attestation": 0.5,

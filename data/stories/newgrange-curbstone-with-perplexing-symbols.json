@@ -1,0 +1,51 @@
+{
+  "id": "newgrange-curbstone-with-perplexing-symbols",
+  "title": "Newgrange curbstone with perplexing symbols",
+  "summary": "Geoffrey Drumm tells of Newgrange curbstone with perplexing symbols, about Neolithic at Newgrange, Ireland, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Newgrange, Ireland",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 4162.0,
+      "to_s": 4173.0,
+      "teller": "geoffrey-drumm",
+      "quote": "within New Graange, there is a curb stone outside of New Graange that's inscribed with all of these perplexing symbols.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Geoffrey Drumm, speaking on a podcast hosted by Jesse Michels, describes Newgrange, a very old stone mound tomb in Ireland. He says that a curbstone, one of the large stones set around the outside of the mound, is carved with many puzzling symbols. He raises it as a sign that the ancient builders were recording something we do not yet understand."
+}

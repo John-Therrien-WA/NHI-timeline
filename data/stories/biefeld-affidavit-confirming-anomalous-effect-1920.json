@@ -1,0 +1,58 @@
+{
+  "id": "biefeld-affidavit-confirming-anomalous-effect-1920",
+  "title": "Biefeld affidavit confirming anomalous effect",
+  "summary": "Paul Schatzkin tells of Biefeld affidavit confirming anomalous effect, about 1920s-1950s at Ohio, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1920,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Ohio",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1194.0,
+      "to_s": 1201.0,
+      "teller": "paul-schatzkin",
+      "quote": "Paul Biefeld. They say he never met Paul Biefeld and then this affidavit comes out later. Paul Biefeld definitely met Townsend Brown.",
+      "kind": "researcher",
+      "cites": [
+        "paul-alfred-biefeld"
+      ],
+      "documents": [
+        "biefeld-affidavit"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "paul-schatzkin"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Paul Schatzkin, a biographer of the inventor Townsend Brown, told podcast host Jesse Michels about Brown's early work in Ohio on an unusual electrical effect. Schatzkin says some claimed Brown never met Paul Alfred Biefeld, a scientist, but that an affidavit, a sworn written statement, later surfaced showing they definitely did meet. If true, it backs up Brown's account of how his strange discovery was confirmed."
+}

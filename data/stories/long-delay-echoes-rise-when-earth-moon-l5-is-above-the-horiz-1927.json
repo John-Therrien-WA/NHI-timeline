@@ -1,0 +1,54 @@
+{
+  "id": "long-delay-echoes-rise-when-earth-moon-l5-is-above-the-horiz-1927",
+  "title": "Long delay echoes rise when Earth-Moon L5 is above the horizon",
+  "summary": "Jesse Michels tells of Long delay echoes rise when Earth-Moon L5 is above the horizon, about 1927 onward at L5 Lagrange point, Earth and Moon, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1927,
+    "to": 1927
+  },
+  "place": "l5-lagrange",
+  "place_text": "Earth-Moon L5 Lagrange point",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 3640.0,
+      "to_s": 3651.0,
+      "teller": "jesse-michels",
+      "quote": "And one study even found a statistically significant increase in LDEs when the Earth-Moon L5 Lagrange point was above the horizon.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1zRWi_r3HRM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, talks about long delay echoes, radio signals that seem to come back seconds after they are sent, first noticed in 1927. He says one study found a statistically significant rise in these echoes when the Earth-Moon L5 point, a stable spot in space where an object can sit balanced between the pull of Earth and the Moon, was above the horizon. If true, it would hint that something parked at that spot might be bouncing the signals back."
+}

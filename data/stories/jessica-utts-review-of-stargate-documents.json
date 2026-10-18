@@ -97,11 +97,190 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 492.0,
+      "to_s": 503.0,
+      "teller": "jesse-michels",
+      "quote": "a statistician named Jessica UTS who was president of the American statistical Society reviewed all of the Stanford Research Institute psychic spy data",
+      "kind": "host",
+      "cites": [
+        "jessica-utts"
+      ],
+      "documents": [
+        "jessica-utts-report-on-psychic-functioning"
+      ],
+      "difference": "Dates it to 1995 and places the data at the Stanford Research Institute.",
+      "link_reason": "Jessica Utts' statistical review of the government psychic spy data.",
+      "as_told": {
+        "title": "Jessica Utts' statistical review of the SRI psychic spy data",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "Stanford Research Institute, California",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 505.0,
+      "to_s": 519.0,
+      "teller": "jesse-michels",
+      "quote": "UT uh did an analysis of a lot of uh evidence for psychic functioning not just the Stargate program I don't believe uh and she found overwhelming evidence",
+      "kind": "researcher",
+      "cites": [
+        "jessica-utts"
+      ],
+      "documents": [],
+      "difference": "Wargo says she found overwhelming evidence and that the review went beyond the Stargate data.",
+      "link_reason": "The same Utts review and its positive conclusion, told by Eric Wargo.",
+      "as_told": {
+        "title": "Utts finds overwhelming evidence for psychic functioning",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      },
+      "replay_of": {
+        "episode": "hXYdkcv5TtY",
+        "from_s": 2247.0
+      },
+      "teller_was": "eric-wargo"
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 792.0,
+      "to_s": 798.0,
+      "teller": "jesse-michels",
+      "quote": "she partnered with psychologist Ray Heyman Hyman was a total skeptic of the Paranormal",
+      "kind": "host",
+      "cites": [
+        "ray-hyman",
+        "jessica-utts",
+        "james-randi"
+      ],
+      "documents": [
+        "skeptical-inquirer"
+      ],
+      "difference": "Stresses that Hyman was a total skeptic and brings in James Randi and the Skeptical Inquirer.",
+      "link_reason": "The Utts meta-study done together with the skeptic Ray Hyman, which the Utts review story already tells.",
+      "as_told": {
+        "title": "Skeptic Ray Hyman reviews the data with Utts",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 2216.0,
+      "to_s": 2226.0,
+      "teller": "jesse-michels",
+      "quote": "you even have Jessica UTS who's a statistician out of Stanford I believe and Ray Heyman who's a skeptic",
+      "kind": "host",
+      "cites": [
+        "jessica-utts",
+        "ray-hyman"
+      ],
+      "documents": [
+        "stargate-declassified-documents"
+      ],
+      "difference": "Dates the review to 1995 and places Utts at Stanford.",
+      "link_reason": "Both tell of the statistician Jessica Utts, with the skeptic Ray Hyman, reviewing the declassified Stargate documents.",
+      "as_told": {
+        "title": "Utts and Hyman review of declassified Stargate documents",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 3637.0,
+      "to_s": 3641.0,
+      "teller": "jesse-michels",
+      "quote": "goes through all the Stargate data and she says not only is this replicable",
+      "kind": "host",
+      "cites": [
+        "jessica-utts",
+        "ray-hyman",
+        "james-randi"
+      ],
+      "documents": [
+        "stargate-data"
+      ],
+      "difference": "Adds that she found the effect replicable and also credits James Randi.",
+      "link_reason": "The same Jessica Utts review of the Stargate data, with Ray Hyman, that she found replicable.",
+      "as_told": {
+        "title": "Jessica Utts's review of the Stargate data",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 1245.0,
+      "to_s": 1252.0,
+      "teller": "jesse-michels",
+      "quote": "But there's a woman named Jessica Us who uh ran the American Statistical Society.",
+      "kind": "host",
+      "cites": [
+        "jessica-utts",
+        "ray-hyman",
+        "james-randi"
+      ],
+      "documents": [],
+      "difference": "Adds James Randi as credited and says she ran the 'American Statistical Society'.",
+      "link_reason": "Both describe Jessica Utts' statistical review of the Stargate data and name Ray Hyman alongside her.",
+      "as_told": {
+        "title": "Jessica Utts' statistical review of the Stargate data, alongside Ray Hyman",
+        "years": {
+          "from": 1970,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 6637.0,
+      "to_s": 6650.0,
+      "teller": "jesse-michels",
+      "quote": "elsewhere. And then you have all the\nremote viewing data that Jessica UTS,\nwho is the president of the American\nStatistical Society, reviewed for the\nCIA saying that, you know, this is\nextremely replicable",
+      "kind": "host",
+      "cites": [
+        "jessica-utts",
+        "cia"
+      ],
+      "documents": [],
+      "difference": "Calls the result extremely replicable and says she did the review for the CIA.",
+      "link_reason": "Both tell of Jessica Utts' statistical review of the CIA's Stargate remote viewing data.",
+      "as_told": {
+        "title": "Jessica Utts review of CIA remote viewing data",
+        "years": {
+          "from": 1995,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 4.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -112,7 +291,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 6,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -122,11 +301,16 @@
     "episodes": [
       "1f16VvXaSSE",
       "8Rr_nE65KkI",
+      "JpLThEF2dTM",
+      "KGD1nuM4MR8",
+      "RofQnByLwOo",
+      "h3u8EkGI8OQ",
+      "hXYdkcv5TtY",
       "jMCavr3dVP0",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 2.0,
   "tier": "told-once",
   "plain": "Stargate was a US government programme that studied remote viewing, the claimed ability to describe faraway places using only the mind. A podcast host, Jesse Michels, says a well-known statistician named Jessica Utts, whom he calls a president of the American Statistical Association, studied the released Stargate records, came in a skeptic, and came out thinking there was something real there. In some tellings he calls it a combined study of the data from the 1990s, done alongside a skeptic named Ray Hyman, which if right would mean the mind can gather information in ways science can't explain."
 }

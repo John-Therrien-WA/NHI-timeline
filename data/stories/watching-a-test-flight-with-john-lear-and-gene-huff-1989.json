@@ -25,9 +25,92 @@
         "gene-huff"
       ],
       "documents": []
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 5080.0,
+      "to_s": 5085.0,
+      "teller": "grant-cameron",
+      "quote": "They took the mo John Leer's motor home and they went up there and they they filmed this thing.",
+      "kind": "researcher",
+      "cites": [
+        "john-lear",
+        "bob-lazar",
+        "gene-huff"
+      ],
+      "documents": [],
+      "difference": "Adds that they used Lear's motor home and filmed the craft; told by a researcher, not by Lazar.",
+      "link_reason": "This is the same 1989 outing near Groom Lake where Lazar took Lear and Huff to watch a scheduled test flight.",
+      "as_told": {
+        "title": "Lear's motor home trip to film a test flight",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "near Groom Lake, Nevada",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 5099.0,
+      "to_s": 5108.0,
+      "teller": "bob-lazar",
+      "quote": "Oh, yeah. To see the test. Yeah. Because I had the test flight schedule. Yep. So, I know it's a Wednesday night. Yeah. We're going out there and you guys are going to see it.",
+      "kind": "firsthand",
+      "cites": [
+        "john-lear"
+      ],
+      "documents": [],
+      "difference": "Adds that he knew it would be a Wednesday night.",
+      "link_reason": "This is Lazar's own clip about taking friends out to see the scheduled test, which matches the story's telling.",
+      "as_told": {
+        "title": "Lazar clip: taking friends out to see the test",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "near Groom Lake, Nevada",
+        "story_kind": "sighting"
+      },
+      "replay_of": {
+        "episode": "d9tdJ2SkBKQ",
+        "from_s": 7415.0
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 5108.0,
+      "to_s": 5119.0,
+      "teller": "john-lear",
+      "quote": "This is John Lear and today is March 22nd, 1989. We're standing just about uh 8 miles due east of Groom Lake, Nevada, the super government secret test site.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by John Lear on his contemporaneous recording.",
+      "link_reason": "Lear's tape from March 22, 1989, 8 miles east of Groom Lake, records the same test-flight outing.",
+      "as_told": {
+        "title": "Lear's tape: 8 miles east of Groom Lake",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "8 miles east of Groom Lake, Nevada",
+        "story_kind": "sighting"
+      },
+      "replay_of": {
+        "episode": "d9tdJ2SkBKQ",
+        "from_s": 7415.0
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "lazar-sees-aurora-take-off-at-area-51-1989",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 2.0,
   "profile": {
@@ -41,14 +124,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "bob-lazar"
+      "john-lear"
     ],
     "episodes": [
-      "d9tdJ2SkBKQ"
+      "d9tdJ2SkBKQ",
+      "fpUa3xJN64Q"
     ]
   },
   "attestation": 1.0,

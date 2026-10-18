@@ -25,6 +25,32 @@
         "odni"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 7375.0,
+      "to_s": 7382.0,
+      "teller": "dylan-borland",
+      "quote": ">> Jeremy spoke about it. They created a fake force drawing and I have the text messages",
+      "kind": "firsthand",
+      "cites": [
+        "jeremy-corbell",
+        "george-knapp"
+      ],
+      "documents": [
+        "aaro-report"
+      ],
+      "difference": "Borland tells it firsthand, calls the drawing fabricated and says he has text messages proving it.",
+      "link_reason": "This is the same ODNI claim that Borland made a fourth drawing, which Corbell tells as a sensor-system drawing.",
+      "as_told": {
+        "title": "ODNI's fake fourth drawing",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "ODNI",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -37,10 +63,15 @@
       "story": "jesse-michels-also-told-of-an-incoming-craft-2025",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "age-of-disclosure-documentary-us-holds-craft-and-alien-bodie-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -51,18 +82,19 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "jeremy-corbell"
+      "dylan-borland"
     ],
     "episodes": [
-      "-XdvIrexF08"
+      "-XdvIrexF08",
+      "K4gYHs84BIc"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "Jeremy Corbell, a filmmaker who reports on UFO claims, says that word came directly from the ODNI, the office that oversees all US spy agencies, that a man named Dylan Borland had made a fourth drawing, this one of a sensor system. Corbell ties it to claims, around 2025 and 2026, about a craft said to be slowly heading toward Earth, and if true it would mean intelligence officials were shaping what witnesses and the public were told."
 }

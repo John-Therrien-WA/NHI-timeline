@@ -75,35 +75,82 @@
         "place_text": "NASA Johnson Space Center Building 8, Houston",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 1901.0,
+      "to_s": 1913.0,
+      "teller": "gary-mckinnon",
+      "quote": "then suddenly there's a big straight kind of silvery line and then it's coming down. Then that's I guess what they now call a tic tac but what we used to call cigar- shaped",
+      "kind": "firsthand",
+      "cites": [
+        "donna-hair"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by McKinnon, who describes a silvery cigar-shaped line coming down rather than an object orbiting Earth.",
+      "link_reason": "McKinnon seeing a cigar or Tic Tac shaped craft in a Johnson Space Center Building 8 image, linked to Donna Hare. This is the same as the story of his hack and the tic tac image.",
+      "as_told": {
+        "title": "McKinnon views a cigar-shaped craft in NASA Building 8 image",
+        "years": {
+          "from": 2000,
+          "to": 2002
+        },
+        "place_text": "Building 8, Johnson Space Center (accessed remotely from London)",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 7325.0,
+      "to_s": 7331.0,
+      "teller": "jesse-michels",
+      "quote": "you're saying you saw a tic tac, you know, in deep space but above Earth",
+      "kind": "secondhand",
+      "cites": [
+        "gary-mckinnon"
+      ],
+      "documents": [],
+      "difference": "Dates it c. 2001-2002 and describes it as being in deep space above Earth. Jesse Michels puts it to McKinnon directly in the interview.",
+      "link_reason": "Both tell of McKinnon seeing a tic-tac UFO orbiting Earth in NASA imagery during his hack, around 2001.",
+      "as_told": {
+        "title": "Tic Tac object in space seen in hacked files",
+        "years": {
+          "from": 2001,
+          "to": 2002
+        },
+        "place_text": "Space above Earth (NASA imagery)",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "gary-mckinnon"
     ],
     "episodes": [
+      "2ttdlCa5ZCI",
       "8Rr_nE65KkI",
       "mOWwdIuyaQA",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, tells how a British computer hacker named Gary McKinnon, around 2001 or 2002, broke into computers at NASA's Johnson Space Center in Houston after hearing a former NASA worker, Donna Hare, claim UFOs were being hidden. Michels says McKinnon saw an image pop up on his screen of a white oval craft shaped like a Tic Tac mint that seemed to be orbiting Earth, which would mean NASA holds evidence of unknown craft in space."
 }

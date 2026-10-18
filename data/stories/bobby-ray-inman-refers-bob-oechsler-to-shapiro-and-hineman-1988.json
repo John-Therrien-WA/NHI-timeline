@@ -49,35 +49,221 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 8973.0,
+      "to_s": 8987.0,
+      "teller": "jesse-michels",
+      "quote": "he has this call with Bob oxler this uh you know UFO researcher and he's basically admitting that you know we have we have UFOs in our possessions",
+      "kind": "host",
+      "cites": [
+        "bobby-ray-inman",
+        "bob-oechsler"
+      ],
+      "documents": [],
+      "difference": "Frames the call as Inman basically admitting the US has UFOs in its possession, and does not mention the referral to Shapiro and Hineman.",
+      "link_reason": "Both tell of Bobby Ray Inman's phone call with UFO researcher Bob Oechsler about UFOs.",
+      "as_told": {
+        "title": "Bobby Ray Inman call with Bob Oechsler about recovered UFOs",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 8996.0,
+      "to_s": 9004.0,
+      "teller": "bobby-ray-inman",
+      "quote": "again I honestly don't know uh 10 years ago the answer would have been no",
+      "kind": "official",
+      "cites": [
+        "bob-oechsler"
+      ],
+      "documents": [],
+      "difference": "Quotes Inman directly: he says he doesn't know, and that 10 years earlier the answer would have been no.",
+      "link_reason": "This is Inman's own words from the same Oechsler call, about whether recovered vehicles could become available for research.",
+      "as_told": {
+        "title": "Inman on recovered vehicles becoming available for research",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 1250.0,
+      "to_s": 1253.0,
+      "teller": "bobby-ray-inman",
+      "quote": "Uh 10 years ago, the answer would have\nbeen no.",
+      "kind": "official",
+      "cites": [
+        "bob-oechsler"
+      ],
+      "documents": [],
+      "difference": "Gives Inman's reply on recovered vehicles, 'ten years ago the answer would have been no', rather than the referral to Shapiro and Inman.",
+      "link_reason": "This is the same 1988-89 phone call between Inman and Oechsler, which the story already holds, including Jesse's telling of what Inman said about UFOs on that call.",
+      "as_told": {
+        "title": "1989 Oechsler phone call with Inman on recovered vehicles",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 7354.0,
+      "to_s": 7365.0,
+      "teller": "jesse-michels",
+      "quote": "actually the director of the NSA while you were in your program was this guy Bobby Rayman who's on a record talking about UFOs with this UFO researcher named Bob Oxler.",
+      "kind": "host",
+      "cites": [
+        "bobby-ray-inman",
+        "bob-oechsler"
+      ],
+      "documents": [],
+      "difference": "Places Inman as NSA director during Sherman's program and mentions his later SAIC role, but not the referral to Shapiro and Hineman.",
+      "link_reason": "Both are about NSA director Bobby Ray Inman talking about UFOs on record in a call with researcher Bob Oechsler.",
+      "as_told": {
+        "title": "NSA director Bobby Ray Inman on UFOs in a call with Bob Oechsler, later SAIC",
+        "years": {
+          "from": 1980,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 7383.0,
+      "to_s": 7386.0,
+      "teller": "bobby-ray-inman",
+      "quote": "Uh 10 years ago, the answer would have been no.",
+      "kind": "official",
+      "cites": [
+        "bob-oechsler"
+      ],
+      "documents": [],
+      "difference": "Inman's own voice from the recording, saying that ten years earlier the answer would have been no.",
+      "link_reason": "Inman's own words from the same Oechsler call that telling 2 introduces, about recovered vehicles perhaps being released for research.",
+      "as_told": {
+        "title": "Inman on recovered vehicles becoming available for research",
+        "years": null,
+        "place_text": null,
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 1442.0,
+      "to_s": 1447.0,
+      "teller": "bobby-ray-inman",
+      "quote": "whether as time has evolved, they're beginning to become more open on it is a possibility.",
+      "kind": "official",
+      "cites": [
+        "bob-oechsler"
+      ],
+      "documents": [
+        "oechsler-inman-phone-call-recording"
+      ],
+      "difference": "Quotes Inman's own words from the call recording and does not mention the referral to Shapiro and Hineman.",
+      "link_reason": "Both describe the recorded phone call between Bob Oechsler and Bobby Ray Inman, where Inman suggests the subject may become more open over time.",
+      "as_told": {
+        "title": "Bobby Ray Inman phone call on recovered vehicles",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3921.0,
+      "to_s": 3930.0,
+      "teller": "jesse-michels",
+      "quote": ">> Oh, very cool. So, he so he actually is on record talking about he says, \"I don't know when the UFO truths will ever come out, you know, but you know, they",
+      "kind": "host",
+      "cites": [
+        "bobby-ray-inman"
+      ],
+      "documents": [],
+      "difference": "Quotes him as saying he doesn't know when the UFO truths will come out, and leaves out the referral to Shapiro and Heinman.",
+      "link_reason": "Inman's on-record remark that the UFO truth may come out someday is the same remark the Oechsler story's Jesse Michels telling describes (made on a phone call with Oechsler).",
+      "as_told": {
+        "title": "Bobby Ray Inman on record about UFO truths",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 5323.0,
+      "to_s": 5332.0,
+      "teller": "jesse-michels",
+      "quote": "there is a there's another phone call with him where he fully just starts talking about UFOs and how it might come out at some point.",
+      "kind": "secondhand",
+      "cites": [
+        "bobby-ray-inman"
+      ],
+      "documents": [],
+      "difference": "Leaves out Oechsler and the referral to Shapiro and Hineman, and says Inman talked about UFOs at length.",
+      "link_reason": "The story already holds Jesse's telling of Inman telling Bob Oechsler on a phone call that UFOs might come out at some point; this is that same call.",
+      "as_told": {
+        "title": "Inman phone call about UFOs coming out",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.1,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
-    "host": 1,
+    "researcher": 0,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
-      "jesse-michels",
-      "uapgerb"
+      "bobby-ray-inman"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
+      "51N8OxqZIWY",
+      "Rfmy5oW_r9c",
+      "ScE9FaDy-mE",
       "nRKNVFQBi38",
-      "u7g5Sn1DJF4"
+      "u7g5Sn1DJF4",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-by-several",
+  "attestation": 1.05,
+  "tier": "told-once",
   "plain": "Around 1988 or 1989, a senior official named Bobby Ray Inman is said to have spoken with Bob Oechsler, a UFO researcher described as a NASA mission specialist, NASA being the US space agency. A researcher who goes by UAPGerb says Inman pointed Oechsler toward Sumner Shapiro, the director of naval intelligence, and a man named R. Evans Hineman. A podcast host, Jesse Michels, tells it differently, saying that on the call Inman hinted that the UFO subject might come out into the open someday. It is told as a sign that people high in US intelligence knew about UFO matters."
 }

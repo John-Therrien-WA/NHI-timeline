@@ -27,11 +27,39 @@
       "documents": [
         "email-from-the-bomber"
       ]
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 783.0,
+      "to_s": 797.0,
+      "teller": "jesse-michels",
+      "quote": "Matthew had emailed him saying that the New Jersey drones that the entire country has been confused about for the last two months are actually state-of-the-art gravitic propulsion drones from China",
+      "kind": "host",
+      "cites": [
+        "matthew-livelsberger",
+        "sam-shoemate",
+        "shawn-ryan",
+        "fbi"
+      ],
+      "documents": [
+        "livelsberger-email"
+      ],
+      "difference": "Names Livelsberger and the New Jersey drones of the past two months, and credits the FBI; the story places the drones on the Eastern Seaboard.",
+      "link_reason": "Both describe the Cybertruck bomber Livelsberger's email to Shoemate, as told on Shawn Ryan's show, claiming the drones were Chinese gravitic craft.",
+      "as_told": {
+        "title": "Livelsberger email: New Jersey drones are Chinese gravitic drones",
+        "years": {
+          "from": 2024,
+          "to": 2025
+        },
+        "place_text": "New Jersey; Las Vegas",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -42,7 +70,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -50,10 +78,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "Sct30Qijfv8",
       "dnnpyNuPdXs"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that a man named Shoemate went on another podcast, hosted by Shawn Ryan, and said he had received an email from the bomber himself. The bomber was a former Green Beret, a US Army special forces soldier, who blew up a Tesla Cybertruck in Las Vegas in 2025. The story's title says the email was about Chinese drones driven by gravity-control technology over the US East Coast, and if true it would mean a rival nation had craft far ahead of anything known."
 }

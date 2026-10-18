@@ -24,6 +24,30 @@
         "robert-sarbacher-s-son"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 10587.0,
+      "to_s": 10597.0,
+      "teller": "jesse-michels",
+      "quote": "he would put uh cameras on these sort of modified V2s and they would try to take photos of UFOs",
+      "kind": "host",
+      "cites": [
+        "robert-sarbacher",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Credits Townsend Brown and does not cite Sarbacher's son as the source.",
+      "link_reason": "Both say Sarbacher put cameras on modified V2 rockets to photograph or chase UFOs.",
+      "as_told": {
+        "title": "Sarbacher's cameras on modified V2s to photograph UFOs",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -34,6 +58,11 @@
     },
     {
       "story": "us-scientists-lose-clearances-while-nazis-are-put-in-charge-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "air-force-takes-over-navy-ufo-investigations-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -58,6 +87,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "ABOP8ZJsyIk"
     ]
   },

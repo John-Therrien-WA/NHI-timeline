@@ -1,0 +1,81 @@
+{
+  "id": "ronald-richter-s-fusion-project-in-bariloche-1947",
+  "title": "Ronald Richter's fusion project in Bariloche",
+  "summary": "Jason Jorjani tells of Ronald Richter's fusion project in Bariloche, about late 1940s-1951 at Bariloche, Argentina, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1951
+  },
+  "place": null,
+  "place_text": "Bariloche, Argentina",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 4222.0,
+      "to_s": 4230.0,
+      "teller": "jason-jorjani",
+      "quote": "And this guy uh Ronald Richtor, German um scientist set up a fusion project in Baraloce.",
+      "kind": "researcher",
+      "cites": [
+        "ronald-richter",
+        "juan-peron"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 4875.0,
+      "to_s": 4878.0,
+      "teller": "jason-jorjani",
+      "quote": ">> Yeah, he was promising nuclear weapons to and this is why the IA went down there.",
+      "kind": "researcher",
+      "cites": [
+        "ronald-richter",
+        "juan-peron"
+      ],
+      "documents": [],
+      "difference": "Adds that Richter was promising nuclear weapons to Perón, and that this is why the IA went down there.",
+      "link_reason": "Ronald Richter's fusion project in Argentina for Perón, the same program as the Bariloche story.",
+      "as_told": {
+        "title": "Ronald Richter's fusion work and bomb promises to Perón",
+        "years": {
+          "from": 1950,
+          "to": 1950
+        },
+        "place_text": "Argentina",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Jason Jorjani, a researcher who studies claims of a secret Nazi flying-saucer program, tells podcast host Jesse Michels about Ronald Richter, a German scientist who, he says, set up a project to make power from nuclear fusion in Bariloche, a town in Argentina, in the late 1940s and up to 1951. Jorjani adds that Richter was promising nuclear weapons to Juan Perón, then Argentina's leader, and that this is why an intelligence agency went down there. He tells it as a sign that German wartime science carried on in hiding after the war."
+}

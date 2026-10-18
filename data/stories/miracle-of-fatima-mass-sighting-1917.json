@@ -43,20 +43,41 @@
         "place_text": "Fatima, Portugal",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 4042.0,
+      "to_s": 4058.0,
+      "teller": "jesse-michels",
+      "quote": "hear of a story like you know Fatima you know Portugal like 1917 you know these three orphans get this sort of you know prophecy that uh you know the Virgin Mary is going to come and then these lights in the sky appear among like 100 plus people or whatever",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds the three orphans' prophecy of the Virgin Mary and puts the crowd at about 100 or more, where the story says 50,000 to 70,000.",
+      "link_reason": "The same 1917 Fatima mass sighting of lights in the sky.",
+      "as_told": {
+        "title": "Fatima 1917: prophecy and lights in the sky seen by a crowd",
+        "years": {
+          "from": 1917,
+          "to": 1917
+        },
+        "place_text": "Fatima, Portugal",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 2,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
@@ -64,14 +85,16 @@
     "strongest_kind": "researcher",
     "tellers": [
       "jason-samosa",
+      "jesse-michels",
       "michael-shermer"
     ],
     "episodes": [
       "8Rr_nE65KkI",
+      "h3u8EkGI8OQ",
       "kccrkCGGzX4"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.6,
   "tier": "told-by-several",
   "plain": "In 1917, in the town of Fatima in Portugal, a huge crowd gathered and reported a strange sight in the sky, an event known as the Miracle of Fatima. A well-known skeptic, Michael Shermer, mentions it as a case seen by 50,000 or 70,000 people. Another guest on the same podcast, Jason Samosa, says the clouds parted and something appeared in the sky, which lawyers, doctors and other serious witnesses described as a silvery disc. If taken at face value, it would be one of the largest group sightings of an unexplained object ever recorded."
 }

@@ -1,0 +1,88 @@
+{
+  "id": "hyman-s-government-commissioned-report-criticizing-uri-gelle-1970",
+  "title": "Hyman's government-commissioned report criticizing Uri Geller",
+  "summary": "Jesse Michels tells of Hyman's government-commissioned report criticizing Uri Geller, about 1970s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 809.0,
+      "to_s": 820.0,
+      "teller": "jesse-michels",
+      "quote": "in fact he had previously written a report commissioned by the government two decades earlier that was highly critical of the famous psychic Yuri Geller",
+      "kind": "host",
+      "cites": [
+        "ray-hyman",
+        "uri-geller"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "cia-memo-popularizing-the-term-conspiracy-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "donald-barr-dalton-school-and-the-novel-space-relations-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ingo-swann-s-reports-to-scientology-on-the-oni-remote-viewin-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mark-felt-s-biography-nixon-shown-covert-technology-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pat-price-remote-views-a-file-inside-a-cia-facility-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roddenberry-s-script-the-nine-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RofQnByLwOo"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Ray Hyman, a researcher who later judged government studies of psychic powers, had earlier written a report for the government that was sharply critical of Uri Geller, a famous performer who claimed psychic abilities. Michels raises it to suggest Hyman came to the question with his mind already made up."
+}

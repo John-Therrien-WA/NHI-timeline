@@ -1,0 +1,79 @@
+{
+  "id": "apollo-11-watched-by-craft-on-the-moon-and-followed-in-trans-1969",
+  "title": "Apollo 11 watched by craft on the moon and followed in transit",
+  "summary": "Steve Coburn tells of Apollo 11 watched by craft on the moon and followed in transit, about 1969 at The Moon, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "moon",
+  "place_text": "Moon; translunar space",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 2867.0,
+      "to_s": 2877.0,
+      "teller": "steve-coburn",
+      "quote": "some whistleblowers at NASA said that um that he was on a private channel after landing on the moon.",
+      "kind": "secondhand",
+      "cites": [
+        "neil-armstrong",
+        "nasa-whistleblowers",
+        "apollo-11-crew"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "apollo-11-crew-observes-a-glowing-aristarchus-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-11-trio-of-lights-frame-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-crew-followed-by-something-to-the-moon-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "buzz-aldrin-s-ufo-sightings-and-james-fox-s-aborted-intervie-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "steve-coburn"
+    ],
+    "episodes": [
+      "iPxbILOMQ08"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A man named Steve Coburn, speaking on a podcast, repeats a story about Apollo 11, the 1969 NASA mission that first put people on the Moon. He says whistleblowers at NASA, the US space agency, claimed astronaut Neil Armstrong talked on a private radio channel after landing, and the story holds that unknown craft watched the crew on the Moon and followed them on the way. If true, the astronauts were not alone up there."
+}

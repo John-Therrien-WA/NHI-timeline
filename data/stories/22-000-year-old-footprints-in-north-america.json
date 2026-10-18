@@ -23,33 +23,52 @@
       "documents": [
         "ancient-apocalypse"
       ]
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4839.0,
+      "to_s": 4856.0,
+      "teller": "graham-hancock",
+      "quote": "And those footprints in New Mexico, 23,000 year-old human footprints in New Mexico, which are interspersed with footprints of mammoths and mastodons and giant sloths and all the extinct megafauna of the Ice Age, they actually have been dated.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Names New Mexico, says 23,000 rather than 22,000 years, and adds the megafauna tracks found among them.",
+      "link_reason": "Both tell of Ice Age human footprints in North America, dated to about 22,000 to 23,000 years ago and shown by Hancock.",
+      "as_told": {
+        "title": "23,000-year-old human footprints in New Mexico",
+        "years": null,
+        "place_text": "New Mexico, USA",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 0.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
-    "researcher": 0,
+    "secondhand": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "graham-hancock"
     ],
     "episodes": [
+      "9PJJiut0Iuw",
       "C_Na1tI5qpw"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 0.25,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that the writer Graham Hancock, on his television series Ancient Apocalypse, shows human footprints in North America said to be about 22,000 years old. Michels raises it because, if the dating holds, people would have been on the continent far earlier than usually thought."
 }

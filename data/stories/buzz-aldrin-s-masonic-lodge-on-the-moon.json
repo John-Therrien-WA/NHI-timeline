@@ -44,6 +44,30 @@
         "place_text": "NASA / the Moon",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 123.0,
+      "to_s": 133.0,
+      "teller": "jesse-michels",
+      "quote": "According to the Masonic Grand Lodge of Ohio, the Apollo 11 mission even established an appendant body of the Masonic Lodge on the moon.",
+      "kind": "host",
+      "cites": [
+        "masonic-grand-lodge-of-ohio",
+        "buzz-aldrin"
+      ],
+      "documents": [],
+      "difference": "Gives the Masonic Grand Lodge of Ohio as its source and mentions a Scottish Rite flag and the Washington Masonic Temple, where the story names a charter from the Grand Lodge of Texas.",
+      "link_reason": "Both tell of Aldrin establishing a Masonic lodge or body on the Moon and planting a Masonic flag.",
+      "as_told": {
+        "title": "Scottish Rite flag and a Masonic lodge body on the moon",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "Moon; Masonic Temple, Washington, D.C.",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -68,7 +92,8 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
-      "LpLFWdsIU7M"
+      "LpLFWdsIU7M",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 0.1,

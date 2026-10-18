@@ -126,37 +126,114 @@
         "place_text": "RIAS, Martin Corporation, Baltimore; Princeton",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2889.0,
+      "to_s": 2900.0,
+      "teller": "louis-witten",
+      "quote": "The reason there was a laboratory at Wright Field was to find out what we were doing and to help us do it. And I got a contract for Wright Field to do it.",
+      "kind": "firsthand",
+      "cites": [
+        "josh-goldberg"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Witten, who says the Wright Field lab existed to help their work, and credits Josh Goldberg.",
+      "link_reason": "The story's tellings already include Witten doing gravity contract work for Wright-Patterson as part of his anti-gravity work for Martin. Here Witten tells it himself.",
+      "as_told": {
+        "title": "Lewis Witten's gravity contract at Wright Field",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Wright Field, Ohio",
+        "story_kind": "program"
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "lewis-witten"
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1744.0,
+      "to_s": 1755.0,
+      "teller": "louis-witten",
+      "quote": "The reason there was a laboratory at Wright Field was to find out what we were doing and to help us do it, and I got a contract for Wright Field to do it.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Witten tells it firsthand and says the Wright Field lab existed to find out what his group was doing and help them do it.",
+      "link_reason": "Louis Witten's gravity contract with Wright Field, which is already told within the story of his 1950s anti-gravity work.",
+      "as_told": {
+        "title": "Witten's Wright Field gravity contract",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Wright Field, Ohio",
+        "story_kind": "program"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 4999.0,
+      "to_s": 5014.0,
+      "teller": "louis-witten",
+      "quote": "The reason there was a laboratory at Wrightfield was to find out what we were doing and to help us do it. And I got a contract from Wrightfield to do it to do [music] gravity which I did very happily.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Firsthand from Witten, who says the Wright Field lab existed to find out what they were doing and help them.",
+      "link_reason": "Same 1950s story of Louis Witten doing gravity research under a Wright Field contract while at Martin; here Witten tells it himself.",
+      "as_told": {
+        "title": "Louis Witten on his Wright Field gravity contract",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Wright Field, Ohio",
+        "story_kind": "program"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 1,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 2,
+    "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "eric-weinstein",
-      "jesse-michels"
+      "louis-witten"
     ],
     "episodes": [
+      "G7Ns4Aq1tVc",
+      "RTEWLSTyUic",
+      "WBTqsbwJyqU",
       "d9tdJ2SkBKQ",
       "iQOibpIDx-4",
       "kRO5jOa06Qw",
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-by-several",
+  "attestation": 1.0,
+  "tier": "told-once",
   "plain": "In the 1950s, the story goes, an American aircraft maker called the Glenn Martin Company hired a physicist named Louis Witten, father of Edward Witten, to do research on anti-gravity, meaning ways to cancel or control gravity. A researcher, Eric Weinstein, says he believes the work was somehow linked to Wright-Patterson, an Air Force base in Ohio, and to Johns Hopkins University in Baltimore. A podcast host, Jesse Michels, states it more firmly: Witten worked in an anti-gravity unit inside Martin's research arm, which they call RIAS, the Research Institute for Advanced Study, and also did gravity contract work for Wright-Patterson. Weinstein likens RIAS to a hidden version of a famous corporate lab and lists well-known scientists who worked there, while Michels adds that a Martin vice-president, George Trimble, drove it and may have worked with the inventor Townsend Brown. If true, it would mean serious money and talent went into anti-gravity research in the 1950s."
 }

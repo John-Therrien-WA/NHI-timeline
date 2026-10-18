@@ -1,0 +1,74 @@
+{
+  "id": "shuruppak-excavation-finds-a-flood-layer-above-the-city-1931",
+  "title": "Shuruppak excavation finds a flood layer above the city",
+  "summary": "Matt tells of Shuruppak excavation finds a flood layer above the city, about 1931 at Shuruppak (Tell Fara), Iraq, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1931,
+    "to": 1931
+  },
+  "place": null,
+  "place_text": "Shuruppak (Tell Fara), Iraq",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 7859.0,
+      "to_s": 7868.0,
+      "teller": "matt",
+      "quote": "they have of course right on top of it is this 4 foot aluvial flood layer sitting on top of it",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "penn-museum-excavation-report-on-shuruppak"
+      ]
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 8108.0,
+      "to_s": 8115.0,
+      "teller": "matt",
+      "quote": "yes the old like the oldest cities on Earth wow and it was sealed and buried and concealed by the flood",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Calls Shuruppak one of the oldest cities on Earth and does not mention the 1931 excavation report.",
+      "link_reason": "Both this and telling 3 describe Shuruppak as a city sealed and buried under the flood layer.",
+      "as_told": {
+        "title": "Shuruppak as oldest city sealed by the flood",
+        "years": null,
+        "place_text": "Shuruppak, Mesopotamia",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matt"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Matt, on Jesse Michels's podcast, talks about Shuruppak, an ancient city in what is now Iraq. Citing a 1931 dig report from the Penn Museum, the University of Pennsylvania's archaeology museum, he says a layer of flood mud about four feet thick sits right on top of the city, which he calls one of the oldest on Earth, sealed and buried by the flood. He tells it as evidence that a great flood of the kind in ancient stories really struck."
+}

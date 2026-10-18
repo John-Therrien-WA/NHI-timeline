@@ -1,0 +1,81 @@
+{
+  "id": "kirkpatrick-leaves-aaro-for-oak-ridge-2023",
+  "title": "Kirkpatrick leaves AARO for Oak Ridge",
+  "summary": "UAPGerb tells of Kirkpatrick leaves AARO for Oak Ridge, about 2023-2024 at Oak Ridge National Laboratory, Tennessee, and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2023,
+    "to": 2024
+  },
+  "place": null,
+  "place_text": "Oak Ridge National Laboratory, Tennessee",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 4125.0,
+      "to_s": 4131.0,
+      "teller": "uapgerb",
+      "quote": "And then of course when Sean Kirkpatrick left Arrow, he ran off to Oak Ridge which go look at the FFRDC's connections there.",
+      "kind": "researcher",
+      "cites": [
+        "sean-kirkpatrick"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 4188.0,
+      "to_s": 4201.0,
+      "teller": "kirk-mcconnell",
+      "quote": "The contract was let through Oakidge and then when Shawn retired from the government. Um he is working with and for Oakidge under contract now.",
+      "kind": "firsthand",
+      "cites": [
+        "sean-kirkpatrick"
+      ],
+      "documents": [],
+      "difference": "Adds that the AARO advisory-group contract was placed through Oak Ridge and that Kirkpatrick now works there under contract.",
+      "link_reason": "Both tell of Kirkpatrick going to work for Oak Ridge after he left AARO and government.",
+      "as_told": {
+        "title": "Kirkpatrick's AARO advisory group and contract work with Oak Ridge",
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "place_text": "Oak Ridge National Laboratory",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "kirk-mcconnell",
+      "uapgerb"
+    ],
+    "episodes": [
+      "KGD1nuM4MR8",
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested",
+  "plain": "This is about Sean Kirkpatrick, the first head of AARO, a Pentagon office set up to look into unidentified flying objects, which the government calls UAP. According to an online researcher who goes by UAPGerb, when Kirkpatrick left AARO he went to Oak Ridge National Laboratory, a US government research lab in Tennessee. UAPGerb urges people to look at Oak Ridge's links to FFRDCs, which are research centres paid for by the government but run by outside organisations. A former US Senate staffer, Kirk McConnell, tells a fuller version. He says a contract for an advisory group working with AARO was placed through Oak Ridge. He says that after Kirkpatrick retired from government, he went to work with and for Oak Ridge under contract. To those who tell it, this hints that the official UFO office and the big government labs are closely tied."
+}

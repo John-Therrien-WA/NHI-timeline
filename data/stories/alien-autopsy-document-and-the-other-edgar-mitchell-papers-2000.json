@@ -1,0 +1,74 @@
+{
+  "id": "alien-autopsy-document-and-the-other-edgar-mitchell-papers-2000",
+  "title": "Alien autopsy document and the other Edgar Mitchell papers",
+  "summary": "Grant Cameron tells of Alien autopsy document and the other Edgar Mitchell papers, about 2000s at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2009
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 4678.0,
+      "to_s": 4683.0,
+      "teller": "grant-cameron",
+      "quote": "And then he sent me the alien autopsy document and that had Kit Green",
+      "kind": "firsthand",
+      "cites": [
+        "james-rigney",
+        "kit-green",
+        "edgar-mitchell",
+        "charles-lindbergh"
+      ],
+      "documents": [
+        "alien-autopsy-document",
+        "lindbergh-condolence-letter",
+        "nids-meetings-document"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "army-research-laboratory-finds-lifter-thrust-exceeds-ion-flo-2000",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "eric-davis-s-notes-from-the-advanced-physics-theoretical-wor-2000",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "grant-cameron"
+    ],
+    "episodes": [
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 1.75,
+  "tier": "told-once",
+  "plain": "A UFO researcher named Grant Cameron says that in the 2000s he was sent a set of papers connected to Edgar Mitchell, the Apollo astronaut, including a document about an alien autopsy that mentioned a man named Kit Green. He says the papers, which he links to a man named James Rigney, also included a condolence letter tied to the aviator Charles Lindbergh and a record of meetings of NIDS, a private group that studied strange phenomena. If genuine, the papers would suggest that well-known figures were quietly handling material about non-human bodies."
+}

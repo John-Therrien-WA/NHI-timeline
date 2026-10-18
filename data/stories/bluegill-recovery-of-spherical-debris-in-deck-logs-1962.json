@@ -127,6 +127,10 @@
         },
         "place_text": "Pacific Ocean",
         "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "episode": "KGD1nuM4MR8",
+        "from_s": 4816.0
       }
     },
     {
@@ -308,6 +312,82 @@
         "place_text": "Johnston Island area, Pacific",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 4630.0,
+      "to_s": 4640.0,
+      "teller": "kirk-mcconnell",
+      "quote": "he was contacted by uh by a famous CIA uh officer, Richard Bissell, number two in the CIA deputy director.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-mangren",
+        "richard-bissell",
+        "robert-mcnamara",
+        "jeff-cruickshank"
+      ],
+      "documents": [],
+      "difference": "Says Bissell, as CIA deputy director, was the one who contacted Malmgren, and also credits McNamara and Cruickshank.",
+      "link_reason": "Both tell Malmgren's account of being told about the Bluegill Triple Prime shoot-down and recovery, here through the Bissell briefing.",
+      "as_told": {
+        "title": "Bissell briefs Mangren on the 1962 Bluegill Triple Prime test",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Johnston Island, Pacific; Washington, D.C.",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 4812.0,
+      "to_s": 4831.0,
+      "teller": "jesse-michels",
+      "quote": "what uh what uh\nMongrren reported\nthat he'd been told directly by Bissell\nis that we downed a UFO that was\nmonitoring closely monitoring that test\nand it tumbled into the ocean and that\nthe Navy picked it up.",
+      "kind": "host",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": [],
+      "difference": "Names Bissell as Malmgren's direct source and says the object was closely monitoring the test.",
+      "link_reason": "Both tell Malmgren's claim that a UFO was downed at Bluegill Triple Prime and recovered by the Navy.",
+      "as_told": {
+        "title": "Bissell told Malmgren a UFO was downed at the nuclear test and recovered by the Navy",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Near Johnston Atoll, Pacific Ocean",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 4864.0,
+      "to_s": 4880.0,
+      "teller": "kirk-mcconnell",
+      "quote": "part of\nthose uh the information in those ships\nlogs is that they picked up some highly\nradioactive debris. One was described as\na black sphere. Another was described as\na green tube",
+      "kind": "researcher",
+      "cites": [
+        "harold-malmgren",
+        "richard-bissell"
+      ],
+      "documents": [
+        "declassified-navy-ship-logs"
+      ],
+      "difference": "Describes the debris as highly radioactive and names a black sphere and a green tube.",
+      "link_reason": "Both tell of the Bluegill recovery being recorded in Navy ship logs that mention unusual debris.",
+      "as_told": {
+        "title": "Navy ship logs record radioactive black sphere and green tube recovered",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Near Johnston Atoll, Pacific Ocean",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -341,6 +421,7 @@
     "episodes": [
       "09KP8XVf5nY",
       "9QMrhcpJq8I",
+      "KGD1nuM4MR8",
       "V00WcEiKRAY",
       "dnnpyNuPdXs",
       "fzvwBBSmWYA",

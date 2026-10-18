@@ -27,6 +27,31 @@
       "documents": [
         "von-neumann-paper-unnamed"
       ]
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 6000.0,
+      "to_s": 6008.0,
+      "teller": "greg-bishop",
+      "quote": "I don't know either. I like that Whitley Strieber quote where he said the government was keeping it secret because if enough people believed in it would it allow it in.",
+      "kind": "researcher",
+      "cites": [
+        "whitley-strieber"
+      ],
+      "documents": [
+        "majestic"
+      ],
+      "difference": "Bishop retells it from Strieber as the reason the government kept things secret, tied to Majestic, and names neither Exon nor von Neumann's paper.",
+      "link_reason": "Strieber's idea that the presence enters our reality only if enough people believe in it is the same idea as the story's von Neumann paper, here given as the government's reason for secrecy.",
+      "as_told": {
+        "title": "Strieber's Majestic: secrecy because belief would let it in",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -69,6 +94,41 @@
       "story": "cia-documents-describing-flat-mirror-like-objects-1950",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "1950s-gravity-research-by-bryce-dewitt-deser-and-arnowitt",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "4602nd-monthly-report-s-ufo-b-section-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "4602nd-squadron-history-on-reassuring-the-public-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "menzel-s-name-in-the-majestic-12-documents-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "smith-propulsion-paper-sent-to-vannevar-bush-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "townsend-s-repelling-bismuth-raised-at-martin-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "triangle-and-gravity-control-patents-that-cite-1950s-air-for",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -84,14 +144,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "whitley-strieber"
     ],
     "episodes": [
-      "ABOP8ZJsyIk"
+      "ABOP8ZJsyIk",
+      "WBTqsbwJyqU"
     ]
   },
   "attestation": 0.75,

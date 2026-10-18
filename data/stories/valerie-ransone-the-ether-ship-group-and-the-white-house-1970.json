@@ -26,6 +26,30 @@
         "andrija-puharich"
       ],
       "documents": []
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 434.0,
+      "to_s": 444.0,
+      "teller": "jesse-michels",
+      "quote": "the group was contacted by Valerie Ransone, who is an intelligence operative during the Nixon years, connected at the highest levels of government.",
+      "kind": "host",
+      "cites": [
+        "valerie-ransone",
+        "jacques-vallee"
+      ],
+      "documents": [],
+      "difference": "Says she contacted the group, puts her as an intelligence operative in the Nixon years, and credits Vallee.",
+      "link_reason": "Both tie Valerie Ransone, a government insider, to the Ether Ship group in the 1970s.",
+      "as_told": {
+        "title": "Ethership contacted by intelligence operative Valerie Ransone",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "USA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -49,6 +73,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "ScE9FaDy-mE",
       "lcaY-rd9Dhc"
     ]
   },

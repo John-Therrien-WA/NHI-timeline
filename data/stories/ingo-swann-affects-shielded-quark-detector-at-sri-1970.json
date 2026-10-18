@@ -24,9 +24,39 @@
         "ingo-swann"
       ],
       "documents": []
+    },
+    {
+      "episode": "eQIMantuasQ",
+      "from_s": 338.0,
+      "to_s": 347.0,
+      "teller": "jesse-michels",
+      "quote": "In 1972, laser physicist Hal Puthoff was doing experiments with New York City-based psychic Ingo Swann.",
+      "kind": "host",
+      "cites": [
+        "hal-puthoff",
+        "ingo-swann"
+      ],
+      "documents": [],
+      "difference": "Told by the host rather than by Puthoff firsthand. Dates it to 1972 and calls Swann New York City-based.",
+      "link_reason": "Both describe Ingo Swann affecting a shielded detector in Hal Puthoff's early-1970s experiments.",
+      "as_told": {
+        "title": "Ingo Swann remote views a shielded detector for Hal Puthoff",
+        "years": {
+          "from": 1972,
+          "to": 1972
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "ingo-swann-affects-a-thermistor-in-a-faraday-cage-1970",
+      "relation": "variant",
+      "note": "The same early-1970s SRI test of Swann affecting a shielded device with Puthoff, but here the device is a thermistor in a Faraday cage rather than a shielded quark detector."
+    }
+  ],
   "tags": [],
   "score": 2.0,
   "profile": {
@@ -40,13 +70,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "hal-puthoff"
     ],
     "episodes": [
+      "eQIMantuasQ",
       "iQOibpIDx-4"
     ]
   },

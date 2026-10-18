@@ -7,7 +7,7 @@
     "from": 1990,
     "to": 2009
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Lockheed Martin",
   "coordinates": null,
   "kind": "testimony",
@@ -25,33 +25,63 @@
         "george-trimble"
       ],
       "documents": []
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 565.0,
+      "to_s": 572.0,
+      "teller": "nick-cook",
+      "quote": "Trimble didn't want to speak to me, and he was really quite spooked at the idea of speaking to me.",
+      "kind": "firsthand",
+      "cites": [
+        "george-trimble"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Cook rather than by the host, and names Martin Corporation alongside Lockheed.",
+      "link_reason": "The same event: the frightened, elderly George Trimble refused to talk to Nick Cook through Lockheed Martin.",
+      "as_told": {
+        "title": "George Trimble refuses to be interviewed",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Lockheed / Martin Corporation, USA",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "van-flandern-and-harrington-both-die-of-throat-cancer-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.2,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 1,
+    "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "journalist",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "nick-cook"
     ],
     "episodes": [
+      "G7Ns4Aq1tVc",
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that an aviation journalist named Nick Cook tried to meet George Trimble, a long-retired aerospace man then in his eighties, through a friend at Lockheed Martin, a large American aerospace and defence company. According to Michels, Trimble seemed scared and turned Cook away. The story is told because it would suggest that secret work in the aerospace industry still frightened the old men who knew about it."
 }

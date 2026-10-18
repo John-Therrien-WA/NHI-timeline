@@ -45,6 +45,26 @@
         "place_text": "Giza, Egypt",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 3971.0,
+      "to_s": 3984.0,
+      "teller": "jesse-michels",
+      "quote": "is you talk to you know Graham Hancock and he says that he says adamantly he's like the pyramids were not just a tomb they were you know something else and you know maybe like some sort of like celestial ascent chamber portal thing.",
+      "kind": "secondhand",
+      "cites": [
+        "graham-hancock"
+      ],
+      "documents": [],
+      "difference": "Calls it a 'celestial ascent chamber' where the story's tellings say Stargate or portal, and speaks of the pyramids in the plural.",
+      "link_reason": "Both tellings carry Hancock's claim, relayed by Jesse Michels, that the pyramid was not a tomb but a portal-like device.",
+      "as_told": {
+        "title": "Graham Hancock: the pyramids were not just tombs but a celestial ascent chamber",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -74,6 +94,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "92XrddiKjHY",
       "C_Na1tI5qpw",
       "JGE1NIGhBzw"
     ]

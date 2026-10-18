@@ -93,6 +93,29 @@
         "place_text": "US Congress",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 58.0,
+      "to_s": 73.0,
+      "teller": "jesse-michels",
+      "quote": "In 2023, when David Grush testified under oath before Congress, he explained to the world and to our system of government a host of staggering revelations. The military has an alien craft retrieval program.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Adds that he revealed the military has an alien craft retrieval program.",
+      "link_reason": "Both are Grusch's 2023 sworn testimony before Congress, framed by the host.",
+      "as_told": {
+        "title": "David Grusch testimony to Congress",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "US Congress, Washington DC",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -175,6 +198,36 @@
       "story": "corbell-fought-for-grusch-to-testify-in-congress-2023",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ed-gets-cold-feet-before-ssci-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "graves-s-congressional-uap-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-testimony-prompts-rogers-to-come-forward-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "harrington-s-contact-with-david-grusch-and-his-view-of-grusc-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "herrera-testifies-at-greer-s-2023-national-press-club-event",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "scif-meeting-with-congressional-staffers-on-march-3-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -200,6 +253,7 @@
     "episodes": [
       "1f16VvXaSSE",
       "TH10mD9hQas",
+      "TNtlzEnl8rA",
       "bVhSPH2A5Vw",
       "kRO5jOa06Qw"
     ]

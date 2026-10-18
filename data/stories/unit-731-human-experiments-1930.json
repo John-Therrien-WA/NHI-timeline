@@ -1,0 +1,56 @@
+{
+  "id": "unit-731-human-experiments-1930",
+  "title": "Unit 731 human experiments",
+  "summary": "Jesse Michels tells of Unit 731 human experiments, about 1930s-1945 at Manchuria, China, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1930,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Manchuria, China",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 361.0,
+      "to_s": 375.0,
+      "teller": "jesse-michels",
+      "quote": "Unit 731, a secret biological and chemical warfare research and development program under the Imperial Japanese Army, was established in Manuria under the command of General Shiro Ishi.",
+      "kind": "host",
+      "cites": [
+        "shiro-ishii"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "q7Czo77qhHA"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells of Unit 731, which he describes as a secret biological and chemical warfare research programme run by the Imperial Japanese Army. He says it was set up in Manchuria, in northeast China, under a general named Shiro Ishii, and ran from the 1930s until 1945. He brings it up in an episode about human experiments, as an example of how far governments have gone in testing on people."
+}

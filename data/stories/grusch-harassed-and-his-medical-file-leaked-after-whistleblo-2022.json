@@ -47,6 +47,52 @@
         "place_text": "Afghanistan; United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 2947.0,
+      "to_s": 2962.0,
+      "teller": "kirk-mcconnell",
+      "quote": "but, uh you know, Dave uh Dave had a hard go of it and some of the the things that have happened to him are not uh even in the public domain.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Gives no specifics and says some of what happened to him has never been made public.",
+      "link_reason": "Both tell of the retaliation and harassment Grusch suffered after he came forward.",
+      "as_told": {
+        "title": "Retribution against Grusch",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 5868.0,
+      "to_s": 5878.0,
+      "teller": "kirk-mcconnell",
+      "quote": "for you. Now, you know, Dave Grush might\nsay, you know, what about me? Uh cuz\nthey went after him even when he went\npublic as a result of him going public.",
+      "kind": "researcher",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Ties the targeting to his going public, not to the complaint, and gives no detail of harassment or the leaked file.",
+      "link_reason": "Both tell of Grusch being harassed and targeted as a result of his whistleblowing.",
+      "as_told": {
+        "title": "Grusch targeted after going public",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -54,17 +100,32 @@
       "story": "grusch-reprisals-at-the-nga-2020",
       "relation": "variant",
       "note": "Both are about the reprisals David Grusch says he suffered in government, but this telling puts them at the NGA, where the story puts the harasser at the NRO."
+    },
+    {
+      "story": "hedge-fund-recruits-memory-champion-nelson-dellis-to-remote-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "interview-with-google-engineer-who-believed-lamda-was-sentie-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "suppressed-childhood-memories-resurface-as-ptsd-flashbacks-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 3,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -74,14 +135,16 @@
     "strongest_kind": "secondhand",
     "tellers": [
       "eric-davis",
-      "jeremy-corbell"
+      "jeremy-corbell",
+      "kirk-mcconnell"
     ],
     "episodes": [
       "-XdvIrexF08",
+      "KGD1nuM4MR8",
       "LnAiNChnuEQ"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.5,
   "tier": "told-by-several",
   "plain": "A physicist, Eric Davis, says that after David Grusch, a former intelligence officer, filed a whistleblower complaint about secret UFO programs, Grusch and his wife were harassed and intimidated by someone in the National Reconnaissance Office, the US agency that runs spy satellites. The story also holds that his medical file was leaked. A filmmaker, Jeremy Corbell, speaking for Grusch, says the diagnosis in it was post-traumatic stress from combat in Afghanistan in 2013. If true, it would mean officials punished a man for speaking up."
 }

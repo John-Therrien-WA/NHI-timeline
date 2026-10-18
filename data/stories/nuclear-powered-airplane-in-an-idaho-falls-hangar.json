@@ -1,0 +1,66 @@
+{
+  "id": "nuclear-powered-airplane-in-an-idaho-falls-hangar",
+  "title": "Nuclear-powered airplane in an Idaho Falls hangar",
+  "summary": "John Harrington tells of Nuclear-powered airplane in an Idaho Falls hangar, about decades ago at Idaho Falls, Idaho, and reads it from an official document. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Idaho Falls, Idaho",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 332.0,
+      "to_s": 344.0,
+      "teller": "john-harrington",
+      "quote": ">> Jesse, this goes back decades. If I told you there is an airplane powered by nuclear power sitting in a hanger in Idaho Falls, would you believe me?",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 4290.0,
+      "to_s": 4300.0,
+      "teller": "john-herrington",
+      "quote": "there is an airplane powered by nuclear power sitting in a hanger in Idaho Falls. Would you believe me?",
+      "kind": "official",
+      "cites": [
+        "howard-hughes"
+      ],
+      "documents": [],
+      "difference": "Credits Howard Hughes, and leaves out 'this goes back decades'.",
+      "link_reason": "The same remark by the same official about a nuclear-powered airplane sitting in a hangar in Idaho Falls."
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 2,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "john-harrington",
+      "john-herrington"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "John Herrington, a former US Secretary of Energy, which is the cabinet member who runs the government's energy and nuclear work, spoke with the podcast host Jesse Michels. He told Michels the story goes back decades. Then he asked whether Michels would believe him if he said an airplane powered by nuclear energy is sitting in a hangar in Idaho Falls, Idaho. If true, it would mean a secret aircraft of that kind was built and then hidden away. He makes the point twice in the same conversation. The second time he links it to Howard Hughes, the famous American aviator and businessman, and does not say how long ago it was."
+}

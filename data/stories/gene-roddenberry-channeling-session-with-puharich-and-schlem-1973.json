@@ -28,33 +28,60 @@
       "documents": [
         "puharich-archive-tape-of-roddenberry-session"
       ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 813.0,
+      "to_s": 821.0,
+      "teller": "jesse-michels",
+      "quote": "the the Gene Rodenberry was inspired by this woman named uh Phyllis Schl",
+      "kind": "host",
+      "cites": [
+        "gene-rodenberry",
+        "phyllis-schlemmer",
+        "eg-g"
+      ],
+      "documents": [],
+      "difference": "Claims Star Trek was inspired by the channelling and credits EG&G, but does not mention the session with Puharich.",
+      "link_reason": "Both link Gene Roddenberry to Phyllis Schlemmer's channelling in the 1970s.",
+      "as_told": {
+        "title": "Star Trek inspired by Phyllis Schlemmer's channelling",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "greg"
+      "greg",
+      "jesse-michels"
     ],
     "episodes": [
-      "2-GeTxXi670"
+      "2-GeTxXi670",
+      "nTiFs8LudUo"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "well-attested",
   "plain": "A researcher called Greg, on Jesse Michels' podcast, describes a session held in Ossining, New York, in the mid-1970s. He says the television producer Gene Roddenberry sat with the researcher Andrija Puharich while a woman named Phyllis Schlemmer acted as the channel, a person who says she speaks messages from other beings. Greg points to a tape of the session kept in Puharich's archive, and the story matters to him because it would put a famous storyteller in the room with people who believed they were talking to non-human minds."
 }

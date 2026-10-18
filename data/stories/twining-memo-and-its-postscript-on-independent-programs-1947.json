@@ -150,6 +150,131 @@
         "place_text": "US Air Force",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 775.0,
+      "to_s": 787.0,
+      "teller": "jesse-michels",
+      "quote": "In 1947, General Nathan Twining, he's the head of the Air Material Command, responsible for all aircraft development in the Air Force, writes a a famous memo called the Twining memo.",
+      "kind": "host",
+      "cites": [
+        "nathan-twining"
+      ],
+      "documents": [
+        "twining-memo"
+      ],
+      "difference": "Names Air Materiel Command explicitly as Twining's post.",
+      "link_reason": "The same 1947 Twining memo, written by the head of Air Materiel Command about flying discs.",
+      "as_told": {
+        "title": "Twining memo on flying discs",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Air Materiel Command, USA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1781.0,
+      "to_s": 1786.0,
+      "teller": "jesse-michels",
+      "quote": "and he writes in 1947 he says UFOs are\nreal they're not Visionary or fictitious",
+      "kind": "host",
+      "cites": [
+        "nathan-twining"
+      ],
+      "documents": [
+        "twining-memo"
+      ],
+      "difference": "",
+      "link_reason": "Same 1947 Twining memo stating UFOs are real, not visionary or fictitious.",
+      "as_told": {
+        "title": "Twining memo",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 3311.0,
+      "to_s": 3316.0,
+      "teller": "jesse-michels",
+      "quote": "they're they're, you know, uh, real and not visionary or fictitious.",
+      "kind": "host",
+      "cites": [
+        "twining"
+      ],
+      "documents": [
+        "twining-memo"
+      ],
+      "difference": "Places it at Air Materiel Command.",
+      "link_reason": "Same 1947 Twining memo saying UFOs are real and not visionary or fictitious.",
+      "as_told": {
+        "title": "Twining memo calls UFOs real",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Air Materiel Command, United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 5802.0,
+      "to_s": 5809.0,
+      "teller": "bryce-zabel",
+      "quote": "Twining is famous for saying the phenomenon reported is neither uh visionary nor fictitious.",
+      "kind": "researcher",
+      "cites": [
+        "nathan-twining"
+      ],
+      "documents": [
+        "twining-memo"
+      ],
+      "difference": "Told by Bryce Zabel rather than the host, and quotes only the famous line.",
+      "link_reason": "Twining's line that the phenomenon is 'neither visionary nor fictitious' is the same 1947 memo already told in the Twining memo story.",
+      "as_told": {
+        "title": "Twining's 'neither visionary nor fictitious' quote",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "USA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 1788.0,
+      "to_s": 1793.0,
+      "teller": "jesse-michels",
+      "quote": "Kenneth Arnold months earlier, he wrote the famous Twining memo on UFOs in 1947.",
+      "kind": "host",
+      "cites": [
+        "nathan-twining"
+      ],
+      "documents": [
+        "twining-memo"
+      ],
+      "difference": "Places the memo a few months after the Kenneth Arnold sighting.",
+      "link_reason": "Both are about Nathan Twining's famous 1947 memo on UFOs.",
+      "as_told": {
+        "title": "Twining memo",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "USA",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -157,18 +282,28 @@
       "story": "hoover-handwritten-note-army-grabbed-recovered-disc-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nathan-twining-reference-in-disclosure-day-with-the-twining-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "walker-letter-worked-on-defense-policy-with-vannevar-bush-in-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 1,
     "documents": 0,
     "credited_documents": 2,
@@ -176,19 +311,25 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "bryce-zabel",
       "jesse-michels",
       "merrick"
     ],
     "episodes": [
       "-0g3lLGxNfc",
       "1iaH1a3A4Lk",
+      "5udx_SDdL3Y",
       "A2-y_HasHEw",
+      "G7Ns4Aq1tVc",
+      "GQlWf54K_7Y",
       "IWui5cBkwoE",
+      "ScE9FaDy-mE",
       "h0hAit-KH9A",
-      "kRO5jOa06Qw"
+      "kRO5jOa06Qw",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.1,
   "tier": "well-attested",
   "plain": "In 1947, after many UFO sightings across the United States, a senior Air Force general named Nathan Twining wrote a letter that is now known as the Twining memo. Podcast host Jesse Michels describes Twining as the head of all aircraft development for the Air Force and places the letter at Air Materiel Command, the branch that handled aircraft development and testing. Michels says Twining sent it to Brigadier General George Schulgen. In Michels's words, the memo said the objects were real, \"neither visionary nor fictitious\", meaning not imagined and not made up. He tells the story on several episodes and in one ties it to an observation program in Alaska. A guest named Merrick adds that Twining later became chairman of the Joint Chiefs of Staff, the top military advisers to the president, and that the memo listed the features of the objects. The story's title also points to a closing note in the memo about separate, independent programs, though the tellings here do not spell it out. It matters to the tellers because, if true, it shows a top general treating UFOs as real from the very start."
 }

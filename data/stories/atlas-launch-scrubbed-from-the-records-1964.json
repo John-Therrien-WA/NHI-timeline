@@ -1,0 +1,67 @@
+{
+  "id": "atlas-launch-scrubbed-from-the-records-1964",
+  "title": "Atlas launch scrubbed from the records",
+  "summary": "Bob Jacobs tells of Atlas launch scrubbed from the records, about September 1964 at Vandenberg Space Force Base, California, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "vandenberg-ca",
+  "place_text": "Vandenberg Air Force Base, California",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Qe8br8yYEDM",
+      "from_s": 1383.0,
+      "to_s": 1394.0,
+      "teller": "bob-jacobs",
+      "quote": "There was no Atlas launch that day. Well, goddamn well there was because Robert found the found the files from Vanderberg using that particular that particular launch in detail.",
+      "kind": "firsthand",
+      "cites": [
+        "robert"
+      ],
+      "documents": [
+        "vandenberg-launch-files"
+      ],
+      "replay_of": {
+        "outside": true
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "host-has-seen-jacobs-dd214-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-jacobs"
+    ],
+    "episodes": [
+      "Qe8br8yYEDM"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "A man named Bob Jacobs says that in September 1964 an Atlas rocket was launched from Vandenberg Air Force Base in California, even though the official line was that there was no launch that day. According to Jacobs, a man named Robert later found Vandenberg's files describing that very launch in detail, which, if true, would mean the launch was quietly scrubbed from the record."
+}

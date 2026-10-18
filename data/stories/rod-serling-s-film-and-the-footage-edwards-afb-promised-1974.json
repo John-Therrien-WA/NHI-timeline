@@ -1,0 +1,66 @@
+{
+  "id": "rod-serling-s-film-and-the-footage-edwards-afb-promised-1974",
+  "title": "Rod Serling's film and the footage Edwards AFB promised",
+  "summary": "Jesse Michels tells of Rod Serling's film and the footage Edwards AFB promised, about 1974 at Edwards Air Force Base, California, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1974,
+    "to": 1974
+  },
+  "place": null,
+  "place_text": "Edwards Air Force Base, California",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5867.0,
+      "to_s": 5883.0,
+      "teller": "jesse-michels",
+      "quote": "crazy, but um Rod Serling, who happens to be my dad's godfather, and and he made UFOs past, present, and future. So, I think Edwards Air Force Base reaches out to him and like promises him like footage of the UFO.",
+      "kind": "host",
+      "cites": [
+        "rod-serling",
+        "jacques-vallee",
+        "j-allen-hynek"
+      ],
+      "documents": [
+        "ufos-past-present-and-future"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "ufos-past-present-and-future-and-the-holloman-afb-contact-1972",
+      "relation": "variant",
+      "note": "It is the same Serling film, UFOs: Past, Present, and Future, and the same claim that a military base offered UFO footage, but this telling names Edwards AFB, where the story names Holloman AFB."
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Rod Serling, a writer he describes as his own father's godfather, made a film called UFOs Past, Present and Future around 1974. Michels says he thinks Edwards Air Force Base, a US military base in California, reached out to Serling and promised him footage of a UFO, which would mean the military was ready to show the public real evidence."
+}

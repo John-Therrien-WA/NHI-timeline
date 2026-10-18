@@ -1,0 +1,53 @@
+{
+  "id": "sphinx-enclosure-filled-in-and-excavated-by-thutmose-iv-used",
+  "title": "Sphinx enclosure filled in and excavated by Thutmose IV, used to argue for an older Sphinx",
+  "summary": "Luke Caverns tells of Sphinx enclosure filled in and excavated by Thutmose IV, used to argue for an older Sphinx, about c. 2500 BC carving; Thutmose IV c. 1400 BC at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Giza, Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 3913.0,
+      "to_s": 3927.0,
+      "teller": "luke-caverns",
+      "quote": "No, that's totally ignoring the fact that a thousand years later, Tutmos IV says it was covered, says it had filled in and he had to excavate all of it and clean out the Sphinx enclosure to become the pharaoh.",
+      "kind": "researcher",
+      "cites": [
+        "thutmose-iv"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher of ancient Egypt, Luke Caverns, says on Jesse Michels' podcast that the Sphinx is older than the usual story allows. He says that roughly a thousand years after it was supposedly carved, the pharaoh Thutmose IV recorded that the pit around the Sphinx had filled in with sand and that he had to dig it all out and clean it before he could become pharaoh. For Caverns, that long burial is a sign the monument had already been there a very long time."
+}

@@ -22,33 +22,56 @@
         "joe-rogan"
       ],
       "documents": []
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4571.0,
+      "to_s": 4576.0,
+      "teller": "graham-hancock",
+      "quote": "I get that the ring structure resembles how Plato described Atlantis.",
+      "kind": "researcher",
+      "cites": [
+        "jimmy-corsetti",
+        "plato"
+      ],
+      "documents": [],
+      "difference": "Told by Graham Hancock, who grants the ring resembles Plato's description but goes on to qualify the claim.",
+      "link_reason": "Both tell the theory that the Richat Structure in Mauritania was Plato's Atlantis, credited to Jimmy Corsetti.",
+      "as_told": {
+        "title": "Richat Structure as Plato's Atlantis",
+        "years": null,
+        "place_text": "Richat Structure (Eye of the Sahara), Mauritania",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "graham-hancock",
       "jesse-michels"
     ],
     "episodes": [
+      "9PJJiut0Iuw",
       "JGE1NIGhBzw"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, mentions a theory put forward by a man named Jimmy Corsetti, apparently on the show of another podcast host, Joe Rogan. According to Michels, Corsetti suggested that Atlantis, the legendary sunken civilization, may have been located at the Richat Structure, a huge ring-shaped landform in the desert of Mauritania in West Africa. If true, it would place a lost advanced civilization at a real spot on the map."
 }

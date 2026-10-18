@@ -1,0 +1,54 @@
+{
+  "id": "explorer-1-launched-on-imbolc-1958",
+  "title": "Explorer 1 launched on Imbolc",
+  "summary": "Jesse Michels tells of Explorer 1 launched on Imbolc, about 1958 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1958,
+    "to": 1958
+  },
+  "place": "united-states",
+  "place_text": "United States (JPL)",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 2770.0,
+      "to_s": 2781.0,
+      "teller": "jesse-michels",
+      "quote": "Over 20 years later, Explorer 1, the first US satellite built by JPL, was launched on January 31st, 1958.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, points out that Explorer 1, the first American satellite, built by the Jet Propulsion Laboratory, a NASA space lab, was launched on January 31st, 1958. He links the date to Imbolc, an old pagan festival at the start of February, as part of his idea that the space programme timed things to match ancient rituals."
+}

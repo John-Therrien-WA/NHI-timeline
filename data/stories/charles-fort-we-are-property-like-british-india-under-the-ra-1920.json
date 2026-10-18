@@ -24,33 +24,60 @@
         "charles-fort"
       ],
       "documents": []
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 3762.0,
+      "to_s": 3769.0,
+      "teller": "salvatore-pais",
+      "quote": "It's I believe we are property dot dot dot. Read that book.",
+      "kind": "researcher",
+      "cites": [
+        "charles-fort"
+      ],
+      "documents": [
+        "the-book-of-the-damned"
+      ],
+      "difference": "Names The Book of the Damned (1919) as the source and gives no British Raj analogy.",
+      "link_reason": "Both tell Charles Fort's claim that we are property; this teller cites the book where Fort made it.",
+      "as_told": {
+        "title": "Charles Fort's Book of the Damned: we are property",
+        "years": {
+          "from": 1919,
+          "to": 1919
+        },
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "jason-jorjani"
+      "jason-jorjani",
+      "salvatore-pais"
     ],
     "episodes": [
+      "8TYMQOUDQBo",
       "EzPmG_7WhXc"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.75,
+  "tier": "well-attested",
   "plain": "Jason Jorjani, a philosopher, said on Jesse Michels's podcast that the first person to think this way about UFOs was Charles Fort, a writer who collected reports of strange events, back in the 1920s. The idea Jorjani credits to Fort is that humans are property, owned by someone else the way Britain ruled India, which would mean we are being managed by beings we cannot see."
 }

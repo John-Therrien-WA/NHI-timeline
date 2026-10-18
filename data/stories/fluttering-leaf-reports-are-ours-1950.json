@@ -1,0 +1,82 @@
+{
+  "id": "fluttering-leaf-reports-are-ours-1950",
+  "title": "Fluttering leaf reports are ours",
+  "summary": "Jan Lundquist tells of Fluttering leaf reports are ours, about 1950s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4224.0,
+      "to_s": 4236.0,
+      "teller": "jan-lundquist",
+      "quote": "you get information on UFOs, but he told Linda to filter out the ones where they describe a motion like a fluttering leaf, and those are ours, he said.",
+      "kind": "secondhand",
+      "cites": [
+        "linda-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "brown-meets-teller-and-lemay-driven-by-sarbacher-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "desmond-leslie-said-nazis-posed-as-venusians-for-adamski-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "robert-sarbacher-and-ufo-secrecy-through-the-atomic-energy-a-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sarbacher-said-von-neumann-was-directly-involved-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "truman-interview-ufos-discussed-at-every-military-conference-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jan-lundquist"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "In a documentary about a scientist named Townsend Brown, a woman named Jan Lundquist recalls that Linda Brown, who received UFO reports in the 1950s, was told to filter out the ones describing a motion like a fluttering leaf, because, he said, 'those are ours.' If true, it would mean some of the craft people reported as UFOs were secret American aircraft."
+}

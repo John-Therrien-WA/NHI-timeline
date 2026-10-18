@@ -1,0 +1,62 @@
+{
+  "id": "stargate-files-declassified-2017",
+  "title": "Stargate files declassified",
+  "summary": "Jesse Michels tells of Stargate files declassified, about 2017 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2017,
+    "to": 2017
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "eQIMantuasQ",
+      "from_s": 1353.0,
+      "to_s": 1360.0,
+      "teller": "jesse-michels",
+      "quote": "Stargate was actually declassified as a program in 2017, so all of the files are online",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "stargate-files"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "leslie-kean-s-2017-new-york-times-ufo-story",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "eQIMantuasQ"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Stargate, a US government program that used psychics to spy, was declassified in 2017. He says all of its files are now online, which would mean anyone can read how the government tried to gather intelligence with the mind."
+}

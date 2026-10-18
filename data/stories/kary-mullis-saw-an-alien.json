@@ -1,0 +1,94 @@
+{
+  "id": "kary-mullis-saw-an-alien",
+  "title": "Kary Mullis saw an alien",
+  "summary": "Jesse Michels tells of Kary Mullis saw an alien, about not stated at not stated, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "not stated",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 3736.0,
+      "to_s": 3738.0,
+      "teller": "jesse-michels",
+      "quote": "Kary Mullis saw an alien, too.",
+      "kind": "host",
+      "cites": [
+        "kary-mullis"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 2530.0,
+      "to_s": 2544.0,
+      "teller": "jesse-michels",
+      "quote": "the guy who created uh PCR, polymerase chain reaction, >> is a guy named Carrie Mullis, and he had um an alien experience. He was abducted.",
+      "kind": "secondhand",
+      "cites": [
+        "kary-mullis"
+      ],
+      "documents": [],
+      "difference": "Calls it an abduction and names Mullis as the inventor of PCR.",
+      "link_reason": "Kary Mullis's alien encounter, the same event as the existing story about Mullis seeing an alien.",
+      "as_told": {
+        "title": "Kary Mullis alien abduction",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 2552.0,
+      "to_s": 2559.0,
+      "teller": "jesse-michels",
+      "quote": "I don't remember the exact he like woke up in a shed and he spoke with a being or something",
+      "kind": "secondhand",
+      "cites": [
+        "kary-mullis"
+      ],
+      "documents": [],
+      "difference": "Says he woke up in a shed and spoke with a being.",
+      "link_reason": "The same Kary Mullis encounter, now with detail added.",
+      "as_told": {
+        "title": "Kary Mullis woke in a shed and spoke with a being",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "9PJJiut0Iuw",
+      "q7Czo77qhHA"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Kary Mullis, the scientist who invented PCR (a lab method for copying DNA), had an encounter with an alien, and in one episode he calls it an abduction. Michels admits he does not remember the details, but says Mullis woke up in a shed and spoke with some kind of being. He brings it up because, if true, it would mean a celebrated scientist had a close contact experience of his own."
+}

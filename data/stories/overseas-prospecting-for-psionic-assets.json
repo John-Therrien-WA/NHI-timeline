@@ -108,6 +108,26 @@
         "place_text": "Disaster zones worldwide",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 2567.0,
+      "to_s": 2574.0,
+      "teller": "michael-herrera",
+      "quote": "He's saying it is basically these people who are psionic assets who have been screened from third world countries",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Says the assets are screened from third world countries specifically, relayed by Herrera from Barber.",
+      "link_reason": "Both describe a program that seeks out psionic assets overseas and screens them; this telling places it in third world countries.",
+      "as_told": {
+        "title": "Psionic assets screened from third world countries",
+        "years": null,
+        "place_text": "Third world countries",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -124,7 +144,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
@@ -133,6 +153,7 @@
     ],
     "episodes": [
       "A2-y_HasHEw",
+      "D2tKCFmJjks",
       "EzPmG_7WhXc",
       "OOr98r51Sj0",
       "areO7Mej44E",

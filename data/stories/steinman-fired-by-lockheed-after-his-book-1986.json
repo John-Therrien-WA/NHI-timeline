@@ -1,0 +1,62 @@
+{
+  "id": "steinman-fired-by-lockheed-after-his-book-1986",
+  "title": "Steinman fired by Lockheed after his book",
+  "summary": "Scott Ramsay tells of Steinman fired by Lockheed after his book, about 1986 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1986,
+    "to": 1986
+  },
+  "place": "united-states",
+  "place_text": "Lockheed, United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 5187.0,
+      "to_s": 5196.0,
+      "teller": "scott-ramsay",
+      "quote": "and he was warned that you don't that they didn't really like employees writing books on flying saucers. Couple days after the book came out, he got canned.",
+      "kind": "secondhand",
+      "cites": [
+        "bill-steinman"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "strieber-s-written-account-to-sarbacher-undeliverable-sarbac-1986",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Scott Ramsay, a researcher of a reported UFO crash, tells a podcast about a man named Bill Steinman who worked for Lockheed, a large American aircraft company, and wrote a book about flying saucers. Ramsay says Steinman was warned that the company did not like employees writing such books, and that a couple of days after it came out in 1986, he was fired. The story is told as a sign of how much pressure there was to keep quiet on the subject."
+}

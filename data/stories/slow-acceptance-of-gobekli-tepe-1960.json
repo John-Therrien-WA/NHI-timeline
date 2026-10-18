@@ -1,0 +1,56 @@
+{
+  "id": "slow-acceptance-of-gobekli-tepe-1960",
+  "title": "Slow acceptance of Göbekli Tepe",
+  "summary": "Jesse Michels tells of Slow acceptance of Göbekli Tepe, about 1960s-2009 at Göbekli Tepe, Turkey, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 2009
+  },
+  "place": null,
+  "place_text": "Göbekli Tepe, Turkey",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 4160.0,
+      "to_s": 4169.0,
+      "teller": "jesse-michels",
+      "quote": "It took mainstream archaeology 15 years to accept Göbekli Tepe after Klaus Schmidt started excavating it in 1994.",
+      "kind": "host",
+      "cites": [
+        "klaus-schmidt"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "HxQN2tkQHs8"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, talks about Göbekli Tepe, an ancient stone site in Turkey. He says an archaeologist named Klaus Schmidt began digging there in 1994, and that mainstream archaeology took 15 years to accept the site. He uses it to suggest that experts can be slow to accept finds that upset what they already believe."
+}

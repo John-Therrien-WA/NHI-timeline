@@ -26,33 +26,132 @@
       "documents": [
         "futility-or-the-wreck-of-the-titan"
       ]
+    },
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 1519.0,
+      "to_s": 1529.0,
+      "teller": "jesse-michels",
+      "quote": "there's a there's a book I think in the early 20th century 10ish years before the Titanic and it describes this big ship called the Titan",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives neither the author nor the title, and dates it vaguely to the early 20th century, about 10 years before the Titanic, where the story says 1898.",
+      "link_reason": "Both tell of the novel about the ship Titan that foreshadowed the Titanic.",
+      "as_told": {
+        "title": "Novel about the ship Titan foreshadowing the Titanic",
+        "years": null,
+        "place_text": null,
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 88.0,
+      "to_s": 105.0,
+      "teller": "jesse-michels",
+      "quote": "author Morgan Robertson wrote an 1898 Nolla called futility or wreck of the Titan futility tells the story of the Titan the largest and most luxurious ocean liner ever built in the novel The Titan hits an iceberg in the North Atlantic on an April night and sinks",
+      "kind": "host",
+      "cites": [
+        "morgan-robertson"
+      ],
+      "documents": [
+        "futility-or-the-wreck-of-the-titan"
+      ],
+      "difference": "Adds the iceberg, the April night and the North Atlantic setting.",
+      "link_reason": "Both are about Robertson's 1898 novel of the Titan sinking, read as foretelling the Titanic.",
+      "as_told": {
+        "title": "Morgan Robertson's Futility, or the Wreck of the Titan, and the Titanic",
+        "years": {
+          "from": 1898,
+          "to": 1912
+        },
+        "place_text": "North Atlantic",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 1982.0,
+      "to_s": 1989.0,
+      "teller": "eric-wargo",
+      "quote": "this novel called futility about the Collision of the biggest ever ocean liner called the Titan",
+      "kind": "researcher",
+      "cites": [
+        "morgan-robertson"
+      ],
+      "documents": [
+        "futility",
+        "time-loops"
+      ],
+      "difference": "Told by Eric Wargo, citing his book Time Loops.",
+      "link_reason": "Same story: Morgan Robertson's 1898 novel Futility about the liner Titan foreshadowing the Titanic.",
+      "as_told": {
+        "title": "Morgan Robertson's novel Futility foreshadows the Titanic",
+        "years": {
+          "from": 1898,
+          "to": 1912
+        },
+        "place_text": "North Atlantic",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 9374.0,
+      "to_s": 9383.0,
+      "teller": "jesse-michels",
+      "quote": "You have this book called um called Wreck of the Titan written by Morgan Robertson in 1898, like 12 years before the Titanic,",
+      "kind": "host",
+      "cites": [
+        "morgan-robertson"
+      ],
+      "documents": [
+        "the-wreck-of-the-titan"
+      ],
+      "difference": "Adds that it was written about 12 years before the Titanic sank.",
+      "link_reason": "The same 1898 Morgan Robertson novel said to foretell the Titanic.",
+      "as_told": {
+        "title": "Wreck of the Titan foretold the Titanic",
+        "years": {
+          "from": 1898,
+          "to": 1898
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 4,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "eric-wargo",
       "jesse-michels"
     ],
     "episodes": [
-      "Y7PLeu5rTv4"
+      "RofQnByLwOo",
+      "Y7PLeu5rTv4",
+      "hXYdkcv5TtY",
+      "wT5-hXWIkzM",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
+  "attestation": 1.35,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, describes an 1898 novel by the writer Morgan Robertson, called Futility, or the Wreck of the Titan, about a ship named the Titan that crashes in the middle of the Atlantic at night. Michels raises it because the story seems to foretell the sinking of the Titanic in 1912, which, if more than chance, would suggest people can somehow glimpse the future."
 }

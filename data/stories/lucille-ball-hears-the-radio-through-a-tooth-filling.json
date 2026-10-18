@@ -23,33 +23,77 @@
       "documents": [
         "the-telepathy-tapes"
       ]
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 5150.0,
+      "to_s": 5162.0,
+      "teller": "lucille-ball",
+      "quote": "heard music and I turn looked down to turn off my radio and it wasn't out I turned around looked to see if there's anyone behind me and the music was getting louder and louder and louder I realized it was in my mouth",
+      "kind": "firsthand",
+      "cites": [
+        "buster-keaton"
+      ],
+      "documents": [],
+      "difference": "Told by Lucille Ball firsthand, credits Buster Keaton, places it around World War II near a radio station in LA, and has her first think her car radio was on.",
+      "link_reason": "Both tell of Lucille Ball hearing radio music through her tooth filling.",
+      "as_told": {
+        "title": "Lucille Ball hears radio music through her dental fillings",
+        "years": null,
+        "place_text": "Los Angeles area, near a radio station",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 6734.0,
+      "to_s": 6747.0,
+      "teller": "jesse-michels",
+      "quote": "examples of you have like Lucille Ball\nwho uh had a filling in her tooth. This\nis in the telepathy tapes and she's\ndriving on some overpass and she starts\nto hear the radio in her head",
+      "kind": "host",
+      "cites": [
+        "lucille-ball"
+      ],
+      "documents": [
+        "the-telepathy-tapes"
+      ],
+      "difference": "Cites the Telepathy Tapes as the source and adds the overpass detail.",
+      "link_reason": "Both tell of Lucille Ball hearing the radio through a tooth filling while driving.",
+      "as_told": {
+        "title": "Lucille Ball hears radio through tooth filling",
+        "years": null,
+        "place_text": null,
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "lucille-ball"
     ],
     "episodes": [
-      "2-GeTxXi670"
+      "0qlppHc3-gg",
+      "2-GeTxXi670",
+      "KGD1nuM4MR8"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, retells a story about Lucille Ball, the American TV comedian, linked to a source called The Telepathy Tapes. According to Michels, after she got a tooth filling she was driving one day and began hearing the radio playing inside her head. He tells it as a sign that the human body can pick up signals directly."
 }

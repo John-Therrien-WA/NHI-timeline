@@ -44,6 +44,10 @@
         },
         "place_text": "Indonesia",
         "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "D2tKCFmJjks",
+        "from_s": 26.0
       }
     },
     {
@@ -153,6 +157,225 @@
         "place_text": "Indonesia",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 3776.0,
+      "to_s": 3794.0,
+      "teller": "michael-herrera",
+      "quote": "what I remember is kind of like a pyramid uh shape at the top like this cuz I remember seeing some shading and then it had Corners right and I remember seeing these vents as least that's what it looks like on each of the corners",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Herrera, telling it firsthand, describes a black craft with a pyramid-like top and vents at the corners, where the story calls it octagonal.",
+      "link_reason": "This is Herrera's 2009 Indonesia craft sighting, which is the centre of the corpus story about his encounter with the craft and the paramilitary unit.",
+      "as_told": {
+        "title": "Michael Herrera sees black pyramid-shaped craft in Indonesia",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Indonesia",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 3834.0,
+      "to_s": 3856.0,
+      "teller": "jesse-michels",
+      "quote": "all of a sudden this like what he thinks maybe is this doe Department of energy paramilitary unit yeah with far superior weaponry and kind of apparel shows up basically swears his unit to secrecy and takes control of the situation",
+      "kind": "secondhand",
+      "cites": [
+        "michael-herrera"
+      ],
+      "documents": [],
+      "difference": "Suggests the unit may have been a Department of Energy paramilitary team with far better weapons, and says it swore the Marines to secrecy.",
+      "link_reason": "The paramilitary unit that takes over and swears Herrera's Marines to secrecy in Indonesia in 2009 is part of the same encounter story.",
+      "as_told": {
+        "title": "Suspected DOE paramilitary unit swears Herrera's unit to secrecy",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Indonesia",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 321.0,
+      "to_s": 331.0,
+      "teller": "jesse-michels",
+      "quote": "Herrera is this case in Indonesia with this marine unit right and they uh see this sort of I guess he calls it vanta black",
+      "kind": "host",
+      "cites": [
+        "michael-herrera",
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Calls the craft vantablack.",
+      "link_reason": "Same encounter: Michael Herrera's Marine unit in Indonesia in 2009 sees a dark craft.",
+      "as_told": {
+        "title": "Michael Herrera's Indonesia encounter with a vantablack craft",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Indonesia",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 421.0,
+      "to_s": 431.0,
+      "teller": "uapgerb",
+      "quote": "Michael described a little further by stating that these men back in 2009 had really advanced M4 rifles with, you know, beautiful rangefinders and",
+      "kind": "researcher",
+      "cites": [
+        "michael-herrera",
+        "jonathan-wagant"
+      ],
+      "documents": [],
+      "difference": "Adds that the team carried advanced M4 rifles with rangefinders and bioscanners, and frames them as a recovery team.",
+      "link_reason": "Describes the black-clad operators in Herrera's 2009 Indonesia encounter, which the encounter story already holds.",
+      "as_told": {
+        "title": "Herrera's recovery team with advanced rifles and bioscanners",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Indonesia",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 340.0,
+      "to_s": 347.0,
+      "teller": "michael-herrera",
+      "quote": "we were the only ship which was the USS Denver that routed out to the western part of Sumatra in Indonesia",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Names the USS Denver as the only ship sent and places it in western Sumatra.",
+      "link_reason": "Herrera's unit being diverted from the Operation Katsana mission to Sumatra on the USS Denver is the setup of the 2009 Indonesia encounter story, whose tellings already include the diversion.",
+      "as_told": {
+        "title": "Rerouted to Sumatra after Operation Katsana humanitarian mission",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Western Sumatra, Indonesia (USS Denver, 31st MEU)",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 566.0,
+      "to_s": 571.0,
+      "teller": "michael-herrera",
+      "quote": "I estimated that this thing was probably about 300 ft.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Estimates the craft at about 300 ft.",
+      "link_reason": "The octagonal craft in the Sumatra jungle in 2009 is the core of Herrera's Indonesia encounter story.",
+      "as_told": {
+        "title": "300ft octagonal craft seen in the Indonesian jungle",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Jungle clearing, Sumatra, Indonesia",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 783.0,
+      "to_s": 788.0,
+      "teller": "michael-herrera",
+      "quote": "So they're they're obviously talking about they want to smoke us or what should we do with these guys?",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Counts eight American operators.",
+      "link_reason": "The Marines held at gunpoint by operators beside the craft is the same encounter, and the story already has Herrera's 'smoke these guys' quote.",
+      "as_told": {
+        "title": "Marines held at gunpoint by eight American operators beside the craft",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Jungle clearing, Sumatra, Indonesia",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 1267.0,
+      "to_s": 1271.0,
+      "teller": "michael-herrera",
+      "quote": "So this thing rose up past the treetops and then it shot off to the left.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds trucks loaded on a levitating platform and the craft shooting off toward the ocean.",
+      "link_reason": "The craft's departure after trucks were loaded is part of the same 2009 Sumatra encounter.",
+      "as_told": {
+        "title": "Trucks loaded onto a levitating platform; craft shoots off toward the ocean",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Jungle clearing, Sumatra, Indonesia",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 3855.0,
+      "to_s": 3866.0,
+      "teller": "michael-herrera",
+      "quote": "So this I mean Jake saw pretty much the same thing except much smaller. That's something that was able to be lifted up by a helicopter. This [ __ ] thing is estimated 300 ft.",
+      "kind": "firsthand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Puts the craft at about 300 ft and calls it a much larger version of Jake's helicopter-lifted craft.",
+      "link_reason": "Herrera describes the craft from his own Indonesia encounter and compares it to the smaller craft Jake lifted by helicopter.",
+      "as_told": {
+        "title": "300 ft craft in Indonesia compared to Jake's helicopter-lifted craft",
+        "years": null,
+        "place_text": "Indonesian jungle",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 17541.0,
+      "to_s": 17553.0,
+      "teller": "tim-alberino",
+      "quote": "he encountered a disc a large disc in Indonesia. Yeah, it was an eightgone craft that was blacker than black and he was apprehended by these people",
+      "kind": "secondhand",
+      "cites": [
+        "michael-herrera"
+      ],
+      "documents": [],
+      "difference": "Says Herrera was apprehended by the group and frames the operation as trafficking. Calls the craft 'blacker than black'.",
+      "link_reason": "Both tell of Michael Herrera's 2009 encounter in Indonesia with a black octagonal craft and a paramilitary unit.",
+      "as_told": {
+        "title": "Michael Herrera's octagonal craft and paramilitary trafficking in Indonesia",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Indonesia",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -169,16 +392,20 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 2,
+    "repetitions": 3,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "michael-herrera"
     ],
     "episodes": [
+      "CiQTBOQ1dTg",
+      "D2tKCFmJjks",
       "OOr98r51Sj0",
+      "Sct30Qijfv8",
       "areO7Mej44E",
       "dnnpyNuPdXs",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4",
       "yGtVzBbUvx4"
     ]

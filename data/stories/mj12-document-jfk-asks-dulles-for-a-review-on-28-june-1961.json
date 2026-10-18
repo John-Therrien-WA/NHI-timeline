@@ -1,0 +1,91 @@
+{
+  "id": "mj12-document-jfk-asks-dulles-for-a-review-on-28-june-1961",
+  "title": "MJ12 document: JFK asks Dulles for a review on 28 June 1961",
+  "summary": "Jesse Michels tells of MJ12 document: JFK asks Dulles for a review on 28 June 1961, about 1961 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1961
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, DC",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 2047.0,
+      "to_s": 2067.0,
+      "teller": "jesse-michels",
+      "quote": "Take for example a leaked MJ12 document from 1995 recently discussed by Ross Kolthart on NewsNation [music] with former Australian intelligence officer Jeff Krushank. It details a top secret request from President John F. Kennedy to CIA director Alan Dulles on June 28th, 1961.",
+      "kind": "host",
+      "cites": [
+        "ross-kolthart",
+        "jeff-krushank",
+        "john-f-kennedy",
+        "allen-dulles"
+      ],
+      "documents": [
+        "mj12-document-1995-leak",
+        "2022-jfk-files-dulles-diary"
+      ]
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 2102.0,
+      "to_s": 2114.0,
+      "teller": "ross-coulthart",
+      "quote": "documents. So there's a document in the MJ12 files, these very [music] disputed MJ12 D files, which has that date of the 28th of June, 1961.",
+      "kind": "journalist",
+      "cites": [
+        "jeff-krushank",
+        "allen-dulles",
+        "john-f-kennedy"
+      ],
+      "documents": [
+        "mj12-documents",
+        "dulles-diary-declassified-2022"
+      ],
+      "difference": "Told by Coulthart himself, who stresses that the MJ12 files are disputed.",
+      "link_reason": "Coulthart discusses the same MJ12 document dated 28 June 1961 that telling 9 introduces.",
+      "as_told": {
+        "title": "Coulthart on the MJ12 document's 28 June 1961 date",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.4,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 4,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "jesse-michels",
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "Jpf0ZGY87c0"
+    ]
+  },
+  "attestation": 1.7,
+  "tier": "well-attested",
+  "plain": "MJ12, or Majestic 12, is a set of papers said to describe a secret group that handled UFO matters for the US government. The podcast host Jesse Michels points to one of these papers, leaked in 1995. He says it records a top secret request from President John F. Kennedy to Allen Dulles, then head of the CIA, dated 28 June 1961. He notes that journalist Ross Coulthart discussed it on the TV channel NewsNation with Jeff Krushank, a former Australian intelligence officer. As they tell it, a diary of Dulles's released in 2022 shows the same date, which would suggest the paper is real. Coulthart tells it himself on the same episode, stressing that the MJ12 files are heavily disputed."
+}

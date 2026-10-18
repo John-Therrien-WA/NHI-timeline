@@ -1,0 +1,82 @@
+{
+  "id": "first-peer-reviewed-paper-on-the-khufu-pyramid-scan-2021",
+  "title": "First peer-reviewed paper on the Khufu pyramid scan",
+  "summary": "Filippo Biondi tells of First peer-reviewed paper on the Khufu pyramid scan, about 2021-2022 at Egypt (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2021,
+    "to": 2022
+  },
+  "place": "egypt",
+  "place_text": "Great Pyramid of Khufu, Giza, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 5067.0,
+      "to_s": 5080.0,
+      "teller": "filippo-biondi",
+      "quote": "I tell you, in 2022, I don't remember, 21, 22, we initially published a work peer review that is online now.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "peer-reviewed-paper-on-the-keops-pyramid"
+      ]
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 1047.0,
+      "to_s": 1057.0,
+      "teller": "jeffrey-drum",
+      "quote": "a lot of people don't know that Filippo and the SAR team actually published their first paper back in 2020 when they scanned the Great Pyramid.",
+      "kind": "researcher",
+      "cites": [
+        "filippo-biondi"
+      ],
+      "documents": [
+        "synthetic-aperture-radar-doppler-tomography-detects-undiscov"
+      ],
+      "difference": "Dates the paper to 2020 rather than 2021–22, gives its title, and is told by Drum.",
+      "link_reason": "Both tell of the SAR team's first peer-reviewed paper on scanning the Khufu (Great) pyramid.",
+      "as_told": {
+        "title": "The SAR team's first paper on the Great Pyramid, 2020",
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "place_text": "Great Pyramid, Giza, Egypt",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "filippo-biondi"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8",
+      "zrmG2jBckgk"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "Filippo Biondi, a scientist who uses satellite radar to look beneath Egypt's pyramids, says he and his team published their first peer-reviewed paper, one checked by other scientists, on the Great Pyramid of Khufu in about 2021 or 2022. He says it is online for anyone to read and that it describes hidden structures inside the pyramid. A researcher named Jeffrey Drum dates that first paper to 2020 instead, and says many people do not know it exists."
+}

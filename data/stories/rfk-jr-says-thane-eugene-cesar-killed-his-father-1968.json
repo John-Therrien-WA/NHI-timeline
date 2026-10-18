@@ -75,6 +75,30 @@
         "place_text": "Los Angeles",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 7624.0,
+      "to_s": 7635.0,
+      "teller": "jesse-michels",
+      "quote": "RFK Jr thinks that his father was not killed by Siran Sirhan he was shot from the back by a guy named Eugene th Caesar I've talked to Bobby about this at length",
+      "kind": "secondhand",
+      "cites": [
+        "robert-f-kennedy-jr",
+        "robert-maheu"
+      ],
+      "documents": [],
+      "difference": "Michels says he has talked to RFK Jr. about it at length.",
+      "link_reason": "Both tell RFK Jr.'s claim that Thane Eugene Cesar shot his father from behind in Los Angeles in 1968, with a link to Maheu.",
+      "as_told": {
+        "title": "Thane Eugene Cesar shot RFK, tied to Robert Maheu",
+        "years": {
+          "from": 1968,
+          "to": 1968
+        },
+        "place_text": "Los Angeles",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -99,6 +123,7 @@
     ],
     "episodes": [
       "2-GeTxXi670",
+      "2SQXAPCdmPE",
       "EzPmG_7WhXc",
       "areO7Mej44E"
     ]

@@ -1,0 +1,102 @@
+{
+  "id": "travis-walton-abduction-as-shown-in-fire-in-the-sky-1975",
+  "title": "Travis Walton abduction as shown in Fire in the Sky",
+  "summary": "Chris Ramsay tells of Travis Walton abduction as shown in Fire in the Sky, about 1975 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1975
+  },
+  "place": "united-states",
+  "place_text": "Arizona, USA",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 7541.0,
+      "to_s": 7552.0,
+      "teller": "chris-ramsay",
+      "quote": "But in the movie, they played it out so so differently. But these beings that were sort of uh performing this procedure on him, ignored his screams,",
+      "kind": "secondhand",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": [
+        "fire-in-the-sky"
+      ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 9301.0,
+      "to_s": 9307.0,
+      "teller": "bryce",
+      "quote": "it. Um they they tell him your the real story of Travis isn't good enough. You have to do a better abduction.\"",
+      "kind": "secondhand",
+      "cites": [
+        "tracy-torme",
+        "travis-walton"
+      ],
+      "documents": [
+        "fire-in-the-sky"
+      ],
+      "difference": "Adds, via Tracy Torme, that Hollywood told him the real story wasn't good enough and asked for a better abduction.",
+      "link_reason": "Both say the film Fire in the Sky changed the real Walton abduction into a different on-screen version. This is the least certain match: the story's telling describes how the film differed, while this telling is about the production decision behind it.",
+      "as_told": {
+        "title": "Fire in the Sky: Hollywood replaced Travis Walton's real abduction",
+        "years": {
+          "from": 1975,
+          "to": 1993
+        },
+        "place_text": "Hollywood",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "travis-walton-abduction-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "travis-walton-handed-over-from-greys-to-nordics-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "travis-walton-wakes-with-a-full-beard-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bryce",
+      "chris-ramsay"
+    ],
+    "episodes": [
+      "h3u8EkGI8OQ",
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested",
+  "plain": "In 1975, in Arizona, a young forestry worker named Travis Walton says he was taken aboard a UFO, and his story was later made into a Hollywood film called Fire in the Sky. A guest on a podcast, Chris Ramsay, says the film played the events very differently from Walton's own account. In the film, he says, the beings doing a procedure on Walton ignored his screams. A second person, Bryce, passes on what he heard from Tracy Tormé, who was involved with the film. According to Bryce, the filmmakers told Tormé that Walton's real story was not good enough and that they needed a better abduction. Both tellers are relaying others, and together they suggest the frightening film version was Hollywood's invention, not what Walton describes."
+}

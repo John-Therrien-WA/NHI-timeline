@@ -48,34 +48,88 @@
         "place_text": "Princeton Engineering Anomalies Research, Princeton University",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "eQIMantuasQ",
+      "from_s": 915.0,
+      "to_s": 930.0,
+      "teller": "herb-metts",
+      "quote": "So the the final sort of chart of the PEAR data is this beautiful graph that kind of shows pretty definitively that the subjects were able to do what they were tasked to do.",
+      "kind": "researcher",
+      "cites": [
+        "bob-jahn",
+        "brenda-dunne",
+        "etzel-cardena"
+      ],
+      "documents": [
+        "margins-of-reality",
+        "consciousness-the-source-of-reality"
+      ],
+      "difference": "Told by Mertz himself. Credits Brenda Dunne and the books Margins of Reality and Consciousness, the Source of Reality, and says the final chart shows a definitive effect.",
+      "link_reason": "Both describe the PEAR lab's random event generator research under Bob Jahn at Princeton from 1979 onward, and both draw on Herb Mertz's account.",
+      "as_told": {
+        "title": "PEAR random event generator results",
+        "years": {
+          "from": 1979,
+          "to": 2009
+        },
+        "place_text": "Princeton University, New Jersey",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 2869.0,
+      "to_s": 2880.0,
+      "teller": "jesse-michels",
+      "quote": ">> there's a ton of data from the Princeton, you know, uh, parasychology lab, the pair lab, the Princeton engineering and anomalous research lab, which was founded by Bob John, who was the dean of the engineering school,",
+      "kind": "host",
+      "cites": [
+        "bob-john"
+      ],
+      "documents": [],
+      "difference": "Dates the lab from 1978 rather than 1979 and leaves out the Navy interest.",
+      "link_reason": "The host describes the Princeton PEAR lab's mind-matter data and notes that Bob Jahn, dean of engineering, founded it. This matches the story of Jahn's decades of random event generator research into the mind-matter effect at Princeton.",
+      "as_told": {
+        "title": "Princeton PEAR lab mind-matter research",
+        "years": {
+          "from": 1978,
+          "to": 2007
+        },
+        "place_text": "Princeton University, New Jersey",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "herb-metts",
       "jesse-michels"
     ],
     "episodes": [
+      "PiFbeWfA3LM",
+      "eQIMantuasQ",
       "lcaY-rd9Dhc",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.85,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says a researcher spent some 40 years working with random event generators, machines that spit out random numbers, to try to prove that the human mind can affect matter. He links this work to Robert Jahn and the Princeton Engineering Anomalies Research lab, which studied such effects, and in another episode he points to a book about it by Herb Mertz of that lab. If true, it would mean thought alone can nudge the physical world."
 }

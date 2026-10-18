@@ -49,6 +49,32 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 2764.0,
+      "to_s": 2778.0,
+      "teller": "uapgerb",
+      "quote": "I think according to documents and emails on the DPI archive, that $2 billion, which still is an egregious sum of money, was to purchase Steven Greer's institution, Cetti, and integrate it into Stubble's work.",
+      "kind": "researcher",
+      "cites": [
+        "steven-greer",
+        "albert-stubblebine"
+      ],
+      "documents": [
+        "dpi-archive"
+      ],
+      "difference": "Says the money was to buy CSETI and fold it into Stubblebine's work, citing the DPI archive.",
+      "link_reason": "Both are about General Stubblebine's 1992 offer of $2 billion to Greer.",
+      "as_told": {
+        "title": "$2 billion offer to buy Greer's CSETI",
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -65,7 +91,7 @@
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -74,7 +100,8 @@
     ],
     "episodes": [
       "1sxmSMzqnmA",
-      "areO7Mej44E"
+      "areO7Mej44E",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 1.1,

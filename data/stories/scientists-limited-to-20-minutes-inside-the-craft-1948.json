@@ -1,0 +1,107 @@
+{
+  "id": "scientists-limited-to-20-minutes-inside-the-craft-1948",
+  "title": "Scientists limited to 20 minutes inside the craft",
+  "summary": "Jesse Michels tells of Scientists limited to 20 minutes inside the craft, about 1948 at New Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Hart Canyon, Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 1816.0,
+      "to_s": 1825.0,
+      "teller": "jesse-michels",
+      "quote": "They can't stay inside the craft for longer [music] than 20 minutes at a time because some negative energy overcomes them.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 4577.0,
+      "to_s": 4591.0,
+      "teller": "scott-ramsay",
+      "quote": "And he said that she told him at the where they recovered the craft scientists going into it if they were in there any longer would come out sick.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told secondhand through a woman's account; the scientists came out sick rather than being held to a 20-minute limit.",
+      "link_reason": "Both tell of scientists at the 1948 Hart Canyon recovery who could not stay inside the craft long without being overcome.",
+      "as_told": {
+        "title": "Scientists sickened by entering the recovered craft",
+        "years": {
+          "from": 1948,
+          "to": 1948
+        },
+        "place_text": "Aztec crash site, Hart Canyon, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "aztec-1948-craft-powered-up-at-wright-field-went-translucent",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aztec-crash-possibly-brought-down-by-the-lashup-radar-networ-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dragon-wagon-used-to-haul-the-craft-away-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "government-crash-photos-that-faded-to-blank-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-visits-aztec-crash-site-with-the-ramseys-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "recovery-team-without-insignia-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several",
+  "plain": "This story belongs to a reported 1948 crash of a flying saucer in Hart Canyon, near the town of Aztec, New Mexico. Podcast host Jesse Michels says the scientists who went into the craft could not stay inside more than 20 minutes at a time because some negative energy overcame them. Scott Ramsay, who has researched the case for years, tells it secondhand: he says a man told him that a woman told him the scientists would come out sick if they stayed in any longer. If true, the craft itself would have given off something harmful to people."
+}

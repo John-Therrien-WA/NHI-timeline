@@ -42,6 +42,31 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1864.0,
+      "to_s": 1876.0,
+      "teller": "jake-barber",
+      "quote": "When we look at collecting data, one of the areas that we look to collect data is through a psionic asset, which is an individual who's trained in remote viewing,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Defines a psionic asset as someone trained in remote viewing, and does not mention the Faraday cage.",
+      "link_reason": "Same as Barber's account of psionic assets used as data-collecting sensors.",
+      "as_told": {
+        "title": "Psionic assets used to collect data",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      },
+      "replay_of": {
+        "episode": "dnnpyNuPdXs",
+        "from_s": 3958.0
+      }
     }
   ],
   "related": [],
@@ -66,7 +91,8 @@
     ],
     "episodes": [
       "9QMrhcpJq8I",
-      "dnnpyNuPdXs"
+      "dnnpyNuPdXs",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 1.0,

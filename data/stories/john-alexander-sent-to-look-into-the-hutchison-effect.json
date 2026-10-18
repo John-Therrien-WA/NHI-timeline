@@ -22,33 +22,59 @@
         "john-hutchinson"
       ],
       "documents": []
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2859.0,
+      "to_s": 2870.0,
+      "teller": "nick-cook",
+      "quote": "I then spoke to John Alexander about it, who said, \"Unfortunately, when I set up all the equipment under laboratory conditions, none of it worked.",
+      "kind": "secondhand",
+      "cites": [
+        "john-alexander",
+        "john-hutchison"
+      ],
+      "documents": [],
+      "difference": "Adds Alexander's report that nothing worked under laboratory conditions, and places it in Vancouver rather than California.",
+      "link_reason": "Both are John Alexander looking into the Hutchison effect.",
+      "as_told": {
+        "title": "John Alexander on the Hutchison experiments",
+        "years": {
+          "from": 1980,
+          "to": 1999
+        },
+        "place_text": "Vancouver, Canada",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "nick-cook"
     ],
     "episodes": [
-      "1sxmSMzqnmA"
+      "1sxmSMzqnmA",
+      "G7Ns4Aq1tVc"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, tells of an inventor in California named John Hutchison, who is said to have made objects levitate, a result known as the Hutchison effect. Michels says a man named John Alexander was given the job of looking into it. If the effect were real, it would point to a way of defying gravity that officials wanted to understand."
 }

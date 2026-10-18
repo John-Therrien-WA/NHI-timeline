@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Von Braun shows Uri Geller a piece of a crashed UFO, about an unknown time at NASA secret base, and relays what a named person told them. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "NASA secret base",
   "coordinates": null,
   "kind": "crash-retrieval",
@@ -46,6 +46,60 @@
         "years": null,
         "place_text": "Wernher von Braun's office",
         "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 2753.0,
+      "to_s": 2763.0,
+      "teller": "jesse-michels",
+      "quote": "where Von braa shows him a again a piece of space material in a safe and Yuri Geller is able to deduce that this is not from here",
+      "kind": "host",
+      "cites": [
+        "uri-geller",
+        "wernher-von-braun",
+        "andrija-puharich"
+      ],
+      "documents": [],
+      "difference": "Dates it to the 1970s and credits Puharich.",
+      "link_reason": "Same encounter: Von Braun takes a piece of a UFO out of his safe, and Geller senses it is not from here.",
+      "as_told": {
+        "title": "Von Braun shows Uri Geller space material in a safe",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "United States",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 11577.0,
+      "to_s": 11602.0,
+      "teller": "uri-geller",
+      "quote": "Veron Brown takes me into his personal office. There's a safe in the office. He opens the safe. I see a piece of metal. I've never seen such a color. Pulls it out. It's not heavy. Says, \"Uri, touch this. Tell me what you feel.\" Now, I put my hand on it and I say, \"Vera, this is not from here.\" He says, \"You're right. This is a piece of a UFO that crashed on our planet.\"",
+      "kind": "firsthand",
+      "cites": [
+        "wernher-von-braun"
+      ],
+      "documents": [],
+      "difference": "Dated to the 1970s and placed in von Braun's personal office rather than a NASA secret base.",
+      "link_reason": "The same account: Uri Geller in von Braun's office, the safe, and the metal from a crashed UFO.",
+      "as_told": {
+        "title": "Wernher von Braun shows Uri Geller a piece of a crashed UFO",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Wernher von Braun's office, United States",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "outside": true
       }
     }
   ],
@@ -63,7 +117,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -71,7 +125,9 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
-      "2-GeTxXi670"
+      "2-GeTxXi670",
+      "Sct30Qijfv8",
+      "bM18PJY6_Zc"
     ]
   },
   "attestation": 1.0,

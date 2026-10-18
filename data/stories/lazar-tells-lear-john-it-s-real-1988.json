@@ -1,0 +1,73 @@
+{
+  "id": "lazar-tells-lear-john-it-s-real-1988",
+  "title": "Lazar tells Lear 'John, it's real'",
+  "summary": "Grant Cameron tells of Lazar tells Lear 'John, it's real', about December 1988 at Las Vegas, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1988,
+    "to": 1988
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 4914.0,
+      "to_s": 4924.0,
+      "teller": "grant-cameron",
+      "quote": "think it's December the 6th. John Lair tells me a story. I'm sitting there. He says, \"I'm writing checks.\" And uh Bob Lazar comes in. He says, \"John, it's real.\"",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear",
+        "bob-lazar"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "1988-resume-to-teller-leads-to-eg-g-and-s-4",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "eg-g-interview-switched-mid-way-to-the-s-4-job-1988",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "first-question-at-eg-g-was-about-john-lear-1988",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "grant-cameron"
+    ],
+    "episodes": [
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A UFO researcher named Grant Cameron says John Lear, a pilot and UFO enthusiast, told him a story from around 6 December 1988 in Las Vegas. According to Lear, Bob Lazar, a man who later said he worked on alien craft at a secret Nevada site, walked in and said, \"John, it's real.\" If true, it marks the moment Lazar first claimed he had seen alien technology with his own eyes."
+}

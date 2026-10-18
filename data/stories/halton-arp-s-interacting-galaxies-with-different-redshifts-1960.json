@@ -1,0 +1,56 @@
+{
+  "id": "halton-arp-s-interacting-galaxies-with-different-redshifts-1960",
+  "title": "Halton Arp's interacting galaxies with different redshifts",
+  "summary": "Beatriz Villarroel tells of Halton Arp's interacting galaxies with different redshifts, about 1960s-1980s at Extragalactic sky observations, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "Extragalactic sky observations",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 251.0,
+      "to_s": 273.0,
+      "teller": "beatriz-villarroel",
+      "quote": "So Heltonarp was an astronomer who was a super famous astronomer uh for a very long while who s who one day observed he he could see like he found couples of galaxies that were they looked like they were exchanging gas but uh if you looked at their red shifts which are indicators of distance they had completely different red shift",
+      "kind": "researcher",
+      "cites": [
+        "halton-arp"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "beatriz-villarroel"
+    ],
+    "episodes": [
+      "lbGE3EC6StE"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "An astronomer named Beatriz Villarroel, speaking with podcast host Jesse Michels in 2025, tells of Halton Arp, a famous astronomer working from about the 1960s to the 1980s. She says Arp found pairs of galaxies that looked like they were exchanging gas, yet had completely different redshifts, the stretching of light that astronomers use as a sign of distance. If true, it would mean the standard way of measuring how far away things are in space could be wrong."
+}

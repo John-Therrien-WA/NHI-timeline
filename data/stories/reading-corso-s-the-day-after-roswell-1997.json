@@ -1,0 +1,69 @@
+{
+  "id": "reading-corso-s-the-day-after-roswell-1997",
+  "title": "Reading Corso's The Day After Roswell",
+  "summary": "John Blitch tells of Reading Corso's The Day After Roswell, about 1997 at Roswell, New Mexico, and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1997,
+    "to": 1997
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 4676.0,
+      "to_s": 4690.0,
+      "teller": "john-blitch",
+      "quote": "I started rereading I read the the uh Corsos uh day after Roswell uhuh and I really started digging in that was a little after that was 97",
+      "kind": "firsthand",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [
+        "the-day-after-roswell"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "congressman-schiff-and-the-deleted-roswell-records-1997",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "corso-says-the-day-after-roswell-was-rushed-to-print-1997",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "john-blitch"
+    ],
+    "episodes": [
+      "yAvD5UTziTo"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "John Blitch, a scientist who worked with DARPA, the Pentagon's research agency for advanced technology, told podcast host Jesse Michels that around 1997 he read The Day After Roswell. That is a book by Philip J. Corso, a former Army officer, about the claimed 1947 crash of a UFO near Roswell, New Mexico. Blitch says it was then that he really started digging into the subject."
+}

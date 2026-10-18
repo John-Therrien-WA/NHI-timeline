@@ -23,6 +23,50 @@
       "documents": [
         "time-loops"
       ]
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 5881.0,
+      "to_s": 5885.0,
+      "teller": "jesse-michels",
+      "quote": "you heard of Eric Wargo? He wrote a book called Time Loops.",
+      "kind": "host",
+      "cites": [
+        "eric-wargo"
+      ],
+      "documents": [
+        "time-loops"
+      ],
+      "difference": "Emphasises Wargo's 'long body' concept instead of the brain as a hybrid quantum computer.",
+      "link_reason": "Both are Michels citing Eric Wargo's book Time Loops and its theory of precognition; the 'long body' is a concept within that theory.",
+      "as_told": {
+        "title": "Eric Wargo's Time Loops and the 'long body'",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 3630.0,
+      "to_s": 3642.0,
+      "teller": "jesse-michels",
+      "quote": "I had a great this guy Eric Wargo on my show. He's awesome. Written a book called Time Loops >> and he talks about in that book >> people having precognition around events that happen to them",
+      "kind": "secondhand",
+      "cites": [
+        "eric-wargo"
+      ],
+      "documents": [
+        "time-loops"
+      ],
+      "difference": "Mentions Wargo appearing on Michels' show and stresses precognition about events in people's own lives.",
+      "link_reason": "Same book, Eric Wargo's Time Loops, and the same precognition theory, relayed by Jesse Michels.",
+      "as_told": {
+        "title": "Eric Wargo's Time Loops on precognition",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -46,7 +90,9 @@
       "jesse-michels"
     ],
     "episodes": [
-      "LpLFWdsIU7M"
+      "LpLFWdsIU7M",
+      "PiFbeWfA3LM",
+      "h6zMVkncTsE"
     ]
   },
   "attestation": 0.75,

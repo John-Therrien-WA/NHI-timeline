@@ -28,11 +28,37 @@
       "documents": [
         "ingo-swann-reports"
       ]
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 2472.0,
+      "to_s": 2485.0,
+      "teller": "daniel-sheehan",
+      "quote": "but there was a huge UFO right over the top of the water where that thing was and it was tracking it and monitoring it and he had it in the file",
+      "kind": "firsthand",
+      "cites": [
+        "pat-price",
+        "ingo-swann"
+      ],
+      "documents": [
+        "ingo-swann-file"
+      ],
+      "difference": "",
+      "link_reason": "Both describe Pat Price locating a Soviet boomer submarine with a huge UFO tracking it, as recorded in Swann's file.",
+      "as_told": {
+        "title": "Pat Price finds a Soviet submarine with a UFO tracking it",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Ocean location of a Russian 'boomer' submarine",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -43,7 +69,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -51,10 +77,11 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 1.25,
+  "attestation": 1.5,
   "tier": "told-once",
   "plain": "A podcast guest named Dan Sheehan tells of Pat Price, a man in 1970s research into remote viewing, the attempt to see distant places with the mind, alongside researchers Russell Targ and Ingo Swann. According to Sheehan, citing reports by Swann, Price located a Soviet \"boomer,\" a submarine carrying nuclear missiles, somewhere at sea, and saw a huge UFO hovering over the water above it, tracking and watching it, which would mean something was keeping an eye on nuclear weapons."
 }

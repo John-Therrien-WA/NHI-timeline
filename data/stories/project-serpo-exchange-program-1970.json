@@ -1,0 +1,58 @@
+{
+  "id": "project-serpo-exchange-program-1970",
+  "title": "Project Serpo exchange program",
+  "summary": "Greg Bishop tells of Project Serpo exchange program, about 1970s (leak 2000s) at Earth and planet Serpo, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 2009
+  },
+  "place": null,
+  "place_text": "Earth and planet Serpo",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 4461.0,
+      "to_s": 4471.0,
+      "teller": "greg-bishop",
+      "quote": "So the Serpo thing was planet Serpo sent a bunch of aliens here and we sent a bunch of humans to their star system in an exchange in the 1970s sometime.",
+      "kind": "researcher",
+      "cites": [
+        "rick-doty"
+      ],
+      "documents": [
+        "serpo-leak"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg-bishop"
+    ],
+    "episodes": [
+      "WBTqsbwJyqU"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher and writer, Greg Bishop, sums up the Serpo story, which came out through leaks in the 2000s and which he connects to a man named Rick Doty. As Bishop tells it, sometime in the 1970s a planet called Serpo sent a group of aliens to Earth, and the US sent a group of humans to the aliens' star system in exchange. If true, it would mean people have already lived on another world."
+}

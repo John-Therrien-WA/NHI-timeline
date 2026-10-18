@@ -1,0 +1,94 @@
+{
+  "id": "tayos-cave-metallic-library-of-alien-artifacts",
+  "title": "Tayos Cave metallic library of alien artifacts",
+  "summary": "Jesse Michels tells of Tayos Cave metallic library of alien artifacts, about ancient (unspecified) at Tayos Cave, Ecuador, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Tayos Cave, Ecuador",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4376.0,
+      "to_s": 4386.0,
+      "teller": "jesse-michels",
+      "quote": "at the edge of Ecuador, this this cave that they they claim to have ancient, what feels like an alien metallic artifacts. It's like it was a library actually of these books.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 8173.0,
+      "to_s": 8184.0,
+      "teller": "jesse-michels",
+      "quote": "it's this well-known myth that uh there are these caves that exist with this kind of ancient alien looking metallic artifacts",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Calls it a well-known local myth and doesn't mention the library of books.",
+      "link_reason": "This is the same lore of a Tayos cave holding ancient, alien-looking metallic artifacts.",
+      "as_told": {
+        "title": "Local myth of Tayos caves with alien-looking metallic artifacts",
+        "years": null,
+        "place_text": "Tayos Cave, Ecuador",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 2378.0,
+      "to_s": 2382.0,
+      "teller": "jesse-michels",
+      "quote": "It supposedly contains an ancient alien metallic library.",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": [],
+      "difference": "Ties the library to Neil Armstrong's expedition, dated 1976.",
+      "link_reason": "The quote tells of the alleged ancient alien metallic library in Tayos Cave, Ecuador.",
+      "as_told": {
+        "title": "Tayos Cave metal library and Neil Armstrong's 1976 expedition",
+        "years": {
+          "from": 1976,
+          "to": 1976
+        },
+        "place_text": "Tayos Cave, Ecuador",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "9PJJiut0Iuw",
+      "HxQN2tkQHs8"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, talks about Tayos Cave in Ecuador, which he says supposedly holds ancient metallic artifacts that look alien, arranged like a library of metal books. He has brought it up on several episodes, once calling it a well-known myth and once tying it to an expedition by the astronaut Neil Armstrong. If true, it would mean an ancient record left by someone other than humans is sitting in a cave in South America."
+}

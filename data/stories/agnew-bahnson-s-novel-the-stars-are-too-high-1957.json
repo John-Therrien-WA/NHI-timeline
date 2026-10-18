@@ -26,6 +26,81 @@
       "documents": [
         "the-stars-are-too-high"
       ]
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3597.0,
+      "to_s": 3611.0,
+      "teller": "jesse-michels",
+      "quote": "Well, in 1959, he actually wrote a science fiction novel called The Stars Are Too High about a fake alien invasion perpetrated by rogue anti-gravity scientists deep in intelligence",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnsen"
+      ],
+      "documents": [
+        "the-stars-are-too-high"
+      ],
+      "difference": "Dates it to 1959 and describes the plot as a fake alien invasion staged by rogue anti-gravity scientists in intelligence, not rogue Nazi scientists working with Americans.",
+      "link_reason": "Both are about Agnew Bahnson's novel The Stars Are Too High, told by the host.",
+      "as_told": {
+        "title": "Bahnsen's novel The Stars Are Too High",
+        "years": {
+          "from": 1959,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1798.0,
+      "to_s": 1810.0,
+      "teller": "jesse-michels",
+      "quote": "It was called The Stars Are Too High, and it involves a team of rogue Nazi scientists who were captured and moved to America after the war,",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson"
+      ],
+      "documents": [
+        "the-stars-are-too-high"
+      ],
+      "difference": "Says the Nazi scientists were captured and moved to America after the war.",
+      "link_reason": "The same novel by Agnew Bahnson about rogue Nazi scientists.",
+      "as_told": {
+        "title": "Bahnson's novel The Stars Are Too High",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "USA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 5734.0,
+      "to_s": 5743.0,
+      "teller": "jesse-michels",
+      "quote": "writes a book about man-made UFOs called the stars are too high. Actually, it's about this plan to unite the world via this man-made UFO invasion.",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson"
+      ],
+      "documents": [
+        "the-stars-are-too-high"
+      ],
+      "difference": "Describes the plot as a plan to unite the world through a staged man-made UFO invasion, where the story's telling speaks of rogue Nazi scientists working with Americans.",
+      "link_reason": "Both are about Agnew Bahnson's novel The Stars Are Too High and its man-made flying craft.",
+      "as_told": {
+        "title": "Bahnson's novel The Stars Are Too High about a man-made UFO invasion",
+        "years": {
+          "from": 1959,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -49,6 +124,9 @@
       "jesse-michels"
     ],
     "episodes": [
+      "8TYMQOUDQBo",
+      "G7Ns4Aq1tVc",
+      "RTEWLSTyUic",
       "kccrkCGGzX4"
     ]
   },

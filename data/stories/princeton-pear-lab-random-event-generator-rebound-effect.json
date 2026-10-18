@@ -19,33 +19,95 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 1767.0,
+      "to_s": 1778.0,
+      "teller": "jesse-michels",
+      "quote": "I have a mentor named John Valentino who helped run the Princeton parapsychology lab pair under Bob John",
+      "kind": "secondhand",
+      "cites": [
+        "john-valentino",
+        "bob-john"
+      ],
+      "documents": [],
+      "difference": "Names the mentor as John Valentino, working under Bob Jahn, and stresses the effect of the observer's coherence rather than the rebound effect.",
+      "link_reason": "Both describe the random event generator experiments at Princeton's PEAR lab run by the host's mentor, as Michels relays them.",
+      "as_told": {
+        "title": "Princeton PEAR lab random event generator and the observer's coherence",
+        "years": null,
+        "place_text": "Princeton University",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 2524.0,
+      "to_s": 2534.0,
+      "teller": "jesse-michels",
+      "quote": "But, my friend who helped run this Princeton lab has a ton of corroborated evidence showing that there is a skewing effect.",
+      "kind": "secondhand",
+      "cites": [
+        "anonymous-friend-who-helped-run-the-pear"
+      ],
+      "documents": [],
+      "difference": "Calls it a 'skewing effect' and says it has a lot of corroborating evidence, where the story names it the 'rebound effect'.",
+      "link_reason": "Both are about the host's friend who worked on random event generator experiments at the Princeton PEAR lab and the effect he found.",
+      "as_told": {
+        "title": "Random event generator skewing at the Princeton PEAR lab",
+        "years": null,
+        "place_text": "Princeton University, New Jersey",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 4216.0,
+      "to_s": 4224.0,
+      "teller": "jesse-michels",
+      "quote": "interview sing uh was very involved in the Princeton Paris psychology lab and and their random event generator experiments",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Does not mention the rebound effect.",
+      "link_reason": "Same story of Michels's mentor who worked on random event generator experiments at the Princeton PEAR lab.",
+      "as_told": {
+        "title": "Mentor in Princeton PEAR random event generator experiments",
+        "years": null,
+        "place_text": "Princeton University",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
-      "dnnpyNuPdXs"
+      "2Xxmguz0GEQ",
+      "aKZ_MUbuk_Q",
+      "dnnpyNuPdXs",
+      "wT5-hXWIkzM"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says a close friend and mentor of his worked at a lab at Princeton University, which he calls the PEAR lab, that studied all sorts of unexplained things. There, according to Michels, his mentor ran experiments with machines that produce random results, and described something he called the rebound effect. Michels mentions it as a sign that the mind might affect such machines in odd ways."
 }

@@ -24,33 +24,82 @@
         "hans-kammler"
       ],
       "documents": []
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1019.0,
+      "to_s": 1026.0,
+      "teller": "nick-cook",
+      "quote": "It was basically a special projects office run by SS General Hans Kammler",
+      "kind": "researcher",
+      "cites": [
+        "hans-kammler"
+      ],
+      "documents": [],
+      "difference": "Gives the office's name (Kammlerstab), the years 1942-1945, and places it in Czechoslovakia and Poland; it does not stress nuclear work.",
+      "link_reason": "Kammler's SS special projects office, which ran the Nazi black-world projects, is the same program as the Kammler black-world program story.",
+      "as_told": {
+        "title": "Kammlerstab special projects office",
+        "years": {
+          "from": 1942,
+          "to": 1945
+        },
+        "place_text": "Nazi Germany, Czechoslovakia, Poland",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 15306.0,
+      "to_s": 15316.0,
+      "teller": "jesse-michels",
+      "quote": "know, there was some interesting stuff happening in Nazi Germany to that effect, but you know, you had Kammler Stab and you had these interesting scientists doing some stuff in that in that world, but",
+      "kind": "host",
+      "cites": [
+        "hans-kammler"
+      ],
+      "documents": [],
+      "difference": "Calls it Kammler Stab and frames it as propulsion work by scientists, not nuclear work.",
+      "link_reason": "Both are the same host's account of Kammler's secret research program in Nazi Germany in the 1940s.",
+      "as_told": {
+        "title": "Nazi Kammler Stab advanced propulsion research",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Nazi Germany",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "nick-cook"
     ],
     "episodes": [
+      "ATJwqp5twAg",
+      "G7Ns4Aq1tVc",
       "V00WcEiKRAY"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, mentions rumors that in Nazi Germany in the 1940s an official named Hans Kammler ran secret, off-the-books nuclear work, what he calls black-world projects. Michels raises it as a possible early root of hidden advanced technology programs."
 }

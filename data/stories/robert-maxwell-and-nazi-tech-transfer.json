@@ -1,0 +1,53 @@
+{
+  "id": "robert-maxwell-and-nazi-tech-transfer",
+  "title": "Robert Maxwell and Nazi tech transfer",
+  "summary": "Jesse Michels tells of Robert Maxwell and Nazi tech transfer, about post-WWII at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 13234.0,
+      "to_s": 13241.0,
+      "teller": "jesse-michels",
+      "quote": "basically like helped invent peer review, scientific peer review, was also in charge of Nazi tech transfer",
+      "kind": "host",
+      "cites": [
+        "robert-maxwell"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that a man named Robert Maxwell helped invent scientific peer review, the system where scientists check each other's work before it is published. Michels says Maxwell was also in charge of Nazi tech transfer, the moving of German wartime technology into other hands after the Second World War. If so, one man would have sat at the junction of how science is published and where captured secret technology went."
+}

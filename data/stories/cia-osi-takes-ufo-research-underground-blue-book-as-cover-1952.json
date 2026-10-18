@@ -49,11 +49,36 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 4178.0,
+      "to_s": 4197.0,
+      "teller": "jesse-michels",
+      "quote": "it's now clear in retrospect and I think this is a lot due to Richard Dolan's great research that like you had this cleaving off of the vital study of UFOs the public facing stuff was relegated to project blue book and the air force and then all the private stuff was managed by battel memorial institute",
+      "kind": "host",
+      "cites": [
+        "richard-dolan"
+      ],
+      "documents": [
+        "project-stork"
+      ],
+      "difference": "Says Battelle Memorial Institute ran the private side (Project Stork), credits Richard Dolan, and does not name the CIA OSI.",
+      "link_reason": "Both tell of the 1950s split in which Blue Book was the public face and the real UFO study went private. The story's tellings already involve Battelle.",
+      "as_told": {
+        "title": "Project Stork and the Battelle split from Blue Book",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Battelle Memorial Institute, Ohio",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -64,7 +89,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -73,10 +98,11 @@
     ],
     "episodes": [
       "dnnpyNuPdXs",
-      "fzvwBBSmWYA"
+      "fzvwBBSmWYA",
+      "nTiFs8LudUo"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in 1952 the CIA's Office of Scientific Intelligence, the spy agency's science analysis branch, moved the real UFO investigations out of sight. According to him, Project Blue Book, the US Air Force's public UFO study of the 1950s and 60s, served as a cover story to manage what the public believed. In a later episode he calls this a long-standing rumour and adds that a private research group, the Battelle Memorial Institute, and the Atomic Energy Commission, the government body then in charge of nuclear work, were involved."
 }

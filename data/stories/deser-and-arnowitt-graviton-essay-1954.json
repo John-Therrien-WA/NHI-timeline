@@ -1,0 +1,67 @@
+{
+  "id": "deser-and-arnowitt-graviton-essay-1954",
+  "title": "Deser and Arnowitt graviton essay",
+  "summary": "Jesse Michels tells of Deser and Arnowitt graviton essay, about 1954 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1954,
+    "to": 1954
+  },
+  "place": "united-states",
+  "place_text": "Princeton, USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1519.0,
+      "to_s": 1528.0,
+      "teller": "jesse-michels",
+      "quote": "The pair wrote a paper about these theoretical gravitons in their 1954 winning essay for the Gravity Research Foundation.",
+      "kind": "host",
+      "cites": [
+        "michael-gladish",
+        "stanley-deser",
+        "richard-arnoux"
+      ],
+      "documents": [
+        "the-g-engines-are-coming",
+        "gravity-research-foundation-essay-1954"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "atomic-energy-act-s-special-nuclear-material-covers-crash-ma-1954",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "G7Ns4Aq1tVc"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in 1954 two physicists, Stanley Deser and Richard Arnowitt, won the essay prize of the Gravity Research Foundation, a group that held a yearly contest for writing on gravity, with a paper about gravitons, theoretical particles thought to carry the force of gravity. He sets it beside a writer named Michael Gladish and a piece called \"The G Engines Are Coming,\" as a sign that serious scientists of the 1950s were working on gravity in ways some connect to antigravity flight."
+}

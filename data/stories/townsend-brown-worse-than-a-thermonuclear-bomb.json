@@ -1,0 +1,56 @@
+{
+  "id": "townsend-brown-worse-than-a-thermonuclear-bomb",
+  "title": "Townsend Brown: worse than a thermonuclear bomb",
+  "summary": "Jesse Michels tells of Townsend Brown: worse than a thermonuclear bomb, about mid-20th century at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 5676.0,
+      "to_s": 5687.0,
+      "teller": "jesse-michels",
+      "quote": "there's one line from a biography of Towns and Brown, you know, this Paul Schatzkin book, The Man Who Mastered Gravity, where it's you know, uh this will make a thermonuclear bomb look like a child's firecracker.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "paul-schatzkin"
+      ],
+      "documents": [
+        "the-man-who-mastered-gravity"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, quotes a line from The Man Who Mastered Gravity, a biography of an inventor named Townsend Brown written by Paul Schatzkin. According to Michels, the book says that something tied to Brown's work would make a thermonuclear bomb, the most powerful kind of nuclear weapon, look like a child's firecracker. He tells it to show how much power, if true, that work was thought to hold."
+}

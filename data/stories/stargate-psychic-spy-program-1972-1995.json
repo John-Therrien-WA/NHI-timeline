@@ -261,19 +261,185 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "eQIMantuasQ",
+      "from_s": 51.0,
+      "to_s": 59.0,
+      "teller": "jesse-michels",
+      "quote": "Paul worked in the CIA's Stargate project. Stargate was a psychic spy program that ran from 1972 to 1995.",
+      "kind": "host",
+      "cites": [
+        "paul-smith"
+      ],
+      "documents": [],
+      "difference": "Introduces Paul Smith as someone who worked in the program.",
+      "link_reason": "Both describe the CIA's Stargate psychic spy program, which ran from 1972 to 1995.",
+      "as_told": {
+        "title": "CIA Stargate psychic spy program",
+        "years": {
+          "from": 1972,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 363.0,
+      "to_s": 375.0,
+      "teller": "jesse-michels",
+      "quote": "there was in fact a CIA and Dia backed program called Stargate which ran from 1972 to 1995 the official American psychic spy program",
+      "kind": "host",
+      "cites": [
+        "cia",
+        "dia"
+      ],
+      "documents": [],
+      "difference": "Names both the CIA and the DIA as backers.",
+      "link_reason": "Both describe the CIA/DIA Stargate psychic spy program that ran 1972-1995.",
+      "as_told": {
+        "title": "The Stargate psychic spy program",
+        "years": {
+          "from": 1972,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 2185.0,
+      "to_s": 2196.0,
+      "teller": "jesse-michels",
+      "quote": "this remote viewing program that the CIA ran I think it was CIA and then DIA from 1972 to 1995 and it was a psychic spy program",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Says the program was run first by the CIA and then by the DIA.",
+      "link_reason": "Same story: the Stargate remote-viewing psychic spy program, 1972-1995.",
+      "as_told": {
+        "title": "CIA/DIA Stargate remote viewing psychic spy program",
+        "years": {
+          "from": 1972,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 2584.0,
+      "to_s": 2597.0,
+      "teller": "jesse-michels",
+      "quote": "the CIA has a psychic spy program this is fully by the way Declassified and known and on record psychic spy program it ran from 1972 to 1995",
+      "kind": "host",
+      "cites": [
+        "saic"
+      ],
+      "documents": [],
+      "difference": "Credits SAIC and places it at SAIC Palo Alto.",
+      "link_reason": "Both tell of the declassified CIA psychic spy program (Stargate) that ran from 1972 to 1995.",
+      "as_told": {
+        "title": "CIA psychic spy program 1972-1995",
+        "years": {
+          "from": 1972,
+          "to": 1995
+        },
+        "place_text": "United States; SAIC Palo Alto",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 4818.0,
+      "to_s": 4835.0,
+      "teller": "joe-mcmoneagle",
+      "quote": "basically super supported by five presidents we were super supported by by senators and congressmen who could not be hurt like Senator Cohen uh Senator John Glenn",
+      "kind": "firsthand",
+      "cites": [
+        "senator-cohen",
+        "senator-john-glenn"
+      ],
+      "documents": [],
+      "difference": "Says the program had support from five presidents and from senators such as Cohen and Glenn, and that it ended because of stigma rather than because it didn't work.",
+      "link_reason": "Both tell the whole US psychic spy program, its run to 1995 and its ending.",
+      "as_told": {
+        "title": "Program backed by five presidents and senior senators, ended over stigma",
+        "years": {
+          "from": 1978,
+          "to": 1995
+        },
+        "place_text": "USA",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 1057.0,
+      "to_s": 1061.0,
+      "teller": "chris-ramsay",
+      "quote": "with Stargate, that's 20 years, $20 million.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Chris Ramsay as a researcher rather than firsthand, with no start date given beyond the 1970s.",
+      "link_reason": "Both describe the whole Stargate program and give it the same 20-year, $20 million size that Puthoff's telling gives.",
+      "as_told": {
+        "title": "Stargate remote viewing program: 20 years and $20 million",
+        "years": {
+          "from": 1970,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 4918.0,
+      "to_s": 4925.0,
+      "teller": "jesse-michels",
+      "quote": "Russell Tar ran uh the CIA psychic spy program Stargate. He was one of the founders along with Halputo off.",
+      "kind": "host",
+      "cites": [
+        "russell-targ",
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Names Russell Targ as having run the program and as a co-founder alongside Puthoff.",
+      "link_reason": "The same CIA Stargate psychic spy program associated with Puthoff.",
+      "as_told": {
+        "title": "Russell Targ and Hal Puthoff founded the CIA psychic spy program Stargate",
+        "years": {
+          "from": 1970,
+          "to": 1999
+        },
+        "place_text": "USA",
+        "story_kind": "program"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "23-year-us-remote-viewing-program-1972",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 3.6,
+  "score": 6.1,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 1,
+    "independent_tellers": 4,
+    "firsthand": 2,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -281,22 +447,30 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "chris-ramsay",
       "hal-puthoff",
+      "joe-mcmoneagle",
       "matthew-brown"
     ],
     "episodes": [
       "09KP8XVf5nY",
       "1f16VvXaSSE",
       "6bqaHVSlVeU",
+      "JpLThEF2dTM",
+      "RofQnByLwOo",
+      "Sct30Qijfv8",
       "V00WcEiKRAY",
       "Y26iMB0r-f8",
       "bVhSPH2A5Vw",
+      "eQIMantuasQ",
+      "h3u8EkGI8OQ",
+      "hXYdkcv5TtY",
       "iQOibpIDx-4",
       "jMCavr3dVP0",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.8,
+  "attestation": 3.05,
   "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, often tells of Stargate, which he calls a US government psychic spy program that ran from 1972 to 1995. It rested on \"remote viewing\", the claimed ability to describe distant places or hidden things using only the mind. A physicist named Hal Puthoff, who Michels says ran it and co-founded it with Russell Targ, says it started when viewers described super secret facilities and project titles locked in safes, and grew into a 20-year, 20 million dollar program. In some tellings it is a CIA program aimed at Russian nuclear bases and American hostages. Michels says it came up for funding every year and was shut down in 1995 under a man named Ed May, officially because it offered only offense and no defense, and that many later said it was not very effective. He adds that its files came out in 2017 through FOIA, a US law that lets anyone request government records. If true, it would mean the government spent decades seriously testing psychic abilities. Others repeat it on his show: a former intelligence officer, David Grusch, says Puthoff told him of many cases where the viewers' findings were confirmed by normal intelligence methods, a former Pentagon official, Lue Elizondo, calls Puthoff its godfather, and a Pentagon whistleblower, Matthew Brown, speaks of the problems with putting viewers on the official payroll."
 }

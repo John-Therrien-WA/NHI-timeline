@@ -1,0 +1,78 @@
+{
+  "id": "halls-of-amenti-ancient-library-under-the-sphinx",
+  "title": "Halls of Amenti ancient library under the Sphinx",
+  "summary": "Matt LaCroix tells of Halls of Amenti ancient library under the Sphinx, about ancient at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Giza, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 482.0,
+      "to_s": 495.0,
+      "teller": "matt-lacroix",
+      "quote": "now we're told by things like uh Edgar Casey and others that there was like an ancient library that was supposed to be underneath the Great Sphinx",
+      "kind": "secondhand",
+      "cites": [
+        "edgar-cayce"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 2094.0,
+      "to_s": 2107.0,
+      "teller": "luke-caverns",
+      "quote": "and he essentially, you know, had some kind of vision that there's this chamber beneath the Sphinx that holds this hall of records, you know, that that tells the story of Atlantis.",
+      "kind": "researcher",
+      "cites": [
+        "edgar-cayce"
+      ],
+      "documents": [],
+      "difference": "Told as Cayce's own vision, dated to the 1940s, and says the hall tells the story of Atlantis.",
+      "link_reason": "Both tell Edgar Cayce's claim of an ancient library, a hall of records, beneath the Sphinx.",
+      "as_told": {
+        "title": "Edgar Cayce's Hall of Records beneath the Sphinx",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Sphinx, Giza",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "luke-caverns",
+      "matt-lacroix"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several",
+  "plain": "This is a story about a hidden library said to lie under the Great Sphinx, the giant stone statue with a lion's body that sits at Giza in Egypt. A researcher named Matt LaCroix, talking to podcast host Jesse Michels, says we are told by Edgar Cayce, a man known for his visions, and by others that an ancient library was meant to be buried beneath the Sphinx. Another researcher, Luke Caverns, tells it on the same show as Cayce's own vision, which he dates to the 1940s. He says Cayce saw a chamber under the Sphinx holding a \"hall of records\" that tells the story of Atlantis, a legendary lost civilisation. If it were true, the oldest chapter of human history would be sitting in a room under the statue, waiting to be found."
+}

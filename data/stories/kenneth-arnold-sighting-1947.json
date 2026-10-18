@@ -70,6 +70,75 @@
         "place_text": "Pacific Northwest",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 4905.0,
+      "to_s": 4916.0,
+      "teller": "john-brandenburg",
+      "quote": "Kenneth Arnold saw them in um over Mount before. Two months before, and they were all over the country.",
+      "kind": "secondhand",
+      "cites": [
+        "kenneth-arnold"
+      ],
+      "documents": [],
+      "difference": "Adds that the craft were then being seen all over the country.",
+      "link_reason": "Both tell of Kenneth Arnold's 1947 sighting near Mount Rainier, two months before Roswell.",
+      "as_told": {
+        "title": "Kenneth Arnold sighting two months before Roswell",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Mount Rainier, Washington",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 8873.0,
+      "to_s": 8889.0,
+      "teller": "chris-bledsoe",
+      "quote": "In 1947, Kenneth Arnold sees uh these little chevrons flying about and they were kind of moving freely and you know half a dozen of them.",
+      "kind": "secondhand",
+      "cites": [
+        "kenneth-arnold"
+      ],
+      "documents": [],
+      "difference": "Describes about half a dozen chevrons and links the sighting to the origin of the phrase 'flying saucers'.",
+      "link_reason": "Kenneth Arnold's 1947 sighting of a flight of craft.",
+      "as_told": {
+        "title": "Kenneth Arnold sighting and the birth of the phrase 'flying saucers'",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "United States",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 4508.0,
+      "to_s": 4510.0,
+      "teller": "jesse-michels",
+      "quote": "where the saucer came from you know the",
+      "kind": "host",
+      "cites": [
+        "kenneth-arnold"
+      ],
+      "documents": [],
+      "difference": "Adds that Arnold's objects were crescents, not saucers, and that the word 'saucer' came from his description.",
+      "link_reason": "Both are about Kenneth Arnold's 1947 sighting. This telling stresses that the objects were crescent-shaped.",
+      "as_told": {
+        "title": "Kenneth Arnold objects were crescents, not saucers",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": null,
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [
@@ -90,14 +159,14 @@
     }
   ],
   "tags": [],
-  "score": 1.7,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 5,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 3,
     "researcher": 1,
     "host": 1,
     "documents": 0,
@@ -106,17 +175,22 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "chris-bledsoe",
       "david-grusch",
       "jesse-michels",
+      "john-brandenburg",
       "peter-levenda"
     ],
     "episodes": [
+      "Rjr3Yq-dMUE",
       "Y7PLeu5rTv4",
       "_bM9eAtCOGw",
-      "kRO5jOa06Qw"
+      "bM18PJY6_Zc",
+      "kRO5jOa06Qw",
+      "p0S0BfoZy0w"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.85,
   "tier": "told-by-several",
   "plain": "This story is about a pilot named Kenneth Arnold and what he saw from his plane in 1947, which many see as one of the first modern UFO sightings. A whistleblower, David Grusch, says Arnold was searching for a crashed cargo plane near Mount Rainier, in Washington state, two months before the famous Roswell case, a reported crash in New Mexico. A writer billed as a CIA historian, Peter Levenda, says Arnold was flying a mission in the Pacific Northwest and the Rockies and saw a group of odd craft moving at impossible speeds. A podcast host, Jesse Michels, simply points to it as a classic example. If true, it would mean unknown craft were flying over America in 1947."
 }

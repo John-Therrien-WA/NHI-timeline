@@ -1,0 +1,80 @@
+{
+  "id": "operation-snow-white-scientology-infiltration-1970",
+  "title": "Operation Snow White Scientology infiltration",
+  "summary": "Jay Anderson tells of Operation Snow White Scientology infiltration, about 1970s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 2492.0,
+      "to_s": 2498.0,
+      "teller": "jay-anderson",
+      "quote": "operation snow white. So that was when\nthey did that huge like infiltration of\nmultiple agencies including the IRS, CIA",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "kit-green-and-eric-walker-both-tied-to-glomar-explorer-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pat-price-remotely-reads-a-file-inside-a-top-security-cia-fa-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "princeton-parapsychology-lab-studied-uri-geller-brought-by-p-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "rogue-elements-of-us-government-managing-uap-programs-per-gr-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vallee-s-invisible-college-research-group-of-the-1970s",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jay-anderson"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A guest named Jay Anderson, speaking on podcast host Jesse Michels's show, recalls Operation Snow White, which he describes as a 1970s effort by Scientology, a religious movement, to infiltrate several US agencies. According to Anderson, these included the IRS, the US tax agency, and the CIA, the US foreign intelligence agency. He raises it as an example of how deeply outside groups could get inside the government."
+}

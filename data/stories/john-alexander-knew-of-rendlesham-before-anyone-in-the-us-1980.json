@@ -48,6 +48,29 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 8635.0,
+      "to_s": 8639.0,
+      "teller": "jesse-michels",
+      "quote": "I think he knew about Rendleshim before anybody else.",
+      "kind": "host",
+      "cites": [
+        "john-alexander"
+      ],
+      "documents": [],
+      "difference": "Bledsoe's conversation partner states it without limiting it to the United States.",
+      "link_reason": "The same claim that John Alexander knew about Rendlesham in 1980 before anyone else.",
+      "as_told": {
+        "title": "John Alexander knew about Rendlesham before anyone else",
+        "years": {
+          "from": 1980,
+          "to": 1980
+        },
+        "place_text": "Rendlesham Forest, UK",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -72,6 +95,7 @@
     ],
     "episodes": [
       "1sxmSMzqnmA",
+      "bM18PJY6_Zc",
       "bVhSPH2A5Vw"
     ]
   },

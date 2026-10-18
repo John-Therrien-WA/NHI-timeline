@@ -77,35 +77,93 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 515.0,
+      "to_s": 531.0,
+      "teller": "daniel-sheehan",
+      "quote": "and it turns out the whole thing was authorized I mean that the the United States defense department uh office of pre-publication review and security had cleared all of those videos to be shown",
+      "kind": "researcher",
+      "cites": [
+        "luis-elizondo",
+        "chris-mellon"
+      ],
+      "documents": [
+        "new-york-times-front-page-story-december-17-2017"
+      ],
+      "difference": "Names the Defense Department's Office of Prepublication and Security Review as the office that cleared the videos.",
+      "link_reason": "Both tell of the December 2017 New York Times release of the UFO videos, with the Pentagon clearing them, and both involve Elizondo and Mellon.",
+      "as_told": {
+        "title": "The December 2017 New York Times disclosure was cleared by the Defense Department",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 219.0,
+      "to_s": 233.0,
+      "teller": "jesse-michels",
+      "quote": "We've now found out that you know uh Chris Mel and Lou Alzando had a big part in the article. They came to her with these three videos that formerly were not acknowledged to be real by the Pentagon Office of Naval Intelligence, right?",
+      "kind": "host",
+      "cites": [
+        "chris-mellon",
+        "luis-elizondo",
+        "leslie-kaine"
+      ],
+      "documents": [
+        "tic-tac-video",
+        "go-fast-video",
+        "gimbal-video"
+      ],
+      "difference": "Names the videos (Tic Tac, Go Fast, Gimbal) and stresses that the Pentagon had not previously acknowledged them as real.",
+      "link_reason": "Same 2017 event: Mellon and Elizondo bring the three Navy videos to the New York Times.",
+      "as_told": {
+        "title": "Mellon and Elizondo bring three Navy videos to the Times",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.2,
+  "score": 4.7,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 1,
     "documents": 0,
-    "credited_documents": 3,
+    "credited_documents": 7,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "daniel-sheehan",
       "jesse-michels",
       "michael-shermer"
     ],
     "episodes": [
       "1f16VvXaSSE",
-      "8Rr_nE65KkI"
+      "2SQXAPCdmPE",
+      "8Rr_nE65KkI",
+      "KGD1nuM4MR8"
     ]
   },
-  "attestation": 1.1,
+  "attestation": 2.35,
   "tier": "well-attested",
   "plain": "This story is about how three military videos of UFOs came to be made public in 2017 through the New York Times. The podcast host Jesse Michels says that Lou Elizondo, a Pentagon official who worked on UFO matters, tried to brief the Secretary of Defense, General Jim Mattis, about UFOs, but was blocked by officials in between. Michels says Elizondo and his friend Christopher Mellon, a former senior Pentagon intelligence official, then went off script and got the Pentagon to clear three UFO videos for release. Michels stresses that putting the videos in a trusted outlet like the New York Times is what made people take notice after decades of silence. A well-known skeptic, Michael Shermer, also brings it up on the same podcast, but frames it as the moment the government said UAPs, its newer word for UFOs, are real, which Elizondo then repeated. It is told because, if the videos show what is claimed, the US military had recorded objects it could not explain."
 }

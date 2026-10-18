@@ -1,0 +1,85 @@
+{
+  "id": "ufo-working-group-funded-by-stubblebine-1986",
+  "title": "UFO Working Group funded by Stubblebine",
+  "summary": "UAPGerb tells of UFO Working Group funded by Stubblebine, about 1986 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1986,
+    "to": 1986
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 2637.0,
+      "to_s": 2647.0,
+      "teller": "uapgerb",
+      "quote": "Corso stated he learned that in 1986 there was a group created called the UFO working group",
+      "kind": "researcher",
+      "cites": [
+        "philip-corso",
+        "albert-stubblebine"
+      ],
+      "documents": [
+        "dawn-of-a-new-age"
+      ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7227.0,
+      "to_s": 7239.0,
+      "teller": "uapgerb",
+      "quote": "we look at the re or look at the manuscript of Corso, it kind of seems like around ' 86 the majestic 12 took on a new name, the UFO working group and got new blood like uh like Albert Stubble and some NSA people",
+      "kind": "researcher",
+      "cites": [
+        "philip-corso",
+        "albert-stubblebine"
+      ],
+      "documents": [
+        "corso-manuscript"
+      ],
+      "difference": "Says the group was MJ-12 under a new name and adds NSA people, citing Corso's manuscript.",
+      "link_reason": "Both tell Corso's claim that a UFO Working Group was formed in 1986 and involved Stubblebine.",
+      "as_told": {
+        "title": "MJ-12 renamed the UFO Working Group in 1986",
+        "years": {
+          "from": 1986,
+          "to": 1986
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A researcher who goes by UAPGerb, on Jesse Michels's podcast, cites Philip Corso, an Army officer who wrote about UFO secrets, and his writings, including an unpublished manuscript. According to UAPGerb, Corso said that in 1986 a group called the UFO Working Group was formed with support from Albert Stubblebine, an Army general. In one version UAPGerb adds that this was really Majestic 12, a supposed secret panel of officials said to manage UFO matters, under a new name, with new members including people from the NSA, the US spy agency for electronic signals."
+}

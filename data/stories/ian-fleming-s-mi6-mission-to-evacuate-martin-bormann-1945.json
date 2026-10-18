@@ -1,0 +1,57 @@
+{
+  "id": "ian-fleming-s-mi6-mission-to-evacuate-martin-bormann-1945",
+  "title": "Ian Fleming's MI6 mission to evacuate Martin Bormann",
+  "summary": "Jason Jorjani tells of Ian Fleming's MI6 mission to evacuate Martin Bormann, about 1945 at Germany; Argentina, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Germany; Argentina",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 4050.0,
+      "to_s": 4068.0,
+      "teller": "jason-jorjani",
+      "quote": "So Ian Fleming, who went on to write the Bond novels, was an MI6 operative whose specific mission at the end of the war was to facilitate the evacuation of Martin Borman to Argentina.",
+      "kind": "researcher",
+      "cites": [
+        "ian-fleming",
+        "martin-bormann"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher and author named Jason Jorjani says that Ian Fleming, who later wrote the James Bond novels, worked for MI6, Britain's foreign intelligence service, during the Second World War. According to Jorjani, Fleming's specific job at the end of the war in 1945 was to help Martin Bormann, one of Hitler's top aides, escape from Germany to Argentina, which would mean British intelligence quietly saved a senior Nazi."
+}

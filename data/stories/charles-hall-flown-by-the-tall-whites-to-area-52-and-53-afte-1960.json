@@ -24,33 +24,66 @@
         "charles-hall"
       ],
       "documents": []
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 2296.0,
+      "to_s": 2308.0,
+      "teller": "charles-hall",
+      "quote": "there was the next morning when they came down to get me and take me up to their base at up at Area 54, 53 to see if I needed a surgery on my knee.",
+      "kind": "firsthand",
+      "cites": [
+        "the-teacher",
+        "range-four-harry"
+      ],
+      "documents": [
+        "millennial-hospitality"
+      ],
+      "difference": "Told firsthand by Hall, who names Areas 54/53, describes a cargo craft and adds that US generals were present.",
+      "link_reason": "Both tell of Charles Hall being flown by the tall whites to their Area 52/53 base to check his injured knee.",
+      "as_told": {
+        "title": "Flown in a tall white cargo craft to the Area 54/53 base for a knee check, with US generals present",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "Range Four to the tall white scout craft hangar, Areas 53/54, Nevada",
+        "story_kind": "encounter"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "charles-hall-and-the-tall-whites-at-indian-springs-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "charles-hall"
     ],
     "episodes": [
+      "QgxjtDS2sIQ",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, retells a story from a man named Charles Hall, who says he was stationed at the Nevada desert test grounds in the 1960s and met tall pale beings he calls the Tall Whites. According to Hall, after he hurt his knee, the Tall Whites flew him from Area 51, a secret US Air Force base, to places he calls Area 52 and then Area 53, which would mean the military and these beings were working side by side."
 }

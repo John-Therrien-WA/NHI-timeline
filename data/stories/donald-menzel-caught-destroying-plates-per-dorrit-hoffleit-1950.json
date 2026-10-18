@@ -74,35 +74,131 @@
         "place_text": "Harvard, Massachusetts",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 1031.0,
+      "to_s": 1048.0,
+      "teller": "beatriz-villarroel",
+      "quote": "And he helped the uh US Air Force to debunk the Washington 1952 flap. Y and two or 3 months after he suddenly becomes the director of Harvard Observatory and he destroys one side of the photographic place",
+      "kind": "secondhand",
+      "cites": [
+        "donald-menzel",
+        "dorrit-hoffleit"
+      ],
+      "documents": [
+        "dorrit-hoffleit-s-memoirs"
+      ],
+      "difference": "Adds that Menzel had helped the Air Force debunk the 1952 Washington flap and did this two or three months after becoming observatory director.",
+      "link_reason": "Menzel destroying Harvard photographic plates, as documented by Dorrit Hoffleit.",
+      "as_told": {
+        "title": "Menzel debunks the Washington flap, then has Harvard photographic plates destroyed",
+        "years": {
+          "from": 1952,
+          "to": 1953
+        },
+        "place_text": "Harvard College Observatory, Cambridge, Massachusetts",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 920.0,
+      "to_s": 927.0,
+      "teller": "beatriz-villarroel",
+      "quote": "suddenly becomes the director of Harvard Observatory and he destroys onethird of the photographic place",
+      "kind": "researcher",
+      "cites": [
+        "donald-menzel",
+        "dory-toughlight"
+      ],
+      "documents": [
+        "dory-toughlight-memoirs"
+      ],
+      "difference": "Told by Villarroel, who says a third of the plates were destroyed after he became observatory director.",
+      "link_reason": "Both tell of Menzel destroying Harvard photographic plates, documented by Dorrit Hoffleit (spelled here as 'Dory Toughlight').",
+      "as_told": {
+        "title": "Menzel orders a third of Harvard's photographic plates destroyed",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Harvard College Observatory, Massachusetts",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "lbGE3EC6StE",
+        "from_s": 1031.0
+      }
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 903.0,
+      "to_s": 911.0,
+      "teller": "beatriz-villarroel",
+      "quote": "And two or three months after, he suddenly becomes the director of Harvard Observatory, and he destroys 1/3 of the photographic plates.",
+      "kind": "secondhand",
+      "cites": [
+        "donald-menzel",
+        "dorrit-hoffleit"
+      ],
+      "documents": [
+        "dorrit-hoffleit-memoirs"
+      ],
+      "difference": "Says it was a third of the plates, done in 1952 soon after Menzel became director.",
+      "link_reason": "Menzel destroying Harvard plates, as documented by Dorrit Hoffleit.",
+      "as_told": {
+        "title": "Donald Menzel destroys a third of the Harvard plates",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Harvard Observatory",
+        "story_kind": "document"
+      },
+      "replay_of": {
+        "episode": "lbGE3EC6StE",
+        "from_s": 1031.0
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "jfk-on-the-harvard-astronomy-department-s-board-of-overseers-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 2.0,
+  "score": 4.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 5,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "beatriz-villarroel",
       "jesse-michels"
     ],
     "episodes": [
+      "1zRWi_r3HRM",
+      "Jpf0ZGY87c0",
       "h0hAit-KH9A",
+      "lbGE3EC6StE",
       "u7g5Sn1DJF4",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 2.25,
+  "tier": "well-attested",
   "plain": "The podcast host Jesse Michels says that Donald Menzel, an astronomer at Harvard in the 1950s, was caught destroying astronomical plates, the glass photographs of the night sky that observatories keep as records. Michels says the person who caught him was Dorrit Hoffleit, a respected Harvard astronomer whom he also describes as Menzel's assistant, and that she wrote about it in her book. If true, a leading scientist would have been getting rid of records of the sky."
 }

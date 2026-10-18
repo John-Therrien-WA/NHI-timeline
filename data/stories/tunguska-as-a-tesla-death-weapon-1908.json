@@ -1,0 +1,62 @@
+{
+  "id": "tunguska-as-a-tesla-death-weapon-1908",
+  "title": "Tunguska as a Tesla death weapon",
+  "summary": "Jesse Michels tells of Tunguska as a Tesla death weapon, about 1908 at Tunguska, Siberia, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1908,
+    "to": 1908
+  },
+  "place": null,
+  "place_text": "Tunguska, Siberia",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 7582.0,
+      "to_s": 7594.0,
+      "teller": "jesse-michels",
+      "quote": "some people have this conspiracy that Tesla the Tangusa 1908 Siberia asteroid impact was actually just a Tesla death weapon",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "tunguska-air-burst-as-part-of-the-taurid-stream-1908",
+      "relation": "variant",
+      "note": "This is the same 1908 Tunguska event, but it is explained as a Tesla death weapon instead of a natural air burst from the Taurid stream."
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, mentions a theory about Tunguska, a huge explosion over Siberia in 1908 that he calls an asteroid impact. He says some people believe it was really a test of a \"death weapon\" built by the inventor Nikola Tesla, which would mean a man made that blast, not something from space."
+}

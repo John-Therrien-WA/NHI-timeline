@@ -68,6 +68,49 @@
         "place_text": "ocean floor",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 2068.0,
+      "to_s": 2074.0,
+      "teller": "tim-alberino",
+      "quote": "Who said that uh you know among the craft that he saw in the hangers at the S4 facility,",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Calls the craft ancient and says nothing about the dig being underwater or a Navy find.",
+      "link_reason": "Both tell Lazar's claim that the craft at S4 came from an archaeological dig.",
+      "as_told": {
+        "title": "Ancient craft at S4 recovered from an archaeological dig",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "S4, Nevada",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3991.0,
+      "to_s": 4000.0,
+      "teller": "jesse-michels",
+      "quote": "And that's what this guy Bazar at Area 51, he said that what the craft he or they found, one of the crafts they found was found on the sea floor.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Says only 'one of the crafts' was found on the sea floor, and doesn't mention the Navy, the archaeological dig or Barry Castilio.",
+      "link_reason": "Both tell Lazar's claim that the craft he worked on was recovered from the sea floor rather than a desert site.",
+      "as_told": {
+        "title": "Lazar: a craft at Area 51 was found on the sea floor",
+        "years": null,
+        "place_text": "Area 51, Nevada; sea floor",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -84,13 +127,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "bob-lazar"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
+      "CiQTBOQ1dTg",
       "d9tdJ2SkBKQ",
       "nRKNVFQBi38",
       "yGtVzBbUvx4"

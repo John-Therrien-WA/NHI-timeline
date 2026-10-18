@@ -27,6 +27,28 @@
       "documents": [
         "presidential-emergency-action-directives"
       ]
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 7014.0,
+      "to_s": 7024.0,
+      "teller": "grant-cameron",
+      "quote": "realize like Semivan points out this is a P. This is a presidential emergency action document. This is how it started, which means it's an executive program. The president is running the cover up.",
+      "kind": "secondhand",
+      "cites": [
+        "jim-semivan"
+      ],
+      "documents": [
+        "presidential-emergency-action-document"
+      ],
+      "difference": "Does not name Eisenhower; frames the document as how the cover-up began, making it a presidential executive program.",
+      "link_reason": "Both say, crediting Jim Semivan, that the UFO cover-up runs under presidential emergency action documents.",
+      "as_told": {
+        "title": "UFO cover-up began as a presidential emergency action document",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -34,32 +56,39 @@
       "story": "puharich-s-journal-records-a-meeting-with-allen-dulles-1950",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "embassy-correspondence-waiting-for-the-americans-to-make-a-s-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "eric-davis"
+      "eric-davis",
+      "grant-cameron"
     ],
     "episodes": [
+      "fpUa3xJN64Q",
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "Eric Davis, a physicist who has worked on Pentagon studies of UFOs, told Jesse Michels in 2026 that the presidential emergency action directives, secret orders for what the White House does in a crisis, were started under President Eisenhower in the 1950s. Davis says these rules are very strict and have been carried forward on many topics, and that he and Jim Semivan, a former CIA officer, know they were set up for UFOs too. If true, UFO secrecy would sit inside some of the government's most guarded orders."
 }

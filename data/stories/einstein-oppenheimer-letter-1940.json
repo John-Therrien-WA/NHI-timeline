@@ -1,0 +1,85 @@
+{
+  "id": "einstein-oppenheimer-letter-1940",
+  "title": "Einstein-Oppenheimer letter",
+  "summary": "Richard Dolan tells of Einstein-Oppenheimer letter, about 1940s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 1560.0,
+      "to_s": 1567.0,
+      "teller": "richard-dolan",
+      "quote": "There's another letter uh supposedly from Albert Einstein Oenheimer. Very interesting document.",
+      "kind": "researcher",
+      "cites": [
+        "albert-einstein",
+        "j-robert-oppenheimer"
+      ],
+      "documents": [
+        "einstein-oppenheimer-letter"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "fbi-document-calling-brown-the-navy-s-lead-radar-scientist-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fdr-letters-showing-awareness-of-the-phenomenon-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "forrestal-s-published-diaries-never-mention-ufos-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "william-dudley-pelley-s-star-guests-and-soulcraft-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "richard-dolan"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A UFO researcher and historian named Richard Dolan, on Jesse Michels's podcast, mentions a letter said to be from the physicist Albert Einstein to Robert Oppenheimer, the scientist who led the US atomic bomb project, dating from around the 1940s. Dolan calls it \"supposedly\" from Einstein and \"a very interesting document\", without saying more about what it contains. He raises it as one of several papers that, if real, would suggest top American scientists of that era knew something about the phenomenon."
+}

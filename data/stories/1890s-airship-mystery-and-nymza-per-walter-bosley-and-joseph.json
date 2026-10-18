@@ -1,0 +1,63 @@
+{
+  "id": "1890s-airship-mystery-and-nymza-per-walter-bosley-and-joseph",
+  "title": "1890s airship mystery and NYMZA, per Walter Bosley and Joseph Farrell",
+  "summary": "Salvatore Pais tells of 1890s airship mystery and NYMZA, per Walter Bosley and Joseph Farrell, about 1890s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1890,
+    "to": 1899
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 6116.0,
+      "to_s": 6130.0,
+      "teller": "salvatore-pais",
+      "quote": "What I'm worried about is uh Walter Bosley, you know, the friend of Dr. Joseph Pharaoh, Walter Bosley, the whole idea of Nenza. Who the were these guys? The airship quote unquote mystery.",
+      "kind": "researcher",
+      "cites": [
+        "walter-bosley",
+        "joseph-farrell"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "1890s-airship-sightings-as-a-culturally-shaped-perception",
+      "relation": "variant",
+      "note": "Both are about the 1890s airship sightings. The story treats them as culturally shaped perception, while this telling, following Bosley and Farrell, ties them to a real secret group called NYMZA."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "salvatore-pais"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Salvatore Pais, a Navy scientist who holds patents on unusual craft, speaking on a podcast, brings up the 'airship mystery' of the 1890s, when strange flying machines were reported across the United States. He mentions a writer, Walter Bosley, friend of another writer, Joseph Farrell, and Bosley's idea of a group called NYMZA, asking who these people really were. The suggestion is that someone on the ground may have been flying those airships."
+}

@@ -41,6 +41,26 @@
         "place_text": "Savannah River Site, South Carolina",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5834.0,
+      "to_s": 5840.0,
+      "teller": "jesse-michels",
+      "quote": "had his own UFO setting at Savannah River Site as plutonium, you know, reactor in South Carolina.",
+      "kind": "host",
+      "cites": [
+        "james-mcdonald"
+      ],
+      "documents": [],
+      "difference": "Describes the site as a plutonium reactor in South Carolina.",
+      "link_reason": "Both are physicist James McDonald's own UFO sighting at the Savannah River Site.",
+      "as_told": {
+        "title": "James McDonald's own UFO sighting at Savannah River Site",
+        "years": null,
+        "place_text": "Savannah River Site, South Carolina",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -66,7 +86,8 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
-      "fzvwBBSmWYA"
+      "fzvwBBSmWYA",
+      "p0S0BfoZy0w"
     ]
   },
   "attestation": 0.6,

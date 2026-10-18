@@ -1,0 +1,53 @@
+{
+  "id": "biefeld-brown-effect-and-townsend-brown",
+  "title": "Biefeld-Brown effect and Townsend Brown",
+  "summary": "Jesse Michels tells of Biefeld-Brown effect and Townsend Brown, about an unknown time at an unknown place, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 12566.0,
+      "to_s": 12573.0,
+      "teller": "jesse-michels",
+      "quote": "have been discovered like the Biffield Brown effect, which you know, I'm obsessed with this Townsen Brown character,",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, mentions something called the Biefeld-Brown effect, an idea that very high voltage across certain devices can make them push themselves along. It is named partly after an inventor, Townsend Brown, and Michels says he is obsessed with Brown and counts the effect among real discoveries. If he is right, it would point to an unusual way of moving a craft without engines as we know them."
+}

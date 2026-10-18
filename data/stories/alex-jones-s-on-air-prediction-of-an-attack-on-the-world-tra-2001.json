@@ -1,0 +1,80 @@
+{
+  "id": "alex-jones-s-on-air-prediction-of-an-attack-on-the-world-tra-2001",
+  "title": "Alex Jones's on-air prediction of an attack on the World Trade Center",
+  "summary": "Jesse Michels tells of Alex Jones's on-air prediction of an attack on the World Trade Center, about 2001 at World Trade Center, New York, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2001,
+    "to": 2001
+  },
+  "place": "united-states",
+  "place_text": "World Trade Center, New York",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 296.0,
+      "to_s": 308.0,
+      "teller": "jesse-michels",
+      "quote": "Alex Jones say what you will about the guy as far as so his other beliefs but are you familiar with he he had an on air call or if you let some terrorist group drew it like the World Trade Center we know who to blame",
+      "kind": "host",
+      "cites": [
+        "alex-jones"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 2101.0,
+      "to_s": 2110.0,
+      "teller": "jesse-michels",
+      "quote": "he he had an onair call on CNN where he goes Osama b l if you take down the the Twin Towers I'm gonna come after you",
+      "kind": "host",
+      "cites": [
+        "alex-jones"
+      ],
+      "documents": [],
+      "difference": "Places the call on CNN and has it addressed to Osama bin Laden.",
+      "link_reason": "Same story of Alex Jones's on-air call warning about an attack on the World Trade Center.",
+      "as_told": {
+        "title": "Alex Jones' CNN call warning Osama bin Laden about the Twin Towers",
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "place_text": "CNN broadcast, United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RofQnByLwOo",
+      "hXYdkcv5TtY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Alex Jones, a radio host known for his unusual beliefs, made an on-air warning before the September 2001 attacks on the World Trade Center in New York, saying that if a terrorist group hit the towers, people would know who to blame. In another episode Michels tells it a little differently, placing the call on the news channel CNN and having Jones speak directly to Osama bin Laden. Michels brings it up in talks about seeing the future, as a possible case of someone sensing an event before it happened."
+}

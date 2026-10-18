@@ -22,6 +22,29 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 3457.0,
+      "to_s": 3467.0,
+      "teller": "jesse-michels",
+      "quote": "In 2017, we discovered Amua Mua, the first ever interstellar object to visit our solar system.",
+      "kind": "host",
+      "cites": [
+        "avi-loeb"
+      ],
+      "documents": [],
+      "difference": "Leaves out Pan-STARRS and Hawaii, and calls it the first interstellar object ever seen in the solar system.",
+      "link_reason": "Both tell of the 2017 discovery of 'Oumuamua as the first interstellar object.",
+      "as_told": {
+        "title": "Oumuamua, the first interstellar object",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "Solar system",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -45,7 +68,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "_bM9eAtCOGw"
+      "_bM9eAtCOGw",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.1,

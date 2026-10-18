@@ -25,11 +25,39 @@
         "george-knapp"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 4124.0,
+      "to_s": 4129.0,
+      "teller": "jesse-michels",
+      "quote": "He said the power source. He went on my show and he talked about a pyramid structure.",
+      "kind": "secondhand",
+      "cites": [
+        "jeremy-corbell"
+      ],
+      "documents": [],
+      "difference": "Told second-hand by Michels from Corbell's appearance on his show, rather than by Corbell himself.",
+      "link_reason": "Both tell Corbell's claim that ODNI said Borland drew a pyramid-shaped power source in his ICIG testimony.",
+      "as_told": {
+        "title": "Jeremy Corbell's claim of a pyramid-shaped NHI power source drawing for ODNI",
+        "years": {
+          "from": 2023,
+          "to": 2025
+        },
+        "place_text": "ODNI, United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
     {
       "story": "40-people-told-icig-of-reverse-engineering-program-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "charles-buhler-leaves-nasa-for-propellantless-propulsion-bas-2020",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -47,14 +75,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "jeremy-corbell"
     ],
     "episodes": [
-      "-XdvIrexF08"
+      "-XdvIrexF08",
+      "K4gYHs84BIc"
     ]
   },
   "attestation": 0.5,

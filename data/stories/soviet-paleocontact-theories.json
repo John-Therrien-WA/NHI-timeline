@@ -1,0 +1,54 @@
+{
+  "id": "soviet-paleocontact-theories",
+  "title": "Soviet paleocontact theories",
+  "summary": "Jesse Michels tells of Soviet paleocontact theories, about mid-20th century at USSR, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "USSR",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 2144.0,
+      "to_s": 2154.0,
+      "teller": "jesse-michels",
+      "quote": "Figures like Alexander Kazantsev and Felix Zigel proposed that alien visitors may have influenced early human development,",
+      "kind": "host",
+      "cites": [
+        "alexander-kazantsev",
+        "felix-zigel"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in the Soviet Union, figures named Alexander Kazantsev and Felix Zigel put forward the idea that alien visitors may have shaped early human development. This idea is often called paleocontact, meaning contact with outsiders in the ancient past. If true, it would mean human history was nudged along by beings from elsewhere."
+}

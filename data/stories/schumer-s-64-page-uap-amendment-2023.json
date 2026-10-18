@@ -134,6 +134,56 @@
         "place_text": "US Congress",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 774.0,
+      "to_s": 784.0,
+      "teller": "daniel-sheehan",
+      "quote": "here's the Congress of the United States both the the Senate and House signed by the president ordering all six of the United States military services",
+      "kind": "researcher",
+      "cites": [
+        "chuck-schumer"
+      ],
+      "documents": [
+        "schumer-amendment-to-the-fy2024-national-defense-authorizati"
+      ],
+      "difference": "Says the law orders all military services and agencies to gather their UFO records since 1945, and stresses that it was signed by the president.",
+      "link_reason": "Both are about the Schumer UAP amendment to the FY2024 NDAA.",
+      "as_told": {
+        "title": "The NDAA orders all agencies to compile their UFO records since 1945",
+        "years": {
+          "from": 2023,
+          "to": 2024
+        },
+        "place_text": "U.S. Congress",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "IFaXi-NrPV0",
+      "from_s": 7418.0,
+      "to_s": 7434.0,
+      "teller": "jesse-michels",
+      "quote": "even coordinate with each other. So in the US, we even have bill we have we have a bill that the Senate Majority Leader Chuck Schumer just uh presented to the floor. It has it mentions UAP and NHI non-human intelligence 65 times.",
+      "kind": "host",
+      "cites": [
+        "chuck-schumer"
+      ],
+      "documents": [
+        "schumer-uap-bill"
+      ],
+      "difference": "Says UAP and NHI are mentioned 65 times, where another telling says NHI appears 22 times.",
+      "link_reason": "Both are about Schumer's UAP disclosure bill and how it names non-human intelligence.",
+      "as_told": {
+        "title": "Schumer's bill mentions UAP and NHI 65 times",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "US Senate",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -149,23 +199,25 @@
     }
   ],
   "tags": [],
-  "score": 5.6,
+  "score": 7.3,
   "profile": {
-    "independent_tellers": 5,
+    "independent_tellers": 7,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 3,
-    "host": 0,
+    "researcher": 4,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 3,
+    "credited_documents": 5,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "daniel-sheehan",
       "david-grusch",
+      "jesse-michels",
       "karl-nell",
       "matthew-pines",
       "merrick",
@@ -173,12 +225,14 @@
     ],
     "episodes": [
       "1iaH1a3A4Lk",
+      "2SQXAPCdmPE",
+      "IFaXi-NrPV0",
       "LpLFWdsIU7M",
       "aa9Xx5wI8Rw",
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 2.8,
+  "attestation": 3.65,
   "tier": "well-attested",
   "plain": "In 2023, US Senator Chuck Schumer put forward a long amendment, a proposed addition to a law, about UAP, the official term for unexplained objects in the sky. It is often called the UAP Disclosure Act. David Grusch, a man who speaks publicly about secret UFO programs, says Schumer was pushed into writing the 64-page text, and that it openly talks about non-human technology and its recovery. If true, senior senators believe the government holds things that were not made by people. Others name the senators who joined him, including Mike Rounds, Kirsten Gillibrand, Martin Heinrich, Todd Young and Marco Rubio. A man named Karl Nell, speaking from official experience, says the bill basically says Congress is not being told the truth. A commentator, Merrick von Rennenkampff, says the bill mentions non-human intelligence 22 times and also mentions biological evidence. The tellings agree on Schumer and differ in which details they stress."
 }

@@ -1,0 +1,78 @@
+{
+  "id": "icecube-as-a-two-way-device-earthquake-gun",
+  "title": "IceCube as a two-way device / earthquake gun",
+  "summary": "Jay Anderson tells of IceCube as a two-way device / earthquake gun, about unspecified at Antarctica, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "antarctica",
+  "place_text": "Antarctica (IceCube Neutrino Observatory); Christchurch, New Zealand",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 5784.0,
+      "to_s": 5792.0,
+      "teller": "jay-anderson",
+      "quote": "well he's found documentation to be fair to him like documents that >> insinuate it's a two-way device that the energy can be used to actually emit",
+      "kind": "secondhand",
+      "cites": [
+        "eric-hecker"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 7545.0,
+      "to_s": 7554.0,
+      "teller": "jesse-michels",
+      "quote": ">> Well, there's that guy there's the Eric Hecker guy who says that um there are like neutrino detectors and emitters on the South Pole",
+      "kind": "host",
+      "cites": [
+        "eric-hecker"
+      ],
+      "documents": [],
+      "difference": "The host tells it directly as Hecker's claim, with no mention of documents.",
+      "link_reason": "Both tell Eric Hecker's claim that the South Pole neutrino installation can emit as well as detect, a two-way device. The telling is about to lead into tectonic weapons.",
+      "as_told": {
+        "title": "Eric Hecker's South Pole neutrino emitters claim",
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "place_text": "South Pole / Christchurch, New Zealand",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jay-anderson",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "51N8OxqZIWY",
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several",
+  "plain": "This story is about IceCube, a large science station at the South Pole in Antarctica that is built to detect neutrinos, tiny particles that pass through almost everything. A man named Eric Hecker says it can also send energy out, not just take it in. Jay Anderson, a guest on Jesse Michels' podcast, says Hecker found documents suggesting it is a two-way device that can emit energy, and the story calls it an \"earthquake gun.\" Michels himself retells it simply as Hecker's claim that there are neutrino detectors and emitters at the South Pole. If true, a science station would really be hiding a weapon."
+}

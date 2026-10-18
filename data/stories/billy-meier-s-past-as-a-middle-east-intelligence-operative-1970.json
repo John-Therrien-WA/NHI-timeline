@@ -26,6 +26,33 @@
       "documents": [
         "closer-encounters"
       ]
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 6270.0,
+      "to_s": 6274.0,
+      "teller": "jason-jorjani",
+      "quote": "The guy was 007. He was a James Bond",
+      "kind": "researcher",
+      "cites": [
+        "billy-meier"
+      ],
+      "documents": [
+        "closer-encounters"
+      ],
+      "difference": "Gives no years, where the story places it in the 1970s.",
+      "link_reason": "Both are Jorjani's account of Billy Meier's past as a James Bond-style intelligence operative in Tehran, Turkey and Switzerland.",
+      "as_told": {
+        "title": "Billy Meier as a Middle East intelligence operative",
+        "years": null,
+        "place_text": "Tehran; Turkey; Switzerland",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "EzPmG_7WhXc",
+        "from_s": 9905.0
+      },
+      "teller_was": "jason-reza-jorjani"
     }
   ],
   "related": [],
@@ -49,7 +76,8 @@
       "jason-jorjani"
     ],
     "episodes": [
-      "EzPmG_7WhXc"
+      "EzPmG_7WhXc",
+      "Rjr3Yq-dMUE"
     ]
   },
   "attestation": 0.5,

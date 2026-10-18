@@ -24,6 +24,31 @@
       "documents": [
         "immaculate-constellation-report"
       ]
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 2732.0,
+      "to_s": 2747.0,
+      "teller": "jesse-michels",
+      "quote": "Michael Shallon, this journalist, just testified in front of Congress, put out this 12-page report, uh, Immaculate Constellation, this program that seemed to be some unagnowledged special access program in the US.",
+      "kind": "host",
+      "cites": [
+        "michael-shellenberger"
+      ],
+      "documents": [
+        "immaculate-constellation-report"
+      ],
+      "difference": "Calls it a 12-page report on an unacknowledged special access program and links it to Shellenberger's congressional testimony; it does not say it was a large strategic intelligence project.",
+      "link_reason": "Both are about Michael Shellenberger's 2024 Immaculate Constellation report, told as a document he published and spoke about to Congress.",
+      "as_told": {
+        "title": "Shellenberger's Immaculate Constellation report",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "United States Congress",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -34,6 +59,11 @@
     },
     {
       "story": "aaro-historical-report-misstated-michael-herrera-s-testimony-2024",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jeremy-corbell-and-the-missing-page-of-the-shellenberger-rel-2024",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -51,14 +81,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "journalist",
     "tellers": [
       "michael-shellenberger"
     ],
     "episodes": [
-      "DPmO-2E7Ayg"
+      "DPmO-2E7Ayg",
+      "lbGE3EC6StE"
     ]
   },
   "attestation": 0.85,

@@ -25,6 +25,27 @@
         "adolf-hitler"
       ],
       "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7322.0,
+      "to_s": 7330.0,
+      "teller": "jesse-michels",
+      "quote": "rumors are that the you have this magenta crash and then uh Mussolini goes to Hitler and says, \"Is this yours?\" to the Nazis, right?",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives Mussolini's question as \"Is this yours?\"",
+      "link_reason": "Both tell of Mussolini going to Hitler after the Magenta crash to ask whether the craft was German.",
+      "as_told": {
+        "title": "Mussolini asks Hitler about the Magenta craft",
+        "years": {
+          "from": 1930,
+          "to": 1939
+        },
+        "place_text": "Italy and Germany",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -48,7 +69,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 0.1,

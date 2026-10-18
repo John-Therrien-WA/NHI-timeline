@@ -1,0 +1,58 @@
+{
+  "id": "reuters-story-quoting-flavio-estrada-that-the-mummies-are-do-2024",
+  "title": "Reuters story quoting Flavio Estrada that the mummies are dolls",
+  "summary": "Jesse Michels tells of Reuters story quoting Flavio Estrada that the mummies are dolls, about 2024 at Peru, and reports it citing named sources. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2024,
+    "to": 2024
+  },
+  "place": null,
+  "place_text": "Peru",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 1316.0,
+      "to_s": 1330.0,
+      "teller": "jesse-michels",
+      "quote": "In early 2024, Reuters published this about the Nazca mummies. They're not extraterrestrials, they're dolls made from animal bones from this planet joined together with modern synthetic glue, said Flavio Estrada.",
+      "kind": "journalist",
+      "cites": [
+        "flavio-estrada"
+      ],
+      "documents": [
+        "reuters-article-on-the-nazca-mummies"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "HxQN2tkQHs8"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, recalls that in early 2024 the news agency Reuters ran a story about the Nazca mummies, small three-fingered bodies from Peru that some say are not human. In it, a man named Flavio Estrada is quoted saying they are not extraterrestrials but dolls made from animal bones from this planet, joined with modern synthetic glue."
+}

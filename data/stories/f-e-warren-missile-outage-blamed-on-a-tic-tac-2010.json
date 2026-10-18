@@ -71,11 +71,86 @@
         "place_text": "F.E. Warren Air Force Base, Wyoming",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 3274.0,
+      "to_s": 3284.0,
+      "teller": "jesse-michels",
+      "quote": "there was even a case in as late as 2010 right after he retired in 2008 uh at Fe Warren in Wyoming where there was an outage for an hour",
+      "kind": "host",
+      "cites": [
+        "robert-hastings"
+      ],
+      "documents": [
+        "ufos-and-nukes",
+        "wired-magazine-article"
+      ],
+      "difference": "Gives the outage as lasting an hour and cites UFOs and Nukes and a Wired article.",
+      "link_reason": "Both describe the 2010 F.E. Warren missile outage linked to a Tic Tac-shaped object, credited to Robert Hastings.",
+      "as_told": {
+        "title": "A Tic Tac-shaped object linked to a missile outage at F.E. Warren",
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "place_text": "F.E. Warren Air Force Base, Wyoming",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 2074.0,
+      "to_s": 2083.0,
+      "teller": "jesse-michels",
+      "quote": "Fe Warren\nuh nuclear base in Wyoming where you had\nthis outage for an hour on the base",
+      "kind": "secondhand",
+      "cites": [
+        "robert-hastings"
+      ],
+      "documents": [
+        "ufos-and-nukes"
+      ],
+      "difference": "Gives the outage as lasting an hour.",
+      "link_reason": "Same 2010 F.E. Warren missile outage tied to a tic tac object.",
+      "as_told": {
+        "title": "F.E. Warren outage and tic tac object",
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "place_text": "F.E. Warren nuclear base, Wyoming",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 12058.0,
+      "to_s": 12081.0,
+      "teller": "jesse-michels",
+      "quote": "There's a 2010 case in Effie Warren\nwhere\nliterally Obama gets briefed because it\nwas down for, you know, they say it was\n59 minutes, but I think so this Bob\nHastings back channeled with this\nretired missile technician, and he was\nin touch with some missile technicians\non site, and they attribute it to this\ncigar-shaped object",
+      "kind": "secondhand",
+      "cites": [
+        "robert-hastings",
+        "barack-obama"
+      ],
+      "documents": [],
+      "difference": "Calls the object cigar-shaped rather than a Tic Tac, gives the 59-minute outage, says Obama was briefed, and credits a retired missile technician back channel.",
+      "link_reason": "Both describe the 2010 F.E. Warren missile outage, which on-site personnel tied to a craft seen in the local airspace. Hastings is the source in both.",
+      "as_told": {
+        "title": "2010 F.E. Warren missile shutdown attributed to cigar-shaped object",
+        "years": {
+          "from": 2010,
+          "to": 2010
+        },
+        "place_text": "F.E. Warren AFB, Wyoming",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -86,7 +161,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -94,12 +169,15 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
+      "5udx_SDdL3Y",
       "8Rr_nE65KkI",
+      "ATJwqp5twAg",
       "bVhSPH2A5Vw",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, tells of a 2010 event at F.E. Warren Air Force Base in Wyoming, a base that controls nuclear missiles, where he says key staff reported several separate UFO sightings at the same time as a power failure. He credits the researcher Robert Hastings and a Wired magazine article, and in one telling says people on site, through back channels, describe a white oval object shaped like a Tic Tac mint flying around, pairing it with a 1967 case at another missile base, Malmstrom. If true, it would mean unknown craft are taking an interest in nuclear weapons."
 }

@@ -1,0 +1,56 @@
+{
+  "id": "montauk-experiments-1950",
+  "title": "Montauk experiments",
+  "summary": "Jesse Michels tells of Montauk experiments, about 1950s-1960s at Montauk, New York, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Montauk, New York",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "QkuDvTFN7ms",
+      "from_s": 1135.0,
+      "to_s": 1144.0,
+      "teller": "jesse-michels",
+      "quote": "I believe that there was like this machinery they found at Montalk and blanking on the name of the author of the book, but Preston something",
+      "kind": "host",
+      "cites": [
+        "preston-nichols"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "QkuDvTFN7ms"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels mentions the Montauk experiments, secret experiments said to have been carried out in Montauk, New York, in the 1950s and 1960s. He says he believes some kind of machinery was found there, and he points to a book by an author he remembers as \"Preston something,\" Preston Nichols. If that is true, it would mean the government ran hidden experiments there that the public never heard about."
+}

@@ -21,6 +21,30 @@
         "matthew-pines"
       ],
       "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 2606.0,
+      "to_s": 2612.0,
+      "teller": "jesse-michels",
+      "quote": "my buddy Matt Pines made the connection that Lou Alzando is actually part of this group called Gray Fox.",
+      "kind": "secondhand",
+      "cites": [
+        "matt-pines",
+        "luis-elizondo"
+      ],
+      "documents": [],
+      "difference": "Dates it to the 2000s.",
+      "link_reason": "Both relay Matt Pines's claim that Elizondo was a member of Gray Fox (the Intelligence Support Activity).",
+      "as_told": {
+        "title": "Lue Elizondo in Gray Fox",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -44,7 +68,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 0.5,

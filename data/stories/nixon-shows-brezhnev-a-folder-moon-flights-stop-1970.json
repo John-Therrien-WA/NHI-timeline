@@ -1,0 +1,92 @@
+{
+  "id": "nixon-shows-brezhnev-a-folder-moon-flights-stop-1970",
+  "title": "Nixon shows Brezhnev a folder; moon flights stop",
+  "summary": "Kiran Ilum Xenov tells of Nixon shows Brezhnev a folder; moon flights stop, about Early 1970s at US-Soviet summit, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1973
+  },
+  "place": "united-states",
+  "place_text": "US-Soviet summit",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IFaXi-NrPV0",
+      "from_s": 2829.0,
+      "to_s": 2841.0,
+      "teller": "kiran-ilum-xenov",
+      "quote": "remained, the president of the United States had a small folder like this that he opened and showed to Brev and Andropov was present at that meeting.",
+      "kind": "secondhand",
+      "cites": [
+        "mikhail-gorbachev",
+        "yuri-andropov",
+        "leonid-brezhnev",
+        "richard-nixon"
+      ],
+      "documents": [
+        "folder-shown-by-the-us-president-to-brezhnev"
+      ]
+    },
+    {
+      "episode": "IFaXi-NrPV0",
+      "from_s": 4975.0,
+      "to_s": 4989.0,
+      "teller": "jesse-michels",
+      "quote": "On that note, when you mentioned Nixon and Brev speaking and Nixon giving information to the Soviet Union in the 70s about what the CIA and the White House knew about UFOs and aliens,",
+      "kind": "host",
+      "cites": [
+        "richard-nixon",
+        "leonid-brezhnev"
+      ],
+      "documents": [],
+      "difference": "Says the information covered what the CIA and the White House knew, and leaves out the folder detail and the end of the moon flights.",
+      "link_reason": "The host explicitly goes back to the earlier account of Nixon showing Brezhnev UFO information in the 1970s.",
+      "as_told": {
+        "title": "Nixon passed US UFO knowledge to the Soviet Union",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "United States / Soviet Union",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "kissinger-letter-to-nixon-on-prisoners-pows-abandoned-in-lao-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "kiran-ilum-xenov"
+    ],
+    "episodes": [
+      "IFaXi-NrPV0"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is set at a meeting between the American and Soviet leaders in the early 1970s. A man named Kiran Ilum Xenov, introduced on a podcast as the president of a Russian republic, tells it to the host, Jesse Michels. Xenov passes on what he says he was told, and among the names he cites is the later Soviet leader Mikhail Gorbachev. According to Xenov, once the others had left the room, US President Richard Nixon opened a small folder and showed it to the Soviet leader Leonid Brezhnev, with a senior Soviet figure named Yuri Andropov present. The story, as titled, links that moment to the end of the American flights to the moon. Michels repeats it in his own words in the same conversation, saying Nixon gave the Soviet Union information about what the CIA, the American spy agency, and the White House knew about UFOs and aliens, though he leaves out the folder and the moon flights. If true, it would mean the two rival powers privately shared secrets about aliens."
+}

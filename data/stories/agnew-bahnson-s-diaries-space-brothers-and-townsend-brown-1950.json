@@ -1,0 +1,92 @@
+{
+  "id": "agnew-bahnson-s-diaries-space-brothers-and-townsend-brown-1950",
+  "title": "Agnew Bahnson's diaries, space brothers and Townsend Brown",
+  "summary": "Jesse Michels tells of Agnew Bahnson's diaries, space brothers and Townsend Brown, about 1950s at UNC Chapel Hill, Institute of Field Physics, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "UNC Chapel Hill, Institute of Field Physics",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 7487.0,
+      "to_s": 7506.0,
+      "teller": "jesse-michels",
+      "quote": "um was a guy named Agny Bonson and he had in his diaries um you know that were found years later it was uh the space brothers came to me and said get get me in touch with towns and brown because I I want to build a spaceship",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson",
+        "bryce-dewitt",
+        "thomas-townsend-brown",
+        "josh-goldberg"
+      ],
+      "documents": [
+        "bahnson-diaries"
+      ]
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 5520.0,
+      "to_s": 5533.0,
+      "teller": "jesse-michels",
+      "quote": "all these guys convened John Wheeler at the Institute of Field Physics in 1957 for this Chapel Hill conference and he in his diaries talks about like the space brothers talking to him and possibly kind of prompting him to look into this stuff.",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson",
+        "john-wheeler",
+        "freeman-dyson",
+        "richard-feynman",
+        "peter-bergmann",
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "agnew-bahnson-s-diaries"
+      ],
+      "difference": "Ties the diaries to the 1957 Chapel Hill conference and names Wheeler, Dyson, Feynman and Bergmann as attendees.",
+      "link_reason": "Both tell of Agnew Bahnson's diaries recording that the space brothers spoke to him and steered him toward this research, with Townsend Brown named.",
+      "as_told": {
+        "title": "Bahnson's diaries describe 'space brothers' around the 1957 Chapel Hill conference",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Institute of Field Physics, University of North Carolina at Chapel Hill",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "TNtlzEnl8rA",
+      "iPxbILOMQ08"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels tells of a man named Agnew Bahnson, whose diaries were found years later. Michels says that in them Bahnson writes that 'space brothers' told him to get in touch with Townsend Brown, an inventor who worked on controlling gravity, because he wanted to build a spaceship. In another episode Michels ties this to a 1957 conference at the Institute of Field Physics at the University of North Carolina in Chapel Hill, attended by famous physicists such as John Wheeler, Freeman Dyson, Richard Feynman and Peter Bergmann, suggesting that serious gravity research was nudged along by claimed contact."
+}

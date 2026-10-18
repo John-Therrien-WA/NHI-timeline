@@ -25,33 +25,114 @@
         "reagan"
       ],
       "documents": []
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 1898.0,
+      "to_s": 1907.0,
+      "teller": "steven-spielberg",
+      "quote": "And then he looked around the room and he said, \"And there are a number of people in this room who know that everything on that screen is absolutely true.\"",
+      "kind": "firsthand",
+      "cites": [
+        "ronald-reagan"
+      ],
+      "documents": [
+        "e-t"
+      ],
+      "difference": "Spielberg tells it firsthand, quoting Reagan as saying that some people in the room know everything on screen is true.",
+      "link_reason": "Both are about Reagan's remark at the White House screening of E.T. in 1982.",
+      "as_told": {
+        "title": "Reagan at the White House screening of E.T.",
+        "years": {
+          "from": 1982,
+          "to": 1982
+        },
+        "place_text": "White House screening room, Washington, D.C.",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 4601.0,
+      "to_s": 4616.0,
+      "teller": "bryce-zabel",
+      "quote": "of Spielberg screening it in the White House for Reagan and then Spielberg says this in an interview himself. He says Reagan looks around. He says there are about five people in this room who knows that everything they just saw on that screen is absolutely real.",
+      "kind": "secondhand",
+      "cites": [
+        "steven-spielberg",
+        "ronald-reagan"
+      ],
+      "documents": [],
+      "difference": "Gives Reagan's line as 'about five people in this room know everything on screen is absolutely real' and says Spielberg told it in an interview.",
+      "link_reason": "Both tell of the 1982 White House screening of E.T. at which Reagan remarked that what they had seen was real.",
+      "as_told": {
+        "title": "Spielberg screens E.T. for Reagan, who says it is real",
+        "years": {
+          "from": 1982,
+          "to": 1982
+        },
+        "place_text": "White House, Washington, D.C.",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 340.0,
+      "to_s": 354.0,
+      "teller": "steven-spielberg",
+      "quote": "And he said, \"I want to thank you for bringing ET to the White House. We really enjoyed your movie.\" And then he looked around the room and he said, \"And there are a number of people in this room who know that everything on that screen is absolutely true.\"",
+      "kind": "firsthand",
+      "cites": [
+        "ronald-reagan"
+      ],
+      "documents": [],
+      "difference": "Told first hand by Spielberg, with Reagan's words quoted: people in the room know it is absolutely true.",
+      "link_reason": "Both are Reagan's remark at the 1982 White House E.T. screening.",
+      "as_told": {
+        "title": "Reagan at White House E.T. screening says it is true",
+        "years": {
+          "from": 1982,
+          "to": 1982
+        },
+        "place_text": "White House, Washington DC",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "steven-spielberg"
     ],
     "episodes": [
-      "IWui5cBkwoE"
+      "IWui5cBkwoE",
+      "JE1oM89dpBc",
+      "ScE9FaDy-mE",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, points to an audio recording in which, he says, the film director Steven Spielberg describes a trip to the White House in 1982 where his movie E.T., about a stranded alien, was screened. The story turns on a comment President Reagan is said to have made there, which Michels raises in a talk about whether officials know more about aliens than they let on."
 }

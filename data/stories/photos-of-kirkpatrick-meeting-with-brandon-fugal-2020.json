@@ -25,6 +25,29 @@
         "brandon-fugal"
       ],
       "documents": []
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 9555.0,
+      "to_s": 9572.0,
+      "teller": "brandon-fugal",
+      "quote": "when, interestingly, he was right across from me, seated just like you are, across from me, for 2 and 1/2 hours in a confidential briefing in 2018, in April 2018,",
+      "kind": "firsthand",
+      "cites": [
+        "sean-kirkpatrick"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Fugal, who dates the confidential briefing to April 2018 and says it lasted two and a half hours.",
+      "link_reason": "Both are about Kirkpatrick sitting in a briefing with Brandon Fugal, which the story says was photographed.",
+      "as_told": {
+        "title": "Kirkpatrick attended Fugal's confidential Skinwalker Ranch briefing in April 2018",
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -42,32 +65,43 @@
       "story": "borland-s-alleged-classified-drawing-of-a-hieroglyph-like-sy-2020",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "greenstreet-of-the-new-york-post-disputes-the-briefing-accou-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "guthrie-law-article-finds-no-prosecutions-for-secure-disclos-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "brandon-fugal"
     ],
     "episodes": [
-      "u7g5Sn1DJF4"
+      "u7g5Sn1DJF4",
+      "uYyXpx7ADJQ"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, discussing the Pentagon's work on UFOs, says there are pictures of a man named Sean Kirkpatrick in a meeting with another man, Brandon Fugal. Michels does not say exactly when or where the meeting took place, only that it was in the 2020s in the United States. He raises the photos as a sign of contacts he thinks are worth noticing."
 }

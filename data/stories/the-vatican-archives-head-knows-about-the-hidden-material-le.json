@@ -22,6 +22,29 @@
         "jimmy-carter"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 4631.0,
+      "to_s": 4645.0,
+      "teller": "daniel-sheehan",
+      "quote": "I contacted the Vatican uh and asked if they would let us give me access to the to the archives uh and they said no",
+      "kind": "firsthand",
+      "cites": [
+        "marcia-smith"
+      ],
+      "documents": [],
+      "difference": "Adds that the Vatican said no and dates the request to 1977.",
+      "link_reason": "Both tell of Sheehan asking the Vatican archives for access on Carter's behalf.",
+      "as_told": {
+        "title": "Vatican refuses access to its archives on UFOs",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Vatican",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -45,6 +68,7 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },

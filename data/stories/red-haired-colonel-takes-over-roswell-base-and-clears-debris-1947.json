@@ -1,0 +1,77 @@
+{
+  "id": "red-haired-colonel-takes-over-roswell-base-and-clears-debris-1947",
+  "title": "Red-haired colonel takes over Roswell base and clears debris",
+  "summary": "John Brandenburg tells of Red-haired colonel takes over Roswell base and clears debris, about 1947 at New Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "new-mexico",
+  "place_text": "Roswell Army Air Field, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5091.0,
+      "to_s": 5097.0,
+      "teller": "john-brandenburg",
+      "quote": "they said this red-haired colonel showed up barking orders.",
+      "kind": "secondhand",
+      "cites": [
+        "roswell-veterans"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "analysis-of-san-augustine-new-mexico-crash-wreckage-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "colonel-blanchard-announces-a-crashed-flying-saucer-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "plains-of-san-agustin-saucer-crash-with-dead-aliens-and-one-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-corona-crash-confirmed-via-ed-mitchell-and-admiral-w-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "john-brandenburg"
+    ],
+    "episodes": [
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A physicist named John Brandenburg, talking with podcast host Jesse Michels, passes along what veterans of Roswell told him. Roswell is the Army air base in New Mexico where, in 1947, the military first announced it had recovered a crashed flying saucer. According to those veterans, a red-haired colonel arrived, took charge barking orders, and had the wreckage cleared away, which, if true, would point to a hurried effort to hide what crashed."
+}

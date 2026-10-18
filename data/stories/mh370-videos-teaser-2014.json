@@ -1,0 +1,81 @@
+{
+  "id": "mh370-videos-teaser-2014",
+  "title": "MH370 videos (teaser)",
+  "summary": "Jesse Michels tells of MH370 videos (teaser), about 2014 at Southeast Asia, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2014,
+    "to": 2014
+  },
+  "place": null,
+  "place_text": "Southeast Asia",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 25.0,
+      "to_s": 34.0,
+      "teller": "jesse-michels",
+      "quote": "have spoken publicly with these MH370 videos [music] and it seemed like the civilian aircraft just disappeared in the Southeast Asian territory.",
+      "kind": "host",
+      "cites": [
+        "salvatore-pais"
+      ],
+      "documents": [
+        "mh370-videos"
+      ]
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 38.0,
+      "to_s": 45.0,
+      "teller": "salvatore-pais",
+      "quote": "When I saw that thing open up, I saw the pis effect man. This is the pis effect.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "mh370-videos"
+      ],
+      "difference": "Told firsthand by Pais, who says the video shows the 'Pais effect'.",
+      "link_reason": "Pais's own reaction to the same MH370 videos that telling 1 introduces, crediting him; he reads them as showing his effect.",
+      "as_told": {
+        "title": "Pais sees the Pais effect in the video",
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "place_text": "Southeast Asia",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "salvatore-pais"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, brings up videos said to show MH370, a passenger plane that vanished over Southeast Asia in 2014, in which, he says, the plane seemed simply to disappear. His guest, a Navy scientist named Salvatore Pais who holds patents on unusual physics, says that when he saw something in the video open up, he recognized what he calls the \"Pais effect\", his own idea. If true, it would mean the plane's disappearance involved physics like the kind in his patents."
+}

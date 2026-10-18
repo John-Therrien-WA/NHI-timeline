@@ -1,0 +1,80 @@
+{
+  "id": "sar-scan-shows-shaft-system-coming-out-of-the-bottom-of-the-2020",
+  "title": "SAR scan shows shaft system coming out of the bottom of the Queen's Chamber",
+  "summary": "Jeffrey tells of SAR scan shows shaft system coming out of the bottom of the Queen's Chamber, about 2020 at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2020
+  },
+  "place": "egypt",
+  "place_text": "Queen's Chamber, Great Pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 5003.0,
+      "to_s": 5013.0,
+      "teller": "jeffrey",
+      "quote": "And what they're showing here is actually the presence of a shaft system coming out of the bottom of the Queen's Chamber.",
+      "kind": "researcher",
+      "cites": [
+        "filippo",
+        "corrado"
+      ],
+      "documents": [
+        "sar-doppler-tomography-paper-on-the-great-pyramid-2020"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "sar-tomography-detects-king-s-chamber-relieving-chamber-beam-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tag-17-dead-end-corridor-behind-the-north-face-chevrons-dete-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-2020-scan-detects-the-queen-s-chamber-shaft",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-2020-scan-misses-the-king-s-chamber",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher called Jeffrey, speaking on Jesse Michels's podcast, describes a 2020 scientific paper by researchers he names as Filippo and Corrado. The paper used a satellite radar method that reads tiny vibrations inside solid structures to look into the Great Pyramid of Giza in Egypt. Jeffrey says the images show a system of shafts running down from the bottom of the Queen's Chamber, one of the pyramid's inner rooms, which would point to hidden structures beneath the pyramid."
+}

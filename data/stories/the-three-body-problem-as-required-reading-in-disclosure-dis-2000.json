@@ -26,6 +26,32 @@
       "documents": [
         "the-three-body-problem"
       ]
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 6011.0,
+      "to_s": 6024.0,
+      "teller": "jesse-michels",
+      "quote": "During the Bush administration, key players in the federal government were urged to read the Chinese science fiction novel, The Threebody Problem,",
+      "kind": "host",
+      "cites": [
+        "pippa-malmgren",
+        "liu-cixin"
+      ],
+      "documents": [
+        "the-three-body-problem"
+      ],
+      "difference": "Places it specifically during the Bush administration.",
+      "link_reason": "Same story: The Three-Body Problem became required reading for senior US national security officials, as relayed from Pippa Malmgren.",
+      "as_told": {
+        "title": "Bush administration officials urged to read The Three-Body Problem",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -49,7 +75,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.75,

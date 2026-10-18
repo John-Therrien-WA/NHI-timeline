@@ -1,0 +1,66 @@
+{
+  "id": "susan-mccasland-accepted-a-calendar-invite-for-a-delonge-pod-2015",
+  "title": "Susan McCasland accepted a calendar invite for a DeLonge-Podesta meeting",
+  "summary": "Jesse Michels tells of Susan McCasland accepted a calendar invite for a DeLonge-Podesta meeting, about 2015-2016 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2016
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C.",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 938.0,
+      "to_s": 948.0,
+      "teller": "jesse-michels",
+      "quote": "a calendar notification shows that Susan herself accepted a Google calendar invite for something called a Dong Podesta meeting.",
+      "kind": "host",
+      "cites": [
+        "susan-mccasland",
+        "tom-delonge",
+        "john-podesta"
+      ],
+      "documents": [
+        "wikileaks-podesta-emails"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "tom-delonge-email-to-john-podesta-about-general-mccasland-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, points to a document from the Podesta emails, a batch of private emails belonging to the political adviser John Podesta that the website WikiLeaks made public. According to Michels, a calendar notice from around 2015 or 2016 shows that Susan McCasland, a senior US Air Force officer, herself accepted a Google calendar invite for a \"DeLonge Podesta meeting\", meaning a meeting between Podesta and the musician Tom DeLonge in Washington, D.C. Michels tells it because, if so, it would place a senior military figure directly inside DeLonge's efforts to reach powerful people about UFOs."
+}

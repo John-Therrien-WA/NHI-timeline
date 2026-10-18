@@ -1,0 +1,87 @@
+{
+  "id": "recovery-team-without-insignia-1948",
+  "title": "Recovery team without insignia",
+  "summary": "Scott Ramsay tells of Recovery team without insignia, about March 1948 at New Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Hart Canyon, Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 1571.0,
+      "to_s": 1580.0,
+      "teller": "scott-ramsay",
+      "quote": "They all agree that nobody had any insignas to identify who they were. Not Army, Marine Corps, whatever.",
+      "kind": "researcher",
+      "cites": [
+        "doug-noland"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "aztec-1948-craft-powered-up-at-wright-field-went-translucent",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aztec-crash-possibly-brought-down-by-the-lashup-radar-networ-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dragon-wagon-used-to-haul-the-craft-away-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "government-crash-photos-that-faded-to-blank-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-visits-aztec-crash-site-with-the-ramseys-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "scientists-limited-to-20-minutes-inside-the-craft-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Scott Ramsay is a researcher who has spent years on a reported crash of an unknown craft in March 1948 in Hart Canyon, near the town of Aztec, New Mexico. Speaking with podcast host Jesse Michels and citing a man named Doug Noland, he says the local witnesses all agree that the team who came to recover the craft wore no badges or insignia showing who they were, not Army, not Marines, nothing. To him, this points to a hidden group handling the recovery outside the normal military."
+}

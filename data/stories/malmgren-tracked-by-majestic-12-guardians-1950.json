@@ -46,6 +46,26 @@
         "place_text": "Washington, D.C.",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 10082.0,
+      "to_s": 10092.0,
+      "teller": "jesse-michels",
+      "quote": "Not just the CIA, but the Majestic, the ones that took it upon themselves to guard the secrets of the world, the guardians of the world.\"",
+      "kind": "host",
+      "cites": [
+        "harold-malmgren"
+      ],
+      "documents": [],
+      "difference": "Says the flagging followed his letter to the Atomic Energy Commission, not a meeting with the president of MIT.",
+      "link_reason": "Malmgren being put on file and tracked by the CIA and 'the Majestic', the guardians, is the same claim, in nearly the same words.",
+      "as_told": {
+        "title": "Harold Malmgren flagged to the CIA and 'the Majestic' after writing to the Atomic Energy Commission",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -68,6 +88,46 @@
       "story": "townsend-brown-s-anti-gravity-success-in-paris-sarbacher-pic-1950",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "1950s-ffrdcs-and-a-program-to-dole-out-retrieved-material",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "disney-s-ward-kimball-expects-government-ufo-footage-for-a-d-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fracking-oil-with-nuclear-weapons-in-the-1950s",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "greada-treaty-eisenhower-agreement-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "john-mulholland-trained-the-cia-in-deception-and-wrote-a-man-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "military-trying-to-contact-ufos-with-fighter-jet-lights-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nixon-headed-the-5412-committee-under-eisenhower-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-ufo-authorities-obsessed-with-mental-phenomena-project-ma-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -83,14 +143,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
       "harold-malmgren"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "yJUBSuPh1pM"
     ]
   },
   "attestation": 0.8,

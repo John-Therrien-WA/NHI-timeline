@@ -22,11 +22,37 @@
         "aleister-crowley"
       ],
       "documents": []
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 1333.0,
+      "to_s": 1342.0,
+      "teller": "jesse-michels",
+      "quote": "He would sometimes recite Crowley's Hymn to Pan during rocket tests.",
+      "kind": "host",
+      "cites": [
+        "jack-parsons",
+        "aleister-crowley"
+      ],
+      "documents": [
+        "hymn-to-pan"
+      ],
+      "difference": "Says he did it 'sometimes' during tests at Arroyo Seco in the 1930s-40s, where the story says before every test at JPL.",
+      "link_reason": "The same claim that Parsons recited Crowley's Hymn to Pan at rocket tests.",
+      "as_told": {
+        "title": "Parsons recites the Hymn to Pan at rocket tests",
+        "years": {
+          "from": 1930,
+          "to": 1949
+        },
+        "place_text": "Arroyo Seco, Pasadena",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -37,7 +63,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -45,10 +71,11 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that Jack Parsons, whom he calls the godfather of American rocketry and founder of the Jet Propulsion Laboratory, a rocket research lab in California, would often recite the occultist Aleister Crowley's version of a hymn to the Greek god Pan before every rocket test. Michels tells it to show that ritual and magic sat right at the heart of early American rocket science."
 }

@@ -1,0 +1,56 @@
+{
+  "id": "reported-military-clash-with-aliens-at-dulce-1977",
+  "title": "Reported military clash with aliens at Dulce",
+  "summary": "John Brandenburg tells of Reported military clash with aliens at Dulce, about late 1970s at New Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1979
+  },
+  "place": "new-mexico",
+  "place_text": "Dulce, New Mexico",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 6154.0,
+      "to_s": 6159.0,
+      "teller": "john-brandenburg",
+      "quote": "uh Leonard Stringfield talked to me about it and he said he'd heard three different versions.",
+      "kind": "secondhand",
+      "cites": [
+        "leonard-stringfield"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "john-brandenburg"
+    ],
+    "episodes": [
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A physicist named John Brandenburg, talking with podcast host Jesse Michels, recalls a story about a fight between US soldiers and aliens near Dulce, a small town in northern New Mexico, in the late 1970s. He says Leonard Stringfield, a researcher who collected accounts of crashed saucers, told him about it and said he had heard three different versions."
+}

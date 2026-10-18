@@ -1,0 +1,53 @@
+{
+  "id": "leonidas-consults-the-oracle-of-delphi-before-fighting-the-p",
+  "title": "Leonidas consults the Oracle of Delphi before fighting the Persians",
+  "summary": "Luke Caverns tells of Leonidas consults the Oracle of Delphi before fighting the Persians, about c. 480 BC at Greece (the ancient oracle sites), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "ancient-greece",
+  "place_text": "Delphi, Greece",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 5366.0,
+      "to_s": 5372.0,
+      "teller": "luke-caverns",
+      "quote": "Leonitis goes to visit the Oracle of Deli to determine as to whether or not they should fight against the Persians.",
+      "kind": "researcher",
+      "cites": [
+        "leonidas"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher of ancient sites, Luke Caverns, speaking on podcast host Jesse Michels' show in 2025, retells how Leonidas, a king of ancient Sparta, went to the Oracle of Delphi, a temple in Greece where a priestess gave prophecies, to ask whether his people should fight the invading Persians, around 480 BC. He brings it up while talking about ancient sites that people once trusted as sources of real knowledge."
+}

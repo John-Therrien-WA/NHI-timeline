@@ -1,0 +1,100 @@
+{
+  "id": "konstantin-meyl-s-extended-electrodynamics-experiments-on-pl",
+  "title": "Konstantin Meyl's extended electrodynamics experiments on plants in the Black Forest",
+  "summary": "Jesse Michels tells of Konstantin Meyl's extended electrodynamics experiments on plants in the Black Forest, about an unknown time at Black Forest, Germany, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Black Forest, Germany",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 4713.0,
+      "to_s": 4727.0,
+      "teller": "jesse-michels",
+      "quote": "so there's there's this guy named Constantine M and he's in the black forest of Germany and he's studying you know uh this extended version of electrodynamics on plants",
+      "kind": "host",
+      "cites": [
+        "konstantin-meyl"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 5479.0,
+      "to_s": 5489.0,
+      "teller": "jesse-michels",
+      "quote": "uh Constantine mile is studying these sort of scalar waves in the the context of like botany and stuff where he'll like make flowers grow in beautiful ways",
+      "kind": "host",
+      "cites": [
+        "konstantin-meyl",
+        "james-clerk-maxwell",
+        "oliver-heaviside"
+      ],
+      "documents": [],
+      "difference": "Calls them scalar waves that make flowers grow, and credits Maxwell and Heaviside.",
+      "link_reason": "Both tell of Konstantin Meyl in Germany applying extended electrodynamics or scalar waves to plants.",
+      "as_told": {
+        "title": "Konstantin Meyl uses scalar waves to grow flowers",
+        "years": {
+          "from": 2000,
+          "to": 2029
+        },
+        "place_text": "Germany",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 2595.0,
+      "to_s": 2601.0,
+      "teller": "jesse-michels",
+      "quote": "there's a you know there's a a scientist named Constantine Mile. He's in the Black Forest in Germany",
+      "kind": "host",
+      "cites": [
+        "konstantin-meyl"
+      ],
+      "documents": [],
+      "difference": "Stresses scalar waves and DNA resonance where the story stresses experiments on plants.",
+      "link_reason": "Both are about Konstantin Meyl's extended electrodynamics (scalar wave) work in the Black Forest, Germany.",
+      "as_told": {
+        "title": "Konstantin Meyl's scalar waves and DNA resonance",
+        "years": null,
+        "place_text": "Black Forest, Germany",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "0qlppHc3-gg",
+      "bM18PJY6_Zc",
+      "hXYdkcv5TtY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells of a scientist named Konstantin Meyl who works in the Black Forest of Germany, studying an extended version of electrodynamics, the physics of electricity and magnetism, on plants. In one episode Michels calls this work \"scalar waves\", a proposed kind of energy wave, says it makes flowers grow in beautiful ways, and links it to the older physicists James Clerk Maxwell and Oliver Heaviside. In a later episode he puts more weight on scalar waves resonating with DNA than on the plants, and he brings it up as a hint that there may be hidden physics beyond what textbooks teach."
+}

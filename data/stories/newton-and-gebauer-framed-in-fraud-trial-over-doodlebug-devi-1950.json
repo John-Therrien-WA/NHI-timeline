@@ -30,19 +30,45 @@
         "aztec-william-steinman-book",
         "court-records"
       ]
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 2985.0,
+      "to_s": 2991.0,
+      "teller": "scott-ramsay",
+      "quote": "they went through seven judges and seven judges said, \"Are you kidding me?\" \"No, I'm not going to hear this case.\"",
+      "kind": "researcher",
+      "cites": [
+        "herman-flater",
+        "silus-newton",
+        "leo-gaybower",
+        "frank-scully"
+      ],
+      "documents": [],
+      "difference": "Places the trial in Denver in 1953, names Herman Flater and says seven judges refused to hear the case.",
+      "link_reason": "Both describe the 1950s Colorado fraud trial of Newton and GeBauer over the doodlebug device.",
+      "as_told": {
+        "title": "1953 doodlebug fraud trial",
+        "years": {
+          "from": 1953,
+          "to": 1953
+        },
+        "place_text": "Denver, Colorado",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
     "credited_documents": 2,
@@ -50,13 +76,15 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "scott-ramsay",
       "uapgerb"
     ],
     "episodes": [
+      "OZ_oCpKYQJ0",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "well-attested",
   "plain": "A researcher who goes by the online name UAPGerb says that in the 1950s two men, Silas Newton and Leo GeBauer, were put on trial for fraud in Colorado over a \"doodlebug\" device, a gadget said to find things like oil underground. UAPGerb says the author William Steinman went through the Colorado court records for his book Aztec and found the two men were unfairly attacked in the case. The point of the story is that, if true, the men were set up to discredit them."
 }

@@ -1,0 +1,87 @@
+{
+  "id": "items-stolen-from-marcus-vinicius-s-house-after-his-death-2018",
+  "title": "Items stolen from Marcus Vinicius's house after his death",
+  "summary": "Italo Venturelli tells of Items stolen from Marcus Vinicius's house after his death, about after 2018 at Varginha, Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2018,
+    "to": 2018
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 7871.0,
+      "to_s": 7879.0,
+      "teller": "italo-venturelli",
+      "quote": "A lot of his things were stolen after he died. That's what his wife says.",
+      "kind": "secondhand",
+      "cites": [
+        "wife-of-marcus-vinicius"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 9944.0,
+      "to_s": 9966.0,
+      "teller": "italo-venturelli",
+      "quote": "I'd go back to his place and I'd have to go through everything once again. And I would need to hear this story about the robbery because some of his watches were stolen from his house and he had a cabinet in the corner of his room at the back where he kept his watches, where he kept his CDs, his souvenirs. You know, that's probably where he put it.",
+      "kind": "secondhand",
+      "cites": [
+        "rosalin"
+      ],
+      "documents": [
+        "marcos-vinicius-s-video-of-the-being"
+      ],
+      "difference": "Adds that watches were stolen from a cabinet where he also kept CDs and souvenirs, which is where the video may have been.",
+      "link_reason": "The theft of items from Marcos Vinícius's house, told secondhand from his wife.",
+      "as_told": {
+        "title": "Robbery at Marcos Vinícius's house and the cabinet where the video may have been kept",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Marcos Vinícius's home, Varginha, Brazil",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "search-of-marcus-vinicius-s-house-and-computer-for-the-tape-2018",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "italo-venturelli"
+    ],
+    "episodes": [
+      "UkKwa4jU0fc"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A Brazilian surgeon named Italo Venturelli talks about a man from the town of Varginha, Brazil, named Marcus Vinicius, who is said to have had a video of a strange being. Venturelli says that, according to Marcus's wife, many of his things were stolen from his house after he died around 2018, including watches from a cabinet in the back corner of his room where he also kept CDs and souvenirs. Venturelli thinks that cabinet is probably where the video was kept, which would mean the tape may have been taken."
+}

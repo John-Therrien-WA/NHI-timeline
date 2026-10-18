@@ -145,6 +145,32 @@
         "place_text": "The Wall Street Journal, USA",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 6013.0,
+      "to_s": 6020.0,
+      "teller": "jesse-michels",
+      "quote": "uh it's funny she she said oh we have a consultant for this stuff uh said this guy's name is uh you know David Spurggle",
+      "kind": "host",
+      "cites": [
+        "david-spergel",
+        "donald-menzel"
+      ],
+      "documents": [
+        "nasa-uap-panel-report"
+      ],
+      "difference": "Says an editor named Spergel as the paper's UFO consultant and compares him to Donald Menzel.",
+      "link_reason": "Both are Jesse's push at the Wall Street Journal for a UFO piece and the paper relying on David Spergel, who dismissed it.",
+      "as_told": {
+        "title": "Wall Street Journal's UFO consultant David Spergel",
+        "years": {
+          "from": 2023,
+          "to": 2024
+        },
+        "place_text": "New York",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -152,10 +178,15 @@
       "story": "private-sector-companies-with-wet-works-arms-2023",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "officials-deny-such-a-craft-in-inventory-rogers-says-he-saw-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 4.5,
+  "score": 5.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -166,7 +197,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 5,
+    "credited_documents": 6,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -175,12 +206,13 @@
     ],
     "episodes": [
       "-0g3lLGxNfc",
+      "GQlWf54K_7Y",
       "V00WcEiKRAY",
       "h0hAit-KH9A",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 2.25,
+  "attestation": 2.5,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says a friend of his, Karl Nell, planned an opinion piece about UFOs with a former US cabinet member, in one telling a former Secretary of Defense, and that Michels himself pushed the Wall Street Journal to publish it. He says the paper turned it down, and in one telling he ties the episode to a scientist, David Spergel, and how the subject was brushed aside."
 }

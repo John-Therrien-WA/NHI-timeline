@@ -1,0 +1,64 @@
+{
+  "id": "doty-s-rival-version-1964-at-white-sands",
+  "title": "Doty's rival version: 1964 at White Sands",
+  "summary": "Grant Cameron tells of Doty's rival version: 1964 at White Sands, about 1964 (vs. 1971) at White Sands and Holloman, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1971
+  },
+  "place": "white-sands-nm",
+  "place_text": "White Sands / Holloman, New Mexico",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 3740.0,
+      "to_s": 3751.0,
+      "teller": "grant-cameron",
+      "quote": "So Bob told me absolutely it was May of 1971 and then Richard Dodie comes up and says no no no it was it was 64 at White Sands and they got lost.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-emenegger",
+        "richard-doty",
+        "linda-moulton-howe"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "holloman-afb-landing-footage-that-allan-sandler-saw-1964",
+      "relation": "variant",
+      "note": "Doty gives a rival account of the same landing told in #7, putting it at White Sands in 1964 with the beings having gotten lost, against Emenegger's May 1971 at Holloman."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "grant-cameron"
+    ],
+    "episodes": [
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "On a podcast hosted by Jesse Michels, a UFO researcher named Grant Cameron describes two clashing versions of a story about a craft said to have landed at Holloman, an Air Force base in New Mexico. Cameron says a source named Bob Emenegger insisted it happened in May 1971. He says another man, Richard Doty, then told him no, it was 1964 at White Sands, a military testing area nearby, and that the visitors had got lost."
+}

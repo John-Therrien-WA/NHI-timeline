@@ -1,0 +1,60 @@
+{
+  "id": "project-serpo-exchange-program-1947",
+  "title": "Project Serpo exchange program",
+  "summary": "Unnamed guest tells of Project Serpo exchange program, about 1947-2000s at Roswell, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 2009
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, USA / planet Serpo",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 8200.0,
+      "to_s": 8218.0,
+      "teller": "unnamed-guest",
+      "quote": "And like Serpo is about an alien exchange program essentially where um apparently we sent we after Roswell the crash happened the recovered EBE right extraterrestrial biological entity",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff",
+        "richard-doty",
+        "dia"
+      ],
+      "documents": [
+        "project-serpo-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "h6zMVkncTsE"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "An unnamed researcher on Jesse Michels' podcast describes Project Serpo, which he calls an alien exchange programme. He says that after the reported 1947 crash at Roswell, New Mexico, an extraterrestrial being was recovered, and later the United States sent people to the being's home planet, Serpo, in exchange, citing documents about the project along with the physicist Hal Puthoff, a man named Richard Doty and the Defense Intelligence Agency, a US military spy agency. If true, humans would have already visited another world."
+}

@@ -22,6 +22,27 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 4137.0,
+      "to_s": 4145.0,
+      "teller": "jesse-michels",
+      "quote": "the the head of revolutionary technology is that Skunk Works I think this is okay to say cuz he's on record sort of believing in this stuff",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that this person is on record as believing in mind-over-matter.",
+      "link_reason": "Both are about the host's recent conversation with the former head of revolutionary technology at Lockheed Skunk Works.",
+      "as_told": {
+        "title": "Skunk Works head of revolutionary technology believes in mind-over-matter",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "Skunk Works (Lockheed)",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -45,7 +66,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "2SQXAPCdmPE"
     ]
   },
   "attestation": 1.0,

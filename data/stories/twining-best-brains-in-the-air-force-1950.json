@@ -1,0 +1,58 @@
+{
+  "id": "twining-best-brains-in-the-air-force-1950",
+  "title": "Twining: best brains in the Air Force",
+  "summary": "Jesse Michels tells of Twining: best brains in the Air Force, about 1950s; document 1971 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1971
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4473.0,
+      "to_s": 4485.0,
+      "teller": "jesse-michels",
+      "quote": "According to the 1971 Australian intelligence document, US Air Force Chief of Staff General Nathan Twining stated that the best brains in the Air Force are working",
+      "kind": "host",
+      "cites": [
+        "nathan-twining"
+      ],
+      "documents": [
+        "1971-australian-intelligence-document"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, cites a 1971 Australian intelligence document. According to Michels, the document states that General Nathan Twining, the head of the US Air Force, said in the 1950s that the best brains in the Air Force were working on the subject. If true, it would mean the Air Force took the flying saucer question very seriously at the top."
+}

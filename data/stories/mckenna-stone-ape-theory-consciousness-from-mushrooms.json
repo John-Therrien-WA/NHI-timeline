@@ -21,33 +21,100 @@
         "terence-mckenna"
       ],
       "documents": []
+    },
+    {
+      "episode": "9LGohiMmlu4",
+      "from_s": 567.0,
+      "to_s": 594.0,
+      "teller": "jesse-michels",
+      "quote": "He basically posited that human hunter-gatherer tribes, a couple million years back in Africa, would have to follow animal poop in order to find their prey.",
+      "kind": "host",
+      "cites": [
+        "terence-mckenna"
+      ],
+      "documents": [],
+      "difference": "Places it a couple million years ago in Africa, with hunters following animal dung to find their prey.",
+      "link_reason": "Both tell McKenna's stoned ape theory that early humans' use of mushrooms shaped human consciousness.",
+      "as_told": {
+        "title": "McKenna's stoned ape theory",
+        "years": null,
+        "place_text": "Africa",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 1970.0,
+      "to_s": 1974.0,
+      "teller": "graham-hancock",
+      "quote": "anybody who's listening his book food of the Gods yeah was one of the first books",
+      "kind": "researcher",
+      "cites": [
+        "terence-mckenna"
+      ],
+      "documents": [
+        "food-of-the-gods"
+      ],
+      "difference": "Names the book Food of the Gods as the source of the theory.",
+      "link_reason": "Both tell McKenna's theory that human consciousness came from psychedelic mushrooms, which is the stone ape theory set out in Food of the Gods.",
+      "as_told": {
+        "title": "Food of the Gods psychedelic origin of consciousness",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 6820.0,
+      "to_s": 6829.0,
+      "teller": "jesse-michels",
+      "quote": "Terrence McKenna stoned ape theory or whatever. Like you could explain the doubling in cranial size from homohabilis to homo sapiens.",
+      "kind": "host",
+      "cites": [
+        "terence-mckenna"
+      ],
+      "documents": [],
+      "difference": "Uses the doubling of cranial size from Homo habilis to Homo sapiens as the evidence.",
+      "link_reason": "Both tell McKenna's stoned ape theory, that mushrooms drove human cognitive development.",
+      "as_told": {
+        "title": "Terence McKenna's stoned ape theory",
+        "years": null,
+        "place_text": "Africa",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
-    "host": 0,
+    "researcher": 1,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jeffrey-mishlove"
+      "graham-hancock",
+      "jeffrey-mishlove",
+      "jesse-michels"
     ],
     "episodes": [
+      "92XrddiKjHY",
+      "9LGohiMmlu4",
+      "dfPfPB601hw",
       "lcaY-rd9Dhc"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "Jeffrey Mishlove, a psychologist and interviewer, says on Jesse Michels's podcast that the writer Terence McKenna had an idea known as the stone ape theory. According to this idea, human consciousness first developed when our ape-like ancestors found and ate mushrooms that cause visions. If true, the human mind would owe its start to a plant-like drug."
 }

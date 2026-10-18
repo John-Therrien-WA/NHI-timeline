@@ -7,7 +7,7 @@
     "from": 2025,
     "to": 2025
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "US Air Force",
   "coordinates": null,
   "kind": "theory",
@@ -26,11 +26,47 @@
       "documents": [
         "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol"
       ]
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 3014.0,
+      "to_s": 3024.0,
+      "teller": "jesse-michels",
+      "quote": "But I'm optimistic after this Wall Street Journal article. The reason being I think it's really interesting. They say it's all part of this Air Force hazing ritual",
+      "kind": "host",
+      "cites": [
+        "wall-street-journal"
+      ],
+      "documents": [
+        "wall-street-journal-article"
+      ],
+      "difference": "The host says the article makes him optimistic and does not name the reporter.",
+      "link_reason": "Both are about the Wall Street Journal article's claim that UFO stories come from an Air Force hazing ritual.",
+      "as_told": {
+        "title": "Wall Street Journal: UFO stories as an Air Force hazing ritual",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "United States Air Force",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "elon-musk-knows-ufo-secrets-but-can-t-say-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tae-technologiestrump-media-merger-announced-two-days-after-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.7,
+  "score": 2.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -41,7 +77,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "journalist",
@@ -49,10 +85,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "JE1oM89dpBc",
       "h0hAit-KH9A"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.1,
   "tier": "told-once",
   "plain": "In 2025, The Wall Street Journal, a major American newspaper, ran an article by Joel Schechtman about Pentagon disinformation and UFOs. A podcast host, Jesse Michels, says one of the article's claims is that hazing rituals inside the US Air Force, initiation pranks played on new members, explain much of the country's UFO lore. Michels raises it to challenge it, since if true it would mean many UFO stories began as in-house tricks."
 }

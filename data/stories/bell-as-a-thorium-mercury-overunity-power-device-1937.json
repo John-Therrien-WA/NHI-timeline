@@ -1,0 +1,56 @@
+{
+  "id": "bell-as-a-thorium-mercury-overunity-power-device-1937",
+  "title": "Bell as a thorium-mercury overunity power device",
+  "summary": "Jason Jorjani tells of Bell as a thorium-mercury overunity power device, about 1937-1944 at Skoda Works, near Prague, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1937,
+    "to": 1944
+  },
+  "place": null,
+  "place_text": "Skoda Works, near Prague",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 2713.0,
+      "to_s": 2723.0,
+      "teller": "jason-jorjani",
+      "quote": "So so it was a overunity device where you would be putting a certain amount of energy into it both AC and DC but then the nuclear reaction of the thorium",
+      "kind": "secondhand",
+      "cites": [
+        "unnamed-elderly-source-in-serbia"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Jason Jorjani, a writer and researcher, talks about the Bell, a device said to have been built in a secret Nazi programme, partly at the Skoda Works, a big arms factory near Prague, between 1937 and 1944. He says an unnamed elderly source in Serbia told him it was an overunity device, meaning it put out more energy than went in: you fed it both AC and DC electricity, and a nuclear reaction of thorium, a radioactive metal, together with mercury did the rest. If true, it would mean a limitless power source was built during the Second World War."
+}

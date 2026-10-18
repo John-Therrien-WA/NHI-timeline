@@ -1,0 +1,60 @@
+{
+  "id": "schrodinger-s-1944-what-is-life-lectures-on-life-s-attractio",
+  "title": "Schrödinger's 1944 What is Life? lectures on life's attraction to order",
+  "summary": "Jesse Michels tells of Schrödinger's 1944 What is Life? lectures on life's attraction to order, about 1944 at unspecified, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1944,
+    "to": 1944
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 5002.0,
+      "to_s": 5020.0,
+      "teller": "jesse-michels",
+      "quote": "Something Erwin Schrödinger himself theorized in his great 1944 lecture series, What is Life? And something that biologist Michael Levin at Tufts is discovering now, that biological cells have clear goals and intentions.",
+      "kind": "host",
+      "cites": [
+        "erwin-schrodinger",
+        "michael-levin",
+        "karl-friston"
+      ],
+      "documents": [
+        "what-is-life"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "aKZ_MUbuk_Q"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that the physicist Erwin Schrödinger, in his 1944 lecture series called What is Life?, theorized that life is drawn toward order. Michels links this to the work of a biologist at Tufts University, Michael Levin, who he says is finding that living cells have clear goals and intentions, which would mean purpose is built into life itself."
+}

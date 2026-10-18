@@ -66,35 +66,176 @@
         "place_text": "Giza, Egypt",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 128.0,
+      "to_s": 149.0,
+      "teller": "jesse-michels",
+      "quote": "a team of researchers led by Filippo Beyond used a technique called synthetic aperture radar Doppler tomography and artificial intelligence to measure and reconstruct what looks like a small city or energy grid underneath the Giza plateau.",
+      "kind": "host",
+      "cites": [
+        "filippo-biondi"
+      ],
+      "documents": [],
+      "difference": "Adds that AI was used and calls the find a small city or energy grid under the Giza plateau.",
+      "link_reason": "Both are Filippo Biondi's synthetic aperture radar Doppler tomography finding energy-grid-like structures under the Giza pyramids.",
+      "as_told": {
+        "title": "Biondi SAR Doppler tomography claims city or energy grid under Giza",
+        "years": {
+          "from": 2022,
+          "to": 2025
+        },
+        "place_text": "Giza plateau",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 7980.0,
+      "to_s": 7986.0,
+      "teller": "jesse-michels",
+      "quote": "these structures below the pyramids. If that was 2022, why is it coming out now?",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates the discovery to 2022 and stresses the delay before it was released, without naming Biondi.",
+      "link_reason": "Both are about structures found beneath the Giza pyramids and only recently made public.",
+      "as_told": {
+        "title": "Structures below the pyramids found in 2022, released later",
+        "years": {
+          "from": 2022,
+          "to": 2025
+        },
+        "place_text": "Giza, Egypt",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 7559.0,
+      "to_s": 7566.0,
+      "teller": "jay-anderson",
+      "quote": "but at this point I would say it's undeniable that they are finding significant subterranean signatures below the Giza plateau.",
+      "kind": "researcher",
+      "cites": [
+        "filippo-biondi"
+      ],
+      "documents": [],
+      "difference": "Calls the subterranean signatures under the plateau undeniable but does not describe them as energy-grid coils or columns or give a 2 km depth.",
+      "link_reason": "Both tell of Filippo Biondi's 2025 SAR Doppler tomography finding structures beneath the Giza pyramids.",
+      "as_told": {
+        "title": "SAR Doppler tomography finding subterranean structures under the Giza plateau",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Giza plateau, Egypt",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 316.0,
+      "to_s": 335.0,
+      "teller": "filippo-biondi",
+      "quote": "We are counting at the moment four plus four tubes that are descending underneath and they are connecting the top so the base of the pyramid to something that is located at the bottom.",
+      "kind": "firsthand",
+      "cites": [
+        "corrado-malanga",
+        "armando-mei"
+      ],
+      "documents": [],
+      "difference": "Told first hand by Biondi, who specifies eight tubes (four plus four) linking the pyramid's base to something below, and credits Malanga and Mei.",
+      "link_reason": "Biondi's own account of the 2025 SAR finding of spiral tubes and chambers beneath the Khafre pyramid. This is the same finding the story relays second hand as coils, columns and structures beneath the pyramids.",
+      "as_told": {
+        "title": "Eight spiral tubes and huge chambers beneath the Khafre pyramid",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Khafre pyramid, Giza Plateau, Egypt",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 11275.0,
+      "to_s": 11287.0,
+      "teller": "jesse-michels",
+      "quote": "Well, I just interviewed the guy that did the synthetic aperture radar Doppler tomography scans of the structure under the coffra chamber of the Giza pyramid",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names the Khafre chamber specifically and says Jesse interviewed the scientist, without describing the structures as an energy grid.",
+      "link_reason": "Both describe the 2025 synthetic aperture radar Doppler tomography scans by Filippo Biondi that found structures under the Khafre pyramid, told by Jesse Michels.",
+      "as_told": {
+        "title": "Radar scans of a structure under the Khafre pyramid",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Giza, Egypt",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 5582.0,
+      "to_s": 5587.0,
+      "teller": "jesse-michels",
+      "quote": "So, eight pillars, you know, in this shape of an energy grid.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives the count as eight pillars.",
+      "link_reason": "Both tell of Italian SAR scans that found pillar or coil structures beneath the pyramids arranged like an energy grid.",
+      "as_told": {
+        "title": "Italian SAR scans of structures beneath pyramid",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "visit-to-the-serapeum-of-saqqara-and-its-precise-boxes-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.2,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 2,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels",
+      "filippo-biondi",
       "joe-rogan"
     ],
     "episodes": [
       "-XdvIrexF08",
-      "C_Na1tI5qpw"
+      "51N8OxqZIWY",
+      "92XrddiKjHY",
+      "C_Na1tI5qpw",
+      "bM18PJY6_Zc",
+      "uYyXpx7ADJQ",
+      "zrmG2jBckgk"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-by-several",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "This story is about the pyramids at Giza in Egypt. A podcast host, Joe Rogan, says there is real evidence of structures under the pyramids that may go as deep as 2 kilometres. Another podcast host, Jesse Michels, credits an Italian radar scientist named Filippo Biondi, and a man named Christopher Dunn, and says scans in 2025 show coiled columns down there. Michels says Biondi found them using a kind of radar imaging that can see beneath the ground, and that the shapes look like an energy system. If true, it would mean the pyramids were built for more than anyone has assumed."
 }

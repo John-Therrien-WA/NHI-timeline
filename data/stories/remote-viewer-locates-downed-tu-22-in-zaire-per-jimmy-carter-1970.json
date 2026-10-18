@@ -25,33 +25,85 @@
         "rosemary-smith"
       ],
       "documents": []
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 4351.0,
+      "to_s": 4360.0,
+      "teller": "jesse-michels",
+      "quote": "Africa all of Africa was given as the target to this psychic spy named Rosemary Smith",
+      "kind": "host",
+      "cites": [
+        "rosemary-smith",
+        "jimmy-carter"
+      ],
+      "documents": [],
+      "difference": "Adds that all of Africa was given to her as the target.",
+      "link_reason": "Both tell of Rosemary Smith, a remote viewer, locating the downed Tu-22 in Zaire during Carter's presidency.",
+      "as_told": {
+        "title": "Rosemary Smith locates the downed Tu-22 bomber in Zaire",
+        "years": {
+          "from": 1977,
+          "to": 1979
+        },
+        "place_text": "Zaire, Africa",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 4384.0,
+      "to_s": 4395.0,
+      "teller": "joe-mcmoneagle",
+      "quote": "he he was holding our file in his arm when he said it it was a green file with a red stripe it said uh it's said Grill flame on it",
+      "kind": "secondhand",
+      "cites": [
+        "jimmy-carter",
+        "harley-trent"
+      ],
+      "documents": [
+        "grill-flame-file"
+      ],
+      "difference": "Told second hand by McMoneagle. It adds that Carter held a green Grill Flame file with a red stripe and that the 'road' Harley Trent described was really a river.",
+      "link_reason": "This is the same Zaire Tu-22 location case, told by McMoneagle with Carter holding the program's file.",
+      "as_told": {
+        "title": "Carter holds the Grill Flame file; Harley Trent's 'road' was a river",
+        "years": {
+          "from": 1977,
+          "to": 1979
+        },
+        "place_text": "Zaire / Congo, Africa",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "joe-mcmoneagle"
     ],
     "episodes": [
-      "8Rr_nE65KkI"
+      "8Rr_nE65KkI",
+      "JpLThEF2dTM"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.85,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says that Jimmy Carter, the former US president, went on record about a psychic who used remote viewing, the claimed ability to see distant places with the mind alone. According to Michels, Carter called it the craziest thing he experienced as president: the woman is said to have found a Soviet Tu-22 military plane that had gone down in Zaire, a country in central Africa, in the 1970s. Michels raises it because, if true, it would mean the US government had used psychics and found that they worked."
 }

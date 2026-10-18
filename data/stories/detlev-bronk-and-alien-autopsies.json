@@ -1,0 +1,79 @@
+{
+  "id": "detlev-bronk-and-alien-autopsies",
+  "title": "Detlev Bronk and alien autopsies",
+  "summary": "Jesse Michels tells of Detlev Bronk and alien autopsies, about mid-20th century at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 9386.0,
+      "to_s": 9398.0,
+      "teller": "jesse-michels",
+      "quote": "have you ever heard the name de L Bron\nby any so this guy was in charge of\nquote unquote alien autopsies back in\nthe day but then he went on to run the\nRockefeller foundation and he was\npresident of Johns Hopkins as well",
+      "kind": "host",
+      "cites": [
+        "detlev-bronk"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 1146.0,
+      "to_s": 1154.0,
+      "teller": "jesse-michels",
+      "quote": "He's the guy supposedly doing alien autopsies when crashes are recovered at Aztec, maybe at Roswell.",
+      "kind": "host",
+      "cites": [
+        "detlev-bronk"
+      ],
+      "documents": [
+        "majestic-12-documents"
+      ],
+      "difference": "Names the Aztec crash, and possibly Roswell, as where the bodies came from, and cites the Majestic 12 documents.",
+      "link_reason": "Both tell of Detlev Bronk being in charge of alien autopsies on recovered crash bodies.",
+      "as_told": {
+        "title": "Detlev Bronk's alien autopsies after the Aztec and Roswell crashes",
+        "years": {
+          "from": 1947,
+          "to": 1948
+        },
+        "place_text": "Aztec, New Mexico; Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "q7Czo77qhHA",
+      "yAvD5UTziTo"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Detlev Bronk, a scientist who later ran the Rockefeller Foundation and was president of Johns Hopkins University, was in charge of so-called alien autopsies in the mid-20th century. In a later episode, citing the Majestic 12 documents, papers said to describe a secret group of twelve top officials handling UFO matters, Michels says the bodies supposedly came from crashes recovered at Aztec and maybe at Roswell. If true, it would mean one of the most respected scientists in America examined non-human bodies in secret."
+}

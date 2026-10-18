@@ -4,7 +4,7 @@
   "summary": "UAPGerb tells of Bill Moore admits sowing disinformation at MUFON conference, about an unknown time at MUFON conference, and summarises it without a named source. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "las-vegas-nv",
   "place_text": "MUFON conference",
   "coordinates": null,
   "kind": "testimony",
@@ -22,33 +22,91 @@
         "rick-dodie"
       ],
       "documents": []
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 6024.0,
+      "to_s": 6037.0,
+      "teller": "john-brandenburg",
+      "quote": "I I was sitting there at a MUFON conference where Stan Moore, who had been the original leaker of the uh MJ-12 document, got up and confessed to being a government agent whose job was to monitor",
+      "kind": "firsthand",
+      "cites": [
+        "bill-moore",
+        "paul-bennewitz"
+      ],
+      "documents": [
+        "mj-12-document"
+      ],
+      "difference": "A firsthand account from someone in the audience. It calls him Stan Moore, the MJ-12 leaker, and says his job was to monitor the Bennewitz psyop.",
+      "link_reason": "Both describe Bill Moore confessing at a MUFON conference that he was a government disinformation agent.",
+      "as_told": {
+        "title": "Bill Moore's MUFON confession to monitoring the Bennewitz psyop",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "MUFON conference",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 8218.0,
+      "to_s": 8227.0,
+      "teller": "richard-dolan",
+      "quote": "he was good friends Bill Moore who admitted at at muon in the late 80s that he you know helped with the mess up Paul Benowitz",
+      "kind": "researcher",
+      "cites": [
+        "bill-moore",
+        "paul-bennewitz",
+        "greg-bishop",
+        "stanton-friedman"
+      ],
+      "documents": [
+        "project-beta"
+      ],
+      "difference": "Dates it to the late 1980s (1989) and says the admission was specifically about helping mess up Paul Bennewitz.",
+      "link_reason": "Both tell of Bill Moore's admission at a MUFON conference about disinformation work.",
+      "as_told": {
+        "title": "Bill Moore's MUFON admission about helping mess up Paul Bennewitz",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "MUFON Symposium (Las Vegas, Nevada; venue not named in the captions); Albuquerque, New Mexico",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "john-brandenburg",
+      "richard-dolan",
       "uapgerb"
     ],
     "episodes": [
+      "GQlWf54K_7Y",
+      "p0S0BfoZy0w",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 2.0,
+  "tier": "well-attested",
   "plain": "A researcher who goes by UAPGerb, speaking on a podcast hosted by Jesse Michels, recalls that a UFO writer named Bill Moore stood up at a conference of MUFON, a large American civilian group that investigates UFO reports, and admitted something. According to UAPGerb, Moore said he had been instructed to spread false information among UFO researchers. If true, it would mean someone was deliberately muddying the field from the inside."
 }

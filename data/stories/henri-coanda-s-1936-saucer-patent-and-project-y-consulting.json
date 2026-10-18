@@ -7,7 +7,7 @@
     "from": 1936,
     "to": 1959
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Vichy France; Wright-Patterson AFB",
   "coordinates": null,
   "kind": "program",
@@ -26,6 +26,29 @@
       "documents": [
         "coanda-flying-saucer-patent-1936"
       ]
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 3245.0,
+      "to_s": 3253.0,
+      "teller": "jesse-michels",
+      "quote": "A guy named Henry Kanda who was Romanian, but eventually he was, you know, overtaken by by the Nazis and bec and started to work with them.",
+      "kind": "host",
+      "cites": [
+        "henri-coanda"
+      ],
+      "documents": [],
+      "difference": "Gives the patent date range as 1937 rather than 1936, places him in Romania and Germany, and names the Avrocar rather than Project Y.",
+      "link_reason": "Same story: Coanda's saucer patent, his forced work under the Nazis, then the Avrocar-linked Project Y work at Wright-Patterson, told by the same host.",
+      "as_told": {
+        "title": "Henri Coanda's saucer patent and work with the Nazis and Avrocar",
+        "years": {
+          "from": 1937,
+          "to": 1959
+        },
+        "place_text": "Romania; Germany; Wright-Patterson, USA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -49,6 +72,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "ABw7EsWh2Us",
       "Y7PLeu5rTv4"
     ]
   },

@@ -1,0 +1,81 @@
+{
+  "id": "lear-and-brown-lunch-across-the-street-1960",
+  "title": "Lear and Brown lunch across the street",
+  "summary": "Linda Brown tells of Lear and Brown lunch across the street, about 1960s at Santa Monica, California, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Santa Monica, California",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2765.0,
+      "to_s": 2769.0,
+      "teller": "linda-brown",
+      "quote": "We used to walk across There was a little diner right across the street.",
+      "kind": "firsthand",
+      "cites": [
+        "bill-lear"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1391.0,
+      "to_s": 1400.0,
+      "teller": "jesse-michels",
+      "quote": "his office\nis right across the street from uh towns\nand Browns uh guidance Technologies\nwhich was in Santa Monica in the ' 50s",
+      "kind": "host",
+      "cites": [
+        "bill-lear"
+      ],
+      "documents": [],
+      "difference": "Puts it in the 1950s rather than the 1960s, names Guidance Technologies, and casts Lear as a witness of Brown's experiments rather than recalling lunches at a diner.",
+      "link_reason": "Both are about Bill Lear's office sitting right across the street from Brown's Santa Monica operation, so the two men were neighbours.",
+      "as_told": {
+        "title": "Bill Lear as neighbor and witness of Brown's experiments",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Santa Monica",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels",
+      "linda-brown"
+    ],
+    "episodes": [
+      "5udx_SDdL3Y",
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested",
+  "plain": "This story connects two men: Townsend Brown, an inventor whom a podcast documentary calls a CIA scientist who built UFO-like craft before anyone else, and Bill Lear, who also worked on aircraft. Linda Brown, who says she was there, remembers that they used to walk across the street to a little diner together in Santa Monica, California, in the 1960s. A podcast host, Jesse Michels, tells it in his own way. He says Lear's office was right across the street from Brown's company, Guidance Technologies, in the 1950s, and he casts Lear as someone who saw Brown's experiments. So one telling is a family memory of lunches and the other is the host's framing. It matters to the people who tell it because, if true, it would put a well-known aviation figure close to Brown's strange work on flying machines."
+}

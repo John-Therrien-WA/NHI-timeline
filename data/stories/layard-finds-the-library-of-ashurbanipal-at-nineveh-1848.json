@@ -1,0 +1,59 @@
+{
+  "id": "layard-finds-the-library-of-ashurbanipal-at-nineveh-1848",
+  "title": "Layard finds the Library of Ashurbanipal at Nineveh",
+  "summary": "Matt tells of Layard finds the Library of Ashurbanipal at Nineveh, about 1848-1849 at Nineveh (Mosul), Iraq, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1848,
+    "to": 1849
+  },
+  "place": null,
+  "place_text": "Nineveh (Mosul), Iraq",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 6141.0,
+      "to_s": 6150.0,
+      "teller": "matt",
+      "quote": "in 1848 18 49 Austin Henry lard is Excavating the ancient city of Nineveh and what today is mosul Iraq",
+      "kind": "researcher",
+      "cites": [
+        "austin-henry-layard",
+        "ashurbanipal"
+      ],
+      "documents": [
+        "royal-library-of-ashurbanipal"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matt"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A guest named Matt, on a podcast about something big that may have happened around 12,000 BC, says that in 1848 and 1849 an explorer named Austen Henry Layard was digging up Nineveh, an ancient city at what is now Mosul in Iraq. According to Matt, that is where Layard found the Royal Library of Ashurbanipal, a huge collection of clay tablets belonging to an ancient Assyrian king. It matters to his story because those old texts may preserve memories of a much older past."
+}

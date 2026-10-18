@@ -1,0 +1,62 @@
+{
+  "id": "angleton-probably-leaked-the-mj12-documents",
+  "title": "Angleton probably leaked the MJ12 documents",
+  "summary": "Jesse Michels tells of Angleton probably leaked the MJ12 documents, about Cold War at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 7931.0,
+      "to_s": 7937.0,
+      "teller": "jesse-michels",
+      "quote": "is probably responsible for the MJ12 docks getting leaked",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "james-angleton"
+      ],
+      "documents": [
+        "mj12-documents"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "falcon-and-the-mj-12-films-from-dia-humint-and-angleton-s-ch-1980",
+      "relation": "variant",
+      "note": "Both concern Angleton's part in the MJ12 documents. This telling says Angleton probably leaked them, per Malmgren; the story says his chop shop made them and a DIA officer passed them on."
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "The MJ12 documents are papers that describe a secret US group said to handle the UFO question. A podcast host, Jesse Michels, says, drawing on what he heard from a man named Harold Malmgren, that James Jesus Angleton, a senior figure at the CIA during the Cold War, is probably the person responsible for leaking them. If true, it would tie those papers to someone deep inside the US intelligence world."
+}

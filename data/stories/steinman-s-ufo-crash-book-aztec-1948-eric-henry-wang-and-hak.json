@@ -78,6 +78,32 @@
         "place_text": "Wright-Patterson AFB, Ohio",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 2570.0,
+      "to_s": 2579.0,
+      "teller": "jesse-michels",
+      "quote": "uh he talks about Wang being the one guy where when he kind of knocks on the door there, uh you know, everything goes dark.",
+      "kind": "host",
+      "cites": [
+        "william-steinman",
+        "eric-henry-wang"
+      ],
+      "documents": [
+        "ufo-crash-at-aztec"
+      ],
+      "difference": "Adds that when Steinman pursued Wang everything went dark, and mentions Kirtland.",
+      "link_reason": "Both tell of Steinman's UFO Crash book on Aztec and Eric Henry Wang as the key figure.",
+      "as_told": {
+        "title": "Eric Henry Wang and the Aztec crash",
+        "years": {
+          "from": 1948,
+          "to": 1959
+        },
+        "place_text": "Aztec, New Mexico; Wright Field; Kirtland AFB",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -108,6 +134,7 @@
     ],
     "episodes": [
       "LpLFWdsIU7M",
+      "fpUa3xJN64Q",
       "kccrkCGGzX4",
       "u7g5Sn1DJF4"
     ]

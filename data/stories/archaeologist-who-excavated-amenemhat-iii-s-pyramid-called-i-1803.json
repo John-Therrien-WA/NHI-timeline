@@ -1,0 +1,56 @@
+{
+  "id": "archaeologist-who-excavated-amenemhat-iii-s-pyramid-called-i-1803",
+  "title": "Archaeologist who excavated Amenemhat III's pyramid called it a symbolic tomb for the ka",
+  "summary": "Luke Caverns tells of Archaeologist who excavated Amenemhat III's pyramid called it a symbolic tomb for the ka, about Middle Kingdom, c. 1900 BC; excavation in the late 1800s at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1803,
+    "to": 1900
+  },
+  "place": "egypt",
+  "place_text": "Pyramid of Amenemhat III, Egypt",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 6064.0,
+      "to_s": 6080.0,
+      "teller": "luke-caverns",
+      "quote": "the archaeologist, his name starts with a P, that excavated the the pyramid of Aminat III. um he asserted that this was never a tomb and that this was a symbolic tomb for this for the pharaoh's c.",
+      "kind": "secondhand",
+      "cites": [
+        "unnamed-archaeologist-whose-name-starts"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher who calls himself Luke Caverns talks about the pyramid of Amenemhat III, an Egyptian king who ruled around 1900 BC. He says the archaeologist who dug it out in the late 1800s, a man whose name he recalls starting with P, claimed it was never a real tomb but a symbolic one for the king's ka, the ancient Egyptian idea of a person's spirit or life force. That would mean at least some pyramids were not built as burial places."
+}

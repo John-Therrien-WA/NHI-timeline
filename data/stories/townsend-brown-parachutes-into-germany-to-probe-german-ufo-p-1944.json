@@ -28,11 +28,58 @@
       "documents": [
         "the-man-who-mastered-gravity"
       ]
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3096.0,
+      "to_s": 3102.0,
+      "teller": "paul-schatzkin",
+      "quote": "and from a very low altitude parachuted behind enemy lines into Germany,",
+      "kind": "researcher",
+      "cites": [
+        "o-reilly"
+      ],
+      "documents": [],
+      "difference": "Dated 1945 rather than 1944, says he jumped from very low altitude, and credits O'Reilly.",
+      "link_reason": "This is the same story of Brown parachuting behind enemy lines into Germany, credited to Schatzkin's account.",
+      "as_told": {
+        "title": "Brown parachuted behind enemy lines in Germany",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "Germany",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3187.0,
+      "to_s": 3201.0,
+      "teller": "jesse-michels",
+      "quote": "The TICOM mission, which Brown was associated with, took place in East Germany. Brown was captured by the Nazis and made a prisoner of war just to get rescued shortly thereafter by the Americans.",
+      "kind": "host",
+      "cites": [
+        "william-stephenson",
+        "bill-donovan"
+      ],
+      "documents": [],
+      "difference": "Names the mission as TICOM, places it in East Germany, and adds that the Nazis captured Brown as a prisoner of war before the Americans rescued him.",
+      "link_reason": "This is the same wartime mission into Germany that Brown took part in, as in telling 8 and the parachute story.",
+      "as_told": {
+        "title": "TICOM mission and Brown captured as POW",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "East Germany",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 0.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -43,18 +90,19 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "paul-schatzkin"
     ],
     "episodes": [
+      "RTEWLSTyUic",
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.25,
   "tier": "told-once",
   "plain": "On his podcast, the host Jesse Michels tells a story about Townsend Brown, an American inventor who tried to move objects using electricity in place of ordinary thrust. Michels says that in 1944 Brown parachuted behind enemy lines into Germany to look into a German UFO program and the Foo Fighters, the glowing balls of light that wartime pilots reported following their planes. He points to a biography of Brown, The Man Who Mastered Gravity by Paul Schatzkin, and links the mission to the wartime spy chiefs Bill Donovan and William Stephenson, and if true it would mean the Allies took German flying-object reports seriously enough to send a scientist in."
 }

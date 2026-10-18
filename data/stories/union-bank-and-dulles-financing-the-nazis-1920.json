@@ -7,7 +7,7 @@
     "from": 1920,
     "to": 1939
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Germany",
   "coordinates": null,
   "kind": "theory",
@@ -24,33 +24,107 @@
         "allen-dulles"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 59.0,
+      "to_s": 65.0,
+      "teller": "daniel-sheehan",
+      "quote": "so that they wanted Hitler to establish this kind of fascist government",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Sheehan himself about 'American industrialists' wanting Hitler to set up a fascist government, without naming Union Bank or Dulles.",
+      "link_reason": "Sheehan's claim that American financiers funded the Nazis before the war matches the stored theory that Union Bank and Dulles financed the Nazis. In context it is the same Brown Brothers Harriman financing story.",
+      "as_told": {
+        "title": "American industrialists funded the Nazis before World War II",
+        "years": {
+          "from": 1930,
+          "to": 1939
+        },
+        "place_text": "United States / Germany",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 40.0,
+      "to_s": 48.0,
+      "teller": "jason-jorjani",
+      "quote": "Allan Dulles and his brother John Foster Dulles together with JP Morgan Chase and Rockefeller Mhm. >> funded the rise of the Nazis.",
+      "kind": "researcher",
+      "cites": [
+        "allen-dulles",
+        "john-foster-dulles"
+      ],
+      "documents": [],
+      "difference": "Names both Dulles brothers along with JP Morgan Chase and Rockefeller as the funders, and does not mention Union Bank.",
+      "link_reason": "Both tell the theory that the Dulles circle financed the rise of the Nazis in the interwar years.",
+      "as_told": {
+        "title": "Dulles brothers, JP Morgan Chase and Rockefeller funded the rise of the Nazis",
+        "years": {
+          "from": 1930,
+          "to": 1939
+        },
+        "place_text": "USA / Germany",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 8707.0,
+      "to_s": 8715.0,
+      "teller": "jason-jorjani",
+      "quote": "Allan Dulles and his brother John Foster Dulles >> Yeah. >> funded the rise of the Nazis.",
+      "kind": "researcher",
+      "cites": [
+        "jp-morgan-chase",
+        "rockefeller",
+        "prescott-bush"
+      ],
+      "documents": [],
+      "difference": "Names both Allen and John Foster Dulles as funding the Nazis' rise, and credits JP Morgan, Rockefeller and Prescott Bush.",
+      "link_reason": "Both claim that Dulles helped finance the Nazis in the 1920s-1930s, with the Union Bank and Prescott Bush in the frame.",
+      "as_told": {
+        "title": "Dulles brothers funded the rise of the Nazis",
+        "years": {
+          "from": 1920,
+          "to": 1939
+        },
+        "place_text": "New York / Germany",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 2,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "daniel-sheehan",
+      "jason-jorjani",
       "jesse-michels"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
+      "ABw7EsWh2Us",
       "LpLFWdsIU7M"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, says that an American bank called the Union Bank funded the Nazis in Germany before the Second World War. He adds that he thinks the American Allen Dulles also took part in financing them, and that Dulles was stationed somewhere like Norway. He brings it up as part of a wider story about powerful insiders and hidden history."
 }

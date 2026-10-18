@@ -7,7 +7,7 @@
     "from": 1980,
     "to": 1989
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Defense Intelligence Agency",
   "coordinates": null,
   "kind": "document",
@@ -30,33 +30,103 @@
       "documents": [
         "mj-12-documents"
       ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 6738.0,
+      "to_s": 6749.0,
+      "teller": "uapgerb",
+      "quote": "Majestic 12 documents first appeared in 1984 in a film canister to UFO reason or to TV producer Jamie Chandere and this included the Eisenhower briefing document",
+      "kind": "researcher",
+      "cites": [
+        "jaime-shandera",
+        "vannevar-bush"
+      ],
+      "documents": [
+        "eisenhower-briefing-document",
+        "special-operations-manual"
+      ],
+      "difference": "Dates the arrival to 1984 and names the Eisenhower Briefing Document and the Special Operations Manual. It says nothing about Falcon, the DIA or Angleton's chop shop as the source.",
+      "link_reason": "Both describe the first MJ-12 documents reaching Jaime Shandera on film in the 1980s. The Falcon story tells of the same handover of undeveloped 35mm film.",
+      "as_told": {
+        "title": "Majestic 12 documents arrive in a film canister",
+        "years": {
+          "from": 1984,
+          "to": 1984
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "mj-12-documents-surface-in-1984-sent-from-near-kirtland",
+      "relation": "variant",
+      "note": "Both are about how the first MJ-12 documents reached Shandera and Moore in the 1980s. This telling says they were probably sent from near Kirtland, in Doty's orbit; the story says DIA's Falcon passed on film made by Angleton's chop shop."
+    },
+    {
+      "story": "angleton-probably-leaked-the-mj12-documents",
+      "relation": "variant",
+      "note": "Both concern Angleton's part in the MJ12 documents. This telling says Angleton probably leaked them, per Malmgren; the story says his chop shop made them and a DIA officer passed them on."
+    },
+    {
+      "story": "bill-sweetman-s-1980s-look-at-sap-compartmentalization-and-d",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-gateway-documents-show-psionics-were-taken-seriously-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "letter-from-senator-cohen-thanking-the-remote-viewers-for-sa-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mj-12-papers-judged-compelling-but-not-conclusive-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "reagan-diary-on-the-capacity-to-put-300-people-in-orbit-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sarbacher-s-letter-to-william-steinman-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "eric-davis"
+      "eric-davis",
+      "uapgerb"
     ],
     "episodes": [
+      "nTiFs8LudUo",
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "Eric Davis, a physicist who has worked on Pentagon research, says on Jesse Michels' podcast that in the 1980s an officer of the Defense Intelligence Agency, the Pentagon's military spy agency, code-named Falcon, was sent to meet two UFO researchers, Jaime Shandera and Bill Moore. Davis says Falcon gave them undeveloped 35mm film of the MJ-12 documents, papers that describe a supposed secret group of officials handling crashed UFOs. He says these first versions were made in the document factory of James Jesus Angleton, a famous CIA mole hunter, which would mean the famous papers came out of an intelligence operation."
 }

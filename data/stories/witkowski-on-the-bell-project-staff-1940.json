@@ -1,0 +1,85 @@
+{
+  "id": "witkowski-on-the-bell-project-staff-1940",
+  "title": "Witkowski on the Bell project staff",
+  "summary": "Jesse Michels tells of Witkowski on the Bell project staff, about 1940s at Nazi Germany, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Nazi Germany",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 4843.0,
+      "to_s": 4854.0,
+      "teller": "jesse-michels",
+      "quote": "documented through this Polish journalist Igor Vitkowski who uh documented that uh Ernest Growitz who um was basically that this SS medical chief",
+      "kind": "host",
+      "cites": [
+        "igor-witkowski",
+        "ernst-grawitz",
+        "walther-gerlach",
+        "nick-cook"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 2976.0,
+      "to_s": 2988.0,
+      "teller": "jesse-michels",
+      "quote": "And we do know from Wakowski for a fact that the lead scientists was a guy it was a guy named Ernest Growitz who I believe was an SS medical officer who worked directly under Joseph Mangala.",
+      "kind": "host",
+      "cites": [
+        "igor-witkowski",
+        "ernst-grawitz",
+        "walther-gerlach"
+      ],
+      "documents": [],
+      "difference": "Adds that Grawitz worked directly under Mengele.",
+      "link_reason": "Both name Grawitz and Gerlach as the Bell project's lead staff, based on Witkowski.",
+      "as_told": {
+        "title": "Lead Bell scientists Grawitz and Gerlach, per Witkowski",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Bell test site",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us",
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that a Polish journalist named Igor Witkowski documented who worked on the Bell, said to be a secret Nazi German project of the 1940s. According to Michels, Witkowski found that the lead figure was Ernst Grawitz, a medical chief of the SS (the Nazi party's armed elite force), and in one telling Michels adds that Grawitz worked directly under Josef Mengele, the Nazi camp doctor. Michels tells it as part of the case that Nazi Germany ran a hidden program to build a flying machine of unusual design."
+}

@@ -41,6 +41,31 @@
         "place_text": "Catalina Channel, Southern California",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3890.0,
+      "to_s": 3899.0,
+      "teller": "jesse-michels",
+      "quote": "Townsend Brown also spent the end of his life in Catalina, which might be the world's biggest hotspot of transmedium water-based UFOs,",
+      "kind": "host",
+      "cites": [
+        "preston-dennett"
+      ],
+      "documents": [
+        "undersea-ufo-base"
+      ],
+      "difference": "Calls it perhaps the world's biggest transmedium water UFO hotspot, adds that Townsend Brown spent his last years there, and cites Dennett's book Undersea UFO Base.",
+      "link_reason": "Both describe Catalina as a UFO hotspot, crediting Preston Dennett.",
+      "as_told": {
+        "title": "Catalina undersea UFO hotspot",
+        "years": {
+          "from": 1970,
+          "to": 1989
+        },
+        "place_text": "Catalina Island, California",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -66,6 +91,7 @@
     ],
     "episodes": [
       "IWui5cBkwoE",
+      "RTEWLSTyUic",
       "nRKNVFQBi38"
     ]
   },

@@ -1,0 +1,103 @@
+{
+  "id": "bryce-dewitt-s-institute-funds-townsend-brown-s-gravity-expe",
+  "title": "Bryce DeWitt's institute funds Townsend Brown's gravity experiments",
+  "summary": "Jesse Michels tells of Bryce DeWitt's institute funds Townsend Brown's gravity experiments, about mid-20th century at Institute of Field Physics, North Carolina, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Institute of Field Physics, North Carolina",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 3325.0,
+      "to_s": 3339.0,
+      "teller": "jesse-michels",
+      "quote": "Bryce DeWitt, who helped establish quantum gravity, which led to string theory with his Institute of Field Physics in North Carolina, was also funding Townsend and Brown's high-voltage gravitational experiments at the same time.",
+      "kind": "host",
+      "cites": [
+        "bryce-dewitt",
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 4962.0,
+      "to_s": 4979.0,
+      "teller": "jesse-michels",
+      "quote": "well we know that right airfield field was sponsoring the Chapel Hill conference in 1957 at University of North Carolina with the top theoretical physicists in the world and at the same time the UNC Chapel Hill was sponsoring Towns and Brown's work on anti-gravity.",
+      "kind": "host",
+      "cites": [
+        "t-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Adds that Wright Field sponsored the 1957 Chapel Hill conference and names UNC Chapel Hill as Brown's sponsor.",
+      "link_reason": "Both say the North Carolina institution was funding Townsend Brown's gravity experiments at the same time as the founding quantum-gravity work at Chapel Hill.",
+      "as_told": {
+        "title": "Wright Field sponsors 1957 Chapel Hill conference and Brown's anti-gravity work",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "University of North Carolina, Chapel Hill",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 5360.0,
+      "to_s": 5372.0,
+      "teller": "jesse-michels",
+      "quote": "There's even a video of him popping champagne from the Bonsson lab at the Institute of Field Physics in North Carolina, which we know is the CIA outpost studying anti-gravity",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "curtis-lemay"
+      ],
+      "documents": [],
+      "difference": "Credits Wright Field and Curtis LeMay as sponsors, dates it to 1957, calls the institute a CIA outpost and mentions a champagne video.",
+      "link_reason": "Both tell of Townsend Brown's gravity work being sponsored at the Institute of Field Physics in North Carolina.",
+      "as_told": {
+        "title": "Townsend Brown at the Institute of Field Physics, Wright Field sponsorship",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Institute of Field Physics, North Carolina",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2ttdlCa5ZCI",
+      "WBTqsbwJyqU",
+      "aKZ_MUbuk_Q"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Bryce DeWitt, a physicist who helped found the study of quantum gravity, ran an Institute of Field Physics in North Carolina that was also paying for the high-voltage gravity experiments of Townsend Brown, an American inventor. In other episodes Michels tells it a bit differently: he says Wright Field, a US Air Force base, and Air Force general Curtis LeMay were sponsors, that it happened around a 1957 physics conference at the University of North Carolina at Chapel Hill, and he calls the institute an outpost of the CIA, the US foreign intelligence agency, that studied anti-gravity. He even mentions a video of Brown popping champagne at a lab there. If true, it would mean top mainstream physics and secret anti-gravity research were funded side by side."
+}

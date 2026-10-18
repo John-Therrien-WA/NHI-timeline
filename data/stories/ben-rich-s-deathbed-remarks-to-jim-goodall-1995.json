@@ -24,6 +24,34 @@
         "ben-rich"
       ],
       "documents": []
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 4717.0,
+      "to_s": 4725.0,
+      "teller": "jim-goodall",
+      "quote": "We have things out in the desert that is 50 years beyond what you can comprehend.",
+      "kind": "secondhand",
+      "cites": [
+        "ben-rich"
+      ],
+      "documents": [],
+      "difference": "Adds that the things are '50 years beyond what you can comprehend' and gives the date as c. 1993-1995.",
+      "link_reason": "This is Ben Rich's remark to Jim Goodall that 'we have things out in the desert', the same deathbed conversation.",
+      "as_told": {
+        "title": "Ben Rich: 'we have things out in the desert'",
+        "years": {
+          "from": 1993,
+          "to": 1995
+        },
+        "place_text": "United States (desert)",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "areO7Mej44E",
+        "from_s": 11412.0
+      },
+      "teller_was": "jim"
     }
   ],
   "related": [],
@@ -47,6 +75,7 @@
       "jim-goodall"
     ],
     "episodes": [
+      "2ttdlCa5ZCI",
       "areO7Mej44E"
     ]
   },

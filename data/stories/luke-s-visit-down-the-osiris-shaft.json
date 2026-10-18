@@ -1,0 +1,53 @@
+{
+  "id": "luke-s-visit-down-the-osiris-shaft",
+  "title": "Luke's visit down the Osiris shaft",
+  "summary": "Luke Caverns tells of Luke's visit down the Osiris shaft, about an unknown time at Osiris shaft, Giza causeway, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Osiris shaft, Giza causeway",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 2405.0,
+      "to_s": 2413.0,
+      "teller": "luke-caverns",
+      "quote": "I was with Land of Kim and he showed me if you're familiar with him. And um so you go down in the Osiris shaft and it drops down.",
+      "kind": "firsthand",
+      "cites": [
+        "land-of-kem"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "A researcher named Luke Caverns told podcast host Jesse Michels that he went down the Osiris shaft, a deep shaft under the causeway, the old stone road, at Giza in Egypt. He says someone known as Land of Kem took him there and showed him how you go down and the shaft drops further. He tells it as part of his case that the pyramids are not what most people think."
+}

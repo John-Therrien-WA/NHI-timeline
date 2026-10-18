@@ -68,6 +68,26 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 4523.0,
+      "to_s": 4540.0,
+      "teller": "jesse-michels",
+      "quote": "but I got really interested in this um you know mid-century inventor this kind of gravity inventor named um Thomas townzen Brown right and kind of the subtext of his whole story is actually that he's extremely interested in time travel and that he thinks that gravity manipulation leads to time travel",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Says outright that Brown believed gravity manipulation leads to time travel, and leaves out the Morgan 'time machine' anecdote.",
+      "link_reason": "Both tell that Townsend Brown was privately obsessed with time travel through his gravity work.",
+      "as_told": {
+        "title": "Thomas Townsend Brown's interest in gravity manipulation as a path to time travel",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -93,7 +113,8 @@
     "episodes": [
       "LpLFWdsIU7M",
       "Y26iMB0r-f8",
-      "fzvwBBSmWYA"
+      "fzvwBBSmWYA",
+      "hXYdkcv5TtY"
     ]
   },
   "attestation": 0.75,

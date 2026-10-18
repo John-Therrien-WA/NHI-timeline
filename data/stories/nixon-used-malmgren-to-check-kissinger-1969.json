@@ -26,6 +26,31 @@
         "henry-kissinger"
       ],
       "documents": []
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 3071.0,
+      "to_s": 3077.0,
+      "teller": "matthew-pines",
+      "quote": "Malmrren was used explicitly by Nixon to check Kissinger in many negotiations",
+      "kind": "researcher",
+      "cites": [
+        "harold-malmgren",
+        "richard-nixon",
+        "henry-kissinger"
+      ],
+      "documents": [],
+      "difference": "Dated 1971-1974, where the story has 1969-1974.",
+      "link_reason": "The same claim from the same teller: Nixon used Malmgren to check Kissinger in negotiations.",
+      "as_told": {
+        "title": "Nixon used Malmgren to check Kissinger",
+        "years": {
+          "from": 1971,
+          "to": 1974
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -49,6 +74,7 @@
       "matthew-pines"
     ],
     "episodes": [
+      "Jpf0ZGY87c0",
       "LpLFWdsIU7M"
     ]
   },

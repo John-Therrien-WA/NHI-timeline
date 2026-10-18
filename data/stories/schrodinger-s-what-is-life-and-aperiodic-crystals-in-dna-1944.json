@@ -1,0 +1,84 @@
+{
+  "id": "schrodinger-s-what-is-life-and-aperiodic-crystals-in-dna-1944",
+  "title": "Schrödinger's What Is Life? and aperiodic crystals in DNA",
+  "summary": "Jesse Michels tells of Schrödinger's What Is Life? and aperiodic crystals in DNA, about 1944 at an unknown place, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1944,
+    "to": 1944
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 4571.0,
+      "to_s": 4583.0,
+      "teller": "jesse-michels",
+      "quote": "because he he talks about these per these AP periodic crystals in the DNA that are somehow really important uh information receptacles for",
+      "kind": "host",
+      "cites": [
+        "erwin-schrodinger"
+      ],
+      "documents": [
+        "what-is-life"
+      ]
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 5903.0,
+      "to_s": 5908.0,
+      "teller": "jesse-michels",
+      "quote": "even going back to 1944 I believe Schroinger himself",
+      "kind": "host",
+      "cites": [
+        "schroinger"
+      ],
+      "documents": [
+        "what-is-life"
+      ],
+      "difference": "",
+      "link_reason": "Both are Michels on Schrödinger's 1944 What Is Life? and its aperiodic crystals.",
+      "as_told": {
+        "title": "Schrödinger's 1944 What Is Life lectures on aperiodic crystals",
+        "years": {
+          "from": 1944,
+          "to": 1944
+        },
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "PiFbeWfA3LM",
+      "hXYdkcv5TtY"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, has said more than once that the physicist Erwin Schrödinger, in his 1944 work What is Life?, wrote about \"aperiodic crystals\" in our genetic material, meaning irregular, non-repeating structures. Michels says Schrödinger saw these as important stores of information, an idea he brings up in talks about strange experiences and how information might reach living things."
+}

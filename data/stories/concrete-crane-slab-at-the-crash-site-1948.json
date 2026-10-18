@@ -1,0 +1,72 @@
+{
+  "id": "concrete-crane-slab-at-the-crash-site-1948",
+  "title": "Concrete crane slab at the crash site",
+  "summary": "Jesse Michels tells of Concrete crane slab at the crash site, about 1948 at New Mexico (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Hart Canyon, Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 1993.0,
+      "to_s": 2002.0,
+      "teller": "jesse-michels",
+      "quote": "So, somewhere out here in 1948, someone in a hurry [music] mixed concrete.",
+      "kind": "firsthand",
+      "cites": [
+        "carl-flock"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "aerial-view-shows-replanted-trees-in-lines-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "streak-left-on-the-cliff-by-the-craft-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "trees-knocked-flat-to-the-northeast-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Hart Canyon, near Aztec in New Mexico, is a place where some people say a craft crashed in 1948. Podcast host Jesse Michels visited the site, drawing on a man named Carl Flock, and says that somewhere out there in 1948 someone in a hurry mixed concrete, apparently to make a base for a crane. If that is true, it would point to a rushed recovery operation at the spot."
+}

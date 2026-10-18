@@ -27,9 +27,42 @@
       "documents": [
         "immaculate-constellation"
       ]
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 4387.0,
+      "to_s": 4398.0,
+      "teller": "jesse-michels",
+      "quote": "encountered this immaculate constellation document within the government and it talks about transmedium objects, UFOs going in and out of the water.",
+      "kind": "host",
+      "cites": [
+        "matthew-brown",
+        "jeremy-corbell",
+        "george-knapp"
+      ],
+      "documents": [
+        "immaculate-constellation"
+      ],
+      "difference": "Says the document describes transmedium UFOs going in and out of water, and credits Corbell and Knapp, but does not mention the IntelLink server.",
+      "link_reason": "Both are about Matthew Brown coming across the Immaculate Constellation document inside government.",
+      "as_told": {
+        "title": "Matthew Brown and the Immaculate Constellation document on transmedium UFOs",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "elizondo-points-aaro-to-a-safe-drawer-that-turns-out-empty-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 1.5,
   "profile": {
@@ -43,14 +76,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "jeremy-corbell"
     ],
     "episodes": [
-      "-XdvIrexF08"
+      "-XdvIrexF08",
+      "aGqFOxuYRT0"
     ]
   },
   "attestation": 0.75,

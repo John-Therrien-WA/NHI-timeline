@@ -23,6 +23,29 @@
       "documents": [
         "matthew-brown-tweet-to-elon-musk"
       ]
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 6454.0,
+      "to_s": 6468.0,
+      "teller": "jesse-michels",
+      "quote": "Oh, he tweeted the weirdest like it was like talking about how the White House has like a crystal ball basically like they have some proprietary AI that like predicts future timelines",
+      "kind": "secondhand",
+      "cites": [
+        "matthew-brown"
+      ],
+      "documents": [],
+      "difference": "Relayed secondhand by Michels as a 'crystal ball' predicting future timelines rather than read from the tweet.",
+      "link_reason": "Same Matthew Brown tweet claiming the White House has an AI that predicts future events.",
+      "as_told": {
+        "title": "Matthew Brown's tweet: White House has a proprietary AI that predicts future timelines",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "White House, Washington, D.C.",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -39,13 +62,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
       "matthew-brown"
     ],
     "episodes": [
+      "JE1oM89dpBc",
       "yGtVzBbUvx4"
     ]
   },

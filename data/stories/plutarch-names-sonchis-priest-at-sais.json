@@ -1,0 +1,82 @@
+{
+  "id": "plutarch-names-sonchis-priest-at-sais",
+  "title": "Plutarch names Sonchis, priest at Sais",
+  "summary": "Matt tells of Plutarch names Sonchis, priest at Sais, about time of Solon at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Temple of Sais, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 11932.0,
+      "to_s": 11942.0,
+      "teller": "matt",
+      "quote": "in plutar he describes how there was a very specific Elder priest at the Temple of C in Egypt named sanas",
+      "kind": "researcher",
+      "cites": [
+        "plutarch",
+        "sonchis"
+      ],
+      "documents": [
+        "plutarch-s-lives"
+      ]
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 11993.0,
+      "to_s": 12010.0,
+      "teller": "matthew-lacroix",
+      "quote": "okay but how about plutarch's\nversion where he actually describes a\nspecific individual in history that is\nthe elder priest of the Temple of C\nnamed sanches who is the one who KN who\nhad all the knowledge because he was the\nElder priest and they all the other ones\nwere supporting of him",
+      "kind": "researcher",
+      "cites": [
+        "plutarch",
+        "solon",
+        "plato",
+        "sonchis"
+      ],
+      "documents": [
+        "plutarch-s-version"
+      ],
+      "difference": "States outright that Sonchis was Solon's source for the Atlantis story and that the other priests supported him.",
+      "link_reason": "This is the same claim as telling 3: Plutarch names Sonchis, the elder priest at the Temple of Sais, as the source of the knowledge.",
+      "as_told": {
+        "title": "Plutarch names Sonchis, elder priest of the Temple of Sais, as Solon's source for the Atlantis story",
+        "years": null,
+        "place_text": "Temple of Sais, Egypt",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matt",
+      "matthew-lacroix"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested",
+  "plain": "This story is about Atlantis, the legendary lost island first described by the ancient Greek writer Plato. A researcher, Matthew LaCroix, says that another ancient Greek writer, Plutarch, names a specific elder priest at the Temple of Sais in Egypt, called Sonchis. According to LaCroix, Sonchis was the man who held all the knowledge, and the other priests supported him. He says Sonchis was the source of the Atlantis story told to Solon, a Greek statesman who visited Egypt, and that the story passed from Solon down to Plato. He raises it more than once in the same podcast episode, the second time more firmly. It matters to him because a named priest would give the Atlantis tale a real person at its root."
+}

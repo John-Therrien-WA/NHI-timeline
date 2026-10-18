@@ -26,33 +26,56 @@
         "leonard-stringfield"
       ],
       "documents": []
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 6749.0,
+      "to_s": 6759.0,
+      "teller": "jesse-michels",
+      "quote": "this egg um and the egg is cracked and it's it's taken to the to Berkeley labs to be studied",
+      "kind": "host",
+      "cites": [
+        "michael-schratt",
+        "leonard-stringfield"
+      ],
+      "documents": [],
+      "difference": "Adds a sphere inside the egg and says it went to Berkeley labs for study; gives no date and does not name Collins.",
+      "link_reason": "Both tell of a cracked egg-shaped craft taken to Berkeley and studied there, credited to Stringfield.",
+      "as_told": {
+        "title": "Cracked egg with sphere inside taken to Berkeley labs",
+        "years": null,
+        "place_text": "Berkeley labs, California",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "uapgerb"
     ],
     "episodes": [
-      "u7g5Sn1DJF4"
+      "u7g5Sn1DJF4",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "A commentator who goes by the online name UAPGerb told a podcast host, Jesse Michels, in 2026 about a man named Albert Bruce Collins. According to UAPGerb, Collins stated that in 1948, at the University of California, Berkeley, he saw a lowboy trailer, a low, flat trailer for hauling heavy loads, carrying a recovered vehicle shaped like a cracked egg, and the account is traced back through two other names, Tim Cooper and Leonard Stringfield. If true, it would mean a crashed craft was being moved around the United States in the late 1940s."
 }

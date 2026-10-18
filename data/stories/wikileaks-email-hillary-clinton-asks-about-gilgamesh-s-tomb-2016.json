@@ -1,0 +1,58 @@
+{
+  "id": "wikileaks-email-hillary-clinton-asks-about-gilgamesh-s-tomb-2016",
+  "title": "WikiLeaks email: Hillary Clinton asks about Gilgamesh's tomb",
+  "summary": "Tim Alberino tells of WikiLeaks email: Hillary Clinton asks about Gilgamesh's tomb, about 2016 at Iraq, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2016,
+    "to": 2016
+  },
+  "place": null,
+  "place_text": "Iraq",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 11942.0,
+      "to_s": 11951.0,
+      "teller": "tim-alberino",
+      "quote": "Remember there was allegedly an email that was a correspondence with Hillary Clinton where she was inquiring about the resurrection tomb and body of Gilgamesh.",
+      "kind": "researcher",
+      "cites": [
+        "hillary-clinton"
+      ],
+      "documents": [
+        "wikileaks-emails"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "tim-alberino"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Tim Alberino, a researcher, tells podcast host Jesse Michels about emails released in 2016 by WikiLeaks, a website that publishes leaked documents. He says there was allegedly an email in which the American politician Hillary Clinton asked about the tomb and body of Gilgamesh, a king from ancient legend, in Iraq, which would mean top officials took that ancient story seriously."
+}

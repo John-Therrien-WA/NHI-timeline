@@ -1,0 +1,78 @@
+{
+  "id": "direct-witnesses-scott-interviewed-1948",
+  "title": "Direct witnesses Scott interviewed",
+  "summary": "Scott Ramsay tells of Direct witnesses Scott interviewed, about 1948 at New Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 697.0,
+      "to_s": 706.0,
+      "teller": "scott-ramsay",
+      "quote": "Let's see. Doug Nolan, Ken Farley, the preacher, the preacher's son, one other gentleman.",
+      "kind": "researcher",
+      "cites": [
+        "doug-nolan",
+        "ken-farley"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "girls-on-horseback-turned-back-on-her-birthday-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ken-farley-s-description-of-the-craft-s-gold-lines-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "snow-would-not-settle-on-the-saucer-airman-donald-bass-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "solon-brown-weeps-telling-deacon-bruce-seer-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Scott Ramsay, a researcher looking into a reported 1948 crash of an unknown craft near Aztec, New Mexico, lists on podcast host Jesse Michels' show the people he says he spoke to directly about it. He names Doug Nolan, Ken Farley, a local preacher, the preacher's son, and one other man. If their accounts hold, it would mean the crash has living firsthand witnesses."
+}

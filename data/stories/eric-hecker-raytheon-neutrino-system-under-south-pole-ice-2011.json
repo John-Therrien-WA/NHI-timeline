@@ -24,18 +24,63 @@
         "eric-hecker"
       ],
       "documents": []
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 5748.0,
+      "to_s": 5756.0,
+      "teller": "jay-anderson",
+      "quote": "and he said that he had noticed that like energy was being um uh transferred from one area to another area where it wasn't supposed to be going",
+      "kind": "secondhand",
+      "cites": [
+        "eric-hecker",
+        "raytheon"
+      ],
+      "documents": [],
+      "difference": "Adds that Hecker saw energy being transferred to places it was not supposed to go.",
+      "link_reason": "The same testimony from Eric Hecker about his Raytheon work on the neutrino system under the South Pole ice.",
+      "as_told": {
+        "title": "Eric Hecker saw unexplained energy transfers in Antarctica",
+        "years": null,
+        "place_text": "Antarctica (IceCube Neutrino Observatory)",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 286.0,
+      "to_s": 291.0,
+      "teller": "jesse-michels",
+      "quote": "The dude that said we have a neutrino emitter and detector on the South Pole.",
+      "kind": "secondhand",
+      "cites": [
+        "eric-hecker",
+        "raytheon"
+      ],
+      "documents": [],
+      "difference": "Calls it a neutrino emitter as well as a detector, and links it to the Christchurch earthquake.",
+      "link_reason": "This is the same Eric Hecker (Raytheon) account of a neutrino system at the South Pole, tied to Christchurch in 2011.",
+      "as_told": {
+        "title": "Eric Hecker: South Pole neutrino emitter and the Christchurch earthquake",
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "place_text": "South Pole, Antarctica; Christchurch, New Zealand",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 3,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -44,13 +89,17 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jay-anderson",
+      "jesse-michels",
       "steven-greer"
     ],
     "episodes": [
+      "51N8OxqZIWY",
+      "JE1oM89dpBc",
       "areO7Mej44E"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.5,
+  "tier": "told-by-several",
   "plain": "Steven Greer, a long-time campaigner for UFO secrets to be made public, says that a man named Eric Hecker came forward and told him that around 2011 he worked for Raytheon, a large US defense company, at the South Pole. Greer says Hecker's team put in a system for detecting neutrinos, tiny particles from space, about a mile under the Antarctic ice, and he tells it as the setting for an account of something unusual found there."
 }

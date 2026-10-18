@@ -1,0 +1,64 @@
+{
+  "id": "gordon-gray-named-in-the-mj12-documents-1947",
+  "title": "Gordon Gray named in the MJ12 documents",
+  "summary": "Jesse Michels tells of Gordon Gray named in the MJ12 documents, about late 1940s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1439.0,
+      "to_s": 1452.0,
+      "teller": "jesse-michels",
+      "quote": "Gray was also named as one of the advisers on the top secret research and development organization established by Truman as it appears in the leaked Majestic [music] 12 documentation.",
+      "kind": "host",
+      "cites": [
+        "gordon-gray"
+      ],
+      "documents": [
+        "majestic-12-documentation"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "teller-s-name-on-a-project-sign-grudge-ufo-review-document-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Jpf0ZGY87c0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that the government official Gordon Gray is named in the Majestic 12 papers, leaked documents that describe a top secret research group said to have been set up by President Truman in the late 1940s. According to Michels, Gray appears there as one of the group's advisers. He tells it to tie real officials to a hidden effort to deal with UFOs."
+}

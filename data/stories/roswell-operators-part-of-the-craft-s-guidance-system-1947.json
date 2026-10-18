@@ -1,0 +1,67 @@
+{
+  "id": "roswell-operators-part-of-the-craft-s-guidance-system-1947",
+  "title": "Roswell operators part of the craft's guidance system",
+  "summary": "UAPGerb tells of Roswell operators part of the craft's guidance system, about 1947 at Roswell, New Mexico, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1847.0,
+      "to_s": 1854.0,
+      "teller": "uapgerb",
+      "quote": "interviews with him, he he said that the operators of specifically the Roswell craft were part of the guidance system.",
+      "kind": "researcher",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "nitinol-developed-from-the-roswell-crash-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-style-seeding-of-our-internet-technology-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "An online UFO commentator who goes by UAPGerb tells podcast host Jesse Michels about the 1947 crash at Roswell, New Mexico. He says that Philip Corso, a former US Army officer, said in interviews that the operators of the Roswell craft were themselves part of its guidance system. If true, it would mean the beings and the machine worked as one."
+}

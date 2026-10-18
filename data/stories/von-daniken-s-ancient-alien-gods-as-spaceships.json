@@ -23,33 +23,60 @@
       "documents": [
         "ancient-aliens"
       ]
+    },
+    {
+      "episode": "9LGohiMmlu4",
+      "from_s": 161.0,
+      "to_s": 187.0,
+      "teller": "jesse-michels",
+      "quote": "The premise was that ancient alien astronauts came down to Earth around 10,000 years ago at the time of the agrarian revolution, and taught us how to basically start modern civilization.",
+      "kind": "host",
+      "cites": [
+        "erich-von-daniken"
+      ],
+      "documents": [
+        "chariots-of-the-gods"
+      ],
+      "difference": "Places the visit around 10,000 years ago at the agrarian revolution, says the aliens taught civilization, and names the 1968 book.",
+      "link_reason": "Both tell von Däniken's ancient-astronaut theory that visiting aliens, taken for gods, shaped early human civilization.",
+      "as_told": {
+        "title": "Chariots of the Gods: ancient astronauts started civilization",
+        "years": {
+          "from": 1968,
+          "to": 1968
+        },
+        "place_text": "Earth",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "jesse-michels",
       "michael-shermer"
     ],
     "episodes": [
-      "8Rr_nE65KkI"
+      "8Rr_nE65KkI",
+      "9LGohiMmlu4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.85,
+  "tier": "well-attested",
   "plain": "Michael Shermer, a writer known for questioning extraordinary claims, mentions on Jesse Michels's podcast the ideas of Erich von Däniken, a Swiss author who argued that ancient peoples were visited by aliens. Shermer sums it up as the belief that the ancient gods were actually spaceships, an idea also popular on the television show Ancient Aliens, and he cites places like Easter Island as examples people point to."
 }

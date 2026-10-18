@@ -26,19 +26,44 @@
       "documents": [
         "rumsfeld-speech"
       ]
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 920.0,
+      "to_s": 932.0,
+      "teller": "richard-dolan",
+      "quote": "the Pentagon records and there's 2 point uh I think he said 2.3 well he he kept revising it, but originally it was 2.3 trillion dollars in u unaccounted expenditures.\"",
+      "kind": "researcher",
+      "cites": [
+        "donald-remfeld",
+        "dove-zachim",
+        "katherine-austin-fitz"
+      ],
+      "documents": [],
+      "difference": "Gives the figure as $2.3 trillion, later revised, places it before the House Armed Services Committee over 2001-2002, and credits Dov Zakheim and Fitts.",
+      "link_reason": "Both are about Rumsfeld admitting trillions unaccounted for in Pentagon spending in 2001.",
+      "as_told": {
+        "title": "Rumsfeld's $2.3 trillion in unaccounted Pentagon spending",
+        "years": {
+          "from": 2001,
+          "to": 2002
+        },
+        "place_text": "House Armed Services Committee / Pentagon",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 1,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
@@ -46,13 +71,15 @@
     "contradicted": false,
     "strongest_kind": "journalist",
     "tellers": [
+      "richard-dolan",
       "ross-coulthart"
     ],
     "episodes": [
+      "GQlWf54K_7Y",
       "V00WcEiKRAY"
     ]
   },
-  "attestation": 0.85,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "An Australian journalist, Ross Coulthart, says that while writing his book he tracked down a speech by Donald Rumsfeld, then the US Secretary of Defense, given on 10 September 2001, the day before the September 11 attacks. Coulthart says Rumsfeld admitted in it that trillions of dollars could not be accounted for in Pentagon audits, which he brings up as a hint that huge sums could flow into hidden programmes."
 }

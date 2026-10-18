@@ -19,33 +19,79 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 2877.0,
+      "to_s": 2882.0,
+      "teller": "jesse-michels",
+      "quote": "You have Jake\nBarber coming out talking about gifted\nand talented education program.",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Credits the claim to Jake Barber going public in the 2020s rather than presenting it as the host's own inference.",
+      "link_reason": "Both tell the claim that gifted-and-talented education programs served as a funnel for psionic recruits in the US; here it is credited to Jake Barber.",
+      "as_told": {
+        "title": "Jake Barber, gifted programs and psionic assets",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 9528.0,
+      "to_s": 9535.0,
+      "teller": "jesse-michels",
+      "quote": "gifted and talented education is sort of like this top of funnel for like these deeper sigh programs",
+      "kind": "secondhand",
+      "cites": [
+        "jordan-josac",
+        "julia-mosbury"
+      ],
+      "documents": [],
+      "difference": "Told secondhand, crediting Jordan Josac and Julia Mosbury.",
+      "link_reason": "The claim that gifted-and-talented education works as a funnel into psi programs.",
+      "as_told": {
+        "title": "Gifted programs as a funnel into psi programs",
+        "years": null,
+        "place_text": null,
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
+      "51N8OxqZIWY",
+      "h6zMVkncTsE",
       "lcaY-rd9Dhc"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, suggests that US school programmes for gifted and talented children may have worked, in past decades, as a funnel for finding children with supposed psychic abilities. If so, ordinary education programmes would have doubled as a quiet way to spot recruits for that kind of research."
 }

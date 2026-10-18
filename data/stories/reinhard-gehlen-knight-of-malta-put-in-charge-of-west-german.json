@@ -4,7 +4,7 @@
   "summary": "Dan Sheehan tells of Reinhard Gehlen, Knight of Malta, put in charge of West German intelligence by the OSS, about end of World War II at West Germany, and relays what a named person told them. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "West Germany",
   "coordinates": null,
   "kind": "program",
@@ -22,19 +22,42 @@
         "shackley"
       ],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 3604.0,
+      "to_s": 3615.0,
+      "teller": "jason-jorjani",
+      "quote": "so our OS USS makes a deal with General Galen to absorb his entire Nazi spy network in Eastern Europe as part of the creation of the CIA.",
+      "kind": "researcher",
+      "cites": [
+        "reinhard-gehlen"
+      ],
+      "documents": [],
+      "difference": "Frames the deal as absorbing the network into the newly created CIA, rather than putting Gehlen in charge of West German intelligence, and leaves out the Knights of Malta.",
+      "link_reason": "Same story: the post-war OSS deal that took over Gehlen and his Nazi spy network in Eastern Europe.",
+      "as_told": {
+        "title": "Gehlen Organization absorbed into the CIA",
+        "years": {
+          "from": 1945,
+          "to": 1947
+        },
+        "place_text": "Eastern Europe; USA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -42,13 +65,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "daniel-sheehan"
+      "daniel-sheehan",
+      "jason-jorjani"
     ],
     "episodes": [
+      "ABw7EsWh2Us",
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.75,
+  "tier": "told-by-several",
   "plain": "Dan Sheehan, a guest on a podcast about UFOs and President John F. Kennedy, talks about Reinhard Gehlen, who he says ran anti-Soviet and Eastern European intelligence for Nazi Germany. Sheehan says that at the end of World War II the OSS, America's wartime spy agency, put Gehlen in charge of West German intelligence, and that Gehlen was a Knight of Malta, a member of an old Catholic order; he cites a man named Shackley. He tells it to show how wartime spy networks fed into the secret world he connects to UFO secrecy."
 }

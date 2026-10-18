@@ -64,11 +64,35 @@
         "place_text": "Skinwalker Ranch, Utah",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "7W7iOt57fOo",
+      "from_s": 1282.0,
+      "to_s": 1295.0,
+      "teller": "jesse-michels",
+      "quote": "in skinwalkers at the pentagon colm kelleher george knapp and james lakatsky report hitchhiker effects among many of the scientists that studied at skinwalker ranch in fact the phenomenon often followed these people home",
+      "kind": "host",
+      "cites": [
+        "colm-kelleher",
+        "george-knapp",
+        "james-lacatski"
+      ],
+      "documents": [
+        "skinwalkers-at-the-pentagon"
+      ],
+      "difference": "Credits the claim to the book Skinwalkers at the Pentagon by Kelleher, Knapp and Lacatski, and names it the 'hitchhiker effect'.",
+      "link_reason": "Both make the same general claim that people who studied at Skinwalker Ranch under Bigelow were followed home by the phenomenon. The story's Jesse Michels tellings say this about the Bigelow researchers.",
+      "as_told": {
+        "title": "Hitchhiker effects among ranch scientists",
+        "years": null,
+        "place_text": "Skinwalker Ranch, Utah",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
@@ -79,7 +103,7 @@
     "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -89,11 +113,12 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "7W7iOt57fOo",
       "fyX8V1XXmQM",
       "lcaY-rd9Dhc"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-by-several",
+  "attestation": 0.6,
+  "tier": "well-attested",
   "plain": "A ranch in Utah, known as Skinwalker Ranch, is said to be a place of strange happenings, and people who visited in the 1990s and 2000s say those happenings followed them home. A researcher, Jacques Vallee, says trained army officers spent a few days there, went home, and found some phenomenon following them. A podcast host, Jesse Michels, tells it more broadly of researchers studying the ranch, including people working for the businessman Robert Bigelow and a man named Jake Barber, who say they had to rid themselves of it. If true, it would suggest the phenomenon is not tied to one place but can attach to people."
 }

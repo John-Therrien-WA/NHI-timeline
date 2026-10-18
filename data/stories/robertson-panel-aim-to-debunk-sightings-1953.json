@@ -49,6 +49,31 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 2214.0,
+      "to_s": 2219.0,
+      "teller": "jesse-michels",
+      "quote": "so HP Robertson\nwhich created the Mandate for Blue Book",
+      "kind": "host",
+      "cites": [
+        "hp-robertson"
+      ],
+      "documents": [
+        "robertson-memo"
+      ],
+      "difference": "Credits H.P. Robertson by name and gives the dates as 1952-1953.",
+      "link_reason": "Same Robertson panel document said to set Blue Book's debunking mandate.",
+      "as_told": {
+        "title": "Robertson panel sets the Blue Book mandate",
+        "years": {
+          "from": 1952,
+          "to": 1953
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -59,6 +84,11 @@
     },
     {
       "story": "walter-b-smith-1953-letter-on-using-the-phenomenon-for-psych",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brown-s-1953-winter-haven-proposal",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -83,6 +113,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
       "8Rr_nE65KkI"
     ]
   },

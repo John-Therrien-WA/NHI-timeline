@@ -1,0 +1,57 @@
+{
+  "id": "pub-dedicated-to-the-gravity-research-foundation-1940",
+  "title": "Pub dedicated to the Gravity Research Foundation",
+  "summary": "Jesse Michels tells of Pub dedicated to the Gravity Research Foundation, about 1940s-1950s at New Hampshire, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "New Hampshire",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 3487.0,
+      "to_s": 3498.0,
+      "teller": "jesse-michels",
+      "quote": "you live pretty close to this pub that is uh dedicated to the grav gravity research foundation I believe uh you know this work of Roger Babson",
+      "kind": "host",
+      "cites": [
+        "roger-babson",
+        "ryan-graves"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "6WC4o2yY9Ws"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, mentions to his guest, a former Navy fighter pilot named Ryan Graves, that Graves lives near a pub in New Hampshire dedicated to the Gravity Research Foundation. Michels says this foundation, a group devoted to studying gravity, came from the work of a man named Roger Babson, active around the 1940s and 1950s. He brings it up because, to people interested in this field, early private interest in controlling gravity hints that someone was already chasing exotic flight."
+}

@@ -25,6 +25,52 @@
         "george-knapp"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 2531.0,
+      "to_s": 2540.0,
+      "teller": "jesse-michels",
+      "quote": "And then he also said that you drew pictures for the ODNI and one of those pictures was a hieroglyph.",
+      "kind": "host",
+      "cites": [
+        "jeremy-corbell"
+      ],
+      "documents": [],
+      "difference": "The host passes on Corbell's claim, saying the drawings were made for the ODNI rather than in ICIG testimony.",
+      "link_reason": "Both are Corbell's claim that ODNI told him Borland drew a hieroglyph-like symbol.",
+      "as_told": {
+        "title": "Corbell says Borland drew a hieroglyph for the ODNI",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States (ODNI)",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 7492.0,
+      "to_s": 7500.0,
+      "teller": "dylan-borland",
+      "quote": ">> hypothetically on a UFO? That is per Jeremy with what was leaked to him illegally by ODNI dig.",
+      "kind": "secondhand",
+      "cites": [
+        "jeremy-corbell"
+      ],
+      "documents": [],
+      "difference": "Told by Borland, who says the information was leaked illegally to Corbell by ODNI's DIG and frames the drawing as hypothetical.",
+      "link_reason": "Both are ODNI telling Corbell that Borland drew a hieroglyph on a UFO in his ICIG testimony.",
+      "as_told": {
+        "title": "ODNI's hieroglyph-on-a-UFO claim leaked to Jeremy Corbell",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "ODNI, United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -42,6 +88,16 @@
       "story": "susan-gough-refuses-to-amend-statement-to-include-non-human-2020",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "greenstreet-of-the-new-york-post-disputes-the-briefing-accou-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "guthrie-law-article-finds-no-prosecutions-for-secure-disclos-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -57,14 +113,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jeremy-corbell"
+      "dylan-borland"
     ],
     "episodes": [
-      "-XdvIrexF08"
+      "-XdvIrexF08",
+      "K4gYHs84BIc"
     ]
   },
   "attestation": 0.5,

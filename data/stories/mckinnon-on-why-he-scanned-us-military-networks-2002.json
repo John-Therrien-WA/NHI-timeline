@@ -26,11 +26,55 @@
       "documents": [
         "disclosure-project-book"
       ]
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 630.0,
+      "to_s": 646.0,
+      "teller": "gary-mckinnon",
+      "quote": "I thought I could use my basic networking skills just to do a scan, you know, a light scan on American military networks, which which is mad now, but but back then it was just kind of like a playful idea.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "the-disclosure-project-book"
+      ],
+      "difference": "Adds the method (blank passwords, a light scan) and the place (his girlfriend's aunt's house in London), and dates it 2000-2002.",
+      "link_reason": "McKinnon scanning US military networks after reading the Disclosure Project book. This is the same account as the story about why he scanned those networks.",
+      "as_told": {
+        "title": "Hacking US military and NASA networks via blank passwords",
+        "years": {
+          "from": 2000,
+          "to": 2002
+        },
+        "place_text": "London (girlfriend's aunt's house); US military and NASA networks",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 908.0,
+      "to_s": 921.0,
+      "teller": "gary-mckinnon",
+      "quote": "The NSA I got into Fort ME DA Defense Information Systems Agency, DoD Networks, Basic Army Networks, Navy Networks, Yousef, US Air Force Networks.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Names the networks reached: NSA at Fort Meade, DISA, DoD, Army, Navy and USAF.",
+      "link_reason": "The list of networks McKinnon got into is part of the same hacking account begun in telling 3.",
+      "as_told": {
+        "title": "NSA, DISA, Army, Navy and USAF sites accessed",
+        "years": {
+          "from": 2000,
+          "to": 2002
+        },
+        "place_text": "US military networks (Fort Meade and others)",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -41,7 +85,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -49,10 +93,11 @@
       "gary-mckinnon"
     ],
     "episodes": [
+      "2ttdlCa5ZCI",
       "8Rr_nE65KkI"
     ]
   },
-  "attestation": 1.25,
+  "attestation": 1.5,
   "tier": "told-once",
   "plain": "Gary McKinnon is a British man who, around 2002 and 2003, searched through US military computer networks from the UK. On a podcast hosted by Jesse Michels, he says he did it after reading a book from the Disclosure Project. That is a group led by Steven Greer that collects testimony from people who say the government hides what it knows about UFOs. As McKinnon tells it, he was looking for proof that such secrets were sitting on military computers."
 }

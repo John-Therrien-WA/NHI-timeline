@@ -1,0 +1,105 @@
+{
+  "id": "luis-alvarez-muon-scan-of-khafre-pyramid-1960",
+  "title": "Luis Alvarez muon scan of Khafre pyramid",
+  "summary": "Luke Caverns tells of Luis Alvarez muon scan of Khafre pyramid, about 1960s at Khafre pyramid, Giza, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "egypt",
+  "place_text": "Khafre pyramid, Giza",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 1679.0,
+      "to_s": 1689.0,
+      "teller": "luke-caverns",
+      "quote": "uh Luis Alvarez, the the scientist that worked on the Manhattan project. He takes a team there in the 60s and they do a scan in the Coffer pyramid.",
+      "kind": "researcher",
+      "cites": [
+        "luis-alvarez"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 6282.0,
+      "to_s": 6295.0,
+      "teller": "jesse-michels",
+      "quote": "Luis Walter Alvarez who was really important for the American atomic program. He's depicted in the movie Oppenheimer. And he was very high up in the Manhattan Project. You know, he x-rayed the pyramids in the 50s.",
+      "kind": "host",
+      "cites": [
+        "luis-walter-alvarez"
+      ],
+      "documents": [],
+      "difference": "Puts the scan in the 1950s rather than the 1960s, calls it x-raying, and names no particular pyramid.",
+      "link_reason": "Both tell of Manhattan Project physicist Luis Alvarez scanning a Giza pyramid with particle imaging.",
+      "as_told": {
+        "title": "Luis Alvarez x-rayed the pyramids",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Giza, Egypt",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 7407.0,
+      "to_s": 7415.0,
+      "teller": "jesse-michels",
+      "quote": "I think the original guy was Luis Walter Alvarez, who is not only extremely high up in the Manhattan Project",
+      "kind": "host",
+      "cites": [
+        "luis-walter-alvarez"
+      ],
+      "documents": [],
+      "difference": "Dates it to the 1970s instead of the 1960s and does not name which pyramid.",
+      "link_reason": "Luis Alvarez, of the Manhattan Project, leading the original muon scan of a Giza pyramid.",
+      "as_told": {
+        "title": "Luis Walter Alvarez behind the original pyramid muon scanning",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Giza, Egypt",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "NvQXmtcwHA8",
+      "zrmG2jBckgk"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several",
+  "plain": "A researcher who goes by Luke Caverns says that Luis Alvarez, a physicist who worked on the Manhattan Project, the US wartime effort to build the atomic bomb, took a team to Egypt in the 1960s. He says they scanned the Khafre pyramid at Giza, using muons, tiny particles from space that pass through rock and can reveal hidden chambers. The podcast host Jesse Michels tells it twice, once saying Alvarez x-rayed the pyramids in the 1950s and once placing it in the 1970s, and neither time does he name the pyramid. People tell it because, if true, it shows a top nuclear scientist was searching the pyramids for hidden spaces."
+}

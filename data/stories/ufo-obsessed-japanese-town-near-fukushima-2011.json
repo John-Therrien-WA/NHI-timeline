@@ -193,6 +193,104 @@
         "place_text": "Fukushima, Japan",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 2124.0,
+      "to_s": 2129.0,
+      "teller": "jesse-michels",
+      "quote": "literally a town in Japan called loo\nwhich is in Fukushima",
+      "kind": "host",
+      "cites": [
+        "vice"
+      ],
+      "documents": [],
+      "difference": "Gives the years as 1990s-2021 and the town name as 'Loo'.",
+      "link_reason": "Same Vice story about a UFO-themed town in Fukushima, Japan.",
+      "as_told": {
+        "title": "Fukushima town with UFO museum",
+        "years": {
+          "from": 1990,
+          "to": 2021
+        },
+        "place_text": "Fukushima, Japan",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 1004.0,
+      "to_s": 1017.0,
+      "teller": "jesse-michels",
+      "quote": "go as far as Japan, where a town named Iino, which is right next to the Fukushima prefecture, has a mountain, Mount Sengan Mori, where UFOs constantly show up.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names Mount Sengan Mori as the place where the UFOs keep appearing and leaves out the Vice article and the 2011 disaster.",
+      "link_reason": "Both tell of UFOs around the town of Iino/Eno, next to the Fukushima prefecture.",
+      "as_told": {
+        "title": "UFOs at Mount Sengan Mori, Iino, next to Fukushima",
+        "years": null,
+        "place_text": "Iino, Fukushima prefecture, Japan",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 13258.0,
+      "to_s": 13274.0,
+      "teller": "jesse-michels",
+      "quote": "There's a town in\nJapan next to the Fukushima Prefecture,\nwhich is their civilian energy grid that\nhas a muse- it's a this mountain Sengun\nMori. They have a whole museum dedicated\nto UFOs and all these geomagnetic\nanomalies and they're obsessed with\nUFOs.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds a UFO museum on Mount Sengun Mori and geomagnetic anomalies, and gives no town name.",
+      "link_reason": "Both tell of the same UFO-obsessed Japanese town next to the Fukushima Prefecture, with its UFO lore.",
+      "as_told": {
+        "title": "Japanese town near Fukushima with UFO museum on Mount Sengun Mori",
+        "years": null,
+        "place_text": "Sengun Mori, near Fukushima Prefecture, Japan",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 5942.0,
+      "to_s": 5958.0,
+      "teller": "jesse-michels",
+      "quote": "UFOs are spotted so frequently by Fukushima, famous for its nuclear energy grid, that there's a local mountain called Mount Sen with a museum dedicated to UFOs at [music] its base.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names Mount Sen and a UFO museum at its base rather than the town of Iino, and gives no 2011 timing.",
+      "link_reason": "Same place-lore about frequent UFOs near Fukushima and the local UFO-themed town and museum near the mountain.",
+      "as_told": {
+        "title": "UFOs near Fukushima and the Mount Sen UFO museum",
+        "years": null,
+        "place_text": "Fukushima, Japan",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3840.0,
+      "to_s": 3850.0,
+      "teller": "jesse-michels",
+      "quote": "and in their next to their civilian energy grid in Fukushima, they see UFOs all the time. So much so that they built a museum dedicated to UFOs in the '9s.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Says a UFO museum was built there in the 1990s and that UFOs are seen there all the time.",
+      "link_reason": "Same place-lore: a Japanese place next to the Fukushima nuclear grid where UFOs are seen often and that is dedicated to UFOs (the town of Iino).",
+      "as_told": {
+        "title": "UFOs near Fukushima and a UFO museum",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Fukushima, Japan",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -217,13 +315,18 @@
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "1F7DHbSbgbQ",
       "1iaH1a3A4Lk",
+      "1zRWi_r3HRM",
+      "5udx_SDdL3Y",
       "8Rr_nE65KkI",
+      "ATJwqp5twAg",
       "IWui5cBkwoE",
       "bVhSPH2A5Vw",
       "fzvwBBSmWYA",
       "h0hAit-KH9A",
       "kRO5jOa06Qw",
+      "rjUdn6FklAU",
       "uVVqFg2v7ro"
     ]
   },

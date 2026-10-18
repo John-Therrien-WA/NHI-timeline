@@ -24,18 +24,38 @@
         "ted-owens"
       ],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 11820.0,
+      "to_s": 11826.0,
+      "teller": "jason-jorjani",
+      "quote": "He said he got his powers from these mantids called Twitter and Tweeter.",
+      "kind": "secondhand",
+      "cites": [
+        "ted-owens"
+      ],
+      "documents": [],
+      "difference": "Names the mantids Twitter and Tweeter and places them in a saucer; told by Jorjani rather than Mishlove.",
+      "link_reason": "Both are about Ted Owens saying his psychokinetic powers came through mantid-like space intelligences who act for him.",
+      "as_told": {
+        "title": "Ted Owens' powers from the mantids Twitter and Tweeter",
+        "years": null,
+        "place_text": "saucer",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -44,13 +64,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jason-jorjani",
       "jeffrey-mishlove"
     ],
     "episodes": [
+      "ABw7EsWh2Us",
       "lcaY-rd9Dhc"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "Jeffrey Mishlove, a researcher with a doctorate who studies psychic claims, told podcast host Jesse Michels what Ted Owens, a man who said he had psychic powers, claimed was the source of his abilities. Owens said he sent telepathic messages to his friends, the \"space intelligences\", beings shaped like praying mantises living in an invisible giant UFO hovering over the Earth, and that they carried out what he asked. If true, it would mean unseen beings above us answer to a single human's thoughts."
 }

@@ -1,0 +1,74 @@
+{
+  "id": "fbi-von-braun-sent-classified-documents-to-the-ussr-1947",
+  "title": "FBI: von Braun sent classified documents to the USSR",
+  "summary": "Jesse Michels tells of FBI: von Braun sent classified documents to the USSR, about late 1940s-1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 2338.0,
+      "to_s": 2355.0,
+      "teller": "jesse-michels",
+      "quote": "FBI documents even showed that at one point von Braun was caught sending classified documents to his Nazi counterparts in the USSR, but it seemed like no disciplinary action was ever taken.",
+      "kind": "host",
+      "cites": [
+        "wernher-von-braun"
+      ],
+      "documents": [
+        "fbi-documents"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "von-braun-passing-secrets-at-the-mexican-border-1945",
+      "relation": "variant",
+      "note": "Both say von Braun leaked secrets after the war, but they disagree on how and to whom."
+    },
+    {
+      "story": "detlev-bronk-named-as-an-mj12-member-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-s-account-of-early-ufo-hypotheses-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that papers from the FBI, the US federal police agency, showed that the rocket engineer Wernher von Braun was once caught sending secret documents to his former Nazi colleagues working in the Soviet Union, sometime in the late 1940s or 1950s. Michels adds that no one seems to have punished him for it. He tells it to suggest that von Braun had unusual protection inside the US space effort."
+}

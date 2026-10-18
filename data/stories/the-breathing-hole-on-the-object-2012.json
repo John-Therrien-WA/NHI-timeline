@@ -1,0 +1,62 @@
+{
+  "id": "the-breathing-hole-on-the-object-2012",
+  "title": "The breathing hole on the object",
+  "summary": "Dennis Asberg tells of The breathing hole on the object, about 2012 at Baltic Sea anomaly, between Sweden and Finland, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2012,
+    "to": 2012
+  },
+  "place": "baltic-sea",
+  "place_text": "Baltic Sea anomaly site",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 1356.0,
+      "to_s": 1362.0,
+      "teller": "dennis-asberg",
+      "quote": ">> yeah, dusty. And then you see like it's from this hole this milk is going Uh-huh.",
+      "kind": "secondhand",
+      "cites": [
+        "stefan-hogeborn"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "stefan-hogeborn-s-2012-dive-dark-black-surface-and-near-free",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "dennis-asberg"
+    ],
+    "episodes": [
+      "aGqFOxuYRT0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Dennis Asberg, a treasure hunter, helped find a strange object on the floor of the Baltic Sea between Sweden and Finland. He passes on what a diver, Stefan Hogeborn, told him about a dive there in 2012: that the surface was dusty and that a milky substance was coming out of a hole in the object, which they called a breathing hole. If true, it would suggest the object is not just rock."
+}

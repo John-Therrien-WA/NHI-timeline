@@ -24,7 +24,11 @@
         "j-robert-oppenheimer",
         "robert-sarbacher"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "episode": "kRO5jOa06Qw",
+        "from_s": 1252.0
+      }
     },
     {
       "episode": "1f16VvXaSSE",
@@ -47,6 +51,81 @@
           "to": 1949
         },
         "place_text": "Atomic Energy Commission",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1916.0,
+      "to_s": 1927.0,
+      "teller": "jesse-michels",
+      "quote": "he says that uh the guy that actually\nset up the secrecy protocols for UFOs\nwas Robert J Oppenheimer and another guy\nnamed Robert sarbacher",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch",
+        "robert-j-oppenheimer",
+        "robert-sarbacher"
+      ],
+      "documents": [],
+      "difference": "Names Sarbacher alongside Oppenheimer as co-architect, as told by Jesse rather than Grusch directly.",
+      "link_reason": "Same claim relayed from Grusch that Oppenheimer, with Sarbacher, set up the original UFO secrecy/classification in the 1940s-50s.",
+      "as_told": {
+        "title": "Grusch: Oppenheimer and Sarbacher set up UFO secrecy",
+        "years": {
+          "from": 1940,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 1681.0,
+      "to_s": 1692.0,
+      "teller": "jesse-michels",
+      "quote": "there's another guy named Robert Sarbacher who David Grush mentions as having set up UFO secrecy along with Robert J. Oppenheimer at, you know, the Atomic Energy Commission of 1954.",
+      "kind": "host",
+      "cites": [
+        "david-grush",
+        "robert-sarbacher",
+        "robert-j-oppenheimer"
+      ],
+      "documents": [],
+      "difference": "Names Sarbacher as a co-founder of the secrecy and puts it at the AEC in 1954.",
+      "link_reason": "Both relay Grusch's claim that Oppenheimer set up the original UFO secrecy protocols with the Atomic Energy Commission.",
+      "as_told": {
+        "title": "Sarbacher and Oppenheimer set up UFO secrecy",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "Atomic Energy Commission; Harvard Undersea Observatory",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 5925.0,
+      "to_s": 5935.0,
+      "teller": "jesse-michels",
+      "quote": "you speak to grush and it's like he'll bring up you know these names of the people who started the clearance system for for UFOs like Robert sarbacher and oppenheim",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch",
+        "robert-sarbacher",
+        "j-robert-oppenheimer"
+      ],
+      "documents": [],
+      "difference": "Calls it a clearance system and names Sarbacher as a co-founder next to Oppenheimer.",
+      "link_reason": "Both tell Grusch's claim that Oppenheimer, together with Sarbacher, set up the 1940s–50s classification system covering UFOs.",
+      "as_told": {
+        "title": "Sarbacher and Oppenheimer started the UFO clearance system",
+        "years": {
+          "from": 1940,
+          "to": 1959
+        },
+        "place_text": "USA",
         "story_kind": "program"
       }
     }
@@ -79,6 +158,9 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "5udx_SDdL3Y",
+      "6WC4o2yY9Ws",
+      "Sct30Qijfv8",
       "kRO5jOa06Qw"
     ]
   },

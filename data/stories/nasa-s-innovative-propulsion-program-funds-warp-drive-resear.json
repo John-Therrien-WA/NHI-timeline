@@ -21,33 +21,57 @@
       "documents": [
         "the-shadow-of-time"
       ]
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 3208.0,
+      "to_s": 3219.0,
+      "teller": "jesse-michels",
+      "quote": "Miguel Alubiieri figured out this sort of theoretical model and NASA's been studying this for years you have Sunonny White at NASA you know doing interesting work in this area",
+      "kind": "host",
+      "cites": [
+        "miguel-alubiieri",
+        "sunonny-white",
+        "karl-nell"
+      ],
+      "documents": [],
+      "difference": "Names Alcubierre's model and Sonny White, and says NASA has studied it for years; the story names no program details.",
+      "link_reason": "Both are about NASA researching warp drive within its propulsion work. This telling ties that work to Alcubierre's model and to Sonny White.",
+      "as_told": {
+        "title": "NASA study of Alcubierre's warp model",
+        "years": null,
+        "place_text": "NASA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "eric-haseltine"
+      "eric-haseltine",
+      "jesse-michels"
     ],
     "episodes": [
+      "6WC4o2yY9Ws",
       "jMCavr3dVP0"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "well-attested",
   "plain": "Eric Haseltine, a former senior official at the National Security Agency, the US government's electronic spying agency, spoke on a podcast hosted by Jesse Michels about a NASA programme for new and unusual ways of moving spacecraft. According to him, this programme, which he calls fantastic, has funded research into warp drive, an idea for travelling faster than light by bending space itself. He points to a document called The Shadow of Time, and if he is right, it would mean the US space agency takes seriously ideas that sound like science fiction."
 }

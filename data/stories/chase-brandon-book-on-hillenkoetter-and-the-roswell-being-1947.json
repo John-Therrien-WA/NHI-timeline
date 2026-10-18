@@ -73,6 +73,81 @@
         "place_text": null,
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 5767.0,
+      "to_s": 5773.0,
+      "teller": "jesse-michels",
+      "quote": "This book that is written by Chase Brandon who's this Hollywood CIA liaison.",
+      "kind": "host",
+      "cites": [
+        "chase-brandon",
+        "stanton-friedman",
+        "francis-bacon"
+      ],
+      "documents": [
+        "the-cryptos-conundrum"
+      ],
+      "difference": "Adds the Office of Strategic Assessment group and credits Stanton Friedman and Francis Bacon.",
+      "link_reason": "This is the same book, Chase Brandon's Cryptos Conundrum, that the stored story describes.",
+      "as_told": {
+        "title": "Chase Brandon's novel The Cryptos Conundrum and the Office of Strategic Assessment group",
+        "years": {
+          "from": 1940,
+          "to": 2012
+        },
+        "place_text": "USA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 5580.0,
+      "to_s": 5592.0,
+      "teller": "grant-cameron",
+      "quote": "and the Christos conundrum was the the idea of how did the CI handle the Roswell crash and it went through review according to some of the stories eight times",
+      "kind": "researcher",
+      "cites": [
+        "chase-brandon"
+      ],
+      "documents": [
+        "the-crystal-conundrum"
+      ],
+      "difference": "Adds that the manuscript is said to have gone through review eight times, and does not mention Hillenkoetter.",
+      "link_reason": "Both are about Chase Brandon's book on how the CIA handled the 1947 Roswell crash.",
+      "as_told": {
+        "title": "Chase Brandon's The Crystal Conundrum and the CIA's handling of Roswell",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico; CIA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 4073.0,
+      "to_s": 4090.0,
+      "teller": "jesse-michels",
+      "quote": "Chase Brandon wrote a book about UFOs and it's called Crypto's Conundrum and he starts the book off with this Francis Bacon quote and he says that uh you know some truths are so strange that they have to be hidden in fiction.",
+      "kind": "secondhand",
+      "cites": [
+        "chase-brandon",
+        "francis-bacon"
+      ],
+      "documents": [
+        "crypto-s-conundrum"
+      ],
+      "difference": "Adds that the book opens with a Francis Bacon quote about strange truths having to be hidden in fiction, and doesn't mention Hillenkoetter or Roswell.",
+      "link_reason": "Both are about Chase Brandon, the CIA's Hollywood liaison, and his book Crypto's Conundrum.",
+      "as_told": {
+        "title": "Chase Brandon, CIA Hollywood liaison, and his UFO book",
+        "years": null,
+        "place_text": "United States / Hollywood",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -83,31 +158,35 @@
     }
   ],
   "tags": [],
-  "score": 1.2,
+  "score": 3.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
-    "researcher": 0,
-    "host": 1,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 4,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
+      "grant-cameron",
       "jesse-michels"
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "1F7DHbSbgbQ",
       "bVhSPH2A5Vw",
-      "dnnpyNuPdXs"
+      "dnnpyNuPdXs",
+      "fpUa3xJN64Q",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-once",
+  "attestation": 1.75,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, points to a book called The Cryptos Conundrum by Chase Brandon, a former CIA officer who worked as the agency's liaison to Hollywood. Michels says the book discusses Roscoe Hillenkoetter, one of the first CIA directors, who he says dealt with Roswell, the 1947 event in New Mexico where some say a craft came down. He presents the book as an insider's hint about what the CIA knew of that event."
 }

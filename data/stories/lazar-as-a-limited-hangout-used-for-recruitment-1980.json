@@ -1,0 +1,86 @@
+{
+  "id": "lazar-as-a-limited-hangout-used-for-recruitment-1980",
+  "title": "Lazar as a limited hangout used for recruitment",
+  "summary": "Jesse Michels tells of Lazar as a limited hangout used for recruitment, about 1980s-present at Nevada test site and Area 51, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "nevada-test-site",
+  "place_text": "S4, Area 51, Nevada",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 1434.0,
+      "to_s": 1440.0,
+      "teller": "jesse-michels",
+      "quote": "that Bob Lazar was kind of a limited hangout of a person",
+      "kind": "host",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 5838.0,
+      "to_s": 5847.0,
+      "teller": "jesse-michels",
+      "quote": "have about Bob Lazar is right, which is he was this limited hangout of a person sort of meant to reveal certain info, but meant to hold back the rest.",
+      "kind": "host",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Frames the hangout as meant to reveal some information and hold back the rest, and does not mention recruitment.",
+      "link_reason": "The same theory that Bob Lazar was a limited hangout, told by the same host.",
+      "as_told": {
+        "title": "Bob Lazar as limited hangout",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "lazar-s-bendix-field-engineering-badge-as-an-intelligence-co-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw",
+      "Sct30Qijfv8"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, suggests that Bob Lazar, a man who says he worked on alien craft at a secret site near Area 51, a classified military base in Nevada, was a \"limited hangout\": someone allowed to go public with some true information so that the rest stays hidden. In one telling Michels says Lazar was meant to reveal certain information but hold back the rest, which would mean his story was partly a managed release rather than a lone leak."
+}

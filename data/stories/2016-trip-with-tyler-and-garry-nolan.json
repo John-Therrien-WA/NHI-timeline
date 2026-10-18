@@ -7,7 +7,7 @@
     "from": 2016,
     "to": 2016
   },
-  "place": null,
+  "place": "new-mexico",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "testimony",
@@ -27,9 +27,41 @@
       "documents": [
         "american-cosmic"
       ]
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 336.0,
+      "to_s": 348.0,
+      "teller": "diana-pasulka",
+      "quote": "American Cosmic opens at a crash retrieval site that was in 2016 that I went with um with people that I had to have as pseudonyms",
+      "kind": "firsthand",
+      "cites": [
+        "tyler",
+        "gary-nolan"
+      ],
+      "documents": [
+        "american-cosmic"
+      ],
+      "difference": "Names the destination as a New Mexico crash retrieval site and says American Cosmic opens with it.",
+      "link_reason": "Both are Pasulka's 2016 trip with Tyler and Garry Nolan, which this telling places at a New Mexico crash retrieval site.",
+      "as_told": {
+        "title": "Visit to a New Mexico crash retrieval site with Tyler and Gary Nolan",
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "place_text": "New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "gary-nolan-presents-his-injury-research-the-night-before-the-2016",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 2.5,
   "profile": {
@@ -50,7 +82,8 @@
       "diana-pasulka"
     ],
     "episodes": [
-      "aa9Xx5wI8Rw"
+      "aa9Xx5wI8Rw",
+      "tS_64sTN5AU"
     ]
   },
   "attestation": 1.25,

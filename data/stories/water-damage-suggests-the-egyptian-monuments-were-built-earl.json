@@ -43,19 +43,167 @@
         "place_text": "Giza, Egypt",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 3415.0,
+      "to_s": 3430.0,
+      "teller": "graham-hancock",
+      "quote": "brought Robert shock to the Giza Plateau as a geologist and Robert shop took a very detailed and careful look at it and concluded that what we're looking at on the Sphinx and is particularly evidence on the trench surrounding the Sphinx is precipitation-induced weathering",
+      "kind": "researcher",
+      "cites": [
+        "robert-schoch",
+        "john-anthony-west"
+      ],
+      "documents": [],
+      "difference": "Puts the weathering in the Younger Dryas (12,800–11,600 years ago) and points to the trench around the Sphinx as the key evidence.",
+      "link_reason": "The same West–Schoch argument that rain erosion on the Sphinx shows it was built earlier than thought.",
+      "as_told": {
+        "title": "Sphinx rainfall weathering dates it to the Younger Dryas",
+        "years": null,
+        "place_text": "Great Sphinx, Giza Plateau, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 1548.0,
+      "to_s": 1556.0,
+      "teller": "graham-hancock",
+      "quote": "\"As a geologist, when I look at the weathering patterns on this monument, it's not 4 and 1/2 thousand years old. It's more like 12 and 1/2 thousand years old.\"",
+      "kind": "secondhand",
+      "cites": [
+        "robert-schoch",
+        "john-anthony-west"
+      ],
+      "documents": [],
+      "difference": "Quotes Schoch as a geologist and gives an age of 12,500 years.",
+      "link_reason": "Both tell Schoch and West's argument that water-erosion weathering shows the Sphinx is far older.",
+      "as_told": {
+        "title": "Sphinx water-erosion weathering dates it to 12,500 years ago",
+        "years": null,
+        "place_text": "Great Sphinx, Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 214.0,
+      "to_s": 232.0,
+      "teller": "matt-lacroix",
+      "quote": "turkey with Dr Robert shock who is one of the main players that was brought over by John Anthony West to go investigate the Sphinx enclosure to see if it is truly wind erosion as archaeologists and geologists had postulated or whether or not it's really water erosion",
+      "kind": "secondhand",
+      "cites": [
+        "robert-schoch",
+        "john-anthony-west"
+      ],
+      "documents": [],
+      "difference": "Told as the investigation itself, testing whether the damage is wind or water erosion, and relayed from Schoch in Turkey.",
+      "link_reason": "Both tell of Schoch and West's case that the erosion in the Sphinx enclosure was made by water, which would make it older.",
+      "as_told": {
+        "title": "Schoch and West investigate water erosion of the Sphinx enclosure",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 934.0,
+      "to_s": 943.0,
+      "teller": "matt-lacroix",
+      "quote": "conversations around this John Anthony West believed that it was a previous age in which the Sphinx was built and I do as well",
+      "kind": "secondhand",
+      "cites": [
+        "john-anthony-west",
+        "robert-schoch"
+      ],
+      "documents": [],
+      "difference": "LaCroix names the Sphinx in particular, says it was built in a 'previous age' before 10,500 BC and agrees with it himself, but gives no water-erosion evidence.",
+      "link_reason": "Both credit John Anthony West and Robert Schoch with the theory that the Egyptian monuments, the Sphinx above all, were built in an earlier age than mainstream dating allows.",
+      "as_told": {
+        "title": "John Anthony West: Sphinx built in a previous age",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 2693.0,
+      "to_s": 2703.0,
+      "teller": "jesse-michels",
+      "quote": "Well, in the Sphinx itself, Robert Shock, John Anthony West talk about limestone, water erosion, damage on the nose or whatever.",
+      "kind": "host",
+      "cites": [
+        "robert-schoch",
+        "john-anthony-west"
+      ],
+      "documents": [],
+      "difference": "Names the Sphinx and limestone erosion specifically, where the story speaks of the monuments generally.",
+      "link_reason": "Both relay Schoch and West's theory that water erosion shows the Egyptian monuments are older; this telling names the Sphinx.",
+      "as_told": {
+        "title": "Water erosion on the Sphinx points to a wetter, earlier age",
+        "years": null,
+        "place_text": "Sphinx, Giza",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 1760.0,
+      "to_s": 1767.0,
+      "teller": "jesse-michels",
+      "quote": "And you have you have what seems to be water damage and erosion on the nose of the Sphinx that people like John Anthony West talk about.",
+      "kind": "host",
+      "cites": [
+        "john-anthony-west"
+      ],
+      "documents": [],
+      "difference": "Places the damage on the Sphinx's nose.",
+      "link_reason": "The same theory: water erosion on the Sphinx, credited to John Anthony West, suggests the monuments are older.",
+      "as_told": {
+        "title": "Water erosion on the Sphinx, as John Anthony West describes",
+        "years": null,
+        "place_text": "Sphinx, Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 1770.0,
+      "to_s": 1786.0,
+      "teller": "jeffrey-drum",
+      "quote": "Yeah, the water the the water erosion at the back of the Sphinx enclosure. Yeah, that's that's the work of Robert Schoch that looks at those vertical fissures on the back of the Sphinx enclosure, which is indicative that the structure was built during a time period where there was significant more rainfall.",
+      "kind": "researcher",
+      "cites": [
+        "robert-schoch"
+      ],
+      "documents": [],
+      "difference": "Points to the vertical fissures at the back of the Sphinx enclosure as the evidence and links them to heavier rainfall.",
+      "link_reason": "The same water-erosion theory, credited to Robert Schoch: the Sphinx was made in a wetter era.",
+      "as_told": {
+        "title": "Robert Schoch's work on water erosion in the Sphinx enclosure",
+        "years": null,
+        "place_text": "Sphinx enclosure, Giza, Egypt",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 3.0,
+  "score": 5.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 5,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
-    "researcher": 0,
+    "secondhand": 3,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -63,15 +211,23 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "graham-hancock",
+      "jeffrey-drum",
       "jesse-michels",
+      "matt-lacroix",
       "randall-carlson"
     ],
     "episodes": [
       "1f16VvXaSSE",
-      "JGE1NIGhBzw"
+      "92XrddiKjHY",
+      "9PJJiut0Iuw",
+      "A_LsUSxTm7A",
+      "JGE1NIGhBzw",
+      "NvQXmtcwHA8",
+      "dfPfPB601hw"
     ]
   },
-  "attestation": 1.5,
+  "attestation": 2.75,
   "tier": "well-attested",
   "plain": "This story is about the ancient monuments of Egypt, especially the Great Sphinx, and the idea that marks on the stone show water damage. A podcast host named Jesse Michels says that two researchers, John Anthony West and Robert Schoch, think the monuments were built much earlier than usually believed because of this water damage. A researcher of ancient catastrophes named Randall Carlson tells it from his own study, saying he is convinced the marks are water erosion. Carlson points to the enclosure around the Sphinx, credits the earlier scholar Schwaller de Lubicz as well as West, and puts the work at about 12,000 years ago. So it comes from a host repeating others and from a researcher giving his own view. If true, it would mean a forgotten civilisation built these monuments long before the Egypt we know."
 }

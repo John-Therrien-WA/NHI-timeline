@@ -1,0 +1,71 @@
+{
+  "id": "cia-activity-underneath-disneyland",
+  "title": "CIA activity underneath Disneyland",
+  "summary": "Kurt Metzger tells of CIA activity underneath Disneyland, about unspecified at Disneyland, California, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Disneyland, California",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 396.0,
+      "to_s": 406.0,
+      "teller": "kurt-metzger",
+      "quote": "Hey, why do Disney kids turn out how\nthey do? Well, Disney, the Rosian\n[music] that allowed the CIA to do stuff\nto him underneath Disneyland, and that's\nreal.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 3580.0,
+      "to_s": 3587.0,
+      "teller": "kurt-metzger",
+      "quote": ">> Well, Disney, the [ __ ] Rosa Kruian that allowed the CIA to do stuff to him underneath Disneyland. And that's real.",
+      "kind": "secondhand",
+      "cites": [
+        "walt-disney"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "Same claim by the same teller: the Rosicrucian Disney let the CIA operate underneath Disneyland.",
+      "as_told": {
+        "title": "Rosicrucian Disney let the CIA operate under Disneyland",
+        "years": null,
+        "place_text": "Disneyland, California, USA",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kurt-metzger"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Kurt Metzger, a guest on Jesse Michels's podcast, says that Walt Disney, the founder of the Disney entertainment company, belonged to the Rosicrucians, an old secretive mystical society. He says Disney allowed the CIA, the US spy agency, to carry out activities underneath Disneyland, and he insists that this is real, offering it as a reason why child stars from Disney turn out the way they do."
+}

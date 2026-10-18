@@ -8,7 +8,7 @@
     "to": 2023
   },
   "place": null,
-  "place_text": null,
+  "place_text": "Virginia",
   "coordinates": null,
   "kind": "document",
   "claims": [],
@@ -24,11 +24,36 @@
       "documents": [
         "the-intercept-article"
       ]
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 5431.0,
+      "to_s": 5439.0,
+      "teller": "jesse-michels",
+      "quote": "they basically leaked his medical records from the I guess the the uh police department locally in Virginia.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [
+        "grusch-police-call-records"
+      ],
+      "difference": "Frames it as a leak of medical records by a local Virginia police department and does not name The Intercept.",
+      "link_reason": "Both are about Grusch's records being made public after the hearing, records that describe his medical history; this telling says they came from local Virginia police.",
+      "as_told": {
+        "title": "Grusch's leaked police/medical records",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "Virginia",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,7 +64,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -47,10 +72,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "TNtlzEnl8rA",
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, interviewing David Grusch, a whistleblower who had testified at a government hearing about UFOs, mentions an article by The Intercept, a news outlet, published a few weeks after that hearing in 2023. Michels says the article described Grusch's hospitalization back in 2018, and he raises it because it was used to question Grusch's account."
 }

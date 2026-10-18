@@ -26,6 +26,29 @@
       "documents": [
         "us-army-corps-of-engineers-underground-studies"
       ]
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 1152.0,
+      "to_s": 1162.0,
+      "teller": "richard-dolan",
+      "quote": "documentation. I think he made a very very strong case that even back in the in the 40s and 50s we were looking the military was looking strong about how to go deep",
+      "kind": "researcher",
+      "cites": [
+        "richard-ser"
+      ],
+      "documents": [],
+      "difference": "Credits Richard Sauder's documentation rather than Xavier Dorsch and the Nazi scientists, and gives the period loosely as the 1940s-50s.",
+      "link_reason": "Both say the US military has been planning deep underground bases since the late 1940s.",
+      "as_told": {
+        "title": "Deep underground military bases planned since the 1940s-50s",
+        "years": {
+          "from": 1940,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -33,18 +56,23 @@
       "story": "afosi-founding-director-a-devout-catholic-afosi-behind-early-1948",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "deep-underground-bases-from-air-force-project-rand-1950",
+      "relation": "variant",
+      "note": "Same subject, the history of US deep underground military bases, told by the same researcher. Here they start out of Air Force Project RAND in the 1950s–60s; the stored story starts them in 1948 with Nazi scientists like Dorsch."
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
@@ -52,13 +80,15 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "richard-dolan",
       "uapgerb"
     ],
     "episodes": [
+      "GQlWf54K_7Y",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.75,
+  "tier": "well-attested",
   "plain": "An online researcher who goes by UAPGerb says on Jesse Michels's podcast that deep underground military bases are real. He says they have been a major focus of the US Defense Department and the Army Corps of Engineers, the army's building branch, since 1948. That was when, he says, the US brought over Nazi scientists, among them Xavier Dorsch, head of Nazi Germany's construction agency known as the Todt organization, to work in an underground laboratory run by Air Materiel Command, the Air Force's research and equipment arm."
 }

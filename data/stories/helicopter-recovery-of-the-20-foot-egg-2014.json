@@ -7,7 +7,7 @@
     "from": 2014,
     "to": 2025
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "off the range, California desert",
   "coordinates": null,
   "kind": "crash-retrieval",
@@ -111,6 +111,29 @@
         "from_s": 2285.0
       },
       "teller_was": "jesse-michels"
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 143.0,
+      "to_s": 152.0,
+      "teller": "jesse-michels",
+      "quote": "somebody coming out, a UFO whistleblower, claiming firsthand knowledge saying that he retrieved an eggshaped craft",
+      "kind": "host",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Gives no place, date or helicopter detail, and says only 2020s for when the whistleblower came forward.",
+      "link_reason": "Same claim: Jake Barber says he retrieved an egg-shaped craft. The story already has Michels telling it.",
+      "as_told": {
+        "title": "Jake Barber retrieves an egg-shaped craft",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -137,6 +160,7 @@
       "A2-y_HasHEw",
       "areO7Mej44E",
       "dnnpyNuPdXs",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4",
       "yGtVzBbUvx4"
     ]

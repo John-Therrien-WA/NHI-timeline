@@ -1,0 +1,140 @@
+{
+  "id": "moment-of-contact-the-varginha-witnesses-1996",
+  "title": "Moment of Contact: the Varginha witnesses",
+  "summary": "Jesse Michels tells of Moment of Contact: the Varginha witnesses, about 1996 at Varginha, Brazil, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 2050.0,
+      "to_s": 2056.0,
+      "teller": "jesse-michels",
+      "quote": "It's not some official US government thing. It's like these people in Virginia aren't lying about this stuff.",
+      "kind": "host",
+      "cites": [
+        "james-fox"
+      ],
+      "documents": [
+        "moment-of-contact"
+      ]
+    },
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 2784.0,
+      "to_s": 2792.0,
+      "teller": "jesse-michels",
+      "quote": "And remember the beings in Virginia, Brazil and James Fox's amazing movie Moment of Contact? They also had three fingers.",
+      "kind": "host",
+      "cites": [
+        "james-fox"
+      ],
+      "documents": [
+        "moment-of-contact"
+      ],
+      "difference": "Adds that the Varginha beings had three fingers, linking them to the Peru bodies.",
+      "link_reason": "Both are about the beings the Varginha witnesses describe in James Fox's Moment of Contact.",
+      "as_told": {
+        "title": "Three-fingered beings of the Varginha incident",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "dr-fernando-jane-saw-the-creature-s-foot-at-the-regional-hos-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-italo-venturelli-meets-live-being-in-the-icu-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-marcos-vinicius-neves-operates-on-the-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "eric-lopes-and-the-second-capture-of-a-live-creature-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "foreign-men-offer-luiza-cash-in-dollars-to-retract-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "kuber-lada-and-friends-meet-military-blockade-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "marco-chereze-dies-after-handling-the-varginha-creature-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "men-in-black-confront-carlos-de-souza-at-gas-station-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "three-girls-encounter-creature-near-marakon-gym-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "three-women-see-the-red-eyed-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "witness-returns-with-luiza-and-sees-creature-s-footprint-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "HxQN2tkQHs8",
+      "JE1oM89dpBc"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, praises Moment of Contact, a documentary by the filmmaker James Fox about events in 1996 in Varginha, a town in Brazil, where residents say strange beings were seen and captured. Michels says these local witnesses are not part of any US government story and are not lying, and he notes that the beings were described with three fingers, which he links to three-fingered bodies reported in Peru."
+}

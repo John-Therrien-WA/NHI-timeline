@@ -21,6 +21,28 @@
       "documents": [
         "polarizable-vacuum-paper"
       ]
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 3941.0,
+      "to_s": 3950.0,
+      "teller": "salvatore-pais",
+      "quote": "deserving of a Nobel prize truly especially the the physical review paper on gravity",
+      "kind": "researcher",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": [
+        "physical-review-paper-on-gravity"
+      ],
+      "difference": "Names the journal as Physical Review and calls the work Nobel-worthy.",
+      "link_reason": "Puthoff's published journal paper on gravity is his polarizable vacuum work, which he says he published in a physics journal.",
+      "as_told": {
+        "title": "Puthoff's Physical Review paper on gravity",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -37,13 +59,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "hal-puthoff"
     ],
     "episodes": [
+      "8TYMQOUDQBo",
       "iQOibpIDx-4"
     ]
   },

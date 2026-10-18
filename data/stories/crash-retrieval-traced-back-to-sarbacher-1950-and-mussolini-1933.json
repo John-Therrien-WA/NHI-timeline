@@ -1,0 +1,57 @@
+{
+  "id": "crash-retrieval-traced-back-to-sarbacher-1950-and-mussolini-1933",
+  "title": "Crash retrieval traced back to Sarbacher 1950 and Mussolini 1933",
+  "summary": "UAPGerb tells of Crash retrieval traced back to Sarbacher 1950 and Mussolini 1933, about 1933, 1950 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1933,
+    "to": 1950
+  },
+  "place": "united-states",
+  "place_text": "Italy; United States",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 8424.0,
+      "to_s": 8431.0,
+      "teller": "uapgerb",
+      "quote": "There's going back to Robert Sarbacher\nin 1950 and even before in 1933 with\nMussolini.",
+      "kind": "researcher",
+      "cites": [
+        "robert-sarbacher",
+        "benito-mussolini"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "An online researcher who goes by UAPGerb, speaking on podcast host Jesse Michels' show, says the story of governments secretly recovering crashed unknown craft goes back a long way. He points to a scientist named Robert Sarbacher in 1950, and even earlier to Italy in 1933 under its dictator Benito Mussolini. If true, it would mean such recoveries began well before the famous American cases."
+}

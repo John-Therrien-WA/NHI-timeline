@@ -1,0 +1,60 @@
+{
+  "id": "bluegill-triple-prime-as-missile-defense-tied-to-sdi-1962",
+  "title": "Bluegill Triple Prime as missile defense, tied to SDI",
+  "summary": "Jesse Michels tells of Bluegill Triple Prime as missile defense, tied to SDI, about 1962 at Pacific (high-altitude nuclear test), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": null,
+  "place_text": "Pacific (high-altitude nuclear test)",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 13955.0,
+      "to_s": 13965.0,
+      "teller": "jesse-michels",
+      "quote": "Yeah, and that that in fact the Bluegill\nTriple Prime thing was\nit was a high-altitude nuclear test, but\nit was a defense against Russian ICBMs",
+      "kind": "secondhand",
+      "cites": [
+        "malmgren",
+        "rand-corporation",
+        "institute-for-defense-analysis"
+      ],
+      "documents": [
+        "rand-corporation-paper"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ATJwqp5twAg"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels repeats what a man named Malmgren told him about Bluegill Triple Prime, a high-altitude nuclear test over the Pacific in 1962. According to Michels, Malmgren said the test was really a defense against Russian long-range nuclear missiles, and he points to a paper from the RAND Corporation, a US defense research group, and to the Institute for Defense Analysis. The story links it to the Strategic Defense Initiative, a later US plan to shield the country from missiles, which would make the test an early missile shield if true."
+}

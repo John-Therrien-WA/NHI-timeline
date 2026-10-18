@@ -1,0 +1,54 @@
+{
+  "id": "friend-dying-on-the-moon",
+  "title": "Friend dying on the moon",
+  "summary": "Ross Coulthart tells of Friend dying on the moon, about unspecified at The Moon, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "moon",
+  "place_text": "The Moon",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 4944.0,
+      "to_s": 4960.0,
+      "teller": "ross-coulthart",
+      "quote": "There was a conversation I had with someone who I trust who got very emotional and described a friend of his dying on the moon.",
+      "kind": "secondhand",
+      "cites": [
+        "unnamed-trusted-source",
+        "chris-ramsay"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "ross-coulthart"
+    ],
+    "episodes": [
+      "2ttdlCa5ZCI"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Ross Coulthart, a journalist who reports on UFO claims, says that someone he trusts became very emotional while telling him about a friend who died on the moon. He told this on Jesse Michels's podcast in an episode about a hidden space programme. If true, it would mean people have been secretly sent to the moon, and some did not come back."
+}

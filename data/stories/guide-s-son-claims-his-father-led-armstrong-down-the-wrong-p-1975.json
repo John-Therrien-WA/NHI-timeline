@@ -1,0 +1,78 @@
+{
+  "id": "guide-s-son-claims-his-father-led-armstrong-down-the-wrong-p-1975",
+  "title": "Guide's son claims his father led Armstrong down the wrong path",
+  "summary": "Jesse Michels tells of Guide's son claims his father led Armstrong down the wrong path, about 1975 at Tayos Cave, Ecuador, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1975,
+    "to": 1975
+  },
+  "place": null,
+  "place_text": "Tayos Cave, Ecuador",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4423.0,
+      "to_s": 4430.0,
+      "teller": "jesse-michels",
+      "quote": "They didn't find it. But I'm in touch with this guy who claims that his father led Neil Armstrong down the wrong path.",
+      "kind": "secondhand",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 8158.0,
+      "to_s": 8170.0,
+      "teller": "jesse-michels",
+      "quote": "And my friend Luis Felipe San Salvador says that his father sent Neil Armstrong in the wrong direction and that he has the real location of this thing.",
+      "kind": "secondhand",
+      "cites": [
+        "luis-felipe-san-salvador",
+        "neil-armstrong"
+      ],
+      "documents": [],
+      "difference": "Names the son as Luis Felipe San Salvador and adds that the family has maps and knows the real location.",
+      "link_reason": "This is the same claim that a guide's son says his father sent Armstrong the wrong way in the search for the Tayos cave.",
+      "as_told": {
+        "title": "San Salvador family maps; father sent Armstrong the wrong way",
+        "years": null,
+        "place_text": "Ecuador",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "9PJJiut0Iuw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Jesse Michels, a podcast host, says he is in touch with the son of a guide who took Neil Armstrong, the first man on the Moon, into the Tayos Cave, a cave system in Ecuador, around 1975, when the expedition was looking for something hidden there and did not find it. Michels says the son, whom he names in a later episode as Luis Felipe San Salvador, claims his father deliberately sent Armstrong the wrong way, and that the family still knows the real location. If true, whatever was being sought in the cave would still be there, kept secret on purpose."
+}

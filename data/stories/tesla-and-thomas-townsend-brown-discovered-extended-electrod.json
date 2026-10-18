@@ -1,0 +1,102 @@
+{
+  "id": "tesla-and-thomas-townsend-brown-discovered-extended-electrod",
+  "title": "Tesla and Thomas Townsend Brown discovered extended electrodynamics",
+  "summary": "Jesse Michels tells of Tesla and Thomas Townsend Brown discovered extended electrodynamics, about late 19th-20th century at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 5678.0,
+      "to_s": 5690.0,
+      "teller": "jesse-michels",
+      "quote": "I agree and I think Tesla discovered it I think another guy named Thomas Townsen Brown discovered it and I think it often involves kind of high voltages across short distances",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla",
+        "thomas-townsend-brown",
+        "lee-hively",
+        "anonymous-navy-scientist"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 4929.0,
+      "to_s": 4942.0,
+      "teller": "jesse-michels",
+      "quote": "Well, I it's funny. Tesla and Towns were doing the same thing. Tesla was doing similar stuff to what Towns and Gravel is at the end of his career at WBY Cliff and in Colorado Springs. extremely high voltages across short distances",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Places Tesla's work at Wardenclyffe and Colorado Springs and does not name extended electrodynamics.",
+      "link_reason": "Both are Michels's claim that Tesla and Townsend Brown were doing the same thing: high voltages across short distances.",
+      "as_told": {
+        "title": "Tesla's high-voltage work at Wardenclyffe and Colorado Springs like Townsend Brown's",
+        "years": {
+          "from": 1899,
+          "to": 1909
+        },
+        "place_text": "Wardenclyffe, New York; Colorado Springs, Colorado",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 8830.0,
+      "to_s": 8840.0,
+      "teller": "jesse-michels",
+      "quote": "people like Thomas Townsen Brown who I'm as high conviction in in anything when it comes to this story. And it seems like that's how the crafts fly.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Says nothing of Tesla or high voltages and stresses Michels's strong conviction in Brown.",
+      "link_reason": "Both are Michels's theory that Thomas Townsend Brown's discovery explains how the craft fly.",
+      "as_told": {
+        "title": "Thomas Townsend Brown anti-gravity propulsion",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "0qlppHc3-gg",
+      "8TYMQOUDQBo",
+      "K4gYHs84BIc"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says he thinks the inventor Nikola Tesla and a later researcher named Thomas Townsend Brown both discovered the same thing. The story calls it extended electrodynamics, meaning a physics that goes beyond ordinary electricity and magnetism and often involves very high voltages across short distances. Michels says he is strongly convinced about Brown's part and believes this may be how unexplained craft fly. If he is right, those craft would run on physics people found long ago."
+}

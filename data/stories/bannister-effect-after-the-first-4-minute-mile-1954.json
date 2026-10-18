@@ -1,0 +1,56 @@
+{
+  "id": "bannister-effect-after-the-first-4-minute-mile-1954",
+  "title": "Bannister effect after the first 4-minute mile",
+  "summary": "Jesse Michels tells of Bannister effect after the first 4-minute mile, about 1954-1956 at Oxford, England, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1954,
+    "to": 1956
+  },
+  "place": null,
+  "place_text": "Oxford, England",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 1443.0,
+      "to_s": 1458.0,
+      "teller": "jesse-michels",
+      "quote": "The Bannister effect is named after British athlete Roger Bannister, who broke the 4-minute mile record in 1954 at Oxford. Within just 2 and 1/2 years, 10 other runners had all broken the 4-minute mile.",
+      "kind": "host",
+      "cites": [
+        "roger-bannister"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "aKZ_MUbuk_Q"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, describes what he calls the Bannister effect, named after a British runner, Roger Bannister, who ran a mile in under four minutes at Oxford in 1954. Michels says that within about two and a half years, ten other runners had done the same. He uses it to make the point that once one person shows something is possible, others quickly follow."
+}

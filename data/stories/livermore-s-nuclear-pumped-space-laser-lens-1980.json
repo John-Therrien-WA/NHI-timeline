@@ -1,0 +1,88 @@
+{
+  "id": "livermore-s-nuclear-pumped-space-laser-lens-1980",
+  "title": "Livermore's nuclear-pumped space laser lens",
+  "summary": "John Harrington tells of Livermore's nuclear-pumped space laser lens, about 1980s at Lawrence Livermore Laboratory, and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "washington-dc",
+  "place_text": "Lawrence Livermore Laboratory",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 871.0,
+      "to_s": 885.0,
+      "teller": "john-harrington",
+      "quote": "Um, they would cause a nuclear explosion to go off in space and they would focus the energy from that through a lens about the size of your thumbnail.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 956.0,
+      "to_s": 959.0,
+      "teller": "john-harrington",
+      "quote": ">> Teller sat on my couch with me one afternoon.",
+      "kind": "firsthand",
+      "cites": [
+        "edward-teller"
+      ],
+      "documents": [],
+      "difference": "Adds that Teller showed him the lens while sitting on his couch at the Department of Energy, and names the program Excalibur.",
+      "link_reason": "Harrington again tells of the Livermore nuclear-pumped space laser and its thumbnail-sized lens, here as shown to him by Teller.",
+      "as_told": {
+        "title": "Edward Teller shows Harrington the Excalibur lens",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Department of Energy, Washington DC",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "continuity-of-government-succession-harrington-was-number-16-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "reagan-ufo-briefing-attended-by-james-baker-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "john-harrington"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "John Harrington, who says he was a senior official at the US Department of Energy, describes a 1980s weapons project at Lawrence Livermore Laboratory, a government weapons lab. He says the plan was to set off a nuclear explosion in space and focus its energy through a lens about the size of a thumbnail, and that the physicist Edward Teller sat on his couch one afternoon, showed him the lens and called the program Excalibur. He tells it to show how far secret weapons work went in those years."
+}

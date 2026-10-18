@@ -25,6 +25,31 @@
         "ross-coulthart"
       ],
       "documents": []
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 6861.0,
+      "to_s": 6870.0,
+      "teller": "jesse-michels",
+      "quote": "this? Because you have Donald Trump Jr.\ninterviewing Ross Colthart on the eve of\nhis breaking of the Jake Barber story.",
+      "kind": "host",
+      "cites": [
+        "donald-trump-jr",
+        "ross-coulthart",
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Places the interview on the eve of Coulthart breaking the Jake Barber story.",
+      "link_reason": "Both are Donald Trump Jr.'s 2025 interview with Ross Coulthart.",
+      "as_told": {
+        "title": "Donald Trump Jr. interviews Ross Coulthart before Jake Barber story",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -57,6 +82,51 @@
       "story": "nasa-3i-atlas-press-conference-2025",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "asked-to-take-part-in-congressional-testimony-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "contact-from-steven-greer-s-disclosure-project-and-offer-of-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dni-tulsi-gabbard-s-platform-pledge-to-expose-uap-informatio-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "falsified-evidence-aimed-at-a-treason-death-penalty-for-borl-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jake-barber-s-testimony-and-the-egg-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-s-conversation-with-tulsi-gabbard-on-uap-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "leaving-the-skywatcher-team-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mccullough-on-the-phone-they-did-it-not-the-whistleblowers-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "odni-duplicated-borland-s-phone-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -79,6 +149,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "KGD1nuM4MR8",
       "xnxasfyHtfo"
     ]
   },

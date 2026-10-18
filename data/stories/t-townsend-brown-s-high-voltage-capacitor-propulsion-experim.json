@@ -21,6 +21,52 @@
         "thomas-townsend-brown"
       ],
       "documents": []
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1266.0,
+      "to_s": 1268.0,
+      "teller": "jesse-michels",
+      "quote": "named Thomas Townsen Brown who had these",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Places the experiments in the 1950s.",
+      "link_reason": "Same subject: Townsend Brown's high-voltage gravitator and capacitor propulsion experiments.",
+      "as_told": {
+        "title": "Townsend Brown gravitator experiments",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 717.0,
+      "to_s": 728.0,
+      "teller": "jesse-michels",
+      "quote": "I've independently uncovered an absurd amount of information that leads me [music] to believe that Townsen Brown essentially discovered anti-gravity in the 1950s.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "States it outright as anti-gravity and dates the discovery to the 1950s.",
+      "link_reason": "Both make the general claim that Brown's high-voltage work achieved propulsion beyond conventional means, which is to say anti-gravity, told by Michels as host.",
+      "as_told": {
+        "title": "Townsend Brown discovered anti-gravity",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -44,6 +90,8 @@
       "jesse-michels"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
+      "bM18PJY6_Zc",
       "jMCavr3dVP0"
     ]
   },

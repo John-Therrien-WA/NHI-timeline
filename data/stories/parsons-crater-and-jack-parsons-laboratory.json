@@ -1,0 +1,53 @@
+{
+  "id": "parsons-crater-and-jack-parsons-laboratory",
+  "title": "Parsons crater and 'Jack Parsons Laboratory'",
+  "summary": "Jesse Michels tells of Parsons crater and 'Jack Parsons Laboratory', about present day at The Moon, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "moon",
+  "place_text": "Moon; JPL, Pasadena",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 1393.0,
+      "to_s": 1403.0,
+      "teller": "jesse-michels",
+      "quote": "A lunar crater now bears his name. And at JPL, some insiders still call it Jack Parsons Laboratory.",
+      "kind": "host",
+      "cites": [
+        "jack-parsons"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, talks about Jack Parsons, an early American rocket pioneer. Michels says a crater on the Moon now carries Parsons' name, and that some insiders at JPL, a NASA rocket and space laboratory in Pasadena, California, still jokingly call it the Jack Parsons Laboratory. He tells it to show how central Parsons is said to be to the lab's story."
+}

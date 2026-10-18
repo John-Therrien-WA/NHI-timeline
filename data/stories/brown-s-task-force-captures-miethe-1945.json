@@ -1,0 +1,56 @@
+{
+  "id": "brown-s-task-force-captures-miethe-1945",
+  "title": "Brown's task force captures Miethe",
+  "summary": "Jesse Michels tells of Brown's task force captures Miethe, about 1945 at Germany, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3253.0,
+      "to_s": 3260.0,
+      "teller": "jesse-michels",
+      "quote": "Miethe is the mysterious high-voltage physicist that Townsend Brown's task force reportedly helped capture for the Allied forces.",
+      "kind": "host",
+      "cites": [
+        "richard-miethe"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells a story from Germany at the end of the Second World War in 1945. He says that a team linked to Townsend Brown, an American inventor known for high-voltage experiments he tied to gravity, reportedly helped the Allied forces capture Richard Miethe, whom Michels calls a mysterious German high-voltage physicist. If true, it would place Brown near the hunt for advanced German science at the very start of this story."
+}

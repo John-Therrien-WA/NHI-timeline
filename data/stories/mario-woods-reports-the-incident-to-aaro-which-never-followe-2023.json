@@ -24,7 +24,34 @@
         "michael-johnson",
         "aaro"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "episode": "73YBwFvcmF8",
+        "from_s": 3320.0
+      }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 3339.0,
+      "to_s": 3344.0,
+      "teller": "mario-woods",
+      "quote": "and I reported that the arrow in March of uh 203 I think when I spoke with them",
+      "kind": "firsthand",
+      "cites": [
+        "kpatrick"
+      ],
+      "documents": [],
+      "difference": "Says the interview ran 4 hours 19 minutes and was not recorded, and credits Kirkpatrick.",
+      "link_reason": "Same as the story of Mario Woods reporting the incident to AARO in March 2023, with nearly the same quote.",
+      "as_told": {
+        "title": "Unrecorded 4-hour-19-minute AARO interview",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "AARO, United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -82,6 +109,51 @@
       "story": "matthew-sullivan-s-death-and-his-legacy-program-experience-2023",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aaron-paul-wrote-messages-back-and-forth-with-bob-lazar-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aviators-reports-to-graves-leading-to-the-congressional-hear-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "borland-goes-to-the-icig-after-grusch-testifies-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "careful-handling-of-david-grusch-before-he-came-forward-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-on-a-multi-decade-cold-war-with-adversaries-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-on-disclosing-the-biologic-side-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "klippenstein-admits-dod-and-ic-tipped-him-off-on-grusch-stor-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "red-phone-to-china-used-during-balloon-incident-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "why-borland-came-forward-lives-in-danger-and-a-read-in-colle-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -104,6 +176,7 @@
       "mario-woods"
     ],
     "episodes": [
+      "73YBwFvcmF8",
       "fzvwBBSmWYA"
     ]
   },

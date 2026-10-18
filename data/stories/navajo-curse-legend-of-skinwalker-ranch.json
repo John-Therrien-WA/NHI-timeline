@@ -39,34 +39,73 @@
         "place_text": "Skinwalker Ranch, Uinta Basin, Utah",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "7W7iOt57fOo",
+      "from_s": 35.0,
+      "to_s": 53.0,
+      "teller": "jesse-michels",
+      "quote": "in the 19th century the area primarily consisted of two indian tribes the navajo and the youths during the civil war the utes partnered with the us government in a battle against the navajo suffering a brutal defeat and feeling betrayed the navajo cursed the local land with skinwalkers",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Places it in the Civil War era and says the Navajo suffered a brutal defeat.",
+      "link_reason": "Same legend: the Utes allied with the US government against the Navajo, and the Navajo cursed the land with skinwalkers.",
+      "as_told": {
+        "title": "Navajo curse on the land after Ute-US alliance",
+        "years": null,
+        "place_text": "Uinta Basin, Utah",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 2204.0,
+      "to_s": 2212.0,
+      "teller": "brandon-fugal",
+      "quote": "And as we've been told, the Navajo ended up being being driven away and and cursed the property.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Fugal tells it secondhand, places it in the 19th century and ties it to Skinwalker Ridge.",
+      "link_reason": "Both tell the legend that the Navajo, driven off by the Ute, cursed the Skinwalker Ranch land.",
+      "as_told": {
+        "title": "Navajo curse and Skinwalker Ridge",
+        "years": null,
+        "place_text": "Skinwalker Ranch ridge, Uintah Basin, Utah",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
+      "brandon-fugal",
       "jesse-michels"
     ],
     "episodes": [
+      "7W7iOt57fOo",
       "OOr98r51Sj0",
-      "iQOibpIDx-4"
+      "iQOibpIDx-4",
+      "uYyXpx7ADJQ"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "Skinwalker Ranch is a piece of land in Utah's Uinta Basin known for strange happenings, named after skinwalkers, shape-shifting beings from Native American lore. A podcast host, Jesse Michels, says the legend is that the Ute tribe, who worked with the US government, fought the Navajo, and the unhappy Navajo cursed the spot with skinwalkers. In a later telling he leaves out the Navajo and says the Ute call it cursed ground and will not talk about it, adding that drones, helicopters and equipment fail there."
 }

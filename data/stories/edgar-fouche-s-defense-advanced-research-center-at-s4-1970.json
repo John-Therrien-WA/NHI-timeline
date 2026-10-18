@@ -1,0 +1,59 @@
+{
+  "id": "edgar-fouche-s-defense-advanced-research-center-at-s4-1970",
+  "title": "Edgar Fouché's Defense Advanced Research Center at S4",
+  "summary": "UAPGerb tells of Edgar Fouché's Defense Advanced Research Center at S4, about 1970s at S4, Nevada, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "S4, Nevada",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 3526.0,
+      "to_s": 3539.0,
+      "teller": "uapgerb",
+      "quote": "Edgar Fuche who claimed that S4 ran the Defense Advanced Research Center the DAR which was found in um a apa document in the 70s to be proposed",
+      "kind": "researcher",
+      "cites": [
+        "edgar-fouche",
+        "dan-burisch"
+      ],
+      "documents": [
+        "arpa-document"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "An online researcher who goes by UAPGerb (UAP stands for unidentified anomalous phenomena, the official term for UFOs) says on Jesse Michels's podcast that a man named Edgar Fouché claimed S4, a secret site in Nevada, ran something called the Defense Advanced Research Center. UAPGerb says a document from ARPA, a Pentagon research agency, was found showing that such a centre had been proposed in the 1970s. If true, it would back up claims that a hidden research site really existed there."
+}

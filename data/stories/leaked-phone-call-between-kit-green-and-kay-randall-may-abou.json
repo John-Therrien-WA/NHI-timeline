@@ -22,33 +22,62 @@
         "kay-randall-may"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 8177.0,
+      "to_s": 8187.0,
+      "teller": "dylan-borland",
+      "quote": "K. Randall. have that leaked phone call where they are literally saying we are testing veterans, military, government officials who have had experiences and in their own words, hybrids.",
+      "kind": "secondhand",
+      "cites": [
+        "kit-green",
+        "kit-randall-may",
+        "uri-geller"
+      ],
+      "documents": [
+        "leaked-kit-green-kit-randall-may-phone-call"
+      ],
+      "difference": "Dates the call to 2017, says it describes testing veterans, military and officials as 'hybrids', and also credits Uri Geller.",
+      "link_reason": "The same leaked phone call between Kit Green and Kay/Kit Randall May about testing contactees.",
+      "as_told": {
+        "title": "Leaked Kit Green / Kit Randall May phone call about testing experiencers and 'hybrids'",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "dylan-borland",
       "matthew-brown"
     ],
     "episodes": [
+      "K4gYHs84BIc",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "A man who presents himself as a Pentagon whistleblower, Matthew Brown, refers on a podcast to a leaked phone call between a man named Kit Green and a person named Kay Randall May. According to Brown, the call was about contactees, people who say they have been in touch with non-human beings. If real, the call would show insiders privately discussing such people."
 }

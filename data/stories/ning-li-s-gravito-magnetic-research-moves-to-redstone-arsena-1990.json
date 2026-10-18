@@ -25,6 +25,30 @@
         "larry-smalley"
       ],
       "documents": []
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 5740.0,
+      "to_s": 5752.0,
+      "teller": "jesse-michels",
+      "quote": "Her story took an even darker turn in 2014 when she was struck by a car on the University of Alabama campus and suffered permanent brain [music] damage.",
+      "kind": "host",
+      "cites": [
+        "ning-li",
+        "douglas-torr"
+      ],
+      "documents": [],
+      "difference": "Adds that she was hit by a car on the University of Alabama campus in 2014 and suffered permanent brain damage, and runs the timeline up to 2021.",
+      "link_reason": "Same story: Ning Li's gravity research moves into classified work and disappears from public view.",
+      "as_told": {
+        "title": "Ning Li's gravity research vanishes into classified world",
+        "years": {
+          "from": 1990,
+          "to": 2021
+        },
+        "place_text": "Huntsville, Alabama",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -48,7 +72,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "d9tdJ2SkBKQ"
+      "d9tdJ2SkBKQ",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.25,

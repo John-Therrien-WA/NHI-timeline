@@ -1,0 +1,59 @@
+{
+  "id": "herodotus-records-a-king-s-tomb-on-an-island-in-an-undergrou-1980",
+  "title": "Herodotus records a king's tomb on an island in an underground lake",
+  "summary": "Luke Caverns tells of Herodotus records a king's tomb on an island in an underground lake, about 5th century BC; excavated 1980s-1990s at Osiris shaft, Giza, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Osiris shaft, Giza",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 2458.0,
+      "to_s": 2468.0,
+      "teller": "luke-caverns",
+      "quote": "But he records that down in the Osiris shaft there was the tomb of a great king on an island surrounded by a lake of water.",
+      "kind": "researcher",
+      "cites": [
+        "herodotus",
+        "zahi-hawass"
+      ],
+      "documents": [
+        "giza-and-the-osiris-shaft"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Luke Caverns, a researcher of ancient Egypt, says that Herodotus, an ancient Greek historian writing in the 5th century BC, recorded that a great king's tomb lay on an island surrounded by a lake of water underground at Giza. Caverns ties this to the Osiris shaft, a deep underground shaft near the pyramids that, he says, was dug out in the 1980s and 1990s, with the Egyptian archaeologist Zahi Hawass involved. If true, it would mean an ancient account described the site long before it was explored."
+}

@@ -1,0 +1,59 @@
+{
+  "id": "war-department-asks-fbi-to-clear-gebauer-1942",
+  "title": "War Department asks FBI to clear GeBauer",
+  "summary": "Scott Ramsay tells of War Department asks FBI to clear GeBauer, about 1942-1943 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1942,
+    "to": 1943
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 2902.0,
+      "to_s": 2910.0,
+      "teller": "scott-ramsay",
+      "quote": "the War Department is asking the FBI to clear him. So, I think he worked on some kind of topshelf project.",
+      "kind": "researcher",
+      "cites": [
+        "leo-gaybower",
+        "j-edgar-hoover"
+      ],
+      "documents": [
+        "leo-gaybower-fbi-file"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Scott Ramsay, speaking on a podcast hosted by Jesse Michels, describes an FBI file on a man named Leo GeBauer. Ramsay says that around 1942 or 1943 the War Department, the US government department that ran the Army at the time, asked the FBI, the US federal police agency then led by J. Edgar Hoover, to clear GeBauer for security. From this Ramsay concludes that GeBauer worked on some kind of top-level secret project, which, if so, would mean the government trusted him with serious work."
+}

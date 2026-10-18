@@ -25,33 +25,156 @@
         "walther-gerlach"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 5304.0,
+      "to_s": 5320.0,
+      "teller": "jesse-michels",
+      "quote": "the legendary Die Glock, where the bell was described in Nazi Germany. An SS officer named Jacob Spornberg documented magnetic field separation, vortex compression, all surrounding a possible anti-gravity machine.",
+      "kind": "host",
+      "cites": [
+        "jacob-spornberg",
+        "walter-gerlach",
+        "ernst-grauwitz",
+        "igor-witkowski"
+      ],
+      "documents": [],
+      "difference": "Adds SS officer Jacob Spornberg's documentation of magnetic field separation and vortex compression, and frames the bell as a possible anti-gravity machine.",
+      "link_reason": "The same Nazi bell program, crediting Witkowski, Gerlach and Grawitz, as the Die Glocke and spinning mercury story.",
+      "as_told": {
+        "title": "Die Glocke, the Nazi bell experiments",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Nazi Germany",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1378.0,
+      "to_s": 1385.0,
+      "teller": "nick-cook",
+      "quote": "I get this connection with Igor Witkowski who tells me all about the Bell story,",
+      "kind": "secondhand",
+      "cites": [
+        "igor-witkowski"
+      ],
+      "documents": [],
+      "difference": "Told by Nick Cook, who heard it from Witkowski directly. It adds the codename 'Kronos' and places the Bell at Waldenburg.",
+      "link_reason": "The same Die Glocke program as Igor Witkowski tells it, set in wartime Germany/Poland.",
+      "as_told": {
+        "title": "Die Glocke (the Bell, 'Kronos')",
+        "years": null,
+        "place_text": "Waldenburg, southern Poland",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 4470.0,
+      "to_s": 4487.0,
+      "teller": "jesse-michels",
+      "quote": "so there's this rumor of this like Nazi werv vafa program under SS officer Hans commer and he had this sort of bell-shaped object and the guys that were working on this reportedly were Ernest growz who was head of the SS medical division",
+      "kind": "host",
+      "cites": [
+        "hans-kammler",
+        "ernst-grawitz",
+        "walther-gerlach"
+      ],
+      "documents": [],
+      "difference": "Presents it as a time-dilation program and a rumor, with no mention of spinning mercury or of Igor Witkowski as the source.",
+      "link_reason": "Both tell of Die Glocke, the bell under Hans Kammler, naming the same staff, Ernst Grawitz and Walther Gerlach.",
+      "as_told": {
+        "title": "Nazi Bell (Die Glocke) time-dilation program under Hans Kammler",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Nazi Germany",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 1493.0,
+      "to_s": 1514.0,
+      "teller": "kirk-mcconnell",
+      "quote": "I've certainly uh read all about u you know the the the Nazi uh bell program. Um, Igor Wikowski, the Polish journalist, has written some books about this and and Joseph Frell.",
+      "kind": "researcher",
+      "cites": [
+        "igor-witkowski",
+        "joseph-farrell",
+        "salvatore-pais"
+      ],
+      "documents": [],
+      "difference": "Adds Joseph Farrell as a source and leaves out the spinning mercury.",
+      "link_reason": "Both are about the Nazi Bell (Die Glocke) program as reported by Igor Witkowski.",
+      "as_told": {
+        "title": "Nazi Bell program as reported by Witkowski and Farrell",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Nazi Germany",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 7120.0,
+      "to_s": 7128.0,
+      "teller": "jesse-michels",
+      "quote": "whatever. Like, he brought this up both in the context of DLA, this German bell, which is, I think, no longer fictional.",
+      "kind": "secondhand",
+      "cites": [
+        "kirk-mcconnell",
+        "nick-cook"
+      ],
+      "documents": [],
+      "difference": "Credits Kurt McConnell and Nick Cook rather than Igor Witkowski, and says the bell is no longer fictional.",
+      "link_reason": "Both tell of the WWII Nazi Bell (Die Glocke) program as a whole, as told by Jesse Michels.",
+      "as_told": {
+        "title": "Die Glocke, the Nazi bell",
+        "years": null,
+        "place_text": "Germany",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "kirk-mcconnell",
+      "nick-cook"
     ],
     "episodes": [
+      "G7Ns4Aq1tVc",
+      "KGD1nuM4MR8",
+      "RTEWLSTyUic",
+      "TNtlzEnl8rA",
+      "hXYdkcv5TtY",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.75,
+  "tier": "told-by-several",
   "plain": "Jesse Michels, a podcast host, says that according to a Polish journalist named Igor Witkowski, a Nazi wartime project known as Die Glocke, German for \"the Bell\", involved rotating, spinning mercury. Michels places it in the context of Hans Kammler, a senior SS officer, during World War Two in Germany and Poland. If true, it would suggest the Nazis were experimenting with exotic propulsion or physics far beyond ordinary weapons."
 }

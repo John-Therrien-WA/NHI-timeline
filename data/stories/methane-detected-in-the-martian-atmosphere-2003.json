@@ -1,0 +1,54 @@
+{
+  "id": "methane-detected-in-the-martian-atmosphere-2003",
+  "title": "Methane detected in the Martian atmosphere",
+  "summary": "Jesse Michels tells of Methane detected in the Martian atmosphere, about 2003 at Mars, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2003,
+    "to": 2003
+  },
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7366.0,
+      "to_s": 7371.0,
+      "teller": "jesse-michels",
+      "quote": "a distinct possibility in 2003 methane was detected in the Martian atmosphere",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JpLThEF2dTM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in 2003 methane, a gas that living things can produce, was found in the air of Mars. He brings it up in an episode about whether Mars once had life, as a sign that this is a real possibility."
+}

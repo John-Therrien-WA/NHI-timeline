@@ -19,6 +19,51 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 4756.0,
+      "to_s": 4767.0,
+      "teller": "jesse-michels",
+      "quote": "he said you know probably as a result of his work with crash retrievals and UFOs he has this sort of wing sphere thing show up at his house",
+      "kind": "host",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Michels tells it second hand and links its appearance to Barber's crash-retrieval work.",
+      "link_reason": "Both describe the winged object, called the angel, that shows up over Jake Barber's house.",
+      "as_told": {
+        "title": "Wing-sphere object appears at Jake Barber's house",
+        "years": null,
+        "place_text": "Jake Barber's house",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 4767.0,
+      "to_s": 4786.0,
+      "teller": "jake-barber",
+      "quote": "have stuff show up over our house we have um a UAP we call the angel that shows up and it looks like it has or Wings it's blue and it comes in materializes hangs out over the house it's seen by neighbors it's seen by everybody and then it's gone it shoots into outer space",
+      "kind": "firsthand",
+      "cites": [
+        "jake-barber-s-son"
+      ],
+      "documents": [],
+      "difference": "Adds that it is blue, materializes, is seen by the neighbours and shoots into space. The house is attributed to Blitch, not Barber.",
+      "link_reason": "The quote is nearly word for word the same as Barber's telling of the blue winged angel UAP that shows up over the house.",
+      "as_told": {
+        "title": "The blue 'angel' UAP over Blitch's house",
+        "years": null,
+        "place_text": "Blitch's house",
+        "story_kind": "sighting"
+      },
+      "replay_of": {
+        "episode": "dnnpyNuPdXs",
+        "from_s": 10065.0
+      },
+      "teller_was": "john-blitch"
     }
   ],
   "related": [],
@@ -35,14 +80,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "jake-barber"
     ],
     "episodes": [
-      "dnnpyNuPdXs"
+      "dnnpyNuPdXs",
+      "yAvD5UTziTo"
     ]
   },
   "attestation": 1.0,

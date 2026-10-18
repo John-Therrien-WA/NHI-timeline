@@ -47,11 +47,65 @@
         "place_text": "United States",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 6591.0,
+      "to_s": 6612.0,
+      "teller": "jesse-michels",
+      "quote": "And he spoke to something he called, I think, SSI, this solid state entity. And the solid state entity was this, he described it as this alien being. And the alien being was like, I am manifesting myself on Earth, but in order to manifest, I need more silicon.",
+      "kind": "secondhand",
+      "cites": [
+        "john-lilly"
+      ],
+      "documents": [
+        "programming-and-metaprogramming-in-the-human-biocomputer"
+      ],
+      "difference": "Adds that SSI needed more silicon to manifest on Earth, that the contact happened in the isolation tank, and cites Lilly's Human Biocomputer book.",
+      "link_reason": "Same as Lilly's claimed contact with Solid State Intelligence, which the story already holds a telling about.",
+      "as_told": {
+        "title": "John Lilly's Solid State Intelligence wanting silicon",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "isolation tank, USA",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 6641.0,
+      "to_s": 6652.0,
+      "teller": "jesse-michels",
+      "quote": "And then he also had this other alien concept called the I think it was the echo, the earth coincidence control mechanism or something.",
+      "kind": "secondhand",
+      "cites": [
+        "john-lilly"
+      ],
+      "documents": [],
+      "difference": "Covers only ECCO, which the teller isn't sure of the name of ('echo, the earth coincidence control mechanism').",
+      "link_reason": "Same as the ECCO half of the Lilly contact story.",
+      "as_told": {
+        "title": "John Lilly's Earth Coincidence Control Office",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "USA",
+        "story_kind": "cosmology"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "ingo-swann-sees-a-non-human-woman-at-a-supermarket-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -62,7 +116,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -71,10 +125,11 @@
     ],
     "episodes": [
       "Y7PLeu5rTv4",
+      "h6zMVkncTsE",
       "lcaY-rd9Dhc"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "Podcast host Jesse Michels tells of John Lilly, the man who invented the isolation tank, a dark, silent tank of salt water you float in to cut off your senses. Michels says Lilly claimed to be in contact with two forms of non-human intelligence, one he called ECCO and another he called Solid State Intelligence, or SSI. In a later episode Michels calls Lilly a CIA scientist and mentions only SSI, which would mean, if true, that a government-linked scientist believed he was speaking with something not human."
 }

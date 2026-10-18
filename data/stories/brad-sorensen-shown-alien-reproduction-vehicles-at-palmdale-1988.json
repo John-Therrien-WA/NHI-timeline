@@ -95,11 +95,88 @@
         "place_text": "Norton Air Force Base, California",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 2888.0,
+      "to_s": 2898.0,
+      "teller": "uapgerb",
+      "quote": "The two primary witnesses. Brad Sorenson being the primary witness of the 1988 Norton Air Force show um where an alien reproduction vehicle was shown off",
+      "kind": "researcher",
+      "cites": [
+        "brad-sorenson",
+        "mark-mccandlish",
+        "william-hamilton-iii"
+      ],
+      "documents": [
+        "cosmic-top-secret"
+      ],
+      "difference": "Places the show at Norton AFB, not Palmdale, and credits Bill Hamilton's Cosmic Top Secret.",
+      "link_reason": "Same story: Brad Sorensen shown alien reproduction vehicles at the 1988 air show. One of the story's own tellings already places it at Norton AFB.",
+      "as_told": {
+        "title": "1988 Norton AFB alien reproduction vehicle show",
+        "years": {
+          "from": 1988,
+          "to": 1988
+        },
+        "place_text": "Norton Air Force Base, California",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 4962.0,
+      "to_s": 4972.0,
+      "teller": "uapgerb",
+      "quote": "So eventually they go to the other side of the black curtain and that's where mama, baby, and papa bear are. These are three flying saucers hovering off the ground.",
+      "kind": "researcher",
+      "cites": [
+        "brad-sorensen",
+        "mark-mccandlish",
+        "bill-scott"
+      ],
+      "documents": [
+        "1990-aviation-week-space-technology-interview-with-brad-sore"
+      ],
+      "difference": "Places it at Norton AFB behind a black curtain and nicknames the craft mama, baby and papa bear.",
+      "link_reason": "Same 1988 incident: Brad Sorensen is shown three ARV flux liners, as later told to Bill Scott of Aviation Week.",
+      "as_told": {
+        "title": "Brad Sorensen sees three ARV saucers at Norton AFB",
+        "years": {
+          "from": 1988,
+          "to": 1988
+        },
+        "place_text": "Norton Air Force Base, California",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7757.0,
+      "to_s": 7768.0,
+      "teller": "uapgerb",
+      "quote": "back to the 1988 Norton show as well\nwhen Brad saw the pulsar craft with the\n121 nuclear warheads. The guys were\nraving on about how this could destroy\nRussia in like 20 minutes.",
+      "kind": "secondhand",
+      "cites": [
+        "brad-sorenson"
+      ],
+      "documents": [],
+      "difference": "Calls it the 'pulsar craft', says it carried 121 nuclear warheads and that the men bragged it could destroy Russia in 20 minutes.",
+      "link_reason": "Both tell of Brad Sorensen being shown alien reproduction craft at the 1988 air show; one telling of the story already places it at the Norton AFB air show.",
+      "as_told": {
+        "title": "1988 Norton AFB show: Brad sees the pulsar craft",
+        "years": {
+          "from": 1988,
+          "to": 1988
+        },
+        "place_text": "Norton Air Force Base, California",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
@@ -110,7 +187,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -121,10 +198,11 @@
     "episodes": [
       "LpLFWdsIU7M",
       "areO7Mej44E",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "The podcast host Jesse Michels passes on a story first told by Mark McCandlish, an illustrator of aircraft. According to it, in 1988 a man named Brad Sorensen was shown three bell- or acorn-shaped craft, called flux liners or alien reproduction vehicles, meaning human-built copies of alien craft, and they looked worn as if they had been flown. The story places this at Palmdale, California, though some tellers put it at an air show at Norton Air Force Base. A researcher known as UAPGerb says he believes the story, calls the craft a copycat vehicle, and adds that in 1990 Sorensen admitted it to Bill Scott, an editor at the aviation magazine Aviation Week. If true, it would mean the US had already built working copies of alien technology."
 }

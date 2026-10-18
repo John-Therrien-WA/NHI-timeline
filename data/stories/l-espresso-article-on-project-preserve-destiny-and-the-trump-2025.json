@@ -1,0 +1,88 @@
+{
+  "id": "l-espresso-article-on-project-preserve-destiny-and-the-trump-2025",
+  "title": "L'Espresso article on Project Preserve Destiny and the Trump White House",
+  "summary": "Jesse Michels tells of L'Espresso article on Project Preserve Destiny and the Trump White House, about 2025 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2025
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, D.C. / Italy",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 11644.0,
+      "to_s": 11657.0,
+      "teller": "jesse-michels",
+      "quote": "In July of 2025, an Italian outlet called Le Espresso published an article which discusses Project Preserve [music] Destiny",
+      "kind": "host",
+      "cites": [
+        "donald-trump"
+      ],
+      "documents": [
+        "l-espresso-article-july-2025"
+      ]
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 1168.0,
+      "to_s": 1183.0,
+      "teller": "jesse-michels",
+      "quote": "In the summer of 2025, the mainstream Italian magazine Let Espresso published an article from a confidential [music] source. It claimed that President Trump was wrestling control [music] of special access programs away from the Pentagon",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "l-espresso-article"
+      ],
+      "difference": "Stresses Trump taking control of special access programs from the Pentagon, citing a confidential source, and does not name Project Preserve Destiny.",
+      "link_reason": "Both tell of the summer 2025 L'Espresso article on the Trump White House and secret programs.",
+      "as_told": {
+        "title": "L'Espresso article on Trump taking control of special access programs",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "White House / Pentagon",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "2025-jfk-files-release-and-trump-s-answer-on-who-killed-kenn",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Rfmy5oW_r9c",
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in July 2025 the Italian magazine L'Espresso published an article that discusses something called Project Preserve Destiny in connection with President Donald Trump. In a later episode he describes the same article as resting on a confidential source and claiming that Trump was taking control of special access programs, the most secret and tightly restricted military projects, away from the Pentagon. If true, it would mean the White House was moving to take charge of hidden programs."
+}

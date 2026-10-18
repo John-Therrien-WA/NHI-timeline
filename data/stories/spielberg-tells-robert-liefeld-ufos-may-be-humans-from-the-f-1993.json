@@ -7,7 +7,7 @@
     "from": 1993,
     "to": 1993
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "testimony",
@@ -46,9 +46,57 @@
         "place_text": "unspecified",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 5060.0,
+      "to_s": 5076.0,
+      "teller": "jesse-michels",
+      "quote": "he's told this guy Robert leafield who I think created Deadpool that you know um UFOs are like what do you think is more likely that these are like you know from Zeta reticuli proximus centari or that they are future selves",
+      "kind": "secondhand",
+      "cites": [
+        "steven-spielberg",
+        "robert-liefeld"
+      ],
+      "documents": [],
+      "difference": "Gives no year and names Zeta Reticuli and Proxima Centauri as the alternatives.",
+      "link_reason": "This is the same story of Spielberg telling Rob Liefeld that UFOs may be future humans.",
+      "as_told": {
+        "title": "Spielberg tells Rob Liefeld UFOs may be future selves",
+        "years": null,
+        "place_text": null,
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 742.0,
+      "to_s": 750.0,
+      "teller": "jesse-michels",
+      "quote": "space aliens. Spielberg apparently also privately told Deadpool creator Robert Leefield that aliens were time travelers",
+      "kind": "host",
+      "cites": [
+        "steven-spielberg",
+        "rob-liefeld"
+      ],
+      "documents": [],
+      "difference": "Gives no date, where the story places the conversation in 1993; it puts the claim flatly as aliens being time travellers.",
+      "link_reason": "Both describe Spielberg privately telling Deadpool creator Rob Liefeld that UFOs or aliens may be humans from the future.",
+      "as_told": {
+        "title": "Spielberg privately told Rob Liefeld aliens are time travelers",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "theory"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "x-files-pilot-craft-design-based-on-john-duza-stories-1993",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 1.0,
   "profile": {
@@ -70,7 +118,9 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
-      "Y26iMB0r-f8"
+      "ScE9FaDy-mE",
+      "Y26iMB0r-f8",
+      "hXYdkcv5TtY"
     ]
   },
   "attestation": 0.5,

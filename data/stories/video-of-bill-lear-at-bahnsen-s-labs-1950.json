@@ -1,0 +1,57 @@
+{
+  "id": "video-of-bill-lear-at-bahnsen-s-labs-1950",
+  "title": "Video of Bill Lear at Bahnsen's labs",
+  "summary": "Jesse Michels tells of Video of Bill Lear at Bahnsen's labs, about 1950s at North Carolina, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "North Carolina",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2769.0,
+      "to_s": 2777.0,
+      "teller": "jesse-michels",
+      "quote": "There's even a video of Lear visiting Agnew Bahnsen's labs in North Carolina and witnessing Townsend Brown's gravitator experiments.",
+      "kind": "host",
+      "cites": [
+        "bill-lear",
+        "agnew-bahnsen"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says there is a video from the 1950s showing Bill Lear, an American aviation businessman, visiting the North Carolina labs of a man named Agnew Bahnsen. According to Michels, Lear is seen watching experiments by a researcher named Townsend Brown with devices called gravitators, which Brown hoped could push against gravity. He tells it to show that serious figures in aviation were paying close attention to this work."
+}

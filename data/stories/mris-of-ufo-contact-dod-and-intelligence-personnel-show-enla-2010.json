@@ -45,6 +45,31 @@
         "place_text": "Stanford",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 1413.0,
+      "to_s": 1427.0,
+      "teller": "gary-nolan",
+      "quote": "in looking at the MRIs of some of these people we noticed a area of the brain that seemed to be disturbed let's say or different in many of these individuals",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Puts it more cautiously, calling the area 'disturbed or different' rather than enlarged, and does not mention DoD or intelligence personnel.",
+      "link_reason": "Both are Garry Nolan's own account of MRIs of UFO-contact people at Stanford showing a different caudate-putamen region.",
+      "as_told": {
+        "title": "Garry Nolan's MRI findings on the caudate-putamen and intuition",
+        "years": {
+          "from": 2010,
+          "to": 2029
+        },
+        "place_text": "Stanford University",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "dzTZbSNsKV8",
+        "from_s": 342.0
+      }
     }
   ],
   "related": [],
@@ -68,6 +93,7 @@
       "gary-nolan"
     ],
     "episodes": [
+      "RofQnByLwOo",
       "_bM9eAtCOGw",
       "dzTZbSNsKV8"
     ]

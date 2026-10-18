@@ -7,7 +7,7 @@
     "from": 1950,
     "to": 1969
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Puharich lab, New York",
   "coordinates": null,
   "kind": "encounter",
@@ -24,33 +24,99 @@
         "annie-jacobsen"
       ],
       "documents": []
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 5239.0,
+      "to_s": 5251.0,
+      "teller": "jesse-michels",
+      "quote": "puharich had a similar case where he found some guy who was like working in some metal Sawmill or something and a bunch of you know uh metallic ore got in his teeth and he was hearing",
+      "kind": "host",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [],
+      "difference": "Calls it a metal sawmill and does not name the WOR station.",
+      "link_reason": "Both tell of Puharich's case of a metal worker hearing radio through metal particles on his teeth.",
+      "as_told": {
+        "title": "Puharich's case of a sawmill worker hearing signals through metal in his teeth",
+        "years": null,
+        "place_text": "unspecified sawmill",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 7603.0,
+      "to_s": 7610.0,
+      "teller": "jesse-michels",
+      "quote": "they found these fine uh you know Metals in his teeth",
+      "kind": "secondhand",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [
+        "documentary-on-andrija-puharich"
+      ],
+      "difference": "Ties it to ELF thought transmission and credits a documentary on Puharich rather than Annie Jacobsen; no radio station is named.",
+      "link_reason": "Same story: Puharich's subject who had fine metal in his teeth that picked up transmissions.",
+      "as_told": {
+        "title": "Puharich's subject with metal in his teeth and ELF thought",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 6759.0,
+      "to_s": 6765.0,
+      "teller": "jesse-michels",
+      "quote": "and I think Andre Puridge had a similar\ncase where it was like somebody working\nin a you know a metal mill",
+      "kind": "host",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [],
+      "difference": "Told briefly by the host as a 'metal mill' worker, with no radio station named and no credit to Jacobsen.",
+      "link_reason": "Both are Puharich's case of a metal-factory worker who picked up radio signals through metal on his teeth.",
+      "as_told": {
+        "title": "Puharich case of metal in teeth picking up signals",
+        "years": null,
+        "place_text": null,
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "greg-malatzi"
+      "greg-malatzi",
+      "jesse-michels"
     ],
     "episodes": [
-      "2-GeTxXi670"
+      "0qlppHc3-gg",
+      "2-GeTxXi670",
+      "73YBwFvcmF8",
+      "KGD1nuM4MR8"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "well-attested",
   "plain": "A researcher named Greg Malatzi says on Jesse Michels's podcast that the scientist Andrija Puharich, working in a lab in New York in the 1950s or 1960s, met a mental patient who said he heard voices. According to the story, which Malatzi links to the journalist Annie Jacobsen, the man worked in a metal factory, and metal dust on his teeth was picking up the New York radio station WOR. Malatzi calls this Puharich's first \"aha moment\", since it hinted that the body could pick up signals directly."
 }

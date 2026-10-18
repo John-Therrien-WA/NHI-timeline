@@ -24,6 +24,29 @@
         "neil-armstrong"
       ],
       "documents": []
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 2845.0,
+      "to_s": 2849.0,
+      "teller": "steve-coburn",
+      "quote": "Well, Armstrong Arm Armstrong was overheard at a party saying that.",
+      "kind": "secondhand",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": [],
+      "difference": "Says Armstrong was overheard at a party and names the grays as the ones who gave the warning.",
+      "link_reason": "Both tell of Neil Armstrong saying in Washington DC that they were warned not to come back to the moon.",
+      "as_told": {
+        "title": "Armstrong overheard saying grays warned not to return",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "Washington DC",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -44,14 +67,14 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -60,13 +83,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "steve-coburn"
     ],
     "episodes": [
+      "iPxbILOMQ08",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, mentions stories, which he himself calls apocryphal (passed around without a firm source), about Neil Armstrong, the first person to walk on the Moon. According to these stories, Armstrong said in Washington DC sometime in the 1970s, \"We were told not to come back to the moon.\" If true, it would suggest someone or something on the Moon warned the astronauts away."
 }

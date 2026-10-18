@@ -27,6 +27,30 @@
       "documents": [
         "billy-meier-tape"
       ]
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2314.0,
+      "to_s": 2323.0,
+      "teller": "jesse-michels",
+      "quote": "While hanging out one day, John Lear shows Lazar a tape of Billy Meier, a Swedish ufologist who has been caught in multiple known hoaxes.",
+      "kind": "host",
+      "cites": [
+        "john-lear",
+        "billy-meier"
+      ],
+      "documents": [],
+      "difference": "Told by the host rather than Lazar, it calls the material a tape and adds that Meier was caught in hoaxes.",
+      "link_reason": "Both tell of John Lear bringing out Billy Meier material to show Lazar in Las Vegas around 1989.",
+      "as_told": {
+        "title": "Lear shows Lazar Billy Meier tapes",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Las Vegas, Nevada",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -44,32 +68,39 @@
       "story": "six-of-knapp-s-corroborating-witnesses-were-threatened-into-1989",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "knapp-puts-lazar-on-air-and-it-goes-viral-1989",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 2.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "bob-lazar"
+      "bob-lazar",
+      "jesse-michels"
     ],
     "episodes": [
+      "RTEWLSTyUic",
       "d9tdJ2SkBKQ"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
+  "attestation": 1.35,
+  "tier": "well-attested",
   "plain": "Bob Lazar, a man who says he worked on alien spacecraft at a secret site in Nevada, says that around 1989 in Las Vegas he described and drew the craft for a man named John Lear. Lazar thinks Lear then brought out material from Billy Meier, a man known for his own UFO photos and tapes, and the craft looked familiar. If true, it would link Lazar's craft to images that had surfaced elsewhere years earlier."
 }

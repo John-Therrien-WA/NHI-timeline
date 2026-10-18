@@ -71,11 +71,58 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 187.0,
+      "to_s": 199.0,
+      "teller": "jesse-michels",
+      "quote": "offguard. Not only that, but at the end of this video, we explore an independent researcher's use of the Freedom of Information Act to learn more about Project Preserve Destiny.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "freedom-of-information-act-request-on-project-preserve-desti",
+        "air-force-foia-response",
+        "nsa-foia-response"
+      ],
+      "difference": "The researcher is not named, and the telling credits responses from both the Air Force and the NSA.",
+      "link_reason": "Both describe the independent researcher's FOIA request about Project Preserve Destiny, which went to the Air Force and the NSA.",
+      "as_told": {
+        "title": "Independent researcher's FOIA request about Project Preserve Destiny",
+        "years": null,
+        "place_text": "United States (Air Force and NSA)",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 11031.0,
+      "to_s": 11040.0,
+      "teller": "jesse-michels",
+      "quote": "quote, \"Good afternoon. This letter is in final response to your 27th of July, 2023 Freedom of Information Act request",
+      "kind": "host",
+      "cites": [
+        "noah-hradek"
+      ],
+      "documents": [
+        "air-force-foia-response-to-noah-hradek"
+      ],
+      "difference": "Quotes the Air Force's final response letter and dates the request 27 July 2023.",
+      "link_reason": "Same story: Noah Hradek/Rodek's FOIA request about Project Preserve Destiny, sent to the Air Force and passed on to the NSA.",
+      "as_told": {
+        "title": "Air Force refers Noah Hradek's PPD FOIA request to the NSA",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "US Air Force / NSA",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 3.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -86,7 +133,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 3,
+    "credited_documents": 7,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -94,12 +141,13 @@
       "jesse-michels"
     ],
     "episodes": [
+      "Rfmy5oW_r9c",
       "hBrfe4hFuM0",
       "u7g5Sn1DJF4",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.85,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, tells of an independent researcher named Noah Rodek who used FOIA, a US law that lets anyone request government records, to ask the Air Force about Project Preserve Destiny. That is a secret programme described by Dan Sherman, a former Air Force man, in his book Above Black. According to Michels, the Air Force passed the request on to the NSA, the US spy agency that handles communications intelligence, which he takes as a sign that the project may be real and tied to that agency."
 }

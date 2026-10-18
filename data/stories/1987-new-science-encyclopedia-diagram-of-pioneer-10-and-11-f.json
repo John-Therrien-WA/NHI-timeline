@@ -1,0 +1,106 @@
+{
+  "id": "1987-new-science-encyclopedia-diagram-of-pioneer-10-and-11-f",
+  "title": "1987 New Science Encyclopedia diagram of Pioneer 10 and 11 findings",
+  "summary": "Matt LaCroix tells of 1987 New Science Encyclopedia diagram of Pioneer 10 and 11 findings, about 1987 at Outer solar system, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1987
+  },
+  "place": null,
+  "place_text": "Outer solar system",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 2748.0,
+      "to_s": 2756.0,
+      "teller": "matt-lacroix",
+      "quote": "time.com in 1987 there was an encyclopedia that came out called a new Science Encyclopedia",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "new-science-encyclopedia-1987"
+      ]
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 3544.0,
+      "to_s": 3556.0,
+      "teller": "matt-lacroix",
+      "quote": "came out in ' 87 they determined at that time that it was 50 billion miles from her from from the Pioneer probes 50 billion miles",
+      "kind": "researcher",
+      "cites": [
+        "thomas-van-flandern",
+        "robert-harrington"
+      ],
+      "documents": [
+        "new-science-encyclopedia-1987"
+      ],
+      "difference": "Says the object was a dead binary star 50 billion miles away and credits Van Flandern and Harrington.",
+      "link_reason": "Both are the 1987 New Science Encyclopedia showing what Pioneer 10 and 11 found in the outer solar system, told by Matt LaCroix.",
+      "as_told": {
+        "title": "Pioneer probes detect a dead binary star 50 billion miles away",
+        "years": {
+          "from": 1983,
+          "to": 1987
+        },
+        "place_text": "Outer solar system",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 5334.0,
+      "to_s": 5338.0,
+      "teller": "matt",
+      "quote": "you see how it says equal gravitational pole equal pull",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "science-intervention-encyclopedia"
+      ],
+      "difference": "Dates the encyclopedia to 1983 rather than 1987 and stresses the 'equal gravitational pull' label.",
+      "link_reason": "Both tell of the same science encyclopedia diagram of Pioneer 10's findings showing a dead star and gravitational pull, told by Matt.",
+      "as_told": {
+        "title": "Encyclopedia diagram of Pioneer 10 showing a dead star",
+        "years": {
+          "from": 1983,
+          "to": 1983
+        },
+        "place_text": "Pioneer 10 path / encyclopedia",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matt",
+      "matt-lacroix"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested",
+  "plain": "This story is about Pioneer 10 and 11, two space probes sent toward the outer solar system. A researcher, Matt LaCroix, says that an encyclopedia from 1987, called the New Science Encyclopedia, has a diagram of what the probes found. According to him, it shows that scientists at the time thought there was an object about 50 billion miles away, which he describes as a dead companion star, and he credits Thomas Van Flandern and Robert Harrington. He comes back to it several times in the same podcast episode. At one point he dates the encyclopedia to 1983 instead and points to a label on the diagram reading equal gravitational pull. If true, it would mean a large hidden body in our solar system was once quietly noted and then forgotten."
+}

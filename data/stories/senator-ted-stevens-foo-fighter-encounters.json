@@ -42,35 +42,58 @@
         "place_text": "not stated",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 4163.0,
+      "to_s": 4175.0,
+      "teller": "jesse-michels",
+      "quote": "Ted Stevens, who was a senator from Alaska, who actually helped start OAP with uh Harry Reid, right? Um actually saw saw a UFO, I think, in World War II as well.",
+      "kind": "host",
+      "cites": [
+        "ted-stevens",
+        "harry-reid"
+      ],
+      "documents": [],
+      "difference": "Calls it a UFO rather than a foo fighter and hedges with 'I think'.",
+      "link_reason": "Both describe Senator Ted Stevens, AAWSAP's co-founder with Harry Reid, seeing a UFO or foo fighter during World War II.",
+      "as_told": {
+        "title": "Senator Ted Stevens' World War II UFO sighting",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 1.7,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "luis-elizondo",
       "merrick"
     ],
     "episodes": [
       "1f16VvXaSSE",
-      "1iaH1a3A4Lk"
+      "1iaH1a3A4Lk",
+      "6WC4o2yY9Ws"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 0.85,
   "tier": "told-by-several",
   "plain": "Ted Stevens flew as a pilot in World War II and later became a US senator for Alaska. Lue Elizondo, who says he ran a small Pentagon office that studied unexplained aerial reports, says Stevens helped found that office and admitted to running into \"foo fighters\" during the war, the name pilots gave to strange balls of light that followed their planes. A guest named Merrick also says Stevens saw a foo fighter, and ties him to Senator Harry Reid of Nevada, with whom he backed government UFO research. People tell it because it would mean one of the program's founders had seen something himself."
 }

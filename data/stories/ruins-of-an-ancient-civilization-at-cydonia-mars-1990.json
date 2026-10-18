@@ -1,0 +1,80 @@
+{
+  "id": "ruins-of-an-ancient-civilization-at-cydonia-mars-1990",
+  "title": "Ruins of an ancient civilization at Cydonia, Mars",
+  "summary": "Tim Alberino tells of Ruins of an ancient civilization at Cydonia, Mars, about ancient; publicized in the 1990s at Cydonia region, Mars, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Cydonia region, Mars",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 3541.0,
+      "to_s": 3548.0,
+      "teller": "tim-alberino",
+      "quote": "The ruins of an ancient civilization on the planet Mars, specifically in the region of Sidonia.",
+      "kind": "researcher",
+      "cites": [
+        "david-flynn",
+        "richard-hoagland",
+        "michael-heiser"
+      ],
+      "documents": [
+        "cydonia"
+      ]
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 8898.0,
+      "to_s": 8909.0,
+      "teller": "tim-alberino",
+      "quote": "Uh I think there's going to be a revelation of Mars that's going to happen in our lifetime. what we talked about before that there's there was in fact an ancient extra extraterrestrial civilization on Mars",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "birthright"
+      ],
+      "difference": "Adds a prediction that this will be revealed in our lifetime, and does not name Cydonia.",
+      "link_reason": "Alberino's claim of an ancient extraterrestrial civilisation on Mars, which he says was discussed earlier in the episode, matches his story of ruins of an ancient civilisation at Cydonia.",
+      "as_told": {
+        "title": "An ancient extraterrestrial civilisation on Mars will be revealed",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "tim-alberino"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Tim Alberino, a guest on Jesse Michels's podcast, says there are ruins of an ancient civilization on Mars, in a region called Cydonia, an idea made popular in the 1990s by writers such as Richard Hoagland, David Flynn and Michael Heiser. He goes further and predicts that within our lifetime it will be revealed that an ancient alien civilization really did live on Mars. If true, it would mean we were not the first builders in our solar system."
+}

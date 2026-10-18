@@ -7,7 +7,7 @@
     "from": 1949,
     "to": 1949
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Bethesda Naval Hospital, Maryland",
   "coordinates": null,
   "kind": "theory",
@@ -25,33 +25,109 @@
         "harry-forrestal"
       ],
       "documents": []
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 3536.0,
+      "to_s": 3537.0,
+      "teller": "richard-dolan",
+      "quote": "He was absolutely murdered.",
+      "kind": "researcher",
+      "cites": [
+        "james-forestto"
+      ],
+      "documents": [],
+      "difference": "Dolan states flatly that he was murdered, without naming Bethesda.",
+      "link_reason": "Same theory: Forrestal's 1949 death was a killing, not a suicide.",
+      "as_told": {
+        "title": "James Forrestal was murdered",
+        "years": {
+          "from": 1949,
+          "to": 1949
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 4082.0,
+      "to_s": 4091.0,
+      "teller": "richard-dolan",
+      "quote": "And on the night of May 21st going into the 22nd, that's when James Forestl did his 16th floor bungee jump out the window.",
+      "kind": "researcher",
+      "cites": [
+        "robert-lovett",
+        "henry-forrestal",
+        "father-sheehy"
+      ],
+      "documents": [
+        "forrestal-diaries"
+      ],
+      "difference": "Gives the night of May 21-22 and the 16th floor, and credits Lovett, Henry Forrestal, Father Sheehy and the diaries, where the story's telling only says 'killed by gravity'.",
+      "link_reason": "Both tell of Forrestal's death at Bethesda Naval Hospital in 1949.",
+      "as_told": {
+        "title": "Death of James Forrestal at Bethesda Naval Hospital",
+        "years": {
+          "from": 1949,
+          "to": 1949
+        },
+        "place_text": "Bethesda Naval Hospital, Maryland",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6950.0,
+      "to_s": 6955.0,
+      "teller": "jesse-michels",
+      "quote": "then they found his bathrobe tied to the radiator and he had jumped out the window or whatever.",
+      "kind": "host",
+      "cites": [
+        "james-forrestal"
+      ],
+      "documents": [],
+      "difference": "Adds the detail of his bathrobe tied to the radiator before he went out the window.",
+      "link_reason": "Both are about James Forrestal's 1949 death at the Bethesda naval hospital.",
+      "as_told": {
+        "title": "Death of James Forrestal",
+        "years": {
+          "from": 1949,
+          "to": 1949
+        },
+        "place_text": "Naval hospital, Bethesda, Maryland",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "richard-dolan"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "ABw7EsWh2Us",
+      "GQlWf54K_7Y"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, talks about the death of James Forrestal, the first US Secretary of Defense, in 1949. Michels says Forrestal ended up at the Navy's hospital in Bethesda, Maryland, and was \"killed by gravity,\" putting the phrase in quotation marks. The way he says it suggests he doubts the official account and wonders whether the death was something other than it seemed."
 }

@@ -1,0 +1,91 @@
+{
+  "id": "metal-ore-veins-with-rare-earths-gold-and-platinum-beneath-t",
+  "title": "Metal ore veins with rare earths, gold and platinum beneath the Giza Plateau",
+  "summary": "Jeffrey tells of Metal ore veins with rare earths, gold and platinum beneath the Giza Plateau, about an unknown time at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Giza Plateau, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 5497.0,
+      "to_s": 5512.0,
+      "teller": "jeffrey",
+      "quote": "We have chemical analysis data from these iron veins hydrothermal mineral deposits embedded in the bedrock that are permeated with rare earth elements, gold, silver,",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "chemical-analysis-data-of-giza-iron-veins"
+      ]
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 14820.0,
+      "to_s": 14833.0,
+      "teller": "jeffrey",
+      "quote": "So, the samples of the iron ore deposits on the Giza Plateau also contain gold, silver, electrum, precious metals, rare earth elements, everything that you could think of.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds electrum and says nothing about platinum.",
+      "link_reason": "The same claim that the Giza iron ore veins hold gold, silver and rare earth elements, by the same teller.",
+      "as_told": {
+        "title": "Giza iron ore samples contain gold, silver and rare earth elements",
+        "years": null,
+        "place_text": "Giza Plateau, Egypt",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 5889.0,
+      "to_s": 5900.0,
+      "teller": "geoffrey-drumm",
+      "quote": "Then it comes to the chemical analysis of the iron veins on the Giza plateau showing that there's valuable metal deposits.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Speaks only of 'valuable metal deposits' and does not name rare earths, gold or platinum.",
+      "link_reason": "Both describe chemical analysis of the Giza iron veins showing valuable metal deposits.",
+      "as_told": {
+        "title": "Chemical analysis of the Giza iron veins",
+        "years": null,
+        "place_text": "Giza Plateau, Egypt",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm",
+      "jeffrey"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw",
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "well-attested",
+  "plain": "This story is about the rock under the Giza Plateau in Egypt, where the great pyramids stand. A pyramid researcher named Geoffrey Drumm tells it on a podcast with the host Jesse Michels, in an episode about an energy grid he says lies beneath the pyramids. He says he has chemical tests of iron veins in the bedrock. He describes them as mineral deposits laid down by hot water deep underground. According to Drumm, these veins are full of rare earth elements, a group of uncommon metals, along with gold and silver. Later in that conversation he adds electrum, a natural mix of gold and silver, and other precious metals, 'everything that you could think of'. The story's title also mentions platinum. On a later episode he speaks more generally of valuable metal deposits. If true, it would suggest the pyramids were built where they are because of what lies in the ground."
+}

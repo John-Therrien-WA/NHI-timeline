@@ -25,6 +25,28 @@
         "j-allen-hynek"
       ],
       "documents": []
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 1186.0,
+      "to_s": 1190.0,
+      "teller": "jesse-michels",
+      "quote": "his early diaries he would write all about UFOs.",
+      "kind": "host",
+      "cites": [
+        "carl-sagan"
+      ],
+      "documents": [
+        "carl-sagan-s-early-diaries"
+      ],
+      "difference": "",
+      "link_reason": "Sagan's early diaries in which he wrote about UFOs.",
+      "as_told": {
+        "title": "Carl Sagan's early diaries about UFOs",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -40,7 +62,7 @@
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -51,7 +73,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -59,10 +81,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "lbGE3EC6StE",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that Carl Sagan, a famous American astronomer later known as a sceptic, wrote about UFOs all the time in his early diaries. According to Michels this was in the 1950s and 60s. It would suggest that Sagan took the subject more seriously in private than his public image showed."
 }

@@ -24,11 +24,61 @@
         "brigham-buhler"
       ],
       "documents": []
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 8847.0,
+      "to_s": 8865.0,
+      "teller": "jesse-michels",
+      "quote": "there are these these three fingered three toed beings, the tridactyl beings or whatever. And they apparently according to these forensic experts don't appear to have undergone the sort of traditional headbinding rituals that you'd expect,",
+      "kind": "firsthand",
+      "cites": [
+        "forensic-experts"
+      ],
+      "documents": [],
+      "difference": "Adds forensic experts' claim that the bodies show no signs of traditional head-binding.",
+      "link_reason": "Jesse's own 2025 trip to Peru to see the tridactyl bodies, the same firsthand encounter as the scanned-mummies story.",
+      "as_told": {
+        "title": "Nazca tridactyl bodies seen on a Peru trip",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Peru",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 0.0,
+      "to_s": 11.0,
+      "teller": "jesse-michels",
+      "quote": "I just got back from Peru, where I saw one of the craziest things I've ever seen in my life. What am I referring to? I just might have seen a dead alien.",
+      "kind": "firsthand",
+      "cites": [
+        "michael-mazzola",
+        "amar-can-deal"
+      ],
+      "documents": [
+        "this-is-not-a-hoax",
+        "catastrophic-disclosure"
+      ],
+      "difference": "Frames it as a trip to Peru where he 'might have seen a dead alien', crediting Mazzola and Amar Can Deal rather than Brigham Buhler.",
+      "link_reason": "In both, Jesse Michels tells firsthand of seeing the Peruvian tridactyl mummies in Peru in 2025.",
+      "as_told": {
+        "title": "Host travels to Peru and sees the tridactyl mummies",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Peru",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -39,7 +89,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -47,10 +97,12 @@
       "jesse-michels"
     ],
     "episodes": [
-      "C_Na1tI5qpw"
+      "51N8OxqZIWY",
+      "C_Na1tI5qpw",
+      "HxQN2tkQHs8"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.5,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in 2025 he saw scans of mummified bodies from Peru that have three fingers on each hand, a find some say is not human. He says it was insane and that it broke his brain a little, and he credits a contact, Brigham Buhler. If true, it would mean physical remains of a non-human being exist."
 }

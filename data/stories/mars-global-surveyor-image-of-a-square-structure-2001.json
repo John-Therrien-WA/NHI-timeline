@@ -1,0 +1,81 @@
+{
+  "id": "mars-global-surveyor-image-of-a-square-structure-2001",
+  "title": "Mars Global Surveyor image of a square structure",
+  "summary": "Jesse Michels tells of Mars Global Surveyor image of a square structure, about 2001 at Mars, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2001,
+    "to": 2001
+  },
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7288.0,
+      "to_s": 7298.0,
+      "teller": "jesse-michels",
+      "quote": "in 2001 the Mars Global surveyor captured an image that has only just made its way onto the mainstream",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "mars-global-surveyor-image"
+      ]
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 102.0,
+      "to_s": 116.0,
+      "teller": "jesse-michels",
+      "quote": "like Joe Rogan recently retweeted my buddy Chris Ramsey who posted this photo that's now been verified at the highest levels of this sort of square structure on Mars that looks artificial",
+      "kind": "host",
+      "cites": [
+        "chris-ramsey",
+        "joe-rogan"
+      ],
+      "documents": [],
+      "difference": "Credits Chris Ramsey with posting the photo and Joe Rogan with retweeting it, and claims it has been verified at the highest levels.",
+      "link_reason": "Both are the square, artificial-looking structure on Mars in an image only recently brought to wide attention.",
+      "as_told": {
+        "title": "Square structure on Mars photo shared by Chris Ramsey",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Mars",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JpLThEF2dTM",
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in 2001 the Mars Global Surveyor, a spacecraft that photographed Mars from orbit, captured an image of a square structure that looks artificial. He says the picture only recently reached a wide audience after his friend Chris Ramsey posted it and the comedian and podcaster Joe Rogan reshared it, and Michels claims it has been verified at the highest levels. If true, it would suggest something was once built on Mars."
+}

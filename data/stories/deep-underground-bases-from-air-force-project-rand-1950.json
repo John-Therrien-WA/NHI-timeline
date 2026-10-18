@@ -1,0 +1,100 @@
+{
+  "id": "deep-underground-bases-from-air-force-project-rand-1950",
+  "title": "Deep underground bases from Air Force Project RAND",
+  "summary": "UAPGerb tells of Deep underground bases from Air Force Project RAND, about 1950s–1960s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 3620.0,
+      "to_s": 3629.0,
+      "teller": "uapgerb",
+      "quote": "There's like a very rich rich history of deep underground military bases that started in the 1950s and 1960s out of Air Force Project Rand",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "deep-underground-bases-since-1948-with-nazi-scientist-xavier",
+      "relation": "variant",
+      "note": "Same subject, the history of US deep underground military bases, told by the same researcher. Here they start out of Air Force Project RAND in the 1950s–60s; the stored story starts them in 1948 with Nazi scientists like Dorsch."
+    },
+    {
+      "story": "edward-teller-and-project-sundial-gigaton-bomb-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "gorilla-masks-for-u-2-and-sr-71-test-pilots-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jolly-west-mk-ultra-and-cult-creation-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mk-ultra-bluebird-artichoke-and-occult-research-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "oscar-wolf-s-project-blue-book-special-unit-on-700-unexplain-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "project-blue-book-and-the-condon-study-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "project-orion-nuclear-propulsion-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puthoff-the-1950s-anti-gravity-craze-either-stalled-or-went",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "An online researcher who goes by UAPGerb says on podcast host Jesse Michels' show that there is a rich history of deep underground military bases in the United States. He says they began in the 1950s and 1960s out of Project RAND, a research effort set up for the US Air Force. If true, it would mean a hidden network of military sites has been growing for decades."
+}

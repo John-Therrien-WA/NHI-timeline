@@ -1,0 +1,67 @@
+{
+  "id": "government-documents-describe-metallic-reflective-flat-botto-1947",
+  "title": "Government documents describe metallic, reflective, flat-bottomed objects",
+  "summary": "Jesse Michels tells of Government documents describe metallic, reflective, flat-bottomed objects, about 1947-1952 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1952
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 1720.0,
+      "to_s": 1739.0,
+      "teller": "jesse-michels",
+      "quote": "These documents include the 1947 Twining memo, the 1948 Project Sign analysis, and the CIA's analysis of the 1952 DC UFO flyover, along with Blue Book lead Captain Edward J. Ruppelt's analysis and more.",
+      "kind": "host",
+      "cites": [
+        "edward-ruppelt"
+      ],
+      "documents": [
+        "twining-memo-1947",
+        "project-sign-analysis-1948",
+        "cia-analysis-of-the-1952-dc-ufo-flyover",
+        "ruppelt-s-analysis"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "battelle-analysis-of-1947-1952-sightings",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 4,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1zRWi_r3HRM"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that US government papers from 1947 to 1952 describe the objects people saw as metallic, reflective and flat-bottomed. He names a 1947 Air Force letter called the Twining memo, a 1948 analysis by Project Sign, an early Air Force UFO study, a CIA analysis of UFOs seen over Washington, D.C. in 1952, and the work of Captain Edward J. Ruppelt, who led the Air Force's later UFO study. He tells it to show that officials themselves wrote of solid, built-looking craft."
+}

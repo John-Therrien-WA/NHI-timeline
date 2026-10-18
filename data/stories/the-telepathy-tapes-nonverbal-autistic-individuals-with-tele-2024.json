@@ -69,6 +69,52 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 6404.0,
+      "to_s": 6421.0,
+      "teller": "kirk-mcconnell",
+      "quote": "they've as they've grown up. And these\nthese people\nuh it seems pretty clear have some\nmental telepathy capabilities\nand they they connect with each other\nacross vast distances.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "the-telepathy-tapes"
+      ],
+      "difference": "Adds that they connect with each other across vast distances.",
+      "link_reason": "Both tell of the Telepathy Tapes' nonverbal autistic people showing telepathic connection.",
+      "as_told": {
+        "title": "Telepathy Tapes: non-speaking autistic people show telepathy",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": null,
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 7146.0,
+      "to_s": 7155.0,
+      "teller": "jesse-michels",
+      "quote": "talks about these like uh non-verbal often autistic children uh who you know, can telepathically communicate and commune on this sort of hill.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "the-telepathy-tapes"
+      ],
+      "difference": "Told by the host as a document, with emphasis on the children communing on 'the hill'; dated 2025.",
+      "link_reason": "Both are about The Telepathy Tapes as a whole: nonverbal autistic people said to communicate telepathically.",
+      "as_told": {
+        "title": "The Telepathy Tapes: nonverbal children communicating on the hill",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -96,36 +142,54 @@
       "story": "prophet-predicting-trump-being-shot-in-the-ear-2024",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "greer-calls-uapgerb-an-intelligence-asset-2024",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "neuralink-implant-immune-reaction-2024",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vision-foretelling-the-attempt-on-trump-s-life-2024",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 3.6,
+  "score": 3.8,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 4,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
-      "don-hoffman",
+      "jesse-michels",
+      "kirk-mcconnell",
       "matthew-pines",
       "tim-gallaudet"
     ],
     "episodes": [
       "6bqaHVSlVeU",
+      "KGD1nuM4MR8",
       "LpLFWdsIU7M",
+      "Rfmy5oW_r9c",
       "nRKNVFQBi38"
     ]
   },
-  "attestation": 1.8,
+  "attestation": 1.9,
   "tier": "well-attested",
   "plain": "The Telepathy Tapes is a 2024 podcast series about autistic people who cannot speak. An analyst named Matthew Pines describes it on Jesse Michels's podcast as the story of dozens of such people who are said to share a telepathic link with one caregiver, usually their mother. He credits the work of a doctor named Diane Hennacy Powell. If true, it would mean minds can pass thoughts directly to each other. A scientist, Don Hoffman, says he has seen studies in which an autistic child who can barely control their body reads what is in their mother's mind, and that some of the experiment designs looked fairly rigorous to him. A retired Navy admiral, Tim Gallaudet, also points to Powell's work with autistic patients, framing it as her own research over many years rather than as the podcast. So three separate guests bring it up, each on their own terms."
 }

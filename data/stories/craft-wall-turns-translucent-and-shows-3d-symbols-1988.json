@@ -22,6 +22,28 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 4546.0,
+      "to_s": 4549.0,
+      "teller": "bob-lazar",
+      "quote": "Yeah. I saw the wall become translucent",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "No place, date or 3D symbols are given here.",
+      "link_reason": "Lazar's firsthand account of the craft wall turning translucent, with the same quote.",
+      "as_told": {
+        "title": "Lazar sees a wall go translucent",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "d9tdJ2SkBKQ",
+        "from_s": 3509.0
+      }
     }
   ],
   "related": [],
@@ -45,6 +67,7 @@
       "bob-lazar"
     ],
     "episodes": [
+      "OZ_oCpKYQJ0",
       "d9tdJ2SkBKQ"
     ]
   },

@@ -46,6 +46,46 @@
         "place_text": "unspecified",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 4689.0,
+      "to_s": 4696.0,
+      "teller": "uapgerb",
+      "quote": "then you have Barber's testimony that psionic abilities can uh forcefully land craft or or bring them down",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Says outright that psionics can forcefully land or bring down craft, where the story speaks of psychically calling in exotic material.",
+      "link_reason": "Both tell Barber's claim that psionic assets are used to call in or bring down craft for crash retrieval.",
+      "as_told": {
+        "title": "Barber: psionics used to bring down craft",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 2696.0,
+      "to_s": 2704.0,
+      "teller": "michael-herrera",
+      "quote": "um need is because his team would get contracted to go pick up these vehicles and then transfer them to a facility.",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Says the team was contracted to pick up downed vehicles and move them to a facility.",
+      "link_reason": "Both are about Jake Barber's team retrieving craft for the program.",
+      "as_told": {
+        "title": "Jake Barber's team contracted to retrieve downed craft",
+        "years": null,
+        "place_text": null,
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -56,14 +96,14 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 3,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -72,14 +112,18 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "michael-herrera",
+      "uapgerb"
     ],
     "episodes": [
       "1iaH1a3A4Lk",
+      "D2tKCFmJjks",
+      "nTiFs8LudUo",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.5,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, describes a story by the journalist Ross Coulthart on the news channel NewsNation about a man named Jake Barber, who says he was part of a team that recovered crashed unidentified craft using \"psionic assets\": people said to use their minds to psychically call in strange material. In a later episode Michels adds that these people were called P3s, short for people with psionic potential, who act as a bridge, ties the work to bringing craft down, and also credits another whistleblower, Michael Herrera. If true, it would mean the government uses mental abilities to reach non-human craft."
 }

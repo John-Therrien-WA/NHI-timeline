@@ -1,0 +1,82 @@
+{
+  "id": "tim-taylor-helped-linda-brown-write-her-book-2010",
+  "title": "Tim Taylor helped Linda Brown write her book",
+  "summary": "Chris Bledsoe tells of Tim Taylor helped Linda Brown write her book, about early 2010s at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2013
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 1250.0,
+      "to_s": 1252.0,
+      "teller": "chris-bledsoe",
+      "quote": "Yeah, he helped write that book.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "linda-brown"
+      ],
+      "documents": [
+        "linda-brown-s-book"
+      ]
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 7174.0,
+      "to_s": 7179.0,
+      "teller": "chris-bledsoe",
+      "quote": "and I actually have the manuscript saved on my phone.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "thomas-towns-and-brown"
+      ],
+      "documents": [
+        "manuscript-on-thomas-townsend-brown"
+      ],
+      "difference": "Bledsoe adds that he has the manuscript saved on his phone.",
+      "link_reason": "Both are about Tim Taylor helping Townsend Brown's daughter Linda write her book about her father.",
+      "as_told": {
+        "title": "Tim Taylor's manuscript with Townsend Brown's daughter",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "chris-bledsoe"
+    ],
+    "episodes": [
+      "bM18PJY6_Zc"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Chris Bledsoe, a man who says he attracts UFOs and that NASA has studied him, says a man named Tim Taylor helped a woman named Linda Brown write her book in the early 2010s. Bledsoe adds that he has the manuscript, which is about a man named Thomas Townsend Brown, saved on his phone. He tells it to show how closely Taylor was tied to that circle."
+}

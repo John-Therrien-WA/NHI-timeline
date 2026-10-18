@@ -1,0 +1,53 @@
+{
+  "id": "texas-instruments-worker-given-unknown-metal",
+  "title": "Texas Instruments worker given unknown metal",
+  "summary": "UAPGerb tells of Texas Instruments worker given unknown metal, about unspecified at Texas (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "texas",
+  "place_text": "Texas Instruments",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 3796.0,
+      "to_s": 3805.0,
+      "teller": "uapgerb",
+      "quote": "You know a famous example is the infographic show whistleblower where he talks about a guy at Texas Instruments getting a piece of metal and not knowing what he's working on.",
+      "kind": "secondhand",
+      "cites": [
+        "infographics-show-whistleblower"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A commentator who goes by UAPGerb, who talks online about UAP, the official term for UFOs, points to an anonymous whistleblower who appeared on a popular online video channel called The Infographics Show. According to that whistleblower, a worker at the electronics company Texas Instruments was handed a piece of metal to study without being told what it was. If true, it would mean private companies are quietly given strange material to work on without knowing where it comes from."
+}

@@ -46,35 +46,105 @@
         "place_text": "Mars",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 6698.0,
+      "to_s": 6704.0,
+      "teller": "joe-mcmoneagle",
+      "quote": "human they're just really big people they're like twice our size 12 feet tall",
+      "kind": "firsthand",
+      "cites": [
+        "bob-monroe"
+      ],
+      "documents": [],
+      "difference": "McMoneagle tells it firsthand and adds pyramids and dying humans about 12 feet tall, twice our size. He does not mention the CIA tasking or give the 1984 date.",
+      "link_reason": "This is the same Mars 1 Million BC remote-viewing session at the Monroe Institute that Jorjani and Michels describe.",
+      "as_told": {
+        "title": "Remote viewing \"Mars 1 Million BC\": pyramids and dying giant humans",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Mars (session at the Monroe Institute)",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7609.0,
+      "to_s": 7617.0,
+      "teller": "jesse-michels",
+      "quote": "remote viewing Mars the coordinates and time period were chosen for him the full transcript of the session has been Declassified",
+      "kind": "host",
+      "cites": [
+        "joe-mcmoneagle"
+      ],
+      "documents": [
+        "mars-remote-viewing-session-transcript"
+      ],
+      "difference": "Adds that the full session transcript has been declassified; no year or CIA/Monroe Institute setting given.",
+      "link_reason": "Same McMoneagle remote viewing of Mars, with coordinates and time period chosen for him, that the story's tellings describe.",
+      "as_told": {
+        "title": "Declassified transcript of McMoneagle's Mars session",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Mars",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 8257.0,
+      "to_s": 8262.0,
+      "teller": "jesse-michels",
+      "quote": "he he remote viewed Mars a million years ago claimed to see all these pyramids",
+      "kind": "host",
+      "cites": [
+        "joseph-mcmoneagle"
+      ],
+      "documents": [],
+      "difference": "Adds that he saw pyramids and that JPL contacts sent him photos; gives no 1984 date and does not mention the CIA.",
+      "link_reason": "Both tell McMoneagle's remote viewing of Mars a million years ago.",
+      "as_told": {
+        "title": "McMoneagle remote views Mars pyramids, JPL contacts send photos",
+        "years": null,
+        "place_text": "Mars; JPL",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 2,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jason-jorjani",
-      "jesse-michels"
+      "joe-mcmoneagle"
     ],
     "episodes": [
       "1sxmSMzqnmA",
-      "EzPmG_7WhXc"
+      "EzPmG_7WhXc",
+      "JpLThEF2dTM",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 1.5,
   "tier": "well-attested",
   "plain": "Remote viewing is the claimed practice of describing a far-off or hidden place using only the mind. A researcher and philosopher named Jason Jorjani, speaking on Jesse Michels' podcast, says that in 1984 a remote viewer named Joseph McMoneagle, working at the Monroe Institute in Virginia, did a session for the CIA in which he viewed Mars. Jorjani links this to a document known as \"Mars 1 Million BC.\" Michels, the host, mentions it himself on a later episode with a former Army remote viewer. He says McMoneagle was tasked with viewing Mars as it was a million years ago, though he gives no date and does not mention the CIA or the institute. They tell it because, if true, a US intelligence agency was trying to use the mind to look at ancient life or activity on another planet."
 }

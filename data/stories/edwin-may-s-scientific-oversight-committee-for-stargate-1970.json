@@ -1,0 +1,85 @@
+{
+  "id": "edwin-may-s-scientific-oversight-committee-for-stargate-1970",
+  "title": "Edwin May's scientific oversight committee for Stargate",
+  "summary": "Chris Ramsay tells of Edwin May's scientific oversight committee for Stargate, about 1970s-1995 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1995
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 1472.0,
+      "to_s": 1481.0,
+      "teller": "chris-ramsay",
+      "quote": "Edwin May, who is the chief research physicist, had to put together a scientific oversight committee for Stargate, right?",
+      "kind": "researcher",
+      "cites": [
+        "edwin-may",
+        "daryl-bem",
+        "schwartz",
+        "zimbardo"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "dean-radin-had-to-disparage-remote-viewing-while-in-stargate-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dousing-remote-viewing-target-sites-with-liquid-nitrogen-gav-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "joe-mcmoneagle-remote-views-in-a-scif-each-year-so-the-starg-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mcmoneagle-s-legion-of-merit-for-remote-viewing-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "stargate-recruitment-6-of-600-people-tested-had-real-talent-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "chris-ramsay"
+    ],
+    "episodes": [
+      "h3u8EkGI8OQ"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Chris Ramsay, a guest on Jesse Michels' podcast, talks about Stargate, a US government programme from the 1970s to 1995 that tried to use \"remote viewing,\" the idea that a person can sense faraway places with the mind alone. Ramsay says Edwin May, the programme's chief research physicist, had to put together a scientific oversight committee to check the work, and he names figures such as Daryl Bem, Schwartz and Zimbardo in connection with it. For Ramsay, this would mean the programme was held to outside scientific scrutiny."
+}

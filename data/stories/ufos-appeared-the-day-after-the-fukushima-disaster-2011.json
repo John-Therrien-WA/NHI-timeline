@@ -43,6 +43,52 @@
         "place_text": "Fukushima Prefecture, Japan",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 4146.0,
+      "to_s": 4157.0,
+      "teller": "jesse-michels",
+      "quote": "literally this monk at this Shinto temple in uh Fukushima and when they had their 2011 famous nuclear spill due to the earthquake, he was like the the UFO showed up and cleaned up the temple.",
+      "kind": "host",
+      "cites": [
+        "unnamed-shinto-temple-monk"
+      ],
+      "documents": [],
+      "difference": "Adds that a Shinto temple monk saw the UFO, and that it cleaned up the temple.",
+      "link_reason": "This is the same Fukushima 2011 event where UFOs reportedly showed up after the nuclear disaster, told by the same host.",
+      "as_told": {
+        "title": "UFO cleans up Shinto temple after Fukushima nuclear disaster",
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "place_text": "Fukushima, Japan",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3875.0,
+      "to_s": 3881.0,
+      "teller": "jesse-michels",
+      "quote": ">> there's a video though from that disaster where UFOs are everywhere and it's almost like they're doing cleanup",
+      "kind": "host",
+      "cites": [
+        "steven-spielberg"
+      ],
+      "documents": [],
+      "difference": "Cites a video and says the UFOs seemed to be doing cleanup.",
+      "link_reason": "Both are about UFOs showing up around the 2011 Fukushima disaster.",
+      "as_told": {
+        "title": "Video of UFOs during the Fukushima disaster",
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "place_text": "Fukushima, Japan",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -66,7 +112,9 @@
       "jesse-michels"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
       "IWui5cBkwoE",
+      "iPxbILOMQ08",
       "nRKNVFQBi38"
     ]
   },

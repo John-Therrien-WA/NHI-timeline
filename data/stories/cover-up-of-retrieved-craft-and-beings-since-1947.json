@@ -24,7 +24,18 @@
       "documents": []
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "1947-national-security-act-and-majestic-12",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "breakaway-civilization-built-on-crash-retrieval-secrecy-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 0.5,
   "profile": {

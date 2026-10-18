@@ -1,0 +1,59 @@
+{
+  "id": "1956-montgolfier-vacuum-tests-in-paris",
+  "title": "1956 Montgolfier vacuum tests in Paris",
+  "summary": "Jesse Michels tells of 1956 Montgolfier vacuum tests in Paris, about 1956 at Paris, France, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1956,
+    "to": 1956
+  },
+  "place": null,
+  "place_text": "Paris, France",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 632.0,
+      "to_s": 649.0,
+      "teller": "jesse-michels",
+      "quote": "But in 1956, Jean-Louis Cornillon, a French Air Force officer and technical representative for one of France's largest aircraft companies, Sud Aviation, facilitated Brown's experiments in a vacuum in the Montgolfier facility in Paris.",
+      "kind": "host",
+      "cites": [
+        "jean-louis-cornillon",
+        "paul-schatzkin"
+      ],
+      "documents": [
+        "montgolfier-report"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in 1956 a French Air Force officer named Jean-Louis Cornillon, who also worked for the big French aircraft company Sud Aviation, arranged for the scientist Townsend Brown to test his devices in a vacuum at the Montgolfier facility in Paris. Michels cites a report on these tests. If true, it would show serious aviation interest in whether Brown's devices could move without air around them."
+}

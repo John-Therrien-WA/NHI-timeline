@@ -1,0 +1,110 @@
+{
+  "id": "wtc-resident-artist-s-painting-of-planes-flying-into-him-12-2001",
+  "title": "WTC resident artist's painting of planes flying into him 12 days before 9/11",
+  "summary": "Jesse Michels tells of WTC resident artist's painting of planes flying into him 12 days before 9/11, about 2001 at World Trade Center, New York, and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2001,
+    "to": 2001
+  },
+  "place": null,
+  "place_text": "World Trade Center, New York",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 1467.0,
+      "to_s": 1491.0,
+      "teller": "jesse-michels",
+      "quote": "a story of a resident artist in uh one of the towers actually because they they had some Artistry program and he did a rendition of a him as a tusy Airman with like old you know XP 40 fighter jets all flying into him and this was 12 days before 9911",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 264.0,
+      "to_s": 291.0,
+      "teller": "eric-wargo",
+      "quote": "awarded Studio space for 6 months in the Twin Towers the lower Manhattan cultural Council uh had been uh issuing Studios to like a CO you know cohorts of 15 artists like for six months you know so two cohorts a year he alone among those artists uh had stayed in the studio the night of September 10th and was killed on the morning of September",
+      "kind": "researcher",
+      "cites": [
+        "michael-richards",
+        "lower-manhattan-cultural-council"
+      ],
+      "documents": [
+        "tar-baby-vs-st-sebastian"
+      ],
+      "difference": "Names the artist (Michael Richards), calls the work a sculpture titled Tar Baby vs. St. Sebastian, credits the Lower Manhattan Cultural Council residency, and says he died there on 9/11.",
+      "link_reason": "Both tell of the WTC resident artist who made a work of himself as a Tuskegee airman with planes flying into him, shortly before 9/11.",
+      "as_told": {
+        "title": "Michael Richards' sculpture Tar Baby vs. St. Sebastian and his death in the Twin Towers",
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "place_text": "World Trade Center, New York",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 1896.0,
+      "to_s": 1909.0,
+      "teller": "eric-wargo",
+      "quote": "he alone among those artists uh had stayed in his Studio the night of September 10th and was killed on the morning of September 11th",
+      "kind": "researcher",
+      "cites": [
+        "michael-rolando-richards",
+        "lower-manhattan-cultural-council"
+      ],
+      "documents": [
+        "tar-baby-vs-st-sebastian",
+        "time-loops"
+      ],
+      "difference": "Names the artist as Michael Richards, calls the work a sculpture rather than a painting, and adds that he died in his studio on 9/11.",
+      "link_reason": "Both tell of the WTC resident artist whose depiction of himself as a Tuskegee airman with planes flying into him came shortly before 9/11.",
+      "as_told": {
+        "title": "Sculptor Michael Richards' plane sculptures and death in the Twin Towers",
+        "years": {
+          "from": 1999,
+          "to": 2001
+        },
+        "place_text": "Miami; World Trade Center, New York",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "eric-wargo",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RofQnByLwOo",
+      "hXYdkcv5TtY",
+      "wT5-hXWIkzM"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is about an artist who worked in a studio inside the World Trade Center towers in New York in 2001. A podcast host, Jesse Michels, tells it first. He says the towers had an art programme, and one resident artist made a picture of himself as a Tuskegee Airman, a wartime pilot, with old fighter planes all flying into him, twelve days before the attacks of September 11, 2001, when hijacked planes struck the towers. A writer on dreams and seeing the future, Eric Wargo, tells the same story on two later episodes and fills it in. He names the artist as Michael Richards and calls the work a sculpture, titled Tar Baby vs. St. Sebastian. Wargo says a group called the Lower Manhattan Cultural Council gave studios to groups of fifteen artists for six months at a time. He says Richards alone among them stayed in his studio the night of September 10 and was killed the next morning. Wargo puts this in his book Time Loops, and the story is told as an example of art that seems to see its maker's own future."
+}

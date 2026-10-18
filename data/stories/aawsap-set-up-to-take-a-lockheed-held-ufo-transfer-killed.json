@@ -118,19 +118,43 @@
         "place_text": "USA",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 4762.0,
+      "to_s": 4773.0,
+      "teller": "uapgerb",
+      "quote": "So in 2008 when Lockheed wanted to get rid of materials Yeah. to um the Osat program through the CIA office, the director of science and technology, Glenn Gaffne.",
+      "kind": "researcher",
+      "cites": [
+        "david-grusch",
+        "glenn-gaffney"
+      ],
+      "documents": [],
+      "difference": "Names the material as Kingman material and credits Grusch, but does not say outright that the transfer was blocked.",
+      "link_reason": "Same 2008 attempt by Lockheed to hand material over to the OSAP/AAWSAP program, with CIA DS&T director Glenn Gaffney involved.",
+      "as_told": {
+        "title": "Lockheed tries to transfer Kingman material to OSAP in 2008",
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "place_text": "United States",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 4.0,
+  "score": 4.5,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 4,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 3,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 2,
@@ -140,16 +164,18 @@
     "tellers": [
       "eric-davis",
       "jesse-michels",
-      "ross-coulthart"
+      "ross-coulthart",
+      "uapgerb"
     ],
     "episodes": [
       "1f16VvXaSSE",
       "DPmO-2E7Ayg",
       "LnAiNChnuEQ",
-      "V00WcEiKRAY"
+      "V00WcEiKRAY",
+      "nTiFs8LudUo"
     ]
   },
-  "attestation": 2.0,
+  "attestation": 2.25,
   "tier": "well-attested",
   "plain": "AAWSAP was a Pentagon-funded study of unexplained phenomena, run through the Defense Intelligence Agency with Bigelow Aerospace, a company in Las Vegas. The podcast host Jesse Michels says it was set up so that a UFO held by the aerospace company Lockheed Martin could be moved into a special access program, a tightly restricted secret program, so that outside civilian scientists could study it. If true, a private contractor has been holding a craft that was never shown to outsiders. Michels names Jim Ryder, a vice president at a Lockheed Martin space technology centre, as the man involved in the handover, and says the craft was collected in the 1950s. He says a CIA official, Glenn Gaffney, was the gatekeeper and blocked the transfer, citing an article by a writer named Chris Sharp. A physicist, Eric Davis, says Gaffney was hostile to the company releasing its collection of crash-retrieval material, kept since before a program shut down in 1989, though he doesn't name the company. Ross Coulthart ties the story to a 2017 New York Times article by Leslie Kean and Ralph Blumenthal and suggests the craft may come from a crash in Kingman in 1953."
 }

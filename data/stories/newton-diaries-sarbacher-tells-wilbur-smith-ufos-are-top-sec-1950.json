@@ -29,11 +29,40 @@
       "documents": [
         "silas-newton-diaries"
       ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1558.0,
+      "to_s": 1570.0,
+      "teller": "uapgerb",
+      "quote": "And during this meeting, Robert Sarbacher said stuff like, well, in the n, you know, 1950, there were meetings about flying saucers. Uh, the US government studies them. It's spearheaded by a group of Vanavar Bush.",
+      "kind": "researcher",
+      "cites": [
+        "wilbert-b-smith",
+        "robert-sarbacher",
+        "vannevar-bush",
+        "frank-scully"
+      ],
+      "documents": [
+        "1950-department-of-transportation-canada-memo",
+        "the-flying-saucer-conspiracy"
+      ],
+      "difference": "Sources it to the 1950 Canadian Department of Transport memo and The Flying Saucer Conspiracy rather than Silas Newton's diaries, and mentions Frank Scully.",
+      "link_reason": "Both tell of Robert Sarbacher telling Wilbert Smith in 1950 that the US studies saucers in secret under a group led by Vannevar Bush.",
+      "as_told": {
+        "title": "Sarbacher tells Wilbert Smith that saucers are studied under Vannevar Bush",
+        "years": {
+          "from": 1950,
+          "to": 1950
+        },
+        "place_text": "Washington DC; Canada",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -44,7 +73,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -52,10 +81,11 @@
       "uapgerb"
     ],
     "episodes": [
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A UFO researcher who goes by the online name UAPGerb talks about the diaries of a man named Silas Newton, from around 1950. According to UAPGerb, the diaries describe Wilbur B. Smith, a Canadian radio engineer who led Canada's first government project on UFOs, being told by a man named Robert Sarbacher that UFOs were a top-secret subject, and the name of Vannevar Bush also comes up. If true, it would mean that by 1950 the subject was already being kept highly secret at senior levels."
 }

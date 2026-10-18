@@ -26,6 +26,57 @@
         "bob-lazar"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2034.0,
+      "to_s": 2045.0,
+      "teller": "jesse-michels",
+      "quote": "His story was leaked to the public by a CIA pilot, a close friend of his named John Lear who flew cargo planes for the CIA and set all sorts of aviation records in the '70s.",
+      "kind": "host",
+      "cites": [
+        "john-lear",
+        "george-knapp",
+        "jeremy-corbell"
+      ],
+      "documents": [],
+      "difference": "Says Lear leaked Lazar's story to the public, and adds his aviation records and the involvement of Knapp and Corbell.",
+      "link_reason": "Both present John Lear, the CIA cargo pilot, as the man behind the Lazar story, possibly as a CIA operation.",
+      "as_told": {
+        "title": "John Lear leaks Lazar story as CIA operation",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Las Vegas, Nevada",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 9278.0,
+      "to_s": 9289.0,
+      "teller": "jesse-michels",
+      "quote": "he had been spending a decade outside of Area 51 and you spend a decade outside of Area 51 the security guards know you there",
+      "kind": "host",
+      "cites": [
+        "john-lear",
+        "bob-lazar",
+        "jeremy-corbell",
+        "george-knapp"
+      ],
+      "documents": [],
+      "difference": "Adds that Lear spent a decade outside Area 51, where the guards knew him, and says outright that the CIA pushed out the Lazar story; also credits Corbell and Knapp.",
+      "link_reason": "Both are the host's theory that John Lear was a route by which the intelligence community fed the Lazar story out.",
+      "as_told": {
+        "title": "John Lear outside Area 51 and the CIA pushing out the Lazar story",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Area 51, Nevada",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -49,6 +100,8 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
+      "RTEWLSTyUic",
       "kRO5jOa06Qw"
     ]
   },

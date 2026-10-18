@@ -24,11 +24,36 @@
         "dean-koontz"
       ],
       "documents": []
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 68.0,
+      "to_s": 91.0,
+      "teller": "jesse-michels",
+      "quote": "American fiction author Dean coun wrote a novel called The Eyes Of Darkness it's centered on secret experiments involving the perfect bioweapon developed at a lab near Wuhan China called Wuhan 400 the novel is set in 2020 exactly like Co the only thing is the novel was written in 1981",
+      "kind": "host",
+      "cites": [
+        "dean-koontz"
+      ],
+      "documents": [
+        "the-eyes-of-darkness"
+      ],
+      "difference": "Names the novel (The Eyes of Darkness), the 'Wuhan 400' bioweapon and the 1981 date it was written.",
+      "link_reason": "Both are about Dean Koontz's novel predicting COVID and a Wuhan lab.",
+      "as_told": {
+        "title": "Dean Koontz's The Eyes of Darkness and the 'Wuhan 400' bioweapon",
+        "years": {
+          "from": 1981,
+          "to": 2020
+        },
+        "place_text": "Wuhan, China",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,7 +64,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -47,10 +72,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "RofQnByLwOo",
       "Y7PLeu5rTv4"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that a science fiction writer named Dean Koontz predicted COVID, the pandemic disease of 2020, and the laboratory in Wuhan, China, that the outbreak has been linked to. Michels raises it as an example of fiction seeming to see the future, which, if true, would hint that writers can sometimes know things before they happen."
 }

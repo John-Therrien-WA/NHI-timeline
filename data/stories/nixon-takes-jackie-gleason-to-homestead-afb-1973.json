@@ -7,7 +7,7 @@
     "from": 1973,
     "to": 1973
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Homestead Air Force Base, Florida",
   "coordinates": null,
   "kind": "testimony",
@@ -51,35 +51,177 @@
         "place_text": "Homestead Air Force Base, Florida",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 8290.0,
+      "to_s": 8299.0,
+      "teller": "jesse-michels",
+      "quote": "be formed do you think Nixon was pretty interested in UFOs because there's a famous Jackie G gon thing",
+      "kind": "host",
+      "cites": [
+        "richard-nixon",
+        "jackie-gleason"
+      ],
+      "documents": [],
+      "difference": "Only mentions the Gleason story in passing. It gives no Homestead visit, no bodies and no year.",
+      "link_reason": "Both tell the story of Nixon and Jackie Gleason as a sign of Nixon's interest in UFOs.",
+      "as_told": {
+        "title": "Nixon's interest in UFOs and the Jackie Gleason story",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 2842.0,
+      "to_s": 2854.0,
+      "teller": "jesse-michels",
+      "quote": "According to Gleon's ex-wife, one night in the 1970s, Nixon, possibly drunk, showed up at the actor's house unannounced and took him to see alien bodies at a secret facility.",
+      "kind": "secondhand",
+      "cites": [
+        "jackie-gleason",
+        "richard-nixon"
+      ],
+      "documents": [],
+      "difference": "Gives Gleason's ex-wife as the source, says Nixon was possibly drunk, and does not name the facility or give a year beyond the 1970s, where the story says Homestead AFB in 1973.",
+      "link_reason": "Both tell of Nixon arriving at Jackie Gleason's home and taking him to see alien bodies at a secret facility.",
+      "as_told": {
+        "title": "Nixon takes Jackie Gleason to see alien bodies",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Florida; secret facility",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 9619.0,
+      "to_s": 9627.0,
+      "teller": "bryce",
+      "quote": "there are, you know, it was uh his this Jackie Gleason's wife told this the story.",
+      "kind": "secondhand",
+      "cites": [
+        "jackie-gleason",
+        "richard-nixon",
+        "beverly-mckittrick"
+      ],
+      "documents": [],
+      "difference": "Gives the source as Gleason's wife, Beverly McKittrick.",
+      "link_reason": "Nixon showing Jackie Gleason alien bodies in Florida is the Homestead AFB story.",
+      "as_told": {
+        "title": "Nixon showed Jackie Gleason alien bodies in Florida",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Florida",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 2872.0,
+      "to_s": 2880.0,
+      "teller": "jesse-michels",
+      "quote": "legend begins. As the story goes, Nixon allegedly turned up [music] at Gleon's door with no secret service present.",
+      "kind": "secondhand",
+      "cites": [
+        "jackie-gleason",
+        "richard-nixon",
+        "beverly-mckittrick",
+        "joe-rogan"
+      ],
+      "documents": [
+        "national-enquirer-interview-1983",
+        "the-great-one"
+      ],
+      "difference": "Adds that no Secret Service came along and credits Beverly McKittrick and a 1983 National Enquirer interview.",
+      "link_reason": "Both tell of Nixon in 1973 taking Jackie Gleason to Homestead AFB to see alien bodies.",
+      "as_told": {
+        "title": "Nixon shows Jackie Gleason alien bodies at Homestead AFB",
+        "years": {
+          "from": 1973,
+          "to": 1973
+        },
+        "place_text": "Homestead Air Force Base, Florida",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 7137.0,
+      "to_s": 7148.0,
+      "teller": "grant-cameron",
+      "quote": "made this public. So she told us the story that yeah he he's either fooling around with women or he this actually happened because he was pretty shaken up when he came home. He was he was really rattled when he came home",
+      "kind": "secondhand",
+      "cites": [
+        "beverly-mckittrick",
+        "jackie-gleason",
+        "david-rudiak",
+        "richard-nixon"
+      ],
+      "documents": [
+        "national-enquirer-story"
+      ],
+      "difference": "Told second hand from Beverly McKittrick, Gleason's wife, with a National Enquirer source; dated only to the 1970s and says he came home rattled.",
+      "link_reason": "Gleason coming home shaken after Nixon took him to Homestead AFB is the Nixon–Gleason Homestead story.",
+      "as_told": {
+        "title": "Beverly McKittrick interview: Jackie Gleason came home shaken after Nixon visit",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Homestead Air Force Base, Florida",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "richard-bissell-briefed-malmgren-privately-on-otherworld-tec-1973",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.7,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 3,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
+    "credited_documents": 2,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels",
+      "bryce",
+      "grant-cameron",
       "joe-rogan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C_Na1tI5qpw",
-      "areO7Mej44E"
+      "Jpf0ZGY87c0",
+      "ScE9FaDy-mE",
+      "areO7Mej44E",
+      "fpUa3xJN64Q",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 2.0,
   "tier": "well-attested",
   "plain": "This story is about US President Richard Nixon and his friend, the comedian Jackie Gleason. A podcast host, Jesse Michels, calls it a famous story. He says that in 1973 Nixon came to Gleason's home, told him the government had secret UFO technology, and took him to Homestead Air Force Base in Florida. The talk show host Joe Rogan tells a fuller version he credits to a magazine article. In Rogan's telling, Gleason saw a recovered crashed UFO and alien bodies in freezers, and was so shaken that he became obsessed with UFOs for good. If true, it would mean a sitting president personally showed proof of alien visitors to a celebrity."
 }

@@ -1,0 +1,54 @@
+{
+  "id": "bigelow-s-desert-alien-encounter-meet-us-in-space",
+  "title": "Bigelow's desert alien encounter: 'meet us in space'",
+  "summary": "Steve tells of Bigelow's desert alien encounter: 'meet us in space', about unspecified at desert, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "desert",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 5444.0,
+      "to_s": 5462.0,
+      "teller": "steve",
+      "quote": ">> Well, Dr. told me that that he he started this aerospace company of his um uh because uh he'd had uh an alien experience of his own out in the desert and um that um uh they told him to meet them in space.",
+      "kind": "secondhand",
+      "cites": [
+        "robert-bigelow",
+        "unnamed-dr"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "steve"
+    ],
+    "episodes": [
+      "iPxbILOMQ08"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A scientist named Steve, who studies objects said to be alien implants in people's bodies, told podcast host Jesse Michels what a doctor once told him about Robert Bigelow, a businessman who founded an aerospace company. According to Steve, the doctor said Bigelow started the company because he had his own alien encounter in the desert, where the beings told him to meet them in space. If true, it would mean a private space venture was inspired by contact with aliens."
+}

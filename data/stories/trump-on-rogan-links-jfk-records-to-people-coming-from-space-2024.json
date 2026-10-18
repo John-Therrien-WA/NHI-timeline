@@ -25,33 +25,59 @@
         "joe-rogan"
       ],
       "documents": []
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 3299.0,
+      "to_s": 3307.0,
+      "teller": "jesse-michels",
+      "quote": "Donald Trump on Joe Rogan Experience. Uh he immediately pointed to Mars.",
+      "kind": "host",
+      "cites": [
+        "donald-trump",
+        "joe-rogan"
+      ],
+      "documents": [],
+      "difference": "Says Trump pointed to Mars; the story's telling has him bring up people coming from space after talk of the JFK records.",
+      "link_reason": "Both are Trump's 2024 appearance on the Joe Rogan Experience, at the moment he turns to the subject of beings from space.",
+      "as_told": {
+        "title": "Trump points to Mars on the Joe Rogan Experience",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "Joe Rogan Experience",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "matthew-pines"
     ],
     "episodes": [
-      "9QMrhcpJq8I"
+      "9QMrhcpJq8I",
+      "p0S0BfoZy0w"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "A researcher named Matthew Pines describes a 2024 moment on The Joe Rogan Experience, a popular podcast hosted by Joe Rogan, when Donald Trump was a guest. Pines says that while Rogan was talking about how many people want to see the government files on the killing of President John F. Kennedy, Trump changed the subject and said many people are also interested in the people coming from space. Pines tells it as a sign that Trump himself chose to bring up visitors from space."
 }

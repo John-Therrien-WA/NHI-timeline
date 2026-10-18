@@ -75,11 +75,91 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 4972.0,
+      "to_s": 4983.0,
+      "teller": "jesse-michels",
+      "quote": "John Trump gets interviewed in this documentary by Bill Moore. And John Trump was tasked with looking through Tesla's files when they confiscated him from his apartment in New York.",
+      "kind": "host",
+      "cites": [
+        "john-trump",
+        "bill-moore",
+        "nikola-tesla",
+        "vannevar-bush"
+      ],
+      "documents": [
+        "philadelphia-experiment-documentary"
+      ],
+      "difference": "Adds that Bill Moore interviewed Trump in a Philadelphia Experiment documentary, that the files came from Tesla's New York apartment, and credits Vannevar Bush.",
+      "link_reason": "Both tell of John Trump examining Tesla's confiscated files in 1943.",
+      "as_told": {
+        "title": "John Trump examined Tesla's confiscated files, interviewed by Bill Moore",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "New York",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 566.0,
+      "to_s": 571.0,
+      "teller": "jesse-michels",
+      "quote": "John Trump, Trump's Donald Trump's uncle actually looks at the Tesla files",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla",
+        "john-trump"
+      ],
+      "documents": [
+        "tesla-files"
+      ],
+      "difference": "Places it in New York.",
+      "link_reason": "Both tell of John Trump reviewing Tesla's files after they were seized in 1943.",
+      "as_told": {
+        "title": "Tesla's papers seized and reviewed by John Trump",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "New York",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 1378.0,
+      "to_s": 1392.0,
+      "teller": "jesse-michels",
+      "quote": "After all, his Bryant Park apartment was raided by the FBI. His files were seized and put in a vault only to be reviewed by MIT professor and the uncle of our sitting president, John Trump.",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla",
+        "john-trump"
+      ],
+      "documents": [
+        "tesla-files"
+      ],
+      "difference": "Adds the FBI raid on his Bryant Park apartment and that the files were put in a vault.",
+      "link_reason": "Both tell of the FBI confiscating Tesla's files in 1943 and John Trump reviewing them.",
+      "as_told": {
+        "title": "Tesla's files seized by the FBI and reviewed by John Trump",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "New York City",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -90,7 +170,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -99,10 +179,13 @@
     ],
     "episodes": [
       "09KP8XVf5nY",
-      "areO7Mej44E"
+      "8TYMQOUDQBo",
+      "WBTqsbwJyqU",
+      "areO7Mej44E",
+      "q7Czo77qhHA"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.85,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that after the famous inventor Nikola Tesla died, the FBI seized his files, and John Trump, an MIT professor, the country's leading radar expert and Donald Trump's uncle, was sent to go through them around 1943. According to Michels, the task was to see whether anything in them could help national security or give the US an edge in war. He tells it in several episodes, sometimes dating it loosely to the 1940s, as a sign that the government took Tesla's ideas seriously."
 }

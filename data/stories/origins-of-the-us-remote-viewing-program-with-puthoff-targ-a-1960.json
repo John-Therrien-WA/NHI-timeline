@@ -27,19 +27,50 @@
         "igor-pinkovski"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 8056.0,
+      "to_s": 8070.0,
+      "teller": "daniel-sheehan",
+      "quote": "the entire remote viewing process the entire psychic process the ENT all that all that stuff with Hal put off in in in with uh uh Russell tar and all those folks",
+      "kind": "researcher",
+      "cites": [
+        "hal-puthoff",
+        "russell-targ",
+        "pat-price"
+      ],
+      "documents": [],
+      "difference": "Names Pat Price instead of Ingo Swann, and calls it the entire psychic program.",
+      "link_reason": "Both describe the US remote viewing program built around Puthoff, Targ and their psychics in the 1970s.",
+      "as_told": {
+        "title": "Remote viewing program with Puthoff, Targ and Pat Price",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "cia-office-of-research-and-development-continues-mk-ultra-wo-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.5,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -47,13 +78,15 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "daniel-sheehan",
       "lyn-buchanan"
     ],
     "episodes": [
-      "1sxmSMzqnmA"
+      "1sxmSMzqnmA",
+      "2SQXAPCdmPE"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.5,
+  "tier": "told-by-several",
   "plain": "A former Army sergeant named Lyn Buchanan tells podcast host Jesse Michels how the US government's remote viewing programme began, remote viewing being the claimed ability to describe distant places or things using only the mind. He says researchers including Hal Puthoff and Russell Targ contacted a man named Ingo Swann, who developed a method called controlled remote viewing, and that a military remote viewing unit was formed and had run for ten years before Buchanan joined it. If true, it would mean the government took psychic abilities seriously enough to fund them for years."
 }

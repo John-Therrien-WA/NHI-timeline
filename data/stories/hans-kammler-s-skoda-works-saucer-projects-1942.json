@@ -32,11 +32,38 @@
         "tom-agoston-book-on-kammler-and-skoda-works",
         "air-force-documents"
       ]
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3204.0,
+      "to_s": 3217.0,
+      "teller": "jesse-michels",
+      "quote": "we do know SS officer Hans Kammler probably ran a secret weapons unit for the Nazis called Skoda Works, which you can think of as the German Skunk Works.",
+      "kind": "host",
+      "cites": [
+        "hans-kammler",
+        "nick-cook",
+        "albert-speer"
+      ],
+      "documents": [
+        "the-hunt-for-zero-point"
+      ],
+      "difference": "Calls it the German Skunk Works, adds Brno, says Kammler 'probably' ran it and credits Nick Cook's The Hunt for Zero Point.",
+      "link_reason": "Both tell of Hans Kammler running the secret Skoda Works weapons unit in the 1940s, at Pilsen and Breslau/Wroclaw.",
+      "as_told": {
+        "title": "Kammler's Skoda Works",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Brno, Pilsen, Wroclaw",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 1.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -47,7 +74,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -55,10 +82,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "RTEWLSTyUic",
       "Y7PLeu5rTv4"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 0.85,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says there is real documented evidence that Hans Kammler, a senior official in Nazi Germany, ran secret projects at the Skoda Works, a large industrial complex, between 1942 and 1945, with sites tied to Breslau and Pilsen. Michels links this to flying saucer designs and names engineers and figures such as Rudolf Schriever, Richard Miethe and Viktor Schauberger, citing a book by the writer Tom Agoston and Air Force documents. If true, it would mean disc-shaped craft were being built by humans during the Second World War."
 }

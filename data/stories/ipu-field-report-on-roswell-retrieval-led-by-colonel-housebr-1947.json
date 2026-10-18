@@ -26,6 +26,29 @@
       "documents": [
         "ipu-field-report"
       ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 6999.0,
+      "to_s": 7007.0,
+      "teller": "uapgerb",
+      "quote": "One of them is a seven-page report that sounds very similar to the Eisenhower briefing document and talks about the Roswell crash retrieval and so forth.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "interplanetary-phenomenon-unit-reports"
+      ],
+      "difference": "Describes it as a seven-page report resembling the Eisenhower Briefing Document. It does not name Colonel Housebrook.",
+      "link_reason": "Both are the IPU report on the July 1947 Roswell retrieval.",
+      "as_told": {
+        "title": "IPU reports on Roswell retrieval",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -108,10 +131,75 @@
       "story": "roswell-flying-disc-announcement-then-retraction-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "alien-bodies-and-a-live-gray-recovered-at-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fort-worth-general-orders-blanchard-it-s-a-weather-balloon-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-marcel-s-unbendable-foil-thin-metal-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-caused-by-radio-signatures-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-held-the-most-us-nukes-in-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-s-shifting-official-stories-including-the-progeria-c-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-the-world-s-only-nuclear-bomber-base-couldn-t-tell-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-in-the-hangar-had-the-bathroom-on-the-other-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-rumoured-at-wright-patterson-lab-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "serpo-alien-language-decoded-from-a-live-ebe-recovered-at-ro-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tim-taylor-places-piece-of-roswell-crash-in-bledsoe-s-hand-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "two-saucers-at-roswell-left-melted-fiber-optics-that-looked-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "washington-quickly-ordered-roswell-bottled-up-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -122,7 +210,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -130,10 +218,11 @@
       "uapgerb"
     ],
     "episodes": [
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "A UFO researcher who goes by the online name UAPGerb says a document called the IPU field report, from a supposed secret military unit studying UFOs, is dated around July 1947 and describes how the Roswell recovery went down, Roswell being the New Mexico town where many say a craft crashed that summer. According to his reading, the recovery was led by a Colonel Housebrook of the Armed Forces Special Weapons Project, the military group that handled nuclear weapons after the Second World War. If genuine, the report would be an inside account of the military collecting a crashed craft."
 }

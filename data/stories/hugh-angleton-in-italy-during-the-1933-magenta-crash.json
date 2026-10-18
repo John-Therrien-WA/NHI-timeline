@@ -1,0 +1,68 @@
+{
+  "id": "hugh-angleton-in-italy-during-the-1933-magenta-crash",
+  "title": "Hugh Angleton in Italy during the 1933 Magenta crash",
+  "summary": "Jesse Michels tells of Hugh Angleton in Italy during the 1933 Magenta crash, about 1933 at Magenta, Lombardy, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1933,
+    "to": 1933
+  },
+  "place": "italy-magenta",
+  "place_text": "Magenta, Italy",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 1603.0,
+      "to_s": 1612.0,
+      "teller": "jesse-michels",
+      "quote": "was actually stationed um in Italy at the time or his father was Hugh Engleton at the time of the Magenta crash in 1933, which is really crazy.",
+      "kind": "host",
+      "cites": [
+        "james-angleton",
+        "hugh-engleton"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "bissell-mentions-the-1933-magenta-crash",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "magenta-case-mussolini-s-rs33-investigation-group-1933",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Hugh Angleton, father of the longtime CIA spy-catcher James Jesus Angleton, was stationed in Italy in 1933, when a craft is said to have crashed near Magenta in northern Italy. Michels finds the timing striking, since it would put the Angleton family close to one of the earliest reported crash recoveries."
+}

@@ -72,6 +72,30 @@
         "place_text": "USA",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4096.0,
+      "to_s": 4105.0,
+      "teller": "jesse-michels",
+      "quote": "Later, Skunk Works director Ben Rich apparently said this on his deathbed to John Andrews of Testers Motor Corporation.",
+      "kind": "secondhand",
+      "cites": [
+        "ben-rich",
+        "john-andrews"
+      ],
+      "documents": [],
+      "difference": "Frames the remarks as made on his deathbed, not in letters.",
+      "link_reason": "Both are about Ben Rich's remarks to John Andrews of Testor in the 1990s, which the story ties to the international board of directors on the UFO topic.",
+      "as_told": {
+        "title": "Ben Rich deathbed remarks to John Andrews",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -96,6 +120,7 @@
     ],
     "episodes": [
       "LpLFWdsIU7M",
+      "RTEWLSTyUic",
       "kccrkCGGzX4",
       "u7g5Sn1DJF4"
     ]

@@ -23,11 +23,36 @@
       "documents": [
         "et-interview-index-cards"
       ]
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 1661.0,
+      "to_s": 1677.0,
+      "teller": "daniel-sheehan",
+      "quote": "one of the questions was you know where do you come from uh and he said that he was part of a a group of beings that were from different star systems in our galaxy",
+      "kind": "secondhand",
+      "cites": [
+        "albert-stein"
+      ],
+      "documents": [
+        "s4-interview-card-files"
+      ],
+      "difference": "Credits Albert Stein and dates it to the 1950s-60s, with the account drawn from interview card files; the story credits Oscar Wolf.",
+      "link_reason": "Both tell the S4 being's account: it belongs to a group from different star systems that monitors life, and it speaks of 'God'.",
+      "as_told": {
+        "title": "The S4 being describes a galactic team monitoring life, and 'God'",
+        "years": {
+          "from": 1950,
+          "to": 1969
+        },
+        "place_text": "S4, Area 51, Nevada",
+        "story_kind": "cosmology"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -38,7 +63,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -46,10 +71,11 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "Danny Sheehan, a lawyer active in UFO disclosure circles, told podcast host Jesse Michels about records of an interview with an extraterrestrial, written on index cards and tied to a man named Oscar Wolf, connected to S4, a reported secret site near Area 51, the classified Air Force base in Nevada. According to Sheehan, the being said he belonged to a group of beings from different star systems in our galaxy who monitor life, sent by what he called God. If true, it would mean Earth is being watched over by a kind of galactic council."
 }

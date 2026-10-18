@@ -91,6 +91,31 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 9231.0,
+      "to_s": 9232.0,
+      "teller": "dylan-borland",
+      "quote": "Dave brought 40 witnesses",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [
+        "grusch-icig-complaint"
+      ],
+      "difference": "Told secondhand by Borland, who adds that the complaint was found 'urgent and credible'.",
+      "link_reason": "Both are about Grusch's IG complaint, the roughly 40 witnesses he named and the finding that it was credible.",
+      "as_told": {
+        "title": "Grusch brought 40 witnesses; complaint found urgent and credible",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "ICIG, Washington DC",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -113,7 +138,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 2,
+    "repetitions": 3,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -121,6 +146,7 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "K4gYHs84BIc",
       "TH10mD9hQas",
       "kRO5jOa06Qw"
     ]

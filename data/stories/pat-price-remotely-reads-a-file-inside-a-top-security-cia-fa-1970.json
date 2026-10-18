@@ -1,0 +1,117 @@
+{
+  "id": "pat-price-remotely-reads-a-file-inside-a-top-security-cia-fa-1970",
+  "title": "Pat Price remotely reads a file inside a top-security CIA facility",
+  "summary": "Dan Sheehan tells of Pat Price remotely reads a file inside a top-security CIA facility, about 1970s at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "CIA security facility, United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 2330.0,
+      "to_s": 2339.0,
+      "teller": "daniel-sheehan",
+      "quote": "file that Pat price had gotten so good at remote viewing that they assigned him uh a task of they gave him the exact longitude and latitude",
+      "kind": "firsthand",
+      "cites": [
+        "pat-price",
+        "russell-targ",
+        "ingo-swann"
+      ],
+      "documents": [
+        "ingo-swann-file"
+      ],
+      "replay_of": {
+        "episode": "C4rSj5Aum7w",
+        "from_s": 7494.0
+      }
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 2088.0,
+      "to_s": 2096.0,
+      "teller": "joe-mcmoneagle",
+      "quote": "what pep price did is instead of describing this old Cabin in the Woods he described a clandestine site which",
+      "kind": "secondhand",
+      "cites": [
+        "pat-price",
+        "russell-targ",
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Here Price's intended target was a cabin in the woods and he described a clandestine site nearby instead; Sheehan's telling says Price was given exact coordinates of a CIA facility.",
+      "link_reason": "Both tell of Pat Price remote viewing a secret facility and reading its files, a single incident in the SRI work with Targ and Puthoff.",
+      "as_told": {
+        "title": "Pat Price misses the cabin target and describes a nearby clandestine site and its safe files",
+        "years": {
+          "from": 1970,
+          "to": 1973
+        },
+        "place_text": "cabin in the woods and nearby clandestine site, United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "kit-green-and-eric-walker-both-tied-to-glomar-explorer-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "operation-snow-white-scientology-infiltration-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "princeton-parapsychology-lab-studied-uri-geller-brought-by-p-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "rogue-elements-of-us-government-managing-uap-programs-per-gr-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vallee-s-invisible-college-research-group-of-the-1970s",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "daniel-sheehan",
+      "joe-mcmoneagle"
+    ],
+    "episodes": [
+      "2SQXAPCdmPE",
+      "JpLThEF2dTM"
+    ]
+  },
+  "attestation": 1.75,
+  "tier": "well-attested",
+  "plain": "Pat Price was one of the people tested in the 1970s for remote viewing, the claimed ability to see distant places with the mind. A guest on Jesse Michels's podcast, Dan Sheehan, says Price became so good at it that he was given the exact map coordinates of a top-security CIA site. As Sheehan tells it, Price was able to read a file inside. He names the researchers Russell Targ and Ingo Swann as part of the story. If true, it would mean secrets behind locked doors could be read by the mind. Joseph McMoneagle, himself a remote viewer, tells it differently on the same show. In his version, passed on from others, Price was meant to describe an old cabin in the woods and instead described a hidden government site nearby."
+}

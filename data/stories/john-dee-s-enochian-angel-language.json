@@ -1,0 +1,76 @@
+{
+  "id": "john-dee-s-enochian-angel-language",
+  "title": "John Dee's Enochian angel language",
+  "summary": "Jesse Michels tells of John Dee's Enochian angel language, about 16th century at Elizabethan England, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Elizabethan England",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 3304.0,
+      "to_s": 3317.0,
+      "teller": "jesse-michels",
+      "quote": "Queen Elizabeth had a chief spy and magician right his name was John D and he claimed to communicate with angels via what he would call an noan language",
+      "kind": "host",
+      "cites": [
+        "john-dee",
+        "queen-elizabeth",
+        "aleister-crowley"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 6474.0,
+      "to_s": 6486.0,
+      "teller": "jesse-michels",
+      "quote": "John D. The magician in Queen Elizabeth's court. and he was, you know, a magician, but also he would sort of he'd blur the lines and say he was communicating with angels through like an, you know, magic.",
+      "kind": "host",
+      "cites": [
+        "john-dee"
+      ],
+      "documents": [],
+      "difference": "Frames Dee as a magician blurring stage magic with angel communication and does not mention the Enochian language.",
+      "link_reason": "Both say John Dee, at Queen Elizabeth's court, claimed to communicate with angels.",
+      "as_told": {
+        "title": "John Dee claimed to speak with angels at Queen Elizabeth's court",
+        "years": null,
+        "place_text": "England, court of Queen Elizabeth I",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Sct30Qijfv8",
+      "h3u8EkGI8OQ"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells of John Dee, whom he describes as Queen Elizabeth's chief spy and magician in 16th century England. Michels says Dee claimed to talk with angels through a special language, called Enochian, and that he blurred the line between magic and speaking with angels, which Michels links to his own talk of contact with other kinds of beings."
+}

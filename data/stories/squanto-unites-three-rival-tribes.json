@@ -1,0 +1,53 @@
+{
+  "id": "squanto-unites-three-rival-tribes",
+  "title": "Squanto unites three rival tribes",
+  "summary": "Luke Caverns tells of Squanto unites three rival tribes, about 17th century at Massachusetts, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Massachusetts",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 8309.0,
+      "to_s": 8315.0,
+      "teller": "luke-caverns",
+      "quote": "Uh Squanto unites creates this federation of these three tribes that were all rivals against each other",
+      "kind": "host",
+      "cites": [
+        "squanto"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A researcher, Luke Caverns, speaking on a podcast with host Jesse Michels, tells of Squanto, a Native American man in Massachusetts. Caverns says Squanto brought together three tribes that had been rivals and formed them into a single alliance. He tells it as part of a wider look at hidden or overlooked history."
+}

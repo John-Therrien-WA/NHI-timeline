@@ -49,7 +49,23 @@
       }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "cook-interviews-ning-li-at-a-2003-conference",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "oval-office-briefing-on-zarqawi-camp-before-iraq-invasion-2003",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "weekend-meeting-with-dick-cheney-on-why-the-iraq-war-was-bei-2003",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 0.2,
   "profile": {

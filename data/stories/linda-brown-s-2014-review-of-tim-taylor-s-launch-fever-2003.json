@@ -1,0 +1,87 @@
+{
+  "id": "linda-brown-s-2014-review-of-tim-taylor-s-launch-fever-2003",
+  "title": "Linda Brown's 2014 review of Tim Taylor's Launch Fever",
+  "summary": "Jesse Michels tells of Linda Brown's 2014 review of Tim Taylor's Launch Fever, about 2003-2014 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2003,
+    "to": 2014
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 5994.0,
+      "to_s": 6007.0,
+      "teller": "jesse-michels",
+      "quote": "Taylor wrote an autobiography in March of 2003 called Launch Fever. Before anybody knew who Taylor was in 2014, Townsend Brown's daughter, Linda, wrote a review of Taylor's book.",
+      "kind": "host",
+      "cites": [
+        "tim-taylor",
+        "linda-brown"
+      ],
+      "documents": [
+        "launch-fever"
+      ]
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 3310.0,
+      "to_s": 3321.0,
+      "teller": "jesse-michels",
+      "quote": "Brown's daughter Linda reviewed Tim Taylor's book on Amazon before anybody knew who Tim Taylor was,",
+      "kind": "firsthand",
+      "cites": [
+        "linda-brown",
+        "thomas-townsend-brown",
+        "tim-taylor"
+      ],
+      "documents": [
+        "american-cosmic"
+      ],
+      "difference": "Names Amazon as the platform and dates it only as before 2019, not to 2014.",
+      "link_reason": "Both tell of Townsend Brown's daughter Linda reviewing Taylor's book before he was publicly known.",
+      "as_told": {
+        "title": "Linda Brown reviewed Tim Taylor's book",
+        "years": {
+          "from": 2019,
+          "to": 2019
+        },
+        "place_text": "Amazon",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic",
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels tells this story about Townsend Brown, a scientist he describes as building flying-saucer-like devices for the government long ago. Michels says a man named Tim Taylor wrote an autobiography, Launch Fever, in 2003, and that Brown's daughter Linda wrote a review of it, in 2014 by one account and on Amazon, before anyone knew who Taylor was. He tells it as a sign of a hidden link between Taylor and the Brown family."
+}

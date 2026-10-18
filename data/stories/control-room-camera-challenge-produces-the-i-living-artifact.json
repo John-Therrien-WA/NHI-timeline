@@ -1,0 +1,100 @@
+{
+  "id": "control-room-camera-challenge-produces-the-i-living-artifact",
+  "title": "Control room camera challenge produces the 'I living' artifact",
+  "summary": "Eric Bard tells of Control room camera challenge produces the 'I living' artifact, about Fugal era at Control room, Skinwalker Ranch, Utah, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Control room, Skinwalker Ranch, Utah",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "7W7iOt57fOo",
+      "from_s": 1119.0,
+      "to_s": 1132.0,
+      "teller": "eric-bard",
+      "quote": "i just uh i i said out loud okay this is stupid and then i said all right if you got something you want to show me show me if you got something you want to tell me tell me",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 10315.0,
+      "to_s": 10338.0,
+      "teller": "brandon-fugal",
+      "quote": "And upon examination, you see that that screen something had manipulated that image to pull letters together completely out of sequence, no explanation, pull them together in a millisecond to form the words I living.",
+      "kind": "firsthand",
+      "cites": [
+        "eric-bard"
+      ],
+      "documents": [],
+      "difference": "Fugal tells it as a witness, adding that letters were pulled together out of sequence in a millisecond, and puts it in the 2020s.",
+      "link_reason": "Both tell of Eric Bard's spoken challenge in the Skinwalker Ranch control room that produced the 'I living' artifact on screen.",
+      "as_told": {
+        "title": "'I living' message appears on command center screen after Eric Bard's challenge",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Command center, Skinwalker Ranch, Utah",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 10340.0,
+      "to_s": 10348.0,
+      "teller": "eric-bard",
+      "quote": "\"All right. If you got something you want to show me, show me. If you got something you want to tell me, tell me.\" And this is the immediate first screenshot.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Calls it the 'immediate first screenshot' and calls the room the command center.",
+      "link_reason": "Eric Bard's own account of the same challenge ('show me... tell me') and the screenshot that followed is the stored story.",
+      "as_told": {
+        "title": "Eric Bard's own account of challenging the phenomenon and the first screenshot",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Command center, Skinwalker Ranch, Utah",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "7W7iOt57fOo",
+        "from_s": 1111.0
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "eric-bard"
+    ],
+    "episodes": [
+      "7W7iOt57fOo",
+      "uYyXpx7ADJQ"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Skinwalker Ranch is a property in Utah long known for reports of strange happenings. Eric Bard, who works there, says that one day in the ranch's control room he said out loud that this was stupid, then added, \"If you got something you want to show me, show me. If you got something you want to tell me, tell me,\" and the very first camera screenshot afterwards showed letters that spelled \"I living.\" The ranch's owner, Brandon Fugal, says that when they examined the image, something had pulled letters on the screen together out of order in a split second to form those words, which would suggest something there was answering."
+}

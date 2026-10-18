@@ -25,12 +25,41 @@
       ],
       "documents": [
         "history-of-satan"
-      ]
+      ],
+      "replay_of": {
+        "episode": "tS_64sTN5AU",
+        "from_s": 674.0
+      }
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 680.0,
+      "to_s": 689.0,
+      "teller": "diana-pasulka",
+      "quote": "but this one was weird so he showed it to me and it was the history of Satan it was it just had the big words on it that says Satan",
+      "kind": "firsthand",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": [
+        "the-history-of-satan"
+      ],
+      "difference": "Dates it c. 2019-2023 rather than the 2010s, sets it over lunch, and adds that the book had 666 pages.",
+      "link_reason": "Both are Vallée showing Pasulka a book with Satan in large letters on it at his Bay Area home.",
+      "as_told": {
+        "title": "Lunch with Jacques Vallée and the Satan book with 666 pages",
+        "years": {
+          "from": 2019,
+          "to": 2023
+        },
+        "place_text": "Jacques Vallée's home, Bay Area",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -41,7 +70,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -49,10 +78,11 @@
       "diana-pasulka"
     ],
     "episodes": [
-      "EzPmG_7WhXc"
+      "EzPmG_7WhXc",
+      "tS_64sTN5AU"
     ]
   },
-  "attestation": 1.25,
+  "attestation": 1.5,
   "tier": "told-once",
   "plain": "A scholar named Diana Pasulka says that in the 2010s, while visiting the UFO researcher Jacques Vallée in his study in the San Francisco Bay Area, he showed her an odd book. She says it was a history of Satan, with the word Satan written across it in big letters, and she found the moment strange."
 }

@@ -1,0 +1,91 @@
+{
+  "id": "tethys-sea-seabed-and-hydrothermal-vents-at-giza",
+  "title": "Tethys Sea seabed and hydrothermal vents at Giza",
+  "summary": "Jeffrey tells of Tethys Sea seabed and hydrothermal vents at Giza, about millions of years ago at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Giza Plateau, Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 13008.0,
+      "to_s": 13016.0,
+      "teller": "jeffrey",
+      "quote": "the Giza Plateau is the bottom of an ocean from millions of years ago, the Tethys Sea.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 14648.0,
+      "to_s": 14660.0,
+      "teller": "jeffrey",
+      "quote": "Here we have what Filippo's team is showing, which could be the remnants of some of these hydrothermal mineral vents,",
+      "kind": "researcher",
+      "cites": [
+        "filippo"
+      ],
+      "documents": [],
+      "difference": "Links the vents to the vertical columns in Filippo's team's SAR scans and puts a magma chamber beneath them.",
+      "link_reason": "Jeffrey's theory that hydrothermal mineral vents rose through the old seabed under Giza, here used to explain the vertical columns in Filippo's SAR scans.",
+      "as_told": {
+        "title": "SAR columns explained as hydrothermal vents above a magma chamber",
+        "years": null,
+        "place_text": "Beneath the Giza Plateau, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 5952.0,
+      "to_s": 5959.0,
+      "teller": "geoffrey-drumm",
+      "quote": "Basically the Giza plateau was the bottom of the Tethus Sea",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "",
+      "link_reason": "Both say the Giza Plateau was the floor of the Tethys Sea and had hydrothermal vents.",
+      "as_told": {
+        "title": "Giza as the floor of the Tethys Sea with hydrothermal vents",
+        "years": null,
+        "place_text": "Giza Plateau, Egypt",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm",
+      "jeffrey"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw",
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several",
+  "plain": "A researcher, Geoffrey Drumm (also listed as Jeffrey), says on Jesse Michels's podcast in 2026 that the Giza Plateau, the high ground in Egypt where the great pyramids stand, was once the bottom of an ancient ocean from millions of years ago called the Tethys Sea. He says that seabed would have had hydrothermal vents, openings where hot, mineral-rich water rises from below. In one telling he links these vents to vertical columns that a team led by a man named Filippo found in radar scans under the pyramids, and he places a chamber of molten rock, or magma, beneath them. If true, it would mean the pyramids sit on top of a natural source of heat and energy, which fits the episode's claim of an energy grid under Giza."
+}

@@ -4,7 +4,7 @@
   "summary": "Lyn Buchanan tells of Buchanan's eyes turn brown while he accesses Saddam, about Gulf War era at Fort Meade remote viewing unit, and says they saw it or took part. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "Fort Meade remote viewing unit",
   "coordinates": null,
   "kind": "testimony",
@@ -19,18 +19,38 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 1525.0,
+      "to_s": 1530.0,
+      "teller": "jesse-michels",
+      "quote": "government spy Lynn Buchanan said that's happened to him before on my show.",
+      "kind": "secondhand",
+      "cites": [
+        "lynn-buchanan"
+      ],
+      "documents": [],
+      "difference": "Told second hand by Michels, without naming Saddam or the colour brown.",
+      "link_reason": "Both describe Lyn Buchanan's eyes changing colour while he was remote viewing.",
+      "as_told": {
+        "title": "Lynn Buchanan's eyes changed color while remote viewing",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -39,13 +59,15 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "jesse-michels",
       "lyn-buchanan"
     ],
     "episodes": [
-      "1sxmSMzqnmA"
+      "1sxmSMzqnmA",
+      "ScE9FaDy-mE"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "Lyn Buchanan, a former Army sergeant, worked in an Army remote viewing unit at Fort Meade, a group that tried to spy on distant targets using only the mind. He says that around the time of the Gulf War, while he was mentally reaching into the mind of Iraqi leader Saddam Hussein, a woman watching told him, \"Your eyes turned brown and your voice deepened.\" If true, it would mean the link went deeper than just seeing, almost as if he took on part of the target."
 }

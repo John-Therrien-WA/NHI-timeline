@@ -1,0 +1,70 @@
+{
+  "id": "embassy-correspondence-waiting-for-the-americans-to-make-a-s-1950",
+  "title": "Embassy correspondence: waiting for the Americans to make a statement",
+  "summary": "Grant Cameron tells of Embassy correspondence: waiting for the Americans to make a statement, about 1950s at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "washington-dc",
+  "place_text": "Canadian embassy, Washington, D.C.",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 2108.0,
+      "to_s": 2115.0,
+      "teller": "grant-cameron",
+      "quote": "correspondence there's actually a a document that says we're waiting for the Americans to make a statement.",
+      "kind": "researcher",
+      "cites": [
+        "omond-solandt",
+        "wilbert-smith"
+      ],
+      "documents": [
+        "wilbert-smith-personal-files"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "eisenhower-era-presidential-emergency-action-directives-cove-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puharich-s-journal-records-a-meeting-with-allen-dulles-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "grant-cameron"
+    ],
+    "episodes": [
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A UFO researcher named Grant Cameron, on Jesse Michels's podcast, talks about papers from the personal files of Wilbert Smith, a Canadian government engineer of the 1950s, which also involve Omond Solandt, a senior Canadian defence science official. Cameron says there is correspondence from the Canadian embassy in Washington, including a document stating that they were waiting for the Americans to make a statement. He raises it because it would mean Canada knew something about UFOs and was holding back until the United States went public."
+}

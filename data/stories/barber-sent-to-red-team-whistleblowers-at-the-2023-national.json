@@ -72,6 +72,51 @@
         "episode": "dnnpyNuPdXs",
         "from_s": 4717.0
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 373.0,
+      "to_s": 385.0,
+      "teller": "uapgerb",
+      "quote": "It was when he gave his testimony at when Michael Herrera gave his testimony at the 2023 uh Steven Greer National Press Club show. That's when Jake Barber was sitting in the audience and said, \"I know about this.\"",
+      "kind": "researcher",
+      "cites": [
+        "michael-herrera",
+        "jake-barber",
+        "steven-greer"
+      ],
+      "documents": [],
+      "difference": "Has Barber saying 'I know about this' from the audience and leaves out the red-teaming purpose.",
+      "link_reason": "Same event: Jake Barber hears Herrera testify at Steven Greer's 2023 National Press Club event and recognises the story.",
+      "as_told": {
+        "title": "Jake Barber contacts Herrera after the 2023 Greer press club event",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "National Press Club, Washington DC",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 7179.0,
+      "to_s": 7195.0,
+      "teller": "michael-herrera",
+      "quote": "you know, there was suspicion when Jake approached me that I was like, \"Okay, maybe this might be the case.\" But then he's very he's been very transparent about his role, you know, being a red team asset pretty much to try to bump whistleblowers and figure out who's got what and",
+      "kind": "firsthand",
+      "cites": [
+        "jake"
+      ],
+      "documents": [],
+      "difference": "Told by Herrera himself, who says he was suspicious at first and that Jake was later open about his role. No venue or date is given.",
+      "link_reason": "Both tell of Jake Barber approaching Herrera while acting as a red-team asset sent to probe whistleblowers.",
+      "as_told": {
+        "title": "Jake approached Herrera; Jake's admitted red-team role probing whistleblowers",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -154,6 +199,36 @@
       "story": "corbell-fought-for-grusch-to-testify-in-congress-2023",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ed-gets-cold-feet-before-ssci-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "graves-s-congressional-uap-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-testimony-prompts-rogers-to-come-forward-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "harrington-s-contact-with-david-grusch-and-his-view-of-grusc-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "herrera-testifies-at-greer-s-2023-national-press-club-event",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "scif-meeting-with-congressional-staffers-on-march-3-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -169,16 +244,18 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 3,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "jake-barber"
+      "michael-herrera"
     ],
     "episodes": [
+      "D2tKCFmJjks",
       "OOr98r51Sj0",
       "areO7Mej44E",
-      "dnnpyNuPdXs"
+      "dnnpyNuPdXs",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 1.0,

@@ -22,6 +22,27 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 4515.0,
+      "to_s": 4527.0,
+      "teller": "jesse-michels",
+      "quote": "there there are rumors that the the Glomar Explorer for Hughes Corporation was maybe, you know, subsea to to find sort of objects like this.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Says outright that there are rumours it recovered objects from the seafloor.",
+      "link_reason": "Both float the idea that Hughes's Glomar Explorer was secretly used to recover anomalous objects from the sea.",
+      "as_told": {
+        "title": "Rumours that Hughes's Glomar Explorer recovered objects from the seafloor",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "ocean (Glomar Explorer)",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -45,6 +66,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "aGqFOxuYRT0",
       "nRKNVFQBi38"
     ]
   },

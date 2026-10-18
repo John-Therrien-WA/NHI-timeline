@@ -1,0 +1,76 @@
+{
+  "id": "lee-hively-shuts-the-door-on-jesse",
+  "title": "Lee Hively shuts the door on Jesse",
+  "summary": "Jesse Michels tells of Lee Hively shuts the door on Jesse, about undated, recent at unspecified, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 4023.0,
+      "to_s": 4043.0,
+      "teller": "jesse-michels",
+      "quote": "get in touch with a guy named Lee Hively who's, you know, working in extended electrodynamics and a friend that, uh, you know, helped with facilitate that. Yep. You know, he got in trouble. Highly freaked out and was like, you know, you shouldn't be shouldn't be reaching out to me and I think he put like the, you know, navy press or something on the thread.",
+      "kind": "firsthand",
+      "cites": [
+        "lee-hively"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 1355.0,
+      "to_s": 1365.0,
+      "teller": "jesse-michels",
+      "quote": "and he's based in Colorado Springs. I was about to meet up with him once and then uh I think he got very nervous or something and and Dory got shut in my face unfortunately.",
+      "kind": "firsthand",
+      "cites": [
+        "lee-hively",
+        "woodside",
+        "low-bell"
+      ],
+      "documents": [],
+      "difference": "Puts it as a planned in-person meeting in Colorado Springs, without the friend or the navy press on the thread.",
+      "link_reason": "Both tell of Jesse's attempt to reach Lee Hively ending with Hively getting nervous and shutting the door.",
+      "as_told": {
+        "title": "Planned meeting with Lee Hively in Colorado Springs falls through",
+        "years": null,
+        "place_text": "Colorado Springs, Colorado",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw",
+      "KGD1nuM4MR8"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels says he tried to reach Lee Hively, a man working in an advanced branch of electrical physics, based in Colorado Springs. In one telling Michels says a friend helped connect them, but Hively got scared, said they should not be contacting him, and added Navy press staff to the message thread. In another telling Michels says they were about to meet in person when Hively seemed to get nervous and the door was shut in his face. Michels tells it as a sign that this kind of research is touchy for those inside it."
+}

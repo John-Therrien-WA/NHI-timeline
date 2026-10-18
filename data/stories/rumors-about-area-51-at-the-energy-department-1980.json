@@ -1,0 +1,54 @@
+{
+  "id": "rumors-about-area-51-at-the-energy-department-1980",
+  "title": "Rumors about Area 51 at the Energy Department",
+  "summary": "John Harrington tells of Rumors about Area 51 at the Energy Department, about 1980s at Nevada test site and Area 51, and reads it from an official document. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "nevada-test-site",
+  "place_text": "Area 51, Nevada",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 1132.0,
+      "to_s": 1142.0,
+      "teller": "john-harrington",
+      "quote": ">> Well, we got a lot of rumors about what was happening in Area 51, which is a very highly classified area with a lot of projects that are highly classified",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "john-harrington"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once",
+  "plain": "John Harrington, introduced on Jesse Michels's podcast as a former US Secretary of Energy, the cabinet member who runs the department in charge of nuclear weapons work, says that in the 1980s his department heard plenty of rumors about Area 51. He describes it as a highly classified site in Nevada full of secret projects. If true, it means even people that senior were left wondering what went on there."
+}

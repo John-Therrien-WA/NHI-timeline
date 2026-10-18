@@ -1,0 +1,97 @@
+{
+  "id": "edward-teller-and-project-sundial-gigaton-bomb-1950",
+  "title": "Edward Teller and Project Sundial gigaton bomb",
+  "summary": "Salvatore Pais tells of Edward Teller and Project Sundial gigaton bomb, about 1950s-1960s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 4595.0,
+      "to_s": 4605.0,
+      "teller": "salvatore-pais",
+      "quote": "the man that not only is responsible for the teleam device but for something called project sile it's unclassified",
+      "kind": "researcher",
+      "cites": [
+        "edward-teller"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "deep-underground-bases-from-air-force-project-rand-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "gorilla-masks-for-u-2-and-sr-71-test-pilots-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jolly-west-mk-ultra-and-cult-creation-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mk-ultra-bluebird-artichoke-and-occult-research-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "oscar-wolf-s-project-blue-book-special-unit-on-700-unexplain-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "project-blue-book-and-the-condon-study-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "project-orion-nuclear-propulsion-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puthoff-the-1950s-anti-gravity-craze-either-stalled-or-went",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "salvatore-pais"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A Navy scientist named Salvatore Pais, talking on a podcast hosted by Jesse Michels, brings up Edward Teller, a physicist he describes as the man behind a famous bomb design he calls the \"Teller-Ulam device.\" Pais says Teller was also behind something called Project Sundial, which this story describes as a plan for a bomb of enormous, gigaton size in the 1950s or 60s. He stresses that it is unclassified, which matters to him because it would show how far American weapons thinking went in those years."
+}

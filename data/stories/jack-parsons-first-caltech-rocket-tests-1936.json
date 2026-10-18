@@ -24,6 +24,29 @@
         "jack-parsons"
       ],
       "documents": []
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 2749.0,
+      "to_s": 2763.0,
+      "teller": "jesse-michels",
+      "quote": "Back in 1936, while Jack Parsons was still testing rockets in the Arroyo Seco, his team managed their first successful liquid fuel test on Halloween night.",
+      "kind": "host",
+      "cites": [
+        "jack-parsons"
+      ],
+      "documents": [],
+      "difference": "Dates the first successful liquid-fuel test to Halloween night and reads it as a Samhain ritual date.",
+      "link_reason": "Both tell of Jack Parsons' first rocket tests in 1936 in western Pasadena (the Arroyo Seco).",
+      "as_told": {
+        "title": "Parsons' first liquid-fuel test on Samhain",
+        "years": {
+          "from": 1936,
+          "to": 1936
+        },
+        "place_text": "Arroyo Seco, Pasadena",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -47,7 +70,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "mOWwdIuyaQA"
+      "mOWwdIuyaQA",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 0.1,

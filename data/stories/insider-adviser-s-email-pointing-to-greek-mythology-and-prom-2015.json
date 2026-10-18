@@ -7,7 +7,7 @@
     "from": 2015,
     "to": 2015
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "unspecified (email)",
   "coordinates": null,
   "kind": "testimony",
@@ -24,9 +24,44 @@
         "tom-delonge"
       ],
       "documents": []
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 3071.0,
+      "to_s": 3081.0,
+      "teller": "jesse-michels",
+      "quote": "Some researchers, like Peter Levenda, have suggested that figures close to these launches encouraged people like Tom DeLonge to study Greek mythology,",
+      "kind": "secondhand",
+      "cites": [
+        "peter-levenda",
+        "tom-delonge"
+      ],
+      "documents": [],
+      "difference": "Michels relays it secondhand, frames the adviser as a figure close to these launches, and does not mention the email.",
+      "link_reason": "Both tell of an adviser close to DeLonge telling him to study Greek mythology and Prometheus, as Levenda recounts.",
+      "as_told": {
+        "title": "Levenda: DeLonge pointed to the Prometheus myth",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "ryan-graves-says-go-fast-was-recorded-by-his-buddy-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "semivan-and-kit-green-question-tom-delonge-in-a-hotel-room-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 1.0,
   "profile": {
@@ -40,14 +75,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "peter-levenda"
     ],
     "episodes": [
-      "Y7PLeu5rTv4"
+      "Y7PLeu5rTv4",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 0.5,

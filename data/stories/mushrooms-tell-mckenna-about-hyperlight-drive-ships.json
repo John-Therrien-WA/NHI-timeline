@@ -1,0 +1,97 @@
+{
+  "id": "mushrooms-tell-mckenna-about-hyperlight-drive-ships",
+  "title": "Mushrooms tell McKenna about hyperlight-drive ships",
+  "summary": "Jesse Michels tells of Mushrooms tell McKenna about hyperlight-drive ships, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9LGohiMmlu4",
+      "from_s": 905.0,
+      "to_s": 934.0,
+      "teller": "jesse-michels",
+      "quote": "Take a look at this passage from Terence McKenna's True Hallucinations, where he recounts to the best of his abilities what the mushrooms are trying to communicate to him.",
+      "kind": "host",
+      "cites": [
+        "terence-mckenna"
+      ],
+      "documents": [
+        "true-hallucinations"
+      ]
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 1986.0,
+      "to_s": 1997.0,
+      "teller": "jesse-michels",
+      "quote": "he talks about a mushroom trip where the mushrooms say to him within my memory exist the blueprints for hyper light drives",
+      "kind": "secondhand",
+      "cites": [
+        "terence-mckenna"
+      ],
+      "documents": [],
+      "difference": "Says the mushrooms claimed to hold the blueprints for hyperlight drives in their memory, and gives no source text, where the story cites True Hallucinations.",
+      "link_reason": "Both tell how mushrooms told McKenna about hyperlight drives.",
+      "as_told": {
+        "title": "McKenna's mushroom trip and hyperlight drive blueprints",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 6423.0,
+      "to_s": 6443.0,
+      "teller": "jesse-michels",
+      "quote": "and he was having some like two week trip in the Amazon McKenna and he said that the the mushroom spoke to him and I think it's called the song of the mushroom or something the mushroom spoke to him and he said within my memory exists the knowledge for hyperlight drives",
+      "kind": "host",
+      "cites": [
+        "terence-mckenna"
+      ],
+      "documents": [],
+      "difference": "Places the message during a two-week trip in the Amazon and has the mushroom say the knowledge exists within its memory.",
+      "link_reason": "Both tell that McKenna's mushrooms communicated knowledge of hyperlight drives to him.",
+      "as_told": {
+        "title": "McKenna's mushroom speaks to him in the Amazon",
+        "years": null,
+        "place_text": "Amazon",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "9LGohiMmlu4",
+      "dfPfPB601hw",
+      "wT5-hXWIkzM"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, has told several times how the writer Terence McKenna said magic mushrooms spoke to him, pointing to McKenna's book True Hallucinations. In Michels' retelling, the mushrooms said that within their memory lay the blueprints for hyperlight drives, engines that would carry ships faster than light, and in one version this happened on a two-week trip in the Amazon. If taken at face value, it would mean the mushrooms carry knowledge from somewhere far beyond us."
+}

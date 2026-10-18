@@ -72,35 +72,194 @@
         "place_text": "USA, aerospace contractors",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1953.0,
+      "to_s": 1963.0,
+      "teller": "jesse-michels",
+      "quote": "if you actually read the\natomic energy Act of\n1954 the definition of special nuclear\nmaterial is actually incredibly flexible",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ],
+      "difference": "",
+      "link_reason": "Same claim that the 1954 Atomic Energy Act's flexible definition of special nuclear material covers UFO material.",
+      "as_told": {
+        "title": "Atomic Energy Act of 1954 born-secret material",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 780.0,
+      "to_s": 794.0,
+      "teller": "jesse-michels",
+      "quote": "you read the definition of special nuclear material in the public atomic energy act in 1954 it basically States any material that releases any kind of atomic energy that would be retrieved crash material",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ],
+      "difference": "Told by Michels as a reading of the Act's text, without crediting Grusch.",
+      "link_reason": "The same claim that the 1954 Atomic Energy Act's definition of special nuclear material takes in retrieved crash material.",
+      "as_told": {
+        "title": "Atomic Energy Act special nuclear material covers crash material",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 2286.0,
+      "to_s": 2300.0,
+      "teller": "unidentified-speaker",
+      "quote": "If you read the definition of special nuclear material in the public Atomic Energy Act of 1954, it basically states any material that releases any kind of atomic energy.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ],
+      "difference": "The teller is unidentified, where the story has it from Grusch.",
+      "link_reason": "Nearly the same quote about the 1954 Atomic Energy Act's definition of special nuclear material.",
+      "as_told": {
+        "title": "The Atomic Energy Act and secrecy over crash material",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 12788.0,
+      "to_s": 12802.0,
+      "teller": "jesse-michels",
+      "quote": "There's trans classified foreign\nmaterial and you know, special nuclear\nmaterial from the you know, 1954 Atomic\nEnergy Act where you have restricted\ndata, anything that could be\nradiological in nature is immediately\nborn secret upon sort of retrieving it.",
+      "kind": "secondhand",
+      "cites": [
+        "uap-gerb",
+        "david-grusch"
+      ],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ],
+      "difference": "Adds transclassified foreign material and DOE NEST as a cover, and credits UAP Gerb.",
+      "link_reason": "Both say the 1954 Atomic Energy Act makes retrieved material born secret, covering UFO material. Grusch is a source in both.",
+      "as_told": {
+        "title": "Atomic Energy Act 'born secret' and NEST as cover for UFO material",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "Department of Energy",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 4984.0,
+      "to_s": 4999.0,
+      "teller": "david-grusch",
+      "quote": "If you read the definition of special nuclear material in the public atomic energy act of 1954, it basically states any material that releases any kind of atomic energy",
+      "kind": "official",
+      "cites": [],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ],
+      "difference": "Framed as a theory, with Grusch speaking in his official role.",
+      "link_reason": "This is Grusch's same reading of 'special nuclear material' in the 1954 Atomic Energy Act as covering crash material.",
+      "as_told": {
+        "title": "Atomic Energy Act covers retrieved crash material",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 5598.0,
+      "to_s": 5608.0,
+      "teller": "jesse-michels",
+      "quote": "So the the thing that Grush talks about is he talks about the atomic energy uh act of 1954 and there being this sort of restricted data",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch",
+        "j-robert-oppenheimer",
+        "robert-sarbacher",
+        "vannevar-bush"
+      ],
+      "documents": [
+        "atomic-energy-act-of-1954"
+      ],
+      "difference": "Brings in Oppenheimer, Sarbacher and Vannevar Bush and frames the claim as restricted data.",
+      "link_reason": "The same claim, credited to Grusch, that retrieved UFO material is born secret under the Atomic Energy Act of 1954.",
+      "as_told": {
+        "title": "Grusch: UFOs born secret under the Atomic Energy Act",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "deser-and-arnowitt-graviton-essay-1954",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.5,
+  "score": 2.6,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
-    "researcher": 0,
+    "secondhand": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "official",
     "tellers": [
-      "david-grusch"
+      "david-grusch",
+      "unidentified-speaker"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
+      "2Xxmguz0GEQ",
+      "5udx_SDdL3Y",
+      "ATJwqp5twAg",
+      "OZ_oCpKYQJ0",
       "TH10mD9hQas",
       "kRO5jOa06Qw",
-      "xnxasfyHtfo"
+      "xnxasfyHtfo",
+      "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.3,
+  "tier": "well-attested",
   "plain": "A former US intelligence officer, David Grusch, says that the Atomic Energy Act of 1954, a US law that keeps nuclear matters secret, defines \"special nuclear material\" so broadly that it covers almost any material that gives off atomic energy, which he says would include material from crashed craft of unknown origin. A podcast host, Jesse Michels, repeats the point and goes further, saying the wording was chosen in a sneaky, deliberate way to protect UFO secrets, and that anything recovered is \"born secret\" under the law. If true, it would mean that an old nuclear law quietly keeps crash material hidden from the public."
 }

@@ -24,33 +24,91 @@
         "ryan-graves"
       ],
       "documents": []
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 694.0,
+      "to_s": 708.0,
+      "teller": "ryan-graves",
+      "quote": "radar system. And immediately we noticed that when we were flying, we're flying in this big cube off the coast of Virginia Beach. Um that there were objects in a working area that we were detecting with the newer radars.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Graves, who links the detections to the APG-79 radar upgrade and places them in the working area off Virginia Beach.",
+      "link_reason": "Both describe ongoing sensor detections of objects off the US East Coast during Graves's squadron's period there. The story is relayed from Graves, and this telling is Graves's own.",
+      "as_told": {
+        "title": "New APG-79 radar detects unexplained objects in the working area off Virginia Beach",
+        "years": null,
+        "place_text": "Training working area off the coast of Virginia Beach",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 910.0,
+      "to_s": 919.0,
+      "teller": "ryan-graves",
+      "quote": "And so now we're having correlation across three different sensors telling us that there's a physical object here.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that radar, ATFLIR and the AIM-9X seeker all picked up the same objects.",
+      "link_reason": "This continues the same East Coast sensor detections of objects, now confirmed across several sensors.",
+      "as_told": {
+        "title": "Radar, ATFLIR and AIM-9X all pick up the same objects",
+        "years": null,
+        "place_text": "Working area off Virginia Beach",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 4114.0,
+      "to_s": 4127.0,
+      "teller": "ryan-graves",
+      "quote": "we were seeing these on the Eastern Seabboard. We weren't assuming they were uh UFOs doing that, but we're like, \"Hey, this could be an adversary that is soaking up our waveforms,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Graves, who adds the idea that an adversary might have been doing reconnaissance by soaking up their waveforms.",
+      "link_reason": "Both describe the 2014-2015 sensor observations of objects off the US East Coast, tied to Ryan Graves.",
+      "as_told": {
+        "title": "Eastern Seaboard objects possibly doing reconnaissance",
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "place_text": "US Eastern Seaboard",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "merrick"
+      "ryan-graves"
     ],
     "episodes": [
-      "1iaH1a3A4Lk"
+      "1iaH1a3A4Lk",
+      "6WC4o2yY9Ws"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A witness named Merrick, speaking on podcast host Jesse Michels's show in 2025, passes on what he credits to a man named Ryan Graves. According to him, around 2014 and 2015, sensors off the US East Coast were picking up round, sphere-shaped objects every day. If true, it would mean unknown objects were being tracked routinely near the American coast."
 }

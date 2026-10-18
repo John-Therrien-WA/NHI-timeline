@@ -1,0 +1,100 @@
+{
+  "id": "brown-s-1953-winter-haven-proposal",
+  "title": "Brown's 1953 Winter Haven proposal",
+  "summary": "Jesse Michels tells of Brown's 1953 Winter Haven proposal, about 1953 at Winter Haven, Florida, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1953,
+    "to": 1953
+  },
+  "place": "united-states",
+  "place_text": "Winter Haven, Florida",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 175.0,
+      "to_s": 184.0,
+      "teller": "jesse-michels",
+      "quote": "Brown's 1953 Winter Haven proposal almost exactly resembles how all insiders describe America's secret UFO program.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "winter-haven-proposal"
+      ]
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 2665.0,
+      "to_s": 2676.0,
+      "teller": "jack",
+      "quote": "by the way of Towns Brown's Winter Haven proposal? He says Oliver Heavyside had a very adequate theory of gravity back in the 1890s and we would be right to listen to him.",
+      "kind": "researcher",
+      "cites": [
+        "t-townsend-brown",
+        "oliver-heaviside"
+      ],
+      "documents": [
+        "winterhaven-proposal"
+      ],
+      "difference": "Adds that the proposal praises Oliver Heaviside's 1890s theory of gravity.",
+      "link_reason": "Same document: Townsend Brown's Winter Haven proposal.",
+      "as_told": {
+        "title": "Townsend Brown's Winterhaven proposal cites Heaviside gravity",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "cia-robertson-panel-1953",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "robertson-panel-aim-to-debunk-sightings-1953",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "walter-b-smith-1953-letter-on-using-the-phenomenon-for-psych",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jack",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo",
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is about a document from 1953 written by a scientist named T. Townsend Brown, known as the Winter Haven proposal after the town in Florida. A podcast host, Jesse Michels, describes Brown as a scientist who worked on flying craft early on, and says the proposal looks almost exactly like the way insiders describe America's secret UFO program. In other words, Brown seems to have laid out, in 1953, a plan for the kind of project people now say exists. A second speaker on the same show, named Jack, also refers to the proposal. He adds that in it Brown praised Oliver Heaviside, a scientist of the 1890s, saying Heaviside had a good theory of gravity worth listening to. Both are speaking in their own words rather than quoting a witness. If the comparison holds, it would suggest the secret program had roots in Brown's ideas from the 1950s."
+}

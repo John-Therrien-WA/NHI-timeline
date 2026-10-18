@@ -1,0 +1,54 @@
+{
+  "id": "crookes-tube-jump-observed-by-brown-as-a-student-1920",
+  "title": "Crookes tube jump observed by Brown as a student",
+  "summary": "Nick Cook tells of Crookes tube jump observed by Brown as a student, about 1920s at Caltech, Pasadena, and reports it citing named sources. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1920,
+    "to": 1929
+  },
+  "place": null,
+  "place_text": "Caltech, Pasadena",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 539.0,
+      "to_s": 550.0,
+      "teller": "nick-cook",
+      "quote": "And what he observed was that when a high voltage was applied to the Crookes tube, he noticed that the wire conducting the voltage jumped.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "nick-cook"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A journalist named Nick Cook says that in the 1920s, while a student at Caltech, a university in Pasadena, California, a young man named Townsend Brown was experimenting with a Crookes tube, a sealed glass tube that carries high voltage electricity. According to Cook, Brown noticed that when high voltage was applied, the wire carrying it jumped. Cook tells it as the starting point for Brown's later ideas about electricity producing a push, ideas some link to craft that fly without ordinary engines."
+}

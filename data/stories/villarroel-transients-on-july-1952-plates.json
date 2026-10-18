@@ -25,14 +25,39 @@
         "enri"
       ],
       "documents": []
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 744.0,
+      "to_s": 762.0,
+      "teller": "beatriz-villarroel",
+      "quote": "and one is uh five objects on a narrow band and it's from the 27th of July 1952. Yeah, my colleague Enrique found these three uh stars, the triple transient and um this one is from the 19th of July 1952",
+      "kind": "firsthand",
+      "cites": [
+        "enrique",
+        "dave-alman",
+        "lash"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Villarroel, who also credits Dave Alman and Lash.",
+      "link_reason": "The same aligned five-object transient of 27 July 1952 and triple transient of 19 July 1952 found by colleague Enrique.",
+      "as_told": {
+        "title": "Aligned transients of 27 July 1952 and triple transient of 19 July 1952",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Mount Palomar Observatory plates, California",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -43,15 +68,17 @@
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "beatriz-villarroel",
       "jesse-michels"
     ],
     "episodes": [
-      "fzvwBBSmWYA"
+      "fzvwBBSmWYA",
+      "lbGE3EC6StE"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "Astronomers once photographed the night sky on glass plates, and a researcher named Beatriz Villarroel has been searching old plates for transients, points of light that appear briefly and then vanish. On his podcast, Jesse Michels describes two of her finds: a plate from 27 July 1952 showing five objects lined up in a narrow band, and a plate from 19 July 1952 where her colleague Enrique found three star-like points together, a 'triple transient'. If these are real objects, it would mean something unexplained was in the sky in 1952."
 }

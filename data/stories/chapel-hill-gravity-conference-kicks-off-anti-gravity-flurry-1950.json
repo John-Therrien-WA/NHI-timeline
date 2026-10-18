@@ -22,33 +22,221 @@
       "kind": "researcher",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 825.0,
+      "to_s": 838.0,
+      "teller": "jesse-michels",
+      "quote": "Coincidentally, the whole conference is sponsored by Wright Air Field. That's right, what became Wright-Patterson Air Force Base, and the place that is perhaps the epicenter of all UFO mythology starting with Roswell.",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnsen",
+        "eric-weinstein",
+        "hermann-bondi",
+        "paul-laviolette"
+      ],
+      "documents": [
+        "the-role-of-gravitation-in-physics"
+      ],
+      "difference": "Dates it to 1957, says Wright Air Field sponsored it, and links it to Wright-Patterson and the Roswell lore.",
+      "link_reason": "Same Chapel Hill gravity conference of the 1950s that kicked off anti-gravity interest.",
+      "as_told": {
+        "title": "1957 Chapel Hill gravity conference sponsored by Wright Air Field",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1686.0,
+      "to_s": 1694.0,
+      "teller": "jesse-michels",
+      "quote": "in 1957, he held the Chapel Hill conference to discuss gravity in the Einsteinian paradigm,",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson",
+        "john-wheeler",
+        "richard-feynman",
+        "freeman-dyson",
+        "josh-goldberg",
+        "lewis-witten"
+      ],
+      "documents": [],
+      "difference": "Dates the conference to 1957, credits Bahnson as host, and names attendees including Wheeler, Feynman, Dyson, Goldberg and Witten.",
+      "link_reason": "The same Chapel Hill gravity conference at UNC, which the story's teller says kicked off anti-gravity interest.",
+      "as_told": {
+        "title": "Bahnson's 1957 Chapel Hill gravity conference",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "University of North Carolina, Chapel Hill",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 864.0,
+      "to_s": 869.0,
+      "teller": "jesse-michels",
+      "quote": "1957 uh there's this UNCC University of North Carolina Chapel Hill conference",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson",
+        "lewis-witten",
+        "bryce-dewitt",
+        "john-wheeler",
+        "peter-bergmann",
+        "richard-feynman"
+      ],
+      "documents": [],
+      "difference": "Gives the year as 1957 and names Bahnson, Witten, DeWitt, Wheeler, Bergmann and Feynman as linked to it.",
+      "link_reason": "The same 1957 gravity conference at UNC Chapel Hill.",
+      "as_told": {
+        "title": "1957 UNC Chapel Hill gravity conference",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 3252.0,
+      "to_s": 3267.0,
+      "teller": "bob-maguire",
+      "quote": "stuff that wheeler got started down down in North Carolina with two industrialists supporting him and all of these people came to Wheeler re regening gravitational research and his first speaker was Richard man",
+      "kind": "researcher",
+      "cites": [
+        "john-wheeler",
+        "richard-feynman"
+      ],
+      "documents": [],
+      "difference": "Credits Wheeler with starting it, says two industrialists backed it and names Feynman as the first speaker.",
+      "link_reason": "The 1950s North Carolina gravity research conference, backed by industrialists, that brought gravity researchers together.",
+      "as_told": {
+        "title": "Wheeler's North Carolina gravity research conference",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "North Carolina",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 3425.0,
+      "to_s": 3440.0,
+      "teller": "jesse-michels",
+      "quote": "the establishment of quantum gravity which led to string theory was in 1957 at the UNC North Carolina Chapel Hill conference headed up by AG bonson you had uh Lewis Whitten there from uh Martin Corporation",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson",
+        "louis-witten",
+        "t-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Dates it to 1957, says Bahnson headed it and Witten of Martin attended, and ties it to quantum gravity and string theory.",
+      "link_reason": "Both tell of the Chapel Hill gravity conference at UNC that launched the field.",
+      "as_told": {
+        "title": "1957 UNC Chapel Hill conference and Babson funding",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 5723.0,
+      "to_s": 5728.0,
+      "teller": "jesse-michels",
+      "quote": "odd characters there. The whole, you know, the whole conference, you know, it was sponsored by sponsored by Wright Airfield.",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson",
+        "bryce-dewitt",
+        "cecile-dewitt",
+        "john-wheeler",
+        "louis-witten"
+      ],
+      "documents": [],
+      "difference": "Dates it to 1957, says Wright Field sponsored it, and names attendees such as DeWitt, Wheeler and Witten.",
+      "link_reason": "Both are about the famous Chapel Hill gravity conference of the 1950s.",
+      "as_told": {
+        "title": "Chapel Hill gravity conference sponsored by Wright Field",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1409.0,
+      "to_s": 1425.0,
+      "teller": "jesse-michels",
+      "quote": "In 1956, this Institute of Field Physics at the University of North Carolina, Chapel Hill, holds what's known as the Chapel Hill Conference, convening all of the world's top theoretical physicists [music] to discuss gravity.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates it to 1956 and says the Institute of Field Physics held it, bringing together the world's top theoretical physicists.",
+      "link_reason": "Both tell of the famous Chapel Hill gravity conference at UNC.",
+      "as_told": {
+        "title": "1956 Chapel Hill gravity conference",
+        "years": {
+          "from": 1956,
+          "to": 1956
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "bob-maguire",
       "eric-weinstein"
     ],
     "episodes": [
+      "2Xxmguz0GEQ",
+      "5udx_SDdL3Y",
+      "8TYMQOUDQBo",
+      "G7Ns4Aq1tVc",
+      "Jpf0ZGY87c0",
+      "RTEWLSTyUic",
       "iQOibpIDx-4"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.5,
+  "tier": "told-by-several",
   "plain": "Eric Weinstein, a mathematician, said in a debate on Jesse Michels's podcast that a famous conference on gravity at the University of North Carolina at Chapel Hill in the 1950s set off a lot of interest in anti-gravity, the idea of machines that cancel or control gravity. He points to it as the start of a burst of work in that area."
 }

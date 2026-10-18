@@ -1,0 +1,92 @@
+{
+  "id": "akhenaten-abandons-amun-and-pharaohs-depicted-with-elongated",
+  "title": "Akhenaten abandons Amun and pharaohs depicted with elongated skulls",
+  "summary": "Luke Caverns tells of Akhenaten abandons Amun and pharaohs depicted with elongated skulls, about c. 1350s BC (18th dynasty) at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 0.0,
+      "to_s": 14.0,
+      "teller": "luke-caverns",
+      "quote": "Aman Hotep thei dies. Amen Hotep I 4th becomes king. And he says, \"I'm not worshiping Amen anymore. I'm only going to acknowledge the one true sun god, the Aten, and I'm going to make my name Akenatan.\"",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 6516.0,
+      "to_s": 6530.0,
+      "teller": "luke-caverns",
+      "quote": "And and Aman Hotep thei dies. Aman Hotep the fourth becomes king. And he says, \"I'm not worshiping Amen anymore. This god that Carneak temple was built to worship. It's done. Carneak temple. I'm closing the doors.",
+      "kind": "researcher",
+      "cites": [
+        "amenhotep-iii",
+        "akhenaten"
+      ],
+      "documents": [],
+      "difference": "Adds that he closed the Karnak temple and frames it as a feud with the priesthood.",
+      "link_reason": "Same teller, same story: Amenhotep III dies and Amenhotep IV turns away from Amun.",
+      "as_told": {
+        "title": "Amenhotep IV (Akhenaten) closes the temples and rejects Amun after a feud with the priesthood",
+        "years": null,
+        "place_text": "Karnak / Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 6548.0,
+      "to_s": 6559.0,
+      "teller": "luke-caverns",
+      "quote": "the art just completely changes. And where does the the skull elongation come from? We don't really know. We don't know why it arrived right then.",
+      "kind": "researcher",
+      "cites": [
+        "akhenaten"
+      ],
+      "documents": [],
+      "difference": "Stresses that the change in the art was sudden and that nobody knows where the skull elongation came from.",
+      "link_reason": "Same teller, carrying on the Amarna story; the elongated skulls in the art are the second half of that story's title.",
+      "as_told": {
+        "title": "Elongated skulls appear suddenly in Amarna-period art",
+        "years": null,
+        "place_text": "Egypt",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Luke Caverns, on Jesse Michels's podcast in 2025, tells how an ancient Egyptian king, Amenhotep IV, took the throne after his father died and declared he would no longer worship Amun, the god the great Karnak temple was built for. Caverns says the king shut Karnak's doors, turned only to the sun god called the Aten, renamed himself Akhenaten, and fell out with the priests. He adds that Egyptian art then changed suddenly, showing royals with long, stretched skulls, and says nobody knows where that came from or why it appeared just then, which to him hints at an unexplained outside influence."
+}

@@ -7,7 +7,7 @@
     "from": 1980,
     "to": 1989
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "US-Soviet summit",
   "coordinates": null,
   "kind": "testimony",
@@ -17,7 +17,7 @@
       "episode": "09KP8XVf5nY",
       "from_s": 8741.0,
       "to_s": 8754.0,
-      "teller": "pippa-malmgren",
+      "teller": "mikhail-gorbachev",
       "quote": "\"If the United States were attacked by someone from outer space, would you help us?\"",
       "kind": "secondhand",
       "cites": [
@@ -25,34 +25,181 @@
         "charlie-rose",
         "ronald-reagan"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "pippa-malmgren"
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 5514.0,
+      "to_s": 5526.0,
+      "teller": "jesse-michels",
+      "quote": "Gorbachev. Gorbachev tells this story that uh he says it in an interview I think with Charlie Rose or something and um Reagan whispers to him right before the conversation starts.",
+      "kind": "secondhand",
+      "cites": [
+        "mikhail-gorbachev",
+        "ronald-reagan",
+        "charlie-rose"
+      ],
+      "documents": [],
+      "difference": "Places it at the 1985 Geneva summit and says Reagan whispered the question just before talks began.",
+      "link_reason": "Both are Gorbachev's account, given in a Charlie Rose interview, of Reagan asking him whether the USSR would help if Earth were attacked from space.",
+      "as_told": {
+        "title": "Reagan asks Gorbachev about defending Earth from an alien invasion",
+        "years": {
+          "from": 1985,
+          "to": 1985
+        },
+        "place_text": "Geneva summit",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 7427.0,
+      "to_s": 7450.0,
+      "teller": "mikhail-gorbachev",
+      "quote": "president rean subtly said to me well what would you do if the United States were attacked by someone from outer space would you help us",
+      "kind": "official",
+      "cites": [
+        "ronald-reagan",
+        "charlie-rose"
+      ],
+      "documents": [],
+      "difference": "Told by Gorbachev himself instead of relayed by Malmgren.",
+      "link_reason": "Both tell of Reagan asking Gorbachev at a summit whether he would help if the US were attacked from outer space, as told to Charlie Rose.",
+      "as_told": {
+        "title": "Reagan asks Gorbachev for help against attack from outer space",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "unspecified summit",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 5470.0,
+      "to_s": 5483.0,
+      "teller": "jesse-michels",
+      "quote": "This isn't even a rumor. Gorbachev, Mikuel Gorbachev, says in an interview with Charlie Rose that he was sitting with Reagan at some like UN event or something and Reagan, you know, whispers over in his ear,",
+      "kind": "host",
+      "cites": [
+        "mikhail-gorbachev",
+        "ronald-reagan",
+        "charlie-rose"
+      ],
+      "documents": [],
+      "difference": "Told by Jesse Michels, who places it vaguely at a UN-type event and has Reagan whispering it in Gorbachev's ear.",
+      "link_reason": "Both tell of Reagan asking Gorbachev whether he would help if the US were attacked from outer space, as Gorbachev recounted to Charlie Rose.",
+      "as_told": {
+        "title": "Reagan asks Gorbachev about an attack from outer space",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "summit meeting",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 11892.0,
+      "to_s": 11905.0,
+      "teller": "rolf-mowatt-larssen",
+      "quote": "It started with really\nReagan and Gorbachev musing about um\nthey going to get together to So when\nthe aliens come the US and the Russian\nand Reagan mentioned that.",
+      "kind": "secondhand",
+      "cites": [
+        "ronald-reagan",
+        "mikhail-gorbachev"
+      ],
+      "documents": [],
+      "difference": "Told as the two leaders musing about getting together when aliens came, rather than Reagan asking a direct question about help, and without the Charlie Rose source.",
+      "link_reason": "Both tell of Reagan raising with Gorbachev the idea that the US and USSR would join together against aliens.",
+      "as_told": {
+        "title": "Reagan and Gorbachev musing about uniting if aliens came",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "United States / Soviet Union",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "bill-moore-warns-steinman-off-mrs-wang-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "call-to-space-command-about-a-classified-extraterrestrial-th-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "havana-syndrome-as-russian-attacks-since-the-1980s-per-60-mi",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "neil-armstrong-s-truth-s-protective-layers-speech-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "raymond-lavos-claims-esoteric-math-for-b-2-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "researchers-question-dr-eric-walker-about-ufos-at-penn-state-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "senator-inouye-on-a-shadow-government-during-iran-contra-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "william-steinman-pushed-out-of-aerospace-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.6,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "official",
     "tellers": [
-      "pippa-malmgren"
+      "mikhail-gorbachev"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "8TYMQOUDQBo",
+      "ATJwqp5twAg",
+      "D2tKCFmJjks",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.8,
   "tier": "told-once",
   "plain": "Pippa Malmgren, speaking on a podcast episode featuring the presidential advisor Harald Malmgren, recounts a moment from a 1980s summit between the US and the Soviet Union. She says that President Ronald Reagan asked Soviet leader Mikhail Gorbachev, \"If the United States were attacked by someone from outer space, would you help us?\", and she links the story to the TV interviewer Charlie Rose. It is told as a hint that a US president took the idea of visitors from space seriously."
 }

@@ -1,0 +1,74 @@
+{
+  "id": "lidar-reveals-lost-amazon-cities-and-geometric-earthworks",
+  "title": "Lidar reveals lost Amazon cities and geometric earthworks",
+  "summary": "Graham Hancock tells of Lidar reveals lost Amazon cities and geometric earthworks, about pre-Columbian at Amazon rainforest, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Amazon rainforest",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4658.0,
+      "to_s": 4681.0,
+      "teller": "graham-hancock",
+      "quote": "where they are looking, they're finding extraordinary mysteries. They're They're finding that the Amazon was once populated by tens of millions of people, that they were able to feed themselves, that there were huge cities in the Amazon with permanent populations, that there are enormous geometrical earthworks, precisely very precise on an enormous scale, which actually can only be seen in full form from from an aerial view.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "ancient-apocalypse-season-2"
+      ]
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 4668.0,
+      "to_s": 4680.0,
+      "teller": "jesse-michels",
+      "quote": "was talking to Graham Hancock about like lidaring you know the over over the the treetops of the Amazon forest and you can see the topology and then you see little geoglyphs kind of popping out",
+      "kind": "secondhand",
+      "cites": [
+        "graham-hancock"
+      ],
+      "documents": [],
+      "difference": "Relayed secondhand by Jesse Michels, it mentions only the geoglyphs and leaves out the cities and population figures.",
+      "link_reason": "Both describe Hancock's account of LiDAR revealing geometric earthworks under the Amazon canopy.",
+      "as_told": {
+        "title": "LiDAR over the Amazon reveals geoglyphs",
+        "years": null,
+        "place_text": "Amazon rainforest",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "graham-hancock"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "9PJJiut0Iuw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A writer on lost ancient civilisations, Graham Hancock, says that lidar, a laser scan from the air that can see the ground through treetops, is turning up big surprises in the Amazon rainforest, as shown in the second season of his TV series Ancient Apocalypse. He says the Amazon was once home to tens of millions of people who fed themselves, with huge permanent cities and vast, very precise geometric earthworks that can only be seen whole from above. A podcast host, Jesse Michels, later repeated a shorter version, mentioning only the shapes popping out of the scans, and it matters because it would mean the jungle once held a great civilisation."
+}

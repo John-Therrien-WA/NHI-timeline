@@ -1,0 +1,58 @@
+{
+  "id": "schauberger-s-wartime-diary-matches-the-kammler-sites-1942",
+  "title": "Schauberger's wartime diary matches the Kammler sites",
+  "summary": "Nick Cook tells of Schauberger's wartime diary matches the Kammler sites, about 1942-1945 at Jablonec, Czechoslovakia; Schauberger family, Austria, and says they saw it or took part. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1942,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Jablonec, Czechoslovakia; Schauberger family, Austria",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1222.0,
+      "to_s": 1234.0,
+      "teller": "nick-cook",
+      "quote": "I was able to go and visit the Schauberger family and they opened up their files, the family files.",
+      "kind": "firsthand",
+      "cites": [
+        "viktor-schauberger"
+      ],
+      "documents": [
+        "viktor-schauberger-s-diary"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "nick-cook"
+    ],
+    "episodes": [
+      "G7Ns4Aq1tVc"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "Nick Cook, a writer on aviation, tells podcast host Jesse Michels that he visited the family of Viktor Schauberger, an Austrian inventor, who opened their family files to him, including Schauberger's diary from 1942 to 1945. Cook says the diary matches places, such as Jablonec in what was then Czechoslovakia, tied to Hans Kammler, a Nazi officer who ran secret weapons projects. If true, it would mean Nazi Germany was working on unusual flying technology, possibly antigravity, at those sites."
+}

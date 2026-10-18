@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Jake Barber's book Sentinels of Ether partly redacted, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "document",
@@ -23,6 +23,32 @@
       "documents": [
         "sentinels-of-ether"
       ]
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 4328.0,
+      "to_s": 4335.0,
+      "teller": "jesse-michels",
+      "quote": "the Pentagon censored seven pages of redactions this sentinels of ether book that Jake Barber put out",
+      "kind": "host",
+      "cites": [
+        "jake-barber",
+        "alva-douglas"
+      ],
+      "documents": [
+        "sentinels-of-ether"
+      ],
+      "difference": "Credits Alva Douglas as well and says outright that the Pentagon censored it.",
+      "link_reason": "Both say Jake Barber's book Sentinels of Ether had seven pages redacted by the Pentagon or its reviewers.",
+      "as_told": {
+        "title": "Sentinels of Ether book, with seven pages redacted by the Pentagon",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -46,6 +72,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "PiFbeWfA3LM",
       "yGtVzBbUvx4"
     ]
   },

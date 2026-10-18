@@ -1,0 +1,51 @@
+{
+  "id": "china-reverse-engineering-downed-craft",
+  "title": "China reverse engineering downed craft",
+  "summary": "Bob Maguire tells of China reverse engineering downed craft, about present at China, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "China",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 2714.0,
+      "to_s": 2722.0,
+      "teller": "bob-maguire",
+      "quote": "we know for a fact they are working on reverse engineering they have down craft",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "bob-maguire"
+    ],
+    "episodes": [
+      "2Xxmguz0GEQ"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "On Jesse Michels' podcast, a guest named Bob Maguire, in an episode billed as being with a CIA contractor (the CIA is the US foreign intelligence agency), says that China has crashed or downed craft of unknown origin. He says 'we know for a fact' that China is trying to reverse engineer them, meaning take them apart to learn how they work, which would mean a race between nations for such technology."
+}

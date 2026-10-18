@@ -1,0 +1,56 @@
+{
+  "id": "legend-of-the-virgin-mary-landing-on-athos-at-iveron-2005",
+  "title": "Legend of the Virgin Mary landing on Athos at Iveron",
+  "summary": "Ralph tells of Legend of the Virgin Mary landing on Athos at Iveron, about 1st century; told to him 2005-2007 at Greece (the ancient oracle sites), and relays what a named person told them. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2005,
+    "to": 2007
+  },
+  "place": "ancient-greece",
+  "place_text": "Iveron monastery, Mount Athos, Greece",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 5682.0,
+      "to_s": 5693.0,
+      "teller": "ralph",
+      "quote": "she got blown on the island of Monothos and there's a monastery on the placed on the site where she supposedly landed went ashore called Iveron",
+      "kind": "secondhand",
+      "cites": [
+        "unnamed-monk-at-iveron"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "ralph"
+    ],
+    "episodes": [
+      "ATJwqp5twAg"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A guest named Ralph, interviewed on a podcast that billed him as a former spy chief, says that while travelling in Greece in the mid-2000s a monk told him an old legend about Mount Athos, a Greek peninsula full of monasteries. According to the monk, the Virgin Mary was blown off course by the wind and came ashore there, and a monastery called Iveron now stands on the spot where she is said to have landed."
+}

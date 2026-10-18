@@ -1,0 +1,69 @@
+{
+  "id": "mj-12-documents-surface-in-1984-sent-from-near-kirtland",
+  "title": "MJ-12 documents surface in 1984, sent from near Kirtland",
+  "summary": "Richard Dolan tells of MJ-12 documents surface in 1984, sent from near Kirtland, about 1984 at Sandia National Laboratories, Albuquerque, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1984,
+    "to": 1984
+  },
+  "place": "sandia-nm",
+  "place_text": "Kirtland Air Force Base, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 1281.0,
+      "to_s": 1293.0,
+      "teller": "richard-dolan",
+      "quote": "documents, so they they first appeared in uh 1984, they were probably sent from somewhere near Kirtland Air Force Base.",
+      "kind": "researcher",
+      "cites": [
+        "richard-doty",
+        "bill-moore",
+        "jamie-chandere",
+        "harry-truman",
+        "philip-klass",
+        "robert-hastings"
+      ],
+      "documents": [
+        "mj12-documents"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "falcon-and-the-mj-12-films-from-dia-humint-and-angleton-s-ch-1980",
+      "relation": "variant",
+      "note": "Both are about how the first MJ-12 documents reached Shandera and Moore in the 1980s. This telling says they were probably sent from near Kirtland, in Doty's orbit; the story says DIA's Falcon passed on film made by Angleton's chop shop."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "richard-dolan"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Richard Dolan, a researcher who writes histories of UFOs, says on podcast host Jesse Michels' show that the MJ-12 documents, papers describing a supposed secret committee called Majestic 12 that handled crashed UFOs for the US government, first appeared in 1984. He says they were probably sent from somewhere near Kirtland Air Force Base, a US military base in Albuquerque, New Mexico, and he discusses them alongside people such as the Air Force agent Richard Doty and the UFO researcher Bill Moore. Where they came from matters because, if real, they would show a hidden top-level group, and if planted, someone inside the system wanted them out."
+}

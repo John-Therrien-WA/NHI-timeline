@@ -1,0 +1,65 @@
+{
+  "id": "philadelphia-experiment-as-cover-for-nuclear-accident-1943",
+  "title": "Philadelphia Experiment as cover for nuclear accident",
+  "summary": "Jan Lundquist tells of Philadelphia Experiment as cover for nuclear accident, about 1943 at Philadelphia, Pennsylvania, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1943,
+    "to": 1943
+  },
+  "place": "philadelphia-pa",
+  "place_text": "Philadelphia; Norfolk, Virginia",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4329.0,
+      "to_s": 4339.0,
+      "teller": "jan-lundquist",
+      "quote": "A turbine exploded, and the men got showered with hexafluoride, something a fluid that had been radiated.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "philadelphia-experiment-actually-happened-in-rhode-island-1942",
+      "relation": "variant",
+      "note": "Both explain what the Philadelphia Experiment really covered up. Greer says it was a cover for something done in Rhode Island; this telling says it hid a turbine explosion that showered the crew with radioactive hexafluoride."
+    },
+    {
+      "story": "philadelphia-experiment-sailors-stuck-in-walls-1943",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jan-lundquist"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "The Philadelphia Experiment is a story about a 1943 US Navy test on a warship. A researcher named Jan Lundquist, in a documentary by the podcast host Jesse Michels about the scientist Townsend Brown, says the story was really a cover for an accident, tied to Philadelphia and Norfolk, Virginia. According to Lundquist, a turbine exploded and the men were showered with hexafluoride, a fluid that had been made radioactive, which would mean the famous tale was invented to hide a nuclear mishap."
+}

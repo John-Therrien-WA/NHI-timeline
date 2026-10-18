@@ -1,0 +1,58 @@
+{
+  "id": "lazar-s-missing-records-and-the-los-alamos-phone-book-1982",
+  "title": "Lazar's missing records and the Los Alamos phone book",
+  "summary": "George Knapp tells of Lazar's missing records and the Los Alamos phone book, about 1982-1989 at Los Alamos, New Mexico, and reports it citing named sources. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1982,
+    "to": 1989
+  },
+  "place": "los-alamos-nm",
+  "place_text": "Los Alamos National Laboratory, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 1720.0,
+      "to_s": 1730.0,
+      "teller": "george-knapp",
+      "quote": "mistaken or were lying. A 1982 phone book from the lab lists Lazar right there among the other scientists and technicians.",
+      "kind": "journalist",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [
+        "1982-los-alamos-lab-phone-book"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "george-knapp"
+    ],
+    "episodes": [
+      "TNtlzEnl8rA"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once",
+  "plain": "A journalist, George Knapp, tells of a man named Bob Lazar, whose claim to have worked as a scientist has been doubted because records of his past seemed to be missing. Knapp says a 1982 phone book from Los Alamos, a US government laboratory in New Mexico, lists Lazar right there among the other scientists and technicians, so those who said he never worked there were mistaken or lying."
+}

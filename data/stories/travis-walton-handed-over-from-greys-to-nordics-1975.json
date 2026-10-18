@@ -45,11 +45,44 @@
         "place_text": "Arizona, USA (aboard craft)",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 14367.0,
+      "to_s": 14371.0,
+      "teller": "jesse-michels",
+      "quote": "cases like Travis Walton where they're working together in conjunction.",
+      "kind": "host",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": [],
+      "difference": "Mentions the case only briefly, as an example of beings working in conjunction, with no detail of the hand-off.",
+      "link_reason": "Both use the Travis Walton abduction to show the greys and the Nordics working together.",
+      "as_told": {
+        "title": "Travis Walton case with beings working together",
+        "years": {
+          "from": 1975,
+          "to": 1975
+        },
+        "place_text": "Arizona, USA",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [
     {
       "story": "travis-walton-wakes-with-a-full-beard-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "travis-walton-abduction-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "travis-walton-abduction-as-shown-in-fire-in-the-sky-1975",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -67,13 +100,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "travis-walton"
     ],
     "episodes": [
+      "CiQTBOQ1dTg",
       "EzPmG_7WhXc"
     ]
   },

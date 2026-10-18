@@ -25,6 +25,29 @@
         "jimmy-carter"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 4426.0,
+      "to_s": 4440.0,
+      "teller": "daniel-sheehan",
+      "quote": "when when President Carter remember had seen a UFO Y in 1969 I believe it was with a bunch of other people a bunch of people 11 other people they were standing on the steps of this Lion's Club",
+      "kind": "secondhand",
+      "cites": [
+        "jimmy-carter"
+      ],
+      "documents": [],
+      "difference": "Places it on the steps of a Lions Club in Georgia, with 11 other people present.",
+      "link_reason": "Both tell of Jimmy Carter's 1969 UFO sighting.",
+      "as_told": {
+        "title": "Jimmy Carter's UFO sighting at the Lions Club",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "Lions Club, Georgia",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -41,14 +64,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "daniel-sheehan"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "2SQXAPCdmPE"
     ]
   },
   "attestation": 0.5,

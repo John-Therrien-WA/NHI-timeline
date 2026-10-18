@@ -1,0 +1,53 @@
+{
+  "id": "paper-on-the-moon-s-effect-on-lightning",
+  "title": "Paper on the moon's effect on lightning",
+  "summary": "Geoffrey Drumm tells of Paper on the moon's effect on lightning, about modern study at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 6773.0,
+      "to_s": 6776.0,
+      "teller": "geoffrey-drumm",
+      "quote": "This is a paper called the moon effect on lightning.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "the-moon-effect-on-lightning"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Geoffrey Drumm, who studies the Egyptian pyramids, showed podcast host Jesse Michels a scientific paper called \"The moon effect on lightning.\" He uses it to suggest that the moon has an influence on lightning, which he connects to his ideas about how the pyramids worked."
+}

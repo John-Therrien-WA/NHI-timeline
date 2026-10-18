@@ -1,0 +1,78 @@
+{
+  "id": "orion-correlation-theory-1994",
+  "title": "Orion correlation theory",
+  "summary": "Graham Hancock tells of Orion correlation theory, about ancient Egypt; proposed 1994 at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1994,
+    "to": 1994
+  },
+  "place": "egypt",
+  "place_text": "Giza Plateau, Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 3095.0,
+      "to_s": 3103.0,
+      "teller": "graham-hancock",
+      "quote": "Robert bavar uh who came up with the Orion correlation theory in 1994 in his book The Orion mystery",
+      "kind": "researcher",
+      "cites": [
+        "robert-bauval"
+      ],
+      "documents": [
+        "the-orion-mystery"
+      ]
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 6605.0,
+      "to_s": 6614.0,
+      "teller": "geoffrey-drumm",
+      "quote": "the Orion correlation showing that some of these structures are connected to Orion's belt. I think that's true.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Drumm endorses the theory without crediting Bauval or giving the 1994 date.",
+      "link_reason": "The same Orion correlation theory linking the Giza structures to Orion's belt.",
+      "as_told": {
+        "title": "The Orion correlation",
+        "years": null,
+        "place_text": "Giza Plateau, Egypt",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm",
+      "graham-hancock"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "well-attested",
+  "plain": "This story is about an idea called the Orion correlation theory, about the pyramids at Giza in Egypt. A writer on lost ancient civilisations, Graham Hancock, tells it on a podcast with the host Jesse Michels. He says it was put forward in 1994 by an author named Robert Bauval in his book The Orion Mystery. The idea is that the pyramids are laid out to match the stars of Orion's belt, three bright stars in a row in the constellation Orion. A pyramid researcher named Geoffrey Drumm brings it up on a later episode. He describes it as showing that some of these buildings are connected to Orion's belt, and says he thinks it is true, though he does not name Bauval or the year. If true, it would mean the builders planned their monuments around the stars."
+}

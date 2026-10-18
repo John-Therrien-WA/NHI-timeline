@@ -17,17 +17,13 @@
       "episode": "8Rr_nE65KkI",
       "from_s": 7313.0,
       "to_s": 7321.0,
-      "teller": "donald-trump",
+      "teller": "jesse-michels",
       "quote": "want to see it. I won't talk to you about what I know about it, but it's very interesting. But Roswell's a very interesting place.",
       "kind": "secondhand",
       "cites": [
         "donald-trump"
       ],
-      "documents": [],
-      "replay_of": {
-        "outside": true
-      },
-      "teller_was": "jesse-michels"
+      "documents": []
     }
   ],
   "related": [
@@ -60,6 +56,11 @@
       "story": "walter-haut-s-posthumous-affidavit-craft-and-bodies-under-a-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "i-beams-with-hieroglyphics-told-at-the-reminiscences-of-rosw-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -79,7 +80,7 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "donald-trump"
+      "jesse-michels"
     ],
     "episodes": [
       "8Rr_nE65KkI"

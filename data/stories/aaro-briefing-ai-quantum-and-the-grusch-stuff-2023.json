@@ -49,6 +49,78 @@
         "episode": "LpLFWdsIU7M",
         "from_s": 13753.0
       }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 4636.0,
+      "to_s": 4652.0,
+      "teller": "jesse-michels",
+      "quote": "I interviewed a guy named Matthew Pines he's pretty connected in the kind of National Security world and he said that you know somebody in a very cleared to a lot of things I think at the Pentagon said something like AI Quantum plus the grush stuff",
+      "kind": "secondhand",
+      "cites": [
+        "matthew-pines",
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Places the insider at the Pentagon and in 2024, where the story's tellings point to AARO or a CIA man around 2023.",
+      "link_reason": "Both tell, through Matthew Pines, of a cleared insider describing a triangle of AI, quantum and the Grusch matter.",
+      "as_told": {
+        "title": "Pentagon insider's 'iron triangle' of AI, quantum and the Grusch revelations",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "Pentagon",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 6599.0,
+      "to_s": 6611.0,
+      "teller": "jesse-michels",
+      "quote": "I just interviewed Matthew Pines and he goes he goes there's an iron triangle he goes the he goes AI quant Phantom and the Grush stuff.",
+      "kind": "secondhand",
+      "cites": [
+        "matthew-pines",
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Calls it an 'iron triangle' and attributes the line to Pines rather than to a CIA source.",
+      "link_reason": "Both describe the same 'triangle of AI, quantum and the Grusch stuff' remark relayed through Matthew Pines.",
+      "as_told": {
+        "title": "Matthew Pines's iron triangle of AI, quantum and the Grusch disclosures",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 5642.0,
+      "to_s": 5657.0,
+      "teller": "jesse-michels",
+      "quote": "I think he was talking to somebody at the Rand Corporation which is one of these fedally funded research and development centers that's kind of spooky. And they were like they were like uh this is really what we're tracking quantum AI and the Grush stuff.",
+      "kind": "secondhand",
+      "cites": [
+        "matt-pines",
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Places the source at the RAND Corporation rather than AARO or a CIA man.",
+      "link_reason": "Same secondhand remark relayed via Matt Pines that what is being tracked is the triangle of AI, quantum and the Grusch material.",
+      "as_told": {
+        "title": "RAND contact tracking convergence of quantum, AI and Grusch UFO claims",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "RAND Corporation, USA",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -106,6 +178,51 @@
       "story": "matthew-sullivan-s-death-and-his-legacy-program-experience-2023",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aaron-paul-wrote-messages-back-and-forth-with-bob-lazar-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aviators-reports-to-graves-leading-to-the-congressional-hear-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "borland-goes-to-the-icig-after-grusch-testifies-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "careful-handling-of-david-grusch-before-he-came-forward-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-on-a-multi-decade-cold-war-with-adversaries-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-on-disclosing-the-biologic-side-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "klippenstein-admits-dod-and-ic-tipped-him-off-on-grusch-stor-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "red-phone-to-china-used-during-balloon-incident-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "why-borland-came-forward-lives-in-danger-and-a-read-in-colle-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -128,8 +245,11 @@
       "matthew-pines"
     ],
     "episodes": [
+      "8TYMQOUDQBo",
       "C_Na1tI5qpw",
-      "LpLFWdsIU7M"
+      "LpLFWdsIU7M",
+      "Sct30Qijfv8",
+      "h6zMVkncTsE"
     ]
   },
   "attestation": 0.5,

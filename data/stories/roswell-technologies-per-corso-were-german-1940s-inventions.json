@@ -1,0 +1,66 @@
+{
+  "id": "roswell-technologies-per-corso-were-german-1940s-inventions",
+  "title": "Roswell technologies per Corso were German 1940s inventions",
+  "summary": "Jason Jorjani tells of Roswell technologies per Corso were German 1940s inventions, about 1940s; 1947 at Roswell, New Mexico, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico; Germany; North Africa",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 2428.0,
+      "to_s": 2438.0,
+      "teller": "jason-jorjani",
+      "quote": "But uh Farrell researched this and he provides documentation that shows that the Germans had invented every single one of these in the 1940s.",
+      "kind": "researcher",
+      "cites": [
+        "philip-corso",
+        "joseph-farrell"
+      ],
+      "documents": [
+        "the-day-after-roswell",
+        "saucer-swastikas-and-scops"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "corso-s-claims-of-a-covert-roswell-group-and-reverse-enginee-1947",
+      "relation": "variant",
+      "note": "Both are about the technologies Corso said came from Roswell. This telling claims the Germans had already invented them in the 1940s, which contradicts the reverse-engineered-from-the-crash account."
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Jason Jorjani, a researcher, talks about Philip Corso, an Army officer whose book The Day After Roswell says many modern technologies came from a craft that crashed near Roswell, New Mexico, in 1947. Jorjani says another researcher, Joseph Farrell, found documents showing the Germans had invented every one of those technologies in the 1940s. If true, it would mean the Roswell technology was human and German, not alien."
+}

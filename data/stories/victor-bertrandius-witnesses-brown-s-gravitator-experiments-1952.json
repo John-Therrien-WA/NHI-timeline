@@ -27,33 +27,82 @@
       "documents": [
         "townsen-brown-biography-by-paul-shatskin"
       ]
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1117.0,
+      "to_s": 1132.0,
+      "teller": "jesse-michels",
+      "quote": "Bertrandias paid an unannounced visit to a demo of Brown's gravitator at the Towns and Brown Foundation in 1952. After witnessing the demo, he said, \"Believe it or not, I saw a model of a flying saucer.",
+      "kind": "host",
+      "cites": [
+        "victor-bertrandias"
+      ],
+      "documents": [],
+      "difference": "Places it at the Townsend Brown Foundation as an unannounced visit, and quotes 'I saw a model of a flying saucer' with no mention of fear.",
+      "link_reason": "Same 1952 witnessing of Brown's gravitator demo by Victor Bertrandias, with the flying-saucer quote.",
+      "as_told": {
+        "title": "Bertrandias sees flying saucer model at 1952 demo",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Townsend Brown Foundation",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1451.0,
+      "to_s": 1459.0,
+      "teller": "jesse-michels",
+      "quote": "quote from him where he says believe it\nor not I think I just saw a flying\nsaucer and it frightened me",
+      "kind": "secondhand",
+      "cites": [
+        "victor-bertrandias",
+        "albert-boyd"
+      ],
+      "documents": [],
+      "difference": "Gives the 1950s with no exact year, and also credits Albert Boyd.",
+      "link_reason": "The same Bertrandias quote, 'I think I just saw a flying saucer and it frightened me', said after he saw Brown's experiments in Los Angeles.",
+      "as_told": {
+        "title": "Victor Bertrandias: 'I think I just saw a flying saucer'",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Los Angeles",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
+      "RTEWLSTyUic",
       "mOWwdIuyaQA"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, citing a biography of the inventor Thomas Townsend Brown by Paul Schatzkin, says that in 1952 in Los Angeles a lieutenant colonel from Wright airfield, an Air Force base, named Victor Bertrandias watched Brown's \"gravitator\" experiments, devices meant to move without ordinary propulsion. Bertrandias, who later became a general, is quoted as saying, \"Believe it or not, I think I just saw a flying saucer and it frightened me.\" The story is told as a hint that humans may have been working on antigravity flight back then."
 }

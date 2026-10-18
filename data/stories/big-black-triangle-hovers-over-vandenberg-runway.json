@@ -21,14 +21,38 @@
         "jeff-nuccetelli"
       ],
       "documents": []
+    },
+    {
+      "episode": "Qe8br8yYEDM",
+      "from_s": 4862.0,
+      "to_s": 4880.0,
+      "teller": "jeff-natelli",
+      "quote": "When I arrived on scene, I talked to five shaken witnesses who described a massive triangular craft larger than a football field that hovered silently for about 45 seconds over their entry control point before shooting away at impossible speed.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told first-hand, dated October 14, 2003, hovering about 45 seconds over the entry control point (not the runway) with five witnesses, then leaving at great speed.",
+      "link_reason": "Nuccetelli's large triangle hovering over Vandenberg is the big black triangle story that Matthew Brown relays from him.",
+      "as_told": {
+        "title": "Football-field-sized triangle over entry control point at Vandenberg",
+        "years": {
+          "from": 2003,
+          "to": 2003
+        },
+        "place_text": "Vandenberg Air Force Base, California",
+        "story_kind": "sighting"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -39,15 +63,17 @@
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "jeff-natelli",
       "matthew-brown"
     ],
     "episodes": [
+      "Qe8br8yYEDM",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "Matthew Brown, who describes himself as a Pentagon whistleblower, relays an account from a man named Jeff Nuccetelli. According to Nuccetelli, a big black triangle came in out of the Pacific Ocean and flew into Vandenberg, a military base on the California coast used for missile and space launches, where it hovered over the runway. No date is given; if true, it would mean an unknown craft moved freely over a sensitive base."
 }

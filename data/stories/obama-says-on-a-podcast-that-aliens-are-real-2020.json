@@ -44,6 +44,30 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 9495.0,
+      "to_s": 9501.0,
+      "teller": "barack-obama",
+      "quote": ">> Uh they're real but I haven't seen them and and and uh they're not being kept in uh what is it?",
+      "kind": "official",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives Obama's own words, including that he hasn't seen them and that they aren't kept at Area 51.",
+      "link_reason": "Obama saying on a podcast that aliens are real is the same remark as this story.",
+      "as_told": {
+        "title": "Obama on a podcast: aliens are real but not kept at Area 51",
+        "years": {
+          "from": 2025,
+          "to": 2026
+        },
+        "place_text": null,
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
   "related": [
@@ -96,34 +120,94 @@
       "story": "grusch-reprisals-at-the-nga-2020",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "200-mainstream-scientists-want-to-study-the-phenomenon-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "arranging-and-conducting-the-bobby-ray-inman-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brett-weinstein-advised-not-to-air-robert-malone-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "former-ic-inspector-general-chuck-mccullough-s-ufo-involveme-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "icig-hints-that-humans-are-not-in-charge-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "inman-denies-retrieved-ufos-in-jay-anderson-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "inman-no-other-life-in-our-galaxy-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "lacatski-won-t-say-whether-there-has-been-government-contact-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nasa-mission-controller-tim-taylor-s-advice-think-about-what-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "obama-on-jimmy-kimmel-says-the-aliens-won-t-let-disclosure-h-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pais-stops-jesse-s-questions-in-motel-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "spielberg-binge-watched-the-secret-of-skinwalker-ranch-befor-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 1.6,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
-    "host": 1,
+    "researcher": 0,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
-      "jesse-michels",
-      "michael-shurmer"
+      "barack-obama"
     ],
     "episodes": [
       "8Rr_nE65KkI",
-      "kccrkCGGzX4"
+      "kccrkCGGzX4",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-by-several",
+  "attestation": 0.8,
+  "tier": "told-once",
   "plain": "A researcher and well known skeptic, Michael Shermer, says that former US President Barack Obama went on a podcast in the 2020s, was asked by the host whether he thought aliens were real, and answered, \"Yeah, I think aliens are real.\" Shermer says this remark is what set off a large public release of government UFO files. A podcast host, Jesse Michels, tells the same story but frames Obama's comment as a way of provoking President Donald Trump. If so, a single offhand remark would have pushed the government to open its files."
 }

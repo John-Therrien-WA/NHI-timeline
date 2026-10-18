@@ -171,6 +171,128 @@
         "place_text": "S-4, south of Area 51, Nevada",
         "story_kind": "reverse-engineering"
       }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 1360.0,
+      "to_s": 1369.0,
+      "teller": "jesse-michels",
+      "quote": "Bob lar right who claimed to claimed to work at Area 51 a special compartment of it called S4",
+      "kind": "host",
+      "cites": [
+        "bob-lazar",
+        "joe-rogan"
+      ],
+      "documents": [],
+      "difference": "Credits Joe Rogan.",
+      "link_reason": "Both tell of Bob Lazar's claim that he worked on reverse engineering at S4 in Area 51.",
+      "as_told": {
+        "title": "Bob Lazar's S4 reverse-engineering claims",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "S4, Area 51, Nevada",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 1808.0,
+      "to_s": 1815.0,
+      "teller": "jesse-michels",
+      "quote": "he is, but like he claimed to have worked at S-4, Area 51 reverse engineering UFOs.",
+      "kind": "host",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Puts the claim in 1989.",
+      "link_reason": "Lazar's claim to have worked at S-4, Area 51, reverse engineering UFOs is the same claim the story holds.",
+      "as_told": {
+        "title": "Bob Lazar at S-4 reverse engineering UFOs",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "S-4, Area 51, Nevada",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 3447.0,
+      "to_s": 3452.0,
+      "teller": "jesse-michels",
+      "quote": "Uh, I think he for sure worked at Area 51, probably worked at S4.",
+      "kind": "host",
+      "cites": [
+        "bob-lazar",
+        "luigi-vendittelli",
+        "chris-ramsey"
+      ],
+      "documents": [
+        "project-gravitar"
+      ],
+      "difference": "The host says Lazar surely worked at Area 51 and probably at S4, a hedged endorsement, and mentions Project Gravitar.",
+      "link_reason": "Same subject: Bob Lazar's claimed work at S4/Area 51 in the late 1980s, with the host weighing it up.",
+      "as_told": {
+        "title": "Bob Lazar worked at Area 51 and probably S4",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "Area 51 / S4, Nevada",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 1748.0,
+      "to_s": 1761.0,
+      "teller": "jesse-michels",
+      "quote": "Lazar said that it was EGNG that handled his background checks and EGNG that flew him on those unmarked Janet flights to S4. He claimed that there were nine alien crafts at S4.",
+      "kind": "host",
+      "cites": [
+        "bob-lazar",
+        "edward-teller"
+      ],
+      "documents": [],
+      "difference": "Adds that EG&G handled his background checks and the Janet flights, and that there were nine alien craft at S4.",
+      "link_reason": "The host summarises Lazar's overall claim to have worked at S4 on alien craft, with EG&G handling his clearance and the Janet flights. That is the same overall account as the story of Lazar's S4 reverse-engineering claim.",
+      "as_told": {
+        "title": "Bob Lazar, EG&G and nine alien craft at S4",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "S4, near Area 51, Nevada",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3721.0,
+      "to_s": 3733.0,
+      "teller": "jesse-michels",
+      "quote": ">> And this guy Bob Bazar said he worked at S4 Area 51 in 1989 and or I guess he came out in '89, but yeah, it was 80 between 88 and 89. And he said he got the job through Edward Teller.",
+      "kind": "host",
+      "cites": [
+        "bob-lazar",
+        "edward-teller"
+      ],
+      "documents": [],
+      "difference": "Dates his time there to 1988–89 rather than 1987.",
+      "link_reason": "Lazar's claim that he worked at S4 at Area 51 in the late 1980s, including that he was recruited through Edward Teller.",
+      "as_told": {
+        "title": "Bob Lazar at S4, hired through Edward Teller",
+        "years": {
+          "from": 1988,
+          "to": 1989
+        },
+        "place_text": "S4, Area 51, Nevada",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [
@@ -191,36 +313,40 @@
     }
   ],
   "tags": [],
-  "score": 1.7,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels",
       "joe-rogan"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
+      "5OUzGygIrSw",
       "8XD1ZiuhXoY",
       "9QMrhcpJq8I",
       "C_Na1tI5qpw",
+      "Sct30Qijfv8",
+      "TNtlzEnl8rA",
       "areO7Mej44E",
       "d9tdJ2SkBKQ",
       "iQOibpIDx-4",
-      "kRO5jOa06Qw"
+      "kRO5jOa06Qw",
+      "nTiFs8LudUo"
     ]
   },
-  "attestation": 0.85,
-  "tier": "well-attested",
+  "attestation": 0.75,
+  "tier": "told-once",
   "plain": "This is the story of Bob Lazar, a man who said he worked on alien craft for the US government. According to Lazar, in the late 1980s he worked at a place called S4, a secret site near Area 51, the highly secret military base in the Nevada desert. He says his job was to reverse engineer, meaning take apart and figure out, the propulsion system of a craft not made by human hands. A podcast host, Jesse Michels, retells this many times, adding that Lazar went public on TV in 1989, with the help of a journalist, George Knapp, and a pilot named John Lear. Michels also repeats how Lazar says he was recruited: after strapping a jet engine onto a Honda and meeting the physicist Edward Teller by chance. The talk show host Joe Rogan stresses Lazar's descriptions of craft that bend gravity around themselves, and points to a documentary by the filmmaker Jeremy Corbell, while a neuroscientist, Andrew Gallimore, recalls being struck by Lazar on Rogan's show. If true, it would mean the government holds a working non-human craft and has studied it for decades."
 }

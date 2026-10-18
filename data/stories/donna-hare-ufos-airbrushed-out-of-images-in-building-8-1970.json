@@ -68,6 +68,9 @@
         },
         "place_text": "NASA Building 8, Johnson Space Center",
         "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
       }
     },
     {
@@ -96,6 +99,31 @@
         "place_text": "NASA Johnson Space Center Building 8, Houston",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 2125.0,
+      "to_s": 2133.0,
+      "teller": "uapgerb",
+      "quote": "such as I think Donna Hair uh from NASA who talked about NASA scrubbing UAP photos",
+      "kind": "researcher",
+      "cites": [
+        "donna-hare"
+      ],
+      "documents": [
+        "2001-disclosure-briefing-document"
+      ],
+      "difference": "Ties it to the 2001 disclosure briefing and does not name Building 8.",
+      "link_reason": "Both tell of Donna Hare's testimony that NASA scrubbed UFOs out of photos.",
+      "as_told": {
+        "title": "Donna Hare: NASA scrubbing UAP photos",
+        "years": {
+          "from": 2001,
+          "to": 2001
+        },
+        "place_text": "NASA",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -112,7 +140,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -120,6 +148,7 @@
     ],
     "episodes": [
       "8Rr_nE65KkI",
+      "D2tKCFmJjks",
       "mOWwdIuyaQA",
       "uVVqFg2v7ro"
     ]

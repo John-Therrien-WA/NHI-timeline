@@ -47,6 +47,26 @@
         "place_text": "Far side of the Moon",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 8365.0,
+      "to_s": 8377.0,
+      "teller": "john-blitch",
+      "quote": "that that they had discovered huge structures on the dark side of the moon",
+      "kind": "secondhand",
+      "cites": [
+        "karl-wolfe"
+      ],
+      "documents": [],
+      "difference": "Places it at Langley rather than an NSA facility and calls them structures rather than a megalithic city.",
+      "link_reason": "Both tell of Karl Wolfe being shown photos of huge structures on the far side of the Moon while on a job.",
+      "as_told": {
+        "title": "Karl Wolfe shown photo of structures on far side of the Moon at Langley",
+        "years": null,
+        "place_text": "Langley; far side of the Moon",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -69,17 +89,27 @@
       "story": "paperclip-scientists-confirm-german-ufo-work-to-astronauts-1960",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mcdonald-confronts-hynek-over-the-swamp-gas-explanation-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "odlum-s-open-ended-payments-to-the-brown-family-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -88,13 +118,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jason-jorjani"
+      "jason-jorjani",
+      "john-blitch"
     ],
     "episodes": [
-      "EzPmG_7WhXc"
+      "EzPmG_7WhXc",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "Jason Jorjani, a researcher speaking on Jesse Michels's podcast, relays the account of a man named Karl Wolfe, who he says was repairing a machine at an NSA facility (the NSA is the US eavesdropping and codebreaking agency) in the 1960s. While there, Wolfe says, he was shown mosaic photographs, taken by spacecraft orbiting the Moon, of a huge city of giant stone structures on the Moon's far side. Jorjani adds that Ingo Swann, a man known for remote viewing, which means trying to see faraway places with the mind alone, confirmed the city, which would mean someone built on the Moon long before us."
 }

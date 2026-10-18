@@ -24,11 +24,37 @@
       "documents": [
         "when-prophecy-fails"
       ]
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 923.0,
+      "to_s": 938.0,
+      "teller": "jesse-michels",
+      "quote": "modern UFO Cults like Dorothy Martin and her followers a group of Midwestern rapturous that believed that they were recipients of a UFO prophecy about an impending Apocalypse in 1954",
+      "kind": "host",
+      "cites": [
+        "dorothy-martin",
+        "diana-pasulka"
+      ],
+      "documents": [
+        "american-cosmic"
+      ],
+      "difference": "Names Dorothy Martin, gives the year 1954, says Midwest rather than Ohio, and credits Pasulka's American Cosmic.",
+      "link_reason": "Dorothy Martin's group and its failed 1954 UFO apocalypse prophecy is the 1950s cult described in When Prophecy Fails.",
+      "as_told": {
+        "title": "Dorothy Martin's 1954 UFO apocalypse prophecy",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "Midwest, US",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,7 +65,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -47,10 +73,11 @@
       "jesse-michels"
     ],
     "episodes": [
-      "kccrkCGGzX4"
+      "kccrkCGGzX4",
+      "tS_64sTN5AU"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, brings up When Prophecy Fails, a book about a group that formed in Ohio in the 1950s around beliefs tied to UFOs. He calls it a cult and mentions it while talking about how people hold on to beliefs about prophecies and a coming final event."
 }

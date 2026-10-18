@@ -26,6 +26,27 @@
       "documents": [
         "scientific-american-column"
       ]
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 473.0,
+      "to_s": 490.0,
+      "teller": "jesse-michels",
+      "quote": "about Michael Shermer there's a story about him and I think his wife Jennifer and they were I was like on their wedding night uh this mechanical clock starts playing in the other room that was an heirloom from her father",
+      "kind": "secondhand",
+      "cites": [
+        "michael-shermer",
+        "jennifer-shermer"
+      ],
+      "documents": [],
+      "difference": "Told secondhand. Says it was a mechanical clock on the wedding night, where Shermer says it was a radio in a desk on the wedding day.",
+      "link_reason": "The same Shermer wedding story: an heirloom from Jennifer's family plays music unexpectedly in another room.",
+      "as_told": {
+        "title": "Michael Shermer's wedding-night clock",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -42,14 +63,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "michael-shermer"
     ],
     "episodes": [
-      "8Rr_nE65KkI"
+      "8Rr_nE65KkI",
+      "dfPfPB601hw"
     ]
   },
   "attestation": 1.25,

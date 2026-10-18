@@ -1,0 +1,83 @@
+{
+  "id": "einstein-s-1923-paper-saying-general-relativity-fits-with-th",
+  "title": "Einstein's 1923 paper saying general relativity fits with the ether",
+  "summary": "Jesse Michels tells of Einstein's 1923 paper saying general relativity fits with the ether, about 1923 at an unknown place, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1923,
+    "to": 1923
+  },
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 6188.0,
+      "to_s": 6198.0,
+      "teller": "jesse-michels",
+      "quote": "there's even actually a paper I think in 1923 where Einstein says general relativity is in fact compatible with The Ether",
+      "kind": "host",
+      "cites": [
+        "albert-einstein"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 5871.0,
+      "to_s": 5880.0,
+      "teller": "salvatore-pais",
+      "quote": "the term ether because Einstein was so much against the idea of loop even though he he introduces it in 1921 in a paper",
+      "kind": "researcher",
+      "cites": [
+        "albert-einstein"
+      ],
+      "documents": [
+        "einstein-1921-ether-paper"
+      ],
+      "difference": "Dates the paper to 1921, not 1923, and is told by Salvatore Pais.",
+      "link_reason": "Both are about Einstein's early-1920s paper bringing back the ether as compatible with general relativity.",
+      "as_told": {
+        "title": "Einstein's 1921 paper reintroducing the ether",
+        "years": {
+          "from": 1921,
+          "to": 1921
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "salvatore-pais"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo",
+      "wT5-hXWIkzM"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested",
+  "plain": "This story is about the ether, an old idea of an invisible substance filling all of space, which most physicists dropped in the early 1900s. A podcast host named Jesse Michels says that in 1923 Albert Einstein wrote a paper saying his theory of gravity, general relativity, actually fits with the ether. People raise it because, if true, it would mean the idea of a space-filling medium was never fully ruled out, which matters for some theories about unusual propulsion. A second teller, Salvatore Pais, a Navy scientist who holds patents on unusual craft, tells it on the same show. He also says Einstein was against the idea for a long time and yet brought it back in a paper. Pais dates that paper to 1921, not 1923. So the story comes from the host's own framing and from a scientist guest, and they disagree on the year."
+}

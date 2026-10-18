@@ -1,0 +1,78 @@
+{
+  "id": "fouche-and-the-tr3b-1970",
+  "title": "Fouché and the TR3B",
+  "summary": "UAPGerb tells of Fouché and the TR3B, about 1970s onward at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "nevada-test-site",
+  "place_text": "Area 51, Nevada",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 5334.0,
+      "to_s": 5345.0,
+      "teller": "uapgerb",
+      "quote": "But he would come to learn from uh various friends he knew, including some NSA officials of the TR3B, reverse engineered flying triangle.",
+      "kind": "secondhand",
+      "cites": [
+        "edgar-fouche"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 7092.0,
+      "to_s": 7107.0,
+      "teller": "jesse-michels",
+      "quote": "have a a famous UFO whistleblower named Edgar Fuche claimed to be at Area 51 and he was working on the you know or I think he was uh aware of the TR3A and B series from north of Grman and it involves spinning mercury",
+      "kind": "host",
+      "cites": [
+        "edgar-fouche"
+      ],
+      "documents": [],
+      "difference": "Adds the TR-3A, Northrop Grumman and spinning mercury propulsion, and says Fouché was at Area 51 himself rather than learning of it from NSA friends.",
+      "link_reason": "Both tell of Edgar Fouché's claim that he knew of the reverse-engineered TR-3B triangle at Area 51.",
+      "as_told": {
+        "title": "Edgar Fouché, TR-3A/B and spinning mercury",
+        "years": null,
+        "place_text": "Area 51 / Northrop Grumman",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "TNtlzEnl8rA",
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-by-several",
+  "plain": "This story is about Edgar Fouché, who calls himself a whistleblower about secret aircraft, and the TR-3B, said to be a flying triangle built by copying alien technology. A researcher known as UAPGerb says on Jesse Michels' podcast that Fouché learned of the TR-3B from friends, including officials at the NSA, a US spy agency that listens in on communications. Michels tells it differently: he says Fouché claimed to have been at Area 51, a secret US military base in Nevada, and knew about TR-3A and TR-3B craft from the defence company Northrop Grumman, powered by spinning mercury. If it were true, the US would already be flying aircraft copied from something not made by humans."
+}

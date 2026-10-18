@@ -24,33 +24,58 @@
         "heinrich-himmler"
       ],
       "documents": []
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 1516.0,
+      "to_s": 1529.0,
+      "teller": "jesse-michels",
+      "quote": "He turned Wewelsburg Castle into a ritual center, complete with a black sun chamber beneath it, and a round table for his SS knights.",
+      "kind": "host",
+      "cites": [
+        "heinrich-himmler"
+      ],
+      "documents": [],
+      "difference": "Adds a black sun chamber beneath the castle and doesn't mention seances or concentration camp labor.",
+      "link_reason": "Both tell of Himmler turning Wewelsburg Castle into a ritual center with a round table for his SS knights.",
+      "as_told": {
+        "title": "Himmler's ritual center at Wewelsburg",
+        "years": {
+          "from": 1930,
+          "to": 1949
+        },
+        "place_text": "Wewelsburg Castle, Germany",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "jesse-michels",
       "peter-levenda"
     ],
     "episodes": [
-      "Y7PLeu5rTv4"
+      "Y7PLeu5rTv4",
+      "zjpvfDFc4fg"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "Peter Levenda, an author who writes about secret history, says he visited Wewelsburg Castle in Germany for a TV piece some 10 to 20 years ago. He says that Heinrich Himmler, head of the SS, Nazi Germany's elite guard, took over the run-down castle in the 1930s, rebuilt it with concentration camp labor, and made a round table where his 12 \"knights\" sat to hold seances. He tells it to show how deep the Nazi leaders' interest in the occult ran."
 }

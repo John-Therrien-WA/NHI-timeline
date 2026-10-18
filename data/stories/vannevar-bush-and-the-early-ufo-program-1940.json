@@ -1,0 +1,70 @@
+{
+  "id": "vannevar-bush-and-the-early-ufo-program-1940",
+  "title": "Vannevar Bush and the early UFO program",
+  "summary": "Jesse Michels tells of Vannevar Bush and the early UFO program, about 1940s-1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 6871.0,
+      "to_s": 6878.0,
+      "teller": "jesse-michels",
+      "quote": "You know Robert Sarbacher said he was you know part part of the program initially",
+      "kind": "host",
+      "cites": [
+        "vannevar-bush",
+        "robert-sarbacher"
+      ],
+      "documents": [
+        "the-endless-frontier"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "grusch-oppenheimer-set-up-ufo-secrecy-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "johns-hopkins-president-rumored-on-mj-12-doing-nhi-autopsies-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, talks about Vannevar Bush, the author of a report called The Endless Frontier, and his place in an early secret US programme on UFOs in the 1940s and 1950s. According to Michels, a man named Robert Sarbacher said that Bush was part of that programme from the start. If true, it would put a leading figure of American science at the beginning of UFO secrecy."
+}

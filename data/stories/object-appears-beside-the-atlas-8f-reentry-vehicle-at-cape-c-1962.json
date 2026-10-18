@@ -24,33 +24,61 @@
       "documents": [
         "us-air-force-nasa-postflight-report"
       ]
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 5083.0,
+      "to_s": 5099.0,
+      "teller": "kirk-mcconnell",
+      "quote": "in its trajectory. And in the official\nreport uh made to the defense department\nabout this test, it says right in there,\nobjects of unknown origin and identity\nwere tracking or pacing",
+      "kind": "researcher",
+      "cites": [
+        "avco"
+      ],
+      "documents": [
+        "official-report-to-the-defense-department-on-the-mark-v-rv-t",
+        "declassified-test-video"
+      ],
+      "difference": "Names the vehicle as the AVCO Mark V, gives the date as September 19, 1962, and cites the official report to the Defense Department.",
+      "link_reason": "Both describe an object pacing an Atlas reentry vehicle in a September 1962 test, as seen on film.",
+      "as_told": {
+        "title": "Luminous object paces AVCO Mark V re-entry vehicle test",
+        "years": {
+          "from": 1962,
+          "to": 1962
+        },
+        "place_text": "Upper atmosphere (US missile test)",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "kirk-mcconnell"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "KGD1nuM4MR8"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, describes film from an Atlas missile test, flight 8F, launched from Cape Canaveral in Florida over the Atlantic in September 1962. He says that 4 minutes and 40 seconds into the video, an object seems to phase into existence beside the reentry vehicle, the part of the missile that falls back through the atmosphere, while it was moving at 20,000 feet per second, or Mach 18, and he credits a US Air Force and NASA report written after the flight. If true, it would mean something kept pace with one of the fastest machines of its day."
 }

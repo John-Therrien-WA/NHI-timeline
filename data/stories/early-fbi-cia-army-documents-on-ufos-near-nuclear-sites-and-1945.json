@@ -24,6 +24,27 @@
       "documents": [
         "project-twinkle"
       ]
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 6128.0,
+      "to_s": 6137.0,
+      "teller": "jesse-michels",
+      "quote": "There are thousands of documents from 1945, the advent of nuclear weapons.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Does not name the agencies or Project Twinkle, and runs the period to 1954.",
+      "link_reason": "Both are the host's claim that thousands of agency documents from 1945 onward record UFOs around US nuclear sites.",
+      "as_told": {
+        "title": "Thousands of agency documents on UFOs at nuclear bases",
+        "years": {
+          "from": 1945,
+          "to": 1954
+        },
+        "place_text": "United States nuclear bases",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -47,7 +68,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "8Rr_nE65KkI"
+      "8Rr_nE65KkI",
+      "rjUdn6FklAU"
     ]
   },
   "attestation": 0.35,

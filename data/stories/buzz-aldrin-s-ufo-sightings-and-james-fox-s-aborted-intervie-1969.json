@@ -1,0 +1,103 @@
+{
+  "id": "buzz-aldrin-s-ufo-sightings-and-james-fox-s-aborted-intervie-1969",
+  "title": "Buzz Aldrin's UFO sightings and James Fox's aborted interview",
+  "summary": "Jesse Michels tells of Buzz Aldrin's UFO sightings and James Fox's aborted interview, about Korean War era; 1969 at The Moon, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "moon",
+  "place_text": "Japan; en route to the Moon; Monaco",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 10528.0,
+      "to_s": 10545.0,
+      "teller": "jesse-michels",
+      "quote": "his buzz aldrin's sister Buzz Aldren\nobviously second person to walk on the\nmoon along with Neil Armstrong and he\napparently would tell his sister that\nnot only did he see a foo fighter in\nJapan as a fighter pilot but that he saw\nUFOs you know on the way to the moon",
+      "kind": "secondhand",
+      "cites": [
+        "james-fox",
+        "buzz-aldrin"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 4763.0,
+      "to_s": 4766.0,
+      "teller": "jesse-michels",
+      "quote": "but um Buzz Aldrin, according to his",
+      "kind": "secondhand",
+      "cites": [
+        "james-fox",
+        "buzz-aldrin"
+      ],
+      "documents": [],
+      "difference": "Dates the sighting to World War II and places the pursuit in Monte Carlo in the late 1990s; it does not mention the sightings on the way to the Moon.",
+      "link_reason": "Both are Jesse Michels relaying, through Aldrin's sister, that Aldrin had a wartime-era sighting, and then James Fox's pursuit and aborted interview.",
+      "as_told": {
+        "title": "Buzz Aldrin's WWII sighting per his sister; James Fox pursuit",
+        "years": {
+          "from": 1997,
+          "to": 1999
+        },
+        "place_text": "Monte Carlo, Monaco",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "apollo-11-crew-observes-a-glowing-aristarchus-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-11-trio-of-lights-frame-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-11-watched-by-craft-on-the-moon-and-followed-in-trans-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-crew-followed-by-something-to-the-moon-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Rjr3Yq-dMUE",
+      "yAvD5UTziTo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Buzz Aldrin is the astronaut who was the second person to walk on the Moon in 1969. Podcast host Jesse Michels, passing on what a documentary filmmaker named James Fox told him, says Aldrin told his sister that he saw a foo fighter, a strange light reported by military pilots, while flying fighter jets in Japan, and that he also saw UFOs on the way to the Moon. In another episode Michels dates the early sighting to the Second World War and describes Fox trying to get an interview with Aldrin in Monte Carlo in the late 1990s, without mentioning the Moon trip."
+}

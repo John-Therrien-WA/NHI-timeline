@@ -1,0 +1,82 @@
+{
+  "id": "lockheed-martin-divesting-ufo-material-to-bigelow-aerospace-2008",
+  "title": "Lockheed Martin divesting UFO material to Bigelow Aerospace",
+  "summary": "Jesse Michels tells of Lockheed Martin divesting UFO material to Bigelow Aerospace, about 2008 at Lockheed Martin / Bigelow Aerospace, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2008,
+    "to": 2008
+  },
+  "place": null,
+  "place_text": "Lockheed Martin / Bigelow Aerospace",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 5037.0,
+      "to_s": 5050.0,
+      "teller": "jesse-michels",
+      "quote": "now you have George Knapp testifying before Congress and others, you know, saying this publicly that Lockheed Martin was trying to divest itself of UFO material in 2008 to Bigelow Aerospace.",
+      "kind": "host",
+      "cites": [
+        "george-knapp",
+        "jim-rider"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 8915.0,
+      "to_s": 8939.0,
+      "teller": "george-knapp",
+      "quote": "I have confirmed on the record that Robert Bigalow and a trusted colleague from OAP met with and negotiated with senior executives at Lheed Martin and hammered out a deal wherein Bigalow's company Bass would receive a quantity of unusual material that had been stashed away and protected at a facility in California. That material was not made here.",
+      "kind": "journalist",
+      "cites": [
+        "robert-bigelow",
+        "glenn-gaffney",
+        "lockheed-martin"
+      ],
+      "documents": [
+        "congressional-testimony"
+      ],
+      "difference": "Told by Knapp himself, who says Bigelow and an OSAP colleague negotiated with Lockheed executives over material kept at a California facility.",
+      "link_reason": "Both are Knapp's congressional testimony that Lockheed Martin arranged to pass non-human material to Bigelow's company.",
+      "as_told": {
+        "title": "Lockheed Martin material deal with Bigelow, testimony before Congress",
+        "years": null,
+        "place_text": "facility in California",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "george-knapp"
+    ],
+    "episodes": [
+      "K4gYHs84BIc",
+      "uYyXpx7ADJQ"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says the journalist George Knapp has said publicly, including before Congress, that in 2008 the defence company Lockheed Martin tried to hand off UFO material to Bigelow Aerospace, a private space company owned by Robert Bigelow. Knapp himself says he confirmed that Bigelow and a colleague from a Pentagon-funded programme studying unexplained phenomena negotiated a deal with senior Lockheed executives for unusual material stored at a facility in California. According to Knapp, that material was not made here, meaning not made by humans, which would be a huge revelation if true."
+}

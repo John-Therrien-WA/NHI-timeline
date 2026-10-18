@@ -27,7 +27,7 @@
       "episode": "fzvwBBSmWYA",
       "from_s": 4503.0,
       "to_s": 4521.0,
-      "teller": "jesse-michels",
+      "teller": "mario-woods",
       "quote": "and as we turned left there sat this object on top of November 5 that was about 10 ft in the air directly on top of that blast door that was the size of a Walmart building",
       "kind": "secondhand",
       "cites": [
@@ -45,7 +45,12 @@
         },
         "place_text": "Ellsworth Air Force Base, South Dakota (site November-5)",
         "story_kind": "encounter"
-      }
+      },
+      "replay_of": {
+        "episode": "73YBwFvcmF8",
+        "from_s": 1158.0
+      },
+      "teller_was": "jesse-michels"
     },
     {
       "episode": "fzvwBBSmWYA",
@@ -161,37 +166,106 @@
         "place_text": "Ellsworth Air Force Base, South Dakota",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 1154.0,
+      "to_s": 1171.0,
+      "teller": "mario-woods",
+      "quote": "as we turned left on the not not a hard left just a dog leg left there sat this object on top of November 5 that was about 10 ft in the air directly on top of that blast door that was was the size of a Walmart building",
+      "kind": "firsthand",
+      "cites": [
+        "michael-johnson"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Woods, dated 1977 where the story says the 1960s, and calls the object a sphere about 10 ft up.",
+      "link_reason": "The story's own tellings use almost the same quote about the Walmart-sized object hovering over the November-5 blast door in Woods' incident.",
+      "as_told": {
+        "title": "Huge sphere hovering over the November-5 missile silo blast door",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "November-5 launch facility, near Nisland, South Dakota",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 2292.0,
+      "to_s": 2300.0,
+      "teller": "mario-woods",
+      "quote": "12:15 and I looked at my watch and it was after 6:00 a.m. so we have all that missing time",
+      "kind": "firsthand",
+      "cites": [
+        "michael-johnson",
+        "sergeant-garza"
+      ],
+      "documents": [],
+      "difference": "Adds the times (12:15 until after 6 a.m.), names New Lake Reservoir Dam, gives 8.5 miles rather than five, and says the partner was catatonic.",
+      "link_reason": "The story's own tellings already describe Woods, his partner and the truck being moved about five miles to a reservoir. This telling is that same displacement and missing time.",
+      "as_told": {
+        "title": "Missing time: waking up behind New Lake Reservoir Dam with partner in a catatonic state",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "New Lake Reservoir Dam, about 8.5 miles from November-5, South Dakota",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 1401.0,
+      "to_s": 1404.0,
+      "teller": "mario-woods",
+      "quote": "I see this light off to my east.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Woods, who first sees a light off to the east; the story is dated to the 1960s rather than 1977.",
+      "link_reason": "Woods's own account of seeing the light over the missile field, which is the sighting the Ellsworth inner zone alert story tells.",
+      "as_told": {
+        "title": "Mario Woods sees a light to the east",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Ellsworth Air Force Base, South Dakota",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
   "score": 2.0,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 1,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels",
-      "robert-hastings"
+      "mario-woods"
     ],
     "episodes": [
       "1iaH1a3A4Lk",
       "2-GeTxXi670",
+      "73YBwFvcmF8",
       "8Rr_nE65KkI",
+      "WBTqsbwJyqU",
       "fzvwBBSmWYA"
     ]
   },
   "attestation": 1.0,
-  "tier": "told-by-several",
+  "tier": "told-once",
   "plain": "At Ellsworth Air Force Base in South Dakota, which guarded nuclear missiles, guards say they met something strange near a missile site. In one account passed on by the podcast host Jesse Michels, a guard radioed that a flying saucer was hovering over a missile, shining a reddish beam down onto it. The researcher Robert Hastings tells of an airman named Mario Woods and his partner, who say they were moved with their truck about five miles to a reservoir near a small town, and stepped out into mud that had been heated on a freezing night. Michels says he has met Woods, who describes seeing an object as big as a Walmart store above a site called November-5 and says he was taken aboard a craft. The tellers disagree on the date, some saying the 1960s and others 1977 or 1978, and on the distance, five miles or nine; it would mean unknown craft are taking an interest in nuclear weapons."
 }

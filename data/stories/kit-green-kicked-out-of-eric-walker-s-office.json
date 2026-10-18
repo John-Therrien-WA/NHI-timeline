@@ -1,0 +1,83 @@
+{
+  "id": "kit-green-kicked-out-of-eric-walker-s-office",
+  "title": "Kit Green kicked out of Eric Walker's office",
+  "summary": "Jesse Michels tells of Kit Green kicked out of Eric Walker's office, about an unknown time at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Penn State, USA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 5931.0,
+      "to_s": 5934.0,
+      "teller": "jesse-michels",
+      "quote": "Kit Green and Eric Walker where Kit",
+      "kind": "host",
+      "cites": [
+        "kit-green",
+        "eric-walker"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 9365.0,
+      "to_s": 9372.0,
+      "teller": "grant-cameron",
+      "quote": "stuff like that. And he said Walker just blew up and he started yelling at him. You're at the president. I don't have to tell you anything.",
+      "kind": "secondhand",
+      "cites": [
+        "kit-green",
+        "jacques-vallee",
+        "eric-walker"
+      ],
+      "documents": [
+        "forbidden-science-diaries"
+      ],
+      "difference": "Places it in the 1980s, cites Vallee's Forbidden Science diaries, and has Walker yelling that he doesn't have to tell him anything.",
+      "link_reason": "Both tell of Kit Green confronting Eric Walker at Penn State about UFOs and being thrown out.",
+      "as_told": {
+        "title": "Kit Green confronts Eric Walker at Penn State about crashed saucers",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Penn State University, Pennsylvania",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "grant-cameron",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Rjr3Yq-dMUE",
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is about a man named Kit Green and his visit to Eric Walker, described as a former president of Penn State, a university in the United States. A podcast host, Jesse Michels, mentions a run-in between the two. A researcher, Grant Cameron, gives more detail, drawing on the published diaries of the author Jacques Vallee, called Forbidden Science. According to Cameron, this happened in the 1980s, and when Green asked about secret UFO matters, Walker blew up and started yelling. Cameron says Walker shouted that he did not have to tell him anything, and Green was thrown out. The story matters because Walker is said by others to have known about a secret UFO group, and his anger is read as a sign there was something to hide."
+}

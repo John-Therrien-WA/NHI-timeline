@@ -1,0 +1,53 @@
+{
+  "id": "percival-lowell-s-martian-irrigation-canals",
+  "title": "Percival Lowell's Martian irrigation canals",
+  "summary": "Jesse Michels tells of Percival Lowell's Martian irrigation canals, about late 19th century at Mars, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7076.0,
+      "to_s": 7087.0,
+      "teller": "jesse-michels",
+      "quote": "on Mars but LEL went as far as to claim that parts of these dark areas and patterns were purposefully built irrigation systems designed by a martian civilization",
+      "kind": "host",
+      "cites": [
+        "percival-lowell"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JpLThEF2dTM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, recalls Percival Lowell, an astronomer of the late 1800s who studied Mars through a telescope. Michels says Lowell went so far as to claim that some of the dark areas and patterns he saw were irrigation canals built on purpose by a Martian civilization, which would have meant intelligent life next door."
+}

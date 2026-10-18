@@ -1,0 +1,53 @@
+{
+  "id": "podkletnov-s-impulse-gravitational-generator",
+  "title": "Podkletnov's impulse gravitational generator",
+  "summary": "Salvatore Pais tells of Podkletnov's impulse gravitational generator, about unspecified at Russia, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Russia",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 3323.0,
+      "to_s": 3336.0,
+      "teller": "salvatore-pais",
+      "quote": "I believe if Glennov has hit on something already and if it's true that he has made this impulse gravitational generator.",
+      "kind": "researcher",
+      "cites": [
+        "eugene-podkletnov"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "salvatore-pais"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A Navy scientist named Salvatore Pais, who holds patents on unusual propulsion ideas, tells a podcast host, Jesse Michels, about a Russian scientist named Eugene Podkletnov. Pais says that if it is true Podkletnov has built an \"impulse gravitational generator,\" a device said to fire off a pulse of gravity-like force, then Podkletnov may already have hit on something real, which would point toward new ways to move through space."
+}

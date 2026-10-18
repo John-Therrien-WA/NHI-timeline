@@ -24,33 +24,54 @@
       "documents": [
         "newsnation-slide"
       ]
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 12922.0,
+      "to_s": 12937.0,
+      "teller": "jesse-michels",
+      "quote": "NewsNation which is covers UFOs a lot.\nThere's this slide that was like\nuh advanced gravity propulsion research.\nAnd it was a guy who had incurred some\nsort of Havana syndrome like you know,\nbiological effects.",
+      "kind": "journalist",
+      "cites": [
+        "newsnation"
+      ],
+      "documents": [],
+      "difference": "Names the slide 'advanced gravity propulsion research' and ties the patient to Havana syndrome.",
+      "link_reason": "Both tell of the NewsNation slide about a DOE gravity-propulsion researcher who suffered Havana-syndrome-like biological effects.",
+      "as_told": {
+        "title": "NewsNation slide: DOE advanced gravity propulsion research, Havana syndrome victim",
+        "years": null,
+        "place_text": "Department of Energy",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "journalist",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "ATJwqp5twAg"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.85,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, describes a slide from a report by NewsNation, an American cable news channel. He says the slide shows a patient with what he calls a kind of white matter syndrome, an injury to the brain's connecting tissue, and the story ties this patient to secret gravity-propulsion work at the Department of Energy, the US government agency that runs nuclear and energy research. Michels connects it to the journalist Ross Coulthart and the researcher Eric Weinstein. If true, it would mean people near that hidden work were physically harmed by it."
 }

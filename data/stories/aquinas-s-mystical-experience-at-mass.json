@@ -1,0 +1,55 @@
+{
+  "id": "aquinas-s-mystical-experience-at-mass",
+  "title": "Aquinas's mystical experience at mass",
+  "summary": "Jesse Michels tells of Aquinas's mystical experience at mass, about 13th century at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 3668.0,
+      "to_s": 3680.0,
+      "teller": "jesse-michels",
+      "quote": "St. Thomas Aquinas was like working on his Summa Theologica this like rational explanation of of God and I think he had this conversion, you know, kind of moment while he was in mass",
+      "kind": "host",
+      "cites": [
+        "thomas-aquinas"
+      ],
+      "documents": [
+        "summa-theologica"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ATJwqp5twAg"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Thomas Aquinas, a medieval Christian thinker, was working on his Summa Theologica, a huge book explaining God through reason, when he had a sudden conversion-like experience during mass. Michels tells it as an example of a deeply rational mind being overtaken by a direct mystical experience."
+}

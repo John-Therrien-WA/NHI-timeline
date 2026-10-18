@@ -1,0 +1,130 @@
+{
+  "id": "francis-crick-s-1973-directed-panspermia-paper",
+  "title": "Francis Crick's 1973 directed panspermia paper",
+  "summary": "Jesse Michels tells of Francis Crick's 1973 directed panspermia paper, about 1973 at unspecified, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1973,
+    "to": 1973
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9LGohiMmlu4",
+      "from_s": 320.0,
+      "to_s": 389.0,
+      "teller": "jesse-michels",
+      "quote": "In fact, in 1973, Francis Crick, who discovered the double helical structure of DNA, decided to write a paper on directed panspermia.",
+      "kind": "host",
+      "cites": [
+        "francis-crick"
+      ],
+      "documents": [
+        "directed-panspermia-paper"
+      ]
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 1810.0,
+      "to_s": 1817.0,
+      "teller": "graham-hancock",
+      "quote": "one of those spaceships collided with the early Earth Spilled Out its contents of bacteria",
+      "kind": "researcher",
+      "cites": [
+        "francis-crick"
+      ],
+      "documents": [
+        "life-itself"
+      ],
+      "difference": "Adds the image of a seeded spaceship hitting early Earth 3.9 billion years ago and credits Crick's book Life Itself (1981), not only the 1973 paper.",
+      "link_reason": "Both are about Francis Crick's directed panspermia proposal, which this telling dates 1973/1981 and ties to the paper and to his book.",
+      "as_told": {
+        "title": "Crick's directed panspermia: seeded spaceship hits early Earth",
+        "years": {
+          "from": 1973,
+          "to": 1981
+        },
+        "place_text": "early Earth",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 6445.0,
+      "to_s": 6455.0,
+      "teller": "jesse-michels",
+      "quote": "you even have Francis Crick and who I know is also a former associate of yours uh in 1973 writing a paper about you know P directed pans spermia",
+      "kind": "host",
+      "cites": [
+        "francis-crick"
+      ],
+      "documents": [],
+      "difference": "Adds a second date, 1981, and calls Crick a former associate of Sheldrake.",
+      "link_reason": "Both tell of Francis Crick's 1973 directed panspermia paper.",
+      "as_told": {
+        "title": "Crick's directed panspermia papers",
+        "years": {
+          "from": 1973,
+          "to": 1981
+        },
+        "place_text": null,
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 1584.0,
+      "to_s": 1594.0,
+      "teller": "jesse-michels",
+      "quote": "In fact, the idea of directed panspermia was proposed by Francis Crick who co-discovered DNA's double helix.",
+      "kind": "host",
+      "cites": [
+        "francis-crick"
+      ],
+      "documents": [],
+      "difference": "Gives no 1973 date and does not mention a paper.",
+      "link_reason": "Both tell of Francis Crick, co-discoverer of DNA's structure, proposing directed panspermia.",
+      "as_told": {
+        "title": "Francis Crick's directed panspermia",
+        "years": null,
+        "place_text": "Earth/cosmos",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "graham-hancock",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "9LGohiMmlu4",
+      "dfPfPB601hw",
+      "q7Czo77qhHA",
+      "wT5-hXWIkzM"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is about Francis Crick, the scientist who helped discover the double helix shape of DNA. According to a podcast host, Jesse Michels, Crick wrote a paper in 1973 on \"directed panspermia,\" the idea that life on Earth was deliberately seeded from space by another intelligence. A writer on ancient history, Graham Hancock, describes the idea vividly: a spaceship carrying bacteria hit the early Earth and spilled out its contents. Hancock points to Crick's later book, Life Itself. Michels returns to it on several episodes, once mentioning a second date, 1981, and noting that Crick was a former associate of his guest, the scientist Rupert Sheldrake. In another episode he simply says Crick proposed the idea, with no date or paper. Michels and Hancock tell it in their own words. If the idea were right, life on Earth would have been planted on purpose by someone else."
+}

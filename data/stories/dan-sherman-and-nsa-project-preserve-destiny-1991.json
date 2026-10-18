@@ -98,11 +98,87 @@
         "place_text": "Maryland NSA complex; United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 720.0,
+      "to_s": 729.0,
+      "teller": "jesse-michels",
+      "quote": "actually there's a book called Above Black by a guy named Dan Sherman and he goes he's like sort of recruited into this like nondescript you know NSA building",
+      "kind": "host",
+      "cites": [
+        "dan-sherman",
+        "unnamed-high-government-source"
+      ],
+      "documents": [
+        "above-black"
+      ],
+      "difference": "Names the book Above Black and gives the 1990s and an unnamed high government source.",
+      "link_reason": "Both tell of Dan Sherman being recruited into the NSA program Project Preserve Destiny, as recounted in Above Black.",
+      "as_told": {
+        "title": "Dan Sherman's Above Black and Project Preserve Destiny",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "NSA facility, United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 1381.0,
+      "to_s": 1409.0,
+      "teller": "dan-sherman",
+      "quote": "proceeded to tell me that I was um part of a a project that started in 1960, I believe it was, and um and that we it's the genesis of it was in 1947. We came in contact with an alien species and in 1960 they started a a project. It was called Project Preserve Destiny and",
+      "kind": "firsthand",
+      "cites": [
+        "captain-white"
+      ],
+      "documents": [
+        "above-black"
+      ],
+      "difference": "Adds that a Captain (White) did the read-in at NSA headquarters in Laurel, Maryland, and credits Above Black.",
+      "link_reason": "Sherman's own account of being told about Project Preserve Destiny (genesis 1947, start 1960) at the NSA complex matches the program story, which holds Sherman's near-identical quote.",
+      "as_told": {
+        "title": "Captain reads Sherman into Project Preserve Destiny at NSA headquarters",
+        "years": {
+          "from": 1947,
+          "to": 1993
+        },
+        "place_text": "NSA headquarters, Laurel, Maryland",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 1218.0,
+      "to_s": 1231.0,
+      "teller": "dan-sherman",
+      "quote": "The genesis of it was in 1947. and we came in contact with an alien species and in 1960 they started a a project. It was called project preserve destiny",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives 1947 and 1960 as the program's origin dates instead of the story's 1991-1992 dates for Sherman's involvement.",
+      "link_reason": "Dan Sherman's own account of NSA Project Preserve Destiny, beginning with 1947 contact and a 1960 start, almost word for word as the story holds it.",
+      "as_told": {
+        "title": "Project Preserve Destiny",
+        "years": {
+          "from": 1947,
+          "to": 1960
+        },
+        "place_text": "United States (NSA)",
+        "story_kind": "program"
+      },
+      "replay_of": {
+        "episode": "Rfmy5oW_r9c",
+        "from_s": 1395.0
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -113,7 +189,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -122,12 +198,15 @@
     ],
     "episodes": [
       "2-GeTxXi670",
+      "Rfmy5oW_r9c",
       "hBrfe4hFuM0",
       "jMCavr3dVP0",
+      "nTiFs8LudUo",
+      "wlsQIbpEKSM",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "A man named Dan Sherman says he was part of a secret programme at the National Security Agency, the US spy agency that listens in on communications, called Project Preserve Destiny, and he describes being taken to one of its buildings in Maryland around 1991 and 1992. Sherman says the programme grew out of contact with an alien species in 1947 and began in 1960. A podcast host, Jesse Michels, who interviewed him, retells it with extra details from Sherman's book Above Black: that Sherman was trained to receive messages as tones, and that he was genetically altered as an unborn baby after his mother was abducted while pregnant. If true, it would mean a US agency was quietly using specially altered people to talk with aliens."
 }

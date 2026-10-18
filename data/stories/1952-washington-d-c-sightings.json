@@ -114,6 +114,148 @@
         "place_text": "Washington, DC",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 830.0,
+      "to_s": 839.0,
+      "teller": "bob-maguire",
+      "quote": "especially after the 1952 fly over Washington for Truman lost his lost his lunch over it I mean he really went nuts",
+      "kind": "secondhand",
+      "cites": [
+        "harry-truman"
+      ],
+      "documents": [],
+      "difference": "Told secondhand by Maguire, who stresses how upset Truman was ('lost his lunch').",
+      "link_reason": "The July 1952 Washington flyover and Truman's alarmed reaction to it, which one of the story's tellings already covers.",
+      "as_told": {
+        "title": "Truman upset by 1952 Washington flyover",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 842.0,
+      "to_s": 852.0,
+      "teller": "jesse-michels",
+      "quote": "there's a there's an aviation journalist named Curtis Peebles who said that uh Truman was on the phone with Andrew J Rupel who ran Blue Book at the time because Truman was so freaked out about the Washington flyover",
+      "kind": "secondhand",
+      "cites": [
+        "curtis-peebles",
+        "harry-truman",
+        "edward-ruppelt"
+      ],
+      "documents": [],
+      "difference": "Credits aviation journalist Curtis Peebles as the source for the Truman–Ruppelt call.",
+      "link_reason": "The 1952 DC flyover and Truman's call to Ruppelt, which already appears in one of the story's tellings.",
+      "as_told": {
+        "title": "Peebles: Truman phoned Ruppelt over Washington flyover",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 795.0,
+      "to_s": 809.0,
+      "teller": "jesse-michels",
+      "quote": "It prompted a call between Truman and Edward J. Rupelt, who was the head of Blue Book at the time. And it was, you had this Washington invasion or DC flyover where there were saucers all over DC at the time.",
+      "kind": "host",
+      "cites": [
+        "harry-truman",
+        "edward-ruppelt"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "The July 1952 Washington DC saucer flap that prompted a Truman–Ruppelt call.",
+      "as_told": {
+        "title": "1952 Washington, D.C. UFO flap",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5620.0,
+      "to_s": 5627.0,
+      "teller": "john-brandenburg",
+      "quote": "Remember, in 1952 they were overflying uh UFOs were overflying Washington, D.C.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told second hand with no detail beyond the year.",
+      "link_reason": "The same 1952 UFO overflights of Washington, D.C.",
+      "as_told": {
+        "title": "1952 UFO overflights of Washington, D.C.",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 2152.0,
+      "to_s": 2159.0,
+      "teller": "jesse-michels",
+      "quote": "Exactly. This big, it was mass sightings in in July, specifically July 19th and 20th and 26th and 27th, 1952.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives the specific dates of July 19-20 and 26-27, 1952.",
+      "link_reason": "Both tell of the mass UFO sightings over Washington, D.C. in July 1952.",
+      "as_told": {
+        "title": "Washington flyovers of July 1952",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 381.0,
+      "to_s": 389.0,
+      "teller": "jesse-michels",
+      "quote": "It prompted a call between Truman and Edward J. Ruppelt, who was the head of Blue Book at the time.",
+      "kind": "host",
+      "cites": [
+        "harry-truman",
+        "edward-ruppelt"
+      ],
+      "documents": [],
+      "difference": "Calls Ruppelt the head of Blue Book at the time.",
+      "link_reason": "The July 1952 Washington UFO flap and the call between Truman and Ruppelt.",
+      "as_told": {
+        "title": "1952 Washington UFO flap",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "sighting"
+      },
+      "replay_of": {
+        "episode": "lbGE3EC6StE",
+        "from_s": 785.0
+      }
     }
   ],
   "related": [
@@ -134,34 +276,41 @@
     }
   ],
   "tags": [],
-  "score": 2.3,
+  "score": 5.1,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 4,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 3,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "bob-maguire",
       "jesse-michels",
+      "john-brandenburg",
       "karl-nell"
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "1zRWi_r3HRM",
       "2-GeTxXi670",
+      "2Xxmguz0GEQ",
+      "KGD1nuM4MR8",
       "_bM9eAtCOGw",
       "aa9Xx5wI8Rw",
-      "fzvwBBSmWYA"
+      "fzvwBBSmWYA",
+      "lbGE3EC6StE",
+      "p0S0BfoZy0w"
     ]
   },
-  "attestation": 1.15,
+  "attestation": 2.55,
   "tier": "well-attested",
   "plain": "This story is about a wave of UFO sightings over Washington, D.C., the US capital, in July 1952. The podcast host Jesse Michels describes it several times as an overwhelming series of sightings, with saucers seen all around the city and newspaper headlines like \"saucers on the White House lawn.\" He says President Harry Truman called Edward J. Ruppelt, then the head of the Air Force's UFO investigations, about it, and that it sent the CIA, the main US spy agency, into a frenzy over how to handle the UFO problem. Karl Nell, a former government official, tells it on the same podcast. He says the objects were seen both by eye and on radar over two weekends, that military jets went up to intercept them, and that it led to the largest press conference since the Second World War. Michels also says he recently met one of the last living witnesses in person. If true, it would mean unknown objects flew over the nation's capital in plain view of the government."
 }

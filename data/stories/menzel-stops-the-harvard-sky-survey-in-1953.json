@@ -17,18 +17,52 @@
       "episode": "h0hAit-KH9A",
       "from_s": 931.0,
       "to_s": 954.0,
-      "teller": "jesse-michels",
+      "teller": "beatriz-villarroel",
       "quote": "In 1953, Donald Menzel also stopped the astronomers at Harvard to carry out their very famous sky survey where they were monitoring the entire sky.",
       "kind": "host",
       "cites": [
         "donald-menzel"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "episode": "lbGE3EC6StE",
+        "from_s": 1081.0
+      },
+      "teller_was": "jesse-michels"
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 1077.0,
+      "to_s": 1103.0,
+      "teller": "beatriz-villarroel",
+      "quote": "In 1953, Donna Mensel also stopped the astronomers at Harvard to carry out their very famous sky survey where they were monitoring the entire sky since already late 19th century and he stopped them and uh they didn't do this survey between 1953 to 1967 for roughly 15 years.",
+      "kind": "researcher",
+      "cites": [
+        "donald-menzel"
+      ],
+      "documents": [],
+      "difference": "Adds that the survey stayed halted from 1953 to 1967, about 15 years, and had run since the late 19th century.",
+      "link_reason": "Menzel stopping the Harvard sky survey in 1953.",
+      "as_told": {
+        "title": "Menzel halts the Harvard sky survey from 1953 to 1967",
+        "years": {
+          "from": 1953,
+          "to": 1967
+        },
+        "place_text": "Harvard College Observatory, Cambridge, Massachusetts",
+        "story_kind": "program"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "menzel-deletes-harvard-observatory-data-1953",
+      "relation": "variant",
+      "note": "Both are about Menzel and the 1953 break in Harvard Observatory sky data. This telling says he deleted the data, where the story says he stopped the survey."
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -36,21 +70,22 @@
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
-    "host": 1,
+    "researcher": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "beatriz-villarroel"
     ],
     "episodes": [
-      "h0hAit-KH9A"
+      "h0hAit-KH9A",
+      "lbGE3EC6StE"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.25,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in 1953 a scientist named Donald Menzel stopped astronomers at Harvard from carrying out a famous sky survey that was watching the entire sky. Michels tells it as one more sign that Menzel acted to keep strange things in the sky from being studied."
 }

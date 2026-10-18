@@ -22,33 +22,75 @@
         "hal-puthoff"
       ],
       "documents": []
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 6587.0,
+      "to_s": 6593.0,
+      "teller": "dave-rossi",
+      "quote": "Um it's more of a feeling rather than a visual. That experience was a very unique one and I haven't had it since.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by the experiencer rather than secondhand by the host; he calls it more a feeling than a visual and says it hasn't happened since, with no mention of physics, Davis or Puthoff.",
+      "link_reason": "Dave Rossi tells his own encounter with a blue being. This looks like the same encounter as the story of a past guest, a construction worker, visited by a blue being who taught him physics.",
+      "as_told": {
+        "title": "The blue being encounter",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 9105.0,
+      "to_s": 9113.0,
+      "teller": "jesse-michels",
+      "quote": "There's this construction worker named Dave Rossi who says that Blue Being showed up and he got this these all these downloads",
+      "kind": "secondhand",
+      "cites": [
+        "dave-rossi",
+        "hal-puthoff",
+        "eric-davis"
+      ],
+      "documents": [],
+      "difference": "Names the worker as Dave Rossi and calls what he received 'downloads'.",
+      "link_reason": "A construction worker, Dave Rossi, is visited by a blue being that passes him knowledge, which brings him to the attention of Puthoff and Davis.",
+      "as_told": {
+        "title": "Dave Rossi's Blue Being downloads",
+        "years": null,
+        "place_text": null,
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "dave-rossi"
     ],
     "episodes": [
+      "5OUzGygIrSw",
+      "h6zMVkncTsE",
       "lcaY-rd9Dhc"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says one of his past guests was a construction worker who told him a blue being appeared in his bedroom and passed advanced physics ideas into his mind. Michels says this brought the man to the attention of two physicists, Eric Davis and Hal Puthoff, who are interested in such cases. If true, it would mean some beings can hand real scientific knowledge to ordinary people."
 }

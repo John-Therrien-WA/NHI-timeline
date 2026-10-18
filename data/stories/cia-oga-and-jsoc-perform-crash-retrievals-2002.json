@@ -1,0 +1,80 @@
+{
+  "id": "cia-oga-and-jsoc-perform-crash-retrievals-2002",
+  "title": "CIA OGA and JSOC perform crash retrievals",
+  "summary": "UAPGerb tells of CIA OGA and JSOC perform crash retrievals, about 2002–present at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2002,
+    "to": 2002
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 2571.0,
+      "to_s": 2582.0,
+      "teller": "uapgerb",
+      "quote": "if we adhere to some excellent reporting by Chris Sharp and others, the CIA OGA and its creation in 2002 and JOC are utilized to perform crash retrievals and so forth.",
+      "kind": "researcher",
+      "cites": [
+        "chris-sharp",
+        "albert-stubblebine"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 1315.0,
+      "to_s": 1327.0,
+      "teller": "jesse-michels",
+      "quote": "like Zarqawi himself. Now, if you know anything about the UFO crash retrieval program, it's rumored to be closely coordinated with JOCK or the Joint Special Operations Command,",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names Grey Fox/ISA as part of it and leaves out the CIA OGA and its 2002 creation.",
+      "link_reason": "Both claim that JSOC carries out or coordinates UFO crash retrievals.",
+      "as_told": {
+        "title": "Grey Fox/ISA and JSOC in UFO crash retrieval",
+        "years": {
+          "from": 1980,
+          "to": 1980
+        },
+        "place_text": "Northern Virginia",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "ScE9FaDy-mE",
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several",
+  "plain": "An online commentator who goes by UAPGerb says on Jesse Michels's podcast in 2025 that, based on reporting by a journalist named Chris Sharp and others, crashed craft of unknown origin are recovered by two groups. One is a CIA unit he calls OGA, short for Other Government Agency, which he says was created in 2002. The other is JSOC, the Joint Special Operations Command, which runs the US military's elite special forces. Michels says in 2026 that the crash recovery program is rumoured to work closely with JSOC, and he names a secretive Army intelligence unit known as Grey Fox, or ISA, the Intelligence Support Activity, without mentioning the CIA unit. If true, it would mean the recovery of such craft is a live special operations job, not just history."
+}

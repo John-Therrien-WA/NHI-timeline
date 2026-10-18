@@ -28,6 +28,30 @@
       "documents": [
         "west-gottlieb-letters"
       ]
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 7469.0,
+      "to_s": 7477.0,
+      "teller": "jesse-michels",
+      "quote": "Jo Jolly West spends 24 hours with him in his jail cell no no records of this and he comes out and he says Jack Ruby has had a psychotic break",
+      "kind": "host",
+      "cites": [
+        "louis-jolyon-west",
+        "jack-ruby"
+      ],
+      "documents": [],
+      "difference": "Adds that West spent 24 hours in Ruby's cell, that no records were kept, and that West then declared Ruby had suffered a psychotic break.",
+      "link_reason": "Both tell of Jolly West, the MK Ultra psychiatrist, seeing Jack Ruby in the Dallas jail in 1964.",
+      "as_told": {
+        "title": "Jolly West's 24 hours with Jack Ruby in jail",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Dallas jail",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -51,6 +75,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },

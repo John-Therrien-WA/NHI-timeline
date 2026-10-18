@@ -1,0 +1,56 @@
+{
+  "id": "tesla-causes-an-earthquake-in-manhattan-1890",
+  "title": "Tesla causes an earthquake in Manhattan",
+  "summary": "Jason Jorjani tells of Tesla causes an earthquake in Manhattan, about 1890s at Manhattan, New York, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1890,
+    "to": 1899
+  },
+  "place": null,
+  "place_text": "Manhattan, New York",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 7572.0,
+      "to_s": 7577.0,
+      "teller": "jason-jorjani",
+      "quote": "Nicola Tesla describes having used tectonic weaponry in his laboratory. He caused an earthquake in Manhattan.",
+      "kind": "researcher",
+      "cites": [
+        "nikola-tesla"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher and writer, Jason Jorjani, told a podcast host, Jesse Michels, in 2025 that the inventor Nikola Tesla described using what Jorjani calls earthquake weaponry in his laboratory in the 1890s, and that he caused an earthquake in Manhattan, New York. If true, it would mean Tesla had a machine that could shake the ground on command."
+}

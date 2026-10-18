@@ -22,9 +22,46 @@
       "kind": "researcher",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 786.0,
+      "to_s": 793.0,
+      "teller": "randall-carlson",
+      "quote": "correct because the tunguska event took place on the 30th of June 1900 may it was an air burst",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Credited to Hancock rather than Carlson.",
+      "link_reason": "The same claim that the 30 June 1908 Tunguska airburst was part of the Taurid stream, with the same wording.",
+      "as_told": {
+        "title": "Tunguska airburst as part of the Taurid stream",
+        "years": {
+          "from": 1908,
+          "to": 1908
+        },
+        "place_text": "Tunguska, Siberia",
+        "story_kind": "theory"
+      },
+      "replay_of": {
+        "episode": "JGE1NIGhBzw",
+        "from_s": 4047.0
+      },
+      "teller_was": "graham-hancock"
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "tunguska-as-a-tesla-death-weapon-1908",
+      "relation": "variant",
+      "note": "This is the same 1908 Tunguska event, but it is explained as a Tesla death weapon instead of a natural air burst from the Taurid stream."
+    },
+    {
+      "story": "remote-viewer-sees-tunguska-as-an-exploding-saucer-of-escape-1908",
+      "relation": "variant",
+      "note": "This is the same 1908 Tunguska event, but McMoneagle's remote viewing explains it as an exploding saucer carrying escapees, not a natural air burst."
+    }
+  ],
   "tags": [],
   "score": 0.5,
   "profile": {
@@ -45,7 +82,8 @@
       "randall-carlson"
     ],
     "episodes": [
-      "JGE1NIGhBzw"
+      "JGE1NIGhBzw",
+      "dfPfPB601hw"
     ]
   },
   "attestation": 0.25,

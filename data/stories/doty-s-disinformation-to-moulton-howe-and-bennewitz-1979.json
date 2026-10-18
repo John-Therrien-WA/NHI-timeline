@@ -27,6 +27,30 @@
         "paul-bennewitz"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2204.0,
+      "to_s": 2217.0,
+      "teller": "jesse-michels",
+      "quote": "Finally, the documents about the origins of humanity that were given to Lazar are insanely similar to those shown to Linda Moulton Howe to read at Kirtland Air Force Base by none other than Rick Doty.",
+      "kind": "host",
+      "cites": [
+        "linda-moulton-howe",
+        "rick-doty"
+      ],
+      "documents": [],
+      "difference": "Specifies that the documents were about the origins of humanity and were shown to Howe at Kirtland AFB, and does not mention Bennewitz.",
+      "link_reason": "Both say the information given to Lazar matched what Doty showed Linda Moulton Howe.",
+      "as_told": {
+        "title": "Origins-of-humanity documents shown to Lazar and Linda Moulton Howe",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Kirtland Air Force Base, New Mexico",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -50,6 +74,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "RTEWLSTyUic",
       "areO7Mej44E"
     ]
   },

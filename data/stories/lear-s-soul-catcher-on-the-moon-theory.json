@@ -22,18 +22,38 @@
         "bob-lazar"
       ],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 9689.0,
+      "to_s": 9695.0,
+      "teller": "jesse-michels",
+      "quote": "John Lear would say that there was like a soul catcher on the moon, but he also was kind of crazy",
+      "kind": "secondhand",
+      "cites": [
+        "john-lear"
+      ],
+      "documents": [],
+      "difference": "Michels tells it briefly and calls Lear 'kind of crazy'. He leaves out the Grays and soul reprocessing.",
+      "link_reason": "Both tell John Lear's claim that there is a soul catcher on the Moon.",
+      "as_told": {
+        "title": "John Lear's soul catcher on the Moon",
+        "years": null,
+        "place_text": "The Moon",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -42,13 +62,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jeremy-corbell"
+      "jeremy-corbell",
+      "jesse-michels"
     ],
     "episodes": [
-      "-XdvIrexF08"
+      "-XdvIrexF08",
+      "ABw7EsWh2Us"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "A filmmaker, Jeremy Corbell, describes an idea held by a pilot named John Lear about a \"soul catcher\" on the Moon. As Corbell tells it, the Grays, grey-skinned aliens of popular lore, controlled this device, which sucks up your soul when you die so it can be reprocessed, unless the Grays steal it first. The theory, which Corbell mentions alongside Bob Lazar, a man who says he worked on alien craft, would mean death itself is managed by non-humans."
 }

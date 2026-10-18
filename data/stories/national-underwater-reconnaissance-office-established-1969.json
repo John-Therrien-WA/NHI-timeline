@@ -22,6 +22,44 @@
       "kind": "researcher",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 1770.0,
+      "to_s": 1783.0,
+      "teller": "jesse-michels",
+      "quote": "There's um the little brother to the NRO which is is now public so I can talk about it but I there's not much known about it is neuro and it's the underwater version of the NRO",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Says NURO is now public but little is known about it, gives no founding date, and does not say it remains undisclosed.",
+      "link_reason": "Both are about the existence of the National Underwater Reconnaissance Office, the underwater counterpart of the NRO.",
+      "as_told": {
+        "title": "NURO, the underwater counterpart of the NRO",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3965.0,
+      "to_s": 3970.0,
+      "teller": "jesse-michels",
+      "quote": "He founded Do you know about the National Underwater Reconnaissance Office? Nuro.",
+      "kind": "host",
+      "cites": [
+        "bob-ballard"
+      ],
+      "documents": [],
+      "difference": "Credits Bob Ballard as its founder and gives no founding date.",
+      "link_reason": "Same program, the National Underwater Reconnaissance Office (NURO).",
+      "as_told": {
+        "title": "National Underwater Reconnaissance Office (NURO)",
+        "years": null,
+        "place_text": "United States (ocean floor)",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -32,29 +70,32 @@
     }
   ],
   "tags": [],
-  "score": 0.5,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "jesse-michels",
       "uapgerb"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
+      "6WC4o2yY9Ws",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A researcher who goes by the online name UAPGerb says there is a National Underwater Reconnaissance Office, which he calls the NURO, a secret US agency for spying under the sea. According to him it was set up in 1969 and has still not been officially acknowledged. He tells it on a podcast hosted by Jesse Michels, because if true it would mean a whole government agency has stayed hidden for over fifty years."
 }

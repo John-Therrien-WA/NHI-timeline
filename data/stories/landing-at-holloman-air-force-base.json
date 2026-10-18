@@ -21,6 +21,29 @@
         "eisenhower"
       ],
       "documents": []
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 6997.0,
+      "to_s": 7011.0,
+      "teller": "jesse-michels",
+      "quote": "another story um called you know Halman Air Force Base uh where there's a landing and uh there's a possible interaction between you know some generals on the base and uh these these tall beings",
+      "kind": "host",
+      "cites": [
+        "rod-serling",
+        "bob-emenegger"
+      ],
+      "documents": [
+        "ufos-past-present-and-future"
+      ],
+      "difference": "Credits Rod Serling, Bob Emenegger and the film UFOs: Past, Present and Future, and describes tall beings meeting generals.",
+      "link_reason": "Both tell of a landing at Holloman Air Force Base followed by contact with military officers.",
+      "as_told": {
+        "title": "Holloman Air Force Base landing and meeting with generals",
+        "years": null,
+        "place_text": "Holloman Air Force Base, New Mexico",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [
@@ -31,29 +54,31 @@
     }
   ],
   "tags": [],
-  "score": 0.5,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "james-fox"
+      "james-fox",
+      "jesse-michels"
     ],
     "episodes": [
+      "QgxjtDS2sIQ",
       "bVhSPH2A5Vw"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "well-attested",
   "plain": "A documentary filmmaker, James Fox, says on Jesse Michels's podcast that he has become convinced a craft really did land at Holloman Air Force Base, a military base in New Mexico. The story is tied in his telling to President Eisenhower, with a claimed meeting, and if true it would mean the government had direct contact with whatever landed."
 }

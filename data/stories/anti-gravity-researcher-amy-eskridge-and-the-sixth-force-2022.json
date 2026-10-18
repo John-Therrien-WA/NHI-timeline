@@ -48,17 +48,44 @@
         "place_text": "Huntsville, Alabama",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 6353.0,
+      "to_s": 6364.0,
+      "teller": "unnamed-news-reporter",
+      "quote": "One of them is Alabama based scientist Amy Escridge. She was openly studying anti-gravity technology when she died in 2022.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by a news reporter, places her in Alabama and does not mention the sixth force or directed-energy burns.",
+      "link_reason": "Both tell of the 2022 death of anti-gravity researcher Amy Eskridge.",
+      "as_told": {
+        "title": "Death of anti-gravity researcher Amy Eskridge",
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "place_text": "Alabama",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "rogan-backlash-over-malone-and-mccullough-episodes-2022",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 1.4,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
@@ -66,16 +93,18 @@
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "journalist",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "unnamed-news-reporter"
     ],
     "episodes": [
       "A2-y_HasHEw",
-      "d9tdJ2SkBKQ"
+      "d9tdJ2SkBKQ",
+      "wlsQIbpEKSM"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.7,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, tells of Amy Eskridge, a researcher into anti-gravity, meaning ways to cancel or push against gravity, who he says died in 2022 under very mysterious circumstances. According to Michels, near the end of her life she kept talking about a sixth force, an unknown force of nature beyond the known ones. In another telling he says people were attacking her with directed energy, beams of energy used as a weapon, leaving burns on her hands, and he also mentions her father Richard. If true, it would mean her work was seen as dangerous enough to target her."
 }

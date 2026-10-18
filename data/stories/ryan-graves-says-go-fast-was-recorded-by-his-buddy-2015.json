@@ -7,7 +7,7 @@
     "from": 2015,
     "to": 2015
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "off Jacksonville, Florida",
   "coordinates": null,
   "kind": "testimony",
@@ -24,33 +24,68 @@
         "ryan-graves"
       ],
       "documents": []
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 4384.0,
+      "to_s": 4393.0,
+      "teller": "ryan-graves",
+      "quote": "that's the video I saw in the classified space, my very good buddy. I'm not going to say his name. Um who recorded that video",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "new-york-times-2017-navy-uap-videos"
+      ],
+      "difference": "Told firsthand. Adds that Graves first saw the video in a classified space and doesn't name which video it was.",
+      "link_reason": "Graves himself says the released video was recorded by his good friend, which is the claim Jesse Michels relays secondhand in the story.",
+      "as_told": {
+        "title": "Graves recognizes the released video from the classified space, recorded by his friend",
+        "years": {
+          "from": 2015,
+          "to": 2017
+        },
+        "place_text": "US Navy F-18 squadron",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "insider-adviser-s-email-pointing-to-greek-mythology-and-prom-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "semivan-and-kit-green-question-tom-delonge-in-a-hotel-room-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "ryan-graves"
     ],
     "episodes": [
-      "1iaH1a3A4Lk"
+      "1iaH1a3A4Lk",
+      "6WC4o2yY9Ws"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "Podcast host Jesse Michels says he interviewed Ryan Graves, a Navy fighter pilot who testified under oath before Congress, about the Go Fast video, a 2015 Navy clip of a small fast-looking object filmed off Jacksonville, Florida. According to Michels, Graves more or less admitted that a friend of his was the one who recorded it. If so, it would tie the famous video directly to pilots Graves knew."
 }

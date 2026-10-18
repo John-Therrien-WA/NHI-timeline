@@ -71,11 +71,64 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 5711.0,
+      "to_s": 5720.0,
+      "teller": "jesse-michels",
+      "quote": "so Hal Putoff is on record saying that Bush 43 contemplated disclosure with Steven Hadley, national security adviser, and uh you know, Dick Cheney",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff",
+        "stephen-hadley",
+        "dick-cheney",
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Adds David Grusch to the credits.",
+      "link_reason": "Both describe Puthoff's account that Bush 43 weighed disclosure with Hadley and Cheney.",
+      "as_told": {
+        "title": "Bush 43 administration considers disclosure",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "White House, Washington DC",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 12645.0,
+      "to_s": 12659.0,
+      "teller": "jesse-michels",
+      "quote": "And he talks about Stephen\nHadley in the Bush administration as\ngoing through this whole exercise of\nshould we disclose or should we not\ndisclose and them reading the three-body\nproblem as part of this exercise",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff",
+        "stephen-hadley",
+        "joe-rogan"
+      ],
+      "documents": [
+        "the-three-body-problem"
+      ],
+      "difference": "Adds that the participants read The Three-Body Problem as part of the exercise, and credits Joe Rogan.",
+      "link_reason": "Both describe the Bush-administration disclosure review with Stephen Hadley, as relayed by Hal Puthoff.",
+      "as_told": {
+        "title": "Stephen Hadley's Bush-era disclosure exercise using The Three-Body Problem",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "White House, Washington DC",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
@@ -86,7 +139,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -97,10 +150,12 @@
     "episodes": [
       "1f16VvXaSSE",
       "8Rr_nE65KkI",
+      "ATJwqp5twAg",
+      "nTiFs8LudUo",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "According to the podcast host Jesse Michels, a physicist named Hal Puthoff says President George W. Bush and his vice president, Dick Cheney, were very interested in disclosure, meaning telling the public what the government knows about UFOs. Puthoff says Bush's national security adviser, Stephen Hadley, ran a review of what disclosure would look like, and another researcher says Puthoff himself was asked to take part. In one telling the panel decided disclosure was not worth it. If true, it would mean a US president seriously weighed revealing the secret and chose not to."
 }

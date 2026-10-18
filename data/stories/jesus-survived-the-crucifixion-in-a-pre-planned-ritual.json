@@ -25,6 +25,32 @@
         "the-immortality-key",
         "gospels"
       ]
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 2025.0,
+      "to_s": 2044.0,
+      "teller": "jesse-michels",
+      "quote": "certain Gnostic interpretations of the New Testament maintain the belief that Jesus actually never died that the last supper was all more of a choreographed mystery ritual then meets the eye where Jesus was sedated and then resuscitated",
+      "kind": "host",
+      "cites": [
+        "randall-carlson",
+        "brian-muraresku",
+        "elaine-pagels"
+      ],
+      "documents": [
+        "gospel-of-thomas",
+        "gospel-of-luke",
+        "gospel-of-matthew"
+      ],
+      "difference": "Frames it as a Gnostic reading in which Jesus was sedated and resuscitated, told by the host, with Pagels and gospel texts cited.",
+      "link_reason": "The same theory that Jesus survived the crucifixion through a staged ritual, which the story also credits to Muraresku.",
+      "as_told": {
+        "title": "Gnostic reading that Jesus survived the crucifixion",
+        "years": null,
+        "place_text": "Jerusalem",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -41,14 +67,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 2,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
       "randall-carlson"
     ],
     "episodes": [
-      "JGE1NIGhBzw"
+      "JGE1NIGhBzw",
+      "tS_64sTN5AU"
     ]
   },
   "attestation": 0.75,

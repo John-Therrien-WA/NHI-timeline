@@ -101,39 +101,206 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 3734.0,
+      "to_s": 3741.0,
+      "teller": "jesse-michels",
+      "quote": "zi since Leslie Kane wrote her article about you know atip and the fact that we even had a you know UFO program",
+      "kind": "host",
+      "cites": [
+        "leslie-kean"
+      ],
+      "documents": [
+        "2017-aatip-article"
+      ],
+      "difference": "",
+      "link_reason": "Same 2017 New York Times article by Leslie Kean that revealed AATIP.",
+      "as_told": {
+        "title": "Leslie Kean's 2017 article on AATIP",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "US",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 4586.0,
+      "to_s": 4591.0,
+      "teller": "john-blitch",
+      "quote": "year because Leslie's article with Lou",
+      "kind": "journalist",
+      "cites": [
+        "leslie-kean",
+        "luis-elizondo"
+      ],
+      "documents": [
+        "new-york-times-article-december-2017"
+      ],
+      "difference": "Blitch credits the article jointly to Leslie and Lou and places it at the US Air Force Academy.",
+      "link_reason": "Both are about Leslie Kean's December 2017 New York Times UFO article, which Elizondo helped bring about.",
+      "as_told": {
+        "title": "December 2017 New York Times article by Leslie Kean and Lue",
+        "years": {
+          "from": 2017,
+          "to": 2018
+        },
+        "place_text": "US Air Force Academy",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 174.0,
+      "to_s": 195.0,
+      "teller": "kirk-mcconnell",
+      "quote": "Well, as I say, it was that that New York Times piece where they had some very specific and what you would say actionable uh information in there about specific events uh that were ongoing at the time. Some like the Nimttz case from 2004, which was historical. They reported on the on the OAP ATIP program",
+      "kind": "firsthand",
+      "cites": [
+        "leslie-kaine",
+        "ralph-blumenthal"
+      ],
+      "documents": [
+        "new-york-times-article-december-2017"
+      ],
+      "difference": "Told firsthand by Senate staffer McConnell, who says the article's actionable details on Nimitz and AATIP started the Senate staff inquiry.",
+      "link_reason": "Both concern the December 2017 New York Times article by Leslie Kean and Ralph Blumenthal revealing AATIP and the Nimitz case.",
+      "as_told": {
+        "title": "2017 New York Times article on Nimitz case and AATIP starts Senate staff inquiry",
+        "years": {
+          "from": 2004,
+          "to": 2017
+        },
+        "place_text": "Washington, D.C.; USS Nimitz, off California",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 5874.0,
+      "to_s": 5883.0,
+      "teller": "richard-dolan",
+      "quote": "So you have Leslie Kane, Ralph Blumenthal, and Helen Cooper. They write the really breakthrough article for the New York Times.",
+      "kind": "researcher",
+      "cites": [
+        "leslie-kean",
+        "ralph-blumenthal",
+        "helene-cooper"
+      ],
+      "documents": [
+        "new-york-times-article-2017"
+      ],
+      "difference": "Names Helene Cooper as a third author and calls the article the breakthrough.",
+      "link_reason": "Both are the 2017 New York Times UFO article by Leslie Kean and Ralph Blumenthal.",
+      "as_told": {
+        "title": "2017 New York Times UFO article",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 4811.0,
+      "to_s": 4819.0,
+      "teller": "greg-rogers",
+      "quote": "everything changed in 2017 >> when the New York Times article came out and I saw the videos,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "new-york-times-2017-article",
+        "pentagon-uap-videos"
+      ],
+      "difference": "Told firsthand by a reader, Rogers, as the moment everything changed for him; it names no authors and mentions the videos only generally.",
+      "link_reason": "Rogers names the December 2017 New York Times article and the Navy videos released with it, which is the article event the corpus holds as Leslie Kean's 2017 story.",
+      "as_told": {
+        "title": "2017 New York Times article and Navy pilot videos",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 3162.0,
+      "to_s": 3167.0,
+      "teller": "jesse-michels",
+      "quote": "Not only were the all the sightings in those that New York Times article, naval sightings,",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "new-york-times-article"
+      ],
+      "difference": "Stresses that all the sightings in the article were naval sightings.",
+      "link_reason": "Both refer to the 2017 New York Times UFO article and the Navy sightings it reported.",
+      "as_told": {
+        "title": "Navy sightings in the New York Times article",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "United States",
+        "story_kind": "sighting"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "stargate-files-declassified-2017",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 3.4,
+  "score": 11.1,
   "profile": {
-    "independent_tellers": 4,
-    "firsthand": 0,
+    "independent_tellers": 8,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
-    "researcher": 2,
+    "researcher": 3,
     "host": 2,
     "documents": 0,
-    "credited_documents": 4,
+    "credited_documents": 8,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "greg-rogers",
       "james-fox",
       "jesse-michels",
+      "john-blitch",
+      "kirk-mcconnell",
       "matthew-pines",
-      "mick-west"
+      "mick-west",
+      "richard-dolan"
     ],
     "episodes": [
       "1iaH1a3A4Lk",
       "9QMrhcpJq8I",
       "A2-y_HasHEw",
-      "bVhSPH2A5Vw"
+      "GQlWf54K_7Y",
+      "KGD1nuM4MR8",
+      "TNtlzEnl8rA",
+      "bVhSPH2A5Vw",
+      "tS_64sTN5AU",
+      "yAvD5UTziTo",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 1.7,
+  "attestation": 5.55,
   "tier": "well-attested",
   "plain": "In December 2017 the New York Times newspaper ran an article about UFOs written with a journalist named Leslie Kean. A UFO documentary filmmaker, James Fox, says it was her biggest story and one of the most popular the paper ever published. A skeptic, Mick West, says the article was co-written with Ralph Blumenthal and came with Navy videos called Gimbal and FLIR1, with another, Go Fast, released a little later. Why it matters, as told, is that it brought the subject out of the fringe. An analyst, Matthew Pines, describes the articles as the start of a slow, semi-official acceptance of a topic that had been an outsider culture. A podcast host, Jesse Michels, says a former official named Lue Elizondo helped get the article published through Kean while he was in charge of AATIP, a small Pentagon office that studied unexplained aerial reports. So it is told by the host, a filmmaker, an analyst and a skeptic alike, each stressing a different side."
 }

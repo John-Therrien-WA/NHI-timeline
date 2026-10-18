@@ -1,0 +1,56 @@
+{
+  "id": "nasp-as-cover-program-for-aurora-1980",
+  "title": "NASP as cover program for Aurora",
+  "summary": "Nick Cook tells of NASP as cover program for Aurora, about 1980s-1990s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 3728.0,
+      "to_s": 3735.0,
+      "teller": "nick-cook",
+      "quote": "And Bill became convinced that NASP was actually a cover program for Aurora.",
+      "kind": "secondhand",
+      "cites": [
+        "bill-sweetman"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "nick-cook"
+    ],
+    "episodes": [
+      "G7Ns4Aq1tVc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Nick Cook, an aviation journalist, passes on a suspicion held by a fellow aviation writer, Bill Sweetman, about secret American aircraft in the 1980s and 1990s. According to Cook, Sweetman came to believe that NASP, a public US government project to build a plane that could fly into space, was really a cover for Aurora, a rumoured secret high-speed aircraft. If so, a project the public could see would have been hiding a far more advanced one they couldn't."
+}

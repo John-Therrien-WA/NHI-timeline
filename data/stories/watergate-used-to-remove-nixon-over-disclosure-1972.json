@@ -25,33 +25,60 @@
         "bob-woodward"
       ],
       "documents": []
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 7256.0,
+      "to_s": 7262.0,
+      "teller": "jesse-michels",
+      "quote": ">> Well, it's interesting. We basically know that Watergate was an inside job and it was a it was a setup to oust Nixon.",
+      "kind": "host",
+      "cites": [
+        "mark-felt",
+        "bob-woodward",
+        "richard-nixon"
+      ],
+      "documents": [],
+      "difference": "Calls it an inside job and credits Mark Felt; gives no disclosure motive.",
+      "link_reason": "Both claim Watergate was a setup to remove Nixon.",
+      "as_told": {
+        "title": "Watergate as an inside job to oust Nixon",
+        "years": {
+          "from": 1972,
+          "to": 1974
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "jesse-michels",
       "steven-greer"
     ],
     "episodes": [
-      "areO7Mej44E"
+      "areO7Mej44E",
+      "fpUa3xJN64Q"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A researcher named Steven Greer, speaking on Jesse Michels' podcast, gives his own account of Watergate, the political scandal of 1972 to 1974 that brought down President Richard Nixon. Greer says the scandal, which the reporter Bob Woodward helped expose, was really a way to remove Nixon because Nixon was \"hellbent on bringing this stuff out\", meaning the truth about UFOs. If true, it would mean a president was pushed out of office to keep that secret."
 }

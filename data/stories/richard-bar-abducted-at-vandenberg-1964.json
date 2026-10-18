@@ -1,0 +1,116 @@
+{
+  "id": "richard-bar-abducted-at-vandenberg-1964",
+  "title": "Richard Bar abducted at Vandenberg",
+  "summary": "Jesse Michels tells of Richard Bar abducted at Vandenberg, about September 1964 at Vandenberg Space Force Base, California, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "vandenberg-ca",
+  "place_text": "Vandenberg AFB, California",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 5880.0,
+      "to_s": 5896.0,
+      "teller": "jesse-michels",
+      "quote": "Also in September of 1964 at Vandenberg, another missile security officer, Richard Bar, was taken aboard a craft with four alien beings.",
+      "kind": "host",
+      "cites": [
+        "richard-bar"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 3403.0,
+      "to_s": 3417.0,
+      "teller": "jesse-michels",
+      "quote": "I actually just interviewed a guy named Richard Barth who the same month in September of 1964 was stationed at Vandenberg Air Force Base and was abducted and taken on a craft while he was guarding a missile station.",
+      "kind": "host",
+      "cites": [
+        "richard-barth"
+      ],
+      "documents": [],
+      "difference": "Says Michels interviewed Barth himself and that he was guarding a missile station; it does not mention the four beings.",
+      "link_reason": "Both tell of Richard Barth/Bar being taken aboard a craft at Vandenberg in September 1964 while on missile security duty.",
+      "as_told": {
+        "title": "Richard Barth abducted while guarding a missile at Vandenberg",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Vandenberg Air Force Base, California",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 3417.0,
+      "to_s": 3430.0,
+      "teller": "richard-barth",
+      "quote": "I was just terrified and next thing I know I'm out, you know, and I don't know if I passed out or [clears throat] it's just blank at that point. Then I come to and I'm inside this it's a circular room.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Barth, adding that he blacked out and came to inside a circular room.",
+      "link_reason": "Barth's own account of the same 1964 Vandenberg abduction, describing blacking out and waking in a circular room.",
+      "as_told": {
+        "title": "Barth clip: waking inside a circular room",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Vandenberg Air Force Base, California",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "Qe8br8yYEDM",
+        "from_s": 1913.0
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "humanoid-figure-emerges-from-fog-and-abducts-guard-at-minute-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vandenberg-ufo-takes-down-dummy-warhead-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "richard-barth"
+    ],
+    "episodes": [
+      "fpUa3xJN64Q",
+      "rjUdn6FklAU"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels says that in September 1964, at Vandenberg Air Force Base, a military rocket base in California, a missile security guard named Richard Barth was taken aboard a craft with four alien beings. Barth, whom Michels interviewed, says he was guarding a missile station when he became terrified, blacked out, and woke up inside a circular room. If true, it would mean beings could reach the guards at America's nuclear missile sites."
+}

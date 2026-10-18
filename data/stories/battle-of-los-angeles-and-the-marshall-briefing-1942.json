@@ -24,6 +24,29 @@
         "george-c-marshall"
       ],
       "documents": []
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3562.0,
+      "to_s": 3569.0,
+      "teller": "jesse-michels",
+      "quote": "Angeles at the time. There was something called the Battle of Los Angeles which made its way all the way to George Marshall who was Secretary of State at",
+      "kind": "host",
+      "cites": [
+        "george-marshall"
+      ],
+      "documents": [],
+      "difference": "Gives the span as Santa Monica to San Diego and calls Marshall Secretary of State.",
+      "link_reason": "Both are the 1942 Battle of Los Angeles object flying down the coast and reaching George Marshall.",
+      "as_told": {
+        "title": "Battle of Los Angeles",
+        "years": {
+          "from": 1942,
+          "to": 1942
+        },
+        "place_text": "California coast, Santa Monica to San Diego",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -47,7 +70,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "1F7DHbSbgbQ"
     ]
   },
   "attestation": 0.1,

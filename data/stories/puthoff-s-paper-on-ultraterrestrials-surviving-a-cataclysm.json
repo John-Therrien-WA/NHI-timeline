@@ -21,6 +21,26 @@
         "hal-puthoff"
       ],
       "documents": []
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 5827.0,
+      "to_s": 5842.0,
+      "teller": "jesse-michels",
+      "quote": "Halputo off has a hypothesis called the ultraterrestrial hypothesis which is that um the beings the non-human intelligence are a holdover from a civilization that existed before the ice age",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Names it the ultraterrestrial hypothesis and dates the civilization to before the Ice Age, without mentioning a paper.",
+      "link_reason": "Same Puthoff idea: ultraterrestrials as survivors of an earlier civilization wiped out by a cataclysm.",
+      "as_told": {
+        "title": "Puthoff's ultraterrestrial hypothesis",
+        "years": null,
+        "place_text": "Earth / oceans",
+        "story_kind": "cosmology"
+      }
     }
   ],
   "related": [],
@@ -44,6 +64,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
       "C_Na1tI5qpw"
     ]
   },

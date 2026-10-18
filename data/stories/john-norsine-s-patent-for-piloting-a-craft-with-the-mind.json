@@ -1,0 +1,82 @@
+{
+  "id": "john-norsine-s-patent-for-piloting-a-craft-with-the-mind",
+  "title": "John Norsine's patent for piloting a craft with the mind",
+  "summary": "Jesse Michels tells of John Norsine's patent for piloting a craft with the mind, about an unknown time at an unknown place, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "QkuDvTFN7ms",
+      "from_s": 6998.0,
+      "to_s": 7009.0,
+      "teller": "jesse-michels",
+      "quote": "he is uh you know this interesting engineer who has this locked patent for essentially how to fly a UFO with your mind.",
+      "kind": "host",
+      "cites": [
+        "john-norsine"
+      ],
+      "documents": [
+        "john-norsine-patent"
+      ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 12640.0,
+      "to_s": 12658.0,
+      "teller": "jesse-michels",
+      "quote": "around flying stuff with your mind and there are a couple of locked patents one of which is under this guy John Norsine which involves kind of uh neural imprints and neural interfaces for flying aircraft and there was a battel study on this sort of thing I think in uh the early 2020s",
+      "kind": "host",
+      "cites": [
+        "john-norsine"
+      ],
+      "documents": [
+        "lockheed-patents-under-john-norseen",
+        "battelle-study"
+      ],
+      "difference": "Adds the neural-imprint and neural-interface details and a Battelle study from the early 2020s.",
+      "link_reason": "The same locked Lockheed patent under John Norseen (Norsine) for flying a craft with the mind.",
+      "as_told": {
+        "title": "Lockheed neural-interface patents under John Norseen and the Battelle study",
+        "years": {
+          "from": 2020,
+          "to": 2023
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "QkuDvTFN7ms",
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says an engineer named John Norsine holds a locked patent, one kept secret by the government, for essentially flying a UFO with your mind. In a later episode he says the patents, tied to the aerospace company Lockheed, involve neural imprints and brain-to-machine interfaces for flying aircraft, and that Battelle, a research organisation, did a study on this in the early 2020s, which would hint that mind-controlled craft are being taken seriously if true."
+}

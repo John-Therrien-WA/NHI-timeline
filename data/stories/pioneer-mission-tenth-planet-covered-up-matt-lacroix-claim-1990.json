@@ -24,6 +24,30 @@
         "matt-lacroix"
       ],
       "documents": []
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 5633.0,
+      "to_s": 5637.0,
+      "teller": "jesse-michels",
+      "quote": "possible scrub of the pioneer Mission from NASA",
+      "kind": "host",
+      "cites": [
+        "thomas-van-flandern",
+        "robert-harrington"
+      ],
+      "documents": [],
+      "difference": "Framed tentatively as a possible scrub of the Pioneer mission information, without the planet's size.",
+      "link_reason": "Both tell of NASA covering up what the Pioneer mission found about a body beyond the planets, as Jesse relays from LaCroix's claim.",
+      "as_told": {
+        "title": "Possible NASA scrub of Pioneer mission information",
+        "years": {
+          "from": 1983,
+          "to": 1999
+        },
+        "place_text": "NASA",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -47,6 +71,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "A_LsUSxTm7A",
       "JGE1NIGhBzw"
     ]
   },

@@ -1,0 +1,62 @@
+{
+  "id": "los-alamosbattelle-nitinol-contract-of-1949",
+  "title": "Los Alamos–Battelle Nitinol contract of 1949",
+  "summary": "Jesse Michels tells of Los Alamos–Battelle Nitinol contract of 1949, about 1949-1960s at Los Alamos, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1949,
+    "to": 1969
+  },
+  "place": "los-alamos-nm",
+  "place_text": "Los Alamos, New Mexico / Battelle Memorial Institute",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5650.0,
+      "to_s": 5663.0,
+      "teller": "jesse-michels",
+      "quote": "veterans of World War II. Some of the most interesting evidence I found for Roswell is actually that there was a contract between Los Alamos and Battelle Memorial Institute in 1949",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "los-alamosbattelle-contract-1949"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "1949-battellewright-field-contract-on-titanium-nickel-alloys",
+      "relation": "variant",
+      "note": "Both are the 1949 Battelle contract that led to Nitinol and is offered as Roswell evidence. This telling makes Los Alamos the other party, where the story says Wright Field."
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that some of the most interesting evidence he has found for Roswell, the 1947 claim that a crashed craft was recovered in New Mexico, is a 1949 contract between Los Alamos, the New Mexico nuclear weapons lab, and the Battelle Memorial Institute, a research organisation. He links the contract to Nitinol, a nickel and titanium metal that returns to its original shape. To Michels, it would suggest that strange material from a crash was being studied."
+}

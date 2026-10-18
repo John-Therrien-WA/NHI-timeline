@@ -37,6 +37,24 @@
         "place_text": "Peru",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "IFaXi-NrPV0",
+      "from_s": 5782.0,
+      "to_s": 5793.0,
+      "teller": "jesse-michels",
+      "quote": "And I just did actually a documentary about Peru where they have these beings that have three fingers, three toes, and they're mummies.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "The host says he made a documentary about them and adds that they have three toes and are mummies.",
+      "link_reason": "Both are about the three-fingered mummified beings in Peru. The host tells it again here, mentioning his documentary.",
+      "as_told": {
+        "title": "Host's Peru documentary on three-fingered mummies",
+        "years": null,
+        "place_text": "Peru",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -62,6 +80,7 @@
     ],
     "episodes": [
       "C_Na1tI5qpw",
+      "IFaXi-NrPV0",
       "hBrfe4hFuM0"
     ]
   },

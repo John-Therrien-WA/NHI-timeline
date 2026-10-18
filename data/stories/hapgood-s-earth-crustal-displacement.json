@@ -1,0 +1,53 @@
+{
+  "id": "hapgood-s-earth-crustal-displacement",
+  "title": "Hapgood's earth crustal displacement",
+  "summary": "Jason Jorjani tells of Hapgood's earth crustal displacement, about end of the last ice age at Antarctica, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "antarctica",
+  "place_text": "North America / Antarctica",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6304.0,
+      "to_s": 6309.0,
+      "teller": "jason-jorjani",
+      "quote": "to Hapkut. It's that the North Pole was where Hudson Bay is today",
+      "kind": "researcher",
+      "cites": [
+        "charles-hapgood"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Jason Jorjani, on Jesse Michels's podcast in 2025, brings up the idea of Charles Hapgood, a writer who proposed that the Earth's outer crust can slide as a whole over the layers beneath it. Jorjani says that, according to Hapgood, the North Pole was once where Hudson Bay in northern Canada is today, with the shift tied to the end of the last ice age and to Antarctica. If true, it would mean the world's lands moved dramatically within human prehistory."
+}

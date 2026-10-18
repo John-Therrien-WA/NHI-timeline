@@ -1,0 +1,56 @@
+{
+  "id": "launch-pad-33-and-runway-33-1940",
+  "title": "Launch pad 33 and runway 33",
+  "summary": "Jesse Michels tells of Launch pad 33 and runway 33, about 1940s-present at White Sands and Holloman, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "white-sands-nm",
+  "place_text": "White Sands; Kennedy Space Center",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 2675.0,
+      "to_s": 2692.0,
+      "teller": "jesse-michels",
+      "quote": "NASA's primary launch pad at White Sands, where Von Braun ran early tests, was launch pad 33. Same thing at Kennedy Space Center. There's only one runway, and it isn't runway one or A. It's runway 33.",
+      "kind": "host",
+      "cites": [
+        "wernher-von-braun"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, points out that the main launch pad at White Sands in New Mexico, where the rocket engineer Wernher von Braun ran early tests for what became NASA, the US space agency, was launch pad 33. He adds that the single runway at Kennedy Space Center in Florida is not runway one or A but runway 33, and he raises this as a hint that the number carries hidden, almost ritual meaning inside the space program."
+}

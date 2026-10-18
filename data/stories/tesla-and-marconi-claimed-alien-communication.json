@@ -1,0 +1,54 @@
+{
+  "id": "tesla-and-marconi-claimed-alien-communication",
+  "title": "Tesla and Marconi claimed alien communication",
+  "summary": "Jesse Michels tells of Tesla and Marconi claimed alien communication, about early 20th century at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 14554.0,
+      "to_s": 14559.0,
+      "teller": "jesse-michels",
+      "quote": "So Tesla and Maronei claimed alien communication.",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla",
+        "guglielmo-marconi"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Nikola Tesla and Guglielmo Marconi, two famous early inventors who worked on electricity and radio, both claimed to have picked up communication from aliens. He mentions it in passing, as a sign that serious inventors believed they had made contact."
+}

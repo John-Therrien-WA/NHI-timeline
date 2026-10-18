@@ -1,0 +1,68 @@
+{
+  "id": "contesting-account-and-aaro-position-on-jacobs-big-sur-claim-1964",
+  "title": "Contesting account and AARO position on Jacobs' Big Sur claim",
+  "summary": "Kurt McConnell tells of Contesting account and AARO position on Jacobs' Big Sur claim, about 1964 at Vandenberg Space Force Base, California, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 1964
+  },
+  "place": "vandenberg-ca",
+  "place_text": "Big Sur / Vandenberg AFB, California",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 5285.0,
+      "to_s": 5304.0,
+      "teller": "kirk-mcconnell",
+      "quote": "There is a uh there is an account that\ncontests Robert Jacobs account um by uh\nby a man with some very good credentials\nuh who claims that uh Jacobs was\nconfused about which date there of this\ntest",
+      "kind": "researcher",
+      "cites": [
+        "robert-jacobs",
+        "aaro"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "jacobs-records-denied-and-mailbox-blown-up-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "memory-floods-back-two-weeks-later-lost-time-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "kirk-mcconnell"
+    ],
+    "episodes": [
+      "KGD1nuM4MR8"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A former US Senate staffer named Kurt McConnell, on Jesse Michels' podcast, talks about Robert Jacobs, a man who says he filmed a 1964 missile test from Vandenberg Air Force Base near Big Sur, California, and saw something unusual on the film. McConnell says another man with very good credentials disputes Jacobs, claiming Jacobs mixed up the date of the test, and the story is also tied to the position of AARO, the Pentagon office that now looks into unexplained aerial reports. It matters because it bears on whether Jacobs' well-known account holds up."
+}

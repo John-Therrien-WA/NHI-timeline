@@ -1,0 +1,53 @@
+{
+  "id": "dc-fusion-center-foia-on-psychotronic-effects",
+  "title": "DC fusion center FOIA on psychotronic effects",
+  "summary": "Dave Rossi tells of DC fusion center FOIA on psychotronic effects, about undated at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "washington-dc",
+  "place_text": "Washington D.C.",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 6807.0,
+      "to_s": 6822.0,
+      "teller": "dave-rossi",
+      "quote": "there was a FOIA leak out of the Washington D.C. fusion center that someone had filed a FOIA with regards to looking into some uh political groups, but it turned out that they were given I think the file was called uh effects on the human body.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "effects-on-the-human-body"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "dave-rossi"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Dave Rossi, speaking on Jesse Michels' podcast, describes a records request made to the Washington D.C. fusion center, a hub where government agencies share security information. He says someone used FOIA, a US law that lets anyone request government records, to ask about certain political groups, and instead got back a file he recalls was titled \"effects on the human body.\" Rossi tells it as a sign that officials have looked at devices said to affect the body and mind, sometimes called psychotronic effects."
+}

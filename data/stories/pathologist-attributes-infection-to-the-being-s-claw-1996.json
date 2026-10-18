@@ -24,6 +24,30 @@
       "documents": [
         "marco-chereze-autopsy-report-ipd"
       ]
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 11438.0,
+      "to_s": 11448.0,
+      "teller": "ahmed-foratu",
+      "quote": "But the second is that he contracted the infection from a scratch, from contact with an extraterrestrial being.",
+      "kind": "firsthand",
+      "cites": [
+        "dr-janini",
+        "italo-venturelli"
+      ],
+      "documents": [],
+      "difference": "Presents it as the second of two hypotheses and credits Jannini and Venturelli.",
+      "link_reason": "Both tell the pathologist's theory that Chereze's infection came from a scratch by the being in Varginha in 1996.",
+      "as_told": {
+        "title": "Foratu's second hypothesis: infection from a scratch by the being",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -31,13 +55,28 @@
       "story": "girls-creature-and-hospital-being-were-the-same-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "claim-that-the-bacteria-looked-genetically-engineered-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fox-concludes-there-were-more-beings-than-first-reported-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jannini-in-the-film-a-puncture-from-the-et-s-nail-caused-che-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 4.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 1,
+    "independent_tellers": 2,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -50,13 +89,15 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "ahmed-foratu",
       "dr-armando"
     ],
     "episodes": [
+      "UkKwa4jU0fc",
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
+  "attestation": 2.25,
+  "tier": "well-attested",
   "plain": "A pathologist, a doctor who studies causes of illness and death, known as Dr. Armando, speaks about a case in Varginha, Brazil, in 1996. Looking at the autopsy report of a man named Marco Chereze, he says there was a very distinct and deliberate scratch on his skin, and he links the infection that followed to the claw of a strange being. If true, it would mean contact with a non-human creature could injure and infect a person."
 }

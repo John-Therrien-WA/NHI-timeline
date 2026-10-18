@@ -1,0 +1,54 @@
+{
+  "id": "bostick-on-strange-effects-at-high-megavoltage",
+  "title": "Bostick on strange effects at high megavoltage",
+  "summary": "Jesse Michels tells of Bostick on strange effects at high megavoltage, about mid-20th century at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 3339.0,
+      "to_s": 3347.0,
+      "teller": "jesse-michels",
+      "quote": "Bostick is quoted as saying strange things happen at high mega voltage across short distances.",
+      "kind": "host",
+      "cites": [
+        "bostick",
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "aKZ_MUbuk_Q"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, quotes a scientist named Bostick as saying that strange things happen when millions of volts are put across very short distances. Michels connects this to the work of an inventor, Townsend Brown, who experimented with very high voltages. If true, it would hint that high voltage can produce effects that ordinary physics does not expect."
+}

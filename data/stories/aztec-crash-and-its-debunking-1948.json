@@ -1,0 +1,87 @@
+{
+  "id": "aztec-crash-and-its-debunking-1948",
+  "title": "Aztec crash and its debunking",
+  "summary": "Richard Dolan tells of Aztec crash and its debunking, about 1948-1952 at New Mexico (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1952
+  },
+  "place": "new-mexico",
+  "place_text": "Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 4926.0,
+      "to_s": 4934.0,
+      "teller": "richard-dolan",
+      "quote": "Oh. Oh, I'm I'm on the Aztec train. I believe that one. Aztec was, you know, was the first case that was uh written about",
+      "kind": "researcher",
+      "cites": [
+        "jp-cahn",
+        "scott-ramsey",
+        "suzanne-ramsey",
+        "frank-scully",
+        "richard-geldrich"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 7812.0,
+      "to_s": 7817.0,
+      "teller": "richard-dolan",
+      "quote": "Before the Ramsies rehabilitated, Steman did wrote a really big fat book on it.",
+      "kind": "researcher",
+      "cites": [
+        "william-steinman",
+        "scott-ramsey",
+        "suzanne-ramsey"
+      ],
+      "documents": [
+        "wikipedia"
+      ],
+      "difference": "Adds Steinman's big book on Aztec before the Ramseys, and Wikipedia's hoax label.",
+      "link_reason": "Same teller and same subject as the story: the 1948 Aztec crash, its dismissal as a hoax, and its later rehabilitation by the Ramseys.",
+      "as_told": {
+        "title": "Aztec crash dismissed as hoax; Steinman's book and the Ramseys' rehabilitation",
+        "years": {
+          "from": 1948,
+          "to": 1948
+        },
+        "place_text": "Aztec, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "richard-dolan"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A UFO historian named Richard Dolan told podcast host Jesse Michels about a claimed crash of a flying saucer near Aztec, New Mexico, around 1948, which he calls the first such case ever written about, and says he believes it. He says the story was attacked and dismissed in the years after, that a writer named William Steinman wrote a big book on it, and that later researchers Scott and Suzanne Ramsey brought it back to respectability, even though the online encyclopedia Wikipedia still labels it fake. If true, it would be one of the earliest recovered crashed craft in America."
+}

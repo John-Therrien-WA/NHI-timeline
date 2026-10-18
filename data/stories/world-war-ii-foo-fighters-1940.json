@@ -22,33 +22,79 @@
       "kind": "researcher",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3057.0,
+      "to_s": 3067.0,
+      "teller": "nick-cook",
+      "quote": "And they were simply balls of light that rose up out of the countryside that appeared to have some kind of intelligent control,",
+      "kind": "journalist",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Nick Cook, who places them over Germany and describes balls of light rising from the countryside, apparently under intelligent control.",
+      "link_reason": "These are the same World War II foo fighters, the balls of light seen by wartime pilots.",
+      "as_told": {
+        "title": "Foo fighters over Germany",
+        "years": {
+          "from": 1942,
+          "to": 1945
+        },
+        "place_text": "Germany",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5512.0,
+      "to_s": 5523.0,
+      "teller": "john-brandenburg",
+      "quote": "During World War II, the Foo Fighters were commonly spotted, and there were all sorts of radar beams flying around. They never reported any crashes then.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the foo fighters flew through many radar beams and none were reported to crash, offered as an argument against the radar-crash theory.",
+      "link_reason": "Both are about the WWII foo fighters seen across the war theatres in general.",
+      "as_told": {
+        "title": "WWII foo fighters flew through radar beams with no crashes",
+        "years": {
+          "from": 1939,
+          "to": 1945
+        },
+        "place_text": "World War II theatres",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 2.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
-    "secondhand": 0,
+    "journalist": 1,
+    "secondhand": 1,
     "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "journalist",
     "tellers": [
-      "michael-shermer"
+      "john-brandenburg",
+      "michael-shermer",
+      "nick-cook"
     ],
     "episodes": [
-      "8Rr_nE65KkI"
+      "8Rr_nE65KkI",
+      "RTEWLSTyUic",
+      "p0S0BfoZy0w"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 1.35,
+  "tier": "told-by-several",
   "plain": "During World War II, pilots reported strange lights or objects following their planes, which came to be called foo fighters. Michael Shermer, a researcher known as a skeptic, says during a debate on Jesse Michels' podcast that it would be good to get explanations for what those pilots saw, since unexplained cases like these come up whenever people argue about UFOs."
 }

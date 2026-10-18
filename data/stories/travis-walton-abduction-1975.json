@@ -7,7 +7,7 @@
     "from": 1975,
     "to": 1975
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Snowflake, Arizona",
   "coordinates": null,
   "kind": "encounter",
@@ -24,6 +24,29 @@
         "travis-walton"
       ],
       "documents": []
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 1569.0,
+      "to_s": 1574.0,
+      "teller": "jesse-michels",
+      "quote": "know, Travis Walton is another good example where he's in Arizona with his friends.",
+      "kind": "host",
+      "cites": [
+        "travis-walton"
+      ],
+      "documents": [],
+      "difference": "Told by the host, who mentions only that Walton was with friends in Arizona.",
+      "link_reason": "Both refer to the 1975 Travis Walton encounter in Arizona as a whole.",
+      "as_told": {
+        "title": "Travis Walton encounter",
+        "years": {
+          "from": 1975,
+          "to": 1975
+        },
+        "place_text": "Arizona, USA",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [
@@ -31,32 +54,49 @@
       "story": "travis-walton-case-dismissed-as-fabrication-1975",
       "relation": "variant",
       "note": "Same 1975 Travis Walton abduction, but the core claim is different: Shermer says it was made up and points to a failed lie detector test."
+    },
+    {
+      "story": "travis-walton-abduction-as-shown-in-fire-in-the-sky-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "travis-walton-handed-over-from-greys-to-nordics-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "travis-walton-wakes-with-a-full-beard-1975",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.5,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "james-fox"
+      "james-fox",
+      "jesse-michels"
     ],
     "episodes": [
+      "aGqFOxuYRT0",
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A documentary filmmaker, James Fox, tells podcast host Jesse Michels about Travis Walton, a man who says he was taken by a UFO in 1975. Fox says it happened in a very remote mountain area near Snowflake, Arizona. If true, it would be one of the best-known cases of a person taken aboard a craft."
 }

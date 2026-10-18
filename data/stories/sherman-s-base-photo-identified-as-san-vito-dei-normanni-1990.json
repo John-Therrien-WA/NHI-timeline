@@ -26,6 +26,75 @@
       "documents": [
         "above-black"
       ]
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 178.0,
+      "to_s": 183.0,
+      "teller": "jesse-michels",
+      "quote": "at. But my researchers and I were able to locate one of these bases.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "This telling only previews the find and does not name the base or say how it was found.",
+      "link_reason": "Both describe the host and his researchers working out where one of Sherman's bases was. The stored story says they did it by reverse image searching Sherman's photo.",
+      "as_told": {
+        "title": "Host's researchers locate one of the Preserve Destiny bases",
+        "years": {
+          "from": 1990,
+          "to": 1993
+        },
+        "place_text": "Unnamed base",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 11826.0,
+      "to_s": 11828.0,
+      "teller": "dan-sherman",
+      "quote": ">> That is one of the bases that I was stationed at.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "above-black"
+      ],
+      "difference": "Here Sherman confirms it himself; in the story the host identified it by reverse image search.",
+      "link_reason": "Both claim Sherman's base was San Vito dei Normanni, the base identified from his photo in Above Black.",
+      "as_told": {
+        "title": "Sherman confirms San Vito dei Normanni as a PPD base",
+        "years": {
+          "from": 1990,
+          "to": 1993
+        },
+        "place_text": "San Vito dei Normanni Air Station, Italy",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 6710.0,
+      "to_s": 6715.0,
+      "teller": "jesse-michels",
+      "quote": "It was in southern Italy and because he took a photo of it in his book",
+      "kind": "host",
+      "cites": [
+        "dan-sherman"
+      ],
+      "documents": [
+        "above-black"
+      ],
+      "difference": "Also mentions Nebraska.",
+      "link_reason": "Both identify the base in Sherman's Above Black photo as San Vito dei Normanni in Italy.",
+      "as_told": {
+        "title": "Sherman's unnamed base identified as San Vito in southern Italy",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "San Vito dei Normanni, southern Italy; Nebraska",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -42,13 +111,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "dan-sherman"
     ],
     "episodes": [
+      "PiFbeWfA3LM",
+      "Rfmy5oW_r9c",
       "u7g5Sn1DJF4"
     ]
   },

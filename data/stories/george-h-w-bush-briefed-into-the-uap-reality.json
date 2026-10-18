@@ -4,7 +4,7 @@
   "summary": "Lou Elizondo tells of George H.W. Bush briefed into the UAP reality, about an unknown time at CIA, and reads it from an official document. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "CIA",
   "coordinates": null,
   "kind": "testimony",
@@ -21,19 +21,42 @@
         "george-h-w-bush"
       ],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 10566.0,
+      "to_s": 10577.0,
+      "teller": "jason-jorjani",
+      "quote": "George HW Bush was one of these American presidents who actually had full access to the UFO file because he had been briefed when he was deep in the deep state.",
+      "kind": "researcher",
+      "cites": [
+        "prescott-bush"
+      ],
+      "documents": [],
+      "difference": "Says he had 'full access to the UFO file' and ties this to his role in finishing off the Soviet Union, and mentions Prescott Bush.",
+      "link_reason": "Both say George H.W. Bush was briefed into the UFO/UAP reality during his deep-state or CIA career.",
+      "as_told": {
+        "title": "George H.W. Bush had full access to the UFO file and finished off the Soviet Union",
+        "years": {
+          "from": 1970,
+          "to": 1991
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.6,
+  "score": 2.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -41,13 +64,15 @@
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "jason-jorjani",
       "luis-elizondo"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "ABw7EsWh2Us"
     ]
   },
-  "attestation": 0.8,
-  "tier": "told-once",
+  "attestation": 1.05,
+  "tier": "well-attested",
   "plain": "Lue Elizondo, a former Pentagon official who worked on unexplained aerial reports, says that George H.W. Bush, who once ran the CIA and later became US president, was briefed on what he calls the UAP reality. UAP stands for unidentified anomalous phenomena, the government's term for UFOs. He says this on podcast host Jesse Michels' show, and if true it would mean the subject reached the very top of American government."
 }

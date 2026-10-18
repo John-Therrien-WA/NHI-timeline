@@ -1,0 +1,56 @@
+{
+  "id": "operation-highjump-1946",
+  "title": "Operation Highjump",
+  "summary": "Jason Jorjani tells of Operation Highjump, about 1946-1947 at Antarctica, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1946,
+    "to": 1947
+  },
+  "place": "antarctica",
+  "place_text": "Antarctica",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6819.0,
+      "to_s": 6830.0,
+      "teller": "jason-jorjani",
+      "quote": "So in 1946, for whatever reason, we United States Navy sent a huge expedition of ships to Antarctica.",
+      "kind": "researcher",
+      "cites": [
+        "admiral-byrd"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher and writer named Jason Jorjani, speaking with podcast host Jesse Michels, recalls Operation Highjump, a large US Navy expedition of ships sent to Antarctica in 1946 and 1947. Jorjani names the polar explorer Richard Byrd in connection with it and says the Navy sent it \"for whatever reason\", framing its true purpose as an open question."
+}

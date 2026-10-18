@@ -84,36 +84,164 @@
         "place_text": "Mars",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7571.0,
+      "to_s": 7586.0,
+      "teller": "jesse-michels",
+      "quote": "last decade or so Dr John brandenberg a plasma physicist in propulsion scientist has found evidence to support his hypothesis that planetary wide catastrophic events May have occurred on Mars",
+      "kind": "host",
+      "cites": [
+        "john-brandenburg"
+      ],
+      "documents": [],
+      "difference": "Describes Brandenburg as a plasma physicist and propulsion scientist and speaks of planet-wide catastrophic events, without naming the isotope evidence.",
+      "link_reason": "Both tell of John Brandenburg's theory of a catastrophic nuclear war on ancient Mars, researched over the last decade.",
+      "as_told": {
+        "title": "John Brandenburg's theory of a nuclear war on Mars",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 8149.0,
+      "to_s": 8156.0,
+      "teller": "john-blitch",
+      "quote": "speculates that whatever civilization was there was eradicated nuclear war",
+      "kind": "researcher",
+      "cites": [
+        "john-brandenburg"
+      ],
+      "documents": [],
+      "difference": "States the eradication claim without the xenon-129 or argon-40 isotope evidence.",
+      "link_reason": "Both tell Brandenburg's theory that an ancient Martian civilization was wiped out by nuclear war. The story already includes a telling that says 'Brandenburg saw evidence of nuclear war on Mars'.",
+      "as_told": {
+        "title": "Brandenburg: ancient Martian civilization destroyed by nuclear war",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 1363.0,
+      "to_s": 1379.0,
+      "teller": "john-brandenburg",
+      "quote": "found uh a large amount of xenon 129 which is the product of two things. Uh supernova explosions and hydrogen bomb explosions. Hm. And we know there was no supernova on Mars.",
+      "kind": "researcher",
+      "cites": [
+        "viking-missions"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Brandenburg and tied to Viking's 1976 measurements, ruling out a supernova as the source.",
+      "link_reason": "Brandenburg's theory that excess xenon-129 and argon-40 on Mars point to nuclear explosions is the same story, here told by Brandenburg himself.",
+      "as_told": {
+        "title": "Xenon-129 and argon-40 on Mars as signs of nuclear explosions",
+        "years": {
+          "from": 1976,
+          "to": 1976
+        },
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 2374.0,
+      "to_s": 2396.0,
+      "teller": "john-brandenburg",
+      "quote": "found I'd found and digested the isotopic evidence. And when it all kind of sitting in my office, it all hit me. I wept like a child for about 4 minutes. Why? Cuz they were all dead. It looked like a thermonuclear holocaust and it happened there",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand, places his realisation in the 1980s rather than the 2010s, and describes him weeping when it hit him.",
+      "link_reason": "Brandenburg tells how the isotopic evidence led him to conclude there was a thermonuclear holocaust on Mars. That is the same nuclear-war-on-Mars story from the isotopes.",
+      "as_told": {
+        "title": "Realisation of a Martian thermonuclear holocaust",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Brandenburg's office / Mars",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 9818.0,
+      "to_s": 9824.0,
+      "teller": "jason-jorjani",
+      "quote": "the apparent devastation of Mars in some kind of nuclear war according to Dr. Brandenberg.",
+      "kind": "secondhand",
+      "cites": [
+        "dr-brandenberg"
+      ],
+      "documents": [],
+      "difference": "Mentions no xenon or argon isotope evidence and gives only the claim of a devastating nuclear war.",
+      "link_reason": "Both tell Brandenburg's claim that Mars was devastated by an ancient nuclear war.",
+      "as_told": {
+        "title": "Mars devastated by nuclear war, per Brandenburg",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 3461.0,
+      "to_s": 3469.0,
+      "teller": "jesse-michels",
+      "quote": "in Sandia and he believes that Argon 40 and Xenon 129 exist in excess of what",
+      "kind": "host",
+      "cites": [
+        "john-brandenburg"
+      ],
+      "documents": [],
+      "difference": "Mentions his time at Sandia; no new details otherwise.",
+      "link_reason": "Same Brandenburg claim that excess argon-40 and xenon-129 point to a nuclear cataclysm on Mars.",
+      "as_told": {
+        "title": "Brandenburg: argon-40 and xenon-129 show a nuclear cataclysm on Mars",
+        "years": null,
+        "place_text": "Mars",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 1,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 3,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jason-jorjani",
-      "jesse-michels"
+      "john-brandenburg"
     ],
     "episodes": [
+      "ABw7EsWh2Us",
+      "CiQTBOQ1dTg",
       "EzPmG_7WhXc",
+      "JpLThEF2dTM",
       "jMCavr3dVP0",
-      "uVVqFg2v7ro"
+      "p0S0BfoZy0w",
+      "uVVqFg2v7ro",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 1.25,
-  "tier": "well-attested",
+  "attestation": 1.0,
+  "tier": "told-once",
   "plain": "A scientist named John Brandenburg has an idea that there was once a nuclear war on Mars. A philosopher, Jason Jorjani, says he spent several days with Brandenburg in New Mexico and wrote about his research in his book Closer Encounters. According to Jorjani, Brandenburg found that the mix of xenon-129, a form of the gas xenon that nuclear reactions produce, is unusual at Cydonia, a region of Mars. A podcast host, Jesse Michels, tells it too. He adds argon-40, another gas, and says both exist on Mars in greater amounts than natural decay would explain. Once he credits an unnamed friend who worked at the national weapons labs Lawrence Livermore and Sandia, and once he names Brandenburg. If true, it would mean Mars once held a civilisation that destroyed itself with nuclear weapons."
 }

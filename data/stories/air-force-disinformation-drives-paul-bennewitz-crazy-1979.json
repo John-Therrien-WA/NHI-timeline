@@ -76,36 +76,170 @@
         "place_text": "Kirtland AFB, New Mexico",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2169.0,
+      "to_s": 2179.0,
+      "teller": "jesse-michels",
+      "quote": "He even visited Paul Bennewitz. And in case you don't recall, Bennewitz was the victim of a horrible psyop perpetrated by an Air Force counterintelligence agent named Rick Doty.",
+      "kind": "host",
+      "cites": [
+        "paul-bennewitz",
+        "rick-doty",
+        "john-lear"
+      ],
+      "documents": [],
+      "difference": "Adds that John Lear visited Bennewitz.",
+      "link_reason": "This is the same Air Force counterintelligence psyop by Rick Doty against Paul Bennewitz.",
+      "as_told": {
+        "title": "Bennewitz psyop by Rick Doty and Lear visit",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Kirtland Air Force Base, New Mexico",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 3286.0,
+      "to_s": 3302.0,
+      "teller": "jesse-michels",
+      "quote": "Dodie was an Air Force counterintelligence agent basically tasked with performing a psychological operation on an innocent researcher named Paul benowitz who had seen an exotic craft at Kirtland Air Force Base",
+      "kind": "host",
+      "cites": [
+        "greg-bishop",
+        "paul-benowitz",
+        "rick-dodie"
+      ],
+      "documents": [
+        "project-beta"
+      ],
+      "difference": "Names Project Beta and adds Greg Bishop as a source.",
+      "link_reason": "Both tell of Doty's psychological operation on Paul Bennewitz after Bennewitz saw a craft at Kirtland, in almost the same words.",
+      "as_told": {
+        "title": "Doty's psychological operation against Paul Bennewitz (Project Beta)",
+        "years": {
+          "from": 1979,
+          "to": 1989
+        },
+        "place_text": "Kirtland Air Force Base, New Mexico",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 11185.0,
+      "to_s": 11190.0,
+      "teller": "jesse-michels",
+      "quote": "arguably were instrumental in Paul\nbenowitz of suicide",
+      "kind": "host",
+      "cites": [
+        "richard-doty",
+        "paul-bennewitz"
+      ],
+      "documents": [],
+      "difference": "Says the campaign helped drive Bennewitz to suicide, not just mad.",
+      "link_reason": "The same AFOSI and Doty disinformation campaign against Paul Bennewitz.",
+      "as_told": {
+        "title": "AFOSI, Richard Doty and Paul Bennewitz's suicide",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 1836.0,
+      "to_s": 1845.0,
+      "teller": "richard-dolan",
+      "quote": "Paul Benowitz was very highly intelligent man looking at some of them and and that's what Dodie did. So he he did kind of lead Benowitz astray there.",
+      "kind": "researcher",
+      "cites": [
+        "paul-benowitz",
+        "richard-doty"
+      ],
+      "documents": [],
+      "difference": "Told by Dolan, who says Doty 'led Bennewitz astray' and stresses Bennewitz's intelligence, over late 1970s to early 1980s.",
+      "link_reason": "Both tell of Doty's Air Force counterintelligence operation misleading Paul Bennewitz around Kirtland in 1979 and after.",
+      "as_told": {
+        "title": "Doty leads Paul Bennewitz astray at Kirtland",
+        "years": {
+          "from": 1970,
+          "to": 1983
+        },
+        "place_text": "Kirtland Air Force Base, New Mexico",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 6569.0,
+      "to_s": 6581.0,
+      "teller": "jesse-michels",
+      "quote": "Richard Dodie spent the early 1980s as a special agent stationed at Kirtland Air [music] Force Base running disinformation against UFO researchers.",
+      "kind": "host",
+      "cites": [
+        "richard-doty",
+        "greg-bishop",
+        "paul-bennewitz"
+      ],
+      "documents": [
+        "project-beta",
+        "freedom-of-information-act-documents"
+      ],
+      "difference": "Puts it in the early 1980s and adds Dulce, Project Beta and FOIA documents.",
+      "link_reason": "Both describe the disinformation operation Doty, as an Air Force counterintelligence agent, ran against Paul Bennewitz from Kirtland AFB.",
+      "as_told": {
+        "title": "Doty's disinformation campaign against Paul Bennewitz",
+        "years": {
+          "from": 1980,
+          "to": 1983
+        },
+        "place_text": "Kirtland AFB, Albuquerque, New Mexico; Dulce, New Mexico",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
       "jesse-michels",
-      "peter-levenda"
+      "peter-levenda",
+      "richard-dolan"
     ],
     "episodes": [
+      "73YBwFvcmF8",
+      "GQlWf54K_7Y",
+      "RTEWLSTyUic",
       "Y7PLeu5rTv4",
       "fzvwBBSmWYA",
-      "kRO5jOa06Qw"
+      "kRO5jOa06Qw",
+      "rjUdn6FklAU",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 1.1,
   "tier": "well-attested",
   "plain": "Starting around 1979 in Albuquerque, New Mexico, a researcher named Paul Bennewitz came to believe in aliens. According to the story, the Air Force fed that belief on purpose until it broke him. Podcast host Jesse Michels tells it on more than one episode. He says Richard Doty, an Air Force counterintelligence agent whose job was to protect military secrets, ran a psychological operation on Bennewitz. Michels says Bennewitz had seen an unusual craft at Kirtland Air Force Base, near his home, and was fed false information afterward. Michels also points to a document called Project Beta and to a writer named Greg Bishop. Peter Levenda, an author and researcher, tells it as well, places it in the 1980s, and stresses that it is known Doty did it. To the tellers it matters because it would show the military spreading false UFO stories to steer people away from what they had seen."
 }

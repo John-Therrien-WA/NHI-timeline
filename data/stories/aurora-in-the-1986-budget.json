@@ -1,0 +1,59 @@
+{
+  "id": "aurora-in-the-1986-budget",
+  "title": "Aurora in the 1986 budget",
+  "summary": "Jesse Michels tells of Aurora in the 1986 budget, about 1986; early 1990s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1986,
+    "to": 1993
+  },
+  "place": "united-states",
+  "place_text": "USA / UK",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 4251.0,
+      "to_s": 4261.0,
+      "teller": "jesse-michels",
+      "quote": "There's a 1968, or sorry, 1986 budget, uh where it shows up as a line item for I think it like $2 billion or something",
+      "kind": "host",
+      "cites": [
+        "ben-rich"
+      ],
+      "documents": [
+        "1986-us-budget",
+        "british-ministry-of-defence-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "G7Ns4Aq1tVc"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels talks about Aurora, said to be a secret American aircraft programme. He says it shows up as a line item in the 1986 US budget, for something like 2 billion dollars, and that British Ministry of Defence papers touch on it too. In the same conversation he mentions Ben Rich, a former head of Lockheed's secret aircraft division, and if the budget line is real it would mean a hidden advanced aircraft was being paid for."
+}

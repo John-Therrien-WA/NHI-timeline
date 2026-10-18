@@ -1,0 +1,82 @@
+{
+  "id": "aurora-budget-line-item-1980",
+  "title": "Aurora budget line item",
+  "summary": "Jesse Michels tells of Aurora budget line item, about 1980s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3114.0,
+      "to_s": 3118.0,
+      "teller": "jesse-michels",
+      "quote": ">> there was a budget line item from the 80s called the Aurora",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "aurora-budget-line-item"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "advanced-theoretical-physics-group-studying-ufo-physics-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dod-pays-bob-monroe-to-train-him-in-out-of-body-experiences-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "doty-and-lear-spread-quackery-around-the-majestic-12-era-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sdi-brilliant-pebbles-as-a-black-budget-front-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-aviary-and-bill-moore-s-mufon-speech-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "On a podcast hosted by Jesse Michels, in an episode with a former US Secretary of Energy, it is said that a 1980s government budget had a line item called \"Aurora.\" It is told as a hint of a secret program hidden inside the military's budget, which would mean advanced projects were funded out of public view."
+}

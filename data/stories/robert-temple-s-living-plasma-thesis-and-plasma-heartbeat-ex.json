@@ -23,6 +23,32 @@
       "documents": [
         "the-new-science-of-heaven"
       ]
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 5598.0,
+      "to_s": 5602.0,
+      "teller": "jesse-michels",
+      "quote": "plasma front, there's a great book called The New Science of Heaven",
+      "kind": "host",
+      "cites": [
+        "robert-temple",
+        "adam-curry"
+      ],
+      "documents": [
+        "the-new-science-of-heaven"
+      ],
+      "difference": "Frames it around plasmoid experiments and a 'plasma front' rather than plasma as the living substrate of the universe.",
+      "link_reason": "Both are Jesse Michels citing Robert Temple's The New Science of Heaven on living plasma and plasma experiments.",
+      "as_told": {
+        "title": "The New Science of Heaven and plasmoid experiments",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -46,7 +72,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "6bqaHVSlVeU"
+      "6bqaHVSlVeU",
+      "PiFbeWfA3LM"
     ]
   },
   "attestation": 0.35,

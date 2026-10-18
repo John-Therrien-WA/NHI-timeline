@@ -42,6 +42,45 @@
         "place_text": "Göbekli Tepe, Turkey",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 215.0,
+      "to_s": 227.0,
+      "teller": "jesse-michels",
+      "quote": "older take quebecally Tepe an ancient burial site in modern turkey dating as far back as 9000 BC and involving the complex assembly of 50 ton blocks",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds a date of 9000 BC and the 50-ton blocks.",
+      "link_reason": "Both present Göbekli Tepe in Turkey as so old that it pushes back the age of human civilization.",
+      "as_told": {
+        "title": "Gobekli Tepe megalithic site",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Gobekli Tepe, Turkey",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 7224.0,
+      "to_s": 7233.0,
+      "teller": "jesse-michels",
+      "quote": "it 30 or 40 years we find, oh, now we have Gabbec. Oh, actually go back to Templey isn't the earliest, you know, megalithic site.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Frames it as a repeated pattern of finds pushing the date back every 30 or 40 years, and suggests Göbekli Tepe may not even be the earliest megalithic site.",
+      "link_reason": "Both say Göbekli Tepe rewrites how old human civilization is; Jesse Michels already tells this in the story.",
+      "as_told": {
+        "title": "Göbekli Tepe pushing back the age of civilization",
+        "years": null,
+        "place_text": "Göbekli Tepe, Turkey",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -67,7 +106,9 @@
     ],
     "episodes": [
       "8Rr_nE65KkI",
-      "C_Na1tI5qpw"
+      "C_Na1tI5qpw",
+      "TNtlzEnl8rA",
+      "dfPfPB601hw"
     ]
   },
   "attestation": 0.85,

@@ -1,0 +1,92 @@
+{
+  "id": "radio-station-calls-lead-moore-to-meet-doty-and-falcon-1980",
+  "title": "Radio station calls lead Moore to meet Doty and 'Falcon'",
+  "summary": "Greg Bishop tells of Radio station calls lead Moore to meet Doty and 'Falcon', about c. 1980 at Sandia National Laboratories, Albuquerque, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1980
+  },
+  "place": "sandia-nm",
+  "place_text": "Albuquerque, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 1220.0,
+      "to_s": 1227.0,
+      "teller": "greg-bishop",
+      "quote": "So he goes to Albuquerque, the next stop on his book tour, he goes into the radio station, same thing happens, same voice",
+      "kind": "secondhand",
+      "cites": [
+        "bill-moore",
+        "rick-doty",
+        "harry-rositzke"
+      ],
+      "documents": [
+        "the-roswell-incident"
+      ]
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 2371.0,
+      "to_s": 2378.0,
+      "teller": "grant-cameron",
+      "quote": ">> Seven days after he he went on the Pelici tour, he got the first phone call and that was probably from Dodie at Albuquerque",
+      "kind": "researcher",
+      "cites": [
+        "bill-moore",
+        "richard-doty"
+      ],
+      "documents": [],
+      "difference": "Dates the first call to seven days after the tour began and attributes it, probably, to Doty in Albuquerque.",
+      "link_reason": "Both tell of the 1980 phone contacts to Moore during his Roswell book tour leading to Doty in Albuquerque.",
+      "as_told": {
+        "title": "Intelligence calls to Bill Moore after the Roswell book tour",
+        "years": {
+          "from": 1980,
+          "to": 1980
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "kirtland-security-meeting-with-benowitz-where-attendees-leav-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "grant-cameron",
+      "greg-bishop"
+    ],
+    "episodes": [
+      "WBTqsbwJyqU",
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested",
+  "plain": "This story is about Bill Moore, a writer who in 1980 was touring to promote his book The Roswell Incident, about a claimed UFO crash in New Mexico. A researcher, Greg Bishop, relays what Moore said: at radio stations on the tour, a mysterious voice kept calling him. When he reached Albuquerque and went into the radio station, the same voice called again. Bishop says this led Moore to meet a man named Rick Doty and an insider known only as Falcon, and he also names Harry Rositzke. Another researcher, Grant Cameron, says the first call came seven days into the tour and was probably from Doty in Albuquerque. It is linked to another story about a security meeting at Kirtland Air Force Base. If true, it would mean people inside the government were reaching out to steer UFO researchers."
+}

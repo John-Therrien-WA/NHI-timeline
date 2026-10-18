@@ -1,0 +1,75 @@
+{
+  "id": "oval-office-briefing-on-zarqawi-camp-before-iraq-invasion-2003",
+  "title": "Oval Office briefing on Zarqawi camp before Iraq invasion",
+  "summary": "Rolf Mowatt-Larssen tells of Oval Office briefing on Zarqawi camp before Iraq invasion, about 2003 at Washington, D.C., and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2003,
+    "to": 2003
+  },
+  "place": "washington-dc",
+  "place_text": "Oval Office, Washington; northeast Iraq",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 1217.0,
+      "to_s": 1223.0,
+      "teller": "rolf-mowatt-larssen",
+      "quote": "So this time I told him, \"We know where he is. He's in this camp in northeast Iraq.\"",
+      "kind": "firsthand",
+      "cites": [
+        "george-tenet",
+        "george-w-bush",
+        "george-h-w-bush",
+        "abu-musab-al-zarqawi"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "cook-interviews-ning-li-at-a-2003-conference",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ning-li-last-seen-at-mitre-anti-gravity-conference-2003",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "weekend-meeting-with-dick-cheney-on-why-the-iraq-war-was-bei-2003",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "rolf-mowatt-larssen"
+    ],
+    "episodes": [
+      "ATJwqp5twAg"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Rolf Mowatt-Larssen, a former officer of the CIA, the US foreign intelligence agency, says that in 2003, before the US invaded Iraq, he briefed President George W. Bush in the Oval Office, with CIA director George Tenet. He says he told the president, \"We know where he is,\" meaning Abu Musab al-Zarqawi, a man the US was hunting, who he says was in a camp in northeast Iraq. He tells it as an inside view of the decisions made just before the war."
+}

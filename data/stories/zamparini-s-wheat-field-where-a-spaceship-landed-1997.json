@@ -1,0 +1,59 @@
+{
+  "id": "zamparini-s-wheat-field-where-a-spaceship-landed-1997",
+  "title": "Zamparini's wheat field where a spaceship landed",
+  "summary": "Kiran Ilum Xenov tells of Zamparini's wheat field where a spaceship landed, about Late 1990s at Italy, and relays what a named person told them. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1997,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Italy",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IFaXi-NrPV0",
+      "from_s": 3750.0,
+      "to_s": 3757.0,
+      "teller": "kiran-ilum-xenov",
+      "quote": "me a field. He had this wheat field, you see, where a spaceship had landed on several occasions.",
+      "kind": "secondhand",
+      "cites": [
+        "maurizio-zamparini"
+      ],
+      "documents": [
+        "golden-plates-with-imprints-of-the-landing",
+        "scientists-photographs"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kiran-ilum-xenov"
+    ],
+    "episodes": [
+      "IFaXi-NrPV0"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "A man named Kiran Ilum Xenov, introduced on a podcast as a former president of a Russian republic who says he was taken by aliens in 1997, says that in Italy in the late 1990s a man named Maurizio Zamparini showed him a wheat field. According to Xenov, Zamparini said a spaceship had landed there several times, and he points to golden plates bearing imprints of the landing and to photographs taken by scientists, which would be physical traces of the visits if true."
+}

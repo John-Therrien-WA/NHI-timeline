@@ -1,0 +1,64 @@
+{
+  "id": "nazi-enriched-uranium-sent-to-the-us-by-submarine-under-an-s-1945",
+  "title": "Nazi enriched uranium sent to the US by submarine under an SS deal",
+  "summary": "Jason Jorjani tells of Nazi enriched uranium sent to the US by submarine under an SS deal, about 1945 at Trinity / Hiroshima / Nagasaki, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Trinity / Hiroshima / Nagasaki",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 4749.0,
+      "to_s": 4765.0,
+      "teller": "jason-jorjani",
+      "quote": ">> and that in 1945 a deal was made with the Nazis to transfer by submarine >> the file material that went into the bombs that we dropped on Hiroshima and Nagasaki",
+      "kind": "researcher",
+      "cites": [
+        "plimpton-hydrick"
+      ],
+      "documents": [
+        "critical-mass"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "german-submarine-carrying-uranium-to-japan-1945",
+      "relation": "variant",
+      "note": "Same subject as the German submarine uranium story: Nazi uranium on a submarine ending up in American bombs. The core claim differs: a deliberate SS deal to send it to the US, rather than a captured submarine bound for Japan."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Jason Jorjani, a researcher and writer, draws on a book called Critical Mass by Carter Plimpton Hydrick. He says that in 1945 a deal was struck with the SS, Nazi Germany's elite paramilitary organisation, to ship by submarine to the United States the nuclear material that went into the atomic bombs dropped on Hiroshima and Nagasaki in Japan. If true, the first atomic bombs would partly rest on Nazi work."
+}

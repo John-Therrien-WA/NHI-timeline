@@ -1,0 +1,64 @@
+{
+  "id": "rudolf-hess-sent-to-antarctica-1938",
+  "title": "Rudolf Hess sent to Antarctica",
+  "summary": "Jason Jorjani tells of Rudolf Hess sent to Antarctica, about 1938-1939 at Antarctica, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1938,
+    "to": 1939
+  },
+  "place": "antarctica",
+  "place_text": "Antarctica",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6504.0,
+      "to_s": 6509.0,
+      "teller": "jason-jorjani",
+      "quote": "So, one of the main guys they send to Antarctica is Rudolph Hess.",
+      "kind": "researcher",
+      "cites": [
+        "rudolf-hess"
+      ],
+      "documents": [
+        "hess-and-the-penguins"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "nazi-antarctica-expedition-1938",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Jason Jorjani, speaking on Jesse Michels's podcast, says that around 1938 and 1939 Nazi Germany sent people to Antarctica, and that one of the main figures involved was Rudolf Hess, a senior Nazi leader. He credits a document or work called Hess and the Penguins. If true, it would tie the Nazi leadership directly to a secret interest in the frozen continent."
+}

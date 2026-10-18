@@ -1,0 +1,120 @@
+{
+  "id": "sphinx-originally-had-a-lion-s-head",
+  "title": "Sphinx originally had a lion's head",
+  "summary": "Graham Hancock tells of Sphinx originally had a lion's head, about prehistory; later pharaonic recarving at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Great Sphinx, Giza, Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 3488.0,
+      "to_s": 3493.0,
+      "teller": "graham-hancock",
+      "quote": "argument is that the Great Sphinx was originally a lion totally a lion",
+      "kind": "researcher",
+      "cites": [
+        "manu-seyfzadeh",
+        "john-anthony-west",
+        "robert-schoch"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 1858.0,
+      "to_s": 1864.0,
+      "teller": "graham-hancock",
+      "quote": "Yes, originally it was a the prehistoric Sphinx was a lion.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the pharaohs recarved the head and credits no one.",
+      "link_reason": "Both claim the Sphinx was originally a lion and its head was later recarved.",
+      "as_told": {
+        "title": "Sphinx originally had a lion's head, recarved by the pharaohs",
+        "years": null,
+        "place_text": "Great Sphinx, Giza, Egypt",
+        "story_kind": "theory"
+      },
+      "replay_of": {
+        "episode": "dfPfPB601hw",
+        "from_s": 3503.0
+      }
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 269.0,
+      "to_s": 285.0,
+      "teller": "jesse-michels",
+      "quote": "Graham Hancock have followed up on this to say that maybe actually uh it was a lion to begin with fully and so this lined up with the Leo which was the constellation that was the vernal equinox shift occurring in 10,500 BC",
+      "kind": "host",
+      "cites": [
+        "graham-hancock",
+        "robert-schoch",
+        "john-anthony-west"
+      ],
+      "documents": [],
+      "difference": "Adds that the lion lined up with Leo at the vernal equinox in 10,500 BC, and credits Hancock.",
+      "link_reason": "Both tell the theory that the Sphinx was at first wholly a lion, with the head carved later.",
+      "as_told": {
+        "title": "Sphinx originally a lion aligned to Leo in 10,500 BC, later recarved",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 337.0,
+      "to_s": 343.0,
+      "teller": "matt-lacroix",
+      "quote": "Sphinx is versus the head the head's too small because the head was never supposed to be that size",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Puts the recarving with dynastic Egyptians and uses the head-to-body size as the evidence, without saying the first head was a lion's.",
+      "link_reason": "The same recarving theory: the head is too small for the body because it was recut from an earlier head.",
+      "as_told": {
+        "title": "Dynastic Egyptians recarved the Sphinx head, too small for the body",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "graham-hancock",
+      "matt-lacroix"
+    ],
+    "episodes": [
+      "9PJJiut0Iuw",
+      "A_LsUSxTm7A",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several",
+  "plain": "This story is about the Great Sphinx, the huge stone statue at Giza in Egypt with a lion's body and a human head. The writer Graham Hancock says on Jesse Michels' podcast that the Sphinx was first carved entirely as a lion, and that the pharaohs, Egypt's ancient kings, later recut the head. He credits the researchers Robert Schoch, John Anthony West and Manu Seyfzadeh. Matt LaCroix, another researcher, points out that the head is too small for the body, which he says shows it was recarved by later Egyptians. Michels adds that a lion would have lined up with the constellation Leo at the spring equinox around 10,500 BC. If true, the Sphinx would be far older than the pharaohs, made by an earlier, forgotten people."
+}

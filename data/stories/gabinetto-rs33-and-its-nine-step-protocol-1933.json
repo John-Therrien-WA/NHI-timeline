@@ -155,6 +155,32 @@
         "place_text": "Italy",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 6091.0,
+      "to_s": 6116.0,
+      "teller": "jesse-michels",
+      "quote": "he said that his grandfather was part of a secret cabinet for Mussolini to study extraterrestrials and it was called RS 33. In 1953 the Italian government set up this group a secret research 33 cabinet where Marconi was the was the president and Enrico Fermi was the vice president",
+      "kind": "secondhand",
+      "cites": [
+        "marconi-s-grandson",
+        "guglielmo-marconi",
+        "enrico-fermi",
+        "mussolini"
+      ],
+      "documents": [],
+      "difference": "Dates the set-up to 1953 rather than 1933 and names Marconi as president and Fermi as vice president.",
+      "link_reason": "Same story: the secret RS33 cabinet under Mussolini with Marconi in it, as Marconi's grandson tells it.",
+      "as_told": {
+        "title": "RS 33, a secret Italian cabinet to study extraterrestrials led by Marconi",
+        "years": {
+          "from": 1930,
+          "to": 1953
+        },
+        "place_text": "Italy",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -181,7 +207,8 @@
       "-0g3lLGxNfc",
       "09KP8XVf5nY",
       "8Rr_nE65KkI",
-      "u7g5Sn1DJF4"
+      "u7g5Sn1DJF4",
+      "zrmG2jBckgk"
     ]
   },
   "attestation": 0.5,

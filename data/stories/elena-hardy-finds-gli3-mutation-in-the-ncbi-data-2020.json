@@ -1,0 +1,56 @@
+{
+  "id": "elena-hardy-finds-gli3-mutation-in-the-ncbi-data-2020",
+  "title": "Elena Hardy finds GLI3 mutation in the NCBI data",
+  "summary": "Elena Hardy tells of Elena Hardy finds GLI3 mutation in the NCBI data, about 2020s at Peru (NCBI database), and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2029
+  },
+  "place": null,
+  "place_text": "Peru (NCBI database)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 1646.0,
+      "to_s": 1657.0,
+      "teller": "elena-hardy",
+      "quote": "There's a mutation in one of those genes called GLI3, where a similar kind of mutation is associated in the literature with polysyndactyly.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "ncbi-database-genetic-data-on-the-nazca-mummies"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "elena-hardy"
+    ],
+    "episodes": [
+      "HxQN2tkQHs8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Elena Hardy, on Jesse Michels's podcast, talks about genetic data from the three-fingered mummies found near Nazca in Peru, which was posted to a public US government database of genetic sequences called the NCBI. Hardy says she found a mutation in a gene called GLI3, and that similar mutations are linked in the scientific literature to polysyndactyly, a condition of extra or joined fingers and toes. She raises it because it bears directly on what these strange bodies with unusual hands might be."
+}

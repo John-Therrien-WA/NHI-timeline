@@ -46,6 +46,59 @@
         "place_text": "Aztec, New Mexico",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 5277.0,
+      "to_s": 5284.0,
+      "teller": "jesse-michels",
+      "quote": "I agree. I' I've been there and I've been there with with Scott and Suzanne and you see the trees have been, you know, where the UFO is dragged out.",
+      "kind": "host",
+      "cites": [
+        "scott-ramsey",
+        "suzanne-ramsey",
+        "silas-newton",
+        "frank-scully"
+      ],
+      "documents": [
+        "fbi-files-on-silas-newton-and-gebauer"
+      ],
+      "difference": "Adds the dragged trees seen at the site and mentions the FBI files on Newton and GeBauer.",
+      "link_reason": "Both are Jesse Michels's own visit to the Aztec crash site with Scott and Suzanne Ramsey.",
+      "as_told": {
+        "title": "Host's visit to the Aztec crash site",
+        "years": {
+          "from": 1948,
+          "to": 1948
+        },
+        "place_text": "Aztec, New Mexico",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 930.0,
+      "to_s": 941.0,
+      "teller": "jesse-michels",
+      "quote": "There were We went to the crash site and\nthe I mean, this is all filmed. The\ntrees were like spled out where a craft\nseemed to have been like drugg through\nthe thing.",
+      "kind": "firsthand",
+      "cites": [
+        "scott-ramsey",
+        "suzanne-ramsey",
+        "silas-newton"
+      ],
+      "documents": [],
+      "difference": "Adds splintered trees where a craft seemed to have been dragged, and says the visit was filmed.",
+      "link_reason": "Jesse's own visit to the 1948 Aztec crash site with the Ramseys, the same visit as the existing story.",
+      "as_told": {
+        "title": "Aztec crash site visit with splintered trees",
+        "years": {
+          "from": 1948,
+          "to": 1948
+        },
+        "place_text": "Aztec, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -53,10 +106,35 @@
       "story": "aztec-crash-possibly-brought-down-by-the-lashup-radar-networ-1948",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aztec-1948-craft-powered-up-at-wright-field-went-translucent",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dragon-wagon-used-to-haul-the-craft-away-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "government-crash-photos-that-faded-to-blank-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "recovery-team-without-insignia-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "scientists-limited-to-20-minutes-inside-the-craft-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -67,7 +145,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -75,11 +153,13 @@
       "jesse-michels"
     ],
     "episodes": [
+      "51N8OxqZIWY",
+      "GQlWf54K_7Y",
       "kccrkCGGzX4",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "Many people say a craft that was not human crashed near Aztec, New Mexico, in 1948. A podcast host, Jesse Michels, says researchers Scott and Suzanne Ramsey spent more than $600,000 over decades looking into it and gathered a lot of evidence, and that he visited the crash site with them. In another episode he says he went to Aztec with his editor and does not mention the Ramseys."
 }

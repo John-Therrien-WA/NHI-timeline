@@ -1,0 +1,51 @@
+{
+  "id": "four-rabbis-attempt-celestial-ascent",
+  "title": "Four rabbis attempt celestial ascent",
+  "summary": "Jesse Michels tells of Four rabbis attempt celestial ascent, about ancient at Jewish tradition, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Jewish tradition",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 3872.0,
+      "to_s": 3884.0,
+      "teller": "jesse-michels",
+      "quote": "This is reflected in the Jewish parable of the parties, where four rabbis attempted celestial ascent and only one came back alive with his sanity intact.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "aKZ_MUbuk_Q"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, retells an old Jewish parable, which he calls the parable of \"the parties,\" in which four rabbis tried to rise up into the heavens and only one came back alive with his mind intact. He uses it to suggest that reaching for higher realms of reality is dangerous for whoever tries."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "ai-agent-swarm-solves-navier-stokes-2026",
+  "title": "AI agent swarm solves Navier-Stokes",
+  "summary": "Deep Prasad tells of AI agent swarm solves Navier-Stokes, about 2026 at OpenAI / frontier AI labs, and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2026,
+    "to": 2026
+  },
+  "place": null,
+  "place_text": "OpenAI / frontier AI labs",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 3206.0,
+      "to_s": 3222.0,
+      "teller": "deep-prasad",
+      "quote": "No single Astra agent or GPT agent can solve the uh problem for us. M >> but then when you get 10,000 agents and you give them 88 hours suddenly boom there is a solution.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "deep-prasad"
+    ],
+    "episodes": [
+      "h6zMVkncTsE"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Deep Prasad, talking with podcast host Jesse Michels in 2026, says that a huge team of AI programs cracked the Navier-Stokes problem, a famously hard set of equations describing how fluids like water and air move. He says no single AI agent, meaning a program that works on a task by itself, could solve it, but 10,000 of them working together for 88 hours suddenly found a solution. If true, it would show that swarms of AI can reach answers no single mind or machine could."
+}

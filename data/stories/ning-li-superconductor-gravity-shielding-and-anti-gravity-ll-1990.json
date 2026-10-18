@@ -7,7 +7,7 @@
     "from": 1990,
     "to": 2009
   },
-  "place": null,
+  "place": "huntsville-al",
   "place_text": "University of Alabama Huntsville",
   "coordinates": null,
   "kind": "reverse-engineering",
@@ -25,33 +25,106 @@
         "larry-smallley"
       ],
       "documents": []
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2480.0,
+      "to_s": 2485.0,
+      "teller": "ning-li",
+      "quote": "And nobody found any mistake in my calculation.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Ning Li, who says nobody found a mistake in her calculation.",
+      "link_reason": "Ning Li defends her own gravitational-shielding theory from her Huntsville work.",
+      "as_told": {
+        "title": "Ning Li's calculation",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Huntsville, Alabama",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 1625.0,
+      "to_s": 1632.0,
+      "teller": "jesse-michels",
+      "quote": "Yep. And she claims to have a mass reduction effect over a spinning superconductor.",
+      "kind": "host",
+      "cites": [
+        "ning-li"
+      ],
+      "documents": [],
+      "difference": "Does not mention gravitons, gravitational shielding or her company.",
+      "link_reason": "Both tell of Ning Li's claimed weight or mass reduction effect over rotating superconductors at UAH.",
+      "as_told": {
+        "title": "Ning Li mass reduction over spinning superconductor",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "University of Alabama Huntsville",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 4543.0,
+      "to_s": 4559.0,
+      "teller": "jesse-michels",
+      "quote": "that connects with Ning Lee's work in the early 2000s because she had this graviton model where you had uh AC superconductors uh rotating super quickly creating weight reduction for anything above it",
+      "kind": "host",
+      "cites": [
+        "ning-li",
+        "james-lacatski"
+      ],
+      "documents": [
+        "james-lacatski-s-book"
+      ],
+      "difference": "Puts the work in the early 2000s as an AC superconductor graviton model, and adds Lacatski's ceramic superconductors from his book.",
+      "link_reason": "Both describe Ning Li's rotating superconductors giving off gravitons that cause gravitational shielding and weight reduction.",
+      "as_told": {
+        "title": "Ning Li's gravitational shielding with rotating superconductors, and Lacatski's ceramic superconductors",
+        "years": {
+          "from": 2000,
+          "to": 2003
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "ning-li"
     ],
     "episodes": [
-      "A2-y_HasHEw"
+      "5OUzGygIrSw",
+      "A2-y_HasHEw",
+      "G7Ns4Aq1tVc",
+      "K4gYHs84BIc"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, tells of a scientist named Ning Li at the University of Alabama in Huntsville in the 1990s and 2000s, who he calls a really interesting case. Michels says she spun solid superconductors, materials that carry electricity with no resistance when very cold, very fast, and said they gave off gravitons, the tiny particles some physicists think carry gravity, which shielded things from gravity. He links her to a company called Anti-gravity LLC, and tells it as a possible human attempt to copy the kind of flight people attribute to UFOs."
 }

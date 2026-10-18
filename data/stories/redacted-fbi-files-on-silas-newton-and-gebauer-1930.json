@@ -1,0 +1,63 @@
+{
+  "id": "redacted-fbi-files-on-silas-newton-and-gebauer-1930",
+  "title": "Redacted FBI files on Silas Newton and GeBauer",
+  "summary": "Jesse Michels tells of Redacted FBI files on Silas Newton and GeBauer, about 1930s-1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1930,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 980.0,
+      "to_s": 990.0,
+      "teller": "jesse-michels",
+      "quote": "And then you have these FBI files\non Silus Newton and Gabau going way back\nto the uh I think the 30s or something\nand they're they're totally redacted.",
+      "kind": "host",
+      "cites": [
+        "silas-newton",
+        "leo-gebauer"
+      ],
+      "documents": [
+        "fbi-files-on-silas-newton-and-leo-gebauer"
+      ],
+      "replay_of": {
+        "episode": "GQlWf54K_7Y",
+        "from_s": 4986.0
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, mentions files kept by the FBI, the US federal police, on two men named Silas Newton and Leo GeBauer. He says the files go back to around the 1930s and are almost completely redacted, meaning blacked out, which he takes as a sign the government had something to hide about them."
+}

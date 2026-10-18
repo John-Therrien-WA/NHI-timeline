@@ -30,6 +30,36 @@
         "nelson-rockefeller"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 6098.0,
+      "to_s": 6109.0,
+      "teller": "daniel-sheehan",
+      "quote": "now we're getting all of this directly from trafficante who turns out to be the client of the firm where I was",
+      "kind": "secondhand",
+      "cites": [
+        "santo-trafficante",
+        "richard-nixon",
+        "howard-hughes",
+        "robert-maheu",
+        "johnny-roselli",
+        "sam-giancana",
+        "sheffield-edwards",
+        "paul-helliwell"
+      ],
+      "documents": [],
+      "difference": "Adds Sheffield Edwards, Paul Helliwell and the Fontainebleau Hotel, names the S Force, and says Trafficante was a client of Sheehan's firm.",
+      "link_reason": "Both tell of Nixon working through Hughes and the mafia to set up a Castro assassination in 1960, as Trafficante told it.",
+      "as_told": {
+        "title": "Nixon, Howard Hughes and the mafia set up the S Force to kill Castro",
+        "years": {
+          "from": 1960,
+          "to": 1960
+        },
+        "place_text": "Las Vegas; Chicago; Fontainebleau Hotel, Florida",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -53,6 +83,7 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },

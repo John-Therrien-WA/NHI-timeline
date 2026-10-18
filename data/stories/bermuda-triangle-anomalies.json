@@ -19,18 +19,36 @@
       "kind": "official",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 719.0,
+      "to_s": 729.0,
+      "teller": "jesse-michels",
+      "quote": "there is a little patch around the Bermuda Triangle sim or like near there where there is just tons of electromagnetic anomalies going on.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Relayed by Michels from a former NASA engineer and specified as electromagnetic anomalies, not as official data.",
+      "link_reason": "Both are the general claim that there are anomalies in the Bermuda Triangle region.",
+      "as_told": {
+        "title": "Former NASA engineer on electromagnetic anomalies near Bermuda Triangle",
+        "years": null,
+        "place_text": "Near the Bermuda Triangle",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.6,
+  "score": 2.6,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -39,13 +57,15 @@
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "jesse-michels",
       "tim-gallaudet"
     ],
     "episodes": [
+      "TNtlzEnl8rA",
       "nRKNVFQBi38"
     ]
   },
-  "attestation": 0.8,
-  "tier": "told-once",
+  "attestation": 1.3,
+  "tier": "well-attested",
   "plain": "Tim Gallaudet, a retired US Navy admiral, talks with podcast host Jesse Michels about the Bermuda Triangle, a stretch of the Atlantic Ocean with a long reputation for strange disappearances. Gallaudet says there seems to be data and evidence of anomalies there, which would mean something unexplained really is going on in that area."
 }

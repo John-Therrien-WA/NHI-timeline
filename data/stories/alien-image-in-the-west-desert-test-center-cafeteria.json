@@ -21,33 +21,53 @@
         "ryan-w-harris"
       ],
       "documents": []
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 9463.0,
+      "to_s": 9467.0,
+      "teller": "jesse-michels",
+      "quote": "in the cafeteria at Dugway Proving Grounds, there's a little gray alien being.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Describes it as a little gray alien being and names Dugway Proving Grounds rather than the West Desert Test Center.",
+      "link_reason": "Both describe the alien image in the cafeteria at Dugway's West Desert Test Center.",
+      "as_told": {
+        "title": "Gray alien figure in the Dugway Proving Grounds cafeteria",
+        "years": null,
+        "place_text": "Dugway Proving Grounds, Utah",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "jesse-michels",
       "uapgerb"
     ],
     "episodes": [
-      "u7g5Sn1DJF4"
+      "u7g5Sn1DJF4",
+      "uYyXpx7ADJQ"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A researcher who goes by the online name UAPGerb shows a picture on Jesse Michels's podcast and says it hangs in the cafeteria at the West Desert Test Center, part of Dugway Proving Ground, a US Army testing site in Utah. The picture shows an alien, and he brings it up as a hint that people at the base are aware of the subject."
 }

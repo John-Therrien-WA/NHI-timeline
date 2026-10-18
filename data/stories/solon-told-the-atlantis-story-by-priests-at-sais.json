@@ -1,0 +1,103 @@
+{
+  "id": "solon-told-the-atlantis-story-by-priests-at-sais",
+  "title": "Solon told the Atlantis story by priests at Sais",
+  "summary": "Graham Hancock tells of Solon told the Atlantis story by priests at Sais, about c. 600 BC; event c. 9600 BC at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Temple of Neith, Sais, Nile Delta, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 1009.0,
+      "to_s": 1015.0,
+      "teller": "graham-hancock",
+      "quote": "calendar and Solon went to a Temple dedicated to the goddess Neath at sice",
+      "kind": "researcher",
+      "cites": [
+        "plato",
+        "solon"
+      ],
+      "documents": [
+        "plato-s-account-of-atlantis"
+      ]
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 2853.0,
+      "to_s": 2864.0,
+      "teller": "graham-hancock",
+      "quote": "gives that date because the Egyptian priests who read the hieroglyphs on the wall of the temple of Neith at Sais in the Delta to Solon and translated it for him.",
+      "kind": "researcher",
+      "cites": [
+        "plato",
+        "solon"
+      ],
+      "documents": [
+        "timaeus",
+        "critias"
+      ],
+      "difference": "Adds that the priests read the hieroglyphs on the temple wall and translated them, and gives the dates c. 600 BC and c. 9600 BC.",
+      "link_reason": "Both tell of the priests at the Temple of Neith at Sais giving Solon the Atlantis account.",
+      "as_told": {
+        "title": "Atlantis date given to Solon by the priests of Sais",
+        "years": null,
+        "place_text": "Temple of Neith, Sais, Nile Delta, Egypt",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 9401.0,
+      "to_s": 9412.0,
+      "teller": "tim-alberino",
+      "quote": "Um going back and referencing what we're talking about the priest of Sai explaining all of this to Solon of Athens.",
+      "kind": "researcher",
+      "cites": [
+        "solon"
+      ],
+      "documents": [],
+      "difference": "Stresses the priest's teaching on cyclic cataclysm and ties it to the present age, rather than the Atlantis account itself.",
+      "link_reason": "Both tell of the Egyptian priest at Sais instructing Solon, the same conversation that carries the Atlantis account and its cycles of cataclysm.",
+      "as_told": {
+        "title": "Priest of Sais tells Solon about cyclic cataclysm",
+        "years": null,
+        "place_text": "Sais, Egypt",
+        "story_kind": "cosmology"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "graham-hancock",
+      "tim-alberino"
+    ],
+    "episodes": [
+      "9PJJiut0Iuw",
+      "CiQTBOQ1dTg",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "well-attested",
+  "plain": "This is the ancient source of the Atlantis legend, a story of a great island civilisation that was destroyed. A writer on lost ancient civilisations, Graham Hancock, says that Solon, a lawmaker of ancient Athens, travelled to Egypt and visited a temple of the goddess Neith at a city called Sais, in the Nile Delta. Hancock says the Egyptian priests there read the picture writing on the temple walls to Solon and translated it for him. He says this is why the Greek philosopher Plato, writing in his works Timaeus and Critias, gives such an early date for Atlantis, around 9600 BC, with Solon's visit around 600 BC. Hancock tells this on two different podcast episodes. Another guest, Tim Alberino, also refers to the priest of Sais teaching Solon. Alberino focuses on the priest's lesson that the world goes through repeated great disasters, and ties it to our own time. If the account is true, an advanced civilisation was lost long before written history."
+}

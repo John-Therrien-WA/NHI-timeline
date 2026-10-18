@@ -110,6 +110,96 @@
         "place_text": "unspecified",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2933.0,
+      "to_s": 2940.0,
+      "teller": "jesse-michels",
+      "quote": "One of his pieces that we looked at together when I visited was magnesium bismuth.",
+      "kind": "firsthand",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Dated to the 2020s and the Stanford visit, with no Roswell origin stated.",
+      "link_reason": "This is the same firsthand line about the magnesium-bismuth piece Michels examined in Nolan's lab, which the corpus files under the Roswell bismuth-magnesium sample.",
+      "as_told": {
+        "title": "Gary Nolan's magnesium-bismuth crash fragment",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Stanford, California",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 4011.0,
+      "to_s": 4016.0,
+      "teller": "jesse-michels",
+      "quote": "Magnesium bismuth parts that uh Gary Nolan has in his lab",
+      "kind": "host",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Gives no origin for the samples.",
+      "link_reason": "Same magnesium-bismuth parts in Garry Nolan's lab, mentioned alongside Townsend Brown's bismuth.",
+      "as_told": {
+        "title": "Gary Nolan's magnesium-bismuth samples",
+        "years": null,
+        "place_text": "Gary Nolan's lab",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 3229.0,
+      "to_s": 3247.0,
+      "teller": "jesse-michels",
+      "quote": "Multi-layered bismouth and magnesium sample. Bismouth layers less than a human hair supposedly picked up in the crash retrieval of an advanced aerospace vehicle. Nowhere could we find any evidence that anybody ever made one of these.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "No Roswell or grandfather provenance is given, only an unspecified crash retrieval, and it adds that the layers are thinner than a human hair and that no known manufacturer exists.",
+      "link_reason": "Both concern the layered bismuth-magnesium sample attributed to a crashed craft that nobody is known to have manufactured. The Roswell-provenance story is the nearest one about the sample itself.",
+      "as_told": {
+        "title": "Bismuth-magnesium multi-layered sample from crash retrieval",
+        "years": null,
+        "place_text": "unspecified lab",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 2693.0,
+      "to_s": 2704.0,
+      "teller": "hal-putoff",
+      "quote": "Story was that it was sent anonymously by someone claiming to be an army officer and written in the diary was that it was a piece from",
+      "kind": "secondhand",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [
+        "diary"
+      ],
+      "difference": "Says the piece was sent anonymously by someone claiming to be an army officer, where the story has the officer finding it in his grandfather's archives.",
+      "link_reason": "Both are about the magnesium-bismuth sample said to come from Roswell, with a diary note linking it to an army officer.",
+      "as_told": {
+        "title": "Alleged Roswell piece sent anonymously by an army officer",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "episode": "dzTZbSNsKV8",
+        "from_s": 1293.0
+      }
     }
   ],
   "related": [
@@ -197,28 +287,98 @@
       "story": "roswell-flying-disc-announcement-then-retraction-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "alien-bodies-and-a-live-gray-recovered-at-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fort-worth-general-orders-blanchard-it-s-a-weather-balloon-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-marcel-s-unbendable-foil-thin-metal-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-caused-by-radio-signatures-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-held-the-most-us-nukes-in-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-s-shifting-official-stories-including-the-progeria-c-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-the-world-s-only-nuclear-bomber-base-couldn-t-tell-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-in-the-hangar-had-the-bathroom-on-the-other-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-rumoured-at-wright-patterson-lab-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "serpo-alien-language-decoded-from-a-live-ebe-recovered-at-ro-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tim-taylor-places-piece-of-roswell-crash-in-bledsoe-s-hand-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "two-saucers-at-roswell-left-melted-fiber-optics-that-looked-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "washington-quickly-ordered-roswell-bottled-up-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "hal-putoff",
       "jesse-michels"
     ],
     "episodes": [
+      "2Xxmguz0GEQ",
+      "2ttdlCa5ZCI",
+      "RTEWLSTyUic",
+      "ScE9FaDy-mE",
       "dzTZbSNsKV8",
       "iQOibpIDx-4",
       "jMCavr3dVP0",
@@ -226,7 +386,7 @@
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
+  "attestation": 2.0,
+  "tier": "well-attested",
   "plain": "Roswell is a town in New Mexico where, many say, a craft crashed in 1947 and was collected by the military. The podcast host Jesse Michels says the researcher Hal Puthoff told him that an army officer, going through his grandfather's archives, found a rare sample of the metals bismuth and magnesium, with a diary note saying it was a piece from Roswell. Michels has told it in different ways over the years: once the grandfather is a colonel in the Roswell clean-up and the piece sat in a safe, and elsewhere he says he saw such a piece with Garry Nolan, a Stanford scientist, and guesses it could allow magnetic levitation, which would point to technology beyond our own."
 }

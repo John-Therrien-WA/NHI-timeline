@@ -1,0 +1,90 @@
+{
+  "id": "grandfather-s-name-carved-atop-the-great-pyramid-1916",
+  "title": "Grandfather's name carved atop the Great Pyramid",
+  "summary": "Graham Hancock tells of Grandfather's name carved atop the Great Pyramid, about 1916 at Egypt (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1916,
+    "to": 1916
+  },
+  "place": "egypt",
+  "place_text": "Great Pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 409.0,
+      "to_s": 419.0,
+      "teller": "graham-hancock",
+      "quote": "from the top we found the name p initial P Hancock 5th of April 1916.",
+      "kind": "firsthand",
+      "cites": [
+        "santha-faiia",
+        "philip-hancock"
+      ],
+      "documents": [
+        "philip-hancock-s-diaries"
+      ]
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 1647.0,
+      "to_s": 1659.0,
+      "teller": "graham-hancock",
+      "quote": "Uh on one step down from the top, we found the name P initial P Hancock 5th of April, 1916.",
+      "kind": "firsthand",
+      "cites": [
+        "philip-hancock",
+        "santha"
+      ],
+      "documents": [
+        "philip-hancock-s-diaries"
+      ],
+      "difference": "Places it one step down from the top on the south side and credits Philip Hancock's diaries.",
+      "link_reason": "Both tell of Hancock finding his grandfather P. Hancock's name, dated 5 April 1916, near the top of the Great Pyramid.",
+      "as_told": {
+        "title": "Grandfather's 1916 graffiti at the top of the Great Pyramid",
+        "years": {
+          "from": 1916,
+          "to": 1916
+        },
+        "place_text": "top of the Great Pyramid, south side, Giza",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "dfPfPB601hw",
+        "from_s": 394.0
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "graham-hancock"
+    ],
+    "episodes": [
+      "9PJJiut0Iuw",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "An author named Graham Hancock says that when he climbed the Great Pyramid in Egypt, he and Santha Faiia, who was with him, found a carving near the top that read \"P Hancock, 5th of April 1916.\" He tells podcast host Jesse Michels that this was his grandfather, Philip Hancock, whose diaries back up the visit. In one telling he puts the name at the top, and in another one step down from the top on the south side. For Hancock, it is a personal link between his family and the ancient monument he has spent years writing about."
+}

@@ -26,6 +26,101 @@
         "ralph-east"
       ],
       "documents": []
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 3225.0,
+      "to_s": 3241.0,
+      "teller": "mario-woods",
+      "quote": "then there was a captain uh Jack Reed OSI next to him was this new OSI guy named Rick doie",
+      "kind": "firsthand",
+      "cites": [
+        "jack-reed",
+        "rick-dodie",
+        "ralph-east-breer"
+      ],
+      "documents": [],
+      "difference": "Dated 1977 rather than the 1960s, and places the debrief in the commander's office.",
+      "link_reason": "This is the same debrief at Ellsworth, with OSI's Jack Reed and new OSI man Rick Doty present, told by Woods.",
+      "as_told": {
+        "title": "Debriefing in the commander's office with OSI's Jack Reed and Richard Doty present",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Ellsworth AFB, South Dakota",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 1446.0,
+      "to_s": 1452.0,
+      "teller": "mario-woods",
+      "quote": "because the first time I saw him was on Ancient Aliens and I said, I know that guy. He was at my debrief.",
+      "kind": "firsthand",
+      "cites": [
+        "rick-doty"
+      ],
+      "documents": [],
+      "difference": "Dated 1977 rather than the 1960s, and adds that Woods recognized Doty later on Ancient Aliens.",
+      "link_reason": "Both are Woods's firsthand account of Rick Doty being present at his debrief at Ellsworth.",
+      "as_told": {
+        "title": "Rick Doty at Mario Woods's debrief",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Ellsworth Air Force Base, South Dakota",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 3137.0,
+      "to_s": 3155.0,
+      "teller": "jesse-michels",
+      "quote": "Five men in the room. the wing commander, the deputy base commander, agents of the Air Force Office of Special Investigations, [music] and a civilian in a gray tweed suit nobody ever names.",
+      "kind": "host",
+      "cites": [
+        "mario-woods"
+      ],
+      "documents": [],
+      "difference": "Names five men (wing commander, deputy base commander, OSI agents) plus an unnamed civilian in a gray tweed suit, with no mention of Doty, and dates it 1977.",
+      "link_reason": "Both describe Mario's debrief at Ellsworth with OSI agents present.",
+      "as_told": {
+        "title": "Debrief room with a civilian in a gray tweed suit",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Ellsworth AFB, South Dakota",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 6548.0,
+      "to_s": 6562.0,
+      "teller": "jesse-michels",
+      "quote": "For 37 years, Mario didn't know it. The junior OSI agent at his Ellsworth debrief was just a face until 2014 when that exact face showed up in his living room [music] and Mario shouted at the TV,",
+      "kind": "host",
+      "cites": [
+        "mario-woods",
+        "richard-doty"
+      ],
+      "documents": [],
+      "difference": "Dates the debrief to 1977 and adds that Mario only recognised Doty when he saw him on TV in 2014.",
+      "link_reason": "Both claim that the junior OSI agent at Mario's Ellsworth debrief was Rick Doty.",
+      "as_told": {
+        "title": "Mario recognizes Doty on TV as junior OSI agent at his debrief",
+        "years": {
+          "from": 1977,
+          "to": 2014
+        },
+        "place_text": "Ellsworth AFB, South Dakota",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -42,14 +137,17 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "mario-woods"
     ],
     "episodes": [
-      "fzvwBBSmWYA"
+      "73YBwFvcmF8",
+      "WBTqsbwJyqU",
+      "fzvwBBSmWYA",
+      "rjUdn6FklAU"
     ]
   },
   "attestation": 1.0,

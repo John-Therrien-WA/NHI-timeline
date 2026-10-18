@@ -23,33 +23,80 @@
       "documents": [
         "the-telepathy-tapes"
       ]
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 7189.0,
+      "to_s": 7198.0,
+      "teller": "ky-dickens",
+      "quote": "when she wrote her book the ESP Enigma she had her medical license revoked because she was talking about ESP",
+      "kind": "secondhand",
+      "cites": [
+        "diane-powell"
+      ],
+      "documents": [
+        "the-esp-enigma"
+      ],
+      "difference": "Links the revocation to her book The ESP Enigma, not to studying telepathic children.",
+      "link_reason": "Same story: Diane Powell's medical licence being revoked over her ESP/telepathy work.",
+      "as_told": {
+        "title": "Diane Powell's medical license revoked after The ESP Enigma",
+        "years": {
+          "from": 2009,
+          "to": 2009
+        },
+        "place_text": "Oregon and California",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 7739.0,
+      "to_s": 7746.0,
+      "teller": "jesse-michels",
+      "quote": "atrocity that your your medical license\nwas revoked at one point right just for\nlooking into this stuff",
+      "kind": "host",
+      "cites": [
+        "dr-powell"
+      ],
+      "documents": [],
+      "difference": "Says the revocation was for 'looking into this stuff' in general and says it happened 'at one point', but it does not mention telepathic children.",
+      "link_reason": "Telling 3 is about the same thing as the stored story: Dr Powell's medical license being revoked because she looked into telepathy.",
+      "as_told": {
+        "title": "Dr Powell's medical license revoked for researching telepathy",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "ky-dickens"
     ],
     "episodes": [
+      "0qlppHc3-gg",
       "ABOP8ZJsyIk"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says that a doctor named Diane Powell had her medical licence taken away because she studied children said to be telepathic, meaning able to read minds. He connects her to The Telepathy Tapes, a project about these children. If that is what happened, it would mean a doctor lost her right to practise for looking into this subject."
 }

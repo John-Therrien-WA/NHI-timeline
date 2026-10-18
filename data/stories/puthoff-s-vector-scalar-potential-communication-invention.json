@@ -1,0 +1,78 @@
+{
+  "id": "puthoff-s-vector-scalar-potential-communication-invention",
+  "title": "Puthoff's vector/scalar potential communication invention",
+  "summary": "Dave Rossi tells of Puthoff's vector/scalar potential communication invention, about unspecified at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 2337.0,
+      "to_s": 2345.0,
+      "teller": "dave-rossi",
+      "quote": "for example, as we see with Dr. Hal Puthoff's invention, um, where he had he's using vector and scalar potentials to communicate.",
+      "kind": "researcher",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 601.0,
+      "to_s": 612.0,
+      "teller": "jesse-michels",
+      "quote": "Hal put off is working on this quantum comms company and um you know basically it's like these vector and scalar potentials",
+      "kind": "host",
+      "cites": [
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Describes it as a quantum comms company Puthoff is working on in 2026.",
+      "link_reason": "Puthoff's work on communication using vector and scalar potentials, the same subject as the invention story.",
+      "as_told": {
+        "title": "Hal Puthoff's quantum communications company",
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "place_text": "unspecified",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "dave-rossi",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw",
+      "h6zMVkncTsE"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several",
+  "plain": "A researcher named Dave Rossi says on Jesse Michels's podcast in 2025 that Hal Puthoff, a physicist, invented a way to communicate using what are called vector and scalar potentials, deeper quantities in the physics of electricity and magnetism that sit beneath ordinary electric and magnetic fields. Michels tells it again in 2026, saying Puthoff is now working on a quantum communications company built on those same potentials. If true, it would mean a kind of signalling that works outside ordinary radio."
+}

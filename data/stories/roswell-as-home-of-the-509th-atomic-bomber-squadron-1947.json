@@ -22,33 +22,108 @@
       "kind": "researcher",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 4885.0,
+      "to_s": 4894.0,
+      "teller": "john-brandenburg",
+      "quote": "I think it was the 509th Bomber Group there. They had all the nuclear weapons on Earth were stored at Roswell.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that every nuclear weapon on Earth was stored at Roswell.",
+      "link_reason": "Both tell the same place-lore: Roswell in 1947 was home to the 509th atomic bomb group.",
+      "as_told": {
+        "title": "All the world's nuclear weapons stored at Roswell with the 509th",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell Army Air Field, New Mexico",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 7190.0,
+      "to_s": 7196.0,
+      "teller": "jesse-michels",
+      "quote": "pretty quickly. And Roswell was the site\nof the only American nuclear stockpile\nat the time.",
+      "kind": "host",
+      "cites": [
+        "jesse-marcel",
+        "walter-haut",
+        "william-blanchard",
+        "roger-ramey"
+      ],
+      "documents": [],
+      "difference": "Names the officers (Marcel, Haut, Blanchard, Ramey) and calls Roswell the site of the only American nuclear stockpile at the time.",
+      "link_reason": "Both tell of Roswell in 1947 as the base of the 509th atomic bomb group, which held the nation's nuclear stockpile.",
+      "as_told": {
+        "title": "Roswell officers and the 509th atomic bomb group",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico / Fort Worth, Texas",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 4400.0,
+      "to_s": 4411.0,
+      "teller": "jesse-michels",
+      "quote": "Do you think that, you know, something happened maybe at Roswell? You know, that was obviously the site of the 509th Atomic Bomber Squadron led by Curtis Lame.",
+      "kind": "host",
+      "cites": [
+        "curtis-lemay"
+      ],
+      "documents": [],
+      "difference": "Names Curtis LeMay as the unit's leader and puts it as a question about whether something happened at Roswell.",
+      "link_reason": "Both point to Roswell in 1947 being the base of the 509th atomic bomb group as a reason to think something happened there.",
+      "as_told": {
+        "title": "Roswell and the 509th Atomic Bomb Group",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 1.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
+      "john-brandenburg",
       "marik-von-rennenkampf"
     ],
     "episodes": [
-      "1iaH1a3A4Lk"
+      "1F7DHbSbgbQ",
+      "1iaH1a3A4Lk",
+      "KGD1nuM4MR8",
+      "p0S0BfoZy0w"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.85,
+  "tier": "told-by-several",
   "plain": "A man named Marik von Rennenkampf, speaking on podcast host Jesse Michels's show, points out that in 1947 Roswell, New Mexico, was home to the 509th, which he calls the first atomic bomber squadron in the US. He raises it because, if UFOs came to Roswell, it would tie them to the place where the country's nuclear bombers were based."
 }

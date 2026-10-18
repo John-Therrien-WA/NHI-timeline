@@ -24,6 +24,26 @@
         "vasily-alexeyev"
       ],
       "documents": []
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 6158.0,
+      "to_s": 6168.0,
+      "teller": "jesse-michels",
+      "quote": "Russian General Vasilei Alexv said that UFOs would show up when they transported sensitive scientific technology.",
+      "kind": "host",
+      "cites": [
+        "vasily-alexeyev"
+      ],
+      "documents": [],
+      "difference": "Says what the claim was (UFOs appeared while sensitive scientific technology was being transported) but does not mention the 2000 German magazine.",
+      "link_reason": "Both are General Vasily Alexeyev's public statement about UFOs. This telling gives what he said: UFOs appeared when sensitive technology was being moved.",
+      "as_told": {
+        "title": "Soviet UFOs during transport of sensitive technology",
+        "years": null,
+        "place_text": "Soviet Union",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -47,7 +67,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "-0g3lLGxNfc"
+      "-0g3lLGxNfc",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.1,

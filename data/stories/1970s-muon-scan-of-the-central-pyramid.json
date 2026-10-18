@@ -1,0 +1,92 @@
+{
+  "id": "1970s-muon-scan-of-the-central-pyramid",
+  "title": "1970s muon scan of the central pyramid",
+  "summary": "Jeffrey tells of 1970s muon scan of the central pyramid, about 1970s at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "egypt",
+  "place_text": "Central pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 7335.0,
+      "to_s": 7344.0,
+      "teller": "jeffrey",
+      "quote": "So, they they muon scanned the central pyramid back in the '70s and I have that paper in here as well",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "1970s-muon-scan-paper-of-the-central-pyramid"
+      ]
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 14301.0,
+      "to_s": 14317.0,
+      "teller": "jeffrey",
+      "quote": "So this next thing I mentioned that there was a muon scanning of the central pyramid. Luis Alvarez, I knew I recognized the name, so he was a part of this. They scanned the Belzoni chamber and the area above the Belzoni chamber. They didn't find anything.",
+      "kind": "researcher",
+      "cites": [
+        "luis-alvarez"
+      ],
+      "documents": [
+        "alvarez-muon-scanning-paper-1970s"
+      ],
+      "difference": "Names Luis Alvarez and says the scan found nothing above the Belzoni chamber.",
+      "link_reason": "The same muon scanning paper on the central pyramid that Jeffrey cites in the 1970s muon-scan story.",
+      "as_told": {
+        "title": "Alvarez muon scan of Khafre found nothing above the Belzoni chamber",
+        "years": {
+          "from": 1960,
+          "to": 1979
+        },
+        "place_text": "Khafre pyramid (Belzoni chamber), Giza, Egypt",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "1970s-flanagan-samples-find-calcium-sulfate-inside-the-great",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tapes-of-puharich-meditating-in-the-king-s-chamber-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A researcher named Jeffrey, speaking on Jesse Michels's podcast, says that in the 1970s scientists scanned the middle of the three big pyramids at Giza in Egypt using muons, tiny particles from space that pass through rock and can show hidden empty spaces. He says he has the paper, and that a scientist named Luis Alvarez was part of the work. According to Jeffrey, the team scanned the Belzoni chamber, a room inside the pyramid, and the area above it, and found nothing, which matters because people still look for hidden rooms in the pyramids."
+}

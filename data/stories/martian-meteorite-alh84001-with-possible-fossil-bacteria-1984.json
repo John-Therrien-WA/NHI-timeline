@@ -1,0 +1,105 @@
+{
+  "id": "martian-meteorite-alh84001-with-possible-fossil-bacteria-1984",
+  "title": "Martian meteorite ALH84001 with possible fossil bacteria",
+  "summary": "Jesse Michels tells of Martian meteorite ALH84001 with possible fossil bacteria, about 1984-1996 at Antarctica, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1984,
+    "to": 1996
+  },
+  "place": "antarctica",
+  "place_text": "Antarctica; Mars",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7428.0,
+      "to_s": 7436.0,
+      "teller": "jesse-michels",
+      "quote": "investigate in 1984 scientists found a Martian meteorite in Antarctica it was code named alh84001",
+      "kind": "host",
+      "cites": [
+        "president-clinton"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 2594.0,
+      "to_s": 2599.0,
+      "teller": "john-brandenburg",
+      "quote": "Uh actually actually it was found in Antarctica and that was ALH 84001.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "alh-84001"
+      ],
+      "difference": "Brandenburg places the find in the 1990s, where the story says 1984.",
+      "link_reason": "The same Martian meteorite ALH 84001, found in Antarctica, with apparent fossils.",
+      "as_told": {
+        "title": "ALH 84001 Martian meteorite with apparent fossils",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Antarctica",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 3937.0,
+      "to_s": 3948.0,
+      "teller": "jesse-michels",
+      "quote": "I believe also in the '90s there was Alh84001, this uh meteor that was found that Bill Clinton made a speech on",
+      "kind": "host",
+      "cites": [
+        "bill-clinton"
+      ],
+      "documents": [],
+      "difference": "Centres on Clinton's speech rather than on finding the meteorite in Antarctica.",
+      "link_reason": "Same ALH84001 Martian meteorite that Clinton gave a speech about in the 1990s.",
+      "as_told": {
+        "title": "ALH84001 meteorite and Clinton's speech",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "US / Mars meteorite",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "john-brandenburg"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg",
+      "JpLThEF2dTM",
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "well-attested",
+  "plain": "This story is about a rock from Mars that landed on Earth. According to a podcast host named Jesse Michels, scientists found a Martian meteorite in Antarctica in 1984 and gave it the code name ALH84001. The story goes that the rock seemed to hold tiny shapes that might be fossilised bacteria. That matters because, if true, it would mean there was once life on Mars. Michels says President Bill Clinton gave a speech about it in the 1990s. A scientist guest, Dr. John Brandenburg, also tells of the find in Antarctica, though he places it in the 1990s. In a later episode Michels brings it up again, this time focusing on Clinton's speech rather than the discovery. So it is told by the host twice and by a scientist, with some difference over the date."
+}

@@ -248,9 +248,209 @@
         "place_text": "Magenta, Italy",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 6015.0,
+      "to_s": 6021.0,
+      "teller": "jesse-michels",
+      "quote": "just for context for the audience magenta was a rumored crash I believe in Bolognia Italy",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Places the crash, tentatively, in Bologna instead of Magenta, Lombardy, and adds that the craft was held at the Vatican and later sent to the US.",
+      "link_reason": "Both are about the 1933 Magenta crash in Italy. The story's tellings cover the crash itself and its recovery.",
+      "as_told": {
+        "title": "Magenta crash in Bologna, Italy, held at the Vatican and later sent to the US",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Bologna, Italy",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7292.0,
+      "to_s": 7299.0,
+      "teller": "jesse-michels",
+      "quote": "So David Grush says that there's this magenta crash in Lombardi in Italy in 1933.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "Both tell of the 1933 Magenta crash in Lombardy, as David Grusch describes it.",
+      "as_told": {
+        "title": "1933 Magenta crash in Lombardy",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Magenta, Lombardy, Italy",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 10580.0,
+      "to_s": 10585.0,
+      "teller": "jesse-michels",
+      "quote": "Lombardy in Italy the one that Dave\ngrush talks about the magenta crash",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "No year is given (only pre-1947), and it is credited only to Grusch, not Bissell.",
+      "link_reason": "The same Magenta, Lombardy crash that Grusch talks about.",
+      "as_told": {
+        "title": "Magenta crash in Lombardy",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Lombardy, Italy",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 5690.0,
+      "to_s": 5694.0,
+      "teller": "jesse-michels",
+      "quote": "Crashes on record. He talks about the Magenta crash 1933.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "A brief mention, credited only to Grusch, with no details about the object or who recovered it.",
+      "link_reason": "Both are about the 1933 crash at Magenta, Italy, credited to David Grusch, which is the subject of the story's many tellings.",
+      "as_told": {
+        "title": "Magenta crash of 1933",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Magenta, Italy",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 1542.0,
+      "to_s": 1549.0,
+      "teller": "jay-anderson",
+      "quote": "I think even\nGrush talked about recoveries, right?\nThe Italians recovered something back in\n193.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Anderson tells it secondhand and vaguely ('back in 193'), with no detail about the craft.",
+      "link_reason": "This is the same 1933 Magenta crash recovery in Italy, credited to Grusch, that the story's many tellings describe.",
+      "as_told": {
+        "title": "Magenta crash recovery in Italy",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Italy",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 1902.0,
+      "to_s": 1912.0,
+      "teller": "harold-malmgren",
+      "quote": "He said this didn't start last week. This has been going on. He mentioned 1933 magenta.",
+      "kind": "secondhand",
+      "cites": [
+        "richard-bissell"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "The same quote: Bissell told Malmgren that this had been going on since the 1933 Magenta crash.",
+      "as_told": {
+        "title": "Richard Bissell told Malmgren about the 1933 Magenta crash",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Magenta, Italy",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "09KP8XVf5nY",
+        "from_s": 5484.0
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 1950.0,
+      "to_s": 1963.0,
+      "teller": "david-grusch",
+      "quote": "1933 was the first recovery in Europe in uh Magenta, Italy. Italian government moved it to a secure air base in Italy for the the rest of kind of the fascist regime until 1944, 1945.",
+      "kind": "official",
+      "cites": [
+        "pope-pius-xii"
+      ],
+      "documents": [],
+      "difference": "Told directly by Grusch, who adds that the Italian government kept the craft at a secure air base until 1944-45.",
+      "link_reason": "Both tell the 1933 Magenta recovery as the first recovery in Europe, which this story's tellings credit to Grusch.",
+      "as_told": {
+        "title": "Grusch on the 1933 Magenta recovery and Vatican backchannel",
+        "years": {
+          "from": 1933,
+          "to": 1945
+        },
+        "place_text": "Magenta, Italy",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 7900.0,
+      "to_s": 7905.0,
+      "teller": "jesse-michels",
+      "quote": "you hear about this magenta crash, you know, 1933 in Italy.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "A bare mention with no detail of the object or recovery.",
+      "link_reason": "The 1933 Magenta, Italy crash credited to Grusch, which the Bissell/Magenta story already tells in Michels' own retellings citing Grusch.",
+      "as_told": {
+        "title": "Magenta crash 1933",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Magenta, Italy",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "hugh-angleton-in-italy-during-the-1933-magenta-crash",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "magenta-case-mussolini-s-rs33-investigation-group-1933",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 2.6,
   "profile": {
@@ -264,7 +464,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 2,
+    "repetitions": 3,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
@@ -275,9 +475,16 @@
       "-0g3lLGxNfc",
       "09KP8XVf5nY",
       "2-GeTxXi670",
+      "51N8OxqZIWY",
       "8Rr_nE65KkI",
+      "8TYMQOUDQBo",
+      "ABw7EsWh2Us",
       "C4rSj5Aum7w",
-      "xnxasfyHtfo"
+      "CiQTBOQ1dTg",
+      "WBTqsbwJyqU",
+      "nTiFs8LudUo",
+      "xnxasfyHtfo",
+      "yAvD5UTziTo"
     ]
   },
   "attestation": 1.3,

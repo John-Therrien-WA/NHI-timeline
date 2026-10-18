@@ -1,0 +1,53 @@
+{
+  "id": "crowley-s-lam-entity",
+  "title": "Crowley's Lam entity",
+  "summary": "Jesse Michels tells of Crowley's Lam entity, about early 20th century at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 13346.0,
+      "to_s": 13350.0,
+      "teller": "jesse-michels",
+      "quote": "And and Crowley's another guy who had an alien being sort of seemed to show up and",
+      "kind": "host",
+      "cites": [
+        "aleister-crowley"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, mentions Aleister Crowley, an occultist of the early twentieth century, as another man to whom an alien being seemed to appear. That being is known as Lam. Michels raises it briefly as one more case of a person who says he made contact with something not human."
+}

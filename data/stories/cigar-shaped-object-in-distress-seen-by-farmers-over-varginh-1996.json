@@ -24,6 +24,71 @@
       "documents": [
         "moment-of-contact"
       ]
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 2612.0,
+      "to_s": 2619.0,
+      "teller": "james-fox",
+      "quote": "were people, firsthand witnesses that I personally interviewed that said it was cylindrical shaped like a school bus,",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Fox says he interviewed these firsthand witnesses himself.",
+      "link_reason": "Same 1996 Varginha sighting by several witnesses of a cylindrical craft about the size of a school bus.",
+      "as_told": {
+        "title": "Other witnesses describe a cylindrical craft like a school bus",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 2622.0,
+      "to_s": 2635.0,
+      "teller": "james-fox",
+      "quote": "interesting aspect of it is Dr. Armando, who did the autopsy on the deceased military officer. He has two friends, farmers that saw exactly what he saw before it crashed.",
+      "kind": "secondhand",
+      "cites": [
+        "armando-fortonado"
+      ],
+      "documents": [],
+      "difference": "Names the farmers as two friends of Dr. Armando, the autopsy doctor, and says they saw it before the crash.",
+      "link_reason": "Farmer witnesses who saw the 1996 Varginha craft before it crashed, the same sighting the farmers story tells.",
+      "as_told": {
+        "title": "Dr. Armando's two farmer friends saw the craft before it crashed",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 12544.0,
+      "to_s": 12557.0,
+      "teller": "ahmed-foratu",
+      "quote": "People close to Vaheen who saw a ship the size of a bus heading towards the city in those days.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "The witnesses are people close to Varginha, not farmers, and the craft is heading toward the city with no mention of it being in distress.",
+      "link_reason": "Both describe several witnesses seeing a bus-sized craft over Varginha in January 1996.",
+      "as_told": {
+        "title": "A bus-sized ship heading toward the city",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Near Varginha, Brazil",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [
@@ -31,17 +96,22 @@
       "story": "fabio-furtado-sees-object-land-on-his-farm-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "a-witness-saw-the-craft-over-the-hospital-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -50,13 +120,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "ahmed-foratu",
       "james-fox"
     ],
     "episodes": [
+      "UkKwa4jU0fc",
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "James Fox, who covered the case in a documentary called Moment of Contact, tells podcast host Jesse Michels that around 13 January 1996, several farmers near Varginha, a town in Brazil, saw a large object shaped like a cylinder or cigar, a bit bigger than a school bus. He passes on what witnesses told him, which is that the object seemed to be in trouble. People tell this because it may be the start of the Varginha events, and another farmer says he saw an object come down on his land."
 }

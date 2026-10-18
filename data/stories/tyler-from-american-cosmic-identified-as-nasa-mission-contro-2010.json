@@ -1,0 +1,85 @@
+{
+  "id": "tyler-from-american-cosmic-identified-as-nasa-mission-contro-2010",
+  "title": "Tyler from American Cosmic identified as NASA mission controller Timothy Taylor",
+  "summary": "Jesse Michels tells of Tyler from American Cosmic identified as NASA mission controller Timothy Taylor, about 2010s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2019
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 5986.0,
+      "to_s": 5994.0,
+      "teller": "jesse-michels",
+      "quote": "Tyler from Diana's book is a NASA mission controller named Timothy Taylor.",
+      "kind": "host",
+      "cites": [
+        "diana-pasulka",
+        "tim-taylor"
+      ],
+      "documents": [
+        "american-cosmic"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "clapper-asks-nsa-director-mike-rogers-for-all-of-nsa-s-ufo-f-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-hospitalization-and-retained-clearance-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "senior-vp-material-scientist-no-physicists-ever-on-the-crash-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "taylor-next-rocket-science-advance-will-come-from-religion-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tyler-s-protocols-and-the-incoming-signal-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that a man called Tyler in American Cosmic, a book by Diana Pasulka, is really a NASA mission controller named Timothy Taylor. NASA is the US space agency. If true, it puts a real name and a real job to one of the book's anonymous sources."
+}

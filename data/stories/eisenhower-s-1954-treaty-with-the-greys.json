@@ -92,6 +92,52 @@
         "place_text": "Palm Springs / Edwards Air Force Base, California",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 6988.0,
+      "to_s": 6996.0,
+      "teller": "jesse-michels",
+      "quote": "Ike Eisenhower, you know, meeting possibly, you know, Palm Springs 1954, this this this treaty",
+      "kind": "host",
+      "cites": [
+        "dwight-eisenhower"
+      ],
+      "documents": [],
+      "difference": "Only alludes to a possible meeting and treaty, without naming the greys or the treaty's terms.",
+      "link_reason": "Both tell the lore of Eisenhower's 1954 alien treaty, which one of that story's tellings also places in Palm Springs in 1954.",
+      "as_told": {
+        "title": "Host asks about Eisenhower's 1954 Palm Springs treaty",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "Palm Springs, California",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 6390.0,
+      "to_s": 6398.0,
+      "teller": "jesse-michels",
+      "quote": "if this Eisenhower rumor that like there was a deal done in 1954 at Edwards Air Force Base",
+      "kind": "host",
+      "cites": [
+        "dwight-eisenhower"
+      ],
+      "documents": [],
+      "difference": "Places the deal at Edwards Air Force Base.",
+      "link_reason": "Both are the rumour that in 1954 Eisenhower made a deal letting the greys run medical experiments on the population.",
+      "as_told": {
+        "title": "Eisenhower 1954 Edwards deal allowing medical experimentation",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "Edwards Air Force Base, California",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -125,7 +171,9 @@
     "episodes": [
       "EzPmG_7WhXc",
       "LpLFWdsIU7M",
+      "QgxjtDS2sIQ",
       "Y7PLeu5rTv4",
+      "rjUdn6FklAU",
       "yGtVzBbUvx4"
     ]
   },

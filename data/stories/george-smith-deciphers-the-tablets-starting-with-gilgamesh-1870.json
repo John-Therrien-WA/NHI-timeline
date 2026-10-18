@@ -1,0 +1,58 @@
+{
+  "id": "george-smith-deciphers-the-tablets-starting-with-gilgamesh-1870",
+  "title": "George Smith deciphers the tablets, starting with Gilgamesh",
+  "summary": "Matt tells of George Smith deciphers the tablets, starting with Gilgamesh, about 1870s, 1875 at British Museum, London, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1870,
+    "to": 1879
+  },
+  "place": null,
+  "place_text": "British Museum, London",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 6229.0,
+      "to_s": 6241.0,
+      "teller": "matt",
+      "quote": "says here comes George Smith George Smith gets a hold of these he brings it back to the British museum he spends the next 10 years 10 years studying them",
+      "kind": "researcher",
+      "cites": [
+        "george-smith"
+      ],
+      "documents": [
+        "epic-of-gilgamesh"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matt"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A guest named Matt, speaking on Jesse Michels' podcast, tells how a man named George Smith got hold of ancient clay tablets with writing on them and brought them to the British Museum in London. Matt says Smith spent the next ten years, through the 1870s, studying and decoding them, beginning with the Epic of Gilgamesh, a very old poem from the ancient Middle East. He tells it as the starting point for reading old records that may hold memories of a lost past."
+}

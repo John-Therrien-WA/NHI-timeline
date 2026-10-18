@@ -1,0 +1,62 @@
+{
+  "id": "james-randi-s-million-dollar-paranormal-challenge-1964",
+  "title": "James Randi's million-dollar paranormal challenge",
+  "summary": "Chris Ramsay tells of James Randi's million-dollar paranormal challenge, about 1964-2015 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1964,
+    "to": 2015
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 944.0,
+      "to_s": 949.0,
+      "teller": "chris-ramsay",
+      "quote": "he had this show where at first he would give you 10 grand if you proved something paranormal would exist.",
+      "kind": "researcher",
+      "cites": [
+        "james-randi"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "randi-s-million-dollar-challenge-was-really-a-30-year-payout",
+      "relation": "variant",
+      "note": "Both are about James Randi's paranormal challenge. The stored story claims the prize was really a 30-year payout that Randi judged himself, while this telling presents it as a straightforward cash prize that began at $10,000."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "chris-ramsay"
+    ],
+    "episodes": [
+      "h3u8EkGI8OQ"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "James Randi was a well-known skeptic who ran a challenge offering money to anyone who could prove a paranormal power under test conditions. A magician and researcher named Chris Ramsay told podcast host Jesse Michels that at first Randi offered 10,000 dollars on a show for such proof, and the prize later grew to a million. Ramsay brings it up while questioning how fair the challenge really was."
+}

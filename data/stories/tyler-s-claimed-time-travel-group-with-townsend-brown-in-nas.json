@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Tyler's claimed time-travel group with Townsend Brown in NASA and the Bahamas, about mid-20th century at NASA and Nassau, Bahamas, and relays what a named person told them. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "NASA and Nassau, Bahamas",
   "coordinates": null,
   "kind": "program",
@@ -24,11 +24,196 @@
         "thomas-townsend-brown"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 6026.0,
+      "to_s": 6040.0,
+      "teller": "jesse-michels",
+      "quote": "He wrote that Tim Taylor personally told my father he was in an elite group called the NASA group headed up by T. Townsend Brown. Also insinuated they had time travel technology.",
+      "kind": "secondhand",
+      "cites": [
+        "chris-bledsoe",
+        "chris-bledsoe-s-son",
+        "tim-taylor"
+      ],
+      "documents": [
+        "twitter-post-by-chris-bledsoe-s-son"
+      ],
+      "difference": "The source is a Twitter post by Chris Bledsoe's son, the teller names Taylor directly rather than Tyler, and the time travel is only 'insinuated'; the Bahamas are not mentioned.",
+      "link_reason": "Both tell Taylor's claim that he belonged to a NASA group headed by Townsend Brown that had time travel technology, as relayed through the Bledsoes.",
+      "as_told": {
+        "title": "Tim Taylor says he was in a NASA group headed by Townsend Brown",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 6535.0,
+      "to_s": 6549.0,
+      "teller": "jesse-michels",
+      "quote": "Ryan bledo Chris bled so's son says that uh Tim Taylor was part of it told them that he was part of a a a secret time Travel Group in Nassau in the Bahamas",
+      "kind": "secondhand",
+      "cites": [
+        "ryan-bledsoe",
+        "tim-taylor",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Does not mention NASA and gives only Nassau as the location.",
+      "link_reason": "Both tell of Taylor/Tyler telling the Bledsoes, through Ryan Bledsoe, that he belonged to a secret time-travel group in Nassau with Townsend Brown at its head.",
+      "as_told": {
+        "title": "Tim Taylor and secret time-travel group in Nassau led by Townsend Brown",
+        "years": null,
+        "place_text": "Nassau, Bahamas",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 6077.0,
+      "to_s": 6086.0,
+      "teller": "jesse-michels",
+      "quote": "I was part of this secret time travel group based in NASA in the Bahamas. And Thomas Townsend Brown was the president of this group.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "chris-bledsoe",
+        "diana-pasulka",
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "american-cosmic"
+      ],
+      "difference": "Names the claimant Timothy Taylor and credits Diana Pasulka's American Cosmic as a source.",
+      "link_reason": "The same claimed secret time-travel group based in NASA and the Bahamas, with Townsend Brown as president, told to the Bledsoes.",
+      "as_told": {
+        "title": "Secret time travel group at NASA in the Bahamas",
+        "years": null,
+        "place_text": "Bahamas",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 7567.0,
+      "to_s": 7580.0,
+      "teller": "jesse-michels",
+      "quote": "friends and family. Apparently, Tim Taylor told Ryan Bledsoe, Chris Bledso's son, that he was part of a secret group in Nassau in the Bahamas that dealt with time travel.",
+      "kind": "secondhand",
+      "cites": [
+        "ryan-bledsoe",
+        "tim-taylor"
+      ],
+      "documents": [],
+      "difference": "Names Ryan Bledsoe as the person told, and does not mention NASA or Townsend Brown.",
+      "link_reason": "Both tell of Taylor telling the Bledsoes he belonged to a secret time-travel group in Nassau, Bahamas.",
+      "as_told": {
+        "title": "Taylor's claimed secret time-travel group in Nassau",
+        "years": null,
+        "place_text": "Nassau, Bahamas",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 3326.0,
+      "to_s": 3340.0,
+      "teller": "jesse-michels",
+      "quote": "And then Tim Taylor apparently told Christopher Bledsoe's son Ryan that he was part of a secret time travel program in NASA in the Bahamas, and that Thomas Townsend Brown was the president of that group.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "ryan-bledsoe",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Names Tim Taylor and says he told Ryan Bledsoe specifically.",
+      "link_reason": "Both tell of Taylor (transcribed as 'Tyler' in the story) telling the Bledsoes he belonged to a NASA/Bahamas time-travel group that Townsend Brown led.",
+      "as_told": {
+        "title": "A secret NASA time-travel program in the Bahamas",
+        "years": null,
+        "place_text": "Bahamas",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 1177.0,
+      "to_s": 1192.0,
+      "teller": "jesse-michels",
+      "quote": "documentary, I make this connection that Tim Taylor told your son Ryan Bledsoe that he was part of a secret time travel group in Nassau in the Bahamas and that Thomas Towns and Brown was the president.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "ryan-bledsoe",
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "launch-fever"
+      ],
+      "difference": "Names Ryan Bledsoe as the one told and cites the Launch Fever documentary, but leaves out NASA.",
+      "link_reason": "Both tell of Taylor (transcribed 'Tyler') telling the Bledsoes he belonged to a time-travel group in Nassau with Townsend Brown as president.",
+      "as_told": {
+        "title": "Nassau time travel group with Townsend Brown as president",
+        "years": null,
+        "place_text": "Nassau, Bahamas",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 2121.0,
+      "to_s": 2133.0,
+      "teller": "jesse-michels",
+      "quote": "Bledsoe. Taylor also told Bledso's son, Ryan, that he was part of a secret time travel group and that mid-century anti-gravity inventor Thomas Towns and Brown was the president of it.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "ryan-bledsoe",
+        "chris-bledsoe",
+        "townsend-brown-s-daughter"
+      ],
+      "documents": [
+        "launch-fever"
+      ],
+      "difference": "Names Ryan Bledsoe as the one told and cites Launch Fever, but leaves out NASA and the Bahamas.",
+      "link_reason": "Both are about Taylor telling the Bledsoes he belonged to a time-travel group with Townsend Brown as president ('Tyler' is a mistranscription).",
+      "as_told": {
+        "title": "Tim Taylor's time travel group with Townsend Brown as president",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 8142.0,
+      "to_s": 8155.0,
+      "teller": "jesse-michels",
+      "quote": "together. And Tim Taylor also told Chris Bledso's son that he was part of a secret time travel group out of Nassau in the Bahamas.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor",
+        "chris-bledsoe",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Says Taylor told Chris Bledsoe's son and leaves out the NASA base.",
+      "link_reason": "Both tell Taylor's (transcribed 'Tyler') claim to the Bledsoes that he belonged to a secret time-travel group based in Nassau, Bahamas, linked to Townsend Brown.",
+      "as_told": {
+        "title": "Tim Taylor's secret time travel group out of Nassau",
+        "years": null,
+        "place_text": "Nassau, Bahamas",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,7 +224,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -47,10 +232,18 @@
       "jesse-michels"
     ],
     "episodes": [
-      "aa9Xx5wI8Rw"
+      "2Xxmguz0GEQ",
+      "5OUzGygIrSw",
+      "QgxjtDS2sIQ",
+      "RTEWLSTyUic",
+      "ScE9FaDy-mE",
+      "aa9Xx5wI8Rw",
+      "bM18PJY6_Zc",
+      "fpUa3xJN64Q",
+      "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says a man known only as Tyler told a family named Bledsoe, including Chris and Ryan Bledsoe, that he had been part of a group based at NASA, the US space agency, and in the Bahamas. According to Tyler, a man named Townsend Brown was president of the group, and its work involved time travel technology. If true, it would mean a hidden group once worked on time travel."
 }

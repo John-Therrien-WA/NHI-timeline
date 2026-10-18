@@ -1,0 +1,74 @@
+{
+  "id": "the-great-year-documentary-proposes-a-binary-companion-siriu",
+  "title": "The Great Year documentary proposes a binary companion (Sirius)",
+  "summary": "Matt LaCroix tells of The Great Year documentary proposes a binary companion (Sirius), about ancient to present at Solar system, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Solar system",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 3707.0,
+      "to_s": 3719.0,
+      "teller": "matt-lacroix",
+      "quote": "they postulated that the great year was based on a dance of uh our binary companion but these thought it was serious",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "the-great-year"
+      ]
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 3777.0,
+      "to_s": 3789.0,
+      "teller": "the-great-year-narrator",
+      "quote": "some say the binary model confirms all of our Celestial observations without the need for excessive torque or epicycle type explanations",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "the-great-year"
+      ],
+      "difference": "The documentary narrator adds that the binary model explains celestial observations without excessive torque or epicycles.",
+      "link_reason": "This is the same Great Year documentary's binary-companion model that telling 8 describes, now heard in a clip from the documentary.",
+      "as_told": {
+        "title": "Documentary clip: binary model explains celestial observations",
+        "years": null,
+        "place_text": "Solar system",
+        "story_kind": "cosmology"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matt-lacroix",
+      "the-great-year-narrator"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "well-attested",
+  "plain": "This story is about a documentary film called The Great Year. It deals with a long, slow cycle in the sky known by that name. A researcher on ancient history named Matt LaCroix describes it on a podcast with the host Jesse Michels. He says the film's makers proposed that the Great Year comes from our Sun moving in a pair with a partner star, and that they thought this partner was Sirius, a bright star. A clip of the documentary's own narrator is played in the same episode. The narrator says some believe this paired-star model fits everything we see in the sky. He adds that it does so without needing extra twisting forces or epicycles, the small added circles once used to explain how planets move. If true, it would change how we picture the Sun's place among the stars."
+}

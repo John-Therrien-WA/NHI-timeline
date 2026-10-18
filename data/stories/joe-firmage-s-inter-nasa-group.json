@@ -1,0 +1,53 @@
+{
+  "id": "joe-firmage-s-inter-nasa-group",
+  "title": "Joe Firmage's Inter NASA group",
+  "summary": "Jesse Michels tells of Joe Firmage's Inter NASA group, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 7258.0,
+      "to_s": 7266.0,
+      "teller": "jesse-michels",
+      "quote": "I believe he started this group called Inter NASA, which was based on the Academy of Arts and Sciences.",
+      "kind": "host",
+      "cites": [
+        "joe-firmage"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "uYyXpx7ADJQ"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says he believes a man named Joe Firmage started a group called Inter NASA. Michels says it was modelled on the Academy of Arts and Sciences, though he gives no date or place."
+}

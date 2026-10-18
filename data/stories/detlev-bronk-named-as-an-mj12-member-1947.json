@@ -1,0 +1,69 @@
+{
+  "id": "detlev-bronk-named-as-an-mj12-member-1947",
+  "title": "Detlev Bronk named as an MJ12 member",
+  "summary": "Jesse Michels tells of Detlev Bronk named as an MJ12 member, about late 1940s-1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 2386.0,
+      "to_s": 2396.0,
+      "teller": "jesse-michels",
+      "quote": "In fact, Detlev Bronc who is the president of the Rockefeller Foundation was named as one of the Majestic 12.",
+      "kind": "host",
+      "cites": [
+        "detlev-bronc"
+      ],
+      "documents": [
+        "mj12-documents"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "fbi-von-braun-sent-classified-documents-to-the-ussr-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-s-account-of-early-ufo-hypotheses-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Jpf0ZGY87c0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Detlev Bronk, then president of the Rockefeller Foundation, is named as one of the members of Majestic 12 in the MJ12 documents, papers said to describe a secret group of twelve top officials who handled UFO matters from the late 1940s. If true, it would place a leading figure of American science inside a hidden effort to manage what was known about UFOs."
+}

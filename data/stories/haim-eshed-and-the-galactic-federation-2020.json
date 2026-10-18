@@ -7,7 +7,7 @@
     "from": 2020,
     "to": 2020
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Israel / Mars",
   "coordinates": null,
   "kind": "cosmology",
@@ -86,18 +86,87 @@
         "place_text": "Israel",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7503.0,
+      "to_s": 7511.0,
+      "teller": "jesse-michels",
+      "quote": "he claimed that the United States and other nations have had Direct contact with a Galactic Federation",
+      "kind": "host",
+      "cites": [
+        "haim-eshed"
+      ],
+      "documents": [],
+      "difference": "Adds an explicit claim of an underground base on Mars and direct contact by the United States and other nations.",
+      "link_reason": "Both tell of Haim Eshed's 2020 claims that the US and other nations have contact with a Galactic Federation, linked to Mars.",
+      "as_told": {
+        "title": "Haim Eshed claims a Galactic Federation and an underground base on Mars",
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "place_text": "Israel; USA; Mars",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 3097.0,
+      "to_s": 3112.0,
+      "teller": "jesse-michels",
+      "quote": "says that there's a Galactic Federation, that there are like factions of aliens fighting each other, and that there are uh American astronauts working with aliens under uh the ground in Mars",
+      "kind": "secondhand",
+      "cites": [
+        "haim-eshed"
+      ],
+      "documents": [],
+      "difference": "Adds alien factions fighting each other and American astronauts working with aliens underground on Mars.",
+      "link_reason": "Both are Haim Eshed's 2020 claims about a Galactic Federation and a secret space program.",
+      "as_told": {
+        "title": "Haim Eshed: Galactic Federation and astronauts under Mars",
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "place_text": "Mars / Israel",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 3057.0,
+      "to_s": 3065.0,
+      "teller": "chris-ramsay",
+      "quote": "and then you hear these high macheds and like the Galactic Federation, they're here to stop our nukes.",
+      "kind": "secondhand",
+      "cites": [
+        "haim-eshed"
+      ],
+      "documents": [],
+      "difference": "Adds the claim that the Federation is here to stop our nukes.",
+      "link_reason": "Both are about Haim Eshed's 2020 Galactic Federation claims.",
+      "as_told": {
+        "title": "Haim Eshed's Galactic Federation claim: they are here to stop our nukes",
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "place_text": "Israel",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 3.0,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 3,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -106,16 +175,20 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "chris-ramsay",
       "james-fox",
       "jesse-michels"
     ],
     "episodes": [
       "-0g3lLGxNfc",
       "2-GeTxXi670",
-      "bVhSPH2A5Vw"
+      "JpLThEF2dTM",
+      "bVhSPH2A5Vw",
+      "h3u8EkGI8OQ",
+      "p0S0BfoZy0w"
     ]
   },
-  "attestation": 1.5,
+  "attestation": 2.0,
   "tier": "well-attested",
   "plain": "This story is about Haim Eshed, an Israeli official described as the head of Israel's version of a space force, and what he is said to have claimed around 2020. A podcast host named Jesse Michels says that Eshed wrote an autobiography in which he talks about a Galactic Federation, an alliance of beings from beyond Earth, and the story's setting runs from Israel to Mars. On another episode Michels says Eshed also spoke about a secret space programme along with other unusual things about UFOs. A UFO researcher named James Fox, speaking with Michels, does not name Eshed or the Federation but stresses that the position of head of Israel's space force equivalent is an extremely important one. Michels tells it several times across his podcast, while Fox adds only the weight of the job. People tell it because, if true, a senior defence official would be saying openly that humans are in contact with an organised group of non-human beings."
 }

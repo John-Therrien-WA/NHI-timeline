@@ -24,6 +24,29 @@
         "john-mccone"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 5700.0,
+      "to_s": 5719.0,
+      "teller": "daniel-sheehan",
+      "quote": "we found out that that Kennedy on June 5th of 1963 uh and this would be what June July August SE October like five months earlier uh that he had asked to be briefed on the UFO stuff",
+      "kind": "secondhand",
+      "cites": [
+        "dick-billings"
+      ],
+      "documents": [],
+      "difference": "Credits Dick Billings as the source and does not name McCone.",
+      "link_reason": "Both tell of JFK asking on June 5, 1963 to be fully briefed on UFOs; Sheehan tells both.",
+      "as_told": {
+        "title": "Kennedy asks for UFO briefing on June 5, 1963",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "Washington DC",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -34,29 +57,30 @@
     }
   ],
   "tags": [],
-  "score": 0.5,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
-    "researcher": 1,
+    "secondhand": 1,
+    "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "secondhand",
     "tellers": [
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 0.25,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "A speaker named Dan Sheehan says that on June 5, 1963, President John F. Kennedy contacted John McCone, the new head of the CIA, the US spy agency, after pushing the old head, Allen Dulles, into retirement. According to Sheehan, Kennedy said he wanted to be fully briefed on everything about UFOs. If true, it would mean a sitting president was pressing his spies for the UFO secrets."
 }

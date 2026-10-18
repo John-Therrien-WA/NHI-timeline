@@ -27,33 +27,60 @@
       "documents": [
         "oberth-1954-lecture-notes"
       ]
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 1676.0,
+      "to_s": 1691.0,
+      "teller": "jesse-michels",
+      "quote": "In a 1954 lecture, he argued that these UFOs had been observed since at least the 1400s. Obert believed they were piloted by extraterrestrial visitors monitoring Earth's nuclear sites and military tech.",
+      "kind": "host",
+      "cites": [
+        "hermann-oberth"
+      ],
+      "documents": [
+        "1954-lecture"
+      ],
+      "difference": "Says the lecture had UFOs seen since the 1400s and piloted by extraterrestrials watching nuclear sites, where the story's teller cites radar speeds up to 19 km/s.",
+      "link_reason": "Both are Oberth's 1954 lecture on UFOs.",
+      "as_told": {
+        "title": "Oberth's 1954 lecture on UFOs watching nuclear sites",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "Germany",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "jesse-michels",
       "kevin-knuth"
     ],
     "episodes": [
-      "IWui5cBkwoE"
+      "IWui5cBkwoE",
+      "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.85,
+  "tier": "well-attested",
   "plain": "A researcher named Kevin Knuth says he has the notes from a 1954 lecture in Germany by Hermann Oberth, an early rocket scientist who is named alongside his fellow rocket man Wernher von Braun. According to Knuth, Oberth wrote that he had seen many radar readings of unknown objects moving at up to 19 kilometres per second. If that is true, a founder of rocketry took UFO speeds seriously, and they were far beyond anything humans could build at the time."
 }

@@ -27,19 +27,39 @@
       "documents": [
         "the-age-of-disclosure"
       ]
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 3529.0,
+      "to_s": 3538.0,
+      "teller": "jack",
+      "quote": "eventually they did get it either through their own crash retrievals or infiltrating our program whatever it might be. And now there is a race and we are not in first.",
+      "kind": "researcher",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Says the US program was buried after the Cold War, that adversaries got craft by their own retrievals or by infiltrating the US program, and that the US is not in first place.",
+      "link_reason": "Both claim that the US and its adversaries, China among them, retrieved crashed craft and are in a race to back-engineer them.",
+      "as_told": {
+        "title": "Cold War program buried; adversaries got crash retrievals and are ahead",
+        "years": null,
+        "place_text": "United States / China / Russia",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
@@ -47,13 +67,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jack",
       "joe-rogan"
     ],
     "episodes": [
+      "8TYMQOUDQBo",
       "C_Na1tI5qpw"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "well-attested",
   "plain": "Joe Rogan, a popular podcast host, said on Jesse Michels's show that Dan Farah, who made a documentary called The Age of Disclosure, firmly believes both the United States and China have recovered crashed craft that are not human-made. According to Rogan, Farah believes both countries are also trying to take those craft apart and copy them, which would mean a quiet technology race between the two powers."
 }

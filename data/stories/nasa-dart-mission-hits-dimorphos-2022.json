@@ -24,6 +24,29 @@
         "nasa"
       ],
       "documents": []
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 813.0,
+      "to_s": 820.0,
+      "teller": "jesse-michels",
+      "quote": "DART program aimed to prove that humans can deflect asteroids with satellites and prevent Earth impact",
+      "kind": "host",
+      "cites": [
+        "nasa"
+      ],
+      "documents": [],
+      "difference": "Frames it as proving that humans can deflect asteroids and spans 2021-2022.",
+      "link_reason": "The same NASA DART mission that struck Dimorphos to test asteroid deflection.",
+      "as_told": {
+        "title": "NASA DART asteroid deflection mission",
+        "years": {
+          "from": 2021,
+          "to": 2022
+        },
+        "place_text": "Dimorphos / Didymos asteroid system",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -47,7 +70,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "JGE1NIGhBzw"
+      "JGE1NIGhBzw",
+      "dfPfPB601hw"
     ]
   },
   "attestation": 0.1,

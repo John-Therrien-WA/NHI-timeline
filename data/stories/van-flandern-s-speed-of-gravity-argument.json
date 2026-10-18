@@ -1,0 +1,53 @@
+{
+  "id": "van-flandern-s-speed-of-gravity-argument",
+  "title": "Van Flandern's speed-of-gravity argument",
+  "summary": "Rupert Sheldrake tells of Van Flandern's speed-of-gravity argument, about an unknown time at an unknown place, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": null,
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 3600.0,
+      "to_s": 3610.0,
+      "teller": "rupert-sheldrake",
+      "quote": "a physicist called van flandern um argues that the speed of gravity is at least two billion times the speed of light",
+      "kind": "researcher",
+      "cites": [
+        "van-flandern"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "rupert-sheldrake"
+    ],
+    "episodes": [
+      "wT5-hXWIkzM"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Rupert Sheldrake, a researcher known for unusual ideas about science, mentioned this on the podcast of host Jesse Michels. Sheldrake says that a physicist named Van Flandern argued that gravity travels at least two billion times faster than light. If that were so, it would upend the common view that nothing moves faster than light."
+}

@@ -1,0 +1,86 @@
+{
+  "id": "kentucky-farm-case-behind-night-skies-and-e-t-1950",
+  "title": "Kentucky farm case behind Night Skies and E.T.",
+  "summary": "Bryce Zabel tells of Kentucky farm case behind Night Skies and E.T., about 1950s; Night Skies c. 1980 at Kentucky, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1980
+  },
+  "place": null,
+  "place_text": "Kentucky",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 4655.0,
+      "to_s": 4664.0,
+      "teller": "unidentified-guest",
+      "quote": "impetus for it where a far a family found an alien on a farm and they hid it in their barn and the whole thing. It was a movie called Night Skies, which he was developing as a producer.",
+      "kind": "researcher",
+      "cites": [
+        "steven-spielberg"
+      ],
+      "documents": [],
+      "teller_was": "bryce-zabel"
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 487.0,
+      "to_s": 496.0,
+      "teller": "unidentified-guest",
+      "quote": "Where a far a family found an alien on a farm and they hid it in their barn and the whole thing. It was a movie called Night Skies, which he was developing as a producer.",
+      "kind": "secondhand",
+      "cites": [
+        "steven-spielberg"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "Both are the Kentucky farm family who hid an alien in their barn, the case behind Night Skies and E.T.",
+      "as_told": {
+        "title": "E.T. based on a Kentucky farm family hiding an alien (Night Skies)",
+        "years": {
+          "from": 1950,
+          "to": 1979
+        },
+        "place_text": "Kentucky",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "yJUBSuPh1pM",
+        "from_s": 4652.0
+      },
+      "teller_was": "unidentified-clip-speaker"
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "unidentified-guest"
+    ],
+    "episodes": [
+      "ScE9FaDy-mE",
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A guest on Jesse Michels' podcast tells, in two episodes about the film director Steven Spielberg, of a case from Kentucky in the 1950s in which a farm family is said to have found an alien and hidden it in their barn. According to the guest, this story was the spark for Night Skies, a film Spielberg was developing as a producer around 1980, which in turn led to E.T., his famous movie about a child who hides a stranded alien. If true, it would mean one of Hollywood's best-loved films grew out of a real encounter story."
+}

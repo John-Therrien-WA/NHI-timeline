@@ -177,11 +177,132 @@
         "place_text": "Palomar Observatory, California",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 1195.0,
+      "to_s": 1201.0,
+      "teller": "beatriz-villarroel",
+      "quote": "Our original sample is around uh, 105,000 transients from just the northern hemisphere,",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "palomar-observatory-photographic-plates"
+      ],
+      "difference": "Told first hand by Villarroel, who gives about 105,000 and says the sample covers only the northern hemisphere.",
+      "link_reason": "Both tell of the roughly 100,000 transients Villarroel found on the pre-Sputnik Palomar plates.",
+      "as_told": {
+        "title": "About 105,000 transients on the pre-Sputnik Palomar plates",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Palomar Observatory, California (northern hemisphere sky)",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 4933.0,
+      "to_s": 4939.0,
+      "teller": "jesse-michels",
+      "quote": "And from 1949 to 1957, so pre-Sputnik, pre-satellites being in space, she found",
+      "kind": "secondhand",
+      "cites": [
+        "beatrice-villarroel",
+        "sabine-hossenfelder",
+        "brian-keating"
+      ],
+      "documents": [],
+      "difference": "Nothing new beyond the dates and the pre-Sputnik framing.",
+      "link_reason": "Same story: Villarroel's pre-Sputnik transients on the Palomar plates from 1949 to 1957.",
+      "as_told": {
+        "title": "Pre-Sputnik transients on Palomar Observatory plates",
+        "years": {
+          "from": 1949,
+          "to": 1957
+        },
+        "place_text": "Palomar Observatory, California",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 2579.0,
+      "to_s": 2587.0,
+      "teller": "jesse-michels",
+      "quote": "There's a a friend of mine, Beatatric Voriel. She's a an astronomer um from Stockholm University.",
+      "kind": "host",
+      "cites": [
+        "beatatric-voriel"
+      ],
+      "documents": [],
+      "difference": "Calls the transients 'orbital' and introduces Villarroel as a friend at Stockholm University, with no counts given.",
+      "link_reason": "Both tell of Beatriz Villarroel's transients on the 1949-1957 Palomar Observatory plates.",
+      "as_told": {
+        "title": "Villarroel's Palomar orbital transients",
+        "years": {
+          "from": 1940,
+          "to": 1959
+        },
+        "place_text": "Palomar Observatory, California",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 3649.0,
+      "to_s": 3658.0,
+      "teller": "jesse-michels",
+      "quote": "She found tens of thousands of transients, light reflecting mirrorlike objects orbiting the Earth.",
+      "kind": "host",
+      "cites": [
+        "beatriz-villarroel"
+      ],
+      "documents": [
+        "palomar-astronomical-plates"
+      ],
+      "difference": "Says outright that the transients are objects orbiting the Earth.",
+      "link_reason": "Both tell of Villarroel finding tens of thousands of mirror-like transients on the 1949–1957 Palomar plates, before Sputnik.",
+      "as_told": {
+        "title": "Villarroel's pre-Sputnik transients on Palomar plates",
+        "years": {
+          "from": 1949,
+          "to": 1957
+        },
+        "place_text": "Palomar Observatory / Earth orbit",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 4545.0,
+      "to_s": 4557.0,
+      "teller": "jesse-michels",
+      "quote": "And it was the most prominent observatory in use in the 40s and 50s. And she has found a bunch of transients that essentially look like UFOs. They look like flat mirror-l like objects.",
+      "kind": "researcher",
+      "cites": [
+        "unnamed-stockholm-university-astrophysic"
+      ],
+      "documents": [
+        "palomar-observatory-plates"
+      ],
+      "difference": "Here the researcher is an unnamed Stockholm University astrophysicist rather than being named as Villarroel, and no count of transients is given.",
+      "link_reason": "Both are about Villarroel's transients on the 1949-1957 Palomar Observatory plates, described as flat, mirror-like objects.",
+      "as_told": {
+        "title": "Palomar Observatory plate transients",
+        "years": {
+          "from": 1940,
+          "to": 1959
+        },
+        "place_text": "Palomar Observatory, California",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -192,7 +313,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -200,15 +321,20 @@
       "beatriz-villarroel"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
+      "1zRWi_r3HRM",
       "8Rr_nE65KkI",
       "IWui5cBkwoE",
       "hBrfe4hFuM0",
+      "iPxbILOMQ08",
       "mOWwdIuyaQA",
       "u7g5Sn1DJF4",
-      "uVVqFg2v7ro"
+      "uVVqFg2v7ro",
+      "wlsQIbpEKSM",
+      "zrmG2jBckgk"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "The podcast host Jesse Michels often describes work by an astronomer named Beatriz Villarroel, who studied old photographic plates from the Palomar Observatory in California, taken from 1949 to 1957, before the first satellite, Sputnik, went up. Michels says she found many \"transients,\" brief flashes that look like sunlight bouncing off flat, mirror-like objects in orbit, and he gives counts ranging from over 10,000 a year to over 100,000 in total, sometimes adding that they seem linked to nuclear tests. Villarroel herself, on the show, says 30 to 35 percent of the objects she studies come from solar reflections, which would mean something reflective was up there before humans put anything in space."
 }

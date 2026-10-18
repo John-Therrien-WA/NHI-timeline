@@ -41,34 +41,55 @@
         "place_text": "unspecified",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 5059.0,
+      "to_s": 5065.0,
+      "teller": "jesse-michels",
+      "quote": ">> I got breakfast with Tom Dong and he told me that he thought these were like archons",
+      "kind": "firsthand",
+      "cites": [
+        "tom-delonge"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "The same breakfast at which DeLonge told Jesse he thought the NHI were archons.",
+      "as_told": {
+        "title": "Tom DeLonge told Jesse over breakfast the phenomenon is archons",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "cosmology"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "51N8OxqZIWY",
       "Y7PLeu5rTv4"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "Jesse Michels, a podcast host, says that over breakfast Tom DeLonge, a rock musician who co-founded To the Stars Academy, a company studying UFOs, told him he thought many of the NHI, meaning non-human intelligences, are not friendly. In a later episode, Michels adds that DeLonge framed this through Gnostic thought, an ancient religious tradition, and compared these beings to its archons, ruling powers that hold humans in check. If true, it would mean the visitors are something to be wary of rather than welcomed."
 }

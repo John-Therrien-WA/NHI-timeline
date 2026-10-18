@@ -23,18 +23,39 @@
       "documents": [
         "the-age-of-disclosure"
       ]
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 7101.0,
+      "to_s": 7108.0,
+      "teller": "chris-ramsay",
+      "quote": "When Lou mentioned the giant underwater thing moving at, you know, 500 knots underwater, that's something this guy talked about.",
+      "kind": "secondhand",
+      "cites": [
+        "luis-elizondo",
+        "4chan-whistleblower"
+      ],
+      "documents": [],
+      "difference": "Credits Lue Elizondo, not Marco Rubio, and links the claim to the 4chan whistleblower; no football-field size is given.",
+      "link_reason": "Both tell the claim that huge objects move underwater at 500 knots.",
+      "as_told": {
+        "title": "Lue Elizondo on a giant underwater object moving at 500 knots",
+        "years": null,
+        "place_text": "underwater, unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -43,13 +64,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "chris-ramsay",
       "joe-rogan"
     ],
     "episodes": [
-      "C_Na1tI5qpw"
+      "C_Na1tI5qpw",
+      "h3u8EkGI8OQ"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "The podcast host Joe Rogan, speaking with host Jesse Michels, repeats a claim he credits to the US politician Marco Rubio in a documentary called The Age of Disclosure. According to Rogan, there are vehicles as big as a football field moving through the ocean at 500 knots, close to 600 miles an hour, which would be far beyond any known submarine."
 }

@@ -52,6 +52,29 @@
         "place_text": "Pentagon",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 5253.0,
+      "to_s": 5258.0,
+      "teller": "jesse-michels",
+      "quote": "And Lou Alzando\nuh says that he has seen the video.",
+      "kind": "secondhand",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": [],
+      "difference": "Does not mention Kirkpatrick or AARO.",
+      "link_reason": "Both tell of Lou Elizondo saying he has seen the Big Sur film.",
+      "as_told": {
+        "title": "Elizondo says he has seen the Big Sur video",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Big Sur / Vandenberg AFB, California",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -76,6 +99,7 @@
       "robert-hastings"
     ],
     "episodes": [
+      "KGD1nuM4MR8",
       "fzvwBBSmWYA",
       "hBrfe4hFuM0"
     ]

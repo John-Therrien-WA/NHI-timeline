@@ -1,0 +1,74 @@
+{
+  "id": "validation-scan-of-the-gran-sasso-physics-laboratory",
+  "title": "Validation scan of the Gran Sasso physics laboratory",
+  "summary": "Filippo Biondi tells of Validation scan of the Gran Sasso physics laboratory, about unspecified at Gran Sasso d'Italia laboratory, Italy, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Gran Sasso d'Italia laboratory, Italy",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 3229.0,
+      "to_s": 3233.0,
+      "teller": "filippo-biondi",
+      "quote": ">> So we did uh uh measurements of the Gran Sasso d'Italia physical laboratory.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 10598.0,
+      "to_s": 10608.0,
+      "teller": "filippo",
+      "quote": "In the case of the Gran Sasso, I used a different processing technique. It was like an experiment.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the scan used an experimental processing technique and dates it to 2024.",
+      "link_reason": "Both tell of Filippo's own scan of the Gran Sasso laboratory.",
+      "as_told": {
+        "title": "Gran Sasso laboratory scan with an experimental processing technique",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "Gran Sasso laboratory, Italy",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 4.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 2,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "filippo",
+      "filippo-biondi"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8",
+      "zrmG2jBckgk"
+    ]
+  },
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "Filippo Biondi is a researcher who uses satellite radar to look for hidden structures under the ground, including beneath the pyramids of Egypt. On the podcast of host Jesse Michels, he says that he and his team scanned the Gran Sasso physics laboratory in Italy, a lab built deep inside a mountain. As he tells it, the point was to test his method on a known underground site, so people could trust what it shows beneath the pyramids. In a later episode of the same show he says it again in his own words. There he adds that he used a different, experimental way of processing the data for Gran Sasso, and he dates the scan to 2024. Both tellings come from Biondi himself, speaking first-hand."
+}

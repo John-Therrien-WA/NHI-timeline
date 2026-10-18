@@ -1,0 +1,57 @@
+{
+  "id": "classical-greek-theater-aeschylus-prometheus-trilogy-gave-ri",
+  "title": "Classical Greek theater (Aeschylus' Prometheus trilogy) gave rise to geometric and psychological perspective",
+  "summary": "Jason Jorjani tells of Classical Greek theater (Aeschylus' Prometheus trilogy) gave rise to geometric and psychological perspective, about 5th century BCE at Greece (the ancient oracle sites), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "ancient-greece",
+  "place_text": "Classical Greece",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 13912.0,
+      "to_s": 13926.0,
+      "teller": "jason-jorjani",
+      "quote": "it was the first moment in history of recorded history that people were able to take the position of spectators at a theater sitting in different places on different nights.",
+      "kind": "researcher",
+      "cites": [
+        "julian-jaynes",
+        "aeschylus"
+      ],
+      "documents": [
+        "from-prometheus-to-atlas",
+        "the-origin-of-consciousness-in-the-breakdown-of-the-bicamera"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A researcher named Jason Jorjani says on Jesse Michels's podcast that ancient Greek theater, such as the Prometheus plays by the playwright Aeschylus, was the first time in recorded history that people sat as an audience in different seats on different nights. He argues this gave rise to perspective, both the geometric kind and the psychological kind, drawing on the psychologist Julian Jaynes and his book on the origin of consciousness. If so, theater would have changed the way people think."
+}

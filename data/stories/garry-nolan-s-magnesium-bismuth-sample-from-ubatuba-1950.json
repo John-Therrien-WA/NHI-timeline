@@ -24,6 +24,75 @@
         "gary-nolan"
       ],
       "documents": []
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 2819.0,
+      "to_s": 2830.0,
+      "teller": "jesse-michels",
+      "quote": "Gary Nolan has in his possession because they were mailed to Jacqu Valle and he did mass spectrometry on them these objects from an Uba tuba crash in Brazil",
+      "kind": "host",
+      "cites": [
+        "gary-nolan",
+        "jacques-vallee"
+      ],
+      "documents": [],
+      "difference": "Adds that the fragments were mailed to Jacques Vallee, that Nolan analysed them by mass spectrometry, and that the crash was in 1957; it does not mention magnesium-bismuth.",
+      "link_reason": "Both are about the Ubatuba, Brazil fragments that Garry Nolan holds and has analysed in his lab.",
+      "as_told": {
+        "title": "Ubatuba crash fragments analysed by Garry Nolan",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Ubatuba, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 2828.0,
+      "to_s": 2840.0,
+      "teller": "jesse-michels",
+      "quote": "And\nrecently Gary Nolan actually just went\non Joe Rogan Experience and you know one\nof the pieces came from Ubatuba Brazil\nwhere this explosion occurred on the\nbeach and this fisherman",
+      "kind": "host",
+      "cites": [
+        "gary-nolan",
+        "jacques-vallee"
+      ],
+      "documents": [],
+      "difference": "Adds the 1957 beach explosion, the fisherman, Nolan's Joe Rogan appearance and a credit to Vallee.",
+      "link_reason": "The Ubatuba fragment that Garry Nolan analyzed. This is the same subject as the story of Nolan's magnesium-bismuth sample from Ubatuba.",
+      "as_told": {
+        "title": "Ubatuba magnesium fragment analyzed by Garry Nolan",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Ubatuba, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3295.0,
+      "to_s": 3300.0,
+      "teller": "jesse-michels",
+      "quote": ">> No. So, so there was a fisherman in uh Ubatuba, Brazil on the beach, sees this",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee",
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Starts with the fisherman on the beach and follows the fragment's path to Stanford through Vallee, without a date.",
+      "link_reason": "Both are about the Ubatuba fragment that ended up in Garry Nolan's Stanford lab, credited through Vallee.",
+      "as_told": {
+        "title": "Ubatuba fragment and how it reached Stanford",
+        "years": null,
+        "place_text": "Ubatuba, Brazil",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -53,7 +122,10 @@
       "jesse-michels"
     ],
     "episodes": [
-      "d9tdJ2SkBKQ"
+      "1F7DHbSbgbQ",
+      "Rjr3Yq-dMUE",
+      "d9tdJ2SkBKQ",
+      "lbGE3EC6StE"
     ]
   },
   "attestation": 0.25,

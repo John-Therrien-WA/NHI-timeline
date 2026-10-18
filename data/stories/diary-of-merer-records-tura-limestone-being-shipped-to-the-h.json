@@ -1,0 +1,55 @@
+{
+  "id": "diary-of-merer-records-tura-limestone-being-shipped-to-the-h",
+  "title": "Diary of Merer records Tura limestone being shipped to the 'horizon of Khufu'",
+  "summary": "Luke Caverns tells of Diary of Merer records Tura limestone being shipped to the 'horizon of Khufu', about reign of Khufu, c. 2560 BC at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Tura and Giza, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 4131.0,
+      "to_s": 4145.0,
+      "teller": "luke-caverns",
+      "quote": "And we have a we have a ledger of those being brought up to Giza. It's it's called the diary of Morer. Um and and he says that he's bringing these Tur limestone blocks up to the horizon of Kufu.",
+      "kind": "researcher",
+      "cites": [
+        "merer"
+      ],
+      "documents": [
+        "diary-of-merer"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Researcher Luke Caverns tells Jesse Michels about the Diary of Merer, an ancient Egyptian logbook kept by an official named Merer. He says it records blocks of limestone from Tura, a quarry area, being shipped up to Giza, to what Merer calls the \"horizon of Khufu,\" the pharaoh whose name is linked to the Great Pyramid. Caverns cites it as a written record of how stone reached the pyramids."
+}

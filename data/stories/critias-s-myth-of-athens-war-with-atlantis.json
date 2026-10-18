@@ -27,33 +27,80 @@
         "timaeus",
         "republic"
       ]
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 8885.0,
+      "to_s": 8899.0,
+      "teller": "matt",
+      "quote": "Ancient Greece just like Plato and plutar discuss has an earlier history than just the they're called the ancient Athenians or Proto Athenians in those they describes it actually fighting against Atlantis",
+      "kind": "researcher",
+      "cites": [
+        "plato",
+        "plutarch"
+      ],
+      "documents": [],
+      "difference": "Credits Plutarch as well as Plato and calls them proto-Athenians, presented as real early history rather than a myth.",
+      "link_reason": "Both tell Plato's account of ancient (proto-)Athens fighting a war against Atlantis.",
+      "as_told": {
+        "title": "Proto-Athenians fought Atlantis",
+        "years": null,
+        "place_text": "Ancient Greece / Atlantis",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 11847.0,
+      "to_s": 11862.0,
+      "teller": "jesse-michels",
+      "quote": "you know um uh Plato saying you know at tus and crus you know this in this at this Mythos Festival saying that 9,000 years ago we fought against Atlantis the Athenians did",
+      "kind": "host",
+      "cites": [
+        "plato"
+      ],
+      "documents": [
+        "timaeus",
+        "critias"
+      ],
+      "difference": "Puts the war 9,000 years back and mentions the festival setting; credits only Plato.",
+      "link_reason": "Both tell Plato's account in the Timaeus and Critias of ancient Athens fighting a war against Atlantis.",
+      "as_told": {
+        "title": "Plato's account of Athens fighting Atlantis 9,000 years before",
+        "years": null,
+        "place_text": "Athens / Atlantis",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
-    "host": 0,
+    "researcher": 2,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "james-madden"
+      "james-madden",
+      "jesse-michels",
+      "matt"
     ],
     "episodes": [
+      "A_LsUSxTm7A",
       "KRDE1i3LDuU"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.35,
+  "tier": "well-attested",
   "plain": "James Madden, a guest on Jesse Michels's podcast who talks about the ancient Greek philosopher Plato, retells a story from Plato's writings, the dialogues known as the Timaeus and the Republic. In it, a character named Critias tells Socrates a myth, which Madden calls \"another good lie\", about a great war between ancient Athens and Atlantis, a story said to have reached Greece from Egypt by way of the lawmaker Solon. Madden raises it to show how Plato used stories that carry a deeper truth."
 }

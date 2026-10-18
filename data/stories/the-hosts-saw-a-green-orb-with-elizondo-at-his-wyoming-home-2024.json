@@ -26,6 +26,26 @@
       "documents": [
         "imminent"
       ]
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 1242.0,
+      "to_s": 1248.0,
+      "teller": "jesse-michels",
+      "quote": "we see this green Fireball just shoot out into the sky",
+      "kind": "firsthand",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": [],
+      "difference": "Calls it a green fireball shooting into the sky, where the story says a green orb.",
+      "link_reason": "Both tell of the host seeing a green orb or fireball at night with Elizondo at his Wyoming home.",
+      "as_told": {
+        "title": "Green fireball seen with Lue Elizondo in Wyoming",
+        "years": null,
+        "place_text": "Lue Elizondo's home, Wyoming",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -49,7 +69,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "Sct30Qijfv8"
     ]
   },
   "attestation": 1.25,

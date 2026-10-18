@@ -28,6 +28,30 @@
         "luis-elizondo"
       ],
       "documents": []
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 5503.0,
+      "to_s": 5513.0,
+      "teller": "jesse-michels",
+      "quote": "And he worked, you know, with the the Senate Majority Leader Harry Reid in an official government capacity in order to kind of reverse engineer UFOs.",
+      "kind": "host",
+      "cites": [
+        "robert-bigelow",
+        "harry-reid"
+      ],
+      "documents": [],
+      "difference": "Frames it as official reverse-engineering work with Reid and does not mention the $22 million or Colonel Alexander.",
+      "link_reason": "Both describe the Reid-funded Bigelow UFO research program.",
+      "as_told": {
+        "title": "Bigelow worked with Harry Reid to reverse-engineer UFOs",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -38,29 +62,31 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "steven-greer"
     ],
     "episodes": [
-      "areO7Mej44E"
+      "areO7Mej44E",
+      "rjUdn6FklAU"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "Steven Greer, a doctor who campaigns for the government to reveal what it knows about UFOs, talks about the roughly $22 million that Nevada senator Harry Reid helped send to Robert Bigelow's company, Bigelow Aerospace, around 2008 to research UFOs for a small Pentagon programme. Greer says that John Alexander, a retired Army colonel he calls Bigelow's consigliere, or trusted adviser, had it all set up so the money would serve purposes other than the ones stated. If true, it would mean the government's UFO study was steered from the start."
 }

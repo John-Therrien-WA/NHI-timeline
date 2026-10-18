@@ -25,11 +25,58 @@
         "thomas-kuhn"
       ],
       "documents": []
+    },
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 5010.0,
+      "to_s": 5020.0,
+      "teller": "jesse-michels",
+      "quote": "friends with actually John Mack who's a head of the Harvard Psychiatry department and who spent the end of his life studying this sort of alien abduction phenomena",
+      "kind": "host",
+      "cites": [
+        "thomas-kuhn",
+        "john-mack"
+      ],
+      "documents": [
+        "the-structure-of-scientific-revolutions"
+      ],
+      "difference": "Also names Kuhn's book The Structure of Scientific Revolutions and gives no decade.",
+      "link_reason": "The same account of Kuhn's friend John Mack, head of Harvard psychiatry, spending the end of his career studying alien abductions.",
+      "as_told": {
+        "title": "John Mack's study of alien abduction",
+        "years": null,
+        "place_text": "Harvard",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 2456.0,
+      "to_s": 2465.0,
+      "teller": "jesse-michels",
+      "quote": "psychiatrist John Mack. In the9s Mack would use holletropic breath work and hypnotic regressions to recover the abduction memories of his patients.",
+      "kind": "host",
+      "cites": [
+        "john-mack",
+        "colman-domingo"
+      ],
+      "documents": [],
+      "difference": "Names his methods, holotropic breathwork and hypnotic regression, and does not mention Thomas Kuhn.",
+      "link_reason": "Both are about John Mack's 1990s Harvard program of studying abductees, told by the host.",
+      "as_told": {
+        "title": "John Mack's abduction regressions",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Harvard, Massachusetts",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -40,7 +87,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -48,10 +95,12 @@
       "jesse-michels"
     ],
     "episodes": [
-      "dzTZbSNsKV8"
+      "ScE9FaDy-mE",
+      "dzTZbSNsKV8",
+      "wT5-hXWIkzM"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says Thomas Kuhn, a famous thinker about how science changes, was friends with John Mack, head of the psychiatry department at Harvard University. According to Michels, Mack spent the later part of his career, in the 1990s, studying people who say aliens abducted them, with Kuhn's encouragement. If true, it means a respected scientist backed a Harvard psychiatrist in taking these accounts seriously."
 }

@@ -26,6 +26,31 @@
       "documents": [
         "project-blue-book"
       ]
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 1524.0,
+      "to_s": 1545.0,
+      "teller": "daniel-sheehan",
+      "quote": "he was United States Army uh was assigned as a clerk typist to Project Blue Book uh and that while Blue Book had this whole buffaloing operation going on you know telling people that it was swamp gas and you know birds that they had misidentified that there were over 700 actual sightings",
+      "kind": "secondhand",
+      "cites": [
+        "albert-stein"
+      ],
+      "documents": [
+        "project-blue-book"
+      ],
+      "difference": "Names the source as Albert Stein, an Army clerk typist, where the story names Oscar Wolf.",
+      "link_reason": "Both are Sheehan's secondhand account of a Project Blue Book special unit that studied about 700 real unexplained sightings.",
+      "as_told": {
+        "title": "Blue Book special unit investigated 700 unexplained sightings",
+        "years": {
+          "from": 1950,
+          "to": 1969
+        },
+        "place_text": "Project Blue Book, United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -46,6 +71,26 @@
     },
     {
       "story": "jolly-west-mk-ultra-and-cult-creation-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "deep-underground-bases-from-air-force-project-rand-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "edward-teller-and-project-sundial-gigaton-bomb-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "project-orion-nuclear-propulsion-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puthoff-the-1950s-anti-gravity-craze-either-stalled-or-went",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -70,6 +115,7 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },

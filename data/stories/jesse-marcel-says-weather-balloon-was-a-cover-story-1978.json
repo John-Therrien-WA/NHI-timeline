@@ -48,20 +48,66 @@
         "place_text": "Fort Worth / Roswell, New Mexico",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1682.0,
+      "to_s": 1688.0,
+      "teller": "jesse-michels",
+      "quote": "he claimed that he was\nforced to do this photo op with this um\nyou know weather balloon",
+      "kind": "secondhand",
+      "cites": [
+        "jesse-marcel"
+      ],
+      "documents": [],
+      "difference": "Says Marcel was forced to pose for the photo op with the balloon.",
+      "link_reason": "Both are about Jesse Marcel saying the weather balloon was a cover story, with the photos not showing what was found.",
+      "as_told": {
+        "title": "Jesse Marcel forced weather balloon photo op",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell / Fort Worth",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5717.0,
+      "to_s": 5726.0,
+      "teller": "jesse-michels",
+      "quote": "In 1979 he came out and he was like, you know, this was a I basically was part of this cover-up and that was BS and in fact I handled this memory metal.",
+      "kind": "host",
+      "cites": [
+        "jesse-marcel"
+      ],
+      "documents": [],
+      "difference": "Puts it in 1979, not 1978, and adds that Marcel said he handled memory metal.",
+      "link_reason": "Both are Jesse Marcel coming out in the late 1970s to say the Roswell weather balloon was a cover-up.",
+      "as_told": {
+        "title": "Jesse Marcel's 1979 memory-metal testimony",
+        "years": {
+          "from": 1947,
+          "to": 1979
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
@@ -72,11 +118,13 @@
       "jesse-michels"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
       "d9tdJ2SkBKQ",
-      "kRO5jOa06Qw"
+      "kRO5jOa06Qw",
+      "p0S0BfoZy0w"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 1.0,
   "tier": "told-by-several",
   "plain": "This story is about debris recovered near Roswell, a town in New Mexico, and the official explanation that it was only a weather balloon. A podcast host, Jesse Michels, says that in 1978 Lieutenant Colonel Jesse Marcel, an Air Force officer involved in the recovery, said the balloon story was just a cover. Bob Lazar, a guest on the same show, passes on something Marcel said: that the material in the photographs taken for the press wasn't what they had actually found. If true, the official account of Roswell was a deliberate swap meant to hide something else."
 }

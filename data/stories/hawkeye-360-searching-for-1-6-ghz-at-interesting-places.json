@@ -1,0 +1,53 @@
+{
+  "id": "hawkeye-360-searching-for-1-6-ghz-at-interesting-places",
+  "title": "Hawkeye 360 searching for 1.6 GHz at interesting places",
+  "summary": "Bob Maguire tells of Hawkeye 360 searching for 1.6 GHz at interesting places, about unspecified at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 1894.0,
+      "to_s": 1906.0,
+      "teller": "bob-maguire",
+      "quote": "1.6 GHz at interesting places I am certain has been looked at by Hawkeye 360",
+      "kind": "researcher",
+      "cites": [
+        "hawkeye-360"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "bob-maguire"
+    ],
+    "episodes": [
+      "2Xxmguz0GEQ"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Bob Maguire says he is certain that something called Hawkeye 360, which he describes as able to watch for radio signals, has looked for signals at 1.6 gigahertz, a particular radio frequency, at what he calls interesting places. He does not say more about where or when. The point, as he tells it, is that this frequency could reveal unusual activity at those places."
+}

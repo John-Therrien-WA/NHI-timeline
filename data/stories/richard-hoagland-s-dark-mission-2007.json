@@ -1,0 +1,81 @@
+{
+  "id": "richard-hoagland-s-dark-mission-2007",
+  "title": "Richard Hoagland's Dark Mission",
+  "summary": "Jesse Michels tells of Richard Hoagland's Dark Mission, about 2007 at NASA; Mars, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2007,
+    "to": 2007
+  },
+  "place": null,
+  "place_text": "NASA; Mars",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7280.0,
+      "to_s": 7286.0,
+      "teller": "jesse-michels",
+      "quote": "Richard hogland made similar claims in admittedly his very controversial book dark Mission the secret history of NASA",
+      "kind": "host",
+      "cites": [
+        "richard-hoagland"
+      ],
+      "documents": [
+        "dark-mission-the-secret-history-of-nasa"
+      ]
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 3474.0,
+      "to_s": 3486.0,
+      "teller": "jesse-michels",
+      "quote": "The Dark The Dark Mission stuff gets into like NASA being some like occult, ritualistic, you know, like like organization",
+      "kind": "host",
+      "cites": [
+        "richard-hoagland"
+      ],
+      "documents": [
+        "dark-mission"
+      ],
+      "difference": "Describes the book as casting NASA as an occult, ritualistic organisation.",
+      "link_reason": "Both are Richard Hoagland's book Dark Mission about the secret history of NASA.",
+      "as_told": {
+        "title": "Hoagland's Dark Mission: NASA as an occult organisation",
+        "years": null,
+        "place_text": "NASA",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JpLThEF2dTM",
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, points to a book from about 2007 by a writer named Richard Hoagland, called Dark Mission: The Secret History of NASA, NASA being the US space agency. Michels calls it a very controversial book that makes claims like the ones his guests make about Mars and its past. He says it goes as far as describing NASA as an occult, ritualistic organisation, which, if true, would mean the space agency hides a secret side behind its public work."
+}

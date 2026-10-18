@@ -25,6 +25,27 @@
         "ted-owens"
       ],
       "documents": []
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 2295.0,
+      "to_s": 2307.0,
+      "teller": "jesse-michels",
+      "quote": "every Elite University from the ryin Center at Duke for I think that was 1931 to 1960",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives the centre's run as 1931 to 1960 and does not mention Ted Owens.",
+      "link_reason": "Both tell of the Rhine parapsychology centre founded at Duke in 1931.",
+      "as_told": {
+        "title": "Rhine parapsychology center at Duke",
+        "years": {
+          "from": 1931,
+          "to": 1960
+        },
+        "place_text": "Duke University, North Carolina",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -48,6 +69,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "hXYdkcv5TtY",
       "lcaY-rd9Dhc"
     ]
   },

@@ -1,0 +1,74 @@
+{
+  "id": "implant-tracking-patent",
+  "title": "Implant tracking patent",
+  "summary": "Bob Maguire tells of Implant tracking patent, about unspecified at unspecified, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 3.0,
+      "to_s": 14.0,
+      "teller": "bob-maguire",
+      "quote": "I didn't believe these stories at all about these implants and them B tracking until I rote the pat that tells you how they do it",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "implant-tracking-patent"
+      ]
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 5617.0,
+      "to_s": 5626.0,
+      "teller": "bob-mcgwier",
+      "quote": "hulky 360 is how the aliens would find these beacons all over the planet",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "hawkeye-360-patent"
+      ],
+      "difference": "Says it is a Hawkeye 360 patent and that it is how aliens would find the beacons all over the planet.",
+      "link_reason": "Both are McGwier's patent, which he says explains how implant beacons could be tracked.",
+      "as_told": {
+        "title": "Hawkeye 360 patent as how aliens could track implant beacons",
+        "years": null,
+        "place_text": "Earth orbit",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 5.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 2,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-maguire",
+      "bob-mcgwier"
+    ],
+    "episodes": [
+      "2Xxmguz0GEQ"
+    ]
+  },
+  "attestation": 2.5,
+  "tier": "well-attested",
+  "plain": "An engineer named Bob McGwier, who appears on a podcast hosted by Jesse Michels in an episode that calls him a CIA contractor (the CIA is the US spy agency), talks about a patent he says he wrote. He says he never believed the stories about aliens putting small implants in people and tracking them, until he wrote a patent that explains how that tracking could work. In another part of the same interview he names it as a patent linked to Hawkeye 360, and says it describes how aliens would find these beacons all over the planet. McGwier is the only teller, and he comes back to it twice, the second time giving the patent a name. If true, it would mean the method behind those abduction stories is set out in an ordinary patent."
+}

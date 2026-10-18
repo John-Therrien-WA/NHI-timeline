@@ -25,7 +25,36 @@
       ],
       "documents": [
         "communion"
-      ]
+      ],
+      "replay_of": {
+        "episode": "73YBwFvcmF8",
+        "from_s": 5376.0
+      }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 5379.0,
+      "to_s": 5390.0,
+      "teller": "mario-woods",
+      "quote": "Grays they look like the small Grays but the one behind them I guess you would classify him as a tall gray on Whitley streer book communion",
+      "kind": "firsthand",
+      "cites": [
+        "whitley-strieber"
+      ],
+      "documents": [
+        "communion"
+      ],
+      "difference": "Dates the abduction to 1977 near November-5, where the story has the 1960s.",
+      "link_reason": "Both are Mario Woods describing the small Grays and the tall Gray aboard the craft, compared with the Communion cover.",
+      "as_told": {
+        "title": "Beings were small and tall Grays like the Communion cover",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "aboard craft near November 5, South Dakota",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -49,6 +78,7 @@
       "mario-woods"
     ],
     "episodes": [
+      "73YBwFvcmF8",
       "fzvwBBSmWYA"
     ]
   },

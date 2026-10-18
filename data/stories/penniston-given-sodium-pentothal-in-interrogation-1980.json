@@ -24,33 +24,56 @@
         "jim-penniston"
       ],
       "documents": []
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 2627.0,
+      "to_s": 2635.0,
+      "teller": "jesse-michels",
+      "quote": "And there's another famous case at Royal Air Force Bentwaters. Uh, and this is called the Rendlessham Forest case.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "The host tells it of the witnesses in general rather than of Penniston by name.",
+      "link_reason": "Both are about truth serum (sodium pentothal) being given to Rendlesham/Bentwaters witnesses during questioning in 1980.",
+      "as_told": {
+        "title": "Truth serum used on witnesses in the Rendlesham Forest case",
+        "years": {
+          "from": 1980,
+          "to": 1980
+        },
+        "place_text": "RAF Bentwaters, Rendlesham Forest, England",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "robert-hastings"
     ],
     "episodes": [
-      "fzvwBBSmWYA"
+      "fzvwBBSmWYA",
+      "rjUdn6FklAU"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "A researcher named Robert Hastings, speaking on Jesse Michels's podcast about UFOs seen near nuclear bases, passes on what a man named Jim Penniston told him. Penniston was linked to sightings around 1980 near RAF Bentwaters, a base in England (RAF stands for Britain's Royal Air Force). According to Hastings, Penniston said that afterward he was given a drug, something like sodium pentothal, and questioned, which would mean officials worked hard to control what he remembered."
 }

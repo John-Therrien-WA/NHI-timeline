@@ -51,9 +51,38 @@
         "place_text": "New Mexico and US nuclear sites",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 1539.0,
+      "to_s": 1550.0,
+      "teller": "jesse-michels",
+      "quote": "LaPaz headed up Project Twinkle, an Air Force investigation into unexplained green fireballs showing up across American nuclear sites,",
+      "kind": "host",
+      "cites": [
+        "lincoln-lapaz"
+      ],
+      "documents": [],
+      "difference": "Places the fireballs at nuclear sites across the US, naming Los Alamos and Holloman AFB.",
+      "link_reason": "Both describe Project Twinkle, the Air Force investigation of green fireballs headed by LaPaz.",
+      "as_told": {
+        "title": "Project Twinkle green fireballs",
+        "years": {
+          "from": 1947,
+          "to": 1959
+        },
+        "place_text": "Los Alamos; Holloman Air Force Base",
+        "story_kind": "program"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "lashup-high-powered-over-the-horizon-radar-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 1.7,
   "profile": {
@@ -75,6 +104,7 @@
       "uapgerb"
     ],
     "episodes": [
+      "1zRWi_r3HRM",
       "A2-y_HasHEw",
       "u7g5Sn1DJF4"
     ]

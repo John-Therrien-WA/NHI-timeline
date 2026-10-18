@@ -1,0 +1,53 @@
+{
+  "id": "perelman-s-unspoken-unified-theory",
+  "title": "Perelman's unspoken unified theory",
+  "summary": "Jesse Michels tells of Perelman's unspoken unified theory, about present at Siberia, Russia, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Siberia, Russia",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 3708.0,
+      "to_s": 3713.0,
+      "teller": "jesse-michels",
+      "quote": "And like he I think he claims that he has a unified theory and he just won't talk.",
+      "kind": "secondhand",
+      "cites": [
+        "grigori-perelman"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ATJwqp5twAg"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "The podcast host Jesse Michels said on his show that a Russian mathematician, Grigori Perelman, who lives in Siberia, may be sitting on a big secret. Michels says he thinks Perelman claims to have a unified theory, a single explanation tying together all the laws of physics, but simply won't talk about it. If true, one of the deepest problems in science might already be solved and kept private."
+}

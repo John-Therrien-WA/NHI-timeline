@@ -96,6 +96,108 @@
       "replay_of": {
         "outside": true
       }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 3451.0,
+      "to_s": 3460.0,
+      "teller": "jesse-michels",
+      "quote": "Within the US government covert UFO program, Lew that the team gained access to a non-human craft and entered it.",
+      "kind": "host",
+      "cites": [
+        "james-lacatski"
+      ],
+      "documents": [],
+      "difference": "Places it within the AAWSAP covert program and says the team entered, not Lacatski personally.",
+      "link_reason": "Lacatski's claim that the government team got access to a non-human craft and went inside it.",
+      "as_told": {
+        "title": "Lacatski: AAWSAP team got access to a non-human craft",
+        "years": {
+          "from": 2008,
+          "to": 2019
+        },
+        "place_text": "United States (DIA program)",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 2736.0,
+      "to_s": 2742.0,
+      "teller": "jesse-michels",
+      "quote": "He's saying that he breached the hull of a UFO craft.",
+      "kind": "host",
+      "cites": [
+        "james-lacatski",
+        "jeremy-corbell",
+        "george-knapp"
+      ],
+      "documents": [
+        "skinwalkers-at-the-pentagon"
+      ],
+      "difference": "Places it within AAWSAP/OSAP from 2007 to 2012 and cites Skinwalkers at the Pentagon.",
+      "link_reason": "Lacatski saying the government breached a UFO hull, as told on Weaponized, is the same story as Lacatski stepping inside a craft.",
+      "as_told": {
+        "title": "Lacatski says the government breached a UFO hull",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "United States (AAWSAP/OSAP)",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 2754.0,
+      "to_s": 2757.0,
+      "teller": "james-lacatski",
+      "quote": ">> Yes.",
+      "kind": "official",
+      "cites": [
+        "jeremy-corbell"
+      ],
+      "documents": [],
+      "difference": "Told by Lacatski himself as the clip's confirmation, not as a secondhand report.",
+      "link_reason": "Lacatski's own 'Yes' in the Weaponized clip confirms the government accessed the inside of a craft, the same claim as the existing story.",
+      "as_told": {
+        "title": "Lacatski confirms access to the inside of a UFO (Weaponized clip)",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "United States",
+        "story_kind": "reverse-engineering"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 5963.0,
+      "to_s": 5970.0,
+      "teller": "grant-cameron",
+      "quote": "and we told them that we had breached the craft. We'd gotten into the craft and there was nothing in it",
+      "kind": "researcher",
+      "cites": [
+        "james-lacatski",
+        "harry-reid"
+      ],
+      "documents": [
+        "lacatski-s-book-chapter-six"
+      ],
+      "difference": "Adds that the craft was found empty, that the briefing was given in a congressional SCIF around 2011 with Reid present, and cites chapter six of Lacatski's book.",
+      "link_reason": "Both tell Lacatski's claim that the government breached a craft and got inside it.",
+      "as_told": {
+        "title": "Lacatski: the craft was breached and found empty",
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "place_text": "Congressional SCIF, Washington, D.C.",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
@@ -112,7 +214,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 2,
+    "repetitions": 4,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -122,8 +224,11 @@
     "episodes": [
       "-XdvIrexF08",
       "1f16VvXaSSE",
+      "K4gYHs84BIc",
+      "fpUa3xJN64Q",
       "xnxasfyHtfo",
-      "yGtVzBbUvx4"
+      "yGtVzBbUvx4",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 1.75,

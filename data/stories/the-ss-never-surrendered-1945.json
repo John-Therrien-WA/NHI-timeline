@@ -1,0 +1,56 @@
+{
+  "id": "the-ss-never-surrendered-1945",
+  "title": "The SS never surrendered",
+  "summary": "Jason Jorjani tells of The SS never surrendered, about 1945 at Germany, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 3898.0,
+      "to_s": 3902.0,
+      "teller": "jason-jorjani",
+      "quote": "The SS is not included in the German instruments of surrender.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "german-instruments-of-surrender"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "The SS was the Nazi party's own armed and security force in Germany during the Second World War. A researcher named Jason Jorjani tells podcast host Jesse Michels that the German documents of surrender signed in 1945 do not include the SS. He raises it in a talk about a secret Nazi flying-saucer program, as a hint that part of the SS may have carried on after the war."
+}

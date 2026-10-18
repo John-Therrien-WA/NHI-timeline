@@ -1,0 +1,53 @@
+{
+  "id": "asha-calls-spelling-pseudoscience",
+  "title": "ASHA calls spelling pseudoscience",
+  "summary": "Ky Dickens tells of ASHA calls spelling pseudoscience, about present at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 1579.0,
+      "to_s": 1585.0,
+      "teller": "ky-dickens",
+      "quote": "spelling is not a valid form of communication they've called it pseudo science",
+      "kind": "researcher",
+      "cites": [
+        "american-speech-language-hearing-associa"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "ky-dickens"
+    ],
+    "episodes": [
+      "0qlppHc3-gg"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Ky Dickens, a filmmaker behind a documentary about nonspeaking children who are said to read minds, says the American Speech-Language-Hearing Association, a US professional body for speech therapists, rejects \"spelling\". That is a method where nonspeaking people point to letters to communicate. She says the association calls it not a valid form of communication and labels it pseudoscience, which matters because her children's stories come through that method."
+}

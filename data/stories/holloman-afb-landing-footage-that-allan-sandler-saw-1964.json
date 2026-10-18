@@ -82,6 +82,112 @@
         "place_text": "Holloman Air Force Base, New Mexico",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 4423.0,
+      "to_s": 4434.0,
+      "teller": "allan-sandler",
+      "quote": "We we see this thing, this round thing, and it wasn't that stable. Funny part, and it landed and a door open and guys come out looking like they were outer space guys.",
+      "kind": "firsthand",
+      "cites": [
+        "james-fox"
+      ],
+      "documents": [],
+      "difference": "Sandler tells it himself and dates it to 1971, not 1964. He describes one round, unstable craft whose door opens, and doesn't mention three craft.",
+      "link_reason": "Both are about Allan Sandler being shown film of a craft landing at Holloman AFB with beings coming out.",
+      "as_told": {
+        "title": "Sandler sees Holloman landing footage",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "Holloman Air Force Base, New Mexico",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 3418.0,
+      "to_s": 3426.0,
+      "teller": "allan-sandler",
+      "quote": "And it landed and a door opened and guys come out looking like they were outer space guys.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Emenegger says he saw it himself and describes a round craft with a door opening and 'outer space guys'. He gives no count of three craft.",
+      "link_reason": "The same Holloman AFB landing film, with a craft landing and beings coming out, now told firsthand by Emenegger rather than through Sandler.",
+      "as_told": {
+        "title": "Holloman landing film viewed: round craft and beings",
+        "years": {
+          "from": 1960,
+          "to": 1979
+        },
+        "place_text": "Holloman Air Force Base, New Mexico",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "robert-emenegger"
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 3649.0,
+      "to_s": 3657.0,
+      "teller": "grant-cameron",
+      "quote": "They have three UFOs. They come over Halddederman. Uh the two move off, the one lands, the door opens.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-emenegger",
+        "linda-moulton-howe",
+        "paul-shartle"
+      ],
+      "documents": [
+        "ufos-past-present-and-future"
+      ],
+      "difference": "Dates the landing to May 1971 on Emenegger's word, where the story says 1964, and adds that a door opens.",
+      "link_reason": "Both tell of the Holloman AFB landing film in which three UFOs arrive, two move off and one lands.",
+      "as_told": {
+        "title": "Holloman AFB landing film",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "Holloman Air Force Base, New Mexico",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 3912.0,
+      "to_s": 3920.0,
+      "teller": "eric-davis",
+      "quote": "One of them landed not on the runway but on the tarmac close to a u a hanger.",
+      "kind": "researcher",
+      "cites": [
+        "j-allen-hynek"
+      ],
+      "documents": [],
+      "difference": "Dated 1971 instead of 1964, and adds that the film was kept from Blue Book and Hynek.",
+      "link_reason": "Three craft come in, one lands on the tarmac near a hangar and a tall Nordic-looking being comes out. These are the same words as Eric Davis's telling of the Holloman landing footage.",
+      "as_told": {
+        "title": "Clip: tall Nordic being exits a craft at Holloman; film kept from Bluebook and Hynek",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "Holloman Air Force Base, New Mexico",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "xnxasfyHtfo",
+        "from_s": 1790.0
+      },
+      "teller_was": "unidentified-clip-speaker"
     }
   ],
   "related": [
@@ -94,35 +200,44 @@
       "story": "lonnie-zamora-s-socorro-landing-1964",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "doty-s-rival-version-1964-at-white-sands",
+      "relation": "variant",
+      "note": "Doty gives a rival account of the same landing told in #7, putting it at White Sands in 1964 with the beings having gotten lost, against Emenegger's May 1971 at Holloman."
     }
   ],
   "tags": [],
-  "score": 3.2,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 1,
-    "secondhand": 0,
+    "journalist": 0,
+    "secondhand": 1,
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 3,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "journalist",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "allan-sandler",
       "eric-davis",
-      "james-fox"
+      "grant-cameron"
     ],
     "episodes": [
+      "WBTqsbwJyqU",
       "bVhSPH2A5Vw",
+      "fpUa3xJN64Q",
       "hBrfe4hFuM0",
+      "nTiFs8LudUo",
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 1.6,
+  "attestation": 2.0,
   "tier": "well-attested",
   "plain": "This story is about a film said to show flying saucers landing at Holloman Air Force Base, a US military base in New Mexico, in 1964. A UFO researcher named James Fox, speaking on the podcast of a host named Jesse Michels, says that a man named Allan Sandler told him he had seen this footage. According to Fox, the film showed three saucers coming in over the base, two peeling away and one coming down to land. Sandler, as Fox tells it, said it might have been a training video but that the saucers in it were real, and Fox says of it, \"No question about it.\" Fox ties the story to other people, including Robert Emenegger, Paul Shartle and a Colonel Coleman, to a documentary called UFOs Past, Present and Future, and to articles by a UFO writer named Coral Lorenzen. A second teller, a scientist named Eric Davis, tells it on the same podcast without naming a source and puts it in April 1964. He adds that the landing craft set down on the tarmac near a hangar, and that a walkway came down and a very tall humanoid being stepped out, a non-human intelligence who looked Northern European. If true, it would mean the US military met and filmed visitors from elsewhere openly on one of its own bases."
 }

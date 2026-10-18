@@ -1,0 +1,57 @@
+{
+  "id": "podkletnov-s-father-retrieved-schauberger-s-files-1940",
+  "title": "Podkletnov's father retrieved Schauberger's files",
+  "summary": "Jesse Michels tells of Podkletnov's father retrieved Schauberger's files, about 1940s at Soviet Union, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Soviet Union",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 1610.0,
+      "to_s": 1616.0,
+      "teller": "jesse-michels",
+      "quote": "Schauberger cuz his dad was actually a Soviet agent that retrieved Victor Schauberger's files.",
+      "kind": "host",
+      "cites": [
+        "eugene-podkletnov",
+        "viktor-schauberger"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells a story about a scientist named Eugene Podkletnov. Michels says that Podkletnov's father was a Soviet agent who, around the 1940s, got hold of the files of Viktor Schauberger, an inventor. If true, it would mean Podkletnov's own work came partly from Schauberger's ideas, passed down through Soviet hands."
+}

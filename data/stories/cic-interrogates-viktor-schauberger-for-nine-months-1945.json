@@ -1,0 +1,59 @@
+{
+  "id": "cic-interrogates-viktor-schauberger-for-nine-months-1945",
+  "title": "CIC interrogates Viktor Schauberger for nine months",
+  "summary": "Jesse Michels tells of CIC interrogates Viktor Schauberger for nine months, about 1945 at Austria/Germany, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Austria/Germany",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 708.0,
+      "to_s": 720.0,
+      "teller": "jesse-michels",
+      "quote": "According to historian Nick Cook's great book, The Hunt for Zero Point, CIC agents interrogated Shaburgger for nine months, fully aware of his most classified work.",
+      "kind": "host",
+      "cites": [
+        "nick-cook",
+        "victor-shawberger"
+      ],
+      "documents": [
+        "the-hunt-for-zero-point"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Jpf0ZGY87c0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells of Viktor Schauberger, an Austrian inventor whose secret work is linked to unusual flying machines in wartime Germany. Citing historian Nick Cook's book The Hunt for Zero Point, Michels says that in 1945 agents of the CIC, the US Army's Counter Intelligence Corps, questioned Schauberger for nine months, knowing all about his most classified work. If true, it would mean the United States took a deep interest in Nazi-era ideas for strange aircraft right after the war."
+}

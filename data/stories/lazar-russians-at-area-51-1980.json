@@ -1,0 +1,79 @@
+{
+  "id": "lazar-russians-at-area-51-1980",
+  "title": "Lazar: Russians at Area 51",
+  "summary": "Jesse Michels tells of Lazar: Russians at Area 51, about 1980s at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "nevada-test-site",
+  "place_text": "Area 51, Nevada",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7586.0,
+      "to_s": 7594.0,
+      "teller": "jesse-michels",
+      "quote": "Well, that's that that's the Lazar uh\nrumor as well, which is that like\nRussians were at Area 51, too, and there\nwas sort of this co-space program",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7653.0,
+      "to_s": 7661.0,
+      "teller": "jesse-michels",
+      "quote": "Lazar account it's like the Russians\nstarted to get kicked out as like like\ntensions rose around like the\ndevelopment of these ARVs.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Adds that the Russians were kicked out as tensions rose over ARV development.",
+      "link_reason": "Continues telling 5's Lazar rumour of Russians at Area 51, adding that they were later pushed out.",
+      "as_told": {
+        "title": "Lazar: Russians kicked out as ARV tensions rose",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Area 51, Nevada",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, passes on a claim from Bob Lazar, a man who says he worked on alien craft at a secret Nevada site in the 1980s. According to Michels, Lazar's story holds that Russians were also at Area 51, a secret US Air Force test base in Nevada, as part of a kind of shared space programme. In a second telling Michels adds that the Russians were pushed out as tensions grew over ARVs, man-made craft copied from alien ones, which would mean the rival superpowers once cooperated on this."
+}

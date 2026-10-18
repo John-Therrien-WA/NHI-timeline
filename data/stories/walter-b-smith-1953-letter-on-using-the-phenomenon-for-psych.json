@@ -53,6 +53,29 @@
         "place_text": "CIA, Washington, D.C.",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 1159.0,
+      "to_s": 1167.0,
+      "teller": "jesse-michels",
+      "quote": "Walter B Smith the director of the CIA in 1953 saying we're going to play up the phenomena for psychological warfare purposes in Cold War",
+      "kind": "host",
+      "cites": [
+        "walter-bedell-smith"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "The same 1953 statement by CIA director Walter B. Smith about using the phenomenon for Cold War psychological warfare.",
+      "as_told": {
+        "title": "CIA's Walter B. Smith on using UFOs for psychological warfare",
+        "years": {
+          "from": 1953,
+          "to": 1953
+        },
+        "place_text": "US",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -63,6 +86,11 @@
     },
     {
       "story": "robertson-panel-aim-to-debunk-sightings-1953",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brown-s-1953-winter-haven-proposal",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -88,7 +116,8 @@
     ],
     "episodes": [
       "9QMrhcpJq8I",
-      "TH10mD9hQas"
+      "TH10mD9hQas",
+      "tS_64sTN5AU"
     ]
   },
   "attestation": 0.85,

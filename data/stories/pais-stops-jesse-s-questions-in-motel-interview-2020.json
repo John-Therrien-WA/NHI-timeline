@@ -7,7 +7,7 @@
     "from": 2020,
     "to": 2029
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "motel near Pax River, Maryland",
   "coordinates": null,
   "kind": "testimony",
@@ -24,33 +24,168 @@
         "salvatore-pais"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 4647.0,
+      "to_s": 4651.0,
+      "teller": "salvatore-pais",
+      "quote": "We'll not touch on that. Leave it there, Jesse. Trust me on that. Leave it there.",
+      "kind": "official",
+      "cites": [
+        "jesse-michels"
+      ],
+      "documents": [],
+      "difference": "Pais tells it in his own words here, and names the fifth dimension as the topic he wouldn't touch.",
+      "link_reason": "Both tell of Pais stopping Jesse's line of questions at a certain point in their interview.",
+      "as_told": {
+        "title": "Pais warns Jesse off the fifth dimension",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "200-mainstream-scientists-want-to-study-the-phenomenon-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "arranging-and-conducting-the-bobby-ray-inman-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brett-weinstein-advised-not-to-air-robert-malone-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "eric-davis-lied-to-uapgerb-about-alien-reproduction-vehicles-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "former-ic-inspector-general-chuck-mccullough-s-ufo-involveme-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "general-neil-mccasland-goes-missing-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-reprisals-at-the-nga-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "icig-hints-that-humans-are-not-in-charge-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "inman-denies-retrieved-ufos-in-jay-anderson-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "inman-no-other-life-in-our-galaxy-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jake-barber-summoning-craft-by-telepathy-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "lacatski-won-t-say-whether-there-has-been-government-contact-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "lockheed-executive-admitted-to-fravor-the-tic-tac-was-theirs-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nasa-mission-controller-tim-taylor-s-advice-think-about-what-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nasa-space-force-track-uncorrelated-targets-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "obama-on-jimmy-kimmel-says-the-aliens-won-t-let-disclosure-h-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "obama-s-betty-and-barney-hill-documentary-and-spielberg-set-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "obama-says-on-a-podcast-that-aliens-are-real-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "radcliffe-says-uap-show-technology-we-cannot-defend-against-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "regression-hypnosis-of-mario-woods-paid-for-by-jared-tarbell-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "rubio-credible-witnesses-with-high-clearances-fear-for-their-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "spielberg-binge-watched-the-secret-of-skinwalker-ranch-befor-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 1.6,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "official",
     "tellers": [
-      "jesse-michels"
+      "salvatore-pais"
     ],
     "episodes": [
-      "A2-y_HasHEw"
+      "A2-y_HasHEw",
+      "K4gYHs84BIc"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.8,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says he once interviewed a scientist named Salvatore Pais in a motel near Pax River, a Navy base in Maryland, sometime in the 2020s. According to Michels, when the talk reached a certain level of the science, Pais got alarmed and told him, \"Jesse, stop right there. Just stop asking.\" Michels tells it as a sign that there was something Pais felt he could not talk about."
 }

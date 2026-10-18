@@ -30,19 +30,43 @@
       "documents": [
         "sinister-forces"
       ]
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 4537.0,
+      "to_s": 4545.0,
+      "teller": "richard-dolan",
+      "quote": "Uh but the UFO subject, yes, this is I think absolutely must be brought into it.",
+      "kind": "researcher",
+      "cites": [
+        "philip-lavell",
+        "daniel-sheehan"
+      ],
+      "documents": [],
+      "difference": "Told by Dolan crediting Philip Lavell and Dan Sheehan, rather than Levenda's documentation.",
+      "link_reason": "Both put forward the general theory that the UFO subject is tied to the Kennedy assassination.",
+      "as_told": {
+        "title": "UFO link to the JFK assassination",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "Dallas, Texas",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
@@ -50,13 +74,15 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "peter-levenda"
+      "peter-levenda",
+      "richard-dolan"
     ],
     "episodes": [
+      "GQlWf54K_7Y",
       "Y7PLeu5rTv4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.75,
+  "tier": "well-attested",
   "plain": "An author and researcher named Peter Levenda says he has shown, through documents, a connection between the UFO phenomenon and the 1963 assassination of President John F. Kennedy. He makes the case in his book series Sinister Forces, pointing to people such as Fred Crisman, Guy Banister and E. Howard Hunt who, he says, turn up in both stories between 1947 and 1963. If true, it would tie the UFO mystery to one of the darkest events in American history."
 }

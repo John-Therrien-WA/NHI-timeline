@@ -1,0 +1,53 @@
+{
+  "id": "a-bone-on-mars-in-a-jpl-negative",
+  "title": "A bone on Mars in a JPL negative",
+  "summary": "Joe McMoneagle tells of A bone on Mars in a JPL negative, about unspecified at Mars, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7650.0,
+      "to_s": 7657.0,
+      "teller": "joe-mcmoneagle",
+      "quote": "this is a bone on Mars",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "jpl-mars-mapping-negatives"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "joe-mcmoneagle"
+    ],
+    "episodes": [
+      "JpLThEF2dTM"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "A man named Joe McMoneagle says that one of the Mars mapping negatives from the Jet Propulsion Laboratory, the NASA center that runs space probes, shows a bone lying on the surface of Mars. If so, it would mean Mars once had animal life."
+}

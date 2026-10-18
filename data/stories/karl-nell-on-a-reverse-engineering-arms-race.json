@@ -43,6 +43,50 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 4650.0,
+      "to_s": 4663.0,
+      "teller": "jesse-michels",
+      "quote": "If you take my friend and founder of Army Futures Command, Karl Nell's statements in the debrief to be true, then we're in an arms race right now with the Russians and the Chinese to reverse engineer UFOs.",
+      "kind": "secondhand",
+      "cites": [
+        "karl-nell"
+      ],
+      "documents": [],
+      "difference": "Calls Nell a friend and dates the claim to the present day (2024).",
+      "link_reason": "Both tell Karl Nell's debrief claim that the US is in an arms race with Russia and China to reverse-engineer UFOs.",
+      "as_told": {
+        "title": "Karl Nell: arms race with Russia and China to reverse-engineer UFOs",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": "United States, Russia, China",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7677.0,
+      "to_s": 7685.0,
+      "teller": "jesse-michels",
+      "quote": "Army Futures Command. And he says\nthere's this subRossa secret conflict\narms race going on between us and other\ncountries. It's been going on for\ndecades.",
+      "kind": "secondhand",
+      "cites": [
+        "karl-nell",
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Says the arms race has gone on for decades and calls it a sub rosa conflict.",
+      "link_reason": "Both are Karl Nell's claim of a secret, decades-long arms race with other countries.",
+      "as_told": {
+        "title": "Karl Nell on a secret decades-long arms race",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -68,6 +112,8 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "G7Ns4Aq1tVc",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },

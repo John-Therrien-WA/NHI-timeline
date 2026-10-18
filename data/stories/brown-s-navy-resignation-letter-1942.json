@@ -1,0 +1,56 @@
+{
+  "id": "brown-s-navy-resignation-letter-1942",
+  "title": "Brown's Navy resignation letter",
+  "summary": "Jan Lundquist tells of Brown's Navy resignation letter, about 1942 at Philadelphia, Pennsylvania, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1942,
+    "to": 1942
+  },
+  "place": "philadelphia-pa",
+  "place_text": "Philadelphia; Norfolk, Virginia",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4368.0,
+      "to_s": 4377.0,
+      "teller": "jan-lundquist",
+      "quote": "Townsend gets a letter telling him he is supposed to transfer his equipment from the University of Philadelphia to the Navy at Norfolk.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "brown-s-resignation-letter"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jan-lundquist"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Townsend Brown was an American inventor whose life is the subject of a documentary by podcast host Jesse Michels. In it a researcher, Jan Lundquist, says that around 1942 Brown got a letter telling him to move his equipment from the University of Philadelphia to the Navy at Norfolk, Virginia, and she ties this to the papers around his resignation from the Navy. It is told because it would put Brown's unusual experiments in the Navy's hands during the war."
+}

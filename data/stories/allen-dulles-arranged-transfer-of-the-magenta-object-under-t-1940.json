@@ -26,6 +26,31 @@
         "pippa-malmgren"
       ],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 8598.0,
+      "to_s": 8611.0,
+      "teller": "jesse-michels",
+      "quote": "the Magenta craft was actually exfiltrated from Italy via the Nazi rat lines which people like Reinhard Galen were helping to kind of orchestrate. And it was by the Knights of Malta.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malgrren",
+        "reinhard-galen",
+        "henry-kissinger"
+      ],
+      "documents": [],
+      "difference": "Says the craft went out through the Nazi ratlines that Reinhard Gehlen helped run and was moved by the Knights of Malta, and names Kissinger; it does not mention Dulles or Truman.",
+      "link_reason": "This is the same post-war transfer of the Magenta object out of Italy, sourced to Harold Malmgren.",
+      "as_told": {
+        "title": "Magenta craft smuggled out of Italy via Nazi rat lines by the Knights of Malta",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Italy",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -36,14 +61,14 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -52,13 +77,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "harold-malmgren"
+      "harold-malmgren",
+      "jesse-michels"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "ABw7EsWh2Us"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "Harold Malmgren, a former adviser to US presidents, told podcast host Jesse Michels about a strange object said to have been recovered in Magenta, Italy, in the 1940s, and later moved to the United States under President Harry Truman. Malmgren says the steps that got it there were arranged by Allen Dulles, an American intelligence official of that era. If true, it would mean the US quietly took possession of a crashed unknown craft before the famous cases of the late 1940s."
 }

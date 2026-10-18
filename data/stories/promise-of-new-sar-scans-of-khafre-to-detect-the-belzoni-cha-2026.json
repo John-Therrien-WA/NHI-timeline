@@ -1,0 +1,65 @@
+{
+  "id": "promise-of-new-sar-scans-of-khafre-to-detect-the-belzoni-cha-2026",
+  "title": "Promise of new SAR scans of Khafre to detect the Belzoni chamber",
+  "summary": "Filippo tells of Promise of new SAR scans of Khafre to detect the Belzoni chamber, about 2026 onward at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2026,
+    "to": 2026
+  },
+  "place": "egypt",
+  "place_text": "Khafre pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 14063.0,
+      "to_s": 14077.0,
+      "teller": "filippo",
+      "quote": "I ensure you that more scans will be done on the Khafre in order to find something to detect Belzoni.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "matt-bell-funds-robots-to-drill-the-queen-s-chamber-northern-2026",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "muon-detected-big-void-to-be-excavated-in-2026-with-ministry",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "filippo"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Filippo, speaking to podcast host Jesse Michels in 2026, promises that more scans will be made of the Khafre pyramid, the second great pyramid at Giza in Egypt. The scans would use SAR, synthetic aperture radar, a way of imaging from satellites that he says can see below the surface, and the aim is to find a hidden space he calls the Belzoni chamber. He ties this to other planned work at Giza, including robots sent up a shaft in the Great Pyramid and digging into the Big Void, a large empty space found inside it."
+}

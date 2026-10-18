@@ -7,7 +7,7 @@
     "from": 1986,
     "to": 1986
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "upstate New York cabin; Florida",
   "coordinates": null,
   "kind": "testimony",
@@ -46,9 +46,39 @@
         "place_text": "unspecified",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 4289.0,
+      "to_s": 4292.0,
+      "teller": "jesse-michels",
+      "quote": "Striber says they're about to meet up, and Sarbacher dies.",
+      "kind": "secondhand",
+      "cites": [
+        "whitley-strieber",
+        "robert-sarbacher"
+      ],
+      "documents": [],
+      "difference": "Told secondhand as Sarbacher dying just before a planned meeting, where in the story he dies the night Strieber's written account was sent.",
+      "link_reason": "Both tell of Sarbacher dying just before contact with Strieber could go further.",
+      "as_told": {
+        "title": "Sarbacher dies before meeting Strieber",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "steinman-fired-by-lockheed-after-his-book-1986",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 2.5,
   "profile": {
@@ -62,14 +92,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "whitley-strieber"
     ],
     "episodes": [
-      "ABOP8ZJsyIk"
+      "ABOP8ZJsyIk",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 1.25,

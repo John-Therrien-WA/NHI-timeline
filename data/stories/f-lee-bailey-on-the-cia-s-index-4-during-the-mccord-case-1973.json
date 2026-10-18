@@ -25,9 +25,41 @@
         "james-mccord"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 8888.0,
+      "to_s": 8900.0,
+      "teller": "daniel-sheehan",
+      "quote": "uh it turns out that Lee is on index 4 for the agency he's one of the four attorneys MH that are on retainer MH for the Central Intelligence Agency",
+      "kind": "secondhand",
+      "cites": [
+        "andy-toney",
+        "william-johnstone-taylor",
+        "f-lee-bailey",
+        "james-mccord"
+      ],
+      "documents": [],
+      "difference": "Adds that Bailey was one of four attorneys the CIA kept on retainer, and credits Toney and Taylor as sources.",
+      "link_reason": "Both tell the same claim: F. Lee Bailey was on the CIA's index 4 during the McCord case.",
+      "as_told": {
+        "title": "F. Lee Bailey on CIA retainer (index 4)",
+        "years": {
+          "from": 1973,
+          "to": 1973
+        },
+        "place_text": "Washington DC",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "mccord-s-letter-to-judge-sirica-1973",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 2.0,
   "profile": {
@@ -48,6 +80,7 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },

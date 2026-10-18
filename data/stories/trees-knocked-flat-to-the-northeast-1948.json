@@ -1,0 +1,72 @@
+{
+  "id": "trees-knocked-flat-to-the-northeast-1948",
+  "title": "Trees knocked flat to the northeast",
+  "summary": "Scott Ramsay tells of Trees knocked flat to the northeast, about 1948 at New Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Hart Canyon, Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 2225.0,
+      "to_s": 2238.0,
+      "teller": "scott-ramsay",
+      "quote": "and Bill said, \"You know, if they drag that thing up to the dragon wagon, they use [music] soft trees to do it over. These aren't going to hurt anything.\" And he said, \"Notice they're all spled to the northeast.\"",
+      "kind": "secondhand",
+      "cites": [
+        "bill-steinman"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "aerial-view-shows-replanted-trees-in-lines-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "concrete-crane-slab-at-the-crash-site-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "streak-left-on-the-cliff-by-the-craft-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Scott Ramsay told podcast host Jesse Michels about Hart Canyon near Aztec, New Mexico, where a craft is said to have crashed in 1948. Ramsay says a man named Bill Steinman showed him trees at the site and explained that the craft was dragged over soft trees up to a \"dragon wagon,\" a big heavy hauling vehicle, and that the trees all lay flattened toward the northeast. If true, the trees would be physical marks left by the recovery of a crashed craft."
+}

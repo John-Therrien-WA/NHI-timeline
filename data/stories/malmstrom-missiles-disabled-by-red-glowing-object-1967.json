@@ -359,6 +359,104 @@
         "outside": true
       },
       "teller_was": "robert-salas"
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 2065.0,
+      "to_s": 2071.0,
+      "teller": "jesse-michels",
+      "quote": "Robert Solas uh 19 67 at malstrom\nBase in Montana",
+      "kind": "secondhand",
+      "cites": [
+        "robert-hastings",
+        "robert-salas"
+      ],
+      "documents": [
+        "ufos-and-nukes"
+      ],
+      "difference": "Cited only briefly as a Hastings case.",
+      "link_reason": "Same 1967 Robert Salas Malmstrom missile-disabling case.",
+      "as_told": {
+        "title": "Robert Salas Malmstrom case",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Base, Montana",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 5584.0,
+      "to_s": 5591.0,
+      "teller": "jesse-michels",
+      "quote": "And in the case of Bob Salis, you know,\nMalmstrom 1967 literally shut down our\nmissile silo.",
+      "kind": "host",
+      "cites": [
+        "robert-salas"
+      ],
+      "documents": [],
+      "difference": "A brief mention that names Salas but gives no red object and no flight details.",
+      "link_reason": "Both tell of Robert Salas's 1967 Malmstrom incident in which the missiles were disabled.",
+      "as_told": {
+        "title": "Malmstrom missiles shut down (Salas)",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom AFB, Montana",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "Qe8br8yYEDM",
+      "from_s": 1066.0,
+      "to_s": 1078.0,
+      "teller": "jesse-michels",
+      "quote": "But I think even more relevant than Bob Salace who had an extremely interesting experience with 10 missiles shutting down at Malmstrin Air Force Base.",
+      "kind": "host",
+      "cites": [
+        "robert-salas",
+        "bob-jameson"
+      ],
+      "documents": [
+        "strategic-air-command-write-up"
+      ],
+      "difference": "Names Oscar Flight's launch control center and cites a Strategic Air Command write-up.",
+      "link_reason": "Both tell of the 1967 shutdown of ten Malmstrom missiles under a red glowing object, credited to Salas and Jameson.",
+      "as_told": {
+        "title": "Malmstrom 1967: ten missiles go offline under red glowing object",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Oscar Flight launch control center, Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 5792.0,
+      "to_s": 5806.0,
+      "teller": "jesse-michels",
+      "quote": "Malmstrom Air Force Base, 1967. 10-minute man nuclear missiles go offline while security police report an object over the gate.",
+      "kind": "host",
+      "cites": [
+        "bob-salas"
+      ],
+      "documents": [],
+      "difference": "Says security police reported the object over the gate and gives the number of missiles as 10.",
+      "link_reason": "Both tell of the 1967 Malmstrom event, credited to Salas, in which missiles went offline while an object was reported over the gate.",
+      "as_told": {
+        "title": "Malmstrom missiles go offline while an object hovers over the gate",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [
@@ -395,15 +493,19 @@
     "episodes": [
       "-0g3lLGxNfc",
       "1iaH1a3A4Lk",
+      "5udx_SDdL3Y",
       "8Rr_nE65KkI",
       "C4rSj5Aum7w",
       "IWui5cBkwoE",
+      "KGD1nuM4MR8",
+      "Qe8br8yYEDM",
       "V00WcEiKRAY",
       "aa9Xx5wI8Rw",
       "fzvwBBSmWYA",
       "h0hAit-KH9A",
       "hBrfe4hFuM0",
       "kRO5jOa06Qw",
+      "rjUdn6FklAU",
       "yGtVzBbUvx4"
     ]
   },

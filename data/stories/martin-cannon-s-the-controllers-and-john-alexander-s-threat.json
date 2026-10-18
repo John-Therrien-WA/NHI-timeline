@@ -46,6 +46,53 @@
         "place_text": "United States",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 3668.0,
+      "to_s": 3679.0,
+      "teller": "jesse-michels",
+      "quote": "there's a book called uh controllers by a guy named Martin Cannon and he talks about MK Ultra but then the air MK often and how there are implants involved in some of these things",
+      "kind": "host",
+      "cites": [
+        "martin-cannon"
+      ],
+      "documents": [
+        "the-controllers"
+      ],
+      "difference": "Brings in MK-Often and implants, and does not mention John Alexander's threat.",
+      "link_reason": "Same book, Martin Cannon's The Controllers, presented as MK Ultra-linked fabricated abductions.",
+      "as_told": {
+        "title": "Martin Cannon's Controllers: MK Ultra implants disguised as alien",
+        "years": {
+          "from": 1950,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 8807.0,
+      "to_s": 8815.0,
+      "teller": "jesse-michels",
+      "quote": "He talks about how um MK Ultra was used or the alien abduction thing was used as a smoke screen for MK Ultra.",
+      "kind": "host",
+      "cites": [
+        "martin-cannon"
+      ],
+      "documents": [
+        "the-controllers"
+      ],
+      "difference": "Frames the abductions as a smoke screen for MK Ultra and leaves out John Alexander's threat.",
+      "link_reason": "Both are about Martin Cannon's book The Controllers, which says alien abductions were fabricated.",
+      "as_told": {
+        "title": "The Controllers: alien abductions as a smoke screen for MK Ultra",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -71,7 +118,9 @@
     ],
     "episodes": [
       "2-GeTxXi670",
-      "EzPmG_7WhXc"
+      "EzPmG_7WhXc",
+      "K4gYHs84BIc",
+      "iPxbILOMQ08"
     ]
   },
   "attestation": 0.6,

@@ -24,6 +24,29 @@
         "buzz-aldrin"
       ],
       "documents": []
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 77.0,
+      "to_s": 84.0,
+      "teller": "jesse-michels",
+      "quote": "Aldrin then proceeded to carry out the first religious ceremony ever conducted on the moon.",
+      "kind": "host",
+      "cites": [
+        "buzz-aldrin"
+      ],
+      "documents": [],
+      "difference": "Calls it the first religious ceremony on the Moon and does not frame it as a Masonic ritual.",
+      "link_reason": "Both tell of Aldrin's 1969 communion on the Moon during Apollo 11, told by the host.",
+      "as_told": {
+        "title": "Buzz Aldrin's communion on the moon",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "Moon (Apollo 11 lunar module)",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -39,6 +62,11 @@
     },
     {
       "story": "the-moon-rang-like-a-bell-during-the-apollo-seismometer-expe-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "apollo-11-timing-trinity-anniversary-and-aquarius-1969",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -63,7 +91,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "uVVqFg2v7ro"
+      "uVVqFg2v7ro",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 0.1,

@@ -1,0 +1,63 @@
+{
+  "id": "lundahl-s-cuban-missile-crisis-briefing-for-kennedy-1962",
+  "title": "Lundahl's Cuban missile crisis briefing for Kennedy",
+  "summary": "Grant Cameron tells of Lundahl's Cuban missile crisis briefing for Kennedy, about 1962 at Washington, D.C., and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1962,
+    "to": 1962
+  },
+  "place": "washington-dc",
+  "place_text": "White House, Washington, D.C.",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 3393.0,
+      "to_s": 3396.0,
+      "teller": "grant-cameron",
+      "quote": "That was Art Lundal and he got an award from Kennedy for that.",
+      "kind": "researcher",
+      "cites": [
+        "arthur-lundahl",
+        "john-f-kennedy"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "hillenkoetter-leaves-nicap-as-hearings-loom-1962",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "grant-cameron"
+    ],
+    "episodes": [
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A UFO researcher, Grant Cameron, speaking on podcast host Jesse Michels' show, says that during the 1962 Cuban missile crisis, the standoff over Soviet missiles in Cuba, a man named Arthur Lundahl briefed President John F. Kennedy. Cameron says Lundahl got an award from Kennedy for that work, and he brings it up because Lundahl is a figure in his account of who knew about UFOs inside government."
+}

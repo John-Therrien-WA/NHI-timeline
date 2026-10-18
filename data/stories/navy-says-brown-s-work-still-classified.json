@@ -45,6 +45,30 @@
         "place_text": "United States",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1287.0,
+      "to_s": 1299.0,
+      "teller": "jesse-michels",
+      "quote": "When Schatzkin tries to use the Freedom of Information Act to retrieve Brown's records from the Navy, they repeatedly play dumb at first and act like they aren't even aware of a man with that name in the Navy.",
+      "kind": "host",
+      "cites": [
+        "paul-schatzkin",
+        "linda-brown"
+      ],
+      "documents": [],
+      "difference": "Specifies FOIA requests, and says the Navy pretended not to know of a man with that name.",
+      "link_reason": "Same story of the Navy being uncooperative when Schatzkin and Linda Brown requested Brown's records.",
+      "as_told": {
+        "title": "Navy stonewalls FOIA requests for Brown's records",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -68,6 +92,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "RTEWLSTyUic",
       "kRO5jOa06Qw",
       "mOWwdIuyaQA"
     ]

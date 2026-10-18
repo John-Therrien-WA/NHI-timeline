@@ -1,0 +1,61 @@
+{
+  "id": "sumerian-flood-story-as-the-source-of-noah",
+  "title": "Sumerian flood story as the source of Noah",
+  "summary": "Matt tells of Sumerian flood story as the source of Noah, about ancient Mesopotamia at Mesopotamia, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Mesopotamia",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 5883.0,
+      "to_s": 5892.0,
+      "teller": "matt",
+      "quote": "if you read the Epic of Gilgamesh the atrasis and then you compare the flood story it's like literally almost identical to Genesis",
+      "kind": "researcher",
+      "cites": [
+        "george-smith",
+        "stephanie-dalley",
+        "samuel-kramer"
+      ],
+      "documents": [
+        "epic-of-gilgamesh",
+        "atrahasis",
+        "genesis",
+        "sumerian-king-list",
+        "eridu-genesis"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 5,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matt"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "told-once",
+  "plain": "A researcher named Matt says on Jesse Michels's podcast that if you read the Epic of Gilgamesh and the Atrahasis, two ancient poems from Mesopotamia, the land of today's Iraq, their flood stories are almost identical to the one in Genesis, the first book of the Bible. He tells it to suggest that the story of Noah and the ark came from these much older Sumerian tales."
+}

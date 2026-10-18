@@ -1,0 +1,63 @@
+{
+  "id": "menzel-deletes-harvard-observatory-data-1953",
+  "title": "Menzel deletes Harvard observatory data",
+  "summary": "Jesse Michels tells of Menzel deletes Harvard observatory data, about 1953 onward at Harvard, Cambridge, Massachusetts, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1953,
+    "to": 1953
+  },
+  "place": "harvard-ma",
+  "place_text": "Harvard Observatory, Massachusetts",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7158.0,
+      "to_s": 7174.0,
+      "teller": "jesse-michels",
+      "quote": "and there's this amazing Swedish astronomer Beatatrice Valale and she talks about Menzel having like deleted like all this astronomical information from like 1953 and onwards in uh from the Harvard Observatory",
+      "kind": "secondhand",
+      "cites": [
+        "beatriz-villarroel",
+        "donald-menzel"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "menzel-stops-the-harvard-sky-survey-in-1953",
+      "relation": "variant",
+      "note": "Both are about Menzel and the 1953 break in Harvard Observatory sky data. This telling says he deleted the data, where the story says he stopped the survey."
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that an astronomer he calls Swedish, Beatriz Villarroel, talks about Donald Menzel, a Harvard astronomer, deleting large amounts of sky records from the Harvard Observatory from 1953 onward. If true, it would mean records that might show strange things in the sky were wiped away."
+}

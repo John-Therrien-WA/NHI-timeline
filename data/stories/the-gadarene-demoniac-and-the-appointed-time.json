@@ -1,0 +1,76 @@
+{
+  "id": "the-gadarene-demoniac-and-the-appointed-time",
+  "title": "The Gadarene demoniac and the 'appointed time'",
+  "summary": "Tim Alberino tells of The Gadarene demoniac and the 'appointed time', about 1st century AD at Gadara, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Gadara",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 2293.0,
+      "to_s": 2301.0,
+      "teller": "tim-alberino",
+      "quote": "Jesus was in in the land of Gdara with his disciples",
+      "kind": "researcher",
+      "cites": [
+        "jesus-of-nazareth"
+      ],
+      "documents": [
+        "new-testament-gospels",
+        "book-of-enoch"
+      ]
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 11888.0,
+      "to_s": 11894.0,
+      "teller": "tim-alberino",
+      "quote": "they would chain him up in the tombs because he would scream.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "new-testament"
+      ],
+      "difference": "Adds the detail that he was chained in the tombs and screamed, and credits the New Testament instead of Jesus.",
+      "link_reason": "Both tell the Gospel encounter with the Gadarene demoniac in the land of Gadara, and the teller is the same.",
+      "as_told": {
+        "title": "Gadarene demoniac chained in the tombs",
+        "years": null,
+        "place_text": "Gadara",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "tim-alberino"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "On the show of a podcast host, Jesse Michels, a researcher named Tim Alberino retells an old story from the New Testament gospels, the accounts of Jesus' life in the Christian Bible. He says Jesus was in the land of Gadara with his disciples and met a troubled man whom the locals chained up among the tombs because he would scream. Alberino reads it alongside the Book of Enoch, an ancient religious text about fallen angels and giants, as part of his case that the old scriptures describe real beings that are not human."
+}

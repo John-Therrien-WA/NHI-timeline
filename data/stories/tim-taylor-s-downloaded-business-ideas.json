@@ -1,0 +1,108 @@
+{
+  "id": "tim-taylor-s-downloaded-business-ideas",
+  "title": "Tim Taylor's downloaded business ideas",
+  "summary": "Jesse Michels tells of Tim Taylor's downloaded business ideas, about unspecified at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 860.0,
+      "to_s": 865.0,
+      "teller": "jesse-michels",
+      "quote": "he claims that a lot of that was derived from downloads that he got",
+      "kind": "host",
+      "cites": [
+        "tim-taylor",
+        "diana-pasulka"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 7466.0,
+      "to_s": 7470.0,
+      "teller": "jesse-michels",
+      "quote": "He claimed these downloads were facilitated by protocols he engaged in.",
+      "kind": "host",
+      "cites": [
+        "tim-taylor",
+        "diana-pasulka"
+      ],
+      "documents": [
+        "american-cosmic"
+      ],
+      "difference": "Adds that the downloads were made possible by protocols he followed, and does not tie them to business ideas.",
+      "link_reason": "Both tell of Taylor claiming downloads from non-human intelligences.",
+      "as_told": {
+        "title": "Tim Taylor's downloads from non-human intelligences",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 3253.0,
+      "to_s": 3261.0,
+      "teller": "jesse-michels",
+      "quote": "One of the most curious aspects of Taylor's story is his claim that he receives downloads from an intelligence he believes is non-human.",
+      "kind": "secondhand",
+      "cites": [
+        "diana-pasulka",
+        "tim-taylor"
+      ],
+      "documents": [
+        "american-cosmic"
+      ],
+      "difference": "Speaks of the downloads in general rather than tying them to business ideas, and credits American Cosmic.",
+      "link_reason": "Both tell of Tim Taylor's claim that he gets downloads from a non-human intelligence, as relayed through Pasulka.",
+      "as_told": {
+        "title": "Tim Taylor's non-human downloads",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "NASA; Kennedy Space Center",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "QgxjtDS2sIQ",
+      "nTiFs8LudUo",
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels describes a man named Tim Taylor, who appears in American Cosmic, a book by religion scholar Diana Pasulka. According to Michels, Taylor claims that many of his ideas, including business ideas, came to him as sudden \"downloads\" from an intelligence he believes is not human. In other episodes Michels speaks of the downloads more generally and adds that Taylor says they came through protocols, or set practices, that he followed. If true, it would mean a non-human mind is feeding ideas to people."
+}

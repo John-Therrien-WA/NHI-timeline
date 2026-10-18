@@ -1,0 +1,59 @@
+{
+  "id": "jack-parsons-reads-the-golden-bough-and-concludes-science-is-1930",
+  "title": "Jack Parsons reads The Golden Bough and concludes science is a form of magic",
+  "summary": "Jesse Michels tells of Jack Parsons reads The Golden Bough and concludes science is a form of magic, about 1930s-1940s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1930,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 3807.0,
+      "to_s": 3816.0,
+      "teller": "jesse-michels",
+      "quote": "And Jack Parsons actually read uh this book called The Golden Bow by JG Frasier, this 19th century anthropologist.",
+      "kind": "host",
+      "cites": [
+        "jack-parsons",
+        "j-g-frazer"
+      ],
+      "documents": [
+        "the-golden-bough"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "h3u8EkGI8OQ"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Jack Parsons, an American rocket scientist of the 1930s and 40s, read The Golden Bough, a study of magic and religion by the 19th century anthropologist J.G. Frazer. According to Michels, Parsons came away believing that science is a form of magic, which would mean early rocketry grew partly out of occult thinking."
+}

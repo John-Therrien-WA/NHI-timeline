@@ -1,0 +1,59 @@
+{
+  "id": "1942-fbi-file-laurel-canyon-address-norfolk-compromat",
+  "title": "1942 FBI file: Laurel Canyon address, Norfolk, compromat",
+  "summary": "Jesse Michels tells of 1942 FBI file: Laurel Canyon address, Norfolk, compromat, about 1942 at Laurel Canyon, Los Angeles; Norfolk, Virginia, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1942,
+    "to": 1942
+  },
+  "place": null,
+  "place_text": "Laurel Canyon, Los Angeles; Norfolk, Virginia",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4398.0,
+      "to_s": 4407.0,
+      "teller": "jesse-michels",
+      "quote": "A clue might be found in a 1942 FBI file on Brown. The file shows Brown living in Laurel Canyon on Wonderland Boulevard.",
+      "kind": "host",
+      "cites": [
+        "paul-schatzkin",
+        "paul-laviolette"
+      ],
+      "documents": [
+        "1942-fbi-file-on-brown"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, making a documentary about Townsend Brown, a scientist said to have worked on flying-disc technology, points to a 1942 file the FBI, the US national police agency, kept on him. Michels says the file shows Brown living on Wonderland Boulevard in Laurel Canyon, Los Angeles, and also touches on Norfolk, Virginia, and on compromising material that could be used against him. He presents it as a clue to the hidden side of Brown's life."
+}

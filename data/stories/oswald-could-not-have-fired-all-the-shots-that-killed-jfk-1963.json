@@ -1,0 +1,60 @@
+{
+  "id": "oswald-could-not-have-fired-all-the-shots-that-killed-jfk-1963",
+  "title": "Oswald could not have fired all the shots that killed JFK",
+  "summary": "Dan Sheehan tells of Oswald could not have fired all the shots that killed JFK, about 1963 at Texas (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "texas",
+  "place_text": "Dallas, Texas",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 36.0,
+      "to_s": 44.0,
+      "teller": "daniel-sheehan",
+      "quote": "I do know who did kill him Oswald could not have gotten off the number of shots",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "fred-crisman-and-hunt-as-the-dallas-tramps-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "2SQXAPCdmPE"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "In 1963 President John F. Kennedy was shot in Dallas, Texas, and a man named Lee Harvey Oswald was accused of the killing. A guest named Dan Sheehan tells podcast host Jesse Michels that Oswald could not have fired as many shots as were fired, and says he knows who really killed the president. If true, it would mean others were involved."
+}

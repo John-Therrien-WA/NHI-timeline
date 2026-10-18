@@ -1,0 +1,53 @@
+{
+  "id": "friends-turned-away-from-area-51",
+  "title": "Friends turned away from Area 51",
+  "summary": "Kiran Ilum Xenov tells of Friends turned away from Area 51, about Recent at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "Area 51, Nevada, United States",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "IFaXi-NrPV0",
+      "from_s": 3085.0,
+      "to_s": 3094.0,
+      "teller": "kiran-ilum-xenov",
+      "quote": "Recently, my friends were in the United States and wanted to drive up there to take a look. But when they drove up, the military didn't let them through.",
+      "kind": "secondhand",
+      "cites": [
+        "unnamed-friends"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kiran-ilum-xenov"
+    ],
+    "episodes": [
+      "IFaXi-NrPV0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Kiran Ilum Xenov, a former president of one of Russia's regional republics who says he was taken by aliens in 1997, says friends of his recently visited the United States and tried to drive up to Area 51, a secretive military test site in Nevada. He says the military would not let them through. To him, it shows how closely the site is guarded."
+}

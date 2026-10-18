@@ -246,11 +246,100 @@
         "place_text": "unspecified",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 6898.0,
+      "to_s": 6910.0,
+      "teller": "jesse-michels",
+      "quote": "he's basically expressing extreme dissatisfaction that you had these rogue groups working on purportedly UFOs who he met with and it's out of his jurisdiction.",
+      "kind": "host",
+      "cites": [
+        "eric-davis",
+        "thomas-wilson",
+        "edgar-mitchell"
+      ],
+      "documents": [
+        "wilson-memo"
+      ],
+      "difference": "Dates it 2002 and places it in the EG&G parking lot in Las Vegas, where the story gives 1997.",
+      "link_reason": "Both are the Wilson memo recording Eric Davis's meeting with Admiral Wilson about rogue reverse-engineering groups outside his jurisdiction.",
+      "as_told": {
+        "title": "Wilson memo on rogue UFO groups",
+        "years": {
+          "from": 2002,
+          "to": 2002
+        },
+        "place_text": "EG&G parking lot, Las Vegas",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 4976.0,
+      "to_s": 4978.0,
+      "teller": "jesse-michels",
+      "quote": "estate. One of the papers from the",
+      "kind": "host",
+      "cites": [
+        "eric-davis",
+        "thomas-wilson",
+        "edgar-mitchell"
+      ],
+      "documents": [
+        "wilson-memo"
+      ],
+      "difference": "Says the memo was found among Mitchell's estate papers and places the meeting in the EG&G parking lot.",
+      "link_reason": "The Wilson memo story already holds a Jesse Michels telling about Edgar Mitchell strangely having the memo, which records Davis and Wilson in the parking lot.",
+      "as_told": {
+        "title": "Wilson memo found in Edgar Mitchell's estate",
+        "years": null,
+        "place_text": "EG&G parking lot",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 4490.0,
+      "to_s": 4501.0,
+      "teller": "grant-cameron",
+      "quote": "I was approached by uh James Riggney out of Australia. So the way the the the chain of comm of custody was Mitchell had it.",
+      "kind": "firsthand",
+      "cites": [
+        "james-rigney",
+        "edgar-mitchell",
+        "eric-davis",
+        "thomas-wilson"
+      ],
+      "documents": [
+        "wilson-davis-memo"
+      ],
+      "difference": "Adds the chain of custody, from Mitchell through James Rigney in Australia to Grant Cameron, around 2019.",
+      "link_reason": "How the Wilson-Davis memo passed from Mitchell to Rigney to Cameron is part of the story of the same leaked memo. The memo story already notes that Mitchell had it.",
+      "as_told": {
+        "title": "Chain of custody of the Wilson-Davis memo",
+        "years": {
+          "from": 2000,
+          "to": 2019
+        },
+        "place_text": "United States; Australia",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
     {
       "story": "1997-unod-declaring-the-programs-illegal",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "corso-s-co-author-gave-him-24-hours-to-edit-the-book-1997",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "corso-s-manuscript-dawn-of-a-new-age-vs-the-day-after-roswel-1997",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -268,7 +357,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 3,
-    "repetitions": 2,
+    "repetitions": 3,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -278,10 +367,13 @@
     "episodes": [
       "-XdvIrexF08",
       "LnAiNChnuEQ",
+      "Rjr3Yq-dMUE",
       "bVhSPH2A5Vw",
       "d9tdJ2SkBKQ",
+      "fpUa3xJN64Q",
       "fyX8V1XXmQM",
       "hBrfe4hFuM0",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4",
       "xnxasfyHtfo"
     ]

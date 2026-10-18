@@ -171,40 +171,307 @@
         "place_text": "Roswell, New Mexico",
         "story_kind": "reverse-engineering"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1010.0,
+      "to_s": 1025.0,
+      "teller": "uapgerb",
+      "quote": "his testimony is that under Arthur Trudeau in 1958 to 1962, we saw the golden age of Army R&D. And this is where materials recovered from the Roswell crash and possibly other crashes, maybe Aztec, maybe crash at Corona, Plains of St. Augustine so forth",
+      "kind": "researcher",
+      "cites": [
+        "philip-corso",
+        "arthur-trudeau",
+        "john-b-alexander"
+      ],
+      "documents": [],
+      "difference": "Places it under Arthur Trudeau in 1958–1962 as the 'golden age of Army R&D' and adds possible Aztec, Corona and Plains of St. Augustine material.",
+      "link_reason": "Both tell Corso's claim that Roswell crash material was handed out to private industry through Army R&D.",
+      "as_told": {
+        "title": "Golden age of Army R&D seeding Roswell materials to industry",
+        "years": {
+          "from": 1958,
+          "to": 1962
+        },
+        "place_text": "United States",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1402.0,
+      "to_s": 1407.0,
+      "teller": "jesse-michels",
+      "quote": "Philip J. Corso he says that that material is taken to Rosco Hill or Hill Encoder.",
+      "kind": "host",
+      "cites": [
+        "philip-corso",
+        "roscoe-hillenkoetter"
+      ],
+      "documents": [],
+      "difference": "Names Sperry Rand alongside Bell Labs.",
+      "link_reason": "Both tell Corso's account that Roswell material went to Hillenkoetter and then to Corso, who passed it to private industry such as Bell Labs.",
+      "as_told": {
+        "title": "Hillenkoetter assigns Corso to seed material to industry",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "United States (Bell Labs, Sperry Rand)",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 8063.0,
+      "to_s": 8075.0,
+      "teller": "uapgerb",
+      "quote": "of of Corso as well. He said that the\npurpose of giving this technology to US\nindustry was a to bolster the US war\nmachine and benefit the American people\nif necessary.",
+      "kind": "secondhand",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [],
+      "difference": "Adds the stated purpose: to bolster the US war machine and benefit the American people.",
+      "link_reason": "Both tell Corso's claim that recovered alien technology was handed out to US private industry.",
+      "as_told": {
+        "title": "Corso: alien technology seeded into US industry",
+        "years": {
+          "from": 1940,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 9416.0,
+      "to_s": 9434.0,
+      "teller": "jesse-michels",
+      "quote": "do you think that Philip Corso's\nnarrative is correct where like you have\nthese meta materials basically his you\nknow the the sort of golden age of\nmaterial science of you know the late\n50s was a result of the Roswell\nmaterials uh being transferred to you\nknow right pad",
+      "kind": "host",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [],
+      "difference": "Frames the payoff as metamaterials and a late-1950s golden age of materials science.",
+      "link_reason": "Both tell Corso's account that Roswell crash material went to Wright-Patterson and was passed to industry, seeding later technology.",
+      "as_told": {
+        "title": "Corso: Roswell materials seeded late-50s materials science",
+        "years": {
+          "from": 1947,
+          "to": 1959
+        },
+        "place_text": "Roswell; Wright-Patterson",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5733.0,
+      "to_s": 5743.0,
+      "teller": "john-brandenburg",
+      "quote": "Oh, according to Philip Corso, a lot of the stuff recovered from these crashes, especially Roswell was the seed crystal for a lot of the technology we have now.",
+      "kind": "secondhand",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [
+        "the-day-after-roswell"
+      ],
+      "difference": "Phrased as the 'seed crystal' for today's technology, with no mention of Bell Labs or Hillenkoetter.",
+      "link_reason": "Both are Corso's claim that Roswell crash material was passed on and became the seed of modern technology.",
+      "as_told": {
+        "title": "Corso: Roswell debris was the seed of modern technology",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico / United States",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1165.0,
+      "to_s": 1175.0,
+      "teller": "jesse-michels",
+      "quote": "Corso went on to claim in his book, The Day After Roswell, that alien tech had been recovered and reverse engineered from crash retrieval programs.",
+      "kind": "host",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [
+        "the-day-after-roswell"
+      ],
+      "difference": "Speaks generally of crash retrieval programs and puts the work at the Pentagon, without naming Roswell, Hillenkoetter or Bell Labs.",
+      "link_reason": "Both are Corso's claim in The Day After Roswell that crash materials were recovered and reverse engineered.",
+      "as_told": {
+        "title": "Corso's claim of reverse-engineered alien tech",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Pentagon, United States",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 1955.0,
+      "to_s": 1973.0,
+      "teller": "jesse-michels",
+      "quote": "you have all these rumors of like Philip J. Corso and you know him being involved in you know I think army's you know uh foreign technology desk and transferring you know uh uh crash materials from Roswell for example to Bell Labs",
+      "kind": "host",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [],
+      "difference": "Told loosely as rumour, with no mention of Hillenkoetter or a covert group.",
+      "link_reason": "Both tell Corso's claim that, from the Army's foreign technology desk, he handed Roswell crash materials out to Bell Labs.",
+      "as_told": {
+        "title": "Corso transferring Roswell materials to Bell Labs",
+        "years": {
+          "from": 1947,
+          "to": 1969
+        },
+        "place_text": "Roswell, New Mexico; Bell Labs",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 4154.0,
+      "to_s": 4163.0,
+      "teller": "philip-corso",
+      "quote": "The the number one was the integrated circuit. Number two in importance was laser cuz I had some laser instruments also.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Corso himself names the integrated circuit as most important and the laser as second, and says he held laser instruments.",
+      "link_reason": "Corso's own claim that reverse-engineered crash technology went into industry. This is the same claim the corpus holds as his covert-group and reverse-engineering account.",
+      "as_told": {
+        "title": "Corso: integrated circuit and laser from crash tech",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 40.0,
+      "to_s": 60.0,
+      "teller": "deep-prasad",
+      "quote": "the Roswell crash recovery story and what uh Philip Corso said about which technology stacks were accelerated through reverse engineering. Integrated circuits, lasers and fiber optics. Those are the only three things you need to build a data center today.",
+      "kind": "researcher",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [],
+      "difference": "Names three technologies, integrated circuits, lasers and fiber optics, and ties them to building today's data centers.",
+      "link_reason": "The same Corso account: material recovered at Roswell was reverse-engineered and passed out to industry.",
+      "as_told": {
+        "title": "Roswell recovery and Corso's reverse-engineered tech stacks",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 5837.0,
+      "to_s": 5861.0,
+      "teller": "unnamed-guest",
+      "quote": "I think that if we're to take the Roswell crash recovery story at his face value and what uh, Philip Corso said about how some of that technology helped accelerate, not create but accelerate the advent of modern integrated semiconductors, integrated circuits, uh, fiber optics and lasers.",
+      "kind": "secondhand",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [],
+      "difference": "Told by a guest, who names integrated circuits, fiber optics and lasers and says the material accelerated them rather than created them.",
+      "link_reason": "Same Corso claim that Roswell crash material was reverse-engineered and sped up later technology.",
+      "as_told": {
+        "title": "Roswell recovery tech accelerated integrated circuits, fiber optics and lasers (Corso)",
+        "years": {
+          "from": 1947,
+          "to": 1959
+        },
+        "place_text": "Roswell, New Mexico, USA",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 5997.0,
+      "to_s": 6006.0,
+      "teller": "unnamed-guest",
+      "quote": "uh that was accelerated and the integrated circuit is something Bell Labs had been struggling with for 10 years.",
+      "kind": "secondhand",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": [],
+      "difference": "Adds that Bell Labs had struggled with the integrated circuit for 10 years before this.",
+      "link_reason": "Same Corso claim that Roswell material passed to Bell Labs sped up the integrated circuit.",
+      "as_told": {
+        "title": "Bell Labs integrated circuit stagnation broken after Roswell",
+        "years": {
+          "from": 1940,
+          "to": 1959
+        },
+        "place_text": "Bell Labs, USA",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "roswell-technologies-per-corso-were-german-1940s-inventions",
+      "relation": "variant",
+      "note": "Both are about the technologies Corso said came from Roswell. This telling claims the Germans had already invented them in the 1940s, which contradicts the reverse-engineered-from-the-crash account."
+    }
+  ],
   "tags": [],
-  "score": 2.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 1,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 5,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels",
-      "uapgerb"
+      "philip-corso"
     ],
     "episodes": [
       "09KP8XVf5nY",
       "9QMrhcpJq8I",
+      "Jpf0ZGY87c0",
+      "OZ_oCpKYQJ0",
       "RNjC1vLcxKo",
       "Y7PLeu5rTv4",
+      "bM18PJY6_Zc",
       "d9tdJ2SkBKQ",
       "fyX8V1XXmQM",
-      "u7g5Sn1DJF4"
+      "h6zMVkncTsE",
+      "nTiFs8LudUo",
+      "p0S0BfoZy0w",
+      "u7g5Sn1DJF4",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 1.25,
-  "tier": "well-attested",
+  "attestation": 1.0,
+  "tier": "told-once",
   "plain": "This story starts at Roswell, New Mexico, where in 1947 something is said to have crashed. A US Army officer named Philip J. Corso wrote a book called The Day After Roswell. A podcast host, Jesse Michels, says that in the book Corso claims a secret government group was set up under Admiral Roscoe Hillenkoetter, the first director of the CIA. According to Michels, Corso ran the Army's foreign technology desk and was given material from the crash to pass out quietly to private industry, mainly Bell Labs, a famous research laboratory. Michels says Corso thought the transistor, the tiny switch behind modern electronics, was reverse engineered from what was found. An online researcher known as UAPGerb tells it too, saying Corso described technologies being seeded into US defense companies around 1959 and 1960. Some tellings name Bell Labs, others speak more broadly, and one places the material at Wright-Patterson, an Air Force base. If true, everyday technology would owe part of its origin to a crashed craft."
 }

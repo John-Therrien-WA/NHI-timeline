@@ -1,0 +1,93 @@
+{
+  "id": "land-of-chem-theory-pyramids-as-chemical-plants",
+  "title": "Land of Chem theory: pyramids as chemical plants",
+  "summary": "Jay Anderson tells of Land of Chem theory: pyramids as chemical plants, about ancient Egypt at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 8560.0,
+      "to_s": 8566.0,
+      "teller": "jay-anderson",
+      "quote": "it's it's really interesting his theory on like um how these these were essentially giant chemical plants",
+      "kind": "secondhand",
+      "cites": [
+        "jeffrey"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 261.0,
+      "to_s": 278.0,
+      "teller": "jeffrey-drum",
+      "quote": "And my hypothesis for the function of the Great Pyramid is that the hydrogen sulfide gas coming from this subterranean karst cave and tunnel system is the initial reactant in the chemical manufacturing sequence within the Great Pyramid.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Drum himself, who names hydrogen sulfide gas from karst caves as the first reactant.",
+      "link_reason": "Both tell Jeffrey Drum's (Land of Chem) theory that the pyramid was a chemical plant.",
+      "as_told": {
+        "title": "Drum's hypothesis: hydrogen sulfide from karst caves feeds chemical manufacturing in the Great Pyramid",
+        "years": null,
+        "place_text": "Great Pyramid, Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 831.0,
+      "to_s": 839.0,
+      "teller": "geoffrey-drumm",
+      "quote": "Methane being extracted and produced within the step pyramid. That methane being converted into ammonia within the red pyramid.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Drumm himself, specifying a chain: methane in the Step Pyramid, ammonia in the Red Pyramid, dated c. 8500-5300 BC.",
+      "link_reason": "Same theory by Drumm that the Egyptian pyramids were chemical plants (Land of Chem).",
+      "as_told": {
+        "title": "Egyptian pyramids as an industrial chemical manufacturing chain",
+        "years": null,
+        "place_text": "Step, Red, Bent, Great and central pyramids, Egypt",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 3,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "geoffrey-drumm",
+      "jay-anderson",
+      "jeffrey-drum"
+    ],
+    "episodes": [
+      "51N8OxqZIWY",
+      "BSXdnsyCqxw",
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several",
+  "plain": "This story is a theory about the pyramids of Egypt, sometimes called the Land of Chem theory. A guest named Jay Anderson says he finds it interesting that a man named Jeffrey believes the pyramids were giant chemical factories. That man, the researcher Geoffrey Drumm, explains it himself: he says hydrogen sulfide gas rising from a network of underground limestone caves was the starting ingredient for chemical production inside the Great Pyramid. In another telling he describes a chain, with methane made in the Step Pyramid and turned into ammonia in the Red Pyramid, and dates it to roughly 8500 to 5300 BC. People tell it because, if true, it would mean the pyramids were industrial machines built far earlier than usually thought."
+}

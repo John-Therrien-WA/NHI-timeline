@@ -22,6 +22,92 @@
       "kind": "secondhand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 91.0,
+      "to_s": 108.0,
+      "teller": "jesse-michels",
+      "quote": "fact, the UFO material held by one of our guests today, Carlos Dosoza, sounds exactly like the crash material at Roswell. Light, tinfoily, and when he bent it, it would immediately go back into its original shape, like some sort of memory metal.",
+      "kind": "host",
+      "cites": [
+        "carlos-dosoza"
+      ],
+      "documents": [],
+      "difference": "Names the holder as Carlos Dosoza, describes the debris as light and tinfoil-like, and explicitly likens it to Roswell memory metal.",
+      "link_reason": "Both are about the Varginha witness who held debris that sprang back to its original shape. This telling names him as Carlos and compares the debris to Roswell.",
+      "as_told": {
+        "title": "Varginha debris compared to Roswell memory metal",
+        "years": {
+          "from": 1947,
+          "to": 1996
+        },
+        "place_text": "Roswell, New Mexico; Varginha, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 836.0,
+      "to_s": 841.0,
+      "teller": "carlos-dosoza",
+      "quote": "And what happened was this foil or this sheet regained its shape.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Carlos de Souza, who calls it a foil or sheet, where the story has Jesse Michels relaying it secondhand.",
+      "link_reason": "Both tell of the Varginha crash witness handling debris material that returned to its original shape in 1996; here the witness, Carlos, tells it himself.",
+      "as_told": {
+        "title": "Lightweight foil debris that springs back to its shape",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Crash site near Varginha, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 10439.0,
+      "to_s": 10449.0,
+      "teller": "italo-venturelli",
+      "quote": "There's the testimony of the guy who saw the uh the spacecraft, picked up a piece with his hand.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Says he saw the spacecraft and picked up a piece, but leaves out that the material went back to its original shape.",
+      "link_reason": "A 1996 Varginha crash witness who held a piece of the craft in his hands, which matches the story of the Varginha witness who held the material.",
+      "as_told": {
+        "title": "A witness saw the spacecraft and picked up a piece of it",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 3216.0,
+      "to_s": 3221.0,
+      "teller": "carlos-de-souza",
+      "quote": "And what happened was this foil or this sheet regained its shape.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Carlos, who calls the material a foil or sheet found at the crash site.",
+      "link_reason": "Both tell of the Varginha crash witness handling material that went back to its original shape.",
+      "as_told": {
+        "title": "Shape-recovering foil debris at the crash site",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Minas Gerais, Brazil",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -74,13 +160,43 @@
       "story": "varginha-crash-and-captured-being-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "army-trucks-cordoning-off-the-hospital-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "craft-shot-down-before-crashing-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "military-convoy-cordons-the-crash-site-and-a-soldier-threate-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-being-was-nearly-taken-to-the-zoo-before-it-went-to-the-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tres-coracoes-army-battalion-supports-the-varginha-operation-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-pilot-testifies-about-scrubbed-cia-and-air-force-missions-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 5.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -89,17 +205,21 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "carlos-de-souza",
+      "carlos-dosoza",
+      "italo-venturelli"
     ],
     "episodes": [
-      "d9tdJ2SkBKQ"
+      "UkKwa4jU0fc",
+      "d9tdJ2SkBKQ",
+      "nqLnEVcZ8vE"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 2.5,
+  "tier": "well-attested",
   "plain": "The podcast host Jesse Michels says he interviewed a man who witnessed a reported crash of an unknown craft in 1996 near Varginha, a town in Brazil. According to Michels, the man says he held a piece of material from the crash, and when he bent or played with it, it went back to its original shape. Michels links this to similar accounts of strange metal, which would point to technology beyond anything known."
 }

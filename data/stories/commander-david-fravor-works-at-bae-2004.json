@@ -1,0 +1,67 @@
+{
+  "id": "commander-david-fravor-works-at-bae-2004",
+  "title": "Commander David Fravor works at BAE",
+  "summary": "Jesse Michels tells of Commander David Fravor works at BAE, about 2004-present at Off San Diego (Nimitz, 2004), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "pacific-nimitz",
+  "place_text": "BAE Systems; Nimitz incident",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 5715.0,
+      "to_s": 5721.0,
+      "teller": "jesse-michels",
+      "quote": ">> Commander David Fraver who was in the Nimttz incident he works at BAE I believe.",
+      "kind": "host",
+      "cites": [
+        "david-fravor"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "alex-dietrich-on-ufologists-enjoying-anticipation-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "raytheon-distances-itself-from-what-its-new-flir-system-dete-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "K4gYHs84BIc"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says he believes that David Fravor, a Navy commander and fighter pilot, now works at BAE, a large defence company. Fravor is known for the 2004 Nimitz incident, when Navy pilots from the aircraft carrier USS Nimitz reported an unexplained object off San Diego. Michels mentions it as a link between a key UFO witness and the defence industry."
+}

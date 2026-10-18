@@ -27,33 +27,108 @@
         "audio-recording-of-jacqu-cornon-deathbed-confession",
         "12-page-report-on-the-1956-paris-experiment"
       ]
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 659.0,
+      "to_s": 666.0,
+      "teller": "jesse-michels",
+      "quote": "Schatzkin actually met Jean-Louis Cornillon in April of 2008 in Pennsylvania right before he died.",
+      "kind": "secondhand",
+      "cites": [
+        "paul-schatzkin",
+        "jean-louis-cornillon"
+      ],
+      "documents": [
+        "montgolfier-report"
+      ],
+      "difference": "Places the meeting with Schatzkin in Pennsylvania in April 2008 rather than 2009, gives Cornillon's age as 98, and cites the Montgolfier report.",
+      "link_reason": "Cornillon confirming, shortly before he died, that he witnessed Brown's Paris vacuum results is the deathbed confession in the story.",
+      "as_told": {
+        "title": "Schatzkin meets 98-year-old Cornillon who confirms results",
+        "years": {
+          "from": 2008,
+          "to": 2008
+        },
+        "place_text": "Pennsylvania",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 783.0,
+      "to_s": 796.0,
+      "teller": "jacques-cornion",
+      "quote": "tests were very very very tricky. It was sensitive to so so many things in vacuum. Finally, it works. So that was a positive result.",
+      "kind": "firsthand",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Cornillon speaks firsthand and stresses how sensitive the vacuum tests were, and names the Montgolfier facility.",
+      "link_reason": "This is Cornillon's own recorded statement that Brown's 1956 Paris vacuum test gave a positive result, the same confession audio the story describes.",
+      "as_told": {
+        "title": "Townsend Brown experiments worked in Paris, 1956",
+        "years": {
+          "from": 1956,
+          "to": 1956
+        },
+        "place_text": "Montgier facility, Paris, France",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 1097.0,
+      "to_s": 1110.0,
+      "teller": "jacqu-cornion",
+      "quote": "The test very very tricky. It was sensitive to so so many things in finally it worked. So that was a positive result.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives Cornillon's own words, adding that the test was tricky and sensitive to many things before it finally worked.",
+      "link_reason": "Cornillon's own words saying the 1956 Paris vacuum test gave a positive result. This is the deathbed confession audio that the Cornon story describes.",
+      "as_told": {
+        "title": "Cornillon on the positive vacuum test",
+        "years": {
+          "from": 1956,
+          "to": 1956
+        },
+        "place_text": "Paris, France",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 6.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "jacqu-cornion",
+      "jacques-cornion",
       "jesse-michels"
     ],
     "episodes": [
+      "RTEWLSTyUic",
+      "bM18PJY6_Zc",
+      "iPxbILOMQ08",
       "mOWwdIuyaQA"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-once",
+  "attestation": 3.25,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says there is an audio recording of a deathbed confession by Jacqu Cornon, a French aerospace executive, made around 2009. In it, Michels says, Cornon states he personally witnessed successful experiments by a researcher named Brown inside a vacuum chamber, a sealed space with the air pumped out, in Paris in 1956, and Michels also points to a 12 page report on that test. If true, it would mean a kind of propulsion that works without air, which the host links to antigravity, was shown to work decades ago."
 }

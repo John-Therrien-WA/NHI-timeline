@@ -25,11 +25,62 @@
         "hermann-bondi"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 915.0,
+      "to_s": 929.0,
+      "teller": "jesse-michels",
+      "quote": "In fact, I have the report from the 1957 Chapel Hill conference. It's called The Role of gravitation in physics, and there's even a chapter dedicated to Herman Bondi's talk on negative mass in general relativity.",
+      "kind": "host",
+      "cites": [
+        "hermann-bondi",
+        "eric-weinstein",
+        "joe-rogan"
+      ],
+      "documents": [
+        "the-role-of-gravitation-in-physics"
+      ],
+      "difference": "Cites the conference report 'The Role of Gravitation in Physics', which has a chapter on Bondi's talk.",
+      "link_reason": "Same story of Hermann Bondi presenting negative mass at the 1957 Chapel Hill conference.",
+      "as_told": {
+        "title": "Bondi's negative mass talk at Chapel Hill",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 3463.0,
+      "to_s": 3473.0,
+      "teller": "jesse-michels",
+      "quote": "the one thing that Eric Weinstein has pointed out about this conference which I find fascinating is who's an Austrian mathematician named Herman Bondi",
+      "kind": "secondhand",
+      "cites": [
+        "eric-weinstein",
+        "hermann-bondi"
+      ],
+      "documents": [],
+      "difference": "Frames Bondi's point as a question about positivity conditions.",
+      "link_reason": "Same account, relayed from Eric Weinstein, of Hermann Bondi's contribution at the 1957 Chapel Hill conference.",
+      "as_told": {
+        "title": "Bondi's question on positivity conditions at Chapel Hill",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -40,7 +91,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -48,10 +99,12 @@
       "jesse-michels"
     ],
     "episodes": [
-      "LpLFWdsIU7M"
+      "2Xxmguz0GEQ",
+      "LpLFWdsIU7M",
+      "RTEWLSTyUic"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, drawing on the researcher Eric Weinstein, tells of a 1957 physics conference in Chapel Hill, North Carolina, where the study of quantum gravity, the attempt to join gravity with the physics of tiny particles, got its start. He says an Austrian mathematician there named Hermann Bondi talked about negative mass, a strange kind of matter that would behave the opposite way to normal matter under gravity. Michels raises it because, if the idea held, it could point toward new ways of moving craft."
 }

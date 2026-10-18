@@ -7,7 +7,7 @@
     "from": 2020,
     "to": 2029
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "theory",
@@ -25,11 +25,49 @@
         "jeremy-corbell"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 9280.0,
+      "to_s": 9285.0,
+      "teller": "jesse-michels",
+      "quote": "He said that humans are a resource.",
+      "kind": "host",
+      "cites": [
+        "matthew-brown"
+      ],
+      "documents": [
+        "weaponized-interview"
+      ],
+      "difference": "Adds that Brown was smeared by ODNI and cites the Weaponized interview.",
+      "link_reason": "The host relays Matthew Brown's claim that humans are a resource. That is the same claim as the existing Brown humans-as-resource story.",
+      "as_told": {
+        "title": "Matthew Brown smeared by ODNI and saying humans are a resource",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "former-nsa-aaro-director-and-crowdsourced-intelligence-throu-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "legacy-uap-program-rotten-and-breaking-as-insiders-defect-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sonny-white-harnessing-the-casimir-force-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -40,7 +78,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -48,10 +86,11 @@
       "jesse-michels"
     ],
     "episodes": [
-      "-XdvIrexF08"
+      "-XdvIrexF08",
+      "K4gYHs84BIc"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, recalls an interview that the UFO filmmaker Jeremy Corbell did with a man named Matthew Brown in the 2020s. Michels says that at the end of that interview Brown suggested that people might be a resource for NHI, short for non-human intelligence, which would mean humans are being used rather than simply watched."
 }

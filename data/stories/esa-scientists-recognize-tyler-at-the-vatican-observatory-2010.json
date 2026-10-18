@@ -25,6 +25,27 @@
         "guy-consolmagno"
       ],
       "documents": []
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 6516.0,
+      "to_s": 6525.0,
+      "teller": "jesse-michels",
+      "quote": "they go to the Vatican together at the Vatican Observatory they know who Tim Taylor is and they led him into the Vatican archives",
+      "kind": "host",
+      "cites": [
+        "diana-pasulka",
+        "tim-taylor"
+      ],
+      "documents": [],
+      "difference": "Adds that the recognition got him into the Vatican archives without an escort.",
+      "link_reason": "Both tell of Taylor/Tyler being recognised at the Vatican Observatory during the visit with Pasulka.",
+      "as_told": {
+        "title": "Tim Taylor let into Vatican archives unescorted",
+        "years": null,
+        "place_text": "Vatican Observatory and archives, Vatican City",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -41,13 +62,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "diana-pasulka"
     ],
     "episodes": [
+      "2Xxmguz0GEQ",
       "aa9Xx5wI8Rw"
     ]
   },

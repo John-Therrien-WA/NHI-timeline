@@ -1,0 +1,56 @@
+{
+  "id": "tutankhamun-s-tomb-stays-hidden-under-rubble-until-howard-ca-1923",
+  "title": "Tutankhamun's tomb stays hidden under rubble until Howard Carter finds it",
+  "summary": "Luke Caverns tells of Tutankhamun's tomb stays hidden under rubble until Howard Carter finds it, about 1923 (as stated) at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1923,
+    "to": 1923
+  },
+  "place": "egypt",
+  "place_text": "Valley of the Kings, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 7342.0,
+      "to_s": 7353.0,
+      "teller": "luke-caverns",
+      "quote": "So his stayed preserved and and overlooked until I think 1923 when uh when Howard Carter discovered it.",
+      "kind": "researcher",
+      "cites": [
+        "howard-carter"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Luke Caverns, talking with podcast host Jesse Michels, tells of the tomb of Tutankhamun, an ancient Egyptian king, in Egypt's Valley of the Kings. He says the tomb stayed preserved and overlooked, hidden under rubble, until about 1923, when it was found by Howard Carter, an archaeologist. He tells it to show how an important tomb could escape notice, and so avoid being robbed, for thousands of years."
+}

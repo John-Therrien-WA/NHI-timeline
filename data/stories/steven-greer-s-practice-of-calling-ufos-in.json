@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Steven Greer's practice of calling UFOs in, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "program",
@@ -21,6 +21,31 @@
         "steven-greer"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 3811.0,
+      "to_s": 3818.0,
+      "teller": "jesse-michels",
+      "quote": "Greer for example you worked with he started doing these C5 protocols",
+      "kind": "host",
+      "cites": [
+        "steven-greer",
+        "albert-stubblebine",
+        "john-alexander"
+      ],
+      "documents": [],
+      "difference": "Adds that Albert Stubblebine and John Alexander took an interest, and places it in the 1990s.",
+      "link_reason": "Both are about Steven Greer's practice of calling UFOs in through CE-5 protocols.",
+      "as_told": {
+        "title": "Greer's CE-5 protocols and the interest of Stubblebine and Alexander",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -44,6 +69,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "9QMrhcpJq8I"
     ]
   },

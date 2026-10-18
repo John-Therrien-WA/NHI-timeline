@@ -1,0 +1,56 @@
+{
+  "id": "arrest-by-national-high-tech-crime-unit-2002",
+  "title": "Arrest by National High-Tech Crime Unit",
+  "summary": "Gary McKinnon tells of Arrest by National High-Tech Crime Unit, about 2002 at London, UK, and says they saw it or took part. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2002,
+    "to": 2002
+  },
+  "place": null,
+  "place_text": "London, UK",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 6546.0,
+      "to_s": 6552.0,
+      "teller": "gary-mckinnon",
+      "quote": "I'm Jeff Donsson from the National High-Tech Crime Unit. You're under arrest for computer misuse.",
+      "kind": "firsthand",
+      "cites": [
+        "jeff-donsson"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "gary-mckinnon"
+    ],
+    "episodes": [
+      "2ttdlCa5ZCI"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Gary McKinnon, a British computer hacker who says he found signs of a secret space program while breaking into NASA computers, says he was arrested in London around 2002. He recalls an officer named Jeff Donsson, from a British police unit for computer crime called the National High-Tech Crime Unit, telling him he was under arrest for computer misuse. It is the moment his hacking, which he links to hidden space secrets, caught up with him."
+}

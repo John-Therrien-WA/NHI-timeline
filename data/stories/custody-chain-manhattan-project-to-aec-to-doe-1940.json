@@ -17,16 +17,11 @@
       "episode": "kRO5jOa06Qw",
       "from_s": 1449.0,
       "to_s": 1455.0,
-      "teller": "jacques-vallee",
+      "teller": "david-grusch",
       "quote": "The Manhattan Project would have custody of it, and then it would go into the Atomic Energy Commission,",
       "kind": "secondhand",
       "cites": [],
-      "documents": [],
-      "replay_of": {
-        "episode": "fyX8V1XXmQM",
-        "from_s": 453.0
-      },
-      "teller_was": "david-grusch"
+      "documents": []
     },
     {
       "episode": "1f16VvXaSSE",
@@ -107,28 +102,31 @@
       "story": "legacy-program-secrecy-kept-through-trusted-family-lineages-1940",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nine-dr-g-scientists-traced-to-bush-s-osrd-network-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 3.5,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 3,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jacques-vallee",
-      "jesse-michels",
-      "matthew-pines"
+      "david-grusch"
     ],
     "episodes": [
       "1f16VvXaSSE",
@@ -136,7 +134,7 @@
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 1.75,
-  "tier": "well-attested",
+  "attestation": 0.5,
+  "tier": "told-once",
   "plain": "A witness named David Grusch told podcast host Jesse Michels in 2023 that, starting in the 1940s, recovered unexplained material was held by the Manhattan Project, the US wartime programme that built the atomic bomb, then passed to the Atomic Energy Commission, the body that took over atomic matters after the war, and later on to the Department of Energy. Michels and a commentator named Matthew Pines later retold it a little differently, as the secrecy system built for atomic weapons, set up by a law called the Atomic Energy Act and run by the same people, being laid over UFO secrecy through the 1950s and 60s. If true, it would mean UFO secrets have been kept inside the nuclear secrecy system from the start."
 }

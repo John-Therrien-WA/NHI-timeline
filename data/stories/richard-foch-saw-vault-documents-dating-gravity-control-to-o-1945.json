@@ -24,6 +24,29 @@
         "richard-foch"
       ],
       "documents": []
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 4388.0,
+      "to_s": 4400.0,
+      "teller": "michael-herrera",
+      "quote": "Well, it's just from what um Greer has alleged one of his teammates that was in a vault that saw the documents that talked about gaining that kind of control.",
+      "kind": "secondhand",
+      "cites": [
+        "steven-greer"
+      ],
+      "documents": [],
+      "difference": "Told secondhand through Greer, without naming Foch or giving the month.",
+      "link_reason": "Greer's teammate in a vault saw documents dating gravity control to 1954. This is the Richard Foch vault story.",
+      "as_told": {
+        "title": "Gravity control achieved in 1954, seen in vault documents",
+        "years": {
+          "from": 1954,
+          "to": 1954
+        },
+        "place_text": "unspecified vault",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -40,13 +63,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "steven-greer"
     ],
     "episodes": [
+      "D2tKCFmJjks",
       "areO7Mej44E"
     ]
   },

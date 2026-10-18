@@ -26,6 +26,31 @@
       "documents": [
         "cia-memo"
       ]
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1265.0,
+      "to_s": 1280.0,
+      "teller": "jesse-michels",
+      "quote": "\"The flying saucer situation contains two elements of danger, which in a situation of international tension have national security implications. These are psychological and air vulnerability.\"",
+      "kind": "host",
+      "cites": [
+        "walter-bedell-smith"
+      ],
+      "documents": [
+        "1952-cia-memo"
+      ],
+      "difference": "Quotes the memo's two dangers, psychological and air vulnerability, and credits it to Walter B. Smith.",
+      "link_reason": "Both tell of the 1952 CIA memo calling the flying saucer situation a national security matter.",
+      "as_told": {
+        "title": "1952 CIA memo on the dangers of flying saucers",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Washington, DC",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -46,7 +71,7 @@
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -57,7 +82,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -65,10 +90,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "Jpf0ZGY87c0",
       "_bM9eAtCOGw"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in 1952 a worried CIA, the US spy agency, wrote a memo calling the UFO phenomenon a matter of national security. According to him, the memo warned that it could set off mass hysteria and panic. If true, it would mean the government took the sightings seriously in private while playing them down in public."
 }

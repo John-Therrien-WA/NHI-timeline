@@ -59,7 +59,18 @@
       }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "hans-kammler-comes-to-the-us-1945",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "occult-minded-nazis-brought-in-through-paperclip-and-overcas-1945",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 1.0,
   "profile": {

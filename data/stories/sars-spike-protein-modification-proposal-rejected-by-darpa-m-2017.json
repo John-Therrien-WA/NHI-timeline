@@ -1,0 +1,58 @@
+{
+  "id": "sars-spike-protein-modification-proposal-rejected-by-darpa-m-2017",
+  "title": "SARS spike-protein modification proposal rejected by DARPA, moved to Wuhan",
+  "summary": "Jesse Michels tells of SARS spike-protein modification proposal rejected by DARPA, moved to Wuhan, about 2017 at DARPA; Wuhan Institute of Virology, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2017,
+    "to": 2017
+  },
+  "place": null,
+  "place_text": "DARPA; Wuhan Institute of Virology",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 2424.0,
+      "to_s": 2440.0,
+      "teller": "jesse-michels",
+      "quote": "And in 2017, you have uh basically a modification of SARS, you know, that allows it, you know, with the spike protein to bind to human ACE2 receptors through the Ecoalth Alliance submitted to DARPA.",
+      "kind": "host",
+      "cites": [
+        "rfk",
+        "anthony-fauci",
+        "ecohealth-alliance"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "q7Czo77qhHA"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in 2017 a research group called EcoHealth Alliance submitted a proposal to DARPA, the Pentagon's agency for advanced research, to modify a SARS virus so its spike protein could latch onto ACE2, the doorway the virus uses to enter human cells. According to the story's framing, DARPA turned it down and the work moved to the Wuhan Institute of Virology in China. He tells it in an episode about human experiments, because if true it would mean risky virus work went ahead abroad after being refused at home."
+}

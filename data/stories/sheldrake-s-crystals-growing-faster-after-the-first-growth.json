@@ -21,11 +21,33 @@
         "rupert-sheldrake"
       ],
       "documents": []
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 5001.0,
+      "to_s": 5018.0,
+      "teller": "rupert-sheldrake",
+      "quote": "if you make a new chemical compound for the first time and you crystallize it that Crystal form won have existed before because it's a new compound and the more often you crystallize it the easier it should get for crystals of that kind to form",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Sheldrake tells it himself, about new chemical compounds crystallizing more easily worldwide, where the story has Michels describing crystal lattices in a petri dish.",
+      "link_reason": "Both tell Sheldrake's claim that a new crystal form gets easier and faster to grow once it has been grown the first time.",
+      "as_told": {
+        "title": "New compounds crystallize more easily worldwide after the first time",
+        "years": null,
+        "place_text": "worldwide",
+        "story_kind": "theory"
+      },
+      "replay_of": {
+        "episode": "wT5-hXWIkzM",
+        "from_s": 3297.0
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -33,21 +55,22 @@
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
-    "host": 1,
+    "researcher": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "rupert-sheldrake"
     ],
     "episodes": [
-      "6bqaHVSlVeU"
+      "6bqaHVSlVeU",
+      "Sct30Qijfv8"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.25,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, describes an idea from a biologist named Rupert Sheldrake: when you grow a new kind of crystal in a lab dish, it takes a long time the first time, then grows much faster after that. If true, it would suggest nature has a kind of memory, with things getting easier once they have happened somewhere before."
 }

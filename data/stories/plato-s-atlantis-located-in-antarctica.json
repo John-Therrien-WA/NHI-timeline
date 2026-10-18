@@ -1,0 +1,62 @@
+{
+  "id": "plato-s-atlantis-located-in-antarctica",
+  "title": "Plato's Atlantis located in Antarctica",
+  "summary": "Jason Jorjani tells of Plato's Atlantis located in Antarctica, about c. 9600 BC at Antarctica, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "antarctica",
+  "place_text": "Antarctica",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6165.0,
+      "to_s": 6172.0,
+      "teller": "jason-jorjani",
+      "quote": ">> Well we have a world ocean. It's where the Pacific Ocean, the Atlantic Ocean and the Indian Ocean meet. >> Sure. >> In the coastline of Antarctica.",
+      "kind": "researcher",
+      "cites": [
+        "plato"
+      ],
+      "documents": [
+        "timaeus",
+        "critias"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "atlantis-as-an-island-empire-on-the-mid-atlantic-ridge",
+      "relation": "variant",
+      "note": "Same subject (where Plato's Atlantis was) but places it in Antarctica rather than on the Mid-Atlantic Ridge, a competing claim."
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Jason Jorjani, a researcher on Jesse Michels' podcast, talks about Atlantis, the lost island civilisation described by the ancient Greek philosopher Plato in his works Timaeus and Critias. Jorjani says Plato's \"world ocean\" is the place where the Pacific, Atlantic and Indian oceans meet, off the coast of Antarctica, and so places Atlantis there, about 9600 BC. If true, a lost civilisation would have lived on the southern continent."
+}

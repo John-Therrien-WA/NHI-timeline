@@ -1,0 +1,71 @@
+{
+  "id": "caves-running-under-the-giza-plateau",
+  "title": "Caves running under the Giza plateau",
+  "summary": "Luke Caverns tells of Caves running under the Giza plateau, about an unknown time at Giza plateau, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Giza plateau",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 2264.0,
+      "to_s": 2275.0,
+      "teller": "luke-caverns",
+      "quote": "doing that, they hit a cavern and uh you go through like one of these cracks in the walls and there's these caves that go under the Giza Plateau, the whole plateau.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 1661.0,
+      "to_s": 1668.0,
+      "teller": "jeffrey-drum",
+      "quote": "they know for sure that there are caves and tunnels below Giza.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Drum says caves and tunnels are known for certain to exist. He does not give Luke's account of reaching them through a cavern and cracks in the walls.",
+      "link_reason": "Both make the same general place-lore claim that caves run beneath the Giza Plateau.",
+      "as_told": {
+        "title": "Caves and tunnels below Giza",
+        "years": null,
+        "place_text": "Giza Plateau, Egypt",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey-drum",
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several",
+  "plain": "This story is about caves under the Giza plateau, the area in Egypt where the great pyramids and the Sphinx stand. A researcher named Luke Caverns says on Jesse Michels' podcast that people digging there hit a cavern, and that through cracks in its walls there are caves running under the whole plateau. Another researcher, Geoffrey Drumm, says on the same show that it is known for sure that there are caves and tunnels under Giza, without telling how they were reached. If true, there would be a whole hidden underground world beneath the pyramids."
+}

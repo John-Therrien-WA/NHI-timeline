@@ -1,0 +1,80 @@
+{
+  "id": "2019-decision-with-corrado-malanga-to-scan-inside-the-khufu",
+  "title": "2019 decision with Corrado Malanga to scan inside the Khufu pyramid",
+  "summary": "Filippo Biondi tells of 2019 decision with Corrado Malanga to scan inside the Khufu pyramid, about 2019 at Egypt (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2019,
+    "to": 2019
+  },
+  "place": "egypt",
+  "place_text": "Great Pyramid of Khufu, Giza, Egypt",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 1354.0,
+      "to_s": 1374.0,
+      "teller": "filippo-biondi",
+      "quote": "according to my friend in 2019 Corrado Malanga we decided to do something concerning if if if it was possible to scan inside the um Khufu or Keops pyramid.",
+      "kind": "firsthand",
+      "cites": [
+        "corrado-malanga"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 2178.0,
+      "to_s": 2190.0,
+      "teller": "filippo-biondi",
+      "quote": "By in that case, it was the 2020 second generation Italian Cosmo-SkyMed satellite system.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "synthetic-aperture-radar-doppler-tomography-detects-undiscov"
+      ],
+      "difference": "Says the scan was done in 2020 with data from the second-generation Italian Cosmo-SkyMed satellites.",
+      "link_reason": "Both tell of the Biondi–Malanga project to scan inside the Khufu pyramid; this telling names the satellite data the scan used.",
+      "as_told": {
+        "title": "The 2020 scan used Cosmo-SkyMed second-generation data",
+        "years": {
+          "from": 2020,
+          "to": 2020
+        },
+        "place_text": "Great Pyramid, Giza, Egypt",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "filippo-biondi"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8",
+      "zrmG2jBckgk"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "A scientist named Filippo Biondi says that in 2019 he and his friend Corrado Malanga decided to try to scan inside the Great Pyramid of Khufu in Giza, Egypt. In another telling he says the scan was done in 2020 using radar data from Italy's second-generation Cosmo-SkyMed satellites, and he cites a paper reporting hidden internal structures in the pyramid. If true, it would mean unknown chambers lie inside and beneath the pyramid."
+}

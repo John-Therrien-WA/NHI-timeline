@@ -24,6 +24,29 @@
         "president-of-kalmykia"
       ],
       "documents": []
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 10617.0,
+      "to_s": 10628.0,
+      "teller": "jesse-michels",
+      "quote": "he first of all he said he was abducted by aliens or taken by aliens invited onto a spaceship while he was sitting president of his Russian Republic of Kelikia in 1997",
+      "kind": "host",
+      "cites": [
+        "kanan-il-yum-xenov"
+      ],
+      "documents": [],
+      "difference": "Gives the year as 1997 and says he was invited onto a spaceship.",
+      "link_reason": "The president of Kalmykia saying he was taken by aliens while in office, the same claim as the existing story.",
+      "as_told": {
+        "title": "Kirsan Ilyumzhinov says aliens took him onto a spaceship in 1997",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Kalmykia, Russia",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -47,7 +70,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "C_Na1tI5qpw"
+      "C_Na1tI5qpw",
+      "UkKwa4jU0fc"
     ]
   },
   "attestation": 0.5,

@@ -7,7 +7,7 @@
     "from": 1950,
     "to": 1959
   },
-  "place": null,
+  "place": "new-mexico",
   "place_text": "Palomar sky survey plates",
   "coordinates": null,
   "kind": "document",
@@ -27,11 +27,85 @@
         "brian-keating"
       ],
       "documents": []
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 2048.0,
+      "to_s": 2055.0,
+      "teller": "beatriz-villarroel",
+      "quote": "And he finds a correlation. It's weak, but it's there and it's statistically significant.",
+      "kind": "researcher",
+      "cites": [
+        "steven-bruel"
+      ],
+      "documents": [
+        "scientific-reports-paper"
+      ],
+      "difference": "Credits Bruel as the author, calls the correlation weak but statistically significant, and adds a link to UAP reports.",
+      "link_reason": "Both describe the same study linking Palomar transients to nuclear tests, which the story's teller already credits to Bruehl and Villarroel.",
+      "as_told": {
+        "title": "Steven Bruel's study links transients to nuclear tests and UAP reports",
+        "years": {
+          "from": 1949,
+          "to": 1957
+        },
+        "place_text": "Palomar Observatory; nuclear test sites",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 2296.0,
+      "to_s": 2308.0,
+      "teller": "steven-bruel",
+      "quote": "But if there's been a a nuclear test the day before, then it's uh almost 19% of those days have a transient.",
+      "kind": "researcher",
+      "cites": [
+        "beatriz-villarroel"
+      ],
+      "documents": [
+        "scientific-reports-paper",
+        "center-for-ufo-studies-ufocat-database"
+      ],
+      "difference": "Told by Bruel himself, with the rate of about 19% of days, the named test sites and the UFOCAT database.",
+      "link_reason": "Both state the same finding: transients are 68% more likely the day after a nuclear test.",
+      "as_told": {
+        "title": "68% rise in transients the day after a nuclear test",
+        "years": {
+          "from": 1949,
+          "to": 1957
+        },
+        "place_text": "Palomar Observatory; Nevada, New Mexico, Pacific, Kazakhstan, Australia test sites",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 4588.0,
+      "to_s": 4597.0,
+      "teller": "jesse-michels",
+      "quote": "then there was a actually a PhD at Vanderbilt who did a follow-up study, and he correlates these transients with showing up around nuclear detonations.",
+      "kind": "researcher",
+      "cites": [
+        "unnamed-vanderbilt-phd"
+      ],
+      "documents": [],
+      "difference": "The study is credited only to an unnamed Vanderbilt PhD, with no 68%/24-hour figure.",
+      "link_reason": "Both are about the follow-up study that ties the Palomar transients to nuclear detonations, the one credited to Vanderbilt's Stephen Bruehl.",
+      "as_told": {
+        "title": "Vanderbilt study links transients to nuclear tests",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Palomar Observatory; nuclear test sites",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,21 +113,23 @@
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
-    "host": 1,
+    "researcher": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "beatriz-villarroel"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
+      "1zRWi_r3HRM",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, describes a study by an astronomer, Beatriz Villarroel, of the Palomar sky survey, a set of photographic glass plates of the night sky taken in the 1950s. On these plates she looked at \"transients\", points of light that appear in one picture and are gone in the next, and Michels says her study found they were 68% more likely to show up within 24 hours of a nuclear bomb test. If true, it would hint that something in the sky was reacting to humanity's nuclear tests."
 }

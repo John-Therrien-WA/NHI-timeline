@@ -1,0 +1,53 @@
+{
+  "id": "bob-ballard-s-search-for-atlantis",
+  "title": "Bob Ballard's search for Atlantis",
+  "summary": "John Herrington tells of Bob Ballard's search for Atlantis, about present at Red Sea / Mediterranean, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Red Sea / Mediterranean",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 5743.0,
+      "to_s": 5752.0,
+      "teller": "john-herrington",
+      "quote": "which they now say is up in the Red Sea. The Naval U has a consultant named Bob Ballard at the institute in Connecticut.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-ballard"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "john-herrington"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "On a podcast hosted by Jesse Michels, a former US Secretary of Energy named John Herrington talks about the hunt for Atlantis, the legendary lost city, which he says some now place in the Red Sea. He says a consultant named Bob Ballard, who works with a Navy school at an institute in Connecticut, is involved in that search. If it were true, a lost city of legend might finally be found under the sea."
+}

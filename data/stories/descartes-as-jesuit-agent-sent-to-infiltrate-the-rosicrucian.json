@@ -23,6 +23,26 @@
       "documents": [
         "prometheus-and-atlas"
       ]
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 13282.0,
+      "to_s": 13301.0,
+      "teller": "jason-jorjani",
+      "quote": "But remember in our first conversation I was talking about how Decart was a Jesuit agent >> and he established this extremely reductionistic mechanistic scientific paradigm >> precisely for the purpose of keeping everything oult sequestered in the domain of the church",
+      "kind": "researcher",
+      "cites": [
+        "rene-descartes"
+      ],
+      "documents": [],
+      "difference": "Gives his mission as setting up a mechanistic science that kept the occult under church control, rather than infiltrating the Rosicrucians.",
+      "link_reason": "The same teller tells the same theory of Descartes as a Jesuit agent again, and points back to their first conversation.",
+      "as_told": {
+        "title": "Descartes as a Jesuit agent setting up a mechanistic paradigm to keep the occult under church authority",
+        "years": null,
+        "place_text": "Europe",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -46,6 +66,7 @@
       "jason-jorjani"
     ],
     "episodes": [
+      "ABw7EsWh2Us",
       "EzPmG_7WhXc"
     ]
   },

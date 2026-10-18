@@ -21,6 +21,46 @@
         "randy-anderson"
       ],
       "documents": []
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 886.0,
+      "to_s": 899.0,
+      "teller": "jesse-michels",
+      "quote": "he told me off air that he's seen a black triangle hovering around at the notorious flight testing facility that he believed was employing exotic electrogravitic propulsion",
+      "kind": "secondhand",
+      "cites": [
+        "randy-anderson"
+      ],
+      "documents": [],
+      "difference": "Describes a single black triangle hovering rather than triangles taking off, and adds Anderson's belief that it used electrogravitic propulsion.",
+      "link_reason": "Jesse Michels relays Randy Anderson's sighting of triangles at Area 51, which is the same story already held.",
+      "as_told": {
+        "title": "Black triangle hovering at Area 51",
+        "years": null,
+        "place_text": "Area 51, Nevada",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 5372.0,
+      "to_s": 5385.0,
+      "teller": "jesse-michels",
+      "quote": "And he told he's told both of us now and I've said this publicly that he has seen triangle craft that he can only presume take uses electrogravetic propulsion",
+      "kind": "secondhand",
+      "cites": [
+        "randy-anderson"
+      ],
+      "documents": [],
+      "difference": "Adds that Anderson presumes the craft use electrogravitic propulsion and has told both hosts.",
+      "link_reason": "Same claim that Randy Anderson saw triangle craft taking off at Area 51.",
+      "as_told": {
+        "title": "Randy Anderson sees triangle craft at Area 51",
+        "years": null,
+        "place_text": "Area 51, Nevada",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -44,6 +84,8 @@
       "jesse-michels"
     ],
     "episodes": [
+      "Sct30Qijfv8",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },

@@ -24,18 +24,41 @@
         "david-grusch"
       ],
       "documents": []
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 2475.0,
+      "to_s": 2480.0,
+      "teller": "ryan-graves",
+      "quote": "know I mean I heard him say he's like I can tell you the location. Let's get in a skiff.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grush"
+      ],
+      "documents": [],
+      "difference": "Told as Grusch's offer at the hearing to name the location inside a SCIF. Nothing is said about subpoenas.",
+      "link_reason": "Both tell of Grusch giving or offering Congress the locations of craft in a classified setting.",
+      "as_told": {
+        "title": "Grusch offers to give the location in a SCIF",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "Congressional hearing, Washington, DC",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 1,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -44,13 +67,15 @@
     "contradicted": false,
     "strongest_kind": "journalist",
     "tellers": [
-      "ross-coulthart"
+      "ross-coulthart",
+      "ryan-graves"
     ],
     "episodes": [
+      "6WC4o2yY9Ws",
       "V00WcEiKRAY"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "told-by-several",
   "plain": "A journalist named Ross Coulthart says that David Grusch, a former US intelligence officer who went public as a whistleblower in 2023, gave the US Congress firsthand information from his sources about exactly where to look for recovered spacecraft. According to Coulthart, Congress was told where to find them, yet no subpoenas, the legal orders that force people to hand over evidence, followed through 2025. If true, it would mean lawmakers had a map to the evidence and did not use it."
 }

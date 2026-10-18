@@ -1,0 +1,55 @@
+{
+  "id": "haseltine-s-novel-out-of-time-hiding-truths",
+  "title": "Haseltine's novel Out of Time hiding truths",
+  "summary": "Jesse Michels tells of Haseltine's novel Out of Time hiding truths, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 6961.0,
+      "to_s": 6971.0,
+      "teller": "jesse-michels",
+      "quote": "former director of NSA research, Eric Haseltine, who I had on my show. He wrote a a {quote} {unquote} fiction book. I think it was called Out of Time.",
+      "kind": "host",
+      "cites": [
+        "eric-haseltine"
+      ],
+      "documents": [
+        "out-of-time"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "uYyXpx7ADJQ"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, talks about Eric Haseltine, a former director of research at the NSA, the US National Security Agency that handles intelligence from communications, and a past guest on his show. Michels says Haseltine wrote what he calls, with air quotes, a fiction book, which he thinks was titled Out of Time. The hint is that the novel may be a way to tell real things a former official could not say openly."
+}

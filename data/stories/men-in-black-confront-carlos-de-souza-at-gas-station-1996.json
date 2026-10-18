@@ -24,6 +24,27 @@
         "carlos-de-souza"
       ],
       "documents": []
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 1046.0,
+      "to_s": 1053.0,
+      "teller": "carlos-dosoza",
+      "quote": "pointed a finger straight in my face and said, \"Just a word of advice. You didn't see anything. You don't know anything.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Carlos, with the men's warning quoted ('You didn't see anything'), where James Fox only says an unmarked vehicle arrived.",
+      "link_reason": "Both tell of the men in black confronting Carlos de Souza at a gas station near Varginha in January 1996.",
+      "as_told": {
+        "title": "Men in black at a roadside gas station",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Gas station near Varginha, Brazil",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [
@@ -66,13 +87,28 @@
       "story": "witness-returns-with-luiza-and-sees-creature-s-footprint-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-fernando-jane-saw-the-creature-s-foot-at-the-regional-hos-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "moment-of-contact-the-varginha-witnesses-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "three-women-see-the-red-eyed-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -83,15 +119,17 @@
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "carlos-dosoza",
       "james-fox"
     ],
     "episodes": [
+      "UkKwa4jU0fc",
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "A filmmaker who appears as a witness, James Fox, tells a story from Varginha, Brazil, in January 1996, when several people say a strange creature was seen and captured. Fox says a man named Carlos de Souza had stopped at a gas station to gather himself when an unmarked vehicle arrived and the men in it already knew who he was. In UFO stories such visitors are often called men in black, and the tale is told as a sign that someone was quietly watching the witnesses."
 }

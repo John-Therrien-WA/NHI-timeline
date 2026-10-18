@@ -101,6 +101,31 @@
         "place_text": "Malmstrom Air Force Base, Montana",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 9506.0,
+      "to_s": 9522.0,
+      "teller": "jesse-michels",
+      "quote": "He was this probably the sole source for this sloppily written Wall Street Journal article that uh poorly explained away a bunch of UFO incidents around Malmstrom nuclear base in 1967 calling it the product of a a non-nuclear EMP,",
+      "kind": "host",
+      "cites": [
+        "sean-kirkpatrick"
+      ],
+      "documents": [
+        "wall-street-journal-article"
+      ],
+      "difference": "Calls Kirkpatrick probably the sole source for the article and calls the EMP non-nuclear.",
+      "link_reason": "Both are the Wall Street Journal article that explained the 1967 Malmstrom incidents as an EMP test, with Kirkpatrick linked to it.",
+      "as_told": {
+        "title": "WSJ article explains away the 1967 Malmstrom UFO incidents, with Kirkpatrick as likely source",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -143,6 +168,7 @@
       "-0g3lLGxNfc",
       "8Rr_nE65KkI",
       "h0hAit-KH9A",
+      "uYyXpx7ADJQ",
       "yGtVzBbUvx4"
     ]
   },

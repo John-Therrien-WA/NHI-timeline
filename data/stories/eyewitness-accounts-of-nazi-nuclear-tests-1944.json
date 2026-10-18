@@ -1,0 +1,59 @@
+{
+  "id": "eyewitness-accounts-of-nazi-nuclear-tests-1944",
+  "title": "Eyewitness accounts of Nazi nuclear tests",
+  "summary": "Jason Jorjani tells of Eyewitness accounts of Nazi nuclear tests, about 1944-1945 at Thuringian forest, Germany, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1944,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Thuringian forest, Germany",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 4381.0,
+      "to_s": 4389.0,
+      "teller": "jason-jorjani",
+      "quote": "reaction. And then there's a second eyewitness account of of um what appears to be a nuclear test near the Theian forest",
+      "kind": "researcher",
+      "cites": [
+        "plimpton-hydrick",
+        "farrell"
+      ],
+      "documents": [
+        "critical-mass"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Jason Jorjani, speaking on Jesse Michels's podcast, says there are eyewitness accounts of what seem to be nuclear tests by Nazi Germany in 1944 and 1945, including one near the Thuringian forest in central Germany. He draws on writers named Hydrick and Farrell and a book called Critical Mass. If true, it would mean Germany tested nuclear weapons before the war ended."
+}

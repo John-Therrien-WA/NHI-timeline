@@ -7,7 +7,7 @@
     "from": 2010,
     "to": 2019
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Naval Air Station Patuxent River, Maryland",
   "coordinates": null,
   "kind": "document",
@@ -51,35 +51,123 @@
         "place_text": "Naval Air Station Patuxent River, Maryland",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 1243.0,
+      "to_s": 1253.0,
+      "teller": "salvatore-pais",
+      "quote": "five patent applications, mind you, three of them became patents. The two that did not become patents are the ones that seem to be most mundane.",
+      "kind": "firsthand",
+      "cites": [
+        "philip-bonszel",
+        "mr-marloot"
+      ],
+      "documents": [
+        "hybrid-craft-using-an-inertial-mass-modification-device",
+        "high-frequency-gravitational-wave-generator-patent",
+        "high-energy-electromagnetic-generator-patent"
+      ],
+      "difference": "Pais says there were five applications and three became patents, and credits examiners.",
+      "link_reason": "The same set of Pais's Navy patents (inertial mass, gravitational wave, EM generator) that the Pax River patent-filing story describes.",
+      "as_told": {
+        "title": "Pais's Navy patent applications, three granted",
+        "years": null,
+        "place_text": "USPTO, United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 1548.0,
+      "to_s": 1561.0,
+      "teller": "jesse-michels",
+      "quote": "Navy engineer who holds patents three extremely interesting patents. Um involving inertial mass reduction and you know, exotic flight principles and that sort of thing.",
+      "kind": "host",
+      "cites": [
+        "salvatore-pais"
+      ],
+      "documents": [
+        "pais-patents"
+      ],
+      "difference": "Puts the number of patents at three and does not mention Pax River or gravitational waves.",
+      "link_reason": "Both tell of Salvatore Pais's Navy patents (plural) on inertial mass reduction and exotic flight, and the same host told it before.",
+      "as_told": {
+        "title": "Sal Pais patents on inertial mass reduction",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "US Navy",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 4458.0,
+      "to_s": 4471.0,
+      "teller": "jesse-michels",
+      "quote": ">> hypothetically and then you also have Salvatore Py with his Navy patents from 2018 coming out of PAX river and basically everything that you would need to build a UFO",
+      "kind": "host",
+      "cites": [
+        "salvatore-pais"
+      ],
+      "documents": [
+        "salvatore-pais-navy-patents"
+      ],
+      "difference": "Dates the patents to 2018 and says they hold everything needed to build a UFO.",
+      "link_reason": "Both are about the Navy patents Salvatore Pais filed while at Pax River.",
+      "as_told": {
+        "title": "Salvatore Pais's 2018 Navy patents from Pax River",
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "place_text": "Naval Air Station Patuxent River, Maryland",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "gary-nolan-s-cia-file-on-ufo-experiencers-and-havana-syndrom-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ufo-history-hidden-in-tom-delonge-s-fiction-series-2010",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.7,
+  "score": 3.5,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 1,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
-    "host": 1,
+    "researcher": 0,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 2,
-    "repetitions": 0,
+    "credited_documents": 3,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels",
-      "uapgerb"
+      "salvatore-pais"
     ],
     "episodes": [
+      "5OUzGygIrSw",
+      "8TYMQOUDQBo",
       "A2-y_HasHEw",
+      "K4gYHs84BIc",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.85,
-  "tier": "well-attested",
+  "attestation": 1.75,
+  "tier": "told-once",
   "plain": "The story concerns Salvatore Pais, a man who filed patents, the legal claims that protect an invention, on behalf of the US Navy in the 2010s. A researcher who goes by the online name UAPGerb, a guest on Jesse Michels's podcast, says Pais was working at Pax River, short for Naval Air Station Patuxent River, a Navy base in Maryland, when he filed them. Michels, the host, tells it again on a later episode and says more about what the patents cover. According to Michels, they deal with inertial mass reduction, meaning making an object act as if it had less mass so it is easier to move, and with high-frequency gravitational waves, meaning fast ripples in gravity. Michels places them around 2018. The tellers raise it because, if true, it would suggest the Navy was officially exploring very unusual ways of moving craft."
 }

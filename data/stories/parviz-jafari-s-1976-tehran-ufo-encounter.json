@@ -27,6 +27,29 @@
       "documents": [
         "dia-assessment-of-the-tehran-incident"
       ]
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 3834.0,
+      "to_s": 3842.0,
+      "teller": "jesse-michels",
+      "quote": "There's I think one from like 1979 that James Fox covers where uh this Iranian pilot like shoots at the UAP",
+      "kind": "secondhand",
+      "cites": [
+        "james-fox"
+      ],
+      "documents": [],
+      "difference": "Dates it to 1979 instead of 1975-76, says the pilot fired and went down, and does not name Jafari.",
+      "link_reason": "Both describe the Iranian F-4 pilot over Iran who tried to fire on a UFO, the case James Fox covers.",
+      "as_told": {
+        "title": "Iranian pilot fires at a UAP and goes down",
+        "years": {
+          "from": 1979,
+          "to": 1979
+        },
+        "place_text": "Iran",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -43,13 +66,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "james-fox"
     ],
     "episodes": [
+      "6WC4o2yY9Ws",
       "bVhSPH2A5Vw"
     ]
   },

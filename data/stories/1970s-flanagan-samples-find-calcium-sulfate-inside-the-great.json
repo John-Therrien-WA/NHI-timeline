@@ -1,0 +1,88 @@
+{
+  "id": "1970s-flanagan-samples-find-calcium-sulfate-inside-the-great",
+  "title": "1970s Flanagan samples find calcium sulfate inside the Great Pyramid",
+  "summary": "Geoffrey Drumm tells of 1970s Flanagan samples find calcium sulfate inside the Great Pyramid, about 1970s at Queen's Chamber and Grand Gallery, Great Pyramid, Giza, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1970,
+    "to": 1979
+  },
+  "place": "egypt",
+  "place_text": "Queen's Chamber and Grand Gallery, Great Pyramid, Giza",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 3988.0,
+      "to_s": 3996.0,
+      "teller": "geoffrey-drumm",
+      "quote": "comes from Christopher Dunn's book where there was a sample analysis taken in the 1970s by Richard Flanigan.",
+      "kind": "researcher",
+      "cites": [
+        "christopher-dunn",
+        "richard-flanigan"
+      ],
+      "documents": [
+        "the-giza-power-plant"
+      ]
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 5814.0,
+      "to_s": 5830.0,
+      "teller": "geoffrey-drumm",
+      "quote": "my favorite piece of evidence is the calcium sulfate salt inside the Queen's Chamber and Grand Gallery of the Great Pyramid, which is a direct result of this chemical reaction between dilute sulfuric acid and the calcium carbonate limestone of the chamber.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds pock marks Drumm saw on recent tours, does not name the 1970s Flanagan sampling, and puts the weight on the chemical interpretation.",
+      "link_reason": "Both are about calcium sulfate found in the Queen's Chamber and Grand Gallery, which Drumm offers as evidence that sulfuric acid reacted with the limestone.",
+      "as_told": {
+        "title": "Calcium sulfate and pock marks in the Queen's Chamber",
+        "years": null,
+        "place_text": "Great Pyramid, Giza, Egypt",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "1970s-muon-scan-of-the-central-pyramid",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tapes-of-puharich-meditating-in-the-king-s-chamber-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "geoffrey-drumm"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "A researcher named Geoffrey Drumm says that samples taken in the 1970s by a man named Richard Flanagan, as described in engineer Christopher Dunn's book The Giza Power Plant, found calcium sulfate salt in the Queen's Chamber and Grand Gallery inside the Great Pyramid of Giza. Drumm says this salt comes from weak sulfuric acid reacting with the limestone walls, and he mentions pock marks he saw on recent tours. If he is right, the pyramid was a kind of chemical power plant rather than a tomb."
+}

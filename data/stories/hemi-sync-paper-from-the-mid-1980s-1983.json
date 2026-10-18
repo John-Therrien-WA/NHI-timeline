@@ -26,11 +26,36 @@
       "documents": [
         "hemi-sync-paper"
       ]
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 8100.0,
+      "to_s": 8118.0,
+      "teller": "jesse-michels",
+      "quote": "uh I believe in ' 85 or '86 there's a CIA document that's now been you know the Freedom of Information Act has been used against it and it's all about this hemisync technique that Robert Monroe uh in Virginia this consciousness researcher kind of pioneered",
+      "kind": "host",
+      "cites": [
+        "robert-monroe"
+      ],
+      "documents": [
+        "cia-hemi-sync-document-foia-release"
+      ],
+      "difference": "Dates the paper to 1985 or 1986 and says it was released through FOIA.",
+      "link_reason": "Both are the mid-1980s CIA paper on Robert Monroe's Hemi-Sync technique in Virginia.",
+      "as_told": {
+        "title": "CIA document on Robert Monroe's Hemi-Sync technique",
+        "years": {
+          "from": 1985,
+          "to": 1986
+        },
+        "place_text": "Virginia (Monroe Institute)",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -41,7 +66,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -49,10 +74,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "PiFbeWfA3LM",
       "lcaY-rd9Dhc"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, talking with a researcher of psychic matters, Jeffrey Mishlove, mentions a paper from the mid-1980s about Hemi-Sync, a sound-based technique linked to Robert Monroe and the Monroe Institute in Virginia. Michels says a lot of people now cite this paper, which he raises as part of a wider talk about psychics, altered states and the afterlife."
 }

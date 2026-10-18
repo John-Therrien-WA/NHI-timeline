@@ -1,0 +1,72 @@
+{
+  "id": "john-mack-persecuted-by-harvard-over-his-abduction-research-1990",
+  "title": "John Mack persecuted by Harvard over his abduction research",
+  "summary": "Jesse Michels tells of John Mack persecuted by Harvard over his abduction research, about 1990s at Harvard, Cambridge, Massachusetts, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "harvard-ma",
+  "place_text": "Harvard University, Massachusetts",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 7334.0,
+      "to_s": 7340.0,
+      "teller": "jesse-michels",
+      "quote": "and he was persecuted by by Harvard there was a trial there",
+      "kind": "host",
+      "cites": [
+        "john-mack"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "gauge-theory-economics-and-dale-jorgenson-s-opposition-at-ha-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "john-mack-at-harvard-his-friend-bud-hopkins-and-thomas-kuhn-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "john-mack-s-abductee-interviews-at-harvard-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "0qlppHc3-gg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that John Mack, a psychiatrist at Harvard University who studied people who reported being abducted by aliens, was persecuted by Harvard in the 1990s for that work. According to Michels, there was even a trial held there over it, which he presents as a sign of how hard it is for respected scientists to take such accounts seriously."
+}

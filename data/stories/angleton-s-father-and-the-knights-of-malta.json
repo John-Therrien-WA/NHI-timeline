@@ -89,35 +89,60 @@
         "place_text": "unspecified",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 7952.0,
+      "to_s": 7960.0,
+      "teller": "jesse-michels",
+      "quote": "him and he is just obsessing over this idea that the Knights of Malta have something to do with this crash.",
+      "kind": "secondhand",
+      "cites": [
+        "harold-malmgren",
+        "james-angleton",
+        "hugh-angleton"
+      ],
+      "documents": [],
+      "difference": "Explicitly ties the Knights of Malta to the 1933 Magenta crash, told second-hand by Michels.",
+      "link_reason": "Malmgren's insistence that the Angletons and the Knights of Malta are connected to the Magenta crash matches the story of Malmgren urging that the link between Angleton's father and the Knights of Malta be uncovered.",
+      "as_told": {
+        "title": "Malmgren links Knights of Malta to the Magenta crash",
+        "years": {
+          "from": 1933,
+          "to": 1933
+        },
+        "place_text": "Magenta, Italy",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.8,
+  "score": 1.6,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
-      "harold-malmgren",
-      "jesse-michels"
+      "harold-malmgren"
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "CiQTBOQ1dTg",
       "Y7PLeu5rTv4"
     ]
   },
-  "attestation": 0.9,
-  "tier": "well-attested",
+  "attestation": 0.8,
+  "tier": "told-once",
   "plain": "James Jesus Angleton was a senior CIA official, and his father was Hugh Angleton. The Knights of Malta are an old Catholic order of knights. A former presidential advisor, Harald Malmgren, says the relationship between the Angletons and the Knights of Malta needs to be uncovered. He places the tie in Italy and around the Vatican in the 1930s and 40s, and links it to knowledge of UFOs because Angleton was there. A podcast host, Jesse Michels, goes further and says both father and son were Knights of Malta. In a later episode he adds that they were involved in other secret societies too. So the story comes from Malmgren, speaking from his own time in government, and from the host retelling it. If true, a secret religious order may have been part of who knew about UFOs."
 }

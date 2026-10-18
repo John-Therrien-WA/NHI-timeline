@@ -1,0 +1,79 @@
+{
+  "id": "eric-davis-writes-of-an-air-force-five-dimensional-study-of",
+  "title": "Eric Davis writes of an Air Force five-dimensional study of the Biefeld-Brown effect",
+  "summary": "Jesse Michels tells of Eric Davis writes of an Air Force five-dimensional study of the Biefeld-Brown effect, about unknown at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 5522.0,
+      "to_s": 5536.0,
+      "teller": "jesse-michels",
+      "quote": "He concedes that an Air Force study postulated that by assuming a five-dimensional continuum an electrogravitic coupling could be derived to explain the Biefeld-Brown effect,",
+      "kind": "host",
+      "cites": [
+        "eric-davis"
+      ],
+      "documents": [
+        "frontiers-of-propulsion-science"
+      ]
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 4247.0,
+      "to_s": 4251.0,
+      "teller": "jesse-michels",
+      "quote": "I was reading from Frontiers of Propulsion Science by Eric Davis.",
+      "kind": "host",
+      "cites": [
+        "eric-w-davis",
+        "marc-millis"
+      ],
+      "documents": [
+        "frontiers-of-propulsion-science"
+      ],
+      "difference": "Names the book as Frontiers of Propulsion Science and credits Marc Millis.",
+      "link_reason": "Both are Michels reading Eric Davis's writing on explanations of the Biefeld-Brown effect, the source of the Air Force five-dimensional study passage.",
+      "as_told": {
+        "title": "Eric Davis's Frontiers of Propulsion Science on the Biefeld-Brown effect",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo",
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, reads from Frontiers of Propulsion Science, a book on ideas for moving spacecraft, citing Eric Davis and, in another episode, also crediting Marc Millis. According to Michels, Davis concedes that an Air Force study proposed that, if you assume space has five dimensions, you can derive a link between electricity and gravity that explains the Biefeld-Brown effect, a claimed push produced by high-voltage electric charge. If so, it would suggest the military once took electric control of gravity seriously."
+}

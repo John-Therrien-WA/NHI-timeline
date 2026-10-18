@@ -1,0 +1,65 @@
+{
+  "id": "cia-office-of-research-and-development-continues-mk-ultra-wo-1960",
+  "title": "CIA Office of Research and Development continues MK Ultra work",
+  "summary": "Jesse Michels tells of CIA Office of Research and Development continues MK Ultra work, about 1960s-1970s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 801.0,
+      "to_s": 814.0,
+      "teller": "jesse-michels",
+      "quote": "According to John Marx in the search for the manurion candidate, that division was the office of research and development or OARD led by Steven Aldrich.",
+      "kind": "host",
+      "cites": [
+        "john-marks",
+        "stephen-aldrich"
+      ],
+      "documents": [
+        "the-search-for-the-manchurian-candidate"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "origins-of-the-us-remote-viewing-program-with-puthoff-targ-a-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "q7Czo77qhHA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that MK Ultra, the CIA's secret program of mind control and drug experiments on people, did not really end but carried on through the 1960s and 1970s. Citing journalist John Marks's book The Search for the Manchurian Candidate, Michels says the work moved into a CIA division called the Office of Research and Development, led by a man named Stephen Aldrich. Michels tells it because, if true, it would mean the agency kept quietly studying the human mind, the same line of work he connects to the beginnings of the US program on remote viewing, the claimed ability to sense distant places with the mind."
+}

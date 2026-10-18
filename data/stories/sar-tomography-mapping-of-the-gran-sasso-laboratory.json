@@ -1,0 +1,53 @@
+{
+  "id": "sar-tomography-mapping-of-the-gran-sasso-laboratory",
+  "title": "SAR tomography mapping of the Gran Sasso laboratory",
+  "summary": "Jay Anderson tells of SAR tomography mapping of the Gran Sasso laboratory, about unspecified at Gran Sasso Laboratory, Italy, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Gran Sasso Laboratory, Italy",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 7601.0,
+      "to_s": 7612.0,
+      "teller": "jay-anderson",
+      "quote": "But they've also done experiments in Italy at the Grand Saso Laboratory, which is 1.4 4 km inside a mountain and they mapped it out.",
+      "kind": "researcher",
+      "cites": [
+        "filippo-biondi"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jay-anderson"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Jay Anderson, speaking on Jesse Michels' podcast, says a team linked to a scientist named Filippo Biondi used a radar technique to map the Gran Sasso Laboratory in Italy, a research site about 1.4 kilometres inside a mountain. The technique, called SAR tomography, uses radar signals, often from satellites, to build up pictures of what lies beneath the surface. Anderson tells it because, if it works, the same method could reveal hidden spaces deep underground elsewhere."
+}

@@ -21,6 +21,29 @@
       "documents": [
         "the-adventures-of-baron-trump"
       ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 9390.0,
+      "to_s": 9396.0,
+      "teller": "jesse-michels",
+      "quote": "Um, you have the adventures of Baron and Donald Trump, you know, in the 1890s,",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "the-adventures-of-baron-trump"
+      ],
+      "difference": "Dates the books to the 1890s specifically.",
+      "link_reason": "The same 19th-century Baron Trump books, told by the same host.",
+      "as_told": {
+        "title": "1890s Baron Trump books",
+        "years": {
+          "from": 1890,
+          "to": 1899
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -44,7 +67,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "Y7PLeu5rTv4"
+      "Y7PLeu5rTv4",
+      "yJUBSuPh1pM"
     ]
   },
   "attestation": 0.35,

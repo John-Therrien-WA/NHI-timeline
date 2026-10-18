@@ -26,7 +26,36 @@
         "lee-harvey-oswald",
         "guy-banister"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "episode": "2SQXAPCdmPE",
+        "from_s": 9625.0
+      }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 9625.0,
+      "to_s": 9638.0,
+      "teller": "daniel-sheehan",
+      "quote": "Gordon Noel is the guy that was arrested and prosecuted by James Garrison in New Orleans for burning down 555 Camp Street",
+      "kind": "researcher",
+      "cites": [
+        "gordon-novel",
+        "jim-garrison",
+        "lee-harvey-oswald"
+      ],
+      "documents": [],
+      "difference": "Does not name Guy Banister.",
+      "link_reason": "Both tell how Gordon Novel was arrested and prosecuted by Jim Garrison for burning down 555 Camp Street in New Orleans.",
+      "as_told": {
+        "title": "Gordon Novel and the burning of 555 Camp Street",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "555 Camp Street, New Orleans",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -50,6 +79,7 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },

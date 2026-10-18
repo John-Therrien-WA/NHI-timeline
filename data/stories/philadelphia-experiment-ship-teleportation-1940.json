@@ -24,6 +24,34 @@
         "thomas-townsend-brown"
       ],
       "documents": []
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 1890.0,
+      "to_s": 1896.0,
+      "teller": "jesse-michels",
+      "quote": "where, you know, a a ship was rumored to be zapped from a Philadelphia Navy port to Norfol, Virginia.",
+      "kind": "host",
+      "cites": [
+        "bill-moore",
+        "carlos-allende",
+        "carl-allen",
+        "morris-jessup"
+      ],
+      "documents": [
+        "the-philadelphia-experiment"
+      ],
+      "difference": "Credits Moore, Carlos Allende and Morris Jessup and the book The Philadelphia Experiment, not Townsend Brown, and does not call it disinformation.",
+      "link_reason": "Both tell of the 1943 rumour that a ship was teleported from the Philadelphia Navy Yard to Norfolk, Virginia, told by the host.",
+      "as_told": {
+        "title": "Philadelphia Experiment",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "Philadelphia Navy Yard to Norfolk, Virginia",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [
@@ -34,7 +62,7 @@
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -45,7 +73,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -53,10 +81,11 @@
       "jesse-michels"
     ],
     "episodes": [
-      "TH10mD9hQas"
+      "TH10mD9hQas",
+      "WBTqsbwJyqU"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, brings up the Philadelphia Experiment, a story from the 1940s that says a Navy ship and its crew were teleported from Philadelphia to a port in Norfolk, Virginia. Michels himself calls it a clearly false story spread on purpose to mislead people, and he mentions it alongside a man named Townsend Brown. He tells it as an example of how the UFO subject has been muddied with planted tales."
 }

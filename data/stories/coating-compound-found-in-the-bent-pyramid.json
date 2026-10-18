@@ -1,0 +1,51 @@
+{
+  "id": "coating-compound-found-in-the-bent-pyramid",
+  "title": "Coating compound found in the Bent Pyramid",
+  "summary": "Geoffrey Drumm tells of Coating compound found in the Bent Pyramid, about dynastic Egypt at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Bent Pyramid, Dahshur, Egypt",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 4620.0,
+      "to_s": 4629.0,
+      "teller": "geoffrey-drumm",
+      "quote": "We've also found coating compound within the bent pyramid that would have protected the limestone walls from the vitriolic chemical reaction",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Geoffrey Drumm says on Jesse Michels' podcast that a coating compound has been found inside the Bent Pyramid, an ancient pyramid at Dahshur in Egypt. He says the coating would have protected the limestone walls from a harsh, corrosive chemical reaction, which, if true, would mean chemical processes were once run inside the pyramid."
+}

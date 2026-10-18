@@ -22,33 +22,62 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6450.0,
+      "to_s": 6456.0,
+      "teller": "jason-jorjani",
+      "quote": "uh guess what the Nazis wind up doing in 193738 Deutsch Antarctic Expedition.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Names it the Deutsche Antarctic Expedition and adds that the expedition dropped swastika flags over the ice.",
+      "link_reason": "Both are about the 1938-39 Nazi German expedition to Antarctica.",
+      "as_told": {
+        "title": "German Antarctic Expedition drops swastika flags",
+        "years": {
+          "from": 1938,
+          "to": 1939
+        },
+        "place_text": "Antarctica",
+        "story_kind": "program"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "rudolf-hess-sent-to-antarctica-1938",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "jason-jorjani",
       "jesse-michels"
     ],
     "episodes": [
+      "ABw7EsWh2Us",
       "Y7PLeu5rTv4"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "Around 1938 and 1939, Nazi Germany sent an expedition to Antarctica. Talking with a writer, Peter Levenda, a podcast host named Jesse Michels says that this Antarctica expedition was very real. It comes up because, in stories like these, the trip is linked to secret Nazi interest in the far south."
 }

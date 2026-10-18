@@ -21,6 +21,24 @@
         "ben-van-kerkwyk"
       ],
       "documents": []
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 1566.0,
+      "to_s": 1572.0,
+      "teller": "jesse-michels",
+      "quote": "And we were just talking earlier that below Danderea, you actually have hieroglyphics that translate to Stargate.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by the host without crediting Ben Van Kerkwyk, and placed 'below' Dendera.",
+      "link_reason": "Both tell of hieroglyphs at Dendera that translate as 'stargate'.",
+      "as_told": {
+        "title": "Dendera hieroglyphs read as stargates",
+        "years": null,
+        "place_text": "Dendera, Egypt",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -44,7 +62,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "C_Na1tI5qpw"
+      "C_Na1tI5qpw",
+      "iPxbILOMQ08"
     ]
   },
   "attestation": 0.5,

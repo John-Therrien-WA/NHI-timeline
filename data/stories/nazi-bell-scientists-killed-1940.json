@@ -1,0 +1,81 @@
+{
+  "id": "nazi-bell-scientists-killed-1940",
+  "title": "Nazi Bell scientists killed",
+  "summary": "Richard Dolan tells of Nazi Bell scientists killed, about 1940s at Nazi Germany / Czechoslovakia, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Nazi Germany / Czechoslovakia",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 4820.0,
+      "to_s": 4830.0,
+      "teller": "richard-dolan",
+      "quote": "this and the claim was like you had a bunch of scientists like 60 a bunch of them died from the effects of this and then the rest were executed at the end of the war so they wouldn't talk.",
+      "kind": "researcher",
+      "cites": [
+        "nick-cook"
+      ],
+      "documents": [
+        "the-hunt-for-zero-point"
+      ]
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 2956.0,
+      "to_s": 2962.0,
+      "teller": "jason-jorjani",
+      "quote": "is that it they would put plants around this thing and they would turn to mulch.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that plants placed around the Bell turned to mulch and speaks of a 'first team'; it does not give the story's figure of about 60 or say the rest were executed.",
+      "link_reason": "Both say the Bell's effects killed the scientists working on it.",
+      "as_told": {
+        "title": "Bell destroyed plants and killed the first team of scientists",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Bell test site",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani",
+      "richard-dolan"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us",
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "well-attested",
+  "plain": "This story is about the Bell, said to be a secret device built in Nazi Germany or occupied Czechoslovakia in the 1940s. A researcher of UFO secrecy named Richard Dolan tells it on a podcast with the host Jesse Michels. He draws on a writer named Nick Cook and his book The Hunt for Zero Point. According to Dolan, about sixty scientists worked on it, a number of them died from its effects, and the rest were executed at the end of the war so they would not talk. A second researcher, Jason Jorjani, tells it on a later episode. He speaks of a first team and says that plants placed around the device would turn to mulch, though he does not give the figure of sixty or mention the killings. If true, it would mean the Nazis built something exotic and deadly that was hidden by killing the people who knew."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "1990s-drilling-near-the-sphinx-overseen-by-hawass",
+  "title": "1990s drilling near the Sphinx overseen by Hawass",
+  "summary": "Luke Caverns tells of 1990s drilling near the Sphinx overseen by Hawass, about 1990s at Sphinx, Giza, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Sphinx, Giza",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 2112.0,
+      "to_s": 2121.0,
+      "teller": "luke-caverns",
+      "quote": "And the drilling that they did in the '9s to see if there was a to see if there was a chamber there, that was overseen by Zawas.",
+      "kind": "researcher",
+      "cites": [
+        "zahi-hawass"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher of ancient Egypt, Luke Caverns, says that in the 1990s there was drilling near the Sphinx, the great carved lion-bodied statue at Giza, to check whether a hidden chamber lay there. He says the work was overseen by the Egyptian archaeologist Zahi Hawass. He raises it because a chamber there could change what we think we know about the site."
+}

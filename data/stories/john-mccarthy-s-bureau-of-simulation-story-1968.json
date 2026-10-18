@@ -24,6 +24,33 @@
         "john-mccarthy"
       ],
       "documents": []
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 5044.0,
+      "to_s": 5054.0,
+      "teller": "jacques-vallee",
+      "quote": "uh Dr. McCarthy at Stanford. Okay. He had the AI AI lab on the on the hill, and he told uh a story.",
+      "kind": "secondhand",
+      "cites": [
+        "john-mccarthy"
+      ],
+      "documents": [],
+      "difference": "Gives the time only as the early AI era and adds that the story is about replacing a predictable man.",
+      "link_reason": "Both are Vallee retelling John McCarthy's Stanford AI lab story about the Bureau of Simulation.",
+      "as_told": {
+        "title": "John McCarthy's Stanford AI lab story of the Bureau of Simulation replacing a predictable man",
+        "years": {
+          "from": 1960,
+          "to": 1973
+        },
+        "place_text": "Stanford AI lab, California",
+        "story_kind": "theory"
+      },
+      "replay_of": {
+        "episode": "fyX8V1XXmQM",
+        "from_s": 1961.0
+      }
     }
   ],
   "related": [],
@@ -47,6 +74,7 @@
       "jacques-vallee"
     ],
     "episodes": [
+      "aKZ_MUbuk_Q",
       "fyX8V1XXmQM"
     ]
   },

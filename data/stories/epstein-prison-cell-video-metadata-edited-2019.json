@@ -1,0 +1,56 @@
+{
+  "id": "epstein-prison-cell-video-metadata-edited-2019",
+  "title": "Epstein prison cell video metadata edited",
+  "summary": "Jesse Michels tells of Epstein prison cell video metadata edited, about 2019; reported 2025 at Metropolitan Correctional Center, New York, and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2019,
+    "to": 2025
+  },
+  "place": null,
+  "place_text": "Metropolitan Correctional Center, New York",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 99.0,
+      "to_s": 116.0,
+      "teller": "jesse-michels",
+      "quote": "Wired magazine, a fairly conventional [music]\ntech publication, just revealed that the\nmetadata from Jeffrey Epstein's prison\ncell video [music] that was supposed to\npoint to a suicide had been edited,\nlikely using Adobe Premiere.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "wired-magazine-report"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Wired, a mainstream technology magazine, reported in 2025 that the metadata, the hidden technical record stored inside a file, of the video from Jeffrey Epstein's prison cell at the Metropolitan Correctional Center in New York in 2019 had been edited, likely with the video editing program Adobe Premiere. The video was supposed to point to Epstein's death being a suicide, so if the report is right, the footage may have been altered."
+}

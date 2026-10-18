@@ -49,6 +49,52 @@
         "place_text": "United States",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 2269.0,
+      "to_s": 2283.0,
+      "teller": "jesse-michels",
+      "quote": "accounts and then you have David Grush sitting next to you saying that there's been a covert reverse engineering program. We've actually had a crash retrieval program for, you know, 70 plus years around this stuff.",
+      "kind": "host",
+      "cites": [
+        "david-grush"
+      ],
+      "documents": [],
+      "difference": "Says the program has run for 70-plus years and puts it beside the pilots' accounts at the hearing.",
+      "link_reason": "Both are Grusch's claim that the US runs covert crash retrieval and reverse-engineering programs.",
+      "as_told": {
+        "title": "Grusch's claim of a 70-plus-year crash retrieval and reverse engineering program",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 388.0,
+      "to_s": 399.0,
+      "teller": "jesse-michels",
+      "quote": "uh that we have, you know, biologics and non-human propulsed craft in our possession at various kind of aerospace warehouses. He's offered to give the addresses for the warehouses.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Adds biologics and says Grusch offered to give the warehouse addresses.",
+      "link_reason": "Same Grusch 2023 claims of recovered craft held in hangars or warehouses.",
+      "as_told": {
+        "title": "Grusch's claims of craft and biologics held at aerospace warehouses",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -80,6 +126,8 @@
     ],
     "episodes": [
       "-XdvIrexF08",
+      "6WC4o2yY9Ws",
+      "KGD1nuM4MR8",
       "y_8IKKcTntQ"
     ]
   },

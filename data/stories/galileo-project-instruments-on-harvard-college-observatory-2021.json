@@ -45,6 +45,27 @@
         "place_text": "Harvard University",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 136.0,
+      "to_s": 147.0,
+      "teller": "avi-loeb",
+      "quote": "so the Galileo project is basically uh an attempt to collect new data new evidence using the scientific method without prejudice being agnostic",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Stresses the agnostic scientific-method aim and gives the dates as 2021 to the present.",
+      "link_reason": "Avi Loeb describes the Galileo Project's sensors at the Harvard Observatory, the same program and instruments as the story.",
+      "as_told": {
+        "title": "Galileo Project sensors at Harvard Observatory",
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "place_text": "Harvard Observatory",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -68,6 +89,7 @@
       "avi-loeb"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
       "_bM9eAtCOGw",
       "iQOibpIDx-4"
     ]

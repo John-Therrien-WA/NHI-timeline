@@ -7,7 +7,7 @@
     "from": 1992,
     "to": 1992
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Brookhaven National Laboratory, Long Island, New York",
   "coordinates": null,
   "kind": "crash-retrieval",
@@ -66,6 +66,66 @@
         "place_text": "South Haven / Brookhaven National Laboratory, New York",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 3429.0,
+      "to_s": 3435.0,
+      "teller": "jesse-michels",
+      "quote": "Well, apparently there was a UFO crash collected by the lab itself in 1992.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by the host as a bare claim ('apparently'), with no townspeople named as the source.",
+      "link_reason": "The same 1992 UFO crash said to have been recovered by Brookhaven National Lab.",
+      "as_told": {
+        "title": "UFO crash recovered by Brookhaven National Lab",
+        "years": {
+          "from": 1992,
+          "to": 1992
+        },
+        "place_text": "Brookhaven National Laboratory, Long Island, New York",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 5661.0,
+      "to_s": 5680.0,
+      "teller": "jesse-michels",
+      "quote": ">> And there's a famous there's a famous crash in the US at South Haven right near next to Brook Haven National Lab. That's that's where our largest particle accelerator is. So that's our CERN equivalent in Long Island. And you have the police chief there and a bunch of local residents say that it was collected by Brook Haven.",
+      "kind": "host",
+      "cites": [
+        "local-police-chief",
+        "local-residents"
+      ],
+      "documents": [],
+      "difference": "No year given; credits the local police chief as a witness and calls Brookhaven the US equivalent of CERN.",
+      "link_reason": "The same crash at South Haven next to Brookhaven, with townspeople saying the lab collected the craft.",
+      "as_told": {
+        "title": "South Haven crash collected by Brookhaven National Lab",
+        "years": null,
+        "place_text": "South Haven, Long Island, New York, USA",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 6140.0,
+      "to_s": 6145.0,
+      "teller": "jesse-michels",
+      "quote": "There was even a UFO crash right next to [music] Brook Haven National Labs.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives no year, no townspeople witnesses and no claim that the lab recovered the craft; it only says the crash was right next to the lab.",
+      "link_reason": "Both tell of a UFO crash at or beside Brookhaven National Laboratory on Long Island.",
+      "as_told": {
+        "title": "UFO crash next to Brookhaven National Lab",
+        "years": null,
+        "place_text": "Brookhaven National Laboratory, New York",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -89,9 +149,12 @@
       "jesse-michels"
     ],
     "episodes": [
+      "51N8OxqZIWY",
       "LpLFWdsIU7M",
+      "aKZ_MUbuk_Q",
       "u7g5Sn1DJF4",
-      "uVVqFg2v7ro"
+      "uVVqFg2v7ro",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.5,

@@ -24,6 +24,53 @@
         "james-fox"
       ],
       "documents": []
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 5072.0,
+      "to_s": 5075.0,
+      "teller": "jesse-michels",
+      "quote": "think that Virginia happened in 1996.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives only the year, with no detail about the beings or the hospital.",
+      "link_reason": "Telling 1 is a passing mention of the 1996 Varginha crash itself, which is the same event as the story of the Varginha crash and captured being.",
+      "as_told": {
+        "title": "Virginia 1996 crash",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Virginia",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 2690.0,
+      "to_s": 2693.0,
+      "teller": "jesse-michels",
+      "quote": "it's this case in Virginia in 1996 in Brazil.",
+      "kind": "host",
+      "cites": [
+        "james-fox",
+        "carlos-doza"
+      ],
+      "documents": [
+        "moment-of-contact"
+      ],
+      "difference": "Adds that the beings smelled of sulfur and ammonia, and credits Carlos de Souza and the film Moment of Contact.",
+      "link_reason": "Michels tells the 1996 Varginha crash and the beings that came out of it. This is the same case the corpus holds as the crash and captured being, credited to James Fox.",
+      "as_told": {
+        "title": "Varginha 1996 UFO case: beings smelled of sulfur and ammonia",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -76,10 +123,40 @@
       "story": "varginha-witness-held-shape-returning-material-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "army-trucks-cordoning-off-the-hospital-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "craft-shot-down-before-crashing-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "military-convoy-cordons-the-crash-site-and-a-soldier-threate-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-being-was-nearly-taken-to-the-zoo-before-it-went-to-the-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tres-coracoes-army-battalion-supports-the-varginha-operation-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-pilot-testifies-about-scrubbed-cia-and-air-force-missions-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -90,7 +167,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -98,10 +175,12 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2ttdlCa5ZCI",
+      "BSXdnsyCqxw",
       "IWui5cBkwoE"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, retells a story from 1996 in Varginha, a town in Brazil, drawing on the work of a documentary filmmaker, James Fox. According to Michels, many separate sources describe a cigar-shaped object, something like the Tic Tac, a white oval craft shaped like the mint, falling from the sky with three beings coming out, one of whom was captured and taken to a hospital. He says everyone who worked at that hospital reports having seen the being, which, if true, would mean living non-human creatures were caught and handled by ordinary people."
 }

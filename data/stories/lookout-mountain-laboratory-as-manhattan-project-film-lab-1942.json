@@ -1,0 +1,60 @@
+{
+  "id": "lookout-mountain-laboratory-as-manhattan-project-film-lab-1942",
+  "title": "Lookout Mountain Laboratory as Manhattan Project film lab",
+  "summary": "Paul Schatzkin tells of Lookout Mountain Laboratory as Manhattan Project film lab, about 1942-1945 at Lookout Mountain, Laurel Canyon, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1942,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "Lookout Mountain, Laurel Canyon",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3860.0,
+      "to_s": 3868.0,
+      "teller": "paul-schatzkin",
+      "quote": "But now that more information is being released, we learn that it was the film labs for the Manhattan Engineering Project.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "lookout-mountain-cia-facility-in-laurel-canyon-1960",
+      "relation": "variant",
+      "note": "Both are lore about the same Lookout Mountain facility in Laurel Canyon. This telling makes it the Manhattan Project's film lab in the 1940s, while the story makes it a CIA facility."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "paul-schatzkin"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A writer named Paul Schatzkin, who wrote about the inventor Townsend Brown, says on podcast host Jesse Michels' show in 2024 that Lookout Mountain Laboratory, a secret site in the Laurel Canyon hills of Los Angeles, was more than it seemed. He says newly released information shows it served as the film labs for the Manhattan Project, the American effort to build the atomic bomb during the Second World War, around 1942 to 1945. If true, the site's secret history would reach back to the bomb itself."
+}

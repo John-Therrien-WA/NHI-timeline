@@ -1,0 +1,77 @@
+{
+  "id": "jesse-feels-strieber-s-implant-2020",
+  "title": "Jesse feels Strieber's implant",
+  "summary": "Jesse Michels tells of Jesse feels Strieber's implant, about 2020s at unspecified, and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2029
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 6366.0,
+      "to_s": 6370.0,
+      "teller": "jesse-michels",
+      "quote": "Yeah, I felt it and it's the weirdest thing in the world. And he says it moves with his own metabolism.",
+      "kind": "firsthand",
+      "cites": [
+        "whitley-strieber"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 6462.0,
+      "to_s": 6467.0,
+      "teller": "jesse-michels",
+      "quote": "I felt an implant in his ear",
+      "kind": "firsthand",
+      "cites": [
+        "whitley-strieber"
+      ],
+      "documents": [],
+      "difference": "Places the implant in Strieber's ear and does not repeat the claim that it moves with his metabolism.",
+      "link_reason": "Jesse Michels describes feeling Whitley Strieber's implant himself, the same personal event as the existing story.",
+      "as_told": {
+        "title": "Host feels implant in Whitley Strieber's ear",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg",
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels says that in the 2020s he touched an implant in the body of a man named Whitley Strieber, which he calls the weirdest thing in the world. Michels says Strieber told him it moves with his metabolism, and in another episode Michels places it in Strieber's ear. If true, it would back Strieber's claim that something was put inside him."
+}

@@ -23,6 +23,27 @@
         "thomas-aquinas"
       ],
       "documents": []
+    },
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 5318.0,
+      "to_s": 5329.0,
+      "teller": "jesse-michels",
+      "quote": "some do actually comport with the modern alien phenomena so you'll see like irradiated light",
+      "kind": "host",
+      "cites": [
+        "thomas-aquinas",
+        "iamblichus"
+      ],
+      "documents": [],
+      "difference": "The host makes the claim in his own voice instead of relaying Nell and Pasulka, credits Iamblichus, and gives irradiated light as an example.",
+      "link_reason": "The same claim that the angel hierarchies of Aquinas and others match modern non-human intelligence (NHI) and alien experiences.",
+      "as_told": {
+        "title": "Attributes in angel hierarchies that match modern alien phenomena",
+        "years": null,
+        "place_text": null,
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -46,7 +67,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "DPmO-2E7Ayg"
+      "DPmO-2E7Ayg",
+      "wT5-hXWIkzM"
     ]
   },
   "attestation": 0.5,

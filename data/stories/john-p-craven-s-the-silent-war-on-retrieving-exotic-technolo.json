@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of John P. Craven's The Silent War on retrieving exotic technology from the seafloor, about Cold War era at seafloor, and frames it as the host. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "seafloor",
   "coordinates": null,
   "kind": "document",
@@ -23,11 +23,78 @@
       "documents": [
         "the-silent-war"
       ]
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 7240.0,
+      "to_s": 7252.0,
+      "teller": "jesse-michels",
+      "quote": "There's an interesting book by a guy named John Pina Craraven where he talks about uh underwater uh tech retrievals of secret technology made by submarines",
+      "kind": "host",
+      "cites": [
+        "john-pina-craven"
+      ],
+      "documents": [
+        "john-pina-craven-s-book"
+      ],
+      "difference": "Does not name the book and says the retrievals were made by submarines.",
+      "link_reason": "Same book by John Piña Craven about submarines retrieving secret or exotic technology from the sea.",
+      "as_told": {
+        "title": "John Piña Craven's book on submarine retrievals of secret technology from the sea",
+        "years": null,
+        "place_text": "ocean / USA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 4505.0,
+      "to_s": 4517.0,
+      "teller": "jesse-michels",
+      "quote": "there's a guy named John Pena Craven. He wrote a book called The Silent War. And they talk about all sorts of covert operations in the US of finding things on the sea floor.",
+      "kind": "host",
+      "cites": [
+        "john-pena-craven"
+      ],
+      "documents": [
+        "the-silent-war"
+      ],
+      "difference": "Talks of covert seafloor operations in general rather than exotic technology specifically.",
+      "link_reason": "Both are about John Craven's book The Silent War and its account of covert recovery work on the seafloor.",
+      "as_told": {
+        "title": "John Craven's The Silent War on covert seafloor recovery operations",
+        "years": null,
+        "place_text": "United States / sea floor",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 5726.0,
+      "to_s": 5737.0,
+      "teller": "jesse-michels",
+      "quote": "So there there he talks about John Pena Craraven, you know, and these guys are like the godfathers of the the Navy uh recovering exotic technology on the seafloor.",
+      "kind": "host",
+      "cites": [
+        "john-pina-craven"
+      ],
+      "documents": [
+        "the-silent-war",
+        "blind-man-s-bluff"
+      ],
+      "difference": "Also cites Blind Man's Bluff and calls Craven one of the godfathers of the Navy's seafloor recovery.",
+      "link_reason": "The same account of John Piña Craven and the Navy recovering exotic technology from the seafloor, as told in The Silent War.",
+      "as_told": {
+        "title": "John Piña Craven and Navy seafloor recovery",
+        "years": null,
+        "place_text": "sea floor",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -38,7 +105,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -46,10 +113,13 @@
       "jesse-michels"
     ],
     "episodes": [
-      "d9tdJ2SkBKQ"
+      "1F7DHbSbgbQ",
+      "aGqFOxuYRT0",
+      "d9tdJ2SkBKQ",
+      "h3u8EkGI8OQ"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.85,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, points to a book called The Silent War by John P. Craven, whom he describes as a high-ranking figure in the US Navy. Michels says Craven writes about recovering exotic technology from the seafloor, which, if it means what Michels suggests, would hint at strange objects being retrieved from the ocean in secret."
 }

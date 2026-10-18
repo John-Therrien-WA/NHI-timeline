@@ -7,7 +7,7 @@
     "from": 1976,
     "to": 1976
   },
-  "place": null,
+  "place": "washington-dc",
   "place_text": "Plains, Georgia",
   "coordinates": null,
   "kind": "testimony",
@@ -26,9 +26,39 @@
         "george-h-w-bush"
       ],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 10584.0,
+      "to_s": 10593.0,
+      "teller": "jesse-michels",
+      "quote": "I think Carter wanted him to brief him on UFOs, but he then he wanted to be, you know, um made director of the CIA",
+      "kind": "host",
+      "cites": [
+        "carter",
+        "george-hw-bush"
+      ],
+      "documents": [],
+      "difference": "The host tells it without crediting Sheehan, does not name Plains, Georgia, and is unsure about the order of events in Bush's career.",
+      "link_reason": "Both say Carter, as president-elect, wanted CIA director George H.W. Bush to brief him on UFOs in 1976.",
+      "as_told": {
+        "title": "Carter wanted CIA director Bush to brief him on UFOs",
+        "years": {
+          "from": 1976,
+          "to": 1977
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "bald-shin-patches-and-jack-s-tumors-sent-to-air-force-pathol-1976",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 1.0,
   "profile": {
@@ -49,7 +79,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "ABw7EsWh2Us"
     ]
   },
   "attestation": 0.5,

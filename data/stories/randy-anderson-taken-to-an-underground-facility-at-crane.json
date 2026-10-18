@@ -78,6 +78,10 @@
         "years": null,
         "place_text": "Crane Naval Surface Warfare Center, Indiana",
         "story_kind": "reverse-engineering"
+      },
+      "replay_of": {
+        "episode": "Sct30Qijfv8",
+        "from_s": 2919.0
       }
     },
     {
@@ -100,6 +104,144 @@
         "place_text": "Naval Surface Warfare Center Crane, Indiana",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 1919.0,
+      "to_s": 1927.0,
+      "teller": "randy-anderson",
+      "quote": "we went to another part of the of the facility went to another building in that building we went into an elevator we took an elevator down",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand, with a 2014 date and the detail of moving to another building before taking the elevator down.",
+      "link_reason": "Randy Anderson's own account of being taken down by elevator into an underground part of NSWC Crane is the event the existing story describes.",
+      "as_told": {
+        "title": "Taken underground by elevator at NSWC Crane",
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "place_text": "Naval Surface Warfare Center Crane, Indiana",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1992.0,
+      "to_s": 2004.0,
+      "teller": "randy-anderson",
+      "quote": "get under there uh door opens. We go through a security type checkpoint. I remember the first thing that stood out to me was that the it was significantly more modern than everything up top",
+      "kind": "firsthand",
+      "cites": [
+        "saic"
+      ],
+      "documents": [],
+      "difference": "Adds the security checkpoint and that it was more modern than the facilities above ground.",
+      "link_reason": "Same account of Randy Anderson being taken to the underground facility at NSWC Crane.",
+      "as_told": {
+        "title": "Randy Anderson taken underground at NSWC Crane",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "Naval Surface Warfare Center Crane, Indiana",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "Sct30Qijfv8",
+        "from_s": 2001.0
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7697.0,
+      "to_s": 7707.0,
+      "teller": "uapgerb",
+      "quote": "Remember what Randy said when\nhe was taken to crane that the\ntechnology was considered weaponry due\nto an an electronic discharge during\nretrieval.",
+      "kind": "secondhand",
+      "cites": [
+        "randy-anderson"
+      ],
+      "documents": [],
+      "difference": "Adds that the technology was classed as weaponry because of an electronic discharge during its retrieval.",
+      "link_reason": "Both are about Randy Anderson being taken into the facility at Crane and shown the technology there.",
+      "as_told": {
+        "title": "Randy Anderson taken to Crane: technology classed as weaponry",
+        "years": null,
+        "place_text": "Crane, Indiana",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 6395.0,
+      "to_s": 6409.0,
+      "teller": "jesse-michels",
+      "quote": "he says that he was stationed as an 18 Bravo weapon Sergeant at uh Naval surface Warfare Crane in Indiana that he was taken in an elevator underground",
+      "kind": "host",
+      "cites": [
+        "randy-anderson"
+      ],
+      "documents": [
+        "dd214"
+      ],
+      "difference": "Names an orb and a gauntlet, an 'Offworld Technologies' SCIF and his 18 Bravo role, and cites his DD214.",
+      "link_reason": "Randy Anderson is taken underground at Naval Surface Warfare Center Crane and shown off-world technology, which is the same account as the existing Crane story.",
+      "as_told": {
+        "title": "Randy Anderson shown orb and gauntlet in 'Offworld Technologies' SCIF at Crane",
+        "years": null,
+        "place_text": "Naval Surface Warfare Center Crane, Indiana",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 7485.0,
+      "to_s": 7491.0,
+      "teller": "jesse-michels",
+      "quote": "guy Randy Anderson who I um interviewed who went deep into an underground military base",
+      "kind": "secondhand",
+      "cites": [
+        "randy-anderson"
+      ],
+      "documents": [],
+      "difference": "Dates the visit to 2014-2015, where the story gives no date.",
+      "link_reason": "This is Randy Anderson being taken deep into an underground base at Crane, the same account as the existing Crane underground story.",
+      "as_told": {
+        "title": "Randy Anderson's trip into an underground base at Crane",
+        "years": {
+          "from": 2014,
+          "to": 2015
+        },
+        "place_text": "Naval Surface Warfare Center Crane, Indiana",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 2889.0,
+      "to_s": 2910.0,
+      "teller": "jesse-michels",
+      "quote": "like like they got Randy Anderson who he went underground and he saw this like gauntlet thing that like emitted hieroglyphics and he was he was stationed at Naval Surface Warfare crane in Indiana. in Indiana in 2014. He was taken down a bunch of floors in an elevator to a deep underground military base",
+      "kind": "secondhand",
+      "cites": [
+        "randy-anderson",
+        "steven-greer",
+        "uap-gerb"
+      ],
+      "documents": [],
+      "difference": "Dates it to 2014, describes a gauntlet-like object emitting hieroglyphics, and credits Greer and UAP Gerb.",
+      "link_reason": "Both are about Randy Anderson being taken deep underground at NSWC Crane and shown technology.",
+      "as_told": {
+        "title": "Randy Anderson: off-world technology under NSWC Crane",
+        "years": {
+          "from": 2014,
+          "to": 2014
+        },
+        "place_text": "Naval Surface Warfare Center Crane, Indiana",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
@@ -116,7 +258,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -124,10 +266,15 @@
     ],
     "episodes": [
       "-0g3lLGxNfc",
+      "GQlWf54K_7Y",
+      "JE1oM89dpBc",
       "OOr98r51Sj0",
+      "Sct30Qijfv8",
       "V00WcEiKRAY",
       "areO7Mej44E",
-      "u7g5Sn1DJF4"
+      "nTiFs8LudUo",
+      "u7g5Sn1DJF4",
+      "yAvD5UTziTo"
     ]
   },
   "attestation": 1.0,

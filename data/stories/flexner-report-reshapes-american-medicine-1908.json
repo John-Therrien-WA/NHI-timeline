@@ -1,0 +1,60 @@
+{
+  "id": "flexner-report-reshapes-american-medicine-1908",
+  "title": "Flexner report reshapes American medicine",
+  "summary": "Jesse Michels tells of Flexner report reshapes American medicine, about 1908-1910 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1908,
+    "to": 1910
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 189.0,
+      "to_s": 197.0,
+      "teller": "jesse-michels",
+      "quote": "In 1910, with backing from Rockefeller and fellow Titan Andrew Carnegie, the Flexner report was released.",
+      "kind": "host",
+      "cites": [
+        "john-d-rockefeller",
+        "andrew-carnegie",
+        "abraham-flexner"
+      ],
+      "documents": [
+        "flexner-report"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "q7Czo77qhHA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in 1910 a study called the Flexner report, written by Abraham Flexner, came out with funding from the oil tycoon John D. Rockefeller and his fellow industrialist Andrew Carnegie. In his telling, the report changed how American medicine worked. He tells it in an episode about drug companies and human experiments, as part of a story about who has shaped medicine and science behind the scenes."
+}

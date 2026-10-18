@@ -30,6 +30,150 @@
       "documents": [
         "sarbacher-letter-to-william-steinman"
       ]
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 144.0,
+      "to_s": 162.0,
+      "teller": "jesse-michels",
+      "quote": "Townsend Brown was even a close confidant and colleague of Robert Sarbacher, the student of Einstein and famed Harvard physicist, who towards the end of his life admitted to UFO researcher William Steinman that the rumors surrounding UFO crashes are substantially correct.",
+      "kind": "host",
+      "cites": [
+        "robert-sarbacher",
+        "william-steinman",
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Spells out what the letter says (crash rumors substantially correct) and links Sarbacher to Townsend Brown and Grusch; it does not call it a letter.",
+      "link_reason": "Sarbacher's admission to William Steinman that crash rumors are correct is the content of the Sarbacher letter to Steinman in the story.",
+      "as_told": {
+        "title": "Sarbacher tells Steinman UFO crash rumors are correct; Grusch says Sarbacher helped set up secrecy",
+        "years": {
+          "from": 1950,
+          "to": 1989
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 10599.0,
+      "to_s": 10609.0,
+      "teller": "jesse-michels",
+      "quote": "1987 this um UFO researcher named William Steinman writes to him and he says you know was there actually a UFO program",
+      "kind": "host",
+      "cites": [
+        "robert-sarbacher",
+        "william-steinman",
+        "thomas-townsend-brown",
+        "john-von-neumann",
+        "robert-j-oppenheimer",
+        "vannevar-bush"
+      ],
+      "documents": [
+        "sarbacher-letter-to-william-steinman-1987"
+      ],
+      "difference": "Dates the letter to 1987, has Steinman writing first to ask whether a UFO program existed, and adds Townsend Brown among those credited.",
+      "link_reason": "Both are Jesse Michels telling of Sarbacher's letter to UFO researcher William Steinman about a secret UFO program, crediting the same scientists.",
+      "as_told": {
+        "title": "Sarbacher's 1987 letter to William Steinman",
+        "years": {
+          "from": 1940,
+          "to": 1987
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 6994.0,
+      "to_s": 7007.0,
+      "teller": "jesse-michels",
+      "quote": "And he in 1987 towards the end of his life started to come out and write letters to UFO researchers like this guy William Steinman and say you know um the UFO rumors are substantially true.",
+      "kind": "host",
+      "cites": [
+        "robert-sarbacher",
+        "william-steinman",
+        "vannevar-bush",
+        "john-von-neumann",
+        "whitley-strieber"
+      ],
+      "documents": [
+        "sarbacher-letters-to-william-steinman",
+        "ultra-high-frequency-engineering"
+      ],
+      "difference": "Dates the letters to 1987, near the end of Sarbacher's life, and says the letters called the UFO rumors substantially true.",
+      "link_reason": "Both tell of Robert Sarbacher's letter to UFO researcher William Steinman, crediting Bush and von Neumann.",
+      "as_told": {
+        "title": "Robert Sarbacher's 1987 letters to William Steinman",
+        "years": {
+          "from": 1987,
+          "to": 1987
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 6827.0,
+      "to_s": 6835.0,
+      "teller": "grant-cameron",
+      "quote": "that that uh Steman said, \"I was I was invited to a crash uh briefing at Ray Patterson Air Force Base",
+      "kind": "researcher",
+      "cites": [
+        "william-steinman",
+        "robert-sarbacher",
+        "stan-friedman",
+        "vannevar-bush",
+        "john-von-neumann"
+      ],
+      "documents": [
+        "1983-tape-of-sarbacher-conversation"
+      ],
+      "difference": "Cites a 1983 taped conversation rather than a letter, dates the briefing to 1950 and credits Stan Friedman.",
+      "link_reason": "Sarbacher's account to Steinman of being invited to crash-recovery discussions at Wright-Patterson, naming Bush and von Neumann, matches the story of Sarbacher's letter to Steinman.",
+      "as_told": {
+        "title": "Sarbacher invited to 1950 crash briefing at Wright-Patterson",
+        "years": {
+          "from": 1950,
+          "to": 1983
+        },
+        "place_text": "Wright-Patterson Air Force Base, Ohio",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 5043.0,
+      "to_s": 5058.0,
+      "teller": "jesse-michels",
+      "quote": "Even his direct report, Robert Sarbacher, who worked closely with him, is on record in letters to Bill Steinman, saying that Vanavar Bush was directly involved in UFO research.",
+      "kind": "host",
+      "cites": [
+        "robert-sarbacher",
+        "bill-steinman",
+        "vannevar-bush",
+        "wilbert-smith",
+        "frank-scully",
+        "j-robert-oppenheimer"
+      ],
+      "documents": [
+        "sarbacher-letters-to-bill-steinman"
+      ],
+      "difference": "Speaks of letters, plural, and also names Wilbert Smith and Frank Scully.",
+      "link_reason": "This is the same letter from Sarbacher to William Steinman saying Vannevar Bush was involved in UFO research.",
+      "as_told": {
+        "title": "Sarbacher letters: Vannevar Bush involved in UFO research",
+        "years": {
+          "from": 1940,
+          "to": 1989
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -47,32 +191,53 @@
       "story": "reagan-diary-on-the-capacity-to-put-300-people-in-orbit-1980",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "falcon-and-the-mj-12-films-from-dia-humint-and-angleton-s-ch-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "letter-from-senator-cohen-thanking-the-remote-viewers-for-sa-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mj-12-papers-judged-compelling-but-not-conclusive-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 6,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "grant-cameron",
       "jesse-michels"
     ],
     "episodes": [
-      "ABOP8ZJsyIk"
+      "2SQXAPCdmPE",
+      "ABOP8ZJsyIk",
+      "OZ_oCpKYQJ0",
+      "RTEWLSTyUic",
+      "Rfmy5oW_r9c",
+      "fpUa3xJN64Q"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
+  "attestation": 1.85,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, talks about a letter that a scientist, Robert Sarbacher, wrote in the 1980s to William Steinman, another UFO researcher. Michels brings it up while discussing famous American scientists of the mid-century, John von Neumann, Vannevar Bush and Robert Oppenheimer. He tells it as a paper trail suggesting that respected insiders knew about the UFO question."
 }

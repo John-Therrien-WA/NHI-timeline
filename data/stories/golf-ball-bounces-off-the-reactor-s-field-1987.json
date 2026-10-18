@@ -25,6 +25,29 @@
         "dennis-mariani"
       ],
       "documents": []
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 6690.0,
+      "to_s": 6699.0,
+      "teller": "john-blitch",
+      "quote": "he describes a basketball siiz maybe a smaller maybe soccer ball sized is um item",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Told second hand by Blitch, who describes a basketball- or soccer-ball-sized repelling item and does not mention the golf ball.",
+      "link_reason": "Both are about Lazar's account at S4 of a reactor field that pushed objects away; here Blitch retells it.",
+      "as_told": {
+        "title": "Bob Lazar's repelling sphere",
+        "years": {
+          "from": 1988,
+          "to": 1988
+        },
+        "place_text": "S-4, Nevada",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -41,14 +64,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "bob-lazar"
     ],
     "episodes": [
-      "d9tdJ2SkBKQ"
+      "d9tdJ2SkBKQ",
+      "yAvD5UTziTo"
     ]
   },
   "attestation": 1.0,

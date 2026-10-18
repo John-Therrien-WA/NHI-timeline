@@ -1,0 +1,56 @@
+{
+  "id": "matthew-bevan-s-1990s-hacks",
+  "title": "Matthew Bevan's 1990s hacks",
+  "summary": "Gary McKinnon tells of Matthew Bevan's 1990s hacks, about 1990s at UK / US Department of Energy, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "UK / US Department of Energy",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 7168.0,
+      "to_s": 7171.0,
+      "teller": "gary-mckinnon",
+      "quote": "and yeah, and he was earlier. He was in the ' 90s",
+      "kind": "secondhand",
+      "cites": [
+        "matthew-bevan"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "gary-mckinnon"
+    ],
+    "episodes": [
+      "2ttdlCa5ZCI"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A British computer hacker named Gary McKinnon, who says he found signs of a secret space programme while breaking into NASA computers, mentions another hacker named Matthew Bevan. McKinnon says Bevan came earlier, doing his own hacking in the 1990s, with the story tied to the UK and the US Department of Energy, the government agency that runs America's nuclear and energy work."
+}

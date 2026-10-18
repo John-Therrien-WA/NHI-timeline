@@ -1,0 +1,58 @@
+{
+  "id": "soviet-spy-at-1950-pearl-harbor-demo-wounded-prairie-chicken",
+  "title": "Soviet spy at 1950 Pearl Harbor demo; wounded prairie chicken routine",
+  "summary": "Jesse Michels tells of Soviet spy at 1950 Pearl Harbor demo; wounded prairie chicken routine, about 1950 at Pearl Harbor, Hawaii, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1950
+  },
+  "place": null,
+  "place_text": "Pearl Harbor, Hawaii",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1371.0,
+      "to_s": 1380.0,
+      "teller": "jesse-michels",
+      "quote": "You see, in 1950 during a demo in Pearl Harbor, Brown's work was compromised by a Soviet spy acting as a janitor.",
+      "kind": "host",
+      "cites": [
+        "paul-schatzkin"
+      ],
+      "documents": [
+        "the-man-who-mastered-gravity"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, drawing on The Man Who Mastered Gravity, a book by Paul Schatzkin about the scientist Townsend Brown, says that in 1950, during a demonstration of Brown's work at Pearl Harbor in Hawaii, a Soviet spy posing as a janitor compromised it. The story ties this to a ruse called the \"wounded prairie chicken\" routine, and suggests Brown's gravity research was valuable enough for the Soviets to steal."
+}

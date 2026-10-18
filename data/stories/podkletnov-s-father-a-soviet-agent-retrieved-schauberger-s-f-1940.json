@@ -1,0 +1,60 @@
+{
+  "id": "podkletnov-s-father-a-soviet-agent-retrieved-schauberger-s-f-1940",
+  "title": "Podkletnov's father, a Soviet agent, retrieved Schauberger's files",
+  "summary": "Jesse Michels tells of Podkletnov's father, a Soviet agent, retrieved Schauberger's files, about 1940s at Germany / Soviet Union, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Germany / Soviet Union",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 2059.0,
+      "to_s": 2068.0,
+      "teller": "jesse-michels",
+      "quote": "he said my father was a Soviet agent and he was actually counterintel and he was tasked with retrieving a lot of Shaburgger's files.",
+      "kind": "secondhand",
+      "cites": [
+        "nick-cook",
+        "eugene-podkletnov",
+        "viktor-schauberger"
+      ],
+      "documents": [
+        "the-hunt-for-zero-point"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels passes on a story linked to journalist Nick Cook and his book The Hunt for Zero Point. According to Michels, a scientist named Eugene Podkletnov said his father was a Soviet counterintelligence agent who, in the 1940s, was sent to collect many of the files of Viktor Schauberger, an inventor working in Germany. Told this way, Schauberger's work would have ended up in Soviet hands."
+}

@@ -7,7 +7,7 @@
     "from": 1950,
     "to": 1950
   },
-  "place": null,
+  "place": "washington-dc",
   "place_text": "Canada",
   "coordinates": null,
   "kind": "document",
@@ -27,33 +27,63 @@
         "wilbert-smith-1950-canadian-government-memo",
         "greer-briefing-document"
       ]
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 2046.0,
+      "to_s": 2054.0,
+      "teller": "grant-cameron",
+      "quote": "So he said flying saucers exist. It's the most highly classized subject in the United States rated two points higher than the Hbomb.",
+      "kind": "researcher",
+      "cites": [
+        "wilbert-smith",
+        "robert-sarbacher",
+        "vannevar-bush",
+        "omond-solandt"
+      ],
+      "documents": [
+        "wilbert-smith-top-secret-memo"
+      ],
+      "difference": "Adds the 'two points higher than the H-bomb' rating and credits Sarbacher, Bush and Solandt.",
+      "link_reason": "Both are about Wilbert Smith's 1950 top secret Canadian memo saying flying saucers exist and are highly classified.",
+      "as_told": {
+        "title": "Wilbert Smith top secret memo: flying saucers classified two points higher than the H-bomb",
+        "years": {
+          "from": 1950,
+          "to": 1950
+        },
+        "place_text": "Ottawa, Canada; Washington, D.C.",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "grant-cameron",
       "steven-greer"
     ],
     "episodes": [
-      "areO7Mej44E"
+      "areO7Mej44E",
+      "fpUa3xJN64Q"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "A UFO researcher, Steven Greer, told podcast host Jesse Michels about a 1950 document from the Canadian government. Greer says it records what a Canadian named Wilbert Smith said, that it was top secret, and that it seems to have been declassified by accident. He says he put it in his own briefing document, because it would show a government was discussing UFOs in secret as early as 1950."
 }

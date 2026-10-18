@@ -24,11 +24,60 @@
         "raytheon"
       ],
       "documents": []
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 1863.0,
+      "to_s": 1870.0,
+      "teller": "jesse-michels",
+      "quote": "Fleer had just been installed in 2004 in the Nimits case with David Fraver.",
+      "kind": "host",
+      "cites": [
+        "david-fravor"
+      ],
+      "documents": [],
+      "difference": "Does not mention Raytheon distancing itself, and ties the point to Fravor.",
+      "link_reason": "Both say a new FLIR system had just been installed before the 2004 Nimitz detection.",
+      "as_told": {
+        "title": "FLIR had just been installed for the Nimitz case",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Nimitz carrier strike group",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 2042.0,
+      "to_s": 2051.0,
+      "teller": "jesse-michels",
+      "quote": "So that was detected right when a forward-looking infrared new system from Rathon was installed on the Nimttz carrier strike group",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Does not mention Raytheon distancing itself from what was detected.",
+      "link_reason": "Same claim that the 2004 Nimitz detection came right after a new Raytheon FLIR system was installed on the strike group.",
+      "as_told": {
+        "title": "2004 Nimitz Tic Tac picked up by a new FLIR system",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Nimitz carrier strike group, Pacific",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [
     {
       "story": "alex-dietrich-on-ufologists-enjoying-anticipation-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "commander-david-fravor-works-at-bae-2004",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -53,7 +102,9 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1iaH1a3A4Lk"
+      "1iaH1a3A4Lk",
+      "6WC4o2yY9Ws",
+      "lbGE3EC6StE"
     ]
   },
   "attestation": 0.1,

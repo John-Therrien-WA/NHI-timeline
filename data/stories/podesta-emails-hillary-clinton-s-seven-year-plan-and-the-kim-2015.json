@@ -1,0 +1,92 @@
+{
+  "id": "podesta-emails-hillary-clinton-s-seven-year-plan-and-the-kim-2015",
+  "title": "Podesta emails: Hillary Clinton's seven-year plan and the Kimmel UFO question",
+  "summary": "Grant Cameron tells of Podesta emails: Hillary Clinton's seven-year plan and the Kimmel UFO question, about 2015-2016 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2016
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 56.0,
+      "to_s": 67.0,
+      "teller": "grant-cameron",
+      "quote": "They talked about the [music] seven-year plan. They were going to promote the stuff and John Podesta was actually saying, \"Ask her about the aliens and she was going to go on Kimmel [music] and she went on there and he didn't ask her the UFO question.\"",
+      "kind": "researcher",
+      "cites": [
+        "john-podesta",
+        "hillary-clinton"
+      ],
+      "documents": [
+        "podesta-emails"
+      ]
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 9650.0,
+      "to_s": 9660.0,
+      "teller": "grant-cameron",
+      "quote": "was going to go on Kimmel in November of 2015 and she went on there and he didn't ask her the UFO question and then she wanted the podesta thing. She was furious.",
+      "kind": "researcher",
+      "cites": [
+        "hillary-clinton",
+        "jimmy-kimmel",
+        "john-podesta"
+      ],
+      "documents": [
+        "podesta-emails"
+      ],
+      "difference": "Dates the appearance to November 2015 and adds that Clinton was furious.",
+      "link_reason": "The same Podesta-email account by the same teller: Clinton went on Kimmel and was not asked the UFO question.",
+      "as_told": {
+        "title": "Hillary Clinton's planned UFO answer on Kimmel goes unasked",
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "place_text": "Jimmy Kimmel Live, Los Angeles",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "podesta-emails-and-the-delongemccaslandweiss-meeting-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "grant-cameron"
+    ],
+    "episodes": [
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher, Grant Cameron, describes the Podesta emails, private emails of John Podesta, a political adviser to Hillary Clinton, that later became public. Cameron says they mention a \"seven-year plan\" to promote the UFO subject, and that Podesta wanted Clinton to be asked about aliens when she appeared on the late-night TV show of host Jimmy Kimmel, which in one telling he dates to November 2015. According to Cameron, Kimmel never asked the UFO question and Clinton was furious, which he tells as a sign that people at the top of US politics meant to talk openly about UFOs."
+}

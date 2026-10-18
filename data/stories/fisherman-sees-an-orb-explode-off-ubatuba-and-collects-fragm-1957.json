@@ -24,33 +24,59 @@
         "gary-nolan"
       ],
       "documents": []
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 6765.0,
+      "to_s": 6782.0,
+      "teller": "jesse-michels",
+      "quote": "So, um, this fisherman sees this thing zigzagging, flying in a sort of a pattern. It blows up on the beach and fragments fall out. He then mails this to Ibrahim Sueed.",
+      "kind": "firsthand",
+      "cites": [
+        "ibrahim-sued",
+        "jacques-vallee",
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Adds that the object zigzagged, that the fragments were mailed to Ibrahim Sued, and that Vallee was involved.",
+      "link_reason": "Both tell of the 1957 Ubatuba fisherman who saw an object explode off the coast and kept the fragments that later reached Nolan.",
+      "as_told": {
+        "title": "Ubatuba magnesium fragments",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Ubatuba beach, São Paulo, Brazil; Stanford lab",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
-      "dzTZbSNsKV8"
+      "dzTZbSNsKV8",
+      "nqLnEVcZ8vE"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, retells a case raised by Garry Nolan, a Stanford scientist who studies material said to come from unexplained objects. According to Michels, a fisherman near Ubatuba, on the coast of Brazil, saw a glowing ball explode over the sea and gathered up some of the pieces that fell. Michels calls it one of Nolan's most interesting samples, because if the story holds, it would be physical debris from something unexplained."
 }

@@ -1,0 +1,85 @@
+{
+  "id": "jacques-vallee-s-retrograde-orbiting-object-at-the-paris-obs-1961",
+  "title": "Jacques Vallee's retrograde orbiting object at the Paris Observatory",
+  "summary": "Jesse Michels tells of Jacques Vallee's retrograde orbiting object at the Paris Observatory, about 1961-07-11 at Paris Observatory, France, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1961
+  },
+  "place": null,
+  "place_text": "Paris Observatory, France",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 4384.0,
+      "to_s": 4398.0,
+      "teller": "jesse-michels",
+      "quote": "One night on July 11th, 1961, he and his colleagues noticed something truly bizarre. An unidentified object orbiting the Earth.",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 4489.0,
+      "to_s": 4511.0,
+      "teller": "jesse-michels",
+      "quote": "Vallee pointed out in a later interview, \"Later, I found out that other observatories had made exactly the same observation, and that in fact American tracking stations had photographed the same thing and couldn't identify it either. It was as bright as the star Sirius. You couldn't miss it. It didn't reappear in successive weeks.",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": [],
+      "difference": "Adds that other observatories and US tracking stations recorded the object, that it was as bright as Sirius, and that it did not reappear.",
+      "link_reason": "The same mystery orbiting object Vallee saw in telling 3, now with corroboration from other observatories and US tracking stations.",
+      "as_told": {
+        "title": "Vallee's orbital mystery object seen by multiple observatories and US tracking stations",
+        "years": {
+          "from": 1960,
+          "to": 1963
+        },
+        "place_text": "French observatory; American tracking stations",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "corona-spy-satellite-program-offered-as-explanation-for-vall-1960",
+      "relation": "variant",
+      "note": "Offers the CIA Corona spy satellites as the explanation for the same orbiting object in telling 3, which is a different core claim about what the light was."
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1zRWi_r3HRM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells how Jacques Vallee and his colleagues at the Paris Observatory in France saw an unidentified object orbiting the Earth on the night of July 11, 1961. Michels quotes Vallee saying later that other observatories and American tracking stations saw and photographed the same thing, that it was as bright as the star Sirius, and that nobody could identify it or saw it again in the following weeks. If true, it would mean something unknown was circling the planet in the early space age."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "discovery-of-the-martian-ocean-shoreline-brandenburg-ocean-1980",
+  "title": "Discovery of the Martian ocean shoreline (Brandenburg Ocean)",
+  "summary": "John Brandenburg tells of Discovery of the Martian ocean shoreline (Brandenburg Ocean), about 1980s (paper 1986) at Mars, near Cydonia Mensa, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "Mars, near Cydonia Mensa",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 1762.0,
+      "to_s": 1768.0,
+      "teller": "john-brandenburg",
+      "quote": "There was an ocean on Mars and what happened is we found that there was a shoreline Uh-huh. near Sidonia Mensa",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "brandenburg-1986-conference-paper-on-the-paleo-ocean-of-mars"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "john-brandenburg"
+    ],
+    "episodes": [
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "A scientist named John Brandenburg told podcast host Jesse Michels that in the 1980s he and colleagues found signs of an ancient ocean on Mars. He says they spotted a shoreline near a region called Cydonia Mensa, which he wrote up in a 1986 conference paper. If true, it would mean Mars was once wet enough to support life."
+}

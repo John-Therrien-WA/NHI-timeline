@@ -1,0 +1,51 @@
+{
+  "id": "area-51-equipment-acquired-from-other-governments",
+  "title": "Area 51 equipment acquired from other governments",
+  "summary": "John Harrington tells of Area 51 equipment acquired from other governments, about undated at Nevada test site and Area 51, and reads it from an official document. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "nevada-test-site",
+  "place_text": "Area 51, Nevada",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3788.0,
+      "to_s": 3796.0,
+      "teller": "john-harrington",
+      "quote": "equipment in Area 51 because there is equipment there that we acquired from other governments.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.6,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 1,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "official",
+    "tellers": [
+      "john-harrington"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 0.8,
+  "tier": "told-once",
+  "plain": "John Harrington, presented as a former US Secretary of Energy, says that there is equipment at Area 51, a secret military test site in Nevada, that the US acquired from other governments. He gives this as a reason the site is kept so closely guarded."
+}

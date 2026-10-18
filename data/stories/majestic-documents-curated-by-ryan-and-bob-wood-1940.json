@@ -1,0 +1,59 @@
+{
+  "id": "majestic-documents-curated-by-ryan-and-bob-wood-1940",
+  "title": "Majestic documents curated by Ryan and Bob Wood",
+  "summary": "Richard Dolan tells of Majestic documents curated by Ryan and Bob Wood, about 1940s-1960s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 1513.0,
+      "to_s": 1522.0,
+      "teller": "richard-dolan",
+      "quote": "them page after page. And they are highly sophisticated, extremely sophisticated, frankly.",
+      "kind": "researcher",
+      "cites": [
+        "ryan-wood",
+        "bob-wood"
+      ],
+      "documents": [
+        "majestic-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "richard-dolan"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Richard Dolan, speaking on Jesse Michels's podcast, talks about the Majestic documents, a set of papers said to describe a secret US government group that handled UFO matters from the 1940s to the 1960s. Dolan says these papers were gathered and put in order by Ryan Wood and Bob Wood, and that there are page after page of them. He calls them highly sophisticated, extremely so, which he presents as a reason to take them seriously."
+}

@@ -47,6 +47,51 @@
         "place_text": "Lockheed Skunk Works",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2987.0,
+      "to_s": 2995.0,
+      "teller": "jesse-michels",
+      "quote": "Later, Ben Rich apparently said this on his deathbed to John Andrews of Testors Motor Corporation.",
+      "kind": "host",
+      "cites": [
+        "ben-rich",
+        "john-andrews"
+      ],
+      "documents": [],
+      "difference": "Names John Andrews of Testors as the person Rich said it to, where the story has an unnamed journalist, and leaves out the ESP line.",
+      "link_reason": "Both are Ben Rich's deathbed claim about the hidden ability to travel to the stars.",
+      "as_told": {
+        "title": "Ben Rich's deathbed remark to John Andrews",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "USA",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 6450.0,
+      "to_s": 6464.0,
+      "teller": "grant-cameron",
+      "quote": "significance until I suddenly Ben Rich had said it two years later. Exactly the same question when Hartson said, \"How did they get here?\" And then Ben Rich turns around and says, \"Let me ask you a question. What do you know about ESP?\" And Jan Hartson says, \"It means everything in time and space is connected.\"",
+      "kind": "secondhand",
+      "cites": [
+        "ben-rich",
+        "jan-harzan"
+      ],
+      "documents": [],
+      "difference": "Names Jan Harzan as the questioner instead of an unnamed journalist, and gives Harzan's answer that everything in time and space is connected.",
+      "link_reason": "This is the same story as Ben Rich answering 'how do we get to the stars' with 'have you heard of ESP?', here told about the exchange with Jan Harzan.",
+      "as_told": {
+        "title": "Ben Rich asks Jan Harzan what he knows about ESP",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -79,17 +124,42 @@
       "story": "steven-greer-laurence-rockefeller-defected-from-his-family-1990",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aviation-week-editor-threatened-over-sorensen-interview-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "clinton-era-technology-transfer-to-china-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "james-fox-s-unreleased-corso-interview-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "karla-turner-allegedly-killed-by-a-cia-cancer-mimicking-weap-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "myles-standish-recalculates-and-dismisses-the-planet-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -98,14 +168,17 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "grant-cameron",
       "jesse-michels"
     ],
     "episodes": [
+      "G7Ns4Aq1tVc",
       "JGE1NIGhBzw",
-      "OOr98r51Sj0"
+      "OOr98r51Sj0",
+      "fpUa3xJN64Q"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, repeats a story about Ben Rich, who ran Lockheed Skunk Works, the secret aircraft design shop of the aerospace company Lockheed. As Michels tells it, Rich said on his deathbed in the 1990s that the US already has the ability to go to the stars whenever it wants, and when a journalist asked how, Rich asked if he had heard of ESP, meaning mind powers like telepathy, and said, \"Well, that's how.\" In another episode Michels gives it differently, with Rich saying the star travel technology is locked away in black projects, meaning secret military programmes. If true, it would mean a top insider believed the government already holds technology far beyond anything public."
 }

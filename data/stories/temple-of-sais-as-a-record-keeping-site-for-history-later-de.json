@@ -1,0 +1,56 @@
+{
+  "id": "temple-of-sais-as-a-record-keeping-site-for-history-later-de",
+  "title": "Temple of Sais as a record-keeping site for history, later destroyed and lost",
+  "summary": "Matthew LaCroix tells of Temple of Sais as a record-keeping site for history, later destroyed and lost, about Ancient Egypt; destroyed within 500 to 1000 years after Solon at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Temple of Sais, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 12063.0,
+      "to_s": 12078.0,
+      "teller": "matthew-lacroix",
+      "quote": "talked about how that literally was the purpose of\nthe Temple of SE was to be a\nrecordkeeping location for history we\nknow that and it was destroyed at some\npoint within the next 500 years to A\nThousand Years it didn't exist",
+      "kind": "researcher",
+      "cites": [
+        "plutarch",
+        "sonchis"
+      ],
+      "documents": [
+        "plutarch-s-version"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matthew-lacroix"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Researcher Matthew LaCroix tells Jesse Michels that, drawing on the ancient writer Plutarch and a figure named Sonchis, the Temple of Sais in ancient Egypt existed to keep records of history. LaCroix says the temple was destroyed sometime within 500 to 1,000 years after the Greek visitor Solon heard its stories, so those records were lost, which would mean a key archive of very ancient history vanished."
+}

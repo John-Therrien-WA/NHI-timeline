@@ -1,0 +1,77 @@
+{
+  "id": "caltech-astronomer-99-chance-planet-nine-exists-2010",
+  "title": "Caltech astronomer: 99% chance Planet Nine exists",
+  "summary": "Matt LaCroix tells of Caltech astronomer: 99% chance Planet Nine exists, about 2010s at Caltech; outer solar system, and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2019
+  },
+  "place": null,
+  "place_text": "Caltech; outer solar system",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 3355.0,
+      "to_s": 3366.0,
+      "teller": "matt-lacroix",
+      "quote": "okay Caltech actually one of the astronomers there was basically said that he believes there a 99% N9 chance that it exists",
+      "kind": "researcher",
+      "cites": [
+        "caltech"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 5162.0,
+      "to_s": 5174.0,
+      "teller": "matt",
+      "quote": "determined that based on the movement of Kyper belt objects that there're they're being super skewed and uh perur perturbed by something",
+      "kind": "researcher",
+      "cites": [
+        "caltech"
+      ],
+      "documents": [],
+      "difference": "Gives the evidence, the skewed and perturbed orbits of Kuiper belt objects, instead of the astronomer's 99% confidence figure.",
+      "link_reason": "Both tellings are about the Caltech Planet Nine hypothesis for an unseen planet in the outer solar system.",
+      "as_told": {
+        "title": "Caltech Planet 9/10 inferred from Kuiper belt perturbations",
+        "years": null,
+        "place_text": "Outer solar system / Caltech",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "matt",
+      "matt-lacroix"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several",
+  "plain": "This story is about Planet Nine, a big unseen planet that some astronomers think lies far beyond the known planets. Matt LaCroix, a researcher, says on Jesse Michels' podcast that an astronomer at Caltech, a university in California, said there is a 99% chance it exists. LaCroix explains that the evidence is in the Kuiper belt, a band of icy bodies past Neptune, whose orbits look skewed and pulled about by something. If true, there would be a hidden planet in our own solar system."
+}

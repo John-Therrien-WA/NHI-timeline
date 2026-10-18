@@ -23,6 +23,147 @@
         "ben-van-kirkwick"
       ],
       "documents": []
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 5264.0,
+      "to_s": 5271.0,
+      "teller": "mario-woods",
+      "quote": "I think they were power generators and whatever they generated power to was worldwide",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Woods adds that the power was sent worldwide and credits no source, where the story credits Christopher Dunn.",
+      "link_reason": "Both put forward the theory that the Giza pyramids were power plants.",
+      "as_told": {
+        "title": "Pyramids as worldwide power generators",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 3984.0,
+      "to_s": 3988.0,
+      "teller": "jesse-michels",
+      "quote": "you have Christopher Dunn saying that they were an energy generation machine.",
+      "kind": "secondhand",
+      "cites": [
+        "christopher-dunn"
+      ],
+      "documents": [],
+      "difference": "Relayed secondhand by Jesse Michels as an 'energy generation machine', and applied to the pyramids in general.",
+      "link_reason": "Both carry Christopher Dunn's theory that the pyramid was a power plant that generated energy.",
+      "as_told": {
+        "title": "Christopher Dunn: the pyramids as an energy generation machine",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 1967.0,
+      "to_s": 1973.0,
+      "teller": "jesse-michels",
+      "quote": "a guy named Christopher Dunn. Yeah. He thinks that the pyramid is an energy generator.",
+      "kind": "host",
+      "cites": [
+        "christopher-dunn"
+      ],
+      "documents": [],
+      "difference": "Told by Jesse Michels and credited to Dunn alone.",
+      "link_reason": "Both tell Christopher Dunn's theory that the Great Pyramid was a power plant or energy generator.",
+      "as_told": {
+        "title": "Christopher Dunn's theory that the pyramid is an energy generator",
+        "years": null,
+        "place_text": "Great Pyramid, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 1832.0,
+      "to_s": 1840.0,
+      "teller": "christopher-dunn",
+      "quote": ">> Well, my first book pretty much describes what I thought it was in 1998 which was a power plant.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "the-giza-power-plant"
+      ],
+      "difference": "Told by Dunn himself, who dates his book to 1998 and describes the pyramid as an electron harvester.",
+      "link_reason": "Christopher Dunn's own telling of his Giza Power Plant theory, which the story tells through Joe Rogan.",
+      "as_told": {
+        "title": "The Giza Power Plant: pyramid as electron harvester",
+        "years": {
+          "from": 1998,
+          "to": 1998
+        },
+        "place_text": "Great Pyramid, Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 214.0,
+      "to_s": 227.0,
+      "teller": "jesse-michels",
+      "quote": "One of the most famous of these comes from former aerospace engineer and Joe Rogan guest, Christopher Dunn. Dunn proposed that the Great Pyramid might have functioned as an ancient energy machine.",
+      "kind": "host",
+      "cites": [
+        "christopher-dunn"
+      ],
+      "documents": [],
+      "difference": "Told by the host, who calls Dunn a former aerospace engineer and the pyramid an 'energy machine'.",
+      "link_reason": "Both tell Christopher Dunn's theory that the Great Pyramid was a power plant or energy machine.",
+      "as_told": {
+        "title": "Christopher Dunn's Great Pyramid energy machine theory",
+        "years": null,
+        "place_text": "Great Pyramid, Giza, Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 1533.0,
+      "to_s": 1547.0,
+      "teller": "jesse-michels",
+      "quote": "And now you have people like Christopher Dunn who's, you know, I don't know if you're familiar with this guy. He's like a former aerospace guy coming out saying, you know, that uh it looks like the pyramid is some sort of power plant.",
+      "kind": "host",
+      "cites": [
+        "christopher-dunn"
+      ],
+      "documents": [],
+      "difference": "Describes Dunn as a former aerospace man and mentions scans under the pyramids alongside.",
+      "link_reason": "Both credit Christopher Dunn's claim that the Great Pyramid was a power plant.",
+      "as_told": {
+        "title": "Pyramid as power plant and scans under the pyramids",
+        "years": null,
+        "place_text": "Giza, Egypt",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 728.0,
+      "to_s": 735.0,
+      "teller": "christopher-dunn",
+      "quote": ">> A power plant. The book is entitled the Giza power plant, and I describe it as an electron harvester.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "the-giza-power-plant"
+      ],
+      "difference": "Told firsthand by Dunn, naming his book The Giza Power Plant and calling it an electron harvester.",
+      "link_reason": "Same theory of Christopher Dunn that the Great Pyramid was a power plant, here told by Dunn himself.",
+      "as_told": {
+        "title": "Great Pyramid as the Giza power plant",
+        "years": null,
+        "place_text": "Great Pyramid, Giza, Egypt",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -30,32 +171,45 @@
       "story": "hancock-the-great-pyramid-was-not-a-tomb-but-a-portal",
       "relation": "variant",
       "note": "Both are about the true purpose of the Great Pyramid. Dunn says it was a power plant and Hancock says it was a portal rather than a tomb, so the two claims compete."
+    },
+    {
+      "story": "great-pyramid-as-a-device-for-balancing-earth-s-energy",
+      "relation": "variant",
+      "note": "Both tellings credit Christopher Dunn with an energy function for the Great Pyramid, but this one says it balanced the Earth's energy where the story says it was a power plant generating energy."
     }
   ],
   "tags": [],
-  "score": 0.5,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "joe-rogan"
+      "christopher-dunn",
+      "mario-woods"
     ],
     "episodes": [
-      "C_Na1tI5qpw"
+      "73YBwFvcmF8",
+      "92XrddiKjHY",
+      "BSXdnsyCqxw",
+      "C_Na1tI5qpw",
+      "NvQXmtcwHA8",
+      "aGqFOxuYRT0",
+      "iPxbILOMQ08",
+      "zrmG2jBckgk"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "well-attested",
   "plain": "Joe Rogan, a well-known podcast host, mentions on Jesse Michels' show the ideas of Christopher Dunn, a writer who thinks the Great Pyramid of Giza in Egypt was not a tomb but a gigantic power plant. If true, it would mean the ancient builders had technology far beyond what is usually credited to them."
 }

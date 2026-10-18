@@ -7,7 +7,7 @@
     "from": 2015,
     "to": 2015
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Lockheed Martin Skunk Works",
   "coordinates": null,
   "kind": "program",
@@ -25,18 +25,44 @@
         "tom-delonge"
       ],
       "documents": []
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 4758.0,
+      "to_s": 4768.0,
+      "teller": "jay-anderson",
+      "quote": "He actually knew a dude at Loheed Martin who was like, there's like a family and friends meetup happening. Would you be interested in introducing the bosses onto the stage? And he was like, I want 10 minutes with your boss afterwards,",
+      "kind": "secondhand",
+      "cites": [
+        "tom-delonge",
+        "steven-greer",
+        "luis-elizondo",
+        "chris-mellon"
+      ],
+      "documents": [],
+      "difference": "Adds that the contact invited him to introduce the bosses at a family-and-friends event, where he asked for ten minutes with the boss.",
+      "link_reason": "Both are about DeLonge using a contact at Lockheed Skunk Works to reach its leadership.",
+      "as_told": {
+        "title": "Tom DeLonge pitched To The Stars Academy to Lockheed Martin bosses",
+        "years": {
+          "from": 2015,
+          "to": 2017
+        },
+        "place_text": "Lockheed Martin Skunk Works, California, USA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -45,13 +71,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jason-simosa"
+      "jason-simosa",
+      "jay-anderson"
     ],
     "episodes": [
+      "51N8OxqZIWY",
       "kccrkCGGzX4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "A researcher named Jason Simosa, speaking on Jesse Michels' podcast, says that Tom DeLonge, a musician who became a UFO campaigner, made contact around 2015 with someone who worked at Skunk Works, the secretive advanced aircraft division of the defense company Lockheed Martin. Simosa says the longtime UFO researcher Jacques Vallée backs up this original version of the story. If true, it would mean DeLonge's UFO work began with a real insider at one of America's most secret aircraft shops."
 }

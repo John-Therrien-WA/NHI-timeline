@@ -1,0 +1,61 @@
+{
+  "id": "friedman-and-the-woods-authenticate-mj-12-documents-1980",
+  "title": "Friedman and the Woods authenticate MJ-12 documents",
+  "summary": "UAPGerb tells of Friedman and the Woods authenticate MJ-12 documents, about 1980s-2000s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 2009
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 6983.0,
+      "to_s": 6993.0,
+      "teller": "uapgerb",
+      "quote": "I tend to adhere to the work of Stanton Friedman who spent a bunch of time authenticating the uh special operations manual and Eisenhower briefing document with the woods.",
+      "kind": "researcher",
+      "cites": [
+        "stanton-friedman",
+        "ryan-wood",
+        "robert-wood"
+      ],
+      "documents": [
+        "special-operations-manual",
+        "eisenhower-briefing-document"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "An online UFO researcher who goes by UAPGerb tells podcast host Jesse Michels that he follows the work of Stanton Friedman, a UFO researcher, who spent years with two other researchers, Ryan and Robert Wood, checking whether two papers were genuine. The papers are a Special Operations Manual, said to give instructions for handling crashed UFOs, and the Eisenhower briefing document, said to brief President Eisenhower on a secret UFO group called Majestic 12. If the papers are real, the US government secretly handled UFOs from the late 1940s on."
+}

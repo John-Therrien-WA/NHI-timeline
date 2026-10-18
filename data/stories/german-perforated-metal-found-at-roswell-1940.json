@@ -1,0 +1,62 @@
+{
+  "id": "german-perforated-metal-found-at-roswell-1940",
+  "title": "German perforated metal found at Roswell",
+  "summary": "Jason Jorjani tells of German perforated metal found at Roswell, about 1940s; 1947 at Roswell, New Mexico, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "roswell-nm",
+  "place_text": "Germany; Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 2299.0,
+      "to_s": 2306.0,
+      "teller": "jason-jorjani",
+      "quote": "a kind of perforated metal which later was discovered uh at Roswell",
+      "kind": "researcher",
+      "cites": [
+        "philip-corso"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "trinity-and-roswell-crashes-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Jason Jorjani, on Jesse Michels's podcast, says German engineers of the 1940s developed a kind of perforated metal, meaning metal full of tiny holes. He says this same material was later found at Roswell, New Mexico, the site of a famous 1947 crash that some say was an alien craft. He points to Philip J. Corso, a US Army officer who wrote about Roswell, and if true the claim would tie the Roswell wreckage to German technology."
+}

@@ -26,33 +26,111 @@
       "documents": [
         "if-you-find-this-world-bad-you-should-see-some-of-the-others"
       ]
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 4516.0,
+      "to_s": 4533.0,
+      "teller": "riz-virk",
+      "quote": "he had a famous speech in Metz, France, where he said, \"We are living in a computer-programmed reality.\" And that's the the famous line. But then he said, \"And the only clue we have to it is when some variable is changed. Some alteration occurs in our reality.\"",
+      "kind": "researcher",
+      "cites": [
+        "philip-k-dick"
+      ],
+      "documents": [
+        "philip-k-dick-s-metz-speech"
+      ],
+      "difference": "Quotes the line 'We are living in a computer-programmed reality' and the point that a changed variable is the only clue, where the story's telling gives the speech's title as roughly 'if you think this world sucks you should see the others'.",
+      "link_reason": "Both are about Philip K. Dick's 1977 speech in Metz, France.",
+      "as_told": {
+        "title": "Philip K. Dick's Metz speech: 'We are living in a computer-programmed reality'",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Metz, France",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 4537.0,
+      "to_s": 4563.0,
+      "teller": "riz-virk",
+      "quote": "And he came to believe that his novel turned into a very uh well-known series called The Man in the High Castle, which was about Germany and Japan winning World War II. He came to believe that was a real timeline, not just something he imagined, right? And he came to believe that the simulators actually decided to rerun another timeline, and they like this timeline better.",
+      "kind": "researcher",
+      "cites": [
+        "philip-k-dick"
+      ],
+      "documents": [
+        "the-man-in-the-high-castle"
+      ],
+      "difference": "Adds that simulators reran the timeline because they liked this one better, and does not name the speech.",
+      "link_reason": "This is the claim in the Metz-speech story's title: that the world of The Man in the High Castle was a real timeline. It is told straight after the speech.",
+      "as_told": {
+        "title": "Philip K. Dick believed The Man in the High Castle was a real timeline that the simulators reran",
+        "years": {
+          "from": 1960,
+          "to": 1979
+        },
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 5176.0,
+      "to_s": 5188.0,
+      "teller": "jesse-michels",
+      "quote": "but I think he even gave a speech in Mets in France in like 1976 or S where he goes no like the man the High Castle was actually a real timeline",
+      "kind": "host",
+      "cites": [
+        "philip-k-dick"
+      ],
+      "documents": [
+        "the-man-in-the-high-castle"
+      ],
+      "difference": "Dates it 1976 or 1977 and states outright that the novel was a real timeline.",
+      "link_reason": "This is the same Philip K. Dick speech in Metz, France, about The Man in the High Castle being a real timeline.",
+      "as_told": {
+        "title": "Philip K. Dick's Metz speech: The Man in the High Castle as a real timeline",
+        "years": {
+          "from": 1976,
+          "to": 1977
+        },
+        "place_text": "Metz, France",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "riz-virk"
     ],
     "episodes": [
-      "8XD1ZiuhXoY"
+      "8XD1ZiuhXoY",
+      "aKZ_MUbuk_Q",
+      "hXYdkcv5TtY"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, recalls a famous speech that the writer Philip K. Dick gave in 1977 in Metz, France, which Michels remembers as having a title like \"if you think this world is bad, you should see the others.\" As the story goes, Dick claimed in that talk that the world of his book The Man in the High Castle was real, a hint that other versions of reality might exist alongside ours."
 }

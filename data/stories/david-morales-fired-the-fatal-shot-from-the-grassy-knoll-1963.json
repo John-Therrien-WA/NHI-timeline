@@ -24,33 +24,55 @@
         "david-morales"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 7269.0,
+      "to_s": 7280.0,
+      "teller": "daniel-sheehan",
+      "quote": "the guy that killed him is Robert is Roger Morales who the the dead eyee shot for the for the uh for the team you know off the null",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives the first name as Roger rather than David and calls him the team's dead-eye shot.",
+      "link_reason": "Both name Morales as the grassy knoll shooter who killed JFK; Sheehan tells both.",
+      "as_told": {
+        "title": "Roger Morales as the grassy knoll shooter",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "Dealey Plaza, Dallas",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
-    "researcher": 1,
+    "secondhand": 1,
+    "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "secondhand",
     "tellers": [
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 0.25,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "A lawyer and researcher named Dan Sheehan, on podcast host Jesse Michels's show, says he knows who fired the shot that killed President John F. Kennedy in Dealey Plaza, Dallas, in 1963. According to Sheehan, the fatal shot came from the grassy knoll, a small grassy slope beside the motorcade route, and was fired by a man named David Morales. If true, it would mean Kennedy was not killed by a lone gunman."
 }

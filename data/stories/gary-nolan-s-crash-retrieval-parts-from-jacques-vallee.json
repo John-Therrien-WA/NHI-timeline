@@ -45,6 +45,47 @@
         "place_text": "Stanford",
         "story_kind": "reverse-engineering"
       }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 52.0,
+      "to_s": 57.0,
+      "teller": "jesse-michels",
+      "quote": "Stanford Professor Gary Nolan who actually showed me his UFO crash pieces",
+      "kind": "firsthand",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Does not mention Vallée as the source of the parts.",
+      "link_reason": "The host says Garry Nolan showed him crash-retrieval pieces in his Stanford lab, which is the same as the story where Nolan showed Michels the parts.",
+      "as_told": {
+        "title": "Garry Nolan shows host his UFO crash pieces",
+        "years": null,
+        "place_text": "Stanford",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 2744.0,
+      "to_s": 2749.0,
+      "teller": "jesse-michels",
+      "quote": "you know, claims that he has UFO crash parts that he received from Jacques Vallee. And it's magnesium bismuth.",
+      "kind": "host",
+      "cites": [
+        "gary-nolan",
+        "jacques-vallee"
+      ],
+      "documents": [],
+      "difference": "Says the parts are magnesium-bismuth.",
+      "link_reason": "Same claim that Garry Nolan holds UFO crash parts he got from Jacques Vallée.",
+      "as_told": {
+        "title": "Gary Nolan's UFO crash parts from Vallee are magnesium bismuth",
+        "years": null,
+        "place_text": "Stanford",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -68,6 +109,8 @@
       "jesse-michels"
     ],
     "episodes": [
+      "5OUzGygIrSw",
+      "5udx_SDdL3Y",
       "IWui5cBkwoE",
       "dnnpyNuPdXs"
     ]

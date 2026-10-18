@@ -1,0 +1,51 @@
+{
+  "id": "greek-inventor-s-steam-sphere",
+  "title": "Greek inventor's steam sphere",
+  "summary": "Greg Rogers tells of Greek inventor's steam sphere, about Antiquity at Greece (the ancient oracle sites), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "ancient-greece",
+  "place_text": "Ancient Greece",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 8364.0,
+      "to_s": 8375.0,
+      "teller": "greg-rogers",
+      "quote": "There was there was a a Greek inventor that uh made a a circle a",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg-rogers"
+    ],
+    "episodes": [
+      "TNtlzEnl8rA"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A man named Greg Rogers, introduced on Jesse Michels's podcast in 2025 as a NASA doctor, mentions in passing a Greek inventor from ancient times who made a round, sphere-like device driven by steam. He brings it up as an example of surprisingly advanced ancient invention, which, if taken at face value, would mean people in antiquity were working with ideas of steam power long ago."
+}

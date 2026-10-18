@@ -1,0 +1,70 @@
+{
+  "id": "autec-submersible-ufo-rumors-near-nassau",
+  "title": "AUTEC submersible UFO rumors near Nassau",
+  "summary": "Jesse Michels tells of AUTEC submersible UFO rumors near Nassau, about unspecified at Bahamas, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Bahamas",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3912.0,
+      "to_s": 3918.0,
+      "teller": "jesse-michels",
+      "quote": "So, what I find interesting there is now there are tons of rumors around this site there called ATIC.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 7176.0,
+      "to_s": 7183.0,
+      "teller": "jesse-michels",
+      "quote": "Yeah. and their weapons training facilities where there like underwater cables that people don't know where they're going. It's called, you know, Ach is this spot at",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Mentions underwater cables leading to unknown places and calls it a weapons training facility.",
+      "link_reason": "Both are about the AUTEC naval site in the Bahamas and the lore around it.",
+      "as_told": {
+        "title": "AUTEC weapons training facility with underwater cables in the Bahamas",
+        "years": null,
+        "place_text": "AUTEC, Bahamas",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic",
+      "h3u8EkGI8OQ"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, talks about AUTEC, a US Navy undersea testing and weapons training site in the Bahamas near Nassau, and says there are tons of rumors about it. In another episode he adds that there are underwater cables there that nobody can say where they lead. He raises it because the rumors suggest unknown craft or hidden activity moving under the sea."
+}

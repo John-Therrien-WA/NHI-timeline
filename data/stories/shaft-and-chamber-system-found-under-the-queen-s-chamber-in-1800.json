@@ -1,0 +1,74 @@
+{
+  "id": "shaft-and-chamber-system-found-under-the-queen-s-chamber-in-1800",
+  "title": "Shaft and chamber system found under the Queen's Chamber in early excavations, later sealed",
+  "summary": "Jeffrey tells of Shaft and chamber system found under the Queen's Chamber in early excavations, later sealed, about late 1800s-early 1900s at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1800,
+    "to": 1903
+  },
+  "place": "egypt",
+  "place_text": "Queen's Chamber, Great Pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 4975.0,
+      "to_s": 4982.0,
+      "teller": "jeffrey",
+      "quote": "So they excavated this. They found a pit in the Queen's Chamber that was filled with rubble and dirt.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "original-excavation-reports-of-the-great-pyramid"
+      ]
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 9852.0,
+      "to_s": 9862.0,
+      "teller": "jeffrey",
+      "quote": "So this has again been reported in the archaeological excavation that there there is something like this below the Queen's Chamber.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives no date for the excavation and does not mention the pit later being sealed.",
+      "link_reason": "Both tell of a shaft or chamber system under the Queen's Chamber that was reported in archaeological excavation.",
+      "as_told": {
+        "title": "Shaft below the Queen's Chamber reported in excavation",
+        "years": null,
+        "place_text": "Queen's Chamber, Great Pyramid, Giza, Egypt",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jeffrey"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A man named Jeffrey, speaking on a podcast about a hidden energy system under the pyramids of Egypt, says early excavation reports on the Great Pyramid of Giza, from the late 1800s or early 1900s, describe a pit in the Queen's Chamber, a room inside the pyramid, that was filled with rubble and dirt. He says the reports point to a system of shafts and chambers below that room, which was later sealed. If true, there would be unexplored spaces beneath the pyramid."
+}

@@ -25,6 +25,29 @@
         "mario-woods"
       ],
       "documents": []
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 5902.0,
+      "to_s": 5912.0,
+      "teller": "mario-woods",
+      "quote": "run up there I never heard a single a single air gun going off during that hypnosis session that's why I knew I was hypnotized",
+      "kind": "firsthand",
+      "cites": [
+        "bob-upton",
+        "robert-hastings"
+      ],
+      "documents": [
+        "robert-hastings-list-of-questions"
+      ],
+      "difference": "Names Bob Upton as the hypnotist, places it in Brunswick, Georgia, and adds that the roof was being replaced during the session.",
+      "link_reason": "This seems to be the same regression session that Hastings arranged (Tarbell paid for it, Hastings wrote the questions), told here by Mario himself.",
+      "as_told": {
+        "title": "Bob Upton's hypnosis session while the roof was replaced",
+        "years": null,
+        "place_text": "Brunswick, Georgia",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -77,32 +100,93 @@
       "story": "grusch-reprisals-at-the-nga-2020",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "200-mainstream-scientists-want-to-study-the-phenomenon-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "arranging-and-conducting-the-bobby-ray-inman-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brett-weinstein-advised-not-to-air-robert-malone-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "former-ic-inspector-general-chuck-mccullough-s-ufo-involveme-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "icig-hints-that-humans-are-not-in-charge-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "inman-denies-retrieved-ufos-in-jay-anderson-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "inman-no-other-life-in-our-galaxy-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "lacatski-won-t-say-whether-there-has-been-government-contact-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nasa-mission-controller-tim-taylor-s-advice-think-about-what-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "obama-on-jimmy-kimmel-says-the-aliens-won-t-let-disclosure-h-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pais-stops-jesse-s-questions-in-motel-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "spielberg-binge-watched-the-secret-of-skinwalker-ranch-befor-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.5,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "robert-hastings"
+      "mario-woods"
     ],
     "episodes": [
+      "73YBwFvcmF8",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 0.25,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "A researcher named Robert Hastings, who studies reports of UFOs around nuclear weapons bases, says on podcast host Jesse Michels's show that his financial backer, Jared Tarbell, paid for a man named Mario Woods to undergo regression hypnosis. That is hypnosis meant to bring back buried memories, and the point would be to recover what Woods experienced."
 }

@@ -50,14 +50,38 @@
         "place_text": "United States (AARO)",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 5922.0,
+      "to_s": 5939.0,
+      "teller": "michael-herrera",
+      "quote": "Yes, I I understand it was a front for basically sifting through information and plucking people to figure out what they know and then either trying to shut them up or just publicly dismissed the person, you know, like they did with anybody that testified.",
+      "kind": "firsthand",
+      "cites": [
+        "jon-kosloski",
+        "sean-kirkpatrick"
+      ],
+      "documents": [],
+      "difference": "Herrera, speaking firsthand, says AARO's purpose was to identify witnesses and then silence or publicly dismiss them, and also names Kosloski.",
+      "link_reason": "Both say AARO worked against witnesses and the public, citing Kirkpatrick. Corbell calls it counterintelligence against the American public; Herrera calls it a front for sifting witnesses.",
+      "as_told": {
+        "title": "AARO as a front for sifting witnesses",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "AARO, Washington",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.2,
+  "score": 4.2,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 1,
@@ -68,17 +92,19 @@
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "journalist",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jeremy-corbell",
-      "matthew-pines"
+      "matthew-pines",
+      "michael-herrera"
     ],
     "episodes": [
       "-XdvIrexF08",
+      "D2tKCFmJjks",
       "LpLFWdsIU7M"
     ]
   },
-  "attestation": 1.1,
-  "tier": "told-by-several",
+  "attestation": 2.1,
+  "tier": "well-attested",
   "plain": "A writer on national security, Matthew Pines, says that once US government work on unexplained sightings moved into AARO, a Pentagon office set up to look into such reports, it was compromised by people from the CIA, the US spy agency, and from the Air Force, such as Sean Kirkpatrick, who ran the office. A filmmaker and journalist, Jeremy Corbell, goes further. He says AARO worked as counterintelligence against the American public, acting like a honey trap that drew in whistleblowers and then harassed them, and he credits sources including the journalist George Knapp. If true, it would mean the office meant to find answers was built to hide them."
 }

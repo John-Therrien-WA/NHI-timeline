@@ -109,6 +109,28 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 3567.0,
+      "to_s": 3575.0,
+      "teller": "jesse-michels",
+      "quote": "there's this Evangelical Christian group that was very embedded in the CIA called the Collins Elite",
+      "kind": "host",
+      "cites": [
+        "nick-redfern"
+      ],
+      "documents": [
+        "final-events"
+      ],
+      "difference": "Says the group was embedded in the CIA.",
+      "link_reason": "Both are about the Collins Elite, an evangelical group that studied UFOs at Wright Airfield and decided they were demonic, as written by Nick Redfern in Final Events.",
+      "as_told": {
+        "title": "The Collins Elite study UFOs as demonic",
+        "years": null,
+        "place_text": "Wright Airfield / CIA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -135,6 +157,7 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "2SQXAPCdmPE",
       "ABOP8ZJsyIk",
       "Y7PLeu5rTv4",
       "kccrkCGGzX4",

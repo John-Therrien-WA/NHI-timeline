@@ -1,0 +1,85 @@
+{
+  "id": "time-travel-to-14th-century-mount-athos-1991",
+  "title": "Time travel to 14th-century Mount Athos",
+  "summary": "Rolf Mowatt-Larssen tells of Time travel to 14th-century Mount Athos, about 1991 at Greece (the ancient oracle sites), and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1991,
+    "to": 1991
+  },
+  "place": "ancient-greece",
+  "place_text": "Mount Athos, Greece",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 52.0,
+      "to_s": 62.0,
+      "teller": "rolf-mowatt-larssen",
+      "quote": "In 1991, I went on a pilgrimage to Mount Athos, Greece, and I'm sitting at this I fell asleep, sort of napping on this stone chair facing the church.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 4436.0,
+      "to_s": 4447.0,
+      "teller": "ralph",
+      "quote": "I saw that town again but back in back in the 1500s, you know, and I go there and I present my credentials so to speak at the capital",
+      "kind": "firsthand",
+      "cites": [
+        "monk-gabriel",
+        "evagrius"
+      ],
+      "documents": [],
+      "difference": "Sets the past in the 1400s-1500s rather than the 14th century, and adds that he arrived as the monk Odious Maximus, presented his credentials, and that the monk Gabriel and Evagrius were involved.",
+      "link_reason": "The same teller's 1991 dream on the Mount Athos pilgrimage of travelling back in time to old Mount Athos, which is the stored time-travel story.",
+      "as_told": {
+        "title": "Dream time travel back to 1500s Mount Athos as the monk Odious Maximus",
+        "years": {
+          "from": 1991,
+          "to": 1991
+        },
+        "place_text": "Mount Athos, Greece",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "three-dreams-within-a-dream-numbers-seven-doors-walking-on-w-1991",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 4.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 2,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "ralph",
+      "rolf-mowatt-larssen"
+    ],
+    "episodes": [
+      "ATJwqp5twAg"
+    ]
+  },
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "Rolf Mowatt-Larssen, a former CIA officer, told the podcast host Jesse Michels that he once travelled back in time. He says that in 1991 he went on a pilgrimage to Mount Athos, a holy mountain in Greece, and dozed off on a stone chair facing a church. As he tells it, he then found himself in the same place centuries earlier, around the 1300s. If it were true, it would mean a person can slip out of their own time and into the past. A second telling on the same show, by a speaker called Ralph, describes seeing the town again in the 1400s or 1500s. In that version he arrived as a monk named Odious Maximus, presented his credentials at the capital, and met figures named the monk Gabriel and Evagrius. The two versions disagree on which century he reached."
+}

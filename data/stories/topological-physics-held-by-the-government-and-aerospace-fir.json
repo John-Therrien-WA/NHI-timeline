@@ -44,6 +44,31 @@
         "place_text": "aerospace companies",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "qAou_h1POWs",
+      "from_s": 269.0,
+      "to_s": 273.0,
+      "teller": "hal-puthoff",
+      "quote": "there certainly is materials knowledge which involves topological physics",
+      "kind": "researcher",
+      "cites": [
+        "eric-weinstein",
+        "jesse-michels"
+      ],
+      "documents": [],
+      "difference": "Told by Puthoff himself rather than relayed by Michels, and framed as materials knowledge at aerospace companies.",
+      "link_reason": "This is Puthoff's own statement that aerospace companies hold topological-physics knowledge, which the existing story already holds as Michels relaying Puthoff.",
+      "as_told": {
+        "title": "Aerospace companies hold materials knowledge involving topological physics",
+        "years": null,
+        "place_text": "United States (aerospace companies)",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "iQOibpIDx-4",
+        "from_s": 481.0
+      }
     }
   ],
   "related": [],
@@ -60,7 +85,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
@@ -68,6 +93,7 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "qAou_h1POWs",
       "xnxasfyHtfo"
     ]
   },

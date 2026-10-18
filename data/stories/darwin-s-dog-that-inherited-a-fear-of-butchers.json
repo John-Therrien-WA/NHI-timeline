@@ -1,0 +1,55 @@
+{
+  "id": "darwin-s-dog-that-inherited-a-fear-of-butchers",
+  "title": "Darwin's dog that inherited a fear of butchers",
+  "summary": "Rupert Sheldrake tells of Darwin's dog that inherited a fear of butchers, about 19th century at England, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "England",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 4097.0,
+      "to_s": 4110.0,
+      "teller": "rupert-sheldrake",
+      "quote": "the case that Darwin was reported in a paper in nature was a dog that belonged to someone he knew that got very frightened whenever it went past a butcher's shop",
+      "kind": "researcher",
+      "cites": [
+        "charles-darwin"
+      ],
+      "documents": [
+        "nature"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "rupert-sheldrake"
+    ],
+    "episodes": [
+      "wT5-hXWIkzM"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A biologist named Rupert Sheldrake, on podcast host Jesse Michels' show, recalls a case that Charles Darwin, the naturalist, reported in a paper in the science journal Nature. It was about a dog belonging to someone Darwin knew, which got very frightened whenever it walked past a butcher's shop. Sheldrake tells it as an example of a fear that may be inherited, which would mean memories can somehow pass down through generations."
+}

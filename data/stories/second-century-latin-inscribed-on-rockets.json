@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Second-century Latin inscribed on rockets, about unspecified at NASA, and relays what a named person told them. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "NASA",
   "coordinates": null,
   "kind": "theory",
@@ -21,6 +21,26 @@
         "diana-pasulka"
       ],
       "documents": []
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 3496.0,
+      "to_s": 3502.0,
+      "teller": "jesse-michels",
+      "quote": "Old Latin. Uh uh I think on the the rocket like the fairing or something.",
+      "kind": "host",
+      "cites": [
+        "diana-pasulka"
+      ],
+      "documents": [],
+      "difference": "Places the inscription on the rocket fairing.",
+      "link_reason": "Both relay Diana Pasulka's claim that second-century Latin is inscribed on rockets.",
+      "as_told": {
+        "title": "Diana Pasulka on second-century Latin written on rockets",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -44,6 +64,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "h3u8EkGI8OQ",
       "uVVqFg2v7ro"
     ]
   },

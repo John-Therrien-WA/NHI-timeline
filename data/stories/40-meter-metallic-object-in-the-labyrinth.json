@@ -64,6 +64,32 @@
         "place_text": "Egypt (the labyrinth)",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 7725.0,
+      "to_s": 7733.0,
+      "teller": "jesse-michels",
+      "quote": "I was like, \"What about that 40-m long Tic Tac shaped object in the labyrinth and underneath Hawara?\"",
+      "kind": "host",
+      "cites": [
+        "jeffrey",
+        "ben-van-kerkwijk"
+      ],
+      "documents": [
+        "blog-post-on-the-hawara-scan"
+      ],
+      "difference": "Places it specifically under Hawara and credits Jeffrey and a blog post about the scan.",
+      "link_reason": "The same 40-meter, Tic Tac shaped object in the labyrinth, reported via Ben Van Kerkwijk.",
+      "as_told": {
+        "title": "40-meter Tic Tac shaped object under the Hawara labyrinth",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Hawara labyrinth, Egypt",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -88,7 +114,8 @@
     ],
     "episodes": [
       "-XdvIrexF08",
-      "C_Na1tI5qpw"
+      "C_Na1tI5qpw",
+      "NvQXmtcwHA8"
     ]
   },
   "attestation": 0.75,

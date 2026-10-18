@@ -1,0 +1,76 @@
+{
+  "id": "beta-israel-tradition-of-bringing-the-ark-via-elephantine",
+  "title": "Beta Israel tradition of bringing the Ark via Elephantine",
+  "summary": "Graham Hancock tells of Beta Israel tradition of bringing the Ark via Elephantine, about c. 650-400 BC at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Elephantine Island, Egypt to Lake Tana, Ethiopia",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 2398.0,
+      "to_s": 2402.0,
+      "teller": "graham-hancock",
+      "quote": "that their ancestors brought the Ark of the Covenant to Ethiopia",
+      "kind": "researcher",
+      "cites": [
+        "beta-israel"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 672.0,
+      "to_s": 681.0,
+      "teller": "graham-hancock",
+      "quote": "their ancestors had fled from Israel carrying the Ark. Like how they brought it to an island in the Nile River and kept it there for several hundred years.",
+      "kind": "secondhand",
+      "cites": [
+        "falashas-beta-israel"
+      ],
+      "documents": [
+        "kebra-nagast"
+      ],
+      "difference": "Says the Ark was kept on the Nile island for several hundred years and cites the Kebra Nagast.",
+      "link_reason": "Both tell the Beta Israel tradition that their ancestors brought the Ark from Israel via a Nile island to Lake Tana, Ethiopia.",
+      "as_told": {
+        "title": "Falasha (Beta Israel) tradition of the Ark's journey to Ethiopia",
+        "years": null,
+        "place_text": "Israel; island in the Nile; Lake Tana, Ethiopia",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "graham-hancock"
+    ],
+    "episodes": [
+      "9PJJiut0Iuw",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A writer on ancient mysteries, Graham Hancock, tells podcast host Jesse Michels about the Beta Israel, also called Falashas, a Jewish community of Ethiopia. Hancock says their tradition holds that their ancestors fled Israel carrying the Ark of the Covenant, the sacred chest of the Bible, and brought it to Elephantine, an island in the Nile in Egypt. In his later telling he adds that they kept it there for several hundred years before taking it on to Ethiopia, and he connects this to the Kebra Nagast, an old Ethiopian holy book. If true, it would mean the Ark ended up in Ethiopia."
+}

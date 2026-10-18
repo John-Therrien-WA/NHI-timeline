@@ -1,0 +1,68 @@
+{
+  "id": "mj-12-burned-memo-on-lancer-1963",
+  "title": "MJ-12 burned memo on Lancer",
+  "summary": "Richard Dolan tells of MJ-12 burned memo on Lancer, about 1963 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1963,
+    "to": 1963
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 4601.0,
+      "to_s": 4610.0,
+      "teller": "richard-dolan",
+      "quote": "so-called burned memo where uh Lancer and that was the code name for Kennedy was described",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "majestic-documents",
+        "burned-memo"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "c-d-jackson-released-the-zapruder-film-with-frames-missing-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "secret-kennedy-khrushchev-letters-on-destroying-nuclear-warh-1963",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "richard-dolan"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A UFO historian named Richard Dolan describes a so-called burned memo, a partly burned paper among the Majestic documents, which are papers said to come from a secret group of officials who handled the UFO question. According to Dolan, the memo mentions Lancer, the code name for President John F. Kennedy, in 1963. If real, it would tie that secret UFO group to Kennedy in the year he died."
+}

@@ -1,0 +1,80 @@
+{
+  "id": "brown-founds-nicap-hillenkoetter-on-board-1956",
+  "title": "Brown founds NICAP; Hillenkoetter on board",
+  "summary": "Jesse Michels tells of Brown founds NICAP; Hillenkoetter on board, about 1956-1957 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1956,
+    "to": 1957
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4201.0,
+      "to_s": 4211.0,
+      "teller": "jesse-michels",
+      "quote": "When Brown returned from the International Geophysical Year, he created NICAP, or the National Investigations Committee on Aerial Phenomena.",
+      "kind": "host",
+      "cites": [
+        "roscoe-hillenkoetter"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 2754.0,
+      "to_s": 2763.0,
+      "teller": "jesse-michels",
+      "quote": "realize that he started NICAP, which was the first civilian UFO tracking program in 1956.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Calls it the first civilian UFO tracking program and does not mention Hillenkoetter or the International Geophysical Year.",
+      "link_reason": "Both tell of Townsend Brown founding NICAP, the civilian UFO group, in 1956.",
+      "as_told": {
+        "title": "Townsend Brown starts NICAP",
+        "years": {
+          "from": 1956,
+          "to": 1956
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw",
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that an inventor named Townsend Brown, after returning from the International Geophysical Year, a worldwide science effort of the 1950s, created NICAP, the National Investigations Committee on Aerial Phenomena, in Washington. In one telling Michels links Roscoe Hillenkoetter, a former head of the CIA, the US foreign spy agency, to the group, and in another he simply calls it the first civilian UFO tracking program, started in 1956. It matters because it would mean a scientist with secret government ties helped launch the first public UFO investigation group."
+}

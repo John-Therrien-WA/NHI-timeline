@@ -7,7 +7,7 @@
     "from": 1890,
     "to": 1899
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "theory",
@@ -22,9 +22,38 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 4905.0,
+      "to_s": 4916.0,
+      "teller": "jesse-michels",
+      "quote": "He would talk about how UFOs would inspire tech because it would look like like you had the airship of the 1890s or whatever, it would look like tech that was just about to come out.",
+      "kind": "host",
+      "cites": [
+        "john-mack"
+      ],
+      "documents": [],
+      "difference": "Credits the idea to John Mack and frames it as UFOs inspiring or foreshadowing coming tech.",
+      "link_reason": "Both say the 1890s airships looked like technology on the edge of what was possible, as a theory about how UFOs appear.",
+      "as_told": {
+        "title": "John Mack: UFOs like the 1890s airships foreshadow coming tech",
+        "years": {
+          "from": 1890,
+          "to": 1899
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "1890s-airship-mystery-and-nymza-per-walter-bosley-and-joseph",
+      "relation": "variant",
+      "note": "Both are about the 1890s airship sightings. The story treats them as culturally shaped perception, while this telling, following Bosley and Farrell, ties them to a real secret group called NYMZA."
+    }
+  ],
   "tags": [],
   "score": 0.2,
   "profile": {
@@ -45,6 +74,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "WBTqsbwJyqU",
       "jMCavr3dVP0"
     ]
   },

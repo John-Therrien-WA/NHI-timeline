@@ -1,0 +1,54 @@
+{
+  "id": "vesuvius-quiet-since-1948-and-accumulating-energy",
+  "title": "Vesuvius quiet since 1948 and accumulating energy",
+  "summary": "Filippo Biondi tells of Vesuvius quiet since 1948 and accumulating energy, about 1948-present at Mount Vesuvius, Naples, Italy, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": null,
+  "place_text": "Mount Vesuvius, Naples, Italy",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 1121.0,
+      "to_s": 1130.0,
+      "teller": "filippo-biondi",
+      "quote": "And from 1948 this volcano is not smoking anymore. So, it is accumulating energy.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "filippo-biondi"
+    ],
+    "episodes": [
+      "zrmG2jBckgk"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Filippo Biondi, a researcher who uses satellite radar to scan beneath the ground, spoke about Mount Vesuvius, the volcano beside Naples in Italy, on Jesse Michels's podcast. Biondi says the volcano has not smoked since 1948, and so, in his view, it is building up energy. He raises it as a sign that the volcano could be storing up for something larger."
+}

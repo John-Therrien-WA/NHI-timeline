@@ -27,6 +27,59 @@
       "documents": [
         "mark-felt-biography"
       ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 9700.0,
+      "to_s": 9713.0,
+      "teller": "jesse-michels",
+      "quote": "I think in Mark Felt's, uh, biography, I think he talks about Nixon, you know, having seen some covert technology as well.",
+      "kind": "host",
+      "cites": [
+        "mark-felt",
+        "richard-nixon",
+        "bob-woodward"
+      ],
+      "documents": [
+        "mark-felt-biography"
+      ],
+      "difference": "Also credits Bob Woodward.",
+      "link_reason": "Mark Felt's biography saying Nixon was shown covert technology is the same document claim.",
+      "as_told": {
+        "title": "Mark Felt's biography: Nixon saw covert technology",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 7285.0,
+      "to_s": 7296.0,
+      "teller": "jesse-michels",
+      "quote": "spookier tech. Yeah. And I think there's a section in Mark Felt's um autobiography where he talks about Nixon having seen some pretty specialized covert technology.",
+      "kind": "host",
+      "cites": [
+        "mark-felt",
+        "richard-nixon"
+      ],
+      "documents": [
+        "mark-felt-autobiography"
+      ],
+      "difference": "Calls the book an autobiography and the technology 'specialized'.",
+      "link_reason": "Both say Mark Felt's book describes Nixon being shown covert technology.",
+      "as_told": {
+        "title": "Mark Felt autobiography: Nixon saw specialized covert technology",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "USA",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -49,10 +102,20 @@
       "story": "cia-memo-popularizing-the-term-conspiracy-1970",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "donald-barr-dalton-school-and-the-novel-space-relations-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "hyman-s-government-commissioned-report-criticizing-uri-gelle-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -63,7 +126,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -71,10 +134,12 @@
       "jesse-michels"
     ],
     "episodes": [
-      "areO7Mej44E"
+      "areO7Mej44E",
+      "fpUa3xJN64Q",
+      "yJUBSuPh1pM"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that the biography of Mark Felt, a senior FBI official in the 1970s, describes President Richard Nixon being shown secret technology. Michels raises it while talking with Steven Greer, a campaigner for UFO disclosure. If true, it would mean a sitting president was let in on hidden technology."
 }

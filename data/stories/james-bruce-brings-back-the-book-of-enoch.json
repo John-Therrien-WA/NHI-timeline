@@ -1,0 +1,80 @@
+{
+  "id": "james-bruce-brings-back-the-book-of-enoch",
+  "title": "James Bruce brings back the Book of Enoch",
+  "summary": "Graham Hancock tells of James Bruce brings back the Book of Enoch, about 1770s-1790s at Ethiopia to Europe, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Ethiopia to Europe",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 2597.0,
+      "to_s": 2603.0,
+      "teller": "graham-hancock",
+      "quote": "let's not forget that James Bruce brought something back from Ethiopia he brought back the Book of Enoch",
+      "kind": "researcher",
+      "cites": [
+        "james-bruce"
+      ],
+      "documents": [
+        "book-of-enoch",
+        "travels-to-discover-the-source-of-the-nile"
+      ]
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 549.0,
+      "to_s": 563.0,
+      "teller": "jesse-michels",
+      "quote": "Sir James Bruce who uh, you know, we have the book of Enoch because he discovered it and he was like a a Scottish, you know, Freemason and he went looking for the ark of the covenant and he came back with the book of Enoch.",
+      "kind": "host",
+      "cites": [
+        "james-bruce"
+      ],
+      "documents": [
+        "book-of-enoch"
+      ],
+      "difference": "Adds that Bruce went looking for the Ark of the Covenant and calls him a Scottish Freemason.",
+      "link_reason": "Both tell of James Bruce bringing the Book of Enoch back from Ethiopia.",
+      "as_told": {
+        "title": "James Bruce seeks the Ark and brings back the Book of Enoch",
+        "years": null,
+        "place_text": "Ethiopia",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "graham-hancock",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is about James Bruce, a traveller who went to Ethiopia and wrote a book about searching for the source of the Nile. A writer on ancient history, Graham Hancock, says Bruce brought something important back from Ethiopia: the Book of Enoch, an ancient religious text. A podcast host, Jesse Michels, tells the same story in his own words. He calls Bruce a Scottish Freemason, a member of a secretive fraternal society, and says Bruce actually went looking for the Ark of the Covenant, the sacred chest from the Bible. Instead, Michels says, he came back with the Book of Enoch, and that is why we have it today. The story matters to them because the Book of Enoch is often read as describing beings who came down to Earth."
+}

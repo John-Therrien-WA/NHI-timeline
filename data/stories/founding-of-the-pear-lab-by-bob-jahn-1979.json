@@ -1,0 +1,79 @@
+{
+  "id": "founding-of-the-pear-lab-by-bob-jahn-1979",
+  "title": "Founding of the PEAR lab by Bob Jahn",
+  "summary": "Jesse Michels tells of Founding of the PEAR lab by Bob Jahn, about 1979 at Princeton University, New Jersey, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1979,
+    "to": 1979
+  },
+  "place": null,
+  "place_text": "Princeton University, New Jersey",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "eQIMantuasQ",
+      "from_s": 839.0,
+      "to_s": 847.0,
+      "teller": "jesse-michels",
+      "quote": "The PEAR lab was started in 1979\nby the dean of the engineering school, a guy named Bob Jahn.",
+      "kind": "host",
+      "cites": [
+        "bob-jahn"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 2793.0,
+      "to_s": 2803.0,
+      "teller": "jesse-michels",
+      "quote": "The guy that started the Princeton parapsychology lab was a plasma physicist and propulsion engineer named Bob Jahn.",
+      "kind": "host",
+      "cites": [
+        "bob-jahn"
+      ],
+      "documents": [
+        "margins-of-reality"
+      ],
+      "difference": "Calls Jahn a plasma physicist and propulsion engineer instead of the engineering dean, gives no 1979 date, and cites Margins of Reality.",
+      "link_reason": "Both are about Bob Jahn founding the Princeton PEAR lab.",
+      "as_told": {
+        "title": "Bob Jahn founds the Princeton parapsychology lab",
+        "years": null,
+        "place_text": "Princeton University, New Jersey",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "aKZ_MUbuk_Q",
+      "eQIMantuasQ"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that the PEAR lab, a research group at Princeton University that studied psychic effects and mind over matter, was started in 1979 by Bob Jahn. In one telling he calls Jahn the dean of the engineering school. In another he calls him a plasma physicist and propulsion engineer and points to Jahn's book Margins of Reality. Michels tells it to show that serious scientists once took these questions on."
+}

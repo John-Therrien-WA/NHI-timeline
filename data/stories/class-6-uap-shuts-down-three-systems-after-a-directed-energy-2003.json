@@ -22,18 +22,41 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 5178.0,
+      "to_s": 5182.0,
+      "teller": "jesse-michels",
+      "quote": ">> and it just shut down the directed energy before it even went out.",
+      "kind": "secondhand",
+      "cites": [
+        "james-fowler"
+      ],
+      "documents": [],
+      "difference": "Told secondhand by Jesse Michels, who calls the object a jellyfish UAP and puts it in the 2020s rather than c. 2003.",
+      "link_reason": "Both describe a UAP disabling Skywatcher's directed-energy weapon before it could fire, at a government event.",
+      "as_told": {
+        "title": "Jellyfish UAP shut down a directed energy weapon",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -42,13 +65,15 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "jesse-michels",
       "skywatcher"
     ],
     "episodes": [
+      "PiFbeWfA3LM",
       "y_8IKKcTntQ"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "A speaker from Skywatcher, a startup that says it tries to call UFOs into view, told podcast host Jesse Michels in 2025 about a moment around 2003 in the western United States. They say that on a hilltop during a government event they brought an energy weapon, a device that fires a focused beam, and aimed it at an unidentified object they call Class 6, after which the object shut down three of their systems. If true, it would mean these objects can sense a threat and switch off human equipment in response."
 }

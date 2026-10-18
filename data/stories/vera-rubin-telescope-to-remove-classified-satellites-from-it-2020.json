@@ -1,0 +1,79 @@
+{
+  "id": "vera-rubin-telescope-to-remove-classified-satellites-from-it-2020",
+  "title": "Vera Rubin telescope to remove classified satellites from its data",
+  "summary": "Beatriz Villarroel tells of Vera Rubin telescope to remove classified satellites from its data, about 2020s at Vera Rubin Observatory, and relays what a named person told them. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2029
+  },
+  "place": null,
+  "place_text": "Vera Rubin Observatory",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 4318.0,
+      "to_s": 4324.0,
+      "teller": "beatriz-villarroel",
+      "quote": "fact that the Vera Rubin telescope is going to remove a lot of classified satellites and other objects.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 3528.0,
+      "to_s": 3533.0,
+      "teller": "jesse-michels",
+      "quote": "All of Reubin's imagery has to be approved by the Pentagon.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "the-atlantic-article"
+      ],
+      "difference": "Says the Pentagon must approve all Rubin imagery at a secure facility in California, citing an article in The Atlantic.",
+      "link_reason": "Both describe the military screening Vera Rubin Observatory data to keep classified objects out of it.",
+      "as_told": {
+        "title": "Pentagon review of Vera Rubin Observatory imagery",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Vera Rubin Observatory; secure facility in California",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "beatriz-villarroel",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1zRWi_r3HRM",
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is about the Vera Rubin Observatory, a large telescope that photographs the night sky, in the 2020s. An astronomer named Beatriz Villarroel, speaking with a podcast host, Jesse Michels, passes on what she says she was told. She says the telescope is going to remove many classified satellites and other objects from its data. Classified here means secret, run by governments and not made public. Months later, Michels comes back to it on his own show. He says all of the observatory's images have to be approved by the Pentagon, the US defence department, at a secure site in California, and he credits this to an article in The Atlantic magazine. If true, it would mean that what the public gets to see of the sky is filtered to hide certain objects in orbit."
+}

@@ -1,0 +1,51 @@
+{
+  "id": "coricancha-andesite-stonework",
+  "title": "Coricancha andesite stonework",
+  "summary": "Luke Caverns tells of Coricancha andesite stonework, about Inca era at Cusco, Peru, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Cusco, Peru",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 8870.0,
+      "to_s": 8875.0,
+      "teller": "luke-caverns",
+      "quote": "the most the most impressive stonework in all of the ancient world.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Coricancha is an ancient temple site from Inca times in Cusco, Peru. Luke Caverns, a researcher of ancient sites, tells podcast host Jesse Michels that its stonework, cut from andesite, a hard volcanic rock, is the most impressive in the whole ancient world. To him, that skill raises questions about who built such sites and how."
+}

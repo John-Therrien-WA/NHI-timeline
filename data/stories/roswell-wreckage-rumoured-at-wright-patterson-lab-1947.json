@@ -7,7 +7,7 @@
     "from": 1947,
     "to": 1947
   },
-  "place": null,
+  "place": "roswell-nm",
   "place_text": "Wright-Patterson AFB",
   "coordinates": null,
   "kind": "crash-retrieval",
@@ -24,11 +24,221 @@
         "neil-mccasland"
       ],
       "documents": []
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1657.0,
+      "to_s": 1663.0,
+      "teller": "jesse-michels",
+      "quote": "retrieved a a flying saucer or disc uh\nfrom the Roswell crash in 1947",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds Fort Worth on the route and does not mention McCasland.",
+      "link_reason": "Both are about the Roswell crash disc being taken to Wright Field / Wright-Patterson.",
+      "as_told": {
+        "title": "Roswell crash disc taken to Wright Field",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell / Fort Worth / Wright Field",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 8607.0,
+      "to_s": 8614.0,
+      "teller": "jesse-michels",
+      "quote": "that essentially, you know, foreign material exploitation ended up with the Roswell pieces if you believe the lore.",
+      "kind": "host",
+      "cites": [
+        "tom-delonge"
+      ],
+      "documents": [
+        "secret-machines"
+      ],
+      "difference": "Credits Tom DeLonge and Secret Machines and frames it as foreign material exploitation ending up with the Roswell pieces.",
+      "link_reason": "Both describe General McCasland, who ran the Wright-Patterson lab where the Roswell material is rumoured to have gone.",
+      "as_told": {
+        "title": "Missing Air Force general who ran the lab said to hold Roswell material",
+        "years": null,
+        "place_text": "Wright-Patterson AFB / USA",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 770.0,
+      "to_s": 777.0,
+      "teller": "jesse-michels",
+      "quote": "Wright Patterson isn't [music] just famous for Project Blue Book. It's the alleged home of the Roswell crash debris.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Told as place-lore about the base, with no link to McCasland running the lab, and ties it to Project Blue Book.",
+      "link_reason": "Both tell the same claim: Wright-Patterson is where the Roswell wreckage was supposedly taken.",
+      "as_told": {
+        "title": "Wright-Patterson as alleged home of Roswell crash debris",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Wright-Patterson Air Force Base, Ohio",
+        "story_kind": "place-lore"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "a-founder-s-grandfather-saw-roswell-base-personnel-spooked-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "alien-bodies-and-a-live-gray-recovered-at-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "annie-jacobsen-s-source-o-donnell-roswell-was-a-stalin-menge-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "art-bell-s-material-said-to-come-from-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "boss-tells-fox-the-government-admitted-the-roswell-recovery-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fort-worth-general-orders-blanchard-it-s-a-weather-balloon-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "general-exon-held-a-roswell-body-like-a-big-insect-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ipu-field-report-on-roswell-retrieval-led-by-colonel-housebr-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "japanese-museum-s-claimed-piece-of-the-roswell-crash-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jason-sands-radars-at-roswell-and-white-sands-disrupting-cra-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-marcel-s-unbendable-foil-thin-metal-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "navy-commander-george-hoover-on-roswell-beings-as-time-trave-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-bodies-kept-on-ice-at-wright-patterson-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-boulder-split-and-memory-metal-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-craft-said-to-have-been-brought-down-by-lightning-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-caused-by-radio-signatures-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-debris-retrieved-by-mac-brazel-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-debris-swapped-for-the-ramey-photo-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-flying-disc-announcement-then-retraction-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-held-the-most-us-nukes-in-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-s-shifting-official-stories-including-the-progeria-c-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-the-world-s-only-nuclear-bomber-base-couldn-t-tell-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-witnesses-describe-non-human-being-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-in-the-hangar-had-the-bathroom-on-the-other-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "serpo-alien-language-decoded-from-a-live-ebe-recovered-at-ro-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tim-taylor-places-piece-of-roswell-crash-in-bledsoe-s-hand-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "two-saucers-at-roswell-left-melted-fiber-optics-that-looked-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "washington-quickly-ordered-roswell-bottled-up-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,7 +249,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -47,10 +257,13 @@
       "jesse-michels"
     ],
     "episodes": [
-      "kccrkCGGzX4"
+      "5udx_SDdL3Y",
+      "CiQTBOQ1dTg",
+      "kccrkCGGzX4",
+      "wlsQIbpEKSM"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "Many people believe that wreckage from a 1947 crash near Roswell, New Mexico, came from a craft that was not from Earth, and that it was taken to Wright-Patterson, an Air Force base in Ohio. A podcast host, Jesse Michels, points out that an Air Force general named Neil McCasland once ran the lab at Wright-Patterson where, as the rumour goes, the wreckage ended up. If so, McCasland may have been close to the material."
 }

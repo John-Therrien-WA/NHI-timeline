@@ -24,18 +24,42 @@
         "allan-sandler"
       ],
       "documents": []
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 4296.0,
+      "to_s": 4306.0,
+      "teller": "grant-cameron",
+      "quote": "\"No, I don't think we sent that one back.\" And I go, \"You didn't send it back?\" I said, \"Where is it?\" And he said, \"I guess it's in Alan Sandler's vault.\"",
+      "kind": "secondhand",
+      "cites": [
+        "bob-emenegger",
+        "alan-sandler"
+      ],
+      "documents": [],
+      "difference": "Dates the film to 1964, places it in Sandler's vault in Oregon, and relays this through Emenegger.",
+      "link_reason": "Both are about Allan Sandler's Vandenberg missile film showing objects around the rocket, and where that film is now kept.",
+      "as_told": {
+        "title": "The Vandenberg missile film in Alan Sandler's vault",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Oregon (Sandler's vault)",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -44,13 +68,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "grant-cameron",
       "james-fox"
     ],
     "episodes": [
-      "bVhSPH2A5Vw"
+      "bVhSPH2A5Vw",
+      "fpUa3xJN64Q"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "James Fox, a UFO investigator, told a podcast host, Jesse Michels, in 2024 about film footage linked to a man named Allan Sandler showing the launch of an Atlas rocket, a US military and space rocket, at Vandenberg Air Force Base in California in the 1970s. Fox says the footage shows what he thinks are two discs flying around the tip of the rocket, and that around 2013 or 2014 there was an attempt to place it in escrow, held by a third party while a deal was arranged. If true, it would mean unknown craft were shadowing US rocket launches."
 }

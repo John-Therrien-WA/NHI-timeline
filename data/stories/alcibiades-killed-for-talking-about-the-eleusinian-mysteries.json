@@ -21,33 +21,55 @@
         "alcibiades"
       ],
       "documents": []
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 6800.0,
+      "to_s": 6804.0,
+      "teller": "luke-caverns",
+      "quote": "he was he got in trouble for talking about the mysteries",
+      "kind": "researcher",
+      "cites": [
+        "alcibiades"
+      ],
+      "documents": [],
+      "difference": "Says only that he got in trouble, where the story says he was killed, and places it in Athens rather than Eleusis.",
+      "link_reason": "Both say Alcibiades was punished for talking about the mysteries in 5th-century BC Greece.",
+      "as_told": {
+        "title": "Alcibiades gets in trouble for talking about the mysteries",
+        "years": null,
+        "place_text": "Athens, Greece",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "luke-caverns"
     ],
     "episodes": [
+      "92XrddiKjHY",
       "9QMrhcpJq8I"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, says that Alcibiades, a figure from ancient Greece, was killed for talking about the mysteries of Eleusis, the secret religious rites held at that Greek site. He tells it as an example of how old the price of revealing hidden knowledge is."
 }

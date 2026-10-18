@@ -1,0 +1,110 @@
+{
+  "id": "northrop-paper-vanishes-b-2-electrostatic-wings-1968",
+  "title": "Northrop paper vanishes; B-2 electrostatic wings",
+  "summary": "Jesse Michels tells of Northrop paper vanishes; B-2 electrostatic wings, about 1968-1990s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1597.0,
+      "to_s": 1609.0,
+      "teller": "jesse-michels",
+      "quote": "When Marcas searched for the Northrop paper on of Aeronautics and Astronautics, he found that it had totally vanished.",
+      "kind": "host",
+      "cites": [
+        "dan-marcas",
+        "nick-cook"
+      ],
+      "documents": [
+        "northrop-paper",
+        "the-hunt-for-zero-point"
+      ]
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1906.0,
+      "to_s": 1914.0,
+      "teller": "nick-cook",
+      "quote": "There were papers written uh by the aerospace industry on that, you know, in the early 1960s by Northrop, I seem to remember.",
+      "kind": "researcher",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "northrop-electrostatics-papers"
+      ],
+      "difference": "Nick Cook dates the Northrop papers to the early 1960s rather than 1968 and is unsure of the date.",
+      "link_reason": "Both are about the Northrop electrostatics/electrogravitics paper tied to Brown's work and to the B-2.",
+      "as_told": {
+        "title": "Northrop electrostatics papers and the B-2",
+        "years": {
+          "from": 1960,
+          "to": 1963
+        },
+        "place_text": "USA",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1555.0,
+      "to_s": 1559.0,
+      "teller": "jesse-michels",
+      "quote": "you have this\n1968 paper that North R published",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "1968-northrop-electro-aerodynamics-paper"
+      ],
+      "difference": "Only says the paper was published and does not say it later vanished.",
+      "link_reason": "Both are about the 1968 Northrop electro-aerodynamics paper.",
+      "as_told": {
+        "title": "1968 Northrop electro-aerodynamics paper",
+        "years": {
+          "from": 1968,
+          "to": 1968
+        },
+        "place_text": null,
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "nick-cook"
+    ],
+    "episodes": [
+      "5udx_SDdL3Y",
+      "G7Ns4Aq1tVc",
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Jesse Michels, a podcast host, tells of a 1968 paper by Northrop, a big American aircraft maker, about using electric charge to help move or lift aircraft, an idea tied to the inventor Townsend Brown, and links it to talk of electric charging on the wings of the B-2, a stealth bomber. He says that when a researcher named Dan Marcas went looking for the paper in an aerospace journal, it had completely vanished. The writer Nick Cook also recalls such Northrop papers but places them, unsure, in the early 1960s, and the vanishing matters to the tellers because it would suggest the work was pulled into secrecy."
+}

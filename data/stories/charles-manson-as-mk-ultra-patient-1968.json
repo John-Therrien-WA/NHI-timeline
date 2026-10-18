@@ -1,0 +1,79 @@
+{
+  "id": "charles-manson-as-mk-ultra-patient-1968",
+  "title": "Charles Manson as MK Ultra patient",
+  "summary": "Jesse Michels tells of Charles Manson as MK Ultra patient, about 1968-1969 at Los Angeles, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Los Angeles",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 7971.0,
+      "to_s": 7979.0,
+      "teller": "jesse-michels",
+      "quote": "so I think like Charles Manson was an MK Ultra patient I have a buddy in La named Tom O'Neal that documents it pretty well",
+      "kind": "host",
+      "cites": [
+        "tom-o-neill",
+        "jolly-west"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 3412.0,
+      "to_s": 3416.0,
+      "teller": "jesse-michels",
+      "quote": "But like so Charles Manson was\nprobably an MK Ultra patient.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Hedged as 'probably', with no credit to Tom O'Neill or Jolly West.",
+      "link_reason": "Both are the host's claim that Charles Manson was an MK Ultra patient.",
+      "as_told": {
+        "title": "Charles Manson as an MK Ultra subject",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "California",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2SQXAPCdmPE",
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says he thinks Charles Manson, the cult leader in Los Angeles in the late 1960s, was a patient of MK Ultra, a secret mind-control research programme run by the CIA, the US foreign intelligence agency. In one telling he credits a friend, the writer Tom O'Neill, with documenting it and names a doctor, Jolly West, while in another he just says Manson was probably such a patient. If true, it would tie a famous crime to secret government experiments."
+}

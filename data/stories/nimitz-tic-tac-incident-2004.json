@@ -1,0 +1,85 @@
+{
+  "id": "nimitz-tic-tac-incident-2004",
+  "title": "Nimitz Tic Tac incident",
+  "summary": "Jesse Michels tells of Nimitz Tic Tac incident, about 2004 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2004,
+    "to": 2004
+  },
+  "place": "united-states",
+  "place_text": "Off San Diego, USA",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 3537.0,
+      "to_s": 3544.0,
+      "teller": "jesse-michels",
+      "quote": "one of the\nholy grail events is the tic-tac\nincident at Nimmits in 2004",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 12115.0,
+      "to_s": 12132.0,
+      "teller": "jesse-michels",
+      "quote": "so many people rest their conviction when it comes to UFOs. Steven Spielberg will cite this Nimtt's case in 2004 for his own like you know reopening of interest in in UFOs.",
+      "kind": "host",
+      "cites": [
+        "steven-spielberg",
+        "david-fravor"
+      ],
+      "documents": [],
+      "difference": "Adds that Steven Spielberg cites the case for his renewed interest in UFOs.",
+      "link_reason": "Same 2004 Nimitz Tic Tac incident, presented as a key case.",
+      "as_told": {
+        "title": "Nimitz Tic Tac case that Spielberg cites",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "USS Nimitz carrier group",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "navy-pilots-interviewed-including-fravor-and-dietrich-of-the-2004",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Rjr3Yq-dMUE",
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, calls the 2004 Tic Tac incident one of the holy grail events of the UFO subject. In that story, Navy pilots flying from the aircraft carrier Nimitz, off San Diego, including a fighter pilot named David Fravor, are said to have met a white oval object shaped like the mint. Michels says many people rest their belief in UFOs on this case, and in a second telling adds that the film director Steven Spielberg cites it as the reason his own interest in UFOs came back."
+}

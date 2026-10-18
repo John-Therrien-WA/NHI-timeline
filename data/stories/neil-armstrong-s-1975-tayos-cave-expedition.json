@@ -53,11 +53,83 @@
         "place_text": "Tayos cave, Ecuador",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4403.0,
+      "to_s": 4417.0,
+      "teller": "jesse-michels",
+      "quote": "And then in the next expedition he goes on has nothing to do with space. It's to this cage at the edge of the Amazon which is rumored to have these sort of alien artifacts and he brings this BBC film crew in with him in 1975.",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": [],
+      "difference": "Frames it as Armstrong's next expedition after the moon and says nothing of von Däniken.",
+      "link_reason": "Both tell of Neil Armstrong taking a BBC film crew to the Tayos cave at the edge of the Amazon in Ecuador in 1975.",
+      "as_told": {
+        "title": "Neil Armstrong's 1975 Tayos Cave expedition with BBC film crew",
+        "years": {
+          "from": 1975,
+          "to": 1975
+        },
+        "place_text": "Tayos Cave, Ecuador (edge of the Amazon)",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 8141.0,
+      "to_s": 8154.0,
+      "teller": "jesse-michels",
+      "quote": "Okay. Uh Neil Armstrong in 1969 went to the moon of course and came back and his second expedition was in the Amazon to find this Teaos cave, this Teaos library",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong",
+        "bbc"
+      ],
+      "documents": [],
+      "difference": "Calls it his second expedition after the 1969 moon landing, without giving the year 1975, and credits the BBC.",
+      "link_reason": "This is the same story of Neil Armstrong's expedition to the Tayos cave in Ecuador after the moon landing.",
+      "as_told": {
+        "title": "Neil Armstrong's expedition to find the Tayos Cave",
+        "years": {
+          "from": 1969,
+          "to": 1979
+        },
+        "place_text": "Amazon, Ecuador",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 2535.0,
+      "to_s": 2543.0,
+      "teller": "jesse-michels",
+      "quote": "the second expedition Neil Armstrong did was in 1975, and it was to a cave in Ecuador at the edge of the Amazon.",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong"
+      ],
+      "documents": [
+        "bbc-documentary"
+      ],
+      "difference": "Calls it Armstrong's 'second expedition' and credits a BBC documentary.",
+      "link_reason": "Both tell of Neil Armstrong's 1975 expedition, filmed by the BBC, to the Tayos cave in Ecuador at the edge of the Amazon.",
+      "as_told": {
+        "title": "Neil Armstrong's Tayos Cave expedition",
+        "years": {
+          "from": 1975,
+          "to": 1975
+        },
+        "place_text": "Tayos Cave, Ecuador",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -68,7 +140,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -76,11 +148,14 @@
       "jesse-michels"
     ],
     "episodes": [
+      "92XrddiKjHY",
+      "9PJJiut0Iuw",
       "C_Na1tI5qpw",
-      "uVVqFg2v7ro"
+      "uVVqFg2v7ro",
+      "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that Neil Armstrong, the first man to walk on the Moon, later went to the Tayos cave at the edge of the Amazon in Ecuador, bringing a BBC film crew to explore what he thought might be an alien cave. Michels ties this to Chariots of the Gods, a book by the writer Erich von Däniken about visitors from space in ancient times, and dates the trip to 1975 in one episode and 1976 in another. It matters to him because it would show a famous astronaut taking the idea of ancient alien sites seriously."
 }

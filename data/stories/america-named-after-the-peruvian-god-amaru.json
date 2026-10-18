@@ -1,0 +1,53 @@
+{
+  "id": "america-named-after-the-peruvian-god-amaru",
+  "title": "America named after the Peruvian god Amaru",
+  "summary": "Kurt Metzger tells of America named after the Peruvian god Amaru, about c. 1500s at Peru / the Americas, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Peru / the Americas",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 10194.0,
+      "to_s": 10198.0,
+      "teller": "kurt-metzger",
+      "quote": "Yeah. Margo Vispuchi changed his name to be more like that, not the other way around.",
+      "kind": "secondhand",
+      "cites": [
+        "amerigo-vespucci"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kurt-metzger"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "On Jesse Michels's podcast, a guest named Kurt Metzger passes on a claim about where the name America comes from. He says the explorer Amerigo Vespucci, usually credited as the source of the name, actually changed his own name to sound more like Amaru, a god of Peru, rather than the continent being named after him. If true, the name of the Americas would come from an older native god."
+}

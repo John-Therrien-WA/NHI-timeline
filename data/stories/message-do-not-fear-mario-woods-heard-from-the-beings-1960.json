@@ -22,6 +22,67 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 5140.0,
+      "to_s": 5151.0,
+      "teller": "mario-woods",
+      "quote": "travel through my body like a vibration like a uh like a hiss a telepathic",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Dated 1977 at November 5 and described as a vibration or hiss passing through his body, where the story gives the 1960s and South Dakota generally.",
+      "link_reason": "Both are the telepathic 'do not fear' message Woods heard from the beings.",
+      "as_told": {
+        "title": "Telepathic 'do not fear' message",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "November 5 launch facility, South Dakota",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 7878.0,
+      "to_s": 7893.0,
+      "teller": "mario-woods",
+      "quote": "uh directly related to what I kept\nhearing do not fear that I recognized it\nand uh the accent on that voice sounded\nas if",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that he recognized the voice and remarks on its accent.",
+      "link_reason": "The same 'do not fear' voice Mario Woods heard during his Ellsworth/South Dakota encounter.",
+      "as_told": {
+        "title": "'Do not fear' voice heard during the Ellsworth encounter",
+        "years": null,
+        "place_text": "Ellsworth Air Force Base",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 3058.0,
+      "to_s": 3061.0,
+      "teller": "mario-woods",
+      "quote": "travel through my body like a",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds the feeling of something travelling through his body and places it at Ellsworth AFB.",
+      "link_reason": "Mario Woods's firsthand account of hearing 'do not fear' from the beings during his abduction is the same as the stored message story.",
+      "as_told": {
+        "title": "Mario Woods hears 'do not fear' during abduction",
+        "years": null,
+        "place_text": "Ellsworth Air Force Base, South Dakota",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "73YBwFvcmF8",
+        "from_s": 5135.0
+      }
     }
   ],
   "related": [],
@@ -45,7 +106,9 @@
       "mario-woods"
     ],
     "episodes": [
-      "fzvwBBSmWYA"
+      "73YBwFvcmF8",
+      "fzvwBBSmWYA",
+      "yAvD5UTziTo"
     ]
   },
   "attestation": 1.0,

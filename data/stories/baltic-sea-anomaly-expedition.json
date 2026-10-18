@@ -21,19 +21,87 @@
         "dennis-asper"
       ],
       "documents": []
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 405.0,
+      "to_s": 420.0,
+      "teller": "beatriz-villarroel",
+      "quote": "and I one day heard about this fascinating discovery that a team of divers had done uh called the Baltic Sea anomaly. So they found this thing that looked like a crashed UFO or looked like an artificial structure outside the Swedish coast.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by Villarroel as something she heard about, placed off the Swedish coast rather than between Sweden and Finland, with no Millennium Falcon comparison.",
+      "link_reason": "Both tell of the divers' discovery of the crashed-UFO-like structure on the Baltic seabed off Sweden.",
+      "as_told": {
+        "title": "Baltic Sea anomaly: possible crashed artificial structure off the Swedish coast",
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "place_text": "Baltic Sea, off the Swedish coast",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 707.0,
+      "to_s": 713.0,
+      "teller": "dennis-asberg",
+      "quote": "So, I remember Peter Peter and laughing and oh, Dennis, you know, here is UFO.",
+      "kind": "firsthand",
+      "cites": [
+        "peter-lindberg",
+        "floris"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Asberg, who dates it to 19 June 2011, says it showed up on side scan sonar and names Peter Lindberg and Floris.",
+      "link_reason": "Both tell of Dennis Asberg's team finding the Millennium-Falcon-shaped object on sonar in the Baltic between Sweden and Finland; this is the finder's own account of that find.",
+      "as_told": {
+        "title": "Discovery of the Baltic Sea anomaly on side scan sonar",
+        "years": {
+          "from": 2011,
+          "to": 2011
+        },
+        "place_text": "Baltic Sea, between Finland and Sweden",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 225.0,
+      "to_s": 235.0,
+      "teller": "jesse-michels",
+      "quote": ">> So we're 60 km out at sea and kind of the epicenter between Finland and Sweden.",
+      "kind": "firsthand",
+      "cites": [
+        "ammar-kandil"
+      ],
+      "documents": [],
+      "difference": "Dates the trip to 2025, puts the site 60 km out at sea, and credits Ammar Kandil.",
+      "link_reason": "Both are Jesse Michels's firsthand account of going out to the Baltic Sea anomaly between Sweden and Finland.",
+      "as_told": {
+        "title": "Host's own expedition to the anomaly",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Baltic Sea, 60 km out between Finland and Sweden",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 4.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 1,
+    "independent_tellers": 3,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -41,13 +109,17 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "beatriz-villarroel",
+      "dennis-asberg",
       "jesse-michels"
     ],
     "episodes": [
+      "aGqFOxuYRT0",
+      "lbGE3EC6StE",
       "nRKNVFQBi38"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 2.25,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says he took part in an expedition to a strange object on the floor of the Baltic Sea, roughly halfway between Sweden and Finland. According to Michels, a man named Dennis Asper found the thing there, and its shape looks like the Millennium Falcon, the spaceship from the Star Wars films. If it were what its shape suggests, it would be something built, not natural, sitting at the bottom of the sea."
 }

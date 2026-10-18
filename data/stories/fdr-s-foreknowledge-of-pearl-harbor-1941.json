@@ -1,0 +1,56 @@
+{
+  "id": "fdr-s-foreknowledge-of-pearl-harbor-1941",
+  "title": "FDR's foreknowledge of Pearl Harbor",
+  "summary": "Dan Sheehan tells of FDR's foreknowledge of Pearl Harbor, about 1941 at Pearl Harbor, Hawaii, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1941,
+    "to": 1941
+  },
+  "place": null,
+  "place_text": "Pearl Harbor, Hawaii",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 7107.0,
+      "to_s": 7120.0,
+      "teller": "daniel-sheehan",
+      "quote": "he sent the personal order the night before the attack on December December 7th he ordered all the aircraft carriers to leave under the cover of night",
+      "kind": "secondhand",
+      "cites": [
+        "franklin-d-roosevelt"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "daniel-sheehan"
+    ],
+    "episodes": [
+      "2SQXAPCdmPE"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Dan Sheehan, a guest on a podcast, says that President Franklin D. Roosevelt personally ordered all the aircraft carriers to slip out of Pearl Harbor, the US naval base in Hawaii, under cover of night on the eve of the attack there on December 7, 1941. If true, it would mean the president knew the attack was coming."
+}

@@ -19,6 +19,44 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 4167.0,
+      "to_s": 4172.0,
+      "teller": "jesse-michels",
+      "quote": "these UFOs seem to show up consistently around nuclear sites",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Describes nuclear sites as a lever on timelines rather than as sites being monitored or shut down.",
+      "link_reason": "Both tell the theory that UFOs show up at nuclear sites because future humans are managing their timeline.",
+      "as_told": {
+        "title": "UFOs at nuclear sites as leverage on timelines",
+        "years": null,
+        "place_text": "nuclear sites",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 6302.0,
+      "to_s": 6309.0,
+      "teller": "jesse-michels",
+      "quote": "explanation that maybe a future time travel program represents an overlay over all of these nuclear sites",
+      "kind": "host",
+      "cites": [
+        "lawrence-bell"
+      ],
+      "documents": [],
+      "difference": "Calls it a future time-travel program overlaying the sites and ties it to Lawrence Bell.",
+      "link_reason": "Same host theory: UFOs at nuclear sites as the work of future humans, here put as a future time-travel program laid over those sites.",
+      "as_told": {
+        "title": "Future time-travel program overlaid on nuclear sites",
+        "years": null,
+        "place_text": "US nuclear sites",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -48,7 +86,9 @@
       "jesse-michels"
     ],
     "episodes": [
-      "Y26iMB0r-f8"
+      "73YBwFvcmF8",
+      "Y26iMB0r-f8",
+      "hXYdkcv5TtY"
     ]
   },
   "attestation": 0.1,

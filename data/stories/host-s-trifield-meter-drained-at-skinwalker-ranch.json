@@ -19,6 +19,27 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "7W7iOt57fOo",
+      "from_s": 1309.0,
+      "to_s": 1314.0,
+      "teller": "jesse-michels",
+      "quote": "i saw a tri-field meter go out it had full battery",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates the visit to 2022 and adds the sulfur smell, which the corpus holds as a separate story (host-smelled-sulfur-at-skinwalker-ranch-2022).",
+      "link_reason": "Both are the host's own account of a fully charged tri-field meter dying during his Skinwalker Ranch visit.",
+      "as_told": {
+        "title": "Host's tri-field meter dies and he smells sulfur",
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "place_text": "Skinwalker Ranch, Utah",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -42,6 +63,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "7W7iOt57fOo",
       "Y26iMB0r-f8"
     ]
   },

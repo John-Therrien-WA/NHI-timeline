@@ -1,0 +1,69 @@
+{
+  "id": "communion-prompts-nearly-half-a-million-letters-to-whitley-s-1987",
+  "title": "Communion prompts nearly half a million letters to Whitley Strieber",
+  "summary": "Bryce Zabel tells of Communion prompts nearly half a million letters to Whitley Strieber, about 1987 at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1987
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 6018.0,
+      "to_s": 6028.0,
+      "teller": "bryce-zabel",
+      "quote": "happened in the aftermath? Uh nearly half a million people wrote letters to to um uh to Whitley and his wife",
+      "kind": "secondhand",
+      "cites": [
+        "whitley-strieber"
+      ],
+      "documents": [
+        "communion"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "eric-walker-interview-what-do-you-know-about-esp-and-the-con-1987",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "walker-how-do-you-know-they-didn-t-get-up-and-walk-away-1987",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "bryce-zabel"
+    ],
+    "episodes": [
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Bryce Zabel, a guest on Jesse Michels' podcast, says that after the writer Whitley Strieber published his 1987 book Communion, nearly half a million people wrote letters to Strieber and his wife. Zabel tells it to show how many people the book seemed to reach, and how many may have felt it described something they knew."
+}

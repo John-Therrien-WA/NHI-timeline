@@ -51,6 +51,31 @@
         "place_text": "Washington, D.C.",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 4941.0,
+      "to_s": 4952.0,
+      "teller": "jesse-michels",
+      "quote": "that the most popular document on the FBI's website is the notorious Hottle memo written in 1950, the same year as Scully's book.",
+      "kind": "host",
+      "cites": [
+        "frank-scully"
+      ],
+      "documents": [
+        "hottel-memo"
+      ],
+      "difference": "Dates the memo to 1950, the same year as Scully's book, rather than 1952, and ties it to saucers downed by radar.",
+      "link_reason": "This is the same Hottel memo on the FBI website, described as its most popular document.",
+      "as_told": {
+        "title": "Hottel memo on saucers downed by radar",
+        "years": {
+          "from": 1950,
+          "to": 1950
+        },
+        "place_text": "New Mexico",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -90,6 +115,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "OZ_oCpKYQJ0",
       "TH10mD9hQas",
       "bVhSPH2A5Vw"
     ]

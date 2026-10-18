@@ -17,18 +17,46 @@
       "episode": "OOr98r51Sj0",
       "from_s": 4614.0,
       "to_s": 4619.0,
-      "teller": "duncan-laurie",
+      "teller": "jim-weiner",
       "quote": "And then just like 2 weeks after that, he was found dead in a motel room so",
       "kind": "firsthand",
       "cites": [
         "john-norseen"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "episode": "QkuDvTFN7ms",
+        "from_s": 7610.0
+      },
+      "teller_was": "duncan-laurie"
+    },
+    {
+      "episode": "QkuDvTFN7ms",
+      "from_s": 7635.0,
+      "to_s": 7645.0,
+      "teller": "jim-weiner",
+      "quote": "John not heard nor seen.\" And then just like two weeks after that, he was found dead in a motel room, something.",
+      "kind": "firsthand",
+      "cites": [
+        "john-norsine",
+        "ed"
+      ],
+      "documents": [
+        "john-norsine-email"
+      ],
+      "difference": "Told by Jim Weiner, not Duncan Laurie. It credits an 'Ed' and says the motel was possibly in Tennessee.",
+      "link_reason": "Both tell of Norseen's 'not heard nor seen' email and his death two weeks later in a motel room.",
+      "as_told": {
+        "title": "Norsine's 'John not heard nor seen' email, then his death in a motel",
+        "years": null,
+        "place_text": "Naval War College, Newport, Rhode Island; motel (possibly Tennessee)",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -39,18 +67,19 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "duncan-laurie"
+      "jim-weiner"
     ],
     "episodes": [
-      "OOr98r51Sj0"
+      "OOr98r51Sj0",
+      "QkuDvTFN7ms"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "Duncan Laurie, a researcher, tells of a man named John Norseen, linked to the Naval War College, a US Navy school in Newport, Rhode Island, who sent him an email in the early 2000s using the phrase \"not heard nor seen\". Laurie says that just about two weeks later Norseen was found dead in a motel room. If the two are connected, it would suggest Norseen knew something dangerous."
 }

@@ -24,6 +24,29 @@
         "jaime-maussan"
       ],
       "documents": []
+    },
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 1801.0,
+      "to_s": 1810.0,
+      "teller": "jesse-michels",
+      "quote": "visiting Jaime, he happened to have recovered an aluminum object, of which he had over 4 minutes of video flying around Buga, Colombia.",
+      "kind": "firsthand",
+      "cites": [
+        "jaime-maussan"
+      ],
+      "documents": [],
+      "difference": "Adds over 4 minutes of video of the object flying around Buga and the fact that it was scanned at Maussan's.",
+      "link_reason": "Both tell of the Buga sphere from Buga, Colombia coming into Jaime Maussan's hands in Mexico City in 2025, as Jesse saw firsthand.",
+      "as_told": {
+        "title": "Buga sphere recovered and scanned at Jaime Maussan's",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Buga, Colombia; Mexico City",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -47,6 +70,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "HxQN2tkQHs8",
       "V00WcEiKRAY"
     ]
   },

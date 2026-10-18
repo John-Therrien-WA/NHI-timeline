@@ -19,6 +19,24 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 5404.0,
+      "to_s": 5414.0,
+      "teller": "jesse-michels",
+      "quote": "Totally. And there there are rumors at the Large Hadron Collider at CERN. We're at Cosmotron at Brook Haven National Labs that UFOs seem to show up around,",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names CERN's Large Hadron Collider and the Brookhaven Cosmotron as the sites and calls it rumor.",
+      "link_reason": "The same place-lore that UFOs show up around particle accelerators and high-voltage experiments, told by the same host.",
+      "as_told": {
+        "title": "UFOs at CERN and the Brookhaven Cosmotron",
+        "years": null,
+        "place_text": "CERN, Switzerland; Brookhaven National Lab, New York",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -42,6 +60,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
       "6bqaHVSlVeU"
     ]
   },

@@ -24,6 +24,53 @@
         "marco-chereze"
       ],
       "documents": []
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 12173.0,
+      "to_s": 12200.0,
+      "teller": "jesse-michels",
+      "quote": "And Mar Marco Sharesi's family to this day maintains that his injury was probably due to an alien being and that he was saying towards the end of his life constantly that he was worried that he was sick because he had apprehended this being and held him and apparently the the alien was full of kind of this greasy oily substance",
+      "kind": "host",
+      "cites": [
+        "marco-chereze-s-family"
+      ],
+      "documents": [],
+      "difference": "Credits Chereze's family, who say he kept worrying that holding the being had made him sick.",
+      "link_reason": "Both tell of Marco Chereze handling the oily, greasy being and the illness and death that followed.",
+      "as_told": {
+        "title": "Chereze's family: he held the oily being and feared it made him sick",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 3294.0,
+      "to_s": 3303.0,
+      "teller": "jesse-michels",
+      "quote": ">> by um a guy named Marcos Shereesi who was a soldier and that he died due to a puncture wound from the being.",
+      "kind": "host",
+      "cites": [
+        "marco-chereze",
+        "armando-fortunato"
+      ],
+      "documents": [],
+      "difference": "Says he died from a puncture wound from the being, and credits armando-fortunato.",
+      "link_reason": "Both tell of soldier Marco Chereze dying after capturing or handling the Varginha creature in 1996.",
+      "as_told": {
+        "title": "Soldier Marco Chereze dies after capturing a being",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Minas Gerais, Brazil",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [
@@ -66,6 +113,21 @@
       "story": "witness-returns-with-luiza-and-sees-creature-s-footprint-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-fernando-jane-saw-the-creature-s-foot-at-the-regional-hos-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "moment-of-contact-the-varginha-witnesses-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "three-women-see-the-red-eyed-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -88,7 +150,9 @@
       "jesse-michels"
     ],
     "episodes": [
-      "bVhSPH2A5Vw"
+      "UkKwa4jU0fc",
+      "bVhSPH2A5Vw",
+      "nqLnEVcZ8vE"
     ]
   },
   "attestation": 0.1,

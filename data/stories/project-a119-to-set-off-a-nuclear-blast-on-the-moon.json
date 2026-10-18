@@ -67,11 +67,59 @@
         "place_text": "United States / the Moon",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 2270.0,
+      "to_s": 2280.0,
+      "teller": "jesse-michels",
+      "quote": "he was he was working with the Air Force and um it was a project called a119 and they were considering new the moon as a show of force against the Soviets",
+      "kind": "host",
+      "cites": [
+        "carl-sagan"
+      ],
+      "documents": [],
+      "difference": "Dates it to the late 1950s-1960s and names no base, where the story gives 1958 and Kirtland Air Force Base.",
+      "link_reason": "Sagan's work on the Air Force's Project A119 plan to nuke the Moon as a show of force against the Soviets.",
+      "as_told": {
+        "title": "Sagan worked on Project A119",
+        "years": {
+          "from": 1957,
+          "to": 1969
+        },
+        "place_text": "United States (Air Force)",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "iPxbILOMQ08",
+      "from_s": 2806.0,
+      "to_s": 2816.0,
+      "teller": "jesse-michels",
+      "quote": "there's a actually an Air Force project that's documented called Project A119, and it was literally to nuke the moon as a show of force against the Soviets.",
+      "kind": "host",
+      "cites": [
+        "carl-sagan"
+      ],
+      "documents": [
+        "project-a119"
+      ],
+      "difference": "Dates it to the late 1950s and leaves out Kirtland Air Force Base.",
+      "link_reason": "Both tell of the Air Force's Project A119 plan to nuke the moon as a show of force against the Soviets, with Carl Sagan credited.",
+      "as_told": {
+        "title": "Project A119: plan to nuke the moon",
+        "years": {
+          "from": 1957,
+          "to": 1959
+        },
+        "place_text": "United States; Moon",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -82,7 +130,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -91,11 +139,13 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "2Xxmguz0GEQ",
       "8Rr_nE65KkI",
+      "iPxbILOMQ08",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says the astronomer Carl Sagan was a secret consultant on Project A119, a top-secret US Air Force plan run out of Kirtland Air Force Base to set off a nuclear bomb on the Moon. In later episodes Michels dates it to 1958 and says the point was a show of force against the Soviet Union. He tells it because, as he sees it, it puts a famous public scientist inside a hidden military project."
 }

@@ -42,6 +42,47 @@
         "place_text": "Global",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 125.0,
+      "to_s": 134.0,
+      "teller": "jesse-michels",
+      "quote": "this hypothesis known as the younger driest impact Theory sustains that an asteroid from the torrid meteor stream hit the earth causing a global cataclysm",
+      "kind": "host",
+      "cites": [
+        "graham-hancock"
+      ],
+      "documents": [],
+      "difference": "Calls the impactor an asteroid rather than a comet airburst, does not name Napier, and adds a date of c. 12,800 years ago.",
+      "link_reason": "Both tell the theory that the Younger Dryas cataclysm was caused by an impact from the Taurid meteor stream, and Michels tells it in the story already, crediting Hancock.",
+      "as_told": {
+        "title": "Younger Dryas impact from the Taurid meteor stream",
+        "years": null,
+        "place_text": "Earth (global)",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 4946.0,
+      "to_s": 4960.0,
+      "teller": "jesse-michels",
+      "quote": "you now have Randall Carlson and Graham Hancock talking about the younger Gius you know impact theory that you know um uh comet impact from the it was an air burst I guess in their opinion from the torid meteor stream",
+      "kind": "secondhand",
+      "cites": [
+        "randall-carlson",
+        "graham-hancock"
+      ],
+      "documents": [],
+      "difference": "Gives the date as about 12,800 years ago and does not mention Bill Napier.",
+      "link_reason": "Both tell of the Younger Dryas impact as a comet airburst from the Taurid meteor stream, credited to Carlson and Hancock; the story's host telling is almost word for word the same.",
+      "as_told": {
+        "title": "Younger Dryas impact theory: an airburst from the Taurid meteor stream",
+        "years": null,
+        "place_text": "Earth",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -65,7 +106,9 @@
       "randall-carlson"
     ],
     "episodes": [
+      "92XrddiKjHY",
       "JGE1NIGhBzw",
+      "dfPfPB601hw",
       "nRKNVFQBi38"
     ]
   },

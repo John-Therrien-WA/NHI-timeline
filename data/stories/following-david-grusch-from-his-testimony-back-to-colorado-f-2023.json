@@ -25,6 +25,52 @@
         "omar"
       ],
       "documents": []
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 7988.0,
+      "to_s": 8000.0,
+      "teller": "jesse-michels",
+      "quote": "doing this piece with David Grush, this UFO whistleblower who testified before Congress, uh you know, in uh end of summer of 2023.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Puts the testimony at the end of summer 2023 and doesn't mention Colorado or Omar.",
+      "link_reason": "Michels describes doing his piece on David Grusch around Grusch's 2023 testimony before Congress. That is the mini-documentary story he tells elsewhere.",
+      "as_told": {
+        "title": "David Grusch testimony to Congress and Michels documentary",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States Congress",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 5622.0,
+      "to_s": 5630.0,
+      "teller": "jesse-michels",
+      "quote": "I made this documentary with David Grush uh in September of 2023 after he testified before Congress.",
+      "kind": "host",
+      "cites": [
+        "david-grusch"
+      ],
+      "documents": [],
+      "difference": "Dates it to September 2023.",
+      "link_reason": "Both are Michels' 2023 mini-documentary following Grusch after his congressional testimony.",
+      "as_told": {
+        "title": "Michels' documentary with David Grusch after congressional testimony",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -107,6 +153,36 @@
       "story": "corbell-fought-for-grusch-to-testify-in-congress-2023",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ed-gets-cold-feet-before-ssci-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "graves-s-congressional-uap-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-testimony-prompts-rogers-to-come-forward-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "harrington-s-contact-with-david-grusch-and-his-view-of-grusc-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "herrera-testifies-at-greer-s-2023-national-press-club-event",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "scif-meeting-with-congressional-staffers-on-march-3-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -129,6 +205,8 @@
       "jesse-michels"
     ],
     "episodes": [
+      "92XrddiKjHY",
+      "WBTqsbwJyqU",
       "lcaY-rd9Dhc"
     ]
   },

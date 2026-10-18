@@ -46,6 +46,81 @@
         "place_text": "Madison Building, Washington, DC",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 83.0,
+      "to_s": 94.0,
+      "teller": "jesse-michels",
+      "quote": "Danny even sketches a photo of a UFO that he saw firsthand in a classified facility in Washington while reviewing the Blue Book files for Jimmy Carter",
+      "kind": "host",
+      "cites": [
+        "daniel-sheehan",
+        "jimmy-carter"
+      ],
+      "documents": [
+        "project-blue-book-files"
+      ],
+      "difference": "Leaves out the crashed-on-a-mountaintop detail and the symbols.",
+      "link_reason": "Both tell of Sheehan reviewing the Blue Book files in a Washington classified facility for the Carter administration and sketching a UFO photo.",
+      "as_told": {
+        "title": "Sheehan saw a UFO photo while reviewing the Blue Book files for Jimmy Carter",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Classified facility, Washington, D.C.",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 4953.0,
+      "to_s": 4970.0,
+      "teller": "daniel-sheehan",
+      "quote": "here are these photos and there's it was photos of a there wasn't any doubt about what it was it was a crash retrieval of a UFO you could see that the UFO had had crashed into this field and there was snow on the on on the field",
+      "kind": "firsthand",
+      "cites": [
+        "marcia-smith",
+        "father-davis"
+      ],
+      "documents": [
+        "project-blue-book-classified-files"
+      ],
+      "difference": "Puts the craft in a snowy field, not on a mountaintop, and credits Marcia Smith and Father Davis.",
+      "link_reason": "Both tell of Sheehan being shown classified Blue Book photos of a crashed UFO in the Madison Building and tracing its symbols.",
+      "as_told": {
+        "title": "Classified Blue Book photos of a crashed saucer in snow, symbols traced",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Madison Building basement, Library of Congress, Washington DC",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 3029.0,
+      "to_s": 3042.0,
+      "teller": "daniel-sheehan",
+      "quote": "the the UFO itself was stuck in the side of this big embankment in one of the photos I could see these symbols that were all around the base of the of the Dome",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "project-blue-book-files"
+      ],
+      "difference": "Dates it 1974-1977 rather than 1977-1979, and describes the UFO stuck in an embankment with symbols around the base of the dome.",
+      "link_reason": "Same account: Sheehan, in a SCIF in Washington, reviews Blue Book files and traces the symbols on a crashed UFO in a photo.",
+      "as_told": {
+        "title": "Sheehan traces symbols from crashed UFO photos in Blue Book files",
+        "years": {
+          "from": 1974,
+          "to": 1977
+        },
+        "place_text": "SCIF, Washington DC",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -56,7 +131,7 @@
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -67,7 +142,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -75,11 +150,13 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w",
-      "LpLFWdsIU7M"
+      "LpLFWdsIU7M",
+      "Sct30Qijfv8"
     ]
   },
-  "attestation": 1.25,
+  "attestation": 1.5,
   "tier": "told-once",
   "plain": "A man named Danny Sheehan says that in the late 1970s, under President Jimmy Carter's government, he was taken into a secure room in Washington to look over the files of Project Blue Book, the US Air Force's UFO study of the 1950s and 60s. According to Sheehan, he saw a sharp photo of a UFO crashed on a mountaintop, traced it, and copied down strange symbols that looked like hieroglyphs. A podcast host, Jesse Michels, has retold the story calling the room a SCIF, a sealed space for viewing classified material, but Sheehan himself says it was just a room downstairs in the Madison Building, and if his account is true, the government held pictures of a crashed craft."
 }

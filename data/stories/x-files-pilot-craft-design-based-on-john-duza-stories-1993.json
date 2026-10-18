@@ -1,0 +1,87 @@
+{
+  "id": "x-files-pilot-craft-design-based-on-john-duza-stories-1993",
+  "title": "X-Files pilot craft design based on John Duza stories",
+  "summary": "UAPGerb tells of X-Files pilot craft design based on John Duza stories, about 1993 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1993,
+    "to": 1993
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 42.0,
+      "to_s": 50.0,
+      "teller": "uapgerb",
+      "quote": "That design actually was featured in the first ever episode of the X Files, which was allegedly based on true stories from John Duza.",
+      "kind": "researcher",
+      "cites": [
+        "john-duza"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 5964.0,
+      "to_s": 5969.0,
+      "teller": "uapgerb",
+      "quote": "Bill McDonald was contracted to put that in the first ever episode of the XFiles.",
+      "kind": "researcher",
+      "cites": [
+        "bill-mcdonald",
+        "chris-carter",
+        "john-desouza"
+      ],
+      "documents": [],
+      "difference": "Names the design as the XF-131 and says Bill McDonald was contracted to put it in, crediting Chris Carter.",
+      "link_reason": "Both say the craft design appeared in the first X-Files episode, based on John Desouza's stories.",
+      "as_told": {
+        "title": "XF-131 design used in the X-Files pilot",
+        "years": {
+          "from": 1993,
+          "to": 1993
+        },
+        "place_text": "Hollywood",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "spielberg-tells-robert-liefeld-ufos-may-be-humans-from-the-f-1993",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher who goes by the online name UAPGerb told podcast host Jesse Michels that a craft design shown in the very first episode of The X-Files, a TV show about agents chasing the paranormal that began in 1993, was allegedly based on true stories from a man named John Desouza. In another telling he names the design as the XF-131 and says a man named Bill McDonald was hired to put it in the episode, crediting the show's creator, Chris Carter. If true, it would mean real secret designs found their way onto TV."
+}

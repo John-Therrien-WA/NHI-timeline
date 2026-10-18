@@ -24,19 +24,39 @@
         "identified-flying-objects",
         "extempore"
       ]
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 3795.0,
+      "to_s": 3802.0,
+      "teller": "eric-wargo",
+      "quote": "the real core there probably involves you know very likely involves time traveling uh humans",
+      "kind": "researcher",
+      "cites": [
+        "mike-masters"
+      ],
+      "documents": [],
+      "difference": "Eric Wargo tells it here and says the core of the phenomenon 'very likely' involves time-traveling humans.",
+      "link_reason": "Both tell Mike Masters' theory that UFOs are humans traveling back in time.",
+      "as_told": {
+        "title": "UFO phenomenon core as time-traveling humans",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
     "credited_documents": 2,
@@ -44,13 +64,15 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "eric-wargo",
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "hXYdkcv5TtY"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "well-attested",
   "plain": "Podcast host Jesse Michels describes the idea of Mike Masters, an evolutionary biologist at Montana Tech, a university in Montana. Michels says Masters has written books, including Identified Flying Objects and Extempore, arguing that UFOs may be humans from the future travelling back in time. If true, it would mean the visitors are not aliens but our own descendants."
 }

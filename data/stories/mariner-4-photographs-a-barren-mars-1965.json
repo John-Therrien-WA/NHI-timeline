@@ -1,0 +1,56 @@
+{
+  "id": "mariner-4-photographs-a-barren-mars-1965",
+  "title": "Mariner 4 photographs a barren Mars",
+  "summary": "Jesse Michels tells of Mariner 4 photographs a barren Mars, about 1965 at Mars, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1965,
+    "to": 1965
+  },
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7094.0,
+      "to_s": 7103.0,
+      "teller": "jesse-michels",
+      "quote": "Mariner for space probe photographed the planet up close in 1965 these photos revealed an inactive Planet barren and apparently lifeless",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "mariner-4-photographs"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JpLThEF2dTM"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, recounts that in 1965 Mariner 4, an American space probe, flew past Mars and took the first close-up photos of the planet. According to Michels, those pictures showed a barren, inactive world that looked lifeless, which he uses as the starting point for asking whether Mars once held life."
+}

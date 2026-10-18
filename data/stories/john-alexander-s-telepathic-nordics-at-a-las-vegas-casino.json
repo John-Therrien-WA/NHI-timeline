@@ -21,18 +21,38 @@
         "john-alexander"
       ],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 9158.0,
+      "to_s": 9164.0,
+      "teller": "jesse-michels",
+      "quote": "Colonel Alexander, when he told me the story of the the couple of Nordics that he saw in the casino hotel in Las Vegas, he said they were like that, too.",
+      "kind": "secondhand",
+      "cites": [
+        "colonel-alexander"
+      ],
+      "documents": [],
+      "difference": "Told by Jesse Michels, who heard it from Alexander directly; he speaks of a couple of Nordics who looked strikingly beautiful.",
+      "link_reason": "Both tell of Colonel John Alexander seeing Nordics at a hotel casino in Las Vegas.",
+      "as_told": {
+        "title": "Colonel Alexander saw two Nordics in a Las Vegas casino hotel",
+        "years": null,
+        "place_text": "Las Vegas, Nevada",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -41,13 +61,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jason-jorjani"
+      "jason-jorjani",
+      "jesse-michels"
     ],
     "episodes": [
+      "ABw7EsWh2Us",
       "EzPmG_7WhXc"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "A philosopher named Jason Jorjani, speaking on a podcast, says that John Alexander told many interesting stories. One, according to Jorjani, involved seeing Nordics, beings said to look like tall humans and to talk by telepathy, at a hotel casino in Las Vegas, which, if true, would mean such beings walk among ordinary people."
 }

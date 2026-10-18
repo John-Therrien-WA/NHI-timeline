@@ -21,6 +21,31 @@
         "joe-rogan"
       ],
       "documents": []
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 986.0,
+      "to_s": 1003.0,
+      "teller": "ross-coulthart",
+      "quote": "about it? I do not resile from saying what I've said previously, which is that there is a buried or at least built upon UFO that was too big to move. [laughter]",
+      "kind": "journalist",
+      "cites": [
+        "joe-rogan",
+        "jesse-michels"
+      ],
+      "documents": [],
+      "difference": "Also credits Jesse Michels.",
+      "link_reason": "This is Coulthart's same claim of a buried, or built-upon, UFO that was too big to move.",
+      "as_told": {
+        "title": "Ross Coulthart: buried UFO too big to move",
+        "years": null,
+        "place_text": "undisclosed sensitive site",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "episode": "V00WcEiKRAY",
+        "from_s": 6261.0
+      }
     }
   ],
   "related": [],
@@ -44,6 +69,7 @@
       "ross-coulthart"
     ],
     "episodes": [
+      "JE1oM89dpBc",
       "V00WcEiKRAY"
     ]
   },

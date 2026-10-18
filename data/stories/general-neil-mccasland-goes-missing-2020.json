@@ -116,6 +116,32 @@
         "place_text": "unspecified",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 270.0,
+      "to_s": 284.0,
+      "teller": "jesse-michels",
+      "quote": "The trail begins in Albuquerque, New Mexico, in the shadow of Sandia Mountains. It's February [music] 27th, 2026, a late Friday morning on Quail Run Court.",
+      "kind": "host",
+      "cites": [
+        "susan-mccasland",
+        "bernalillo-county-sheriff-s-office"
+      ],
+      "documents": [
+        "911-call-recording"
+      ],
+      "difference": "Gives the exact date (Friday morning, 27 February 2026) and the street (Quail Run Court in the Sandia foothills), and credits the 911 call and the sheriff's office.",
+      "link_reason": "Both tell of retired General Neil McCasland going missing from his New Mexico home in 2026.",
+      "as_told": {
+        "title": "Disappearance of retired Air Force General Neil McCasland",
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "place_text": "Quail Run Court, Albuquerque, New Mexico (Sandia foothills)",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -168,10 +194,70 @@
       "story": "grusch-reprisals-at-the-nga-2020",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "200-mainstream-scientists-want-to-study-the-phenomenon-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "arranging-and-conducting-the-bobby-ray-inman-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brett-weinstein-advised-not-to-air-robert-malone-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "former-ic-inspector-general-chuck-mccullough-s-ufo-involveme-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "icig-hints-that-humans-are-not-in-charge-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "inman-denies-retrieved-ufos-in-jay-anderson-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "inman-no-other-life-in-our-galaxy-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "lacatski-won-t-say-whether-there-has-been-government-contact-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nasa-mission-controller-tim-taylor-s-advice-think-about-what-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "obama-on-jimmy-kimmel-says-the-aliens-won-t-let-disclosure-h-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pais-stops-jesse-s-questions-in-motel-interview-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "spielberg-binge-watched-the-secret-of-skinwalker-ranch-befor-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.9,
+  "score": 2.4,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
@@ -182,7 +268,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "journalist",
@@ -194,10 +280,11 @@
       "-XdvIrexF08",
       "8Rr_nE65KkI",
       "A2-y_HasHEw",
-      "kccrkCGGzX4"
+      "kccrkCGGzX4",
+      "wlsQIbpEKSM"
     ]
   },
-  "attestation": 0.95,
+  "attestation": 1.2,
   "tier": "well-attested",
   "plain": "Neil McCasland is a retired US Air Force general who, according to a podcast host, Jesse Michels, was extremely high up. Michels says McCasland ran the Air Force Research Laboratory at Wright-Patterson, an Air Force base, and sat on a committee overseeing special access programs, the military's most secret projects. He also says McCasland was a source for Tom DeLonge, who wrote a set of books called Secret Machines that are labelled fiction. Michels says that in the 2020s McCasland went very mysteriously missing from his home in New Mexico. A journalist, Jeremy Corbell, says it too, pointing out that this man was charged with protecting national security and is now missing. So the story comes mainly from the host, told across several episodes, plus a journalist guest. Why it matters to them: if true, a man said to hold deep secrets has simply vanished."
 }

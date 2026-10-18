@@ -120,6 +120,30 @@
         "place_text": "Dallas, Texas",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 8377.0,
+      "to_s": 8389.0,
+      "teller": "jesse-michels",
+      "quote": "he also said he was involved in the JFK assassination and he said that uh JFK was killed over UFOs well he his son says he said that",
+      "kind": "host",
+      "cites": [
+        "e-howard-hunt",
+        "saint-john-hunt"
+      ],
+      "documents": [],
+      "difference": "Puts the event in Dallas and names Saint John Hunt as the son who passed the claim on.",
+      "link_reason": "Both tell Hunt's claim, passed on through his son, that JFK was killed over UFOs.",
+      "as_told": {
+        "title": "E. Howard Hunt said JFK was killed over UFOs",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "Dallas",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -155,6 +179,7 @@
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "2SQXAPCdmPE",
       "9QMrhcpJq8I",
       "DPmO-2E7Ayg",
       "TH10mD9hQas",

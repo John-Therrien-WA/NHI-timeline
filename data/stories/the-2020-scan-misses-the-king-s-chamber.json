@@ -1,0 +1,77 @@
+{
+  "id": "the-2020-scan-misses-the-king-s-chamber",
+  "title": "The 2020 scan misses the King's Chamber",
+  "summary": "Jeffrey Drum tells of The 2020 scan misses the King's Chamber, about 2020 at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2020
+  },
+  "place": "egypt",
+  "place_text": "Great Pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 3837.0,
+      "to_s": 3840.0,
+      "teller": "jeffrey-drum",
+      "quote": "I don't see a clear signature there for the King's Chamber.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "synthetic-aperture-radar-doppler-tomography-detects-undiscov"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "sar-tomography-detects-king-s-chamber-relieving-chamber-beam-2020",
+      "relation": "variant",
+      "note": "Both are about whether the 2020 SAR scan of the Great Pyramid picks up the King's Chamber. The story says it shows no clear signature, while this telling says it detects the chamber, the beams and the sarcophagus."
+    },
+    {
+      "story": "sar-scan-shows-shaft-system-coming-out-of-the-bottom-of-the-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tag-17-dead-end-corridor-behind-the-north-face-chevrons-dete-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-2020-scan-detects-the-queen-s-chamber-shaft",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey-drum"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Jeffrey Drum, a researcher, looks at a 2020 study that used a kind of satellite radar imaging to see inside the Great Pyramid of Giza in Egypt. He says that in the scan he does not see a clear signature for the King's Chamber, one of the best-known rooms inside the pyramid. That matters because it raises the question of how well the method sees what is really there."
+}

@@ -24,6 +24,51 @@
       "documents": [
         "60-minutes-interview"
       ]
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 2394.0,
+      "to_s": 2400.0,
+      "teller": "jesse-michels",
+      "quote": "just recently UH 60\nminutes in collaboration with DAR\nSpiegel came out with a piece",
+      "kind": "host",
+      "cites": [
+        "60-minutes",
+        "der-spiegel"
+      ],
+      "documents": [],
+      "difference": "Names Der Spiegel as a collaborator and dates the piece as recent (2024).",
+      "link_reason": "Both refer to the same 60 Minutes report on Havana syndrome; this telling adds that it was made with Der Spiegel.",
+      "as_told": {
+        "title": "60 Minutes / Der Spiegel Havana syndrome report",
+        "years": {
+          "from": 2024,
+          "to": 2024
+        },
+        "place_text": null,
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 8790.0,
+      "to_s": 8795.0,
+      "teller": "jesse-michels",
+      "quote": "say that Russia and microwave weaponry is responsible for this Havana syndrome",
+      "kind": "host",
+      "cites": [
+        "cia",
+        "nsa"
+      ],
+      "documents": [],
+      "difference": "Credits the CIA and NSA and names microwave weapons, places it in the last couple of years and leaves out the 1980s timeline and 60 Minutes.",
+      "link_reason": "Both attribute Havana syndrome to Russian attacks, here said to use microwave weapons.",
+      "as_told": {
+        "title": "Havana syndrome attributed to Russian microwave weaponry",
+        "years": null,
+        "place_text": "worldwide diplomatic posts",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -36,32 +81,65 @@
       "story": "senator-inouye-on-a-shadow-government-during-iran-contra-1980",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "bill-moore-warns-steinman-off-mrs-wang-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "call-to-space-command-about-a-classified-extraterrestrial-th-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "raymond-lavos-claims-esoteric-math-for-b-2-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "reagan-asks-gorbachev-for-help-against-an-attack-from-space-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "researchers-question-dr-eric-walker-about-ufos-at-penn-state-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "william-steinman-pushed-out-of-aerospace-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.1,
+  "score": 2.3,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
-      "eric-haseltine"
+      "eric-haseltine",
+      "jesse-michels"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
+      "K4gYHs84BIc",
       "jMCavr3dVP0"
     ]
   },
-  "attestation": 1.05,
-  "tier": "told-once",
+  "attestation": 1.15,
+  "tier": "well-attested",
   "plain": "Eric Haseltine, a former senior official at the National Security Agency, the US spy agency for electronic communications, talked with podcast host Jesse Michels about \"Havana syndrome.\" That is the name for mysterious illnesses reported by US diplomats and intelligence officers at home and abroad. Haseltine points to an interview on 60 Minutes, a US television news programme, in which it was said that if the Russians are behind these attacks, which by this account go back to the 1980s, that would be an act of war."
 }

@@ -51,6 +51,32 @@
         "place_text": "S4, Nevada",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2351.0,
+      "to_s": 2358.0,
+      "teller": "jesse-michels",
+      "quote": "Vallée claims that Lazar told him about a strange liquid he was made to drink and the memory lapses it caused.",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee",
+        "bob-lazar"
+      ],
+      "documents": [
+        "jacques-vallee-s-book-about-ufo-misinformation"
+      ],
+      "difference": "Told by George Knapp's host framing with Vallée's book as the source; nothing new in substance.",
+      "link_reason": "Both tell of Lazar telling Vallée about a liquid he was made to drink and the memory lapses it caused.",
+      "as_told": {
+        "title": "Lazar's liquid and memory lapses per Vallée",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Nevada",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -61,7 +87,7 @@
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -72,7 +98,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -80,11 +106,12 @@
       "jesse-michels"
     ],
     "episodes": [
+      "RTEWLSTyUic",
       "d9tdJ2SkBKQ",
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that Bob Lazar, a man who claims he worked on alien spacecraft at a secret Nevada site called S-4 near the Area 51 air base, once told the UFO researcher Jacques Vallee that he was made to drink a liquid there that caused gaps in his memory. Michels says Vallee wrote about Lazar in his book Messengers of Deception, and he also asks about Lazar's ties to John Lear, another figure in UFO circles. If true, it would suggest the workers at the site had their memories deliberately tampered with."
 }

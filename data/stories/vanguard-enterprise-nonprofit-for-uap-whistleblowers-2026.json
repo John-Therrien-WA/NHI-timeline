@@ -25,6 +25,27 @@
         "jeffrey-nusatelli"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 11313.0,
+      "to_s": 11322.0,
+      "teller": "dylan-borland",
+      "quote": "I'm allin. Um, the idea is to help whistleblowers and their families medically, financially, spiritually, emotionally.",
+      "kind": "firsthand",
+      "cites": [
+        "matthew-brown",
+        "jeff-nuccetelli"
+      ],
+      "documents": [],
+      "difference": "Told by Borland rather than Brown, and lists the aims as medical, financial, spiritual and emotional help for whistleblowers and their families.",
+      "link_reason": "Both are the Vanguard nonprofit that Borland and Matthew Brown started to support UAP whistleblowers, which Jeff Nuccetelli has joined.",
+      "as_told": {
+        "title": "Vanguard whistleblower support project",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -52,13 +73,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "matthew-brown"
+      "dylan-borland"
     ],
     "episodes": [
+      "K4gYHs84BIc",
       "yGtVzBbUvx4"
     ]
   },

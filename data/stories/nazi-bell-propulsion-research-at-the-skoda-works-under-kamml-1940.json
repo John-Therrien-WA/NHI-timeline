@@ -1,0 +1,62 @@
+{
+  "id": "nazi-bell-propulsion-research-at-the-skoda-works-under-kamml-1940",
+  "title": "Nazi Bell propulsion research at the Skoda Works under Kammler",
+  "summary": "Jason Jorjani tells of Nazi Bell propulsion research at the Skoda Works under Kammler, about 1940s at Skoda Works, near Prague, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Skoda Works, near Prague",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 2144.0,
+      "to_s": 2162.0,
+      "teller": "jason-jorjani",
+      "quote": "Nazi advanced propulsion research that was going on again at a facility called the SCOD works just outside Prague under the direction of SS General Hans Comler.",
+      "kind": "researcher",
+      "cites": [
+        "hans-kammler",
+        "joseph-farrell",
+        "nick-cook",
+        "igor-witkowski"
+      ],
+      "documents": [
+        "closer-encounters",
+        "the-hunt-for-zero-point"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A researcher named Jason Jorjani says that in the 1940s Nazi Germany ran advanced propulsion research, including a device called the Bell, at the Skoda Works, a large industrial site just outside Prague, under SS General Hans Kammler. He draws on writers such as Nick Cook, author of The Hunt for Zero Point, Igor Witkowski and Joseph Farrell. If true, it would mean the Nazis were chasing exotic flight technology during the war."
+}

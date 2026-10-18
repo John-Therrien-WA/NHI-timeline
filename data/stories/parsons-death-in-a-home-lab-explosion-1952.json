@@ -1,0 +1,56 @@
+{
+  "id": "parsons-death-in-a-home-lab-explosion-1952",
+  "title": "Parsons' death in a home lab explosion",
+  "summary": "Jesse Michels tells of Parsons' death in a home lab explosion, about 1952 at Pasadena, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": null,
+  "place_text": "Pasadena",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 1375.0,
+      "to_s": 1390.0,
+      "teller": "jesse-michels",
+      "quote": "In 1952, he died in an explosion in his home laboratory. Officially, it was ruled an accident involving volatile chemicals. But, some found the circumstances suspicious.",
+      "kind": "host",
+      "cites": [
+        "jack-parsons"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Jack Parsons, an early American rocket pioneer, died in 1952 in an explosion in his home laboratory in Pasadena, California. According to Michels, it was officially ruled an accident with volatile chemicals, but some people found the circumstances suspicious, which would mean his death may not have been as simple as the record says."
+}

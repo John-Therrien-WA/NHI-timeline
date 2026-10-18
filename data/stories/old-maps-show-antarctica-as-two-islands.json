@@ -1,0 +1,54 @@
+{
+  "id": "old-maps-show-antarctica-as-two-islands",
+  "title": "Old maps show Antarctica as two islands",
+  "summary": "Jason Jorjani tells of Old maps show Antarctica as two islands, about 16th century maps at Antarctica, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "antarctica",
+  "place_text": "Antarctica",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6347.0,
+      "to_s": 6354.0,
+      "teller": "jason-jorjani",
+      "quote": "map, but one of them shows that Antarctica actually consists of two islands that are very close together.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "piri-reis-map",
+        "oronteus-finaeus-map"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Jason Jorjani, a researcher who appeared on Jesse Michels' podcast, talks about old maps from the 1500s, including ones known as the Piri Reis map and the Oronteus Finaeus map. He says one of them shows Antarctica as two islands sitting very close together. Told this way, the maps would suggest that someone mapped Antarctica's land long before anyone is thought to have seen it."
+}

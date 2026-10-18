@@ -1,0 +1,53 @@
+{
+  "id": "fake-videos-offered-to-james-fox",
+  "title": "Fake videos offered to James Fox",
+  "summary": "Italo Venturelli tells of Fake videos offered to James Fox, about recent at Brazil, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Brazil",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 7924.0,
+      "to_s": 7930.0,
+      "teller": "italo-venturelli",
+      "quote": "People have already tried to sell so many videos to him. But they're not real.",
+      "kind": "secondhand",
+      "cites": [
+        "james-fox"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "italo-venturelli"
+    ],
+    "episodes": [
+      "UkKwa4jU0fc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A surgeon from Brazil named Italo Venturelli, speaking on Jesse Michels's podcast, talks about a man named James Fox. He says people have already tried to sell Fox many videos, but that they are not real. It is told as a warning that fake footage gets offered to people looking into these stories."
+}

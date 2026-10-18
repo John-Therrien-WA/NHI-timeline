@@ -22,6 +22,28 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 3242.0,
+      "to_s": 3255.0,
+      "teller": "gary-nolan",
+      "quote": ">> So, yeah, we did a we did a mass spectrometry analysis of some of those pieces with a highly sensitive instrument. And one of them was anomalous. The magnesium ratios were way off.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Calls the instrument a highly sensitive mass spectrometer rather than naming NanoSIMS.",
+      "link_reason": "The same isotope analysis of the Ubatuba pieces at Stanford by Nolan, which found anomalous magnesium ratios.",
+      "as_told": {
+        "title": "Mass-spectrometry analysis of the Ubatuba pieces",
+        "years": null,
+        "place_text": "Stanford University",
+        "story_kind": "document"
+      },
+      "replay_of": {
+        "episode": "dzTZbSNsKV8",
+        "from_s": 645.0
+      }
     }
   ],
   "related": [],
@@ -45,6 +67,7 @@
       "gary-nolan"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
       "dzTZbSNsKV8"
     ]
   },

@@ -1,0 +1,55 @@
+{
+  "id": "headmaster-bans-louis-braille-s-books-at-the-first-school-fo",
+  "title": "Headmaster bans Louis Braille's books at the first school for the blind",
+  "summary": "Ky Dickens tells of Headmaster bans Louis Braille's books at the first school for the blind, about 19th century at France, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "France",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 1663.0,
+      "to_s": 1671.0,
+      "teller": "ky-dickens",
+      "quote": "a new Headmaster came into school he was like this is pseudo science this isn't real he locked away all the braille books",
+      "kind": "researcher",
+      "cites": [
+        "louis-braille"
+      ],
+      "documents": [
+        "history-of-louis-braille"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "ky-dickens"
+    ],
+    "episodes": [
+      "0qlppHc3-gg"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Ky Dickens, a documentary maker who made a film about children said to read minds, tells a story from the history of Louis Braille, the man behind the raised-dot reading system for blind people. She says that at the first school for the blind in France, a new headmaster called Braille's system pseudoscience and locked away all the Braille books. She uses it to show how new ideas that turn out to work can be dismissed at first."
+}

@@ -49,35 +49,87 @@
         "place_text": "Atlantis; Sais, Egypt",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 967.0,
+      "to_s": 977.0,
+      "teller": "jesse-michels",
+      "quote": "Another good example is the myth of Atlantis where you have, you know, Plato and uh Solon, you know, saying that, you know, there was there was a great flood here 9,000 years ago.",
+      "kind": "host",
+      "cites": [
+        "plato",
+        "solon",
+        "graham-hancock",
+        "randall-carlson"
+      ],
+      "documents": [
+        "timaeus",
+        "critias"
+      ],
+      "difference": "Also credits Randall Carlson, and frames it as a myth with a great flood rather than tying it to the Younger Dryas.",
+      "link_reason": "Both say Plato, through Solon, dates Atlantis and its flood to 9,000 years before Solon's c. 600 BC visit to Egypt; Jesse Michels already tells this in that story, crediting Hancock.",
+      "as_told": {
+        "title": "Plato and Solon's Atlantis and the flood of 9600 BC",
+        "years": null,
+        "place_text": "Atlantis / Athens / Egypt",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6221.0,
+      "to_s": 6232.0,
+      "teller": "jesse-michels",
+      "quote": "was 9,000 years ago and that's 9 9,600 00 BC which is literally the end of the ice age and this flood which ended the ice age was called meltwater pulse 1b.",
+      "kind": "host",
+      "cites": [
+        "graham-hancock",
+        "randall-carlson",
+        "plato"
+      ],
+      "documents": [
+        "timaeus",
+        "critias"
+      ],
+      "difference": "Says outright that the Meltwater Pulse 1B flood destroyed Atlantis and credits Carlson as well.",
+      "link_reason": "Plato's 9600 BC date for Atlantis matched to the end of the ice age and Meltwater Pulse 1B, told by the same host crediting Hancock.",
+      "as_told": {
+        "title": "Atlantis destroyed by Meltwater Pulse 1B flood",
+        "years": null,
+        "place_text": "Atlantis",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 3.0,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 3,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels",
       "randall-carlson"
     ],
     "episodes": [
+      "92XrddiKjHY",
+      "ABw7EsWh2Us",
       "C_Na1tI5qpw",
       "JGE1NIGhBzw"
     ]
   },
-  "attestation": 1.5,
-  "tier": "well-attested",
+  "attestation": 0.5,
+  "tier": "told-once",
   "plain": "This story is about Atlantis, the lost island civilisation described by the ancient Greek philosopher Plato in two of his dialogues, the Timaeus and the Critias. A researcher of ancient catastrophes named Randall Carlson points out that Plato dates Atlantis to 9,000 years before the Athenian lawmaker Solon travelled to Egypt, which Carlson puts at 600 BC, so about 9600 BC. In the story's framing, that date lines up with the end of the Younger Dryas, a sudden cold spell near the close of the last ice age, and with Meltwater Pulse 1B, a fast rise in sea level as ice melted. A podcast host named Jesse Michels also tells it, crediting a writer named Graham Hancock and saying the account was told in 600 BC and is recorded in the Timaeus and Critias, with the Egyptian city of Sais as the place. People tell it because, if true, Plato's tale would preserve a real memory of a civilisation lost to a global disaster."
 }

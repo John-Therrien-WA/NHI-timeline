@@ -1,0 +1,104 @@
+{
+  "id": "dinosaur-extinction-by-chicxulub-impact-and-the-ridicule-of-1980",
+  "title": "Dinosaur extinction by Chicxulub impact and the ridicule of the Alvarezes",
+  "summary": "Graham Hancock tells of Dinosaur extinction by Chicxulub impact and the ridicule of the Alvarezes, about 66 million years ago; 1980s debate at Chicxulub crater, Yucatan, and reports it citing named sources. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1989
+  },
+  "place": "mexico",
+  "place_text": "Chicxulub crater, Yucatan",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 4418.0,
+      "to_s": 4433.0,
+      "teller": "graham-hancock",
+      "quote": "extinction of the dinosaurs 66 million years ago nobody disputes now that that was done by a comet or an asteroid the chicks group crater in in the Yucatan deep now beneath the earth and the sea is the evidence for that",
+      "kind": "journalist",
+      "cites": [
+        "luis-alvarez",
+        "walter-alvarez"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4971.0,
+      "to_s": 4982.0,
+      "teller": "graham-hancock",
+      "quote": "But it still wasn't accepted until they found the crater. These are These are which is the Chicxulub crater, deeply buried in the Gulf of Mexico.",
+      "kind": "researcher",
+      "cites": [
+        "luis-alvarez",
+        "walter-alvarez"
+      ],
+      "documents": [],
+      "difference": "Stresses that the theory was not accepted until the crater was found, and places the crater in the Gulf of Mexico rather than the Yucatan.",
+      "link_reason": "Both tell of the Alvarez theory that an asteroid or comet impact killed the dinosaurs, with the buried Chicxulub crater as the evidence. The teller is the same, Graham Hancock.",
+      "as_told": {
+        "title": "Alvarez asteroid impact theory and the Chicxulub crater",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Chicxulub crater, Gulf of Mexico",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 4938.0,
+      "to_s": 4949.0,
+      "teller": "jesse-michels",
+      "quote": "he had this theory that an asteroid hit the earth 66 million years ago and that caused, you know, dinosaurs to go extinct.",
+      "kind": "host",
+      "cites": [
+        "luis-walter-alvarez"
+      ],
+      "documents": [],
+      "difference": "Credits only Luis Alvarez and does not mention the Chicxulub crater or the ridicule the theory met.",
+      "link_reason": "Both tell of the Alvarez theory that an asteroid impact 66 million years ago killed the dinosaurs.",
+      "as_told": {
+        "title": "Luis Alvarez's asteroid impact theory of the dinosaur extinction",
+        "years": null,
+        "place_text": "Earth",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.4,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "graham-hancock",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "9PJJiut0Iuw",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 0.7,
+  "tier": "told-by-several",
+  "plain": "This is the story of how the dinosaurs died out 66 million years ago, and of the scientists who first said why. The writer Graham Hancock says on Jesse Michels' podcast that nobody now disputes that a comet or asteroid did it, and that the proof is the Chicxulub crater, buried deep under land and sea around Mexico's Yucatan, which in another telling he places under the Gulf of Mexico. He credits the scientists Luis and Walter Alvarez, who put the idea forward in the 1980s, and says it was not accepted until the crater was found. Michels himself tells it more briefly, crediting only Luis Alvarez. They tell it as an example of an idea that was rejected at first and later proven right."
+}

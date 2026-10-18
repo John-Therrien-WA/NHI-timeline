@@ -126,6 +126,58 @@
         "place_text": "Office of the IC Inspector General, United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 2394.0,
+      "to_s": 2408.0,
+      "teller": "jesse-michels",
+      "quote": "And he gave over a thousand pages to the inspector general, the ICIG, Thomas Mannheim, who the the quote from Mannheim was, \"This is urgent and credible.\"",
+      "kind": "host",
+      "cites": [
+        "david-grush",
+        "thomas-mannheim"
+      ],
+      "documents": [
+        "grusch-disclosure-to-the-icig"
+      ],
+      "difference": "Says over a thousand pages, not hundreds, and gives the 'urgent and credible' quote to Thomas Monheim.",
+      "link_reason": "Both are Grusch's documents handed to the ICIG, which called them urgent and credible.",
+      "as_told": {
+        "title": "Grusch's thousand pages to the ICIG, called 'urgent and credible'",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "Intelligence Community Inspector General",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 8253.0,
+      "to_s": 8264.0,
+      "teller": "uapgerb",
+      "quote": "hundreds of documents, I think maybe a\nthousand pages plus to the IC inspector\ngeneral, Thomas Minheim, who's now out\nand they've not they've they haven't\ndone anything about it",
+      "kind": "researcher",
+      "cites": [
+        "david-grusch",
+        "thomas-monheim"
+      ],
+      "documents": [
+        "grusch-submission-to-the-ic-inspector-general"
+      ],
+      "difference": "Says it may be more than a thousand pages, that Monheim is now out of the job, and that nothing has been done with them.",
+      "link_reason": "Both tell of Grusch handing hundreds of pages of documents to the IC Inspector General, Thomas Monheim.",
+      "as_told": {
+        "title": "Grusch's documents to IC Inspector General Monheim",
+        "years": {
+          "from": 2022,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -141,33 +193,36 @@
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 3,
+    "credited_documents": 5,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "uapgerb"
     ],
     "episodes": [
       "-XdvIrexF08",
+      "6WC4o2yY9Ws",
       "8Rr_nE65KkI",
       "A2-y_HasHEw",
       "lcaY-rd9Dhc",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
+  "attestation": 2.0,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says that around 2022 a witness named David Grusch handed hundreds of pages of documents to the Intelligence Community Inspector General, the watchdog for US spy agencies, then led by Thomas Monheim. According to Michels, the watchdog called the claims urgent and credible, and the pages described a secret, long-running program to recover crashed UFOs, which would mean the government has been hiding such material."
 }

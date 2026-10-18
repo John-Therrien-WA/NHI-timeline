@@ -25,6 +25,29 @@
         "walter-haut"
       ],
       "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1357.0,
+      "to_s": 1368.0,
+      "teller": "jesse-michels",
+      "quote": "And I do believe the basic Roswell story that like some sort of you know this memory metal and I believe Jesse Marcel this air air force flight surgeon",
+      "kind": "host",
+      "cites": [
+        "jesse-marcel"
+      ],
+      "documents": [],
+      "difference": "Adds that the material was taken to Wright Field and calls Marcel an Air Force flight surgeon.",
+      "link_reason": "Both are the host saying he believes Jesse Marcel and the Roswell memory-metal account.",
+      "as_told": {
+        "title": "Roswell memory metal taken to Wright Field",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico; Wright Field, Ohio",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -107,6 +130,71 @@
       "story": "roswell-witnesses-describe-non-human-being-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "alien-bodies-and-a-live-gray-recovered-at-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fort-worth-general-orders-blanchard-it-s-a-weather-balloon-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-marcel-s-unbendable-foil-thin-metal-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-caused-by-radio-signatures-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-held-the-most-us-nukes-in-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-s-shifting-official-stories-including-the-progeria-c-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-the-world-s-only-nuclear-bomber-base-couldn-t-tell-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-in-the-hangar-had-the-bathroom-on-the-other-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-rumoured-at-wright-patterson-lab-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "serpo-alien-language-decoded-from-a-live-ebe-recovered-at-ro-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tim-taylor-places-piece-of-roswell-crash-in-bledsoe-s-hand-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "two-saucers-at-roswell-left-melted-fiber-optics-that-looked-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "washington-quickly-ordered-roswell-bottled-up-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -129,7 +217,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "8Rr_nE65KkI"
+      "8Rr_nE65KkI",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 0.1,

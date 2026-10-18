@@ -1,0 +1,91 @@
+{
+  "id": "operation-highjump-and-byrd-s-statement-1946",
+  "title": "Operation Highjump and Byrd's statement",
+  "summary": "Richard Dolan tells of Operation Highjump and Byrd's statement, about 1946-1947 at Antarctica, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1946,
+    "to": 1947
+  },
+  "place": "antarctica",
+  "place_text": "Antarctica",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 4350.0,
+      "to_s": 4361.0,
+      "teller": "richard-dolan",
+      "quote": "because I remember I read Bird's full statement that he gave and if you really read the whole thing I don't think he's really talking about flying saucers.",
+      "kind": "researcher",
+      "cites": [
+        "admiral-byrd"
+      ],
+      "documents": [
+        "byrd-s-statement"
+      ]
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 6889.0,
+      "to_s": 6906.0,
+      "teller": "jason-jorjani",
+      "quote": "port in Chile he gave a statement to the Chilean press saying that we needed to prepare for a third World War in which aircraft could cross from pole to pole at tremendous speeds.",
+      "kind": "researcher",
+      "cites": [
+        "admiral-byrd"
+      ],
+      "documents": [
+        "chilean-press-clippings"
+      ],
+      "difference": "Places the statement with the Chilean press and quotes Byrd warning of aircraft flying pole to pole at great speed. Dolan's telling only says Byrd was not really talking about flying saucers.",
+      "link_reason": "Both are about the statement Admiral Byrd gave after Operation Highjump in 1947.",
+      "as_told": {
+        "title": "Admiral Byrd's statement to the Chilean press",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Chile",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "operation-highjump-laser-shooting-discs",
+      "relation": "variant",
+      "note": "Both are about Byrd and Operation Highjump. Dolan reads Byrd's statement as not being about flying saucers, while the story claims the fleet met laser-shooting discs."
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani",
+      "richard-dolan"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us",
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested",
+  "plain": "This story is about Operation Highjump, a US Navy expedition to Antarctica in 1946 and 1947, and something Admiral Richard Byrd said afterwards. A researcher, Jason Jorjani, says that when Byrd reached a port in Chile he told the Chilean press that America needed to prepare for a third world war, in which aircraft could fly from pole to pole at tremendous speed. Some people read that as a hint that Byrd met strange flying craft in Antarctica, and a related version even speaks of discs shooting lasers. Another researcher, Richard Dolan, tells it differently. He says he read Byrd's full statement and does not think Byrd was really talking about flying saucers. So the two agree there was a statement but disagree on what it meant."
+}

@@ -1,0 +1,103 @@
+{
+  "id": "age-of-disclosure-documentary-us-holds-craft-and-alien-bodie-2025",
+  "title": "Age of Disclosure documentary: US holds craft and alien bodies",
+  "summary": "Jesse Michels tells of Age of Disclosure documentary: US holds craft and alien bodies, about 2025-2026 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2025,
+    "to": 2026
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 6125.0,
+      "to_s": 6171.0,
+      "teller": "jesse-michels",
+      "quote": "Speaking of extremely advanced technology, a documentary just came out of the United States where you had a former CIA director, Brennan, and former director of national intelligence, James Clapper, and you had a whole host of intelligence officials, um, quoted people like David Grush, who was, you know, former national geospatial agency, a bunch of people down the line saying that the US is not only involved than UFO research, but they have uh materials and they have saucers and crafts and hangers where they're working on reverse engineering these UFOs and they have alien bodies as well that they've recovered alongside these crafts.",
+      "kind": "host",
+      "cites": [
+        "john-brennan",
+        "james-clapper",
+        "david-grusch"
+      ],
+      "documents": [
+        "age-of-disclosure"
+      ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 9520.0,
+      "to_s": 9527.0,
+      "teller": "jesse-michels",
+      "quote": "They're saying we have like, you know, decades long like, you know, multigenerational crash retrievals.",
+      "kind": "host",
+      "cites": [
+        "james-clapper",
+        "john-brennan"
+      ],
+      "documents": [
+        "the-age-of-disclosure"
+      ],
+      "difference": "Frames it as decades-long, multigenerational crash retrievals and ties it to Area 51.",
+      "link_reason": "Clapper and Brennan in The Age of Disclosure backing the claim that the US holds recovered craft is the same documentary claim as this story.",
+      "as_told": {
+        "title": "Clapper and Brennan in The Age of Disclosure: multigenerational crash retrievals",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Area 51",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "intel-sources-seeding-claim-of-a-craft-slowly-moving-to-eart-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-michels-also-told-of-an-incoming-craft-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "odni-claim-that-dylan-borland-drew-a-sensor-system-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "nqLnEVcZ8vE",
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels describes a new documentary called The Age of Disclosure. He says it features John Brennan, a former head of the CIA, and James Clapper, a former head of all US spy agencies, along with officials such as David Grusch, who once worked at the agency that handles US satellite and map intelligence. According to Michels, these people say the US holds crashed saucers in hangars, is trying to copy their technology, and has recovered alien bodies with them, and in another episode he describes it as decades of crash recoveries passed down through generations and ties it to Area 51, a secret Air Force base in Nevada."
+}

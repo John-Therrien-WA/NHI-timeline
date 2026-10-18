@@ -5,7 +5,7 @@
   "era": null,
   "years": null,
   "place": null,
-  "place_text": null,
+  "place_text": "Germany",
   "coordinates": null,
   "kind": "testimony",
   "claims": [],
@@ -21,33 +21,55 @@
         "hermann-oberth"
       ],
       "documents": []
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 1660.0,
+      "to_s": 1676.0,
+      "teller": "hermann-oberth",
+      "quote": "After so many witnesses have seen the so-called flying saucers, their existence cannot longer be denied. I believe that these flying objects come from another solar system.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Quotes Oberth himself saying the saucers can't be denied and come from another solar system, where the story has him saying UFOs should make anyone question reality.",
+      "link_reason": "Both are Oberth's own recorded statement speculating about UFOs.",
+      "as_told": {
+        "title": "Oberth: flying saucers come from another solar system",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Germany",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "hermann-oberth"
     ],
     "episodes": [
-      "-0g3lLGxNfc"
+      "-0g3lLGxNfc",
+      "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that Hermann Oberth, one of the founding pioneers of rocket science, was recorded on video speculating about UFOs. According to Michels, Oberth said that the existence of UFOs should make anybody question reality, a striking thing to hear from a serious scientist."
 }

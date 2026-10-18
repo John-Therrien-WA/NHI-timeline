@@ -21,6 +21,46 @@
         "carl-jung"
       ],
       "documents": []
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 349.0,
+      "to_s": 355.0,
+      "teller": "jesse-michels",
+      "quote": "she says look I had I had this dream last night that I was gifted this golden scare Beetle",
+      "kind": "host",
+      "cites": [
+        "carl-jung"
+      ],
+      "documents": [],
+      "difference": "Told as a story from therapy, with no time-loop framing; dated to the early 20th century.",
+      "link_reason": "Same story of Jung's materialist patient dreaming of a golden scarab, told by the same host.",
+      "as_told": {
+        "title": "Jung's patient and the golden scarab beetle",
+        "years": null,
+        "place_text": "Carl Jung's therapy office",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "aGqFOxuYRT0",
+      "from_s": 5416.0,
+      "to_s": 5426.0,
+      "teller": "jesse-michels",
+      "quote": "But she's very skeptical. And as she's telling the story, a scarab beetle comes down the window sill and lands right in the office.",
+      "kind": "host",
+      "cites": [
+        "carl-jung"
+      ],
+      "documents": [],
+      "difference": "Describes the beetle arriving at the window while she tells the dream, and does not frame it as a time loop.",
+      "link_reason": "Both are Michels telling Jung's anecdote of the skeptical patient and the golden scarab beetle.",
+      "as_told": {
+        "title": "Carl Jung's patient and the golden scarab beetle",
+        "years": null,
+        "place_text": "Carl Jung's office, Switzerland",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -44,7 +84,9 @@
       "jesse-michels"
     ],
     "episodes": [
-      "Y26iMB0r-f8"
+      "Y26iMB0r-f8",
+      "aGqFOxuYRT0",
+      "hXYdkcv5TtY"
     ]
   },
   "attestation": 0.1,

@@ -49,6 +49,27 @@
         "place_text": "Varginha, Brazil",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 4600.0,
+      "to_s": 4608.0,
+      "teller": "aldo-rebello",
+      "quote": "The phenomenon existed. It was there. The objects were there. The creature was seen.",
+      "kind": "official",
+      "cites": [],
+      "documents": [],
+      "difference": "Rebello's own words, specifying that the objects were there and the creature was seen.",
+      "link_reason": "Rebello affirms the Varginha event was real, the same claim as the story of Michels' interview with Rebelo saying 'this happened'.",
+      "as_told": {
+        "title": "Rebello affirms the Varginha objects and creature were real",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Minas Gerais, Brazil",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -101,33 +122,64 @@
       "story": "varginha-crash-and-captured-being-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "army-trucks-cordoning-off-the-hospital-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "craft-shot-down-before-crashing-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "military-convoy-cordons-the-crash-site-and-a-soldier-threate-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-being-was-nearly-taken-to-the-zoo-before-it-went-to-the-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tres-coracoes-army-battalion-supports-the-varginha-operation-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-pilot-testifies-about-scrubbed-cia-and-air-force-missions-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.6,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "official",
     "tellers": [
-      "jesse-michels"
+      "aldo-rebello"
     ],
     "episodes": [
       "8Rr_nE65KkI",
-      "A2-y_HasHEw"
+      "A2-y_HasHEw",
+      "nqLnEVcZ8vE"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.8,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in 2026 he went to Brazil and interviewed Aldo Rebelo, a former Brazilian defense minister who is now running for president. The subject was what happened in 1996 in Varginha, a town in Brazil where a craft is said to have crashed and a living creature to have been captured. According to Michels, Rebelo told him plainly, \"Yeah, this happened,\" which if true would mean a senior Brazilian official stands behind the case."
 }

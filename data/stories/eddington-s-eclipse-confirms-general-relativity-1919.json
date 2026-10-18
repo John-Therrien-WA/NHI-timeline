@@ -1,0 +1,57 @@
+{
+  "id": "eddington-s-eclipse-confirms-general-relativity-1919",
+  "title": "Eddington's eclipse confirms general relativity",
+  "summary": "Greg Rogers tells of Eddington's eclipse confirms general relativity, about 1919 at Solar eclipse observation, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1919,
+    "to": 1919
+  },
+  "place": null,
+  "place_text": "Solar eclipse observation",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 8525.0,
+      "to_s": 8545.0,
+      "teller": "greg-rogers",
+      "quote": "theory and of all people it would take an enemy of Germany um uh Eddington uh to um do the the work on capturing the deviation of a star around the sun during an eclipse",
+      "kind": "researcher",
+      "cites": [
+        "arthur-eddington",
+        "albert-einstein"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg-rogers"
+    ],
+    "episodes": [
+      "TNtlzEnl8rA"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A former NASA doctor named Greg Rogers tells podcast host Jesse Michels about 1919, when the British astronomer Arthur Eddington watched a solar eclipse and measured how light from a star bent as it passed the sun. Rogers says this confirmed Albert Einstein's theory of general relativity, the idea that gravity curves space, and he finds it striking that it took a man from Germany's wartime enemy to prove the German-born scientist right."
+}

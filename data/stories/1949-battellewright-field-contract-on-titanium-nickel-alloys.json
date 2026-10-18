@@ -27,9 +27,38 @@
       "documents": [
         "1949-battelle-memorial-institutewright-air-field-contract"
       ]
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 2178.0,
+      "to_s": 2187.0,
+      "teller": "jesse-michels",
+      "quote": "Wright Patterson had [music] a contract with Battel Memorial Institute in 1949 studying nickel titanium alloys",
+      "kind": "host",
+      "cites": [
+        "battelle-memorial-institute"
+      ],
+      "documents": [],
+      "difference": "",
+      "link_reason": "The same 1949 contract between Wright Field and Battelle Memorial Institute to study nickel-titanium alloys.",
+      "as_told": {
+        "title": "1949 Wright-Patterson contract with Battelle on nickel-titanium alloys",
+        "years": {
+          "from": 1949,
+          "to": 1949
+        },
+        "place_text": "Wright-Patterson AFB; Battelle Memorial Institute",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "los-alamosbattelle-nitinol-contract-of-1949",
+      "relation": "variant",
+      "note": "Both are the 1949 Battelle contract that led to Nitinol and is offered as Roswell evidence. This telling makes Los Alamos the other party, where the story says Wright Field."
+    }
+  ],
   "tags": [],
   "score": 1.0,
   "profile": {
@@ -50,7 +79,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "d9tdJ2SkBKQ"
+      "d9tdJ2SkBKQ",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.5,

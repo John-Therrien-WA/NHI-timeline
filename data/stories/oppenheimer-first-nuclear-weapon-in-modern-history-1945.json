@@ -26,6 +26,32 @@
       "documents": [
         "bhagavad-gita"
       ]
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4152.0,
+      "to_s": 4165.0,
+      "teller": "jesse-michels",
+      "quote": "a student of his was rumored to come up to him and said, um you know, \"You've created the the first atom bomb, you know, how do you feel?\" And he said, \"I've created the first atom bomb in modern history.\"",
+      "kind": "host",
+      "cites": [
+        "robert-j-oppenheimer"
+      ],
+      "documents": [
+        "bhagavad-gita",
+        "vedas"
+      ],
+      "difference": "Adds the link to Vedic death weapons and credits the Bhagavad Gita and the Vedas.",
+      "link_reason": "Both tell the apocryphal story of Oppenheimer saying he made the first atom bomb 'in modern history'.",
+      "as_told": {
+        "title": "Oppenheimer's rumored 'first atom bomb in modern history' remark and Vedic death weapons",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "United States; ancient India",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -33,10 +59,15 @@
       "story": "custody-of-the-trinity-craft-passed-through-manhattan-projec-1945",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-endless-frontier-read-as-working-back-from-airdropped-al-1945",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -47,7 +78,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -55,10 +86,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "9PJJiut0Iuw",
       "C_Na1tI5qpw"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, repeats what he calls an apocryphal story about Robert Oppenheimer, the physicist who led the building of the first atomic bomb in 1945. As Michels tells it, a student asked how it felt to be the first person to create a nuclear weapon, and Oppenheimer answered that he was the first in modern history, a remark the story links to the Bhagavad Gita, an ancient Hindu scripture. If true, it would hint that nuclear weapons existed in the ancient past."
 }

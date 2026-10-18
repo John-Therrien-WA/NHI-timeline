@@ -7,7 +7,7 @@
     "from": 1950,
     "to": 1959
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Martin Company / Indiana",
   "coordinates": null,
   "kind": "document",
@@ -52,11 +52,112 @@
         "place_text": "RIAS, Martin Corporation",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2910.0,
+      "to_s": 2923.0,
+      "teller": "jesse-michels",
+      "quote": "In fact, Lewis Witten for Martin Corporation is quoted in American theoretical physics as saying, \"A guy named Townsend discovered that there was a type of bismuth that was repelled instead of attracting.\"",
+      "kind": "host",
+      "cites": [
+        "lewis-witten"
+      ],
+      "documents": [
+        "american-theoretical-physics"
+      ],
+      "difference": "Names the source as American Theoretical Physics and places Witten at Martin Corporation.",
+      "link_reason": "This is the same Witten quote about a man named Townsend finding bismuth that repelled instead of attracting.",
+      "as_told": {
+        "title": "Witten on Townsend's repelled bismuth",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "1950s-flying-butane-tanks-in-air-force-osi-reports",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "1950s-gravity-research-by-bryce-dewitt-deser-and-arnowitt",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "4602nd-monthly-report-s-ufo-b-section-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "4602nd-squadron-history-on-reassuring-the-public-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "blue-book-special-report-14-contradicts-its-press-release-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-documents-describing-flat-mirror-like-objects-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "duell-s-diary-records-meeting-the-president-on-the-mj-12-bri-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "menzel-s-name-in-the-majestic-12-documents-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nick-cook-s-search-for-1950s-gravity-research",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-s-book-reports-metallic-spheres-in-formation-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ruppelt-s-serious-cases-cluster-near-nuclear-facilities-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "smith-propulsion-paper-sent-to-vannevar-bush-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "talbert-newspaper-series-on-1950s-aerospace-anti-gravity-int",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "triangle-and-gravity-control-patents-that-cite-1950s-air-for",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "von-neumann-paper-the-presence-must-be-believed-into-our-rea-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -67,7 +168,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -75,11 +176,12 @@
       "jesse-michels"
     ],
     "episodes": [
+      "RTEWLSTyUic",
       "d9tdJ2SkBKQ",
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "The podcast host Jesse Michels points to an interview the physicist Louis Witten gave to the American Institute of Physics, a professional body that records scientists' life stories. Michels says that in it Witten recalls a man named Townsend, linked to the aerospace firm Martin and its research institute known as RIAS in the 1950s, who claimed to have a form of bismuth, a heavy metal, that pushed away instead of pulling. If true, it would mean a defense company heard claims of a material that behaves against normal gravity."
 }

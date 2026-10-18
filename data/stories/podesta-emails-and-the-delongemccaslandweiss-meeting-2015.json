@@ -31,33 +31,96 @@
       "documents": [
         "podesta-emails"
       ]
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 4878.0,
+      "to_s": 4886.0,
+      "teller": "jay-anderson",
+      "quote": "back in the day, bro, he was literally saying to Podesta on emails like, \"I really want to try and get the youth of today to be more promilitary, more pro government,",
+      "kind": "secondhand",
+      "cites": [
+        "tom-delonge",
+        "john-podesta"
+      ],
+      "documents": [
+        "wikileaks-podesta-emails",
+        "sekret-machines"
+      ],
+      "difference": "Stresses DeLonge's stated aim of making young people more pro-military and pro-government, and mentions Sekret Machines rather than the McCasland–Weiss meeting.",
+      "link_reason": "Both are about DeLonge's correspondence with Podesta exposed in the hacked WikiLeaks emails.",
+      "as_told": {
+        "title": "DeLonge–Podesta emails on WikiLeaks",
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "place_text": "USA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 9590.0,
+      "to_s": 9601.0,
+      "teller": "grant-cameron",
+      "quote": "was uh the leak of the emails the Podesta emails and it all the three I call them the three kings Podesta Mccay and uh Robert Weiss they get exposed",
+      "kind": "researcher",
+      "cites": [
+        "john-podesta",
+        "robert-weiss"
+      ],
+      "documents": [
+        "podesta-emails"
+      ],
+      "difference": "Frames the leak as exposing 'three kings' (Podesta, McCasland and Weiss) and says nothing of the 35 emails.",
+      "link_reason": "Both tell of the Podesta email hack exposing the circle of Podesta, McCasland/McCay and Weiss in 2016.",
+      "as_told": {
+        "title": "Podesta email leak exposes the 'three kings'",
+        "years": {
+          "from": 2016,
+          "to": 2016
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "podesta-emails-hillary-clinton-s-seven-year-plan-and-the-kim-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.0,
+  "score": 3.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
-    "researcher": 1,
+    "secondhand": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "jason-simosa"
+      "grant-cameron",
+      "jason-simosa",
+      "jay-anderson"
     ],
     "episodes": [
+      "51N8OxqZIWY",
+      "fpUa3xJN64Q",
       "kccrkCGGzX4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.75,
+  "tier": "well-attested",
   "plain": "A researcher named Jason Simosa, speaking on a podcast hosted by Jesse Michels, describes emails of a Washington political figure, John Podesta, that were hacked and made public around 2015 and 2016. Simosa says they hold about 35 emails between a man named Tom DeLonge and Podesta's team, and point to a meeting between Podesta, DeLonge, an Air Force general named Neil McCasland, a man named Michael Carey, and Robert Weiss, head of the Skunk Works, a secret aircraft design shop. If true, it would show senior military and aerospace figures quietly meeting about UFO matters with people close to political power."
 }

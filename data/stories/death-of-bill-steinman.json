@@ -1,0 +1,53 @@
+{
+  "id": "death-of-bill-steinman",
+  "title": "Death of Bill Steinman",
+  "summary": "Scott Ramsay tells of Death of Bill Steinman, about a few years before the episode at near Goodyear, Arizona, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "near Goodyear, Arizona",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 5259.0,
+      "to_s": 5265.0,
+      "teller": "scott-ramsay",
+      "quote": "He died in January a couple years ago. Massive heart attack. Sheila was in the kitchen.",
+      "kind": "secondhand",
+      "cites": [
+        "sheila-steinman"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Scott Ramsay, a man who investigates a claimed crash of a craft carrying alien bodies, says on Jesse Michels' podcast that Bill Steinman, a researcher of that same story, died near Goodyear, Arizona, in January a couple of years earlier. According to Ramsay, it was a massive heart attack, and Sheila Steinman was in the kitchen when it happened."
+}

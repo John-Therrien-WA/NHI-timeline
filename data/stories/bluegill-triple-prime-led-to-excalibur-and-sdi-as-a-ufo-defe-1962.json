@@ -48,6 +48,30 @@
         "place_text": "United States / space",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 2894.0,
+      "to_s": 2902.0,
+      "teller": "jesse-michels",
+      "quote": "And Harold apparently said that this whole thing was actually devised to take down UFOs",
+      "kind": "host",
+      "cites": [
+        "harold-malmgren",
+        "edward-teller"
+      ],
+      "documents": [],
+      "difference": "Credits the claim to Harold Malmgren as its source.",
+      "link_reason": "The same theory that the missile defense line from Bluegill to Excalibur and SDI was built to shoot down UFOs.",
+      "as_told": {
+        "title": "Missile defense devised to take down UFOs",
+        "years": {
+          "from": 1960,
+          "to": 1989
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -73,6 +97,7 @@
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "1F7DHbSbgbQ",
       "u7g5Sn1DJF4"
     ]
   },

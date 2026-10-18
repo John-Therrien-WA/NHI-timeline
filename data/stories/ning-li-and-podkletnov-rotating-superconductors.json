@@ -1,0 +1,54 @@
+{
+  "id": "ning-li-and-podkletnov-rotating-superconductors",
+  "title": "Ning Li and Podkletnov rotating superconductors",
+  "summary": "Jesse Michels tells of Ning Li and Podkletnov rotating superconductors, about unspecified at unspecified, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 2027.0,
+      "to_s": 2036.0,
+      "teller": "jesse-michels",
+      "quote": "But then you got Ming Le's work with the rotating superconductor of IBCO. Also, Eugene Pleutnov used rotating superconductors",
+      "kind": "host",
+      "cites": [
+        "ning-li",
+        "eugene-podkletnov"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, talks about two scientists, Ning Li and Eugene Podkletnov, who he says each worked with spinning superconductors, materials that carry electricity with no resistance when very cold. He mentions Ning Li's work with a spinning disc made of a superconducting material called YBCO. He raises it among claims that such devices might produce unusual effects on gravity, which would matter greatly for flight if true."
+}

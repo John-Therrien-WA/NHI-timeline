@@ -1,0 +1,54 @@
+{
+  "id": "puthoff-met-townsend-brown",
+  "title": "Puthoff met Townsend Brown",
+  "summary": "Chris Bledsoe tells of Puthoff met Townsend Brown, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 1090.0,
+      "to_s": 1093.0,
+      "teller": "chris-bledsoe",
+      "quote": "Yeah, he told me he um he he he met him.",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff",
+        "thomas-townsend-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "chris-bledsoe"
+    ],
+    "episodes": [
+      "bM18PJY6_Zc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Chris Bledsoe, a man who says he has had repeated encounters with UFOs, told a podcast host, Jesse Michels, about something Hal Puthoff, a physicist, once told him. According to Bledsoe, Puthoff said he had met Townsend Brown, an inventor known for experiments he thought could move objects in new ways. If true, it would link two people from different generations who both chased unusual ideas about flight."
+}

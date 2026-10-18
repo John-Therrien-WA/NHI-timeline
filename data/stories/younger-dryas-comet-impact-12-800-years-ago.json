@@ -1,0 +1,76 @@
+{
+  "id": "younger-dryas-comet-impact-12-800-years-ago",
+  "title": "Younger Dryas comet impact 12,800 years ago",
+  "summary": "Graham Hancock tells of Younger Dryas comet impact 12,800 years ago, about c. 12,800 years ago at global, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "global",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 4991.0,
+      "to_s": 5002.0,
+      "teller": "graham-hancock",
+      "quote": "of a disintegrating comet, the the debris trail of a disintegrating comet roughly 12,800 years ago. That's the Younger Dryas impact hypothesis.",
+      "kind": "researcher",
+      "cites": [
+        "comet-research-group"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 73.0,
+      "to_s": 84.0,
+      "teller": "jesse-michels",
+      "quote": "idea that at the latter end of the uh last ice age there was maybe this Comet airburst from the Tor meteor stream that wiped out some Proto civilization",
+      "kind": "host",
+      "cites": [
+        "graham-hancock",
+        "randall-carlson",
+        "plato"
+      ],
+      "documents": [],
+      "difference": "Names the Taurid stream as the source, calls it an airburst and adds that it wiped out a proto-civilization, crediting Hancock, Carlson and Plato.",
+      "link_reason": "Both tell the Younger Dryas comet hypothesis: a disintegrating comet's debris struck about 12,800 years ago, at the end of the last ice age.",
+      "as_told": {
+        "title": "Younger Dryas comet airburst wiped out a proto-civilization",
+        "years": null,
+        "place_text": "Global",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "graham-hancock"
+    ],
+    "episodes": [
+      "9PJJiut0Iuw",
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Graham Hancock, a writer on lost ancient civilizations, describes what he calls the Younger Dryas impact hypothesis: roughly 12,800 years ago, near the end of the last ice age, Earth ran into the debris of a comet that was breaking apart. He links the idea to a team of scientists known as the Comet Research Group. The podcast host Jesse Michels tells it a little differently: he says the comet exploded in the air, that it came from a stream of space debris called the Taurids, and that it may have wiped out an early civilization. He credits the idea to Hancock, to the researcher Randall Carlson and to Plato, the ancient Greek philosopher."
+}

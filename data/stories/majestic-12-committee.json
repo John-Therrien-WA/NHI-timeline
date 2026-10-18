@@ -19,11 +19,63 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 2170.0,
+      "to_s": 2180.0,
+      "teller": "jesse-michels",
+      "quote": "Allegedly, the Majestic 12 was a secret committee formed by President Truman in 1947 to handle the extraterrestrial issue.",
+      "kind": "host",
+      "cites": [
+        "vanavar-bush",
+        "gordon-gray",
+        "donald-menzel",
+        "eisenhower"
+      ],
+      "documents": [
+        "mj12-documents"
+      ],
+      "difference": "Says Truman formed it in 1947 and credits Bush, Gray, Menzel and Eisenhower, where the story gives no date or founder.",
+      "link_reason": "Both tell of the Majestic 12 secret committee on the UFO issue. This telling adds that Truman formed it in 1947.",
+      "as_told": {
+        "title": "Truman forms Majestic 12",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 1803.0,
+      "to_s": 1817.0,
+      "teller": "jesse-michels",
+      "quote": "fictitious is the Majestic 12 committee he was rumored to be appointed to by President Truman, an elite group of scientists, military and intelligence officials who directly advised the [music] president on UFOs.",
+      "kind": "host",
+      "cites": [
+        "nathan-twining",
+        "harry-truman"
+      ],
+      "documents": [],
+      "difference": "Says Truman appointed it, names Twining as a rumoured member and describes it as scientists, military and intelligence officials advising the president.",
+      "link_reason": "Both are about the rumoured Majestic 12 committee that advised on UFOs.",
+      "as_told": {
+        "title": "Majestic 12 committee appointed by Truman",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "USA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -34,7 +86,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -42,10 +94,12 @@
       "jesse-michels"
     ],
     "episodes": [
+      "Jpf0ZGY87c0",
+      "ScE9FaDy-mE",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, mentions a rumored secret committee in the United States known as Majestic 12. As he puts it, it is talked about in UFO circles as a group connected to the subject, though he gives no dates or details. If such a group existed, it would mean someone in government was quietly overseeing the UFO question."
 }

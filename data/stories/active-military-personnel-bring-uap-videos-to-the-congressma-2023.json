@@ -24,7 +24,13 @@
       "documents": []
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "briefings-to-senate-intelligence-committee-members-and-agenc-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
   "score": 2.0,
   "profile": {

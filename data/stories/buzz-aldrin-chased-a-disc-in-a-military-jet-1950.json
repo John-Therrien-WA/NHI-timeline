@@ -50,6 +50,27 @@
         "place_text": "Japan",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 4178.0,
+      "to_s": 4188.0,
+      "teller": "jesse-michels",
+      "quote": "He talked about Buzz Aldrin's sister telling him that Buzz Aldrin, as a fighter pilot in World War II, saw a UFO, I think, in Japan.",
+      "kind": "secondhand",
+      "cites": [
+        "james-fox",
+        "buzz-aldrin"
+      ],
+      "documents": [],
+      "difference": "Places the sighting in World War II rather than the 1950s-60s and doesn't mention the disc chase or the two sightings.",
+      "link_reason": "Same story of Aldrin's fighter-pilot UFO sighting over Japan, relayed by his sister to James Fox, already told by Jesse Michels in the story.",
+      "as_told": {
+        "title": "Buzz Aldrin's fighter pilot UFO sighting, via his sister",
+        "years": null,
+        "place_text": "Japan (as stated)",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
@@ -73,6 +94,7 @@
       "james-fox"
     ],
     "episodes": [
+      "6WC4o2yY9Ws",
       "bVhSPH2A5Vw",
       "uVVqFg2v7ro"
     ]

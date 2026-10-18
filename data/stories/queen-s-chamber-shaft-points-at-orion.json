@@ -1,0 +1,57 @@
+{
+  "id": "queen-s-chamber-shaft-points-at-orion",
+  "title": "Queen's Chamber shaft points at Orion",
+  "summary": "Graham Hancock tells of Queen's Chamber shaft points at Orion, about ancient Egypt at Great Pyramid, Giza, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Great Pyramid, Giza",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 2069.0,
+      "to_s": 2073.0,
+      "teller": "graham-hancock",
+      "quote": "chamber don't point at Orion, but one of the shafts of the Queen Chamber does.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "great-pyramid-chambers-aligned-to-sirius-and-orion-in-10-500",
+      "relation": "variant",
+      "note": "Both say which star targets the Great Pyramid's chamber shafts point at. This telling puts Sirius on the Queen's Chamber, where the story says a Queen's Chamber shaft points at Orion."
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "graham-hancock"
+    ],
+    "episodes": [
+      "9PJJiut0Iuw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A writer named Graham Hancock told podcast host Jesse Michels that one of the narrow shafts leading out of the Queen's Chamber, one of the rooms inside the Great Pyramid of Giza, points at the star pattern Orion. He notes that not every chamber points at Orion, but this shaft does, which fits his wider idea that the pyramid was aligned to the stars on purpose."
+}

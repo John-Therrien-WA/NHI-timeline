@@ -1,0 +1,86 @@
+{
+  "id": "greenbrier-bunker-revealed-by-washington-post-1990",
+  "title": "Greenbrier bunker revealed by Washington Post",
+  "summary": "Bryce Zable tells of Greenbrier bunker revealed by Washington Post, about 1990s at Greenbrier, West Virginia, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "Greenbrier, West Virginia",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 1717.0,
+      "to_s": 1736.0,
+      "teller": "bryce-zabel",
+      "quote": "there are underground facilities in West Virginia but we did not know about them until the Washington Post I think it was the Post that broke this story in the '9s about Greenbryer in and there's an another one and Greenbryer was where they were going to evacuate Congress in the event of nuclear war",
+      "kind": "researcher",
+      "cites": [
+        "washington-post"
+      ],
+      "documents": [],
+      "teller_was": "bryce-zable"
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 1987.0,
+      "to_s": 1996.0,
+      "teller": "brent-friedman",
+      "quote": "Virginia, but we did not know about them until the Washington Post. I think it was the Post that broke this story in the '9s about Greenbryer in and there's",
+      "kind": "journalist",
+      "cites": [],
+      "documents": [
+        "washington-post-greenbrier-story"
+      ],
+      "difference": "The teller is credited as Brent Friedman, where the story's teller is Bryce Zabel.",
+      "link_reason": "Both say the Washington Post revealed the Greenbrier underground bunker in the 1990s.",
+      "as_told": {
+        "title": "Washington Post reveals the Greenbrier bunker",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Greenbrier, West Virginia",
+        "story_kind": "place-lore"
+      },
+      "replay_of": {
+        "episode": "yJUBSuPh1pM",
+        "from_s": 1711.0
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "brent-friedman",
+      "bryce-zabel"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ",
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested",
+  "plain": "This story is about a secret underground bunker at the Greenbrier, a place in West Virginia. A writer and researcher, Bryce Zabel, says that nobody knew about the bunker until a newspaper, he thinks the Washington Post, broke the story in the 1990s. According to him, it was where Congress was to be evacuated in the event of nuclear war, and he adds there is another such site. He tells it to make a point: the government can keep large hidden facilities secret for decades, so other hidden places might exist too. The same words also appear credited to a journalist, Brent Friedman, on a later episode of the same podcast, so the two tellings disagree only about who said it."
+}

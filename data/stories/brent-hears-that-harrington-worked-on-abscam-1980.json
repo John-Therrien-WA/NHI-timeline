@@ -1,0 +1,56 @@
+{
+  "id": "brent-hears-that-harrington-worked-on-abscam-1980",
+  "title": "Brent hears that Harrington worked on ABSCAM",
+  "summary": "Brent Friedman tells of Brent hears that Harrington worked on ABSCAM, about 1980-1981 at Washington, D.C., and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1981
+  },
+  "place": "washington-dc",
+  "place_text": "Washington DC",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 1806.0,
+      "to_s": 1813.0,
+      "teller": "brent-friedman",
+      "quote": "through my mom was that he was involved in the ABSCAM investigation and had been",
+      "kind": "secondhand",
+      "cites": [
+        "brent-friedman-s-mother"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "brent-friedman"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Brent Friedman, on Jesse Michels's podcast, says he heard through his mother that a man named Harrington had been involved in ABSCAM, a US federal sting operation into political corruption around 1980 and 1981 in Washington, DC. He tells it as part of explaining who this man was and how serious his government background was."
+}

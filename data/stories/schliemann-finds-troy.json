@@ -23,6 +23,75 @@
         "herodotus"
       ],
       "documents": []
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 2960.0,
+      "to_s": 2966.0,
+      "teller": "jesse-michels",
+      "quote": "the the city of Troy did not exist and then late 19th century we figured out, \"Oh, there actually was a city",
+      "kind": "host",
+      "cites": [
+        "heinrich-schliemann"
+      ],
+      "documents": [],
+      "difference": "Places the discovery in the late 19th century and stresses that Troy had been thought not to exist; does not mention Anatolia.",
+      "link_reason": "Both are about Troy being shown to be real in the late 19th century, credited to Schliemann.",
+      "as_told": {
+        "title": "Troy found to be real in the late 19th century",
+        "years": null,
+        "place_text": "Troy",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 11834.0,
+      "to_s": 11842.0,
+      "teller": "jesse-michels",
+      "quote": "Hinrich V schlaman in 18 71 being motivated by thus cities and Homer everybody was saying that was just mythology and then he finds Troy",
+      "kind": "host",
+      "cites": [
+        "heinrich-schliemann",
+        "homer"
+      ],
+      "documents": [],
+      "difference": "Gives the year 1871 and says everyone dismissed Troy as mythology.",
+      "link_reason": "Both tell of Heinrich Schliemann taking Homer seriously and finding Troy in Turkey; the teller is the same host.",
+      "as_told": {
+        "title": "Schliemann finds Troy",
+        "years": {
+          "from": 1871,
+          "to": 1871
+        },
+        "place_text": "Troy, Turkey",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 536.0,
+      "to_s": 541.0,
+      "teller": "jesse-michels",
+      "quote": "Hinrich von Schlimman, the guy who found Troy in the 1870s, this German businessman",
+      "kind": "host",
+      "cites": [
+        "heinrich-schliemann",
+        "homer",
+        "thucydides"
+      ],
+      "documents": [],
+      "difference": "Dates the find to the 1870s, calls Schliemann a German businessman, and credits Thucydides instead of Herodotus.",
+      "link_reason": "Both tell of Heinrich Schliemann finding Troy, and the teller is the same host.",
+      "as_told": {
+        "title": "Schliemann finds Troy",
+        "years": {
+          "from": 1870,
+          "to": 1879
+        },
+        "place_text": "Troy",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -46,6 +115,9 @@
       "jesse-michels"
     ],
     "episodes": [
+      "92XrddiKjHY",
+      "9PJJiut0Iuw",
+      "A_LsUSxTm7A",
       "C_Na1tI5qpw"
     ]
   },

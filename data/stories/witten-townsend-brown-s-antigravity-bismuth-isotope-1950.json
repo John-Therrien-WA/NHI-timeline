@@ -1,0 +1,57 @@
+{
+  "id": "witten-townsend-brown-s-antigravity-bismuth-isotope-1950",
+  "title": "Witten: Townsend Brown's antigravity bismuth isotope",
+  "summary": "Jesse Michels tells of Witten: Townsend Brown's antigravity bismuth isotope, about 1950s at Martin Corporation; Wright Field, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Martin Corporation; Wright Field",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 4021.0,
+      "to_s": 4034.0,
+      "teller": "jesse-michels",
+      "quote": "he says that he was contracted by right Airfield to work on gravity and he said that there was a guy named townzen who had a weird isotope of bismuth that exhibited anti-gravity properties",
+      "kind": "secondhand",
+      "cites": [
+        "louis-witten",
+        "t-townsend-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2Xxmguz0GEQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels relays what a physicist named Louis Witten said about the 1950s. According to Michels, Witten said he was hired through Wright Field, a US Air Force base, to work on gravity, with a link to the Martin Corporation, an aircraft maker. Witten also said a man named T. Townsend Brown had an unusual form of the metal bismuth that seemed to resist gravity, which would mean antigravity research was quietly under way back then."
+}

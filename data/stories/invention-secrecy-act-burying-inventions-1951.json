@@ -24,11 +24,35 @@
       "documents": [
         "invention-secrecy-act-of-1951"
       ]
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 3503.0,
+      "to_s": 3511.0,
+      "teller": "jesse-michels",
+      "quote": "you had these things called the Mansfield amendments which disentangled them and you have the invention secrecy act of 1952 as well",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "mansfield-amendments",
+        "invention-secrecy-act-of-1952"
+      ],
+      "difference": "Dates the Act 1952 instead of 1951 and adds the Mansfield amendments.",
+      "link_reason": "Both cite the Invention Secrecy Act as a way of burying inventions.",
+      "as_told": {
+        "title": "Mansfield Amendments and Invention Secrecy Act of 1952",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,7 +63,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -47,10 +71,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "6WC4o2yY9Ws",
       "OOr98r51Sj0"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 0.85,
   "tier": "told-once",
   "plain": "A podcast host named Jesse Michels, who interviews guests about UFOs and government secrecy, points to the Invention Secrecy Act of 1951, a US law that lets the government order some patent applications kept secret. He brings it up as a reminder that, in his framing, the government has the power to bury inventions, which if true would mean some technology is kept out of public view."
 }

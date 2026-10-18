@@ -21,6 +21,26 @@
         "dalai-lama"
       ],
       "documents": []
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 3740.0,
+      "to_s": 3754.0,
+      "teller": "jesse-michels",
+      "quote": "And when the Dalai Lama himself met with a group of Jewish Kabbalists, he was very surprised to find that the Kabbalistic meditations and prayer techniques were strikingly similar to Buddhist meditation techniques.",
+      "kind": "host",
+      "cites": [
+        "dalai-lama"
+      ],
+      "documents": [],
+      "difference": "Stresses that Kabbalistic meditation resembles Buddhist meditation, not talk of non-human intelligences and their colours.",
+      "link_reason": "The same meeting between the Dalai Lama and Jewish Kabbalists.",
+      "as_told": {
+        "title": "Dalai Lama meets Jewish Kabbalists",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -44,6 +64,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "aKZ_MUbuk_Q",
       "aa9Xx5wI8Rw"
     ]
   },

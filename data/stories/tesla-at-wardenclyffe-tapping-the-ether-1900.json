@@ -1,0 +1,56 @@
+{
+  "id": "tesla-at-wardenclyffe-tapping-the-ether-1900",
+  "title": "Tesla at Wardenclyffe tapping the ether",
+  "summary": "Jesse Michels tells of Tesla at Wardenclyffe tapping the ether, about early 1900s at Wardenclyffe, New York, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1900,
+    "to": 1903
+  },
+  "place": null,
+  "place_text": "Wardenclyffe, New York",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 2931.0,
+      "to_s": 2940.0,
+      "teller": "jesse-michels",
+      "quote": "Tesla was doing at Wardenclyffe, high voltages, short distances, where he's claiming to tap the ether for free energy,",
+      "kind": "host",
+      "cites": [
+        "nikola-tesla"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that the inventor Nikola Tesla used high voltages across short distances in the early 1900s at Wardenclyffe, his work site in New York. According to Michels, Tesla claimed this let him tap the ether, an invisible medium once thought to fill all of space, for free energy. If true, it would mean a source of limitless power was within reach a century ago."
+}

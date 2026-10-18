@@ -19,33 +19,56 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "7W7iOt57fOo",
+      "from_s": 533.0,
+      "to_s": 541.0,
+      "teller": "jesse-michels",
+      "quote": "it made an abrupt deflection to the west as if it were avoiding something there was no wind to push the rocket as dramatically westward as it went",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Stresses the rocket's abrupt westward swerve with no wind, and leaves out the Blackhawk that followed.",
+      "link_reason": "Same event: a UAP appears above the Triangle during a rocket launch at Skinwalker Ranch.",
+      "as_told": {
+        "title": "Rocket over the Triangle swerves as a UFO appears",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "The Triangle, Skinwalker Ranch, Utah",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "brandon-fugal"
+      "brandon-fugal",
+      "jesse-michels"
     ],
     "episodes": [
+      "7W7iOt57fOo",
       "OOr98r51Sj0"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "Brandon Fugal, the owner of Skinwalker Ranch, a Utah property known for reports of strange events, says his team was once launching rockets over an area of the ranch called the triangle when an unexplained flying object appeared. He says that within minutes a Black Hawk military helicopter came over the mesa, dropped down and hovered over the ranch's south field. If true, someone in the military was watching closely and responding fast."
 }

@@ -1,0 +1,60 @@
+{
+  "id": "grusch-s-ig-complaint-and-aoc-exchange-about-reverse-enginee-2022",
+  "title": "Grusch's IG complaint and AOC exchange about reverse-engineering locations",
+  "summary": "Jesse Michels tells of Grusch's IG complaint and AOC exchange about reverse-engineering locations, about 2022-2023 at Washington, D.C., and frames it as the host. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2022,
+    "to": 2023
+  },
+  "place": "washington-dc",
+  "place_text": "Washington, DC",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 5238.0,
+      "to_s": 5250.0,
+      "teller": "jesse-michels",
+      "quote": "you know, he's uh provided, you know, hundreds of pages to the um you know, inspector general of the intelligence community, Thomas Mannheim to the effect that there are covert reverse engineering programs.",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "thomas-monheim",
+        "alexandria-ocasio-cortez"
+      ],
+      "documents": [
+        "grusch-complaint-to-the-intelligence-community-inspector-gen"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "TNtlzEnl8rA"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that David Grusch, a former intelligence officer who came forward as a witness in 2022 and 2023, gave hundreds of pages to Thomas Monheim, the inspector general of the intelligence agencies, meaning their internal watchdog. According to Michels, the papers say there are secret programs taking apart and copying craft not made by humans, and the story also touches on Congresswoman Alexandria Ocasio-Cortez questioning Grusch about where those programs are. If true, it would mean the US government is hiding such work from Congress."
+}

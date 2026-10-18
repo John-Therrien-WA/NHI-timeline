@@ -1,0 +1,51 @@
+{
+  "id": "visit-to-the-antikythera-mechanism",
+  "title": "Visit to the Antikythera mechanism",
+  "summary": "Breaks Silence tells of Visit to the Antikythera mechanism, about centuries BC at Greece (the ancient oracle sites), and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "ancient-greece",
+  "place_text": "Athens, Greece",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 5474.0,
+      "to_s": 5478.0,
+      "teller": "breaks-silence",
+      "quote": "I recently went to Athens, Greece to see the the Antikythera mechanism.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "breaks-silence"
+    ],
+    "episodes": [
+      "uYyXpx7ADJQ"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "The owner of Skinwalker Ranch, a property famous for reports of strange events, told podcast host Jesse Michels that he recently went to Athens, Greece, to see the Antikythera mechanism. That is an ancient geared device, from centuries before the common era, found in a shipwreck. He brings it up as an example of ancient knowledge more advanced than people expect."
+}

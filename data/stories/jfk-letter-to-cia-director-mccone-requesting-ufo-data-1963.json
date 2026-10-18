@@ -159,6 +159,86 @@
         "place_text": "Washington, D.C.",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 5390.0,
+      "to_s": 5409.0,
+      "teller": "jesse-michels",
+      "quote": "it's this letter that was foed in 2005 but it's from November 12th 1963 so 10 days before he shot in Dallas and it's a letter from him to acting CIA director John mccon and he's saying I want all the data on unknowns",
+      "kind": "host",
+      "cites": [
+        "william-lester",
+        "john-mccone",
+        "john-f-kennedy"
+      ],
+      "documents": [
+        "jfk-memo-to-cia-director-november-12-1963"
+      ],
+      "difference": "Dates the FOIA release to 2005, not 2006, and credits William Lester.",
+      "link_reason": "Both tell of JFK's November 12, 1963 letter to John McCone asking for data on unknowns.",
+      "as_told": {
+        "title": "JFK letter to CIA's John McCone requesting UFO data",
+        "years": {
+          "from": 1963,
+          "to": 2005
+        },
+        "place_text": "Washington DC",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 1515.0,
+      "to_s": 1524.0,
+      "teller": "jesse-michels",
+      "quote": "from JFK to acting director of the CIA John McCone. It was after JFK had fired Allan Dulles and he's asking for data on",
+      "kind": "host",
+      "cites": [
+        "john-f-kennedy",
+        "john-mccone",
+        "allen-dulles",
+        "john-greenewald"
+      ],
+      "documents": [
+        "jfk-letter-to-john-mccone"
+      ],
+      "difference": "Gives the FOIA release as 2005 rather than 2006, calls McCone acting director and places the letter after Dulles was fired.",
+      "link_reason": "Same FOIA'd 1963 JFK letter to CIA director McCone asking for data on unknowns.",
+      "as_told": {
+        "title": "FOIA'd JFK letter to the CIA's John McCone asking about unknowns",
+        "years": {
+          "from": 1963,
+          "to": 2005
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 4581.0,
+      "to_s": 4591.0,
+      "teller": "richard-dolan",
+      "quote": "where he's uh directing uh the Central Intelligence Agency to coordinate UFO data with the Soviet Union",
+      "kind": "researcher",
+      "cites": [
+        "john-f-kennedy"
+      ],
+      "documents": [
+        "jfk-memo-of-november-12-1963"
+      ],
+      "difference": "Does not name McCone or the 2006 FOIA release.",
+      "link_reason": "Both describe the November 12, 1963 JFK memo asking the CIA to coordinate UFO data with the Soviets.",
+      "as_told": {
+        "title": "JFK memo directing CIA to share UFO data with the Soviets",
+        "years": {
+          "from": 1963,
+          "to": 1963
+        },
+        "place_text": "Washington, D.C.",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -169,34 +249,38 @@
     }
   ],
   "tags": [],
-  "score": 2.7,
+  "score": 4.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 5,
+    "credited_documents": 7,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "richard-dolan"
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "2SQXAPCdmPE",
+      "GQlWf54K_7Y",
       "TH10mD9hQas",
       "areO7Mej44E",
       "dnnpyNuPdXs",
       "fzvwBBSmWYA",
-      "kRO5jOa06Qw"
+      "kRO5jOa06Qw",
+      "lbGE3EC6StE"
     ]
   },
-  "attestation": 1.35,
-  "tier": "told-once",
+  "attestation": 2.1,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says there is a letter from President John F. Kennedy to John McCone, then head of the CIA, America's foreign intelligence agency, that was released in 2006 through the Freedom of Information Act, a US law that lets anyone request government records. Michels says the letter is dated November 12, 1963, ten days before Kennedy was killed, and asks for all data on unknown objects, which in one telling he says was so the US could work with the Soviets on the matter, though he often adds that where the letter came from is disputed. If it is real, it would mean a president was pressing for UFO information just before his death."
 }

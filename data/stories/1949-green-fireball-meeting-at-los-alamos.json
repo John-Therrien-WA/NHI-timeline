@@ -1,0 +1,59 @@
+{
+  "id": "1949-green-fireball-meeting-at-los-alamos",
+  "title": "1949 green fireball meeting at Los Alamos",
+  "summary": "Jesse Michels tells of 1949 green fireball meeting at Los Alamos, about 1949 at Los Alamos, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1949,
+    "to": 1949
+  },
+  "place": "los-alamos-nm",
+  "place_text": "Los Alamos, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 1062.0,
+      "to_s": 1071.0,
+      "teller": "jesse-michels",
+      "quote": "his name is actually on a document from 1949 and it's this green fireball problem and it's him and Lincoln Leaz",
+      "kind": "host",
+      "cites": [
+        "edward-teller",
+        "lincoln-lapaz"
+      ],
+      "documents": [
+        "green-fireball-conference-document"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says the physicist Edward Teller's name appears on a 1949 document from Los Alamos, the New Mexico nuclear weapons laboratory, about what it calls the \"green fireball problem\", bright green lights seen in the skies there. According to Michels, Teller is named on it alongside Lincoln LaPaz, a scientist who studied the lights. If so, it would mean top weapons scientists were taking the sightings seriously."
+}

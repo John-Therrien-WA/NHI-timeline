@@ -92,6 +92,30 @@
         "place_text": "unspecified meeting with federal officials",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 10097.0,
+      "to_s": 10107.0,
+      "teller": "jesse-michels",
+      "quote": "but the sofans the thing Mark Andre in an interview with Barry Weiss, he said he wanted to work on AI and they go, \"No, don't bother. We're only going to let two or three guys do it and do like, you know, a state capitalist thing.\"",
+      "kind": "secondhand",
+      "cites": [
+        "marc-andreessen",
+        "bari-weiss"
+      ],
+      "documents": [],
+      "difference": "Sources it to Andreessen's interview with Bari Weiss and says only two or three players would be allowed to work on AI under a state-capitalist arrangement.",
+      "link_reason": "Same account: Andreessen was told by government officials that areas of physics were classified and that AI would be controlled.",
+      "as_told": {
+        "title": "Marc Andreessen told whole areas of physics were classified in the Cold War",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "USA",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -119,6 +143,7 @@
     "episodes": [
       "09KP8XVf5nY",
       "1f16VvXaSSE",
+      "51N8OxqZIWY",
       "LpLFWdsIU7M",
       "xnxasfyHtfo"
     ]

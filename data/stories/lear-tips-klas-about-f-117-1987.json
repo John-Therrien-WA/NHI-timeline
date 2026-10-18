@@ -1,0 +1,57 @@
+{
+  "id": "lear-tips-klas-about-f-117-1987",
+  "title": "Lear tips KLAS about F-117",
+  "summary": "George Knapp tells of Lear tips KLAS about F-117, about 1987 at Las Vegas, Nevada, and reports it citing named sources. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1987
+  },
+  "place": "las-vegas-nv",
+  "place_text": "Las Vegas, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2436.0,
+      "to_s": 2444.0,
+      "teller": "george-knapp",
+      "quote": "He had told my boss, Ned Day, managing editor, about this amazing plane that was invisible to radar flying up at Tonopah and Area 51.",
+      "kind": "journalist",
+      "cites": [
+        "john-lear",
+        "ned-day"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "george-knapp"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A Las Vegas television journalist, George Knapp, says that around 1987 a pilot named John Lear told his boss, Ned Day, the managing editor at the local station KLAS, about an amazing plane that radar could not see, flying out of Tonopah and Area 51, two secret air bases in the Nevada desert. Knapp tells it as an example of Lear knowing about the F-117, a stealth jet, before the public did, which would suggest Lear had real inside sources."
+}

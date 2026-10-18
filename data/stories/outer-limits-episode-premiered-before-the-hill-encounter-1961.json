@@ -1,0 +1,85 @@
+{
+  "id": "outer-limits-episode-premiered-before-the-hill-encounter-1961",
+  "title": "Outer Limits episode premiered before the Hill encounter",
+  "summary": "Jesse Michels tells of Outer Limits episode premiered before the Hill encounter, about 1961 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1961,
+    "to": 1961
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 2660.0,
+      "to_s": 2670.0,
+      "teller": "jesse-michels",
+      "quote": "I believe um have you read American\nCosmic by Diana Pulka or are you\nfamiliar with it? Yeah. So she talks\nabout um the CBS show outer limits",
+      "kind": "host",
+      "cites": [
+        "diana-pasulka"
+      ],
+      "documents": [
+        "american-cosmic"
+      ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 9211.0,
+      "to_s": 9217.0,
+      "teller": "jesse-michels",
+      "quote": "the Betty and Barney Hill abduction occurred, I think, 11 days after the first, you know, show.",
+      "kind": "host",
+      "cites": [
+        "diana-pasulka"
+      ],
+      "documents": [
+        "american-cosmic",
+        "the-outer-limits"
+      ],
+      "difference": "Puts the abduction about 11 days after the first episode aired.",
+      "link_reason": "The same theory, credited to Pasulka, that the Outer Limits episode aired just before the Hill encounter.",
+      "as_told": {
+        "title": "Betty and Barney Hill abduction came days after an Outer Limits episode",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": null,
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "Rjr3Yq-dMUE",
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, cites American Cosmic, a book by the religion scholar Diana Pasulka, which discusses The Outer Limits, a CBS science fiction TV show. He says the famous abduction of Betty and Barney Hill, a couple who said aliens took them aboard a craft, happened only days after the show first aired, in one telling about 11 days later. He raises it to suggest that television may have shaped what people later said they saw."
+}

@@ -1,0 +1,85 @@
+{
+  "id": "von-braun-s-time-magazine-figure-for-the-lunar-neutral-gravi-1960",
+  "title": "Von Braun's Time magazine figure for the lunar neutral gravity point",
+  "summary": "Kurt Metzger tells of Von Braun's Time magazine figure for the lunar neutral gravity point, about 1960s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 5992.0,
+      "to_s": 6001.0,
+      "teller": "kurt-metzger",
+      "quote": ">> he tells the while he's talking about the moon facts you know he goes well the point of neutral you know the point of neut neutral gravity where >> he gives like double the amount for what they said it was right",
+      "kind": "secondhand",
+      "cites": [
+        "joseph-p-farrell",
+        "wernher-von-braun"
+      ],
+      "documents": [
+        "time-magazine"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "condon-s-letters-with-colonel-robert-hippler-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "james-mcdonald-s-critique-of-the-condon-committee-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "leaked-pages-of-president-johnson-s-ufo-study-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "puharich-delgado-correspondence-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sagan-and-shklovskii-s-intelligent-life-in-the-universe-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "kurt-metzger"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Kurt Metzger, a guest on podcast host Jesse Michels's show, passes on something he got from the writer Joseph P. Farrell. According to Metzger, Wernher von Braun, the rocket engineer behind the American space programme, gave Time magazine a figure in the 1960s for the 'neutral point', the spot between the Earth and the Moon where their pulls of gravity cancel out. Metzger says von Braun's number was about double the official one, which, if true, would hint that the public facts about the Moon were not the whole story."
+}

@@ -24,6 +24,33 @@
         "bob-jacobs"
       ],
       "documents": []
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 3263.0,
+      "to_s": 3275.0,
+      "teller": "bob-jacobs",
+      "quote": "We were told that what happened is the the Soviets had launched a nuke into orbit up above us and JFK told Krushov, \"Take that down.\"",
+      "kind": "secondhand",
+      "cites": [
+        "jfk",
+        "krushov"
+      ],
+      "documents": [],
+      "difference": "Adds that JFK told Khrushchev to take it down, and frames the UFO shootdown as a cover for the Soviet nuke.",
+      "link_reason": "Same Johnston Island scuttlebutt that a Soviet orbital nuke was shot down, relayed by Bob Jacobs.",
+      "as_told": {
+        "title": "Johnston Island rumor: UFO shootdown covered a Soviet nuke",
+        "years": {
+          "from": 1960,
+          "to": 1963
+        },
+        "place_text": "Johnston Island, Pacific",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
   "related": [
@@ -46,13 +73,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "bob-jacobs"
     ],
     "episodes": [
+      "GQlWf54K_7Y",
       "V00WcEiKRAY"
     ]
   },

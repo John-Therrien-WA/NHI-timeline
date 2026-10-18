@@ -7,7 +7,7 @@
     "from": 1960,
     "to": 1969
   },
-  "place": null,
+  "place": "nevada-test-site",
   "place_text": "Indian Springs Valley, Nevada",
   "coordinates": null,
   "kind": "encounter",
@@ -24,33 +24,82 @@
         "charles-hall"
       ],
       "documents": []
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 9095.0,
+      "to_s": 9104.0,
+      "teller": "jesse-michels",
+      "quote": "I just interviewed this uh whistleblower named Charles Hall who claimed to live with Paul White aliens while stationed at Area 51",
+      "kind": "secondhand",
+      "cites": [
+        "charles-hall"
+      ],
+      "documents": [],
+      "difference": "Places the story at Area 51 rather than Indian Springs Valley, and tells it as an interview Michels just did with Hall.",
+      "link_reason": "The same overall claim that Charles Hall lived with tall white aliens while stationed in the Nevada test area.",
+      "as_told": {
+        "title": "Charles Hall lived with tall white aliens at Area 51",
+        "years": null,
+        "place_text": "Area 51, Nevada",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 8075.0,
+      "to_s": 8083.0,
+      "teller": "jesse-michels",
+      "quote": "with him. Charles Hall, who was at Area 51, claimed to live with tall white alien beings for years.",
+      "kind": "host",
+      "cites": [
+        "charles-hall",
+        "tim-taylor"
+      ],
+      "documents": [],
+      "difference": "Places Hall's life with the tall whites at Area 51, not Indian Springs, and gives no date.",
+      "link_reason": "Both tell Charles Hall's claim that he lived among the tall white beings at the Nevada test ranges for years.",
+      "as_told": {
+        "title": "Charles Hall lived with the tall whites",
+        "years": null,
+        "place_text": "Area 51, Nevada",
+        "story_kind": "encounter"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "charles-hall-flown-by-the-tall-whites-to-area-52-and-53-afte-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels"
     ],
     "episodes": [
-      "bVhSPH2A5Vw"
+      "Rfmy5oW_r9c",
+      "bVhSPH2A5Vw",
+      "fpUa3xJN64Q"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, brings up a man he calls Colonel Charles Hall, whose story is about tall, pale beings known as the tall whites. The story is set in the Indian Springs Valley in Nevada in the 1960s. If true, it would mean non-human beings were living near a US military area at the time."
 }

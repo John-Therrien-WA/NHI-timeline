@@ -23,6 +23,27 @@
       "documents": [
         "greer-briefing-document"
       ]
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 3706.0,
+      "to_s": 3713.0,
+      "teller": "jesse-michels",
+      "quote": "right? Because I think Greer has spoken about this that when he spoke to Jake, Jake relayed that craft were being down and he was deeply un",
+      "kind": "host",
+      "cites": [
+        "steven-greer",
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Told by the host, relaying Greer's account, and adds that Jake was deeply troubled by it.",
+      "link_reason": "Both relay, via Greer, that Jake Barber told him ET craft were being targeted and downed.",
+      "as_told": {
+        "title": "Jake told Greer craft were being downed",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -39,13 +60,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "steven-greer"
     ],
     "episodes": [
+      "D2tKCFmJjks",
       "areO7Mej44E"
     ]
   },

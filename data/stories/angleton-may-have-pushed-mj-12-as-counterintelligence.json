@@ -21,11 +21,61 @@
         "james-angleton"
       ],
       "documents": []
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 1630.0,
+      "to_s": 1636.0,
+      "teller": "jesse-michels",
+      "quote": "I've heard and I don't know if this is true that maybe he had something to do with the MJ12 leaks.",
+      "kind": "host",
+      "cites": [
+        "james-angleton"
+      ],
+      "documents": [
+        "mj12-documents"
+      ],
+      "difference": "Framed more cautiously, as hearsay: 'I don't know if this is true'.",
+      "link_reason": "Both claim that Angleton had a hand in pushing out the MJ-12 documents.",
+      "as_told": {
+        "title": "Angleton linked to the MJ-12 leaks",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 1972.0,
+      "to_s": 1984.0,
+      "teller": "jesse-michels",
+      "quote": "80s and '90s. I personally think many of these documents were created by longtime CIA counter intelligence agent James Jesus Engleton, mainly to catch Soviet spies.",
+      "kind": "host",
+      "cites": [
+        "james-angleton"
+      ],
+      "documents": [
+        "majestic-12-documents"
+      ],
+      "difference": "Says outright that Angleton created the documents in the 1980s-90s to catch Soviet spies.",
+      "link_reason": "Both put forward the theory that Angleton produced or pushed the MJ-12 material as a counterintelligence operation.",
+      "as_told": {
+        "title": "MJ-12 documents created by James Jesus Angleton",
+        "years": {
+          "from": 1980,
+          "to": 1999
+        },
+        "place_text": "USA",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -36,7 +86,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -44,10 +94,12 @@
       "jesse-michels"
     ],
     "episodes": [
+      "GQlWf54K_7Y",
+      "ScE9FaDy-mE",
       "areO7Mej44E"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, wonders aloud whether James Jesus Angleton, who he says ran counterintelligence for the programme for decades, may have pushed the MJ-12 story. MJ-12 refers to documents describing a supposed secret group of top officials handling UFO matters. Michels's idea is that the story could have been spread on purpose to mislead."
 }

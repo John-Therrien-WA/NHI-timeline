@@ -25,33 +25,108 @@
         "rosemary-smith"
       ],
       "documents": []
+    },
+    {
+      "episode": "eQIMantuasQ",
+      "from_s": 503.0,
+      "to_s": 510.0,
+      "teller": "paul-smith",
+      "quote": "And she essentially made a circle on the map, and it was a 3-square-mile area, and the plane was inside that.",
+      "kind": "secondhand",
+      "cites": [
+        "dale-graff",
+        "rosemary-smith",
+        "jimmy-carter"
+      ],
+      "documents": [],
+      "difference": "Paul Smith tells it secondhand, credits Dale Graff, dates it to 1979 and adds the 3-square-mile circle drawn on the map.",
+      "link_reason": "Both describe Rosemary Smith remote-viewing the downed Tu-22 in Zaire during Carter's presidency.",
+      "as_told": {
+        "title": "Rosemary Smith locates downed TU-22 spy plane",
+        "years": {
+          "from": 1979,
+          "to": 1979
+        },
+        "place_text": "Zaire",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 472.0,
+      "to_s": 482.0,
+      "teller": "jimmy-carter",
+      "quote": "we located the plane where she said it was it's the only time that I have ever experienced something that was inexplicable",
+      "kind": "official",
+      "cites": [
+        "rosemary-smith"
+      ],
+      "documents": [],
+      "difference": "Quotes Carter directly calling it the only inexplicable thing he ever experienced, instead of a paraphrase.",
+      "link_reason": "Jimmy Carter's on-record statement that the psychic found the Tu-22 in Zaire, the testimony this story holds.",
+      "as_told": {
+        "title": "Jimmy Carter on finding the plane where the psychic said it was",
+        "years": {
+          "from": 1979,
+          "to": 1979
+        },
+        "place_text": "Zaire, Africa",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 2636.0,
+      "to_s": 2644.0,
+      "teller": "jesse-michels",
+      "quote": "this woman draws a 3 squ m radius in Zer where they find the plane",
+      "kind": "host",
+      "cites": [
+        "jimmy-carter",
+        "rosemary-smith"
+      ],
+      "documents": [],
+      "difference": "Adds that she drew a 3-square-mile radius where the plane was found.",
+      "link_reason": "Same account: Rosemary Smith remote-views the downed Tu-22 in Zaire, and Carter calls it the craziest thing of his presidency.",
+      "as_told": {
+        "title": "Remote viewer locates downed Tu-22 in Zaire (Carter)",
+        "years": {
+          "from": 1976,
+          "to": 1980
+        },
+        "place_text": "Zaire, Africa",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.6,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "official",
     "tellers": [
-      "jesse-michels"
+      "jimmy-carter"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "RofQnByLwOo",
+      "Sct30Qijfv8",
+      "eQIMantuasQ"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.8,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that former US president Jimmy Carter is on record calling one event the craziest thing of his presidency, 1976 to 1980 as Michels puts it. According to Michels, a woman named Rosemary Smith used remote viewing, the claimed ability to see far-off places with the mind, to find a Soviet Tu-22 plane that had gone down in Zaire, a country in central Africa. If true, it would mean psychic methods actually helped the US government."
 }

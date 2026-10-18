@@ -80,6 +80,28 @@
         "place_text": "Sandia National Labs; Utah",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 13209.0,
+      "to_s": 13218.0,
+      "teller": "jesse-michels",
+      "quote": "It's like why is he showing up in emails saying I killed pawns from pawns in Flehman like cold fusion",
+      "kind": "host",
+      "cites": [
+        "jeffrey-epstein"
+      ],
+      "documents": [
+        "epstein-emails"
+      ],
+      "difference": "",
+      "link_reason": "Both are about Epstein's email bragging that he 'killed' Pons, the Pons-Fleischmann cold fusion work.",
+      "as_told": {
+        "title": "Epstein emails about killing Pons-Fleischmann cold fusion",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -103,6 +125,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "CiQTBOQ1dTg",
       "d9tdJ2SkBKQ",
       "kccrkCGGzX4",
       "yGtVzBbUvx4"

@@ -1,0 +1,54 @@
+{
+  "id": "trinity-plutonium-fallout-plume-over-roswell-1945",
+  "title": "Trinity plutonium fallout plume over Roswell",
+  "summary": "John Brandenburg tells of Trinity plutonium fallout plume over Roswell, about 1945 at Roswell, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": "roswell-nm",
+  "place_text": "Trinity site and Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 4861.0,
+      "to_s": 4879.0,
+      "teller": "john-brandenburg",
+      "quote": "plume full of plutonium uh that didn't get burned up in the explosion, it just was still there passed over Roswell, so there had a big strip of of uh ur- uranium uh plutonium contaminated soil around Roswell",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "john-brandenburg"
+    ],
+    "episodes": [
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A scientist, Dr. John Brandenburg, speaking on Jesse Michels' podcast, says he was told that after the 1945 Trinity test, the first atomic bomb explosion, in the New Mexico desert, a cloud full of unburned plutonium drifted over the town of Roswell. According to him, this left a large strip of radioactive soil around Roswell. It matters to him because Roswell is where, two years later, many people say a strange craft came down, and he sees a link between the nuclear material and what showed up there."
+}

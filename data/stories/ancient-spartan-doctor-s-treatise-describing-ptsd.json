@@ -1,0 +1,53 @@
+{
+  "id": "ancient-spartan-doctor-s-treatise-describing-ptsd",
+  "title": "Ancient Spartan doctor's treatise describing PTSD",
+  "summary": "Greg Rogers tells of Ancient Spartan doctor's treatise describing PTSD, about Ancient Greece at Sparta, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Sparta",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 5925.0,
+      "to_s": 5937.0,
+      "teller": "greg-rogers",
+      "quote": "but we have archaeological evidence that goes all the way back to the Spartans. >> And there was a doctor that had written a treatise back then.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "ancient-treatise-on-combat-trauma"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "greg-rogers"
+    ],
+    "episodes": [
+      "TNtlzEnl8rA"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A doctor named Greg Rogers, speaking on a podcast, says the lasting mental scars of combat, known today as PTSD (post-traumatic stress disorder), are nothing new. He says there is archaeological evidence going back to the Spartans, the warrior people of ancient Greece, and that a Spartan doctor of that time wrote a treatise describing it. If so, people were naming combat trauma thousands of years ago."
+}

@@ -25,6 +25,30 @@
       "documents": [
         "the-anglo-american-establishment"
       ]
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 4225.0,
+      "to_s": 4235.0,
+      "teller": "jesse-michels",
+      "quote": "Carol Quigley wrote this book the Anglo-American establishment talks about roundt cultures ceil roads and Lord Alfred Milner or whatever",
+      "kind": "host",
+      "cites": [
+        "carroll-quigley",
+        "cecil-rhodes",
+        "alfred-milner"
+      ],
+      "documents": [
+        "the-anglo-american-establishment"
+      ],
+      "difference": "Places the story in the United Kingdom.",
+      "link_reason": "Same book by Quigley, with the same claim that the Rhodes and Milner round table culture gave rise to intelligence agencies.",
+      "as_told": {
+        "title": "Quigley's Anglo-American Establishment: Rhodes and Milner secret societies led to intelligence agencies",
+        "years": null,
+        "place_text": "United Kingdom",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -48,6 +72,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "51N8OxqZIWY",
       "kccrkCGGzX4"
     ]
   },

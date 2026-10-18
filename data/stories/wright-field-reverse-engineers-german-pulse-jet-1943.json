@@ -1,0 +1,77 @@
+{
+  "id": "wright-field-reverse-engineers-german-pulse-jet-1943",
+  "title": "Wright Field reverse-engineers German pulse jet",
+  "summary": "Jesse Michels tells of Wright Field reverse-engineers German pulse jet, about 1943 at Wright Field, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1943,
+    "to": 1943
+  },
+  "place": null,
+  "place_text": "Wright Field",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1725.0,
+      "to_s": 1732.0,
+      "teller": "jesse-michels",
+      "quote": "now right Airfield actually re\nsuccessfully reverse engineered a German\nPulse Jet engine in 1943",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 1385.0,
+      "to_s": 1391.0,
+      "teller": "uapgerb",
+      "quote": "well in 1943 they they successfully reverse engineered a German pulse jet engine.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Told by UAPGerb rather than the host.",
+      "link_reason": "Both tell of Wright Field's successful 1943 reverse-engineering of a German pulse-jet engine.",
+      "as_told": {
+        "title": "1943 reverse engineering of a German pulse jet",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "Wright Field, Ohio",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "uapgerb"
+    ],
+    "episodes": [
+      "5udx_SDdL3Y",
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several",
+  "plain": "Wright Field was a US military airfield where aircraft were tested and developed. A podcast host, Jesse Michels, says that in 1943 engineers there successfully reverse engineered a German pulse jet, a simple jet engine that fires in rapid bursts, meaning they took apart a captured engine and worked out how to build it. A researcher who goes by UAPGerb tells the same story in nearly the same words. They raise it to show that the US already had a track record of copying technology it did not invent, which would matter if it ever got hold of something stranger."
+}

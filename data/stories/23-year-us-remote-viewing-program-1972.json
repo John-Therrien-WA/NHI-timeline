@@ -1,0 +1,84 @@
+{
+  "id": "23-year-us-remote-viewing-program-1972",
+  "title": "23-year US remote viewing program",
+  "summary": "Jesse Michels tells of 23-year US remote viewing program, about 1972-1995 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1972,
+    "to": 1995
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 5484.0,
+      "to_s": 5494.0,
+      "teller": "jesse-michels",
+      "quote": "Also, if we have, you know, take it face value that we had a remote viewing program for 23 years, at the very least, we probably have covert remote viewing programs now.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 3551.0,
+      "to_s": 3562.0,
+      "teller": "jesse-michels",
+      "quote": "And then the CIA sort of now instrumentalizes this stuff in the form of Stargate, this program that they definitely had and I'm sure they say Sunset probably still going.",
+      "kind": "host",
+      "cites": [
+        "joseph-mcmoneagle"
+      ],
+      "documents": [],
+      "difference": "Names it as the CIA's Stargate, credits Joseph McMoneagle and suggests it may still be running today.",
+      "link_reason": "Jesse Michels describing the whole US remote-viewing program, probably still going in secret, is the same program-level claim as the 23-year remote-viewing program story.",
+      "as_told": {
+        "title": "CIA Stargate remote-viewing program",
+        "years": {
+          "from": 1970,
+          "to": 1995
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "stargate-psychic-spy-program-1972-1995",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "WBTqsbwJyqU",
+      "h6zMVkncTsE"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "\"Remote viewing\" is the idea that a person can use only their mind to see places or things far away. The podcast host Jesse Michels says the US government ran a remote viewing program for 23 years, from 1972 to 1995, which in another episode he calls Stargate, run by the CIA, and links to Joseph McMoneagle, one of its viewers. Michels argues that if such a program existed for that long, secret versions of it are probably still running today."
+}

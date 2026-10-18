@@ -70,6 +70,30 @@
         "place_text": "Roswell, New Mexico",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 10664.0,
+      "to_s": 10673.0,
+      "teller": "jesse-michels",
+      "quote": "um uh said that he saw footage of an alien, the one surviving being from Roswell being interviewed,",
+      "kind": "host",
+      "cites": [
+        "harold-malmgren",
+        "pippa-malmgren"
+      ],
+      "documents": [],
+      "difference": "Links the footage to an X-ray weapon and the 1962 Bluegill Triple Prime test.",
+      "link_reason": "Both say Malmgren told his daughter Pippa that he saw footage of the surviving Roswell being being interviewed.",
+      "as_told": {
+        "title": "Malmgren saw footage of the surviving Roswell being suggesting an X-ray weapon (Bluegill Triple Prime)",
+        "years": {
+          "from": 1947,
+          "to": 1962
+        },
+        "place_text": "Roswell; Bluegill Triple Prime high-altitude test",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -95,7 +119,8 @@
     "episodes": [
       "09KP8XVf5nY",
       "hBrfe4hFuM0",
-      "u7g5Sn1DJF4"
+      "u7g5Sn1DJF4",
+      "yJUBSuPh1pM"
     ]
   },
   "attestation": 0.5,

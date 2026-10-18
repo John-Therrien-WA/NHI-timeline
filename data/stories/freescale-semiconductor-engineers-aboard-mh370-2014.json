@@ -1,0 +1,54 @@
+{
+  "id": "freescale-semiconductor-engineers-aboard-mh370-2014",
+  "title": "Freescale Semiconductor engineers aboard MH370",
+  "summary": "Jesse Michels tells of Freescale Semiconductor engineers aboard MH370, about 2014 at MH370 flight, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2014,
+    "to": 2014
+  },
+  "place": null,
+  "place_text": "MH370 flight",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 5506.0,
+      "to_s": 5515.0,
+      "teller": "jesse-michels",
+      "quote": "Among the documented passengers on the MH370 flight were 20 engineers from Freescale Semiconductor,",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that among the passengers on MH370, a passenger flight that went missing in 2014, were 20 engineers from Freescale Semiconductor, a computer chip company. He brings it up in an episode about American scientists going missing, as a hint that the loss of these specialists may not have been chance."
+}

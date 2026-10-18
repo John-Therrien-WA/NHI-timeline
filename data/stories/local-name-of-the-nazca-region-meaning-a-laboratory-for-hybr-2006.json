@@ -1,0 +1,81 @@
+{
+  "id": "local-name-of-the-nazca-region-meaning-a-laboratory-for-hybr-2006",
+  "title": "Local name of the Nazca region meaning a laboratory for hybridization",
+  "summary": "Jesse Michels tells of Local name of the Nazca region meaning a laboratory for hybridization, about 2006 at Nazca, Peru, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2006,
+    "to": 2006
+  },
+  "place": null,
+  "place_text": "Nazca, Peru",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 9525.0,
+      "to_s": 9532.0,
+      "teller": "jesse-michels",
+      "quote": "Uh the the the local region translates to laboratory for insemination and hybridization.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "book-from-2006-untitled"
+      ]
+    },
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 2470.0,
+      "to_s": 2485.0,
+      "teller": "thierry-jamin",
+      "quote": "And there is a little book published in 2004 by a local author from Nazca that talked about various sites in the Nazca area.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "2004-book-by-a-local-nazca-author"
+      ],
+      "difference": "Credits a 2004 book by a local Nazca author and adds 'cloning' to the meaning; the story is dated 2006.",
+      "link_reason": "Both claim a local name for a Nazca site or region translates as a laboratory for hybridization; this telling gives the 2004 local book as the source.",
+      "as_told": {
+        "title": "2004 Nazca book: site name means cloning and hybridization laboratory",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Nazca, Peru",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "thierry-jamin"
+    ],
+    "episodes": [
+      "51N8OxqZIWY",
+      "HxQN2tkQHs8"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is about a place name in the Nazca area of Peru. A podcast host, Jesse Michels, says the local name of the region translates to \"laboratory for insemination and hybridization,\" meaning the mixing of different kinds of beings. He credits a book from 2006, without naming it. A researcher, Thierry Jamin, who has worked in Peru, tells it a bit differently. He says the source is a small book from 2004 by a local Nazca author describing sites in the area, and he adds \"cloning\" to the meaning. The story matters to them because it seems to hint that the region was long linked to the making of hybrid beings."
+}

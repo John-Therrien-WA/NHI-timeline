@@ -113,6 +113,150 @@
         "place_text": "Mount La Verna, Italy",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "2Mb6NPPjCyg",
+      "from_s": 886.0,
+      "to_s": 899.0,
+      "teller": "jesse-michels",
+      "quote": "st francis of assisi's conversion uh you can replace angel with alien he has like this like radiation burn stomata thing that like feels like you know an alien",
+      "kind": "host",
+      "cites": [
+        "st-francis-of-assisi"
+      ],
+      "documents": [],
+      "difference": "Frames it as his conversion, with 'angel' replaced by 'alien', and does not mention Brother Leo or the spinning disk.",
+      "link_reason": "Both recast St Francis of Assisi's experience, and his stigmata, as an alien encounter with radiation burns.",
+      "as_told": {
+        "title": "St. Francis of Assisi's conversion as an alien-type encounter",
+        "years": null,
+        "place_text": "Assisi, Italy",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 113.0,
+      "to_s": 132.0,
+      "teller": "jesse-michels",
+      "quote": "on Mount lerna in Italy but the first English translations of this experience from Thomas of salana don't mention anything about Christ instead the original translations describe Francis encountering a sound in Fury atmospheric Sparks and a flaming torch",
+      "kind": "host",
+      "cites": [
+        "thomas-of-celano",
+        "diana-pasulka"
+      ],
+      "documents": [
+        "thomas-of-celano-s-account-of-st-francis"
+      ],
+      "difference": "Credits Thomas of Celano's account and the early English translations rather than Brother Leo.",
+      "link_reason": "Both tell of St Francis on Mount La Verna, where the early translations of Thomas of Celano describe sparks and a flaming torch instead of Christ, read as a UFO encounter.",
+      "as_told": {
+        "title": "St Francis of Assisi's stigmata told as a fiery encounter in early translations",
+        "years": null,
+        "place_text": "Mount La Verna, Italy",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 1682.0,
+      "to_s": 1703.0,
+      "teller": "diana-pasulka",
+      "quote": "so what happens is that Francis is praying and something comes out of the sky and the way that it's described is that there's a lot of like Sparks and it seems kind of spinning",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Describes the object coming out of the sky and spinning, without naming Brother Leo.",
+      "link_reason": "The same St Francis encounter, with sparks and a spinning thing coming out of the sky and Francis left burned, told by Pasulka.",
+      "as_told": {
+        "title": "St Francis's encounter with the harsh angel and his burns",
+        "years": null,
+        "place_text": "Mount La Verna, Italy",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 4394.0,
+      "to_s": 4405.0,
+      "teller": "jesse-michels",
+      "quote": "she talks about St Francis of aisi who sees this flaming torch you know orb thing on Mount lever in I think uh 12th or 13th century Italy",
+      "kind": "secondhand",
+      "cites": [
+        "diana-pasulka"
+      ],
+      "documents": [],
+      "difference": "Gives the date as the 12th or 13th century and leaves out the stigmata-as-burns reading.",
+      "link_reason": "Both tell, crediting Pasulka, of St Francis seeing a flaming torch or orb on Mount La Verna.",
+      "as_told": {
+        "title": "St Francis of Assisi's flaming orb on Mount La Verna",
+        "years": null,
+        "place_text": "Mount La Verna, Italy",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 7756.0,
+      "to_s": 7780.0,
+      "teller": "jesse-michels",
+      "quote": "look at uh Diana Pulka's description of St. Princess of Aisi encountering the the the Saraphim or whatever. Like any of these things, I think it would drive most people a little nuts, horrific. And you know, he has what she would now say is probably like, you know, electromagnetic, you know, radiation or whatever. And like he but then the story that like never ends up getting told around this is like he dies from it a year later.",
+      "kind": "secondhand",
+      "cites": [
+        "diana-pasulka"
+      ],
+      "documents": [],
+      "difference": "Adds that Francis died from the effects a year later and dates the events to c. 1224-1226.",
+      "link_reason": "Both tell of Pasulka's reading of St Francis's seraph encounter at La Verna, with the stigmata explained as electromagnetic radiation from a craft.",
+      "as_told": {
+        "title": "St. Francis of Assisi's encounter with the Seraphim and his death a year later, as described by Diana Pasulka",
+        "years": null,
+        "place_text": "La Verna / Assisi, Italy",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "Rfmy5oW_r9c",
+      "from_s": 8014.0,
+      "to_s": 8025.0,
+      "teller": "jesse-michels",
+      "quote": "she basically says if you look at the original translation of what happened to St. Francis, it was probably just an interaction with a UFO",
+      "kind": "secondhand",
+      "cites": [
+        "diana-pasulka",
+        "st-francis-of-assisi"
+      ],
+      "documents": [],
+      "difference": "Names Mount La Verna and points to the original translation, but does not mention burns or radiation.",
+      "link_reason": "Same Pasulka-credited theory that St. Francis's stigmata on Mount La Verna came from a UFO encounter.",
+      "as_told": {
+        "title": "St. Francis's stigmata as a UFO encounter",
+        "years": null,
+        "place_text": "Mount La Verna, Italy",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 6387.0,
+      "to_s": 6396.0,
+      "teller": "jesse-michels",
+      "quote": "She thinks it's this UFO experience and that the stigmata he receives, these wounds on his hands are actually electromagnetic damage.",
+      "kind": "host",
+      "cites": [
+        "diana-pasulka",
+        "brother-leo",
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Frames the wounds explicitly as electromagnetic damage and credits Garry Nolan as well.",
+      "link_reason": "The same theory: St. Francis's stigmata on Mount La Verna as damage from a UFO encounter, credited to Pasulka and Brother Leo.",
+      "as_told": {
+        "title": "St. Francis's stigmata as electromagnetic damage",
+        "years": null,
+        "place_text": "Mount La Verna, Italy",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -136,11 +280,17 @@
       "diana-pasulka"
     ],
     "episodes": [
+      "2Mb6NPPjCyg",
       "A2-y_HasHEw",
       "C4rSj5Aum7w",
       "C_Na1tI5qpw",
+      "Rfmy5oW_r9c",
+      "Sct30Qijfv8",
       "aa9Xx5wI8Rw",
-      "kRO5jOa06Qw"
+      "bM18PJY6_Zc",
+      "h3u8EkGI8OQ",
+      "kRO5jOa06Qw",
+      "tS_64sTN5AU"
     ]
   },
   "attestation": 0.5,

@@ -26,33 +26,130 @@
         "william-steinman"
       ],
       "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 5458.0,
+      "to_s": 5462.0,
+      "teller": "uapgerb",
+      "quote": "And Wang was also talked about by primary Kingman witness um Arthur Stansel Jr.",
+      "kind": "secondhand",
+      "cites": [
+        "arthur-stansel-jr",
+        "eric-henry-wang"
+      ],
+      "documents": [],
+      "difference": "Stresses that Stansel named Wang and leaves out the small being in the tent.",
+      "link_reason": "This is Arthur Stansel Jr.'s Kingman 1953 testimony, which the story already credits with Eric Henry Wang.",
+      "as_told": {
+        "title": "Kingman witness Stansel names Wang",
+        "years": {
+          "from": 1953,
+          "to": 1953
+        },
+        "place_text": "Kingman, Arizona",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 99.0,
+      "to_s": 107.0,
+      "teller": "jesse-michels",
+      "quote": "They were told a secret test vehicle had crashed. His job was to determine its impact velocity.",
+      "kind": "host",
+      "cites": [
+        "arthur-stansel",
+        "chris-melon"
+      ],
+      "documents": [],
+      "difference": "Describes his task as finding the impact velocity of what he was told was a secret test vehicle. It leaves out the small being in the tent and credits Chris Mellon.",
+      "link_reason": "Both tell Arthur Stansel's account of the 1953 Kingman crash, where he was sent in to work out the crash's ballistics.",
+      "as_told": {
+        "title": "Kingman, Arizona saucer crash and Arthur Stansel's impact-velocity assignment",
+        "years": {
+          "from": 1953,
+          "to": 1953
+        },
+        "place_text": "Near Kingman, Arizona",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 107.0,
+      "to_s": 115.0,
+      "teller": "arthur-stansel",
+      "quote": "I accepted it was probably some United States government uh vehicle, a highly classified vehicle. In fact, we were told that that's what it was.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Stansel himself says he accepted it was a highly classified US government vehicle because that is what they were told.",
+      "link_reason": "This is Stansel telling, first hand, the same Kingman account as telling 1, where crew were told a secret test vehicle had crashed.",
+      "as_told": {
+        "title": "Stansel: told it was a classified US government vehicle",
+        "years": {
+          "from": 1953,
+          "to": 1953
+        },
+        "place_text": "Near Kingman, Arizona",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 450.0,
+      "to_s": 459.0,
+      "teller": "jesse-michels",
+      "quote": "he sees his name in the records cuz he was this witness of this crash. He sees a body like a you know 4 foot body morted or whatever in Kingman",
+      "kind": "host",
+      "cites": [
+        "bill-steinman",
+        "arthur-stansel",
+        "eric-henry-wang"
+      ],
+      "documents": [],
+      "difference": "Adds that Steinman found Stansel's name in records and puts the body at about 4 feet; links it to Wright Field.",
+      "link_reason": "Both tell of Arthur Stansel seeing a small body at the 1953 Kingman crash, tied to Eric Henry Wang and Steinman's research.",
+      "as_told": {
+        "title": "Kingman crash witness Arthur Stansel and Eric Henry Wang",
+        "years": {
+          "from": 1953,
+          "to": 1953
+        },
+        "place_text": "Kingman, Arizona; Wright Field, Ohio",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "uapgerb"
+      "arthur-stansel"
     ],
     "episodes": [
+      "Jpf0ZGY87c0",
+      "WBTqsbwJyqU",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.25,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A researcher who goes by UAPGerb tells on Jesse Michels's podcast of a reported crash of an unknown craft near Kingman, Arizona, in 1953. According to UAPGerb, a man named Arthur Stansel was sent to the site to work out the object's flight path, and inside a makeshift tent he saw a tiny brownish being, possibly charred and mangled. If true, it would mean a non-human body was recovered by the government."
 }

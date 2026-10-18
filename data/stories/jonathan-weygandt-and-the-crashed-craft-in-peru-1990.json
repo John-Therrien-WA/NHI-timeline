@@ -70,35 +70,131 @@
         "place_text": "Peru (Operation Laser Strike)",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 210.0,
+      "to_s": 220.0,
+      "teller": "uapgerb",
+      "quote": "a lance corporal in the Marines who claimed in 1997 while stationed in Peru under Operation Laser Strike that he encountered a crashed UAP.",
+      "kind": "researcher",
+      "cites": [
+        "jonathan-wagant",
+        "sergeant-allen",
+        "steven-greer",
+        "dan-willis"
+      ],
+      "documents": [],
+      "difference": "Dates it firmly to 1997, against the story's early 1990s, and credits Steven Greer and Dan Willis.",
+      "link_reason": "Same story: Marine Lance Corporal Jonathan Weygandt finds a crashed craft in Peru during Operation Laser Strike.",
+      "as_told": {
+        "title": "Jonathan Weygandt's crashed UAP in Peru",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Peru (Operation Laser Strike)",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7560.0,
+      "to_s": 7581.0,
+      "teller": "uapgerb",
+      "quote": "China. I think back to uh Jonathan\nWayant's encounter in 97 in Peru once he\nsees the UFO. He's taken in by these\nguys in DOE's rain jackets. He's flown\nto a place on a CH47 interrogated for\ndays. when he's brought to this\nlocation, this uh like obscure military\nbase, there's not only Americans there,\nbut there's Chinese, there's Germans,",
+      "kind": "secondhand",
+      "cites": [
+        "jonathan-weygandt"
+      ],
+      "documents": [],
+      "difference": "Adds that men in DOE rain jackets took him, flew him by CH-47 to an obscure base where Chinese and Germans were present alongside Americans, and questioned him for days.",
+      "link_reason": "Weygandt's 1997 Peru encounter during the counter-narcotics operation, the same incident the existing story holds.",
+      "as_told": {
+        "title": "Jonathan Weygandt's 1997 Peru encounter",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Peru",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 2810.0,
+      "to_s": 2820.0,
+      "teller": "jesse-michels",
+      "quote": "Just look at the insane story of UFO whistleblower Jonathan Weygandt, documented by my buddy UAP Gerb. Weygandt was part of a UFO crash retrieval team in Peru.",
+      "kind": "secondhand",
+      "cites": [
+        "jonathan-weygandt",
+        "uap-gerb"
+      ],
+      "documents": [],
+      "difference": "Dated 1997, matching UAPGerb's telling, where the story's date range is the early 1990s.",
+      "link_reason": "Both are Jonathan Weygandt's account of a crash retrieval in Peru, documented by UAPGerb.",
+      "as_told": {
+        "title": "Jonathan Weygandt's Peru crash retrieval",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Peru",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "HxQN2tkQHs8",
+      "from_s": 2831.0,
+      "to_s": 2843.0,
+      "teller": "jonathan-weygandt",
+      "quote": "This is the craft. Uh this is pretty crude two-dimensional drawing, but this is jungle here and this is the craft and it it was embedded uh in in the in in the rock like this.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Weygandt, using his own drawing of the craft embedded in the rock.",
+      "link_reason": "Weygandt himself describes the same Peru crash: a craft embedded in rock in the jungle.",
+      "as_told": {
+        "title": "Weygandt's drawing of the craft embedded in rock",
+        "years": {
+          "from": 1997,
+          "to": 1997
+        },
+        "place_text": "Peru",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 2,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
       "james-fox",
-      "uapgerb"
+      "jonathan-weygandt"
     ],
     "episodes": [
+      "HxQN2tkQHs8",
       "hBrfe4hFuM0",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "A documentary maker, James Fox, passes on the story of Jonathan Weygandt, a US Marine who says he was sent to Peru and came upon a crashed craft. Weygandt says he walked up to it and saw a green liquid dripping out. A researcher known as UAPGerb says it was an enormous egg- or teardrop-shaped craft stuck in a cliff face in a clearing, found during Operation Laser Strike, a drug-fighting mission, and he names two sergeants who were there. The tellers differ on the date, the early 1990s or 1997; it would mean the US military quietly recovers crashed craft abroad."
 }

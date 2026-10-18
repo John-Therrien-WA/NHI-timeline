@@ -112,6 +112,72 @@
         "place_text": "Mac Brazel ranch, Roswell, New Mexico",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 4971.0,
+      "to_s": 4982.0,
+      "teller": "john-brandenburg",
+      "quote": "Max Brazel found the wreckage nearby. Uh brought it into town, showed it to the sheriff, and the sheriff told him take it to the base.",
+      "kind": "secondhand",
+      "cites": [
+        "max-brazel",
+        "roswell-veterans"
+      ],
+      "documents": [],
+      "difference": "Adds that Brazel showed the debris to the sheriff, who told him to take it to the base.",
+      "link_reason": "Both tell of Mac Brazel finding and bringing in the 1947 Roswell debris.",
+      "as_told": {
+        "title": "Max Brazel brings Roswell debris to the sheriff",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 15316.0,
+      "to_s": 15320.0,
+      "teller": "jesse-michels",
+      "quote": "I I I think what happened at Roswell was was otherworldly. I do.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "The host states his own belief that Roswell was otherworldly, without giving any details of the debris.",
+      "link_reason": "Both are about the 1947 Roswell crash, and that story's tellings already include the claim that it was a genuine UFO crash.",
+      "as_told": {
+        "title": "Roswell crash was otherworldly",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 5070.0,
+      "to_s": 5072.0,
+      "teller": "jesse-michels",
+      "quote": "I think like I think Roswell happened. I",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Only a bare statement of belief that Roswell happened, with no details.",
+      "link_reason": "The host says Roswell happened, which matches the general Roswell 1947 crash story that holds the host's own 'You had Roswell in 47'.",
+      "as_told": {
+        "title": "Roswell crash",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -199,17 +265,82 @@
       "story": "roswell-flying-disc-announcement-then-retraction-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "alien-bodies-and-a-live-gray-recovered-at-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fort-worth-general-orders-blanchard-it-s-a-weather-balloon-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-marcel-s-unbendable-foil-thin-metal-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-caused-by-radio-signatures-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-held-the-most-us-nukes-in-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-s-shifting-official-stories-including-the-progeria-c-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-the-world-s-only-nuclear-bomber-base-couldn-t-tell-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-in-the-hangar-had-the-bathroom-on-the-other-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-rumoured-at-wright-patterson-lab-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "serpo-alien-language-decoded-from-a-live-ebe-recovered-at-ro-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tim-taylor-places-piece-of-roswell-crash-in-bledsoe-s-hand-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "two-saucers-at-roswell-left-melted-fiber-optics-that-looked-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "washington-quickly-ordered-roswell-bottled-up-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.9,
+  "score": 3.9,
   "profile": {
-    "independent_tellers": 4,
+    "independent_tellers": 5,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 1,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 1,
     "host": 1,
     "documents": 0,
@@ -219,19 +350,23 @@
     "strongest_kind": "journalist",
     "tellers": [
       "jesse-michels",
+      "john-brandenburg",
       "luigi",
       "michael-shellenberger",
       "robert-hastings"
     ],
     "episodes": [
+      "2ttdlCa5ZCI",
+      "ATJwqp5twAg",
       "DPmO-2E7Ayg",
       "d9tdJ2SkBKQ",
       "fzvwBBSmWYA",
       "kRO5jOa06Qw",
+      "p0S0BfoZy0w",
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 1.45,
+  "attestation": 1.95,
   "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, tells the old story this way: in 1947, near Roswell, New Mexico, a rancher named Mac Brazel collected strange debris from a crash on his land. A researcher called Luigi adds that the debris lay scattered across Brazel's ranch, and that a second piece, a pod carrying beings, came down about two miles away, where hikers with children found it. A journalist, Michael Shellenberger, asks whether one craft or two came down and says radar may have brought them down. Another researcher, Robert Hastings, notes that Roswell was then the only base in the world flying bombers that carried nuclear weapons, and he cites Lue Elizondo, a former Pentagon official, as writing that it was a real UFO crash. If true, it would mean a craft not made by humans fell into American hands that summer."
 }

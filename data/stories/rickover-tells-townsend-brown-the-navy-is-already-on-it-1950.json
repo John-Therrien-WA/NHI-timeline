@@ -1,0 +1,57 @@
+{
+  "id": "rickover-tells-townsend-brown-the-navy-is-already-on-it-1950",
+  "title": "Rickover tells Townsend Brown the Navy is already on it",
+  "summary": "Jesse Michels tells of Rickover tells Townsend Brown the Navy is already on it, about late 1950s-early 1960s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1963
+  },
+  "place": "united-states",
+  "place_text": "US Navy",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 3114.0,
+      "to_s": 3121.0,
+      "teller": "jesse-michels",
+      "quote": "hman rickover goes oh uh don't waste your time we're already on it like we know all about this",
+      "kind": "host",
+      "cites": [
+        "hyman-rickover",
+        "t-townsend-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2Xxmguz0GEQ"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells a story about an inventor named T. Townsend Brown, who in the late 1950s or early 1960s brought his ideas to Hyman Rickover, a senior figure in the US Navy. According to Michels, Rickover told Brown not to waste his time, because the Navy was already working on it and knew all about it. If true, it would mean the Navy was quietly ahead on exotic research that outsiders were only just pitching."
+}

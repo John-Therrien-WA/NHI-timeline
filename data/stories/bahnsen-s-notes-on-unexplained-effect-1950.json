@@ -1,0 +1,58 @@
+{
+  "id": "bahnsen-s-notes-on-unexplained-effect-1950",
+  "title": "Bahnsen's notes on unexplained effect",
+  "summary": "Paul Schatzkin tells of Bahnsen's notes on unexplained effect, about 1950s at Chapel Hill, North Carolina, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Chapel Hill, North Carolina",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 771.0,
+      "to_s": 778.0,
+      "teller": "paul-schatzkin",
+      "quote": "And Bonson writes in his notes that there's something going on here that we're unable to account for.",
+      "kind": "researcher",
+      "cites": [
+        "agnew-bahnsen"
+      ],
+      "documents": [
+        "bahnsen-s-notes"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "paul-schatzkin"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A writer named Paul Schatzkin, who studies the inventor Townsend Brown, told podcast host Jesse Michels about notes kept in the 1950s in Chapel Hill, North Carolina, by a man named Agnew Bahnsen, who worked with Brown's devices. Schatzkin says Bahnsen wrote in his notes that something was going on in the experiments that they could not account for. If true, it would suggest Brown's work produced an effect that ordinary science could not explain."
+}

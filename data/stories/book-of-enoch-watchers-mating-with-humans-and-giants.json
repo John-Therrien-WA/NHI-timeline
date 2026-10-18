@@ -43,35 +43,80 @@
         "place_text": "ancient Near East",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 8675.0,
+      "to_s": 8682.0,
+      "teller": "jay-anderson",
+      "quote": "Which, funny enough, if you read the book of Enoch, the Watchers, right, the the the weird beings came down on Mount Hernand in Lebanon.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [
+        "book-of-enoch"
+      ],
+      "difference": "Places the Watchers' descent on Mount Hermon in Lebanon and does not mention the mating or the giants.",
+      "link_reason": "The Book of Enoch account of the Watchers coming down to earth, the same cosmology story told in the corpus.",
+      "as_told": {
+        "title": "Watchers descending on Mount Hermon",
+        "years": null,
+        "place_text": "Mount Hermon, Lebanon",
+        "story_kind": "cosmology"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 4953.0,
+      "to_s": 4968.0,
+      "teller": "tim-alberino",
+      "quote": "call the first cause of the watchers defection was lust. They lusted. The book of Enoch says, and this is what the Genesis 6 implies, they lusted after the daughters of men.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "book-of-enoch",
+        "genesis-6"
+      ],
+      "difference": "Names lust as the first cause of the Watchers' defection, ties it to Genesis 6, and places it in the days of Jared.",
+      "link_reason": "Both tell the Book of Enoch account of the Watchers mating with human women.",
+      "as_told": {
+        "title": "Watchers lust after and procreate with human women",
+        "years": null,
+        "place_text": "Earth",
+        "story_kind": "cosmology"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 4,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
-    "researcher": 0,
+    "secondhand": 2,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jay-anderson",
       "jesse-michels",
-      "joe-rogan"
+      "joe-rogan",
+      "tim-alberino"
     ],
     "episodes": [
+      "51N8OxqZIWY",
       "C_Na1tI5qpw",
+      "CiQTBOQ1dTg",
       "JGE1NIGhBzw"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.85,
   "tier": "well-attested",
   "plain": "This story comes from the Book of Enoch, an ancient religious text. It tells of beings called the Watchers who came down to Earth and had children with human women, and those children were giants. A podcast host, Jesse Michels, brings it up while talking about ancient times, quoting the line that there were giants on the earth in those days. The talk show host Joe Rogan tells it too, calling the offspring the Nephilim. Rogan reads it as a story of genetic engineering by visitors, and credits a US congresswoman, Anna Paulina Luna, with raising it. If read that way, it would mean old scriptures remember outside beings mixing with humanity."
 }

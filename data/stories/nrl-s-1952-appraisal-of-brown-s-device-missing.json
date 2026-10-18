@@ -1,0 +1,58 @@
+{
+  "id": "nrl-s-1952-appraisal-of-brown-s-device-missing",
+  "title": "NRL's 1952 appraisal of Brown's device missing",
+  "summary": "Jesse Michels tells of NRL's 1952 appraisal of Brown's device missing, about 1952 at Naval Research Laboratory, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1952,
+    "to": 1952
+  },
+  "place": null,
+  "place_text": "Naval Research Laboratory",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1340.0,
+      "to_s": 1355.0,
+      "teller": "jesse-michels",
+      "quote": "When Tom Valone of the Integrity Research Institute tried to locate a copy of an appraisal of Brown's experiments conducted in 1952 by the Naval Research Laboratory, the laboratory no longer had it. The paper was called the TT Brown electrogravity device.",
+      "kind": "host",
+      "cites": [
+        "tom-valone"
+      ],
+      "documents": [
+        "tt-brown-electrogravity-device"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in 1952 the Naval Research Laboratory, the US Navy's research centre, wrote an assessment of experiments by Thomas Townsend Brown, an inventor who worked on electrogravity, the idea that electricity could push against gravity. The paper was called \"TT Brown electrogravity device.\" Michels says that when Tom Valone, of a research group called the Integrity Research Institute, tried to find a copy, the laboratory no longer had it, which suggests records of this work went missing."
+}

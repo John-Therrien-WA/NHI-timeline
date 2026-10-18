@@ -22,6 +22,29 @@
       "kind": "secondhand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 6425.0,
+      "to_s": 6440.0,
+      "teller": "salvatore-pais",
+      "quote": "I think we remember the reverse engineering part Lazar speaks to this how why he was there to begin with he was there as a replacement for someone that had gotten killed trying to what use a blowtorrch to go through this re",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Told second hand by Pais, who names a blowtorch as the tool and says Lazar was brought in as the replacement.",
+      "link_reason": "Both describe Lazar's predecessor being killed while cutting into the craft or its reactor at the Nevada site.",
+      "as_told": {
+        "title": "Lazar replaced someone killed while cutting into the craft with a blowtorch",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "S-4, Nevada",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
@@ -38,13 +61,14 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "bob-lazar"
     ],
     "episodes": [
+      "8TYMQOUDQBo",
       "d9tdJ2SkBKQ"
     ]
   },

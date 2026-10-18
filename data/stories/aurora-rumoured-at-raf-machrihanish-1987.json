@@ -1,0 +1,54 @@
+{
+  "id": "aurora-rumoured-at-raf-machrihanish-1987",
+  "title": "Aurora rumoured at RAF Machrihanish",
+  "summary": "Nick Cook tells of Aurora rumoured at RAF Machrihanish, about late 1980s-1990s at RAF Machrihanish, Scotland, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1999
+  },
+  "place": null,
+  "place_text": "RAF Machrihanish, Scotland",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 4291.0,
+      "to_s": 4298.0,
+      "teller": "nick-cook",
+      "quote": "there were rumors it was based out of the UK for a while at a remote Scottish base called RAF Machrihanish.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "nick-cook"
+    ],
+    "episodes": [
+      "G7Ns4Aq1tVc"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "Nick Cook, a British aviation journalist, says on Jesse Michels's podcast that there were rumours about Aurora, a supposed secret American aircraft, in the late 1980s and 1990s. He says it was rumoured to be based for a while at RAF Machrihanish, a remote Royal Air Force base in Scotland. If true, a secret advanced aircraft would have been flying from British soil."
+}

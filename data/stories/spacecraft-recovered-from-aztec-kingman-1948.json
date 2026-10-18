@@ -25,33 +25,55 @@
         "jesse-michels"
       ],
       "documents": []
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 0.0,
+      "to_s": 21.0,
+      "teller": "jesse-michels",
+      "quote": "On March 25th, 1948, something crashed in the New Mexico desert. An 100 ft flying saucer complete with 16 charred alien bodies seen by multiple eyewitnesses from different vantage points.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds the exact date of March 25, 1948, Hart Canyon, a 100 ft craft, 16 charred bodies and several eyewitnesses; it does not mention Kingman.",
+      "link_reason": "Both tell of a flying saucer crashing and being recovered at Aztec, New Mexico, in 1948. Coulthart's telling says a spacecraft was recovered from Aztec.",
+      "as_told": {
+        "title": "Aztec saucer crash with 16 bodies",
+        "years": {
+          "from": 1948,
+          "to": 1948
+        },
+        "place_text": "Hart Canyon, Aztec, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 0.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "host",
     "tellers": [
-      "ross-coulthart"
+      "jesse-michels"
     ],
     "episodes": [
+      "OZ_oCpKYQJ0",
       "V00WcEiKRAY"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.1,
   "tier": "told-once",
   "plain": "A journalist named Ross Coulthart, speaking with podcast host Jesse Michels, relays a remark linked to David Grusch, a former intelligence officer turned whistleblower, that a spacecraft was recovered from Aztec, New Mexico. The story ties this to supposed crash recoveries between 1948 and 1953, including one at Kingman, Arizona, which, if true, would mean the US government has held non-human craft for decades."
 }

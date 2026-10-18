@@ -26,33 +26,81 @@
         "allen-dulles"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 6471.0,
+      "to_s": 6484.0,
+      "teller": "daniel-sheehan",
+      "quote": "what they decided among themselves in an exchange of 18 different letters that went back and forth completely secretly outside of the channels of the state department outside of the channels of the of the CIA",
+      "kind": "secondhand",
+      "cites": [
+        "allen-dulles",
+        "nikita-khrushchev",
+        "walter-sullivan"
+      ],
+      "documents": [],
+      "difference": "Specifies 18 secret letters sent outside State Department and CIA channels, and ties Brown Brothers Harriman to the targeting.",
+      "link_reason": "Both tell the theory that JFK's secret back channel with Khrushchev on denuclearization led Dulles to want him dead.",
+      "as_told": {
+        "title": "Kennedy-Khrushchev secret letters on nuclear disarmament lead Dulles and Brown Brothers Harriman to target JFK",
+        "years": {
+          "from": 1962,
+          "to": 1963
+        },
+        "place_text": "Washington DC; Dallas",
+        "story_kind": "theory"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "families-selected-for-the-program-by-demographics-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jfk-s-planned-ussoviet-alliance-against-the-nordics-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jolly-west-s-mk-ultra-violence-creation-for-mass-pacificatio-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "manson-modeled-his-life-on-heinlein-s-stranger-in-a-strange-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
+      "daniel-sheehan",
       "jesse-michels"
     ],
     "episodes": [
-      "-0g3lLGxNfc"
+      "-0g3lLGxNfc",
+      "2SQXAPCdmPE"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, says that in the 1960s President John F. Kennedy had set up private lines of contact with Nikita Khrushchev, the Soviet leader, to work toward easing tensions and getting rid of nuclear weapons. Michels says that men like Allen Dulles, the CIA director Kennedy had fired, basically wanted to take Kennedy out. He frames it as a picture of a president at odds with his own security establishment."
 }

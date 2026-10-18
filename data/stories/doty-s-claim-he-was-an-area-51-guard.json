@@ -1,0 +1,53 @@
+{
+  "id": "doty-s-claim-he-was-an-area-51-guard",
+  "title": "Doty's claim he was an Area 51 guard",
+  "summary": "Greg Bishop tells of Doty's claim he was an Area 51 guard, about unspecified at Nevada test site and Area 51, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "nevada-test-site",
+  "place_text": "Area 51, Nevada",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 1361.0,
+      "to_s": 1363.0,
+      "teller": "greg-bishop",
+      "quote": "He said he was a guard at Area 51. I have no idea.",
+      "kind": "secondhand",
+      "cites": [
+        "rick-doty"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "greg-bishop"
+    ],
+    "episodes": [
+      "WBTqsbwJyqU"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A writer, Greg Bishop, says a man named Rick Doty told him he was once a guard at Area 51, a secret US military test site in the Nevada desert. Bishop adds that he has no idea whether that is so."
+}

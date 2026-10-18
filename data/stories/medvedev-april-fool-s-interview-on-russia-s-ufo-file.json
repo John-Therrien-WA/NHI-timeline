@@ -21,6 +21,29 @@
         "dmitry-medvedev"
       ],
       "documents": []
+    },
+    {
+      "episode": "IFaXi-NrPV0",
+      "from_s": 4566.0,
+      "to_s": 4575.0,
+      "teller": "jesse-michels",
+      "quote": "know if you know this but um Medvidev many years ago I think he might have even been president at the time gave an interview and it was on April Fool's Day",
+      "kind": "host",
+      "cites": [
+        "dmitry-medvedev"
+      ],
+      "documents": [],
+      "difference": "Mentions nuclear codes, guesses he may have been president at the time, and dates it to c. 2010s.",
+      "link_reason": "Same April Fool's Day interview in which Medvedev was asked about UFOs.",
+      "as_told": {
+        "title": "Medvedev's April Fool's remark about UFOs and nuclear codes",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "Russia",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -44,7 +67,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "-0g3lLGxNfc"
+      "-0g3lLGxNfc",
+      "IFaXi-NrPV0"
     ]
   },
   "attestation": 0.1,

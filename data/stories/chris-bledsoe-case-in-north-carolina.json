@@ -47,11 +47,126 @@
         "place_text": "North Carolina",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 3775.0,
+      "to_s": 3786.0,
+      "teller": "jesse-michels",
+      "quote": "now you have this guy Chris bledo in North Carolina who like you have this guy Jim semivan who's a hardcore Intel guy top ranking CIA official",
+      "kind": "host",
+      "cites": [
+        "chris-bledsoe",
+        "jim-semivan"
+      ],
+      "documents": [],
+      "difference": "Puts the focus on Jim Semivan, a senior CIA official, rather than Hal Puthoff.",
+      "link_reason": "Both are about the Chris Bledsoe case in North Carolina and the interest intelligence figures, including Jim Semivan, took in it.",
+      "as_told": {
+        "title": "CIA's Jim Semivan takes an interest in Chris Bledsoe",
+        "years": {
+          "from": 2010,
+          "to": 2029
+        },
+        "place_text": "North Carolina",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 5757.0,
+      "to_s": 5768.0,
+      "teller": "jesse-michels",
+      "quote": "he claimed to see the the lady quote unquote this like Divine figure who he speaks to once a year he gets prophecies from this woman",
+      "kind": "host",
+      "cites": [
+        "chris-bledsoe",
+        "jim-semivan",
+        "tim-taylor"
+      ],
+      "documents": [
+        "ufo-of-god"
+      ],
+      "difference": "Adds the Lady, a divine figure who gives Bledsoe prophecies once a year, and credits Timothy Taylor and the book UFO of God.",
+      "link_reason": "Both are the host's overview of the Chris Bledsoe case in North Carolina and the government figures who took an interest in it.",
+      "as_told": {
+        "title": "Host summary of Chris Bledsoe, the Lady and government interest",
+        "years": null,
+        "place_text": "North Carolina",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 3395.0,
+      "to_s": 3408.0,
+      "teller": "jesse-michels",
+      "quote": "guy in North Carolina. He had some very anomalous experiences involving beings in a craft. And he started to get visited by all these higherups at NASA and the CIA.",
+      "kind": "host",
+      "cites": [
+        "chris-bledsoe",
+        "chris-ramsay"
+      ],
+      "documents": [],
+      "difference": "Mentions beings in a craft and visits from NASA and CIA officials in general, without naming Puthoff.",
+      "link_reason": "Both are about the Chris Bledsoe case in North Carolina: his craft experiences and senior intelligence and NASA figures showing up at his door.",
+      "as_told": {
+        "title": "Chris Bledsoe's encounter with beings in a craft, and visits from NASA and CIA officials",
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "place_text": "North Carolina",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 5338.0,
+      "to_s": 5347.0,
+      "teller": "jesse-michels",
+      "quote": "Chris Bledsoe claimed to, you know, have an interaction with this goddess Hatheror and see also at Alien Craft",
+      "kind": "host",
+      "cites": [
+        "chris-bledsoe"
+      ],
+      "documents": [],
+      "difference": "Adds the encounter with the goddess Hathor and sightings of alien craft, from 2007 onward.",
+      "link_reason": "Both are about Chris Bledsoe's encounter case in North Carolina.",
+      "as_told": {
+        "title": "Chris Bledsoe's Hathor encounter and craft sightings",
+        "years": {
+          "from": 2007,
+          "to": 2007
+        },
+        "place_text": "North Carolina",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 10935.0,
+      "to_s": 10947.0,
+      "teller": "jesse-michels",
+      "quote": "Chris Bledsoe as well, super experiencer who, you know, has had all sorts of fascinating experiences with the the lady but also UFOs showing up at his house in Fayetteville, North Carolina.",
+      "kind": "host",
+      "cites": [
+        "chris-bledsoe"
+      ],
+      "documents": [],
+      "difference": "Names Fayetteville and mentions the Lady, but not Puthoff's visit.",
+      "link_reason": "Both are about Chris Bledsoe drawing UFOs to his home in North Carolina, the Bledsoe case.",
+      "as_told": {
+        "title": "Chris Bledsoe's UFOs at his home in Fayetteville",
+        "years": null,
+        "place_text": "Fayetteville, North Carolina",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -62,7 +177,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -70,11 +185,16 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
+      "2Xxmguz0GEQ",
       "IWui5cBkwoE",
-      "areO7Mej44E"
+      "WBTqsbwJyqU",
+      "areO7Mej44E",
+      "h3u8EkGI8OQ",
+      "uYyXpx7ADJQ"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, describes the case of Chris Bledsoe, a man in North Carolina who, Michels says, began attracting UFOs. According to Michels, Hal Puthoff, a long-serving national security figure whom he places at the CIA (the US spy agency) and NASA, showed up at Bledsoe's door once this started. If true, it would mean government-linked people were quietly following ordinary people with UFO experiences."
 }

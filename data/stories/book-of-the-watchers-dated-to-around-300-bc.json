@@ -1,0 +1,54 @@
+{
+  "id": "book-of-the-watchers-dated-to-around-300-bc",
+  "title": "Book of the Watchers dated to around 300 BC",
+  "summary": "Tim Alberino tells of Book of the Watchers dated to around 300 BC, about c. 300 BC at ancient Judea, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "ancient Judea",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 1310.0,
+      "to_s": 1322.0,
+      "teller": "tim-alberino",
+      "quote": "The oldest section, namely the book of the Watchers containing this the the Enochian tale of the Watchers that was written at least cir circa 300 BC.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "book-of-the-watchers",
+        "1-enoch"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "tim-alberino"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A researcher named Tim Alberino says on Jesse Michels's podcast that the Book of the Watchers, the oldest part of an ancient Jewish text called 1 Enoch, was written at least around 300 BC. That section tells the tale of beings called the Watchers. He tells it to show how old the story is."
+}

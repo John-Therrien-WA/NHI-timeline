@@ -26,6 +26,32 @@
       "documents": [
         "robertson-panel-declassified-documents"
       ]
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 2159.0,
+      "to_s": 2175.0,
+      "teller": "kirk-mcconnell",
+      "quote": "So, in the wake of that, uh, the Robertson panel made these recommendations uh in secret. One recommendation was to uh that the US government needed to be out debunking uh the existence",
+      "kind": "researcher",
+      "cites": [
+        "howard-robertson",
+        "luis-alvarez"
+      ],
+      "documents": [
+        "robertson-panel-report"
+      ],
+      "difference": "Adds recommendations to detect and track, credits Robertson and Alvarez, and dates it 1952-1953.",
+      "link_reason": "Both tell of the CIA Robertson Panel's secret recommendation that the government debunk UFOs.",
+      "as_told": {
+        "title": "Robertson Panel's secret recommendations to debunk, detect and track",
+        "years": {
+          "from": 1952,
+          "to": 1953
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -38,32 +64,39 @@
       "story": "robertson-panel-aim-to-debunk-sightings-1953",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "brown-s-1953-winter-haven-proposal",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.1,
+  "score": 3.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
-      "karl-nell"
+      "karl-nell",
+      "kirk-mcconnell"
     ],
     "episodes": [
+      "KGD1nuM4MR8",
       "aa9Xx5wI8Rw"
     ]
   },
-  "attestation": 1.05,
-  "tier": "told-once",
+  "attestation": 1.55,
+  "tier": "well-attested",
   "plain": "Karl Nell, a retired US Army officer, says declassified documents show that the Robertson Panel, a group of scientists convened by the CIA in 1953, effectively decided the government should debunk UFOs. According to him, the aim was to mislead the public and even to infiltrate the groups that studied the subject."
 }

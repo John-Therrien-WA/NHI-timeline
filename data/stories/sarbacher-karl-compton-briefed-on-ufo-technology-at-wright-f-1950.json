@@ -26,6 +26,27 @@
         "karl-compton"
       ],
       "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 3735.0,
+      "to_s": 3741.0,
+      "teller": "jesse-michels",
+      "quote": "who was president of MIT who was rumored to be shown the craft at Wright Airfield",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Says he was shown the craft itself, gives no source (Sarbacher) and no 1950 date, and leaves Compton unnamed.",
+      "link_reason": "Same rumor: the MIT president (Karl Compton) was shown or briefed on UFO technology at Wright Field.",
+      "as_told": {
+        "title": "MIT president rumored shown craft at Wright Airfield",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Wright Airfield, Ohio",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -49,7 +70,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 0.1,

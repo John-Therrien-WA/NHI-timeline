@@ -1,0 +1,78 @@
+{
+  "id": "researchers-measure-energy-fields-at-pyramid-sites-and-find",
+  "title": "Researchers measure energy fields at pyramid sites and find higher seed yields",
+  "summary": "Jim Weiner tells of Researchers measure energy fields at pyramid sites and find higher seed yields, about ancient sites, recent research at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "pyramid sites in Mesoamerica, Europe and Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "QkuDvTFN7ms",
+      "from_s": 8362.0,
+      "to_s": 8369.0,
+      "teller": "jim-weiner",
+      "quote": "they found out that they increase yield per acre like three to five times.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "seeds-of-knowledge-stones-of-power"
+      ]
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 1618.0,
+      "to_s": 1627.0,
+      "teller": "geoffrey-drumm",
+      "quote": "was documented using electrostatic voltmeters by guys like um John Burke in his book seed of knowledge stone of plenty",
+      "kind": "researcher",
+      "cites": [
+        "john-burke",
+        "hugh-newman"
+      ],
+      "documents": [
+        "seed-of-knowledge-stone-of-plenty"
+      ],
+      "difference": "Names John Burke, his book and the electrostatic voltmeters, and puts the measurements at stone circles; it gives the positive surface charge rather than the seed-yield result.",
+      "link_reason": "Both rest on John Burke's work in Seed of Knowledge, Stone of Plenty, which measured electrical fields at ancient monument sites.",
+      "as_told": {
+        "title": "John Burke measures positive surface charge at stone circles",
+        "years": null,
+        "place_text": "stone circles",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm",
+      "jim-weiner"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw",
+      "QkuDvTFN7ms"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested",
+  "plain": "This story is about the idea that ancient pyramids and stone sites give off a kind of energy that helps crops grow. A researcher, Jim Weiner, citing a book called Seed of Knowledge, Stone of Plenty, says researchers found that seeds treated at these sites increased yield per acre three to five times. Another researcher, Geoffrey Drumm, names the book's author, John Burke, and mentions Hugh Newman. Drumm says the energy was measured with electrostatic voltmeters, tools that read electric charge, and that the sites, including stone circles, showed a positive charge on the surface. He talks about the charge rather than the crops. If true, it would mean ancient builders chose or shaped these places for a practical, energetic purpose."
+}

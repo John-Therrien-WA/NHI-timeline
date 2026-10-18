@@ -27,6 +27,82 @@
         "peter-gumpel"
       ],
       "documents": []
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 3063.0,
+      "to_s": 3075.0,
+      "teller": "diana-pasulka",
+      "quote": "then that's when we went to the observatory and in the OB Observatory The Observatory is the Catholic Observatory it's run by a Jesuit monk",
+      "kind": "firsthand",
+      "cites": [
+        "tyler"
+      ],
+      "documents": [],
+      "difference": "Ties the conversion to the visit to the Jesuit-run Vatican Observatory rather than to the archives records, and dates it c. 2017-2018.",
+      "link_reason": "Both tell of the conversion Pasulka watched Tyler go through on their Vatican trip, which included the archives and the observatory.",
+      "as_told": {
+        "title": "Tyler's conversion after the Vatican Observatory visit",
+        "years": {
+          "from": 2017,
+          "to": 2018
+        },
+        "place_text": "Vatican Observatory",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 7473.0,
+      "to_s": 7484.0,
+      "teller": "jesse-michels",
+      "quote": "In Pulka's book, Taylor undergoes a profound conversion in the Vatican archives, blending technology and the phenomenon in what became a personal revelation.",
+      "kind": "host",
+      "cites": [
+        "diana-pasulka",
+        "tim-taylor"
+      ],
+      "documents": [
+        "american-cosmic"
+      ],
+      "difference": "Uses Taylor's real name, cites the book and frames the conversion as blending technology with the phenomenon.",
+      "link_reason": "Both tell of Taylor (Tyler) undergoing a conversion in the Vatican archives, as described by Pasulka.",
+      "as_told": {
+        "title": "Tim Taylor's conversion in the Vatican archives",
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "place_text": "Vatican archives, Rome",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 7484.0,
+      "to_s": 7493.0,
+      "teller": "diana-pasulka",
+      "quote": ">> And then he he decided to convert. But also what happens is he changes his idea of what these things are that he's feeling he's getting signals from.",
+      "kind": "researcher",
+      "cites": [
+        "tim-taylor"
+      ],
+      "documents": [],
+      "difference": "Adds that he also changed his view of what was sending him signals.",
+      "link_reason": "Pasulka again tells of Taylor's conversion at the Vatican.",
+      "as_told": {
+        "title": "Pasulka on Taylor's conversion and change of view",
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "place_text": "Vatican, Rome",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "tS_64sTN5AU",
+        "from_s": 3279.0
+      }
     }
   ],
   "related": [],
@@ -43,14 +119,16 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "diana-pasulka"
     ],
     "episodes": [
-      "aa9Xx5wI8Rw"
+      "QgxjtDS2sIQ",
+      "aa9Xx5wI8Rw",
+      "tS_64sTN5AU"
     ]
   },
   "attestation": 1.0,

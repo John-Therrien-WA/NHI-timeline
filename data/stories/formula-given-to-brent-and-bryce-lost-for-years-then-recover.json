@@ -1,0 +1,81 @@
+{
+  "id": "formula-given-to-brent-and-bryce-lost-for-years-then-recover",
+  "title": "Formula given to Brent and Bryce, lost for years, then recovered",
+  "summary": "Brent tells of Formula given to Brent and Bryce, lost for years, then recovered, about Dark Skies era onward at an unknown place, and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "washington-dc",
+  "place_text": "Brent's garage, Washington",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 11091.0,
+      "to_s": 11100.0,
+      "teller": "brent",
+      "quote": "I was researching the formula, the thing that the guy gave us that we we lost it for years.",
+      "kind": "firsthand",
+      "cites": [
+        "bryce"
+      ],
+      "documents": [
+        "the-formula"
+      ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 11652.0,
+      "to_s": 11661.0,
+      "teller": "brent-friedman",
+      "quote": "happened was it had come out of the envelope and it had gotten moisture on it. So, it had stuck to the back of a book because it had the stickum in it.",
+      "kind": "firsthand",
+      "cites": [
+        "bryce-zabel"
+      ],
+      "documents": [
+        "jc-formula-envelope"
+      ],
+      "difference": "Adds that Brent's daughter found it c. 2023-2024 in his Washington garage, stuck by moisture to the back of a book.",
+      "link_reason": "Both tell of the formula being lost for years and then recovered; this telling gives the recovery.",
+      "as_told": {
+        "title": "Lost envelope found stuck to the back of a book by Brent's daughter",
+        "years": {
+          "from": 2023,
+          "to": 2024
+        },
+        "place_text": "Brent's garage, Washington",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 5.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 2,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "brent",
+      "brent-friedman"
+    ],
+    "episodes": [
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 2.5,
+  "tier": "well-attested",
+  "plain": "A writer named Brent Friedman tells this story on the show of a podcast host, Jesse Michels. Years earlier, Brent says, a man gave him and his writing partner, Bryce Zabel, a handwritten formula, and then the two of them lost it for years. He says he was later researching it again, and the paper turned up. In his account it had slipped out of its envelope, got damp, and stuck to the back of a book because the envelope's glue was still on it. He adds that his daughter found it around 2023 or 2024 in his garage in Washington. Brent is the only person telling it, and he tells it twice in the same interview, adding the detail about his daughter and the garage the second time. If it is what he believes, it would mean a strange gift from long ago has survived and can now be looked at again."
+}

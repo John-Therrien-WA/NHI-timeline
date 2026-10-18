@@ -1,0 +1,62 @@
+{
+  "id": "the-1943-philadelphia-experiment",
+  "title": "The 1943 Philadelphia Experiment",
+  "summary": "Jesse Michels tells of The 1943 Philadelphia Experiment, about 1943 at Philadelphia, Pennsylvania, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1943,
+    "to": 1943
+  },
+  "place": "philadelphia-pa",
+  "place_text": "Philadelphia, Navy",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 302.0,
+      "to_s": 317.0,
+      "teller": "jesse-michels",
+      "quote": "Legend has it that in 1943, the Navy tried to teleport a ship in what's now known as the Philadelphia experiment, and it kind of worked. It disappeared, reappeared, and then half the crew got atomically fused into the ship's walls.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsen-brown"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "philadelphia-experiment-and-townsend-brown-1943",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2ttdlCa5ZCI"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, retells a legend that in 1943 the US Navy tried to teleport a ship in Philadelphia, in what is now called the Philadelphia Experiment. As Michels tells it, it kind of worked: the ship vanished and reappeared, and half the crew ended up fused into the ship's walls. He links the tale to a researcher named Thomas Townsend Brown, and if true it would mean the Navy touched teleportation during the Second World War."
+}

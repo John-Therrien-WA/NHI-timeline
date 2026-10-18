@@ -1,0 +1,89 @@
+{
+  "id": "dragon-wagon-used-to-haul-the-craft-away-1948",
+  "title": "Dragon wagon used to haul the craft away",
+  "summary": "Jesse Michels tells of Dragon wagon used to haul the craft away, about 1948 at New Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Hart Canyon, Aztec, New Mexico",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 2040.0,
+      "to_s": 2048.0,
+      "teller": "jesse-michels",
+      "quote": "Then, something called a dragon wagon begins backing its way up the newly cut road.",
+      "kind": "host",
+      "cites": [
+        "frank-scully"
+      ],
+      "documents": [
+        "behind-the-flying-saucers"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "aztec-1948-craft-powered-up-at-wright-field-went-translucent",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aztec-crash-possibly-brought-down-by-the-lashup-radar-networ-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "government-crash-photos-that-faded-to-blank-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-visits-aztec-crash-site-with-the-ramseys-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "recovery-team-without-insignia-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "scientists-limited-to-20-minutes-inside-the-craft-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells of a craft said to have crashed in 1948 at Hart Canyon near Aztec, New Mexico, drawing on Behind the Flying Saucers, a book by the writer Frank Scully. In his telling, once a new road had been cut to the site, a heavy vehicle called a dragon wagon backed its way up to haul the craft away, a detail that, if true, would point to an organized military recovery."
+}

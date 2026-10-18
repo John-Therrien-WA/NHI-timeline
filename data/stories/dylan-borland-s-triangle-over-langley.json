@@ -122,11 +122,52 @@
         "place_text": "Military base, near a NASA hangar",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 1725.0,
+      "to_s": 1736.0,
+      "teller": "dylan-borland",
+      "quote": "hanger and the light starts to fly to me across the base. And as it flies to me, a triangle manifests around it.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "aaro-mfr-classified"
+      ],
+      "difference": "Told firsthand: the light flies at him from near the NASA hangar and a triangle forms around it, and an AARO MFR is cited.",
+      "link_reason": "Both are Dylan Borland's sighting of a triangle craft at Langley in 2012; here he tells it himself.",
+      "as_told": {
+        "title": "Triangle craft rises from near the NASA hangar at Langley AFB",
+        "years": {
+          "from": 2012,
+          "to": 2012
+        },
+        "place_text": "Langley Air Force Base, Virginia",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 10039.0,
+      "to_s": 10048.0,
+      "teller": "dylan-borland",
+      "quote": "I hate to call it this almost like a task where I just luckily was at the right place at the right time and saw them come around to do a uh scan.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand, and frames the craft as coming round to do a scan.",
+      "link_reason": "Borland's own sighting of the triangle over Langley, which the existing story holds from secondhand tellings.",
+      "as_told": {
+        "title": "Langley UFO came round to do a scan",
+        "years": null,
+        "place_text": "Langley Air Force Base, Virginia",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 2.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -137,7 +178,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 3,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -146,11 +187,12 @@
     ],
     "episodes": [
       "-XdvIrexF08",
+      "K4gYHs84BIc",
       "u7g5Sn1DJF4",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.25,
   "tier": "told-once",
   "plain": "A man named Dylan Borland says that at Langley, near a NASA hangar, he saw a huge equilateral triangle one to two stories thick with sharp edges, a story he also told to Congress and that podcast host Jesse Michels dates to 2012. According to a researcher who goes by UAPGerb, Borland felt the air turn charged as the triangle took off above him, and filmmaker Jeremy Corbell retells it too. If true, it would mean an unknown craft hovered openly over a US government site."
 }

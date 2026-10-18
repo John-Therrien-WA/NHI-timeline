@@ -1,0 +1,57 @@
+{
+  "id": "ipu-documents-on-a-crash-that-killed-sandia-technicians-1947",
+  "title": "IPU documents on a crash that killed Sandia technicians",
+  "summary": "UAPGerb tells of IPU documents on a crash that killed Sandia technicians, about late 1940s at Sandia National Laboratories, Albuquerque, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1949
+  },
+  "place": "sandia-nm",
+  "place_text": "Sandia National Labs, New Mexico",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 990.0,
+      "to_s": 998.0,
+      "teller": "uapgerb",
+      "quote": "IPU documents later because that actually talks about like a crash retrieval um that killed technicians at Sandia National Labs because of the danger of the crash.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "ipu-documents",
+        "majestic-documents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "An online UFO researcher who goes by UAPGerb points to a set of papers he calls the IPU documents, which he groups with the Majestic documents, papers said to come from a secret government group dealing with UFOs. He says they describe a crash retrieval, meaning the recovery of a crashed unknown craft, in the late 1940s that killed technicians at Sandia National Labs, a US government research laboratory in New Mexico, because the crash itself was so dangerous. If true, it would mean the government recovered such a craft and that people died handling it."
+}

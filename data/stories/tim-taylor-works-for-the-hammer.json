@@ -1,0 +1,81 @@
+{
+  "id": "tim-taylor-works-for-the-hammer",
+  "title": "Tim Taylor works for 'the Hammer'",
+  "summary": "Bob McGwier tells of Tim Taylor works for 'the Hammer', about undated at undated, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "undated",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 6704.0,
+      "to_s": 6714.0,
+      "teller": "bob-mcgwier",
+      "quote": "he he works full of the hammer that's the story and no one that I know knows who the hammer is",
+      "kind": "secondhand",
+      "cites": [
+        "chris-bledsoe",
+        "tim-taylor"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 1535.0,
+      "to_s": 1542.0,
+      "teller": "chris-bledsoe",
+      "quote": "And he said, \"And I work for the hammer and the hammer works for God.\"",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor"
+      ],
+      "documents": [
+        "the-adjustment-bureau",
+        "the-adjustment-team"
+      ],
+      "difference": "Adds that the Hammer works for God, ties it to The Adjustment Bureau, and dates it c. 2008-2011.",
+      "link_reason": "Both tell Taylor's claim that he works for 'the Hammer'.",
+      "as_told": {
+        "title": "Taylor works for the Hammer, who works for God",
+        "years": {
+          "from": 2008,
+          "to": 2011
+        },
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "chris-bledsoe"
+    ],
+    "episodes": [
+      "2Xxmguz0GEQ",
+      "bM18PJY6_Zc"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Bob McGwier, an engineer who says he did contract work for the CIA, the US spy agency, repeats a story about a man named Tim Taylor. He says Taylor works for someone called \"the Hammer\", and that nobody he knows can say who the Hammer is. A man named Chris Bledsoe, who says he has strange encounters, tells it differently: he says Taylor told him around 2008 to 2011, \"I work for the hammer and the hammer works for God,\" and he links this to The Adjustment Bureau and The Adjustment Team, two stories about hidden agents who quietly steer people's lives, which would suggest an unseen hand behind the whole affair."
+}

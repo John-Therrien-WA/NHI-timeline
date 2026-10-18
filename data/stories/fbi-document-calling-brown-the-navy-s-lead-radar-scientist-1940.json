@@ -51,6 +51,126 @@
         "place_text": "United States Navy",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1263.0,
+      "to_s": 1274.0,
+      "teller": "jesse-michels",
+      "quote": "And then there's a 1943 FBI file on Brown that Schatzkin has recently surfaced. It says that Brown knew more about radar detection than any individual in the US Navy.",
+      "kind": "host",
+      "cites": [
+        "paul-schatzkin"
+      ],
+      "documents": [
+        "1943-fbi-file-on-brown"
+      ],
+      "difference": "Dates the file to 1943 and credits Schatzkin with surfacing it.",
+      "link_reason": "Same FBI document saying Brown knew more about radar than anyone in the Navy.",
+      "as_told": {
+        "title": "1943 FBI file says Brown knew most about radar",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1511.0,
+      "to_s": 1523.0,
+      "teller": "jesse-michels",
+      "quote": "here is a\nrecently Declassified FBI document at\nleast according to the FBI at the time\nin 1943 he was known to be the Navy's\ntop expert when it came to raadar",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "declassified-fbi-document-on-townsend-brown"
+      ],
+      "difference": "Dates the document's claim to 1943 and calls it recently declassified.",
+      "link_reason": "The same FBI document calling Brown the Navy's top radar expert.",
+      "as_told": {
+        "title": "FBI document: Brown as Navy's top radar expert",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 1128.0,
+      "to_s": 1139.0,
+      "teller": "jesse-michels",
+      "quote": "guess. I mean, there's an FBI document on him saying he was the foremost radar expert in the Navy and um and he was in charge of the Philadelphia experiment actually",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "fbi-document-on-townsend-brown"
+      ],
+      "difference": "Adds that the document says Brown was in charge of the Philadelphia Experiment.",
+      "link_reason": "This is the same 1940s FBI document calling Brown the Navy's foremost radar expert.",
+      "as_told": {
+        "title": "FBI document on Townsend Brown and the Philadelphia Experiment",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "United States Navy",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 5413.0,
+      "to_s": 5421.0,
+      "teller": "jesse-michels",
+      "quote": "There's an FBI file from 1942 or three that basically says he knows more about radar than anybody in the Navy.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "fbi-file-on-thomas-townsend-brown-1942-43"
+      ],
+      "difference": "Dates the file to 1942 or 1943.",
+      "link_reason": "The same 1940s FBI file saying Brown knew more about radar than anyone in the Navy.",
+      "as_told": {
+        "title": "FBI file on Townsend Brown's radar expertise",
+        "years": {
+          "from": 1942,
+          "to": 1943
+        },
+        "place_text": "United States Navy",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 608.0,
+      "to_s": 615.0,
+      "teller": "jesse-michels",
+      "quote": "we have an FBI document saying that Brown was deeper than anyone in the Navy on radar.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "fbi-document-on-thomas-townsend-brown"
+      ],
+      "difference": "Gives no decade, where the story places the document in the 1940s.",
+      "link_reason": "Both describe the FBI document saying Townsend Brown knew more about radar than anyone in the Navy.",
+      "as_told": {
+        "title": "FBI document on Townsend Brown and radar",
+        "years": null,
+        "place_text": "USA",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -63,10 +183,25 @@
       "story": "william-dudley-pelley-s-star-guests-and-soulcraft-1940",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "einstein-oppenheimer-letter-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fdr-letters-showing-awareness-of-the-phenomenon-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "forrestal-s-published-diaries-never-mention-ufos-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.2,
+  "score": 3.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -77,7 +212,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 6,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -85,11 +220,16 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2ttdlCa5ZCI",
+      "5udx_SDdL3Y",
       "A2-y_HasHEw",
+      "RTEWLSTyUic",
+      "ScE9FaDy-mE",
+      "bM18PJY6_Zc",
       "mOWwdIuyaQA"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 1.6,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says an FBI document from the 1940s, now circulating, describes the scientist Thomas Townsend Brown, whom Michels links to gravity research, as the lead radar scientist in the entire US Navy, knowing more about radar than anyone else there. Michels adds that he thinks there is good evidence Brown's work ended up in the B-2, the US stealth bomber. He tells it to show that Brown's unusual ideas had serious weight inside the military."
 }

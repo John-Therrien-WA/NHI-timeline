@@ -1,0 +1,51 @@
+{
+  "id": "the-gran-sasso-laboratory-and-the-gerda-experiment",
+  "title": "The Gran Sasso laboratory and the Gerda experiment",
+  "summary": "Filippo Biondi tells of The Gran Sasso laboratory and the Gerda experiment, about present at Gran Sasso, Italy, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Gran Sasso, Italy",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 3017.0,
+      "to_s": 3031.0,
+      "teller": "filippo-biondi",
+      "quote": "It is called the Gerda experiment because they are they didn't find it still find it. The so-called Majorana particle.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "filippo-biondi"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Filippo Biondi, speaking with podcast host Jesse Michels, talks about a science laboratory under the Gran Sasso mountains in Italy. He says an experiment there called Gerda is hunting for a particle known as the Majorana particle, and that they still haven't found it."
+}

@@ -1,0 +1,76 @@
+{
+  "id": "bob-lazar-s-sport-model-grown-out-of-the-vacuum",
+  "title": "Bob Lazar's sport model grown out of the vacuum",
+  "summary": "Salvatore Pais tells of Bob Lazar's sport model grown out of the vacuum, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 975.0,
+      "to_s": 988.0,
+      "teller": "salvatore-pais",
+      "quote": "and then Bob Lazar mentioned at one point that it seemed to him that the so-called sports model was as if grown out of the vacuum itself",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 4468.0,
+      "to_s": 4479.0,
+      "teller": "salvatore-pais",
+      "quote": "saw that and I I remember his words that this sports mile is as if it was 3D printed our space time. That's exactly what that equation says.",
+      "kind": "researcher",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [],
+      "difference": "Says '3D printed in our spacetime' rather than 'grown out of the vacuum', ties it to Pais's super force equation and places it at S-4 in 1989.",
+      "link_reason": "Both are Pais retelling Lazar's remark that the sport model seemed formed out of spacetime or the vacuum itself.",
+      "as_told": {
+        "title": "Lazar's sport model as if 3D printed in our spacetime, matching the super force equation",
+        "years": {
+          "from": 1989,
+          "to": 1989
+        },
+        "place_text": "S-4, Nevada",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "salvatore-pais"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Salvatore Pais, a Navy scientist who holds patents on unusual craft designs, says on Jesse Michels's podcast that Bob Lazar once described a craft he calls the \"sport model\" as if it had been grown out of the vacuum of empty space itself. In another telling, Pais recalls Lazar's words as the craft being \"3D printed\" in our space and time, ties this to a secret site Lazar calls S-4 in 1989, and says it is exactly what his own equation for a single unifying force describes. If true, it would hint that such a craft was built from the fabric of space rather than ordinary materials."
+}

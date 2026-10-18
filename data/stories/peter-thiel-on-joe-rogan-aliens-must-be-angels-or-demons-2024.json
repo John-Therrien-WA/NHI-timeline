@@ -26,33 +26,52 @@
         "diana-pasulka"
       ],
       "documents": []
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 8983.0,
+      "to_s": 8996.0,
+      "teller": "peter-thiel",
+      "quote": "If you have um faster than light travel, there's something um really crazy that has to be true on a cultural, political, social level.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Paraphrases Thiel's own faster-than-light reasoning and gives no date or mention of Pasulka.",
+      "link_reason": "Both tell of Peter Thiel saying on Joe Rogan's show that faster-than-light aliens must be angels or demons.",
+      "as_told": {
+        "title": "Peter Thiel on Rogan: faster-than-light aliens must be angels or demons",
+        "years": null,
+        "place_text": "Joe Rogan podcast",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "peter-thiel"
     ],
     "episodes": [
+      "ABw7EsWh2Us",
       "aa9Xx5wI8Rw"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, tells Diana Pasulka, a religion scholar who writes about belief in UFOs, that the tech investor Peter Thiel had appeared on Joe Rogan's popular podcast about a month earlier, in 2024. According to Michels, about half of that conversation was about aliens, and Thiel cited Pasulka's work, with the story framed around the idea that aliens would have to be angels or demons. He raises it to show her ideas reaching powerful people."
 }

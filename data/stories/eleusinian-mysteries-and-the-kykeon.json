@@ -102,38 +102,154 @@
         "place_text": "Eleusis, Greece",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "9LGohiMmlu4",
+      "from_s": 661.0,
+      "to_s": 694.0,
+      "teller": "jesse-michels",
+      "quote": "Brian collects a lot of convincing evidence that the psychedelic potion consumed in these rituals, called the kykeon, probably contained ergot, a psychedelic fungus.",
+      "kind": "host",
+      "cites": [
+        "brian-muraresku"
+      ],
+      "documents": [
+        "the-immortality-key"
+      ],
+      "difference": "Credits the book The Immortality Key.",
+      "link_reason": "Both tell Muraresku's claim that the kykeon drunk at the Eleusinian Mysteries contained ergot.",
+      "as_told": {
+        "title": "Eleusinian Mysteries kykeon contained ergot",
+        "years": null,
+        "place_text": "Eleusis, Greece",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 1206.0,
+      "to_s": 1215.0,
+      "teller": "graham-hancock",
+      "quote": "it was a perfect setting for deep psychedelic Journeys every initiate in the early City Industries was given a drink called the kaikon or the kikion",
+      "kind": "researcher",
+      "cites": [
+        "brian-muraresku"
+      ],
+      "documents": [
+        "supernatural",
+        "the-immortality-key"
+      ],
+      "difference": "Told by Hancock, citing his book Supernatural alongside The Immortality Key.",
+      "link_reason": "The same story of the initiates at Eleusis drinking the psychedelic kykeon, credited to Muraresku.",
+      "as_told": {
+        "title": "Eleusinian Mysteries and the kykeon drink",
+        "years": null,
+        "place_text": "Eleusis, Greece",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 3362.0,
+      "to_s": 3371.0,
+      "teller": "jesse-michels",
+      "quote": "humanity there's a great book called The immortality Key by this guy Brian mirescu and he talks about these mystery rituals",
+      "kind": "host",
+      "cites": [
+        "brian-muraresku"
+      ],
+      "documents": [
+        "the-immortality-key"
+      ],
+      "difference": "Speaks only of 'mystery rituals' in general, without naming Eleusis or the kykeon.",
+      "link_reason": "Both tell of the mystery rituals described in Muraresku's The Immortality Key, which the story's tellings place at Eleusis.",
+      "as_told": {
+        "title": "Ancient mystery rituals in The Immortality Key",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 6740.0,
+      "to_s": 6748.0,
+      "teller": "jesse-michels",
+      "quote": "you have in in Athens as well you have the lucinian mystery rituals elus being 13 milesi northwest of Athens the sort of it's the spiritual capital",
+      "kind": "host",
+      "cites": [
+        "plato",
+        "socrates",
+        "alcibiades"
+      ],
+      "documents": [],
+      "difference": "Calls Eleusis the spiritual capital and does not mention the kykeon.",
+      "link_reason": "Same host describing the Eleusinian Mysteries at Eleusis, 13 miles northwest of Athens.",
+      "as_told": {
+        "title": "The Eleusinian Mysteries near Athens",
+        "years": null,
+        "place_text": "Eleusis, Greece",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 6890.0,
+      "to_s": 6908.0,
+      "teller": "jesse-michels",
+      "quote": "And urgot is the substance that is probably in the in, you know, the kekon in this drink in the mystery rituals. And if you talk to people like Brian Murescu, who wrote the immortality key about the mystery rituals, he'll say they go like you're saying way back to Egypt",
+      "kind": "secondhand",
+      "cites": [
+        "brian-muraresku"
+      ],
+      "documents": [
+        "the-immortality-key"
+      ],
+      "difference": "Adds that the mystery rituals go back to Egypt, and names The Immortality Key.",
+      "link_reason": "Both tell Muraresku's claim that the kykeon drunk in the mystery rituals held ergot.",
+      "as_told": {
+        "title": "Ergot in the kykeon of the mystery rituals, which reach back to Egypt (Muraresku)",
+        "years": null,
+        "place_text": "Eleusis, Greece; Egypt",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "andrew-gallimore",
+      "graham-hancock",
       "jesse-michels"
     ],
     "episodes": [
+      "0qlppHc3-gg",
       "6bqaHVSlVeU",
       "8XD1ZiuhXoY",
+      "92XrddiKjHY",
+      "9LGohiMmlu4",
       "C_Na1tI5qpw",
       "KRDE1i3LDuU",
+      "dfPfPB601hw",
       "lcaY-rd9Dhc"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.5,
   "tier": "well-attested",
   "plain": "In ancient Greece, at Eleusis, about 13 miles northwest of Athens, people took part in secret religious rites known as the Eleusinian Mysteries. A podcast host, Jesse Michels, says those taking part drank the kykeon, a special drink. He passes on the idea of a writer, Brian Muraresku, that it may have been made with ergot, a grain fungus he says contains LSD. Drawing on Muraresku's book The Immortality Key, Michels says the rites were kept secret on pain of death, and that the little testimony that survives suggests people came away believing they were immortal. Elsewhere he describes the drink as a psychedelic that freed the soul so people could see beings, and he sums up the rites with the saying \"if you die before you die, you won't die when you die.\" A neuroscientist, Andrew Gallimore, also points to Muraresku and says the ritual is where people may have discovered this ergot preparation. So the story comes mostly from the host, again and again, plus one scientist guest, both leaning on Muraresku. If true, it would mean one of the ancient world's great religious rites was built on a mind-altering drug that opened a door to other beings."
 }

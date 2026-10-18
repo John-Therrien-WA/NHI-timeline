@@ -44,6 +44,50 @@
         "place_text": "Moon",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 8551.0,
+      "to_s": 8565.0,
+      "teller": "jesse-michels",
+      "quote": "and you had Gordon McDonald you know space admin under Eisenhower saying the only thing I he at Columbia he said the only the only explanation for the Moon is that it's a hollow structure",
+      "kind": "host",
+      "cites": [
+        "gordon-macdonald",
+        "ingo-swann"
+      ],
+      "documents": [],
+      "difference": "Places MacDonald at Columbia and mentions Ingo Swann alongside him.",
+      "link_reason": "Both tell of Gordon MacDonald, Eisenhower's space adviser, saying the Moon only makes sense if it is hollow.",
+      "as_told": {
+        "title": "Gordon MacDonald says the Moon must be hollow",
+        "years": null,
+        "place_text": "the Moon; Columbia",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 7958.0,
+      "to_s": 7967.0,
+      "teller": "jesse-michels",
+      "quote": ">> So, and then I think Gordon McDonald, who's Eisenhower's space advisor, said the moon would only make sense if it were hollow or something like that.",
+      "kind": "host",
+      "cites": [
+        "gordon-mcdonald"
+      ],
+      "documents": [],
+      "difference": "Opens with the Moon ringing like a bell as the lead-in to MacDonald's remark.",
+      "link_reason": "Both tell Gordon MacDonald, Eisenhower's space adviser, saying the Moon only makes sense if it is hollow.",
+      "as_told": {
+        "title": "Moon rang like a bell; MacDonald's hollow-moon remark",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "The Moon",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -68,7 +112,9 @@
     ],
     "episodes": [
       "EzPmG_7WhXc",
-      "JGE1NIGhBzw"
+      "JGE1NIGhBzw",
+      "bM18PJY6_Zc",
+      "yAvD5UTziTo"
     ]
   },
   "attestation": 0.1,

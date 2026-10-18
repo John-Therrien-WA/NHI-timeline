@@ -1,0 +1,100 @@
+{
+  "id": "anonymous-navy-scientist-on-extended-electrodynamics",
+  "title": "Anonymous Navy scientist on extended electrodynamics",
+  "summary": "Jesse Michels tells of Anonymous Navy scientist on extended electrodynamics, about recent at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 5576.0,
+      "to_s": 5590.0,
+      "teller": "jesse-michels",
+      "quote": "Shannon is probably talking about a theory called extended electrodynamics, a theory I personally learned about from a top Navy scientist who chose to remain anonymous for fear of reprisals from his superiors for discussing this topic.",
+      "kind": "host",
+      "cites": [
+        "anonymous-navy-scientist"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 1474.0,
+      "to_s": 1487.0,
+      "teller": "jesse-michels",
+      "quote": "Well, if you recall from my video, The Man Who Built UFOs for the CIA, I interview a Navy whistleblower who discusses an extended version of electrodynamics",
+      "kind": "host",
+      "cites": [
+        "unnamed-navy-whistleblower",
+        "james-clerk-maxwell",
+        "oliver-heaviside"
+      ],
+      "documents": [
+        "the-man-who-built-ufos-for-the-cia"
+      ],
+      "difference": "Names the source as the video 'The Man Who Built UFOs for the CIA' and credits Maxwell and Heaviside.",
+      "link_reason": "The same anonymous Navy scientist who told the host about extended electrodynamics.",
+      "as_told": {
+        "title": "Navy whistleblower's extended electrodynamics",
+        "years": null,
+        "place_text": "US Navy",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 4688.0,
+      "to_s": 4700.0,
+      "teller": "jesse-michels",
+      "quote": "I interviewed a Navy scientist another Navy scientist who actually was anonymous in my Towns and Brown episode. He talked about this framework of extended electronamics.",
+      "kind": "secondhand",
+      "cites": [
+        "anonymous-navy-scientist",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Places the interview in Michels's Townsend Brown episode.",
+      "link_reason": "Both are Michels citing the anonymous Navy scientist who told him about extended electrodynamics.",
+      "as_told": {
+        "title": "Anonymous Navy scientist on extended electrodynamics in Townsend Brown episode",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo",
+      "RTEWLSTyUic",
+      "aKZ_MUbuk_Q"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says he learned about a theory called extended electrodynamics, a wider version of the standard physics of electricity and magnetism laid down by James Clerk Maxwell and Oliver Heaviside, from a senior Navy scientist who asked to stay anonymous for fear of trouble from his bosses. Michels says the interview appeared in his documentary about Townsend Brown, an inventor he calls a man who built UFOs for the CIA, and he returns to it in later episodes. He raises it because, if the theory holds, it might explain how unusual craft could move."
+}

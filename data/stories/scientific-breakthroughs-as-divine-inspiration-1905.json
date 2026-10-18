@@ -1,0 +1,84 @@
+{
+  "id": "scientific-breakthroughs-as-divine-inspiration-1905",
+  "title": "Scientific breakthroughs as divine inspiration",
+  "summary": "Jesse Michels tells of Scientific breakthroughs as divine inspiration, about 1905–1920s at Bern; Helgoland; Cambridge, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1905,
+    "to": 1929
+  },
+  "place": null,
+  "place_text": "Bern; Helgoland; Cambridge",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 4921.0,
+      "to_s": 4937.0,
+      "teller": "jesse-michels",
+      "quote": "whether that's Einstein constructing the photoelectric effect while bored at his Swiss patent desk Wolf Gang poy dreaming up the architecture of the hydrogen atom Heisenberg at helgoland or dck staring at the fire in Cambridge",
+      "kind": "host",
+      "cites": [
+        "albert-einstein",
+        "wolfgang-pauli",
+        "werner-heisenberg",
+        "paul-dirac"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 6256.0,
+      "to_s": 6267.0,
+      "teller": "jesse-michels",
+      "quote": "Whether it's Heisenberg downloading matrix multiplication [music] at Elgoland, Dac staring at the fire at Cambridge and downloading the Dac equation,",
+      "kind": "host",
+      "cites": [
+        "jimena-canales",
+        "werner-heisenberg",
+        "paul-dirac",
+        "niels-bohr",
+        "rene-descartes"
+      ],
+      "documents": [],
+      "difference": "Credits Jimena Canales, adds Bohr and Descartes, extends the period back to the 17th century and leaves out Einstein and Pauli.",
+      "link_reason": "Same theory that scientific breakthroughs were received like revelations, using the same examples of Heisenberg at Heligoland and Dirac at the fire in Cambridge.",
+      "as_told": {
+        "title": "Scientific discoveries as received revelations",
+        "years": null,
+        "place_text": "Heligoland; Cambridge",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "tS_64sTN5AU",
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, suggests that some of the great leaps in physics came to scientists almost like messages from outside. He points to Albert Einstein working out the photoelectric effect while bored at a Swiss patent office desk, Wolfgang Pauli dreaming up the structure of the hydrogen atom, Werner Heisenberg \"downloading\" his new mathematics on the island of Helgoland, and Paul Dirac staring into a fire in Cambridge before arriving at his famous equation. In a later episode, drawing on the writer Jimena Canales, he adds Niels Bohr and René Descartes and stretches the pattern back to the 1600s, framing it as a sign that inspiration might come from some other intelligence."
+}

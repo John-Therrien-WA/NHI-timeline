@@ -44,6 +44,29 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "Sct30Qijfv8",
+      "from_s": 2607.0,
+      "to_s": 2612.0,
+      "teller": "jesse-michels",
+      "quote": "Joseph mcmonagle is remote viewer number one who won the Legion of Merit",
+      "kind": "host",
+      "cites": [
+        "joseph-mcmoneagle"
+      ],
+      "documents": [],
+      "difference": "Gives a span of 1970s-1990s, which the story does not.",
+      "link_reason": "Both tell of Joseph McMoneagle, called remote viewer number one, winning the Legion of Merit for remote viewing.",
+      "as_told": {
+        "title": "McMoneagle, remote viewer number one",
+        "years": {
+          "from": 1970,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -68,6 +91,7 @@
     ],
     "episodes": [
       "8Rr_nE65KkI",
+      "Sct30Qijfv8",
       "yGtVzBbUvx4"
     ]
   },

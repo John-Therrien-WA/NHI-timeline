@@ -49,6 +49,32 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 5814.0,
+      "to_s": 5827.0,
+      "teller": "jesse-michels",
+      "quote": "he he says that we have 10 to 40 crafts in our possession. He also says he worked with George W. Bush and Steven Hadley, his national security adviser, on, you know, whether we should make disclosures.",
+      "kind": "secondhand",
+      "cites": [
+        "hal-puthoff",
+        "george-w-bush",
+        "stephen-hadley",
+        "joe-rogan"
+      ],
+      "documents": [],
+      "difference": "Gives 10 to 40 craft instead of 15, and adds Puthoff's work with Bush and Hadley on disclosure.",
+      "link_reason": "Puthoff's claim about how many crashed craft the US holds, credited to the Rogan appearance, is the same claim as the 15-craft story. The Bush/Hadley disclosure talks are tacked on as a second claim.",
+      "as_told": {
+        "title": "Puthoff: 10 to 40 craft and Bush disclosure talks",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -83,6 +109,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "1F7DHbSbgbQ",
       "Y7PLeu5rTv4",
       "u7g5Sn1DJF4"
     ]

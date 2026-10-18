@@ -26,11 +26,34 @@
       "documents": [
         "immaculate-constellation-document"
       ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7623.0,
+      "to_s": 7634.0,
+      "teller": "uapgerb",
+      "quote": "Constellation report that talks about\nalien reproduction vehicles seen over\nIndoaccom, which is obviously Chinese\nterritory, right? Like equilateral\ntriangles with three lights seen over\nChinese territory of of adversarial ARV,",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "immaculate-constellation-report"
+      ],
+      "difference": "Calls them adversarial alien reproduction vehicles over Chinese territory, describes equilateral triangles with three lights, and gives no year.",
+      "link_reason": "Both are about the Immaculate Constellation report's triangles over INDOPACOM.",
+      "as_told": {
+        "title": "Immaculate Constellation report: triangle ARVs over Indo-PACOM",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Indo-Pacific / Chinese territory",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -41,7 +64,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -49,10 +72,11 @@
       "uapgerb"
     ],
     "episodes": [
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "A researcher who goes by the online name UAPGerb points to a document called Immaculate Constellation, which he links to a man named Matthew Brown. He says it describes slowly rotating triangles seen in 2017 over the area of Indo-Pacific Command, the US military command covering the Pacific and Indian Ocean region. If true, the military would have recorded strange triangular craft in its own operating areas."
 }

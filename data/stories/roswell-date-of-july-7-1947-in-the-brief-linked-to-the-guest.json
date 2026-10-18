@@ -1,0 +1,121 @@
+{
+  "id": "roswell-date-of-july-7-1947-in-the-brief-linked-to-the-guest",
+  "title": "Roswell date of July 7, 1947 in the brief linked to the guest's 747 download",
+  "summary": "Jesse Michels tells of Roswell date of July 7, 1947 in the brief linked to the guest's 747 download, about 1947 at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1947,
+    "to": 1947
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 13420.0,
+      "to_s": 13427.0,
+      "teller": "jesse-michels",
+      "quote": ">> It is in the book and it's July 7th,\n1947.\n>> Yeah.\n>> Do you think that connects with your\ndownload 747?",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 6388.0,
+      "to_s": 6399.0,
+      "teller": "jesse-michels",
+      "quote": "And then the second really interesting thing is he had a download. He had a dream where he downloaded a bunch of numbers",
+      "kind": "secondhand",
+      "cites": [
+        "ralph-moat-larson"
+      ],
+      "documents": [
+        "a-state-of-mind-faith-and-the-cia"
+      ],
+      "difference": "Told secondhand by the host, who describes the download as a dream full of numbers.",
+      "link_reason": "Same link the host draws between Mowatt-Larssen's 747 number download and the July 7, 1947 Roswell date.",
+      "as_told": {
+        "title": "Larson's 747 number download and the Roswell date",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "unspecified",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "air-force-and-cia-created-two-weeks-after-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "global-ufo-nuclear-link-from-roswell-to-chernobyl-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "recovered-roswell-craft-must-have-been-studied-in-secret-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-as-exotic-human-technology-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-test-dummy-and-project-mogul-explanations-reje-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-was-a-nazi-staged-event-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "two-craft-scanning-low-for-plutonium-in-a-lightning-storm-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "vallee-pasulka-theory-that-the-1947-roswell-crash-divides-fo",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ",
+      "ATJwqp5twAg"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, points to a book, A State of Mind: Faith and the CIA, that gives July 7, 1947 as a date tied to Roswell, New Mexico, where a strange object is said to have crashed that summer. His guest, Ralph Moat Larson, says he once had a dream in which a string of numbers was \"downloaded\" into his head, including 747, and Michels asks whether that number points to the date 7/4/7 or 7/7, linking the dream to Roswell. If the link holds, the guest's dream would be pointing at that crash."
+}

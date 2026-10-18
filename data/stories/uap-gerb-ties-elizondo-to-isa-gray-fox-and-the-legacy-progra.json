@@ -22,6 +22,29 @@
         "luis-elizondo"
       ],
       "documents": []
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 1374.0,
+      "to_s": 1379.0,
+      "teller": "jesse-michels",
+      "quote": "And you see, Lou Alzando is an alumni of Greyfox.",
+      "kind": "host",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": [],
+      "difference": "Michels says it directly, without crediting UAP Gerb, and does not mention the legacy program.",
+      "link_reason": "Both tie Lue Elizondo to ISA/Grey Fox under JSOC.",
+      "as_told": {
+        "title": "Lue Elizondo as a Grey Fox alumnus",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "Northern Virginia",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -45,7 +68,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "A2-y_HasHEw"
+      "A2-y_HasHEw",
+      "ScE9FaDy-mE"
     ]
   },
   "attestation": 0.25,

@@ -1,0 +1,60 @@
+{
+  "id": "scully-meets-a-scientist-in-the-mojave-1949",
+  "title": "Scully meets a scientist in the Mojave",
+  "summary": "Scott Ramsay tells of Scully meets a scientist in the Mojave, about c. 1949-1950 at Mojave Desert, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1949,
+    "to": 1950
+  },
+  "place": null,
+  "place_text": "Mojave Desert",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 2524.0,
+      "to_s": 2533.0,
+      "teller": "scott-ramsay",
+      "quote": "They met in the Mojave Desert with one of them and he starts to tell Frank this amazing story about a flying saucer recovery.",
+      "kind": "researcher",
+      "cites": [
+        "frank-scully",
+        "silus-newton",
+        "leo-gaybower"
+      ],
+      "documents": [
+        "behind-the-flying-saucers"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Scott Ramsay tells Jesse Michels how a writer, Frank Scully, came to write Behind the Flying Saucers, an early book about a crashed saucer. Ramsay says that around 1949 or 1950, Scully met in the Mojave Desert of California with one of two men, named as Silas Newton and Leo GeBauer, who told him an amazing story about recovering a flying saucer. The story matters because it is said to be one of the first accounts of a crashed craft being retrieved."
+}

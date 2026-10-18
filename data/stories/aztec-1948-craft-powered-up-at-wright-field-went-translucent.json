@@ -1,0 +1,108 @@
+{
+  "id": "aztec-1948-craft-powered-up-at-wright-field-went-translucent",
+  "title": "Aztec 1948 craft powered up at Wright Field went translucent",
+  "summary": "Jesse Michels tells of Aztec 1948 craft powered up at Wright Field went translucent, about 1948 at New Mexico (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "new-mexico",
+  "place_text": "Aztec, New Mexico; Wright Field",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 7678.0,
+      "to_s": 7691.0,
+      "teller": "jesse-michels",
+      "quote": "um, this one, uh, firsthand witness who claimed to have worked on a craft at Wright airfield that was retrieved in the Aztec recovery in 1948 in um, March",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 4451.0,
+      "to_s": 4458.0,
+      "teller": "scott-ramsay",
+      "quote": "He said, \"I'm pretty sure this is the Aztec craft I worked on. I read your book.",
+      "kind": "secondhand",
+      "cites": [
+        "eastman-kodak",
+        "lipish"
+      ],
+      "documents": [],
+      "difference": "Ramsay relays it and says the engineer was Kodak-linked, credits Lipish, and says the man recognised the craft from Ramsay's book.",
+      "link_reason": "A witness who says he worked on the Aztec 1948 craft at Wright Field and tried to power it up is the firsthand witness in the existing story.",
+      "as_told": {
+        "title": "Kodak-company engineer tried to power up the Aztec craft",
+        "years": null,
+        "place_text": "Wright Patterson, Dayton, Ohio",
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "aztec-crash-possibly-brought-down-by-the-lashup-radar-networ-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dragon-wagon-used-to-haul-the-craft-away-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "government-crash-photos-that-faded-to-blank-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-visits-aztec-crash-site-with-the-ramseys-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "recovery-team-without-insignia-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "scientists-limited-to-20-minutes-inside-the-craft-1948",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 2,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels",
+      "scott-ramsay"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0",
+      "TNtlzEnl8rA"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-by-several",
+  "plain": "This story is about a craft said to have crashed near Aztec, New Mexico, in March 1948 and to have been taken to Wright Field, a military airfield. A podcast host named Jesse Michels says that a firsthand witness claimed to have worked on that craft at Wright Field, and the story goes that when it was powered up it became see-through. Scott Ramsay, an author who wrote a book about the Aztec crash, says an engineer connected to the camera company Eastman Kodak contacted him and said he was pretty sure it was the craft he had worked on after reading Ramsay's book. People tell it because, if true, it would mean the military recovered a working craft that was not made by humans."
+}

@@ -1,0 +1,132 @@
+{
+  "id": "doc-brown-in-back-to-the-future-as-a-nod-to-townsend-brown-1985",
+  "title": "Doc Brown in Back to the Future as a nod to Townsend Brown",
+  "summary": "Jesse Michels tells of Doc Brown in Back to the Future as a nod to Townsend Brown, about 1985 at Hollywood, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1985,
+    "to": 1985
+  },
+  "place": null,
+  "place_text": "Hollywood",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 6384.0,
+      "to_s": 6389.0,
+      "teller": "jesse-michels",
+      "quote": "And the movie takes place in 1985, the year of Townsend Brown's death.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "back-to-the-future"
+      ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 6165.0,
+      "to_s": 6171.0,
+      "teller": "jesse-michels",
+      "quote": "The guy's name is Doc Brown, which everybody called Thomas Towns and Brown.",
+      "kind": "host",
+      "cites": [
+        "steven-spielberg",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Credits Spielberg and adds that people called Townsend Brown 'Doc Brown'; the story's telling stresses the 1985 death year instead.",
+      "link_reason": "Both claim Back to the Future's Doc Brown (1985) is a nod to Townsend Brown.",
+      "as_told": {
+        "title": "Back to the Future's Doc Brown and Townsend Brown",
+        "years": {
+          "from": 1985,
+          "to": 1985
+        },
+        "place_text": "Hollywood",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 1732.0,
+      "to_s": 1744.0,
+      "teller": "jesse-michels",
+      "quote": "And if you watch Back to the Future, it's EMTT E M T Brown. Thomas Towns and Brown flies on his flux capacitor which is capacitor experiment.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "steven-spielberg"
+      ],
+      "documents": [
+        "back-to-the-future"
+      ],
+      "difference": "Adds the 'E.M.T. Brown' name and the flux capacitor as Brown's capacitor experiments, and credits Spielberg.",
+      "link_reason": "Both claim Back to the Future's Doc Brown is a coded reference to Townsend Brown.",
+      "as_told": {
+        "title": "Back to the Future as a coded Thomas Townsend Brown story",
+        "years": {
+          "from": 1957,
+          "to": 1985
+        },
+        "place_text": "Pasadena, California",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 642.0,
+      "to_s": 648.0,
+      "teller": "jesse-michels",
+      "quote": "I spoke to Brown's daughter directly, who is sure that the character is based on him.",
+      "kind": "secondhand",
+      "cites": [
+        "townsend-brown-s-daughter"
+      ],
+      "documents": [],
+      "difference": "Adds that Brown's daughter told Michels directly she is sure the character is based on her father; the story cites the 1985 setting matching the year Brown died.",
+      "link_reason": "Both claim the Back to the Future character Doc Brown was modelled on Townsend Brown.",
+      "as_told": {
+        "title": "Doc Brown modeled on Townsend Brown, per his daughter",
+        "years": {
+          "from": 1955,
+          "to": 1985
+        },
+        "place_text": "Pasadena",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JE1oM89dpBc",
+      "RTEWLSTyUic",
+      "ScE9FaDy-mE",
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Podcast host Jesse Michels says that Doc Brown, the inventor in the 1985 film Back to the Future, was a nod to Townsend Brown, a real scientist who experimented with capacitors, devices that store electric charge, as a way to make things move. Michels points out that the film is set in 1985, the year Townsend Brown died, that the character's full name is Emmett Brown, that the film's \"flux capacitor\" echoes Brown's capacitor experiments, and that people called the real man \"Doc Brown\"; he links it to Steven Spielberg, who was behind the film, and says Brown's daughter told him directly she is sure the character is based on her father. If true, it would mean Hollywood quietly honored a little-known scientist tied to talk of anti-gravity."
+}

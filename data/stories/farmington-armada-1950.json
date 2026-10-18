@@ -1,0 +1,76 @@
+{
+  "id": "farmington-armada-1950",
+  "title": "Farmington Armada",
+  "summary": "Jesse Michels tells of Farmington Armada, about 1950 at New Mexico (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1950
+  },
+  "place": "new-mexico",
+  "place_text": "Farmington, New Mexico",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 178.0,
+      "to_s": 190.0,
+      "teller": "jesse-michels",
+      "quote": "And right next [music] door is Farmington where back in 1950 half the town watched hundreds of silver discs swarm across the sky. an event that came to be known as the Farmington Armada.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 190.0,
+      "to_s": 197.0,
+      "teller": "unnamed-witness",
+      "quote": "The first day there were a few. The second day there were too many to count.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Firsthand: a few objects on the first day and too many to count on the second.",
+      "link_reason": "A witness describing the same 1950 Farmington Armada that telling 6 introduces.",
+      "as_told": {
+        "title": "Farmington Armada witness: too many to count",
+        "years": {
+          "from": 1950,
+          "to": 1950
+        },
+        "place_text": "Farmington, New Mexico",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jesse-michels",
+      "unnamed-witness"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 1.1,
+  "tier": "well-attested",
+  "plain": "In 1950, in Farmington, a town in New Mexico, people say huge numbers of silver discs flew over the sky. A podcast host, Jesse Michels, says that half the town watched hundreds of these discs swarm overhead. He says it came to be known as the Farmington Armada. An unnamed witness also speaks on the show from their own memory. The witness says that on the first day there were only a few objects, and on the second day there were too many to count. So the host gives the broad picture and the witness gives the day by day detail, which, if true, would make it one of the largest mass sightings ever."
+}

@@ -1,0 +1,106 @@
+{
+  "id": "bahnson-funds-brown-s-gravitator-experiments-1950",
+  "title": "Bahnson funds Brown's gravitator experiments",
+  "summary": "Jesse Michels tells of Bahnson funds Brown's gravitator experiments, about 1950s at an unknown place, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "North Carolina",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1413.0,
+      "to_s": 1421.0,
+      "teller": "jesse-michels",
+      "quote": "physicists he is simultaneous to funding\nthat funding towns and Brown and his\ngravitator experiments",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 5690.0,
+      "to_s": 5696.0,
+      "teller": "jesse-michels",
+      "quote": "Very interesting. But he's also funding towns and Browns work back of the house and he says strange phenomena occur.",
+      "kind": "host",
+      "cites": [
+        "agnew-bahnson",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Places the work in North Carolina, at the back of Bahnson's house, and says strange phenomena occurred.",
+      "link_reason": "Both are about Agnew Bahnson funding Townsend Brown's gravity experiments in the 1950s.",
+      "as_told": {
+        "title": "Agnew Bahnson funding Townsend Brown's work",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "North Carolina",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1425.0,
+      "to_s": 1442.0,
+      "teller": "jesse-michels",
+      "quote": "The head of the Institute of Field Physics, Agnu Bonsson, is also funding mid-century inventor Thomas Townsen Brown, who is claiming to get successful positive results on gravity manipulation experiments.",
+      "kind": "host",
+      "cites": [
+        "agnu-bonsson",
+        "thomas-townsen-brown"
+      ],
+      "documents": [],
+      "difference": "Names Bahnson as head of the Institute of Field Physics and says Brown claimed positive results.",
+      "link_reason": "Both tell of Agnew Bahnson funding Townsend Brown's gravity experiments.",
+      "as_told": {
+        "title": "Bahnson funds T. Townsend Brown's gravity experiments",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "North Carolina",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5udx_SDdL3Y",
+      "8TYMQOUDQBo",
+      "Jpf0ZGY87c0"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in the 1950s a North Carolina man named Agnew Bahnson, head of a research group called the Institute of Field Physics, was paying for the work of an inventor named Thomas Townsend Brown. Michels says Brown was building \"gravitator\" devices meant to control gravity, worked on them at the back of Bahnson's house, and claimed positive results, and that Bahnson said strange things happened there. If true, it would mean serious private money was backing early efforts to control gravity."
+}

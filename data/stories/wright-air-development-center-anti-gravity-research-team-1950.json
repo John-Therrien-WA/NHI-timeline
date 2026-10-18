@@ -1,0 +1,82 @@
+{
+  "id": "wright-air-development-center-anti-gravity-research-team-1950",
+  "title": "Wright Air Development Center anti-gravity research team",
+  "summary": "Jesse Michels tells of Wright Air Development Center anti-gravity research team, about 1950s at Wright Air Development Center, Dayton, Ohio, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": null,
+  "place_text": "Wright Air Development Center, Dayton, Ohio",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 997.0,
+      "to_s": 1003.0,
+      "teller": "jesse-michels",
+      "quote": "they actually had a team of physics researchers working on anti-gravity at the time at right air Development Center",
+      "kind": "host",
+      "cites": [
+        "josh-goldberg"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 4979.0,
+      "to_s": 4993.0,
+      "teller": "jesse-michels",
+      "quote": "We know that right airfield had a dedicated team of people working on anti-gravity which included Lewis Whitten father of Ed Whitten who is at Martin Corporation's RA their anti-gravity division",
+      "kind": "host",
+      "cites": [
+        "louis-witten",
+        "ed-witten",
+        "joshua-goldberg"
+      ],
+      "documents": [],
+      "difference": "Names Louis Witten as a team member and ties him to Martin's RIAS anti-gravity division.",
+      "link_reason": "Both describe the 1950s team of physicists working on anti-gravity at Wright Field / Wright Air Development Center, credited to Josh Goldberg.",
+      "as_told": {
+        "title": "Wright Field anti-gravity team including Louis Witten and Martin's RIAS",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Wright Field, Ohio; Martin Corporation",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5udx_SDdL3Y",
+      "WBTqsbwJyqU"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in the 1950s the Wright Air Development Center, a US Air Force research base in Dayton, Ohio, had a team of physicists working on anti-gravity, meaning ways to cancel or control gravity. In a later episode he says the team included Louis Witten, a physicist and the father of the physicist Ed Witten, and ties him to the anti-gravity work of RIAS, a research institute run by the aircraft maker Martin Corporation. If true, it would mean the military was seriously studying gravity control decades ago."
+}

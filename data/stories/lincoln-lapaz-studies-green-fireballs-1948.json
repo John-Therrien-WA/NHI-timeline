@@ -47,11 +47,38 @@
         "place_text": "New Mexico",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 3195.0,
+      "to_s": 3216.0,
+      "teller": "jesse-michels",
+      "quote": "In fact, in his seminal book UFOs and Nukes, Hastings discusses intelligently moving green fireballs constantly showing up around atmospheric tests. These were documented by Edward J. Ruppelt, head of Blue Book at the time, and Dr. Lincoln LaPaz, head of meteorology at University of New Mexico.",
+      "kind": "host",
+      "cites": [
+        "robert-hastings",
+        "edward-ruppelt",
+        "lincoln-lapaz"
+      ],
+      "documents": [
+        "ufos-and-nukes"
+      ],
+      "difference": "Credits Hastings' book UFOs and Nukes and Ruppelt alongside LaPaz, ties the fireballs to atmospheric tests and calls them intelligently moving.",
+      "link_reason": "Both are about the green fireballs LaPaz studied around New Mexico nuclear sites and detonations.",
+      "as_told": {
+        "title": "Green fireballs around atmospheric nuclear tests",
+        "years": {
+          "from": 1947,
+          "to": 1959
+        },
+        "place_text": "New Mexico, US nuclear test sites",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 1.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -62,7 +89,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -71,10 +98,11 @@
     ],
     "episodes": [
       "2-GeTxXi670",
+      "aKZ_MUbuk_Q",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 0.25,
+  "attestation": 0.5,
   "tier": "told-once",
   "plain": "Podcast host Jesse Michels says that in 1948 Lincoln LaPaz, a well-known meteor expert at the University of New Mexico, began studying \"green fireballs\", bright green lights seen in the sky. According to Michels, these fireballs often showed up near nuclear sites and nuclear test explosions. If that is true, it would suggest something was taking an interest in America's early atomic work."
 }

@@ -1,0 +1,63 @@
+{
+  "id": "kirtland-security-meeting-with-benowitz-where-attendees-leav-1980",
+  "title": "Kirtland security meeting with Benowitz where attendees leave",
+  "summary": "Greg Bishop tells of Kirtland security meeting with Benowitz where attendees leave, about c. 1980 at Sandia National Laboratories, Albuquerque, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1980
+  },
+  "place": "sandia-nm",
+  "place_text": "Kirtland Air Force Base, New Mexico",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 994.0,
+      "to_s": 1003.0,
+      "teller": "greg-bishop",
+      "quote": "he told me by the end of the meet everybody started leaving and by the end of the meeting there was like three or four people left because they're like oh that's not ours.",
+      "kind": "secondhand",
+      "cites": [
+        "tom-deuley",
+        "paul-benowitz"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "radio-station-calls-lead-moore-to-meet-doty-and-falcon-1980",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "greg-bishop"
+    ],
+    "episodes": [
+      "WBTqsbwJyqU"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A writer named Greg Bishop says a man named Tom Deuley told him about a security meeting around 1980 at Kirtland Air Force Base in New Mexico, held about things reported by a man named Paul Benowitz. According to Deuley, people kept leaving as the meeting went on, saying \"that's not ours,\" until only three or four were left. Bishop tells it because, if true, it would mean the officials could not claim what was being seen as any of their own projects."
+}

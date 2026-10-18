@@ -1,0 +1,55 @@
+{
+  "id": "hatshepsut-s-obelisk-inscription-dedicating-it-to-her-father",
+  "title": "Hatshepsut's obelisk inscription dedicating it to her father Amun",
+  "summary": "Luke Caverns tells of Hatshepsut's obelisk inscription dedicating it to her father Amun, about reign of Hatshepsut, c. 1470 BC at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Karnak, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 5281.0,
+      "to_s": 5296.0,
+      "teller": "luke-caverns",
+      "quote": "and I've read the translated hieroglyphs and she said she said um she said [clears throat] as for this obelisk it's something I'm paraphrasing but it's like as for this obelisk I erected this uh from um from electrum",
+      "kind": "researcher",
+      "cites": [
+        "hatshepsut"
+      ],
+      "documents": [
+        "obelisk-of-hatshepsut-inscription"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Luke Caverns, a researcher of ancient Egypt, says he has read translations of the carvings on an obelisk, a tall stone pillar, put up by Hatshepsut, an Egyptian ruler, at Karnak in Egypt. Paraphrasing, he says the inscription has her saying she made the obelisk from electrum, a natural mix of gold and silver, and dedicated it to her father, the god Amun. He brings it up as a clue that the ancient monuments may not be what we think."
+}

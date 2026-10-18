@@ -47,11 +47,34 @@
         "place_text": "Coyame, Chihuahua, Mexico",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 486.0,
+      "to_s": 498.0,
+      "teller": "uapgerb",
+      "quote": "the 1974 coyame alleged crash and some of the majestic documents there have been occasions where um toxic elements have seeped from from crash retrievals",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "majestic-documents"
+      ],
+      "difference": "Stresses toxic elements seeping from the crash and cites the Majestic documents.",
+      "link_reason": "Same alleged 1974 crash at Coyame, Mexico.",
+      "as_told": {
+        "title": "1974 Coyame crash with toxic elements",
+        "years": {
+          "from": 1974,
+          "to": 1974
+        },
+        "place_text": "Coyame, Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 2.2,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
@@ -62,7 +85,7 @@
     "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -72,10 +95,11 @@
     ],
     "episodes": [
       "OOr98r51Sj0",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.1,
   "tier": "well-attested",
   "plain": "This story is about a crash said to have happened in 1974 near Coyame, in northern Mexico. A researcher who goes by UAPGerb says that, according to a document called the DEB report, the CIA, America's foreign spy agency, directed a plan to gather fast-response teams and equipment to go and recover the crashed craft. He admits there is not much supporting evidence, but calls the story disturbing if true. A podcast host, Jesse Michels, retells it from a report he says leaked in the 1990s. In his version, the object collided with something in mid-air, the whole Mexican team that reached it ended up dead, and US forces flew the object out. If true, it would mean the US secretly crossed a border to retrieve an unknown craft."
 }

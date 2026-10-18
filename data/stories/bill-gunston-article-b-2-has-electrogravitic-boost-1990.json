@@ -1,0 +1,120 @@
+{
+  "id": "bill-gunston-article-b-2-has-electrogravitic-boost-1990",
+  "title": "Bill Gunston article: B-2 has electrogravitic boost",
+  "summary": "Nick Cook tells of Bill Gunston article: B-2 has electrogravitic boost, about 1990s at United Kingdom, and reports it citing named sources. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "united-states",
+  "place_text": "United Kingdom",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1742.0,
+      "to_s": 1756.0,
+      "teller": "nick-cook",
+      "quote": "this astounding article that the B-2, you know, when you run all the weight and the propulsion dynamics, it would have been incapable of the performance figures credited for it.",
+      "kind": "journalist",
+      "cites": [
+        "bill-gunston"
+      ],
+      "documents": [
+        "military-power-air-international"
+      ]
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2109.0,
+      "to_s": 2119.0,
+      "teller": "nick-cook",
+      "quote": "And he comes up with this story saying that the B-2's performance data does not add up.",
+      "kind": "secondhand",
+      "cites": [
+        "bill-gunston"
+      ],
+      "documents": [],
+      "difference": "Told secondhand by Cook, with no mention of electrogravitics.",
+      "link_reason": "Both tell of Bill Gunston's claim that the B-2's performance figures don't add up.",
+      "as_told": {
+        "title": "Gunston: B-2 performance data does not add up",
+        "years": {
+          "from": 1980,
+          "to": 1999
+        },
+        "place_text": "USA / UK",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1576.0,
+      "to_s": 1585.0,
+      "teller": "jesse-michels",
+      "quote": "named Bill Gunston basically saying uh\nyou know I'm very sure that towns and\nBrowns work made it in the B2 stealth\nbomber",
+      "kind": "secondhand",
+      "cites": [
+        "bill-gunston"
+      ],
+      "documents": [
+        "air-international-magazine-2000"
+      ],
+      "difference": "Names Air International magazine and dates the article to 2000, and Michels tells it rather than Nick Cook.",
+      "link_reason": "Both are about Bill Gunston's article claiming Brown's electrogravitic work went into the B-2.",
+      "as_told": {
+        "title": "Bill Gunston: Brown's work went into the B-2",
+        "years": {
+          "from": 2000,
+          "to": 2000
+        },
+        "place_text": null,
+        "story_kind": "reverse-engineering"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "lawrence-rockefeller-lobbies-hillary-clinton-for-disclosure-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "treat-team-under-albert-stubblebine-per-hans-adam-ii-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 3.2,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "jesse-michels",
+      "nick-cook"
+    ],
+    "episodes": [
+      "5udx_SDdL3Y",
+      "G7Ns4Aq1tVc",
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "Nick Cook is a journalist who has written about secret aircraft research. He tells the podcast host Jesse Michels about an article by Bill Gunston, a British aviation writer. Cook says Gunston worked out that the B-2, an American stealth bomber, was too heavy for its engines to give the performance claimed for it. The idea is that it might be getting a hidden boost from electrogravitics, a claimed way of using electric charge to push against gravity, linked to the inventor Townsend Brown. He names the magazines Military Power and Air International. In a later episode Cook tells it again, saying simply that the B-2's numbers did not add up. Michels also repeats it, saying Gunston was sure Brown's work went into the B-2, and dating the article to 2000 in Air International."
+}

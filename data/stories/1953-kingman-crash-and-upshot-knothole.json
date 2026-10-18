@@ -1,0 +1,79 @@
+{
+  "id": "1953-kingman-crash-and-upshot-knothole",
+  "title": "1953 Kingman crash and Upshot-Knothole",
+  "summary": "UAPGerb tells of 1953 Kingman crash and Upshot-Knothole, about 1953 at Kingman, Arizona, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1953,
+    "to": 1953
+  },
+  "place": null,
+  "place_text": "Kingman, Arizona",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 4680.0,
+      "to_s": 4689.0,
+      "teller": "uapgerb",
+      "quote": "You have uh testimonies like the 1953 Kingman Arizona crash where possibly nuclear testing from operation upshot not hole mess with craft.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 5112.0,
+      "to_s": 5124.0,
+      "teller": "richard-dolan",
+      "quote": "I just want to say that that there's no question in my mind that Kingman was the real thing.",
+      "kind": "researcher",
+      "cites": [
+        "raymond-fowler"
+      ],
+      "documents": [],
+      "difference": "Dolan just says Kingman was real, crediting Raymond Fowler, and says nothing about Upshot-Knothole testing bringing the craft down.",
+      "link_reason": "Both tell the 1953 Kingman, Arizona crash as a real crash retrieval; the story's telling adds only a possible nuclear-test cause.",
+      "as_told": {
+        "title": "Kingman crash",
+        "years": {
+          "from": 1953,
+          "to": 1953
+        },
+        "place_text": "Kingman, Arizona",
+        "story_kind": "crash-retrieval"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "richard-dolan",
+      "uapgerb"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y",
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several",
+  "plain": "This story is about a craft said to have crashed near Kingman, Arizona, in 1953. A researcher known as UAPGerb says on Jesse Michels' podcast that, according to witness accounts, nuclear tests that year, a series called Operation Upshot-Knothole, may have interfered with the craft and brought it down. The researcher Richard Dolan, on the same show, says he has no doubt Kingman was real, crediting the investigator Raymond Fowler, but says nothing about the nuclear tests. If true, it would mean a non-human craft was recovered in the US, and that atomic bombs might have knocked it out of the sky."
+}

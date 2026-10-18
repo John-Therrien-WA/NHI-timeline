@@ -1,0 +1,78 @@
+{
+  "id": "the-wow-signal-1977",
+  "title": "The Wow signal",
+  "summary": "Jesse Michels tells of The Wow signal, about 1977 at Ohio State University, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1977,
+    "to": 1977
+  },
+  "place": null,
+  "place_text": "Ohio State University",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 3266.0,
+      "to_s": 3271.0,
+      "teller": "jesse-michels",
+      "quote": "like the famous Wow signal discovered by Gerry Eman at Ohio State,",
+      "kind": "host",
+      "cites": [
+        "gerry-eman"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 8170.0,
+      "to_s": 8180.0,
+      "teller": "jesse-michels",
+      "quote": "In August, a radio [music] telescope in Ohio caught the WOW signal",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives the month as August and does not name the discoverer.",
+      "link_reason": "Both are about the 1977 Wow signal picked up by the Ohio radio telescope.",
+      "as_told": {
+        "title": "The 1977 WOW signal",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Ohio radio telescope",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1zRWi_r3HRM",
+      "rjUdn6FklAU"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, recalls the famous Wow signal, a radio signal that he says a radio telescope at Ohio State University picked up in August 1977, and that he credits to an astronomer named Gerry Ehman. It is told as a possible message from beyond Earth. If true, it would mean someone out there was sending signals."
+}

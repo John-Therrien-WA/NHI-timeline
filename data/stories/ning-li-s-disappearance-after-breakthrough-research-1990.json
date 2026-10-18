@@ -24,33 +24,56 @@
         "ning-li"
       ],
       "documents": []
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2438.0,
+      "to_s": 2446.0,
+      "teller": "joe-rogan",
+      "quote": "You heard of it, right? There's a story about this Chinese scientist that was working on anti-gravity and vanished.",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Rogan tells it secondhand and does not name her.",
+      "link_reason": "Rogan's Chinese anti-gravity scientist who vanished is Ning Li's disappearance.",
+      "as_told": {
+        "title": "Rogan on a Chinese scientist who vanished",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "USA",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "secondhand",
     "tellers": [
+      "joe-rogan",
       "matthew-pines"
     ],
     "episodes": [
+      "G7Ns4Aq1tVc",
       "LpLFWdsIU7M"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.75,
+  "tier": "told-by-several",
   "plain": "Matthew Pines, a researcher and commentator, told podcast host Jesse Michels about a scientist named Ning Li. He says she was one of several people doing breakthrough research on the edges of strange subjects in the United States in the 1990s and 2000s, and then simply vanished from view. He offers her as an example of how such work may disappear into secrecy."
 }

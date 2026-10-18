@@ -1,0 +1,80 @@
+{
+  "id": "fritz-haber-reverse-engineered-the-red-pyramid-for-his-ammon-1900",
+  "title": "Fritz Haber reverse-engineered the Red Pyramid for his ammonia process",
+  "summary": "Geoffrey Drumm tells of Fritz Haber reverse-engineered the Red Pyramid for his ammonia process, about early 1900s at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1900,
+    "to": 1903
+  },
+  "place": "egypt",
+  "place_text": "Egypt; Germany",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 1134.0,
+      "to_s": 1148.0,
+      "teller": "geoffrey-drumm",
+      "quote": "And my hypothesis is that old Fritz Habber in the same process that I did in investigating the red pyramid reverse engineered the same mechanisms of operation that drive the system.",
+      "kind": "researcher",
+      "cites": [
+        "fritz-haber",
+        "carl-bosch"
+      ],
+      "documents": [
+        "book-mentioning-an-egyptian-banker-financing-haber-s-ammonia",
+        "haber-s-postcards-dated-in-egypt"
+      ]
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 6672.0,
+      "to_s": 6682.0,
+      "teller": "geoffrey-drumm",
+      "quote": "And this is the original apparatus\n>> that Fritz Habber made.\n>> And this is it in comparison to the\nthree chambers of the Red Pyramid.",
+      "kind": "researcher",
+      "cites": [
+        "fritz-haber"
+      ],
+      "documents": [],
+      "difference": "Shows Haber's original apparatus next to the three Red Pyramid chambers but does not mention Bosch.",
+      "link_reason": "The same claim that Fritz Haber's ammonia apparatus mirrors the Red Pyramid's chambers, told here as a side-by-side comparison of the two.",
+      "as_told": {
+        "title": "Fritz Haber's apparatus compared with the Red Pyramid chambers",
+        "years": null,
+        "place_text": "Red Pyramid, Dahshur, Egypt",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A researcher named Geoffrey Drumm, who argues the pyramids were machines, tells podcast host Jesse Michels his idea about Fritz Haber, a German chemist who, with Carl Bosch, worked out a way to make ammonia in the early 1900s. Drumm says Haber studied the Red Pyramid in Egypt, which has three inner chambers, and copied how it worked, pointing to a book that mentions an Egyptian banker funding Haber's project and to postcards Haber dated from Egypt. He sets a picture of Haber's original apparatus beside the pyramid's three chambers to show they match. If true, the pyramid would have been an ancient chemical plant."
+}

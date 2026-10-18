@@ -7,7 +7,7 @@
     "from": 1979,
     "to": 1979
   },
-  "place": null,
+  "place": "chicago-il",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "testimony",
@@ -26,6 +26,27 @@
       "documents": [
         "stalking-the-wild-pendulum"
       ]
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 5624.0,
+      "to_s": 5638.0,
+      "teller": "jesse-michels",
+      "quote": "Bentoff's life was tragically cut short at 55 years old when American Airlines Flight 191 crashed shortly after taking off from Chicago O'Hare airport,",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names the crash as American Airlines Flight 191 out of Chicago O'Hare and gives his age as 55.",
+      "link_reason": "Same event: Bentov's death in a plane crash in 1979.",
+      "as_told": {
+        "title": "Bentov killed in American Airlines Flight 191 crash",
+        "years": {
+          "from": 1979,
+          "to": 1979
+        },
+        "place_text": "Chicago O'Hare airport",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -49,7 +70,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "2-GeTxXi670"
+      "2-GeTxXi670",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.35,

@@ -1,0 +1,70 @@
+{
+  "id": "surgical-animal-mutilation-with-no-blood",
+  "title": "Surgical animal mutilation with no blood",
+  "summary": "unnamed Aztec resident tells of Surgical animal mutilation with no blood, about unspecified at New Mexico (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "new-mexico",
+  "place_text": "Aztec area, New Mexico",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 159.0,
+      "to_s": 162.0,
+      "teller": "unnamed-aztec-resident",
+      "quote": "looked like a surgeon had taken it off. No, but no blood.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "OZ_oCpKYQJ0",
+      "from_s": 5911.0,
+      "to_s": 5923.0,
+      "teller": "unnamed-rancher",
+      "quote": "Uh the ears and eyes were still intact, but uh the other was just looked like a surgeon had taken it off.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Places it on the Archuleta Ranch and says the ears and eyes were left intact, but does not mention the lack of blood.",
+      "link_reason": "An unnamed Aztec-area resident tells the same surgical-looking animal mutilation with the same 'like a surgeon had taken it off' description.",
+      "as_told": {
+        "title": "Cattle mutilations on the Archuleta Ranch",
+        "years": null,
+        "place_text": "Archuleta Ranch, Aztec, New Mexico",
+        "story_kind": "encounter"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 4.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 2,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "unnamed-aztec-resident",
+      "unnamed-rancher"
+    ],
+    "episodes": [
+      "OZ_oCpKYQJ0"
+    ]
+  },
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "Around Aztec, New Mexico, a small town where a famous crash story is told, locals speak of animal mutilations. These are cases where farm animals are found dead with parts cut away. On the podcast of host Jesse Michels, an unnamed resident says an animal looked as if a surgeon had removed part of it, and there was no blood. An unnamed rancher on the same episode tells it too. He places it on the Archuleta Ranch and says the ears and eyes were still there, but the other part looked surgically removed. He does not mention the missing blood. No date is given. If true, it would mean something with skill and unusual tools was killing livestock there. The story comes from two local witnesses, with slightly different details."
+}

@@ -1,0 +1,67 @@
+{
+  "id": "bob-brier-s-examination-suggests-tutankhamun-died-from-a-blo-1990",
+  "title": "Bob Brier's examination suggests Tutankhamun died from a blow to the back of the head",
+  "summary": "Luke Caverns tells of Bob Brier's examination suggests Tutankhamun died from a blow to the back of the head, about Tutankhamun c. 1320s BC; examination in the 1990s at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "egypt",
+  "place_text": "Egypt",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 7276.0,
+      "to_s": 7293.0,
+      "teller": "luke-caverns",
+      "quote": "So, um, Dr. [clears throat] Bob Brier did uh did an investigation on him maybe back in the 90s and examined his body and the way that the pool the way that the blood pulls in the back of his skull looks like he was hit in the back of the head.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-brier"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "egyptian-authorities-board-up-the-paw-and-drill-misleading-h-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ground-penetrating-radar-finds-cut-voids-with-objects-beneat-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Luke Caverns, speaking on Jesse Michels's podcast, talks about Tutankhamun, a young king of ancient Egypt. He says a Dr. Bob Brier examined the king's body, maybe in the 1990s, and found that the way blood had pooled at the back of the skull looked like he had been hit on the back of the head. If so, the boy king may not have died a natural death."
+}

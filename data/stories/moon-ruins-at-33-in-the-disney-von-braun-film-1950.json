@@ -1,0 +1,59 @@
+{
+  "id": "moon-ruins-at-33-in-the-disney-von-braun-film-1950",
+  "title": "Moon ruins at 33° in the Disney-von Braun film",
+  "summary": "Jesse Michels tells of Moon ruins at 33° in the Disney-von Braun film, about 1950s at The far side of the moon, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1959
+  },
+  "place": "moon-far-side",
+  "place_text": "Far side of the Moon (film)",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 2376.0,
+      "to_s": 2391.0,
+      "teller": "jesse-michels",
+      "quote": "In one extended scene, a team of astronauts travel to the far side of the moon for the first time. That's when a radar engineer yells out that some kind of radiation is being picked up on their sensors at 33°.",
+      "kind": "host",
+      "cites": [
+        "walt-disney",
+        "wernher-von-braun"
+      ],
+      "documents": [
+        "disney-space-exploration-films"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "zjpvfDFc4fg"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, describes a 1950s space film made by Walt Disney with the rocket engineer Wernher von Braun. He says that in one long scene astronauts reach the far side of the Moon for the first time and a radar engineer shouts that their sensors are picking up radiation at 33 degrees, a scene Michels reads as a hint that the filmmakers knew of ruins there."
+}

@@ -26,19 +26,70 @@
       "documents": [
         "ufos-and-nukes"
       ]
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 7245.0,
+      "to_s": 7257.0,
+      "teller": "jesse-michels",
+      "quote": "was talking with Robert Hastings and you know he was noting that he had 167 icpm security Personnel radar operators guys on on basis like yourself who've experienced crafts",
+      "kind": "secondhand",
+      "cites": [
+        "robert-hastings"
+      ],
+      "documents": [],
+      "difference": "Does not give the 7 or 8 count; it calls the witnesses ICBM security personnel and radar operators.",
+      "link_reason": "Same account: Robert Hastings' 167 nuclear-base witnesses, some of whom had close encounters, relayed by Jesse Michels.",
+      "as_told": {
+        "title": "Hastings' 167 ICBM witnesses and close encounters",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "US nuclear bases",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "Qe8br8yYEDM",
+      "from_s": 4528.0,
+      "to_s": 4534.0,
+      "teller": "richard",
+      "quote": "Robert Hastings's book's got like 169 accounts in it.",
+      "kind": "researcher",
+      "cites": [
+        "robert-hastings"
+      ],
+      "documents": [
+        "ufos-and-nukes"
+      ],
+      "difference": "Gives 169 accounts and eight close encounters, and credits the book rather than a conversation with Hastings.",
+      "link_reason": "The same claim that only about seven or eight of Hastings's roughly 167 nuclear-site witnesses had close encounters of the third kind.",
+      "as_told": {
+        "title": "Hastings' book has 169 accounts, only eight close encounters of the third kind",
+        "years": null,
+        "place_text": "US nuclear sites",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "hastings-did-not-systematically-ask-witnesses-whether-they-s",
+      "relation": "variant",
+      "note": "This is the same conversation between Jesse and Hastings about how many witnesses saw beings, but here Hastings says he never asked them systematically instead of giving a count."
+    }
+  ],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
@@ -46,13 +97,16 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "richard"
     ],
     "episodes": [
+      "73YBwFvcmF8",
+      "Qe8br8yYEDM",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says he once asked Robert Hastings, the author of a book called UFOs and Nukes, how many of his 167 military witnesses from US nuclear sites had gone beyond seeing strange things and had actually seen beings or been abducted, what researchers call close encounters of the third kind. According to Michels, Hastings answered: about seven or eight of the 167. If true, it would mean a few people guarding America's nuclear weapons say they met non-human beings face to face."
 }

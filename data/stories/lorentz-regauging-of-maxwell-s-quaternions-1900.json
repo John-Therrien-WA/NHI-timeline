@@ -1,0 +1,57 @@
+{
+  "id": "lorentz-regauging-of-maxwell-s-quaternions-1900",
+  "title": "Lorentz regauging of Maxwell's quaternions",
+  "summary": "Dave Rossi tells of Lorentz regauging of Maxwell's quaternions, about early 1900s at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1900,
+    "to": 1903
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 3515.0,
+      "to_s": 3524.0,
+      "teller": "dave-rossi",
+      "quote": "back in the late early 1900s, Heinrich Lorentz, he did something that was called symmetrical regauging of Maxwell's quaternions, because Maxwell",
+      "kind": "researcher",
+      "cites": [
+        "hendrik-lorentz",
+        "james-clerk-maxwell"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "dave-rossi"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A guest named Dave Rossi, on a 2025 episode of podcast host Jesse Michels' show titled \"Aliens Taught Me Advanced Physics!\", says that in the early 1900s the physicist Lorentz (Hendrik Lorentz, whom he calls Heinrich) did something called \"symmetrical regauging\" of the equations of James Clerk Maxwell, the 19th-century scientist who described electricity and magnetism. Rossi says Maxwell first wrote them using quaternions, a four-part kind of number, and he tells it as a turning point in how that physics came to be written down."
+}

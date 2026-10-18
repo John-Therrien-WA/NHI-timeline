@@ -1,0 +1,56 @@
+{
+  "id": "robert-goddard-rocket-testing-at-roswell-1940",
+  "title": "Robert Goddard rocket testing at Roswell",
+  "summary": "Jesse Michels tells of Robert Goddard rocket testing at Roswell, about 1940s at Roswell, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "roswell-nm",
+  "place_text": "Roswell, New Mexico",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 15291.0,
+      "to_s": 15301.0,
+      "teller": "jesse-michels",
+      "quote": "I mean, Robert Goddard, who is a rocket pioneer in the US, had just been testing V2 rockets at it right at Roswell.",
+      "kind": "host",
+      "cites": [
+        "robert-goddard"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "ATJwqp5twAg"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that Robert Goddard, an American rocket pioneer, had been testing V2 rockets, a type of early long-range rocket, right at Roswell, New Mexico, in the 1940s. Michels raises it because Roswell is the town where a strange object is said to have crashed in 1947, and the rocket work would make it a place of unusual military interest."
+}

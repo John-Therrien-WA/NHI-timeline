@@ -1,0 +1,53 @@
+{
+  "id": "mice-inheriting-fear-of-acetophenone",
+  "title": "Mice inheriting fear of acetophenone",
+  "summary": "Rupert Sheldrake tells of Mice inheriting fear of acetophenone, about an unknown time at a US university, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "a US university",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 4158.0,
+      "to_s": 4170.0,
+      "teller": "rupert-sheldrake",
+      "quote": "well when they were published in in nature there was that the title was inheriting the fear of fathers",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "inheriting-the-fear-of-fathers-nature"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "rupert-sheldrake"
+    ],
+    "episodes": [
+      "wT5-hXWIkzM"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A biologist, Rupert Sheldrake, describes an experiment at a US university where mice were taught to fear acetophenone, a chemical with a sweet smell. He says the results were published in Nature, a leading science journal, under a title about inheriting the fear of fathers, meaning the offspring seemed to fear the smell too. If so, it would mean learned memories can pass from parent to child."
+}

@@ -1,0 +1,54 @@
+{
+  "id": "air-force-censorship-of-pan-starrs-imagery-2010",
+  "title": "Air Force censorship of Pan-STARRS imagery",
+  "summary": "Jesse Michels tells of Air Force censorship of Pan-STARRS imagery, about 2010s at Pan-STARRS, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2010,
+    "to": 2019
+  },
+  "place": null,
+  "place_text": "Pan-STARRS",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 3605.0,
+      "to_s": 3615.0,
+      "teller": "jesse-michels",
+      "quote": "A much smaller all sky survey called Pan Stars, the same one which discovered AmuA Mua, underwent massive censorship from the Air Force",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host named Jesse Michels says that Pan-STARRS, a telescope survey that scans the whole sky and found 'Oumuamua, a strange object that passed through our solar system from outside it, had its images heavily censored by the US Air Force. He places this in the 2010s. If true, it would mean the military was controlling what astronomers could see and share about objects in the sky."
+}

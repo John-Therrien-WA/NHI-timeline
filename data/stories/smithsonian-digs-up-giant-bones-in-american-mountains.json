@@ -1,0 +1,73 @@
+{
+  "id": "smithsonian-digs-up-giant-bones-in-american-mountains",
+  "title": "Smithsonian digs up giant bones in American mountains",
+  "summary": "Tim Alberino tells of Smithsonian digs up giant bones in American mountains, about 19th century (mystery airship era) at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "mountains of America",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 11083.0,
+      "to_s": 11089.0,
+      "teller": "tim-alberino",
+      "quote": "giants were being unearthed by the Smithsonian Smithsonian institution in the mountains of America",
+      "kind": "researcher",
+      "cites": [
+        "smithsonian-institution"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 13116.0,
+      "to_s": 13126.0,
+      "teller": "tim-alberino",
+      "quote": "In the Smithsonian Institution's own annual reports. You have you have evidence of of very unusual skeletal remains, many of which were very large",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "smithsonian-institution-annual-reports"
+      ],
+      "difference": "Names the Smithsonian's annual reports as the source and calls the remains unusual and often very large, without saying they came from mountains.",
+      "link_reason": "Both say the Smithsonian Institution recorded giant skeletal remains in America.",
+      "as_told": {
+        "title": "Giant skeletons recorded in Smithsonian annual reports",
+        "years": null,
+        "place_text": "America",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "tim-alberino"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher named Tim Alberino says that the Smithsonian Institution, America's national museum and research body, once dug up the remains of giants in the mountains of America. In another telling he puts it a bit differently, saying the Smithsonian's own annual reports describe very unusual skeletons, many of them very large, without mentioning mountains. If true, it would mean a race of giant people once lived in North America."
+}

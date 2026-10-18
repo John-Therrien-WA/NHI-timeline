@@ -1,0 +1,60 @@
+{
+  "id": "spectre-modeled-on-odessa-1945",
+  "title": "SPECTRE modeled on ODESSA",
+  "summary": "Jason Jorjani tells of SPECTRE modeled on ODESSA, about post-1945 at transnational, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "transnational",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 4139.0,
+      "to_s": 4148.0,
+      "teller": "jason-jorjani",
+      "quote": "it's very obviously the organization which was known to Ian Fleming as Odessa.",
+      "kind": "researcher",
+      "cites": [
+        "ian-fleming",
+        "martin-bormann",
+        "otto-skorzeny"
+      ],
+      "documents": [
+        "james-bond-novels"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "SPECTRE is the secret criminal organisation that James Bond fights in the spy novels of the British writer Ian Fleming. A researcher named Jason Jorjani says on a podcast that SPECTRE is \"very obviously\" Fleming's version of ODESSA, which he presents as a real network that carried on after the end of the Second World War in 1945, and he links it to the Nazi figures Martin Bormann and Otto Skorzeny. If he is right, a famous piece of fiction would be hiding a real story about Nazis organising across borders after the war."
+}

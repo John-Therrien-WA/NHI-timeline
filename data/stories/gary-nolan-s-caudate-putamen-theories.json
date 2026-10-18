@@ -61,6 +61,72 @@
         "place_text": "unspecified",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "hXYdkcv5TtY",
+      "from_s": 1654.0,
+      "to_s": 1664.0,
+      "teller": "jesse-michels",
+      "quote": "and then that part of the brain according to Gary Nolan is also much more neuronally dense when you you see a greater preponderance of UFOs",
+      "kind": "host",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Puts the claim as greater neuronal density linked to seeing more UFOs, without mentioning psychic ability or that it runs in families.",
+      "link_reason": "Both tell Garry Nolan's claim that people who see UFOs have greater neuronal density in the caudate-putamen.",
+      "as_told": {
+        "title": "Gary Nolan on caudate-putamen density in UFO experiencers",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 5774.0,
+      "to_s": 5787.0,
+      "teller": "jesse-michels",
+      "quote": "because um a friend of mine named Gary Nolan at Stanford he's a microbiologist uh he studies this area of the brain the more neuronally dense it is the more kind of executive functioning somebody seems to display",
+      "kind": "secondhand",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Links density to executive functioning and intuition, and calls Nolan a microbiologist who is a friend of the host.",
+      "link_reason": "Same story: Gary Nolan's Stanford work linking neuron density in the caudate-putamen to intuition and executive function.",
+      "as_told": {
+        "title": "Gary Nolan's work on caudate-putamen density and intuition",
+        "years": {
+          "from": 2010,
+          "to": 2029
+        },
+        "place_text": "Stanford University",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 7611.0,
+      "to_s": 7616.0,
+      "teller": "jesse-michels",
+      "quote": "these studies that on the codate nucleus and and potamin",
+      "kind": "host",
+      "cites": [
+        "gary-nolan"
+      ],
+      "documents": [],
+      "difference": "Calls them studies rather than working theories, and dates them to the 2020s.",
+      "link_reason": "Both are Gary Nolan's research at Stanford on the caudate nucleus and putamen, told by the host.",
+      "as_told": {
+        "title": "Gary Nolan's caudate-putamen studies",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Stanford",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -84,8 +150,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "0qlppHc3-gg",
       "1f16VvXaSSE",
       "LpLFWdsIU7M",
+      "PiFbeWfA3LM",
+      "hXYdkcv5TtY",
       "yGtVzBbUvx4"
     ]
   },

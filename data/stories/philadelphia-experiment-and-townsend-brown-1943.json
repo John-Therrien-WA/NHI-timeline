@@ -1,0 +1,188 @@
+{
+  "id": "philadelphia-experiment-and-townsend-brown-1943",
+  "title": "Philadelphia Experiment and Townsend Brown",
+  "summary": "Jesse Michels tells of Philadelphia Experiment and Townsend Brown, about 1943 at Philadelphia, Pennsylvania, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1943,
+    "to": 1943
+  },
+  "place": "philadelphia-pa",
+  "place_text": "Philadelphia / Norfolk, Virginia",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2321.0,
+      "to_s": 2330.0,
+      "teller": "jesse-michels",
+      "quote": "He also told his friend Josh Reynolds late in life that the Philadelphia experiment did happen, its events were just greatly exaggerated.",
+      "kind": "host",
+      "cites": [
+        "josh-reynolds",
+        "edward-dudgeon",
+        "jacques-vallee",
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "1943-fbi-file-on-brown"
+      ]
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 4957.0,
+      "to_s": 4966.0,
+      "teller": "jesse-michels",
+      "quote": "Philadelphia experiment is this wacky scoff, you know, experiment with towns and brown involved. There probably was a real thing going on",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Calls the popular story a veneer over a real program and leaves out Brown's remark to Josh Reynolds.",
+      "link_reason": "Both tell of a real Townsend Brown effort behind the 1943 Philadelphia Experiment.",
+      "as_told": {
+        "title": "Philadelphia Experiment as a veneer over a real Townsend Brown effort",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "Philadelphia, Pennsylvania",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 6258.0,
+      "to_s": 6262.0,
+      "teller": "jesse-michels",
+      "quote": "experiment. Yeah, well that was Thomas Townsend Brown was involved in the Philadelphia experiment.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "States Brown's involvement flatly and leaves out the Josh Reynolds remark that the events were exaggerated.",
+      "link_reason": "The same claim that Townsend Brown was involved in the 1943 Philadelphia Experiment, told by the same host.",
+      "as_told": {
+        "title": "Townsend Brown in the Philadelphia Experiment",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "Philadelphia",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 3346.0,
+      "to_s": 3352.0,
+      "teller": "jesse-michels",
+      "quote": "all the reports of the Philadelphia experiment, which was led by Thomas Towns and Brown, who had a nervous breakdown at that time",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Says Brown led the experiment and had a nervous breakdown at the time, and adds Los Angeles as a place.",
+      "link_reason": "Same story: the 1943 Philadelphia Experiment tied to Townsend Brown.",
+      "as_told": {
+        "title": "Philadelphia Experiment and Townsend Brown",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "Philadelphia; Los Angeles",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 589.0,
+      "to_s": 596.0,
+      "teller": "jesse-michels",
+      "quote": "Brown was responsible for the famous Philadelphia experiment in the early 40s.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Says Brown was responsible for the experiment, with no mention of his late-life remark that its events were exaggerated.",
+      "link_reason": "Both link Townsend Brown to the Philadelphia Experiment of the early 1940s.",
+      "as_told": {
+        "title": "Thomas Townsend Brown and the Philadelphia Experiment",
+        "years": {
+          "from": 1940,
+          "to": 1943
+        },
+        "place_text": "Philadelphia",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 2446.0,
+      "to_s": 2453.0,
+      "teller": "jesse-michels",
+      "quote": "We also know he suffered a nervous breakdown around that time and he ran the project. It was a real project.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "bill-moore"
+      ],
+      "documents": [],
+      "difference": "Says Brown ran the project and had a nervous breakdown then, and credits Bill Moore.",
+      "link_reason": "Same claim that the Philadelphia Experiment was real and tied to Townsend Brown in the 1940s.",
+      "as_told": {
+        "title": "Philadelphia Experiment and Townsend Brown",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Norfolk, Virginia; Philadelphia",
+        "story_kind": "program"
+      }
+    }
+  ],
+  "related": [
+    {
+      "story": "the-1943-philadelphia-experiment",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw",
+      "8TYMQOUDQBo",
+      "ABw7EsWh2Us",
+      "G7Ns4Aq1tVc",
+      "ScE9FaDy-mE",
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, often comes back to the Philadelphia Experiment, a famous and much-mocked story of a secret experiment in 1943, tied to Philadelphia and Norfolk, Virginia, and to a researcher named Townsend Brown. Michels says Brown told his friend Josh Reynolds late in life that the experiment did happen but its events were greatly exaggerated, and he cites a 1943 file the FBI, the US federal police, kept on Brown. In other episodes Michels says more flatly that Brown led or ran the project and had a nervous breakdown around that time, which would mean a real secret programme sat behind the wild popular tale."
+}

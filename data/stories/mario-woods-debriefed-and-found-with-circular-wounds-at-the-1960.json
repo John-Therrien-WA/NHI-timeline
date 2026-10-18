@@ -24,18 +24,38 @@
         "mario-woods"
       ],
       "documents": []
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 5274.0,
+      "to_s": 5296.0,
+      "teller": "jesse-michels",
+      "quote": "Mario Woods who um was at El Ellsworth Air Force Base in South Dakota which is a you know nuclear uh base and you know he had a q clearance and he was guarding these icbms and you know this pretty serious hardcore job and he got abducted by aliens and he was checked by a medical doctor afterwards and they checked his teeth",
+      "kind": "secondhand",
+      "cites": [
+        "mario-woods"
+      ],
+      "documents": [],
+      "difference": "Says a doctor checked his teeth, mentions his Q clearance and ICBM guard duty, and leaves out the circular wounds.",
+      "link_reason": "Both tell of the medical exam Mario Woods had after his abduction at Ellsworth AFB.",
+      "as_told": {
+        "title": "Mario Woods abducted at Ellsworth AFB, then had his teeth checked",
+        "years": null,
+        "place_text": "Ellsworth Air Force Base, South Dakota",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -44,13 +64,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "robert-hastings"
     ],
     "episodes": [
+      "0qlppHc3-gg",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "Robert Hastings, a researcher who studies UFO reports at nuclear weapons bases, tells of a man named Mario Woods at Ellsworth Air Force Base in South Dakota in the 1960s. Hastings says that after Woods was questioned about an incident, he was taken to the base hospital, where doctors found a circular wound or dent with a small dimple in the centre, he thinks on his forehead and his ankle. He tells it as a sign that something physical happened to Woods."
 }

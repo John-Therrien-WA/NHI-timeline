@@ -1,0 +1,56 @@
+{
+  "id": "wen-ho-lee-espionage-case-1980",
+  "title": "Wen Ho Lee espionage case",
+  "summary": "John Herrington tells of Wen Ho Lee espionage case, about 1980s-1990s at Los Alamos, New Mexico, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1980,
+    "to": 1999
+  },
+  "place": "los-alamos-nm",
+  "place_text": "Livermore and Los Alamos",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 4912.0,
+      "to_s": 4921.0,
+      "teller": "john-herrington",
+      "quote": "There was a spy called Win Holi who was operating in the energy department in Liverour and Los Alamos.",
+      "kind": "firsthand",
+      "cites": [
+        "ed-meese"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "john-herrington"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "John Herrington, a former US Secretary of Energy, told podcast host Jesse Michels about a spy case from his years in government. He says a spy named Wen Ho Lee was working inside the Energy Department at Livermore and Los Alamos, two of the country's nuclear weapons labs, and he links the story to Ed Meese, then a senior official."
+}

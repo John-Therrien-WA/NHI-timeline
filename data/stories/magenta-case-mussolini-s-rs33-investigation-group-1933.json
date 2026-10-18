@@ -1,0 +1,68 @@
+{
+  "id": "magenta-case-mussolini-s-rs33-investigation-group-1933",
+  "title": "Magenta case: Mussolini's RS33 investigation group",
+  "summary": "UAPGerb tells of Magenta case: Mussolini's RS33 investigation group, about 1933 at Magenta, Lombardy, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1933,
+    "to": 1933
+  },
+  "place": "italy-magenta",
+  "place_text": "Magenta, Italy",
+  "coordinates": null,
+  "kind": "crash-retrieval",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7447.0,
+      "to_s": 7463.0,
+      "teller": "uapgerb",
+      "quote": "And the magenta case is so interesting\nbecause Mussolini thought it was a a\nNazi advanced craft or a British or\nAmerican advanced craft when he had his\nown special investigation group, the\nRS33, who was like really keen on the\nfact this wasn't human technology and\nthen likely worked with the Nazis.",
+      "kind": "researcher",
+      "cites": [
+        "benito-mussolini",
+        "david-grusch"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "bissell-mentions-the-1933-magenta-crash",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "hugh-angleton-in-italy-during-the-1933-magenta-crash",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "uapgerb"
+    ],
+    "episodes": [
+      "nTiFs8LudUo"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher who goes by the online name UAPGerb, speaking on podcast host Jesse Michels' show in 2025, tells of a craft said to have crashed in 1933 near Magenta, in northern Italy. He says Benito Mussolini, Italy's dictator, at first thought it was an advanced Nazi, British or American aircraft, but his special investigation group, called RS33, was keen on the idea that it was not human technology and likely later worked with the Nazis. If true, a government would have been studying a non-human craft years before the Second World War."
+}

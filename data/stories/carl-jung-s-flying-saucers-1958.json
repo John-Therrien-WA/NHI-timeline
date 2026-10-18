@@ -74,6 +74,31 @@
         "place_text": "Switzerland",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 4524.0,
+      "to_s": 4527.0,
+      "teller": "jesse-michels",
+      "quote": "think Um, you know, Carl Jung wrote a",
+      "kind": "host",
+      "cites": [
+        "carl-jung"
+      ],
+      "documents": [
+        "flying-saucers-a-modern-myth-of-things-seen-in-the-skies"
+      ],
+      "difference": "Dates it to the 1950s generally rather than 1958 and gives the book's full title.",
+      "link_reason": "Both are about Carl Jung's book Flying Saucers and its reading of saucers as the mandala symbol.",
+      "as_told": {
+        "title": "Carl Jung's flying saucer book and the mandala archetype",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": null,
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -100,6 +125,7 @@
     "episodes": [
       "KRDE1i3LDuU",
       "RNjC1vLcxKo",
+      "Rjr3Yq-dMUE",
       "kRO5jOa06Qw"
     ]
   },

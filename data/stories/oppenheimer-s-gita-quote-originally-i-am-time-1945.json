@@ -1,0 +1,58 @@
+{
+  "id": "oppenheimer-s-gita-quote-originally-i-am-time-1945",
+  "title": "Oppenheimer's Gita quote originally 'I am time'",
+  "summary": "Dave Rossi tells of Oppenheimer's Gita quote originally 'I am time', about 1945 at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 6392.0,
+      "to_s": 6400.0,
+      "teller": "dave-rossi",
+      "quote": "reading that the original translation was not I am death the destroyer of worlds. It was I am time the destroyer of worlds.",
+      "kind": "secondhand",
+      "cites": [
+        "j-robert-oppenheimer"
+      ],
+      "documents": [
+        "bhagavad-gita"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "dave-rossi"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "Dave Rossi, a guest on Jesse Michels' podcast, talks about the famous line the physicist Robert Oppenheimer quoted in 1945 from the Bhagavad Gita, an ancient Hindu scripture: \"I am become death, the destroyer of worlds.\" Rossi says he read that the original translation said not death but \"I am time, the destroyer of worlds,\" which would give the famous quote a quite different meaning."
+}

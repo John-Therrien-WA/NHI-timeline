@@ -1,0 +1,81 @@
+{
+  "id": "north-sea-oil-rig-engineer-sighting-in-jane-s-1989",
+  "title": "North Sea oil rig engineer sighting in Jane's",
+  "summary": "Nick Cook tells of North Sea oil rig engineer sighting in Jane's, about 1989 at North Sea, and reports it citing named sources. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1989,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "North Sea",
+  "coordinates": null,
+  "kind": "sighting",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2571.0,
+      "to_s": 2574.0,
+      "teller": "nick-cook",
+      "quote": "We ran that story in Jane's Defence Weekly.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": [
+        "jane-s-defence-weekly"
+      ]
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 3610.0,
+      "to_s": 3618.0,
+      "teller": "nick-cook",
+      "quote": "He looks up and he sees this dart-like black arrow-shaped thing",
+      "kind": "secondhand",
+      "cites": [
+        "chris-gibson",
+        "bill-sweetman"
+      ],
+      "documents": [],
+      "difference": "Names the witness, Chris Gibson, credits Bill Sweetman, and describes a dart-like black arrow-shaped craft.",
+      "link_reason": "Both tell the same late-1980s North Sea oil rig engineer's sighting that Jane's reported.",
+      "as_told": {
+        "title": "Chris Gibson's oil rig sighting of Aurora",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "North Sea",
+        "story_kind": "sighting"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "nick-cook"
+    ],
+    "episodes": [
+      "G7Ns4Aq1tVc",
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once",
+  "plain": "A British defence journalist, Nick Cook, says that around 1989 an engineer working on an oil rig in the North Sea, a man he names as Chris Gibson, looked up and saw a black, dart-like craft shaped like an arrowhead. Cook credits the account to another aviation writer, Bill Sweetman, and says the story ran in Jane's Defence Weekly, a respected military trade magazine. It is told as a possible glimpse of a secret aircraft that officially did not exist."
+}

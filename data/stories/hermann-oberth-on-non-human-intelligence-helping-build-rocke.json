@@ -66,6 +66,50 @@
         "place_text": "Germany",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 1691.0,
+      "to_s": 1709.0,
+      "teller": "jesse-michels",
+      "quote": "In interviews, he even said, \"We cannot take all of the credit for our record advancements in certain scientific fields. We have been helped.\" When asked by whom, he replied, \"The people of the other worlds.\"",
+      "kind": "host",
+      "cites": [
+        "hermann-oberth"
+      ],
+      "documents": [],
+      "difference": "Gives the exact interview quote, 'We have been helped... by the people of the other worlds.'",
+      "link_reason": "Both are Oberth's claim that rocket science was helped by non-human beings ('people of other worlds').",
+      "as_told": {
+        "title": "Oberth: 'We have been helped' by people of other worlds",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "Germany",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 14562.0,
+      "to_s": 14571.0,
+      "teller": "jesse-michels",
+      "quote": "Herman Oberth was saying that rocketry was inspire was you know von Braun was inspired by the beings and Oberth gives a whole lecture on UFOs.",
+      "kind": "host",
+      "cites": [
+        "hermann-oberth",
+        "wernher-von-braun"
+      ],
+      "documents": [],
+      "difference": "Adds that Oberth gave a whole lecture on UFOs.",
+      "link_reason": "Both are about Oberth saying non-human beings helped or inspired von Braun's rocketry.",
+      "as_told": {
+        "title": "Oberth says von Braun's rocketry was inspired by the beings",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -90,8 +134,10 @@
       "jesse-michels"
     ],
     "episodes": [
+      "CiQTBOQ1dTg",
       "Y7PLeu5rTv4",
-      "kccrkCGGzX4"
+      "kccrkCGGzX4",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 1.0,

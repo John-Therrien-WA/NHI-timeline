@@ -129,6 +129,213 @@
         "place_text": "New Hampshire",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 842.0,
+      "to_s": 856.0,
+      "teller": "jesse-michels",
+      "quote": "for example she talks about Betty and Barney Hill in 1961 seeing aliens with eyes wrapped around the rim of their heads but were they just being subliminally influenced by the CBS show Outer Limits",
+      "kind": "host",
+      "cites": [
+        "diana-pasulka"
+      ],
+      "documents": [
+        "american-cosmic"
+      ],
+      "difference": "Frames it as Pasulka's suggestion in American Cosmic that the wraparound eyes came from subliminal influence by the CBS show.",
+      "link_reason": "Both connect the 1961 Betty and Barney Hill case to the Outer Limits episode, and both are told by Jesse Michels.",
+      "as_told": {
+        "title": "Betty and Barney Hill and The Outer Limits",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "US",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 1425.0,
+      "to_s": 1429.0,
+      "teller": "jesse-michels",
+      "quote": "US I think 1961 in New Hampshire uh",
+      "kind": "host",
+      "cites": [
+        "betty-hill",
+        "barney-hill"
+      ],
+      "documents": [],
+      "difference": "Places the case in New Hampshire and leads with the sperm extraction.",
+      "link_reason": "Both are Jesse Michels telling the 1961 Betty and Barney Hill abduction, and the story already includes the sperm samples taken from Barney.",
+      "as_told": {
+        "title": "Betty and Barney Hill abduction, sperm extracted",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 6533.0,
+      "to_s": 6543.0,
+      "teller": "flying-lotus",
+      "quote": "aside from um >> the Barney Hill.\" >> Yeah. >> Any other black abductees out there?",
+      "kind": "researcher",
+      "cites": [
+        "barney-hill"
+      ],
+      "documents": [],
+      "difference": "Raised only as a passing example while asking about other Black abductees.",
+      "link_reason": "Same 1961 Betty and Barney Hill abduction in New Hampshire.",
+      "as_told": {
+        "title": "Barney Hill abduction",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire, USA",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 3144.0,
+      "to_s": 3154.0,
+      "teller": "jesse-michels",
+      "quote": "Jacques Vallee noted that Betty Hill's abduction story also began with her seeing one too many stars in the Dipper.",
+      "kind": "secondhand",
+      "cites": [
+        "jacques-vallee",
+        "betty-hill"
+      ],
+      "documents": [],
+      "difference": "Adds Vallee's point that the abduction began with Betty seeing an extra star in the Dipper.",
+      "link_reason": "This is the 1961 Betty Hill abduction, which an existing story already holds, including a telling that credits Vallee.",
+      "as_told": {
+        "title": "Betty Hill's abduction began with an extra star in the Dipper",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 20.0,
+      "to_s": 29.0,
+      "teller": "unknown-narrator",
+      "quote": "Perhaps the best known abduction of all and one of the earliest reported is the abduction of a wellrespected New England couple, Betty and Barney Hill.",
+      "kind": "secondhand",
+      "cites": [
+        "betty-hill",
+        "barney-hill"
+      ],
+      "documents": [],
+      "difference": "Told second hand by an unnamed narrator, who calls it one of the earliest reported abductions and places it in New England.",
+      "link_reason": "Both tell the 1961 abduction of Betty and Barney Hill, one of the best-known abduction cases.",
+      "as_told": {
+        "title": "Betty and Barney Hill abduction",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New England, USA",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 8380.0,
+      "to_s": 8388.0,
+      "teller": "jason-jorjani",
+      "quote": "if you look back at Barney Hill's original statements and when they first asked him what did they look like, he said, \"Well, they look like Nazis.\"",
+      "kind": "researcher",
+      "cites": [
+        "barney-hill",
+        "betty-hill"
+      ],
+      "documents": [],
+      "difference": "Adds Barney's original statement that the abductors looked like Nazis.",
+      "link_reason": "This is the 1961 Betty and Barney Hill abduction, told through Barney's early description of the abductors.",
+      "as_told": {
+        "title": "Barney Hill said the abductors looked like Nazis",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 8432.0,
+      "to_s": 8442.0,
+      "teller": "barney-hill",
+      "quote": "he looks like a German Nazi. He's a Nazi.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Firsthand hypnosis audio in which Barney says the figure in the window looks like a German Nazi.",
+      "link_reason": "This is the same 1961 Hill abduction, in Barney's own words under hypnosis.",
+      "as_told": {
+        "title": "Barney Hill under hypnosis: a German Nazi in the window",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 2456.0,
+      "to_s": 2465.0,
+      "teller": "jesse-michels",
+      "quote": "Yeah. Just for the audience, the core\nstory is in 1961, Betty and Barney Hill,\nthey were an interracial couple and they\nwere ACLU activists actually",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the couple were interracial and ACLU activists, and places it in New Hampshire.",
+      "link_reason": "The core 1961 Betty and Barney Hill abduction, told by the host.",
+      "as_told": {
+        "title": "Betty and Barney Hill abduction",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 2539.0,
+      "to_s": 2543.0,
+      "teller": "clas-svahn",
+      "quote": "They checked on his teeth and there were\nfalse teeth because he had false teeth.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds the examination of Barney's false teeth, the needle test and the star map, told by clas-svahn.",
+      "link_reason": "Retells the same 1961 Hill abduction, adding details from inside the encounter.",
+      "as_told": {
+        "title": "Hill abduction details: false teeth, needle test, star map",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "New Hampshire",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [
@@ -139,33 +346,40 @@
     }
   ],
   "tags": [],
-  "score": 1.7,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
-    "host": 1,
+    "researcher": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 3,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 4,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "barney-hill",
+      "clas-svahn"
     ],
     "episodes": [
       "A2-y_HasHEw",
+      "ABw7EsWh2Us",
       "C_Na1tI5qpw",
+      "JE1oM89dpBc",
+      "Rjr3Yq-dMUE",
       "Y26iMB0r-f8",
       "fyX8V1XXmQM",
-      "kRO5jOa06Qw"
+      "kRO5jOa06Qw",
+      "tS_64sTN5AU",
+      "yAvD5UTziTo",
+      "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.85,
-  "tier": "told-once",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, often brings up Betty and Barney Hill, a married couple who, as he tells it, became America's first well-known alien abduction case in 1961 in New Hampshire, and he links the case to an episode of The Outer Limits, a science fiction TV show. In different episodes he adds that Barney reluctantly said sperm samples were taken from him, and that Betty described a star map the beings showed her, pointing to a two-star system that looked like Zeta Reticuli. Michels treats it as the classic example of abduction, the kind of case that, if true, would mean people were taken and examined by non-human beings."
 }

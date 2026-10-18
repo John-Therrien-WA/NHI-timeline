@@ -25,6 +25,31 @@
         "rosemary-clooney"
       ],
       "documents": []
+    },
+    {
+      "episode": "RofQnByLwOo",
+      "from_s": 439.0,
+      "to_s": 449.0,
+      "teller": "jesse-michels",
+      "quote": "that same year the Russians and the Americans were in a race trying to find a downed tu22 Russian spy plane in Africa",
+      "kind": "host",
+      "cites": [
+        "dale-graff",
+        "rosemary-smith",
+        "jimmy-carter"
+      ],
+      "documents": [],
+      "difference": "Adds that the Russians and Americans were racing to find the plane, calls it a spy plane, and credits Dale Graff.",
+      "link_reason": "Rosemary Smith remote-viewing the downed Tu-22 in Zaire in 1979, framed as a program.",
+      "as_told": {
+        "title": "Rosemary Smith remote views the downed Tu-22 in Zaire",
+        "years": {
+          "from": 1979,
+          "to": 1979
+        },
+        "place_text": "Zaire, Africa",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -48,6 +73,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "RofQnByLwOo",
       "yGtVzBbUvx4"
     ]
   },

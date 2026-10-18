@@ -72,36 +72,169 @@
         "place_text": "Pilsen, Czechoslovakia",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3415.0,
+      "to_s": 3425.0,
+      "teller": "john-warner-iv",
+      "quote": "And my grandfather said, \"Look, you know, we we were in a facility, a hangar, and we saw, you know, a German flying disc.\"",
+      "kind": "secondhand",
+      "cites": [
+        "paul-mellon",
+        "allen-dulles"
+      ],
+      "documents": [],
+      "difference": "Places it in a hangar facility at Pilsen and says only that they saw the disc, not that they retrieved it.",
+      "link_reason": "Both tell John Warner IV's account of Paul Mellon and Allen Dulles seeing a German flying disc in Czechoslovakia in 1945.",
+      "as_told": {
+        "title": "Paul Mellon and Allen Dulles see German flying disc in Pilsen",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "Pilsen, Czechoslovakia",
+        "story_kind": "sighting"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1288.0,
+      "to_s": 1298.0,
+      "teller": "john-warner-iv",
+      "quote": "And my grandfather said, \"Look, you know, we we were in a facility, a hangar, and we saw, you know, a German flying disc.\"",
+      "kind": "secondhand",
+      "cites": [
+        "paul-mellon",
+        "allen-dulles"
+      ],
+      "documents": [],
+      "difference": "Told by John Warner himself, quoting his grandfather. Here the disc is seen in a hangar, not stood on or brought back.",
+      "link_reason": "The same account, passed from Paul Mellon through John Warner, of Mellon and Allen Dulles seeing a German flying disc in Czechoslovakia in 1945.",
+      "as_told": {
+        "title": "Paul Mellon sees a German flying disc in a hangar",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "Czechoslovakia",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "john-warner"
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7354.0,
+      "to_s": 7369.0,
+      "teller": "jesse-michels",
+      "quote": "story of Paul Melon kind of spilling the beans to his, you know, grandson who's alive now, John Warner IV about like being sitting, you know, uh, standing over a UFO uh that that can employ exotic flight principles in modern day Czechoslovakia.",
+      "kind": "secondhand",
+      "cites": [
+        "paul-mellon",
+        "john-warner-iv"
+      ],
+      "documents": [],
+      "difference": "Says the craft could use exotic flight principles and does not mention Dulles.",
+      "link_reason": "Both tell of Paul Mellon telling John Warner IV that he stood on a saucer in Czechoslovakia during tech retrieval.",
+      "as_told": {
+        "title": "Paul Mellon stood over UFO in Czechoslovakia",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Czechoslovakia",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 8562.0,
+      "to_s": 8572.0,
+      "teller": "jesse-michels",
+      "quote": "third martini he says that in 1944 I was in modern day Czechoslovakia and I was there with Alan Dulles. They were on some tech retrieval mission and they were standing on top of a flying saucer.",
+      "kind": "secondhand",
+      "cites": [
+        "paul-mellon",
+        "john-warner-iv",
+        "allen-dulles"
+      ],
+      "documents": [],
+      "difference": "Dates it to 1944, where the story says 1945.",
+      "link_reason": "This is the same account: Paul Mellon told John Warner IV that he and Allen Dulles stood on a German flying saucer during a tech-retrieval mission in Czechoslovakia.",
+      "as_told": {
+        "title": "Paul Mellon and Allen Dulles stand on a German flying saucer",
+        "years": {
+          "from": 1944,
+          "to": 1944
+        },
+        "place_text": "Czechoslovakia",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 8572.0,
+      "to_s": 8582.0,
+      "teller": "john-warner-iv",
+      "quote": ">> And my grandfather said, \"Look, you know, we we were in a facility, a hanger, and we saw, you know, a German flying disc",
+      "kind": "secondhand",
+      "cites": [
+        "paul-mellon"
+      ],
+      "documents": [],
+      "difference": "Warner IV tells it directly and places the disc inside a facility or hangar.",
+      "link_reason": "This is the same Mellon account of a German flying disc, told by John Warner IV himself.",
+      "as_told": {
+        "title": "John Warner IV recounts his grandfather's German flying disc",
+        "years": {
+          "from": 1944,
+          "to": 1944
+        },
+        "place_text": "Czechoslovakia",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels",
-      "steven-greer"
+      "john-warner-iv"
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "ABw7EsWh2Us",
+      "G7Ns4Aq1tVc",
+      "RTEWLSTyUic",
       "areO7Mej44E",
-      "kccrkCGGzX4"
+      "kccrkCGGzX4",
+      "nTiFs8LudUo"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
+  "attestation": 0.5,
+  "tier": "told-once",
   "plain": "A UFO activist, Steven Greer, says that a man named John Warner IV heard Paul Mellon, a very rich American, admit to going over at the end of World War Two and bringing back a flying disc built by the Nazis. The podcast host Jesse Michels tells it with more detail: over his third martini, Mellon said he and Allen Dulles, an American spy chief, were on a mission to recover technology, and that he stood on top of a saucer in Pilsen, in Czechoslovakia, not Germany. If true, it would mean flying-disc technology reached America from the Nazis in 1945."
 }

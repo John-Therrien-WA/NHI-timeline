@@ -1,0 +1,79 @@
+{
+  "id": "sar-team-detects-the-big-void-in-a-transverse-east-west-posi-2020",
+  "title": "SAR team detects the Big Void in a transverse east-west position",
+  "summary": "Filippo tells of SAR team detects the Big Void in a transverse east-west position, about 2020s at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2029
+  },
+  "place": "egypt",
+  "place_text": "Great Pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 5809.0,
+      "to_s": 5812.0,
+      "teller": "filippo",
+      "quote": "Yes, and we have detected the big void also.",
+      "kind": "researcher",
+      "cites": [
+        "corrado"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 9955.0,
+      "to_s": 9964.0,
+      "teller": "filippo",
+      "quote": "These are not simulated data. Are real data. This is the Grand Gallery and probably we are detecting",
+      "kind": "firsthand",
+      "cites": [
+        "corrado"
+      ],
+      "documents": [],
+      "difference": "Stresses that the data are real rather than simulated, adds the Grand Gallery and dates the work to 2018-2020.",
+      "link_reason": "Both tell of the SAR team's scan that detected the Big Void, with Filippo crediting Corrado.",
+      "as_told": {
+        "title": "SAR scan of the Great Pyramid showing the Grand Gallery and the big void",
+        "years": {
+          "from": 2018,
+          "to": 2020
+        },
+        "place_text": "Great Pyramid, Giza, Egypt",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "filippo"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "A researcher named Filippo says that his team scanned the Great Pyramid at Giza in Egypt using SAR, a radar method that builds images from radar echoes, during work he dates to about 2018 to 2020. He says they picked up the Grand Gallery, the pyramid's long inner passage, and also what is called the Big Void, a large hidden space inside the pyramid, lying east to west, and he stresses that these were real readings, not simulated ones. He tells it, on a podcast hosted by Jesse Michels and crediting a colleague named Corrado, because if true it would mean radar can see hidden structures inside the pyramids."
+}

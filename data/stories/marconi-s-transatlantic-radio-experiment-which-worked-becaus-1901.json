@@ -1,0 +1,84 @@
+{
+  "id": "marconi-s-transatlantic-radio-experiment-which-worked-becaus-1901",
+  "title": "Marconi's transatlantic radio experiment, which worked because of the ionosphere",
+  "summary": "Filippo Biondi tells of Marconi's transatlantic radio experiment, which worked because of the ionosphere, about c. 1901-1910s at The Atlantic Ocean, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1901,
+    "to": 1919
+  },
+  "place": "atlantic-ocean",
+  "place_text": "Newfoundland (Terranova) to Cornwall (Cornovaglia), across the Atlantic",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "zrmG2jBckgk",
+      "from_s": 5861.0,
+      "to_s": 5881.0,
+      "teller": "filippo-biondi",
+      "quote": "the wavelength that was transmitting Marconi casually it was interacting with the ionosphere and so the electromagnetic waves according to the Maxwell theory made like that and like that directly to the receiving and so it worked.",
+      "kind": "researcher",
+      "cites": [
+        "guglielmo-marconi",
+        "james-clerk-maxwell",
+        "poincare"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 281.0,
+      "to_s": 289.0,
+      "teller": "jesse-michels",
+      "quote": "like too dumb to he was it was almost like ignorant in an adaptive way where he tried it across the Atlantic",
+      "kind": "secondhand",
+      "cites": [
+        "filipo-beyond",
+        "maronei"
+      ],
+      "documents": [],
+      "difference": "Told secondhand by Michels, framing Marconi as adaptively ignorant in trying it across the Atlantic.",
+      "link_reason": "Same story of Marconi's transatlantic radio signal working because it bounced off the ionosphere.",
+      "as_told": {
+        "title": "Marconi's transatlantic signal bounced off the ionosphere",
+        "years": {
+          "from": 1900,
+          "to": 1903
+        },
+        "place_text": "Atlantic Ocean",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "filippo-biondi",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw",
+      "zrmG2jBckgk"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-by-several",
+  "plain": "This story is about Guglielmo Marconi, the radio pioneer, who in the early 1900s sent a radio signal across the Atlantic from Cornwall in England to Newfoundland in Canada. Filippo Biondi, a scientist who has used radar to scan beneath the pyramids, says on Jesse Michels' podcast that it worked by luck. According to him, Marconi's radio waves bounced off the ionosphere, an electrically charged layer high in the sky, and zigzagged down to the receiver, just as the theory of electromagnetism describes. Michels later retells it, saying Marconi was ignorant in a useful way, because he simply tried it across the ocean without knowing it shouldn't work. They tell it to show that a bold experiment can succeed even when the experts say it can't."
+}

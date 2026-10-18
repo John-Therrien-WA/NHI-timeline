@@ -51,6 +51,32 @@
         "place_text": "Minot and Malmstrom Air Force Bases",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "rjUdn6FklAU",
+      "from_s": 5813.0,
+      "to_s": 5826.0,
+      "teller": "robert-salas",
+      "quote": "We're talking between September of ' 66 and March of ' 67, we lost 30 missiles to UFO activity.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Places the losses at Malmstrom AFB specifically, not US missile bases in general, and has Salas telling it firsthand.",
+      "link_reason": "Same claim that 30 missiles were lost to UFO activity between September 1966 and March 1967, told by Salas.",
+      "as_told": {
+        "title": "30 missiles lost to UFO activity",
+        "years": {
+          "from": 1966,
+          "to": 1967
+        },
+        "place_text": "Malmstrom Air Force Base, Montana",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "-0g3lLGxNfc",
+        "from_s": 3139.0
+      },
+      "teller_was": "bob-salas"
     }
   ],
   "related": [],
@@ -76,7 +102,8 @@
     ],
     "episodes": [
       "-0g3lLGxNfc",
-      "hBrfe4hFuM0"
+      "hBrfe4hFuM0",
+      "rjUdn6FklAU"
     ]
   },
   "attestation": 0.6,

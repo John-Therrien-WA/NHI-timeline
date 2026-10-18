@@ -25,6 +25,52 @@
         "carl-grillmair"
       ],
       "documents": []
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 4129.0,
+      "to_s": 4140.0,
+      "teller": "jesse-michels",
+      "quote": "Except on December 15th, Dr. Nuno Lorero was gunned down inside his Brookline, Massachusetts home.",
+      "kind": "host",
+      "cites": [
+        "claudio-neves-valente"
+      ],
+      "documents": [
+        "department-of-justice-transcript-of-valente-videos"
+      ],
+      "difference": "Places the shooting in his Brookline, Massachusetts home on December 15, names Claudio Valente as the shooter and cites a DOJ transcript of Valente's videos.",
+      "link_reason": "Both tell of the 2025 shooting of fusion physicist Nuno Loureiro at his home.",
+      "as_told": {
+        "title": "Murder of MIT plasma physicist Nuno Loureiro",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Brookline, Massachusetts",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 4792.0,
+      "to_s": 4802.0,
+      "teller": "jesse-michels",
+      "quote": "Tragically, Nuno Lurero went into surgery that evening, but did not survive. He was pronounced dead the following morning.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that he went into surgery that evening and was pronounced dead the next morning, and gives the place as Brooklyn, New York.",
+      "link_reason": "This retells Loureiro's 2025 death after the shooting.",
+      "as_told": {
+        "title": "Murder of MIT plasma physicist Nuno Loureiro",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "Brooklyn, New York",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -57,10 +103,55 @@
       "story": "tulsi-gabbard-mentions-uaps-in-her-dni-confirmation-testimon-2025",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "asked-to-take-part-in-congressional-testimony-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "contact-from-steven-greer-s-disclosure-project-and-offer-of-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dni-tulsi-gabbard-s-platform-pledge-to-expose-uap-informatio-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "falsified-evidence-aimed-at-a-treason-death-penalty-for-borl-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jake-barber-s-testimony-and-the-egg-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-s-conversation-with-tulsi-gabbard-on-uap-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "leaving-the-skywatcher-team-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "mccullough-on-the-phone-they-did-it-not-the-whistleblowers-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "odni-duplicated-borland-s-phone-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -71,7 +162,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -79,10 +170,11 @@
       "jesse-michels"
     ],
     "episodes": [
-      "8Rr_nE65KkI"
+      "8Rr_nE65KkI",
+      "wlsQIbpEKSM"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, in a debate with a well known skeptic, brings up Nuno Loureiro, a scientist he calls a leader in magnetic reconnection, a process in charged gas that Michels says is key to making nuclear fusion power work. Michels says Loureiro was shot dead at his own front door in 2025 and objects to treating it as a non-story, mentioning another scientist, Carl Grillmair, in the same breath. He raises it because some people suggest the deaths of scientists in sensitive fields may be connected."
 }

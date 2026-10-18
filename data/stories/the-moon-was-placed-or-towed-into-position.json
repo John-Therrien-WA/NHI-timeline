@@ -1,0 +1,53 @@
+{
+  "id": "the-moon-was-placed-or-towed-into-position",
+  "title": "The Moon was placed or towed into position",
+  "summary": "Chris Bledsoe tells of The Moon was placed or towed into position, about unspecified at The Moon, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "moon",
+  "place_text": "The Moon",
+  "coordinates": null,
+  "kind": "cosmology",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 7890.0,
+      "to_s": 7900.0,
+      "teller": "chris-bledsoe",
+      "quote": "Is it an illusion? Was it put there? Tim insinuated that it was it wasn't there by accident. That it was set there.",
+      "kind": "secondhand",
+      "cites": [
+        "tim-taylor"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "chris-bledsoe"
+    ],
+    "episodes": [
+      "bM18PJY6_Zc"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A man named Chris Bledsoe, speaking with podcast host Jesse Michels, wonders aloud whether the Moon is quite what it seems. He says a man named Timothy Taylor hinted that the Moon did not end up where it is by accident, but was put there on purpose, which would mean someone placed it."
+}

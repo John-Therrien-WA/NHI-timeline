@@ -55,6 +55,60 @@
         "place_text": "USA",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 947.0,
+      "to_s": 971.0,
+      "teller": "john-brandenburg",
+      "quote": "There's a famous series came out in the Miami Herald and other newspapers in um probably the '50s. The author was Talbot. And he did a series where he found out that a number of aerospace engineering companies were suddenly interested in anti-gravity.",
+      "kind": "secondhand",
+      "cites": [
+        "talbot",
+        "dewitt",
+        "gravity-research-foundation"
+      ],
+      "documents": [
+        "talbot-newspaper-series-miami-herald",
+        "gravity-essay"
+      ],
+      "difference": "Spells the author Talbot and credits DeWitt and the Gravity Research Foundation's essay.",
+      "link_reason": "The same 1950s Miami Herald newspaper series on aerospace companies' interest in anti-gravity.",
+      "as_told": {
+        "title": "Talbot newspaper series on aerospace companies' interest in anti-gravity",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States (Miami Herald)",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1365.0,
+      "to_s": 1373.0,
+      "teller": "jesse-michels",
+      "quote": "Anel Talbert wrote an article for the New York Herald Tribune in November of 1955 while Gray was president of the University of North [music] Carolina.",
+      "kind": "host",
+      "cites": [
+        "anel-talbert",
+        "gordon-gray"
+      ],
+      "documents": [
+        "conquest-of-gravity-aim-of-top-scientists-in-united-states-n"
+      ],
+      "difference": "Names the New York Herald Tribune and November 1955 as the paper and date, and ties the series to Gordon Gray as UNC president.",
+      "link_reason": "Both tell of Talbert's 1950s newspaper series on aerospace interest in anti-gravity.",
+      "as_told": {
+        "title": "Herald Tribune 'Conquest of Gravity' series and Gordon Gray's UNC gravity institute",
+        "years": {
+          "from": 1955,
+          "to": 1955
+        },
+        "place_text": "University of North Carolina",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -97,34 +151,73 @@
       "story": "cia-documents-describing-flat-mirror-like-objects-1950",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "1950s-gravity-research-by-bryce-dewitt-deser-and-arnowitt",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "4602nd-monthly-report-s-ufo-b-section-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "4602nd-squadron-history-on-reassuring-the-public-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "menzel-s-name-in-the-majestic-12-documents-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "smith-propulsion-paper-sent-to-vannevar-bush-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "townsend-s-repelling-bismuth-raised-at-martin-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "triangle-and-gravity-control-patents-that-cite-1950s-air-for",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 5.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 4,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 2,
-    "host": 0,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 3,
+    "credited_documents": 6,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "secondhand",
     "tellers": [
       "hal-puthoff",
-      "jason-jorjani"
+      "jason-jorjani",
+      "jesse-michels",
+      "john-brandenburg"
     ],
     "episodes": [
       "EzPmG_7WhXc",
-      "iQOibpIDx-4"
+      "Jpf0ZGY87c0",
+      "iQOibpIDx-4",
+      "p0S0BfoZy0w"
     ]
   },
-  "attestation": 1.25,
+  "attestation": 2.6,
   "tier": "well-attested",
   "plain": "This story is about a set of newspaper articles from the 1950s saying that big American aircraft companies had suddenly become interested in anti-gravity, meaning ways to fly by cancelling or controlling gravity instead of using engines or wings. A physicist named Hal Puthoff, speaking on a podcast hosted by Jesse Michels, says a writer named Talbert wrote the series, and that it ran in the Miami Herald and other papers. Puthoff says Talbert found that a number of aerospace engineering firms were chasing the idea, and he mentions the physicist Bryce DeWitt in connection with it. A philosopher named Jason Jorjani tells it too, on the same podcast. He does not name Talbert, but says the articles quoted the chairmen of the aircraft makers Martin, Lear and Convair, and that the firms had cracked anti-gravity. He points to a book called Closer Encounters as his source. If true, it would mean serious work on new ways of flying was under way, and then went quiet, decades ago."
 }

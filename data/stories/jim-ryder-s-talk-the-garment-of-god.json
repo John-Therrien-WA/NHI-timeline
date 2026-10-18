@@ -65,6 +65,31 @@
         "place_text": "Lockheed Martin Space Systems",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 3416.0,
+      "to_s": 3427.0,
+      "teller": "jesse-michels",
+      "quote": "Take James Ryder, former vice president of Lockheed Martin and a director at Skunk Works. In 2018, he gave a talk called The Garment of God.",
+      "kind": "host",
+      "cites": [
+        "james-ryder"
+      ],
+      "documents": [
+        "the-garment-of-god"
+      ],
+      "difference": "Dates the talk to 2018 and calls Ryder a former Lockheed VP and Skunk Works director, but leaves out the Lucis Trust venue.",
+      "link_reason": "The same talk, 'The Garment of God', given by Ryder.",
+      "as_told": {
+        "title": "James Ryder's 'Garment of God' talk",
+        "years": {
+          "from": 2018,
+          "to": 2018
+        },
+        "place_text": "Lockheed Martin Skunk Works",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -90,7 +115,8 @@
     "episodes": [
       "-XdvIrexF08",
       "1f16VvXaSSE",
-      "Y7PLeu5rTv4"
+      "Y7PLeu5rTv4",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 1.0,

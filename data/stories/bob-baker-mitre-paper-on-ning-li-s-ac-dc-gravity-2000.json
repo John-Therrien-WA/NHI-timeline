@@ -1,0 +1,59 @@
+{
+  "id": "bob-baker-mitre-paper-on-ning-li-s-ac-dc-gravity-2000",
+  "title": "Bob Baker MITRE paper on Ning Li's AC/DC gravity",
+  "summary": "Dave Rossi tells of Bob Baker MITRE paper on Ning Li's AC/DC gravity, about 2000s at MITRE Corporation, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 2000,
+    "to": 2009
+  },
+  "place": null,
+  "place_text": "MITRE Corporation",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 1730.0,
+      "to_s": 1741.0,
+      "teller": "dave-rossi",
+      "quote": "aspect. However, there is a paper that was released by Bob Baker under the MITRE Corporation for one of the high-frequency gravitational wave conferences where",
+      "kind": "researcher",
+      "cites": [
+        "bob-baker",
+        "ning-li"
+      ],
+      "documents": [
+        "bob-baker-mitre-high-frequency-gravitational-wave-conference"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "dave-rossi"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher, Dave Rossi, told podcast host Jesse Michels about a paper from the 2000s by a man named Bob Baker, written under MITRE, a research organisation that works for the US government, for a conference on high-frequency gravitational waves. Rossi says that the paper deals with the work of a physicist, Ning Li, on what is called AC/DC gravity, the idea of producing gravity-like effects with electricity. He raises it because, if true, it would show serious research into controlling gravity."
+}

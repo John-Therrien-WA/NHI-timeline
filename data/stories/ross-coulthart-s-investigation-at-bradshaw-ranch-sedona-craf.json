@@ -44,6 +44,46 @@
         "place_text": "Secret Mountain, near Bradshaw Ranch, Sedona, Arizona",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "episode": "QgxjtDS2sIQ",
+      "from_s": 1618.0,
+      "to_s": 1632.0,
+      "teller": "jesse-michels",
+      "quote": "The Bradshaw Ranch there became famous for UFO sightings investigated not long ago by Ross Koulthart. Eventually, the site was taken over by the US government, a move that raised some eyebrows.",
+      "kind": "host",
+      "cites": [
+        "ross-coulthart"
+      ],
+      "documents": [],
+      "difference": "Adds that the US government took over the site and does not mention a craft entering the mountain.",
+      "link_reason": "Both tell of Ross Coulthart's investigation of UFO activity at Bradshaw Ranch, Sedona.",
+      "as_told": {
+        "title": "Bradshaw Ranch UFO sightings and government takeover",
+        "years": null,
+        "place_text": "Bradshaw Ranch, Sedona, Arizona",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 7959.0,
+      "to_s": 7967.0,
+      "teller": "jesse-michels",
+      "quote": "It seems like UFOs similar to the Mesa Skinwalker Ranch, you have transmedium UFOs going in and out of the mountain.",
+      "kind": "secondhand",
+      "cites": [
+        "ross-coulthart"
+      ],
+      "documents": [],
+      "difference": "Calls the craft transmedium, compares the site to the Skinwalker mesa and adds armed guards.",
+      "link_reason": "Both are the host retelling Ross Coulthart's research at Bradshaw Ranch in Sedona, where craft go in and out of a mountain.",
+      "as_told": {
+        "title": "Bradshaw Ranch transmedium UFOs and armed guards",
+        "years": null,
+        "place_text": "Bradshaw Ranch, Sedona, Arizona",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -68,7 +108,9 @@
     ],
     "episodes": [
       "1sxmSMzqnmA",
-      "u7g5Sn1DJF4"
+      "QgxjtDS2sIQ",
+      "u7g5Sn1DJF4",
+      "uYyXpx7ADJQ"
     ]
   },
   "attestation": 0.75,

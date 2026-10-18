@@ -1,0 +1,58 @@
+{
+  "id": "heisenberg-s-team-calculates-the-fissile-material-used-in-th-1945",
+  "title": "Heisenberg's team calculates the fissile material used in the Hiroshima bomb",
+  "summary": "Jason Jorjani tells of Heisenberg's team calculates the fissile material used in the Hiroshima bomb, about 1945 at English countryside, and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": null,
+  "place_text": "English countryside",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 4696.0,
+      "to_s": 4707.0,
+      "teller": "jason-jorjani",
+      "quote": ">> Yeah. They overheard these guys. They have that, you know, transcript of how immediately Heisenberg and his people calculated the amount of file material used.",
+      "kind": "researcher",
+      "cites": [
+        "werner-heisenberg"
+      ],
+      "documents": [
+        "wiretap-transcript"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jason-jorjani"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Jason Jorjani, a researcher who writes about secret Nazi programmes, says that in 1945 German atomic scientists led by the physicist Werner Heisenberg were held in the English countryside and secretly listened in on. According to Jorjani, a transcript of those recordings shows Heisenberg and his team working out almost at once how much nuclear fuel was used in the atomic bomb dropped on Hiroshima. He tells it as a sign that the Germans knew more about building such a bomb than was admitted."
+}

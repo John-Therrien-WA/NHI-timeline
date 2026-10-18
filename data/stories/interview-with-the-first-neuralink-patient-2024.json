@@ -1,0 +1,62 @@
+{
+  "id": "interview-with-the-first-neuralink-patient-2024",
+  "title": "Interview with the first Neuralink patient",
+  "summary": "Jay Anderson tells of Interview with the first Neuralink patient, about 2024-2025 at United States (no place named), and says they saw it or took part. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2024,
+    "to": 2025
+  },
+  "place": "united-states",
+  "place_text": "USA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 10395.0,
+      "to_s": 10399.0,
+      "teller": "jay-anderson",
+      "quote": "No. I I interviewed the the guy that got the first one.",
+      "kind": "firsthand",
+      "cites": [
+        "noland-arbaugh"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "games-resume-after-the-dtra-contract-ends-an-sf86-request-pu-2024",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "jay-anderson"
+    ],
+    "episodes": [
+      "51N8OxqZIWY"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Jay Anderson, a guest on podcast host Jesse Michels's show in 2025, says he interviewed the first person to receive a Neuralink, a brain implant made by the company of that name, a man named Noland Arbaugh. He mentions it around 2024 or 2025, in a talk that touches on technology being placed inside human bodies."
+}

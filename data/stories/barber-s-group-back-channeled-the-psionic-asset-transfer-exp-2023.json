@@ -24,6 +24,54 @@
         "michael-herrera"
       ],
       "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 386.0,
+      "to_s": 389.0,
+      "teller": "jesse-michels",
+      "quote": "We back channelneled it. That was us. We back channelneled that.",
+      "kind": "firsthand",
+      "cites": [
+        "jake-barber",
+        "michael-herrera"
+      ],
+      "documents": [],
+      "difference": "Here the line is credited to Jesse Michels speaking firsthand rather than to Jake Barber.",
+      "link_reason": "Word-for-word the same claim, 'We back channelled that', about passing the explanation to Herrera. The story credits it to Barber.",
+      "as_told": {
+        "title": "Michels back-channelled the Barber–Herrera contact",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "dnnpyNuPdXs",
+        "from_s": 4909.0
+      }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 4009.0,
+      "to_s": 4023.0,
+      "teller": "michael-herrera",
+      "quote": "the fact that this meeting back channelled from somebody in the programs. Doesn't happen with anybody. It didn't happen to Hecker. It didn't happen to DC Long. It didn't happen to Steven DNA.",
+      "kind": "firsthand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Told by Herrera, who stresses that no other whistleblower (Hecker, DC Long, Steven DNA) was back-channelled this way.",
+      "link_reason": "Both tell of the back-channel contact to Herrera arranged by someone in the programs, which Barber says his group did.",
+      "as_told": {
+        "title": "Herrera's meeting with Jake was arranged through the programs",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -106,6 +154,36 @@
       "story": "corbell-fought-for-grusch-to-testify-in-congress-2023",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "ed-gets-cold-feet-before-ssci-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "graves-s-congressional-uap-testimony-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "grusch-s-testimony-prompts-rogers-to-come-forward-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "harrington-s-contact-with-david-grusch-and-his-view-of-grusc-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "herrera-testifies-at-greer-s-2023-national-press-club-event",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "scif-meeting-with-congressional-staffers-on-march-3-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -121,14 +199,16 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "jake-barber"
     ],
     "episodes": [
-      "dnnpyNuPdXs"
+      "D2tKCFmJjks",
+      "dnnpyNuPdXs",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 1.0,

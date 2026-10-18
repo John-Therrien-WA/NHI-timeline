@@ -1,0 +1,56 @@
+{
+  "id": "trinity-test-warning-1945",
+  "title": "Trinity test warning",
+  "summary": "John Herrington tells of Trinity test warning, about 1945 at White Sands and Holloman, New Mexico, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1945,
+    "to": 1945
+  },
+  "place": "white-sands-nm",
+  "place_text": "Trinity site, New Mexico",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 4394.0,
+      "to_s": 4400.0,
+      "teller": "john-herrington",
+      "quote": "Trinity. They said, you know, we don't know what's going to happen. Put on your glasses and keep your head down.",
+      "kind": "secondhand",
+      "cites": [
+        "j-robert-oppenheimer"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "john-herrington"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A former US Secretary of Energy, John Herrington, speaking on Jesse Michels' podcast, recalls what he says Robert Oppenheimer, the scientist who led the building of the first atomic bomb, told people before the 1945 Trinity test in the New Mexico desert. According to Herrington, the message was simply: we don't know what's going to happen, so put on your glasses and keep your head down. He tells it to show how much was unknown, even to the people in charge, at the dawn of the nuclear age."
+}

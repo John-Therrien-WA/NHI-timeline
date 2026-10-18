@@ -26,33 +26,60 @@
       "documents": [
         "vasco-project-studies"
       ]
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 689.0,
+      "to_s": 695.0,
+      "teller": "beatriz-villarroel",
+      "quote": "And guess what? We get a huge deficit.",
+      "kind": "researcher",
+      "cites": [
+        "guy-near"
+      ],
+      "documents": [
+        "spanish-virtual-observatory-transient-sample"
+      ],
+      "difference": "Told first hand by Villarroel. She calls it a huge deficit, places it at geosynchronous distance and credits Guy Nir.",
+      "link_reason": "Both tell of the Palomar transients being missing inside Earth's shadow.",
+      "as_told": {
+        "title": "Earth's shadow test shows a deficit of transients",
+        "years": {
+          "from": 1957,
+          "to": 2029
+        },
+        "place_text": "Palomar plates; about 42,164 km from Earth (geosynchronous distance)",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 1.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "beatriz-villarroel",
       "jesse-michels"
     ],
     "episodes": [
+      "1zRWi_r3HRM",
       "IWui5cBkwoE"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
+  "attestation": 0.85,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, talks about the VASCO project, studies of old sky photographs taken at Palomar Observatory in California between 1949 and 1957, and a researcher he names as Beatrice Valale. The studies found brief points of light, called transients, in those photos, and the story says they go missing in the part of the sky inside Earth's shadow, where sunlight cannot reach. If true, it would suggest the lights were sunlight bouncing off real objects high above Earth."
 }

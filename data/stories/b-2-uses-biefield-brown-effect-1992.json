@@ -90,6 +90,54 @@
         "place_text": "United States",
         "story_kind": "reverse-engineering"
       }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 6078.0,
+      "to_s": 6089.0,
+      "teller": "jesse-michels",
+      "quote": "interviewed Carl Nell who's the deputy CTO of Northrup Grumman where I'm saying again that the this gravity technology got probably implemented in the B2 stealth bomber",
+      "kind": "host",
+      "cites": [
+        "karl-nell",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Brings in Karl Nell, Northrop Grumman's deputy CTO, as the context, and calls it 'gravity technology'.",
+      "link_reason": "Both claim Townsend Brown's gravity/electrogravitic work went into the Northrop B-2 stealth bomber.",
+      "as_told": {
+        "title": "Townsend Brown gravity tech in the B-2",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "Northrop Grumman",
+        "story_kind": "reverse-engineering"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 5437.0,
+      "to_s": 5443.0,
+      "teller": "jesse-michels",
+      "quote": "Uh but it's also what made it into the B2 stealth bomber.",
+      "kind": "host",
+      "cites": [
+        "paul-laviolette",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Credits Paul LaViolette as a source.",
+      "link_reason": "The same claim that Brown's electrohydrodynamics work ended up in the B-2 stealth bomber.",
+      "as_told": {
+        "title": "Electrohydrodynamics in the B-2 stealth bomber",
+        "years": {
+          "from": 1980,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
@@ -113,10 +161,12 @@
       "jesse-michels"
     ],
     "episodes": [
+      "2ttdlCa5ZCI",
       "TH10mD9hQas",
       "aa9Xx5wI8Rw",
       "kRO5jOa06Qw",
-      "mOWwdIuyaQA"
+      "mOWwdIuyaQA",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 1.1,

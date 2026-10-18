@@ -1,0 +1,53 @@
+{
+  "id": "news-clip-victory-learning-center-employees-put-on-leave",
+  "title": "News clip: Victory Learning Center employees put on leave",
+  "summary": "unnamed news reporter tells of News clip: Victory Learning Center employees put on leave, about unspecified at Victory Learning Center, Lackawanna, New York, and reports it citing named sources. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Victory Learning Center, Lackawanna, New York",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 1224.0,
+      "to_s": 1238.0,
+      "teller": "unnamed-news-reporter",
+      "quote": "OLV Human Services says three employees at the Victory Learning Center in Lacawana are now on leave over those allegations of physically mistreating students.",
+      "kind": "journalist",
+      "cites": [
+        "olv-human-services"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "unnamed-news-reporter"
+    ],
+    "episodes": [
+      "PiFbeWfA3LM"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A news clip played on a podcast episode about a man who says he was taken into a UFO program as a child reports that three employees at the Victory Learning Center, a school in Lackawanna, New York, were put on leave. According to the reporter, the organisation that runs it, OLV Human Services, said this was over allegations that they physically mistreated students."
+}

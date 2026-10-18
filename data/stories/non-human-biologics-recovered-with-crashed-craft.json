@@ -21,7 +21,10 @@
         "nancy-mace",
         "ross-coulthart"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "outside": true
+      }
     },
     {
       "episode": "dnnpyNuPdXs",
@@ -60,25 +63,49 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 312.0,
+      "to_s": 328.0,
+      "teller": "david-grusch",
+      "quote": "do we have the bodies of the pilots who piloted this craft biologics came with some of these recoveries yeah were they I guess human or non-human biologics non-human and that was the assessment of people uh with direct knowledge on the program I talked to that are currently still on the program",
+      "kind": "official",
+      "cites": [],
+      "documents": [],
+      "difference": "Comes from the congressional hearing clip, with the assessment credited to people currently on the program.",
+      "link_reason": "Both are Grusch's claim that non-human biologics came with some of the craft recoveries.",
+      "as_told": {
+        "title": "Non-human biologics recovered with craft (hearing clip)",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "U.S. Congress hearing",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 3.5,
+  "score": 4.1,
   "profile": {
     "independent_tellers": 3,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 3,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "official",
     "tellers": [
       "david-grusch",
       "jake-barber",
@@ -86,11 +113,12 @@
     ],
     "episodes": [
       "-XdvIrexF08",
+      "2SQXAPCdmPE",
       "dnnpyNuPdXs",
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 1.75,
+  "attestation": 2.05,
   "tier": "well-attested",
   "plain": "This story is about \"non-human biologics\", meaning bodies or remains of beings that are not human, said to have come with crashed craft that the US recovered in secret. A former intelligence officer turned whistleblower, David Grusch, says, as he said in an earlier TV interview, that biologics came with some of these recoveries. He bases this on what others told him, and names a congresswoman, Nancy Mace, and a journalist, Ross Coulthart. If true, it would mean the government holds the remains of non-human beings. A man named Jake Barber, who says he helped retrieve a UFO with his helicopter, says there are reports of biologics in storage that no one understands, without tying them to particular crashes. A filmmaker, Jeremy Corbell, says he has heard the same, mostly through autopsy reports. All three tell it on the podcast of a host, Jesse Michels."
 }

@@ -7,7 +7,7 @@
     "from": 1970,
     "to": 1999
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Earth",
   "coordinates": null,
   "kind": "cosmology",
@@ -26,6 +26,29 @@
       "documents": [
         "the-only-planet-of-choice"
       ]
+    },
+    {
+      "episode": "73YBwFvcmF8",
+      "from_s": 7559.0,
+      "to_s": 7564.0,
+      "teller": "jesse-michels",
+      "quote": "the only planet of choice that was channeled and she was in communication with the nine quote unquote",
+      "kind": "host",
+      "cites": [
+        "andrija-puharich",
+        "phyllis-schlemmer"
+      ],
+      "documents": [
+        "the-only-planet-of-choice"
+      ],
+      "difference": "Places it in Puharich's circle and does not mention the bottleneck-of-consciousness message.",
+      "link_reason": "Same subject: Phyllis Schlemmer's channeled book The Only Planet of Choice and the Nine.",
+      "as_told": {
+        "title": "Phyllis Schlemmer's channeled book and the Nine",
+        "years": null,
+        "place_text": "Puharich's circle, United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
@@ -49,7 +72,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "2-GeTxXi670"
+      "2-GeTxXi670",
+      "73YBwFvcmF8"
     ]
   },
   "attestation": 0.35,

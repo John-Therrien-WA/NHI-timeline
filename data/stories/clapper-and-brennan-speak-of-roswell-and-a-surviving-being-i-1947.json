@@ -46,6 +46,32 @@
         "place_text": "Area 51",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "ATJwqp5twAg",
+      "from_s": 12492.0,
+      "to_s": 12504.0,
+      "teller": "jesse-michels",
+      "quote": "They provide some specifics. They talk\nabout it is a Roswell is a real event.\nThere were beings that came out of I\nthink they say four beings that came out\nof this craft. You know, I think they\neven mention one surviving or something.",
+      "kind": "host",
+      "cites": [
+        "james-clapper",
+        "jim-semivan"
+      ],
+      "documents": [
+        "age-of-disclosure"
+      ],
+      "difference": "Puts the number of beings at four, names Semivan instead of Brennan, and hedges on the survivor.",
+      "link_reason": "Both say Clapper and others in the film call Roswell a real event with a surviving being.",
+      "as_told": {
+        "title": "Roswell real event with four beings, one surviving",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -78,10 +104,15 @@
       "story": "walter-haut-s-posthumous-affidavit-craft-and-bodies-under-a-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "i-beams-with-hieroglyphics-told-at-the-reminiscences-of-rosw-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -92,7 +123,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -101,10 +132,11 @@
     ],
     "episodes": [
       "8Rr_nE65KkI",
+      "ATJwqp5twAg",
       "kccrkCGGzX4"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "Roswell, New Mexico is where a crash in 1947 is said by many to have involved something not of this world. A podcast host, Jesse Michels, says that John Brennan and James Clapper, who were President Obama's CIA director and his director of national intelligence, appeared in a film talking about Roswell as real, and about a being who survived the crash. If true, it would mean former top spy chiefs are hinting the crash story is genuine."
 }

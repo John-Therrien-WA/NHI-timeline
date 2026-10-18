@@ -1,0 +1,54 @@
+{
+  "id": "carrington-event-solar-storm-1859",
+  "title": "Carrington event solar storm",
+  "summary": "Jesse Michels tells of Carrington event solar storm, about 1859 at Earth, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1859,
+    "to": 1859
+  },
+  "place": null,
+  "place_text": "Earth",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 2649.0,
+      "to_s": 2660.0,
+      "teller": "jesse-michels",
+      "quote": "Carrington event of 1859 so are you familiar with the solar storm of 1859 Carrington took out it would have taken out now the entire grid but it took out electrical lines",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "wT5-hXWIkzM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, brings up the Carrington event, a huge storm from the Sun that struck Earth in 1859. He says it knocked out electrical lines back then and that a storm like it today would take out the entire power grid. He raises it to show how exposed modern life would be to such an event."
+}

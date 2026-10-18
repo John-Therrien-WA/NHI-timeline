@@ -1,0 +1,75 @@
+{
+  "id": "guardians-of-the-ark-sicken-and-die",
+  "title": "Guardians of the Ark sicken and die",
+  "summary": "Graham Hancock tells of Guardians of the Ark sicken and die, about unspecified at Aksum, Ethiopia, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Aksum, Ethiopia",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 2525.0,
+      "to_s": 2529.0,
+      "teller": "graham-hancock",
+      "quote": "Guardians of the art get sick and die very very rapidly",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 807.0,
+      "to_s": 813.0,
+      "teller": "graham-hancock",
+      "quote": "by and large, once they are appointed guardian of the ark, they have a lifespan of about 3 years.",
+      "kind": "firsthand",
+      "cites": [
+        "guardians-of-the-ark-at-axum"
+      ],
+      "documents": [],
+      "difference": "Told firsthand from interviews; adds cataracts and a lifespan of about 3 years after appointment.",
+      "link_reason": "Both tell of the Ark's guardians at Aksum sickening and dying quickly after appointment.",
+      "as_told": {
+        "title": "Ark of the Covenant guardians at Axum with cataracts and short lifespans",
+        "years": {
+          "from": 1980,
+          "to": 1999
+        },
+        "place_text": "Axum, Tigray, northern Ethiopia",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "graham-hancock"
+    ],
+    "episodes": [
+      "9PJJiut0Iuw",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Graham Hancock, a writer on lost ancient civilisations, says that in Aksum, Ethiopia, the monks chosen to guard the Ark of the Covenant, the sacred chest from the Bible that local tradition says is kept there, get sick and die very quickly. In one telling he passes this on from what others told him, and in a later one he says he learned it from his own interviews, adding that the guardians develop cataracts and live only about three years after being appointed. He tells it because, if true, the object would seem to have some real and dangerous power."
+}

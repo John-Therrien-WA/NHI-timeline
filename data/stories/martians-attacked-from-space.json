@@ -1,0 +1,51 @@
+{
+  "id": "martians-attacked-from-space",
+  "title": "Martians attacked from space",
+  "summary": "John Brandenburg tells of Martians attacked from space, about ancient past at Mars, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 3250.0,
+      "to_s": 3261.0,
+      "teller": "john-brandenburg",
+      "quote": "And that means but something happened up there that looks like it may have been um that they were attacked from space by somebody else.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "john-brandenburg"
+    ],
+    "episodes": [
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "John Brandenburg, a physicist who studies Mars, told podcast host Jesse Michels in 2025 that something happened on Mars long ago. He says the evidence looks as if the people living there were attacked from space by somebody else, which would mean there was not only life on Mars but other intelligent beings willing to destroy it."
+}

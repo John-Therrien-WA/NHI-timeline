@@ -21,6 +21,26 @@
         "michael-lean"
       ],
       "documents": []
+    },
+    {
+      "episode": "wT5-hXWIkzM",
+      "from_s": 2824.0,
+      "to_s": 2832.0,
+      "teller": "jesse-michels",
+      "quote": "if you put a frog embryo in a faraday cage it won't grow normally if you put it next to a Wi-Fi router it also won't grow normally",
+      "kind": "host",
+      "cites": [
+        "michael-levin"
+      ],
+      "documents": [],
+      "difference": "Adds that an embryo next to a Wi-Fi router also fails to grow normally.",
+      "link_reason": "Both are about Michael Levin's claim that a frog embryo in a Faraday cage won't grow normally, told by Jesse Michels.",
+      "as_told": {
+        "title": "Frog embryos in a Faraday cage or near Wi-Fi don't develop normally",
+        "years": null,
+        "place_text": "Tufts University",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -44,6 +64,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "wT5-hXWIkzM",
       "yGtVzBbUvx4"
     ]
   },

@@ -70,6 +70,30 @@
         "place_text": "United States",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 3429.0,
+      "to_s": 3439.0,
+      "teller": "jesse-michels",
+      "quote": "Modern UFO whistleblower David Grush has suggested that someone like former vice president Dick Cheney was a gatekeeper of the UFO program.",
+      "kind": "secondhand",
+      "cites": [
+        "david-grush",
+        "dick-cheney"
+      ],
+      "documents": [],
+      "difference": "Leaves out Walter Kirn as the go-between, hedges the claim as 'someone like' Cheney, and calls Grusch a modern UFO whistleblower.",
+      "link_reason": "The same claim as the story: Grusch named Dick Cheney as the gatekeeper of the legacy UFO programs, which Walter Kirn relays in the story's tellings.",
+      "as_told": {
+        "title": "Grusch suggests Dick Cheney was a UFO program gatekeeper",
+        "years": {
+          "from": 2000,
+          "to": 2009
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -95,6 +119,7 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "Jpf0ZGY87c0",
       "dnnpyNuPdXs",
       "u7g5Sn1DJF4"
     ]

@@ -1,0 +1,59 @@
+{
+  "id": "1992-torr-and-li-superconductor-paper",
+  "title": "1992 Torr and Li superconductor paper",
+  "summary": "Dave Rossi tells of 1992 Torr and Li superconductor paper, about 1992 at University of Alabama Huntsville, and summarises it without a named source. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1992,
+    "to": 1992
+  },
+  "place": null,
+  "place_text": "University of Alabama Huntsville",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 3211.0,
+      "to_s": 3222.0,
+      "teller": "dave-rossi",
+      "quote": "a paper from 1992 with Douglas Torr and Ning Li that showed that the quantization for angular momentum in superconductors resides within the lattice holes of the superconductor and not the Cooper pairs.",
+      "kind": "researcher",
+      "cites": [
+        "douglas-torr",
+        "ning-li"
+      ],
+      "documents": [
+        "1992-torr-and-li-paper"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "dave-rossi"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A researcher, Dave Rossi, points to a 1992 paper by two scientists at the University of Alabama in Huntsville, Douglas Torr and Ning Li, about superconductors, materials that carry electricity with no resistance. Rossi says the paper showed that a certain spinning property inside these materials lives in the gaps of the material's crystal structure, not in the paired electrons that carry the current. He tells it because, to him, it supports advanced physics ideas that could lead to new kinds of propulsion."
+}

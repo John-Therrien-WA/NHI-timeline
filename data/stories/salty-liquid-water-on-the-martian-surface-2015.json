@@ -1,0 +1,54 @@
+{
+  "id": "salty-liquid-water-on-the-martian-surface-2015",
+  "title": "Salty liquid water on the Martian surface",
+  "summary": "Jesse Michels tells of Salty liquid water on the Martian surface, about 2015 at Mars, and frames it as the host. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2015,
+    "to": 2015
+  },
+  "place": null,
+  "place_text": "Mars",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "JpLThEF2dTM",
+      "from_s": 7380.0,
+      "to_s": 7391.0,
+      "teller": "jesse-michels",
+      "quote": "in 2015 researchers stunned the world when they claimed to have finally found definitive evidence of salty liquid water flowing on the surface of Mars",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "JpLThEF2dTM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, recalls that in 2015 researchers stunned the world by claiming they had finally found definitive evidence of salty liquid water flowing on the surface of Mars. He brings it up in an episode about whether Mars once had life, since flowing water would make that idea more plausible."
+}

@@ -28,6 +28,30 @@
         "george-knapp"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 306.0,
+      "to_s": 318.0,
+      "teller": "dylan-borland",
+      "quote": "And even James Man who testified under Senate recently about everything they did to whistleblowers for AHI COVID and uh UFOs.",
+      "kind": "secondhand",
+      "cites": [
+        "james-erdman-iii",
+        "tulsi-gabbard"
+      ],
+      "documents": [],
+      "difference": "Names James Erdman as the person who testified, places it before the Senate, and adds whistleblowers on COVID alongside UFOs.",
+      "link_reason": "Both are a former ODNI DIG figure testifying to Congress about the spying on and reprisals against whistleblowers, with Gabbard credited.",
+      "as_told": {
+        "title": "ODNI DIG and James Erdman's Senate testimony on reprisals against whistleblowers",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "US Senate, Washington DC",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -38,14 +62,14 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -54,13 +78,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "dylan-borland",
       "jeremy-corbell"
     ],
     "episodes": [
-      "-XdvIrexF08"
+      "-XdvIrexF08",
+      "K4gYHs84BIc"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "A filmmaker named Jeremy Corbell, on Jesse Michels's podcast in 2026, relays what a man he calls John, a former head of a government investigative group, told Congress. Corbell says the finding was that the CIA had been spying on UFO whistleblowers, people who came forward with inside claims. He mentions figures including intelligence chief Tulsi Gabbard, former Pentagon official Lou Elizondo, and journalist George Knapp. If true, it would mean the spy agency was watching the very people trying to talk."
 }

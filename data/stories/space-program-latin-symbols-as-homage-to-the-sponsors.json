@@ -37,6 +37,29 @@
         "place_text": "United States (Space Force)",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 3581.0,
+      "to_s": 3590.0,
+      "teller": "diana-pasulka",
+      "quote": "so what I found was that when Tyler would do these launches there would be a lot of iconography that he didn't actually understand",
+      "kind": "secondhand",
+      "cites": [
+        "tyler"
+      ],
+      "documents": [],
+      "difference": "Names Tyler as the source and adds Greek goddess iconography that he did not understand.",
+      "link_reason": "Same story of Pasulka learning that classical iconography and Latin were sent up on launches, told by her space-program sources.",
+      "as_told": {
+        "title": "Greek goddess iconography and Roman-era Latin sent up on launches",
+        "years": {
+          "from": 1980,
+          "to": 2019
+        },
+        "place_text": "US space program",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -60,7 +83,8 @@
       "diana-pasulka"
     ],
     "episodes": [
-      "aa9Xx5wI8Rw"
+      "aa9Xx5wI8Rw",
+      "tS_64sTN5AU"
     ]
   },
   "attestation": 0.5,

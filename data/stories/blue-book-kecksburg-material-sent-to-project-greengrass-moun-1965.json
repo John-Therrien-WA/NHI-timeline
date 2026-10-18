@@ -1,0 +1,56 @@
+{
+  "id": "blue-book-kecksburg-material-sent-to-project-greengrass-moun-1965",
+  "title": "Blue Book: Kecksburg material sent to Project Greengrass (Mount Weather)",
+  "summary": "Grant Cameron tells of Blue Book: Kecksburg material sent to Project Greengrass (Mount Weather), about 1965 at Kecksburg, Pennsylvania; Michigan; Mount Weather, Virginia, and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1965,
+    "to": 1965
+  },
+  "place": null,
+  "place_text": "Kecksburg, Pennsylvania; Michigan; Mount Weather, Virginia",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "fpUa3xJN64Q",
+      "from_s": 7562.0,
+      "to_s": 7574.0,
+      "teller": "grant-cameron",
+      "quote": "another one that said it was sent to project code word greeng grass and I wonder what that is. I look it up. It's Mount Weather.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "project-blue-book-files"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "grant-cameron"
+    ],
+    "episodes": [
+      "fpUa3xJN64Q"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A UFO researcher, Grant Cameron, told podcast host Jesse Michels about a 1965 case at Kecksburg, a small town in Pennsylvania where an object was said to have come down. Cameron says that files from Project Blue Book, the US Air Force's UFO study of the 1950s and 60s, include one saying material was sent to something code-named Project Greengrass, which he looked up and says is Mount Weather, a government site in Virginia. If true, whatever was found was handed to a secret place far from the public study."
+}

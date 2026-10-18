@@ -30,7 +30,7 @@
       "episode": "hBrfe4hFuM0",
       "from_s": 1687.0,
       "to_s": 1702.0,
-      "teller": "james-fox",
+      "teller": "documentary-narrator",
       "quote": "Roughly 3 hours after the girls witnessed the strange creature, military police officers Eric Lopes and Marco Cherzi drive down this road on the lookout for something unusual when suddenly it runs right across their path.",
       "kind": "secondhand",
       "cites": [
@@ -48,6 +48,37 @@
         },
         "place_text": "Varginha, Brazil",
         "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "james-fox"
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 10899.0,
+      "to_s": 10931.0,
+      "teller": "documentary-narrator",
+      "quote": "Roughly three [music] hours after the girls witnessed the strange creature, military police officers Eric Lopes and Marco Cherzi drive down this road on the lookout for something unusual when suddenly it runs right across their path.",
+      "kind": "journalist",
+      "cites": [
+        "eric-lopes",
+        "marco-cherzi"
+      ],
+      "documents": [],
+      "difference": "Told by the documentary narrator, not by James Fox.",
+      "link_reason": "Officers Eric Lopes and Marco Chereze coming across the creature on the road about three hours after the girls saw it, nearly word for word the same as that story's second telling.",
+      "as_told": {
+        "title": "Military police officers Eric Lopes and Marco Chereze capture the creature",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Road in Varginha, Brazil",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "outside": true
       }
     }
   ],
@@ -91,16 +122,31 @@
       "story": "witness-returns-with-luiza-and-sees-creature-s-footprint-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-fernando-jane-saw-the-creature-s-foot-at-the-regional-hos-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "moment-of-contact-the-varginha-witnesses-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "three-women-see-the-red-eyed-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
@@ -108,16 +154,18 @@
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "journalist",
     "tellers": [
+      "documentary-narrator",
       "james-fox"
     ],
     "episodes": [
+      "UkKwa4jU0fc",
       "bVhSPH2A5Vw",
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "told-by-several",
   "plain": "James Fox, a documentary filmmaker who investigates UFO cases, tells of a military police officer named Eric Lopes in the Brazilian town of Varginha in 1996, who is said to have been the driver when a second living creature was captured. In a later telling Fox dates it to January 20, 1996, about three hours after three girls reported seeing a strange creature, and says the creature ran across the road in front of Lopes and his fellow officer Marco Chereze. If true, it would mean the military caught a live, non-human being."
 }

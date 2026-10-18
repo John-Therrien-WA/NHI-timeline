@@ -43,6 +43,72 @@
         "place_text": "Canada; Wright-Patterson AFB",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3516.0,
+      "to_s": 3528.0,
+      "teller": "jesse-michels",
+      "quote": "Well, nominally it fails in 1961. But in reality, it moves to the US to Wright-Patterson Air Force Base in the form of a project called Project Y or Silverbug.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates the move to 1961, after the project nominally failed, and names it Project Y or Silverbug.",
+      "link_reason": "Both tell of the Avrocar project moving from Canada to Wright-Patterson as Project Y.",
+      "as_told": {
+        "title": "Avrocar moves to Wright-Patterson as Project Y / Silverbug",
+        "years": {
+          "from": 1961,
+          "to": 1961
+        },
+        "place_text": "Wright-Patterson Air Force Base, Ohio",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 1172.0,
+      "to_s": 1177.0,
+      "teller": "jesse-michels",
+      "quote": "there's this project called the avocar which was in in 1952",
+      "kind": "host",
+      "cites": [
+        "john-frost",
+        "henri-coanda"
+      ],
+      "documents": [],
+      "difference": "Gives the year as 1952 and credits John Frost and Coanda.",
+      "link_reason": "Same subject: the Avrocar saucer project from Canada, tied to Wright Field.",
+      "as_told": {
+        "title": "Avrocar saucer project",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Canada / Wright Field",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 7400.0,
+      "to_s": 7407.0,
+      "teller": "jesse-michels",
+      "quote": "car. So the Avro car uh was in the 50s and 60s and it was at right airfield and",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Dates it to the 1950s and 1960s, with no mention of Project Y.",
+      "link_reason": "Both describe the Avrocar flying-saucer program linked to Wright-Patterson, and Jesse Michels already tells this in the story.",
+      "as_told": {
+        "title": "Avrocar flying saucer program",
+        "years": {
+          "from": 1950,
+          "to": 1969
+        },
+        "place_text": "Wright Field, Ohio; Canada",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -67,7 +133,10 @@
       "jesse-michels"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
       "C4rSj5Aum7w",
+      "RTEWLSTyUic",
+      "TNtlzEnl8rA",
       "Y7PLeu5rTv4"
     ]
   },

@@ -49,6 +49,29 @@
         "place_text": "Roswell, New Mexico",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 2652.0,
+      "to_s": 2661.0,
+      "teller": "jesse-michels",
+      "quote": "that deserves its own video. But Army intelligence officer Jesse Marcel held the wreckage in his hands, even showing it to his son.",
+      "kind": "host",
+      "cites": [
+        "jesse-marcel"
+      ],
+      "documents": [],
+      "difference": "Puts the weight on Marcel holding the wreckage himself, not on the son playing with it at home.",
+      "link_reason": "Both tell of Jesse Marcel handling the Roswell material and showing it to his son.",
+      "as_told": {
+        "title": "Jesse Marcel handled Roswell wreckage",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [
@@ -81,6 +104,11 @@
       "story": "walter-haut-s-posthumous-affidavit-craft-and-bodies-under-a-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "i-beams-with-hieroglyphics-told-at-the-reminiscences-of-rosw-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -104,6 +132,7 @@
     ],
     "episodes": [
       "8Rr_nE65KkI",
+      "ScE9FaDy-mE",
       "d9tdJ2SkBKQ"
     ]
   },

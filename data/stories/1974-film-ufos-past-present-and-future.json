@@ -1,0 +1,84 @@
+{
+  "id": "1974-film-ufos-past-present-and-future",
+  "title": "1974 film UFOs Past, Present and Future",
+  "summary": "Jesse Michels tells of 1974 film UFOs Past, Present and Future, about 1974 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1974,
+    "to": 1974
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 1711.0,
+      "to_s": 1718.0,
+      "teller": "jesse-michels",
+      "quote": "74 he seems to flip and they create you know UFOs past present and future",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "ufos-past-present-and-future",
+        "blue-book",
+        "condon-committee-report"
+      ]
+    },
+    {
+      "episode": "yJUBSuPh1pM",
+      "from_s": 2466.0,
+      "to_s": 2481.0,
+      "teller": "jesse-michels",
+      "quote": "last writer to do it was Rod Serling, who I knew was my my dad's godfather, but I didn't know that he had produced this sort of, you know, uh, preeminent UFO documentary in 1974, UFOs, past, present, future,",
+      "kind": "host",
+      "cites": [
+        "rod-serling"
+      ],
+      "documents": [
+        "ufos-past-present-and-future"
+      ],
+      "difference": "Adds that Serling was the host's father's godfather and calls it the preeminent UFO documentary.",
+      "link_reason": "Both are about Rod Serling's 1974 film UFOs: Past, Present and Future, told by the same host.",
+      "as_told": {
+        "title": "Rod Serling's 1974 UFO documentary",
+        "years": {
+          "from": 1974,
+          "to": 1974
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y",
+      "yJUBSuPh1pM"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that by 1974 something seemed to shift, and a documentary called UFOs: Past, Present and Future was made, which he places after Blue Book, the US Air Force's UFO study of the 1950s and 60s, and the Condon Committee report, a government-funded scientific study of UFOs. In a later episode he adds that the film was produced by the TV writer Rod Serling, who he says was his father's godfather, and he calls it the leading UFO documentary of its time, a sign to him that Hollywood and officials were shaping how people saw UFOs."
+}

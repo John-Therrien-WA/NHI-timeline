@@ -26,6 +26,35 @@
       "documents": [
         "ingo-swann-reports"
       ]
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 2213.0,
+      "to_s": 2228.0,
+      "teller": "daniel-sheehan",
+      "quote": "it and it was all reports by ingos Swan Ino Swan was filing reports with the head Guardian office in in UK about the entire internal operations of the Office of Naval intelligence uh remote viewing program",
+      "kind": "firsthand",
+      "cites": [
+        "ingo-swann"
+      ],
+      "documents": [
+        "scientology-guardian-s-office-file-of-ingo-swann-reports"
+      ],
+      "difference": "",
+      "link_reason": "Both describe Ingo Swann filing reports with the UK Guardian's Office on the ONI remote viewing program, as Sheehan says he found in the files.",
+      "as_told": {
+        "title": "Ingo Swann spied on the ONI remote viewing program for Scientology",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Office of Naval Intelligence remote viewing program",
+        "story_kind": "document"
+      },
+      "replay_of": {
+        "episode": "C4rSj5Aum7w",
+        "from_s": 7372.0
+      }
     }
   ],
   "related": [
@@ -48,10 +77,20 @@
       "story": "cia-memo-popularizing-the-term-conspiracy-1970",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "donald-barr-dalton-school-and-the-novel-space-relations-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "hyman-s-government-commissioned-report-criticizing-uri-gelle-1970",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 1,
@@ -62,7 +101,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -70,10 +109,11 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 1.25,
+  "attestation": 1.5,
   "tier": "told-once",
   "plain": "A lawyer named Dan Sheehan says that in the 1970s Ingo Swann, a well-known psychic, was secretly sending reports to the main Guardian's Office of the Church of Scientology in the UK. According to Sheehan, those reports described the inner workings of a remote viewing program, an effort to use the mind to see distant places, run by the Office of Naval Intelligence, the US Navy's spy service. If true, it would mean a church was quietly watching a secret military psychic project from the inside."
 }

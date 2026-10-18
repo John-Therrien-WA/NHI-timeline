@@ -117,11 +117,93 @@
         "place_text": "USA",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "Qe8br8yYEDM",
+      "from_s": 1327.0,
+      "to_s": 1337.0,
+      "teller": "bob-jacobs",
+      "quote": "They denied there was ever a Robert Jacobs in the Air Force. Then they in another inquiry, they denied there was ever a Robert Jacobs at Vandenberg Air Force Base.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "dd14"
+      ],
+      "difference": "Told first hand, citing his DD214 and two separate denials (Air Force and Vandenberg).",
+      "link_reason": "The government denying that Jacobs served in the Air Force or at Vandenberg.",
+      "as_told": {
+        "title": "Government denies Robert Jacobs ever served",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "Qe8br8yYEDM",
+      "from_s": 1418.0,
+      "to_s": 1426.0,
+      "teller": "bob-jacobs",
+      "quote": "fireworks in your mailbox at night. Oh, what a beautiful sight. You're going down, motherfucker.\" and my mailbox blew up.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told first hand by Jacobs, quoting the threat in full.",
+      "link_reason": "The threatening phone call and the mailbox blowing up at Jacobs' farm.",
+      "as_told": {
+        "title": "Jacobs' mailbox blown up after threatening message",
+        "years": null,
+        "place_text": "Jacobs' farm",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
+    },
+    {
+      "episode": "Qe8br8yYEDM",
+      "from_s": 1434.0,
+      "to_s": 1447.0,
+      "teller": "jesse-michels",
+      "quote": "And then Floren Mansman, his major, who his superior, eventually is tracked down by, I think, Bob Hastings and some other researchers and and in the 90s admits that he did manage Bob Jacobs.",
+      "kind": "host",
+      "cites": [
+        "florenze-mansmann",
+        "robert-hastings"
+      ],
+      "documents": [],
+      "difference": "Dates the admission to the 1990s and says Bob Hastings and other researchers tracked Mansmann down.",
+      "link_reason": "Both tell how Jacobs's service at Vandenberg was denied until his superior, Major Mansmann, later admitted that Jacobs had worked there. One of the story's tellings makes exactly this admission claim.",
+      "as_told": {
+        "title": "Major Mansmann tracked down, admits supervising Jacobs",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "contesting-account-and-aaro-position-on-jacobs-big-sur-claim-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "memory-floods-back-two-weeks-later-lost-time-1964",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 3.5,
+  "score": 4.0,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 1,
@@ -132,7 +214,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -142,11 +224,12 @@
     ],
     "episodes": [
       "-0g3lLGxNfc",
+      "Qe8br8yYEDM",
       "fzvwBBSmWYA",
       "h0hAit-KH9A"
     ]
   },
-  "attestation": 1.75,
+  "attestation": 2.0,
   "tier": "well-attested",
   "plain": "A researcher who studies UFOs around nuclear weapons, Robert Hastings, passes on a story he says he heard from Robert Jacobs, a man who served in the US Air Force. Hastings says that after Jacobs told his story, the Air Force denied there had ever been a Robert Jacobs in its ranks. Then one night, he says, Jacobs and his wife came home from a movie, the phone rang, and a voice said their mailbox was alight, \"what a beautiful sight,\" and \"you're going down.\" A podcast host, Jesse Michels, also names Jacobs as a photo instrumentation specialist at Vandenberg, an Air Force base in California, in 1964, though he doesn't go into the threats. If it's true, someone was working hard to frighten a witness into silence."
 }

@@ -39,6 +39,28 @@
         "place_text": "San Jose, California",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 3086.0,
+      "to_s": 3095.0,
+      "teller": "jacques-vallee",
+      "quote": "When you went inside, you said uh you know there was this being and the being took you on a staircase.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds a being inside who led the witness up a staircase.",
+      "link_reason": "Both are Vallee's San Jose case of a woman who saw a disc and went inside a craft that was larger inside than out.",
+      "as_told": {
+        "title": "Vallee's San Jose case: craft bigger inside than outside",
+        "years": null,
+        "place_text": "San Jose",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "fyX8V1XXmQM",
+        "from_s": 1156.0
+      }
     }
   ],
   "related": [],
@@ -62,6 +84,7 @@
       "jacques-vallee"
     ],
     "episodes": [
+      "ScE9FaDy-mE",
       "fyX8V1XXmQM",
       "kRO5jOa06Qw"
     ]

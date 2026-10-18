@@ -26,6 +26,29 @@
         "chuck-mccullough"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 369.0,
+      "to_s": 390.0,
+      "teller": "jeremy-corbell",
+      "quote": "I was told by an ODNI agent that Dylan testified to ICIG, the police of the intelligence agencies, that there is a UFO program, and it's called Rubik's Cube.",
+      "kind": "secondhand",
+      "cites": [
+        "dylan-borland"
+      ],
+      "documents": [],
+      "difference": "Told by Corbell, who names the program in this telling but not the DIG lead.",
+      "link_reason": "Both are Corbell being told by ODNI that Borland told the ICIG about a UFO program called Rubik's Cube.",
+      "as_told": {
+        "title": "ODNI agent tells Corbell of a UFO program called Rubik's Cube",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States (ODNI / ICIG)",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -53,6 +76,26 @@
       "story": "toughbook-programs-lured-ufos-and-downed-them-with-emp-weapo-2020",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "barber-hints-at-the-two-aerospace-primes-in-crash-retrievals-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "biondi-s-patents-on-the-method-a-second-one-being-filed-in-t-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sean-kirkpatrick-s-aaro-as-a-debunking-effort-with-doe-ties-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "skywatcher-s-mechanical-and-human-dog-whistles-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -75,7 +118,8 @@
       "jeremy-corbell"
     ],
     "episodes": [
-      "-XdvIrexF08"
+      "-XdvIrexF08",
+      "K4gYHs84BIc"
     ]
   },
   "attestation": 0.5,

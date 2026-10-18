@@ -1,0 +1,55 @@
+{
+  "id": "japanese-musha-experiment-in-transmission-oil",
+  "title": "Japanese Musha experiment in transmission oil",
+  "summary": "Jesse Michels tells of Japanese Musha experiment in transmission oil, about unspecified at Japan (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "japan",
+  "place_text": "Japan",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 5510.0,
+      "to_s": 5519.0,
+      "teller": "jesse-michels",
+      "quote": "Uh they said that they get, you know, a successful result. In that case, I think they submerge uh the whole thing in in transmission oil,",
+      "kind": "host",
+      "cites": [
+        "takaaki-musha"
+      ],
+      "documents": [
+        "musha-paper"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "2ttdlCa5ZCI"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, describes a paper by a Japanese researcher named Takaaki Musha about an experiment in Japan. As Michels tells it, the researchers submerged the whole device in transmission oil, the thick oil used in car gearboxes, and reported a successful result. He raises it because, if it held up, it would suggest the unusual physics he discusses is real and can be tested."
+}

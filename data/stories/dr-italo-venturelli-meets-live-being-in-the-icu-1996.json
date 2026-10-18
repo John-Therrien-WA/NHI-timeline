@@ -46,6 +46,100 @@
         "place_text": "Regional Hospital, Varginha, Brazil",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 23.0,
+      "to_s": 32.0,
+      "teller": "italo-ventterelli",
+      "quote": "The feeling was that he understood what was happening. He wasn't afraid. He was highly intelligent. at least more than I was.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Venturelli stresses the being's calm and its intelligence, which he says exceeded his own, instead of describing its appearance.",
+      "link_reason": "Both tell of Dr. Italo Venturelli coming face to face with the live being in the Varginha hospital in 1996.",
+      "as_told": {
+        "title": "Neurosurgeon face to face with a recovering being in a hospital bed",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Hospital, Varginha, Brazil",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 5627.0,
+      "to_s": 5632.0,
+      "teller": "italo-venturelli",
+      "quote": "There was a being there, totally different from a human being.",
+      "kind": "firsthand",
+      "cites": [
+        "marcus-vinicius"
+      ],
+      "documents": [],
+      "difference": "Places the sighting after Marcus Vinicius's procedure and describes the being only as totally unlike a human.",
+      "link_reason": "Both are Venturelli's firsthand account of seeing the being at Hospital Regional in January 1996.",
+      "as_told": {
+        "title": "Venturelli sees the being in hospital after Marcus Vinicius's procedure",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Hospital Regional, Varginha, Brazil",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 9230.0,
+      "to_s": 9239.0,
+      "teller": "italo-venturelli",
+      "quote": "At least I didn't have a sense of it until I saw it. Until I examined it, until I calmed down, that's when it started to dawn on me that it was a different being.",
+      "kind": "firsthand",
+      "cites": [
+        "marcos-vinicius"
+      ],
+      "documents": [],
+      "difference": "Adds that colleague Marcos Vinícius stitched the being, and that Italo only grasped it was a different being after he calmed down and examined it.",
+      "link_reason": "Italo's firsthand examination of the being at Hospital Regional in 1996, when he realised it was a non-human being, is his ICU meeting with the being.",
+      "as_told": {
+        "title": "Colleague Marcos Vinícius stitched the being at the hospital; Italo realised later it was a different being",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Regional hospital, Varginha, Minas Gerais, Brazil",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 3538.0,
+      "to_s": 3546.0,
+      "teller": "italo-venturelli",
+      "quote": "The being looked at me. As I always say, it looked at me with a very beautiful look.",
+      "kind": "firsthand",
+      "cites": [
+        "marcos-vinicius"
+      ],
+      "documents": [],
+      "difference": "Stresses the being's beautiful look rather than its red eyes, and credits marcos-vinicius.",
+      "link_reason": "Both are Dr. Venturelli's firsthand account of coming face to face with the living being at Hospital Regional in 1996.",
+      "as_told": {
+        "title": "Dr. Venturelli face to face with the being at Hospital Regional",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Hospital Regional, Varginha, Brazil",
+        "story_kind": "encounter"
+      },
+      "replay_of": {
+        "episode": "UkKwa4jU0fc",
+        "from_s": 5709.0
+      }
     }
   ],
   "related": [
@@ -88,13 +182,28 @@
       "story": "witness-returns-with-luiza-and-sees-creature-s-footprint-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-fernando-jane-saw-the-creature-s-foot-at-the-regional-hos-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "moment-of-contact-the-varginha-witnesses-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "three-women-see-the-red-eyed-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 2.0,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 1,
+    "independent_tellers": 2,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -107,14 +216,17 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "italo-ventterelli",
       "italo-venturelli"
     ],
     "episodes": [
       "8Rr_nE65KkI",
-      "hBrfe4hFuM0"
+      "UkKwa4jU0fc",
+      "hBrfe4hFuM0",
+      "nqLnEVcZ8vE"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 2.0,
+  "tier": "well-attested",
   "plain": "Italo Venturelli, a neurosurgeon at the regional hospital in the Brazilian town of Varginha, says that in January 1996 he came face to face with a living creature in the intensive care unit. He describes it as having a white face and red eyes, and says it showed no sign of suffering, while podcast host Jesse Michels, retelling it, says the meeting lasted about four minutes. If true, it would mean a living non-human being was held in a Brazilian hospital."
 }

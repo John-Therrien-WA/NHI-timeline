@@ -1,0 +1,51 @@
+{
+  "id": "osireion-built-to-tap-the-water-table",
+  "title": "Osireion built to tap the water table",
+  "summary": "Jeffrey tells of Osireion built to tap the water table, about ancient at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Osireion, Abydos, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 12947.0,
+      "to_s": 12956.0,
+      "teller": "jeffrey",
+      "quote": "The Osireion is excavated from the bedrock and constructed to tap directly into the water table below the structure.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "The Osireion is an ancient stone structure at Abydos in Egypt. A guest named Jeffrey, on podcast host Jesse Michels's show, says it was cut out of the bedrock and built on purpose to reach straight down into the groundwater below it. He tells it as part of a larger idea that Egypt's ancient monuments were built around water and energy."
+}

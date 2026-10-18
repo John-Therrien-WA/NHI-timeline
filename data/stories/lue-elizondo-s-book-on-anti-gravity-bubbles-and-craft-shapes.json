@@ -4,7 +4,7 @@
   "summary": "Eric Burlison tells of Lue Elizondo's book on anti-gravity bubbles and craft shapes, about unspecified at unspecified, and reads it from an official document. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "theory",
@@ -23,19 +23,40 @@
       "documents": [
         "lue-elizondo-s-book"
       ]
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 10325.0,
+      "to_s": 10332.0,
+      "teller": "john-blitch",
+      "quote": "in L's book y he shows the warp bubble\nthat he and how pudol discussed",
+      "kind": "researcher",
+      "cites": [
+        "luis-elizondo",
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Says the warp bubble was something Elizondo discussed with Hal Puthoff.",
+      "link_reason": "Both describe Lue Elizondo's book presenting an anti-gravity or warp bubble around craft.",
+      "as_told": {
+        "title": "Lue Elizondo's book: warp bubble discussed with Hal Puthoff",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.1,
+  "score": 2.6,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
@@ -43,13 +64,15 @@
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
-      "eric-burlison"
+      "eric-burlison",
+      "john-blitch"
     ],
     "episodes": [
-      "A2-y_HasHEw"
+      "A2-y_HasHEw",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 1.05,
-  "tier": "told-once",
+  "attestation": 1.3,
+  "tier": "well-attested",
   "plain": "Eric Burlison, a US congressman, told podcast host Jesse Michels about a book by Lue Elizondo, a former Pentagon official. Burlison says the book explains that the odd shapes of reported craft make sense if they carry some kind of anti-gravity device that wraps them in a bubble. If true, it would mean the shapes are a clue to how these craft fly."
 }

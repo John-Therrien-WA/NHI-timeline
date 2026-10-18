@@ -47,6 +47,27 @@
         "place_text": "Varginha, Brazil",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 1172.0,
+      "to_s": 1182.0,
+      "teller": "carlos-dosoza",
+      "quote": "because the Vahia case came about a week five or six days after this. When those girls saw the creature,",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told secondhand by Carlos, who places the sighting five or six days after the crash he saw.",
+      "link_reason": "Both tell of the Varginha girls seeing the creature in January 1996.",
+      "as_told": {
+        "title": "Varginha girls see the creature five or six days after the crash",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Brazil",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [
@@ -89,17 +110,32 @@
       "story": "witness-returns-with-luiza-and-sees-creature-s-footprint-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "dr-fernando-jane-saw-the-creature-s-foot-at-the-regional-hos-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "moment-of-contact-the-varginha-witnesses-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "three-women-see-the-red-eyed-being-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.2,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 1,
     "documents": 0,
@@ -108,15 +144,17 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "carlos-dosoza",
       "james-fox",
       "jesse-michels"
     ],
     "episodes": [
       "8Rr_nE65KkI",
+      "UkKwa4jU0fc",
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 1.1,
   "tier": "told-by-several",
   "plain": "In Varginha, a town in Brazil, on 20 January 1996, a strange creature was reportedly seen, and this story is one part of that case. James Fox, a UFO investigator, says that near a military roadblock, three young girls named Valquiria, Liliane and Katia had \"an encounter of the third kind,\" meaning they came face to face with a being. A podcast host, Jesse Michels, adds that the girls are grown women now and all still say they saw it. If true, a living non-human creature was walking around a Brazilian town."
 }

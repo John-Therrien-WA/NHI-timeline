@@ -1,0 +1,112 @@
+{
+  "id": "cook-s-visit-to-the-bell-site-in-the-waldenburg-mine-1990",
+  "title": "Cook's visit to the Bell site in the Waldenburg mine",
+  "summary": "Nick Cook tells of Cook's visit to the Bell site in the Waldenburg mine, about World War II; visited 1990s-2000s at Waldenburg, southern Poland, and says they saw it or took part. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 2009
+  },
+  "place": null,
+  "place_text": "Waldenburg, southern Poland",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1394.0,
+      "to_s": 1410.0,
+      "teller": "nick-cook",
+      "quote": "I pay this very atmospheric visit with Igor to the site where supposedly it was installed, which was deep in a mine in a place called Waldenburg in what is now southern Poland.",
+      "kind": "firsthand",
+      "cites": [
+        "igor-witkowski"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 1604.0,
+      "to_s": 1616.0,
+      "teller": "jesse-michels",
+      "quote": "There's a great British journalist named Nick Cook who wrote a book called The Hunt for Zero Point. And he actually investigated all of this and he you know he he would again say we know commerce is real. you know, he's seen the test rig, he's gone underground",
+      "kind": "researcher",
+      "cites": [
+        "nick-cook",
+        "igor-witkowski",
+        "walter-gerlach",
+        "ernst-gerlowitz",
+        "josef-mengele"
+      ],
+      "documents": [
+        "the-hunt-for-zero-point"
+      ],
+      "difference": "Told by Jesse rather than by Cook himself, it ties the site to the Skoda works tunnels and cites The Hunt for Zero Point.",
+      "link_reason": "Both tell of Nick Cook going underground to see the Bell test-rig site with Witkowski.",
+      "as_told": {
+        "title": "Skoda works tunnels, Nick Cook and the Bell test rig",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Modern-day Poland and Czech Republic",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 2749.0,
+      "to_s": 2756.0,
+      "teller": "jesse-michels",
+      "quote": "I mean he takes it a little boat ride under they go underground and you can see the rig where DLCA was.",
+      "kind": "host",
+      "cites": [
+        "nick-cook",
+        "igor-witkowski",
+        "hans-kammler"
+      ],
+      "documents": [],
+      "difference": "Told by the host, not by Cook himself; adds a boat ride underground and the visible test rig, and credits Kammler.",
+      "link_reason": "Both tell of Nick Cook going underground with Igor Witkowski to see the site where the Bell was installed in Poland.",
+      "as_told": {
+        "title": "Nick Cook visits the underground Bell rig",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "Poland (Bell test rig)",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "nick-cook"
+    ],
+    "episodes": [
+      "ABw7EsWh2Us",
+      "G7Ns4Aq1tVc",
+      "KGD1nuM4MR8"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "told-once",
+  "plain": "Nick Cook, a British journalist who wrote a book called The Hunt for Zero Point, says he went with a Polish researcher named Igor Witkowski to the place where the Bell, a secret device supposedly built by Nazi Germany during the Second World War, was said to have been installed: deep in a mine at Waldenburg, in what is now southern Poland. Podcast host Jesse Michels retells the visit, saying the trip involved a boat ride underground and that Cook saw the test rig where the device stood, which would suggest the wartime project was real."
+}

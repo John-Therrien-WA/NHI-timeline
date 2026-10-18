@@ -1,0 +1,76 @@
+{
+  "id": "curse-of-king-tut-s-tomb",
+  "title": "Curse of King Tut's tomb",
+  "summary": "Jesse Michels tells of Curse of King Tut's tomb, about 20th century at Egypt (no place named), and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Tomb of Tutankhamun, Egypt",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "9PJJiut0Iuw",
+      "from_s": 3806.0,
+      "to_s": 3811.0,
+      "teller": "jesse-michels",
+      "quote": "like anybody that you know you had a couple people try to x-ray it and then they sort of die mysteriously.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 7413.0,
+      "to_s": 7426.0,
+      "teller": "luke-caverns",
+      "quote": "almost every person that was in this excavation had something tragic happen to them. And several of them died from poisoning from being exposed to the air inside the chamber.",
+      "kind": "researcher",
+      "cites": [
+        "howard-carter"
+      ],
+      "documents": [],
+      "difference": "Names Howard Carter's excavation team and says several of them died from poisoning by the air inside the chamber, where the story speaks of x-raying it.",
+      "link_reason": "Both tell of the curse of Tutankhamun's tomb, with the people who disturbed it dying or meeting tragedy.",
+      "as_told": {
+        "title": "The curse of King Tut's tomb: the excavators die or meet tragedy",
+        "years": {
+          "from": 1920,
+          "to": 1929
+        },
+        "place_text": "Tutankhamun's tomb, Valley of the Kings, Egypt",
+        "story_kind": "place-lore"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jesse-michels",
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "9PJJiut0Iuw"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-by-several",
+  "plain": "This is the old story of a curse on the tomb of Tutankhamun, an ancient Egyptian king. The podcast host Jesse Michels says in 2024 that a couple of people tried to x-ray it and then died mysteriously. A researcher who goes by Luke Caverns tells it in 2025 as being about the dig led by the archaeologist Howard Carter. He says almost everyone on that excavation met with tragedy, and several died from poisoning after breathing the air inside the chamber. The story is told as a sign that something in the tomb was dangerous to those who disturbed it."
+}

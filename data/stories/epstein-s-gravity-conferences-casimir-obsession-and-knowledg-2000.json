@@ -27,6 +27,29 @@
       "documents": [
         "epstein-emails"
       ]
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 7150.0,
+      "to_s": 7152.0,
+      "teller": "jesse-michels",
+      "quote": "He was obsessed with the Casmir effect.",
+      "kind": "host",
+      "cites": [
+        "jeffrey-epstein"
+      ],
+      "documents": [],
+      "difference": "Talks only about the Casimir obsession in connection with propulsion, without the gravity conferences or Weinstein.",
+      "link_reason": "Both describe Epstein's obsession with the Casimir effect, which this story's title names directly.",
+      "as_told": {
+        "title": "Epstein's interest in the Casimir effect for propulsion",
+        "years": {
+          "from": 1990,
+          "to": 2019
+        },
+        "place_text": "unspecified (Epstein's science circles)",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -50,6 +73,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "51N8OxqZIWY",
       "d9tdJ2SkBKQ"
     ]
   },

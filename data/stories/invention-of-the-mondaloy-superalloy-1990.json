@@ -1,0 +1,61 @@
+{
+  "id": "invention-of-the-mondaloy-superalloy-1990",
+  "title": "Invention of the Mondaloy superalloy",
+  "summary": "Jesse Michels tells of Invention of the Mondaloy superalloy, about 1990s-2012 at Rockwell Science Center; Air Force Research Laboratory, Wright-Patterson AFB, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 2012
+  },
+  "place": null,
+  "place_text": "Rockwell Science Center; Air Force Research Laboratory, Wright-Patterson AFB",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 1984.0,
+      "to_s": 1993.0,
+      "teller": "jesse-michels",
+      "quote": "The stalemate finally shattered in the 1990s thanks to the hard work of Dallas Hardwick and Monica Resza at the Rockwell Science Center.",
+      "kind": "host",
+      "cites": [
+        "dallas-hardwick",
+        "monica-reza",
+        "spacenews"
+      ],
+      "documents": [
+        "national-academies-report",
+        "mondaloy-patents"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in the 1990s two researchers, Dallas Hardwick and Monica Resza at the Rockwell Science Center, a corporate research lab, broke a long deadlock and created Mondaloy, a superalloy, meaning a metal blend built to survive extreme heat and stress. He points to a report from the National Academies, the US scientific advisory body, and to the Mondaloy patents, and connects the work to the Air Force Research Laboratory at Wright-Patterson Air Force Base in Ohio. He tells it in an episode about top American scientists going missing."
+}

@@ -24,6 +24,54 @@
         "thomas-townsend-brown"
       ],
       "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 3870.0,
+      "to_s": 3880.0,
+      "teller": "jesse-michels",
+      "quote": "And Thomas Townsen and Brown when he's doing his anti-gravity experiments the Rand Corporation shows up sees the experiments they have this meeting something changes after the meeting.",
+      "kind": "host",
+      "cites": [
+        "thomas-townsend-brown",
+        "floyd-odlum"
+      ],
+      "documents": [],
+      "difference": "Puts the RAND meeting in the 1950s rather than the 1960s and credits Floyd Odlum.",
+      "link_reason": "Both tell of RAND seeing Townsend Brown's anti-gravity work and the technology then moving to Northrop.",
+      "as_told": {
+        "title": "RAND visits Townsend Brown, anti-gravity tech moves to Northrop",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "2ttdlCa5ZCI",
+      "from_s": 4781.0,
+      "to_s": 4794.0,
+      "teller": "jesse-michels",
+      "quote": "also happened to be intensely interested in the gravity manipulating deep [music] space propulsion work of towns in Brown. his work going dark after he showed them a demo in 1967.",
+      "kind": "host",
+      "cites": [
+        "michael-rich",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Dates the demo to 1967, ties RAND to Project Orion and credits Michael Rich, but leaves out the Northrop B-2 transfer.",
+      "link_reason": "Both tell of Townsend Brown's 1960s demonstration for RAND Corporation and his work then going dark.",
+      "as_told": {
+        "title": "RAND Corporation, Project Orion and Townsend Brown's 1967 demo",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "Santa Monica, California",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -51,6 +99,26 @@
       "story": "journalists-on-cia-payroll-operation-mockingbird-1960",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "branscomb-allegedly-offers-condon-his-clearance-back-for-bur-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "cia-and-andrija-puharich-s-elf-telepathy-experiments-and-spa-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "menzel-protege-lewis-branscomb-restores-condon-s-clearance-c-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "who-ran-the-cia-weird-desk-1960",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -73,7 +141,9 @@
       "jesse-michels"
     ],
     "episodes": [
-      "areO7Mej44E"
+      "2ttdlCa5ZCI",
+      "areO7Mej44E",
+      "nTiFs8LudUo"
     ]
   },
   "attestation": 0.1,

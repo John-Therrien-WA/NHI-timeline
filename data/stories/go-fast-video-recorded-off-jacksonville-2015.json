@@ -7,7 +7,7 @@
     "from": 2015,
     "to": 2015
   },
-  "place": null,
+  "place": "off-us-east-coast",
   "place_text": "300 miles off Jacksonville, Florida, USS Roosevelt",
   "coordinates": null,
   "kind": "sighting",
@@ -24,14 +24,48 @@
       "documents": [
         "go-fast-video"
       ]
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 4467.0,
+      "to_s": 4470.0,
+      "teller": "unnamed-navy-aircrew",
+      "quote": "Oh my gosh, dude. Wow.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "go-fast-video"
+      ],
+      "difference": "Presents the crew audio itself rather than the host's account of when and where the video was recorded.",
+      "link_reason": "The crew's reaction on the Go Fast audio is the Go Fast video recorded in 2015 off the East Coast.",
+      "as_told": {
+        "title": "Go Fast video audio",
+        "years": {
+          "from": 2015,
+          "to": 2015
+        },
+        "place_text": "off the US East Coast",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "gallaudet-sees-the-go-fast-video-on-the-navy-secret-network-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "gimbal-object-flying-with-a-v-shaped-fleet-2015",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.7,
+  "score": 2.7,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -42,15 +76,17 @@
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "unnamed-navy-aircrew"
     ],
     "episodes": [
-      "1iaH1a3A4Lk"
+      "1iaH1a3A4Lk",
+      "6WC4o2yY9Ws"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
+  "attestation": 1.35,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says that the Go Fast video, a short Navy cockpit camera clip of an unexplained object, was recorded in January 2015 about 300 miles off the coast of Jacksonville, Florida, by aircraft from the USS Roosevelt, an aircraft carrier. He sets this out as the starting point for discussing the clip, because if the object is what it seems, Navy pilots filmed something they could not identify."
 }

@@ -1,0 +1,56 @@
+{
+  "id": "lockheed-s-quantum-magnetometer-modelled-on-the-robin-s-cry4-2016",
+  "title": "Lockheed's quantum magnetometer modelled on the robin's cry4 protein",
+  "summary": "Deep Prasad tells of Lockheed's quantum magnetometer modelled on the robin's cry4 protein, about about 2016 (six years before the episode) at not stated (Lockheed), and summarises it without a named source. As told, not a fact.",
+  "era": "aatip",
+  "years": {
+    "from": 2016,
+    "to": 2016
+  },
+  "place": null,
+  "place_text": "not stated (Lockheed)",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "qAou_h1POWs",
+      "from_s": 910.0,
+      "to_s": 931.0,
+      "teller": "deep-prasad",
+      "quote": "lockheed observed these birds right or like the physics and and they decided can we replicate this with existing sensors can we create a quantum sensor that does the same thing that these birds are doing to detect the earth's magnetic fields and they succeeded as of six years ago they created what's called the dark ice magnetometer",
+      "kind": "researcher",
+      "cites": [
+        "lockheed"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "deep-prasad"
+    ],
+    "episodes": [
+      "qAou_h1POWs"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A young researcher in quantum physics, Deep Prasad, speaking on podcast host Jesse Michels' show in 2022, says robins sense the Earth's magnetic field through a protein called cry4. He says Lockheed, the big American defense company, studied the physics of these birds and, about six years earlier, built a quantum sensor that copies the trick, which he calls the \"dark ice magnetometer\", a device for measuring magnetic fields. If true, it would show defense firms quietly turning nature's quantum effects into working technology."
+}

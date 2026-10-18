@@ -24,6 +24,31 @@
       "documents": [
         "extraterrestrial"
       ]
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 3488.0,
+      "to_s": 3499.0,
+      "teller": "avi-loeb",
+      "quote": "All the proposals that were put on the table to explain the anomalies of Amua Mua invoked a rock of a type that we've never seen before.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "",
+      "link_reason": "This is Loeb's own statement that every natural explanation of 'Oumuamua's anomalies needs a rock of a type never seen before. The quote is nearly identical.",
+      "as_told": {
+        "title": "Avi Loeb on the anomalies of Oumuamua",
+        "years": {
+          "from": 2017,
+          "to": 2017
+        },
+        "place_text": "Solar system",
+        "story_kind": "theory"
+      },
+      "replay_of": {
+        "episode": "_bM9eAtCOGw",
+        "from_s": 443.0
+      }
     }
   ],
   "related": [],
@@ -47,7 +72,8 @@
       "avi-loeb"
     ],
     "episodes": [
-      "_bM9eAtCOGw"
+      "_bM9eAtCOGw",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.5,

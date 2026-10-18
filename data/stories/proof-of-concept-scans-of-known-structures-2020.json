@@ -1,0 +1,77 @@
+{
+  "id": "proof-of-concept-scans-of-known-structures-2020",
+  "title": "Proof-of-concept scans of known structures",
+  "summary": "Jeffrey Drum tells of Proof-of-concept scans of known structures, about 2020s at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2029
+  },
+  "place": "egypt",
+  "place_text": "Gran Sasso Laboratory, Italy; Osiris Shaft, Egypt",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 2721.0,
+      "to_s": 2732.0,
+      "teller": "jeffrey-drum",
+      "quote": "And this technology was very good at accurately detecting the known structures within these modern facilities that were scanned. But also the Osiris shaft, too.",
+      "kind": "researcher",
+      "cites": [
+        "filippo-biondi"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "four-plus-four-tubes-descending-beneath-the-pyramid-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "khafre-research-project-used-a-low-incidence-angle-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "later-research-changed-the-approach-to-detect-deep-undergrou-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-osiris-shaft-scan-picks-up-something-on-its-left-side-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey-drum"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Jeffrey Drum told podcast host Jesse Michels that the radar scanning method used by Filippo Biondi was first tested on structures whose layout is already known. He says it accurately picked out the hidden parts of modern facilities, such as the Gran Sasso Laboratory, an underground physics lab in Italy, and also the Osiris Shaft, a deep shaft cut into the rock at Giza in Egypt. The point, as he tells it, is that if the method works on known places, its findings beneath the pyramids should be taken seriously."
+}

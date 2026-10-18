@@ -25,11 +25,33 @@
         "bob-lazar"
       ],
       "documents": []
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 3558.0,
+      "to_s": 3567.0,
+      "teller": "jesse-michels",
+      "quote": "you talk about Misty Echo, which I think you tweeted, you know, on the uh I think it was an Area 51 patch.",
+      "kind": "host",
+      "cites": [
+        "chris-ramsay"
+      ],
+      "documents": [
+        "misty-echo-patch"
+      ],
+      "difference": "Credits Chris Ramsay's tweet for the patch and says nothing about an underground portal, Dan Burisch or the 1988 date.",
+      "link_reason": "Both are about the Misty Echo patch from the Area 51 / Nevada test site that the stored story describes.",
+      "as_told": {
+        "title": "The Misty Echo Area 51 patch",
+        "years": null,
+        "place_text": "Area 51, Nevada",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -40,7 +62,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -48,10 +70,11 @@
       "jesse-michels"
     ],
     "episodes": [
-      "EzPmG_7WhXc"
+      "EzPmG_7WhXc",
+      "h3u8EkGI8OQ"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, describes a patch, a cloth badge, made for Misty Echo, a 1988 underground test at the government's test site in Nevada, and says its design looks like it shows a portal underground. Michels says this would fit the story told by Dan Burisch, a man who claims to know of secret work at S4, a site said to be near Area 51, the closely guarded military base in Nevada. If so, the patch would hint that something like a doorway was part of that secret work."
 }

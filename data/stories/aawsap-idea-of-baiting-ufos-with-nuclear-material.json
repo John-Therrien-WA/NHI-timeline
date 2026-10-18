@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of AAWSAP: idea of baiting UFOs with nuclear material, about not stated at not stated, and frames it as the host. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "not stated",
   "coordinates": null,
   "kind": "document",
@@ -21,11 +21,33 @@
         "luis-elizondo"
       ],
       "documents": []
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 5953.0,
+      "to_s": 5962.0,
+      "teller": "jesse-michels",
+      "quote": "uh baiting UFOs with nuclear material and then taking them down with directed energy and high-powered radar.",
+      "kind": "host",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": [
+        "imminent"
+      ],
+      "difference": "Adds bringing the craft down with directed energy and high-powered radar, and names the book Imminent.",
+      "link_reason": "Both are Elizondo's book describing the idea of baiting UFOs with nuclear material.",
+      "as_told": {
+        "title": "Baiting UFOs with nuclear material and downing them with directed energy",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -36,7 +58,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -44,10 +66,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "K4gYHs84BIc",
       "dnnpyNuPdXs"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that Lue Elizondo, a former Pentagon official turned whistleblower, writes in his book about AAWSAP, a Pentagon-funded program that studied UFOs. According to Michels, Elizondo says the program considered luring UFOs with nuclear material, which would suggest officials believed these objects are drawn to nuclear sites."
 }

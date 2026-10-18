@@ -1,0 +1,80 @@
+{
+  "id": "obama-at-a-campfire-tells-eddie-vedder-to-read-the-three-bod",
+  "title": "Obama at a campfire tells Eddie Vedder to read The Three-Body Problem",
+  "summary": "Jesse Michels tells of Obama at a campfire tells Eddie Vedder to read The Three-Body Problem, about unspecified at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "united-states",
+  "place_text": "campfire, USA",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 10038.0,
+      "to_s": 10050.0,
+      "teller": "jesse-michels",
+      "quote": "He was at a campfire with uh Obama and like everybody was kind of wasted or something and Obama and he was like, \"Dude, I got to know like what's actually going on.\" And Obama goes, \"Read the threebody problem.\"",
+      "kind": "secondhand",
+      "cites": [
+        "eddie-vedder",
+        "barack-obama"
+      ],
+      "documents": [
+        "the-three-body-problem"
+      ]
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 6192.0,
+      "to_s": 6200.0,
+      "teller": "jesse-michels",
+      "quote": "It involves former President Barack Obama and Pearl Jam lead singer Eddie Veter drunk around a campfire.",
+      "kind": "host",
+      "cites": [
+        "barack-obama",
+        "eddie-vedder"
+      ],
+      "documents": [
+        "the-three-body-problem"
+      ],
+      "difference": "Told as the host's own narration and names Pearl Jam.",
+      "link_reason": "Same anecdote: a drunk Obama at a campfire tells Eddie Vedder to read The Three-Body Problem.",
+      "as_told": {
+        "title": "Obama tells Eddie Vedder to read The Three-Body Problem",
+        "years": null,
+        "place_text": "campfire, unspecified",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "51N8OxqZIWY",
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.75,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells a story about Eddie Vedder, the lead singer of the band Pearl Jam, sitting drunk around a campfire with former President Barack Obama. According to Michels, Vedder asked Obama what was really going on, and Obama told him to read The Three-Body Problem, a science fiction novel about contact with an alien civilisation. Told this way, it would hint that a president knows something about aliens that he could only point to sideways."
+}

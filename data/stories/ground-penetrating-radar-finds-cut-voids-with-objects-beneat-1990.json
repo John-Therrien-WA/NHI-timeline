@@ -1,0 +1,67 @@
+{
+  "id": "ground-penetrating-radar-finds-cut-voids-with-objects-beneat-1990",
+  "title": "Ground-penetrating radar finds cut voids with objects beneath the Sphinx",
+  "summary": "Matt LaCroix tells of Ground-penetrating radar finds cut voids with objects beneath the Sphinx, about 1990s at Egypt (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 1999
+  },
+  "place": "egypt",
+  "place_text": "Giza, Egypt",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 404.0,
+      "to_s": 418.0,
+      "teller": "matt-lacroix",
+      "quote": "were talking extensively over dinner about how he was part in spearheading these um sonar these readings basically ground pending trading type of radar sonar under the ground looking at voids",
+      "kind": "secondhand",
+      "cites": [
+        "robert-schoch"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "bob-brier-s-examination-suggests-tutankhamun-died-from-a-blo-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "egyptian-authorities-board-up-the-paw-and-drill-misleading-h-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "matt-lacroix"
+    ],
+    "episodes": [
+      "A_LsUSxTm7A"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Matt LaCroix, a writer on ancient civilisations, says he talked over dinner with a researcher named Robert Schoch about work in the 1990s at the Sphinx in Giza, Egypt. According to LaCroix, Schoch said he helped lead ground-penetrating radar and sonar scans, which look for hollow spaces under the ground, and that they found cut voids with objects in them beneath the Sphinx. If true, it would mean hidden chambers lie under one of the world's most famous monuments."
+}

@@ -1,0 +1,57 @@
+{
+  "id": "stan-marcus-tells-nick-cook-the-bell-slowed-time-1940",
+  "title": "Stan Marcus tells Nick Cook the bell slowed time",
+  "summary": "Jesse Michels tells of Stan Marcus tells Nick Cook the bell slowed time, about 1940s at Nazi Germany, and relays what a named person told them. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": null,
+  "place_text": "Nazi Germany",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 5368.0,
+      "to_s": 5377.0,
+      "teller": "jesse-michels",
+      "quote": "And Nick Cook's source, Stan Marcus, told him that the Germans had been able to slow time within the area of the bell's torsion field.",
+      "kind": "secondhand",
+      "cites": [
+        "nick-cook",
+        "stan-marcus"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "In a documentary about an American inventor named Townsend Brown, the podcast host Jesse Michels retells a claim about \"the Bell\", a device said to have been built in secret in Nazi Germany in the 1940s. Michels says that a source named Stan Marcus told the writer Nick Cook that the Germans had managed to slow down time inside a twisting energy field around the Bell. If true, it would mean wartime Germany had touched physics far beyond anything known."
+}

@@ -25,6 +25,32 @@
         "dan-sherman"
       ],
       "documents": []
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 6693.0,
+      "to_s": 6696.0,
+      "teller": "jesse-michels",
+      "quote": "basically corroborated Sherman's story.",
+      "kind": "host",
+      "cites": [
+        "dan-sherman",
+        "dan-hog"
+      ],
+      "documents": [
+        "dd214"
+      ],
+      "difference": "Places the corroboration in the 2020s, mentions a DD214 and credits a 'dan-hog' (possibly Dan Howe).",
+      "link_reason": "Both say a senior, unnamed government source corroborated Sherman's story.",
+      "as_told": {
+        "title": "Senior government official corroborates Sherman",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -57,10 +83,35 @@
       "story": "steven-greer-laurence-rockefeller-defected-from-his-family-1990",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "aviation-week-editor-threatened-over-sorensen-interview-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "clinton-era-technology-transfer-to-china-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "james-fox-s-unreleased-corso-interview-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "karla-turner-allegedly-killed-by-a-cia-cancer-mimicking-weap-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "myles-standish-recalculates-and-dismisses-the-planet-1990",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -71,7 +122,7 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
@@ -79,10 +130,11 @@
       "jesse-michels"
     ],
     "episodes": [
+      "PiFbeWfA3LM",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that a high-level source, whom he does not name, backed up many details of Dan Sherman's story. Sherman is a man who tells of secret US government work in the 1990s connected to UFOs. If the source is right, it would lend weight to Sherman's account of hidden programmes."
 }

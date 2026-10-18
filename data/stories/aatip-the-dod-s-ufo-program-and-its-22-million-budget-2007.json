@@ -121,6 +121,104 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 631.0,
+      "to_s": 639.0,
+      "teller": "jesse-michels",
+      "quote": "to say I ran this program it was actually under Senator Harry Reed who was interested in UFOs they had appropriated 22 million",
+      "kind": "host",
+      "cites": [
+        "luis-elizondo",
+        "harry-reid",
+        "ted-stevens",
+        "daniel-inouye",
+        "robert-bigelow"
+      ],
+      "documents": [],
+      "difference": "Puts the emphasis on Elizondo saying he ran the program, and mentions Skinwalker Ranch.",
+      "link_reason": "Both tell of AATIP's $22 million funding through Harry Reid, with Stevens, Inouye and Bigelow involved.",
+      "as_told": {
+        "title": "Elizondo ran AATIP, funded with $22 million through Harry Reid",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "United States; Skinwalker Ranch",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 239.0,
+      "to_s": 259.0,
+      "teller": "jesse-michels",
+      "quote": "Harry Reid, Senate Majority Leader uh on the Democratic side and representative in in Nevada, senator from Nevada, uh had funded $22 million along with I think Daniel Inway and Ted Stevens of Alaska uh to actually study UFOs in an official context.",
+      "kind": "host",
+      "cites": [
+        "harry-reid",
+        "daniel-inouye",
+        "ted-stevens"
+      ],
+      "documents": [],
+      "difference": "Emphasises Reid as the Senate Majority Leader from Nevada who secured the funding.",
+      "link_reason": "Same $22 million DoD UFO study funded through Reid, Inouye and Stevens in 2007-2012.",
+      "as_told": {
+        "title": "Harry Reid secures $22 million to study UFOs",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 361.0,
+      "to_s": 371.0,
+      "teller": "jesse-michels",
+      "quote": "okay we had you know an anomalous sighting at Nimttz in 2004 we studied this stuff on the order of $22 million at Skinwalker Ranch from 2007 to 2012",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Places the $22 million study at Skinwalker Ranch.",
+      "link_reason": "The same $22 million 2007-2012 program, which the story's tellings also place under OSAP from 2007 to 2012.",
+      "as_told": {
+        "title": "$22 million study at Skinwalker Ranch, 2007-2012",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "Skinwalker Ranch, Utah",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 205.0,
+      "to_s": 218.0,
+      "teller": "jesse-michels",
+      "quote": "It also included details about the existence of Senate Majority Leader Harry Reid's UFO program named [music] OAP that ran from 2007 to 2012.",
+      "kind": "host",
+      "cites": [
+        "harry-reid"
+      ],
+      "documents": [
+        "new-york-times-article-2017"
+      ],
+      "difference": "Calls it Senate Majority Leader Harry Reid's program, named OAP, and says the 2017 NYT article revealed it.",
+      "link_reason": "Both are the Pentagon UFO program behind Harry Reid (OSAP/AAWSAP/AATIP), run from 2007 to 2012.",
+      "as_told": {
+        "title": "Harry Reid's UFO program",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "USA",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -128,6 +226,11 @@
       "story": "bigelow-s-22-million-program-steered-by-colonel-alexander-2008",
       "relation": "variant",
       "note": "The same $22 million Reid-funded program run through Bigelow Aerospace. The telling's core claim is new: Colonel Alexander set it up and steered it toward a fixed end, which the story's tellings do not say."
+    },
+    {
+      "story": "secret-pentagon-program-to-build-weapons-from-recovered-ufo-2007",
+      "relation": "variant",
+      "note": "This is about the same 2007-2017 Pentagon program Elizondo was part of (AATIP). But it claims the program's real purpose was building advanced weapons from recovered UFO technology, not studying UFOs."
     }
   ],
   "tags": [],
@@ -151,6 +254,9 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "2SQXAPCdmPE",
+      "KGD1nuM4MR8",
+      "ScE9FaDy-mE",
       "_bM9eAtCOGw",
       "bVhSPH2A5Vw",
       "dzTZbSNsKV8",

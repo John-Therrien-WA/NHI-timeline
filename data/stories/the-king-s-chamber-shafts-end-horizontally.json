@@ -1,0 +1,53 @@
+{
+  "id": "the-king-s-chamber-shafts-end-horizontally",
+  "title": "The King's Chamber shafts end horizontally",
+  "summary": "Geoffrey Drumm tells of The King's Chamber shafts end horizontally, about dynastic Egypt at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Great Pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 6590.0,
+      "to_s": 6598.0,
+      "teller": "geoffrey-drumm",
+      "quote": "The original archaeological documentation shows that the shafts go horizontal at the end.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "original-archaeological-documentation"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Inside the Great Pyramid at Giza in Egypt, a room called the King's Chamber has narrow shafts running out from it through the stone. A researcher named Geoffrey Drumm tells podcast host Jesse Michels that the original archaeological records show these shafts turn flat, running level, at their far ends. He brings it up as a clue in his own idea about what the pyramid was really built to do."
+}

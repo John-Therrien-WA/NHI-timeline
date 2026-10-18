@@ -1,0 +1,54 @@
+{
+  "id": "gec-marconi-scientist-deaths-during-star-wars-sdi-era-1982",
+  "title": "GEC Marconi scientist deaths during Star Wars/SDI era",
+  "summary": "Jesse Michels tells of GEC Marconi scientist deaths during Star Wars/SDI era, about 1982-1990 at Great Britain, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1982,
+    "to": 1990
+  },
+  "place": null,
+  "place_text": "Great Britain",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 5196.0,
+      "to_s": 5212.0,
+      "teller": "jesse-michels",
+      "quote": "Between 1982 and 1990, 25 engineers and computer scientists, all working for GEC Maronei on some of Britain's most classified defense projects, all died one after [music] another.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "wlsQIbpEKSM"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that between 1982 and 1990, 25 engineers and computer scientists working for GEC Marconi, a British defence company, on some of Britain's most classified defence projects died one after another. He places this in the era of Star Wars, the nickname for the American plan of the 1980s to defend against missiles from space. Michels tells it in an episode about top scientists going missing, as a sign that something more than chance may lie behind such deaths."
+}

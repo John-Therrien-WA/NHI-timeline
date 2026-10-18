@@ -44,33 +44,82 @@
         "place_text": "Imperial College London",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 4031.0,
+      "to_s": 4036.0,
+      "teller": "graham-hancock",
+      "quote": "is that they've found a way to keep people in the DMT state for an hour",
+      "kind": "researcher",
+      "cites": [
+        "christopher-timmermann"
+      ],
+      "documents": [],
+      "difference": "Puts the extended state at an hour, not 30 minutes, and dates it to about 2022.",
+      "link_reason": "Both describe the Imperial College program that extends the DMT state, linked to Timmermann.",
+      "as_told": {
+        "title": "Imperial College extended-state DMT entity study",
+        "years": {
+          "from": 2022,
+          "to": 2022
+        },
+        "place_text": "Imperial College, London",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 4535.0,
+      "to_s": 4543.0,
+      "teller": "jesse-michels",
+      "quote": "this is like Andrew gallamore and the Imperial College and stuff they're sort of mapping the the spirit world",
+      "kind": "host",
+      "cites": [
+        "andrew-gallimore"
+      ],
+      "documents": [],
+      "difference": "Frames the research as mapping the spirit world and does not mention the 30-minute extension.",
+      "link_reason": "The Imperial College DMT research program connected with Gallimore, the same program as the story about extending the DMT state.",
+      "as_told": {
+        "title": "Imperial College DMT research mapping the spirit world",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Imperial College, London",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "andrew-gallimore"
+      "andrew-gallimore",
+      "graham-hancock"
     ],
     "episodes": [
-      "8XD1ZiuhXoY"
+      "8XD1ZiuhXoY",
+      "dfPfPB601hw",
+      "tS_64sTN5AU"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.5,
+  "tier": "told-by-several",
   "plain": "A researcher named Andrew Gallimore, speaking in 2025 on the show of podcast host Jesse Michels, says that some time after 2015 Imperial College, a university in London, took up research on DMT, a powerful psychedelic substance, and built a much better way of giving it, so that the experience could be stretched to about 30 minutes. He credits earlier work by a man named Chris Timberman, and adds that all the volunteers at Imperial got through the trials with no serious harm. If true, it would mean people could stay in the DMT state long enough to study it properly."
 }

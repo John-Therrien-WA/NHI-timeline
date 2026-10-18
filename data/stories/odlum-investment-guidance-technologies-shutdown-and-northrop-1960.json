@@ -1,0 +1,89 @@
+{
+  "id": "odlum-investment-guidance-technologies-shutdown-and-northrop-1960",
+  "title": "Odlum investment, Guidance Technologies shutdown and Northrop paper",
+  "summary": "Jesse Michels tells of Odlum investment, Guidance Technologies shutdown and Northrop paper, about 1960s-1968 at Santa Monica, California, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1960,
+    "to": 1969
+  },
+  "place": null,
+  "place_text": "Santa Monica, California",
+  "coordinates": null,
+  "kind": "reverse-engineering",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1548.0,
+      "to_s": 1560.0,
+      "teller": "jesse-michels",
+      "quote": "Townsend Brown shuts down Guidance Technologies with no explanation. Just 3 months later, Floyd Odlum's Northrop writes a paper saying that they are investing in",
+      "kind": "host",
+      "cites": [
+        "floyd-odlum",
+        "curtis-lemay",
+        "bill-lear"
+      ],
+      "documents": [
+        "1968-northrop-electrostatics-paper"
+      ]
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2002.0,
+      "to_s": 2010.0,
+      "teller": "jesse-michels",
+      "quote": "In the fall of 1967, Brown shuts the company down with no explanation, saying he got no results.",
+      "kind": "host",
+      "cites": [
+        "floyd-odlum",
+        "bill-lear",
+        "curtis-lemay"
+      ],
+      "documents": [
+        "northrop-1968-electrogravitics-paper",
+        "aviation-week-b-2-report"
+      ],
+      "difference": "Gives fall 1967 for the shutdown and 1968 for the paper, and adds an Aviation Week B-2 report.",
+      "link_reason": "Both describe Brown shutting down Guidance Technologies and Northrop's paper coming out soon after.",
+      "as_told": {
+        "title": "Guidance Technologies closes and Northrop's electrogravitics paper",
+        "years": {
+          "from": 1967,
+          "to": 1968
+        },
+        "place_text": "Santa Monica, California",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 3,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "G7Ns4Aq1tVc",
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, tells how an inventor named Townsend Brown, who worked on using electric charge to push or lift craft, ran a company in Santa Monica, California, called Guidance Technologies, and that in the fall of 1967 he shut it down with no explanation, saying he got no results. Michels says that soon after, in 1968, the aircraft maker Northrop, linked to the wealthy investor Floyd Odlum, wrote a paper saying it was investing in this kind of electric propulsion, and he connects it to the Air Force general Curtis LeMay, the jet maker Bill Lear, and an Aviation Week magazine report on the B-2 stealth bomber. The suggestion is that Brown's work quietly went into secret aerospace projects."
+}

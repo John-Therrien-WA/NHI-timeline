@@ -1,0 +1,74 @@
+{
+  "id": "subterranean-chamber-as-giza-s-original-sacred-site",
+  "title": "Subterranean chamber as Giza's original sacred site",
+  "summary": "Graham Hancock tells of Subterranean chamber as Giza's original sacred site, about prehistory at Subterranean chamber beneath the Great Pyramid, Giza, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Subterranean chamber beneath the Great Pyramid, Giza",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "dfPfPB601hw",
+      "from_s": 3337.0,
+      "to_s": 3345.0,
+      "teller": "graham-hancock",
+      "quote": "and part of it is the Subterranean chamber 100 feet vertically beneath the base of the Great Pyramid I think that's the original sacred site on the Giza",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 2834.0,
+      "to_s": 2845.0,
+      "teller": "luke-caverns",
+      "quote": "said that he that he believes that the vast majority of the Great Pyramid was constructed during the reign of Kufu and that he wonders if the subterranean level",
+      "kind": "secondhand",
+      "cites": [
+        "graham-hancock",
+        "joe-rogan",
+        "ben-van-kerkwyk"
+      ],
+      "documents": [],
+      "difference": "Told secondhand from Hancock on Rogan; adds that most of the pyramid was built under Khufu and the subterranean part was inherited.",
+      "link_reason": "Both carry Hancock's view that the subterranean level beneath the Great Pyramid comes before the rest of the structure.",
+      "as_told": {
+        "title": "Hancock on Rogan: Great Pyramid built under Khufu, subterranean part inherited",
+        "years": null,
+        "place_text": "Great Pyramid, Giza",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "graham-hancock"
+    ],
+    "episodes": [
+      "92XrddiKjHY",
+      "dfPfPB601hw"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher and writer on ancient history, Graham Hancock, told a podcast host, Jesse Michels, in 2022 that a rock-cut room about 100 feet straight down beneath the base of the Great Pyramid in Giza, Egypt, is, in his view, the original sacred site there, older in meaning than the pyramid above it. Another researcher, Luke Caverns, later passed the idea along on the same show, saying Hancock had told it on another podcast: most of the pyramid was built under the ancient king Khufu, and the underground level may have been there already. If true, it would mean the pyramid was built on top of an even older holy place."
+}

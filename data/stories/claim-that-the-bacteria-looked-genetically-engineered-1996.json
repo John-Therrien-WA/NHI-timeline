@@ -1,0 +1,77 @@
+{
+  "id": "claim-that-the-bacteria-looked-genetically-engineered-1996",
+  "title": "Claim that the bacteria looked genetically engineered",
+  "summary": "James Fox tells of Claim that the bacteria looked genetically engineered, about 1996; said recently at Varginha, Brazil, and reports it citing named sources. As told, not a fact.",
+  "era": "nineties",
+  "years": {
+    "from": 1996,
+    "to": 1996
+  },
+  "place": "brazil-varginha",
+  "place_text": "Varginha, Brazil",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 13256.0,
+      "to_s": 13270.0,
+      "teller": "james-fox",
+      "quote": "My understanding. Yeah, cuz because I heard it yesterday too. Uh that Dr. Eel was talking about it as well that there was some sort of genetic it looked like there was some sort of genetic engineering done to the to the bacteria.",
+      "kind": "journalist",
+      "cites": [
+        "dr-eel"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "fox-concludes-there-were-more-beings-than-first-reported-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "girls-creature-and-hospital-being-were-the-same-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jannini-in-the-film-a-puncture-from-the-et-s-nail-caused-che-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "pathologist-attributes-infection-to-the-being-s-claw-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 1,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "journalist",
+    "tellers": [
+      "james-fox"
+    ],
+    "episodes": [
+      "UkKwa4jU0fc"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "James Fox, a documentary filmmaker who has investigated the 1996 creature case in Varginha, Brazil, says he heard that a doctor he calls Dr. Eel was saying the bacteria linked to the case looked as if it had been genetically engineered. If that were so, it would mean the infection tied to the creature was made by someone rather than found in nature."
+}

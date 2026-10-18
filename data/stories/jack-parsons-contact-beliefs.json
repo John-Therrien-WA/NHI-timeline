@@ -22,6 +22,56 @@
         "aleister-crowley"
       ],
       "documents": []
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 3399.0,
+      "to_s": 3413.0,
+      "teller": "diana-pasulka",
+      "quote": "so the Parsons crew yeah they were way out there and they were doing this in the LA desert right and stuff and they were doing ritual magic and they believe that they were in contact with you know extraterrestrials",
+      "kind": "researcher",
+      "cites": [
+        "jack-parsons"
+      ],
+      "documents": [],
+      "difference": "Places the rituals in the LA desert and speaks of the Parsons crew as a group.",
+      "link_reason": "Pasulka again tells of Parsons believing he was in contact with extraterrestrials through ritual magic.",
+      "as_told": {
+        "title": "The Parsons group's rituals in the desert",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "LA desert, California",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 1264.0,
+      "to_s": 1274.0,
+      "teller": "jesse-michels",
+      "quote": "Parsons himself believed he had made contact. He said he was being guided by a non-human intelligence.",
+      "kind": "host",
+      "cites": [
+        "jack-parsons",
+        "diana-pasulka",
+        "himmelfarb"
+      ],
+      "documents": [
+        "bedeviled"
+      ],
+      "difference": "Told by the host, dated from 1946 in Pasadena, and framed as being 'guided' by the intelligence, crediting Pasulka and the book Bedeviled.",
+      "link_reason": "Both tell of Jack Parsons believing he was in contact with a non-human intelligence; the fathers-of-space-programs story is a broader claim covering several founders.",
+      "as_told": {
+        "title": "Parsons believed he was guided by a non-human intelligence",
+        "years": {
+          "from": 1946,
+          "to": 1946
+        },
+        "place_text": "Pasadena",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -38,14 +88,16 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
       "diana-pasulka"
     ],
     "episodes": [
-      "aa9Xx5wI8Rw"
+      "aa9Xx5wI8Rw",
+      "tS_64sTN5AU",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 0.25,

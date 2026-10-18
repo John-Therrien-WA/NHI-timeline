@@ -1,0 +1,56 @@
+{
+  "id": "klaus-fuchs-atomic-espionage-1941",
+  "title": "Klaus Fuchs atomic espionage",
+  "summary": "Jesse Michels tells of Klaus Fuchs atomic espionage, about 1941-1950 at Los Alamos, New Mexico, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1941,
+    "to": 1950
+  },
+  "place": "los-alamos-nm",
+  "place_text": "Los Alamos",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 5568.0,
+      "to_s": 5578.0,
+      "teller": "jesse-michels",
+      "quote": "that like the next Klaus Fuchs you know the guy that like stole the American atomic secrets worked at Los Alamos from 1941 to 1950",
+      "kind": "host",
+      "cites": [
+        "klaus-fuchs"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, brings up Klaus Fuchs, whom he describes as the man who stole American atomic bomb secrets, and says Fuchs worked at Los Alamos, the New Mexico laboratory where the bomb was built, from 1941 to 1950. Michels uses him as a comparison, wondering who might be the next Klaus Fuchs, someone leaking secret advanced science."
+}

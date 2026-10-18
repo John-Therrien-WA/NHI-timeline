@@ -1,0 +1,66 @@
+{
+  "id": "kubrick-on-the-2001-monolith-1969",
+  "title": "Kubrick on the 2001 monolith",
+  "summary": "Jesse Michels tells of Kubrick on the 2001 monolith, about 1969 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1969,
+    "to": 1969
+  },
+  "place": "united-states",
+  "place_text": "US",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 880.0,
+      "to_s": 891.0,
+      "teller": "jesse-michels",
+      "quote": "2001's director Stanley kubric said in a 1969 interview that interpreting the monolith as an alien artifact is the movie's most superficial interpretation",
+      "kind": "host",
+      "cites": [
+        "stanley-kubrick",
+        "arthur-c-clarke"
+      ],
+      "documents": [
+        "1969-stanley-kubrick-interview",
+        "2001-a-space-odyssey-novel"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "ted-owens-book-how-to-contact-space-people-1969",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "tS_64sTN5AU"
+    ]
+  },
+  "attestation": 0.6,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, notes that the film director Stanley Kubrick said in a 1969 interview that seeing the monolith in his film 2001: A Space Odyssey, a tall black slab left by unseen beings, as just an alien artifact was the movie's most shallow reading. Michels mentions Arthur C. Clarke, who wrote the novel version, and brings the quote into a talk on UFOs and religion to suggest the deeper meaning is spiritual."
+}

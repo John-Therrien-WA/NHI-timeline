@@ -22,6 +22,31 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "aKZ_MUbuk_Q",
+      "from_s": 3262.0,
+      "to_s": 3276.0,
+      "teller": "jesse-michels",
+      "quote": "So you talk about Trinity, and you talk about Roswell, and similar things happen in the towns after the explosions. You have people report devils chasing them around and all sorts of paranormal activity.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names Roswell as well as Trinity.",
+      "link_reason": "Both say people in the towns reported devils chasing them and other paranormal activity after the explosions, in almost the same words.",
+      "as_told": {
+        "title": "Paranormal activity in towns after Trinity and Roswell",
+        "years": {
+          "from": 1945,
+          "to": 1947
+        },
+        "place_text": "Trinity site and Roswell, New Mexico",
+        "story_kind": "place-lore"
+      },
+      "replay_of": {
+        "episode": "fyX8V1XXmQM",
+        "from_s": 1880.0
+      }
     }
   ],
   "related": [],
@@ -45,6 +70,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "aKZ_MUbuk_Q",
       "fyX8V1XXmQM"
     ]
   },

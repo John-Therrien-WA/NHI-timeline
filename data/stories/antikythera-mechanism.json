@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of Antikythera mechanism, about antiquity at Aegean Sea shipwreck, and frames it as the host. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "ancient-greece",
   "place_text": "Aegean Sea shipwreck",
   "coordinates": null,
   "kind": "place-lore",
@@ -19,11 +19,49 @@
       "kind": "host",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "A_LsUSxTm7A",
+      "from_s": 11378.0,
+      "to_s": 11384.0,
+      "teller": "jesse-michels",
+      "quote": "the anti theor mechanism you know that was found on this island in Greece",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "forbidden-archaeology"
+      ],
+      "difference": "Places the find on a Greek island rather than in a shipwreck, and cites Forbidden Archaeology.",
+      "link_reason": "The same ancient Greek astronomical mechanism found at Antikythera, told by the same host.",
+      "as_told": {
+        "title": "Antikythera mechanism",
+        "years": null,
+        "place_text": "Greek island (Antikythera)",
+        "story_kind": "place-lore"
+      }
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 7243.0,
+      "to_s": 7249.0,
+      "teller": "jesse-michels",
+      "quote": "like the antic theorem mechanism, which is a little computer with astronomical alignments found,",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "",
+      "link_reason": "Both are Jesse Michels describing the Antikythera mechanism as an ancient astronomical computer found in the Aegean.",
+      "as_told": {
+        "title": "Antikythera mechanism",
+        "years": null,
+        "place_text": "Aegean, Greece",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -34,7 +72,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -42,10 +80,12 @@
       "jesse-michels"
     ],
     "episodes": [
-      "EzPmG_7WhXc"
+      "A_LsUSxTm7A",
+      "EzPmG_7WhXc",
+      "TNtlzEnl8rA"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, describes the Antikythera mechanism, an ancient device found in a shipwreck in the Aegean Sea, the stretch of water between Greece and Turkey. He calls it almost an astronomically aligned computer, which, as he tells it, would show that ancient people had far more advanced knowledge than we assume."
 }

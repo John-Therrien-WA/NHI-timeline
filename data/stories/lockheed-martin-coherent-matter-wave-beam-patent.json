@@ -1,0 +1,53 @@
+{
+  "id": "lockheed-martin-coherent-matter-wave-beam-patent",
+  "title": "Lockheed Martin coherent matter wave beam patent",
+  "summary": "Dave Rossi tells of Lockheed Martin coherent matter wave beam patent, about unspecified at Lockheed Martin, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Lockheed Martin",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "5OUzGygIrSw",
+      "from_s": 3778.0,
+      "to_s": 3783.0,
+      "teller": "dave-rossi",
+      "quote": "Um there's a Lockheed Martin patent called a coherent matter wave beam that deals with using the Aharonov-Bohm",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "lockheed-martin-coherent-matter-wave-beam-patent"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "dave-rossi"
+    ],
+    "episodes": [
+      "5OUzGygIrSw"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Dave Rossi, a guest on a podcast about advanced physics, says the aerospace and defense company Lockheed Martin holds a patent called a coherent matter wave beam. He says it makes use of the Aharonov-Bohm effect, a quantum physics effect in which particles are influenced by electromagnetic fields in places they never pass through. He brings it up as a sign that a big defense firm is working on exotic physics."
+}

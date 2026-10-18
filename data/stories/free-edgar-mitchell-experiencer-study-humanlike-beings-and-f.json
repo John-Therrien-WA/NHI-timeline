@@ -4,7 +4,7 @@
   "summary": "Jesse Michels tells of FREE Edgar Mitchell experiencer study: humanlike beings and friendly contacts, about study published with about 3,500 respondents, now about 5,000 at unspecified, and frames it as the host. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
+  "place": "united-states",
   "place_text": "unspecified",
   "coordinates": null,
   "kind": "document",
@@ -67,11 +67,55 @@
         "place_text": null,
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 1441.0,
+      "to_s": 1443.0,
+      "teller": "jesse-michels",
+      "quote": "the the free Edgar Mitchell studies on",
+      "kind": "host",
+      "cites": [
+        "edgar-mitchell"
+      ],
+      "documents": [
+        "free-edgar-mitchell-studies"
+      ],
+      "difference": "Cites the study for its findings on tissue sampling, not for its hominid-like beings or its respondent counts.",
+      "link_reason": "Both refer to the same document, the FREE Edgar Mitchell experiencer study, cited by Jesse Michels.",
+      "as_told": {
+        "title": "FREE Edgar Mitchell abduction studies on tissue sampling",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "Rjr3Yq-dMUE",
+      "from_s": 1451.0,
+      "to_s": 1465.0,
+      "teller": "jesse-michels",
+      "quote": "because if you\nlook at the free Edgar Mitchell, you\nknow, database in in the US of abductees\nor experiencers\nover 50%\nuh experience humanoid creatures.",
+      "kind": "host",
+      "cites": [
+        "edgar-mitchell"
+      ],
+      "documents": [
+        "free-database"
+      ],
+      "difference": "Places the database in the US and gives no respondent count.",
+      "link_reason": "The same claim from the FREE / Edgar Mitchell experiencer database that over 50% report humanoid beings.",
+      "as_told": {
+        "title": "FREE experiencer database humanoid statistics",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -82,7 +126,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 3,
+    "credited_documents": 5,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -92,10 +136,12 @@
     "episodes": [
       "1f16VvXaSSE",
       "8Rr_nE65KkI",
-      "Y26iMB0r-f8"
+      "Rjr3Yq-dMUE",
+      "Y26iMB0r-f8",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.5,
   "tier": "told-once",
   "plain": "Podcast host Jesse Michels often mentions a study by FREE, a research group named after former astronaut Edgar Mitchell, which surveyed people who say they have had contact with beings not from Earth. Michels says that 52 percent of those who answered, elsewhere he says over half, reported meeting humanlike creatures, and that the survey now holds more than 5,000 people. If true, it would suggest many contact reports describe beings that look much like us."
 }

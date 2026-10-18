@@ -1,0 +1,61 @@
+{
+  "id": "rubik-and-jabs-reanalyse-the-michelson-morley-ether-data-1897",
+  "title": "Rubik and Jabs reanalyse the Michelson-Morley ether data",
+  "summary": "Diane Powell tells of Rubik and Jabs reanalyse the Michelson-Morley ether data, about 1890s experiment; later paper at unspecified, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": {
+    "from": 1897,
+    "to": 1899
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 5590.0,
+      "to_s": 5607.0,
+      "teller": "diane-powell",
+      "quote": "Beverly Rubik who's a biophysicist um and Harry Jabs who's a physicist they looked at that data and and and they wrote a paper basically saying well wait a minute there actually was an effect",
+      "kind": "researcher",
+      "cites": [
+        "beverly-rubik",
+        "harry-jabs",
+        "michelson",
+        "morley"
+      ],
+      "documents": [
+        "michelson-morley-experiment"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "diane-powell"
+    ],
+    "episodes": [
+      "0qlppHc3-gg"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "In the 1890s, the scientists Michelson and Morley ran a famous experiment looking for the ether, a substance once thought to fill all of space. A researcher named Diane Powell, on Jesse Michels's podcast, says a biophysicist named Beverly Rubik and a physicist named Harry Jabs later looked at that data again and wrote a paper saying there actually was an effect. If true, it would reopen a question most of physics considers closed."
+}

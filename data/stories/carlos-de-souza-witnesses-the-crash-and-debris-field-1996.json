@@ -48,6 +48,101 @@
         "place_text": "Varginha, Brazil",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 420.0,
+      "to_s": 431.0,
+      "teller": "carlos-dosoza",
+      "quote": "looked ahead and I saw an object pass over the road and I noticed that the object was having problems. It was smoking.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Carlos from the highway, with the object smoking, where the story is told secondhand by Fox and Michels.",
+      "link_reason": "Both are Carlos de Souza watching the cigar-shaped craft in trouble near Varginha in January 1996 as it came down.",
+      "as_told": {
+        "title": "Carlos sees a smoking cigar-shaped craft fall near Varginha",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Highway near Varginha, Minas Gerais, Brazil",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "UkKwa4jU0fc",
+      "from_s": 12564.0,
+      "to_s": 12585.0,
+      "teller": "ahmed-foratu",
+      "quote": "You see the testimony of Professor Kahus, a geography teacher who gives a powerful account of having actually seen the spacecraft and its wreckage and that he even touched it, but the police took it from him and ordered it handed over to the army.",
+      "kind": "secondhand",
+      "cites": [
+        "kahus"
+      ],
+      "documents": [],
+      "difference": "Adds that he touched the wreckage and that police took it from him and had it handed to the army.",
+      "link_reason": "Both tell of Carlos de Souza, the geography teacher, coming on the crashed Varginha craft and its wreckage in 1996.",
+      "as_told": {
+        "title": "Professor Carlos saw and touched the craft wreckage before police handed it to the army",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Near Varginha, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 3042.0,
+      "to_s": 3054.0,
+      "teller": "jesse-michels",
+      "quote": "basically this cigar- shaped tic-tac craft seemed to have some sort of puncture in it. Gas was coming out of the back. It crashed on something called the Myolini farm.",
+      "kind": "host",
+      "cites": [
+        "james-fox",
+        "carlos-de-souza"
+      ],
+      "documents": [
+        "moment-of-contact"
+      ],
+      "difference": "Adds that the cigar or tic-tac shaped craft seemed to have a puncture with gas coming out the back, and cites Moment of Contact.",
+      "link_reason": "Both tell of the 1996 Varginha craft crashing on the Maiolini/Molini farm, which Carlos de Souza witnessed, and both credit Carlos and James Fox.",
+      "as_told": {
+        "title": "Varginha craft crash on the Maiolini farm",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Minas Gerais, Brazil",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 3073.0,
+      "to_s": 3081.0,
+      "teller": "carlos-de-souza",
+      "quote": "It seemed to have bounced the rear end of the craft which was completely destroyed.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Told firsthand by Carlos, who adds that the rear of the craft bounced and was completely destroyed.",
+      "link_reason": "This is Carlos de Souza's own account of watching the craft crash at Varginha in 1996, the event this story describes.",
+      "as_told": {
+        "title": "Carlos de Souza sees the craft crash",
+        "years": {
+          "from": 1996,
+          "to": 1996
+        },
+        "place_text": "Varginha, Minas Gerais, Brazil",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "episode": "UkKwa4jU0fc",
+        "from_s": 635.0
+      }
     }
   ],
   "related": [
@@ -100,13 +195,43 @@
       "story": "varginha-crash-and-captured-being-1996",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "army-trucks-cordoning-off-the-hospital-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "craft-shot-down-before-crashing-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "military-convoy-cordons-the-crash-site-and-a-soldier-threate-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-being-was-nearly-taken-to-the-zoo-before-it-went-to-the-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tres-coracoes-army-battalion-supports-the-varginha-operation-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-pilot-testifies-about-scrubbed-cia-and-air-force-missions-1996",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 5.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -115,18 +240,22 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "james-fox"
+      "ahmed-foratu",
+      "carlos-de-souza",
+      "carlos-dosoza"
     ],
     "episodes": [
       "8Rr_nE65KkI",
-      "hBrfe4hFuM0"
+      "UkKwa4jU0fc",
+      "hBrfe4hFuM0",
+      "nqLnEVcZ8vE"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 2.5,
+  "tier": "well-attested",
   "plain": "A documentary filmmaker, James Fox, tells of a man named Carlos de Souza near the town of Varginha in Brazil in January 1996. According to Fox, de Souza turned off the highway onto a dirt road up to a place called the Molini Farm, where he saw a craft struggling to stay in the air before it went boom and hit the ground. The podcast host Jesse Michels repeats the story, crediting Fox and describing de Souza as an ultralight pilot and geography teacher, as part of a wider claim that something not human crashed at Varginha."
 }

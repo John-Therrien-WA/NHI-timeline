@@ -189,11 +189,166 @@
         "place_text": "Australia / United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 778.0,
+      "to_s": 795.0,
+      "teller": "jesse-michels",
+      "quote": "From a 1971 Australian intelligence memo often cited by UFO whistleblower David Grusch, we basically now know that Bonson and his Institute of Field Physics at North Carolina, Chapel Hill were just academic satellites of the CIA tasked with studying anti-gravity.",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "agnew-bahnsen"
+      ],
+      "documents": [
+        "1971-australian-intelligence-memo"
+      ],
+      "difference": "Cites the memo as naming Bahnsen's Institute of Field Physics at Chapel Hill as a CIA academic satellite studying anti-gravity.",
+      "link_reason": "Both concern the 1971 Australian intelligence document (Harry Turner's) on US anti-gravity research, cited by Grusch.",
+      "as_told": {
+        "title": "Australian memo: Bahnsen's institute a CIA satellite for anti-gravity",
+        "years": {
+          "from": 1950,
+          "to": 1971
+        },
+        "place_text": "Chapel Hill, North Carolina",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 2832.0,
+      "to_s": 2844.0,
+      "teller": "jesse-michels",
+      "quote": "The document writes, \"A more astounding decision on the part of the US government was to allocate considerable funds to investigate gravity and a means of controlling gravity.",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "1971-australian-joint-intelligence-organization-assessment"
+      ],
+      "difference": "Quotes the document on the US funding gravity-control research and does not name Turner.",
+      "link_reason": "This is the same 1971 Australian Joint Intelligence Organization document on US gravity research, which the story credits to Harry Turner.",
+      "as_told": {
+        "title": "Australian 1971 assessment on US gravity research centers",
+        "years": {
+          "from": 1950,
+          "to": 1971
+        },
+        "place_text": "Australia; United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 1563.0,
+      "to_s": 1578.0,
+      "teller": "jesse-michels",
+      "quote": "In fact, there's a 1971 Australian intelligence memo cited by David Grusch and others that points to this deep yet hidden American interest in antigravity in the '50s.",
+      "kind": "host",
+      "cites": [
+        "david-grusch",
+        "harry-turner"
+      ],
+      "documents": [
+        "1971-australian-jio-memo"
+      ],
+      "difference": "",
+      "link_reason": "The same 1971 Australian intelligence document on US antigravity interest in the 1950s, which Grusch cites and Harry Turner wrote.",
+      "as_told": {
+        "title": "1971 Australian intelligence memo on US antigravity",
+        "years": {
+          "from": 1950,
+          "to": 1971
+        },
+        "place_text": "Australia / USA",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 654.0,
+      "to_s": 661.0,
+      "teller": "jesse-michels",
+      "quote": "1971 the Australian joint intelligence organization which is basically Australia's CIA came out with a memo",
+      "kind": "host",
+      "cites": [
+        "harry-turner",
+        "edward-teller",
+        "freeman-dyson",
+        "robert-j-oppenheimer"
+      ],
+      "documents": [
+        "1971-australian-joint-intelligence-organization-memo"
+      ],
+      "difference": "Calls it a memo and describes the JIO as Australia's CIA.",
+      "link_reason": "The same 1971 Australian Joint Intelligence Organization document by Harry Turner on US anti-gravity research.",
+      "as_told": {
+        "title": "1971 Australian JIO memo on US anti-gravity research",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "Australia / United States",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 1781.0,
+      "to_s": 1790.0,
+      "teller": "jesse-michels",
+      "quote": "Turner stated that Edward Teller was working with others on the objective to control gravity.",
+      "kind": "host",
+      "cites": [
+        "harry-turner",
+        "edward-teller"
+      ],
+      "documents": [
+        "harry-turner-report-for-the-australian-joint-intelligence-or"
+      ],
+      "difference": "Focuses on the claim that Edward Teller was working to control gravity and dates it to the 1950s.",
+      "link_reason": "Same Harry Turner report to the Australian Joint Intelligence Organization on US anti-gravity research.",
+      "as_told": {
+        "title": "Harry Turner report: Edward Teller working to control gravity",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "United States/Australia",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 755.0,
+      "to_s": 771.0,
+      "teller": "jesse-michels",
+      "quote": "And we know due to real declassified documents written by the head of Australia's nuclear program Harry [music] Turner and often cited by UFO whistleblower David Grush that University of North Carolina Chapel Hill was waste deep in anti-gravity research.",
+      "kind": "host",
+      "cites": [
+        "harry-turner",
+        "david-grusch"
+      ],
+      "documents": [
+        "harry-turner-declassified-documents"
+      ],
+      "difference": "Says the document places UNC Chapel Hill deep in anti-gravity research, and gives no year.",
+      "link_reason": "This is the same Harry Turner Australian intelligence document, which Grusch cites, about US anti-gravity research.",
+      "as_told": {
+        "title": "Harry Turner documents on UNC anti-gravity research",
+        "years": {
+          "from": 1950,
+          "to": 1959
+        },
+        "place_text": "University of North Carolina, Chapel Hill",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 4.0,
+  "score": 7.0,
   "profile": {
     "independent_tellers": 3,
     "firsthand": 0,
@@ -204,7 +359,7 @@
     "researcher": 3,
     "host": 0,
     "documents": 0,
-    "credited_documents": 5,
+    "credited_documents": 11,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -215,13 +370,18 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "5udx_SDdL3Y",
+      "G7Ns4Aq1tVc",
+      "Jpf0ZGY87c0",
+      "RTEWLSTyUic",
       "V00WcEiKRAY",
+      "bM18PJY6_Zc",
       "bVhSPH2A5Vw",
       "fzvwBBSmWYA",
       "xnxasfyHtfo"
     ]
   },
-  "attestation": 2.0,
+  "attestation": 3.5,
   "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, often points to a document from 1971 written by Harry Turner, who he says headed the nuclear section of Australia's Joint Intelligence Organisation, the country's defence intelligence agency. According to Michels, the document says that from the 1950s onward leading American physicists, including Robert Oppenheimer, Edward Teller, John Wheeler and Freeman Dyson, were involved in secret research into anti-gravity tied to UFOs. He says Turner urged the Australian government to put more effort into UFO research. Michels adds that the paper discusses crash retrievals, meaning the recovery of downed craft. He says it calls Blue Book, the US Air Force's UFO study of the 1950s and 60s, a public relations job, and names outposts of the CIA's Office of Scientific Intelligence, including one at the University of North Carolina at Chapel Hill. He also says it mentions an inventor, Townsend Brown. A journalist, Ross Coulthart, tells it too but dates the report to 1972 and says it describes a UFO flying squad. A commentator, Eric Weinstein, also brings it up, naming the physicists Arnowitt and Deser, and Michels says the whistleblower David Grusch cites it often. If true, it would mean a close US ally's own intelligence service recorded secret American work on UFOs."
 }

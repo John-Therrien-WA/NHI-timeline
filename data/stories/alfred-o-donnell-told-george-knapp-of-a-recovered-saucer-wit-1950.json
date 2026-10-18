@@ -51,33 +51,59 @@
         "place_text": "Area 51 adjacent site, Nevada",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "TNtlzEnl8rA",
+      "from_s": 1854.0,
+      "to_s": 1869.0,
+      "teller": "jesse-michels",
+      "quote": "And in 2023, George Nap was informed by a senior EG&G [music] manager, Alfred O'Donnell, that they had recovered a flying saucer in New Mexico and had a live being that had humanlike features.",
+      "kind": "host",
+      "cites": [
+        "george-knapp",
+        "alfred-o-donnell"
+      ],
+      "documents": [],
+      "difference": "Says the saucer was recovered in New Mexico, that the being had humanlike features, and dates the conversation to 2023; it gives no 1950s Area 51 placement.",
+      "link_reason": "This is the same account of EG&G's Alfred O'Donnell telling George Knapp about a recovered saucer with a live being.",
+      "as_told": {
+        "title": "EG&G manager tells Knapp of New Mexico saucer and live being",
+        "years": {
+          "from": 2023,
+          "to": 2023
+        },
+        "place_text": "New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "uapgerb"
     ],
     "episodes": [
+      "TNtlzEnl8rA",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.6,
+  "tier": "told-by-several",
   "plain": "A commentator who goes by the online name UAPGerb told a podcast host, Jesse Michels, in 2026 that a man named Alfred O'Donnell once told a journalist, George Knapp, about a recovered saucer with \"live biologics,\" meaning living beings, kept in the 1950s at a site next to Area 51, a secret military test base in Nevada. In a second telling, UAPGerb adds that O'Donnell said the saucer was moved there in 1954. If true, it would mean the US government held a crashed craft and living occupants for decades."
 }

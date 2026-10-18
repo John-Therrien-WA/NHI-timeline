@@ -23,33 +23,56 @@
         "book-of-enoch",
         "ezekiel"
       ]
+    },
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 3732.0,
+      "to_s": 3738.0,
+      "teller": "jack",
+      "quote": "uh the the Randall Carlson stuff and the Graham Hancock stuff, the reset 12,000 years ago,",
+      "kind": "researcher",
+      "cites": [
+        "randall-carlson",
+        "graham-hancock"
+      ],
+      "documents": [],
+      "difference": "Credits Randall Carlson and Graham Hancock and names no impact or flood mechanism.",
+      "link_reason": "Both credit Carlson and Hancock with a civilization reset about 12,000 years ago, which is the Younger Dryas cataclysm.",
+      "as_told": {
+        "title": "Reset event 12,000 years ago",
+        "years": null,
+        "place_text": "Earth",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
     "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "jack",
       "joe-rogan"
     ],
     "episodes": [
+      "8TYMQOUDQBo",
       "C_Na1tI5qpw"
     ]
   },
-  "attestation": 0.85,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "A podcast host, Joe Rogan, says a space rock likely struck the Earth around the Younger Dryas, a sudden cold spell roughly 12,800 years ago, and that nothing could have stopped it. He links the impact to the great flood told of in ancient texts like the Epic of Gilgamesh, the Book of Enoch and the Book of Ezekiel, which would mean an earlier human civilization was wiped out and had to start over."
 }

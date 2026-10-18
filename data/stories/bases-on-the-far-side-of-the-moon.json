@@ -1,0 +1,73 @@
+{
+  "id": "bases-on-the-far-side-of-the-moon",
+  "title": "Bases on the far side of the Moon",
+  "summary": "John Brandenburg tells of Bases on the far side of the Moon, about unspecified at The far side of the moon, and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "moon-far-side",
+  "place_text": "Far side of the Moon",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 3369.0,
+      "to_s": 3380.0,
+      "teller": "john-brandenburg",
+      "quote": "So, you would have bases there, but you have them on the far side interestingly enough. It's almost as if you're afraid we'll see them.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "episode": "bM18PJY6_Zc",
+      "from_s": 8075.0,
+      "to_s": 8082.0,
+      "teller": "chris-bledsoe",
+      "quote": "And from what I've seen, there is something behind it hidden back there.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "moon-photos"
+      ],
+      "difference": "Bledsoe says 'something', not bases, and rests it on photos he has seen.",
+      "link_reason": "Both claim something is hidden on the far side of the Moon, out of our sight.",
+      "as_told": {
+        "title": "Something hidden on the far side of the Moon",
+        "years": null,
+        "place_text": "Far side of the Moon",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 3.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "chris-bledsoe",
+      "john-brandenburg"
+    ],
+    "episodes": [
+      "bM18PJY6_Zc",
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 1.5,
+  "tier": "well-attested",
+  "plain": "This is the idea that someone has built bases on the far side of the Moon, the half we never see from Earth. A researcher named John Brandenburg puts it forward on a podcast. He says that if you had bases on the Moon, you would put them on the far side, almost as if you were afraid we would see them. A second man, Chris Bledsoe, who says he has had many encounters with unexplained lights, backs up part of it from his own looking. Bledsoe says that, from moon photos he has seen, something is hidden back there. He speaks of \"something\" rather than bases. If either is right, someone other than us is active on the Moon and keeping out of sight."
+}

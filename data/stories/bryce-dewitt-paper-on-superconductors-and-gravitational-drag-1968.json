@@ -1,0 +1,69 @@
+{
+  "id": "bryce-dewitt-paper-on-superconductors-and-gravitational-drag-1968",
+  "title": "Bryce DeWitt paper on superconductors and gravitational drag",
+  "summary": "Jesse Michels tells of Bryce DeWitt paper on superconductors and gravitational drag, about 1968 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1968,
+    "to": 1968
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "8TYMQOUDQBo",
+      "from_s": 5706.0,
+      "to_s": 5715.0,
+      "teller": "jesse-michels",
+      "quote": "I wanted to ask you uh Bryce Dit in 1968 writes a paper about uh superconductors and gravitational drag.",
+      "kind": "host",
+      "cites": [
+        "bryce-dewitt"
+      ],
+      "documents": [
+        "bryce-dewitt-paper-on-superconductors-and-gravitational-drag"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "condon-report-closes-blue-book-1968",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "robert-f-kennedy-s-1968-letter-to-a-ufo-researcher",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "8TYMQOUDQBo"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says that in 1968 a scientist named Bryce DeWitt wrote a paper on superconductors, materials that carry electricity with no loss when very cold, and on a kind of gravitational drag linked to them. Michels brings it up while interviewing Salvatore Pais, a Navy scientist known for patents on unusual, UFO-like craft. He raises it as possible early science that would bear on controlling gravity, if the idea holds."
+}

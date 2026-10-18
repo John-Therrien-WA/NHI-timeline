@@ -1,0 +1,107 @@
+{
+  "id": "lazar-s-file-says-humans-are-containers-1987",
+  "title": "Lazar's file says humans are containers",
+  "summary": "Brigham Buhler tells of Lazar's file says humans are containers, about late 1980s at S-4, Nevada, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1987,
+    "to": 1989
+  },
+  "place": null,
+  "place_text": "S-4, Nevada",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 2812.0,
+      "to_s": 2818.0,
+      "teller": "brigham-buhler",
+      "quote": "Freaks me out cuz then you go to like what Bob Lazar said that he was given in that file and he doesn't know if it's real or not.",
+      "kind": "secondhand",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [
+        "s-4-briefing-file"
+      ]
+    },
+    {
+      "episode": "q7Czo77qhHA",
+      "from_s": 2857.0,
+      "to_s": 2863.0,
+      "teller": "bob-lazar",
+      "quote": "That we're containers. That's how that's how supposedly the aliens look at us. That we are nothing but containers.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [
+        "s-4-briefing-file"
+      ],
+      "difference": "Told first hand by Lazar, who adds that religion was created to protect the containers.",
+      "link_reason": "Lazar tells first hand the same 'humans are containers' passage that telling 7 relays.",
+      "as_told": {
+        "title": "Lazar on the briefing document: humans are containers, religion created to protect them",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "S-4, Nevada",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 14961.0,
+      "to_s": 14965.0,
+      "teller": "tim-alberino",
+      "quote": "The in the initial briefing that he got, I'm not sure how much of that was true.",
+      "kind": "researcher",
+      "cites": [
+        "bob-lazar"
+      ],
+      "documents": [
+        "ufo-bible-briefing-material"
+      ],
+      "difference": "Calls it the 'UFO Bible' briefing and does not mention the humans-as-containers claim.",
+      "link_reason": "Both are about the briefing file Lazar was given at S-4, and both doubt whether it was true.",
+      "as_told": {
+        "title": "Lazar's testimony and the briefing material he was given",
+        "years": {
+          "from": 1987,
+          "to": 1989
+        },
+        "place_text": "S-4, Nevada",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 1,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 2,
+    "contradicted": false,
+    "strongest_kind": "firsthand",
+    "tellers": [
+      "bob-lazar"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg",
+      "q7Czo77qhHA"
+    ]
+  },
+  "attestation": 1.25,
+  "tier": "told-once",
+  "plain": "Bob Lazar, a man who says he worked on alien craft in the late 1980s at a secret site in Nevada called S-4, says a briefing file he was given there claimed that the aliens see humans as nothing but \"containers,\" and he adds that religion was created to protect those containers. A podcast guest named Brigham Buhler repeats this, noting Lazar himself does not know if the file was real, and a researcher named Tim Alberino calls the material the \"UFO Bible\" briefing, also unsure how much was true. If true, it would mean the aliens view people as vessels rather than equals."
+}

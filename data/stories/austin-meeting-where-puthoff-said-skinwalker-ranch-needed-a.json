@@ -25,18 +25,66 @@
         "john-alexander"
       ],
       "documents": []
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 4518.0,
+      "to_s": 4530.0,
+      "teller": "jesse-michels",
+      "quote": "Peter Levendo is a past guest on the show and he described a meeting with Chris Mellon and Hal Puthoff where Skinwalker Ranch comes up and he has to leave the meeting because he doesn't have the proper clearances.",
+      "kind": "secondhand",
+      "cites": [
+        "peter-levendo",
+        "chris-mellon",
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Told secondhand by Jesse Michels, who adds that Levenda had to leave the meeting for lack of clearances.",
+      "link_reason": "The same meeting with Mellon and Puthoff where Skinwalker Ranch came up and the subject needed clearance, which Levenda describes in the existing story.",
+      "as_told": {
+        "title": "Peter Levenda asked to leave meeting when Skinwalker Ranch came up",
+        "years": null,
+        "place_text": "meeting with Chris Mellon and Hal Puthoff",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 4528.0,
+      "to_s": 4539.0,
+      "teller": "peter-levenda",
+      "quote": "We asked about something concerning Skinwalker Ranch and an appearance at Skinwalker Ranch and the equipment that was there. They all got silent.",
+      "kind": "firsthand",
+      "cites": [
+        "chris-mellon",
+        "hal-puthoff"
+      ],
+      "documents": [],
+      "difference": "Says they asked about an appearance and equipment at the ranch and everyone went silent; doesn't mention the SCIF remark.",
+      "link_reason": "Levenda's own account of the same Mellon/Puthoff meeting where the Skinwalker question was met with secrecy.",
+      "as_told": {
+        "title": "Silence over Skinwalker Ranch appearance and equipment",
+        "years": null,
+        "place_text": "meeting with Chris Mellon and Hal Puthoff",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "episode": "Y7PLeu5rTv4",
+        "from_s": 14104.0
+      },
+      "teller_was": "peter-levendo"
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -45,13 +93,15 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "jesse-michels",
       "peter-levenda"
     ],
     "episodes": [
-      "Y7PLeu5rTv4"
+      "Y7PLeu5rTv4",
+      "uYyXpx7ADJQ"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 1.5,
+  "tier": "well-attested",
   "plain": "A writer named Peter Levenda, speaking on Jesse Michels's podcast, says he was at a meeting in Austin, Texas, with a group that included Tom DeLonge, Chris Mellon, Hal Puthoff, Jacques Vallee and John Alexander, where the talk turned to Skinwalker Ranch, a property in Utah known for reports of strange happenings. Levenda says Puthoff finally looked around and said they would need a SCIF, a specially secured room for classified discussions, for this one, which would suggest that what was known about the ranch was too sensitive to say out loud."
 }

@@ -1,0 +1,57 @@
+{
+  "id": "morgan-says-brown-was-cia-research-1950",
+  "title": "Morgan says Brown was CIA research",
+  "summary": "Jan Lundquist tells of Morgan says Brown was CIA research, about 1950s-1970s at United States (no place named), and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1950,
+    "to": 1979
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4044.0,
+      "to_s": 4051.0,
+      "teller": "jan-lundquist",
+      "quote": "Morgan has told Paul that Townsend was basically CIA research.",
+      "kind": "secondhand",
+      "cites": [
+        "morgan",
+        "paul-schatzkin"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "jan-lundquist"
+    ],
+    "episodes": [
+      "RTEWLSTyUic"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Jan Lundquist, who appears in a documentary about the inventor Townsend Brown, an American who built devices some say were early flying saucer technology, speaks on podcast host Jesse Michels' show. Lundquist says that a man named Morgan told Paul Schatzkin, a writer who studied Brown's life, that Brown's work was basically CIA research. If true, it would mean the US spy agency was quietly behind Brown's work from the 1950s on."
+}

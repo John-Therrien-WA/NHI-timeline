@@ -24,33 +24,84 @@
       "documents": [
         "1971-salt-treaty"
       ]
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 7596.0,
+      "to_s": 7610.0,
+      "teller": "jesse-michels",
+      "quote": "salt, this is even public, this is open\nsource in the salt one negotiations. I\nthink it was 1971 treaty. We're talking\nabout coordinating with the Russians on\nthe UFO question because we were worried\nthat they'd mistake it for American acts\nof aggression.",
+      "kind": "host",
+      "cites": [
+        "john-f-kennedy"
+      ],
+      "documents": [
+        "salt-i-treaty"
+      ],
+      "difference": "Spells out the motive: fear the Soviets would take UFOs for American aggression. Also credits JFK.",
+      "link_reason": "Both are about the 1971 SALT treaty's language on coordinating with the Soviets over UFOs so they would not be mistaken for attacks.",
+      "as_told": {
+        "title": "SALT I talks on coordinating with Russia over UFOs",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "United States / Soviet Union",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "lbGE3EC6StE",
+      "from_s": 1536.0,
+      "to_s": 1546.0,
+      "teller": "jesse-michels",
+      "quote": "language that was used in the 1971 salt talks where on record we're saying that we have to coordinate with the Soviets on unknowns in their airspace",
+      "kind": "host",
+      "cites": [],
+      "documents": [
+        "1971-salt-talks-record"
+      ],
+      "difference": "Told by Jesse Michels rather than Pippa Malmgren, and states the content as coordinating over unknowns in Soviet airspace.",
+      "link_reason": "Same 1971 SALT treaty language on coordinating, or deconflicting, with the Soviets over unknowns.",
+      "as_told": {
+        "title": "1971 SALT-era language on coordinating with the Soviets over unknowns",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "United States / Soviet Union",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "jesse-michels",
       "pippa-malmgren"
     ],
     "episodes": [
-      "09KP8XVf5nY"
+      "09KP8XVf5nY",
+      "lbGE3EC6StE",
+      "nTiFs8LudUo"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "Pippa Malmgren, whose father Harald Malmgren was a presidential adviser, points on Jesse Michels's podcast to a 1971 agreement between the United States and the Soviet Union, which she calls the SALT treaty, a deal on limiting nuclear weapons. According to her, it contained \"deconfliction\" wording, meaning wording meant to stop either side from mistaking something for an attack. In the context of the conversation, she offers it as a hint that the two powers had to plan around things in the sky."
 }

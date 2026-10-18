@@ -26,6 +26,31 @@
       "documents": [
         "sac-letter-on-sac-stationery"
       ]
+    },
+    {
+      "episode": "zjpvfDFc4fg",
+      "from_s": 3111.0,
+      "to_s": 3120.0,
+      "teller": "jesse-michels",
+      "quote": "But Lavenda has said that he's personally received letters from inside the US military praising the Necronomicon for being {quote} spot on,",
+      "kind": "secondhand",
+      "cites": [
+        "peter-levenda"
+      ],
+      "documents": [
+        "necronomicon"
+      ],
+      "difference": "Speaks of several letters, adds Fort Benning, and says the military called the book 'spot on' where the story has a simple congratulations.",
+      "link_reason": "Both tell of Levenda receiving military praise, including from Strategic Air Command, for his Necronomicon.",
+      "as_told": {
+        "title": "Military letters praising Levenda's Necronomicon",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Strategic Air Command; Fort Benning",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -42,14 +67,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "peter-levenda"
     ],
     "episodes": [
-      "Y7PLeu5rTv4"
+      "Y7PLeu5rTv4",
+      "zjpvfDFc4fg"
     ]
   },
   "attestation": 1.25,

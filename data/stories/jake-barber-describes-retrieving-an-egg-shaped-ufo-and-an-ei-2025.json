@@ -48,6 +48,52 @@
         "place_text": "unspecified",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 231.0,
+      "to_s": 243.0,
+      "teller": "jesse-michels",
+      "quote": "retrieving UFOs and um he has come out with the story via me and uh Ross Kart and talked about retrieving an egg-shaped craft and then an eight gon",
+      "kind": "host",
+      "cites": [
+        "jake-barber",
+        "ross-coulthart"
+      ],
+      "documents": [],
+      "difference": "Says 'octagonal' where the story stresses that the craft is not quite an octagon, and leaves out the black metallic description.",
+      "link_reason": "Both are Jesse Michels relaying Jake Barber's account, which came out through Ross Coulthart, of retrieving an egg-shaped craft and an eight-sided craft.",
+      "as_told": {
+        "title": "Jake Barber retrieved an egg-shaped craft and an octagonal craft",
+        "years": {
+          "from": 2025,
+          "to": 2025
+        },
+        "place_text": "unspecified",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 4503.0,
+      "to_s": 4508.0,
+      "teller": "jesse-michels",
+      "quote": "he basically said that he retrieved a couple of crafts. One was an eightgone shaped.",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber",
+        "ross-coldart",
+        "northrup-grumman"
+      ],
+      "documents": [],
+      "difference": "Credits Northrop Grumman.",
+      "link_reason": "Both are Jesse Michels relaying Barber's retrieval of an egg-shaped craft and an eight-sided craft.",
+      "as_told": {
+        "title": "Jake Barber's crash retrievals of an eight-sided craft and an egg-shaped craft",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -72,6 +118,8 @@
     ],
     "episodes": [
       "9QMrhcpJq8I",
+      "PiFbeWfA3LM",
+      "yAvD5UTziTo",
       "y_8IKKcTntQ"
     ]
   },

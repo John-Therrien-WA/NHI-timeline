@@ -1,0 +1,53 @@
+{
+  "id": "ancient-architects-on-the-giza-water-table",
+  "title": "Ancient Architects on the Giza water table",
+  "summary": "Jeffrey tells of Ancient Architects on the Giza water table, about present at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Giza Plateau, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 12464.0,
+      "to_s": 12475.0,
+      "teller": "jeffrey",
+      "quote": "So this is courtesy of Ancient Architects, another individual in the community who basically debunked debunked the study.",
+      "kind": "researcher",
+      "cites": [
+        "ancient-architects"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.5,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.25,
+  "tier": "told-once",
+  "plain": "A researcher named Jeffrey, on Jesse Michels's podcast in 2026, discusses a study claiming a huge energy network lies beneath the pyramids of Giza in Egypt. He says another figure in the same community, who goes by Ancient Architects, debunked that study using the water table, the level of underground water beneath the site."
+}

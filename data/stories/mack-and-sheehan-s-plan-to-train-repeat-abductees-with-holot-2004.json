@@ -24,6 +24,29 @@
         "john-mack"
       ],
       "documents": []
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 3046.0,
+      "to_s": 3053.0,
+      "teller": "daniel-sheehan",
+      "quote": "running the peer group the project for Extraordinary experience research uh and that I was legal counsel for the group",
+      "kind": "firsthand",
+      "cites": [
+        "john-mack"
+      ],
+      "documents": [],
+      "difference": "Names the PEER group and stresses training abductees to question their abductors, without mentioning holotropic breathing.",
+      "link_reason": "Both describe the program Sheehan and Mack ran to train repeat abductees; this telling names it PEER, with Sheehan as legal counsel.",
+      "as_told": {
+        "title": "PEER project trains abductees to question their abductors",
+        "years": {
+          "from": 1990,
+          "to": 2009
+        },
+        "place_text": "Project for Extraordinary Experience Research",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -47,6 +70,7 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },

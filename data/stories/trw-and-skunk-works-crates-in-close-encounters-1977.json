@@ -7,7 +7,7 @@
     "from": 1977,
     "to": 1977
   },
-  "place": null,
+  "place": "united-states",
   "place_text": "Close Encounters of the Third Kind",
   "coordinates": null,
   "kind": "theory",
@@ -24,11 +24,63 @@
         "steven-spielberg"
       ],
       "documents": []
+    },
+    {
+      "episode": "JE1oM89dpBc",
+      "from_s": 1644.0,
+      "to_s": 1652.0,
+      "teller": "jesse-michels",
+      "quote": "You have the crates that say TRW and Skunk Works in the late 80s when nobody really knew that much about those two frontier R&D.",
+      "kind": "host",
+      "cites": [
+        "steven-spielberg"
+      ],
+      "documents": [
+        "close-encounters-of-the-third-kind"
+      ],
+      "difference": "Says nobody knew much about the two firms 'in the late 80s', even though the film is from 1977.",
+      "link_reason": "Both are about the TRW and Skunk Works crates seen in Close Encounters, told by Jesse Michels.",
+      "as_told": {
+        "title": "TRW and Skunk Works crates in Close Encounters",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "Close Encounters of the Third Kind (film)",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 370.0,
+      "to_s": 382.0,
+      "teller": "jesse-michels",
+      "quote": "shows crates in Close Encounters of the Third Kind with the names Loheed and TRW, two likely active legacy UFO crash retrieval programs at the time of the movie's making.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Names Lockheed rather than Skunk Works and says both firms likely ran legacy crash-retrieval programs.",
+      "link_reason": "Both are about the corporate crates shown in Close Encounters of the Third Kind.",
+      "as_told": {
+        "title": "Lockheed and TRW crates in Close Encounters as crash retrieval hints",
+        "years": {
+          "from": 1977,
+          "to": 1977
+        },
+        "place_text": "USA",
+        "story_kind": "theory"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "close-encounters-as-a-celebration-of-an-accommodation-with-t-1977",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -39,7 +91,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -47,10 +99,12 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "JE1oM89dpBc",
+      "ScE9FaDy-mE"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, points out that in Close Encounters of the Third Kind, Steven Spielberg's 1977 film about humans meeting aliens, some crates are marked TRW and Skunk Works. TRW was a defence company, and Skunk Works is Lockheed's secret aircraft design unit. Michels finds this fascinating because it hints that the film may have been nodding at real secret UFO work by those firms."
 }

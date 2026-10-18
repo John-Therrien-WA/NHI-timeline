@@ -49,6 +49,53 @@
         "place_text": "United States",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 10929.0,
+      "to_s": 10941.0,
+      "teller": "john-blitch",
+      "quote": "White Sands would be a natural\nplace to do that right and then we're\ncranking up the power again and the next\nthing you know we shoot on a flying\nsaucer happens to be during a storm",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds that the radar was moved to the desert and powered up, and that the craft came down in a storm.",
+      "link_reason": "The same 1947 claim that powerful radars at White Sands and Roswell brought down saucers.",
+      "as_told": {
+        "title": "Radar moved to the desert shoots down saucer in storm",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "White Sands / Roswell, New Mexico",
+        "story_kind": "theory"
+      }
+    },
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 5500.0,
+      "to_s": 5507.0,
+      "teller": "jesse-michels",
+      "quote": "the conventional story in Philip J. Corso's account and others is that it's some sort of high-powered radar directed energy attack.",
+      "kind": "host",
+      "cites": [
+        "philip-corso",
+        "steven-greer"
+      ],
+      "documents": [
+        "the-day-after-roswell"
+      ],
+      "difference": "Credits Corso's The Day After Roswell and calls it a directed-energy attack, where the story's tellings credit Jason Sands and speak of radar disrupting flight paths.",
+      "link_reason": "Both say high-powered radar at Roswell interfered with the 1947 craft and caused the crash.",
+      "as_told": {
+        "title": "Corso's account: Roswell downed by radar directed-energy attack",
+        "years": {
+          "from": 1947,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [
@@ -131,34 +178,102 @@
       "story": "roswell-flying-disc-announcement-then-retraction-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "alien-bodies-and-a-live-gray-recovered-at-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fort-worth-general-orders-blanchard-it-s-a-weather-balloon-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "jesse-marcel-s-unbendable-foil-thin-metal-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-crash-caused-by-radio-signatures-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-held-the-most-us-nukes-in-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-s-shifting-official-stories-including-the-progeria-c-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-the-world-s-only-nuclear-bomber-base-couldn-t-tell-a-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-in-the-hangar-had-the-bathroom-on-the-other-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "roswell-wreckage-rumoured-at-wright-patterson-lab-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "serpo-alien-language-decoded-from-a-live-ebe-recovered-at-ro-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tim-taylor-places-piece-of-roswell-crash-in-bledsoe-s-hand-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "two-saucers-at-roswell-left-melted-fiber-optics-that-looked-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "washington-quickly-ordered-roswell-bottled-up-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels",
+      "john-blitch",
       "uapgerb"
     ],
     "episodes": [
       "9QMrhcpJq8I",
-      "u7g5Sn1DJF4"
+      "p0S0BfoZy0w",
+      "u7g5Sn1DJF4",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-by-several",
+  "attestation": 1.25,
+  "tier": "well-attested",
   "plain": "Roswell is a town in New Mexico where many people say a craft crashed in 1947, and White Sands is a nearby military test range. A podcast host, Jesse Michels, passes on what a man named Jason Sands said: that powerful radars at Roswell and White Sands were knocking unknown craft off their flight paths. A commentator who goes by UAPGerb goes further. He says the radar actually caused crashes, that bodies were recovered, and that this was a problem Presidents Harry Truman and Dwight Eisenhower had to face, though he names no bases. If true, it would mean early American radar brought down craft that were not built by people."
 }

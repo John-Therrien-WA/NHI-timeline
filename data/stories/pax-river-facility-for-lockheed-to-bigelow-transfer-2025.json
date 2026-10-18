@@ -17,11 +17,12 @@
       "episode": "A2-y_HasHEw",
       "from_s": 2072.0,
       "to_s": 2083.0,
-      "teller": "eric-burles",
+      "teller": "eric-burlison",
       "quote": "I was able to actually be on site and see the facility that would have been that facility that they were going to transfer from Loheed Martin to Bigalow Airspace.",
       "kind": "firsthand",
       "cites": [],
-      "documents": []
+      "documents": [],
+      "teller_was": "eric-burles"
     },
     {
       "episode": "nRKNVFQBi38",
@@ -66,37 +67,65 @@
         "place_text": "Naval Air Station Patuxent River, Maryland",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "K4gYHs84BIc",
+      "from_s": 4401.0,
+      "to_s": 4413.0,
+      "teller": "eric-burlison",
+      "quote": "I was able to actually be on site and see the facility that would have been that facility that they were going to transfer from Loheed Martin to Bigalow Airspace.",
+      "kind": "firsthand",
+      "cites": [
+        "eric-burlison",
+        "luis-elizondo",
+        "jeremy-corbell"
+      ],
+      "documents": [
+        "imminent"
+      ],
+      "difference": "Here the quote is credited to Jesse Michels firsthand, not Eric Burlison, and no year is given.",
+      "link_reason": "Same quote and the same claim: an on-site visit to the Pax River facility meant to receive the Lockheed Martin to Bigelow transfer.",
+      "as_told": {
+        "title": "Pax River facility for the planned Lockheed Martin to Bigelow transfer",
+        "years": null,
+        "place_text": "Naval Air Station Patuxent River, Maryland",
+        "story_kind": "place-lore"
+      },
+      "replay_of": {
+        "episode": "A2-y_HasHEw",
+        "from_s": 2072.0
+      },
+      "teller_was": "jesse-michels"
     }
   ],
   "related": [],
   "tags": [],
-  "score": 4.0,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 1,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 0,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "eric-burles",
-      "jesse-michels",
-      "matthew-brown"
+      "eric-burlison"
     ],
     "episodes": [
       "A2-y_HasHEw",
+      "K4gYHs84BIc",
       "nRKNVFQBi38",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 2.0,
-  "tier": "well-attested",
+  "attestation": 1.25,
+  "tier": "told-once",
   "plain": "A US congressman, Eric Burlison, says that in 2025 he went to Naval Air Station Patuxent River in Maryland, a major Navy aviation base known as Pax River. He says he stood on site and saw the facility that something was going to be moved to, in a transfer from Lockheed Martin, a big defence contractor, to Bigelow Aerospace, a company owned by businessman Robert Bigelow. A podcast host, Jesse Michels, relays it second-hand. He says Burlison called Pax River probably the most advanced naval aviation site in the country, and said that if anyone were storing a craft, it would be there. A Pentagon whistleblower, Matthew Brown, also retells it. He notes that Burlison got the tour but was shown nothing that looked like technology of unknown origin. If true, it would point to a real place where non-human technology might be kept."
 }

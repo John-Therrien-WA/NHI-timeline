@@ -1,0 +1,80 @@
+{
+  "id": "von-neumann-starts-talking-about-self-replicating-machines-i-1948",
+  "title": "Von Neumann starts talking about self-replicating machines in 1948",
+  "summary": "Deep Prasad tells of Von Neumann starts talking about self-replicating machines in 1948, about 1948 at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1948,
+    "to": 1948
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 60.0,
+      "to_s": 71.0,
+      "teller": "deep-prasad",
+      "quote": "When you look at John Vonoyman's lectures, nothing to do with aliens. Suddenly 1948, one year after Roswell, he's talking about vonoyman [music] machines like it's his job.",
+      "kind": "researcher",
+      "cites": [
+        "john-von-neumann"
+      ],
+      "documents": []
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 6140.0,
+      "to_s": 6151.0,
+      "teller": "unnamed-guest",
+      "quote": "Suddenly 1948, one year after Roswell and 1949, he's talking about vonoyman machines like it's his job, right?",
+      "kind": "researcher",
+      "cites": [
+        "john-von-neumann"
+      ],
+      "documents": [],
+      "difference": "Adds 1949 alongside 1948.",
+      "link_reason": "Same claim: von Neumann suddenly starts lecturing on self-replicating machines in 1948, a year after Roswell.",
+      "as_told": {
+        "title": "Von Neumann starts lecturing on self-replicating machines after Roswell",
+        "years": {
+          "from": 1948,
+          "to": 1949
+        },
+        "place_text": "USA",
+        "story_kind": "theory"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "deep-prasad",
+      "unnamed-guest"
+    ],
+    "episodes": [
+      "h6zMVkncTsE"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-by-several",
+  "plain": "A researcher named Deep Prasad, speaking on Jesse Michels's podcast in 2026, talks about John von Neumann, a famous mathematician. Prasad says von Neumann's earlier lectures had nothing to do with aliens. Then suddenly, in 1948, a year after Roswell, the reported 1947 crash of a flying saucer in New Mexico, he started talking nonstop about machines that build copies of themselves, now called von Neumann machines. A guest on the same episode tells it the same way and adds 1949 as well. The suggestion is that, if true, his new ideas might have been inspired by something recovered from that crash."
+}

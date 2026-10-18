@@ -1,0 +1,83 @@
+{
+  "id": "doty-shows-linda-moulton-howe-documents-including-project-ga-1982",
+  "title": "Doty shows Linda Moulton Howe documents including Project Garnet",
+  "summary": "Jesse Michels tells of Doty shows Linda Moulton Howe documents including Project Garnet, about 1982 at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1982,
+    "to": 1982
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 3671.0,
+      "to_s": 3677.0,
+      "teller": "jesse-michels",
+      "quote": "1982 Rick Dodie gets in touch with another UFO researcher Linda Molton How",
+      "kind": "host",
+      "cites": [
+        "rick-doty",
+        "linda-moulton-howe"
+      ],
+      "documents": [
+        "project-garnet"
+      ]
+    },
+    {
+      "episode": "WBTqsbwJyqU",
+      "from_s": 3712.0,
+      "to_s": 3727.0,
+      "teller": "greg-bishop",
+      "quote": "She was very excited. I I actually talked to Tom Adams. Uhhuh. I think afterwards who was a catamulation researcher and she went up and visited them right the like a couple days after that and she was like over the moon.",
+      "kind": "secondhand",
+      "cites": [
+        "tom-adams"
+      ],
+      "documents": [],
+      "difference": "Told secondhand through Tom Adams, adding that Howe was 'over the moon' and went to visit them a couple of days later.",
+      "link_reason": "This is Howe's excited reaction after being approached by Doty's sources, the same episode telling 5 describes.",
+      "as_told": {
+        "title": "Researcher visits Doty-linked sources and 'takes the bait'",
+        "years": {
+          "from": 1980,
+          "to": 1989
+        },
+        "place_text": "unspecified (Bennewitz/Project Beta context)",
+        "story_kind": "testimony"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.7,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "greg-bishop",
+      "jesse-michels"
+    ],
+    "episodes": [
+      "WBTqsbwJyqU"
+    ]
+  },
+  "attestation": 0.85,
+  "tier": "well-attested",
+  "plain": "This story is about a moment in 1982 when a man named Rick Doty, a figure well known in UFO circles, contacted a UFO researcher named Linda Moulton Howe. A podcast host, Jesse Michels, says Doty showed her documents, including one about something called Project Garnet. A writer and guest on the show, Greg Bishop, adds what he heard from Tom Adams, a researcher who studied mysterious deaths and mutilations of cattle. According to Adams, Howe visited him a couple of days afterward and was thrilled, \"over the moon,\" about what she had seen. The story matters because, if the documents were real, they would have shown a researcher secret government papers about UFOs."
+}

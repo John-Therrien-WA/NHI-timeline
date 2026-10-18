@@ -67,6 +67,48 @@
         "episode": "dnnpyNuPdXs",
         "from_s": 3836.0
       }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 669.0,
+      "to_s": 671.0,
+      "teller": "john-blitch",
+      "quote": "about that feeling of love coming from",
+      "kind": "secondhand",
+      "cites": [
+        "jake-barber"
+      ],
+      "documents": [],
+      "difference": "Told second hand by John Blitch, who calls the feeling 'love'.",
+      "link_reason": "Both are about Barber's emotional link with the eight-gon craft he recovered, the overwhelming feminine or loving feeling coming from it.",
+      "as_told": {
+        "title": "Barber felt love coming from the octagon-shaped craft",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "testimony"
+      }
+    },
+    {
+      "episode": "ScE9FaDy-mE",
+      "from_s": 538.0,
+      "to_s": 550.0,
+      "teller": "jake-barber",
+      "quote": "of Jake Barber. I felt that there was something conscious about the craft um during the recovery process that had tapped into me",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Does not name which craft; says the craft itself was conscious and had tapped into him.",
+      "link_reason": "Both have Barber feeling a conscious link with a craft while recovering it. In the eight-gon story he locked onto the craft with his consciousness.",
+      "as_told": {
+        "title": "Jake Barber senses a conscious craft during recovery",
+        "years": null,
+        "place_text": "unspecified",
+        "story_kind": "crash-retrieval"
+      },
+      "replay_of": {
+        "episode": "dnnpyNuPdXs",
+        "from_s": 3524.0
+      }
     }
   ],
   "related": [],
@@ -83,7 +125,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -92,7 +134,9 @@
     "episodes": [
       "9QMrhcpJq8I",
       "OOr98r51Sj0",
-      "dnnpyNuPdXs"
+      "ScE9FaDy-mE",
+      "dnnpyNuPdXs",
+      "yAvD5UTziTo"
     ]
   },
   "attestation": 1.0,

@@ -24,33 +24,76 @@
         "ian-stevenson"
       ],
       "documents": []
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 6490.0,
+      "to_s": 6501.0,
+      "teller": "ky-dickens",
+      "quote": "from the University of Virginia he was studying past lives and children and when he went to India and he was like I'm trying to prove you know past lives they're like why are you trying to prove that we already know it's real",
+      "kind": "secondhand",
+      "cites": [
+        "ian-stevenson"
+      ],
+      "documents": [],
+      "difference": "Adds his fieldwork in India, where locals asked why he needed to prove what they already knew.",
+      "link_reason": "Same story: Ian Stevenson's University of Virginia research into children's past-life memories.",
+      "as_told": {
+        "title": "Ian Stevenson's past-life research in India",
+        "years": null,
+        "place_text": "India; University of Virginia",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "ABw7EsWh2Us",
+      "from_s": 9518.0,
+      "to_s": 9530.0,
+      "teller": "jason-jorjani",
+      "quote": "if you look at Dr. Dr. Ian Stevenson's extremely rigorous research on reincarnation that he did at the University of Virginia for decades on children's spontaneous memories of past lives.",
+      "kind": "researcher",
+      "cites": [
+        "ian-stevenson"
+      ],
+      "documents": [],
+      "difference": "Stresses that the research was rigorous and went on for decades, but gives no case count.",
+      "link_reason": "Both describe Ian Stevenson's decades of research at the University of Virginia on children's spontaneous memories of past lives.",
+      "as_told": {
+        "title": "Ian Stevenson's reincarnation research at the University of Virginia",
+        "years": null,
+        "place_text": "University of Virginia",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "jason-jorjani"
+      "jason-jorjani",
+      "ky-dickens"
     ],
     "episodes": [
+      "0qlppHc3-gg",
+      "ABw7EsWh2Us",
       "EzPmG_7WhXc"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.75,
+  "tier": "told-by-several",
   "plain": "Jason Jorjani, a philosopher, says on Jesse Michels's podcast that Dr. Ian Stevenson, a researcher at the University of Virginia, gathered hundreds and hundreds of cases of young children who suddenly remembered past lives. He places this work from the 1960s through the 1980s. He tells it as evidence that the mind may outlive the body, which would change how we think about death."
 }

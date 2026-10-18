@@ -1,0 +1,56 @@
+{
+  "id": "einstein-s-deathbed-breakthrough-1955",
+  "title": "Einstein's deathbed breakthrough",
+  "summary": "John Brandenburg tells of Einstein's deathbed breakthrough, about 1955 at Princeton, New Jersey, and relays what a named person told them. As told, not a fact.",
+  "era": "cold-war-early",
+  "years": {
+    "from": 1955,
+    "to": 1955
+  },
+  "place": null,
+  "place_text": "Princeton, New Jersey",
+  "coordinates": null,
+  "kind": "testimony",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "p0S0BfoZy0w",
+      "from_s": 1114.0,
+      "to_s": 1124.0,
+      "teller": "john-brandenburg",
+      "quote": "there's a saying that on his deathbed he suddenly became ecstatic and was started talking excitedly to his nurse in German.",
+      "kind": "secondhand",
+      "cites": [
+        "albert-einstein"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "john-brandenburg"
+    ],
+    "episodes": [
+      "p0S0BfoZy0w"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "A physicist named John Brandenburg, on Jesse Michels's podcast, passes on a saying about Albert Einstein's death in Princeton, New Jersey, in 1955. According to the saying, on his deathbed Einstein suddenly became ecstatic and started talking excitedly to his nurse in German. Brandenburg tells it as a hint that Einstein may have reached some last breakthrough that was never recorded, since the nurse could not understand him."
+}

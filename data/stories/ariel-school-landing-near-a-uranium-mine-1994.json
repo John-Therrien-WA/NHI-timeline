@@ -188,19 +188,79 @@
         "place_text": "Zimbabwe",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "h3u8EkGI8OQ",
+      "from_s": 5901.0,
+      "to_s": 5912.0,
+      "teller": "chris-ramsay",
+      "quote": "like let's say let's take the Rua Zimbabwe uh experience for example. Those children all kind of drew similar things but they were all different and the stories all varied slightly.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Stresses that the children's drawings and stories were similar but varied slightly.",
+      "link_reason": "Both are about the 1994 Ariel School landing in Ruwa, Zimbabwe, told through the schoolchildren's accounts.",
+      "as_told": {
+        "title": "Ruwa, Zimbabwe: schoolchildren's drawings and accounts differ slightly",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "Ruwa, Zimbabwe",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "1zRWi_r3HRM",
+      "from_s": 1026.0,
+      "to_s": 1037.0,
+      "teller": "jesse-michels",
+      "quote": "In the '90s in Zimbabwe, over 60 schoolchildren all saw a UFO land and an alien descend out of the craft and telepathically speak to them.",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Says over 60 children saw it in the '90s and adds that a being came out and spoke to them telepathically.",
+      "link_reason": "Both tell of the Ariel School landing in Zimbabwe, near a uranium mine, seen by schoolchildren.",
+      "as_told": {
+        "title": "Ariel School landing in Zimbabwe, near a uranium mine",
+        "years": {
+          "from": 1990,
+          "to": 1999
+        },
+        "place_text": "Zimbabwe",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 8757.0,
+      "to_s": 8769.0,
+      "teller": "jesse-michels",
+      "quote": "there's a famous case of 61 school children in Rua Zimbabwe seeing a UFO land and a being coming out and it's right next to a uranium mine",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Gives 61 children and no year.",
+      "link_reason": "Same Ariel School landing at Ruwa, Zimbabwe, where schoolchildren saw a craft land and a being near a uranium mine; the story already includes the uranium mine detail.",
+      "as_told": {
+        "title": "Ruwa school children see a UFO landing",
+        "years": null,
+        "place_text": "Ruwa, Zimbabwe",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 5.7,
+  "score": 6.2,
   "profile": {
-    "independent_tellers": 6,
+    "independent_tellers": 7,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 2,
-    "researcher": 2,
+    "researcher": 3,
     "host": 1,
     "documents": 0,
     "credited_documents": 1,
@@ -208,6 +268,7 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "chris-ramsay",
       "david-grusch",
       "james-fox",
       "jesse-michels",
@@ -218,15 +279,18 @@
     "episodes": [
       "-0g3lLGxNfc",
       "1iaH1a3A4Lk",
+      "1zRWi_r3HRM",
       "Y7PLeu5rTv4",
       "aa9Xx5wI8Rw",
       "bVhSPH2A5Vw",
       "fzvwBBSmWYA",
+      "h3u8EkGI8OQ",
       "hBrfe4hFuM0",
-      "kRO5jOa06Qw"
+      "kRO5jOa06Qw",
+      "nqLnEVcZ8vE"
     ]
   },
-  "attestation": 2.85,
+  "attestation": 3.1,
   "tier": "well-attested",
   "plain": "In 1994, at the Ariel School in Ruwa, Zimbabwe, a group of schoolchildren said they saw a silver craft come down from the sky and land in a field near their school. A podcast host, Jesse Michels, puts the number at 62 and points out that a uranium mine was nearby. If true, a craft landed in front of children close to a source of nuclear material. David Grusch, a man who speaks publicly about secret UFO programs, says about 100 children saw walking, human-like beings he calls NHI, short for non-human intelligence. A man named Karl Nell says beings showed themselves to the children in the middle of the day. A filmmaker, James Fox, says he investigated it himself for a work called The Phenomenon and calls it an alleged landing seen by about 66 children, and he stresses the message the children say they received: \"you don't understand how special you are.\" Others add details: one speaker, Merrick, says the children's drawings were identical, while a writer, Peter Levenda, says their stories do not always match. The tellers disagree on the number of children and on whether beings were seen."
 }

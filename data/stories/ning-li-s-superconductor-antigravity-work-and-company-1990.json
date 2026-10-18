@@ -25,6 +25,30 @@
         "larry-smallley"
       ],
       "documents": []
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2492.0,
+      "to_s": 2505.0,
+      "teller": "jesse-michels",
+      "quote": "publishing that the various masses she tested would lose between 0.5% and 2.1% of their weight across multiple trials.",
+      "kind": "host",
+      "cites": [
+        "ning-li",
+        "douglas-torr"
+      ],
+      "documents": [],
+      "difference": "Gives the published weight losses of 0.5% to 2.1% over several trials and credits Douglas Torr.",
+      "link_reason": "Both are Ning Li's superconductor weight-reduction research at UAH as told by the host.",
+      "as_told": {
+        "title": "Ning Li's superconductor weight loss results",
+        "years": {
+          "from": 1983,
+          "to": 1999
+        },
+        "place_text": "University of Alabama, Huntsville",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -48,6 +72,7 @@
       "jesse-michels"
     ],
     "episodes": [
+      "G7Ns4Aq1tVc",
       "IWui5cBkwoE"
     ]
   },

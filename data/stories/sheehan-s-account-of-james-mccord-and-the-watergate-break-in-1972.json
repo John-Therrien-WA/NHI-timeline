@@ -78,6 +78,31 @@
         "place_text": "Watergate, Washington, DC",
         "story_kind": "theory"
       }
+    },
+    {
+      "episode": "2SQXAPCdmPE",
+      "from_s": 8580.0,
+      "to_s": 8605.0,
+      "teller": "daniel-sheehan",
+      "quote": "was terrified because the guy whose office they were in in the DNC M uh that uh that uh uh Larry O'Brien M before becoming the new head of the DNC to run the campaign against Nixon in 72 had been the the major lobbyist in Washington DC for Howard Hughes",
+      "kind": "researcher",
+      "cites": [
+        "larry-o-brien",
+        "howard-hughes",
+        "richard-nixon"
+      ],
+      "documents": [],
+      "difference": "Says outright that O'Brien was Hughes's main Washington lobbyist before he became head of the DNC, and that Nixon was terrified of this.",
+      "link_reason": "The Sheehan account of the Watergate break-in already holds Sheehan's telling that O'Brien was Hughes's lobbyist and that this was why his office was bugged.",
+      "as_told": {
+        "title": "Larry O'Brien as Howard Hughes lobbyist and the motive for the Watergate break-in",
+        "years": {
+          "from": 1960,
+          "to": 1972
+        },
+        "place_text": "DNC headquarters, Watergate, Washington DC",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -101,6 +126,7 @@
       "daniel-sheehan"
     ],
     "episodes": [
+      "2SQXAPCdmPE",
       "C4rSj5Aum7w",
       "LpLFWdsIU7M",
       "Y7PLeu5rTv4"

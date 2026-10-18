@@ -1,0 +1,64 @@
+{
+  "id": "ac-gravity-llc-wins-a-dod-contract-and-li-goes-silent-1990",
+  "title": "AC Gravity LLC wins a DoD contract and Li goes silent",
+  "summary": "Jesse Michels tells of AC Gravity LLC wins a DoD contract and Li goes silent, about 1990s-2021 at Redstone Arsenal, Huntsville, Alabama, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 2021
+  },
+  "place": "huntsville-al",
+  "place_text": "Huntsville, Alabama",
+  "coordinates": null,
+  "kind": "program",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2595.0,
+      "to_s": 2603.0,
+      "teller": "jesse-michels",
+      "quote": "After Li forms her company with Smalley, AC Gravity LLC, they immediately win a DoD contract.",
+      "kind": "host",
+      "cites": [
+        "ning-li",
+        "larry-smalley",
+        "george"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [
+    {
+      "story": "ning-li-and-smalley-took-400-000-in-army-research-lab-money-1990",
+      "relation": "variant",
+      "note": "Both are about the defense money Li and Smalley's company received. This telling says Li then went silent into secret work; Davis says they took the money and delivered nothing."
+    }
+  ],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "G7Ns4Aq1tVc"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host named Jesse Michels tells of a researcher named Ning Li, who worked in Huntsville, Alabama, on ideas about controlling gravity. He says that after she formed a company called AC Gravity LLC with a partner named Larry Smalley, they at once won a contract from the DoD, the US Department of Defense, and then Li went quiet. Michels tells it because, if true, it would suggest the military took antigravity research seriously enough to fund it and then keep it out of sight."
+}

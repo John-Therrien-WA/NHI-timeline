@@ -24,33 +24,58 @@
         "antonio-villas-boas"
       ],
       "documents": []
+    },
+    {
+      "episode": "nqLnEVcZ8vE",
+      "from_s": 6619.0,
+      "to_s": 6633.0,
+      "teller": "jesse-michels",
+      "quote": "There's one that's famous here, Antonio Vas Boas. I don't know if you ever heard of this in the 60s, but there are many cases where people seem to like, you know, interact with the beings and go up on the ships.",
+      "kind": "host",
+      "cites": [
+        "antonio-villas-boas"
+      ],
+      "documents": [],
+      "difference": "Puts it in the 1960s instead of 1957 and leaves out the intercourse detail.",
+      "link_reason": "Both tell of the Antônio Villas Boas encounter in Brazil, in which he was taken aboard a craft by beings.",
+      "as_told": {
+        "title": "Antônio Villas Boas encounter",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "Brazil",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "jesse-michels",
       "mike-masters"
     ],
     "episodes": [
-      "Y26iMB0r-f8"
+      "Y26iMB0r-f8",
+      "nqLnEVcZ8vE"
     ]
   },
-  "attestation": 0.25,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A researcher named Mike Masters, on Jesse Michels's podcast, tells of Antonio Villas Boas, a man in Brazil who in 1957 says he had physical intercourse with a woman aboard a craft. According to Masters, Villas Boas described her as a woman who looked slightly different from women he knew, with higher cheekbones and a pointier chin. Masters raises it because, if true, it would suggest the visitors are close enough to humans to be related to us."
 }

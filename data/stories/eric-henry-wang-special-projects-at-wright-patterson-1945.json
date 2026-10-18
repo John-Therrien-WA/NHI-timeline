@@ -25,11 +25,58 @@
         "viktor-schauberger"
       ],
       "documents": []
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 5446.0,
+      "to_s": 5458.0,
+      "teller": "jesse-michels",
+      "quote": "this guy Eric Henry Wang, who ran special projects at Wright Patterson, right airfield at the time, was taken to Kirtland Air Force Base to work probably on some of this exotic flight stuff.",
+      "kind": "host",
+      "cites": [
+        "william-steinman",
+        "eric-henry-wang"
+      ],
+      "documents": [],
+      "difference": "Adds that Wang was taken to Kirtland to work on exotic flight technology, and credits William Steinman.",
+      "link_reason": "This is the same account of Eric Henry Wang as head of special projects at Wright-Patterson, and the story already places it at both Wright-Patterson and Kirtland.",
+      "as_told": {
+        "title": "Eric Henry Wang taken to Kirtland",
+        "years": null,
+        "place_text": "Wright-Patterson AFB and Kirtland AFB",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "Jpf0ZGY87c0",
+      "from_s": 277.0,
+      "to_s": 287.0,
+      "teller": "jesse-michels",
+      "quote": "In 1956, Wang's department was relocated to New Mexico to the Sandia Laboratory's complex at Kirtland Air Force [music] Base.",
+      "kind": "host",
+      "cites": [
+        "william-steinman",
+        "eric-wang"
+      ],
+      "documents": [
+        "obituary-of-eric-h-wang-in-a-mechanical-engineering-magazine"
+      ],
+      "difference": "Adds that the department moved to Sandia/Kirtland in 1956 and cites Wang's obituary and William Steinman.",
+      "link_reason": "Both tell of Eric Wang's special projects department at Wright-Patterson, and the story already places it at Kirtland too.",
+      "as_told": {
+        "title": "Dr. Eric Wang's Department of Special Studies moves to Sandia",
+        "years": {
+          "from": 1930,
+          "to": 1960
+        },
+        "place_text": "Wright-Patterson AFB, Ohio; Sandia/Kirtland AFB, New Mexico",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -40,7 +87,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -48,10 +95,12 @@
       "jesse-michels"
     ],
     "episodes": [
-      "Y7PLeu5rTv4"
+      "Jpf0ZGY87c0",
+      "Y7PLeu5rTv4",
+      "nTiFs8LudUo"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.35,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, mentions a man named Eric Henry Wang, who he says was head of special projects at Wright-Patterson, a US Air Force base, in the years after 1945. Michels brings Wang up alongside the inventor Viktor Schauberger in a story about secret postwar research. If true, it would place Wang at the center of the military's most sensitive work in that era."
 }

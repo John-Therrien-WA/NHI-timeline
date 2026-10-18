@@ -1,0 +1,54 @@
+{
+  "id": "transistor-patents-traced-to-1930s-germany",
+  "title": "Transistor patents traced to 1930s Germany",
+  "summary": "Jesse Michels tells of Transistor patents traced to 1930s Germany, about 1930s at Germany, and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1930,
+    "to": 1939
+  },
+  "place": null,
+  "place_text": "Germany",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 5957.0,
+      "to_s": 5965.0,
+      "teller": "jesse-michels",
+      "quote": "know, the patents for the transistor were found go back to Germany in the 1930s.",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "h6zMVkncTsE"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A podcast host, Jesse Michels, says in passing that the patents for the transistor, the tiny switch at the heart of all modern electronics, have been traced back to Germany in the 1930s. He raises it in an episode about the idea that artificial intelligence is alien technology, so the point, if true, would be that the roots of our computing age are older and stranger than the usual history says."
+}

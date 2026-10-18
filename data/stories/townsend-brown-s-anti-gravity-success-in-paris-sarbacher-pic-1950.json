@@ -27,6 +27,31 @@
         "paul-schatzkin"
       ],
       "documents": []
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 3581.0,
+      "to_s": 3588.0,
+      "teller": "jesse-michels",
+      "quote": "And when Brown flew back to America from Paris, who picked him up from the airport? Robert Sarbacher.",
+      "kind": "host",
+      "cites": [
+        "henri-coanda",
+        "jacques-cornillon",
+        "robert-sarbacher"
+      ],
+      "documents": [],
+      "difference": "Dates it to 1956 and credits Coanda and Cornillon with bringing Brown to France.",
+      "link_reason": "Both tell of Brown's Paris work and of Robert Sarbacher picking him up when he flew back to the US.",
+      "as_told": {
+        "title": "Coanda and Cornillon bring Brown to France; Sarbacher meets him",
+        "years": {
+          "from": 1956,
+          "to": 1956
+        },
+        "place_text": "Paris; United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -47,6 +72,46 @@
     },
     {
       "story": "malmgren-tracked-by-majestic-12-guardians-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "1950s-ffrdcs-and-a-program-to-dole-out-retrieved-material",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "disney-s-ward-kimball-expects-government-ufo-footage-for-a-d-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fracking-oil-with-nuclear-weapons-in-the-1950s",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "greada-treaty-eisenhower-agreement-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "john-mulholland-trained-the-cia-in-deception-and-wrote-a-man-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "military-trying-to-contact-ufos-with-fighter-jet-lights-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "nixon-headed-the-5412-committee-under-eisenhower-1950",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "us-ufo-authorities-obsessed-with-mental-phenomena-project-ma-1950",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
     }
@@ -71,7 +136,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "ABOP8ZJsyIk"
+      "ABOP8ZJsyIk",
+      "RTEWLSTyUic"
     ]
   },
   "attestation": 0.1,

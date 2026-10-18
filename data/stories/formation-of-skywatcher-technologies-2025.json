@@ -64,6 +64,30 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 4536.0,
+      "to_s": 4545.0,
+      "teller": "jesse-michels",
+      "quote": "After he came out, he started this organization called Skywatcher",
+      "kind": "host",
+      "cites": [
+        "jake-barber",
+        "james-fowler"
+      ],
+      "documents": [],
+      "difference": "Says Skywatcher's purpose is calling in craft and credits James Fowler.",
+      "link_reason": "Both tell of the founding of Barber's Skywatcher organization.",
+      "as_told": {
+        "title": "Founding of Skywatcher to call in craft",
+        "years": {
+          "from": 2024,
+          "to": 2025
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -91,6 +115,11 @@
       "story": "susan-gough-s-psychological-operations-role-as-a-source-for-2025",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "colossal-biosciences-to-run-ancient-dna-tests-on-the-mummies-2025",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -106,7 +135,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
@@ -116,6 +145,7 @@
     ],
     "episodes": [
       "9QMrhcpJq8I",
+      "PiFbeWfA3LM",
       "dnnpyNuPdXs",
       "y_8IKKcTntQ"
     ]

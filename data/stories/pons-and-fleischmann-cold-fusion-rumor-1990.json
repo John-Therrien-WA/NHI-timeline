@@ -1,0 +1,57 @@
+{
+  "id": "pons-and-fleischmann-cold-fusion-rumor-1990",
+  "title": "Pons and Fleischmann cold fusion rumor",
+  "summary": "Jesse Michels tells of Pons and Fleischmann cold fusion rumor, about 1990s-2000s at unspecified, and frames it as the host. As told, not a fact.",
+  "era": "cold-war-late",
+  "years": {
+    "from": 1990,
+    "to": 2009
+  },
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "theory",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "1F7DHbSbgbQ",
+      "from_s": 4825.0,
+      "to_s": 4834.0,
+      "teller": "jesse-michels",
+      "quote": "there's this rumor that this is like ponds and fleshmen that we had this sort of breakthrough in cold fusion possibly in the in the 90s or 2000?",
+      "kind": "host",
+      "cites": [
+        "stanley-pons",
+        "martin-fleischmann"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "1F7DHbSbgbQ"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "Stanley Pons and Martin Fleischmann are two scientists whose names are tied to cold fusion, the idea of getting nuclear energy at room temperature. A podcast host, Jesse Michels, mentions a rumor that someone did have a real cold fusion breakthrough in the 1990s or 2000s, in the spirit of their work. If true, it would mean a huge energy discovery was made and kept quiet."
+}

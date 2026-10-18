@@ -56,11 +56,87 @@
         "place_text": "Hartford, Connecticut",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4500.0,
+      "to_s": 4517.0,
+      "teller": "jesse-michels",
+      "quote": "The year is 1960. Residents near Hartford, Connecticut, see a greenish fireball in the sky. It makes a loud noise as it comes crashing down to Earth. An observer hears the crash and follows it, going outside to find a shed on fire. Metal debris is found in the vicinity.",
+      "kind": "host",
+      "cites": [
+        "michael-swords",
+        "thomas-townsend-brown"
+      ],
+      "documents": [
+        "smithsonian-archive-file-on-the-1960-crash"
+      ],
+      "difference": "Dates the crash to 1960 rather than 1958, adds the green fireball and burning shed, and cites a Smithsonian archive file.",
+      "link_reason": "The same Hartford, Connecticut crash, documented by Swords, with Brown taking the material from Harvard.",
+      "as_told": {
+        "title": "1960 Hartford, Connecticut fireball crash and Townsend Brown's retrieval of the debris",
+        "years": {
+          "from": 1960,
+          "to": 1960
+        },
+        "place_text": "Near Hartford, Connecticut / New England",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 4658.0,
+      "to_s": 4678.0,
+      "teller": "jesse-michels",
+      "quote": "The UFO material initially goes to Fred Whipple and J. Allen Hynek at Harvard's Moonwatch, an observation and collection program for the world's first satellites. Robert Friend at Blue Book also expresses intense interest in the samples. But all Townson Brown had to do was show up at Moonwatch's office and flash his credentials.",
+      "kind": "host",
+      "cites": [
+        "fred-whipple",
+        "j-allen-hynek",
+        "robert-friend",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Names the Moonwatch office and Fred Whipple, and dates it to 1960.",
+      "link_reason": "The same event: Brown shows his credentials at Harvard and takes the crash material ahead of Blue Book's Robert Friend.",
+      "as_told": {
+        "title": "Brown takes the crash material from Harvard's Moonwatch ahead of Blue Book",
+        "years": {
+          "from": 1960,
+          "to": 1960
+        },
+        "place_text": "Harvard Moonwatch office, Cambridge, Massachusetts",
+        "story_kind": "crash-retrieval"
+      }
+    },
+    {
+      "episode": "yAvD5UTziTo",
+      "from_s": 10190.0,
+      "to_s": 10210.0,
+      "teller": "jesse-michels",
+      "quote": "Robert luer and towns and brown finding\nthis green Fireball material in\nConnecticut and it seems to be decaying\nrapidly and it um he thinks that maybe\nit's barium titanate and uh project\nmoonwatch and uh Blue Book both want\ncustody of it",
+      "kind": "host",
+      "cites": [
+        "robert-lusser",
+        "thomas-townsend-brown"
+      ],
+      "documents": [],
+      "difference": "Adds Robert Lusser, says the material may be barium titanate and decaying fast, and says Project Moonwatch and Blue Book both wanted custody of it.",
+      "link_reason": "Both describe the 1958 Connecticut incident in which Townsend Brown takes the green fireball crash material.",
+      "as_told": {
+        "title": "Robert Lusser, Townsend Brown and green fireball material",
+        "years": {
+          "from": 1958,
+          "to": 1958
+        },
+        "place_text": "Connecticut",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 2.0,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -71,7 +147,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -80,10 +156,12 @@
     ],
     "episodes": [
       "2-GeTxXi670",
-      "kccrkCGGzX4"
+      "RTEWLSTyUic",
+      "kccrkCGGzX4",
+      "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.0,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that in the late 1950s the inventor Townsend Brown walked into Harvard, showed his credentials, and walked out with material said to come from a crashed craft. In another telling Michels puts it in 1958 in Hartford, Connecticut, says the historian Michael Swords documented it, and ties it to the astronomer J. Allen Hynek, to a sky-watching effort called Project Moon Watch, and to Blue Book, the US Air Force's UFO study of the 1950s and 60s. If true, it would mean someone with official backing was quietly collecting crash material back then."
 }

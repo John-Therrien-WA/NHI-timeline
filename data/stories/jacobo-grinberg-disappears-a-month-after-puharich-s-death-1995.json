@@ -52,6 +52,29 @@
         "place_text": "not stated",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "wlsQIbpEKSM",
+      "from_s": 5331.0,
+      "to_s": 5344.0,
+      "teller": "jesse-michels",
+      "quote": "Take the disappearance of Mexican neurohysiologist and psychologist Jacobo Grinberg, who vanished in 1994, just after his [music] biggest discovery.",
+      "kind": "host",
+      "cites": [
+        "jacobo-grinberg"
+      ],
+      "documents": [],
+      "difference": "Dates the disappearance to 1994 rather than 1995 and links it to his lattice discovery, not to Puharich's death.",
+      "link_reason": "Both tell of Mexican neurophysiologist Jacobo Grinberg vanishing in the mid-1990s just after reaching his key insight.",
+      "as_told": {
+        "title": "Disappearance of Jacobo Grinberg after lattice discovery",
+        "years": {
+          "from": 1994,
+          "to": 1994
+        },
+        "place_text": "Mexico",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
@@ -77,7 +100,8 @@
     ],
     "episodes": [
       "2-GeTxXi670",
-      "lcaY-rd9Dhc"
+      "lcaY-rd9Dhc",
+      "wlsQIbpEKSM"
     ]
   },
   "attestation": 0.6,

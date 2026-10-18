@@ -1,0 +1,75 @@
+{
+  "id": "karst-cave-and-tunnel-system-venting-hydrogen-sulfide-under",
+  "title": "Karst cave and tunnel system venting hydrogen sulfide under Giza",
+  "summary": "Jeffrey tells of Karst cave and tunnel system venting hydrogen sulfide under Giza, about present at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": "egypt",
+  "place_text": "Beneath the Giza Plateau, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 14733.0,
+      "to_s": 14750.0,
+      "teller": "jeffrey",
+      "quote": "And in this paper they've also shown that there is a karst cave and tunnel system Mhm. that is the source of hydrogen sulfide gas coming up from the Giza Plateau.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "unnamed-paper-on-karst-cave-system-at-giza"
+      ]
+    },
+    {
+      "episode": "BSXdnsyCqxw",
+      "from_s": 5919.0,
+      "to_s": 5933.0,
+      "teller": "geoffrey-drumm",
+      "quote": "So, um this is the paper. The development of sulfuric acid speliogenetic deposits within cavernous middle eosene beds and inference on hydrocarbon gas seepages Giza pyramids plateau Egypt.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "the-development-of-sulfuric-acid-speleogenetic-deposits-with"
+      ],
+      "difference": "Gives the paper's full title and talks about hydrocarbon gas seepages, where the story talks about a karst cave system venting hydrogen sulfide.",
+      "link_reason": "Both refer to the same geological paper on sulfuric acid deposits and gas seepage beneath the Giza Plateau.",
+      "as_told": {
+        "title": "Geological paper on hydrocarbon seepages under Giza",
+        "years": null,
+        "place_text": "Giza Plateau, Egypt",
+        "story_kind": "document"
+      }
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 2.0,
+  "profile": {
+    "independent_tellers": 2,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 2,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 2,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "geoffrey-drumm",
+      "jeffrey"
+    ],
+    "episodes": [
+      "BSXdnsyCqxw",
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 1.0,
+  "tier": "well-attested",
+  "plain": "This story is about what lies under the Giza Plateau in Egypt, where the great pyramids stand. A researcher, Geoffrey Drumm, says a scientific paper shows a karst system beneath the plateau, meaning caves and tunnels hollowed out of the rock. According to him, this system is the source of hydrogen sulfide, a smelly gas, coming up from below. On a later podcast episode he holds up the paper and reads its full title, which speaks of acid-formed deposits in cave layers and of hydrocarbon gas seeping up at Giza. So the two tellings differ slightly on which gas is the focus. He tells it because, in his view, gas rising beneath the pyramids would support the idea that they were built to do something with energy."
+}

@@ -26,15 +26,44 @@
       "documents": [
         "uap-disclosure-act"
       ]
+    },
+    {
+      "episode": "5udx_SDdL3Y",
+      "from_s": 329.0,
+      "to_s": 337.0,
+      "teller": "chuck-schumer",
+      "quote": "the measure I championed with Senator rounds would create a board just like we did with the JFK assassination records",
+      "kind": "official",
+      "cites": [
+        "mike-rounds"
+      ],
+      "documents": [],
+      "difference": "Told firsthand by Schumer, crediting Rounds, and draws the comparison with the JFK assassination records board.",
+      "link_reason": "Schumer describes the records review board, modelled on the JFK board, that the UAP Disclosure Act would create, which is the same as the records-review-board story.",
+      "as_told": {
+        "title": "Schumer-Rounds UAP declassification board",
+        "years": {
+          "from": 2023,
+          "to": 2024
+        },
+        "place_text": "US Congress",
+        "story_kind": "document"
+      }
     }
   ],
-  "related": [],
+  "related": [
+    {
+      "story": "review-panel-removed-from-the-uap-disclosure-act-2023",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
   "tags": [],
-  "score": 1.0,
+  "score": 2.6,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
@@ -44,15 +73,17 @@
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
+      "chuck-schumer",
       "matthew-pines"
     ],
     "episodes": [
+      "5udx_SDdL3Y",
       "LpLFWdsIU7M"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.3,
+  "tier": "well-attested",
   "plain": "A researcher named Matthew Pines describes the UAP Disclosure Act, a bill put before the US Congress in 2023 and 2024 about releasing government records on UAP, meaning unidentified anomalous phenomena, the official term for UFOs. He says its plan for a controlled release of information, which he links to a man named Karl Nell, would create a UAP records review board with the standing of a government agency, the power to force testimony and records, and the power to declassify secrets on its own, with the president able to overrule it. Pines tells it to show how seriously the bill's authors took the idea of hidden records."
 }

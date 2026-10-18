@@ -48,6 +48,27 @@
         "place_text": "NSA, CIA, Navy",
         "story_kind": "testimony"
       }
+    },
+    {
+      "episode": "Qe8br8yYEDM",
+      "from_s": 5006.0,
+      "to_s": 5016.0,
+      "teller": "jesse-michels",
+      "quote": "So you have Don Menzel who's you know this kind of deep state spook you know friends with Vanavar Bush held all the clearances in the book.",
+      "kind": "host",
+      "cites": [
+        "donald-menzel",
+        "vannevar-bush"
+      ],
+      "documents": [],
+      "difference": "Adds his friendship with Vannevar Bush and calls him a 'deep state spook'; leaves out JFK.",
+      "link_reason": "Menzel as a debunker holding the highest clearances matches the story about Menzel's clearances.",
+      "as_told": {
+        "title": "Donald Menzel, cleared insider dogmatically opposed to UFOs",
+        "years": null,
+        "place_text": "United States",
+        "story_kind": "theory"
+      }
     }
   ],
   "related": [],
@@ -72,6 +93,7 @@
     ],
     "episodes": [
       "09KP8XVf5nY",
+      "Qe8br8yYEDM",
       "h0hAit-KH9A"
     ]
   },

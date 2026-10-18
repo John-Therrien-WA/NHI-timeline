@@ -28,33 +28,56 @@
         "timaeus",
         "critias"
       ]
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 287.0,
+      "to_s": 292.0,
+      "teller": "jesse-michels",
+      "quote": "On his little St. James Island, he built\na temple with a cult symbology,",
+      "kind": "host",
+      "cites": [],
+      "documents": [],
+      "difference": "Calls it a temple with cult symbols without naming Poseidon, and leaves out the Zorro Ranch labyrinth.",
+      "link_reason": "The temple Epstein built on Little St. James, which is the temple in the existing Poseidon temple and Atlantis labyrinth story.",
+      "as_told": {
+        "title": "Temple with cult symbology on St. James Island",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "Little St. James Island, US Virgin Islands",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jason-jorjani"
+      "jason-jorjani",
+      "jesse-michels"
     ],
     "episodes": [
+      "51N8OxqZIWY",
       "EzPmG_7WhXc"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "Jason Jorjani, a philosopher, says, relaying a commentator known as Dark Journalist, that a temple on a property called Little St. James was built to Poseidon, the Greek sea god, as a patron deity. He adds that on another property, Zorro Ranch, where he says a breeding programme took place, the owner built a labyrinth laid out like the plan of Atlantis, the lost island Plato describes in his ancient dialogues Timaeus and Critias, which Jorjani takes as a sign of hidden beliefs at work."
 }

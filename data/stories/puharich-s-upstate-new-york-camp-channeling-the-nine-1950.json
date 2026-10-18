@@ -75,11 +75,153 @@
         "place_text": "Ossining, New York",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "0qlppHc3-gg",
+      "from_s": 5303.0,
+      "to_s": 5318.0,
+      "teller": "jesse-michels",
+      "quote": "in upst state New York where he took all these kids who seem to have high telepathic sigh powers and they would just Channel and they would talk about the nine",
+      "kind": "host",
+      "cites": [
+        "andrija-puharich",
+        "cia",
+        "mk-ultra"
+      ],
+      "documents": [],
+      "difference": "Adds CIA and MK-Ultra as credits.",
+      "link_reason": "Both tell of Puharich's upstate New York camp where telepathic children channelled the Nine.",
+      "as_told": {
+        "title": "Puharich's upstate New York program of telepathic children channeling the Nine",
+        "years": {
+          "from": 1950,
+          "to": 1979
+        },
+        "place_text": "upstate New York",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "nTiFs8LudUo",
+      "from_s": 792.0,
+      "to_s": 803.0,
+      "teller": "jesse-michels",
+      "quote": "this guy named Andre Puharich who I believe he wrote a book called the sacred mushroom and he had these space kids back in the day where he'd recruit all these kids to upstate New York",
+      "kind": "host",
+      "cites": [
+        "andre-puharich"
+      ],
+      "documents": [
+        "the-sacred-mushroom"
+      ],
+      "difference": "Mentions his book The Sacred Mushroom and adds Maine as a place.",
+      "link_reason": "Both tell of Puharich recruiting the 'space kids' to his camp in upstate New York.",
+      "as_told": {
+        "title": "Andrija Puharich's space kids",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Upstate New York; Maine",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "KGD1nuM4MR8",
+      "from_s": 6223.0,
+      "to_s": 6231.0,
+      "teller": "jesse-michels",
+      "quote": "Like you\nhad this guy Andre Puharic who was doing\nexperiments with, you know, telepathic\nkids.",
+      "kind": "host",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [],
+      "difference": "Describes it only as telepathy experiments with kids, with no camp and no channeling of the Nine.",
+      "link_reason": "Both tell of Puharich's work with telepathic 'space kids' across the 1950s-1970s.",
+      "as_told": {
+        "title": "Puharich telepathy experiments with children",
+        "years": {
+          "from": 1950,
+          "to": 1979
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "51N8OxqZIWY",
+      "from_s": 5920.0,
+      "to_s": 5923.0,
+      "teller": "jesse-michels",
+      "quote": ">> yeah, Andre Bharic had his institute in upstate New York",
+      "kind": "host",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [],
+      "difference": "Calls it an institute and does not mention the Nine or the space kids.",
+      "link_reason": "Both describe the institute or camp Andrija Puharich ran in upstate New York in the 1970s.",
+      "as_told": {
+        "title": "Andrija Puharich's institute in upstate New York",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "upstate New York, USA",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "QkuDvTFN7ms",
+      "from_s": 1093.0,
+      "to_s": 1111.0,
+      "teller": "jesse-michels",
+      "quote": "and he had a place in Austining in upstate New York and he recruited what he called the space kids and it was like a camp for high sai you know high psychic ability children and they would often you know channel these beings they would call the nine these sort of you know alien entities.",
+      "kind": "host",
+      "cites": [
+        "andrija-puharich"
+      ],
+      "documents": [],
+      "difference": "Names Ossining and describes it as a camp for highly psychic children. It does not mention CIA contracting.",
+      "link_reason": "Same as the corpus story: Puharich's upstate New York camp, where space kids channelled the Nine. The host tells both, at the same program grain.",
+      "as_told": {
+        "title": "Andrija Puharich's 'space kids' and the Nine",
+        "years": {
+          "from": 1950,
+          "to": 1979
+        },
+        "place_text": "Ossining, upstate New York",
+        "story_kind": "program"
+      }
+    },
+    {
+      "episode": "PiFbeWfA3LM",
+      "from_s": 6893.0,
+      "to_s": 6897.0,
+      "teller": "jesse-michels",
+      "quote": ">> Upstate New York, he had them channeling things in Faraday cages",
+      "kind": "host",
+      "cites": [
+        "andre-puharic"
+      ],
+      "documents": [],
+      "difference": "Adds that the channelling took place in Faraday cages and dates it to the 1970s.",
+      "link_reason": "Both describe Puharich's upstate New York space kids channelling, and the Faraday cages belong to that same program.",
+      "as_told": {
+        "title": "Puharich's space kids channelling in Faraday cages",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Upstate New York",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 1.7,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
@@ -90,7 +232,7 @@
     "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -99,12 +241,18 @@
       "jesse-michels"
     ],
     "episodes": [
+      "0qlppHc3-gg",
       "2-GeTxXi670",
+      "51N8OxqZIWY",
+      "KGD1nuM4MR8",
+      "PiFbeWfA3LM",
+      "QkuDvTFN7ms",
       "lcaY-rd9Dhc",
+      "nTiFs8LudUo",
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 0.85,
   "tier": "well-attested",
   "plain": "Andrija Puharich is described as a contractor for the CIA who ran a camp in upstate New York. Jesse Michels, a podcast host, says young people he calls the \"space kids\" went there to channel, meaning to speak for, alien beings that Puharich called the Nine. A researcher named Greg, speaking on another episode, places the camp in the town of Ossining in 1973 and 1974. He says Puharich would hypnotise the children, and that the Nine would allegedly come through them. On a third episode Michels repeats the story with Ossining as the place. He adds that Puharich brought the performer Uri Geller over from Israel and that the group spoke with a \"Council of Nine\" extraterrestrial beings, citing a book called The Mind Traveler. They tell it because, if true, a CIA-linked scientist was in contact with what he believed was an alien council."
 }

@@ -1,0 +1,77 @@
+{
+  "id": "the-2020-scan-detects-the-queen-s-chamber-shaft",
+  "title": "The 2020 scan detects the Queen's Chamber shaft",
+  "summary": "Jeffrey Drum tells of The 2020 scan detects the Queen's Chamber shaft, about 2020 at Egypt (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "disclosure",
+  "years": {
+    "from": 2020,
+    "to": 2020
+  },
+  "place": "egypt",
+  "place_text": "Great Pyramid, Giza, Egypt",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "NvQXmtcwHA8",
+      "from_s": 4369.0,
+      "to_s": 4379.0,
+      "teller": "jeffrey-drum",
+      "quote": "You can actually see the horizontal shaft coming out of the Queen's Chamber is detected, I would say, fairly accurately.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [
+        "synthetic-aperture-radar-doppler-tomography-detects-undiscov"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "sar-scan-shows-shaft-system-coming-out-of-the-bottom-of-the-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "sar-tomography-detects-king-s-chamber-relieving-chamber-beam-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "tag-17-dead-end-corridor-behind-the-north-face-chevrons-dete-2020",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "the-2020-scan-misses-the-king-s-chamber",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "jeffrey-drum"
+    ],
+    "episodes": [
+      "NvQXmtcwHA8"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Jeffrey Drum, a researcher, discusses a 2020 study that used a kind of satellite radar imaging to look inside the Great Pyramid of Giza in Egypt. He says the scan picks up, fairly accurately, the horizontal shaft that runs out of the Queen's Chamber, one of the known rooms inside the pyramid. If the scan sees known features correctly, he suggests, its picture of unknown structures deserves to be taken more seriously."
+}

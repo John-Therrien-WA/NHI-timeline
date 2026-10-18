@@ -22,6 +22,24 @@
         "ryan-graves"
       ],
       "documents": []
+    },
+    {
+      "episode": "6WC4o2yY9Ws",
+      "from_s": 2047.0,
+      "to_s": 2059.0,
+      "teller": "ryan-graves",
+      "quote": "there's another instance down in New Orleans where uh an object with the same description shot past the cockpit, initially thought it was a balloon until his wingman noticed that it turned and chased the jet",
+      "kind": "secondhand",
+      "cites": [],
+      "documents": [],
+      "difference": "Places it near New Orleans and adds that the object shot past the cockpit and was first taken for a balloon. The pilot is not named.",
+      "link_reason": "Both tell of a pilot's wingman seeing an object turn around and follow the jet, the Jack Stewart incident that Graves relays.",
+      "as_told": {
+        "title": "Object chases a jet near New Orleans",
+        "years": null,
+        "place_text": "New Orleans",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -38,14 +56,15 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "merrick"
+      "ryan-graves"
     ],
     "episodes": [
-      "1iaH1a3A4Lk"
+      "1iaH1a3A4Lk",
+      "6WC4o2yY9Ws"
     ]
   },
   "attestation": 0.5,

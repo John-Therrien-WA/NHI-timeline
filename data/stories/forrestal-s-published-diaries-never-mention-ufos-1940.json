@@ -1,0 +1,84 @@
+{
+  "id": "forrestal-s-published-diaries-never-mention-ufos-1940",
+  "title": "Forrestal's published diaries never mention UFOs",
+  "summary": "Richard Dolan tells of Forrestal's published diaries never mention UFOs, about 1940s at United States (no place named), and summarises it without a named source. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1949
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 3703.0,
+      "to_s": 3708.0,
+      "teller": "richard-dolan",
+      "quote": "Forestl's published two volume diaries uh which were published after his death.",
+      "kind": "researcher",
+      "cites": [
+        "james-forestto"
+      ],
+      "documents": [
+        "forrestal-diaries"
+      ]
+    }
+  ],
+  "related": [
+    {
+      "story": "einstein-oppenheimer-letter-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fbi-document-calling-brown-the-navy-s-lead-radar-scientist-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "fdr-letters-showing-awareness-of-the-phenomenon-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "william-dudley-pelley-s-star-guests-and-soulcraft-1940",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
+    }
+  ],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 1,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "researcher",
+    "tellers": [
+      "richard-dolan"
+    ],
+    "episodes": [
+      "GQlWf54K_7Y"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Richard Dolan, a researcher who writes about UFO history, points out that James Forrestal, a US Defense Secretary of the 1940s, left diaries that were published in two volumes after his death. Dolan says those published diaries never mention UFOs. He raises it on Jesse Michels's podcast in an episode about claims that Forrestal's death was tied to the subject, where the silence matters because it would suggest that part of his record was left out."
+}

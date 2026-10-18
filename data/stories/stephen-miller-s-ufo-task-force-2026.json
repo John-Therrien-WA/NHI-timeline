@@ -25,6 +25,30 @@
         "donald-trump"
       ],
       "documents": []
+    },
+    {
+      "episode": "h6zMVkncTsE",
+      "from_s": 5601.0,
+      "to_s": 5619.0,
+      "teller": "jesse-michels",
+      "quote": "It's now on Trump's radar. Steven Miller, who's, you know, his Homeland Security Council guy, but also just one of his most loyal longtime aids, I think, owns the kind of UFO file for the White House, and they're like officially looking into this right now.",
+      "kind": "host",
+      "cites": [
+        "donald-trump",
+        "stephen-miller"
+      ],
+      "documents": [],
+      "difference": "Describes Miller as owning the White House UFO file rather than heading a task force.",
+      "link_reason": "Both tell of Stephen Miller leading the White House's official UFO effort under Trump in 2026.",
+      "as_told": {
+        "title": "Stephen Miller holds the White House UFO file",
+        "years": {
+          "from": 2026,
+          "to": 2026
+        },
+        "place_text": "White House, Washington DC",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -40,29 +64,31 @@
     }
   ],
   "tags": [],
-  "score": 1.6,
+  "score": 1.8,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
-      "eric-burlison"
+      "eric-burlison",
+      "jesse-michels"
     ],
     "episodes": [
-      "A2-y_HasHEw"
+      "A2-y_HasHEw",
+      "h6zMVkncTsE"
     ]
   },
-  "attestation": 0.8,
-  "tier": "told-once",
+  "attestation": 0.9,
+  "tier": "well-attested",
   "plain": "A US congressman named Eric Burlison, speaking on a podcast hosted by Jesse Michels in 2026, says that Stephen Miller, an official in the White House, has put together a task force, a small working group, dealing with UFOs. Burlison mentions it alongside President Donald Trump, and if it is as he says, the White House itself would be running its own effort on the subject."
 }

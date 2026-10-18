@@ -27,18 +27,38 @@
       "documents": [
         "the-day-after-roswell"
       ]
+    },
+    {
+      "episode": "QkuDvTFN7ms",
+      "from_s": 3697.0,
+      "to_s": 3709.0,
+      "teller": "charlie-foltz",
+      "quote": "uh like the prime minister from Canada for >> Paul Helier >> came forward describing uh his UFOs",
+      "kind": "secondhand",
+      "cites": [
+        "paul-hellyer"
+      ],
+      "documents": [],
+      "difference": "Calls Hellyer prime minister and says nothing of Greer or a Toronto press conference.",
+      "link_reason": "Both are about Paul Hellyer, Canada's former defence minister, going public about UFOs.",
+      "as_told": {
+        "title": "Paul Hellyer comes forward",
+        "years": null,
+        "place_text": "Canada",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 3.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 0,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -47,13 +67,15 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "charlie-foltz",
       "steven-greer"
     ],
     "episodes": [
+      "QkuDvTFN7ms",
       "areO7Mej44E"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
+  "attestation": 1.75,
+  "tier": "well-attested",
   "plain": "Steven Greer, a campaigner for government openness about UFOs, says he was one of the reasons Paul Hellyer, a former Canadian minister of defence, began speaking publicly about the subject in the 2000s. Greer says he briefed Hellyer and that the two held a press conference together in Toronto, and he mentions The Day After Roswell, a book by Philip J. Corso. It matters because it would mean a senior former official was persuaded to speak out."
 }

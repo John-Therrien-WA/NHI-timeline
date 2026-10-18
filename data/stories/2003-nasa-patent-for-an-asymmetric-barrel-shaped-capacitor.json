@@ -27,11 +27,62 @@
       "documents": [
         "nasa-asymmetrical-capacitor-patent"
       ]
+    },
+    {
+      "episode": "RTEWLSTyUic",
+      "from_s": 1870.0,
+      "to_s": 1882.0,
+      "teller": "jesse-michels",
+      "quote": "here's an official 2004 NASA Marshall Space Flight Center patent under a senior engineer named John Campbell for a barrel-shaped asymmetrical capacitor.",
+      "kind": "host",
+      "cites": [
+        "john-campbell"
+      ],
+      "documents": [
+        "nasa-patent",
+        "the-guardian-article"
+      ],
+      "difference": "Dates the patent to 2004, credits it to John Campbell at NASA Marshall rather than Larry Smalley, and adds a 2003 Guardian article.",
+      "link_reason": "Both describe the same NASA patent for a barrel-shaped asymmetric capacitor.",
+      "as_told": {
+        "title": "NASA Marshall 2004 asymmetric capacitor patent and 2003 Guardian article",
+        "years": {
+          "from": 2003,
+          "to": 2004
+        },
+        "place_text": "NASA Marshall Space Flight Center",
+        "story_kind": "document"
+      }
+    },
+    {
+      "episode": "G7Ns4Aq1tVc",
+      "from_s": 2563.0,
+      "to_s": 2574.0,
+      "teller": "jesse-michels",
+      "quote": "he's the same guy on NASA patents filed in 2004 out of the Marshall Space Flight Center.",
+      "kind": "host",
+      "cites": [
+        "larry-smalley"
+      ],
+      "documents": [
+        "nasa-asymmetric-capacitor-patent-2004"
+      ],
+      "difference": "Dates the patent to 2004 rather than 2003 and places it at Marshall Space Flight Center.",
+      "link_reason": "Both are the NASA asymmetric capacitor patent credited to Larry Smalley.",
+      "as_told": {
+        "title": "Larry Smalley on a NASA asymmetric capacitor patent",
+        "years": {
+          "from": 2004,
+          "to": 2004
+        },
+        "place_text": "Marshall Space Flight Center, Alabama",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.2,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -42,7 +93,7 @@
     "researcher": 0,
     "host": 1,
     "documents": 0,
-    "credited_documents": 1,
+    "credited_documents": 4,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "host",
@@ -50,10 +101,12 @@
       "jesse-michels"
     ],
     "episodes": [
-      "IWui5cBkwoE"
+      "G7Ns4Aq1tVc",
+      "IWui5cBkwoE",
+      "RTEWLSTyUic"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 1.1,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says that NASA, the US space agency, holds a patent from around 2003 for an asymmetrical barrel-shaped capacitor, a device that stores electric charge, and he links it to the University of Alabama in Huntsville. He connects it to earlier work by people he names, including Larry Smalley and Townsend Brown. If true, it would suggest NASA has looked into electric ways of moving craft like those described in UFO reports."
 }

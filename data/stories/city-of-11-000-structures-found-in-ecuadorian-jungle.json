@@ -1,0 +1,51 @@
+{
+  "id": "city-of-11-000-structures-found-in-ecuadorian-jungle",
+  "title": "City of 11,000 structures found in Ecuadorian jungle",
+  "summary": "Luke Caverns tells of City of 11,000 structures found in Ecuadorian jungle, about recent at Ecuadorian Amazon, and frames it as the host. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "Ecuadorian Amazon",
+  "coordinates": null,
+  "kind": "place-lore",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "92XrddiKjHY",
+      "from_s": 8219.0,
+      "to_s": 8227.0,
+      "teller": "luke-caverns",
+      "quote": "They they found a city I think with 11,000 structures",
+      "kind": "host",
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.2,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "luke-caverns"
+    ],
+    "episodes": [
+      "92XrddiKjHY"
+    ]
+  },
+  "attestation": 0.1,
+  "tier": "told-once",
+  "plain": "A researcher named Luke Caverns, speaking on a podcast, says that a lost city of about 11,000 structures was found in the Amazon jungle of Ecuador. He mentions it as a sign that ancient peoples built far more than we usually assume."
+}

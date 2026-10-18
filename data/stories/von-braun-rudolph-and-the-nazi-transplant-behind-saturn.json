@@ -46,6 +46,30 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "D2tKCFmJjks",
+      "from_s": 4453.0,
+      "to_s": 4464.0,
+      "teller": "jesse-michels",
+      "quote": "Like conspiracy or von Braun Arthur Rudolph basically that the NASA Saturn project was a transplantation of the Nazi space program.",
+      "kind": "host",
+      "cites": [
+        "wernher-von-braun",
+        "arthur-rudolph"
+      ],
+      "documents": [],
+      "difference": "Framed as a 'conspiracy', without the figure of 129 scientists.",
+      "link_reason": "The same claim: von Braun and Rudolph's Saturn program was a transplant of the Nazi space program.",
+      "as_told": {
+        "title": "NASA Saturn program as a transplant of the Nazi space program",
+        "years": {
+          "from": 1940,
+          "to": 1969
+        },
+        "place_text": "Germany; United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
@@ -70,6 +94,7 @@
     ],
     "episodes": [
       "1f16VvXaSSE",
+      "D2tKCFmJjks",
       "Y7PLeu5rTv4"
     ]
   },

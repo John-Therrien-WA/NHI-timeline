@@ -21,18 +21,39 @@
         "nat-kobitz"
       ],
       "documents": []
+    },
+    {
+      "episode": "GQlWf54K_7Y",
+      "from_s": 3493.0,
+      "to_s": 3501.0,
+      "teller": "jesse-michels",
+      "quote": "dying of cancer and he said that he had seen UFO technology at Wright Patterson Air Force Base",
+      "kind": "secondhand",
+      "cites": [
+        "ross-colthart",
+        "nat-kobitz"
+      ],
+      "documents": [],
+      "difference": "Says he was dying of cancer and does not mention the bulkhead.",
+      "link_reason": "Same account: Nat Kobitz, via Ross Coulthart, was shown UFO technology at Wright-Patterson.",
+      "as_told": {
+        "title": "Nat Kobitz saw UFO technology at Wright-Patterson",
+        "years": null,
+        "place_text": "Wright-Patterson Air Force Base, Ohio",
+        "story_kind": "reverse-engineering"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -41,13 +62,15 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "jesse-michels",
       "ross-coulthart"
     ],
     "episodes": [
+      "GQlWf54K_7Y",
       "V00WcEiKRAY"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 1.0,
+  "tier": "told-by-several",
   "plain": "A journalist, Ross Coulthart, says that a man named Nat Kobitz told him he was taken, under heavy guard, into an underground room at Wright-Patterson Air Force Base in Ohio. There, Kobitz said, he was shown a piece of a bulkhead, a wall section from a craft, whose material appeared to be bonded at the atomic level, which if true would point to technology no one on Earth is known to make."
 }

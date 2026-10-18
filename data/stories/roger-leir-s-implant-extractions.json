@@ -1,0 +1,54 @@
+{
+  "id": "roger-leir-s-implant-extractions",
+  "title": "Roger Leir's implant extractions",
+  "summary": "Tim Alberino tells of Roger Leir's implant extractions, about unspecified at unspecified, and relays what a named person told them. As told, not a fact.",
+  "era": null,
+  "years": null,
+  "place": null,
+  "place_text": "unspecified",
+  "coordinates": null,
+  "kind": "encounter",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "CiQTBOQ1dTg",
+      "from_s": 6499.0,
+      "to_s": 6508.0,
+      "teller": "tim-alberino",
+      "quote": "my colleague and good friend Ellie Marculli worked with Lair and and was there when they extracted some of these implants",
+      "kind": "secondhand",
+      "cites": [
+        "ellie-marculli",
+        "roger-leir"
+      ],
+      "documents": []
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 1.0,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 1,
+    "researcher": 0,
+    "host": 0,
+    "documents": 0,
+    "credited_documents": 0,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "secondhand",
+    "tellers": [
+      "tim-alberino"
+    ],
+    "episodes": [
+      "CiQTBOQ1dTg"
+    ]
+  },
+  "attestation": 0.5,
+  "tier": "told-once",
+  "plain": "Tim Alberino, a filmmaker, talks about Roger Leir, a surgeon who removed small objects from people that some believed were alien implants. Alberino says his colleague and friend Ellie Marculli worked with Leir and was there when some of these implants were taken out. If true, it would be physical evidence of something put inside people's bodies by non-humans."
+}

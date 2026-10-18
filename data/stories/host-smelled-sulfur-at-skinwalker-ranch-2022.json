@@ -22,6 +22,50 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "episode": "tS_64sTN5AU",
+      "from_s": 4710.0,
+      "to_s": 4718.0,
+      "teller": "jesse-michels",
+      "quote": "I had a like an experience at Skinwalker Ranch I smelled sulfur there",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds the dark month that followed the visit, which the corpus keeps as a separate story.",
+      "link_reason": "The host's own sulfur smell at Skinwalker Ranch, the same encounter as the stored story.",
+      "as_told": {
+        "title": "Sulfur smell at Skinwalker Ranch followed by a dark month",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Skinwalker Ranch, Utah",
+        "story_kind": "encounter"
+      }
+    },
+    {
+      "episode": "uYyXpx7ADJQ",
+      "from_s": 2794.0,
+      "to_s": 2796.0,
+      "teller": "jesse-michels",
+      "quote": "I say I smell sulfur.",
+      "kind": "host",
+      "cites": [
+        "dragon"
+      ],
+      "documents": [],
+      "difference": "Adds that a gas monitor detected nothing and credits a 'dragon'.",
+      "link_reason": "Both are Jesse Michels smelling sulfur on his own visit to Skinwalker Ranch around 2022.",
+      "as_told": {
+        "title": "Jesse smells sulfur on his ranch visit; gas monitor reads nothing",
+        "years": {
+          "from": 2021,
+          "to": 2022
+        },
+        "place_text": "Skinwalker Ranch, Utah",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [],
@@ -45,7 +89,9 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "tS_64sTN5AU",
+      "uYyXpx7ADJQ"
     ]
   },
   "attestation": 1.0,

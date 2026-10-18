@@ -44,35 +44,62 @@
         "place_text": "United States and Soviet Union",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "2Xxmguz0GEQ",
+      "from_s": 2783.0,
+      "to_s": 2804.0,
+      "teller": "bob-maguire",
+      "quote": "and you can see that we did this in the Nixon brf treaty yep 1971 it's written the the the red Phone Red phone was invented to stop UFOs from starting thermonuclear war",
+      "kind": "researcher",
+      "cites": [
+        "richard-nixon"
+      ],
+      "documents": [
+        "1971-us-soviet-agreement-salt-talks"
+      ],
+      "difference": "Dates it to 1971 under Nixon (SALT) and says the red phone was invented to keep UFOs from triggering nuclear war.",
+      "link_reason": "The Cold War US-Soviet agreement in which each side notifies the other when UFOs affect missile early-warning systems.",
+      "as_told": {
+        "title": "1971 agreement: red phone invented to stop UFOs triggering nuclear war",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "United States / Soviet Union",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 4.2,
+  "score": 5.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 2,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
+    "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "bob-maguire",
       "karl-nell",
       "matthew-brown"
     ],
     "episodes": [
+      "2Xxmguz0GEQ",
       "aa9Xx5wI8Rw",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 2.1,
+  "attestation": 2.6,
   "tier": "well-attested",
   "plain": "A man named Karl Nell, speaking from official experience, says there is an agreement between the United States and the former Soviet Union, still in force, meant to lower the risk of nuclear war. He says it includes a rule that each side will tell the other if UFOs interfere with its early-warning systems, the radars that watch for incoming missiles. If true, both nuclear powers planned in writing for UFOs that could set off a false alarm. A man described as a Pentagon whistleblower, Matthew Brown, also mentions it. He dates it to around 1971 and calls it an outer space treaty in which the two sides agree to notify each other if they detect UFOs, without mentioning the warning systems."
 }

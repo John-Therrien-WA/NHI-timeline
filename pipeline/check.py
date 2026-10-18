@@ -23,7 +23,10 @@ under site/images has a sidecar (`images.problems`); data/clips.json, when prese
 ledger makes of it (`replay_of` an episode in data/episodes or `{"outside": true}`, inside an
 occurrence of a `clip` group, `teller_was` a person). A telling without either mark is not held to
 the ledger, so the check passes between judging and applying. Prints every problem, naming the
-story and the entry, and exits 1 when there is one.
+story and the entry, and exits 1 when there is one. Then it lists, as warnings that never fail the
+check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
+other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
+through data/person-aliases.json.
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p` (`explain.json` stands in for the explain stage): the episodes without a `links/<id>.json` are extracted and merged unlinked
@@ -49,8 +52,8 @@ resolved against the fixture's person aliases and the repo's, which must differ.
 stage: the ledger's verdicts (`clips`), the tellings that must carry `replay_of` and `teller_was`
 (`replays`) and a story's independent tellers (`tellers`); that a hand-marked `not-a-clip` restores
 the teller and a second apply puts it back; and, with a fake model, that a refused clips answer is
-asked once more with a note and a second refusal stops the run; and that a first-hand replay never
-lifts a speaker whose own telling is second-hand.
+asked once more with a note and a second refusal stops the run; that a first-hand replay never
+lifts a speaker whose own telling is second-hand; and which person ids the near-duplicate warning pairs.
 """
 from __future__ import annotations
 
@@ -444,6 +447,7 @@ def expectations(root: Root) -> list[str]:
     out += clips_expectations(root, exp)
     out += clips_refusal_problems(root)
     out += replay_weight_problems()
+    out += near_duplicate_problems()
     ledger = root.data / "links.json"
     got = [d["key"] for d in (load_json(ledger).get("downgraded", []) if ledger.exists() else [])]
     if got != exp.get("downgraded", []):
@@ -826,6 +830,46 @@ def replay_weight_problems() -> list[str]:
     return out
 
 
+def within_edits(a: str, b: str, k: int) -> bool:
+    """Levenshtein distance of a and b is at most k (stops early once every path exceeds k)."""
+    if abs(len(a) - len(b)) > k:
+        return False
+    prev = list(range(len(b) + 1))
+    for i, ca in enumerate(a, 1):
+        cur = [i] + [0] * len(b)
+        for j, cb in enumerate(b, 1):
+            cur[j] = min(prev[j] + 1, cur[j - 1] + 1, prev[j - 1] + (ca != cb))
+        if min(cur) > k:
+            return False
+        prev = cur
+    return prev[-1] <= k
+
+
+def near_duplicate_people(ids) -> list[tuple[str, str]]:
+    """Pairs of person ids of 8 letters or more (hyphens dropped) within two edits of each other."""
+    keys = sorted((pid.replace("-", ""), pid) for pid in ids)
+    by_len: dict[int, list[tuple[str, str]]] = {}
+    for k, pid in keys:
+        by_len.setdefault(len(k), []).append((k, pid))
+    out = []
+    for k, pid in keys:
+        if len(k) < 8:
+            continue
+        for n in range(len(k), len(k) + 3):
+            for k2, pid2 in by_len.get(n, []):
+                if (n, k2) > (len(k), k) and within_edits(k, k2, 2):
+                    out.append((pid, pid2))
+    return out
+
+
+def near_duplicate_problems() -> list[str]:
+    """The near-duplicate warning pairs two spellings of one name and leaves short or distinct ids alone."""
+    ids = ["greg", "greg-malatzi", "greg-malazzi", "james-fox", "james-woods", "bob-jameson", "robert-jameson", "donald-trump"]
+    got = near_duplicate_people(ids)
+    want = [("greg-malatzi", "greg-malazzi")]
+    return [] if got == want else [f"expect: near-duplicate people {want}, got {got}"]
+
+
 def fold_discussion_problems() -> list[str]:
     """`link.fold` appends the folded story's discussion to the survivor's, in order, and drops none."""
     from . import link
@@ -932,6 +976,12 @@ def main(argv: list[str] | None = None) -> int:
     out = run_fixture() if a.fixture else problems(Root(a.root))
     for p in out:
         print(p)
+    if not a.fixture:
+        pairs = near_duplicate_people(f.stem for f in Root(a.root).people.glob("*.json"))
+        for x, y in pairs:
+            print(f"warning: people {x} and {y} may be one person; fold one through data/person-aliases.json")
+        if pairs:
+            print(f"check: {len(pairs)} near-duplicate person pair(s), warnings only")
     label = "fixture" if a.fixture else str(a.root)
     if out:
         print(f"check: {len(out)} problem(s) in {label}")

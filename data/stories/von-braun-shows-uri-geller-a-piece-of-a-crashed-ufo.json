@@ -14,7 +14,7 @@
       "episode": "1f16VvXaSSE",
       "from_s": 1570.0,
       "to_s": 1577.0,
-      "teller": "jesse-michels",
+      "teller": "uri-geller",
       "quote": "you're right this is a piece of a UFO that crashed on our planet",
       "kind": "secondhand",
       "cites": [
@@ -22,7 +22,11 @@
         "edgar-mitchell",
         "wernher-von-braun"
       ],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "jesse-michels"
     },
     {
       "episode": "2-GeTxXi670",
@@ -59,7 +63,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [

@@ -17,19 +17,20 @@
       "episode": "fzvwBBSmWYA",
       "from_s": 2506.0,
       "to_s": 2518.0,
-      "teller": "jesse-michels",
+      "teller": "bob-jameson",
       "quote": "UFO that went down into a canyon near a little town not far from mstom called Belt Montana it's a can there was a canyon there and there was a UFO trapped in the canyon",
       "kind": "secondhand",
       "cites": [
         "bob-jameson"
       ],
-      "documents": []
+      "documents": [],
+      "teller_was": "jesse-michels"
     },
     {
       "episode": "-0g3lLGxNfc",
       "from_s": 1449.0,
       "to_s": 1459.0,
-      "teller": "robert-salas",
+      "teller": "bob-jameson",
       "quote": "there. And I found out later, yeah, as soon as daylight came, they sent the helicopters and this UFO just went right through the helicopters and out between the helicopters and out.",
       "kind": "secondhand",
       "cites": [
@@ -46,19 +47,24 @@
         },
         "place_text": "Belt, Montana",
         "story_kind": "encounter"
-      }
+      },
+      "replay_of": {
+        "episode": "fzvwBBSmWYA",
+        "from_s": 2515.0
+      },
+      "teller_was": "robert-salas"
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -67,15 +73,14 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels",
-      "robert-salas"
+      "bob-jameson"
     ],
     "episodes": [
       "-0g3lLGxNfc",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
+  "attestation": 0.5,
+  "tier": "told-once",
   "plain": "This story takes place in 1967 near Belt, a small town in Montana not far from an Air Force base. A podcast host, Jesse Michels, relays an account from a man named Bob Jameson that a UFO went down into a canyon near the town and was trapped there. A former Air Force officer, Robert Salas, tells it too, also citing Jameson, and adds that once daylight came the military sent helicopters, and the UFO shot right out between them and escaped. If true, it would mean the military tried and failed to capture a craft near its own bases."
 }

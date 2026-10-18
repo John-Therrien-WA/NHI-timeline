@@ -1,5 +1,5 @@
 {
-  "computed": "2026-10-17",
+  "computed": "2026-10-18",
   "weights": {
     "firsthand": 1.0,
     "official": 0.8,
@@ -19,15 +19,15 @@
   "median_attestation": 0.5,
   "tiers": {
     "well-attested": 120,
-    "told-by-several": 82,
-    "told-once": 2902
+    "told-by-several": 79,
+    "told-once": 2905
   },
   "counts": {
     "stories": 3104,
     "tellings": 3982,
-    "independent_tellers": 3349,
-    "repetitions": 107,
-    "documents": 1164,
+    "independent_tellers": 3346,
+    "repetitions": 106,
+    "documents": 1165,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 56,
@@ -403,7 +403,7 @@
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 1,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
@@ -14169,11 +14169,11 @@
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jesse-michels"
+          "chris-langan"
         ],
         "episodes": [
           "-0g3lLGxNfc",
@@ -14472,15 +14472,15 @@
       }
     },
     "cia-gateway-documents-show-psionics-were-taken-seriously-1980": {
-      "attestation": 1.05,
-      "score": 2.1,
+      "attestation": 0.85,
+      "score": 1.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
         "firsthand": 0,
-        "official_records": 1,
+        "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
@@ -14488,7 +14488,7 @@
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "official",
+        "strongest_kind": "journalist",
         "tellers": [
           "ross-coulthart"
         ],
@@ -17914,25 +17914,27 @@
       }
     },
     "custody-chain-manhattan-project-to-aec-to-doe-1940": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.75,
+      "score": 3.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 3,
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 0,
-        "repetitions": 2,
+        "credited_documents": 1,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "david-grusch"
+          "jacques-vallee",
+          "jesse-michels",
+          "matthew-pines"
         ],
         "episodes": [
           "1f16VvXaSSE",
@@ -22642,11 +22644,11 @@
         "host": 1,
         "documents": 0,
         "credited_documents": 1,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "host",
         "tellers": [
-          "jesse-michels"
+          "luis-elizondo"
         ],
         "episodes": [
           "DPmO-2E7Ayg",
@@ -27335,7 +27337,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "marconi-s-grandson"
+          "prince-marconi"
         ],
         "episodes": [
           "-0g3lLGxNfc",
@@ -38061,16 +38063,16 @@
       }
     },
     "jfk-killed-for-ufo-cooperation-breaking-the-power-structure-1963": {
-      "attestation": 2.55,
-      "score": 5.1,
+      "attestation": 2.05,
+      "score": 4.1,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 5,
+        "independent_tellers": 4,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 3,
+        "secondhand": 2,
         "researcher": 1,
         "host": 0,
         "documents": 0,
@@ -38081,7 +38083,6 @@
         "tellers": [
           "harold-malmgren",
           "jesse-michels",
-          "joe-rogan",
           "matthew-pines",
           "steven-greer"
         ],
@@ -41325,25 +41326,26 @@
       }
     },
     "kurt-russell-saw-the-phoenix-lights-while-flying-1997": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
-        "host": 0,
+        "host": 1,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 1,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "kurt-russell"
+          "james-fox",
+          "jesse-michels"
         ],
         "episodes": [
           "bVhSPH2A5Vw",
@@ -45420,16 +45422,16 @@
       }
     },
     "malmstrom-missiles-disabled-by-red-glowing-object-1967": {
-      "attestation": 3.55,
-      "score": 7.1,
+      "attestation": 4.05,
+      "score": 8.1,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 5,
+        "independent_tellers": 6,
         "firsthand": 1,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 3,
+        "secondhand": 4,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -45438,6 +45440,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
+          "bob-jameson",
           "daniel-sheehan",
           "james-fox",
           "karl-nell",
@@ -50712,26 +50715,25 @@
       }
     },
     "neil-armstrong-s-truth-s-protective-layers-speech-1980": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-by-several",
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 1,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 2,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "host",
         "tellers": [
-          "jesse-michels",
-          "joe-rogan"
+          "neil-armstrong"
         ],
         "episodes": [
           "C_Na1tI5qpw",
@@ -58297,25 +58299,24 @@
       }
     },
     "project-blue-book-and-the-condon-study-1950": {
-      "attestation": 1.65,
-      "score": 3.3,
-      "tier": "well-attested",
+      "attestation": 1.55,
+      "score": 3.1,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "jesse-michels",
           "karl-nell"
         ],
         "episodes": [
@@ -59440,7 +59441,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg",
+          "greg-malatzi",
           "jesse-michels"
         ],
         "episodes": [
@@ -63865,7 +63866,7 @@
         "contradicted": false,
         "strongest_kind": "host",
         "tellers": [
-          "jesse-michels"
+          "lauren-boebert"
         ],
         "episodes": [
           "DPmO-2E7Ayg"
@@ -66185,27 +66186,25 @@
       }
     },
     "senator-cussed-out-by-curtis-lemay-over-secret-wright-patter": {
-      "attestation": 2.1,
-      "score": 4.2,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 3,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "harold-malmgren",
-          "jesse-michels",
-          "unnamed-politician"
+          "barry-goldwater"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -71534,16 +71533,16 @@
       }
     },
     "tesla-and-townsend-brown-collaboration-learned-from-foreign-1920": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 2,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -71552,8 +71551,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "harold-malmgren",
-          "steven-greer"
+          "harold-malmgren"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -71790,7 +71788,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "luis-elizondo"
+          "gary-nolan"
         ],
         "episodes": [
           "1f16VvXaSSE"
@@ -72415,7 +72413,7 @@
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 1,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
@@ -74952,7 +74950,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jesse-michels"
+          "donald-trump"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -76588,16 +76586,16 @@
       }
     },
     "ufo-trapped-in-canyon-near-belt-montana-1967": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 2,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -76606,8 +76604,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jesse-michels",
-          "robert-salas"
+          "bob-jameson"
         ],
         "episodes": [
           "-0g3lLGxNfc",
@@ -79446,7 +79443,7 @@
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 1,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [

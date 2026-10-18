@@ -33,7 +33,7 @@
       "episode": "fzvwBBSmWYA",
       "from_s": 6288.0,
       "to_s": 6300.0,
-      "teller": "jesse-michels",
+      "teller": "karl-nell",
       "quote": "commissioned a study from University of Colorado Ed Condon led the studies Manhattan Project Alum he wrote the conclusion of the study before the study was complete",
       "kind": "host",
       "cites": [
@@ -52,7 +52,12 @@
         },
         "place_text": "University of Colorado",
         "story_kind": "program"
-      }
+      },
+      "replay_of": {
+        "episode": "aa9Xx5wI8Rw",
+        "from_s": 1283.0
+      },
+      "teller_was": "jesse-michels"
     }
   ],
   "related": [
@@ -78,23 +83,22 @@
     }
   ],
   "tags": [],
-  "score": 3.3,
+  "score": 3.1,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
-      "jesse-michels",
       "karl-nell"
     ],
     "episodes": [
@@ -102,7 +106,7 @@
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 1.65,
-  "tier": "well-attested",
+  "attestation": 1.55,
+  "tier": "told-once",
   "plain": "Project Blue Book was the US Air Force's UFO study of the 1950s and 60s. Near its end, the Air Force paid the University of Colorado for an outside study, led by a physicist named Edward Condon who had worked on the Manhattan Project, the wartime effort to build the atomic bomb. A guest named Karl Nell, citing the record, says Condon wrote the study's conclusion before the study was finished and bragged about it. If so, it would mean the official verdict on UFOs was decided ahead of time. A podcast host, Jesse Michels, tells it in nearly the same words on his own, leaving out the bragging. So it reaches listeners both from a guest and from the host himself."
 }

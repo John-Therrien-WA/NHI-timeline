@@ -91,7 +91,7 @@
       "episode": "yGtVzBbUvx4",
       "from_s": 6279.0,
       "to_s": 6283.0,
-      "teller": "jesse-michels",
+      "teller": "jake-barber",
       "quote": "We recovered an egg and we just call it the egg cuz that's what it was.",
       "kind": "secondhand",
       "cites": [
@@ -105,7 +105,12 @@
         "years": null,
         "place_text": "unspecified",
         "story_kind": "crash-retrieval"
-      }
+      },
+      "replay_of": {
+        "episode": "dnnpyNuPdXs",
+        "from_s": 2285.0
+      },
+      "teller_was": "jesse-michels"
     }
   ],
   "related": [],

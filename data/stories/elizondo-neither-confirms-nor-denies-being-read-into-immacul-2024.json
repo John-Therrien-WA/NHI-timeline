@@ -29,7 +29,7 @@
       "episode": "yGtVzBbUvx4",
       "from_s": 2240.0,
       "to_s": 2250.0,
-      "teller": "jesse-michels",
+      "teller": "luis-elizondo",
       "quote": "I would not be authorized to confirm nor deny the existence of any ongoing or past program",
       "kind": "host",
       "cites": [
@@ -51,7 +51,11 @@
         },
         "place_text": "US Congress",
         "story_kind": "testimony"
-      }
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "jesse-michels"
     }
   ],
   "related": [],
@@ -68,11 +72,11 @@
     "host": 1,
     "documents": 0,
     "credited_documents": 1,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "host",
     "tellers": [
-      "jesse-michels"
+      "luis-elizondo"
     ],
     "episodes": [
       "DPmO-2E7Ayg",

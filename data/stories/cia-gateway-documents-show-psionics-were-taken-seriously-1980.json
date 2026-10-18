@@ -46,6 +46,10 @@
         },
         "place_text": "CIA",
         "story_kind": "document"
+      },
+      "replay_of": {
+        "episode": "V00WcEiKRAY",
+        "from_s": 6130.0
       }
     }
   ],
@@ -67,13 +71,13 @@
     }
   ],
   "tags": [],
-  "score": 2.1,
+  "score": 1.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 1,
+    "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
@@ -81,7 +85,7 @@
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "official",
+    "strongest_kind": "journalist",
     "tellers": [
       "ross-coulthart"
     ],
@@ -90,7 +94,7 @@
       "V00WcEiKRAY"
     ]
   },
-  "attestation": 1.05,
+  "attestation": 0.85,
   "tier": "told-once",
   "plain": "Ross Coulthart, an Australian journalist, says that anyone who doubts that the government took psionics, meaning claimed powers of the mind such as sensing things at a distance, seriously need only read the CIA's Gateway documents, files from the 1980s about a mind-training technique. He says those CIA files show the skeptics are wrong, which would mean the agency studied such abilities in earnest."
 }

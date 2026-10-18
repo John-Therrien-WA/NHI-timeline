@@ -29,7 +29,7 @@
       "episode": "hBrfe4hFuM0",
       "from_s": 843.0,
       "to_s": 855.0,
-      "teller": "kurt-russell",
+      "teller": "james-fox",
       "quote": "So, we're going into Phoenix and uh there's these bank of lights, six lights in the shape of a triangle going back right over the airport.",
       "kind": "firsthand",
       "cites": [],
@@ -44,7 +44,12 @@
         },
         "place_text": "Phoenix, Arizona, USA",
         "story_kind": "sighting"
-      }
+      },
+      "replay_of": {
+        "episode": "bVhSPH2A5Vw",
+        "from_s": 5023.0
+      },
+      "teller_was": "kurt-russell"
     }
   ],
   "related": [
@@ -55,30 +60,31 @@
     }
   ],
   "tags": [],
-  "score": 2.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "kurt-russell"
+      "james-fox",
+      "jesse-michels"
     ],
     "episodes": [
       "bVhSPH2A5Vw",
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "In 1997 many people reported strange lights over Phoenix, Arizona, and the actor Kurt Russell, who flies small planes, says he saw them while flying into Phoenix. In his own words, he saw a bank of six lights in the shape of a triangle going back right over the airport, while the podcast host Jesse Michels has retold it as Russell saying he could have landed his plane on it. If true, it would mean a famous, sober witness saw the lights up close from the air."
 }

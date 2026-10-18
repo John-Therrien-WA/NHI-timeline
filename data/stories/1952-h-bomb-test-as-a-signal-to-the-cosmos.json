@@ -27,7 +27,7 @@
       "episode": "fzvwBBSmWYA",
       "from_s": 1060.0,
       "to_s": 1072.0,
-      "teller": "jesse-michels",
+      "teller": "eric-weinstein",
       "quote": "I think in 1952 we sent a signal to the cosmos which is that we're very very close to being in possession of root level knowledge",
       "kind": "secondhand",
       "cites": [
@@ -44,7 +44,12 @@
         },
         "place_text": "Pacific (Ivy Mike test)",
         "story_kind": "theory"
-      }
+      },
+      "replay_of": {
+        "episode": "iQOibpIDx-4",
+        "from_s": 2271.0
+      },
+      "teller_was": "jesse-michels"
     }
   ],
   "related": [],
@@ -61,7 +66,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [

@@ -56,7 +56,7 @@
       "episode": "u7g5Sn1DJF4",
       "from_s": 7474.0,
       "to_s": 7489.0,
-      "teller": "jesse-michels",
+      "teller": "prince-marconi",
       "quote": "chair was the president and Enrico Ferimi was the vice president and they made some searches and studies on this phenomenon because 1953 uh they say that in VZA north of Italy there were some apparitions of so-called UFOs.",
       "kind": "secondhand",
       "cites": [
@@ -74,7 +74,11 @@
         },
         "place_text": "Northern Italy (Varese area, between Lombardy and Veneto)",
         "story_kind": "program"
-      }
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "jesse-michels"
     },
     {
       "episode": "8Rr_nE65KkI",
@@ -105,7 +109,7 @@
       "episode": "8Rr_nE65KkI",
       "from_s": 6750.0,
       "to_s": 6765.0,
-      "teller": "marconi-s-grandson",
+      "teller": "prince-marconi",
       "quote": "1933 the Italian government set up uh this uh group the secret research uh 33 cabinet where Maronei was the uh chair was the president and fermy was the vice president",
       "kind": "secondhand",
       "cites": [
@@ -123,7 +127,11 @@
         },
         "place_text": "Italy",
         "story_kind": "program"
-      }
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "marconi-s-grandson"
     },
     {
       "episode": "-0g3lLGxNfc",
@@ -167,7 +175,7 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "marconi-s-grandson"
+      "prince-marconi"
     ],
     "episodes": [
       "-0g3lLGxNfc",

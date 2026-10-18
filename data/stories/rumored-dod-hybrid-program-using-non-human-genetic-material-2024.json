@@ -17,11 +17,15 @@
       "episode": "DPmO-2E7Ayg",
       "from_s": 2052.0,
       "to_s": 2067.0,
-      "teller": "jesse-michels",
+      "teller": "lauren-boebert",
       "quote": "there are rumors that have come up to the hill um of a secretive project within the Department of Defense involving uh the manipulation of human genetics with what is described as non-human genetic material",
       "kind": "host",
       "cites": [],
-      "documents": []
+      "documents": [],
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "jesse-michels"
     }
   ],
   "related": [
@@ -63,7 +67,7 @@
     "contradicted": false,
     "strongest_kind": "host",
     "tellers": [
-      "jesse-michels"
+      "lauren-boebert"
     ],
     "episodes": [
       "DPmO-2E7Ayg"

@@ -42,7 +42,7 @@
       "episode": "EzPmG_7WhXc",
       "from_s": 1294.0,
       "to_s": 1308.0,
-      "teller": "jesse-michels",
+      "teller": "jake-barber",
       "quote": "We also know that uh that there are operations okonis outside the continental United States where prospecting for psionic assets takes place and they're highly coveted.",
       "kind": "host",
       "cites": [],
@@ -54,7 +54,12 @@
         "years": null,
         "place_text": "outside the continental United States",
         "story_kind": "program"
-      }
+      },
+      "replay_of": {
+        "episode": "dnnpyNuPdXs",
+        "from_s": 4988.0
+      },
+      "teller_was": "jesse-michels"
     },
     {
       "episode": "OOr98r51Sj0",
@@ -75,6 +80,10 @@
         },
         "place_text": "outside the continental United States",
         "story_kind": "program"
+      },
+      "replay_of": {
+        "episode": "dnnpyNuPdXs",
+        "from_s": 4988.0
       }
     },
     {

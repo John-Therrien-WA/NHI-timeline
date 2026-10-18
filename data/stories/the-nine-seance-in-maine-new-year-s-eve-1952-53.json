@@ -31,7 +31,7 @@
       "episode": "2-GeTxXi670",
       "from_s": 2035.0,
       "to_s": 2046.0,
-      "teller": "jesse-michels",
+      "teller": "peter-levenda",
       "quote": "there's a seance that's held in uh late '52, early '53. I think it was the New Year's Eve of '52 to '53.",
       "kind": "host",
       "cites": [
@@ -50,7 +50,12 @@
         },
         "place_text": "woods in Maine",
         "story_kind": "encounter"
-      }
+      },
+      "replay_of": {
+        "episode": "Y7PLeu5rTv4",
+        "from_s": 902.0
+      },
+      "teller_was": "jesse-michels"
     }
   ],
   "related": [
@@ -73,7 +78,7 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [

@@ -26,7 +26,7 @@
       "episode": "-0g3lLGxNfc",
       "from_s": 3292.0,
       "to_s": 3299.0,
-      "teller": "jesse-michels",
+      "teller": "chris-langan",
       "quote": ">> on the UFO thing. I was working for the Forest Service, not too far from Malmstrom Air Force Base.",
       "kind": "secondhand",
       "cites": [
@@ -40,7 +40,11 @@
         "years": null,
         "place_text": "Forest Service campground near Malmstrom Air Force Base, Montana",
         "story_kind": "sighting"
-      }
+      },
+      "replay_of": {
+        "outside": true
+      },
+      "teller_was": "jesse-michels"
     }
   ],
   "related": [],
@@ -57,11 +61,11 @@
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "jesse-michels"
+      "chris-langan"
     ],
     "episodes": [
       "-0g3lLGxNfc",

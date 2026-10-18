@@ -5,7 +5,8 @@
 Stories with the plain telling (`plain`, null until pipeline.explain has run), era, place (and the free place text for the unresolved), years, score, attestation, tier, evidence profile and the
 repetition count, tellings with quotes and time codes and the YouTube URL at that second, the
 documents, the alias map (an old id a fold retired to the story that absorbed it, so `#story=<old
-id>` still resolves), the links between stories (shared document and every `related` relation), the count of
+id>` still resolves), the links between stories (shared document and every `related` relation, in the
+top-level `links` list only: a story's own `related` list is not repeated), the count of
 other stories told by each of a story's tellers (`shared_teller`, by teller and in all: a count,
 never a link, since one host telling fifty stories would link every story to every other), the
 story's `discussion` (the debunk, rebunk and note entries, an empty list when it has none; an
@@ -15,7 +16,11 @@ data/images/<id> and of its aliases' directories, an empty list when it has none
 `image` (the first headshot, or null), the
 axes, the corpus date (the latest episode published), and beside the stories the scoring block
 (weights, the institutional-trust knob, the median floor and median, the tier counts) so the page
-can recompute each story's attestation from its `profile` at another knob value. Fails when a story
+can recompute each story's attestation from its `profile` at another knob value. A telling carries
+what the page shows (the episode id, the time codes and URL, the teller, the quote, the kind, what it
+cites and the `difference`); the episode's show, title and date come from the `episodes` map, and the
+link's `link_reason` and `as_told` stay in the story file. Both files are written compact, with no
+indentation, so the whole corpus fits the 16 MB a published artifact allows a file. Fails when a story
 has no score, profile or tier: run pipeline.score first.
 """
 from __future__ import annotations
@@ -27,7 +32,7 @@ import sys
 from pathlib import Path
 
 from . import images
-from .common import REPO, Root, rel, save_json, seconds
+from .common import REPO, Root, rel, seconds
 from .score import attest
 
 
@@ -75,12 +80,10 @@ def run(root: Root, out: Path) -> dict:
                 "episode": t.get("episode"), "document": t.get("document"), "page": t.get("page"),
                 "from_s": t.get("from_s"), "to_s": t.get("to_s"),
                 "url": url_at(ep, t.get("from_s")) if ep else (documents.get(t["document"], {}).get("url") if t.get("document") else None),
-                "show": ep.get("show") if ep else None, "episode_title": ep.get("title") if ep else None,
-                "published": ep.get("published") if ep else None,
                 "teller": t["teller"], "teller_name": people[t["teller"]]["name"], "quote": t.get("quote"),
                 "kind": t["kind"], "cites": t.get("cites", []), "documents": t.get("documents", []),
                 "repetition": t["teller"] in d["repetitions"],
-                "difference": t.get("difference"), "link_reason": t.get("link_reason"), "as_told": t.get("as_told"),
+                "difference": t.get("difference"),
             })
         docs = sorted({x for t in s["tellings"] for x in t.get("documents", [])} | {t["document"] for t in s["tellings"] if t.get("document")})
         tellers = sorted({t["teller"] for t in s["tellings"]})
@@ -95,7 +98,7 @@ def run(root: Root, out: Path) -> dict:
             "shared_teller": len(set().union(*(stories_of[p] for p in tellers)) - {sid}) if tellers else 0,
             "shared_teller_by": shared_by,
             "documents": [{"id": x, "title": documents[x]["title"], "url": documents[x].get("url"), "date": documents[x].get("date")} for x in docs],
-            "related": s.get("related", []), "aliases": s.get("aliases", []),
+            "aliases": s.get("aliases", []),
             "discussion": [{**e, "url": url_at(episodes[e["episode"]], seconds(e["time"]))} if e.get("episode") else e
                            for e in s.get("discussion", [])],
             "notes_open": notes_open.get(sid, 0),
@@ -127,9 +130,11 @@ def run(root: Root, out: Path) -> dict:
         "people": {p: {"name": v["name"], "roles": v.get("roles", []), "image": headshots.get(p)} for p, v in people.items()},
         "episodes": {e: {"show": v.get("show"), "title": v.get("title"), "url": v.get("url"), "published": v.get("published")} for e, v in episodes.items()},
     }
-    save_json(out, data)
+    compact = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    out.parent.mkdir(parents=True, exist_ok=True)
+    out.write_text(compact, encoding="utf-8")
     js = out.with_suffix(".js")
-    js.write_text("window.NHI_DATA = " + json.dumps(data, ensure_ascii=False) + ";\n", encoding="utf-8")
+    js.write_text("window.NHI_DATA = " + compact + ";\n", encoding="utf-8")
     print(f"build: {len(out_stories)} stories, {len(links)} links -> {rel(out, root.path)} and {rel(js, root.path)}", file=sys.stderr)
     return data
 

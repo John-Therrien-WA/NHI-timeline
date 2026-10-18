@@ -3,7 +3,10 @@
     uv run python -m pipeline.captions <youtube url or video id> [--lang en]
     uv run python -m pipeline.captions --refill [--root DIR]
 
-Fetches the video's own captions with yt-dlp (no audio download, no transcription), keeps the
+Fetches the video's own captions with yt-dlp (no audio download, no transcription): the original
+automatic track `<lang>-orig` first (plain `<lang>` is YouTube's same-language translation of it, the
+one track YouTube throttles with HTTP 429), then plain `<lang>` only when the video has no original
+track in that language; keeps the
 .vtt under sources/captions/<id>.<lang>.vtt, and writes sources/captions/<id>.<lang>.txt: one line
 per caption cue, "[h:mm:ss] words", with the consecutive duplicates that auto-captions produce
 removed. HTML entities are unescaped (the .vtt writes `&gt;&gt;` and `&amp;`); the `>>` with which
@@ -114,14 +117,25 @@ def refill(episodes: Path) -> list[Path]:
 def fetch(vid: str, lang: str) -> tuple[Path, dict]:
     CAPTIONS.mkdir(parents=True, exist_ok=True)
     out = CAPTIONS / f"{vid}.%(ext)s"
-    cmd = ["yt-dlp", "--skip-download", "--no-playlist", "--write-auto-sub", "--write-sub", "--sub-lang", lang,
-           "--sub-format", "vtt", "--print-json", "-o", str(out), f"https://www.youtube.com/watch?v={vid}"]
-    r = subprocess.run(cmd, capture_output=True, text=True)
-    if r.returncode != 0:
-        hint = f"\n{FALLBACK.format(vid=vid)}" if "429" in r.stderr else ""
-        raise SystemExit(f"captions: yt-dlp failed for {vid}:\n{r.stderr.strip()}{hint}")
-    meta = json.loads(r.stdout.splitlines()[-1])
+    # The original-language automatic track is `<lang>-orig`; plain `<lang>` is YouTube's translation of it
+    # into the same language, and that track is what YouTube throttles with HTTP 429 (yt-dlp issue 13831).
+    # The original track is asked for first and kept as <vid>.<lang>.vtt; only when the video has none
+    # (its spoken language is another) is the plain track asked for, which also fetches a manual track.
     vtt = CAPTIONS / f"{vid}.{lang}.vtt"
+    orig = CAPTIONS / f"{vid}.{lang}-orig.vtt"
+    meta = None
+    for sub_lang in (f"{lang}-orig", lang):
+        cmd = ["yt-dlp", "--skip-download", "--no-playlist", "--write-sub", "--write-auto-sub", "--sub-lang", sub_lang,
+               "--sub-format", "vtt", "--print-json", "-o", str(out), f"https://www.youtube.com/watch?v={vid}"]
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        if r.returncode != 0:
+            hint = f"\n{FALLBACK.format(vid=vid)}" if "429" in r.stderr else ""
+            raise SystemExit(f"captions: yt-dlp failed for {vid}:\n{r.stderr.strip()}{hint}")
+        meta = json.loads(r.stdout.splitlines()[-1])
+        if orig.exists():
+            orig.rename(vtt)
+        if vtt.exists():
+            break
     if not vtt.exists():
         raise SystemExit(f"captions: {vid} has no {lang} captions (manual or automatic); nothing written\n"
                          f"{FALLBACK.format(vid=vid)}")

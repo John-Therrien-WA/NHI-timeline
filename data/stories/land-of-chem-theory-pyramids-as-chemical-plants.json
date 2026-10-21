@@ -18,7 +18,7 @@
       "quote": "it's it's really interesting his theory on like um how these these were essentially giant chemical plants",
       "kind": "secondhand",
       "cites": [
-        "jeffrey"
+        "jeffrey-drum"
       ],
       "documents": []
     },
@@ -61,24 +61,23 @@
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 2,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "researcher",
     "tellers": [
       "geoffrey-drumm",
-      "jay-anderson",
       "jeffrey-drum"
     ],
     "episodes": [
@@ -87,7 +86,7 @@
       "NvQXmtcwHA8"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 0.5,
   "tier": "told-by-several",
   "plain": "This story is a theory about the pyramids of Egypt, sometimes called the Land of Chem theory. A guest named Jay Anderson says he finds it interesting that a man named Jeffrey believes the pyramids were giant chemical factories. That man, the researcher Geoffrey Drumm, explains it himself: he says hydrogen sulfide gas rising from a network of underground limestone caves was the starting ingredient for chemical production inside the Great Pyramid. In another telling he describes a chain, with methane made in the Step Pyramid and turned into ammonia in the Red Pyramid, and dates it to roughly 8500 to 5300 BC. People tell it because, if true, it would mean the pyramids were industrial machines built far earlier than usually thought."
 }

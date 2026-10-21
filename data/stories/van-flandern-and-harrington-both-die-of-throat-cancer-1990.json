@@ -30,7 +30,7 @@
       "episode": "A_LsUSxTm7A",
       "from_s": 5454.0,
       "to_s": 5464.0,
-      "teller": "matt",
+      "teller": "matt-lacroix",
       "quote": "astronomers again Thomas van flandern and Robert Harrington yeah they were the ones who spearheaded looking into this planet and I believe even the binary star they both die of throat cancer",
       "kind": "researcher",
       "cites": [
@@ -61,15 +61,15 @@
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 2,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 1,
@@ -77,14 +77,13 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "matt",
       "matt-lacroix"
     ],
     "episodes": [
       "A_LsUSxTm7A"
     ]
   },
-  "attestation": 0.75,
-  "tier": "well-attested",
+  "attestation": 0.5,
+  "tier": "told-once",
   "plain": "This story is about two American astronomers, Thomas Van Flandern and Robert Harrington. According to a researcher named Matt LaCroix, they led the search for an unseen planet, and possibly a companion star to our Sun. LaCroix says both men later died of throat cancer, and stresses that neither of them smoked. He tells it on the podcast of a host named Jesse Michels, in a 2024 episode about ancient history, and places the deaths roughly in the 1990s and 2000s. He gives no source when he first says it. Later in the same conversation he tells it again and points to a document called The Stage of Time, adding the detail about the binary star, meaning a second star paired with the Sun. People tell it because it hints that someone did not want that search to go on. So the story has one teller who tells it twice, once with no source and once naming that document."
 }

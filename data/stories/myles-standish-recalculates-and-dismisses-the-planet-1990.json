@@ -29,7 +29,7 @@
       "episode": "A_LsUSxTm7A",
       "from_s": 5262.0,
       "to_s": 5272.0,
-      "teller": "matt",
+      "teller": "matt-lacroix",
       "quote": "so he announced in the '90s NASA's like this is thing you know it's Planet 10 or whatever and then okay sish comes in and then he's like it's actually forget about it",
       "kind": "researcher",
       "cites": [
@@ -107,15 +107,15 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 0.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 2,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -123,14 +123,13 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "matt",
       "matt-lacroix"
     ],
     "episodes": [
       "A_LsUSxTm7A"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-by-several",
+  "attestation": 0.25,
+  "tier": "told-once",
   "plain": "This story is about a hidden planet far out in the solar system that was talked about and then dropped. Matt LaCroix, a researcher, says on Jesse Michels' podcast that in the 1990s NASA, the US space agency, spoke of something like a \"Planet 10.\" Then, he says, an astronomer named Myles Standish redid the maths and said, in effect, we made a mistake, forget about it. LaCroix tells it to suggest that the idea of a hidden planet was dismissed too quickly."
 }

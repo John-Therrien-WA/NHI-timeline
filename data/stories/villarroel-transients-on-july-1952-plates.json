@@ -21,7 +21,7 @@
       "quote": "one is uh five objects on a narrow band and it's from the 27th of July 1952 and then my colleague enri found these three uh Stars the triple transient this one is from the 19th of July 1952",
       "kind": "researcher",
       "cites": [
-        "beatric-vel",
+        "beatriz-villarroel",
         "enri"
       ],
       "documents": []
@@ -35,7 +35,7 @@
       "kind": "firsthand",
       "cites": [
         "enrique",
-        "dave-alman",
+        "dave-altman",
         "lash"
       ],
       "documents": [],
@@ -54,31 +54,30 @@
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "beatriz-villarroel",
-      "jesse-michels"
+      "beatriz-villarroel"
     ],
     "episodes": [
       "fzvwBBSmWYA",
       "lbGE3EC6StE"
     ]
   },
-  "attestation": 1.25,
-  "tier": "well-attested",
+  "attestation": 1.0,
+  "tier": "told-once",
   "plain": "Astronomers once photographed the night sky on glass plates, and a researcher named Beatriz Villarroel has been searching old plates for transients, points of light that appear briefly and then vanish. On his podcast, Jesse Michels describes two of her finds: a plate from 27 July 1952 showing five objects lined up in a narrow band, and a plate from 19 July 1952 where her colleague Enrique found three star-like points together, a 'triple transient'. If these are real objects, it would mean something unexplained was in the sky in 1952."
 }

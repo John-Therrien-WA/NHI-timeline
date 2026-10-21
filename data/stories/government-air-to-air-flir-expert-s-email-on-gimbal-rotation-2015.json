@@ -17,7 +17,7 @@
       "episode": "1iaH1a3A4Lk",
       "from_s": 7528.0,
       "to_s": 7533.0,
-      "teller": "marik-von-rennenkampf",
+      "teller": "marik-von-rennenkampff",
       "quote": "I'll read it. The object in the video is definitely maneuvering causing the appearance of rotation.",
       "kind": "secondhand",
       "cites": [],
@@ -29,7 +29,7 @@
       "episode": "1iaH1a3A4Lk",
       "from_s": 12322.0,
       "to_s": 12329.0,
-      "teller": "merrick",
+      "teller": "marik-von-rennenkampff",
       "quote": "I mean, Mick, we were on on the call with the AT Flare expert. He says, \"This is quote bizarre. I've never seen anything like this.\"",
       "kind": "firsthand",
       "cites": [
@@ -51,14 +51,14 @@
   ],
   "related": [],
   "tags": [],
-  "score": 3.5,
+  "score": 2.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -67,14 +67,13 @@
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "marik-von-rennenkampf",
-      "merrick"
+      "marik-von-rennenkampff"
     ],
     "episodes": [
       "1iaH1a3A4Lk"
     ]
   },
-  "attestation": 1.75,
-  "tier": "well-attested",
+  "attestation": 1.25,
+  "tier": "told-once",
   "plain": "Gimbal is a video filmed off the US East Coast around 2015 by an infrared camera on a Navy jet, the kind of camera called FLIR, which sees heat. It shows an object that seems to rotate, and people argue over whether the object really turns or whether the camera makes it look that way. During a debate on the podcast of a host, Jesse Michels, an analyst named Marik von Rennenkampf reads an email from a government expert in this kind of camera footage, who writes that the object is definitely maneuvering, causing the look of rotation. If so, the turning would be the object's own movement, not a camera trick. A second debater, Merrick, says he and others were on a call with the same expert, who called the video bizarre and said he had never seen anything like it. They make the point to a well-known skeptic, Mick West."
 }

@@ -34,7 +34,7 @@
       "quote": "great book written about this by a guy named Herb Mertz who is at the um you know Princeton Engineering and Anomalous Research Center and he describes this.",
       "kind": "host",
       "cites": [
-        "herb-mertz"
+        "herb-metts"
       ],
       "documents": [],
       "difference": "Cites a book by Herb Mertz as the source and doesn't name Jahn.",
@@ -103,24 +103,23 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 2,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "herb-metts",
-      "jesse-michels"
+      "herb-metts"
     ],
     "episodes": [
       "PiFbeWfA3LM",
@@ -129,7 +128,7 @@
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.85,
-  "tier": "well-attested",
+  "attestation": 0.75,
+  "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says a researcher spent some 40 years working with random event generators, machines that spit out random numbers, to try to prove that the human mind can affect matter. He links this work to Robert Jahn and the Princeton Engineering Anomalies Research lab, which studied such effects, and in another episode he points to a book about it by Herb Mertz of that lab. If true, it would mean thought alone can nudge the physical world."
 }

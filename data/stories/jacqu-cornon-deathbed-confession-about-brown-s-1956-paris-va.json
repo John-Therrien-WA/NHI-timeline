@@ -21,7 +21,7 @@
       "quote": "And if that's not all, we have audio of a deathbed confession from French aerospace executive Jacqu Cornon, who witnessed Brown's successful experiments in a vacuum chamber in 1956 in Paris, explicitly stating he witnessed a positive result.",
       "kind": "host",
       "cites": [
-        "jacqu-cornon"
+        "jacques-cornillon"
       ],
       "documents": [
         "audio-recording-of-jacqu-cornon-deathbed-confession",
@@ -58,7 +58,7 @@
       "episode": "bM18PJY6_Zc",
       "from_s": 783.0,
       "to_s": 796.0,
-      "teller": "jacques-cornion",
+      "teller": "jacques-cornillon",
       "quote": "tests were very very very tricky. It was sensitive to so so many things in vacuum. Finally, it works. So that was a positive result.",
       "kind": "firsthand",
       "cites": [
@@ -81,7 +81,7 @@
       "episode": "iPxbILOMQ08",
       "from_s": 1097.0,
       "to_s": 1110.0,
-      "teller": "jacqu-cornion",
+      "teller": "jacques-cornillon",
       "quote": "The test very very tricky. It was sensitive to so so many things in finally it worked. So that was a positive result.",
       "kind": "firsthand",
       "cites": [],
@@ -101,25 +101,23 @@
   ],
   "related": [],
   "tags": [],
-  "score": 6.5,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 3,
-    "firsthand": 2,
+    "independent_tellers": 1,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 3,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "jacqu-cornion",
-      "jacques-cornion",
-      "jesse-michels"
+      "jacques-cornillon"
     ],
     "episodes": [
       "RTEWLSTyUic",
@@ -128,7 +126,7 @@
       "mOWwdIuyaQA"
     ]
   },
-  "attestation": 3.25,
-  "tier": "well-attested",
+  "attestation": 1.0,
+  "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, says there is an audio recording of a deathbed confession by Jacqu Cornon, a French aerospace executive, made around 2009. In it, Michels says, Cornon states he personally witnessed successful experiments by a researcher named Brown inside a vacuum chamber, a sealed space with the air pumped out, in Paris in 1956, and Michels also points to a 12 page report on that test. If true, it would mean a kind of propulsion that works without air, which the host links to antigravity, was shown to work decades ago."
 }

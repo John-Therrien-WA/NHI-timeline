@@ -292,7 +292,7 @@ def problems(root: Root) -> list[str]:
                 out.append(f"{where}: relation {r.get('relation')!r} is not one of {RELATIONS}")
     out += notes_problems(root, stories, owner)
     out += images.problems(root, stories, owner, people)
-    out += person_fold_problems(root, stories, people, episodes, clip_groups)
+    out += person_fold_problems(root, stories, people, episodes, clip_groups, aliases)
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
             out.append(f"episode {eid}: captions file {e['captions']} is missing")
@@ -323,11 +323,13 @@ def replay_problems(tw: str, t: dict, episodes: dict, people: dict, groups: list
     return out
 
 
-def person_fold_problems(root: Root, stories: dict, people: dict, episodes: dict, clip_groups: list) -> list[str]:
+def person_fold_problems(root: Root, stories: dict, people: dict, episodes: dict, clip_groups: list,
+                         aliases: dict[str, str]) -> list[str]:
     """data/person-folds.json well formed and applied: no member id has a person file or is named where a
     person id goes (a telling, a cite, a story's profile, an episode's host or guests, a clip, an image
-    directory or a person picture, an alias target); every person's `aliases` is a list of ids that are no
-    person file and belong to no other person."""
+    directory or a person picture, an alias target: `people.reference_sites`); every person's `aliases` is a
+    list of ids that are no person file and belong to no other person. `aliases` is data/person-aliases.json
+    as `person_aliases` loaded it."""
     out: list[str] = []
     f = people_stage.folds_path(root)
     groups = load_json(f) if f.exists() else []
@@ -353,30 +355,7 @@ def person_fold_problems(root: Root, stories: dict, people: dict, episodes: dict
     for g in groups:
         if g["canonical"] not in people:
             out.append(f"person-folds.json: canonical {g['canonical']!r} has no person file (run pipeline.people --fold)")
-    where: list[tuple[str, str]] = []
-    for sid, s in sorted(stories.items()):
-        for i, t in enumerate(s.get("tellings") or []):
-            for x in [t.get("teller"), t.get("teller_was")] + list(t.get("cites") or []):
-                where.append((x, f"story {sid} telling {i + 1}"))
-        for x in (s.get("profile") or {}).get("tellers") or []:
-            where.append((x, f"story {sid} profile (run pipeline.score)"))
-    for eid, e in sorted(episodes.items()):
-        for x in [e.get("host")] + list(e.get("guests") or []):
-            where.append((x, f"episode {eid}"))
-    for g in clip_groups:
-        for x in [g.get("speaker")] + list(g.get("also_heard") or []):
-            where.append((x, f"data/clips.json group {g.get('id')}"))
-    for owner, rows in sorted(images.load_sidecars(root).items()):
-        where.append((owner, f"data/images/{owner}"))
-        for n, sc in rows:
-            where.append((sc.get("person"), f"data/images/{owner}/{n}.json"))
-    try:
-        raw = load_json(root.data / "person-aliases.json") if (root.data / "person-aliases.json").exists() else {}
-    except SystemExit:
-        raw = {}
-    for text, pid in sorted(raw.items()) if isinstance(raw, dict) else []:
-        where.append((pid, f"person-aliases.json {text!r}"))
-    for x, w in where:
+    for x, w in people_stage.reference_sites(stories, episodes, clip_groups, images.load_sidecars(root), aliases):
         if isinstance(x, str) and x in to:
             out.append(f"{w}: names {x!r}, which person-folds.json folds into {to[x]!r} (run pipeline.people --fold)")
     return out
@@ -971,8 +950,9 @@ def fold_discussion_problems() -> list[str]:
 
 def person_fold_refusal_problems() -> list[str]:
     """`people.run` on a tiny root of its own: each refusal is named before anything is written, and a fold into
-    a new canonical creates it, merges the fields, moves a headshot to the canonical's next free number and
-    drops one whose image_url the canonical holds."""
+    a new canonical creates it, merges the fields (a member's own earlier aliases kept, and a member an earlier
+    fold put into another member accepted), moves a headshot to the canonical's next free number and drops one
+    whose image_url the canonical holds."""
     tmp = Path(tempfile.mkdtemp(prefix="nhi-fold-"))
     out: list[str] = []
     try:
@@ -989,7 +969,8 @@ def person_fold_refusal_problems() -> list[str]:
             (root.site / "images" / owner / f"{n}.png").write_bytes(png)
 
         person("ivo-fixtur", "Ivo Fixtur", roles=["witness"], links=["https://example.org/a"])
-        person("ivo-fixtor", "Ivo Fixtor", roles=["host", "witness"], affiliation="Fixture Hour", links=["https://example.org/b"])
+        person("ivo-fixtor", "Ivo Fixtor", roles=["host", "witness"], affiliation="Fixture Hour", links=["https://example.org/b"],
+               aliases=["x-fixture"])  # an earlier fold, kept on the canonical; x-fixture is also a member below
         person("jo-fixture", "Jo Fixture")
         headshot("ivo-fixtur", 1, "https://example.org/ivo-1.png")
         headshot("ivo-fixtor", 1, "https://example.org/ivo-1.png")
@@ -997,7 +978,11 @@ def person_fold_refusal_problems() -> list[str]:
         tell = {"episode": "E", "from_s": 1, "teller": "ivo-fixtur", "quote": "q", "kind": "firsthand", "cites": ["ivo-fixtor", "jo-fixture"]}
         save_json(root.stories / "s.json", {"id": "s", "title": "t", "summary": "", "tellings": [tell], "related": []})
         save_json(root.data / "person-aliases.json", {"Ivo Fixxtur": "ivo-fixtur"})
-        good = {"canonical": "ivo-fixture", "name": "Ivo Fixture", "members": ["ivo-fixtur", "ivo-fixtor"], "reason": "r"}
+        good = {"canonical": "ivo-fixture", "name": "Ivo Fixture", "members": ["ivo-fixtur", "ivo-fixtor", "x-fixture"], "reason": "r"}
+
+        def missing_headshot():
+            headshot("jo-fixture", 1, "https://example.org/jo-1.png")
+            (root.site / "images" / "jo-fixture" / "1.png").unlink()
         folds = root.data / "person-folds.json"
         refusals = [
             ("a malformed group", [{**good, "why": "x"}], "must be an object with exactly"),
@@ -1005,9 +990,13 @@ def person_fold_refusal_problems() -> list[str]:
             ("a member that is another group's canonical", [good, {**good, "canonical": "jo-fixture", "members": ["ivo-fixture"]}],
              "is the canonical of group 1"),
             ("a member named nowhere", [{**good, "members": ["ivo-fixtur", "nobody-fixture"]}], "'nobody-fixture' has no person file and no reference"),
+            ("a member headshot whose file is missing", [good, {**good, "canonical": "jo-fixtures", "members": ["jo-fixture"]}],
+             "data/images/jo-fixture/1.json: its file 'images/jo-fixture/1.png' is missing under site/", missing_headshot),
         ]
-        for label, groups, needle in refusals:
+        for label, groups, needle, *setup in refusals:
             save_json(folds, groups)
+            for f in setup:
+                f()
             before = {**snapshot(root.data), **snapshot(root.site)}
             try:
                 people_stage.run(root)
@@ -1017,11 +1006,14 @@ def person_fold_refusal_problems() -> list[str]:
                     out.append(f"expect: people --fold refused {label} without naming it ({needle!r}): {e}")
             if {**snapshot(root.data), **snapshot(root.site)} != before:
                 out.append(f"expect: people --fold wrote something before refusing {label}")
+            if setup:
+                shutil.rmtree(root.data / "images" / "jo-fixture")
+                shutil.rmtree(root.site / "images" / "jo-fixture")
         save_json(folds, [good])
         people_stage.run(root)
         p = load_json(root.people / "ivo-fixture.json")
         want = {"id": "ivo-fixture", "name": "Ivo Fixture", "roles": ["witness", "host"], "affiliation": "Fixture Hour",
-                "links": ["https://example.org/a", "https://example.org/b"], "note": "", "aliases": ["ivo-fixtur", "ivo-fixtor"]}
+                "links": ["https://example.org/a", "https://example.org/b"], "note": "", "aliases": ["ivo-fixtur", "ivo-fixtor", "x-fixture"]}
         if p != want:
             out.append(f"expect: the new canonical is {p}, expected {want}")
         if any((root.people / f"{m}.json").exists() for m in good["members"]):

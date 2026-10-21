@@ -125,7 +125,7 @@ The decided folds of one person under several spellings, a list of groups, hand-
 
 - `canonical`: the id the members become, a person id the corpus holds or a new one (the stage creates its file). `name`: the name as the page shows it. `members`: one or more other ids of the same person, spellings that chain ("andre-puharic", "andy-puharich") in one group. `reason`: the evidence, one or two sentences. No other field.
 - A member is in one group only, is never a canonical, and is a person file or an id the data names; the canonical is in no group's members and is not an alias of another person.
-- `pipeline/people.py --fold` applies it (CLAUDE.md, Layout): afterwards no member id has a person file or stands where a person id goes (a telling's `teller`, `teller_was` or `cites`, a story's profile, an episode's `host` or `guests`, a clip's `speaker` or `also_heard`, an image directory or a person picture's `person`, a target in `data/person-aliases.json`), and `check.py` refuses one that does.
+- `pipeline/people.py --fold` applies it (CLAUDE.md, Layout), a member's headshot dropped when the canonical already holds the same `image_url`: afterwards no member id has a person file or stands where a person id goes (a telling's `teller`, `teller_was` or `cites`, a story's profile, an episode's `host` or `guests`, a clip's `speaker` or `also_heard`, an image directory or a person picture's `person`, a target in `data/person-aliases.json`), and `check.py` refuses one that does.
 
 ## Episode (`data/episodes/<video id>.json`)
 

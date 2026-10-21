@@ -19,13 +19,14 @@ the image sidecars the `person` of a person picture; a member's headshot directo
 a picture whose `image_url` the canonical already holds dropped. The member person files are merged
 into the canonical's (created when absent): `name` from the group, `roles` and `links` the union in
 order, `affiliation` and `note` the canonical's when set, else the first member's that is set, and
-`aliases` the union of its own and the member ids; the member files are deleted. Each member's name
+`aliases` the union of its own, the member ids and the members' own aliases; the member files are deleted. Each member's name
 (and the member id itself when its name's key is another) is added to data/person-aliases.json
 pointing at the canonical, so the next merge maps the spelling at once, and an alias that pointed at
 a member points at the canonical. Every group is checked before anything is written: it fails on a
 malformed group, a member in two groups, a member that is another group's canonical, a canonical
-that an earlier fold made an alias of another person, and a member with no person file and no
-reference anywhere that no earlier fold of its canonical absorbed. Idempotent: a second run changes
+that an earlier fold made an alias of another person, a member an earlier fold put into a person
+outside the group, a member with no person file and no reference anywhere that no earlier fold
+absorbed, and a member headshot whose file is missing under site/. Idempotent: a second run changes
 nothing. Runs after clips and before score (the profile's tellers are recomputed there).
 """
 from __future__ import annotations
@@ -36,7 +37,7 @@ import sys
 from pathlib import Path
 
 from . import clips, images
-from .common import REPO, Root, load_json, name_key, rel, save_json
+from .common import REPO, Root, load_json, name_key, raw_person_aliases, rel, save_json
 
 FOLD_KEYS = ("canonical", "name", "members", "reason")
 PERSON_ID = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
@@ -105,25 +106,34 @@ def fold_map(groups: list[dict]) -> dict[str, str]:
     return {m: g["canonical"] for g in groups for m in g["members"]}
 
 
-def references(stories: dict, episodes: dict, ledger: dict, sidecars: dict) -> set[str]:
+def reference_sites(stories: dict, episodes: dict, clip_groups: list, sidecars: dict, aliases: dict):
+    """Every place the data names a person id outside the person files, as (id, where): a telling's
+    teller, teller_was and cites, a story's profile, an episode's host and guests, a clip's speaker and
+    also_heard, an image directory and a person picture, an alias target. The id may be None or not a
+    string; the caller filters. `people.run` and `check.py` both read this one list."""
+    for sid, s in sorted(stories.items()):
+        for i, t in enumerate(s.get("tellings") or []):
+            for x in [t.get("teller"), t.get("teller_was")] + list(t.get("cites") or []):
+                yield x, f"story {sid} telling {i + 1}"
+        for x in (s.get("profile") or {}).get("tellers") or []:
+            yield x, f"story {sid} profile (run pipeline.score)"
+    for eid, e in sorted(episodes.items()):
+        for x in [e.get("host")] + list(e.get("guests") or []):
+            yield x, f"episode {eid}"
+    for g in clip_groups:
+        for x in [g.get("speaker")] + list(g.get("also_heard") or []):
+            yield x, f"data/clips.json group {g.get('id')}"
+    for owner, rows in sorted(sidecars.items()):
+        yield owner, f"data/images/{owner}"
+        for n, sc in rows:
+            yield sc.get("person"), f"data/images/{owner}/{n}.json"
+    for text, pid in sorted(aliases.items()):
+        yield pid, f"person-aliases.json {text!r}"
+
+
+def references(stories: dict, episodes: dict, clip_groups: list, sidecars: dict, aliases: dict) -> set[str]:
     """Every person id the data names outside the person files."""
-    ids: set[str] = set()
-    for s in stories.values():
-        for t in s.get("tellings", []):
-            ids.update(x for x in (t.get("teller"), t.get("teller_was")) if x)
-            ids.update(t.get("cites", []))
-    for e in episodes.values():
-        if e.get("host"):
-            ids.add(e["host"])
-        ids.update(e.get("guests") or [])
-    for g in ledger.get("groups", []):
-        if g.get("speaker"):
-            ids.add(g["speaker"])
-        ids.update(g.get("also_heard") or [])
-    for owner, rows in sidecars.items():
-        ids.add(owner)
-        ids.update(sc["person"] for _, sc in rows if isinstance(sc.get("person"), str))
-    return ids
+    return {x for x, _ in reference_sites(stories, episodes, clip_groups, sidecars, aliases) if isinstance(x, str) and x}
 
 
 def union(*lists) -> list:
@@ -139,7 +149,7 @@ def merged_person(canonical: str, name: str, own: dict | None, members: list[dic
     for k in ("affiliation", "note"):
         if not base.get(k):
             p[k] = next((m[k] for m in members if m.get(k)), base.get(k))
-    p["aliases"] = union(base.get("aliases") or [], [m["id"] for m in members])
+    p["aliases"] = union(base.get("aliases") or [], *[[m["id"], *(m.get("aliases") or [])] for m in members])
     ordered = {k: p[k] for k in PERSON_ORDER if k in p}
     return {**ordered, **{k: v for k, v in p.items() if k not in ordered}}
 
@@ -208,24 +218,28 @@ def run(root: Root) -> dict:
     ledger = clips.load_ledger(root)
     sidecars = images.load_sidecars(root)
     aliases_file = root.data / "person-aliases.json"
-    raw_aliases = load_json(aliases_file) if aliases_file.exists() else {}
-    if not isinstance(raw_aliases, dict):
-        raise SystemExit(f"people: {rel(aliases_file, root.path)}: must be an object of alias text to person id")
+    raw_aliases = raw_person_aliases(root.path)
 
     # Every check before any write.
     absorbed = {a: pid for pid, p in people.items() for a in p.get("aliases", [])}
-    named = references(stories, episodes, ledger, sidecars) | set(raw_aliases.values())
+    named = references(stories, episodes, ledger.get("groups", []), sidecars, raw_aliases)
     bad: list[str] = []
     for g in groups:
         c = g["canonical"]
+        own = {c, *g["members"]}  # an earlier fold into the canonical or into another member of the group
         if c in absorbed:
             bad.append(f"group {c}: the canonical was folded into {absorbed[c]!r} earlier (it is in that person's aliases)")
         for m in g["members"]:
-            if m in absorbed and absorbed[m] != c:
+            if m in absorbed and absorbed[m] not in own:
                 bad.append(f"group {c}: member {m!r} was folded into {absorbed[m]!r} earlier")
-            elif m not in people and m not in named and absorbed.get(m) != c:
+            elif m not in people and m not in named and m not in absorbed:
                 bad.append(f"group {c}: member {m!r} has no person file and no reference anywhere (no telling, cite, clip, "
                            "episode, image or alias names it)")
+        for owner in (m for m in g["members"] if m in sidecars):
+            for n, sc in sidecars[owner]:
+                f = sc.get("file")
+                if not (isinstance(f, str) and (root.site / f).exists()):
+                    bad.append(f"group {c}: member headshot data/images/{owner}/{n}.json: its file {f!r} is missing under site/")
     if bad:
         raise SystemExit("people: data/person-folds.json does not fit the data:\n" + "\n".join(bad))
     new_aliases = plan_aliases(raw_aliases, to, groups, people, rel(aliases_file, root.path))
@@ -271,9 +285,7 @@ def run(root: Root) -> dict:
         nxt = max((n for n, _ in sidecars.get(c, [])), default=0) + 1
         for n, sc in sidecars[owner]:
             src_json = data_dir / owner / f"{n}.json"
-            src_file = root.site / sc["file"] if isinstance(sc.get("file"), str) else None
-            if src_file is None or not src_file.exists():
-                raise SystemExit(f"people: {rel(src_json, root.path)}: its file {sc.get('file')!r} is missing under site/")
+            src_file = root.site / sc["file"]  # checked before any write
             if sc.get("image_url") in held:
                 src_json.unlink()
                 src_file.unlink()

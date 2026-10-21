@@ -17,7 +17,7 @@
       "episode": "1iaH1a3A4Lk",
       "from_s": 10781.0,
       "to_s": 10789.0,
-      "teller": "marik-von-rennenkampf",
+      "teller": "marik-von-rennenkampff",
       "quote": "Roswell Well, itself the site of the 509th atomic bomber squadron, the first bomber squadron in the US.",
       "kind": "researcher",
       "cites": [],
@@ -92,19 +92,40 @@
         "place_text": "Roswell, New Mexico",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 735.0,
+      "to_s": 756.0,
+      "teller": "redpandakoala",
+      "quote": "Roswell was the first atomically armed bomber squadron and they were the ones that dropped the bombs on Hiroshima and Nagasaki.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Adds the claim that the squadron dropped the Hiroshima and Nagasaki bombs.",
+      "link_reason": "Roswell as the first atomically armed bomber squadron matches the Roswell 509th place-lore.",
+      "as_told": {
+        "title": "Roswell's atomic bomber squadron",
+        "years": {
+          "from": 1945,
+          "to": 1947
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 4,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 1,
+    "researcher": 2,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
@@ -114,16 +135,18 @@
     "tellers": [
       "jesse-michels",
       "john-brandenburg",
-      "marik-von-rennenkampf"
+      "marik-von-rennenkampff",
+      "redpandakoala"
     ],
     "episodes": [
       "1F7DHbSbgbQ",
       "1iaH1a3A4Lk",
       "KGD1nuM4MR8",
+      "jyTKETcxj0M",
       "p0S0BfoZy0w"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.1,
   "tier": "told-by-several",
   "plain": "A man named Marik von Rennenkampf, speaking on podcast host Jesse Michels's show, points out that in 1947 Roswell, New Mexico, was home to the 509th, which he calls the first atomic bomber squadron in the US. He raises it because, if UFOs came to Roswell, it would tie them to the place where the country's nuclear bombers were based."
 }

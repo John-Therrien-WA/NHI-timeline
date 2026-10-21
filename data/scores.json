@@ -1,5 +1,5 @@
 {
-  "computed": "2026-10-18",
+  "computed": "2026-10-22",
   "weights": {
     "firsthand": 1.0,
     "official": 0.8,
@@ -18,28 +18,28 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 304,
-    "told-by-several": 158,
-    "told-once": 5836
+    "well-attested": 262,
+    "told-by-several": 149,
+    "told-once": 5912
   },
   "counts": {
-    "stories": 6298,
-    "tellings": 8687,
-    "independent_tellers": 6864,
-    "repetitions": 301,
-    "documents": 2341,
+    "stories": 6323,
+    "tellings": 8732,
+    "independent_tellers": 6832,
+    "repetitions": 328,
+    "documents": 2334,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
-      "crash-retrieval": 219,
-      "document": 887,
+      "crash-retrieval": 221,
+      "document": 890,
       "encounter": 559,
-      "place-lore": 460,
-      "program": 942,
-      "reverse-engineering": 151,
-      "sighting": 466,
-      "testimony": 1691,
-      "theory": 801
+      "place-lore": 461,
+      "program": 944,
+      "reverse-engineering": 153,
+      "sighting": 471,
+      "testimony": 1696,
+      "theory": 806
     }
   },
   "stories": {
@@ -535,7 +535,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -561,7 +561,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -596,6 +596,7 @@
           "K4gYHs84BIc",
           "dzTZbSNsKV8",
           "fyX8V1XXmQM",
+          "jyTKETcxj0M",
           "xnxasfyHtfo"
         ]
       }
@@ -861,7 +862,8 @@
         ],
         "episodes": [
           "fzvwBBSmWYA",
-          "iQOibpIDx-4"
+          "iQOibpIDx-4",
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -884,10 +886,36 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
+        ]
+      }
+    },
+    "1952-official-denial-of-secret-development": {
+      "attestation": 0.8,
+      "score": 1.6,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "unnamed-official"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -1106,7 +1134,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -1236,7 +1264,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -1396,7 +1424,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -1612,17 +1640,17 @@
       }
     },
     "1987-new-science-encyclopedia-diagram-of-pioneer-10-and-11-f": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "well-attested",
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 2,
@@ -1630,7 +1658,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt",
           "matt-lacroix"
         ],
         "episodes": [
@@ -3028,7 +3055,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -3316,7 +3343,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -3654,7 +3681,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -3732,7 +3759,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -3940,7 +3967,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -4230,7 +4257,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -4542,7 +4569,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -4594,7 +4621,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -4843,6 +4870,7 @@
           "_bM9eAtCOGw",
           "bVhSPH2A5Vw",
           "dzTZbSNsKV8",
+          "jyTKETcxj0M",
           "kccrkCGGzX4"
         ]
       }
@@ -4926,7 +4954,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -4952,7 +4980,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -5316,7 +5344,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -5524,7 +5552,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent-freriedman"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -5739,7 +5767,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -5843,7 +5871,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -5999,7 +6027,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -6719,6 +6747,7 @@
           "RTEWLSTyUic",
           "Y7PLeu5rTv4",
           "fzvwBBSmWYA",
+          "jyTKETcxj0M",
           "kRO5jOa06Qw",
           "rjUdn6FklAU",
           "yAvD5UTziTo"
@@ -7005,7 +7034,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -7162,7 +7191,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -7585,7 +7614,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "8Rr_nE65KkI",
@@ -7692,7 +7721,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -7773,7 +7802,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -7853,7 +7882,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -8378,7 +8407,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -8466,26 +8495,25 @@
       }
     },
     "allen-dulles-arranged-transfer-of-the-magenta-object-under-t-1940": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 2,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "harold-malmgren",
-          "jesse-michels"
+          "harold-malmgren"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -8696,7 +8724,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -9456,7 +9484,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -9535,7 +9563,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -9561,7 +9589,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -9639,7 +9667,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -9821,7 +9849,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -9847,7 +9875,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -10348,7 +10376,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -11297,7 +11325,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -11534,7 +11562,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -11664,7 +11692,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -11854,7 +11882,7 @@
           "james-fox",
           "jesse-michels",
           "karl-nell",
-          "merrick",
+          "marik-von-rennenkampff",
           "peter-levenda"
         ],
         "episodes": [
@@ -12397,16 +12425,16 @@
       }
     },
     "arrest-of-supervisor-and-100-million-abuse-lawsuit-at-the-fa": {
-      "attestation": 1.75,
-      "score": 3.5,
-      "tier": "well-attested",
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -12415,7 +12443,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan",
           "jordan-jose"
         ],
         "episodes": [
@@ -12468,7 +12495,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -12990,7 +13017,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -13016,7 +13043,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -13094,7 +13121,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan-jos"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -13180,12 +13207,12 @@
       }
     },
     "at-an-lax-pedestrian-death-all-sound-vanishes-except-the-vic-1980": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -13198,7 +13225,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent",
           "brent-friedman"
         ],
         "episodes": [
@@ -13277,7 +13303,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -13868,25 +13894,24 @@
       }
     },
     "austin-meeting-where-puthoff-said-skinwalker-ranch-needed-a": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
           "peter-levenda"
         ],
         "episodes": [
@@ -14124,7 +14149,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -14311,7 +14336,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -14364,7 +14389,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0",
@@ -15145,12 +15170,12 @@
       }
     },
     "baltic-sea-anomaly-expedition": {
-      "attestation": 2.25,
-      "score": 4.5,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
-        "firsthand": 2,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -15159,13 +15184,12 @@
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
           "beatriz-villarroel",
-          "dennis-asberg",
-          "jesse-michels"
+          "dennis-asberg"
         ],
         "episodes": [
           "aGqFOxuYRT0",
@@ -15271,7 +15295,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -15564,7 +15588,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -16035,7 +16059,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -16061,7 +16085,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -16306,12 +16330,12 @@
       }
     },
     "beings-say-they-will-not-allow-nuclear-war-1964": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -16324,7 +16348,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "richard",
           "richard-barth"
         ],
         "episodes": [
@@ -17172,7 +17195,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -17605,7 +17628,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -17973,7 +17996,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -18696,17 +18719,17 @@
       }
     },
     "binary-dead-star-drives-the-great-year-and-civilizational-re": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "well-attested",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 1,
@@ -18714,7 +18737,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt",
           "matt-lacroix"
         ],
         "episodes": [
@@ -18881,12 +18903,12 @@
       }
     },
     "bismuth-magnesium-sample-said-to-be-from-roswell-found-in-an-1947": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 1,
+        "independent_tellers": 1,
+        "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -18894,13 +18916,12 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
-        "repetitions": 0,
+        "credited_documents": 1,
+        "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "firsthand",
+        "strongest_kind": "secondhand",
         "tellers": [
-          "hal-putoff",
-          "jesse-michels"
+          "hal-puthoff"
         ],
         "episodes": [
           "2Xxmguz0GEQ",
@@ -19218,16 +19239,16 @@
       }
     },
     "blacker-than-black-floating-sphere": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 2,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -19236,7 +19257,6 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-burles",
           "eric-burlison"
         ],
         "episodes": [
@@ -19393,7 +19413,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -19525,7 +19545,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -19811,7 +19831,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "bryce-zable",
+          "bryce-zabel",
           "robert-salas"
         ],
         "episodes": [
@@ -20058,27 +20078,26 @@
       }
     },
     "bluegill-recovery-of-spherical-debris-in-deck-logs-1962": {
-      "attestation": 3.25,
-      "score": 6.5,
+      "attestation": 2.75,
+      "score": 5.5,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 2,
         "firsthand": 2,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 3,
-        "repetitions": 4,
+        "repetitions": 5,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
           "harold-malmgren",
-          "tim-gallaudet",
-          "uapgerb"
+          "tim-gallaudet"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -20393,26 +20412,25 @@
       }
     },
     "bob-jahn-s-random-event-generator-research-with-navy-interes-1979": {
-      "attestation": 0.85,
-      "score": 1.7,
-      "tier": "well-attested",
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 2,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "herb-metts",
-          "jesse-michels"
+          "herb-metts"
         ],
         "episodes": [
           "PiFbeWfA3LM",
@@ -22281,7 +22299,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -22620,7 +22638,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -23598,25 +23616,24 @@
       }
     },
     "buchanan-s-eyes-turn-brown-while-he-accesses-saddam": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
           "lyn-buchanan"
         ],
         "episodes": [
@@ -23774,7 +23791,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -23800,7 +23817,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -24144,7 +24161,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -24248,7 +24265,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -24676,7 +24693,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -24807,7 +24824,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "richard"
+          "richard-barth"
         ],
         "episodes": [
           "Qe8br8yYEDM"
@@ -24911,7 +24928,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "richard"
+          "richard-barth"
         ],
         "episodes": [
           "Qe8br8yYEDM"
@@ -24919,17 +24936,17 @@
       }
     },
     "caltech-astronomer-99-chance-planet-nine-exists-2010": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-by-several",
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
@@ -24937,7 +24954,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt",
           "matt-lacroix"
         ],
         "episodes": [
@@ -25303,7 +25319,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -25329,7 +25345,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -25733,7 +25749,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -25741,12 +25757,12 @@
       }
     },
     "carlos-de-souza-witnesses-the-crash-and-debris-field-1996": {
-      "attestation": 2.5,
-      "score": 5.0,
+      "attestation": 1.5,
+      "score": 3.0,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
-        "firsthand": 2,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -25760,8 +25776,7 @@
         "strongest_kind": "firsthand",
         "tellers": [
           "ahmed-foratu",
-          "carlos-de-souza",
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "8Rr_nE65KkI",
@@ -26316,7 +26331,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -26821,7 +26836,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -26983,7 +26998,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -27113,7 +27128,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -27225,7 +27240,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -27771,7 +27786,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -28135,7 +28150,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -28801,7 +28816,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -30904,7 +30919,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -31582,7 +31597,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -32109,7 +32124,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -32536,7 +32551,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -32590,7 +32605,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -32777,7 +32792,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -32855,7 +32870,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-berles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -33143,7 +33158,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -33222,7 +33237,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-bard"
+          "erik-bard"
         ],
         "episodes": [
           "7W7iOt57fOo",
@@ -33276,7 +33291,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk",
@@ -34364,7 +34379,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -34390,7 +34405,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -34841,12 +34856,12 @@
       }
     },
     "crash-site-regraded-for-soybeans-after-the-documentary-2022": {
-      "attestation": 2.25,
-      "score": 4.5,
-      "tier": "well-attested",
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -34859,8 +34874,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "carlos-de-souza",
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -34912,7 +34926,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -35045,7 +35059,7 @@
         "tellers": [
           "james-madden",
           "jesse-michels",
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A",
@@ -35633,7 +35647,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk",
@@ -36110,7 +36124,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -36670,27 +36684,26 @@
       }
     },
     "david-grush-s-congressional-testimony-2023": {
-      "attestation": 1.9,
-      "score": 3.8,
+      "attestation": 1.3,
+      "score": 2.6,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
-        "journalist": 1,
+        "journalist": 0,
         "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 2,
+        "repetitions": 3,
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
           "david-grusch",
-          "donald-hoffman",
-          "michael-shellenberger"
+          "donald-hoffman"
         ],
         "episodes": [
           "2SQXAPCdmPE",
@@ -37268,7 +37281,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -37294,7 +37307,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -37457,6 +37470,32 @@
         ],
         "episodes": [
           "yGtVzBbUvx4"
+        ]
+      }
+    },
+    "declassified-air-force-documents-on-ufos-at-cold-war-nuclear": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -37855,6 +37894,32 @@
         ]
       }
     },
+    "delonge-in-secure-facilities-2010": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "tom-delonge"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "delonge-iraq-war-linked-to-groups-connected-with-nonhuman-en-2003": {
       "attestation": 0.5,
       "score": 1.0,
@@ -37874,7 +37939,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -37952,7 +38017,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -37960,18 +38025,18 @@
       }
     },
     "delonge-s-contact-at-lockheed-skunk-works-2015": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 2,
         "researcher": 0,
-        "host": 0,
+        "host": 1,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
@@ -37979,10 +38044,12 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jason-simosa",
-          "jay-anderson"
+          "jay-anderson",
+          "jesse-michels"
         ],
         "episodes": [
           "51N8OxqZIWY",
+          "jyTKETcxj0M",
           "kccrkCGGzX4"
         ]
       }
@@ -38110,7 +38177,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bryce-zable"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -38431,7 +38498,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -39063,7 +39130,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -39410,7 +39477,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -39566,7 +39633,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -39774,7 +39841,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -40034,7 +40101,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -40221,7 +40288,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -40935,7 +41002,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -41599,12 +41666,12 @@
       }
     },
     "dr-italo-venturelli-meets-live-being-in-the-icu-1996": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -41617,7 +41684,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "italo-ventterelli",
           "italo-venturelli"
         ],
         "episodes": [
@@ -41734,17 +41800,17 @@
       }
     },
     "dr-vinod-falls-into-a-trance-and-first-channels-the-nine-1952": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 3,
@@ -41752,7 +41818,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg",
           "greg-malatzi"
         ],
         "episodes": [
@@ -41883,7 +41948,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -42013,7 +42078,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -42151,12 +42216,12 @@
       }
     },
     "drum-s-visit-to-the-giza-plateau-to-look-at-the-area-around-2020": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -42169,7 +42234,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jeffrey",
           "jeffrey-drum"
         ],
         "episodes": [
@@ -43493,16 +43557,16 @@
       }
     },
     "edgar-mitchell-heard-about-roswell-1947": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 2,
         "researcher": 0,
         "host": 1,
         "documents": 0,
@@ -43512,10 +43576,12 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "maaneli-derakhshani"
+          "maaneli-derakhshani",
+          "redpandakoala"
         ],
         "episodes": [
           "IWui5cBkwoE",
+          "jyTKETcxj0M",
           "uVVqFg2v7ro"
         ]
       }
@@ -43595,7 +43661,34 @@
         ],
         "episodes": [
           "bVhSPH2A5Vw",
+          "jyTKETcxj0M",
           "uVVqFg2v7ro"
+        ]
+      }
+    },
+    "edgar-mitchell-s-esp-experiment-in-space-1971": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -44635,7 +44728,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -44932,7 +45025,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -45254,7 +45347,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -45594,7 +45687,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -46152,6 +46245,58 @@
         ]
       }
     },
+    "emergency-conference-at-camp-hood-on-nuclear-site-ufos": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
+    "emp-from-nuclear-blast-travels-through-dimensions": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tom-delonge"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "encyclopedia-galactica-alien-taxonomy-sent-to-the-congressma": {
       "attestation": 1.25,
       "score": 2.5,
@@ -46440,7 +46585,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -47659,7 +47804,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -47694,12 +47839,12 @@
       }
     },
     "esalen-contact-exercise-brings-blue-plasma-orbs-2024": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -47712,7 +47857,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan",
           "jordan-jose"
         ],
         "episodes": [
@@ -48233,7 +48377,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -48285,7 +48429,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -48415,7 +48559,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -48493,7 +48637,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -49639,7 +49783,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -49822,7 +49966,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -50057,7 +50201,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -50109,7 +50253,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -50266,7 +50410,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -50344,7 +50488,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -50371,7 +50515,7 @@
         "strongest_kind": "firsthand",
         "tellers": [
           "bob-lazar",
-          "luigi"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -50631,7 +50775,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -50657,7 +50801,7 @@
         "contradicted": false,
         "strongest_kind": "host",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -50687,6 +50831,32 @@
         ],
         "episodes": [
           "ABw7EsWh2Us"
+        ]
+      }
+    },
+    "first-h-bomb-and-the-1952-dc-wave": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -50787,7 +50957,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -50970,7 +51140,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -51471,7 +51641,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -51497,7 +51667,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -52049,7 +52219,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -52320,7 +52490,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -52484,12 +52654,12 @@
       }
     },
     "former-nsa-research-director-never-saw-a-reverse-engineering": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -52502,8 +52672,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-haseltine",
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -52589,12 +52758,12 @@
       }
     },
     "formula-given-to-brent-and-bryce-lost-for-years-then-recover": {
-      "attestation": 2.5,
-      "score": 5.0,
-      "tier": "well-attested",
+      "attestation": 1.5,
+      "score": 3.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -52607,7 +52776,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent",
           "brent-friedman"
         ],
         "episodes": [
@@ -53083,7 +53251,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -53796,7 +53964,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -53864,7 +54032,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -53970,7 +54138,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -54520,7 +54688,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -54546,7 +54714,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -54910,7 +55078,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -55155,7 +55323,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -55952,7 +56120,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -55978,7 +56146,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -56004,7 +56172,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -56030,7 +56198,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -56162,7 +56330,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg",
+          "greg-malatzi",
           "jesse-michels"
         ],
         "episodes": [
@@ -56306,6 +56474,32 @@
         ]
       }
     },
+    "general-spaatz-flew-to-texas-during-roswell-1947": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "general-starbird-leaves-johnston-island-hours-after-bluegill-1962": {
       "attestation": 0.35,
       "score": 0.7,
@@ -56359,25 +56553,24 @@
       }
     },
     "general-stubblebine-s-2-billion-offer-1992": {
-      "attestation": 1.1,
-      "score": 2.2,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 1,
+        "repetitions": 2,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
           "steven-greer"
         ],
         "episodes": [
@@ -56802,7 +56995,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -57015,7 +57208,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -57676,17 +57869,17 @@
       }
     },
     "gimbal-j-hook-path-matches-aircrew-radar-account-2015": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "well-attested",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 1,
@@ -57694,8 +57887,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "marik-von-rennenkampf",
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -57721,7 +57913,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -57773,7 +57965,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -57799,7 +57991,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -57851,7 +58043,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -57981,7 +58173,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -58087,7 +58279,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -58700,7 +58892,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -58960,7 +59152,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -59222,7 +59414,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg",
+          "greg-malatzi",
           "unnamed-guest"
         ],
         "episodes": [
@@ -59435,7 +59627,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -59443,16 +59635,16 @@
       }
     },
     "government-air-to-air-flir-expert-s-email-on-gimbal-rotation-2015": {
-      "attestation": 1.75,
-      "score": 3.5,
-      "tier": "well-attested",
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -59461,8 +59653,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "marik-von-rennenkampf",
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -59488,7 +59679,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent-freriedman"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -59540,7 +59731,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -59570,6 +59761,32 @@
         ],
         "episodes": [
           "1zRWi_r3HRM"
+        ]
+      }
+    },
+    "government-getting-ahead-of-service-members-ready-to-disclos-2017": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
         ]
       }
     },
@@ -59670,7 +59887,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -60714,7 +60931,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -61009,7 +61226,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -61429,7 +61646,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -62260,7 +62477,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "omar-candal"
+          "ammar-kandil"
         ],
         "episodes": [
           "ABOP8ZJsyIk"
@@ -62810,7 +63027,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bryce-zable"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -62974,7 +63191,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk",
@@ -63876,7 +64093,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -63902,7 +64119,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -64507,7 +64724,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "richard"
+          "richard-barth"
         ],
         "episodes": [
           "Qe8br8yYEDM"
@@ -64620,16 +64837,16 @@
       }
     },
     "harrington-aliens-are-real-and-he-has-seen-them-1981": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 2,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -64638,7 +64855,6 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "brent-freriedman",
           "brent-friedman"
         ],
         "episodes": [
@@ -64693,7 +64909,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -64719,7 +64935,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -64727,12 +64943,12 @@
       }
     },
     "harrington-s-buck-slip-congratulating-brent-1996": {
-      "attestation": 2.25,
-      "score": 4.5,
-      "tier": "well-attested",
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -64745,7 +64961,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent-freriedman",
           "brent-friedman"
         ],
         "episodes": [
@@ -64773,7 +64988,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -64799,7 +65014,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -64851,7 +65066,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -65495,7 +65710,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -65547,7 +65762,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -66212,6 +66427,32 @@
         ]
       }
     },
+    "hereticon-founder-s-startup-to-reverse-engineer-ufos-with-qu-2022": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
+        ]
+      }
+    },
     "hereticon-talk-flood-myths-rooted-in-real-floods": {
       "attestation": 0.25,
       "score": 0.5,
@@ -66257,7 +66498,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason-samosa",
+          "jason-simosa",
           "jesse-michels"
         ],
         "episodes": [
@@ -66576,7 +66817,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -66811,7 +67052,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -67281,7 +67522,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -68312,7 +68553,8 @@
         ],
         "episodes": [
           "7W7iOt57fOo",
-          "Y26iMB0r-f8"
+          "Y26iMB0r-f8",
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -68755,7 +68997,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -69050,12 +69292,12 @@
       }
     },
     "humanoid-figure-emerges-from-fog-and-abducts-guard-at-minute-1964": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -69068,7 +69310,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "richard",
           "richard-barth"
         ],
         "episodes": [
@@ -69355,7 +69596,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -69623,16 +69864,16 @@
       }
     },
     "hypnotic-regression-reveals-mental-contact-with-the-creature-1996": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.5,
+      "score": 3.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
@@ -69641,8 +69882,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "carlos-de-souza",
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -70643,7 +70883,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -71667,7 +71907,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -71719,7 +71959,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -72111,7 +72351,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -72216,7 +72456,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -72347,7 +72587,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -72427,7 +72667,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -73416,27 +73656,25 @@
       }
     },
     "jacqu-cornon-deathbed-confession-about-brown-s-1956-paris-va": {
-      "attestation": 3.25,
-      "score": 6.5,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 3,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
-        "repetitions": 0,
+        "credited_documents": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jacqu-cornion",
-          "jacques-cornion",
-          "jesse-michels"
+          "jacques-cornillon"
         ],
         "episodes": [
           "RTEWLSTyUic",
@@ -73751,7 +73989,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -73867,25 +74105,24 @@
       }
     },
     "jake-barber-psionic-crash-retrieval-team-2025": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 1.0,
+      "score": 2.0,
       "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 3,
+        "secondhand": 2,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jesse-michels",
           "michael-herrera",
           "uapgerb"
         ],
@@ -74422,7 +74659,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -74430,30 +74667,32 @@
       }
     },
     "james-mcdonald-s-sighting-at-savannah-river": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-by-several",
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 0,
+        "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 0,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "luis-elizondo"
+          "luis-elizondo",
+          "redpandakoala"
         ],
         "episodes": [
           "1f16VvXaSSE",
           "fzvwBBSmWYA",
+          "jyTKETcxj0M",
           "p0S0BfoZy0w"
         ]
       }
@@ -75083,7 +75322,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bryce-zable"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -75161,7 +75400,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -75856,7 +76095,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -76025,26 +76264,25 @@
       }
     },
     "jfk-killed-for-ufo-cooperation-breaking-the-power-structure-1963": {
-      "attestation": 2.05,
-      "score": 4.1,
+      "attestation": 1.55,
+      "score": 3.1,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 4,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 2,
+        "secondhand": 1,
         "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
           "harold-malmgren",
-          "jesse-michels",
           "matthew-pines",
           "steven-greer"
         ],
@@ -76583,7 +76821,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -76609,7 +76847,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -76669,17 +76907,17 @@
       }
     },
     "jimmy-carter-s-1969-ufo-sighting": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 0,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
@@ -76687,11 +76925,13 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "daniel-sheehan"
+          "daniel-sheehan",
+          "redpandakoala"
         ],
         "episodes": [
           "1f16VvXaSSE",
-          "2SQXAPCdmPE"
+          "2SQXAPCdmPE",
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -78326,7 +78566,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -78334,8 +78574,40 @@
       }
     },
     "john-trump-examines-tesla-s-confiscated-files-1943": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "well-attested",
+      "profile": {
+        "independent_tellers": 2,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 3,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jesse-michels",
+          "redpandakoala"
+        ],
+        "episodes": [
+          "09KP8XVf5nY",
+          "8TYMQOUDQBo",
+          "WBTqsbwJyqU",
+          "areO7Mej44E",
+          "jyTKETcxj0M",
+          "q7Czo77qhHA"
+        ]
+      }
+    },
+    "john-trump-likely-involved-in-the-1952-washington-wave": {
+      "attestation": 0.25,
+      "score": 0.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -78344,22 +78616,18 @@
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
-        "host": 1,
+        "researcher": 1,
+        "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "researcher",
         "tellers": [
-          "jesse-michels"
+          "redpandakoala"
         ],
         "episodes": [
-          "09KP8XVf5nY",
-          "8TYMQOUDQBo",
-          "WBTqsbwJyqU",
-          "areO7Mej44E",
-          "q7Czo77qhHA"
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -78513,7 +78781,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -78831,7 +79099,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -79641,7 +79909,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -79854,7 +80122,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -80303,7 +80571,7 @@
         "strongest_kind": "researcher",
         "tellers": [
           "geoffrey-drumm",
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "BSXdnsyCqxw",
@@ -80495,7 +80763,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1f16VvXaSSE",
@@ -80522,7 +80790,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -80548,7 +80816,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -80870,7 +81138,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -80930,12 +81198,12 @@
       }
     },
     "khafre-research-project-proposal-to-the-egyptian-authorities-2025": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -80948,7 +81216,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo",
           "filippo-biondi"
         ],
         "episodes": [
@@ -81002,7 +81269,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -81239,7 +81506,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "arthur-stansel"
+          "arthur-stansel-jr"
         ],
         "episodes": [
           "Jpf0ZGY87c0",
@@ -81478,7 +81745,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -82216,25 +82483,24 @@
       }
     },
     "kobitz-shown-an-atomically-bonded-bulkhead-underground-at-wr": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 2,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jesse-michels",
           "ross-coulthart"
         ],
         "episodes": [
@@ -82314,7 +82580,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -82553,7 +82819,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -82947,7 +83213,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -82973,7 +83239,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg",
+          "greg-malatzi",
           "unnamed-guest"
         ],
         "episodes": [
@@ -83208,7 +83474,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -83320,26 +83586,25 @@
       }
     },
     "land-of-chem-theory-pyramids-as-chemical-plants": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 0.5,
+      "score": 1.0,
       "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 2,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "researcher",
         "tellers": [
           "geoffrey-drumm",
-          "jay-anderson",
           "jeffrey-drum"
         ],
         "episodes": [
@@ -83396,7 +83661,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -83448,7 +83713,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -83813,7 +84078,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -83865,7 +84130,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -83943,7 +84208,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -84345,7 +84610,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -84924,7 +85189,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "luigi-vendetelli"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -85080,7 +85345,7 @@
         "contradicted": false,
         "strongest_kind": "host",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -85184,7 +85449,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -85684,7 +85949,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -85737,7 +86002,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "roger-leer"
+          "roger-leir"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -85896,7 +86161,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -86313,7 +86578,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -86563,7 +86828,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -86693,7 +86958,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -86701,26 +86966,25 @@
       }
     },
     "letters-to-mitre-rand-and-mit-lincoln-labs-2026": {
-      "attestation": 1.1,
-      "score": 2.2,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-burlison",
-          "jesse-michels"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw",
@@ -87561,7 +87825,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -87772,7 +88036,7 @@
         "strongest_kind": "firsthand",
         "tellers": [
           "bob-lazar",
-          "luigi"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -88533,7 +88797,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -89167,7 +89431,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "luigi"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -89274,7 +89538,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -89981,10 +90245,36 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
+        ]
+      }
+    },
+    "majestic-12-1940": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -90141,7 +90431,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -90748,7 +91038,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -90756,27 +91046,26 @@
       }
     },
     "malmstrom-missiles-disabled-by-red-glowing-object-1967": {
-      "attestation": 4.55,
-      "score": 9.1,
+      "attestation": 3.8,
+      "score": 7.6,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 6,
+        "independent_tellers": 5,
         "firsthand": 2,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 3,
+        "secondhand": 2,
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 1,
-        "repetitions": 1,
+        "credited_documents": 0,
+        "repetitions": 2,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
           "bob-jameson",
           "daniel-sheehan",
-          "james-fox",
           "karl-nell",
           "kevin-knuth",
           "robert-salas"
@@ -90795,6 +91084,7 @@
           "fzvwBBSmWYA",
           "h0hAit-KH9A",
           "hBrfe4hFuM0",
+          "jyTKETcxj0M",
           "kRO5jOa06Qw",
           "rjUdn6FklAU",
           "yGtVzBbUvx4"
@@ -90820,7 +91110,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -90898,7 +91188,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bryce"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -90976,7 +91266,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -91239,7 +91529,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "silus-newton"
+          "silas-newton"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -91296,6 +91586,32 @@
         "episodes": [
           "51N8OxqZIWY",
           "HxQN2tkQHs8"
+        ]
+      }
+    },
+    "many-uap-sightings-off-the-coast-of-san-diego-2004": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
         ]
       }
     },
@@ -91452,7 +91768,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -91478,7 +91794,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "brent-freriedman"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -91590,26 +91906,25 @@
       }
     },
     "marconi-s-transatlantic-radio-experiment-which-worked-becaus-1901": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "told-by-several",
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "researcher",
         "tellers": [
-          "filippo-biondi",
-          "jesse-michels"
+          "filippo-biondi"
         ],
         "episodes": [
           "BSXdnsyCqxw",
@@ -91844,7 +92159,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -92143,26 +92458,25 @@
       }
     },
     "mario-woods-becomes-obsessed-with-pyramids-after-ellsworth-a-1977": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
-          "mario"
+          "mario-woods"
         ],
         "episodes": [
           "QkuDvTFN7ms",
@@ -93010,7 +93324,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -93484,7 +93798,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -93804,8 +94118,36 @@
       }
     },
     "mcdonald-confronts-hynek-over-the-swamp-gas-explanation-1960": {
-      "attestation": 0.1,
-      "score": 0.2,
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-by-several",
+      "profile": {
+        "independent_tellers": 2,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jesse-michels",
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M",
+          "p0S0BfoZy0w"
+        ]
+      }
+    },
+    "mcdonald-mocked-in-congressional-hearings-after-the-michigan-1966": {
+      "attestation": 0.25,
+      "score": 0.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -93814,18 +94156,18 @@
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
-        "host": 1,
+        "researcher": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "researcher",
         "tellers": [
-          "jesse-michels"
+          "redpandakoala"
         ],
         "episodes": [
-          "p0S0BfoZy0w"
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -94073,25 +94415,24 @@
       }
     },
     "mcmoneagle-remote-views-a-submarine-being-built-at-a-white-s-1979": {
-      "attestation": 1.75,
-      "score": 3.5,
-      "tier": "well-attested",
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 1,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
           "joe-mcmoneagle"
         ],
         "episodes": [
@@ -94102,25 +94443,24 @@
       }
     },
     "mcmoneagle-s-cia-mars-remote-viewing-mars-1-million-bc-1984": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 1,
+        "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 1,
-        "repetitions": 1,
+        "credited_documents": 0,
+        "repetitions": 2,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jason-jorjani",
           "joe-mcmoneagle"
         ],
         "episodes": [
@@ -94306,7 +94646,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "luigi-vendetelli"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -94332,7 +94672,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -94437,7 +94777,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -94723,7 +95063,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph",
+          "ralph-larson",
           "rolf-mowatt-larssen"
         ],
         "episodes": [
@@ -94966,26 +95306,25 @@
       }
     },
     "men-in-black-confront-carlos-de-souza-at-gas-station-1996": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "carlos-dosoza",
-          "james-fox"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc",
@@ -95064,7 +95403,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -95090,7 +95429,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -95517,7 +95856,7 @@
         "strongest_kind": "researcher",
         "tellers": [
           "geoffrey-drumm",
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "BSXdnsyCqxw",
@@ -95910,7 +96249,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -96544,7 +96883,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -96622,7 +96961,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -96648,7 +96987,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -96726,7 +97065,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -97048,12 +97387,12 @@
       }
     },
     "military-convoy-cordons-the-crash-site-and-a-soldier-threate-1996": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -97066,8 +97405,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "carlos-de-souza",
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc",
@@ -97120,7 +97458,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -97172,7 +97510,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -97542,7 +97880,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason-samosa",
+          "jason-simosa",
           "jesse-michels",
           "michael-shermer"
         ],
@@ -97572,7 +97910,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -98093,7 +98431,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -98257,25 +98595,24 @@
       }
     },
     "mj12-document-jfk-asks-dulles-for-a-review-on-28-june-1961": {
-      "attestation": 1.7,
-      "score": 3.4,
-      "tier": "well-attested",
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
-        "credited_documents": 4,
-        "repetitions": 0,
+        "credited_documents": 2,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels",
           "ross-coulthart"
         ],
         "episodes": [
@@ -98510,7 +98847,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -98563,7 +98900,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -99245,7 +99582,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -99427,7 +99764,7 @@
         "contradicted": false,
         "strongest_kind": "host",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -99904,6 +100241,58 @@
         ]
       }
     },
+    "multi-sensor-corroboration-of-uap-satellite-radar-visual-tem-2021": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
+        ]
+      }
+    },
+    "multiple-high-clearance-sources-say-uap-is-a-real-phenomenon-2021": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
+        ]
+      }
+    },
     "mummified-pharaohs-in-the-cairo-museum-with-cranial-deformat": {
       "attestation": 0.1,
       "score": 0.2,
@@ -99949,7 +100338,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -99975,7 +100364,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -100117,17 +100506,17 @@
       }
     },
     "myles-standish-recalculates-and-dismisses-the-planet-1990": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-by-several",
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
@@ -100135,7 +100524,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt",
           "matt-lacroix"
         ],
         "episodes": [
@@ -100711,7 +101099,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-bueller"
+          "charles-buhler"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -101076,7 +101464,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg",
+          "greg-malatzi",
           "jay-anderson"
         ],
         "episodes": [
@@ -101210,7 +101598,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -101607,7 +101995,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -101685,7 +102073,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -101815,7 +102203,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -101945,7 +102333,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -102263,7 +102651,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -102601,7 +102989,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -102679,7 +103067,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -102737,6 +103125,7 @@
           "92XrddiKjHY",
           "9PJJiut0Iuw",
           "C_Na1tI5qpw",
+          "jyTKETcxj0M",
           "uVVqFg2v7ro",
           "zjpvfDFc4fg"
         ]
@@ -102767,6 +103156,32 @@
           "C_Na1tI5qpw",
           "bVhSPH2A5Vw",
           "hBrfe4hFuM0"
+        ]
+      }
+    },
+    "neil-armstrong-said-to-have-seen-ufos-on-the-moon-1969": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -103132,8 +103547,8 @@
         "tellers": [
           "harold-malmgren",
           "jesse-michels",
-          "merrick",
-          "michael-shurmer"
+          "marik-von-rennenkampff",
+          "michael-shermer"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -103375,7 +103790,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -103532,7 +103947,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay",
+          "scott-ramsey",
           "uapgerb"
         ],
         "episodes": [
@@ -103587,7 +104002,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "silus-newton"
+          "silas-newton"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -104004,7 +104419,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -104267,7 +104682,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -104534,7 +104949,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -104878,7 +105293,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "bryce",
+          "bryce-zabel",
           "grant-cameron",
           "joe-rogan"
         ],
@@ -105045,7 +105460,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "luigi-vendetelli"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -105123,7 +105538,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -105253,7 +105668,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -105426,12 +105841,12 @@
       }
     },
     "nordic-alien-on-orcas-island": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -105444,8 +105859,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent",
-          "brent-freriedman"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -106281,7 +106695,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -106549,13 +106963,13 @@
       }
     },
     "nuclear-powered-airplane-in-an-idaho-falls-hangar": {
-      "attestation": 1.6,
-      "score": 3.2,
-      "tier": "well-attested",
+      "attestation": 0.8,
+      "score": 1.6,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
-        "official_records": 2,
+        "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
@@ -106567,7 +106981,6 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "john-harrington",
           "john-herrington"
         ],
         "episodes": [
@@ -106679,6 +107092,32 @@
         ]
       }
     },
+    "nukes-used-to-bring-down-ufos": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "number-137-in-the-proportions-of-the-second-pyramid": {
       "attestation": 0.25,
       "score": 0.5,
@@ -106776,7 +107215,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -106828,7 +107267,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -106965,6 +107404,32 @@
         ]
       }
     },
+    "obama-administration-s-ufo-answers-then-obama-s-late-night-s-2012": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "obama-at-a-campfire-tells-eddie-vedder-to-read-the-three-bod": {
       "attestation": 0.75,
       "score": 1.5,
@@ -106993,27 +107458,28 @@
       }
     },
     "obama-on-james-corden-about-unidentified-objects-2021": {
-      "attestation": 0.1,
-      "score": 0.2,
+      "attestation": 0.8,
+      "score": 1.6,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
         "firsthand": 0,
-        "official_records": 0,
+        "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "official",
         "tellers": [
-          "jesse-michels"
+          "barack-obama"
         ],
         "episodes": [
+          "jyTKETcxj0M",
           "kccrkCGGzX4"
         ]
       }
@@ -107063,7 +107529,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "bryce",
+          "bryce-zabel",
           "jesse-michels"
         ],
         "episodes": [
@@ -107091,7 +107557,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent",
+          "brent-friedman",
           "jesse-michels"
         ],
         "episodes": [
@@ -107230,7 +107696,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -107398,6 +107864,32 @@
         ]
       }
     },
+    "occult-history-in-nasa-and-launch-pad-choices": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "unnamed-speaker"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "occult-minded-nazis-brought-in-through-paperclip-and-overcas-1945": {
       "attestation": 0.75,
       "score": 1.5,
@@ -107443,7 +107935,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -107680,7 +108172,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -108564,7 +109056,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -108879,7 +109371,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -109679,7 +110171,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -110070,7 +110562,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -110835,7 +111327,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -111463,7 +111955,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "luigi-vendetelli"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -111729,7 +112221,8 @@
           "jesse-michels"
         ],
         "episodes": [
-          "1f16VvXaSSE"
+          "1f16VvXaSSE",
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -111804,8 +112297,8 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent-freriedman",
-          "bryce-zable"
+          "brent-friedman",
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -112417,7 +112910,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -112469,7 +112962,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -112922,7 +113415,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -114392,7 +114885,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -114444,7 +114937,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -114862,7 +115355,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -114966,7 +115459,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -114992,7 +115485,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -115411,7 +115904,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -115437,7 +115930,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -115755,7 +116248,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt",
+          "matt-lacroix",
           "matthew-lacroix"
         ],
         "episodes": [
@@ -115791,17 +116284,17 @@
       }
     },
     "podesta-emails-and-the-delongemccaslandweiss-meeting-2015": {
-      "attestation": 1.75,
-      "score": 3.5,
+      "attestation": 2.0,
+      "score": 4.0,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 4,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 2,
+        "researcher": 3,
         "host": 0,
         "documents": 0,
         "credited_documents": 3,
@@ -115811,11 +116304,13 @@
         "tellers": [
           "grant-cameron",
           "jason-simosa",
-          "jay-anderson"
+          "jay-anderson",
+          "redpandakoala"
         ],
         "episodes": [
           "51N8OxqZIWY",
           "fpUa3xJN64Q",
+          "jyTKETcxj0M",
           "kccrkCGGzX4"
         ]
       }
@@ -116047,7 +116542,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -116203,7 +116698,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -116414,7 +116909,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -116466,7 +116961,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -116624,7 +117119,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "john-harrington",
+          "john-herrington",
           "kirk-mcconnell"
         ],
         "episodes": [
@@ -116810,7 +117305,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -116941,7 +117436,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -116967,7 +117462,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -117204,7 +117699,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -118100,7 +118595,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -118308,7 +118803,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -118469,7 +118964,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -118495,7 +118990,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -119097,7 +119592,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "brent"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -119253,7 +119748,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -119305,7 +119800,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -119409,7 +119904,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -119435,7 +119930,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -119461,7 +119956,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -119487,7 +119982,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -119755,26 +120250,25 @@
       }
     },
     "puharich-s-upstate-new-york-camp-channeling-the-nine-1950": {
-      "attestation": 0.85,
-      "score": 1.7,
-      "tier": "well-attested",
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
-        "host": 1,
+        "host": 0,
         "documents": 0,
-        "credited_documents": 2,
-        "repetitions": 0,
+        "credited_documents": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg-malatzi",
-          "jesse-michels"
+          "greg-malatzi"
         ],
         "episodes": [
           "0qlppHc3-gg",
@@ -119834,7 +120328,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -120572,7 +121066,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -121068,7 +121562,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -121278,7 +121772,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "suzanne-ramsay"
+          "suzanne-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -121868,7 +122362,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -122076,7 +122570,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -122291,7 +122785,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -122346,7 +122840,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -122509,6 +123003,32 @@
         ]
       }
     },
+    "record-number-of-ufo-sightings-in-2020": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
+        ]
+      }
+    },
     "recording-leaked-to-globo-and-the-case-ridiculed-1996": {
       "attestation": 1.25,
       "score": 2.5,
@@ -122528,7 +123048,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -122740,7 +123260,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -122923,7 +123443,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jeff-natelli",
-          "michael-shurmer",
+          "michael-shermer",
           "ryan-graves"
         ],
         "episodes": [
@@ -123082,7 +123602,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -123345,7 +123865,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -124629,7 +125149,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "bryce-zable"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -124681,7 +125201,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -124759,7 +125279,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -124851,17 +125371,17 @@
       }
     },
     "resorts-international-intertel-and-donald-trump-1980": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-by-several",
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
@@ -124869,7 +125389,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason",
           "jason-simosa"
         ],
         "episodes": [
@@ -125130,7 +125649,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -125429,26 +125948,25 @@
       }
     },
     "richard-bissell-briefed-malmgren-privately-on-otherworld-tec-1973": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 2,
+        "repetitions": 3,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "harold-malmgren",
-          "uapgerb"
+          "harold-malmgren"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -126009,7 +126527,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -126088,7 +126606,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "richard"
+          "richard-barth"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -126983,7 +127501,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -127909,17 +128427,17 @@
       }
     },
     "roswell-as-home-of-the-509th-atomic-bomber-squadron-1947": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 4,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 1,
+        "researcher": 2,
         "host": 1,
         "documents": 0,
         "credited_documents": 0,
@@ -127929,12 +128447,14 @@
         "tellers": [
           "jesse-michels",
           "john-brandenburg",
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff",
+          "redpandakoala"
         ],
         "episodes": [
           "1F7DHbSbgbQ",
           "1iaH1a3A4Lk",
           "KGD1nuM4MR8",
+          "jyTKETcxj0M",
           "p0S0BfoZy0w"
         ]
       }
@@ -128143,7 +128663,7 @@
         "tellers": [
           "jesse-michels",
           "john-brandenburg",
-          "luigi",
+          "luigi-vendittelli",
           "michael-shellenberger",
           "robert-hastings"
         ],
@@ -128465,7 +128985,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "bryce",
+          "bryce-zabel",
           "jesse-michels"
         ],
         "episodes": [
@@ -128626,7 +129146,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -128834,7 +129354,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -128860,7 +129380,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -129068,7 +129588,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "john-harrington"
+          "john-herrington"
         ],
         "episodes": [
           "1F7DHbSbgbQ"
@@ -129098,6 +129618,32 @@
         ],
         "episodes": [
           "A_LsUSxTm7A"
+        ]
+      }
+    },
+    "rumors-of-luring-uap-with-nuclear-material-traps-2021": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
         ]
       }
     },
@@ -129384,7 +129930,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -129592,7 +130138,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -130356,7 +130902,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -130936,7 +131482,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -130962,7 +131508,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -130988,7 +131534,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -131014,7 +131560,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -131491,7 +132037,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -131569,7 +132115,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "silus-newton"
+          "silas-newton"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -131753,7 +132299,7 @@
         "strongest_kind": "researcher",
         "tellers": [
           "filippo-biondi",
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8",
@@ -132079,17 +132625,17 @@
       }
     },
     "schumer-s-64-page-uap-amendment-2023": {
-      "attestation": 3.65,
-      "score": 7.3,
+      "attestation": 3.4,
+      "score": 6.8,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 7,
+        "independent_tellers": 6,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 4,
+        "researcher": 3,
         "host": 1,
         "documents": 0,
         "credited_documents": 5,
@@ -132101,9 +132647,8 @@
           "david-grusch",
           "jesse-michels",
           "karl-nell",
-          "matthew-pines",
-          "merrick",
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff",
+          "matthew-pines"
         ],
         "episodes": [
           "1iaH1a3A4Lk",
@@ -132240,7 +132785,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -132527,7 +133072,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -132605,7 +133150,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -132631,7 +133176,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -132761,7 +133306,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -133127,7 +133672,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bryce-zable"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -133231,7 +133776,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -133335,7 +133880,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -133703,7 +134248,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -133781,7 +134326,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -134107,7 +134652,7 @@
         "tellers": [
           "jesse-michels",
           "luis-elizondo",
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1f16VvXaSSE",
@@ -134373,7 +134918,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -134529,7 +135074,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -135322,7 +135867,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -135348,7 +135893,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -135404,6 +135949,32 @@
         ],
         "episodes": [
           "bVhSPH2A5Vw"
+        ]
+      }
+    },
+    "sightings-at-los-alamos-from-1948": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -136138,7 +136709,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -136164,7 +136735,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "luigi-vendetelli"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -136242,7 +136813,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -136736,7 +137307,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -136867,7 +137438,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -137400,12 +137971,12 @@
       }
     },
     "sound-light-and-frequency-formula-written-on-an-atm-envelope-1996": {
-      "attestation": 2.5,
-      "score": 5.0,
-      "tier": "well-attested",
+      "attestation": 1.5,
+      "score": 3.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -137418,7 +137989,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent-freriedman",
           "brent-friedman"
         ],
         "episodes": [
@@ -138072,7 +138642,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -138177,7 +138747,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -138412,7 +138982,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -138571,7 +139141,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -139288,7 +139858,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -140100,7 +140670,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -140126,7 +140696,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -140282,7 +140852,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -140363,7 +140933,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -141827,7 +142397,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -141933,7 +142503,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -142115,7 +142685,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -142149,12 +142719,12 @@
       }
     },
     "suppressed-childhood-memories-resurface-as-ptsd-flashbacks-2022": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -142167,7 +142737,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan",
           "jordan-jose"
         ],
         "episodes": [
@@ -142273,7 +142842,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -142299,7 +142868,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -142463,17 +143032,17 @@
       }
     },
     "susi-temples-no-longer-face-east-west-implying-axis-shift": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-by-several",
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
@@ -142481,7 +143050,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt",
           "matt-lacroix"
         ],
         "episodes": [
@@ -142690,7 +143258,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -142925,7 +143493,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -142951,7 +143519,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -143057,7 +143625,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -143135,7 +143703,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -143453,7 +144021,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "brent"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -143531,7 +144099,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "brent"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -143819,7 +144387,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -143845,7 +144413,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -144081,7 +144649,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -144245,25 +144813,24 @@
       }
     },
     "ted-owens-warns-of-challenger-shuttle-loss-on-christmas-eve-1985": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 1,
+        "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jason-jorjani",
           "jeffrey-mishlove"
         ],
         "episodes": [
@@ -145545,7 +146112,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "iPxbILOMQ08"
@@ -145572,7 +146139,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "steve"
+          "steve-coburn"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -145783,7 +146350,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -145810,7 +146377,7 @@
         "strongest_kind": "researcher",
         "tellers": [
           "geoffrey-drumm",
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "BSXdnsyCqxw",
@@ -146307,7 +146874,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -146463,7 +147030,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -146619,7 +147186,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "carlos-dosoza"
+          "carlos-de-souza"
         ],
         "episodes": [
           "UkKwa4jU0fc"
@@ -147326,7 +147893,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -148668,7 +149235,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -148773,7 +149340,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -148955,7 +149522,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -149242,7 +149809,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -149320,7 +149887,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -149428,7 +149995,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "carlos-dosoza",
+          "carlos-de-souza",
           "james-fox",
           "jesse-michels"
         ],
@@ -149492,12 +150059,12 @@
       }
     },
     "three-light-beings-at-the-foot-of-his-icu-bed-during-covid-s-2020": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -149510,7 +150077,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent",
           "brent-friedman"
         ],
         "episodes": [
@@ -149538,7 +150104,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "bryce"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -149851,7 +150417,7 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk",
@@ -150589,7 +151155,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph",
+          "ralph-larson",
           "rolf-mowatt-larssen"
         ],
         "episodes": [
@@ -150724,7 +151290,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "ralph"
+          "ralph-larson"
         ],
         "episodes": [
           "ATJwqp5twAg"
@@ -150828,7 +151394,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -151252,6 +151818,32 @@
         ],
         "episodes": [
           "5OUzGygIrSw"
+        ]
+      }
+    },
+    "touching-craft-pieces-with-garry-nolan-2020": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -151697,7 +152289,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "charles"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -152296,7 +152888,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "bryce",
+          "bryce-zabel",
           "chris-ramsay"
         ],
         "episodes": [
@@ -152324,7 +152916,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "bryce"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -152564,7 +153156,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -152590,7 +153182,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -153111,7 +153703,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "eric-burles",
+          "eric-burlison",
           "matthew-pines"
         ],
         "episodes": [
@@ -153297,7 +153889,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -153668,7 +154260,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -154035,7 +154627,7 @@
         "tellers": [
           "bryce-zabel",
           "jesse-michels",
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "-0g3lLGxNfc",
@@ -154409,7 +155001,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -154439,6 +155031,32 @@
         ],
         "episodes": [
           "tS_64sTN5AU"
+        ]
+      }
+    },
+    "tyler-cowen-s-2017-column-on-ufos": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
         ]
       }
     },
@@ -154757,7 +155375,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "eric-hazeline"
+          "eric-haseltine"
         ],
         "episodes": [
           "jMCavr3dVP0"
@@ -155048,7 +155666,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael-shurmer"
+          "michael-shermer"
         ],
         "episodes": [
           "8Rr_nE65KkI"
@@ -156034,7 +156652,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "eric-hazeline",
+          "eric-haseltine",
           "jesse-michels",
           "matthew-brown"
         ],
@@ -156563,7 +157181,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -156719,7 +157337,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "merrick-von-renenamp"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -156727,12 +157345,12 @@
       }
     },
     "undisclosed-drugs-administered-for-experiment-sessions-2008": {
-      "attestation": 2.25,
-      "score": 4.5,
-      "tier": "well-attested",
+      "attestation": 1.25,
+      "score": 2.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -156745,7 +157363,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan",
           "jordan-jose"
         ],
         "episodes": [
@@ -156772,7 +157389,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo"
+          "filippo-biondi"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -156850,7 +157467,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -157322,7 +157939,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -157505,7 +158122,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -157715,7 +158332,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -158188,7 +158805,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "marik-von-rennenkampf"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -158483,12 +159100,12 @@
       }
     },
     "validation-scan-of-the-gran-sasso-physics-laboratory": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -158501,7 +159118,6 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "filippo",
           "filippo-biondi"
         ],
         "episodes": [
@@ -158793,7 +159409,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -158952,7 +159568,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason-samosa"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -159222,17 +159838,17 @@
       }
     },
     "van-flandern-and-harrington-both-die-of-throat-cancer-1990": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "well-attested",
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 1,
@@ -159240,7 +159856,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt",
           "matt-lacroix"
         ],
         "episodes": [
@@ -159386,6 +160001,7 @@
           "fpUa3xJN64Q",
           "fzvwBBSmWYA",
           "hBrfe4hFuM0",
+          "jyTKETcxj0M",
           "kRO5jOa06Qw",
           "rjUdn6FklAU"
         ]
@@ -159410,7 +160026,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "luigi"
+          "luigi-vendittelli"
         ],
         "episodes": [
           "d9tdJ2SkBKQ"
@@ -159595,7 +160211,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -159647,7 +160263,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -159673,7 +160289,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "aldo-rebello"
+          "aldo-rebelo"
         ],
         "episodes": [
           "nqLnEVcZ8vE"
@@ -159681,12 +160297,12 @@
       }
     },
     "varginha-witness-held-shape-returning-material-1996": {
-      "attestation": 2.5,
-      "score": 5.0,
+      "attestation": 1.5,
+      "score": 3.0,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
-        "firsthand": 2,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -159700,7 +160316,6 @@
         "strongest_kind": "firsthand",
         "tellers": [
           "carlos-de-souza",
-          "carlos-dosoza",
           "italo-venturelli"
         ],
         "episodes": [
@@ -159729,7 +160344,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -159965,7 +160580,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent-freriedman"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -160481,26 +161096,25 @@
       }
     },
     "villarroel-transients-on-july-1952-plates": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 1,
+        "researcher": 0,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "beatriz-villarroel",
-          "jesse-michels"
+          "beatriz-villarroel"
         ],
         "episodes": [
           "fzvwBBSmWYA",
@@ -160579,7 +161193,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -160709,7 +161323,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "charles-buer"
+          "charles-buhler"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -160891,7 +161505,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bryce-zable"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -161047,7 +161661,7 @@
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "eric-hazeline",
+          "eric-haseltine",
           "matthew-brown"
         ],
         "episodes": [
@@ -161179,7 +161793,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "greg"
+          "greg-malatzi"
         ],
         "episodes": [
           "2-GeTxXi670"
@@ -162008,7 +162622,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -162112,7 +162726,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason"
+          "jason-simosa"
         ],
         "episodes": [
           "kccrkCGGzX4"
@@ -162541,7 +163155,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bryce-zable"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -162567,7 +163181,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "bryce-zable"
+          "bryce-zabel"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -162593,7 +163207,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -162619,7 +163233,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk"
@@ -162990,7 +163604,7 @@
         "tellers": [
           "james-fox",
           "karl-nell",
-          "merrick"
+          "marik-von-rennenkampff"
         ],
         "episodes": [
           "1iaH1a3A4Lk",
@@ -163360,7 +163974,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "eric-burles"
+          "eric-burlison"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -163622,7 +164236,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -164790,7 +165404,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "scott-ramsay"
+          "scott-ramsey"
         ],
         "episodes": [
           "OZ_oCpKYQJ0"
@@ -164850,12 +165464,12 @@
       }
     },
     "woman-with-black-undulating-eyes-at-foot-of-bed": {
-      "attestation": 2.0,
-      "score": 4.0,
-      "tier": "well-attested",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 2,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
@@ -164868,8 +165482,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "brent",
-          "brent-freriedman"
+          "brent-friedman"
         ],
         "episodes": [
           "yJUBSuPh1pM"
@@ -165033,17 +165646,17 @@
       }
     },
     "world-commerce-corporation-founded-1945": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-by-several",
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
@@ -165051,7 +165664,6 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jason",
           "jason-simosa"
         ],
         "episodes": [
@@ -165476,7 +166088,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "richard"
+          "richard-barth"
         ],
         "episodes": [
           "Qe8br8yYEDM"
@@ -165636,7 +166248,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -165766,7 +166378,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jordan-jos"
+          "jordan-jose"
         ],
         "episodes": [
           "PiFbeWfA3LM"
@@ -165977,7 +166589,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jeffrey"
+          "jeffrey-drum"
         ],
         "episodes": [
           "NvQXmtcwHA8"
@@ -166211,7 +166823,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "matt"
+          "matt-lacroix"
         ],
         "episodes": [
           "A_LsUSxTm7A"

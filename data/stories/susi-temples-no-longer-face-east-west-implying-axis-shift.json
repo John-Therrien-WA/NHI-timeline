@@ -24,7 +24,7 @@
       "episode": "A_LsUSxTm7A",
       "from_s": 10030.0,
       "to_s": 10035.0,
-      "teller": "matt",
+      "teller": "matt-lacroix",
       "quote": "temples they faced either west or east but not anymore they're offset",
       "kind": "researcher",
       "cites": [],
@@ -41,15 +41,15 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 0.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 2,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -57,14 +57,13 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "matt",
       "matt-lacroix"
     ],
     "episodes": [
       "A_LsUSxTm7A"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-by-several",
+  "attestation": 0.25,
+  "tier": "told-once",
   "plain": "On a 2024 episode of a podcast hosted by Jesse Michels, about something big that happened around 12,000 BC, a researcher named Matt LaCroix talks about a kind of ancient temple in eastern Turkey that he calls a Susi temple. He says these temples were built with openings lined up with the sun, facing only the sunrise in the east or the sunset in the west. But, he says, they don't face east or west any more. They're slightly off. In one telling he treats that offset as a clue for dating the temples, and the idea behind it is that if true, the Earth's axis itself may have shifted since they were built."
 }

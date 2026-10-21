@@ -173,6 +173,18 @@ def name_key(name: str) -> str:
     return slugify(person_name(name).casefold(), 40)
 
 
+def raw_person_aliases(root: Path) -> dict[str, str]:
+    """data/person-aliases.json of a root as written, {alias text: person id}; {} when the file is absent.
+    Fails on a file that is not an object; `person_aliases` checks the entries."""
+    f = Path(root) / "data" / "person-aliases.json"
+    if not f.exists():
+        return {}
+    raw = load_json(f)
+    if not isinstance(raw, dict):
+        raise SystemExit(f"{f}: must be an object of alias text to person id")
+    return raw
+
+
 def person_aliases(root: Path) -> dict[str, str]:
     """data/person-aliases.json of a root as {name key: person id}; {} when the file is absent.
 
@@ -180,11 +192,7 @@ def person_aliases(root: Path) -> dict[str, str]:
     on the name key, so case, spacing, punctuation and a trailing role do not matter. A stage reads
     it once per run and passes the dict to `person_id`."""
     f = Path(root) / "data" / "person-aliases.json"
-    if not f.exists():
-        return {}
-    raw = load_json(f)
-    if not isinstance(raw, dict):
-        raise SystemExit(f"{f}: must be an object of alias text to person id")
+    raw = raw_person_aliases(root)
     out: dict[str, str] = {}
     for text, pid in raw.items():
         if not isinstance(pid, str) or slugify(pid, 40) != pid:

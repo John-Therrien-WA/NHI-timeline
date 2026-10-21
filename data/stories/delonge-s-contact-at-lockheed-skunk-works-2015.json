@@ -51,20 +51,43 @@
         "place_text": "Lockheed Martin Skunk Works, California, USA",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 342.0,
+      "to_s": 384.0,
+      "teller": "jesse-michels",
+      "quote": "But then he's like getting in touch with Lockheed Martin and meeting with executives there.",
+      "kind": "host",
+      "cites": [
+        "tom-delonge"
+      ],
+      "documents": [],
+      "difference": "Host's brief mention of meeting executives.",
+      "link_reason": "DeLonge getting in touch with Lockheed Martin executives matches DeLonge's Lockheed contact story.",
+      "as_told": {
+        "title": "Tom DeLonge, To The Stars Academy and Lockheed Martin",
+        "years": {
+          "from": 2010,
+          "to": 2019
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 2,
     "researcher": 0,
-    "host": 0,
+    "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
@@ -72,14 +95,16 @@
     "strongest_kind": "secondhand",
     "tellers": [
       "jason-simosa",
-      "jay-anderson"
+      "jay-anderson",
+      "jesse-michels"
     ],
     "episodes": [
       "51N8OxqZIWY",
+      "jyTKETcxj0M",
       "kccrkCGGzX4"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 1.1,
   "tier": "told-by-several",
   "plain": "A researcher named Jason Simosa, speaking on Jesse Michels' podcast, says that Tom DeLonge, a musician who became a UFO campaigner, made contact around 2015 with someone who worked at Skunk Works, the secretive advanced aircraft division of the defense company Lockheed Martin. Simosa says the longtime UFO researcher Jacques Vallée backs up this original version of the story. If true, it would mean DeLonge's UFO work began with a real insider at one of America's most secret aircraft shops."
 }

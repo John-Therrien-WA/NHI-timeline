@@ -25,6 +25,30 @@
         "j-allen-hynek"
       ],
       "documents": []
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 1257.0,
+      "to_s": 1293.0,
+      "teller": "redpandakoala",
+      "quote": "A big part of the reason why he ended up flipping if you will, or coming clean was because James McDonald went to him and was like super pissed and was like, what you're doing to science is horrible.",
+      "kind": "researcher",
+      "cites": [
+        "james-mcdonald",
+        "j-allen-hynek"
+      ],
+      "documents": [],
+      "difference": "Frames it as the reason Hynek changed his stance; swamp gas is not mentioned.",
+      "link_reason": "McDonald angrily confronting Hynek about what he did to science matches the existing confrontation story.",
+      "as_told": {
+        "title": "McDonald confronts Hynek",
+        "years": {
+          "from": 1960,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -60,29 +84,31 @@
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 0.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "redpandakoala"
     ],
     "episodes": [
+      "jyTKETcxj0M",
       "p0S0BfoZy0w"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
+  "attestation": 0.35,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, tells how a physicist named James McDonald confronted J. Allen Hynek, a scientist who explained UFO sightings for the US government, sometime in the 1960s. The trigger was a wave of sightings in Michigan that had been explained away as swamp gas. According to Michels, McDonald told Hynek he was taking part in a cover-up and that what people saw in Michigan was not swamp gas, which would mean the official explanations were hiding something real."
 }

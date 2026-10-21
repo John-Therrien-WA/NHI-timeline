@@ -4,8 +4,8 @@
   "summary": "Jesse Michels tells of Parsons' past-life regression as Simon the Sorcerer, about an unknown time at an unknown place, and frames it as the host. As told, not a fact.",
   "era": null,
   "years": null,
-  "place": null,
-  "place_text": null,
+  "place": "united-states",
+  "place_text": "OTO, United States",
   "coordinates": null,
   "kind": "theory",
   "claims": [],
@@ -21,6 +21,34 @@
         "jack-parsons"
       ],
       "documents": []
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 1401.0,
+      "to_s": 1426.0,
+      "teller": "jesse-michels",
+      "quote": "So, Jack Parsons was in the the OTO, you know, this uh crazy cult, you know, with Alistair Crowley and all that, and they would do past life regressions.",
+      "kind": "host",
+      "cites": [
+        "jack-parsons",
+        "aleister-crowley"
+      ],
+      "documents": [],
+      "difference": "Sets it in the OTO with Crowley, where past-life regressions were done, without naming Simon in this excerpt.",
+      "link_reason": "Parsons' past-life regression in the OTO as Simon the Sorcerer matches the existing story.",
+      "as_told": {
+        "title": "Jack Parsons' past life as Simon the Sorcerer",
+        "years": {
+          "from": 1940,
+          "to": 1949
+        },
+        "place_text": "OTO, United States",
+        "story_kind": "cosmology"
+      },
+      "replay_of": {
+        "episode": "1f16VvXaSSE",
+        "from_s": 1760.0
+      }
     }
   ],
   "related": [],
@@ -44,7 +72,8 @@
       "jesse-michels"
     ],
     "episodes": [
-      "1f16VvXaSSE"
+      "1f16VvXaSSE",
+      "jyTKETcxj0M"
     ]
   },
   "attestation": 0.1,

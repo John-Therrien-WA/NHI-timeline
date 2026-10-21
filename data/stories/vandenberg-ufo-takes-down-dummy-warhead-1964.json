@@ -62,7 +62,7 @@
       "kind": "secondhand",
       "cites": [
         "robert-jacobs",
-        "florence-mansman",
+        "florenze-mansmann",
         "walt-manning"
       ],
       "documents": [],
@@ -160,7 +160,7 @@
       "kind": "host",
       "cites": [
         "bob-jacobs",
-        "florenz-mansmann"
+        "florenze-mansmann"
       ],
       "documents": [
         "dd214"
@@ -235,7 +235,7 @@
       "kind": "host",
       "cites": [
         "robert-jacobs",
-        "florenz-mansmann"
+        "florenze-mansmann"
       ],
       "documents": [],
       "difference": "Gives the speed as 9,000 to 12,000 mph and says the film was confiscated.",
@@ -307,7 +307,7 @@
       "quote": "that was corroborated by Floren's Mansman who is the major who is in charge in supervising Bob Jacobs who's a photo instrumentation specialist.",
       "kind": "host",
       "cites": [
-        "florenz-mansmann",
+        "florenze-mansmann",
         "bob-jacobs"
       ],
       "documents": [],
@@ -329,7 +329,7 @@
       "kind": "host",
       "cites": [
         "bob-jacobs",
-        "florenz-mansmann"
+        "florenze-mansmann"
       ],
       "documents": [],
       "difference": "Names the month as September 1964 and calls it an Air Force camera crew filming.",
@@ -364,6 +364,50 @@
           "to": 1964
         },
         "place_text": "Vandenberg Air Force Base, California",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 48.0,
+      "to_s": 77.0,
+      "teller": "jesse-michels",
+      "quote": "A flying saucer flying 8,000 miles per hour, not only seemed to encircle the missile, it shot four directed energy beams at it, causing it to tumble off its intended trajectory.",
+      "kind": "host",
+      "cites": [
+        "bob-jacobs"
+      ],
+      "documents": [],
+      "difference": "Specifies 8,000 mph and four directed energy beams.",
+      "link_reason": "Host tells the Vandenberg/Big Sur 1964 UFO disabling the Atlas dummy warhead filmed by Jacobs; same event.",
+      "as_told": {
+        "title": "Big Sur 1964: UFO filmed disabling Atlas test missile",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Vandenberg Air Force Base / Big Sur, California",
+        "story_kind": "sighting"
+      }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 27.0,
+      "to_s": 48.0,
+      "teller": "bob-jacobs",
+      "quote": "And the missile popped up through the fog. All we saw was a smoke trail going off into subspace.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Firsthand account of the launch popping through fog and the smoke trail.",
+      "link_reason": "Jacobs firsthand recalls filming the same Big Sur missile launch with the UFO.",
+      "as_told": {
+        "title": "Bob Jacobs recalls filming the Big Sur missile launch",
+        "years": {
+          "from": 1964,
+          "to": 1964
+        },
+        "place_text": "Big Sur, California",
         "story_kind": "sighting"
       }
     }
@@ -412,6 +456,7 @@
       "fpUa3xJN64Q",
       "fzvwBBSmWYA",
       "hBrfe4hFuM0",
+      "jyTKETcxj0M",
       "kRO5jOa06Qw",
       "rjUdn6FklAU"
     ]

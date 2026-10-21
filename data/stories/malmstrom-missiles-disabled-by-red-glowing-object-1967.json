@@ -178,7 +178,7 @@
       "quote": "it's almost like taking matches out of the hands of a baby, you know.",
       "kind": "secondhand",
       "cites": [
-        "robert-salis",
+        "robert-salas",
         "tim-coleman"
       ],
       "documents": [
@@ -457,6 +457,32 @@
         "place_text": "Malmstrom Air Force Base, Montana",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 108.0,
+      "to_s": 139.0,
+      "teller": "jesse-michels",
+      "quote": "In March of 1967 at Malmstrom Nuclear Facility in Montana, Captain Robert Salas was operating an underground control center capable of deploying 10 80 kiloton nuclear warheads at any moment.",
+      "kind": "host",
+      "cites": [
+        "robert-salas",
+        "robert-hastings"
+      ],
+      "documents": [
+        "ufos-and-nukes"
+      ],
+      "difference": "Gives March 1967, ten warheads of 80 kilotons, credits Hastings' book.",
+      "link_reason": "Salas at Malmstrom 1967 missiles shut down by red object; same encounter.",
+      "as_told": {
+        "title": "Malmstrom 1967: red object shuts down missiles (Salas)",
+        "years": {
+          "from": 1967,
+          "to": 1967
+        },
+        "place_text": "Malmstrom, Montana",
+        "story_kind": "encounter"
+      }
     }
   ],
   "related": [
@@ -467,25 +493,24 @@
     }
   ],
   "tags": [],
-  "score": 9.1,
+  "score": 7.6,
   "profile": {
-    "independent_tellers": 6,
+    "independent_tellers": 5,
     "firsthand": 2,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 3,
+    "secondhand": 2,
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 1,
+    "credited_documents": 0,
+    "repetitions": 2,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
       "bob-jameson",
       "daniel-sheehan",
-      "james-fox",
       "karl-nell",
       "kevin-knuth",
       "robert-salas"
@@ -504,12 +529,13 @@
       "fzvwBBSmWYA",
       "h0hAit-KH9A",
       "hBrfe4hFuM0",
+      "jyTKETcxj0M",
       "kRO5jOa06Qw",
       "rjUdn6FklAU",
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 4.55,
+  "attestation": 3.8,
   "tier": "well-attested",
   "plain": "Malmstrom Air Force Base in Montana held some of America's nuclear missiles, the long-range kind called ICBMs, or intercontinental ballistic missiles. Robert Salas, a former Air Force officer, says that on March 24, 1967 he was on duty underground at a launch control center called Oscar when guards reported a red glowing object hovering above. He says that before he could even pass on the phone calls, an alarm horn went off and the first missile went from green to red, and soon the missiles were in a \"no-go\" condition, meaning they could not be launched. If true, it would mean something unknown could switch off nuclear weapons at will, or as filmmaker James Fox puts it, take matches out of a baby's hands. The details shift between tellings: most say all ten missiles went down, while podcast host Jesse Michels once says nine of ten. Michels, who met Salas, repeats the story across many episodes, and another Air Force man, Bob Jamison, says a whole flight of ten missiles showed red on the control wall. Researcher Robert Hastings gathered Salas and other Air Force witnesses at a 2010 press conference, a former official named Karl Nell says missiles there were taken offline in the 1960s, and a guest named Danny Sheehan says the base commander, Arie Arnoldson, filed a UFO report with NORAD, the military command that watches North American airspace."
 }

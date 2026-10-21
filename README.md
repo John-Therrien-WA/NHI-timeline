@@ -20,6 +20,7 @@ uv run python -m pipeline.merge                         # candidates into data/s
 uv run python -m pipeline.clips --report                # claude -p, about six groups a call: clips a host cut into another episode, who speaks them, from where (data/clips.json); prints what it would change
 uv run python -m pipeline.clips                         # the same, then a telling inside a replayed clip gets replay_of and the clip's speaker as teller
 uv run python -m pipeline.sources <manifest.json>       # public sources the stories name: their words as document tellings, sources/documents/<id>.txt, source notes
+uv run python -m pipeline.people --fold                 # data/person-folds.json applied: each spelling of a person becomes one id, the person files merged
 uv run python -m pipeline.score                         # score into each story, data/scores.json
 uv run python -m pipeline.explain --all --model opus    # claude -p, about twelve stories a call: a plain telling for every story, written ground up
 uv run python -m pipeline.images <manifest.json>        # found photographs in: site/images/<owner>/<n>.jpg, data/images/<owner>/<n>.json
@@ -74,11 +75,19 @@ record, an article), a scout finds it and returns a manifest entry (`schema.md`,
 document, a plain-text URL for a public-domain text or the quoted passages with their locators for
 any other, the quotes that say what the story claims, the author, the telling's kind, a note
 when the source reads otherwise than the tellers, and its pictures. Run
-`uv run python -m pipeline.sources <manifest> --keep-going` after `clips`, with the text's host
+`uv run python -m pipeline.sources <manifest> --keep-going` after `clips` and before `people --fold`,
+with the text's host
 allowed; it checks every quote against the text before writing an entry, keeps a text file already
 there, and adds nothing twice, so a manifest can be run again. It writes the pictures to
 `<manifest stem>.images.json` beside the manifest for `pipeline.images`, and prints the stories it
-changed: run `score`, then `explain --force` on those, then `build`.
+changed: run `people --fold` and `score`, then `explain --force` on those, then `build`.
+
+To fold people: a group in `data/person-folds.json` names the spellings of one person (`members`) and
+the id they become (`canonical`, held or new), with the name the page shows and the evidence; `check`
+lists the near-duplicate ids to decide on. `people --fold` rewrites every place an id stands, merges
+the person files, keeps the members as the canonical's `aliases` and adds their names to
+`data/person-aliases.json`, so the next merge maps those spellings at once; then `score`, `build` and
+`check` run again.
 
 To fold viewer notes: pull the page's saved notes into `data/notes/<story id>.json` (status `open`), turn each
 worth keeping into a `discussion` entry or another edit of the story by hand, mark it `folded` or `dropped`, then

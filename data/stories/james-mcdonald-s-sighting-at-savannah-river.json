@@ -61,36 +61,63 @@
         "place_text": "Savannah River Site, South Carolina",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 1214.0,
+      "to_s": 1234.0,
+      "teller": "redpandakoala",
+      "quote": "He submitted it to the Air Force. He had thought that it was everything was going well, you know what I mean?",
+      "kind": "researcher",
+      "cites": [
+        "james-mcdonald"
+      ],
+      "documents": [
+        "project-blue-book"
+      ],
+      "difference": "Gives 1957 and focuses on submission to Blue Book and the Air Force's response.",
+      "link_reason": "McDonald's 1957 sighting submitted to the Air Force matches the McDonald Savannah sighting story.",
+      "as_told": {
+        "title": "James McDonald's 1957 sighting and Project Blue Book",
+        "years": {
+          "from": 1957,
+          "to": 1957
+        },
+        "place_text": "Savannah, Georgia",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
-    "credited_documents": 0,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels",
-      "luis-elizondo"
+      "luis-elizondo",
+      "redpandakoala"
     ],
     "episodes": [
       "1f16VvXaSSE",
       "fzvwBBSmWYA",
+      "jyTKETcxj0M",
       "p0S0BfoZy0w"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-by-several",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "Lou Elizondo, a guest on a podcast hosted by Jesse Michels, passes on the story of James McDonald, a well-known physicist who he thinks was at Arizona State. Elizondo believes McDonald saw a UFO at the Savannah River site, though he isn't sure. Michels tells it with more certainty: he says McDonald saw a UFO at the Savannah River nuclear facility in South Carolina and was then publicly mocked for it. They tell it to show that a serious scientist saw something over a nuclear site and was pushed to the margins for saying so."
 }

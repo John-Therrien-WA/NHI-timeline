@@ -77,8 +77,8 @@
       "kind": "host",
       "cites": [
         "gary-nolan",
-        "jacqu-valet",
-        "towns-and-brown"
+        "jacques-vallee",
+        "thomas-townsend-brown"
       ],
       "documents": [],
       "difference": "Says the piece came to Nolan through Jacques Vallée and ties it to Townsend Brown's use of bismuth.",
@@ -176,7 +176,7 @@
       "episode": "ScE9FaDy-mE",
       "from_s": 2693.0,
       "to_s": 2704.0,
-      "teller": "hal-putoff",
+      "teller": "hal-puthoff",
       "quote": "Story was that it was sent anonymously by someone claiming to be an army officer and written in the diary was that it was a piece from",
       "kind": "secondhand",
       "cites": [
@@ -352,13 +352,18 @@
       "story": "washington-quickly-ordered-roswell-bottled-up-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "general-spaatz-flew-to-texas-during-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
-  "score": 4.0,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 1,
+    "independent_tellers": 1,
+    "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
@@ -366,13 +371,12 @@
     "researcher": 0,
     "host": 0,
     "documents": 0,
-    "credited_documents": 2,
-    "repetitions": 0,
+    "credited_documents": 1,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "firsthand",
+    "strongest_kind": "secondhand",
     "tellers": [
-      "hal-putoff",
-      "jesse-michels"
+      "hal-puthoff"
     ],
     "episodes": [
       "2Xxmguz0GEQ",
@@ -386,7 +390,7 @@
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 2.0,
-  "tier": "well-attested",
+  "attestation": 0.75,
+  "tier": "told-once",
   "plain": "A small piece of layered metal made of magnesium and bismuth is said to come from Roswell, New Mexico, where a strange craft is reported to have crashed in 1947. Michels passes on what he was told: an army officer going through his grandfather's archives found the sample, and \"written in the diary was that it was a piece from uh Roswell\". The physicist Hal Puthoff tells it a little differently. He says it \"was sent anonymously by someone claiming to be an army officer\". In another version Michels makes the grandfather a colonel in the Roswell cleanup and says the piece sat in a safe. The sample is now with Garry Nolan, a Stanford scientist, and Michels says he saw it during a visit to Nolan's lab. Elsewhere Michels says the bismuth layers are \"less than a human hair\" thick, and that \"nowhere could we find any evidence that anybody ever made one of these\". He also links the piece to the researcher Jacques Vallée and guesses that it might allow magnetic levitation. If the story holds, it would be a physical scrap of a craft no one on Earth knows how to build."
 }

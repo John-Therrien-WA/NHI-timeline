@@ -50,6 +50,31 @@
         "from_s": 2271.0
       },
       "teller_was": "jesse-michels"
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 892.0,
+      "to_s": 915.0,
+      "teller": "eric-weinstein",
+      "quote": "The concern that I have is that in 1952, what if there was someone there to hear what we said in the Pacific? We said we are a hair's breadth away from being in possession of God-like knowledge.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": [],
+      "difference": "Phrased as 'God-like knowledge' rather than root-level knowledge or being close to visiting.",
+      "link_reason": "Weinstein's concern that the 1952 Pacific H-bomb signaled to others matches the existing signal-to-the-cosmos story.",
+      "as_told": {
+        "title": "The 1952 Pacific H-bomb as a signal to others",
+        "years": {
+          "from": 1952,
+          "to": 1952
+        },
+        "place_text": "Pacific",
+        "story_kind": "theory"
+      },
+      "replay_of": {
+        "episode": "iQOibpIDx-4",
+        "from_s": 2323.0
+      }
     }
   ],
   "related": [],
@@ -74,7 +99,8 @@
     ],
     "episodes": [
       "fzvwBBSmWYA",
-      "iQOibpIDx-4"
+      "iQOibpIDx-4",
+      "jyTKETcxj0M"
     ]
   },
   "attestation": 0.25,

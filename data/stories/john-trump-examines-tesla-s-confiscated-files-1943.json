@@ -21,7 +21,7 @@
       "quote": "and was tasked with going into the FBI vault that had confiscated all of Tesla's files and looking at whether any of that would be of service to national security.",
       "kind": "host",
       "cites": [
-        "john-trump",
+        "john-g-trump",
         "nikola-tesla"
       ],
       "documents": []
@@ -34,7 +34,7 @@
       "quote": "Trump. And John Trump was charged with investigating Tesla's files that were confiscated by the FBI to see if they'd confer any tactical warfare advantages to the United States.",
       "kind": "host",
       "cites": [
-        "john-trump",
+        "john-g-trump",
         "nikola-tesla"
       ],
       "documents": [],
@@ -84,7 +84,7 @@
       "quote": "John Trump gets interviewed in this documentary by Bill Moore. And John Trump was tasked with looking through Tesla's files when they confiscated him from his apartment in New York.",
       "kind": "host",
       "cites": [
-        "john-trump",
+        "john-g-trump",
         "bill-moore",
         "nikola-tesla",
         "vannevar-bush"
@@ -113,7 +113,7 @@
       "kind": "host",
       "cites": [
         "nikola-tesla",
-        "john-trump"
+        "john-g-trump"
       ],
       "documents": [
         "tesla-files"
@@ -139,7 +139,7 @@
       "kind": "host",
       "cites": [
         "nikola-tesla",
-        "john-trump"
+        "john-g-trump"
       ],
       "documents": [
         "tesla-files"
@@ -155,37 +155,63 @@
         "place_text": "New York City",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 552.0,
+      "to_s": 581.0,
+      "teller": "redpandakoala",
+      "quote": "He was so smart that when Nicola Tesla died, he was called upon by the government to um basically investigate all of his personal files and just kind of like go through like all of his notes and whatnot.",
+      "kind": "researcher",
+      "cites": [
+        "john-g-trump",
+        "nikola-tesla"
+      ],
+      "documents": [],
+      "difference": "Says the government called him in after Tesla died, without mentioning the FBI vault.",
+      "link_reason": "Same story of John Trump going through Tesla's files after his death.",
+      "as_told": {
+        "title": "John Trump examines Tesla's files",
+        "years": {
+          "from": 1943,
+          "to": 1943
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
     "documents": 0,
     "credited_documents": 3,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "redpandakoala"
     ],
     "episodes": [
       "09KP8XVf5nY",
       "8TYMQOUDQBo",
       "WBTqsbwJyqU",
       "areO7Mej44E",
+      "jyTKETcxj0M",
       "q7Czo77qhHA"
     ]
   },
-  "attestation": 0.85,
-  "tier": "told-once",
+  "attestation": 1.1,
+  "tier": "well-attested",
   "plain": "A podcast host, Jesse Michels, says that after the famous inventor Nikola Tesla died, the FBI seized his files, and John Trump, an MIT professor, the country's leading radar expert and Donald Trump's uncle, was sent to go through them around 1943. According to Michels, the task was to see whether anything in them could help national security or give the US an edge in war. He tells it in several episodes, sometimes dating it loosely to the 1940s, as a sign that the government took Tesla's ideas seriously."
 }

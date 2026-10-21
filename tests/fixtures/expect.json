@@ -22,7 +22,9 @@
     }
   ],
   "absent_people": [
-    "beau-fixture"
+    "beau-fixture",
+    "faye-fixture",
+    "fae-fixture"
   ],
   "titles": [
     {
@@ -177,6 +179,9 @@
       "attestation": 1.0,
       "episodes": [
         "FIXTURE0004"
+      ],
+      "cites": [
+        []
       ]
     }
   },
@@ -189,10 +194,21 @@
       "name": "Beau Fixture",
       "fixture": "bo-fixture",
       "repo": "beau-fixture"
+    },
+    {
+      "name": "Faye Fixture",
+      "fixture": "fay-fixture",
+      "repo": "faye-fixture"
+    },
+    {
+      "name": "fae-fixture",
+      "fixture": "fay-fixture",
+      "repo": "fae-fixture"
     }
   ],
   "people_images": {
-    "bo-fixture": "images/bo-fixture/1.png"
+    "bo-fixture": "images/bo-fixture/1.png",
+    "fay-fixture": "images/fay-fixture/1.png"
   },
   "plain_by_hand": [
     "the-lantern-was-a-flare-1958"
@@ -208,7 +224,8 @@
       "episodes": [
         "FIXTURE0004",
         "FIXTURE0006"
-      ]
+      ],
+      "also_heard": []
     }
   },
   "replays": [
@@ -258,5 +275,14 @@
       ]
     },
     "images": 2
+  },
+  "people_fold": {
+    "fay-fixture": {
+      "name": "Fay Fixture",
+      "aliases": [
+        "faye-fixture",
+        "fae-fixture"
+      ]
+    }
   }
 }

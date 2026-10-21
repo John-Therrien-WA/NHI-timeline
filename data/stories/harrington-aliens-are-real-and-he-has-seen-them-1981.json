@@ -17,11 +17,11 @@
       "episode": "yJUBSuPh1pM",
       "from_s": 1481.0,
       "to_s": 1487.0,
-      "teller": "brent-freriedman",
+      "teller": "brent-friedman",
       "quote": "I can tell you this. Aliens are real. They're here and I've seen them",
       "kind": "secondhand",
       "cites": [
-        "john-harrington"
+        "john-herrington"
       ],
       "documents": []
     },
@@ -33,7 +33,7 @@
       "quote": "a couple drinks, he said, \"All right, look, I can tell you this. Aliens are real. They're here and I've seen them.\"",
       "kind": "secondhand",
       "cites": [
-        "john-harrington"
+        "john-herrington"
       ],
       "documents": [],
       "difference": "Puts the conversation on the veranda after drinks, places the home in the Washington DC area rather than Virginia, and ties it to the West Virginia briefing.",
@@ -61,14 +61,14 @@
     }
   ],
   "tags": [],
-  "score": 2.0,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
@@ -77,7 +77,6 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "brent-freriedman",
       "brent-friedman"
     ],
     "episodes": [
@@ -85,7 +84,7 @@
       "yJUBSuPh1pM"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
+  "attestation": 0.5,
+  "tier": "told-once",
   "plain": "This story is about a private conversation in 1981 with a man named John Harrington. Brent Friedman, a guest on a podcast about Hollywood and UFOs, says that at Harrington's home, after a couple of drinks, Harrington told him: aliens are real, they are here, and he had seen them. In a later telling Friedman puts the talk on the veranda, places the home near Washington DC rather than in Virginia, and links it to a briefing in West Virginia. People tell it because, if true, it would mean someone with inside knowledge had confirmed alien visitors firsthand."
 }

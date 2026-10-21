@@ -17,7 +17,7 @@
       "episode": "yJUBSuPh1pM",
       "from_s": 10582.0,
       "to_s": 10592.0,
-      "teller": "bryce",
+      "teller": "bryce-zabel",
       "quote": "It's like were the people at Roswell who were the only people running a nuclear bomber base in the world in 1947.",
       "kind": "researcher",
       "cites": [],
@@ -190,6 +190,11 @@
       "story": "washington-quickly-ordered-roswell-bottled-up-1947",
       "relation": "same-event",
       "note": "same years, place and kind (merge)"
+    },
+    {
+      "story": "general-spaatz-flew-to-texas-during-roswell-1947",
+      "relation": "same-event",
+      "note": "same years, place and kind (merge)"
     }
   ],
   "tags": [],
@@ -209,7 +214,7 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "bryce",
+      "bryce-zabel",
       "jesse-michels"
     ],
     "episodes": [

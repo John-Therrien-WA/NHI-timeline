@@ -29,7 +29,7 @@
       "episode": "A_LsUSxTm7A",
       "from_s": 5162.0,
       "to_s": 5174.0,
-      "teller": "matt",
+      "teller": "matt-lacroix",
       "quote": "determined that based on the movement of Kyper belt objects that there're they're being super skewed and uh perur perturbed by something",
       "kind": "researcher",
       "cites": [
@@ -48,15 +48,15 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 0.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 2,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -64,14 +64,13 @@
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "matt",
       "matt-lacroix"
     ],
     "episodes": [
       "A_LsUSxTm7A"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-by-several",
+  "attestation": 0.25,
+  "tier": "told-once",
   "plain": "This story is about Planet Nine, a big unseen planet that some astronomers think lies far beyond the known planets. Matt LaCroix, a researcher, says on Jesse Michels' podcast that an astronomer at Caltech, a university in California, said there is a 99% chance it exists. LaCroix explains that the evidence is in the Kuiper belt, a band of icy bodies past Neptune, whose orbits look skewed and pulled about by something. If true, there would be a hidden planet in our own solar system."
 }

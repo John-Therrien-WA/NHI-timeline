@@ -46,8 +46,7 @@
         },
         "place_text": "Ossining, New York",
         "story_kind": "program"
-      },
-      "teller_was": "greg"
+      }
     },
     {
       "episode": "lcaY-rd9Dhc",
@@ -59,7 +58,7 @@
       "cites": [
         "andrija-puharich",
         "uri-geller",
-        "greg-malazzi"
+        "greg-malatzi"
       ],
       "documents": [
         "the-mind-traveler"
@@ -109,7 +108,7 @@
       "quote": "this guy named Andre Puharich who I believe he wrote a book called the sacred mushroom and he had these space kids back in the day where he'd recruit all these kids to upstate New York",
       "kind": "host",
       "cites": [
-        "andre-puharich"
+        "andrija-puharich"
       ],
       "documents": [
         "the-sacred-mushroom"
@@ -203,7 +202,7 @@
       "quote": ">> Upstate New York, he had them channeling things in Faraday cages",
       "kind": "host",
       "cites": [
-        "andre-puharic"
+        "andrija-puharich"
       ],
       "documents": [],
       "difference": "Adds that the channelling took place in Faraday cages and dates it to the 1970s.",
@@ -221,24 +220,23 @@
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 0.5,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
-    "host": 1,
+    "host": 0,
     "documents": 0,
-    "credited_documents": 2,
-    "repetitions": 0,
+    "credited_documents": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
-      "greg-malatzi",
-      "jesse-michels"
+      "greg-malatzi"
     ],
     "episodes": [
       "0qlppHc3-gg",
@@ -252,7 +250,7 @@
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.85,
-  "tier": "well-attested",
+  "attestation": 0.25,
+  "tier": "told-once",
   "plain": "Andrija Puharich is described as a contractor for the CIA who ran a camp in upstate New York. Jesse Michels, a podcast host, says young people he calls the \"space kids\" went there to channel, meaning to speak for, alien beings that Puharich called the Nine. A researcher named Greg, speaking on another episode, places the camp in the town of Ossining in 1973 and 1974. He says Puharich would hypnotise the children, and that the Nine would allegedly come through them. On a third episode Michels repeats the story with Ossining as the place. He adds that Puharich brought the performer Uri Geller over from Israel and that the group spoke with a \"Council of Nine\" extraterrestrial beings, citing a book called The Mind Traveler. They tell it because, if true, a CIA-linked scientist was in contact with what he believed was an alien council."
 }

@@ -35,8 +35,8 @@
       "quote": "the Magenta craft was actually exfiltrated from Italy via the Nazi rat lines which people like Reinhard Galen were helping to kind of orchestrate. And it was by the Knights of Malta.",
       "kind": "secondhand",
       "cites": [
-        "harold-malgrren",
-        "reinhard-galen",
+        "harold-malmgren",
+        "reinhard-gehlen",
         "henry-kissinger"
       ],
       "documents": [],
@@ -61,31 +61,30 @@
     }
   ],
   "tags": [],
-  "score": 2.0,
+  "score": 1.0,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 1,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 2,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "harold-malmgren",
-      "jesse-michels"
+      "harold-malmgren"
     ],
     "episodes": [
       "09KP8XVf5nY",
       "ABw7EsWh2Us"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
+  "attestation": 0.5,
+  "tier": "told-once",
   "plain": "Harold Malmgren, a former adviser to US presidents, told podcast host Jesse Michels about a strange object said to have been recovered in Magenta, Italy, in the 1940s, and later moved to the United States under President Harry Truman. Malmgren says the steps that got it there were arranged by Allen Dulles, an American intelligence official of that era. If true, it would mean the US quietly took possession of a crashed unknown craft before the famous cases of the late 1940s."
 }

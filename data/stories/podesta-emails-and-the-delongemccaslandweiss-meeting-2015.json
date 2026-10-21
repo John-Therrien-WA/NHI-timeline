@@ -84,6 +84,32 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 441.0,
+      "to_s": 473.0,
+      "teller": "redpandakoala",
+      "quote": "you can see in the emails which are on Podesta, he's saying like, I want the government to come off as cool here,",
+      "kind": "researcher",
+      "cites": [
+        "tom-delonge",
+        "john-podesta"
+      ],
+      "documents": [
+        "podesta-emails"
+      ],
+      "difference": "Quotes DeLonge wanting government to come off as cool.",
+      "link_reason": "DeLonge emails to Podesta wanting government to look cool; matches Podesta emails story.",
+      "as_told": {
+        "title": "DeLonge emails in the Podesta leak",
+        "years": {
+          "from": 2015,
+          "to": 2016
+        },
+        "place_text": "United States",
+        "story_kind": "document"
+      }
     }
   ],
   "related": [
@@ -94,15 +120,15 @@
     }
   ],
   "tags": [],
-  "score": 3.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 4,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 2,
+    "researcher": 3,
     "host": 0,
     "documents": 0,
     "credited_documents": 3,
@@ -112,15 +138,17 @@
     "tellers": [
       "grant-cameron",
       "jason-simosa",
-      "jay-anderson"
+      "jay-anderson",
+      "redpandakoala"
     ],
     "episodes": [
       "51N8OxqZIWY",
       "fpUa3xJN64Q",
+      "jyTKETcxj0M",
       "kccrkCGGzX4"
     ]
   },
-  "attestation": 1.75,
+  "attestation": 2.0,
   "tier": "well-attested",
   "plain": "A researcher named Jason Simosa, speaking on a podcast hosted by Jesse Michels, describes emails of a Washington political figure, John Podesta, that were hacked and made public around 2015 and 2016. Simosa says they hold about 35 emails between a man named Tom DeLonge and Podesta's team, and point to a meeting between Podesta, DeLonge, an Air Force general named Neil McCasland, a man named Michael Carey, and Robert Weiss, head of the Skunk Works, a secret aircraft design shop. If true, it would show senior military and aerospace figures quietly meeting about UFO matters with people close to political power."
 }

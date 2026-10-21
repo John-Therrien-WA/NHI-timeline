@@ -219,6 +219,29 @@
         "place_text": "USA",
         "story_kind": "program"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 77.0,
+      "to_s": 108.0,
+      "teller": "jesse-michels",
+      "quote": "That's Lou Elizondo, former director of AATIP, the government's Advanced Aerospace Threat Identification Program, which studied UFOs from 2007 to 2012.",
+      "kind": "host",
+      "cites": [
+        "luis-elizondo"
+      ],
+      "documents": [],
+      "difference": "Brief statement dating it 2007-2012 and naming Elizondo as former director, no budget.",
+      "link_reason": "Host describes AATIP as a UFO program run 2007-2012 with Elizondo; matches the AATIP program story.",
+      "as_told": {
+        "title": "AATIP studied UFOs 2007-2012",
+        "years": {
+          "from": 2007,
+          "to": 2012
+        },
+        "place_text": "United States",
+        "story_kind": "program"
+      }
     }
   ],
   "related": [
@@ -260,6 +283,7 @@
       "_bM9eAtCOGw",
       "bVhSPH2A5Vw",
       "dzTZbSNsKV8",
+      "jyTKETcxj0M",
       "kccrkCGGzX4"
     ]
   },

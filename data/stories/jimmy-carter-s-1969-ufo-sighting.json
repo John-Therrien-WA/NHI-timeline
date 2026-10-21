@@ -48,19 +48,42 @@
         "place_text": "Lions Club, Georgia",
         "story_kind": "sighting"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 520.0,
+      "to_s": 552.0,
+      "teller": "redpandakoala",
+      "quote": "Yeah, Jimmy Carter saying um he he saw a bright light appear in the distance uh Western skies.",
+      "kind": "researcher",
+      "cites": [
+        "jimmy-carter"
+      ],
+      "documents": [],
+      "difference": "Told by the researcher, with the bright light in the western sky and no mention of Lion's Club witnesses.",
+      "link_reason": "Same Carter 1969 sighting of a bright light.",
+      "as_told": {
+        "title": "Jimmy Carter's sighting",
+        "years": {
+          "from": 1969,
+          "to": 1969
+        },
+        "place_text": "United States",
+        "story_kind": "sighting"
+      }
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 1.5,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
     "documents": 0,
     "credited_documents": 0,
@@ -68,14 +91,16 @@
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
-      "daniel-sheehan"
+      "daniel-sheehan",
+      "redpandakoala"
     ],
     "episodes": [
       "1f16VvXaSSE",
-      "2SQXAPCdmPE"
+      "2SQXAPCdmPE",
+      "jyTKETcxj0M"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
+  "attestation": 0.75,
+  "tier": "told-by-several",
   "plain": "A podcast host, Jesse Michels, citing a man named Dan Sheehan, reminds listeners that Jimmy Carter, the future US president, had seen a UFO, an unidentified flying object, in 1969. If so, it would mean even a man who went on to lead the country saw something he could not explain."
 }

@@ -22,7 +22,7 @@ uv run python -m pipeline.clips                         # the same, then a telli
 uv run python -m pipeline.score                         # score into each story, data/scores.json
 uv run python -m pipeline.explain --all --model opus    # claude -p, about twelve stories a call: a plain telling for every story, written ground up
 uv run python -m pipeline.images <manifest.json>        # found photographs in: site/images/<owner>/<n>.jpg, data/images/<owner>/<n>.json
-uv run python -m pipeline.build                         # site/data.json and site/data.js
+uv run python -m pipeline.build                         # site/data.json and site/data.js, the plain tellings in site/plain.json and site/plain.js
 uv run python -m pipeline.check                         # every story has a telling, every id resolves, every quote is verbatim
 open site/index.html                                    # the 3D page from disk (reads site/data.js)
 cd site && python3 -m http.server 8000                  # or over http (reads site/data.json): http://127.0.0.1:8000/
@@ -41,7 +41,10 @@ two fingers move along time in the corridor and pinch the globe. A link may carr
 `#story=<id or alias>`, `mode=globe`, `rail=time|kind|strength|links`, `trust=<0.5 to 1.25>` and
 `touch` (the touch layer on a computer);
 `?data=<path>` loads another data file from a relative path beside the page (a `.js` defining
-`window.NHI_DATA`, or JSON over http), for a test copy. At load the page recomputes every attestation
+`window.NHI_DATA`, or JSON over http), for a test copy. The plain tellings come in a second file the
+page loads after its first draw, from the data file's folder: `plain.json` over http, `plain.js`
+(`window.NHI_PLAIN`) from disk or beside a `.js` data file; until it arrives the panel shows the
+summary alone. At load the page recomputes every attestation
 and score from the profiles and refuses to draw when they differ from the stored values. Published as an artifact with the `db` capability,
 the notes box saves to the collection `notes`; anywhere else it copies the note as text.
 
@@ -62,7 +65,7 @@ idempotent, so the images already added are kept. Its manifest is a
 JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind", "credit",
 "caption", "date"? }` (`schema.md`, Images); an image already held is kept, so a manifest can be run
 again. To publish the page as an artifact, pass `site/images/` in the artifact's `files` beside
-`data.json`, so the relative `images/...` paths resolve; while any `fair-use` image is among them the
+`data.json` and `plain.json`, so the relative `images/...` paths resolve; while any `fair-use` image is among them the
 artifact stays private.
 
 To fold viewer notes: pull the page's saved notes into `data/notes/<story id>.json` (status `open`), turn each

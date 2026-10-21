@@ -386,8 +386,8 @@
       document.body.classList.toggle("mode-globe", name === "globe");
       document.querySelectorAll("#mode-seg button").forEach(b => b.classList.toggle("on", b.dataset.mode === name));
       $("subtitle").textContent = name === "globe"
-        ? "Regions sized by how many stories they hold, eras as shells above them. Stories as told, not facts."
-        : "Time runs ahead of you, stretched where many stories are told. The better attested, the nearer the centre and the brighter. Stories as told, not facts.";
+        ? "Stories as told on the podcast American Alchemy, hosted by Jesse Michels. Regions sized by how many stories they hold, eras as shells above them. Stories, not facts."
+        : "Stories as told on the podcast American Alchemy, hosted by Jesse Michels. Time runs ahead of you, stretched where many stories are told. The better attested, the nearer the centre and the brighter. Stories, not facts.";
       resize();
       view.activate();
       view.applyVisibility(); view.restyle(); view.setSelected(selected); view.setEmphasis(null);

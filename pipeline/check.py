@@ -66,6 +66,7 @@ lifts a speaker whose own telling is second-hand; and which person ids the near-
 For the person fold: the members absent, the canonical's name and aliases in its file and in
 site/data.json, the cites of a telling whose self-cite the fold dropped, and on a tiny root of its own
 every refusal named before anything is written, a new canonical created and a headshot moved.
+A story that still carries the retired `summary` field is refused by name.
 For the sources stage: the documents,
 text files, tellings, source notes and images manifest under `sources`, the lines explain sends
 the model, and on a copy of the root the passages path, the slug rule and every refusal
@@ -230,9 +231,11 @@ def problems(root: Root) -> list[str]:
     out += alias_problems(aliases, people, named)
     for sid, s in sorted(stories.items()):
         where = f"story {sid}"
-        for key in ("id", "title", "summary", "tellings", "related"):
+        for key in ("id", "title", "tellings", "related"):
             if key not in s:
                 out.append(f"{where}: missing {key}")
+        if "summary" in s:
+            out.append(f"{where}: carries the retired field summary (the page shows plain; strip the key from the story file)")
         if not s.get("tellings"):
             out.append(f"{where}: no telling (a story without a quote is a note, not a story)")
         if s.get("era") is not None and s["era"] not in era_ids:
@@ -728,7 +731,7 @@ def link_group_problems() -> list[str]:
         root = Root(tmp)
         root.stories.mkdir(parents=True)
         root.candidates.mkdir(parents=True)
-        vault = {"id": "a-vault-1971", "title": "A vault under Mount Fictus", "summary": "", "years": {"from": 1971, "to": 1971},
+        vault = {"id": "a-vault-1971", "title": "A vault under Mount Fictus", "years": {"from": 1971, "to": 1971},
                  "place_text": "Mount Fictus", "kind": "program", "related": [],
                  "tellings": [{"episode": "G0", "from_s": 1, "teller": "cy-fixture", "quote": "We dug a vault under the mountain.",
                                "kind": "firsthand", "cites": [], "documents": []}]}
@@ -1181,7 +1184,7 @@ def person_fold_refusal_problems() -> list[str]:
         headshot("ivo-fixtor", 1, "https://example.org/ivo-1.png")
         headshot("ivo-fixtor", 2, "https://example.org/ivo-2.png")
         tell = {"episode": "E", "from_s": 1, "teller": "ivo-fixtur", "quote": "q", "kind": "firsthand", "cites": ["ivo-fixtor", "jo-fixture"]}
-        save_json(root.stories / "s.json", {"id": "s", "title": "t", "summary": "", "tellings": [tell], "related": []})
+        save_json(root.stories / "s.json", {"id": "s", "title": "t", "tellings": [tell], "related": []})
         save_json(root.data / "person-aliases.json", {"Ivo Fixxtur": "ivo-fixtur"})
         good = {"canonical": "ivo-fixture", "name": "Ivo Fixture", "members": ["ivo-fixtur", "ivo-fixtor", "x-fixture"], "reason": "r"}
 
@@ -1244,6 +1247,21 @@ def person_fold_refusal_problems() -> list[str]:
     finally:
         shutil.rmtree(tmp)
     return out
+
+
+def retired_summary_problems(root: Root) -> list[str]:
+    """A story that still carries the retired `summary` field is refused by name; the file is restored after."""
+    f = sorted(root.stories.glob("*.json"))[0]
+    kept = f.read_text(encoding="utf-8")
+    s = load_json(f)
+    save_json(f, {**s, "summary": "an insider line"})
+    try:
+        want = f"story {s['id']}: carries the retired field summary"
+        if not any(x.startswith(want) for x in problems(root)):
+            return [f"expect: check does not refuse story {s['id']} carrying summary"]
+        return []
+    finally:
+        f.write_text(kept, encoding="utf-8")
 
 
 def snapshot(d: Path) -> dict[str, str]:
@@ -1327,6 +1345,7 @@ def run_fixture() -> list[str]:
         out.append(f"the chain is not idempotent: a second run of link, merge, clips, sources, people, score and explain changed {changed}")
     if any(v for k, v in stats.items()):
         out.append(f"merge is not idempotent: a second run reported {stats}")
+    out += retired_summary_problems(root)
     if out:
         print(f"check: fixture chain left in {tmp} for inspection", file=sys.stderr)
     else:

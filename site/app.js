@@ -329,7 +329,7 @@
     // ---------- search ----------
     const searchEl = $("search"), resultsEl = $("results");
     let searchIndex;
-    const indexSearch = () => { searchIndex = D.stories.map(s => ({ s, text: [s.title, s.plain || "", s.summary || "", M.placeText(s), M.KIND_NAMES[s.kind], M.regionOf(s), M.yearsText(s.years),
+    const indexSearch = () => { searchIndex = D.stories.map(s => ({ s, text: [s.title, s.plain || "", M.placeText(s), M.KIND_NAMES[s.kind], M.regionOf(s), M.yearsText(s.years),
       ...s.tellings.map(t => (t.teller_name || M.personName(t.teller)) + " " + t.cites.map(M.personName).join(" "))].join(" ").toLowerCase() })); };
     indexSearch();
     let resultIds = [], resultHi = 0;
@@ -468,7 +468,7 @@
     }
     requestAnimationFrame(frame);
 
-    // ---------- the plain tellings, after the first draw: until they arrive the panel shows the summary alone ----------
+    // ---------- the plain tellings, after the first draw: until they arrive the panel shows the story without its plain telling ----------
     requestAnimationFrame(() => setTimeout(() => loadPlain().then(P => {
       const stray = Object.keys(P).filter(id => !M.storyById[id]);
       if (stray.length) throw new Error("the plain file names " + stray.length + " stories not in the data (" + stray.slice(0, 3).join(", ") + "). Run pipeline.build.");

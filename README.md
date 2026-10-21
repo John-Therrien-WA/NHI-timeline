@@ -46,7 +46,7 @@ two fingers move along time in the corridor and pinch the globe. A link may carr
 `window.NHI_DATA`, or JSON over http), for a test copy. The plain tellings come in a second file the
 page loads after its first draw, from the data file's folder: `plain.json` over http, `plain.js`
 (`window.NHI_PLAIN`) from disk or beside a `.js` data file; until it arrives the panel shows the
-summary alone. At load the page recomputes every attestation
+story without its plain telling. At load the page recomputes every attestation
 and score from the profiles and refuses to draw when they differ from the stored values. Published as an artifact with the `db` capability,
 the notes box saves to the collection `notes`; anywhere else it copies the note as text.
 

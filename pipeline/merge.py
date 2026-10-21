@@ -146,15 +146,6 @@ def place_text_of(cand: dict) -> str | None:
     return norm_ws(t) if isinstance(t, str) and t.strip() else None
 
 
-def summary_for(cand: dict, teller_name: str, place_name: str | None) -> str:
-    when = cand["years_text"] if isinstance(cand["years_text"], str) and cand["years_text"].strip() else "an unknown time"
-    where = place_name or place_text_of(cand) or "an unknown place"
-    how = {"firsthand": "says they saw it or took part", "official": "reads it from an official document",
-           "journalist": "reports it citing named sources", "secondhand": "relays what a named person told them",
-           "researcher": "summarises it without a named source", "host": "frames it as the host"}[cand["kind"]]
-    return f"{teller_name} tells of {cand['title']}, about {when} at {where}, and {how}. As told, not a fact."
-
-
 def telling_from(cand: dict, episode_id: str, teller: str, cites: list[str], docs: list[str]) -> dict:
     return {"episode": episode_id, "from_s": cand["from_s"], "to_s": cand["to_s"], "teller": teller,
             "quote": cand["quote"], "kind": cand["kind"], "cites": cites, "documents": docs}
@@ -170,7 +161,6 @@ def run(root: Root, episodes_only: list[str] | None = None) -> dict:
     """`episodes_only` restricts the pass to those candidate files (the rebuild links and merges one episode at a time)."""
     eras, places = root.eras(), root.places()
     resolver = PlaceResolver(places, load_aliases(root))
-    place_names = {p["id"]: p["name"] for p in places}
     stories = root.load_dir(root.stories)
     people = root.load_dir(root.people)
     documents = root.load_dir(root.documents)
@@ -237,7 +227,6 @@ def run(root: Root, episodes_only: list[str] | None = None) -> dict:
             if story is None:
                 story = {
                     "id": sid, "title": cand["title"],
-                    "summary": summary_for(cand, people[teller]["name"], place_names.get(cand["place"])),
                     "era": era_for(cand["years"], eras), "years": cand["years"],
                     "place": cand["place"], "place_text": place_text_of(cand), "coordinates": None,
                     "kind": cand["story_kind"], "claims": [], "tellings": [telling], "related": [], "tags": [], "score": None,

@@ -11,7 +11,6 @@ Rules for every telling:
 - Do not judge, mock or endorse. Do not call anything a conspiracy theory, a hoax, or the truth. Do not bring in facts the tellings do not give; if a telling is vague, stay vague.
 - Plain English, short sentences, told nicely but concisely: a good friend explaining it over dinner. Lead with the story, not with who is telling it: the first sentence says what is claimed, a later clause says who says so. No em dashes (use commas, colons, periods). No bullet points, no headings, one flowing paragraph.
 - Length follows the tier given with each story: `told-once` two to three sentences; `told-by-several` three to five sentences; `well-attested` a short paragraph of five to eight sentences that also says, in a sentence, who else tells it and how (a witness, an official record, a journalist, a host repeating others).
-- Use the `summary` line only as a hint about the story's framing; it is written for insiders and is not your model.
 - When a telling is marked "told differently", that is where the tellers disagree; a well-attested telling may mention the disagreement in a clause.
 
 Answer as JSON: an object with one key, `tellings`, a list with exactly one object `{ "id", "plain" }` for every story below, in any order, each `id` copied exactly from the story's tag and each `plain` the telling as one string.

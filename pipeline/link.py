@@ -7,8 +7,8 @@ Candidate mode (the default) reads data/candidates/<episode>.json (every file, o
 named) and takes the candidates without a `link` field in file order, in groups of --batch (10),
 one `claude -p` call per group. For each candidate it retrieves the nearest stories in
 data/stories (shared cited names, the same teller, years overlapping or within two years, the same
-kind, content words of the candidate's title and quote shared with a story's title, summary and
-first quote, weighted by rarity) and takes the top eight; the call offers the union of the group's
+kind, content words of the candidate's title and quote shared with a story's title and first
+quote, weighted by rarity) and takes the top eight; the call offers the union of the group's
 stories and asks with prompts/link.md, for each candidate, whether it is the `same` story as one
 of them, a `variant` of one, or `new`, and at which grain (`same`, `broader`, `narrower`). A
 candidate may also be `same` as, or a `variant` of, an earlier candidate of its group, named `#n`;
@@ -161,7 +161,7 @@ def probe_of_story(s: dict) -> Probe:
 
 
 class Index:
-    """The stories as retrieval sees them: title, summary and first quote as rare-weighted words, plus people."""
+    """The stories as retrieval sees them: title and first quote as rare-weighted words, plus people."""
 
     def __init__(self, stories: dict):
         self.stories = stories
@@ -173,7 +173,7 @@ class Index:
 
     def _count(self, sid: str) -> None:
         s = self.stories[sid]
-        self.words[sid] = words(f"{s['title']} {s.get('summary', '')} {(s['tellings'][0].get('quote') or '') if s['tellings'] else ''}")
+        self.words[sid] = words(f"{s['title']} {(s['tellings'][0].get('quote') or '') if s['tellings'] else ''}")
         for w in self.words[sid]:
             self.df[w] = self.df.get(w, 0) + 1
 
@@ -215,8 +215,7 @@ def stories_text(stories: dict, ids: list[str], people: dict) -> str:
         y = s.get("years")
         lines = [f"<story id=\"{sid}\">", f"title: {s['title']}",
                  f"years: {'not given' if not y else (y['from'] if y['from'] == y['to'] else str(y['from']) + '-' + str(y['to']))}",
-                 f"place: {s.get('place_text') or s.get('place') or 'not given'}", f"story kind: {s.get('kind')}",
-                 f"summary: {s.get('summary', '')}"]
+                 f"place: {s.get('place_text') or s.get('place') or 'not given'}", f"story kind: {s.get('kind')}"]
         for t in s["tellings"][:4]:
             cites = ", ".join(name(c) for c in t.get("cites", []))
             lines.append(f"telling by {name(t['teller'])} ({t['kind']}{', crediting ' + cites if cites else ''}): \"{t.get('quote') or ''}\"")
@@ -425,7 +424,7 @@ def provisional(cand: dict, eid: str, probe: Probe, sid: str) -> dict:
     """The story merge will create from a candidate linked `new` or `variant`, as retrieval needs it,
     so a later candidate of the same run can be linked to it."""
     f = framing_of_candidate(cand)
-    return {"id": sid, "title": f["title"], "summary": "", "years": f["years"], "place_text": f["place_text"],
+    return {"id": sid, "title": f["title"], "years": f["years"], "place_text": f["place_text"],
             "kind": f["story_kind"], "related": [],
             "tellings": [{"episode": eid, "from_s": cand["from_s"], "teller": probe.teller, "quote": cand["quote"],
                           "kind": cand["kind"], "cites": probe.cites, "documents": []}]}

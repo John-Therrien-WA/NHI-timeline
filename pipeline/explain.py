@@ -8,7 +8,7 @@ why the story is told), two to three sentences for a `told-once` story, three to
 `told-by-several`, a short paragraph for `well-attested`. The stories go to `claude -p` with
 prompts/explain.md in groups of --batch (12), well-attested first, then told-by-several, then
 told-once, so the stories the page foregrounds get theirs first; the prompt gives each story's
-title, kind, years, era, place, tier, claims, summary, related stories and every telling (the teller
+title, kind, years, era, place, tier, claims, related stories and every telling (the teller
 by name and kind, the show and date or the document and its locator, the quote, whom and what it
 cites, the difference where the tellers disagree) and the story's `source` notes (what a source
 itself says against the tellers, from `pipeline.sources`). The answer is `{ "tellings": [ { "id", "plain" } ] }` and must name every id of
@@ -141,8 +141,6 @@ def story_text(s: dict, stories: dict, people: dict, episodes: dict, documents: 
     lines.append(f"tier: {s['tier']}" + (f" ({n} independent {'teller' if n == 1 else 'tellers'})" if n is not None else ""))
     if s.get("claims"):
         lines.append("claims: " + "; ".join(s["claims"]))
-    if (s.get("summary") or "").strip():
-        lines.append(f"summary (an insider's line, a hint only): {norm_ws(s['summary'])}")
     related = [f"\"{stories[r['story']]['title']}\" ({r['relation'].replace('-', ' ')})" for r in s.get("related", []) if r.get("story") in stories]
     if related:
         lines.append("related stories: " + "; ".join(related))

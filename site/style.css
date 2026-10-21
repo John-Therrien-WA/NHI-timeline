@@ -170,9 +170,8 @@ body.panel-open #panel { transform: none; }
 #panel h3 { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 18px 0 8px; }
 #panel .kindtag { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; font-size: 12px; color: var(--muted); }
 #panel .kindtag .sw { width: 9px; height: 9px; border-radius: 50%; }
-#panel .summary { color: #c4cbe0; margin: 6px 0 10px; }
 #panel .plain { font-size: 15px; line-height: 1.5; color: #e6ecff; margin: 8px 0 12px; }
-/* a story's photographs, under the summary; a teller's headshot, beside their own tellings only */
+/* a story's photographs, under the plain telling; a teller's headshot, beside their own tellings only */
 .imgstrip { display: flex; gap: 8px; overflow-x: auto; margin: 0 0 12px; padding-bottom: 2px; }
 .imgstrip figure { flex: 0 0 220px; margin: 0; border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: rgba(255,255,255,0.02); }
 .imgstrip.one figure { flex: 1 1 auto; }

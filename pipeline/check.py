@@ -42,8 +42,8 @@ from each title, that `captions --refill` fills only host and guests, and that t
 prompt carries the episode's title and date lines; then every story the chain made, with its tier,
 `contradicted` flag and attestation (and for some its years, aliases, episodes, the tellings that
 carry a `difference` and a telling's `as_told`), every story's `discussion` length and `notes_open`
-in site/data.json (0 when expect.json gives none), that every story in site/data.json carries the
-`plain` telling `explain.json` gives it, or its own hand-written one (the stories `plain_by_hand`
+in site/data.json (0 when expect.json gives none), that site/plain.json carries for every story in
+site/data.json the `plain` telling `explain.json` gives it, or its own hand-written one (the stories `plain_by_hand`
 lists, which keep `plain_by`), that `link.fold` appends a folded story's
 discussion to the survivor's in order, that a group call of `link` resolves `#n` to the story an
 earlier telling of the group ends in, asks a refused group once more with a note, stops on a
@@ -403,20 +403,25 @@ def expectations(root: Root) -> list[str]:
         if files != e.get("images", []):
             out.append(f"expect: story {sid} has images {files} in site/data.json, expected {e.get('images', [])}")
     prepared = load_json(root.path / "explain.json")
+    plain = load_json(root.site / "plain.json")
+    for sid in sorted(set(plain) - set(built)):
+        out.append(f"expect: site/plain.json names {sid}, which is not a story in site/data.json")
     for sid, b in sorted(built.items()):
-        if not isinstance(b.get("plain"), str) or not b["plain"].strip():
-            out.append(f"expect: story {sid} has no plain telling in site/data.json")
+        if "plain" in b:
+            out.append(f"expect: story {sid} carries plain in site/data.json; it belongs in site/plain.json")
+        if not isinstance(plain.get(sid), str) or not plain[sid].strip():
+            out.append(f"expect: story {sid} has no plain telling in site/plain.json")
             continue
         src = load_json(root.stories / f"{sid}.json")
         if src.get("plain_by") == "hand":
             if sid in prepared:
                 out.append(f"expect: story {sid} is hand-written and must not be in explain.json")
-            if b["plain"] != src["plain"]:
-                out.append(f"expect: story {sid}: the hand-written plain telling did not reach site/data.json unchanged")
+            if plain[sid] != src["plain"]:
+                out.append(f"expect: story {sid}: the hand-written plain telling did not reach site/plain.json unchanged")
         elif sid not in prepared:
             out.append(f"expect: story {sid} has a plain telling that explain.json did not give")
-        elif b["plain"] != prepared[sid]:
-            out.append(f"expect: story {sid}: plain in site/data.json differs from explain.json")
+        elif plain[sid] != prepared[sid]:
+            out.append(f"expect: story {sid}: plain in site/plain.json differs from explain.json")
     for sid in exp.get("plain_by_hand", []):
         src = load_json(root.stories / f"{sid}.json")
         if src.get("plain_by") != "hand":

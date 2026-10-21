@@ -26,12 +26,13 @@
   const ease = t => t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
 
   // ---------- data: data.json over http, data.js from disk, or the page's ?data=<url> ----------
-  function loadScript(src) {
+  function loadScript(src, glob) {
+    glob = glob || "NHI_DATA";
     return new Promise((resolve, reject) => {
-      delete window.NHI_DATA;
+      delete window[glob];
       const sc = document.createElement("script");
       sc.src = src;
-      sc.onload = () => window.NHI_DATA ? resolve(window.NHI_DATA) : reject(new Error(src + " loaded but set no window.NHI_DATA. Run pipeline.build."));
+      sc.onload = () => window[glob] ? resolve(window[glob]) : reject(new Error(src + " loaded but set no window." + glob + ". Run pipeline.build."));
       sc.onerror = () => reject(new Error(src + " could not be loaded."));
       document.head.appendChild(sc);
     });
@@ -51,6 +52,13 @@
     }
     if (location.protocol === "file:") return loadScript("data.js").catch(e => { throw new Error(e.message + " Opened from disk, the page reads data.js beside index.html; run pipeline.build."); });
     return fetchJson("data.json").catch(e => { throw new Error(e.message + " Over http the page reads data.json beside index.html; run pipeline.build."); });
+  }
+  // the plain tellings: plain.js or plain.json in the data file's folder, the .js when the data came from a .js
+  function loadPlain() {
+    const src = new URLSearchParams(location.search).get("data");
+    const js = src != null ? /\.js(\?|#|$)/.test(src) : location.protocol === "file:";
+    const dir = src != null ? src.replace(/[?#].*$/, "").replace(/[^\/]*$/, "") : "";
+    return js ? loadScript(dir + "plain.js", "NHI_PLAIN") : fetchJson(dir + "plain.json");
   }
   function loadThree() {
     const timeout = new Promise((_, reject) => setTimeout(() => reject(new Error("three.js did not load from cdn.jsdelivr.net within 15 seconds. The page needs that CDN to draw.")), 15000));
@@ -320,8 +328,10 @@
 
     // ---------- search ----------
     const searchEl = $("search"), resultsEl = $("results");
-    const searchIndex = D.stories.map(s => ({ s, text: [s.title, s.plain || "", s.summary || "", M.placeText(s), M.KIND_NAMES[s.kind], M.regionOf(s), M.yearsText(s.years),
-      ...s.tellings.map(t => (t.teller_name || M.personName(t.teller)) + " " + t.cites.map(M.personName).join(" "))].join(" ").toLowerCase() }));
+    let searchIndex;
+    const indexSearch = () => { searchIndex = D.stories.map(s => ({ s, text: [s.title, s.plain || "", s.summary || "", M.placeText(s), M.KIND_NAMES[s.kind], M.regionOf(s), M.yearsText(s.years),
+      ...s.tellings.map(t => (t.teller_name || M.personName(t.teller)) + " " + t.cites.map(M.personName).join(" "))].join(" ").toLowerCase() })); };
+    indexSearch();
     let resultIds = [], resultHi = 0;
     const closeResults = () => resultsEl.classList.remove("open");
     function renderResults() {
@@ -457,5 +467,14 @@
       requestAnimationFrame(frame);
     }
     requestAnimationFrame(frame);
+
+    // ---------- the plain tellings, after the first draw: until they arrive the panel shows the summary alone ----------
+    requestAnimationFrame(() => setTimeout(() => loadPlain().then(P => {
+      const stray = Object.keys(P).filter(id => !M.storyById[id]);
+      if (stray.length) throw new Error("the plain file names " + stray.length + " stories not in the data (" + stray.slice(0, 3).join(", ") + "). Run pipeline.build.");
+      for (const id in P) M.storyById[id].plain = P[id];
+      indexSearch();
+      if (selected) panel.render(selected);
+    }).catch(e => fatal(e.message + " The plain tellings sit beside the data file as plain.json and plain.js; run pipeline.build.")), 0));
   }
 })();

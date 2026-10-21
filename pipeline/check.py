@@ -71,7 +71,7 @@ A story that still carries the retired `summary` field is refused by name, and s
 site/data.json whose keys are not build.STORY_KEYS. On a copy with the stage's
 plain tellings removed, `explain --shard 1/2` and `--shard 2/2` explain disjoint halves of the ordered list
 that together match the full run, and a malformed shard is refused. Every `*_problems` case
-run_fixture calls must be named in tests/fixtures/README.md.
+run_fixture or expectations calls must be named in tests/fixtures/README.md.
 For the sources stage: the documents,
 text files, tellings, source notes and images manifest under `sources`, the lines explain sends
 the model, and on a copy of the root the passages path, the slug rule and every refusal
@@ -1350,11 +1350,12 @@ def stale_build_problems(root: Root) -> list[str]:
 
 
 def fixture_readme_problems() -> list[str]:
-    """Every `*_problems` case run_fixture calls is named in tests/fixtures/README.md, which says what each proves."""
+    """Every `*_problems` case run_fixture or expectations calls is named in tests/fixtures/README.md, which says
+    what each proves."""
     import inspect
     readme = (FIXTURES / "README.md").read_text(encoding="utf-8")
-    called = sorted(set(re.findall(r"\b(\w+_problems)\(", inspect.getsource(run_fixture))))
-    return [f"tests/fixtures/README.md does not name {name}, a case run_fixture calls" for name in called
+    called = sorted(set(re.findall(r"\b(\w+_problems)\(", inspect.getsource(run_fixture) + inspect.getsource(expectations))))
+    return [f"tests/fixtures/README.md does not name {name}, a case the fixture chain calls" for name in called
             if name != "fixture_readme_problems" and name not in readme]
 
 

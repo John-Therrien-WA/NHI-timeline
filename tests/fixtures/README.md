@@ -36,9 +36,13 @@ telling `replay_of` FIXTURE0004 at 8 s, `teller` `fay-fixture` and `teller_was` 
 ring ends with one independent teller (`tellers` in expect.json), `told-once`. `expect.json` names
 the ledger's verdict under `clips` and the marked telling under `replays`. The check also marks the
 group `not-a-clip` by hand and applies (Hal's telling must come back unmarked), puts the ledger back
-and applies again (the story must be byte for byte as before), and runs `clips.Asker` with a fake
-model to prove a refused answer is asked once more with a note and a second refusal stops the run; and scores, in memory, a first-hand replay beside the speaker's own second-hand telling,
-which must count one second-hand teller.
+and applies again (the story must be byte for byte as before). `check.clips_refusal_problems` runs
+`clips.Asker` with a fake model whose origin `#9` names no occurrence: the refused answer is asked
+once more with a note naming the refusal and the second answer is taken, and a model that refuses
+twice stops the run. `check.replay_weight_problems` scores, in memory with `score.attest`, a
+first-hand replay beside the speaker's own second-hand telling, which must count one second-hand
+teller and no first-hand one, and the replay alone, whose speaker must then count as one first-hand
+teller by the replay's kind.
 
 The scored result covers every tier: the vault is `well-attested` (Cy and Eve, both firsthand, with
 Bo's telling a repetition of Cy's), and so is the mirror once its source is read (below), the plains hum is `told-by-several` (Dee as host and Eve as
@@ -51,7 +55,9 @@ Gazette with a `source`, a `rebunk` by Bo Fixture with an `episode` and a `time`
 `data/notes/the-lantern-was-a-flare-1958.json` holds one `open` and one `folded` viewer note:
 `expect.json` asks for 2 discussion entries and `notes_open` 1 on that story in `site/data.json`,
 and 0 and 0 on every other, so the discussion survives merge, `link --existing` and score and
-reaches the page. A fold of two stories' discussions is checked in memory (`link.fold`). The group call is checked
+reaches the page. `check.fold_discussion_problems` folds stories in memory with `link.fold`: a
+folded story's two entries are appended after the survivor's one, in order and none dropped, and a
+survivor without a discussion takes the folded story's entry. The group call is checked
 on a tiny root of its own with a fake model (`check.link_group_problems`), since the fixture's
 decisions name no earlier candidate: `#1` resolves to an earlier candidate's provisional story, `#n`
 of a candidate that joined a held story resolves to that story, a `narrower` `same` through `#n` is
@@ -124,6 +130,10 @@ malformed group, a member in two groups, a member that is another group's canoni
 named nowhere are each named before anything is written, and a fold into a new canonical creates it,
 merges roles, links and affiliation, drops a self-cite, moves a headshot to the next free number,
 drops one whose image URL the canonical holds, and maps a member's old alias, name and id.
+`check.near_duplicate_problems` runs the near-duplicate warning on a fixed list of ids: of `greg`,
+`greg-malatzi`, `greg-malazzi`, `james-fox`, `james-woods`, `bob-jameson`, `robert-jameson` and
+`donald-trump` it must pair only `greg-malatzi` with `greg-malazzi`, the two spellings of one name,
+and leave the short id and the distinct names alone.
 
 `explain.json` stands in for the explain stage: the plain telling for each of the eight stories the
 chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:

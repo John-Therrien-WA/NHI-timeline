@@ -66,7 +66,9 @@ lifts a speaker whose own telling is second-hand; and which person ids the near-
 For the person fold: the members absent, the canonical's name and aliases in its file and in
 site/data.json, the cites of a telling whose self-cite the fold dropped, and on a tiny root of its own
 every refusal named before anything is written, a new canonical created and a headshot moved.
-A story that still carries the retired `summary` field is refused by name.
+A story that still carries the retired `summary` field is refused by name. On a copy with the stage's
+plain tellings removed, `explain --shard 1/2` and `--shard 2/2` explain disjoint halves of the ordered list
+that together match the full run, and a malformed shard is refused.
 For the sources stage: the documents,
 text files, tellings, source notes and images manifest under `sources`, the lines explain sends
 the model, and on a copy of the root the passages path, the slug rule and every refusal
@@ -1249,6 +1251,52 @@ def person_fold_refusal_problems() -> list[str]:
     return out
 
 
+def explain_shard_problems(root: Root) -> list[str]:
+    """On a copy of the explained root with the stage's tellings removed, `explain --shard 1/2` then
+    `--shard 2/2` (groups of two) explain disjoint halves of the ordered list, every other story
+    each, and together give every story the telling the full run gave it."""
+    from . import explain
+    tmp = Path(tempfile.mkdtemp(prefix="nhi-explain-shard-"))
+    out: list[str] = []
+    try:
+        shutil.copytree(root.path, tmp, dirs_exist_ok=True)
+        copy = Root(tmp)
+        full = copy.load_dir(copy.stories)
+        for sid, s in full.items():
+            if s.get("plain_by") != "hand":
+                save_json(copy.stories / f"{sid}.json", {k: v for k, v in s.items() if k != "plain"})
+        stripped = copy.load_dir(copy.stories)
+        order = explain.ordered(stripped, None)
+        told = set(explain.todo(stripped, None, False))
+        if len(told) < 3:
+            return [f"expect: the shard case needs three stories to explain, the fixture has {len(told)}"]
+        done: list[set[str]] = []
+        for i in (1, 2):
+            before = {sid for sid, s in copy.load_dir(copy.stories).items() if s.get("plain")}
+            explain.run(copy, explain.Asker(copy, "fixture", 1, tmp / "explain.json"), force=False, size=2, shard=(i, 2))
+            after = {sid for sid, s in copy.load_dir(copy.stories).items() if s.get("plain")}
+            done.append(after - before)
+            want = set(order[i - 1::2]) & told
+            if done[-1] != want:
+                out.append(f"expect: explain --shard {i}/2 explained {sorted(done[-1])}, not the untold stories among every "
+                           f"other one of the ordered list from the {i}th {sorted(want)}")
+        if done[0] & done[1]:
+            out.append(f"expect: explain --shard 1/2 and 2/2 both explained {sorted(done[0] & done[1])}")
+        got = copy.load_dir(copy.stories)
+        for sid, s in full.items():
+            if got[sid].get("plain") != s.get("plain"):
+                out.append(f"expect: after explain --shard 1/2 and 2/2, story {sid}'s plain differs from the full run's")
+        for bad in ("0/2", "3/2", "1", "a/b"):
+            try:
+                explain.parse_shard(bad)
+                out.append(f"expect: explain --shard {bad} was accepted")
+            except SystemExit:
+                pass
+        return out
+    finally:
+        shutil.rmtree(tmp)
+
+
 def retired_summary_problems(root: Root) -> list[str]:
     """A story that still carries the retired `summary` field is refused by name; the file is restored after."""
     f = sorted(root.stories.glob("*.json"))[0]
@@ -1346,6 +1394,7 @@ def run_fixture() -> list[str]:
     if any(v for k, v in stats.items()):
         out.append(f"merge is not idempotent: a second run reported {stats}")
     out += retired_summary_problems(root)
+    out += explain_shard_problems(root)
     if out:
         print(f"check: fixture chain left in {tmp} for inspection", file=sys.stderr)
     else:

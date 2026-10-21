@@ -1,6 +1,6 @@
 """A plain telling for every story: what the story is, written ground up for a reader new to the subject.
 
-    uv run python -m pipeline.explain [story id ...] [--all] [--force] [--model opus] [--batch 12] [--timeout 600] [--fixture FILE] [--root DIR]
+    uv run python -m pipeline.explain [story id ...] [--all] [--force] [--shard i/n] [--model opus] [--batch 12] [--timeout 600] [--fixture FILE] [--root DIR]
 
 Each story gets `plain`: a plain-language telling in the reported voice (who the people are by role,
 what they say happened, where and when, what every programme, acronym and document named is, and
@@ -17,7 +17,11 @@ the run. Em dashes in an answer become commas. Every story file of a group is sa
 group is answered, so a killed run resumes at the first story without `plain`. A story with `plain`
 is skipped unless --force; a story with `plain_by: "hand"` (written or edited by a person) is never
 touched. The stories named on the command line, or --all, are the run's set; --all with nothing
-to do prints so and exits 0. Run after score (the tier comes from it) and before build.
+to do prints so and exits 0. --shard i/n (1 <= i <= n) keeps every nth story of the ordered
+selection, starting at the ith, before the stories already told are skipped (so a shard's set stays
+fixed while it or another shard progresses or resumes), and forms the groups inside the shard: n
+runs with 1/n to n/n cover the selection once over disjoint sets, so they can run side by side. Run after score
+(the tier comes from it) and before build.
 
 --fixture FILE replaces `claude -p` with prepared answers: a JSON object from story id to the plain
 telling; a story asked for that the file lacks fails.
@@ -218,29 +222,54 @@ class Asker:
         raise SystemExit(f"explain: {ids[0]} ...: no valid answer after two tries: {last}")
 
 
-def todo(stories: dict, wanted: list[str] | None, force: bool) -> list[str]:
-    """The ids to explain in run order: well-attested first, then told-by-several, then told-once, each
-    tier by score (highest first) then id. A hand-written telling is never redone; one the stage
-    wrote is redone only with --force."""
+def ordered(stories: dict, wanted: list[str] | None) -> list[str]:
+    """The selected ids in run order: well-attested first, then told-by-several, then told-once, each
+    tier by score (highest first) then id."""
     ids = list(stories) if wanted is None else list(dict.fromkeys(wanted))
     for sid in ids:
         if sid not in stories:
             raise SystemExit(f"explain: no story {sid!r}")
         if stories[sid].get("tier") not in TIER_ORDER:
             raise SystemExit(f"explain: story {sid} has no tier: run pipeline.score first")
+    return sorted(ids, key=lambda sid: (TIER_ORDER[stories[sid]["tier"]], -(stories[sid].get("score") or 0), sid))
+
+
+def todo(stories: dict, wanted: list[str] | None, force: bool, shard: tuple[int, int] | None = None) -> list[str]:
+    """The ids to explain in run order: the shard of the ordered selection (taken before the skips
+    below, so a shard's set does not move as it or another shard progresses), less the stories
+    already told. A hand-written telling is never redone; one the stage wrote is redone only with
+    --force."""
     out = []
-    for sid in ids:
+    for sid in shard_of(ordered(stories, wanted), shard):
         s = stories[sid]
         if s.get("plain_by") == "hand":
             continue
         if s.get("plain") and not force:
             continue
         out.append(sid)
-    out.sort(key=lambda sid: (TIER_ORDER[stories[sid]["tier"]], -(stories[sid].get("score") or 0), sid))
     return out
 
 
-def run(root: Root, asker: Asker, wanted: list[str] | None = None, *, force: bool = False, size: int = BATCH) -> dict:
+def parse_shard(text: str) -> tuple[int, int]:
+    """'2/4' as (2, 4); anything but i/n with 1 <= i <= n fails."""
+    m = re.fullmatch(r"\s*(\d+)\s*/\s*(\d+)\s*", text or "")
+    if not m or not 1 <= int(m.group(1)) <= int(m.group(2)):
+        raise SystemExit(f"explain: --shard must be i/n with 1 <= i <= n, got {text!r}")
+    return int(m.group(1)), int(m.group(2))
+
+
+def shard_of(ids: list[str], shard: tuple[int, int] | None) -> list[str]:
+    """Every nth id of the ordered list, starting at the ith (1-based); the whole list without a shard."""
+    if shard is None:
+        return ids
+    i, n = shard
+    if not 1 <= i <= n:
+        raise SystemExit(f"explain: shard must be i/n with 1 <= i <= n, got {i}/{n}")
+    return ids[i - 1::n]
+
+
+def run(root: Root, asker: Asker, wanted: list[str] | None = None, *, force: bool = False, size: int = BATCH,
+        shard: tuple[int, int] | None = None) -> dict:
     if size < 1:
         raise SystemExit(f"explain: --batch must be at least 1, got {size}")
     stories = root.load_dir(root.stories)
@@ -248,8 +277,9 @@ def run(root: Root, asker: Asker, wanted: list[str] | None = None, *, force: boo
     episodes = root.load_dir(root.episodes)
     documents = root.load_dir(root.documents)
     eras = {e["id"]: f"{e['name']} ({e['from']} to {e['to']})" for e in root.eras()}
-    ids = todo(stories, wanted, force)
-    stats = {"explained": 0, "skipped": len(stories if wanted is None else dict.fromkeys(wanted)) - len(ids), "calls": 0}
+    ids = todo(stories, wanted, force, shard)
+    selected = len(shard_of(ordered(stories, wanted), shard))
+    stats = {"explained": 0, "skipped": selected - len(ids), "calls": 0}
     for i in range(0, len(ids), size):
         group = ids[i:i + size]
         text = "\n\n".join(story_text(stories[sid], stories, people, episodes, documents, eras) for sid in group)
@@ -271,6 +301,8 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("stories", nargs="*", help="story ids to explain")
     ap.add_argument("--all", action="store_true", help="every story without a plain telling")
     ap.add_argument("--force", action="store_true", help="redo the tellings the stage wrote (never a hand-written one)")
+    ap.add_argument("--shard", type=parse_shard, help="i/n: every nth story of the ordered list from the ith, "
+                    "the groups formed inside it; n runs 1/n to n/n together cover the list once")
     ap.add_argument("--model", default="opus")
     ap.add_argument("--timeout", type=int, default=600, help="seconds per call")
     ap.add_argument("--batch", type=int, default=BATCH, help=f"stories per call (default {BATCH})")
@@ -280,7 +312,7 @@ def main(argv: list[str] | None = None) -> int:
     if bool(a.stories) == a.all:
         raise SystemExit("explain: name story ids or give --all, not both and not neither")
     root = Root(a.root)
-    run(root, Asker(root, a.model, a.timeout, a.fixture), None if a.all else a.stories, force=a.force, size=a.batch)
+    run(root, Asker(root, a.model, a.timeout, a.fixture), None if a.all else a.stories, force=a.force, size=a.batch, shard=a.shard)
     return 0
 
 

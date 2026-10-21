@@ -1,0 +1,330 @@
+"""Fold person ids that are one person under several spellings into one id.
+
+    uv run python -m pipeline.people --fold [--root DIR]
+
+data/person-folds.json is a list of groups, each `{ "canonical", "name", "members", "reason" }`
+(schema.md, Person folds): the members are ids of one person under other spellings ("warner-von-braun"
+beside "wernher-von-braun"), the canonical the id they become (one of the corpus's or a new one),
+`name` the name as the page shows it, `reason` the evidence. Captions spell a name several ways and
+merge makes one id per spelling, so one teller counts as two independent tellers until folded.
+
+`--fold` applies every group: in the stories a telling's `teller`, `teller_was` and `cites` take the
+canonical id (cites deduplicated, a cite of the telling's own teller dropped, the teller as extracted,
+which is `teller_was` on a replay, and a telling the clips
+stage marked is put back as data/clips.json makes it, so a `teller_was` that became its own speaker
+goes); in data/clips.json a group's `speaker` (its `speaker_name` the group's name) and `also_heard`
+(deduplicated, the speaker left out); in data/episodes a `host` or guest given as a member id; in
+the image sidecars the `person` of a person picture; a member's headshot directory
+(data/images/<member>/ and site/images/<member>/) moves under the canonical at its next free numbers,
+a picture whose `image_url` the canonical already holds dropped. The member person files are merged
+into the canonical's (created when absent): `name` from the group, `roles` and `links` the union in
+order, `affiliation` and `note` the canonical's when set, else the first member's that is set, and
+`aliases` the union of its own and the member ids; the member files are deleted. Each member's name
+(and the member id itself when its name's key is another) is added to data/person-aliases.json
+pointing at the canonical, so the next merge maps the spelling at once, and an alias that pointed at
+a member points at the canonical. Every group is checked before anything is written: it fails on a
+malformed group, a member in two groups, a member that is another group's canonical, a canonical
+that an earlier fold made an alias of another person, and a member with no person file and no
+reference anywhere that no earlier fold of its canonical absorbed. Idempotent: a second run changes
+nothing. Runs after clips and before score (the profile's tellers are recomputed there).
+"""
+from __future__ import annotations
+
+import argparse
+import re
+import sys
+from pathlib import Path
+
+from . import clips, images
+from .common import REPO, Root, load_json, name_key, rel, save_json
+
+FOLD_KEYS = ("canonical", "name", "members", "reason")
+PERSON_ID = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
+PERSON_ORDER = ("id", "name", "roles", "affiliation", "links", "note", "aliases")
+
+
+def folds_path(root: Root) -> Path:
+    return root.data / "person-folds.json"
+
+
+def group_problems(groups, where: str = "data/person-folds.json") -> list[str]:
+    """The file's shape and the rules across groups; [] when it is sound. Needs no other data."""
+    if not isinstance(groups, list):
+        return [f"{where}: must be a list of groups"]
+    out: list[str] = []
+    member_of: dict[str, int] = {}
+    canonical_of: dict[str, int] = {}
+    for i, g in enumerate(groups, 1):
+        gw = f"{where} group {i}"
+        if not isinstance(g, dict) or set(g) != set(FOLD_KEYS):
+            out.append(f"{gw}: must be an object with exactly {', '.join(FOLD_KEYS)}")
+            continue
+        c, members = g["canonical"], g["members"]
+        if not (isinstance(c, str) and PERSON_ID.fullmatch(c)):
+            out.append(f"{gw}: canonical {c!r} is not a person id (a lowercase slug)")
+            continue
+        gw = f"{where} group {i} ({c})"
+        if not (isinstance(g["name"], str) and g["name"].strip()):
+            out.append(f"{gw}: name must be a non-empty string")
+        if not (isinstance(g["reason"], str) and g["reason"].strip()):
+            out.append(f"{gw}: reason must be a non-empty string")
+        if not (isinstance(members, list) and members and all(isinstance(m, str) and PERSON_ID.fullmatch(m) for m in members)):
+            out.append(f"{gw}: members must be a non-empty list of person ids")
+            continue
+        if len(set(members)) != len(members):
+            out.append(f"{gw}: a member is listed twice")
+        if c in members:
+            out.append(f"{gw}: the canonical is also one of its members")
+        if c in canonical_of:
+            out.append(f"{gw}: canonical {c!r} is also the canonical of group {canonical_of[c]}; make them one group")
+        canonical_of.setdefault(c, i)
+        for m in members:
+            if m in member_of and member_of[m] != i:
+                out.append(f"{gw}: member {m!r} is also a member of group {member_of[m]}")
+            member_of.setdefault(m, i)
+    for m, i in sorted(member_of.items()):
+        if m in canonical_of and canonical_of[m] != i:
+            out.append(f"{where} group {i}: member {m!r} is the canonical of group {canonical_of[m]}; fold the chain into one group")
+    return out
+
+
+def load_folds(root: Root) -> list[dict]:
+    """The groups of data/person-folds.json, checked; [] when the file is absent."""
+    f = folds_path(root)
+    if not f.exists():
+        return []
+    groups = load_json(f)
+    bad = group_problems(groups, rel(f, root.path))
+    if bad:
+        raise SystemExit("people: data/person-folds.json has problems:\n" + "\n".join(bad))
+    return groups
+
+
+def fold_map(groups: list[dict]) -> dict[str, str]:
+    """{member id: canonical id} of the groups."""
+    return {m: g["canonical"] for g in groups for m in g["members"]}
+
+
+def references(stories: dict, episodes: dict, ledger: dict, sidecars: dict) -> set[str]:
+    """Every person id the data names outside the person files."""
+    ids: set[str] = set()
+    for s in stories.values():
+        for t in s.get("tellings", []):
+            ids.update(x for x in (t.get("teller"), t.get("teller_was")) if x)
+            ids.update(t.get("cites", []))
+    for e in episodes.values():
+        if e.get("host"):
+            ids.add(e["host"])
+        ids.update(e.get("guests") or [])
+    for g in ledger.get("groups", []):
+        if g.get("speaker"):
+            ids.add(g["speaker"])
+        ids.update(g.get("also_heard") or [])
+    for owner, rows in sidecars.items():
+        ids.add(owner)
+        ids.update(sc["person"] for _, sc in rows if isinstance(sc.get("person"), str))
+    return ids
+
+
+def union(*lists) -> list:
+    return list(dict.fromkeys(x for xs in lists for x in xs))
+
+
+def merged_person(canonical: str, name: str, own: dict | None, members: list[dict]) -> dict:
+    base = own or {"id": canonical, "roles": [], "affiliation": None, "links": [], "note": ""}
+    p = dict(base)
+    p["name"] = name
+    p["roles"] = union(base.get("roles") or [], *[m.get("roles") or [] for m in members])
+    p["links"] = union(base.get("links") or [], *[m.get("links") or [] for m in members])
+    for k in ("affiliation", "note"):
+        if not base.get(k):
+            p[k] = next((m[k] for m in members if m.get(k)), base.get(k))
+    p["aliases"] = union(base.get("aliases") or [], [m["id"] for m in members])
+    ordered = {k: p[k] for k in PERSON_ORDER if k in p}
+    return {**ordered, **{k: v for k, v in p.items() if k not in ordered}}
+
+
+def fold_telling(t: dict, to: dict[str, str], groups: list[dict]) -> dict:
+    new = dict(t)
+    for k in ("teller", "teller_was"):
+        if new.get(k) in to:
+            new[k] = to[new[k]]
+    if "cites" in new:
+        own = new.get("teller_was") or new.get("teller")  # the cites are the extracted teller's credits
+        new["cites"] = [c for c in union([to.get(c, c) for c in new["cites"]]) if c != own]
+    if new.get("episode") and ("replay_of" in new or "teller_was" in new):
+        new = clips.corrected(new, groups)
+    return new
+
+
+def fold_clip(g: dict, to: dict[str, str], names: dict[str, str]) -> dict:
+    new = dict(g)
+    if new.get("speaker") in to:
+        new["speaker"] = to[new["speaker"]]
+        new["speaker_name"] = names[new["speaker"]]
+    if new.get("also_heard"):
+        new["also_heard"] = [p for p in union([to.get(p, p) for p in new["also_heard"]]) if p != new.get("speaker")]
+    return new
+
+
+def plan_aliases(raw: dict, to: dict[str, str], groups: list[dict], people: dict, where: str) -> dict:
+    """data/person-aliases.json after the fold: targets that were members repointed, each member's name
+    (and its id, when the name's key is another) and the group's name pointing at the canonical."""
+    out = {text: to.get(pid, pid) for text, pid in raw.items()}
+    keys = {name_key(text): pid for text, pid in out.items()}
+    for g in groups:
+        c = g["canonical"]
+        texts = [g["name"]]
+        for m in g["members"]:
+            if m in people:
+                texts.append(people[m]["name"])
+            texts.append(m)
+        for text in texts:
+            k = name_key(text)
+            if k == c:
+                continue  # the canonical's own spelling needs no alias, and an alias may not be a target
+            if k in keys:
+                if keys[k] != c:
+                    raise SystemExit(f"people: {where}: {text!r} already points at {keys[k]!r}, not {c!r}; "
+                                     "correct the alias or the group")
+                continue
+            out[text] = c
+            keys[k] = c
+    return out
+
+
+def run(root: Root) -> dict:
+    groups = load_folds(root)
+    stats = {"groups": len(groups), "people_folded": 0, "people_created": 0, "tellings": 0, "clips": 0,
+             "episodes": 0, "sidecars": 0, "headshots_moved": 0, "headshots_dropped": 0, "aliases_added": 0}
+    if not groups:
+        print("people: no data/person-folds.json groups, nothing to fold", file=sys.stderr)
+        return stats
+    to = fold_map(groups)
+    names = {g["canonical"]: g["name"] for g in groups}
+    stories = root.load_dir(root.stories)
+    people = root.load_dir(root.people)
+    episodes = root.load_dir(root.episodes)
+    ledger = clips.load_ledger(root)
+    sidecars = images.load_sidecars(root)
+    aliases_file = root.data / "person-aliases.json"
+    raw_aliases = load_json(aliases_file) if aliases_file.exists() else {}
+    if not isinstance(raw_aliases, dict):
+        raise SystemExit(f"people: {rel(aliases_file, root.path)}: must be an object of alias text to person id")
+
+    # Every check before any write.
+    absorbed = {a: pid for pid, p in people.items() for a in p.get("aliases", [])}
+    named = references(stories, episodes, ledger, sidecars) | set(raw_aliases.values())
+    bad: list[str] = []
+    for g in groups:
+        c = g["canonical"]
+        if c in absorbed:
+            bad.append(f"group {c}: the canonical was folded into {absorbed[c]!r} earlier (it is in that person's aliases)")
+        for m in g["members"]:
+            if m in absorbed and absorbed[m] != c:
+                bad.append(f"group {c}: member {m!r} was folded into {absorbed[m]!r} earlier")
+            elif m not in people and m not in named and absorbed.get(m) != c:
+                bad.append(f"group {c}: member {m!r} has no person file and no reference anywhere (no telling, cite, clip, "
+                           "episode, image or alias names it)")
+    if bad:
+        raise SystemExit("people: data/person-folds.json does not fit the data:\n" + "\n".join(bad))
+    new_aliases = plan_aliases(raw_aliases, to, groups, people, rel(aliases_file, root.path))
+
+    # Stories.
+    clip_groups = [fold_clip(g, to, names) for g in ledger.get("groups", [])]
+    for sid, s in sorted(stories.items()):
+        tellings = [fold_telling(t, to, clip_groups) for t in s["tellings"]]
+        changed = sum(a != b for a, b in zip(tellings, s["tellings"]))
+        if changed:
+            s["tellings"] = tellings
+            save_json(root.stories / f"{sid}.json", s)
+            stats["tellings"] += changed
+
+    # The clips ledger.
+    if ledger.get("groups"):
+        stats["clips"] = sum(a != b for a, b in zip(clip_groups, ledger["groups"]))
+        if stats["clips"]:
+            save_json(clips.ledger_path(root), {**ledger, "groups": clip_groups})
+
+    # Episodes: a host or guest given as a member id.
+    for eid, e in sorted(episodes.items()):
+        host = to.get(e.get("host"), e.get("host"))
+        guests = union([to.get(x, x) for x in e.get("guests") or []])
+        if host != e.get("host") or guests != (e.get("guests") or []):
+            e["host"] = host
+            if "guests" in e:
+                e["guests"] = guests
+            save_json(root.episodes / f"{eid}.json", e)
+            stats["episodes"] += 1
+
+    # Image sidecars: a person picture's `person`, then the members' headshot directories.
+    data_dir, site_dir = images.images_dir(root), images.site_images_dir(root)
+    for owner, rows in sorted(sidecars.items()):
+        for n, sc in rows:
+            if sc.get("person") in to:
+                sc["person"] = to[sc["person"]]
+                save_json(data_dir / owner / f"{n}.json", sc)
+                stats["sidecars"] += 1
+    for owner in sorted(o for o in sidecars if o in to):
+        c = to[owner]
+        held = {sc.get("image_url") for _, sc in sidecars.get(c, [])}
+        nxt = max((n for n, _ in sidecars.get(c, [])), default=0) + 1
+        for n, sc in sidecars[owner]:
+            src_json = data_dir / owner / f"{n}.json"
+            src_file = root.site / sc["file"] if isinstance(sc.get("file"), str) else None
+            if src_file is None or not src_file.exists():
+                raise SystemExit(f"people: {rel(src_json, root.path)}: its file {sc.get('file')!r} is missing under site/")
+            if sc.get("image_url") in held:
+                src_json.unlink()
+                src_file.unlink()
+                stats["headshots_dropped"] += 1
+                continue
+            new = {**sc, "file": f"images/{c}/{nxt}{src_file.suffix}"}
+            dst_file = root.site / new["file"]
+            dst_file.parent.mkdir(parents=True, exist_ok=True)
+            src_file.rename(dst_file)
+            save_json(data_dir / c / f"{nxt}.json", new)
+            src_json.unlink()
+            sidecars.setdefault(c, []).append((nxt, new))
+            held.add(sc.get("image_url"))
+            nxt += 1
+            stats["headshots_moved"] += 1
+        for d in (data_dir / owner, site_dir / owner):
+            if d.exists() and not any(x for x in d.iterdir() if not x.name.startswith(".")):
+                for x in d.iterdir():
+                    x.unlink()
+                d.rmdir()
+
+    # Person files, then the aliases.
+    for g in groups:
+        c = g["canonical"]
+        members = [people[m] for m in g["members"] if m in people]
+        merged = merged_person(c, g["name"], people.get(c), members)
+        if c not in people:
+            stats["people_created"] += 1
+        save_json(root.people / f"{c}.json", merged)
+        people[c] = merged
+        for m in members:
+            (root.people / f"{m['id']}.json").unlink()
+            del people[m["id"]]
+            stats["people_folded"] += 1
+    stats["aliases_added"] = len(set(new_aliases) - set(raw_aliases))
+    if new_aliases != raw_aliases:
+        save_json(aliases_file, new_aliases)
+    print("people: " + ", ".join(f"{v} {k.replace('_', ' ')}" for k, v in stats.items()), file=sys.stderr)
+    return stats
+
+
+def main(argv: list[str] | None = None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--fold", action="store_true", help="apply data/person-folds.json")
+    ap.add_argument("--root", default=REPO)
+    a = ap.parse_args(argv)
+    if not a.fold:
+        ap.error("say what to do: --fold")
+    run(Root(a.root))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

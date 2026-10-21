@@ -36,7 +36,7 @@ Every file is JSON, UTF-8, pretty-printed, one object per file, the file name eq
 
 - `kind` of a story: `sighting`, `encounter`, `crash-retrieval`, `reverse-engineering`, `program`, `document`, `testimony`, `theory`, `cosmology` (the frames such as "the control system" or "they are already here"), `place-lore` (the far side of the moon and the like).
 - `kind` of a telling: `firsthand` (the teller saw or took part), `official` (a government document, sworn testimony, a court record), `journalist` (a reporter citing named sources), `secondhand` (the teller relays what a named other told them), `researcher` (a summary without a named source), `host` (the podcast host's framing).
-- `cites`: the ids of the people the teller credits for the story; independence is computed from this.
+- `cites`: the ids of the people the teller credits for the story; independence is computed from this. A telling never cites its own teller (on a replay, the teller it was: `teller_was`).
 - `documents` on a telling: the ids of the documents the teller credits (the prompt's `documents` titles, slugged); a document cited this way adds 0.25 to the attestation, a document that is itself a telling (`"document": id`) adds 0.5.
 - `place_text`: the place as the extractor gave it in words; `merge.py` resolves it to `place` through `data/place-aliases.json` or a contained place name, and leaves `place` null when nothing matches (the page then groups the story with the others of the same text).
 - `replay_of` and `teller_was` on a telling: written by `pipeline/clips.py` when the telling lies inside a clip a host cut into the episode (a recording aired in more than one episode, `data/clips.json`). `replay_of` is the occurrence the recording belongs to, `{ "episode", "from_s" }`, or `{ "outside": true }` when every occurrence in the corpus replays a recording from outside it (a news interview, a documentary); a telling inside the origin occurrence itself has no `replay_of`. When the extractor credited the clip's words to someone who is neither the clip's speaker nor one of the other voices heard in it (usually the episode's guest), `teller` is the clip's speaker and `teller_was` keeps the teller the extractor gave, for the record. Both are kept only while the ledger says so: a telling the ledger no longer covers gets its `teller_was` back as `teller` and loses both fields.
@@ -109,10 +109,23 @@ The ledger of the passages two or more episodes share word for word, as `pipelin
 ## Person (`data/people/<id>.json`)
 
 ```json
-{ "id": "jesse-michels", "name": "Jesse Michels", "roles": ["host"], "affiliation": "American Alchemy (YouTube)", "links": ["https://www.youtube.com/@AmericanAlchemy"], "note": "" }
+{ "id": "jesse-michels", "name": "Jesse Michels", "roles": ["host"], "affiliation": "American Alchemy (YouTube)", "links": ["https://www.youtube.com/@AmericanAlchemy"], "note": "", "aliases": [] }
 ```
 
-A person's headshot is not in this file: it is a sidecar under `data/images/<person id>/` (see Images).
+A person's headshot is not in this file: it is a sidecar under `data/images/<person id>/` (see Images). `aliases` (optional, written by `pipeline/people.py`): the ids folded into this person, none of them a person file of its own and none an alias of another person; `build.py` passes it through on each person (an empty list when absent).
+
+## Person folds (`data/person-folds.json`)
+
+The decided folds of one person under several spellings, a list of groups, hand-correctable:
+
+```json
+[ { "canonical": "wernher-von-braun", "name": "Wernher von Braun", "members": ["warner-von-braun"],
+    "reason": "The captions spell the rocket engineer's first name as they hear it; the tellings are about the same man." } ]
+```
+
+- `canonical`: the id the members become, a person id the corpus holds or a new one (the stage creates its file). `name`: the name as the page shows it. `members`: one or more other ids of the same person, spellings that chain ("andre-puharic", "andy-puharich") in one group. `reason`: the evidence, one or two sentences. No other field.
+- A member is in one group only, is never a canonical, and is a person file or an id the data names; the canonical is in no group's members and is not an alias of another person.
+- `pipeline/people.py --fold` applies it (CLAUDE.md, Layout): afterwards no member id has a person file or stands where a person id goes (a telling's `teller`, `teller_was` or `cites`, a story's profile, an episode's `host` or `guests`, a clip's `speaker` or `also_heard`, an image directory or a person picture's `person`, a target in `data/person-aliases.json`), and `check.py` refuses one that does.
 
 ## Episode (`data/episodes/<video id>.json`)
 

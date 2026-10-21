@@ -19,6 +19,7 @@ uv run python -m pipeline.link <video id>               # claude -p, about ten c
 uv run python -m pipeline.merge                         # candidates into data/stories, data/people, data/documents
 uv run python -m pipeline.clips --report                # claude -p, about six groups a call: clips a host cut into another episode, who speaks them, from where (data/clips.json); prints what it would change
 uv run python -m pipeline.clips                         # the same, then a telling inside a replayed clip gets replay_of and the clip's speaker as teller
+uv run python -m pipeline.people --fold                 # data/person-folds.json applied: each spelling of a person becomes one id, the person files merged
 uv run python -m pipeline.score                         # score into each story, data/scores.json
 uv run python -m pipeline.explain --all --model opus    # claude -p, about twelve stories a call: a plain telling for every story, written ground up
 uv run python -m pipeline.images <manifest.json>        # found photographs in: site/images/<owner>/<n>.jpg, data/images/<owner>/<n>.json
@@ -64,6 +65,13 @@ JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind
 again. To publish the page as an artifact, pass `site/images/` in the artifact's `files` beside
 `data.json`, so the relative `images/...` paths resolve; while any `fair-use` image is among them the
 artifact stays private.
+
+To fold people: a group in `data/person-folds.json` names the spellings of one person (`members`) and
+the id they become (`canonical`, held or new), with the name the page shows and the evidence; `check`
+lists the near-duplicate ids to decide on. `people --fold` rewrites every place an id stands, merges
+the person files, keeps the members as the canonical's `aliases` and adds their names to
+`data/person-aliases.json`, so the next merge maps those spellings at once; then `score`, `build` and
+`check` run again.
 
 To fold viewer notes: pull the page's saved notes into `data/notes/<story id>.json` (status `open`), turn each
 worth keeping into a `discussion` entry or another edit of the story by hand, mark it `folded` or `dropped`, then

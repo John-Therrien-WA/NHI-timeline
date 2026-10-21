@@ -22,19 +22,22 @@ under site/images has a sidecar (`images.problems`); data/clips.json, when prese
 (`clips.ledger_problems`), and a telling that carries `replay_of` or `teller_was` is exactly what the
 ledger makes of it (`replay_of` an episode in data/episodes or `{"outside": true}`, inside an
 occurrence of a `clip` group, `teller_was` a person). A telling without either mark is not held to
-the ledger, so the check passes between judging and applying. Prints every problem, naming the
+the ledger, so the check passes between judging and applying. No telling cites its own teller (on a
+replay, its `teller_was`); data/person-folds.json, when present, is well formed, no member id has a
+person file or stands where a person id goes (a telling, a profile, an episode, a clip, an image, an
+alias target), and every person's `aliases` are ids that are no person file and belong to one person. Prints every problem, naming the
 story and the entry, and exits 1 when there is one. Then it lists, as warnings that never fail the
 check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
 other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
-through data/person-aliases.json.
+through data/person-folds.json (a pair the file folds into one canonical is not listed).
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p` (`explain.json` stands in for the explain stage): the episodes without a `links/<id>.json` are extracted and merged unlinked
 (the corpus as it stood before linking), `link --existing` folds and relates their stories with
 `links/existing.json`, then the episodes with a links file are extracted, linked in one run (so
 one can join a story another creates; each episode's candidates in groups of ten, one prepared
-answer per group) and merged; clips (judged with `clips.json`), score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link and clips answer was asked for, then
-runs both link modes, merge, clips, score and explain again and verifies that nothing was asked and nothing
+answer per group) and merged; clips (judged with `clips.json`), people --fold, score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link and clips answer was asked for, then
+runs both link modes, merge, clips, people --fold, score and explain again and verifies that nothing was asked and nothing
 changed. Last it checks `tests/fixtures/expect.json`: the time codes given candidates must have
 (the nearest of two occurrences, quotes across a `>>` or a bracketed tag), the people that must not
 exist (a spelling the person aliases fold), the host and guests `captions.host_and_guests` must take
@@ -54,6 +57,9 @@ stage: the ledger's verdicts (`clips`), the tellings that must carry `replay_of`
 the teller and a second apply puts it back; and, with a fake model, that a refused clips answer is
 asked once more with a note and a second refusal stops the run; that a first-hand replay never
 lifts a speaker whose own telling is second-hand; and which person ids the near-duplicate warning pairs.
+For the person fold: the members absent, the canonical's name and aliases in its file and in
+site/data.json, the cites of a telling whose self-cite the fold dropped, and on a tiny root of its own
+every refusal named before anything is written, a new canonical created and a headshot moved.
 """
 from __future__ import annotations
 
@@ -69,6 +75,7 @@ from unittest import mock
 import json
 
 from . import clips, images
+from . import people as people_stage
 from .common import (DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, NOTE_KEYS, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds)
 
@@ -248,6 +255,9 @@ def problems(root: Root) -> list[str]:
             for c in t.get("cites", []):
                 if c not in people:
                     out.append(f"{tw}: cites {c!r}, not in data/people")
+            own = t.get("teller_was") or t.get("teller")  # a replay's cites are those of the teller it was
+            if own in t.get("cites", []):
+                out.append(f"{tw}: cites its own teller {own!r}")
             for d in t.get("documents", []):
                 if d not in documents:
                     out.append(f"{tw}: credits document {d!r}, not in data/documents")
@@ -282,6 +292,7 @@ def problems(root: Root) -> list[str]:
                 out.append(f"{where}: relation {r.get('relation')!r} is not one of {RELATIONS}")
     out += notes_problems(root, stories, owner)
     out += images.problems(root, stories, owner, people)
+    out += person_fold_problems(root, stories, people, episodes, clip_groups)
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
             out.append(f"episode {eid}: captions file {e['captions']} is missing")
@@ -309,6 +320,65 @@ def replay_problems(tw: str, t: dict, episodes: dict, people: dict, groups: list
     if not out and clips.corrected(t, groups) != t:
         out.append(f"{tw}: replay_of and teller_was are not what data/clips.json makes of this telling "
                    f"(no clip group covers it, or its speaker or origin differ): run pipeline.clips")
+    return out
+
+
+def person_fold_problems(root: Root, stories: dict, people: dict, episodes: dict, clip_groups: list) -> list[str]:
+    """data/person-folds.json well formed and applied: no member id has a person file or is named where a
+    person id goes (a telling, a cite, a story's profile, an episode's host or guests, a clip, an image
+    directory or a person picture, an alias target); every person's `aliases` is a list of ids that are no
+    person file and belong to no other person."""
+    out: list[str] = []
+    f = people_stage.folds_path(root)
+    groups = load_json(f) if f.exists() else []
+    bad = people_stage.group_problems(groups, rel(f, root.path))
+    out += bad
+    claimed: dict[str, str] = {}
+    for pid, p in sorted(people.items()):
+        al = p.get("aliases", [])
+        if not (isinstance(al, list) and all(isinstance(a, str) for a in al)):
+            out.append(f"person {pid}: aliases must be a list of person ids")
+            continue
+        for a in al:
+            if a in people:
+                out.append(f"person {pid}: alias {a!r} is also a person file (run pipeline.people --fold)")
+            if a in claimed:
+                out.append(f"person {pid}: alias {a!r} is also an alias of {claimed[a]}")
+            claimed.setdefault(a, pid)
+    if bad:
+        return out
+    to = people_stage.fold_map(groups)
+    for m in sorted(m for m in to if m in people):
+        out.append(f"person-folds.json: member {m!r} still has data/people/{m}.json (run pipeline.people --fold)")
+    for g in groups:
+        if g["canonical"] not in people:
+            out.append(f"person-folds.json: canonical {g['canonical']!r} has no person file (run pipeline.people --fold)")
+    where: list[tuple[str, str]] = []
+    for sid, s in sorted(stories.items()):
+        for i, t in enumerate(s.get("tellings") or []):
+            for x in [t.get("teller"), t.get("teller_was")] + list(t.get("cites") or []):
+                where.append((x, f"story {sid} telling {i + 1}"))
+        for x in (s.get("profile") or {}).get("tellers") or []:
+            where.append((x, f"story {sid} profile (run pipeline.score)"))
+    for eid, e in sorted(episodes.items()):
+        for x in [e.get("host")] + list(e.get("guests") or []):
+            where.append((x, f"episode {eid}"))
+    for g in clip_groups:
+        for x in [g.get("speaker")] + list(g.get("also_heard") or []):
+            where.append((x, f"data/clips.json group {g.get('id')}"))
+    for owner, rows in sorted(images.load_sidecars(root).items()):
+        where.append((owner, f"data/images/{owner}"))
+        for n, sc in rows:
+            where.append((sc.get("person"), f"data/images/{owner}/{n}.json"))
+    try:
+        raw = load_json(root.data / "person-aliases.json") if (root.data / "person-aliases.json").exists() else {}
+    except SystemExit:
+        raw = {}
+    for text, pid in sorted(raw.items()) if isinstance(raw, dict) else []:
+        where.append((pid, f"person-aliases.json {text!r}"))
+    for x, w in where:
+        if isinstance(x, str) and x in to:
+            out.append(f"{w}: names {x!r}, which person-folds.json folds into {to[x]!r} (run pipeline.people --fold)")
     return out
 
 
@@ -341,7 +411,7 @@ def expectations(root: Root) -> list[str]:
             out.append(f"expect: {e['episode']} {e['title']!r} at {hits[0]['from_s']}s, expected {e['from_s']}s")
     for pid in exp.get("absent_people", []):
         if (root.people / f"{pid}.json").exists():
-            out.append(f"expect: data/people/{pid}.json exists; the person aliases should have folded it")
+            out.append(f"expect: data/people/{pid}.json exists; the person aliases or folds should have folded it")
     for e in exp.get("titles", []):
         got = captions.host_and_guests(e["show"], e["title"])
         if got != (e["host"], e["guests"]):
@@ -370,6 +440,8 @@ def expectations(root: Root) -> list[str]:
             out.append(f"expect: story {sid} has {got}, expected {({k: e[k] for k in got})}")
         if "tellers" in e and (s.get("profile") or {}).get("tellers") != e["tellers"]:
             out.append(f"expect: story {sid} has independent tellers {(s.get('profile') or {}).get('tellers')}, expected {e['tellers']}")
+        if "cites" in e and [t.get("cites", []) for t in s["tellings"]] != e["cites"]:
+            out.append(f"expect: story {sid} has cites {[t.get('cites', []) for t in s['tellings']]}, expected {e['cites']}")
         if "years" in e and s.get("years") != e["years"]:
             out.append(f"expect: story {sid} has years {s.get('years')}, expected {e['years']}")
         if "aliases" in e and sorted(s.get("aliases", [])) != sorted(e["aliases"]):
@@ -427,8 +499,16 @@ def expectations(root: Root) -> list[str]:
         got = (pv.get("image") or {}).get("file") if "image" in pv else "absent"
         if got != want_img.get(pid):
             out.append(f"expect: person {pid} has image {got!r} in site/data.json, expected {want_img.get(pid)!r}")
+    for pid, e in sorted(exp.get("people_fold", {}).items()):
+        f = root.people / f"{pid}.json"
+        p = load_json(f) if f.exists() else {}
+        if (p.get("name"), p.get("aliases")) != (e["name"], e["aliases"]):
+            out.append(f"expect: person {pid} has name {p.get('name')!r} and aliases {p.get('aliases')}, expected {e['name']!r} and {e['aliases']}")
+        if people_built.get(pid, {}).get("aliases") != e["aliases"]:
+            out.append(f"expect: person {pid} has aliases {people_built.get(pid, {}).get('aliases')} in site/data.json, expected {e['aliases']}")
     out += image_refusal_problems(root)
     out += image_ingest_problems(root)
+    out += person_fold_refusal_problems()
     flare = built.get("the-lantern-was-a-flare-1958", {}).get("discussion", [])
     if len(flare) < 2 or not str(flare[1].get("url", "")).endswith("t=27"):
         out.append(f"expect: the flare's second discussion entry has url {flare[1].get('url') if len(flare) > 1 else None!r}, expected one ending t=27")
@@ -754,7 +834,7 @@ def clips_expectations(root: Root, exp: dict) -> list[str]:
     out: list[str] = []
     ledger_file = root.data / "clips.json"
     ledger = load_json(ledger_file)
-    got = {g["id"]: {"verdict": g["verdict"], "speaker": g["speaker"], "origin": g["origin"],
+    got = {g["id"]: {"verdict": g["verdict"], "speaker": g["speaker"], "also_heard": g["also_heard"], "origin": g["origin"],
                      "episodes": [o["episode"] for o in g["occurrences"]]} for g in ledger["groups"]}
     if got != exp.get("clips", {}):
         out.append(f"expect: data/clips.json holds {got}, expected {exp.get('clips', {})}")
@@ -889,6 +969,86 @@ def fold_discussion_problems() -> list[str]:
     return out
 
 
+def person_fold_refusal_problems() -> list[str]:
+    """`people.run` on a tiny root of its own: each refusal is named before anything is written, and a fold into
+    a new canonical creates it, merges the fields, moves a headshot to the canonical's next free number and
+    drops one whose image_url the canonical holds."""
+    tmp = Path(tempfile.mkdtemp(prefix="nhi-fold-"))
+    out: list[str] = []
+    try:
+        root = Root(tmp)
+        png = (FIXTURES / "site" / "images" / "bo-fixture" / "1.png").read_bytes()
+        sc = load_json(FIXTURES / "data" / "images" / "bo-fixture" / "1.json")
+
+        def person(pid, name, **kw):
+            save_json(root.people / f"{pid}.json", {"id": pid, "name": name, "roles": [], "affiliation": None, "links": [], "note": "", **kw})
+
+        def headshot(owner, n, url):
+            save_json(root.data / "images" / owner / f"{n}.json", {**sc, "file": f"images/{owner}/{n}.png", "image_url": url})
+            (root.site / "images" / owner).mkdir(parents=True, exist_ok=True)
+            (root.site / "images" / owner / f"{n}.png").write_bytes(png)
+
+        person("ivo-fixtur", "Ivo Fixtur", roles=["witness"], links=["https://example.org/a"])
+        person("ivo-fixtor", "Ivo Fixtor", roles=["host", "witness"], affiliation="Fixture Hour", links=["https://example.org/b"])
+        person("jo-fixture", "Jo Fixture")
+        headshot("ivo-fixtur", 1, "https://example.org/ivo-1.png")
+        headshot("ivo-fixtor", 1, "https://example.org/ivo-1.png")
+        headshot("ivo-fixtor", 2, "https://example.org/ivo-2.png")
+        tell = {"episode": "E", "from_s": 1, "teller": "ivo-fixtur", "quote": "q", "kind": "firsthand", "cites": ["ivo-fixtor", "jo-fixture"]}
+        save_json(root.stories / "s.json", {"id": "s", "title": "t", "summary": "", "tellings": [tell], "related": []})
+        save_json(root.data / "person-aliases.json", {"Ivo Fixxtur": "ivo-fixtur"})
+        good = {"canonical": "ivo-fixture", "name": "Ivo Fixture", "members": ["ivo-fixtur", "ivo-fixtor"], "reason": "r"}
+        folds = root.data / "person-folds.json"
+        refusals = [
+            ("a malformed group", [{**good, "why": "x"}], "must be an object with exactly"),
+            ("a member in two groups", [good, {**good, "canonical": "ivo-fix", "members": ["ivo-fixtor"]}], "also a member of group 1"),
+            ("a member that is another group's canonical", [good, {**good, "canonical": "jo-fixture", "members": ["ivo-fixture"]}],
+             "is the canonical of group 1"),
+            ("a member named nowhere", [{**good, "members": ["ivo-fixtur", "nobody-fixture"]}], "'nobody-fixture' has no person file and no reference"),
+        ]
+        for label, groups, needle in refusals:
+            save_json(folds, groups)
+            before = {**snapshot(root.data), **snapshot(root.site)}
+            try:
+                people_stage.run(root)
+                out.append(f"expect: people --fold accepted {label}")
+            except SystemExit as e:
+                if needle not in str(e):
+                    out.append(f"expect: people --fold refused {label} without naming it ({needle!r}): {e}")
+            if {**snapshot(root.data), **snapshot(root.site)} != before:
+                out.append(f"expect: people --fold wrote something before refusing {label}")
+        save_json(folds, [good])
+        people_stage.run(root)
+        p = load_json(root.people / "ivo-fixture.json")
+        want = {"id": "ivo-fixture", "name": "Ivo Fixture", "roles": ["witness", "host"], "affiliation": "Fixture Hour",
+                "links": ["https://example.org/a", "https://example.org/b"], "note": "", "aliases": ["ivo-fixtur", "ivo-fixtor"]}
+        if p != want:
+            out.append(f"expect: the new canonical is {p}, expected {want}")
+        if any((root.people / f"{m}.json").exists() for m in good["members"]):
+            out.append("expect: the member person files must be gone after the fold")
+        t = load_json(root.stories / "s.json")["tellings"][0]
+        if (t["teller"], t["cites"]) != ("ivo-fixture", ["jo-fixture"]):
+            out.append(f"expect: the folded telling has teller {t['teller']!r} and cites {t['cites']}, expected ivo-fixture and [jo-fixture]")
+        shots = sorted(rel(f, tmp) for f in tmp.rglob("*") if f.is_file() and "images" in f.parts)
+        want_shots = ["data/images/ivo-fixture/1.json", "data/images/ivo-fixture/2.json", "site/images/ivo-fixture/1.png", "site/images/ivo-fixture/2.png"]
+        if shots != want_shots:
+            out.append(f"expect: the headshots after the fold are {shots}, expected {want_shots}")
+        urls = [load_json(root.data / "images" / "ivo-fixture" / f"{n}.json")["image_url"] for n in (1, 2)]
+        if urls != ["https://example.org/ivo-1.png", "https://example.org/ivo-2.png"]:
+            out.append(f"expect: the moved headshots hold {urls}")
+        al = person_aliases(tmp)
+        for text in ("Ivo Fixxtur", "Ivo Fixtur", "ivo-fixtor"):
+            if person_id(text, al) != "ivo-fixture":
+                out.append(f"expect: {text!r} resolves to {person_id(text, al)!r} after the fold, expected ivo-fixture")
+        before = {**snapshot(root.data), **snapshot(root.site)}
+        people_stage.run(root)
+        if {**snapshot(root.data), **snapshot(root.site)} != before:
+            out.append("expect: a second people --fold on the tiny root changed something")
+    finally:
+        shutil.rmtree(tmp)
+    return out
+
+
 def snapshot(d: Path) -> dict[str, str]:
     return {rel(f, d): hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted(d.rglob("*")) if f.is_file()}
 
@@ -934,12 +1094,13 @@ def run_fixture() -> list[str]:
     unused = sorted(set(clip_asker.fixture) - clip_asker.used)
     if unused:
         out.append(f"clips: prepared answers never asked for: {unused}")
+    people_stage.run(root)
     score.run(root)
     explain.run(root, explain.Asker(root, "fixture", 1, tmp / "explain.json"))
     build.run(root, root.site / "data.json")
     out += problems(root)
     out += expectations(root)
-    before = snapshot(root.data)
+    before = {**snapshot(root.data), **snapshot(root.site / "images")}
     again = link.Asker(root, "fixture", 1, None)
     link.run_existing(root, again)
     link.run_candidates(root, None, again)
@@ -950,15 +1111,17 @@ def run_fixture() -> list[str]:
     clips.run(root, clip_again)
     if clip_again.calls:
         out.append(f"clips is not idempotent: a second run asked {clip_again.calls} question(s)")
+    if any(v for k, v in people_stage.run(root).items() if k != "groups"):
+        out.append("people --fold is not idempotent: a second run reported changes")
     score.run(root)
     explained = explain.Asker(root, "fixture", 1, tmp / "explain.json")
     explain.run(root, explained)
     if explained.calls:
         out.append(f"explain is not idempotent: a second run asked {explained.calls} question(s)")
-    after = snapshot(root.data)
+    after = {**snapshot(root.data), **snapshot(root.site / "images")}
     if before != after:
         changed = sorted(k for k in set(before) | set(after) if before.get(k) != after.get(k))
-        out.append(f"merge is not idempotent: a second run changed {changed}")
+        out.append(f"the chain is not idempotent: a second run of link, merge, clips, people, score and explain changed {changed}")
     if any(v for k, v in stats.items()):
         out.append(f"merge is not idempotent: a second run reported {stats}")
     if out:
@@ -977,9 +1140,15 @@ def main(argv: list[str] | None = None) -> int:
     for p in out:
         print(p)
     if not a.fixture:
-        pairs = near_duplicate_people(f.stem for f in Root(a.root).people.glob("*.json"))
+        r = Root(a.root)
+        try:
+            to = people_stage.fold_map(people_stage.load_folds(r))
+        except SystemExit:
+            to = {}  # the problems above name it
+        pairs = [(x, y) for x, y in near_duplicate_people(f.stem for f in r.people.glob("*.json"))
+                 if to.get(x, x) != to.get(y, y)]
         for x, y in pairs:
-            print(f"warning: people {x} and {y} may be one person; fold one through data/person-aliases.json")
+            print(f"warning: people {x} and {y} may be one person; fold them through data/person-folds.json")
         if pairs:
             print(f"check: {len(pairs)} near-duplicate person pair(s), warnings only")
     label = "fixture" if a.fixture else str(a.root)

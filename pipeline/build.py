@@ -13,7 +13,8 @@ story's `discussion` (the debunk, rebunk and note entries, an empty list when it
 entry with an episode also gets the YouTube `url` at its `time`) and `notes_open` (the open entries of data/notes/<id>.json and of the notes files of its
 aliases, 0 when there are none), the story's `images` (the object and place photographs of
 data/images/<id> and of its aliases' directories, an empty list when it has none), each person's
-`image` (the first headshot, or null), the
+`aliases` (the ids `pipeline.people --fold` folded into them, an empty list when none) and `image` (the
+first headshot, or null), the
 axes, the corpus date (the latest episode published), and beside the stories the scoring block
 (weights, the institutional-trust knob, the median floor and median, the tier counts) so the page
 can recompute each story's attestation from its `profile` at another knob value. A telling carries
@@ -127,7 +128,8 @@ def run(root: Root, out: Path) -> dict:
         "eras": root.eras(), "places": root.places(),
         "stories": out_stories, "links": links,
         "aliases": owner,
-        "people": {p: {"name": v["name"], "roles": v.get("roles", []), "image": headshots.get(p)} for p, v in people.items()},
+        "people": {p: {"name": v["name"], "roles": v.get("roles", []), "aliases": v.get("aliases", []), "image": headshots.get(p)}
+                   for p, v in people.items()},
         "episodes": {e: {"show": v.get("show"), "title": v.get("title"), "url": v.get("url"), "published": v.get("published")} for e, v in episodes.items()},
     }
     compact = json.dumps(data, ensure_ascii=False, separators=(",", ":"))

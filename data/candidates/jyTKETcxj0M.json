@@ -1,0 +1,698 @@
+{
+  "episode": "jyTKETcxj0M",
+  "captions": "sources/captions/jyTKETcxj0M.en.txt",
+  "model": "opus",
+  "chunks": 1,
+  "candidates": [
+    {
+      "title": "Big Sur 1964: UFO filmed disabling Atlas test missile",
+      "story_kind": "sighting",
+      "years_text": "1964",
+      "years": {
+        "from": 1964,
+        "to": 1964
+      },
+      "place_text": "Vandenberg Air Force Base / Big Sur, California",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "A flying saucer flying 8,000 miles per hour, not only seemed to encircle the missile, it shot four directed energy beams at it, causing it to tumble off its intended trajectory.",
+      "from_s": 48.0,
+      "to_s": 77.0,
+      "cites": [
+        "Bob Jacobs"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Bob Jacobs recalls filming the Big Sur missile launch",
+      "story_kind": "sighting",
+      "years_text": "1964",
+      "years": {
+        "from": 1964,
+        "to": 1964
+      },
+      "place_text": "Big Sur, California",
+      "teller": "Bob Jacobs",
+      "kind": "firsthand",
+      "quote": "And the missile popped up through the fog. All we saw was a smoke trail going off into subspace.",
+      "from_s": 27.0,
+      "to_s": 48.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "AATIP studied UFOs 2007-2012",
+      "story_kind": "program",
+      "years_text": "2007-2012",
+      "years": {
+        "from": 2007,
+        "to": 2012
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "That's Lou Elizondo, former director of AATIP, the government's Advanced Aerospace Threat Identification Program, which studied UFOs from 2007 to 2012.",
+      "from_s": 77.0,
+      "to_s": 108.0,
+      "cites": [
+        "Lou Elizondo"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Malmstrom 1967: red object shuts down missiles (Salas)",
+      "story_kind": "encounter",
+      "years_text": "1967",
+      "years": {
+        "from": 1967,
+        "to": 1967
+      },
+      "place_text": "Malmstrom, Montana",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "In March of 1967 at Malmstrom Nuclear Facility in Montana, Captain Robert Salas was operating an underground control center capable of deploying 10 80 kiloton nuclear warheads at any moment.",
+      "from_s": 108.0,
+      "to_s": 139.0,
+      "cites": [
+        "Robert Salas",
+        "Robert Hastings"
+      ],
+      "documents": [
+        "UFOs and Nukes"
+      ]
+    },
+    {
+      "title": "Trinity crash, August 1945",
+      "story_kind": "crash-retrieval",
+      "years_text": "1945",
+      "years": {
+        "from": 1945,
+        "to": 1945
+      },
+      "place_text": "Trinity, New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Famous ufologist Jacques Vallée's new book describes a crash at Trinity, New Mexico on August 17th, 1945.",
+      "from_s": 139.0,
+      "to_s": 169.0,
+      "cites": [
+        "Jacques Vallée"
+      ],
+      "documents": [
+        "Jacques Vallée's new book"
+      ]
+    },
+    {
+      "title": "Declassified Air Force documents on UFOs at Cold War nuclear sites",
+      "story_kind": "document",
+      "years_text": "Cold War",
+      "years": null,
+      "place_text": "Hanford, Washington; Savannah, South Carolina; Fort Hood, Texas; Los Alamos; Malmstrom; F.E. Warren",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "From hundreds of declassified Air Force documents, we now know that UFO sightings were happening across all American nuclear production, missile storage and deployment sites throughout the Cold War,",
+      "from_s": 169.0,
+      "to_s": 218.0,
+      "cites": [],
+      "documents": [
+        "declassified Air Force documents"
+      ]
+    },
+    {
+      "title": "Emergency conference at Camp Hood on nuclear-site UFOs",
+      "story_kind": "program",
+      "years_text": "Cold War",
+      "years": null,
+      "place_text": "Camp Hood, Texas",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "an emergency conference was held at Camp Hood, Texas, which included the Air Force Office of Special Investigations, the Army Counter Intelligence Command, and the FBI.",
+      "from_s": 169.0,
+      "to_s": 218.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Tom DeLonge, To The Stars Academy and Lockheed Martin",
+      "story_kind": "program",
+      "years_text": "2010s",
+      "years": {
+        "from": 2010,
+        "to": 2019
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "But then he's like getting in touch with Lockheed Martin and meeting with executives there.",
+      "from_s": 342.0,
+      "to_s": 384.0,
+      "cites": [
+        "Tom DeLonge"
+      ],
+      "documents": []
+    },
+    {
+      "title": "DeLonge in secure facilities",
+      "story_kind": "testimony",
+      "years_text": "2010s",
+      "years": {
+        "from": 2010,
+        "to": 2019
+      },
+      "place_text": "secure facilities (unspecified)",
+      "teller": "Tom DeLonge",
+      "kind": "firsthand",
+      "quote": "I have been in secure facilities, you know, the codes and the alarms and the guns and all that shit to get into there and they lock you in and they're airtight",
+      "from_s": 384.0,
+      "to_s": 413.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "DeLonge emails in the Podesta leak",
+      "story_kind": "document",
+      "years_text": "2015-2016",
+      "years": {
+        "from": 2015,
+        "to": 2016
+      },
+      "place_text": "United States",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "you can see in the emails which are on Podesta, he's saying like, I want the government to come off as cool here,",
+      "from_s": 441.0,
+      "to_s": 473.0,
+      "cites": [
+        "Tom DeLonge",
+        "John Podesta"
+      ],
+      "documents": [
+        "Podesta emails"
+      ]
+    },
+    {
+      "title": "Obama administration's UFO answers, then Obama's late-night statement",
+      "story_kind": "testimony",
+      "years_text": "2012-2021",
+      "years": {
+        "from": 2012,
+        "to": 2021
+      },
+      "place_text": "United States",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "I think as recently as like 2012, the Obama administration had was asked if they investigate UFOs and it was just kind of like left off.",
+      "from_s": 493.0,
+      "to_s": 520.0,
+      "cites": [
+        "Barack Obama"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Obama: footage and records of unknown objects",
+      "story_kind": "testimony",
+      "years_text": "2021",
+      "years": {
+        "from": 2021,
+        "to": 2021
+      },
+      "place_text": "United States",
+      "teller": "Barack Obama",
+      "kind": "official",
+      "quote": "There's footage and records of objects in the skies that we don't know exactly what they are.",
+      "from_s": 520.0,
+      "to_s": 552.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Jimmy Carter's sighting",
+      "story_kind": "sighting",
+      "years_text": "1969",
+      "years": {
+        "from": 1969,
+        "to": 1969
+      },
+      "place_text": "United States",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "Yeah, Jimmy Carter saying um he he saw a bright light appear in the distance uh Western skies.",
+      "from_s": 520.0,
+      "to_s": 552.0,
+      "cites": [
+        "Jimmy Carter"
+      ],
+      "documents": []
+    },
+    {
+      "title": "John Trump examines Tesla's files",
+      "story_kind": "document",
+      "years_text": "1943",
+      "years": {
+        "from": 1943,
+        "to": 1943
+      },
+      "place_text": "United States",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "He was so smart that when Nicola Tesla died, he was called upon by the government to um basically investigate all of his personal files and just kind of like go through like all of his notes and whatnot.",
+      "from_s": 552.0,
+      "to_s": 581.0,
+      "cites": [
+        "John Trump",
+        "Nikola Tesla"
+      ],
+      "documents": []
+    },
+    {
+      "title": "General Spaatz flew to Texas during Roswell",
+      "story_kind": "crash-retrieval",
+      "years_text": "1947",
+      "years": {
+        "from": 1947,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico / Texas / Wright-Patterson",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "And in fact, he flew to Texas, which is where the Roswell retrieve parts were supposedly taken before they were taken to Wright-Patterson.",
+      "from_s": 581.0,
+      "to_s": 603.0,
+      "cites": [
+        "Carl Spaatz",
+        "John Trump"
+      ],
+      "documents": []
+    },
+    {
+      "title": "John Trump likely involved in the 1952 Washington wave",
+      "story_kind": "theory",
+      "years_text": "1952",
+      "years": {
+        "from": 1952,
+        "to": 1952
+      },
+      "place_text": "Washington, D.C.",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "I personally think he would have been involved in, for example, the 1952 wave over DC, which was a very radar-intensive wave.",
+      "from_s": 630.0,
+      "to_s": 661.0,
+      "cites": [
+        "John Trump",
+        "Carl Spaatz"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Majestic 12",
+      "story_kind": "document",
+      "years_text": "1940s-1950s",
+      "years": {
+        "from": 1940,
+        "to": 1959
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "So, this is like a reported committee in the in the I guess 40s and 50s and like, you know, Nathan Twining, James Forrestal, Vannevar Bush, people like that.",
+      "from_s": 661.0,
+      "to_s": 691.0,
+      "cites": [
+        "Nathan Twining",
+        "James Forrestal",
+        "Vannevar Bush"
+      ],
+      "documents": [
+        "MJ-12"
+      ]
+    },
+    {
+      "title": "Roswell's atomic bomber squadron",
+      "story_kind": "place-lore",
+      "years_text": "1945-1947",
+      "years": {
+        "from": 1945,
+        "to": 1947
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "Roswell was the first atomically armed bomber squadron and they were the ones that dropped the bombs on Hiroshima and Nagasaki.",
+      "from_s": 735.0,
+      "to_s": 756.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Sightings at Los Alamos from 1948",
+      "story_kind": "sighting",
+      "years_text": "1948",
+      "years": {
+        "from": 1948,
+        "to": 1948
+      },
+      "place_text": "Los Alamos, New Mexico",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "And then you have Los Alamos, like even as early as I believe like 1948, they're being seen there.",
+      "from_s": 735.0,
+      "to_s": 756.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Nukes used to bring down UFOs",
+      "story_kind": "crash-retrieval",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "RedPandaKoala",
+      "kind": "secondhand",
+      "quote": "And yeah, Tom says that uh they've used nukes to like bring down UFOs, right?",
+      "from_s": 797.0,
+      "to_s": 825.0,
+      "cites": [
+        "Tom DeLonge"
+      ],
+      "documents": []
+    },
+    {
+      "title": "EMP from nuclear blast travels through dimensions",
+      "story_kind": "theory",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "unspecified",
+      "teller": "Tom DeLonge",
+      "kind": "secondhand",
+      "quote": "The one thing we found out is that the EMP wave from a nuclear blast kind of travels through multiple dimensions.",
+      "from_s": 797.0,
+      "to_s": 825.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "1952 official denial of secret development",
+      "story_kind": "testimony",
+      "years_text": "1952",
+      "years": {
+        "from": 1952,
+        "to": 1952
+      },
+      "place_text": "Washington, D.C.",
+      "teller": "unnamed official",
+      "kind": "official",
+      "quote": "We can say that the recent sightings are in no way connected with any secret development by any department of the United States.",
+      "from_s": 870.0,
+      "to_s": 892.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "First H-bomb and the 1952 DC wave",
+      "story_kind": "theory",
+      "years_text": "1952",
+      "years": {
+        "from": 1952,
+        "to": 1952
+      },
+      "place_text": "Washington, D.C. / Pacific",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "What happened in 1952? The DC UFO sightings in in July.",
+      "from_s": 870.0,
+      "to_s": 892.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "The 1952 Pacific H-bomb as a signal to others",
+      "story_kind": "theory",
+      "years_text": "1952",
+      "years": {
+        "from": 1952,
+        "to": 1952
+      },
+      "place_text": "Pacific",
+      "teller": "Eric Weinstein",
+      "kind": "researcher",
+      "quote": "The concern that I have is that in 1952, what if there was someone there to hear what we said in the Pacific? We said we are a hair's breadth away from being in possession of God-like knowledge.",
+      "from_s": 892.0,
+      "to_s": 915.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Touching craft pieces with Garry Nolan",
+      "story_kind": "reverse-engineering",
+      "years_text": "2020s",
+      "years": {
+        "from": 2020,
+        "to": 2029
+      },
+      "place_text": "unspecified",
+      "teller": "Jesse Michels",
+      "kind": "firsthand",
+      "quote": "Like I've seen pieces of a craft. I've been with Garry Nolan. I don't know if they're real pieces of a craft, but like they seem.",
+      "from_s": 1024.0,
+      "to_s": 1032.0,
+      "cites": [
+        "Garry Nolan"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Richard Doty and Paul Bennewitz",
+      "story_kind": "program",
+      "years_text": "1979-1980s",
+      "years": {
+        "from": 1979,
+        "to": 1989
+      },
+      "place_text": "New Mexico",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "So Paul Benewitz sees, you know, these sort of super advanced uh aircraft being tested, and then Doty sort of enters the picture and like starts to drive him mad.",
+      "from_s": 1150.0,
+      "to_s": 1176.0,
+      "cites": [
+        "Richard Doty",
+        "Paul Bennewitz"
+      ],
+      "documents": []
+    },
+    {
+      "title": "James McDonald's 1957 sighting and Project Blue Book",
+      "story_kind": "sighting",
+      "years_text": "1957",
+      "years": {
+        "from": 1957,
+        "to": 1957
+      },
+      "place_text": "Savannah, Georgia",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "He submitted it to the Air Force. He had thought that it was everything was going well, you know what I mean?",
+      "from_s": 1214.0,
+      "to_s": 1234.0,
+      "cites": [
+        "James McDonald"
+      ],
+      "documents": [
+        "Project Blue Book"
+      ]
+    },
+    {
+      "title": "McDonald confronts Hynek",
+      "story_kind": "testimony",
+      "years_text": "1960s",
+      "years": {
+        "from": 1960,
+        "to": 1969
+      },
+      "place_text": "United States",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "A big part of the reason why he ended up flipping if you will, or coming clean was because James McDonald went to him and was like super pissed and was like, what you're doing to science is horrible.",
+      "from_s": 1257.0,
+      "to_s": 1293.0,
+      "cites": [
+        "James McDonald",
+        "J. Allen Hynek"
+      ],
+      "documents": []
+    },
+    {
+      "title": "McDonald mocked in congressional hearings after the Michigan flap",
+      "story_kind": "testimony",
+      "years_text": "1966",
+      "years": {
+        "from": 1966,
+        "to": 1966
+      },
+      "place_text": "U.S. Congress",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "And a congressman like famously like mocked that he was into UFOs and stuff like that. And like apparently the entire like congressional hall like was laughing at him.",
+      "from_s": 1293.0,
+      "to_s": 1312.0,
+      "cites": [
+        "James McDonald"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Edgar Mitchell's ESP experiment in space",
+      "story_kind": "program",
+      "years_text": "1971",
+      "years": {
+        "from": 1971,
+        "to": 1971
+      },
+      "place_text": "Apollo 14",
+      "teller": "RedPandaKoala",
+      "kind": "researcher",
+      "quote": "Uh but he tried to do it while he was in orbit. It was the first ever like psychic experiment in space.",
+      "from_s": 1331.0,
+      "to_s": 1354.0,
+      "cites": [
+        "Edgar Mitchell",
+        "J. B. Rhine"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Edgar Mitchell's conversion on return from the Moon",
+      "story_kind": "testimony",
+      "years_text": "1971",
+      "years": {
+        "from": 1971,
+        "to": 1971
+      },
+      "place_text": "Apollo 14",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "What I I find so interesting about him is it almost felt like he had like a conversion experience on the way back from the moon on Apollo 14.",
+      "from_s": 1331.0,
+      "to_s": 1354.0,
+      "cites": [
+        "Edgar Mitchell"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Mitchell hears of Roswell from residents and von Braun",
+      "story_kind": "testimony",
+      "years_text": "1970s",
+      "years": {
+        "from": 1970,
+        "to": 1979
+      },
+      "place_text": "Roswell, New Mexico",
+      "teller": "RedPandaKoala",
+      "kind": "secondhand",
+      "quote": "And then like shortly after that too is when Werner von Braun like told him that like I also kind of corroborate what you were hearing back home about Roswell.",
+      "from_s": 1376.0,
+      "to_s": 1401.0,
+      "cites": [
+        "Edgar Mitchell",
+        "Wernher von Braun"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Occult history in NASA and launch pad choices",
+      "story_kind": "place-lore",
+      "years_text": "unspecified",
+      "years": null,
+      "place_text": "NASA",
+      "teller": "unnamed speaker",
+      "kind": "secondhand",
+      "quote": "There's a lot of occult history, occult history in NASA. Some of the the nomenclature that was used for certain missions and and the choosing of, you know, launch pad 33 and some other things were very deliberate.",
+      "from_s": 1401.0,
+      "to_s": 1426.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Jack Parsons' past life as Simon the Sorcerer",
+      "story_kind": "cosmology",
+      "years_text": "1940s",
+      "years": {
+        "from": 1940,
+        "to": 1949
+      },
+      "place_text": "OTO, United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "So, Jack Parsons was in the the OTO, you know, this uh crazy cult, you know, with Alistair Crowley and all that, and they would do past life regressions.",
+      "from_s": 1401.0,
+      "to_s": 1426.0,
+      "cites": [
+        "Jack Parsons",
+        "Aleister Crowley"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Host's visit to Skinwalker Ranch",
+      "story_kind": "place-lore",
+      "years_text": "2020s",
+      "years": {
+        "from": 2020,
+        "to": 2029
+      },
+      "place_text": "Skinwalker Ranch, Utah",
+      "teller": "Jesse Michels",
+      "kind": "firsthand",
+      "quote": "Like a tri-field meter went off because of high gamma radiation.",
+      "from_s": 1498.0,
+      "to_s": 1519.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Neil Armstrong said to have seen UFOs on the Moon",
+      "story_kind": "sighting",
+      "years_text": "1969",
+      "years": {
+        "from": 1969,
+        "to": 1969
+      },
+      "place_text": "Moon",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "and then there's the UFO conspiracy that they were that uh Neil Armstrong saw like UFOs on the moon or whatever. And and he came back and he was super scared.",
+      "from_s": 1589.0,
+      "to_s": 1612.0,
+      "cites": [
+        "Neil Armstrong"
+      ],
+      "documents": []
+    },
+    {
+      "title": "Neil Armstrong's Tayos Cave expedition",
+      "story_kind": "place-lore",
+      "years_text": "1975",
+      "years": {
+        "from": 1975,
+        "to": 1975
+      },
+      "place_text": "Tayos Cave, Ecuador",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "Uh and it was called the Tayos Cave, and it was supposed to contain ancient alien metallic artifacts.",
+      "from_s": 1612.0,
+      "to_s": 1648.0,
+      "cites": [
+        "Neil Armstrong",
+        "Luis Felipe San Salvador"
+      ],
+      "documents": [
+        "BBC documentary"
+      ]
+    }
+  ],
+  "dropped": []
+}

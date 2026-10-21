@@ -21,15 +21,19 @@ A frame of a video counts by its licence like any photograph: a frame of a publi
 - search: `https://commons.wikimedia.org/w/index.php?search=<words>&ns6=1` (file namespace), or the API `https://commons.wikimedia.org/w/api.php?action=query&list=search&srsearch=<words>&srnamespace=6&srlimit=20&format=json`
 - a file's licence, author and date: `https://commons.wikimedia.org/w/api.php?action=query&prop=imageinfo&iiprop=extmetadata|url|mime&titles=File:<name>&format=json` (the `extmetadata` fields `LicenseShortName`, `License`, `Artist`, `DateTimeOriginal`, `ImageDescription`)
 - the English Wikipedia article on the event, place, base, ship, document or programme: its images are Commons files, named in the page.
-WebSearch is a shared, limited resource: use it at most six times for the whole batch, for a story whose subject you cannot name without it. A story set at a named base, town, ship, aircraft, agency or document nearly always has a free Commons picture of that base, town, ship, aircraft type, building or document; look for the specific first, then the type (a B-52 for a story about one, the Pentagon for a Pentagon office), then the place.
+WebSearch is a shared, limited resource: your prompt says how many calls the batch may spend (none unless it says so), for a story whose subject you cannot name without it. A story set at a named base, town, ship, aircraft, agency or document nearly always has a free Commons picture of that base, town, ship, aircraft type, building or document; look for the specific first, then the type (a B-52 for a story about one, the Pentagon for a Pentagon office), then the place.
+
+**Minimum effort**: every story gets at least two Commons searches before it goes under "nothing found": one on the named place, object or document, one on the type or the wider place (the base for a building on it, the town for a street, the aircraft type for one aircraft), and the "nothing found" line says what the two searches were. A batch of 25 stories takes 40 to 80 fetches; a batch finished in fewer than 25 is under-searched and the writer sends it back. Work through the batch in order, one story at a time, and do not skip a story because an earlier one took long.
+
+**One file, several stories**: a photograph that fits several stories of the batch (the same town for three accounts set there, the same hearing for two claims made at it) is returned once per story, one entry per owner with its own caption.
 
 **Manifest**: a JSON list, one entry per picture, exactly these fields:
 ```json
 [
   {
     "owner": "<story id from the batch>",
-    "kind": "object" | "place-then" | "place-now",
-    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/<File name without the File: prefix, spaces as underscores>?width=1200",
+    "kind": "object" | "place-then" | "place-now" | "person",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/<File name without the File: prefix, spaces as underscores>?width=1280",
     "source": "https://commons.wikimedia.org/wiki/File:<File name>",
     "licence": "<the licence as the source states it>",
     "licence_kind": "free" | "fair-use",
@@ -39,9 +43,9 @@ WebSearch is a shared, limited resource: use it at most six times for the whole 
   }
 ]
 ```
-For a Commons file, `image_url` is always the `Special:FilePath/...?width=1200` form (`?width=480` for fair use), and `source` the `File:` page. For another host, `image_url` is the direct JPEG or PNG and `source` the page it is on. A file that is not a JPEG or PNG (a PDF, a TIFF, an SVG) is not returned. The caption is in the project's voice: plain, factual, the year named, "the 1967 account is told from a facility of this kind" rather than "where the UFO disabled the missiles".
+For a Commons file, `image_url` is always the `Special:FilePath/...?width=1280` form (`?width=480` for fair use), and `source` the `File:` page. `credit` is the file page's Artist field as it stands, or its Source field when Artist is empty (a US government work names the agency there); never your own wording, and a file with neither is not returned. For another host, `image_url` is the direct JPEG or PNG and `source` the page it is on. A file that is not a JPEG or PNG (a PDF, a TIFF, an SVG) is not returned. The caption is in the project's voice: plain, factual, the year named, "the 1967 account is told from a facility of this kind" rather than "where the UFO disabled the missiles".
 
-**How many**: for a well-attested story up to three pictures (an object and a place-then are the best pair), for any other story one, two when both are strong. Quality over count: a story whose subject has no picture (a theory, a conversation, a claim with no place or object) is listed under "nothing found" with a short reason, not given a generic picture of the sky. A picture of a named object or place from another decade is fine when the caption says so.
+**How many**: for a well-attested story up to three pictures (an object and a place-then are the best pair), for a told-by-several story one, two when both are strong, for a told-once story (the batch entry's `tier`) at most one, and only a specific object or place the story names. Quality over count: a story whose subject has no picture (a theory, a conversation, a claim with no place or object) is listed under "nothing found" with a short reason, not given a generic picture of the sky. A picture of a named object or place from another decade is fine when the caption says so.
 
 **Answer**: the manifest as one fenced JSON block, then "Nothing found:" with the ids and one line each, then "Searches used: N" (WebSearch calls). No other text.
 

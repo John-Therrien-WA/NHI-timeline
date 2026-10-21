@@ -1,0 +1,145 @@
+{
+  "episode": "DRVaf3M4FHw",
+  "captions": "sources/captions/DRVaf3M4FHw.en.txt",
+  "model": "opus",
+  "chunks": 1,
+  "candidates": [
+    {
+      "title": "Multiple high-clearance sources say UAP is a real phenomenon",
+      "story_kind": "testimony",
+      "years_text": "2021-2022",
+      "years": {
+        "from": 2021,
+        "to": 2022
+      },
+      "place_text": "United States",
+      "teller": "Tyler Cowen",
+      "kind": "secondhand",
+      "quote": "One thing I've learned over the last year, I've heard from a whole bunch of people, totally separate sources with like very, very high security clearances, and I mean very high.",
+      "from_s": 1878.0,
+      "to_s": 1890.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Multi-sensor corroboration of UAP (satellite, radar, visual, temperature)",
+      "story_kind": "sighting",
+      "years_text": "2021-2022",
+      "years": {
+        "from": 2021,
+        "to": 2022
+      },
+      "place_text": "United States",
+      "teller": "Tyler Cowen",
+      "kind": "secondhand",
+      "quote": "There's like evidence from satellite, uh you know, radar, visual sightings, temperature readings, it's all totally consistent.",
+      "from_s": 1890.0,
+      "to_s": 1905.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Tyler Cowen's 2017 column on UFOs",
+      "story_kind": "document",
+      "years_text": "2017",
+      "years": {
+        "from": 2017,
+        "to": 2017
+      },
+      "place_text": "United States",
+      "teller": "Tyler Cowen",
+      "kind": "firsthand",
+      "quote": "But I wrote a column about it in 2017 before it was like a thing.",
+      "from_s": 1861.0,
+      "to_s": 1878.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Many UAP sightings off the coast of San Diego",
+      "story_kind": "sighting",
+      "years_text": "2004-2021",
+      "years": {
+        "from": 2004,
+        "to": 2021
+      },
+      "place_text": "Off the coast of San Diego, California",
+      "teller": "Tyler Cowen",
+      "kind": "secondhand",
+      "quote": "And just where they are, like a lot are off the coast of San Diego.",
+      "from_s": 1974.0,
+      "to_s": 1987.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Record number of UFO sightings in 2020",
+      "story_kind": "sighting",
+      "years_text": "2020",
+      "years": {
+        "from": 2020,
+        "to": 2020
+      },
+      "place_text": "United States",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "These things are seen in in times of greater social breakdown. And so there's actually a record number of sightings in 2020.",
+      "from_s": 1998.0,
+      "to_s": 2014.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Government getting ahead of service members ready to disclose",
+      "story_kind": "theory",
+      "years_text": "2017-2022",
+      "years": {
+        "from": 2017,
+        "to": 2022
+      },
+      "place_text": "United States",
+      "teller": "Tyler Cowen",
+      "kind": "secondhand",
+      "quote": "And so many service people were on the verge of saying, \"I can't not tell them what I saw.\"",
+      "from_s": 2091.0,
+      "to_s": 2106.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Rumors of luring UAP with nuclear material traps",
+      "story_kind": "theory",
+      "years_text": "2021-2022",
+      "years": {
+        "from": 2021,
+        "to": 2022
+      },
+      "place_text": "United States",
+      "teller": "Tyler Cowen",
+      "kind": "secondhand",
+      "quote": "There's rumors you hear, like are we setting traps for them? Are we trying to beckon them with with nuclear material and stuff?",
+      "from_s": 2106.0,
+      "to_s": 2132.0,
+      "cites": [],
+      "documents": []
+    },
+    {
+      "title": "Hereticon founder's startup to reverse engineer UFOs with quantum computing",
+      "story_kind": "reverse-engineering",
+      "years_text": "2022",
+      "years": {
+        "from": 2022,
+        "to": 2022
+      },
+      "place_text": "Hereticon, Miami",
+      "teller": "Jesse Michels",
+      "kind": "host",
+      "quote": "There's a founder here at Hereticon, who maybe is one of the most heretical thinkers here. He's trying to reverse engineer UFOs with, uh, quantum computing.",
+      "from_s": 2132.0,
+      "to_s": 2153.0,
+      "cites": [],
+      "documents": []
+    }
+  ],
+  "dropped": []
+}

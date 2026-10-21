@@ -129,4 +129,11 @@ drops one whose image URL the canonical holds, and maps a member's old alias, na
 chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:
 "hand"` and is in no answer: the chain must never ask for it or change it. Every story in
 site/data.json must carry the `plain` the file gives it, or its own hand-written one, and a second
-explain run must ask nothing.
+explain run must ask nothing. `check.explain_shard_problems` proves `explain --shard`: on a copy with
+the stage's plain tellings removed, `--shard 1/2` then `--shard 2/2` in groups of two explain the
+untold stories among every other one of the ordered list, from the first and from the second, the
+two sets disjoint and together giving every story the telling the full run gave it, and a malformed
+shard (`0/2`, `3/2`, `1`, `a/b`) is refused. `check.retired_summary_problems` proves that check
+refuses, by name, a story file that still carries the retired `summary` field, and
+`check.stale_build_problems` that it refuses a story in site/data.json whose keys are not the set
+`build.STORY_KEYS` names (a stale build still carrying `summary`).

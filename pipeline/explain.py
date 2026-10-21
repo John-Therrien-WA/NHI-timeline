@@ -251,11 +251,13 @@ def todo(stories: dict, wanted: list[str] | None, force: bool, shard: tuple[int,
 
 
 def parse_shard(text: str) -> tuple[int, int]:
-    """'2/4' as (2, 4); anything but i/n with 1 <= i <= n fails."""
+    """'2/4' as (2, 4); anything but i/n with 1 <= i <= n fails (shard_of holds the range rule)."""
     m = re.fullmatch(r"\s*(\d+)\s*/\s*(\d+)\s*", text or "")
-    if not m or not 1 <= int(m.group(1)) <= int(m.group(2)):
+    if not m:
         raise SystemExit(f"explain: --shard must be i/n with 1 <= i <= n, got {text!r}")
-    return int(m.group(1)), int(m.group(2))
+    shard = int(m.group(1)), int(m.group(2))
+    shard_of([], shard)
+    return shard
 
 
 def shard_of(ids: list[str], shard: tuple[int, int] | None) -> list[str]:

@@ -40,6 +40,13 @@ from . import images
 from .common import REPO, Root, rel, seconds
 from .score import attest
 
+# The keys of a story in site/data.json, exactly: build writes these and check refuses a built story with any other set.
+STORY_KEYS = frozenset({
+    "id", "title", "era", "years", "place", "place_text", "coordinates", "kind", "claims", "tags", "score",
+    "attestation", "tier", "profile", "independent", "repetitions", "tellings", "shared_teller", "shared_teller_by",
+    "documents", "aliases", "discussion", "notes_open", "images",
+})
+
 
 def url_at(episode: dict, from_s: float | None) -> str | None:
     url = episode.get("url")
@@ -109,6 +116,8 @@ def run(root: Root, out: Path) -> dict:
             "notes_open": notes_open.get(sid, 0),
             "images": story_images.get(sid, []),
         })
+        if set(out_stories[-1]) != STORY_KEYS:
+            raise SystemExit(f"build: story {sid} has keys {sorted(set(out_stories[-1]) ^ STORY_KEYS)} out of step with STORY_KEYS")
         for r in s.get("related", []):
             key = tuple(sorted((sid, r["story"]))) + (r["relation"],)
             if key not in seen:

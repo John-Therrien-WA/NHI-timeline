@@ -41,7 +41,7 @@ The research behind each weight is `notes/trust-prior.md`; no published source f
 | a document that is a telling | 0.5 | A document quoted in its own right is evidence beside its teller. |
 | a document only credited | 0.25 | Credited by a teller already counted, it adds less than a document quoted directly. |
 
-**Attestation** is the sum of each count times its weight, with both `official_records` and `official_conclusions` at the official weight, plus the two document terms.
+**Attestation** is the sum of each count times its weight, with both `official_records` and `official_conclusions` at the official weight, plus the two document terms. A source's own words added by `pipeline/sources.py` count this way: the document is a telling (0.5) and its author is a teller of the kind the source is (a first-hand account, an official record, a news report, a researcher's book).
 
 ## The institutional-trust knob
 

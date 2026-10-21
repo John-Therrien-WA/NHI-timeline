@@ -144,9 +144,14 @@
       "notes_open": 1
     },
     "the-lanterns-are-a-mirror-1957": {
-      "tier": "told-once",
+      "tier": "well-attested",
       "contradicted": false,
-      "attestation": 0.25
+      "attestation": 1.75,
+      "tellers": [
+        "bo-fixture",
+        "ivo-fixture"
+      ],
+      "discussion": 1
     },
     "the-plains-of-elsewhere-hum-at-night": {
       "tier": "told-by-several",
@@ -217,5 +222,41 @@
         "from_s": 8.0
       }
     }
-  ]
+  ],
+  "sources": {
+    "documents": {
+      "the-lanterns-of-nowhere": {
+        "title": "The Lanterns of Nowhere",
+        "date": "1956",
+        "status": "public-domain",
+        "url": "https://example.org/lanterns-of-nowhere",
+        "text_url": "https://example.org/served/lanterns-of-nowhere.txt",
+        "kind": "firsthand"
+      }
+    },
+    "texts": [
+      "harbour-log-of-nowhere-1958",
+      "the-lanterns-of-nowhere"
+    ],
+    "tellings": {
+      "the-lanterns-are-a-mirror-1957": [
+        {
+          "document": "the-lanterns-of-nowhere",
+          "page": "I",
+          "teller": "ivo-fixture",
+          "kind": "firsthand"
+        }
+      ]
+    },
+    "source_notes": {
+      "the-lanterns-are-a-mirror-1957": 1
+    },
+    "explain_lines": {
+      "the-lanterns-are-a-mirror-1957": [
+        "in the document The Lanterns of Nowhere, 1956, I, the document's own words",
+        "source note, from The Lanterns of Nowhere: The Lanterns of Nowhere, a pamphlet of 1956"
+      ]
+    },
+    "images": 2
+  }
 }

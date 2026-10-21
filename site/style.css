@@ -9,6 +9,7 @@
   --warn: #ff4d4d;
   --debunk: #ff9b5e;
   --rebunk: #5fd3b0;
+  --source: #c9b6ff;
   --hl: #ffd27a;
   --panel-w: 430px;
   --hud-bg: rgba(8, 11, 20, 0.82);
@@ -232,9 +233,11 @@ body.panel-open #panel { transform: none; }
 .thread .turn p { margin: 6px 0; }
 .turn.debunk { border-left-color: var(--debunk); }
 .turn.rebunk { border-left-color: var(--rebunk); }
+.turn.source { border-left-color: var(--source); }
 .dk { font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; border-radius: 4px; padding: 0 6px; color: var(--muted); border: 1px solid var(--line); }
 .dk.debunk { color: #1b0d05; background: var(--debunk); border-color: var(--debunk); }
 .dk.rebunk { color: #04140f; background: var(--rebunk); border-color: var(--rebunk); }
+.dk.source { color: #0b0f1c; background: var(--source); border-color: var(--source); }
 .noteform { display: grid; gap: 6px; }
 .noteform input, .noteform textarea { width: 100%; background: rgba(14, 19, 34, 0.9); border: 1px solid var(--line); border-radius: 8px; padding: 6px 9px; outline: none; resize: vertical; }
 .noteform input:focus, .noteform textarea:focus { border-color: var(--accent); }

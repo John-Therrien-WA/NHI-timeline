@@ -1,0 +1,30 @@
+[
+  {
+    "story": "the-lanterns-are-a-mirror-1957",
+    "document": {
+      "id": null,
+      "title": "The Lanterns of Nowhere",
+      "author": "Ivo Fixture",
+      "issuer": null,
+      "date": "1956",
+      "url": "https://example.org/lanterns-of-nowhere",
+      "text_url": "https://example.org/served/lanterns-of-nowhere.txt",
+      "status": "public-domain"
+    },
+    "text": { "url": "https://example.org/served/lanterns-of-nowhere.txt", "passages": [] },
+    "quotes": [
+      { "quote": "the lanterns are a mirror, and each watcher sees in them the lamp of his own house", "locator": "I" }
+    ],
+    "teller": "Ivo Fixture",
+    "kind": "firsthand",
+    "differs": "The Lanterns of Nowhere, a pamphlet of 1956, already calls the lanterns a mirror of each watcher's own lamp; Bo Fixture tells the idea as his own and places it in the late 1950s.",
+    "images": [
+      { "owner": "the-lanterns-are-a-mirror-1957", "kind": "object", "image_url": "https://example.org/lanterns-of-nowhere-title-page.jpg",
+        "source": "https://example.org/lanterns-of-nowhere", "licence": "Public domain (fictional)", "licence_kind": "free",
+        "credit": "Ivo Fixture (fictional)", "caption": "The title page of The Lanterns of Nowhere, a fictional pamphlet of 1956.", "date": "1956" },
+      { "owner": "ivo-fixture", "kind": "headshot", "image_url": "https://example.org/ivo-fixture.jpg",
+        "source": "https://example.org/ivo-fixture", "licence": "CC0 (fictional)", "licence_kind": "free",
+        "credit": "Nowhere Gazette (fictional)", "caption": "Ivo Fixture, the fictional author of the pamphlet, on the pilot steps." }
+    ]
+  }
+]

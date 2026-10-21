@@ -18,7 +18,7 @@ STORY_KINDS = ("sighting", "encounter", "crash-retrieval", "reverse-engineering"
                "testimony", "theory", "cosmology", "place-lore")
 TELLING_KINDS = ("firsthand", "official", "journalist", "secondhand", "researcher", "host")
 RELATIONS = ("same-event", "variant", "corroborates", "contradicts")
-DISCUSSION_KINDS = ("debunk", "rebunk", "note")
+DISCUSSION_KINDS = ("debunk", "rebunk", "note", "source")
 DISCUSSION_ROLES = ("witness", "participant", "official", "researcher", "journalist", "host", "viewer")
 DISCUSSION_KEYS = ("kind", "by", "role", "date", "source", "episode", "time", "text")
 NOTE_STATUSES = ("open", "folded", "dropped")

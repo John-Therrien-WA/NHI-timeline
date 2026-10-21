@@ -9,8 +9,9 @@ why the story is told), two to three sentences for a `told-once` story, three to
 prompts/explain.md in groups of --batch (12), well-attested first, then told-by-several, then
 told-once, so the stories the page foregrounds get theirs first; the prompt gives each story's
 title, kind, years, era, place, tier, claims, summary, related stories and every telling (the teller
-by name and kind, the show and date, the quote, whom and what it cites, the difference where the
-tellers disagree). The answer is `{ "tellings": [ { "id", "plain" } ] }` and must name every id of
+by name and kind, the show and date or the document and its locator, the quote, whom and what it
+cites, the difference where the tellers disagree) and the story's `source` notes (what a source
+itself says against the tellers, from `pipeline.sources`). The answer is `{ "tellings": [ { "id", "plain" } ] }` and must name every id of
 the group once and no other; a refused answer is asked once more with a note, a second refusal stops
 the run. Em dashes in an answer become commas. Every story file of a group is saved as soon as the
 group is answered, so a killed run resumes at the first story without `plain`. A story with `plain`
@@ -100,6 +101,18 @@ def document_text(did: str, documents: dict) -> str:
     return ", ".join(bits)
 
 
+def locator_text(page) -> str:
+    """', page 12' for a page number, ', chapter 3' for any other locator, '' without one."""
+    if not page:
+        return ""
+    return f", page {page}" if str(page).isdigit() else f", {page}"
+
+
+def source_notes_text(s: dict) -> list[str]:
+    """The story's `source` discussion entries: what a source itself says against what the tellers say."""
+    return [f"source note, from {d['by']}: {norm_ws(d['text'])}" for d in s.get("discussion") or [] if d.get("kind") == "source"]
+
+
 def telling_text(n: int, t: dict, people: dict, episodes: dict, documents: dict) -> str:
     kind = TELLING_KINDS.get(t.get("kind"), t.get("kind"))
     where = ""
@@ -108,7 +121,7 @@ def telling_text(n: int, t: dict, people: dict, episodes: dict, documents: dict)
         bits = [b for b in (ep.get("show"), ep.get("title")) if b]
         where = " on " + (": ".join(bits) if bits else f"episode {t['episode']}") + (f", {ep['published']}" if ep.get("published") else "")
     elif t.get("document"):
-        where = " in the document " + document_text(t["document"], documents) + (f", page {t['page']}" if t.get("page") else "")
+        where = " in the document " + document_text(t["document"], documents) + locator_text(t.get("page")) + ", the document's own words"
     lines = [f"telling {n} by {person_text(t['teller'], people)} ({kind}){where}:", f"  \"{t.get('quote') or ''}\""]
     if t.get("cites"):
         lines.append("  cites: " + "; ".join(person_text(c, people) for c in t["cites"]))
@@ -135,6 +148,7 @@ def story_text(s: dict, stories: dict, people: dict, episodes: dict, documents: 
         lines.append("related stories: " + "; ".join(related))
     lines.append("")
     lines += [telling_text(i, t, people, episodes, documents) for i, t in enumerate(s["tellings"], 1)]
+    lines += source_notes_text(s)
     lines.append("</story>")
     return "\n".join(lines)
 

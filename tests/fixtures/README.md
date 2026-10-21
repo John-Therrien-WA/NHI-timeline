@@ -2,7 +2,7 @@
 
 Six tiny, entirely fictional episodes so the whole chain runs offline: `pipeline.check --fixture`
 copies this folder to a temporary directory and runs extract (reading `answers/<id>.json` instead
-of asking `claude -p`), link, merge, clips (reading `clips.json`), score, explain, build and the checks on it. Nothing here is a real claim, a
+of asking `claude -p`), link, merge, clips (reading `clips.json`), sources (reading `sources/manifest.json`), score, explain, build and the checks on it. Nothing here is a real claim, a
 real person, a real show or a real place; the video ids do not exist. `data/` holds the axes, the
 six episodes, one document and one hand-written story (the one that contradicts a merged one);
 `sources/captions/` the invented caption text; `answers/` the model answers as the prompt's schema
@@ -41,7 +41,7 @@ model to prove a refused answer is asked once more with a note and a second refu
 which must count one second-hand teller.
 
 The scored result covers every tier: the vault is `well-attested` (Cy and Eve, both firsthand, with
-Bo's telling a repetition of Cy's), the plains hum is `told-by-several` (Dee as host and Eve as
+Bo's telling a repetition of Cy's), and so is the mirror once its source is read (below), the plains hum is `told-by-several` (Dee as host and Eve as
 researcher, no document and no firsthand), the rest are `told-once` (the ring with Gus Fixture's
 telling a repetition of Fay Fixture's and the replayed clip hers); the hand-written flare
 `contradicts` the lantern, so both carry `contradicted: true`.
@@ -83,6 +83,25 @@ be named. `check.image_ingest_problems` runs `images.ingest` offline with a down
 the fixture's JPEG: a new image lands under the story id with its sidecar, an image URL the alias
 directory holds is kept, a second run fetches nothing, a failed download stops the run or is listed
 under `keep_going`, and a bad manifest is refused before anything is fetched.
+
+`sources/` holds the primary-source case. Bo Fixture tells the lanterns as a mirror in his own
+words; `sources/manifest.json` is a scout's entry for it: the fictional public-domain pamphlet *The
+Lanterns of Nowhere* (1956) by Ivo Fixture, its plain text served from `sources/served/` by a
+downloader that reads the file (`check.SourceFetch`), one quote under the locator `I`, a note that
+the pamphlet already had the idea, and two pictures (the title page, Ivo's headshot). The stage runs
+after clips: the mirror gains Ivo's first-hand document telling, a `source` note and the document,
+so it ends `well-attested` with two independent tellers; `sources/documents/` gains the pamphlet's
+text beside the harbour log's (the flare's document telling, which check holds to it), and
+`sources/manifest.images.json` the two pictures, which `images.manifest_problems` must accept.
+`expect.json` names all of it under `sources`, with the lines explain sends the model for the mirror
+(the document with its locator, the source note). A second run must fetch nothing and change
+nothing. `check.source_ingest_problems` works on a copy of the finished root: a book in copyright as
+passages under `[chapter 2]` and, from a second entry, `[chapter 5]`, told by its author as
+researcher; a second book of the same title with another url and year, which becomes `-2010`; a
+wrong locator, a quote that is not verbatim and a failed fetch, each refused with nothing written;
+`keep_going` listing the failed fetch; a fetched full text for a book in copyright refused with the
+manifest; and the check naming a missing text file, a quote under another chapter than its page and
+a text file no document has.
 
 `explain.json` stands in for the explain stage: the plain telling for each of the eight stories the
 chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:

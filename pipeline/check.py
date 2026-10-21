@@ -22,7 +22,10 @@ under site/images has a sidecar (`images.problems`); data/clips.json, when prese
 (`clips.ledger_problems`), and a telling that carries `replay_of` or `teller_was` is exactly what the
 ledger makes of it (`replay_of` an episode in data/episodes or `{"outside": true}`, inside an
 occurrence of a `clip` group, `teller_was` a person). A telling without either mark is not held to
-the ledger, so the check passes between judging and applying. Prints every problem, naming the
+the ledger, so the check passes between judging and applying. Every document telling has its
+text file under sources/documents, its quote a verbatim substring of it (inside the passage its
+`page` names for a document in copyright), every document's `status` and `text_url` are well
+formed and every text file there is a document's (`sources.problems`). Prints every problem, naming the
 story and the entry, and exits 1 when there is one. Then it lists, as warnings that never fail the
 check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
 other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
@@ -33,8 +36,9 @@ answers, no `claude -p` (`explain.json` stands in for the explain stage): the ep
 (the corpus as it stood before linking), `link --existing` folds and relates their stories with
 `links/existing.json`, then the episodes with a links file are extracted, linked in one run (so
 one can join a story another creates; each episode's candidates in groups of ten, one prepared
-answer per group) and merged; clips (judged with `clips.json`), score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link and clips answer was asked for, then
-runs both link modes, merge, clips, score and explain again and verifies that nothing was asked and nothing
+answer per group) and merged; clips (judged with `clips.json`), sources (`sources/manifest.json`, its
+text served from `sources/served/`), score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link and clips answer was asked for, then
+runs both link modes, merge, clips, sources, score and explain again and verifies that nothing was asked and nothing
 changed. Last it checks `tests/fixtures/expect.json`: the time codes given candidates must have
 (the nearest of two occurrences, quotes across a `>>` or a bracketed tag), the people that must not
 exist (a spelling the person aliases fold), the host and guests `captions.host_and_guests` must take
@@ -53,7 +57,10 @@ stage: the ledger's verdicts (`clips`), the tellings that must carry `replay_of`
 (`replays`) and a story's independent tellers (`tellers`); that a hand-marked `not-a-clip` restores
 the teller and a second apply puts it back; and, with a fake model, that a refused clips answer is
 asked once more with a note and a second refusal stops the run; that a first-hand replay never
-lifts a speaker whose own telling is second-hand; and which person ids the near-duplicate warning pairs.
+lifts a speaker whose own telling is second-hand; and which person ids the near-duplicate warning pairs. For the sources stage: the documents,
+text files, tellings, source notes and images manifest under `sources`, the lines explain sends
+the model, and on a copy of the root the passages path, the slug rule and every refusal
+(`source_ingest_problems`).
 """
 from __future__ import annotations
 
@@ -68,7 +75,7 @@ from unittest import mock
 
 import json
 
-from . import clips, images
+from . import clips, images, sources
 from .common import (DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, NOTE_KEYS, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds)
 
@@ -282,6 +289,7 @@ def problems(root: Root) -> list[str]:
                 out.append(f"{where}: relation {r.get('relation')!r} is not one of {RELATIONS}")
     out += notes_problems(root, stories, owner)
     out += images.problems(root, stories, owner, people)
+    out += sources.problems(root, stories, documents)
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
             out.append(f"episode {eid}: captions file {e['captions']} is missing")
@@ -894,6 +902,153 @@ def fold_discussion_problems() -> list[str]:
     return out
 
 
+SOURCE_MANIFEST = Path("sources") / "manifest.json"
+
+
+class SourceFetch:
+    """The fixture's text downloader: a URL ending in /served/<name> is sources/served/<name> of the root;
+    any other URL fails as a 404 would. Counts the calls."""
+
+    def __init__(self, root: Root):
+        self.root, self.calls = root, 0
+
+    def __call__(self, url: str) -> str:
+        self.calls += 1
+        name = url.rsplit("/served/", 1)[-1] if "/served/" in url else None
+        f = self.root.path / "sources" / "served" / name if name else None
+        if f is None or not f.is_file():
+            raise SystemExit(f"fetch failed: {url}: HTTP 404 Not Found")
+        return f.read_text(encoding="utf-8")
+
+
+def run_sources(root: Root, fetch) -> dict:
+    return sources.run(root, load_json(root.path / SOURCE_MANIFEST), manifest=root.path / SOURCE_MANIFEST, fetch=fetch,
+                       echo=lambda *_: None)
+
+
+def source_expectations(root: Root, exp: dict) -> list[str]:
+    """expect.json `sources`: the documents the stage made or filled, the text files, the tellings it added, the
+    images manifest it wrote (which pipeline.images must accept), and what explain sends the model."""
+    from . import explain
+    want = exp.get("sources")
+    if not want:
+        return ["expect: expect.json has no sources section"]
+    out: list[str] = []
+    documents = root.load_dir(root.documents)
+    for did, fields in want["documents"].items():
+        d = documents.get(did)
+        if d is None:
+            out.append(f"expect: sources made no document {did}")
+            continue
+        for k, v in fields.items():
+            if d.get(k) != v:
+                out.append(f"expect: document {did} has {k} {d.get(k)!r}, expected {v!r}")
+    texts = sorted(p.stem for p in sources.text_dir(root).glob("*.txt"))
+    if texts != sorted(want["texts"]):
+        out.append(f"expect: sources/documents holds {texts}, expected {sorted(want['texts'])}")
+    stories = root.load_dir(root.stories)
+    for sid, tellings in want["tellings"].items():
+        got = [{k: t.get(k) for k in ("document", "page", "teller", "kind")} for t in stories[sid]["tellings"] if t.get("document")]
+        if got != tellings:
+            out.append(f"expect: story {sid} has the document tellings {got}, expected {tellings}")
+        notes = [d for d in stories[sid].get("discussion", []) if d.get("kind") == "source"]
+        if len(notes) != want["source_notes"].get(sid, 0):
+            out.append(f"expect: story {sid} has {len(notes)} source notes, expected {want['source_notes'].get(sid, 0)}")
+        text = explain.story_text(stories[sid], stories, root.load_dir(root.people), root.load_dir(root.episodes), documents, {})
+        for line in want["explain_lines"].get(sid, []):
+            if line not in text:
+                out.append(f"expect: explain's text for {sid} lacks {line!r}")
+    ims = sources.images_manifest_path(root.path / SOURCE_MANIFEST)
+    entries = load_json(ims) if ims.exists() else []
+    if len(entries) != want["images"]:
+        out.append(f"expect: {rel(ims, root.path)} holds {len(entries)} images, expected {want['images']}")
+    stories_now, people = root.load_dir(root.stories), root.load_dir(root.people)
+    out += [f"expect: pipeline.images refuses the sources' images manifest: {p}" for p in
+            images.manifest_problems(entries, stories_now, root.story_aliases(stories_now), people, images.load_profiles(root))]
+    return out
+
+
+def source_ingest_problems(root: Root) -> list[str]:
+    """The stage's other paths, on a copy of the finished fixture root: passages of a book in copyright under
+    their locators (appended by a second entry), a slug taken by another document, a wrong locator, a quote
+    that is not verbatim, a failed fetch (stopping the run, or listed under keep_going), a full text for a
+    document in copyright, and the check's refusals of a missing text file, a wrong page and a stray text file."""
+    tmp = Path(tempfile.mkdtemp(prefix="nhi-sources-"))
+    shutil.copytree(root.path, tmp, dirs_exist_ok=True)
+    r = Root(tmp)
+    out: list[str] = []
+    sid = "the-harbour-light-was-a-weather-balloon-1958"
+    book = {"id": None, "title": "Balloons Over Nowhere", "author": "Lu Fixture", "issuer": None, "date": "2001",
+            "url": "https://example.org/balloons", "text_url": None, "status": "in-copyright"}
+
+    def entry(passages, quotes, **kw):
+        return {"story": sid, "document": {**book, **kw.pop("document", {})}, "text": {"url": kw.pop("url", None), "passages": passages},
+                "quotes": quotes, "teller": None, "kind": "researcher", "differs": None, "images": [], **kw}
+
+    p2 = {"locator": "chapter 2", "text": "The fishermen of Nowhere launched weather balloons from the mole every summer evening."}
+    p5 = {"locator": "chapter 5", "text": "A balloon caught in the harbour wind could hang over the water for an hour."}
+    q2 = {"quote": "launched weather balloons from the mole every summer evening", "locator": "chapter 2"}
+    q5 = {"quote": "could hang over the water for an hour", "locator": "chapter 5"}
+    fetch = SourceFetch(r)
+    quiet = lambda *_: None
+    sources.run(r, [entry([p2], [q2])], fetch=fetch, echo=quiet)
+    sources.run(r, [entry([p5], [q5])], fetch=fetch, echo=quiet)
+    did = "balloons-over-nowhere"
+    text = (sources.text_path(r, did)).read_text(encoding="utf-8") if sources.text_path(r, did).exists() else ""
+    if text != f"[chapter 2]\n{p2['text']}\n\n[chapter 5]\n{p5['text']}\n":
+        out.append(f"expect: the passages file of {did} is {text!r}")
+    told = [(t.get("page"), t.get("teller")) for t in load_json(r.stories / f"{sid}.json")["tellings"] if t.get("document") == did]
+    if told != [("chapter 2", "lu-fixture"), ("chapter 5", "lu-fixture")]:
+        out.append(f"expect: the book's tellings are {told}, expected chapter 2 and chapter 5 by lu-fixture")
+    if fetch.calls:
+        out.append(f"expect: a passages entry fetched {fetch.calls} time(s)")
+    other = entry([p2], [q2], document={"url": "https://example.org/balloons-again", "date": "2010"})
+    sources.run(r, [other], fetch=fetch, echo=quiet)
+    if not (r.documents / f"{did}-2010.json").exists():
+        out.append(f"expect: a second document titled like {did} with another url and year did not become {did}-2010")
+    out += [f"expect: after the passages entries, {p}" for p in problems(r)]
+    refused = [
+        ("a wrong locator", entry([p2], [{**q2, "locator": "chapter 3"}])),
+        ("a quote that is not verbatim", entry([p2], [{**q2, "quote": "launched balloons from the mole"}])),
+        ("a failed fetch", entry([], [q2], url="https://example.org/nowhere.txt", document={"id": "fetched-nowhere", "status": "unknown"})),
+    ]
+    for what, e in refused:
+        before = snapshot(r.path)
+        try:
+            sources.run(r, [e], fetch=fetch, echo=quiet)
+            out.append(f"expect: sources accepted {what}")
+        except SystemExit:
+            pass
+        if snapshot(r.path) != before:
+            out.append(f"expect: sources wrote files for an entry refused for {what}")
+    res = sources.run(r, [refused[2][1], entry([p2], [q2])], fetch=fetch, keep_going=True, echo=quiet)
+    if len(res["failures"]) != 1 or "404" not in res["failures"][0]:
+        out.append(f"expect: keep_going listed {res['failures']}, expected the one failed fetch")
+    try:
+        sources.run(r, [entry([], [q2], url="https://example.org/served/lanterns-of-nowhere.txt")], fetch=fetch, echo=quiet)
+        out.append("expect: sources accepted a fetched full text for a document in copyright")
+    except SystemExit as x:
+        if "refused" not in str(x):
+            out.append(f"expect: a full text for a document in copyright was refused only at ingest: {x}")
+    f = sources.text_path(r, did)
+    kept = f.read_text(encoding="utf-8")
+    f.unlink()
+    if not any("has no text file" in p for p in problems(r)):
+        out.append("expect: check passed a document telling without a text file")
+    f.write_text(kept.replace("[chapter 5]", "[chapter 6]"), encoding="utf-8")
+    if not any("not [chapter 5]" in p for p in problems(r)):
+        out.append("expect: check passed an in-copyright quote under another locator than its page")
+    f.write_text(kept, encoding="utf-8")
+    (sources.text_dir(r) / "stray.txt").write_text("words\n", encoding="utf-8")
+    if not any("stray.txt" in p for p in problems(r)):
+        out.append("expect: check passed a text file no document has")
+    if not out:
+        shutil.rmtree(tmp)
+    else:
+        out.append(f"expect: the sources copy is left in {tmp}")
+    return out
+
+
 def snapshot(d: Path) -> dict[str, str]:
     return {rel(f, d): hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted(d.rglob("*")) if f.is_file()}
 
@@ -939,12 +1094,15 @@ def run_fixture() -> list[str]:
     unused = sorted(set(clip_asker.fixture) - clip_asker.used)
     if unused:
         out.append(f"clips: prepared answers never asked for: {unused}")
+    run_sources(root, SourceFetch(root))
     score.run(root)
     explain.run(root, explain.Asker(root, "fixture", 1, tmp / "explain.json"))
     build.run(root, root.site / "data.json")
     out += problems(root)
     out += expectations(root)
-    before = snapshot(root.data)
+    out += source_expectations(root, load_json(root.path / "expect.json"))
+    out += source_ingest_problems(root)
+    before = {**snapshot(root.data), **{f"sources/{k}": v for k, v in snapshot(root.path / "sources").items()}}
     again = link.Asker(root, "fixture", 1, None)
     link.run_existing(root, again)
     link.run_candidates(root, None, again)
@@ -955,12 +1113,15 @@ def run_fixture() -> list[str]:
     clips.run(root, clip_again)
     if clip_again.calls:
         out.append(f"clips is not idempotent: a second run asked {clip_again.calls} question(s)")
+    src_again = SourceFetch(root)
+    if run_sources(root, src_again)["changed"] or src_again.calls:
+        out.append(f"sources is not idempotent: a second run changed stories or fetched {src_again.calls} time(s)")
     score.run(root)
     explained = explain.Asker(root, "fixture", 1, tmp / "explain.json")
     explain.run(root, explained)
     if explained.calls:
         out.append(f"explain is not idempotent: a second run asked {explained.calls} question(s)")
-    after = snapshot(root.data)
+    after = {**snapshot(root.data), **{f"sources/{k}": v for k, v in snapshot(root.path / "sources").items()}}
     if before != after:
         changed = sorted(k for k in set(before) | set(after) if before.get(k) != after.get(k))
         out.append(f"merge is not idempotent: a second run changed {changed}")

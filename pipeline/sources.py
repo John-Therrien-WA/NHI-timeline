@@ -37,7 +37,7 @@ before anything of the entry is written. The teller is `teller`, else the docume
 its `issuer` as a person of role official, created through `merge.ensure_person` and the person
 aliases when new. Each quote becomes a telling `{ document, page, teller, quote, kind, cites: [],
 documents: [] }` (`page` the quote's locator) unless the story holds the same (document, quote);
-`differs` becomes `{ kind: "source", by: title, date, source: url, text }` unless the story holds
+`differs` becomes `{ kind: "source", by: the manifest's title, date, source: url, text }` unless the story holds
 the same text. A failed entry raises with its reason; with --keep-going the run goes on, lists the
 failures at the end and exits 1.
 
@@ -419,7 +419,7 @@ def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str]
         changed = True
         lines.append(f"added    {sid}  telling {did} [{t['page']}] by {pid} ({e['kind']})")
     if e.get("differs"):
-        note = {"kind": "source", "by": doc["title"]}
+        note = {"kind": "source", "by": m["title"]}  # the scout's title: a stored one may be a stub merge made from a teller's words
         if isinstance(doc.get("date"), str) and DATE.fullmatch(doc["date"]):
             note["date"] = doc["date"]
         note["source"] = doc.get("url") or doc.get("text_url")

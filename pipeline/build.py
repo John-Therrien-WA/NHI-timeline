@@ -1,8 +1,12 @@
-"""Data to site/data.json (and site/data.js, the same object for a page opened from disk).
+"""Data to site/data.json (and site/data.js, the same object for a page opened from disk), and the
+plain tellings to site/plain.json and site/plain.js.
 
     uv run python -m pipeline.build [--root DIR] [--out site/data.json]
 
-Stories with the plain telling (`plain`, null until pipeline.explain has run), era, place (and the free place text for the unresolved), years, score, attestation, tier, evidence profile and the
+The plain file is an object of story id to its plain telling (a story without one, before
+pipeline.explain has run, is absent), written beside the data file as `plain.json` and `plain.js`
+(`window.NHI_PLAIN`), whatever the data file's name; the page loads it after its first draw. The
+data file holds stories with era, place (and the free place text for the unresolved), years, score, attestation, tier, evidence profile and the
 repetition count, tellings with quotes and time codes and the YouTube URL at that second, the
 documents, the alias map (an old id a fold retired to the story that absorbed it, so `#story=<old
 id>` still resolves), the links between stories (shared document and every `related` relation, in the
@@ -19,7 +23,7 @@ axes, the corpus date (the latest episode published), and beside the stories the
 can recompute each story's attestation from its `profile` at another knob value. A telling carries
 what the page shows (the episode id, the time codes and URL, the teller, the quote, the kind, what it
 cites and the `difference`); the episode's show, title and date come from the `episodes` map, and the
-link's `link_reason` and `as_told` stay in the story file. Both files are written compact, with no
+link's `link_reason` and `as_told` stay in the story file. All four files are written compact, with no
 indentation, so the whole corpus fits the 16 MB a published artifact allows a file. Fails when a story
 has no score, profile or tier: run pipeline.score first.
 """
@@ -89,7 +93,7 @@ def run(root: Root, out: Path) -> dict:
         tellers = sorted({t["teller"] for t in s["tellings"]})
         shared_by = {p: len(stories_of[p]) - 1 for p in tellers}
         out_stories.append({
-            "id": sid, "title": s["title"], "summary": s["summary"], "plain": s.get("plain"), "era": s.get("era"), "years": s.get("years"),
+            "id": sid, "title": s["title"], "summary": s["summary"], "era": s.get("era"), "years": s.get("years"),
             "place": s.get("place"), "place_text": s.get("place_text"), "coordinates": s.get("coordinates"),
             "kind": s.get("kind"), "claims": s.get("claims", []),
             "tags": s.get("tags", []), "score": s["score"], "attestation": s["attestation"], "tier": s["tier"],
@@ -130,12 +134,13 @@ def run(root: Root, out: Path) -> dict:
         "people": {p: {"name": v["name"], "roles": v.get("roles", []), "image": headshots.get(p)} for p, v in people.items()},
         "episodes": {e: {"show": v.get("show"), "title": v.get("title"), "url": v.get("url"), "published": v.get("published")} for e, v in episodes.items()},
     }
-    compact = json.dumps(data, ensure_ascii=False, separators=(",", ":"))
+    plain = {sid: s["plain"] for sid, s in sorted(stories.items()) if s.get("plain")}
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(compact, encoding="utf-8")
-    js = out.with_suffix(".js")
-    js.write_text("window.NHI_DATA = " + compact + ";\n", encoding="utf-8")
-    print(f"build: {len(out_stories)} stories, {len(links)} links -> {rel(out, root.path)} and {rel(js, root.path)}", file=sys.stderr)
+    for path, glob, obj in ((out, "NHI_DATA", data), (out.parent / "plain.json", "NHI_PLAIN", plain)):
+        compact = json.dumps(obj, ensure_ascii=False, separators=(",", ":"))
+        path.write_text(compact, encoding="utf-8")
+        path.with_suffix(".js").write_text(f"window.{glob} = " + compact + ";\n", encoding="utf-8")
+    print(f"build: {len(out_stories)} stories ({len(plain)} plain), {len(links)} links -> {rel(out, root.path)}, {rel(out.parent / 'plain.json', root.path)} and their .js", file=sys.stderr)
     return data
 
 

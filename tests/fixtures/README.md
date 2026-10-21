@@ -87,7 +87,8 @@ under `keep_going`, and a bad manifest is refused before anything is fetched.
 `sources/` holds the primary-source case. Bo Fixture tells the lanterns as a mirror in his own
 words; `sources/manifest.json` is a scout's entry for it: the fictional public-domain pamphlet *The
 Lanterns of Nowhere* (1956) by Ivo Fixture, its plain text served from `sources/served/` by a
-downloader that reads the file (`check.SourceFetch`), one quote under the locator `I`, a note that
+downloader that reads the file (`check.SourceFetch`; its `[Illustration]` line is plain text, since a
+public-domain document with a text_url keeps its full text and is never read as passages), one quote under the locator `I`, a note that
 the pamphlet already had the idea, and two pictures (the title page, Ivo's headshot). The stage runs
 after clips: the mirror gains Ivo's first-hand document telling, a `source` note and the document,
 so it ends `well-attested` with two independent tellers; `sources/documents/` gains the pamphlet's
@@ -98,10 +99,14 @@ text beside the harbour log's (the flare's document telling, which check holds t
 nothing. `check.source_ingest_problems` works on a copy of the finished root: a book in copyright as
 passages under `[chapter 2]` and, from a second entry, `[chapter 5]`, told by its author as
 researcher; a second book of the same title with another url and year, which becomes `-2010`; a
-wrong locator, a quote that is not verbatim and a failed fetch, each refused with nothing written;
-`keep_going` listing the failed fetch; a fetched full text for a book in copyright refused with the
-manifest; and the check naming a missing text file, a quote under another chapter than its page and
-a text file no document has.
+wrong locator, a quote that is not verbatim, a failed fetch of a public-domain text and a full text
+for a document of unknown status, each refused with nothing written; `keep_going` listing the failed
+fetch; a fetched full text for a book in copyright refused with the manifest; a notice whose author
+is null, told by its issuer (the Harbour Board, a person of role official) in tellings of kind
+`official` although the entry says `researcher`, on a document whose stub title the manifest's
+replaces with a `title` line printed; and the check naming a missing text file, a quote under another
+chapter than its page, a text file no document has and the pamphlet's full text once its status is
+`unknown`.
 
 `explain.json` stands in for the explain stage: the plain telling for each of the eight stories the
 chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:

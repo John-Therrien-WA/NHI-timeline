@@ -45,7 +45,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from .common import REPO, Root, load_json, rel, save_json
+from .common import DATE, HTTP, REPO, Root, load_json, rel, save_json, text_field
 
 STORY_IMAGE_KINDS = ("object", "place-then", "place-now", "person")
 PERSON_IMAGE_KINDS = ("headshot",)
@@ -57,9 +57,7 @@ MANIFEST_OPTIONAL = ("date", "person")
 BLOCK_KEYS = ("file", "kind", "caption", "credit", "licence", "licence_kind", "source", "date", "person")
 MAX_PX = {"free": 1200, "fair-use": 480}
 USER_AGENT = "NHI-timeline/0.1 (research; contact via github John-Therrien-WA)"
-DATE = re.compile(r"\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?")
 DAY = re.compile(r"\d{4}-(0[1-9]|1[0-2])-(0[1-9]|[12]\d|3[01])")
-HTTP = re.compile(r"https?://\S+")
 N = re.compile(r"[1-9]\d*")
 
 
@@ -168,10 +166,6 @@ def dimensions(data: bytes) -> tuple[int, int] | None:
     return None
 
 
-def _text(v) -> bool:
-    return isinstance(v, str) and bool(v.strip())
-
-
 def fields_problems(where: str, e: dict, keys: tuple, optional: tuple, owner_type: str | None) -> list[str]:
     """The fields a sidecar and a manifest entry share: kind, caption, source, image_url, licence,
     licence_kind, credit and the optional date."""
@@ -182,7 +176,7 @@ def fields_problems(where: str, e: dict, keys: tuple, optional: tuple, owner_typ
         if k not in optional and k not in e:
             out.append(f"{where}: missing {k}")
     for k in ("caption", "licence", "credit"):
-        if k in e and not _text(e[k]):
+        if k in e and not text_field(e[k]):
             out.append(f"{where}: {k} must be a non-empty string")
     for k in ("source", "image_url"):
         if k in e and not (isinstance(e[k], str) and HTTP.fullmatch(e[k])):
@@ -198,7 +192,7 @@ def fields_problems(where: str, e: dict, keys: tuple, optional: tuple, owner_typ
     if e.get("kind") == "headshot" and e.get("licence_kind") == "fair-use":
         out.append(f"{where}: a headshot must be free-licensed, never fair use")
     if e.get("kind") == "person":
-        if not _text(e.get("person")):
+        if not text_field(e.get("person")):
             out.append(f"{where}: a person picture names who it shows in person")
         if e.get("licence_kind") == "fair-use":
             out.append(f"{where}: a person picture must be free-licensed, never fair use")
@@ -216,7 +210,7 @@ def load_profiles(root: Root) -> dict[str, dict]:
 def person_problem(where: str, story_id: str, e: dict, profiles: dict[str, dict]) -> str | None:
     """A person picture stands only beside a story two or more independent tellers tell, or one the
     person shown tells themselves."""
-    if e.get("kind") != "person" or not _text(e.get("person")):
+    if e.get("kind") != "person" or not text_field(e.get("person")):
         return None
     prof = profiles.get(story_id)
     if prof is None:
@@ -406,7 +400,7 @@ def manifest_problems(entries, stories: dict, story_alias: dict[str, str], peopl
         where += f" ({e.get('owner')!r})"
         owner = e.get("owner")
         resolved = None
-        if not _text(owner):
+        if not text_field(owner):
             out.append(f"{where}: owner must be a story id, an alias or a person id")
         else:
             try:

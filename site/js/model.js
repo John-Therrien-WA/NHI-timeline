@@ -23,7 +23,7 @@
   const TIER_INDEX = { "well-attested": 0, "told-by-several": 1, "told-once": 2 };
   const PROFILE_NUM = ["independent_tellers", "firsthand", "official_records", "official_conclusions", "journalist", "secondhand", "researcher", "host", "documents", "credited_documents", "repetitions"];
   const WEIGHT_KEYS = ["firsthand", "official", "journalist", "secondhand", "researcher", "host", "document_telling", "document_credited"];
-  const DISCUSSION_KINDS = ["debunk", "rebunk", "note"];
+  const DISCUSSION_KINDS = ["debunk", "rebunk", "note", "source"];
   const STORY_IMAGE_KINDS = ["object", "place-then", "place-now", "person"];
   const LICENCE_KINDS = ["free", "fair-use"];
   const S_MIN = 0.2, S_MAX = 10;   // the log scale the views and the score bar use; 1.0 is the corpus median
@@ -118,7 +118,7 @@
       if (s.discussion != null) {
         need(Array.isArray(s.discussion), at + " discussion must be a list.");
         s.discussion.forEach((x, j) => {
-          need(x && DISCUSSION_KINDS.includes(x.kind), at + " discussion " + j + " has kind " + JSON.stringify(x && x.kind) + "; expected debunk, rebunk or note.");
+          need(x && DISCUSSION_KINDS.includes(x.kind), at + " discussion " + j + " has kind " + JSON.stringify(x && x.kind) + "; expected one of " + DISCUSSION_KINDS.join(", ") + ".");
           need(isStr(x.by) && isStr(x.text), at + " discussion " + j + " needs by and text.");
           if (x.time != null) need(hmsToSeconds(x.time) != null, at + " discussion " + j + " has a time that is not h:mm:ss.");
         });

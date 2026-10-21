@@ -24,8 +24,10 @@ ledger makes of it (`replay_of` an episode in data/episodes or `{"outside": true
 occurrence of a `clip` group, `teller_was` a person). A telling without either mark is not held to
 the ledger, so the check passes between judging and applying. Every document telling has its
 text file under sources/documents, its quote a verbatim substring of it (inside the passage its
-`page` names for a document in copyright), every document's `status` and `text_url` are well
-formed and every text file there is a document's (`sources.problems`). Prints every problem, naming the
+`page` names when the file holds passages), every document's `status` and `text_url` are well
+formed and every text file there is a document's and in its format: a full text only for a
+public-domain document with a text_url, [locator] passages for every other (`sources.problems`).
+The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. Prints every problem, naming the
 story and the entry, and exits 1 when there is one. Then it lists, as warnings that never fail the
 check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
 other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
@@ -76,16 +78,25 @@ from unittest import mock
 import json
 
 from . import clips, images, sources
-from .common import (DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, NOTE_KEYS, REPO, RELATIONS,
-                     STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds)
+from .common import (DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, REPO, RELATIONS,
+                     STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
-DATE = re.compile(r"\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?")
-URL = re.compile(r"https?://\S+")
 
 
-def text_field(v) -> bool:
-    return isinstance(v, str) and bool(v.strip())
+MODEL_JS = REPO / "site" / "js" / "model.js"
+
+
+def page_kinds_problems() -> list[str]:
+    """The page's own list of discussion kinds (site/js/model.js `DISCUSSION_KINDS`) equals
+    common.DISCUSSION_KINDS, or the page refuses a story whose entry the data allows."""
+    m = re.search(r"const DISCUSSION_KINDS = \[([^\]]*)\];", MODEL_JS.read_text(encoding="utf-8"))
+    if m is None:
+        return [f"{rel(MODEL_JS, REPO)}: no `const DISCUSSION_KINDS = [...];` to compare with common.DISCUSSION_KINDS"]
+    page = tuple(json.loads(f"[{m.group(1)}]"))
+    if page != DISCUSSION_KINDS:
+        return [f"{rel(MODEL_JS, REPO)}: DISCUSSION_KINDS is {list(page)}, common.DISCUSSION_KINDS is {list(DISCUSSION_KINDS)}"]
+    return []
 
 
 def discussion_problems(where: str, entries, episodes: dict) -> list[str]:
@@ -109,7 +120,7 @@ def discussion_problems(where: str, entries, episodes: dict) -> list[str]:
             out.append(f"{ew}: role {e['role']!r} is not one of {', '.join(DISCUSSION_ROLES)}")
         if "date" in e and not (isinstance(e["date"], str) and DATE.fullmatch(e["date"])):
             out.append(f"{ew}: date {e['date']!r} is not YYYY, YYYY-MM or YYYY-MM-DD")
-        if "source" in e and not (isinstance(e["source"], str) and URL.fullmatch(e["source"])):
+        if "source" in e and not (isinstance(e["source"], str) and HTTP.fullmatch(e["source"])):
             out.append(f"{ew}: source {e['source']!r} is not an http(s) URL")
         if ("episode" in e) != ("time" in e):
             out.append(f"{ew}: episode and time come together")
@@ -290,6 +301,7 @@ def problems(root: Root) -> list[str]:
     out += notes_problems(root, stories, owner)
     out += images.problems(root, stories, owner, people)
     out += sources.problems(root, stories, documents)
+    out += page_kinds_problems()
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
             out.append(f"episode {eid}: captions file {e['captions']} is missing")
@@ -971,8 +983,11 @@ def source_expectations(root: Root, exp: dict) -> list[str]:
 def source_ingest_problems(root: Root) -> list[str]:
     """The stage's other paths, on a copy of the finished fixture root: passages of a book in copyright under
     their locators (appended by a second entry), a slug taken by another document, a wrong locator, a quote
-    that is not verbatim, a failed fetch (stopping the run, or listed under keep_going), a full text for a
-    document in copyright, and the check's refusals of a missing text file, a wrong page and a stray text file."""
+    that is not verbatim, a failed fetch of a public-domain text (stopping the run, or listed under keep_going),
+    a full text for a document of unknown status and for one in copyright, an issuer standing in as teller (its
+    tellings `official` whatever the entry's kind) on a document whose stub title the manifest's replaces, and
+    the check's refusals of a missing text file, a wrong page, a stray text file and a full text kept for a
+    document that is not public domain."""
     tmp = Path(tempfile.mkdtemp(prefix="nhi-sources-"))
     shutil.copytree(root.path, tmp, dirs_exist_ok=True)
     r = Root(tmp)
@@ -1010,15 +1025,20 @@ def source_ingest_problems(root: Root) -> list[str]:
     refused = [
         ("a wrong locator", entry([p2], [{**q2, "locator": "chapter 3"}])),
         ("a quote that is not verbatim", entry([p2], [{**q2, "quote": "launched balloons from the mole"}])),
-        ("a failed fetch", entry([], [q2], url="https://example.org/nowhere.txt", document={"id": "fetched-nowhere", "status": "unknown"})),
+        ("a failed fetch", entry([], [q2], url="https://example.org/nowhere.txt",
+                                 document={"id": "fetched-nowhere", "status": "public-domain", "text_url": "https://example.org/nowhere.txt"})),
+        ("a full text for a document of unknown status", entry([], [q2], url="https://example.org/served/lanterns-of-nowhere.txt",
+                                                               document={"id": "unknown-full", "status": "unknown",
+                                                                         "text_url": "https://example.org/served/lanterns-of-nowhere.txt"})),
     ]
     for what, e in refused:
         before = snapshot(r.path)
         try:
             sources.run(r, [e], fetch=fetch, echo=quiet)
             out.append(f"expect: sources accepted {what}")
-        except SystemExit:
-            pass
+        except SystemExit as x:
+            if what.startswith("a full text") and "public-domain" not in str(x):
+                out.append(f"expect: {what} was refused for another reason: {x}")
         if snapshot(r.path) != before:
             out.append(f"expect: sources wrote files for an entry refused for {what}")
     res = sources.run(r, [refused[2][1], entry([p2], [q2])], fetch=fetch, keep_going=True, echo=quiet)
@@ -1030,6 +1050,24 @@ def source_ingest_problems(root: Root) -> list[str]:
     except SystemExit as x:
         if "refused" not in str(x):
             out.append(f"expect: a full text for a document in copyright was refused only at ingest: {x}")
+    stub = {"id": "harbour-board-balloon-notice", "title": "harbour board balloon notice", "issuer": None, "date": None,
+            "url": None, "kind": None, "attests": []}
+    save_json(r.documents / f"{stub['id']}.json", stub)
+    notice = {"id": stub["id"], "title": "Notice to Mariners No. 7", "author": None, "issuer": "Harbour Board of Nowhere",
+              "date": "1958", "url": "https://example.org/notice-7", "text_url": None, "status": "unknown"}
+    pn = {"locator": "p. 1", "text": "Weather balloons are released from the mole at dusk and may show a light."}
+    said: list[str] = []
+    sources.run(r, [entry([pn], [{"quote": "may show a light", "locator": "p. 1"}], document=notice)], fetch=fetch, echo=said.append)
+    told = [t for t in load_json(r.stories / f"{sid}.json")["tellings"] if t.get("document") == stub["id"]]
+    if [(t["teller"], t["kind"]) for t in told] != [("harbour-board-of-nowhere", "official")]:
+        out.append(f"expect: an issuer standing in as teller of a `researcher` entry told {[(t['teller'], t['kind']) for t in told]}, "
+                   "expected harbour-board-of-nowhere as official")
+    if load_json(r.people / "harbour-board-of-nowhere.json").get("roles") != ["official"]:
+        out.append("expect: the issuer standing in as teller is not a person of role official")
+    if load_json(r.documents / f"{stub['id']}.json")["title"] != notice["title"]:
+        out.append("expect: a document's stub title was not replaced by the manifest's title")
+    if not any(line.startswith("title ") and notice["title"] in line for line in said):
+        out.append(f"expect: the title replacement was not reported; the stage said {said}")
     f = sources.text_path(r, did)
     kept = f.read_text(encoding="utf-8")
     f.unlink()
@@ -1042,6 +1080,12 @@ def source_ingest_problems(root: Root) -> list[str]:
     (sources.text_dir(r) / "stray.txt").write_text("words\n", encoding="utf-8")
     if not any("stray.txt" in p for p in problems(r)):
         out.append("expect: check passed a text file no document has")
+    (sources.text_dir(r) / "stray.txt").unlink()
+    lanterns = load_json(r.documents / "the-lanterns-of-nowhere.json")
+    save_json(r.documents / "the-lanterns-of-nowhere.json", {**lanterns, "status": "unknown"})
+    if not any("text before the first [locator]" in p for p in problems(r)):
+        out.append("expect: check passed a full text kept for a document that is not public domain")
+    save_json(r.documents / "the-lanterns-of-nowhere.json", lanterns)
     if not out:
         shutil.rmtree(tmp)
     else:

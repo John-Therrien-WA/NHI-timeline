@@ -13,7 +13,7 @@ id>` still resolves), the links between stories (shared document and every `rela
 top-level `links` list only: a story's own `related` list is not repeated), the count of
 other stories told by each of a story's tellers (`shared_teller`, by teller and in all: a count,
 never a link, since one host telling fifty stories would link every story to every other), the
-story's `discussion` (the debunk, rebunk and note entries, an empty list when it has none; an
+story's `discussion` (the debunk, rebunk, note and source entries, an empty list when it has none; an
 entry with an episode also gets the YouTube `url` at its `time`) and `notes_open` (the open entries of data/notes/<id>.json and of the notes files of its
 aliases, 0 when there are none), the story's `images` (the object and place photographs of
 data/images/<id> and of its aliases' directories, an empty list when it has none), each person's

@@ -23,6 +23,8 @@ DISCUSSION_ROLES = ("witness", "participant", "official", "researcher", "journal
 DISCUSSION_KEYS = ("kind", "by", "role", "date", "source", "episode", "time", "text")
 NOTE_STATUSES = ("open", "folded", "dropped")
 NOTE_KEYS = ("by", "date", "text", "status")
+DATE = re.compile(r"\d{4}(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\d|3[01]))?)?")
+HTTP = re.compile(r"https?://\S+")
 
 TIMECODE = re.compile(r"^\[(\d+:\d\d:\d\d)\] (.*)$")
 HMS = re.compile(r"(\d+):([0-5]\d):([0-5]\d)")
@@ -30,6 +32,11 @@ WS = re.compile(r"\s+")
 SPEAKER = re.compile(r">>+")
 BRACKET_TAG = re.compile(r"\[[^\[\]]{0,40}\]")
 SPACE_BEFORE_PUNCT = re.compile(r" ([,.;:!?])")
+
+
+def text_field(v) -> bool:
+    """A non-empty string."""
+    return isinstance(v, str) and bool(v.strip())
 
 
 class Root:

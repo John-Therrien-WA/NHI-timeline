@@ -72,9 +72,9 @@ artifact stays private.
 To check a source: when a story names a public source (a paper, a book, a memo, a patent, a court
 record, an article), a scout finds it and returns a manifest entry (`schema.md`, Document): the
 document, a plain-text URL for a public-domain text or the quoted passages with their locators for
-one in copyright, the quotes that say what the story claims, the author, the telling's kind, a note
+any other, the quotes that say what the story claims, the author, the telling's kind, a note
 when the source reads otherwise than the tellers, and its pictures. Run
-`.venv/bin/python -m pipeline.sources <manifest> --keep-going` after `clips`, with the text's host
+`uv run python -m pipeline.sources <manifest> --keep-going` after `clips`, with the text's host
 allowed; it checks every quote against the text before writing an entry, keeps a text file already
 there, and adds nothing twice, so a manifest can be run again. It writes the pictures to
 `<manifest stem>.images.json` beside the manifest for `pipeline.images`, and prints the stories it

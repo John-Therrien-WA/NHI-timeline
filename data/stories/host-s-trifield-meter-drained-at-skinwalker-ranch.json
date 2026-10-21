@@ -40,6 +40,27 @@
         "place_text": "Skinwalker Ranch, Utah",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 1498.0,
+      "to_s": 1519.0,
+      "teller": "jesse-michels",
+      "quote": "Like a tri-field meter went off because of high gamma radiation.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": [],
+      "difference": "Attributes the meter going off to high gamma radiation, rather than draining.",
+      "link_reason": "Host's own Skinwalker Ranch visit where a tri-field meter went off, matching the drained trifield meter story.",
+      "as_told": {
+        "title": "Host's visit to Skinwalker Ranch",
+        "years": {
+          "from": 2020,
+          "to": 2029
+        },
+        "place_text": "Skinwalker Ranch, Utah",
+        "story_kind": "place-lore"
+      }
     }
   ],
   "related": [],
@@ -64,7 +85,8 @@
     ],
     "episodes": [
       "7W7iOt57fOo",
-      "Y26iMB0r-f8"
+      "Y26iMB0r-f8",
+      "jyTKETcxj0M"
     ]
   },
   "attestation": 1.0,

@@ -48,6 +48,30 @@
         "place_text": "Roswell, New Mexico",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 1376.0,
+      "to_s": 1401.0,
+      "teller": "redpandakoala",
+      "quote": "And then like shortly after that too is when Werner von Braun like told him that like I also kind of corroborate what you were hearing back home about Roswell.",
+      "kind": "secondhand",
+      "cites": [
+        "edgar-mitchell",
+        "wernher-von-braun"
+      ],
+      "documents": [],
+      "difference": "Adds that von Braun corroborated what Mitchell heard back home, told secondhand by redpandakoala.",
+      "link_reason": "Mitchell hearing about Roswell from locals and von Braun corroborating is the same as the story of Mitchell hearing about Roswell from people at all levels; von Braun's corroboration is added.",
+      "as_told": {
+        "title": "Mitchell hears of Roswell from residents and von Braun",
+        "years": {
+          "from": 1970,
+          "to": 1979
+        },
+        "place_text": "Roswell, New Mexico",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -88,14 +112,14 @@
     }
   ],
   "tags": [],
-  "score": 1.2,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 2,
     "researcher": 0,
     "host": 1,
     "documents": 0,
@@ -105,14 +129,16 @@
     "strongest_kind": "secondhand",
     "tellers": [
       "jesse-michels",
-      "maaneli-derakhshani"
+      "maaneli-derakhshani",
+      "redpandakoala"
     ],
     "episodes": [
       "IWui5cBkwoE",
+      "jyTKETcxj0M",
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.6,
+  "attestation": 1.1,
   "tier": "told-by-several",
   "plain": "Roswell is a town in New Mexico where, in 1947, many people say a craft crashed and was taken away by the military. Edgar Mitchell was an Apollo astronaut, one of the men who went to the Moon. A podcast host, Jesse Michels, says that because of who he was, Mitchell heard all sorts of things about Roswell from people at every level. A guest named Maaneli Derakhshani puts it more directly: Mitchell said clearly that he believed an alien spacecraft had crashed at Roswell and the government had recovered it. If true, it would mean a respected astronaut had inside word of a recovered alien craft."
 }

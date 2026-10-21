@@ -18,28 +18,28 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 260,
-    "told-by-several": 148,
-    "told-once": 5890
+    "well-attested": 262,
+    "told-by-several": 149,
+    "told-once": 5912
   },
   "counts": {
-    "stories": 6298,
-    "tellings": 8687,
-    "independent_tellers": 6799,
-    "repetitions": 327,
-    "documents": 2331,
+    "stories": 6323,
+    "tellings": 8732,
+    "independent_tellers": 6832,
+    "repetitions": 328,
+    "documents": 2334,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
-      "crash-retrieval": 219,
-      "document": 887,
+      "crash-retrieval": 221,
+      "document": 890,
       "encounter": 559,
-      "place-lore": 460,
-      "program": 942,
-      "reverse-engineering": 151,
-      "sighting": 466,
-      "testimony": 1691,
-      "theory": 801
+      "place-lore": 461,
+      "program": 944,
+      "reverse-engineering": 153,
+      "sighting": 471,
+      "testimony": 1696,
+      "theory": 806
     }
   },
   "stories": {
@@ -596,6 +596,7 @@
           "K4gYHs84BIc",
           "dzTZbSNsKV8",
           "fyX8V1XXmQM",
+          "jyTKETcxj0M",
           "xnxasfyHtfo"
         ]
       }
@@ -861,7 +862,8 @@
         ],
         "episodes": [
           "fzvwBBSmWYA",
-          "iQOibpIDx-4"
+          "iQOibpIDx-4",
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -888,6 +890,32 @@
         ],
         "episodes": [
           "A2-y_HasHEw"
+        ]
+      }
+    },
+    "1952-official-denial-of-secret-development": {
+      "attestation": 0.8,
+      "score": 1.6,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 1,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "official",
+        "tellers": [
+          "unnamed-official"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -4842,6 +4870,7 @@
           "_bM9eAtCOGw",
           "bVhSPH2A5Vw",
           "dzTZbSNsKV8",
+          "jyTKETcxj0M",
           "kccrkCGGzX4"
         ]
       }
@@ -6718,6 +6747,7 @@
           "RTEWLSTyUic",
           "Y7PLeu5rTv4",
           "fzvwBBSmWYA",
+          "jyTKETcxj0M",
           "kRO5jOa06Qw",
           "rjUdn6FklAU",
           "yAvD5UTziTo"
@@ -37443,6 +37473,32 @@
         ]
       }
     },
+    "declassified-air-force-documents-on-ufos-at-cold-war-nuclear": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "declassified-cia-memos-on-exotic-gravity-research-at-univers-1950": {
       "attestation": 0.35,
       "score": 0.7,
@@ -37838,6 +37894,32 @@
         ]
       }
     },
+    "delonge-in-secure-facilities-2010": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "tom-delonge"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "delonge-iraq-war-linked-to-groups-connected-with-nonhuman-en-2003": {
       "attestation": 0.5,
       "score": 1.0,
@@ -37943,18 +38025,18 @@
       }
     },
     "delonge-s-contact-at-lockheed-skunk-works-2015": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 2,
         "researcher": 0,
-        "host": 0,
+        "host": 1,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
@@ -37962,10 +38044,12 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jason-simosa",
-          "jay-anderson"
+          "jay-anderson",
+          "jesse-michels"
         ],
         "episodes": [
           "51N8OxqZIWY",
+          "jyTKETcxj0M",
           "kccrkCGGzX4"
         ]
       }
@@ -43473,16 +43557,16 @@
       }
     },
     "edgar-mitchell-heard-about-roswell-1947": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 2,
         "researcher": 0,
         "host": 1,
         "documents": 0,
@@ -43492,10 +43576,12 @@
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "maaneli-derakhshani"
+          "maaneli-derakhshani",
+          "redpandakoala"
         ],
         "episodes": [
           "IWui5cBkwoE",
+          "jyTKETcxj0M",
           "uVVqFg2v7ro"
         ]
       }
@@ -43575,7 +43661,34 @@
         ],
         "episodes": [
           "bVhSPH2A5Vw",
+          "jyTKETcxj0M",
           "uVVqFg2v7ro"
+        ]
+      }
+    },
+    "edgar-mitchell-s-esp-experiment-in-space-1971": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -46129,6 +46242,58 @@
         ],
         "episodes": [
           "fpUa3xJN64Q"
+        ]
+      }
+    },
+    "emergency-conference-at-camp-hood-on-nuclear-site-ufos": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
+    "emp-from-nuclear-blast-travels-through-dimensions": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tom-delonge"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -50666,6 +50831,32 @@
         ],
         "episodes": [
           "ABw7EsWh2Us"
+        ]
+      }
+    },
+    "first-h-bomb-and-the-1952-dc-wave": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -56283,6 +56474,32 @@
         ]
       }
     },
+    "general-spaatz-flew-to-texas-during-roswell-1947": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "general-starbird-leaves-johnston-island-hours-after-bluegill-1962": {
       "attestation": 0.35,
       "score": 0.7,
@@ -59544,6 +59761,32 @@
         ],
         "episodes": [
           "1zRWi_r3HRM"
+        ]
+      }
+    },
+    "government-getting-ahead-of-service-members-ready-to-disclos-2017": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
         ]
       }
     },
@@ -66184,6 +66427,32 @@
         ]
       }
     },
+    "hereticon-founder-s-startup-to-reverse-engineer-ufos-with-qu-2022": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
+        ]
+      }
+    },
     "hereticon-talk-flood-myths-rooted-in-real-floods": {
       "attestation": 0.25,
       "score": 0.5,
@@ -68284,7 +68553,8 @@
         ],
         "episodes": [
           "7W7iOt57fOo",
-          "Y26iMB0r-f8"
+          "Y26iMB0r-f8",
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -74397,30 +74667,32 @@
       }
     },
     "james-mcdonald-s-sighting-at-savannah-river": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-by-several",
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 0,
+        "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 0,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "luis-elizondo"
+          "luis-elizondo",
+          "redpandakoala"
         ],
         "episodes": [
           "1f16VvXaSSE",
           "fzvwBBSmWYA",
+          "jyTKETcxj0M",
           "p0S0BfoZy0w"
         ]
       }
@@ -76635,17 +76907,17 @@
       }
     },
     "jimmy-carter-s-1969-ufo-sighting": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 0.75,
+      "score": 1.5,
+      "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 0,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
@@ -76653,11 +76925,13 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "daniel-sheehan"
+          "daniel-sheehan",
+          "redpandakoala"
         ],
         "episodes": [
           "1f16VvXaSSE",
-          "2SQXAPCdmPE"
+          "2SQXAPCdmPE",
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -78300,8 +78574,40 @@
       }
     },
     "john-trump-examines-tesla-s-confiscated-files-1943": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 1.1,
+      "score": 2.2,
+      "tier": "well-attested",
+      "profile": {
+        "independent_tellers": 2,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 3,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jesse-michels",
+          "redpandakoala"
+        ],
+        "episodes": [
+          "09KP8XVf5nY",
+          "8TYMQOUDQBo",
+          "WBTqsbwJyqU",
+          "areO7Mej44E",
+          "jyTKETcxj0M",
+          "q7Czo77qhHA"
+        ]
+      }
+    },
+    "john-trump-likely-involved-in-the-1952-washington-wave": {
+      "attestation": 0.25,
+      "score": 0.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -78310,22 +78616,18 @@
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
-        "host": 1,
+        "researcher": 1,
+        "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "researcher",
         "tellers": [
-          "jesse-michels"
+          "redpandakoala"
         ],
         "episodes": [
-          "09KP8XVf5nY",
-          "8TYMQOUDQBo",
-          "WBTqsbwJyqU",
-          "areO7Mej44E",
-          "q7Czo77qhHA"
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -89950,6 +90252,32 @@
         ]
       }
     },
+    "majestic-12-1940": {
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 1,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "majestic-12-as-a-cover-for-continuity-of-government-programs-1940": {
       "attestation": 0.5,
       "score": 1.0,
@@ -90756,6 +91084,7 @@
           "fzvwBBSmWYA",
           "h0hAit-KH9A",
           "hBrfe4hFuM0",
+          "jyTKETcxj0M",
           "kRO5jOa06Qw",
           "rjUdn6FklAU",
           "yGtVzBbUvx4"
@@ -91257,6 +91586,32 @@
         "episodes": [
           "51N8OxqZIWY",
           "HxQN2tkQHs8"
+        ]
+      }
+    },
+    "many-uap-sightings-off-the-coast-of-san-diego-2004": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
         ]
       }
     },
@@ -93763,8 +94118,36 @@
       }
     },
     "mcdonald-confronts-hynek-over-the-swamp-gas-explanation-1960": {
-      "attestation": 0.1,
-      "score": 0.2,
+      "attestation": 0.35,
+      "score": 0.7,
+      "tier": "told-by-several",
+      "profile": {
+        "independent_tellers": 2,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "jesse-michels",
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M",
+          "p0S0BfoZy0w"
+        ]
+      }
+    },
+    "mcdonald-mocked-in-congressional-hearings-after-the-michigan-1966": {
+      "attestation": 0.25,
+      "score": 0.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -93773,18 +94156,18 @@
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
-        "host": 1,
+        "researcher": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "researcher",
         "tellers": [
-          "jesse-michels"
+          "redpandakoala"
         ],
         "episodes": [
-          "p0S0BfoZy0w"
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -99858,6 +100241,58 @@
         ]
       }
     },
+    "multi-sensor-corroboration-of-uap-satellite-radar-visual-tem-2021": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
+        ]
+      }
+    },
+    "multiple-high-clearance-sources-say-uap-is-a-real-phenomenon-2021": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
+        ]
+      }
+    },
     "mummified-pharaohs-in-the-cairo-museum-with-cranial-deformat": {
       "attestation": 0.1,
       "score": 0.2,
@@ -102690,6 +103125,7 @@
           "92XrddiKjHY",
           "9PJJiut0Iuw",
           "C_Na1tI5qpw",
+          "jyTKETcxj0M",
           "uVVqFg2v7ro",
           "zjpvfDFc4fg"
         ]
@@ -102720,6 +103156,32 @@
           "C_Na1tI5qpw",
           "bVhSPH2A5Vw",
           "hBrfe4hFuM0"
+        ]
+      }
+    },
+    "neil-armstrong-said-to-have-seen-ufos-on-the-moon-1969": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -106630,6 +107092,32 @@
         ]
       }
     },
+    "nukes-used-to-bring-down-ufos": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "number-137-in-the-proportions-of-the-second-pyramid": {
       "attestation": 0.25,
       "score": 0.5,
@@ -106916,6 +107404,32 @@
         ]
       }
     },
+    "obama-administration-s-ufo-answers-then-obama-s-late-night-s-2012": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "obama-at-a-campfire-tells-eddie-vedder-to-read-the-three-bod": {
       "attestation": 0.75,
       "score": 1.5,
@@ -106944,27 +107458,28 @@
       }
     },
     "obama-on-james-corden-about-unidentified-objects-2021": {
-      "attestation": 0.1,
-      "score": 0.2,
+      "attestation": 0.8,
+      "score": 1.6,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
         "firsthand": 0,
-        "official_records": 0,
+        "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
+        "host": 0,
         "documents": 0,
         "credited_documents": 0,
-        "repetitions": 0,
+        "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "official",
         "tellers": [
-          "jesse-michels"
+          "barack-obama"
         ],
         "episodes": [
+          "jyTKETcxj0M",
           "kccrkCGGzX4"
         ]
       }
@@ -107346,6 +107861,32 @@
         ],
         "episodes": [
           "rjUdn6FklAU"
+        ]
+      }
+    },
+    "occult-history-in-nasa-and-launch-pad-choices": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "unnamed-speaker"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -111680,7 +112221,8 @@
           "jesse-michels"
         ],
         "episodes": [
-          "1f16VvXaSSE"
+          "1f16VvXaSSE",
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -115742,17 +116284,17 @@
       }
     },
     "podesta-emails-and-the-delongemccaslandweiss-meeting-2015": {
-      "attestation": 1.75,
-      "score": 3.5,
+      "attestation": 2.0,
+      "score": 4.0,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 4,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 2,
+        "researcher": 3,
         "host": 0,
         "documents": 0,
         "credited_documents": 3,
@@ -115762,11 +116304,13 @@
         "tellers": [
           "grant-cameron",
           "jason-simosa",
-          "jay-anderson"
+          "jay-anderson",
+          "redpandakoala"
         ],
         "episodes": [
           "51N8OxqZIWY",
           "fpUa3xJN64Q",
+          "jyTKETcxj0M",
           "kccrkCGGzX4"
         ]
       }
@@ -122459,6 +123003,32 @@
         ]
       }
     },
+    "record-number-of-ufo-sightings-in-2020": {
+      "attestation": 0.1,
+      "score": 0.2,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 1,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "host",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
+        ]
+      }
+    },
     "recording-leaked-to-globo-and-the-case-ridiculed-1996": {
       "attestation": 1.25,
       "score": 2.5,
@@ -127857,17 +128427,17 @@
       }
     },
     "roswell-as-home-of-the-509th-atomic-bomber-squadron-1947": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-by-several",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 4,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 1,
+        "researcher": 2,
         "host": 1,
         "documents": 0,
         "credited_documents": 0,
@@ -127877,12 +128447,14 @@
         "tellers": [
           "jesse-michels",
           "john-brandenburg",
-          "marik-von-rennenkampff"
+          "marik-von-rennenkampff",
+          "redpandakoala"
         ],
         "episodes": [
           "1F7DHbSbgbQ",
           "1iaH1a3A4Lk",
           "KGD1nuM4MR8",
+          "jyTKETcxj0M",
           "p0S0BfoZy0w"
         ]
       }
@@ -129046,6 +129618,32 @@
         ],
         "episodes": [
           "A_LsUSxTm7A"
+        ]
+      }
+    },
+    "rumors-of-luring-uap-with-nuclear-material-traps-2021": {
+      "attestation": 0.5,
+      "score": 1.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 1,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "secondhand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
         ]
       }
     },
@@ -135351,6 +135949,32 @@
         ],
         "episodes": [
           "bVhSPH2A5Vw"
+        ]
+      }
+    },
+    "sightings-at-los-alamos-from-1948": {
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 0,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 1,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "researcher",
+        "tellers": [
+          "redpandakoala"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
         ]
       }
     },
@@ -151197,6 +151821,32 @@
         ]
       }
     },
+    "touching-craft-pieces-with-garry-nolan-2020": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "jesse-michels"
+        ],
+        "episodes": [
+          "jyTKETcxj0M"
+        ]
+      }
+    },
     "touching-the-reactor-s-repulsive-field-1987": {
       "attestation": 1.0,
       "score": 2.0,
@@ -154381,6 +155031,32 @@
         ],
         "episodes": [
           "tS_64sTN5AU"
+        ]
+      }
+    },
+    "tyler-cowen-s-2017-column-on-ufos": {
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "told-once",
+      "profile": {
+        "independent_tellers": 1,
+        "firsthand": 1,
+        "official_records": 0,
+        "official_conclusions": 0,
+        "journalist": 0,
+        "secondhand": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 0,
+        "credited_documents": 0,
+        "repetitions": 0,
+        "contradicted": false,
+        "strongest_kind": "firsthand",
+        "tellers": [
+          "tyler-cowen"
+        ],
+        "episodes": [
+          "DRVaf3M4FHw"
         ]
       }
     },
@@ -159325,6 +160001,7 @@
           "fpUa3xJN64Q",
           "fzvwBBSmWYA",
           "hBrfe4hFuM0",
+          "jyTKETcxj0M",
           "kRO5jOa06Qw",
           "rjUdn6FklAU"
         ]

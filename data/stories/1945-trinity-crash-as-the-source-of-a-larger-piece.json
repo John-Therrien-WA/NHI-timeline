@@ -188,6 +188,31 @@
         "place_text": "Trinity test site, New Mexico",
         "story_kind": "crash-retrieval"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 139.0,
+      "to_s": 169.0,
+      "teller": "jesse-michels",
+      "quote": "Famous ufologist Jacques Vallée's new book describes a crash at Trinity, New Mexico on August 17th, 1945.",
+      "kind": "host",
+      "cites": [
+        "jacques-vallee"
+      ],
+      "documents": [
+        "jacques-vallee-s-new-book"
+      ],
+      "difference": "Gives August 17, 1945 date and Vallée's new book as source.",
+      "link_reason": "Trinity crash of 1945 per Vallée's book; same crash story.",
+      "as_told": {
+        "title": "Trinity crash, August 1945",
+        "years": {
+          "from": 1945,
+          "to": 1945
+        },
+        "place_text": "Trinity, New Mexico",
+        "story_kind": "crash-retrieval"
+      }
     }
   ],
   "related": [],
@@ -217,6 +242,7 @@
       "K4gYHs84BIc",
       "dzTZbSNsKV8",
       "fyX8V1XXmQM",
+      "jyTKETcxj0M",
       "xnxasfyHtfo"
     ]
   },

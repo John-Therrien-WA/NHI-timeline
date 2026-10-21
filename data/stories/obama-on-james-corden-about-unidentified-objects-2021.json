@@ -25,6 +25,30 @@
         "james-corden"
       ],
       "documents": []
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 520.0,
+      "to_s": 552.0,
+      "teller": "barack-obama",
+      "quote": "There's footage and records of objects in the skies that we don't know exactly what they are.",
+      "kind": "official",
+      "cites": [],
+      "documents": [],
+      "difference": "Quoted by Obama himself, without naming the show, and mentions records as well as footage.",
+      "link_reason": "Obama saying there's footage and records of objects we can't identify matches the James Corden remark in 2021.",
+      "as_told": {
+        "title": "Obama: footage and records of unknown objects",
+        "years": {
+          "from": 2021,
+          "to": 2021
+        },
+        "place_text": "United States",
+        "story_kind": "testimony"
+      },
+      "replay_of": {
+        "outside": true
+      }
     }
   ],
   "related": [
@@ -35,29 +59,30 @@
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 1.6,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
+    "host": 0,
     "documents": 0,
     "credited_documents": 0,
-    "repetitions": 0,
+    "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "official",
     "tellers": [
-      "jesse-michels"
+      "barack-obama"
     ],
     "episodes": [
+      "jyTKETcxj0M",
       "kccrkCGGzX4"
     ]
   },
-  "attestation": 0.1,
+  "attestation": 0.8,
   "tier": "told-once",
   "plain": "A podcast host, Jesse Michels, recalls that in 2021 former US President Barack Obama went on the late-night talk show of James Corden. According to Michels, Obama said there are things in our sky that we cannot identify and do not know what they are. Michels tells it as a sign that even a former president openly admits the mystery is real."
 }

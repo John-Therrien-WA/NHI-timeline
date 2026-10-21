@@ -1,0 +1,60 @@
+{
+  "id": "majestic-12-1940",
+  "title": "Majestic 12",
+  "summary": "Jesse Michels tells of Majestic 12, about 1940s-1950s at United States (no place named), and frames it as the host. As told, not a fact.",
+  "era": "pre-1947",
+  "years": {
+    "from": 1940,
+    "to": 1959
+  },
+  "place": "united-states",
+  "place_text": "United States",
+  "coordinates": null,
+  "kind": "document",
+  "claims": [],
+  "tellings": [
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 661.0,
+      "to_s": 691.0,
+      "teller": "jesse-michels",
+      "quote": "So, this is like a reported committee in the in the I guess 40s and 50s and like, you know, Nathan Twining, James Forrestal, Vannevar Bush, people like that.",
+      "kind": "host",
+      "cites": [
+        "nathan-twining",
+        "james-forrestal",
+        "vannevar-bush"
+      ],
+      "documents": [
+        "mj-12"
+      ]
+    }
+  ],
+  "related": [],
+  "tags": [],
+  "score": 0.7,
+  "profile": {
+    "independent_tellers": 1,
+    "firsthand": 0,
+    "official_records": 0,
+    "official_conclusions": 0,
+    "journalist": 0,
+    "secondhand": 0,
+    "researcher": 0,
+    "host": 1,
+    "documents": 0,
+    "credited_documents": 1,
+    "repetitions": 0,
+    "contradicted": false,
+    "strongest_kind": "host",
+    "tellers": [
+      "jesse-michels"
+    ],
+    "episodes": [
+      "jyTKETcxj0M"
+    ]
+  },
+  "attestation": 0.35,
+  "tier": "told-once",
+  "plain": "Majestic 12, sometimes written MJ-12, is said to have been a secret committee of top American officials in the 1940s and 1950s, set up to handle the UFO question. Jesse Michels describes it in passing as a \"reported committee\", and names some of the men said to have sat on it: the Air Force general Nathan Twining, the first Secretary of Defense James Forrestal, and the government science chief Vannevar Bush. If such a group existed, it would mean UFOs were being handled at the very top of the US government from the start."
+}

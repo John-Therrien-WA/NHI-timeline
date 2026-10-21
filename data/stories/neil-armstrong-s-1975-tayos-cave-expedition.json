@@ -124,6 +124,36 @@
         },
         "place_text": "Tayos Cave, Ecuador",
         "story_kind": "place-lore"
+      },
+      "replay_of": {
+        "episode": "jyTKETcxj0M",
+        "from_s": 1589.0
+      }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 1612.0,
+      "to_s": 1648.0,
+      "teller": "jesse-michels",
+      "quote": "Uh and it was called the Tayos Cave, and it was supposed to contain ancient alien metallic artifacts.",
+      "kind": "host",
+      "cites": [
+        "neil-armstrong",
+        "luis-felipe-san-salvador"
+      ],
+      "documents": [
+        "bbc-documentary"
+      ],
+      "difference": "Mentions the alleged metallic artifacts and credits Luis Felipe San Salvador.",
+      "link_reason": "Armstrong's 1975 Tayos Cave expedition with a BBC crew, same as the existing story.",
+      "as_told": {
+        "title": "Neil Armstrong's Tayos Cave expedition",
+        "years": {
+          "from": 1975,
+          "to": 1975
+        },
+        "place_text": "Tayos Cave, Ecuador",
+        "story_kind": "place-lore"
       }
     }
   ],
@@ -151,6 +181,7 @@
       "92XrddiKjHY",
       "9PJJiut0Iuw",
       "C_Na1tI5qpw",
+      "jyTKETcxj0M",
       "uVVqFg2v7ro",
       "zjpvfDFc4fg"
     ]

@@ -47,6 +47,29 @@
         "place_text": "Return from the Moon, Apollo 14",
         "story_kind": "encounter"
       }
+    },
+    {
+      "episode": "jyTKETcxj0M",
+      "from_s": 1331.0,
+      "to_s": 1354.0,
+      "teller": "jesse-michels",
+      "quote": "What I I find so interesting about him is it almost felt like he had like a conversion experience on the way back from the moon on Apollo 14.",
+      "kind": "host",
+      "cites": [
+        "edgar-mitchell"
+      ],
+      "documents": [],
+      "difference": "Framed as the host's impression that it felt like a conversion, with no mention of telepathy.",
+      "link_reason": "Same claim that Mitchell had a conversion experience on the way back from the Moon on Apollo 14.",
+      "as_told": {
+        "title": "Edgar Mitchell's conversion on return from the Moon",
+        "years": {
+          "from": 1971,
+          "to": 1971
+        },
+        "place_text": "Apollo 14",
+        "story_kind": "testimony"
+      }
     }
   ],
   "related": [
@@ -82,6 +105,7 @@
     ],
     "episodes": [
       "bVhSPH2A5Vw",
+      "jyTKETcxj0M",
       "uVVqFg2v7ro"
     ]
   },

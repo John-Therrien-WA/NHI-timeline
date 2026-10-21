@@ -6,7 +6,7 @@ Every American Alchemy video (the channel `@JesseMichels`, listed with `yt-dlp -
 
 (none named yet)
 
-## The corpus: 126 videos, 125 done, 1 to run
+## The corpus: 126 videos, 126 done, 0 to run
 
 | Date | Title | Video id | Length | State | Note |
 |---|---|---|---|---|---|
@@ -17,7 +17,7 @@ Every American Alchemy video (the channel `@JesseMichels`, listed with `yt-dlp -
 | 2022-01-28 | Harvard is Studying UFOs (Ft. Avi Loeb) | `_bM9eAtCOGw` | 0:26 | done | Instrumented search (Galileo Project); 'Oumuamua may be artificial. |
 | 2022-02-11 | Eric Weinstein Debates CIA UFO Expert Hal Puthoff | `iQOibpIDx-4` | 0:58 | done | AATIP insider says materials exist; Weinstein pushes back. |
 | 2022-02-18 | Mushrooms Are Alien Mind Control Capsules (ft. Tero Isokauppila) | `9LGohiMmlu4` | 0:16 | done |  |
-|  | Tyler Cowen: Satoshi Identity, UFOs, Esoteric Jesus | `DRVaf3M4FHw` | 0:50 | to run |  |
+| 2022-03-02 | Tyler Cowen: Satoshi Identity, UFOs, Esoteric Jesus | `DRVaf3M4FHw` | 0:50 | done | Gemini transcript. |
 | 2022-08-10 | I Searched for UFOs on Skinwalker Ranch… | `7W7iOt57fOo` | 0:22 | done |  |
 | 2022-09-02 | Martin Shkreli on Life in Prison, Pharma, UFO’s | `2Mb6NPPjCyg` | 1:34 | done |  |
 | 2022-09-09 | “Artificial Intelligence Is An Alien Life Form” -Google Whistleblower (Blake Lemoine) | `RNjC1vLcxKo` | 0:41 | done | The AI as the non-human mind already here (closest to Robot's own premise). |

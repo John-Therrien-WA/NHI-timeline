@@ -2,7 +2,7 @@
 
 Six tiny, entirely fictional episodes so the whole chain runs offline: `pipeline.check --fixture`
 copies this folder to a temporary directory and runs extract (reading `answers/<id>.json` instead
-of asking `claude -p`), link, merge, clips (reading `clips.json`), score, explain, build and the checks on it. Nothing here is a real claim, a
+of asking `claude -p`), link, merge, clips (reading `clips.json`), people (applying `data/person-folds.json`), score, explain, build and the checks on it. Nothing here is a real claim, a
 real person, a real show or a real place; the video ids do not exist. `data/` holds the axes, the
 six episodes, one document and one hand-written story (the one that contradicts a merged one);
 `sources/captions/` the invented caption text; `answers/` the model answers as the prompt's schema
@@ -83,6 +83,23 @@ be named. `check.image_ingest_problems` runs `images.ingest` offline with a down
 the fixture's JPEG: a new image lands under the story id with its sidecar, an image URL the alias
 directory holds is kept, a second run fetches nothing, a failed download stops the run or is listed
 under `keep_going`, and a bad manifest is refused before anything is fetched.
+
+The person fold is one fictional guest under three spellings across two episodes. In FIXTURE0004
+the extraction credits the vault-crew telling to "Faye Fixture", citing "Fay Fixture"; in FIXTURE0005
+Gus Fixture cites her as "Fae Fixture"; `clips.json` names the replayed clip's speaker "Faye Fixture"
+with "Fay Fixture" also heard; and her headshot is filed under `faye-fixture`
+(`data/images/faye-fixture/1.json`, `site/images/faye-fixture/1.png`). Unfolded, the ring would have
+three independent tellers and be `well-attested`. `data/person-folds.json` folds `faye-fixture` and
+`fae-fixture` into `fay-fixture`: the crew telling's self-cite goes (its `cites` in expect.json),
+Gus's telling becomes a repetition, the clip's speaker is `fay-fixture` with nobody else heard, the
+headshot is `images/fay-fixture/1.png`, both member files are gone (`absent_people`), `fay-fixture`
+carries both as `aliases` in its file and in site/data.json (`people_fold`), and "Faye Fixture" and
+"fae-fixture" resolve to `fay-fixture` against this root (`person_ids`). A second fold changes
+nothing. The refusals run on a tiny root of their own (`check.person_fold_refusal_problems`): a
+malformed group, a member in two groups, a member that is another group's canonical and a member
+named nowhere are each named before anything is written, and a fold into a new canonical creates it,
+merges roles, links and affiliation, drops a self-cite, moves a headshot to the next free number,
+drops one whose image URL the canonical holds, and maps a member's old alias, name and id.
 
 `explain.json` stands in for the explain stage: the plain telling for each of the eight stories the
 chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:

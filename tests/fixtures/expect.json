@@ -284,5 +284,36 @@
         "fae-fixture"
       ]
     }
+  },
+  "documents_fold": {
+    "absent": [
+      "nowhere-harbour-log"
+    ],
+    "documents": {
+      "harbour-log-of-nowhere-1958": {
+        "title": "Harbour Log of Nowhere 1958",
+        "date": "1958-06-12",
+        "url": "https://example.org/nowhere-harbour-log",
+        "attests": [
+          "a flare was fired from the pilot boat at ten past nine",
+          "the pilot boat came back to her berth at a quarter to ten"
+        ],
+        "aliases": [
+          "nowhere-harbour-log"
+        ],
+        "locators": [
+          "3",
+          "4"
+        ]
+      }
+    },
+    "story_documents": {
+      "the-lantern-was-a-flare-1958": [
+        "harbour-log-of-nowhere-1958"
+      ],
+      "the-lantern-over-the-harbour-of-nowhere-1958": [
+        "harbour-log-of-nowhere-1958"
+      ]
+    }
   }
 }

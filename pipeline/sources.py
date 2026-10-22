@@ -63,7 +63,8 @@ import urllib.request
 from pathlib import Path
 
 from . import images
-from .common import DATE, HTTP, REPO, Root, load_json, norm_quote, norm_ws, person_aliases, rel, save_json, slugify, text_field
+from .common import (DATE, HTTP, REPO, Root, document_aliases, load_json, norm_quote, norm_ws, person_aliases, rel, save_json,
+                     slugify, text_field)
 from .merge import ensure_person, same_telling
 
 STATUSES = ("public-domain", "in-copyright", "unknown")
@@ -336,9 +337,12 @@ def download(url: str) -> str:
 
 
 def find_document(documents: dict, m: dict) -> tuple[str, bool]:
-    """(document id, True when it is to be created)."""
+    """(document id, True when it is to be created). An id or title slug that a document fold made an alias
+    (`common.document_aliases`) is the document that absorbed it."""
+    aliases = document_aliases(documents)
     if m["id"] is not None:
-        return m["id"], m["id"] not in documents
+        did = aliases.get(m["id"], m["id"])
+        return did, did not in documents
     for key in ("url", "text_url"):
         if m.get(key):
             hits = sorted(did for did, d in documents.items() if m[key] in (d.get("url"), d.get("text_url")))
@@ -350,6 +354,7 @@ def find_document(documents: dict, m: dict) -> tuple[str, bool]:
         return (d.get("url") in (None, m.get("url"))) and (d.get("date") is None or year is None or str(d["date"])[:4] == year)
 
     did = slugify(m["title"])
+    did = aliases.get(did, did)
     if did not in documents:
         return did, True
     if same(documents[did]):

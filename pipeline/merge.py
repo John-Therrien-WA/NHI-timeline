@@ -16,7 +16,8 @@ without `link` becomes a new story unless an existing story has the same title s
 as an alias), or shares a teller and has overlapping years, the same place and the same kind: then
 a telling is added to that story. A new story whose slug is taken gets a numbered suffix. People are created under data/people/ as they are met (tellers and
 the people a teller cites; a name is normalised, so "Jesse Michels (host)" is `jesse-michels`);
-documents a teller credits are created under data/documents/ by title. A candidate's free-text
+documents a teller credits are created under data/documents/ by title (a title whose slug a
+document fold made an alias resolves to the document that absorbed it). A candidate's free-text
 place is resolved to a place id through data/place-aliases.json (alias text to id) or a place name
 contained in the text; the text itself is kept on the story as `place_text`. After the pass,
 `related` gets a `same-event` link between two stories that share years, place and kind and are
@@ -33,8 +34,8 @@ import re
 import sys
 
 from .link import add_relation, alias_map, as_told, candidate_files, framing_of_candidate, fresh_id, resolve
-from .common import (REPO, Root, era_for, load_json, norm_ws, person_aliases, person_id, person_name, rel, save_json, slugify,
-                     story_id)
+from .common import (REPO, Root, document_aliases, era_for, load_json, norm_ws, person_aliases, person_id, person_name, rel,
+                     save_json, slugify, story_id)
 
 MIN_ALIAS = 3  # a contained alias or name shorter than this (as words, "us") matches too much
 
@@ -49,8 +50,11 @@ def ensure_person(people: dict, name: str, role: str | None, aliases: dict[str, 
     return pid
 
 
-def ensure_document(documents: dict, title: str) -> str:
+def ensure_document(documents: dict, title: str, aliases: dict[str, str]) -> str:
+    """The document id of a credited title: its slug, or the document a fold made that slug an alias of
+    (`aliases` is `document_aliases` of the run's documents), creating the file's object when first met."""
     did = slugify(title)
+    did = aliases.get(did, did)
     if did not in documents:
         documents[did] = {"id": did, "title": title, "issuer": None, "date": None, "url": None, "kind": None,
                           "attests": [], "_new": True}
@@ -164,6 +168,7 @@ def run(root: Root, episodes_only: list[str] | None = None) -> dict:
     stories = root.load_dir(root.stories)
     people = root.load_dir(root.people)
     documents = root.load_dir(root.documents)
+    doc_aliases = document_aliases(documents)
     episodes = root.load_dir(root.episodes)
     names = person_aliases(root.path)
     for s in stories.values():
@@ -190,7 +195,7 @@ def run(root: Root, episodes_only: list[str] | None = None) -> dict:
             teller = ensure_person(people, cand["teller"], role_for(cand["kind"]), names)
             cites = [ensure_person(people, n, None, names) for n in cand["cites"]]
             cites = [c for c in dict.fromkeys(cites) if c != teller]
-            docs = list(dict.fromkeys(ensure_document(documents, t) for t in cand["documents"]))
+            docs = list(dict.fromkeys(ensure_document(documents, t, doc_aliases) for t in cand["documents"]))
             sid = story_id(cand["title"], cand["years"])
             telling = telling_from(cand, eid, teller, cites, docs)
             aliases = alias_map(stories)

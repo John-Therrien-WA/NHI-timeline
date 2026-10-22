@@ -211,6 +211,20 @@ def person_id(name: str, aliases: dict[str, str]) -> str:
     return aliases.get(key, key)
 
 
+def document_aliases(documents: dict[str, dict]) -> dict[str, str]:
+    """{alias: document id} from every document's `aliases` (the ids `pipeline.documents --fold` folded into
+    it). Fails when an alias is also a document id or is claimed by two documents."""
+    out: dict[str, str] = {}
+    for did, d in sorted(documents.items()):
+        for a in d.get("aliases") or []:
+            if a in documents:
+                raise SystemExit(f"document {did}: alias {a!r} is also a document file (run pipeline.documents --fold)")
+            if out.get(a, did) != did:
+                raise SystemExit(f"document {did}: alias {a!r} is also an alias of {out[a]}")
+            out[a] = did
+    return out
+
+
 def story_id(title: str, years: dict | None) -> str:
     slug = slugify(title)
     y = years.get("from") if years else None

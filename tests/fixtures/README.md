@@ -2,9 +2,9 @@
 
 Six tiny, entirely fictional episodes so the whole chain runs offline: `pipeline.check --fixture`
 copies this folder to a temporary directory and runs extract (reading `answers/<id>.json` instead
-of asking `claude -p`), link, merge, clips (reading `clips.json`), sources (reading `sources/manifest.json`), people (applying `data/person-folds.json`), score, explain, build and the checks on it. Nothing here is a real claim, a
+of asking `claude -p`), link, merge, clips (reading `clips.json`), sources (reading `sources/manifest.json`), documents (applying `data/document-folds.json`), people (applying `data/person-folds.json`), score, explain, build and the checks on it. Nothing here is a real claim, a
 real person, a real show or a real place; the video ids do not exist. `data/` holds the axes, the
-six episodes, one document and one hand-written story (the one that contradicts a merged one);
+six episodes, two documents (one log under two titles, which the document fold makes one) and one hand-written story (the one that contradicts a merged one);
 `sources/captions/` the invented caption text; `answers/` the model answers as the prompt's schema
 gives them, including one quote that is not verbatim and must be dropped, and one teller named with a role
 ("Bo Fixture (guest)") that must become the same person as "Bo Fixture".
@@ -130,6 +130,28 @@ malformed group, a member in two groups, a member that is another group's canoni
 named nowhere are each named before anything is written, and a fold into a new canonical creates it,
 merges roles, links and affiliation, drops a self-cite, moves a headshot to the next free number,
 drops one whose image URL the canonical holds, and maps a member's old alias, name and id.
+
+The document fold is one fictional log under two titles. The harbour log is held as
+`harbour-log-of-nowhere-1958` (page 3 in its passages) and as `nowhere-harbour-log`
+(`data/documents/nowhere-harbour-log.json` with a url and a date of its own, page 4 in
+`sources/documents/nowhere-harbour-log.txt`): the flare quotes one page under each id, and the lantern's
+extraction credits both titles in one telling. Unfolded, the lantern counts two credited documents and
+the flare two document tellings, both above their `attestation` in expect.json. `data/document-folds.json`
+folds the short id into the full one, which runs after sources and before the person fold: under
+`documents_fold` in expect.json the member's file and text are gone, the canonical keeps its date, takes the
+member's url and attests and carries it as an alias, its text holds both passages under `[3]` and `[4]`, and
+both stories name only the canonical (no telling credits it twice); merge, run again in the second pass, must
+not bring the member back, and a second fold changes nothing. `check.document_fold_problems` (inside the check
+of every root) fails a member id left anywhere, a canonical without its file and an alias that is a document or
+claimed twice. The refusals run on a tiny root of their own (`check.document_fold_refusal_problems`): a
+malformed group, a member in two groups, a member that is another group's canonical, a member named nowhere, a
+canonical or a member an earlier fold put into another document, text files of two formats, two full texts
+that differ, a passages text beside a member that makes the document a public-domain full text, and two
+tellings that would become one are each named before anything is written; a fold then merges two passages
+texts and drops the passage they share, renames a lone member's text to a new canonical, rewrites a manifest's
+document id and leaves its images manifest alone, credits a telling's members once, and merge and sources
+resolve a folded title or id to the canonical.
+
 `check.near_duplicate_problems` runs the near-duplicate warning on a fixed list of ids: of `greg`,
 `greg-malatzi`, `greg-malazzi`, `james-fox`, `james-woods`, `bob-jameson`, `robert-jameson` and
 `donald-trump` it must pair only `greg-malatzi` with `greg-malazzi`, the two spellings of one name,

@@ -30,7 +30,9 @@ The manifest is a JSON list, one entry per story:
 The whole manifest is checked for shape before anything is fetched; a malformed entry refuses the
 run. Then each entry in turn: the document is found (the id given; else an existing document with
 the same `url` or `text_url`; else the slug of the title, plus `-<year>` when that slug is another
-document, one with a different url or year) or created. An existing one takes the manifest's title
+document, one with a different url or year) or created; an id or title slug that a document fold made
+an alias (`common.document_aliases`) is resolved to the document that absorbed it before anything is
+looked up or created. An existing one takes the manifest's title
 when its own differs (a stored title may be a stub `merge.py` made from a teller's words, "Einstein
 1921 ether paper"; each replacement is printed as a `title` line) and gets its other missing fields
 filled, never overwritten. The text file is written from `text.url` (fetched with urllib; anything
@@ -47,7 +49,7 @@ story holds the same text. A failed entry raises with its reason; with --keep-go
 failures at the end and exits 1.
 
 The entries' images are written, deduplicated, to `<manifest stem>.images.json` beside the manifest
-for `pipeline.images` (downloads need their own run). Run after clips, before `people --fold` and score; the
+for `pipeline.images` (downloads need their own run). Run after clips, before `documents --fold`, `people --fold` and score; the
 changed stories are printed so `explain --force` can rewrite their plain tellings.
 
 `check.py` holds the document tellings to their text files with `problems`.

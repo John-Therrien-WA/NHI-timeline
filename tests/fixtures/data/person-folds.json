@@ -1,11 +1,22 @@
-[
-  {
-    "canonical": "fay-fixture",
-    "name": "Fay Fixture",
-    "members": [
-      "faye-fixture",
-      "fae-fixture"
-    ],
-    "reason": "One fictional guest of FIXTURE0004 under three spellings: the extraction credits her vault-crew telling to Faye and Gus cites her as Fae, and the clip FIXTURE0006 replays is her own answer."
-  }
-]
+{
+  "groups": [
+    {
+      "canonical": "fay-fixture",
+      "name": "Fay Fixture",
+      "members": [
+        "faye-fixture",
+        "fae-fixture"
+      ],
+      "reason": "One fictional guest of FIXTURE0004 under three spellings: the extraction credits her vault-crew telling to Faye and Gus cites her as Fae, and the clip FIXTURE0006 replays is her own answer."
+    }
+  ],
+  "distinct": [
+    {
+      "pair": [
+        "bo-fixture",
+        "fay-fixture"
+      ],
+      "reason": "Two fictional people: Bo Fixture tells the vault story in FIXTURE0001 and Fay Fixture is the guest of FIXTURE0004; the pair proves a distinct pair is validated against the people the fold leaves."
+    }
+  ]
+}

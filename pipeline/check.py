@@ -23,7 +23,8 @@ under site/images has a sidecar (`images.problems`); data/clips.json, when prese
 ledger makes of it (`replay_of` an episode in data/episodes or `{"outside": true}`, inside an
 occurrence of a `clip` group, `teller_was` a person). A telling without either mark is not held to
 the ledger, so the check passes between judging and applying. No telling cites its own teller (on a
-replay, its `teller_was`); data/person-folds.json, when present, is well formed, no member id has a
+replay, its `teller_was`); data/person-folds.json, when present, is well formed (every id of a `distinct`
+pair a person file and a member of no group), no member id has a
 person file or stands where a person id goes (a telling, a profile, an episode, a clip, an image, an
 alias target), and every person's `aliases` are ids that are no person file and belong to one person. Every document telling has its
 text file under sources/documents, its quote a verbatim substring of it (inside the passage its
@@ -35,7 +36,8 @@ carries exactly the keys build writes (`build.STORY_KEYS`), so a stale build fai
 story and the entry, and exits 1 when there is one. Then it lists, as warnings that never fail the
 check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
 other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
-through data/person-folds.json (a pair the file folds into one canonical is not listed).
+through data/person-folds.json (a pair the file folds into one canonical, or lists as `distinct`, is not
+listed: `warned_pairs`).
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p` (`explain.json` stands in for the explain stage): the episodes without a `links/<id>.json` are extracted and merged unlinked
@@ -378,8 +380,8 @@ def person_fold_problems(root: Root, stories: dict, people: dict, episodes: dict
     as `person_aliases` loaded it."""
     out: list[str] = []
     f = people_stage.folds_path(root)
-    groups = load_json(f) if f.exists() else []
-    bad = people_stage.group_problems(groups, rel(f, root.path))
+    doc = load_json(f) if f.exists() else {"groups": [], "distinct": []}
+    bad = people_stage.fold_file_problems(doc, rel(f, root.path))
     out += bad
     claimed: dict[str, str] = {}
     for pid, p in sorted(people.items()):
@@ -395,6 +397,8 @@ def person_fold_problems(root: Root, stories: dict, people: dict, episodes: dict
             claimed.setdefault(a, pid)
     if bad:
         return out
+    groups = doc["groups"]
+    out += people_stage.distinct_person_problems(doc["distinct"], set(people), rel(f, root.path))
     to = people_stage.fold_map(groups)
     for m in sorted(m for m in to if m in people):
         out.append(f"person-folds.json: member {m!r} still has data/people/{m}.json (run pipeline.people --fold)")
@@ -972,12 +976,29 @@ def near_duplicate_people(ids) -> list[tuple[str, str]]:
     return out
 
 
+def warned_pairs(ids, doc: dict) -> list[tuple[str, str]]:
+    """The near-duplicate pairs still to warn about: those data/person-folds.json (`doc`, as
+    `people.load_fold_file` gives it) neither folds into one canonical nor lists as distinct."""
+    to = people_stage.fold_map(doc["groups"])
+    judged = people_stage.distinct_pairs(doc)
+    return [(x, y) for x, y in near_duplicate_people(ids)
+            if to.get(x, x) != to.get(y, y) and frozenset((x, y)) not in judged]
+
+
 def near_duplicate_problems() -> list[str]:
     """The near-duplicate warning pairs two spellings of one name and leaves short or distinct ids alone."""
     ids = ["greg", "greg-malatzi", "greg-malazzi", "james-fox", "james-woods", "bob-jameson", "robert-jameson", "donald-trump"]
     got = near_duplicate_people(ids)
     want = [("greg-malatzi", "greg-malazzi")]
-    return [] if got == want else [f"expect: near-duplicate people {want}, got {got}"]
+    out = [] if got == want else [f"expect: near-duplicate people {want}, got {got}"]
+    ids += ["scott-kelly", "scott-pelley", "shane-ryan", "shawn-ryan"]
+    doc = {"groups": [{"canonical": "greg-malatzi", "name": "Greg Malatzi", "members": ["greg-malazzi"], "reason": "r"}],
+           "distinct": [{"pair": ["scott-pelley", "scott-kelly"], "reason": "r"}]}
+    got = warned_pairs(ids, doc)
+    want = [("shane-ryan", "shawn-ryan")]
+    if got != want:
+        out.append(f"expect: the warned pairs leave out a folded and a distinct pair (in either order), {want}, got {got}")
+    return out
 
 
 def fold_discussion_problems() -> list[str]:
@@ -1214,14 +1235,24 @@ def person_fold_refusal_problems() -> list[str]:
             headshot("jo-fixture", 1, "https://example.org/jo-1.png")
             (root.site / "images" / "jo-fixture" / "1.png").unlink()
         folds = root.data / "person-folds.json"
+
+        def doc(groups, distinct=()):
+            return {"groups": groups, "distinct": [{"pair": list(p), "reason": "r"} for p in distinct]}
         refusals = [
-            ("a malformed group", [{**good, "why": "x"}], "must be an object with exactly"),
-            ("a member in two groups", [good, {**good, "canonical": "ivo-fix", "members": ["ivo-fixtor"]}], "also a member of group 1"),
-            ("a member that is another group's canonical", [good, {**good, "canonical": "jo-fixture", "members": ["ivo-fixture"]}],
+            ("a file that is a bare list of groups", [good], "must be an object with exactly groups, distinct"),
+            ("a malformed group", doc([{**good, "why": "x"}]), "must be an object with exactly"),
+            ("a member in two groups", doc([good, {**good, "canonical": "ivo-fix", "members": ["ivo-fixtor"]}]), "also a member of group 1"),
+            ("a member that is another group's canonical", doc([good, {**good, "canonical": "jo-fixture", "members": ["ivo-fixture"]}]),
              "is the canonical of group 1"),
-            ("a member named nowhere", [{**good, "members": ["ivo-fixtur", "nobody-fixture"]}], "'nobody-fixture' has no person file and no reference"),
-            ("a member headshot whose file is missing", [good, {**good, "canonical": "jo-fixtures", "members": ["jo-fixture"]}],
+            ("a member named nowhere", doc([{**good, "members": ["ivo-fixtur", "nobody-fixture"]}]), "'nobody-fixture' has no person file and no reference"),
+            ("a member headshot whose file is missing", doc([good, {**good, "canonical": "jo-fixtures", "members": ["jo-fixture"]}]),
              "data/images/jo-fixture/1.json: its file 'images/jo-fixture/1.png' is missing under site/", missing_headshot),
+            ("a malformed distinct pair", {**doc([good]), "distinct": [{"pair": ["jo-fixture"], "reason": "r"}]},
+             "distinct pair 1: pair must be two different person ids"),
+            ("a distinct id that a group folds", doc([good], [("ivo-fixtor", "jo-fixture")]),
+             "distinct pair 1 (ivo-fixtor, jo-fixture): 'ivo-fixtor' is a member of group 1 (ivo-fixture)"),
+            ("a distinct id that is no person", doc([good], [("jo-fixture", "nobody-fixture")]),
+             "distinct pair 1 (jo-fixture, nobody-fixture): 'nobody-fixture' is no person"),
         ]
         for label, groups, needle, *setup in refusals:
             save_json(folds, groups)
@@ -1239,7 +1270,7 @@ def person_fold_refusal_problems() -> list[str]:
             if setup:
                 shutil.rmtree(root.data / "images" / "jo-fixture")
                 shutil.rmtree(root.site / "images" / "jo-fixture")
-        save_json(folds, [good])
+        save_json(folds, doc([good], [("ivo-fixture", "jo-fixture")]))  # a distinct pair may name a canonical the fold creates
         people_stage.run(root)
         p = load_json(root.people / "ivo-fixture.json")
         want = {"id": "ivo-fixture", "name": "Ivo Fixture", "roles": ["witness", "host"], "affiliation": "Fixture Hour",
@@ -1509,11 +1540,10 @@ def main(argv: list[str] | None = None) -> int:
     if not a.fixture:
         r = Root(a.root)
         try:
-            to = people_stage.fold_map(people_stage.load_folds(r))
+            doc = people_stage.load_fold_file(r)
         except SystemExit:
-            to = {}  # the problems above name it
-        pairs = [(x, y) for x, y in near_duplicate_people(f.stem for f in r.people.glob("*.json"))
-                 if to.get(x, x) != to.get(y, y)]
+            doc = {"groups": [], "distinct": []}  # the problems above name it
+        pairs = warned_pairs([f.stem for f in r.people.glob("*.json")], doc)
         for x, y in pairs:
             print(f"warning: people {x} and {y} may be one person; fold them through data/person-folds.json")
         if pairs:

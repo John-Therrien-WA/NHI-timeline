@@ -2,11 +2,16 @@
 
     uv run python -m pipeline.people --fold [--root DIR]
 
-data/person-folds.json is a list of groups, each `{ "canonical", "name", "members", "reason" }`
-(schema.md, Person folds): the members are ids of one person under other spellings ("warner-von-braun"
-beside "wernher-von-braun"), the canonical the id they become (one of the corpus's or a new one),
-`name` the name as the page shows it, `reason` the evidence. Captions spell a name several ways and
-merge makes one id per spelling, so one teller counts as two independent tellers until folded.
+data/person-folds.json is `{ "groups", "distinct" }` (schema.md, Person folds). `groups` is a list
+of groups, each `{ "canonical", "name", "members", "reason" }`: the members are ids of one person
+under other spellings ("warner-von-braun" beside "wernher-von-braun"), the canonical the id they
+become (one of the corpus's or a new one), `name` the name as the page shows it, `reason` the
+evidence. Captions spell a name several ways and merge makes one id per spelling, so one teller
+counts as two independent tellers until folded. `distinct` is a list of `{ "pair", "reason" }`: two
+person ids judged to be two people although their spellings are close ("scott-kelly" beside
+"scott-pelley"), which check.py then no longer warns about; an id in a pair is a person (a person
+file, or a canonical the fold creates) and a member of no group, refused by name otherwise. The
+fold itself never reads `distinct`.
 
 `--fold` applies every group: in the stories a telling's `teller`, `teller_was` and `cites` take the
 canonical id (cites deduplicated, a cite of the telling's own teller dropped, the teller as extracted,
@@ -39,7 +44,9 @@ from pathlib import Path
 from . import clips, images
 from .common import REPO, Root, load_json, name_key, raw_person_aliases, rel, save_json
 
+FILE_KEYS = ("groups", "distinct")
 FOLD_KEYS = ("canonical", "name", "members", "reason")
+DISTINCT_KEYS = ("pair", "reason")
 PERSON_ID = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
 PERSON_ORDER = ("id", "name", "roles", "affiliation", "links", "note", "aliases")
 
@@ -89,16 +96,69 @@ def group_problems(groups, where: str = "data/person-folds.json") -> list[str]:
     return out
 
 
-def load_folds(root: Root) -> list[dict]:
-    """The groups of data/person-folds.json, checked; [] when the file is absent."""
+def distinct_problems(distinct, groups, where: str = "data/person-folds.json") -> list[str]:
+    """The `distinct` list's shape, and no id in a pair a member of a group; [] when it is sound. `groups` may
+    be malformed (group_problems names that); only its well-formed members are read."""
+    if not isinstance(distinct, list):
+        return [f"{where}: distinct must be a list of pairs"]
+    member_of = {m: (i, g["canonical"]) for i, g in enumerate(groups if isinstance(groups, list) else [], 1)
+                 if isinstance(g, dict) and isinstance(g.get("members"), list)
+                 for m in g["members"] if isinstance(m, str)}
+    out: list[str] = []
+    seen: dict[frozenset, int] = {}
+    for i, d in enumerate(distinct, 1):
+        dw = f"{where} distinct pair {i}"
+        if not isinstance(d, dict) or set(d) != set(DISTINCT_KEYS):
+            out.append(f"{dw}: must be an object with exactly {', '.join(DISTINCT_KEYS)}")
+            continue
+        pair = d["pair"]
+        if not (isinstance(pair, list) and len(pair) == 2 and all(isinstance(x, str) and PERSON_ID.fullmatch(x) for x in pair)
+                and pair[0] != pair[1]):
+            out.append(f"{dw}: pair must be two different person ids, got {pair!r}")
+            continue
+        dw = f"{dw} ({pair[0]}, {pair[1]})"
+        if not (isinstance(d["reason"], str) and d["reason"].strip()):
+            out.append(f"{dw}: reason must be a non-empty string")
+        key = frozenset(pair)
+        if key in seen:
+            out.append(f"{dw}: the pair is also distinct pair {seen[key]}")
+        seen.setdefault(key, i)
+        for x in pair:
+            if x in member_of:
+                j, c = member_of[x]
+                out.append(f"{dw}: {x!r} is a member of group {j} ({c}), which folds it; a folded id is not distinct")
+    return out
+
+
+def distinct_person_problems(distinct: list[dict], persons: set[str], where: str = "data/person-folds.json") -> list[str]:
+    """Each id of a well-formed `distinct` list is one of `persons` (the person ids, plus the canonicals a fold
+    about to run creates)."""
+    return [f"{where} distinct pair {i} ({d['pair'][0]}, {d['pair'][1]}): {x!r} is no person (no data/people/{x}.json)"
+            for i, d in enumerate(distinct, 1) for x in d["pair"] if x not in persons]
+
+
+def fold_file_problems(doc, where: str = "data/person-folds.json") -> list[str]:
+    """The whole file's shape: groups and distinct, and the rules across them; [] when it is sound."""
+    if not isinstance(doc, dict) or set(doc) != set(FILE_KEYS):
+        return [f"{where}: must be an object with exactly {', '.join(FILE_KEYS)}"]
+    return group_problems(doc["groups"], where) + distinct_problems(doc["distinct"], doc["groups"], where)
+
+
+def load_fold_file(root: Root) -> dict:
+    """data/person-folds.json, checked; no groups and no distinct pairs when the file is absent."""
     f = folds_path(root)
     if not f.exists():
-        return []
-    groups = load_json(f)
-    bad = group_problems(groups, rel(f, root.path))
+        return {"groups": [], "distinct": []}
+    doc = load_json(f)
+    bad = fold_file_problems(doc, rel(f, root.path))
     if bad:
         raise SystemExit("people: data/person-folds.json has problems:\n" + "\n".join(bad))
-    return groups
+    return doc
+
+
+def distinct_pairs(doc: dict) -> set[frozenset]:
+    """The judged pairs of the file, each as a frozenset of its two ids."""
+    return {frozenset(d["pair"]) for d in doc["distinct"]}
 
 
 def fold_map(groups: list[dict]) -> dict[str, str]:
@@ -204,16 +264,21 @@ def plan_aliases(raw: dict, to: dict[str, str], groups: list[dict], people: dict
 
 
 def run(root: Root) -> dict:
-    groups = load_folds(root)
+    doc = load_fold_file(root)
+    groups = doc["groups"]
     stats = {"groups": len(groups), "people_folded": 0, "people_created": 0, "tellings": 0, "clips": 0,
              "episodes": 0, "sidecars": 0, "headshots_moved": 0, "headshots_dropped": 0, "aliases_added": 0}
+    people = root.load_dir(root.people)
+    bad = distinct_person_problems(doc["distinct"], set(people) | {g["canonical"] for g in groups},
+                                   rel(folds_path(root), root.path))
+    if bad:
+        raise SystemExit("people: data/person-folds.json does not fit the data:\n" + "\n".join(bad))
     if not groups:
         print("people: no data/person-folds.json groups, nothing to fold", file=sys.stderr)
         return stats
     to = fold_map(groups)
     names = {g["canonical"]: g["name"] for g in groups}
     stories = root.load_dir(root.stories)
-    people = root.load_dir(root.people)
     episodes = root.load_dir(root.episodes)
     ledger = clips.load_ledger(root)
     sidecars = images.load_sidecars(root)

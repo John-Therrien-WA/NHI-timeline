@@ -1,7 +1,7 @@
 """Keep the data honest.
 
     uv run python -m pipeline.check [--root DIR]
-    uv run python -m pipeline.check --fixture
+    uv run python -m pipeline.check --fixture [--keep-temp]
 
 Every story has at least one telling; every episode, document, person, era, place and related
 story id resolves; every quote with an episode is a verbatim substring of that episode's caption
@@ -84,7 +84,10 @@ A story that still carries the retired `summary` field is refused by name, and s
 site/data.json whose keys are not build.STORY_KEYS. On a copy with the stage's
 plain tellings removed, `explain --shard 1/2` and `--shard 2/2` explain disjoint halves of the ordered list
 that together match the full run, and a malformed shard is refused. Every `*_problems` case
-run_fixture or expectations calls must be named in tests/fixtures/README.md.
+run_fixture or expectations calls must be named in tests/fixtures/README.md. Every temporary folder the
+check makes (`TEMP_PREFIXES`) is removed when its case ends, on success or failure; `--keep-temp` keeps
+them and prints each path. A fixture run that fails on a broken copy leaves none behind
+(`temp_cleanup_problems`).
 For the sources stage: the documents,
 text files, tellings, source notes and images manifest under `sources`, the documents a story's
 block in site/data.json carries with their provenance, a note-only document among them
@@ -116,6 +119,23 @@ from .common import (DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, 
                      STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
+TEMP_PREFIXES = ("nhi-fixture-", "nhi-link-group-", "nhi-sources-", "nhi-fold-", "nhi-docfold-", "nhi-explain-shard-")
+KEEP_TEMP = False  # --keep-temp: the temporary folders stay, each path printed
+
+
+def make_temp(prefix: str) -> Path:
+    """A temporary folder of the check's; every caller removes it with `drop_temp` in a `finally`."""
+    if prefix not in TEMP_PREFIXES:
+        raise SystemExit(f"check: temporary folder prefix {prefix!r} is not one of TEMP_PREFIXES {TEMP_PREFIXES}")
+    return Path(tempfile.mkdtemp(prefix=prefix))
+
+
+def drop_temp(tmp: Path) -> None:
+    """Remove a folder `make_temp` made, on success or failure, unless --keep-temp keeps it (the path printed)."""
+    if KEEP_TEMP:
+        print(f"check: kept {tmp}", file=sys.stderr)
+    else:
+        shutil.rmtree(tmp, ignore_errors=True)
 
 
 MODEL_JS = REPO / "site" / "js" / "model.js"
@@ -835,7 +855,7 @@ def link_group_problems() -> list[str]:
     killed run's provisional stories offered again, every `same` or `variant` names a story in its
     `against`, and `--existing` refuses `--batch`."""
     from . import link, llm
-    tmp = Path(tempfile.mkdtemp(prefix="nhi-link-group-"))
+    tmp = make_temp("nhi-link-group-")
     out: list[str] = []
     try:
         root = Root(tmp)
@@ -942,7 +962,7 @@ def link_group_problems() -> list[str]:
         except SystemExit:
             pass
     finally:
-        shutil.rmtree(tmp)
+        drop_temp(tmp)
     return out
 
 
@@ -1215,7 +1235,14 @@ def source_ingest_problems(root: Root) -> list[str]:
     tellings `official` whatever the entry's kind) on a document whose stub title the manifest's replaces, and
     the check's refusals of a missing text file, a wrong page, a stray text file and a full text kept for a
     document that is not public domain."""
-    tmp = Path(tempfile.mkdtemp(prefix="nhi-sources-"))
+    tmp = make_temp("nhi-sources-")
+    try:
+        return _source_ingest_problems(root, tmp)
+    finally:
+        drop_temp(tmp)
+
+
+def _source_ingest_problems(root: Root, tmp: Path) -> list[str]:
     shutil.copytree(root.path, tmp, dirs_exist_ok=True)
     r = Root(tmp)
     out: list[str] = []
@@ -1346,10 +1373,6 @@ def source_ingest_problems(root: Root) -> list[str]:
     if not any("different provenances" in p for p in problems(r)):
         out.append("expect: check passed two documents of one url with different provenances, which build refuses")
     twin.unlink()
-    if not out:
-        shutil.rmtree(tmp)
-    else:
-        out.append(f"expect: the sources copy is left in {tmp}")
     return out
 
 
@@ -1358,7 +1381,7 @@ def person_fold_refusal_problems() -> list[str]:
     a new canonical creates it, merges the fields (a member's own earlier aliases kept, and a member an earlier
     fold put into another member accepted), moves a headshot to the canonical's next free number and drops one
     whose image_url the canonical holds."""
-    tmp = Path(tempfile.mkdtemp(prefix="nhi-fold-"))
+    tmp = make_temp("nhi-fold-")
     out: list[str] = []
     try:
         root = Root(tmp)
@@ -1458,7 +1481,7 @@ def person_fold_refusal_problems() -> list[str]:
         if {**snapshot(root.data), **snapshot(root.site)} != before:
             out.append("expect: a second people --fold on the tiny root changed something")
     finally:
-        shutil.rmtree(tmp)
+        drop_temp(tmp)
     return out
 
 
@@ -1503,7 +1526,7 @@ def document_fold_refusal_problems() -> list[str]:
     (a telling crediting two members credits the canonical once), and afterwards merge and sources resolve an
     alias, a title slug or a manifest id, to the canonical. A second run changes nothing."""
     from . import merge
-    tmp = Path(tempfile.mkdtemp(prefix="nhi-docfold-"))
+    tmp = make_temp("nhi-docfold-")
     out: list[str] = []
     try:
         root = Root(tmp)
@@ -1616,7 +1639,7 @@ def document_fold_refusal_problems() -> list[str]:
         if not any("'log-b'" in x and "log-a" in x and "aliases" in x for x in problems(root)):
             out.append("expect: check passes a fold whose member log-b is missing from its canonical log-a's aliases")
     finally:
-        shutil.rmtree(tmp)
+        drop_temp(tmp)
     return out
 
 
@@ -1671,7 +1694,7 @@ def explain_shard_problems(root: Root) -> list[str]:
     `--shard 2/2` (groups of two) explain disjoint halves of the ordered list, every other story
     each, and together give every story the telling the full run gave it."""
     from . import explain
-    tmp = Path(tempfile.mkdtemp(prefix="nhi-explain-shard-"))
+    tmp = make_temp("nhi-explain-shard-")
     out: list[str] = []
     try:
         shutil.copytree(root.path, tmp, dirs_exist_ok=True)
@@ -1709,7 +1732,7 @@ def explain_shard_problems(root: Root) -> list[str]:
                 pass
         return out
     finally:
-        shutil.rmtree(tmp)
+        drop_temp(tmp)
 
 
 def retired_summary_problems(root: Root) -> list[str]:
@@ -1749,21 +1772,53 @@ def fixture_readme_problems() -> list[str]:
     what each proves."""
     import inspect
     readme = (FIXTURES / "README.md").read_text(encoding="utf-8")
-    called = sorted(set(re.findall(r"\b(\w+_problems)\(", inspect.getsource(run_fixture) + inspect.getsource(expectations))))
+    called = sorted(set(re.findall(r"\b(\w+_problems)\(", inspect.getsource(_run_fixture) + inspect.getsource(expectations))))
     return [f"tests/fixtures/README.md does not name {name}, a case the fixture chain calls" for name in called
             if name != "fixture_readme_problems" and name not in readme]
+
+
+def temp_cleanup_problems() -> list[str]:
+    """A fixture run that fails (a copy of tests/fixtures whose first prepared extract answer is not JSON, run
+    through `run_fixture`) leaves no temporary folder of the check's behind, with `tempfile` pointed at a folder
+    of its own so a live run elsewhere is never looked at."""
+    own = Path(tempfile.mkdtemp(prefix="nhi-tempcheck-"))
+    try:
+        broken = own / "broken"
+        shutil.copytree(FIXTURES, broken)
+        first = sorted((broken / "answers").glob("*.json"))[0]
+        first.write_text("{", encoding="utf-8")
+        with mock.patch.object(tempfile, "tempdir", str(own)), mock.patch.object(sys.modules[__name__], "KEEP_TEMP", False):
+            try:
+                run_fixture(broken)
+                failed = False
+            except (Exception, SystemExit):
+                failed = True
+        out = [] if failed else ["expect: the fixture run on a broken copy did not fail"]
+        left = sorted(p.name for p in own.iterdir() if p.name.startswith(TEMP_PREFIXES))
+        if left:
+            out.append(f"expect: a failed fixture run left the temporary folders {left} behind")
+        return out
+    finally:
+        shutil.rmtree(own, ignore_errors=True)
 
 
 def snapshot(d: Path) -> dict[str, str]:
     return {rel(f, d): hashlib.sha256(f.read_bytes()).hexdigest() for f in sorted(d.rglob("*")) if f.is_file()}
 
 
-def run_fixture() -> list[str]:
+def run_fixture(fixtures: Path = FIXTURES) -> list[str]:
+    if not fixtures.exists():
+        raise SystemExit(f"no fixtures at {fixtures}")
+    tmp = make_temp("nhi-fixture-")
+    try:
+        return _run_fixture(fixtures, tmp)
+    finally:
+        drop_temp(tmp)
+
+
+def _run_fixture(fixtures: Path, tmp: Path) -> list[str]:
     from . import build, explain, extract, link, merge, score
-    if not FIXTURES.exists():
-        raise SystemExit(f"no fixtures at {FIXTURES}")
-    tmp = Path(tempfile.mkdtemp(prefix="nhi-fixture-"))
-    shutil.copytree(FIXTURES, tmp, dirs_exist_ok=True)
+    shutil.copytree(fixtures, tmp, dirs_exist_ok=True)
     root = Root(tmp)
     answers = sorted((tmp / "answers").glob("*.json"))
     if not answers:
@@ -1842,11 +1897,8 @@ def run_fixture() -> list[str]:
     out += stale_build_problems(root)
     out += explain_shard_problems(root)
     out += explain_answer_problems()
+    out += temp_cleanup_problems()
     out += fixture_readme_problems()
-    if out:
-        print(f"check: fixture chain left in {tmp} for inspection", file=sys.stderr)
-    else:
-        shutil.rmtree(tmp)
     return out
 
 
@@ -1854,7 +1906,10 @@ def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--root", default=REPO)
     ap.add_argument("--fixture", action="store_true")
+    ap.add_argument("--keep-temp", action="store_true", help="keep the temporary folders the fixture chain makes, each path printed")
     a = ap.parse_args(argv)
+    global KEEP_TEMP
+    KEEP_TEMP = a.keep_temp
     out = run_fixture() if a.fixture else problems(Root(a.root))
     for p in out:
         print(p)

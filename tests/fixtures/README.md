@@ -207,3 +207,8 @@ shard (`0/2`, `3/2`, `1`, `a/b`) is refused. `check.retired_summary_problems` pr
 refuses, by name, a story file that still carries the retired `summary` field, and
 `check.stale_build_problems` that it refuses a story in site/data.json whose keys are not the set
 `build.STORY_KEYS` names (a stale build still carrying `summary`).
+
+`check.temp_cleanup_problems` proves that a fixture run that fails leaves no temporary folder behind:
+it copies the fixtures, writes the first prepared extract answer as broken JSON, runs the copy through
+`run_fixture` with `tempfile` pointed at a folder of its own, sees the run fail, and finds no folder of
+the check's prefixes (`check.TEMP_PREFIXES`) left in that folder.

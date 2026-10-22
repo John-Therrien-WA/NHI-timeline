@@ -43,6 +43,7 @@ Each story carries an evidence profile: its independent tellers by kind, its doc
 ## Working here
 
 - Python 3.12, `uv`, no dependencies beyond the standard library; `../creator-watch` checked out beside this repo, with its `.venv` and keys file, for the Gemini fallback only; `yt-dlp` on the path; `claude` on the path for the extraction pass. `uv run python -m pipeline.<stage>`; the order is in `README.md` under Run. `uv run python -m pipeline.check --fixture` after any change to the pipeline.
+- `check --fixture` removes every temporary folder it makes (`nhi-fixture-` and the other `check.TEMP_PREFIXES`) when each case ends, on success or failure, and keeps them only with `--keep-temp`, so a leftover is never tidied by glob. Never merge or rebuild while a fixture run is live: two stages on one temp root race.
 - A story is edited by hand in its JSON when the pipeline gets it wrong; `check.py` keeps hand edits honest.
 - Quotes are verbatim from the captions, with the video id and the time code: a substring of the caption text with the `[h:mm:ss]` prefixes stripped and whitespace collapsed, case and punctuation exact. A paraphrase is marked as one.
 - Git: commit after each piece of work; `origin` is `git@github-personal:John-Therrien-WA/NHI-timeline.git`; push at the end of a session; never force-push.

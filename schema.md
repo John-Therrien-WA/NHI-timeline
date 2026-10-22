@@ -131,6 +131,20 @@ The decided folds of one person under several spellings (`groups`) and the close
 - `distinct`: each entry `{ "pair", "reason" }`, `pair` two different person ids, `reason` the evidence that they are two people. A pair is listed once (in either order); each id is a person (a person file, or a canonical the fold creates) and a member of no group. `people.py` and `check.py` refuse a pair that breaks this, naming it; `check.py` no longer lists the pair among its near-duplicate warnings. The fold itself never reads it.
 - `pipeline/people.py --fold` applies the groups (CLAUDE.md, Layout), a member's headshot dropped when the canonical already holds the same `image_url`: afterwards no member id has a person file or stands where a person id goes (a telling's `teller`, `teller_was` or `cites`, a story's profile, an episode's `host` or `guests`, a clip's `speaker` or `also_heard`, an image directory or a person picture's `person`, a target in `data/person-aliases.json`), and `check.py` refuses one that does.
 
+## Document folds (`data/document-folds.json`)
+
+The decided folds of one document under several titles, a list of groups, hand-correctable:
+
+```json
+[ { "canonical": "twining-memo", "title": "AMC Opinion Concerning \"Flying Discs\" (the Twining memo)",
+    "members": ["twining-memo-1947", "twining-memorandum"],
+    "reason": "One memo, Nathan Twining's of 23 September 1947; the sources stage holds its text under twining-memo." } ]
+```
+
+- `canonical`: the id the members become, a document id the corpus holds or a new one (the stage creates its file). `title`: the title as the page shows it, replacing the canonical's. `members`: one or more other ids of the same document (one text, one issuer, one date), titles that chain in one group. `reason`: the evidence, one or two sentences. No other field; every id a lowercase slug.
+- A member is in one group only, is never a canonical, agrees with the canonical and the other members on every field both set (`date`, `url`, `issuer` and the rest; a disagreement is settled by hand in the document files before folding), and is a document file or an id a telling or a manifest names; the canonical is in no group's members and is not an alias of another document.
+- `pipeline/documents.py --fold` applies the groups (CLAUDE.md, Layout): afterwards no member id has a document file or stands where a document id goes (a telling's `document` or `documents`, a source manifest's `document.id`), the member's evidence text is part of the canonical's, and `check.py` refuses a member id left anywhere, a canonical without its file or without a member in its `aliases`, and a member held as an alias by another document.
+
 ## Episode (`data/episodes/<video id>.json`)
 
 ```json
@@ -142,8 +156,10 @@ An episode whose captions came from the Gemini fallback (`pipeline/gemini_captio
 ## Document (`data/documents/<id>.json`)
 
 ```json
-{ "id": "odni-uap-preliminary-2021", "title": "Preliminary Assessment: Unidentified Aerial Phenomena", "issuer": "Office of the Director of National Intelligence", "date": "2021-06-25", "url": "https://...", "kind": "official", "attests": ["144 reports examined, 143 unexplained"] }
+{ "id": "odni-uap-preliminary-2021", "title": "Preliminary Assessment: Unidentified Aerial Phenomena", "issuer": "Office of the Director of National Intelligence", "date": "2021-06-25", "url": "https://...", "kind": "official", "attests": ["144 reports examined, 143 unexplained"], "aliases": [] }
 ```
+
+- `aliases` (optional, written by `pipeline/documents.py`): the ids folded into this document and the slugs of the fold's title and of every old title, none of them the document's own id, a document file of its own and none an alias of another document. `merge.py` and `sources.py` map a title slug or an id that is an alias to this document (`common.document_aliases`), so a folded id never comes back.
 
 - `status` (optional): `public-domain`, `in-copyright` or `unknown`, as the hosting site states it. `text_url` (optional): where the full text is read online. Both are filled by `pipeline/sources.py` when missing, never overwritten; `kind` gets the source's telling kind when null. The `title` is the one field the stage replaces: a title `merge.py` wrote from a teller's words (a stub such as "Einstein 1921 ether paper") gives way to the manifest's, and the stage prints each replacement.
 - `sources/documents/<document id>.txt` is the document's evidence, the way a caption file is an episode's: for a document of status `public-domain` with a `text_url` the full text as fetched (plain text, a bracketed line such as `[Illustration]` part of the text), for every other document (in copyright, `unknown`, or with no status) only the quoted passages, one paragraph each after a line `[<locator>]`, no text before the first. The document's status and `text_url` decide which, never the file's lines. A document telling's `quote` must be a verbatim substring of it (`common.norm_quote` on both sides: whitespace collapsed, case and punctuation exact); in a passages file the quote lies inside the passage under its telling's `page`. `check.py` fails a document telling without the file, a file no document has and a file not in its document's format.

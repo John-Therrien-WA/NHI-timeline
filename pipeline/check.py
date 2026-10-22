@@ -26,7 +26,11 @@ the ledger, so the check passes between judging and applying. No telling cites i
 replay, its `teller_was`); data/person-folds.json, when present, is well formed (every id of a `distinct`
 pair a person file and a member of no group), no member id has a
 person file or stands where a person id goes (a telling, a profile, an episode, a clip, an image, an
-alias target), and every person's `aliases` are ids that are no person file and belong to one person. Every document telling has its
+alias target), and every person's `aliases` are ids that are no person file and belong to one person;
+data/document-folds.json, when present, is well formed, no member id has a document file or stands
+where a document id goes (a telling's `document` or `documents`, a source manifest's `document.id`:
+`documents.reference_sites`), every canonical has its document file, and every document's `aliases`
+are ids that are no document file and belong to one document. Every document telling has its
 text file under sources/documents, its quote a verbatim substring of it (inside the passage its
 `page` names when the file holds passages), every document's `status` and `text_url` are well
 formed and every text file there is a document's and in its format: a full text only for a
@@ -45,8 +49,8 @@ answers, no `claude -p` (`explain.json` stands in for the explain stage): the ep
 `links/existing.json`, then the episodes with a links file are extracted, linked in one run (so
 one can join a story another creates; each episode's candidates in groups of ten, one prepared
 answer per group) and merged; clips (judged with `clips.json`), sources (`sources/manifest.json`, its
-text served from `sources/served/`), people --fold, score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link and clips answer was asked for, then
-runs both link modes, merge, clips, sources, people --fold, score and explain again and verifies that nothing was asked and nothing
+text served from `sources/served/`), documents --fold, people --fold, score, explain (every story without a hand-written `plain`) and build follow. It checks the result and that every prepared link and clips answer was asked for, then
+runs both link modes, merge, clips, sources, documents --fold, people --fold, score and explain again and verifies that nothing was asked and nothing
 changed. Last it checks `tests/fixtures/expect.json`: the time codes given candidates must have
 (the nearest of two occurrences, quotes across a `>>` or a bracketed tag), the people that must not
 exist (a spelling the person aliases fold), the host and guests `captions.host_and_guests` must take
@@ -69,6 +73,11 @@ lifts a speaker whose own telling is second-hand; and which person ids the near-
 For the person fold: the members absent, the canonical's name and aliases in its file and in
 site/data.json, the cites of a telling whose self-cite the fold dropped, and on a tiny root of its own
 every refusal named before anything is written, a new canonical created and a headshot moved.
+For the document fold (`documents_fold`, `absent_documents`): the member absent, the canonical's title,
+aliases and filled url, its text holding both members' passages, the tellings crediting the canonical once,
+and on a tiny root of its own (`document_fold_refusal_problems`) every refusal named before anything is
+written, a passages text renamed and two merged, a manifest id rewritten, and merge and sources resolving
+an alias to the canonical.
 A story that still carries the retired `summary` field is refused by name, and so is a built story in
 site/data.json whose keys are not build.STORY_KEYS. On a copy with the stage's
 plain tellings removed, `explain --shard 1/2` and `--shard 2/2` explain disjoint halves of the ordered list
@@ -94,9 +103,10 @@ import json
 
 from . import clips, images, sources
 from .build import STORY_KEYS
+from . import documents as documents_stage
 from . import people as people_stage
 from .common import (DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, REPO, RELATIONS,
-                     STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
+                     STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
 
@@ -341,6 +351,7 @@ def problems(root: Root) -> list[str]:
     out += notes_problems(root, stories, owner)
     out += images.problems(root, stories, owner, people)
     out += person_fold_problems(root, stories, people, episodes, clip_groups, aliases)
+    out += document_fold_problems(root, stories, documents)
     out += sources.problems(root, stories, documents)
     out += page_kinds_problems()
     out += built_story_problems(root)
@@ -419,6 +430,55 @@ def person_fold_problems(root: Root, stories: dict, people: dict, episodes: dict
     for x, w in people_stage.reference_sites(stories, episodes, clip_groups, images.load_sidecars(root), aliases):
         if isinstance(x, str) and x in to:
             out.append(f"{w}: names {x!r}, which person-folds.json folds into {to[x]!r} (run pipeline.people --fold)")
+    return out
+
+
+def document_fold_problems(root: Root, stories: dict, documents: dict) -> list[str]:
+    """data/document-folds.json well formed and applied: no member id has a document file or is named where a
+    document id goes (`documents.reference_sites`), every canonical has its document file and holds every member
+    in its `aliases` (so merge and sources map the member to it), and no other document holds a member as an alias;
+    every document's `aliases` is a list of ids that are no document file and belong to no other document."""
+    out: list[str] = []
+    f = documents_stage.folds_path(root)
+    groups = load_json(f) if f.exists() else []
+    bad = documents_stage.group_problems(groups, rel(f, root.path))
+    out += bad
+    claimed: dict[str, str] = {}
+    for did, d in sorted(documents.items()):
+        al = d.get("aliases", [])
+        if not (isinstance(al, list) and all(is_document_id(a) for a in al)):
+            out.append(f"document {did}: aliases must be a list of document ids")
+            continue
+        for a in al:
+            if a in documents:
+                out.append(f"document {did}: alias {a!r} is also a document file (run pipeline.documents --fold)")
+            if a in claimed:
+                out.append(f"document {did}: alias {a!r} is also an alias of {claimed[a]}")
+            claimed.setdefault(a, did)
+    if bad:
+        return out
+    to = documents_stage.fold_map(groups)
+    for m in sorted(m for m in to if m in documents):
+        out.append(f"document-folds.json: member {m!r} still has data/documents/{m}.json (run pipeline.documents --fold)")
+    for g in groups:
+        c = g["canonical"]
+        if c not in documents:
+            out.append(f"document-folds.json: canonical {c!r} has no document file (run pipeline.documents --fold)")
+            continue
+        for m in g["members"]:
+            if m not in documents and m not in documents[c].get("aliases", []):
+                out.append(f"document-folds.json: member {m!r} is not in the aliases of its canonical {c!r} "
+                           f"(data/documents/{c}.json), so merge and sources would not map it there")
+    for a, did in sorted(claimed.items()):
+        if to.get(a, did) != did:
+            out.append(f"document {did}: alias {a!r} is a member document-folds.json folds into {to[a]!r}, not into {did!r}")
+    try:
+        manifests = documents_stage.load_manifests(root)
+    except SystemExit as e:
+        return out + [str(e)]
+    for x, w in documents_stage.reference_sites(stories, manifests, root.path):
+        if isinstance(x, str) and x in to:
+            out.append(f"{w}: names document {x!r}, which document-folds.json folds into {to[x]!r} (run pipeline.documents --fold)")
     return out
 
 
@@ -556,6 +616,8 @@ def expectations(root: Root) -> list[str]:
     out += image_refusal_problems(root)
     out += image_ingest_problems(root)
     out += person_fold_refusal_problems()
+    out += document_fold_expectations(root, exp)
+    out += document_fold_refusal_problems()
     flare = built.get("the-lantern-was-a-flare-1958", {}).get("discussion", [])
     if len(flare) < 2 or not str(flare[1].get("url", "")).endswith("t=27"):
         out.append(f"expect: the flare's second discussion entry has url {flare[1].get('url') if len(flare) > 1 else None!r}, expected one ending t=27")
@@ -1352,6 +1414,164 @@ def person_fold_refusal_problems() -> list[str]:
     return out
 
 
+def document_fold_expectations(root: Root, exp: dict) -> list[str]:
+    """The fixture's document fold as expect.json's `documents_fold` gives it: the members gone, each canonical's
+    fields, aliases and text locators, the document ids each named story's tellings hold, and no telling crediting
+    one document twice."""
+    want = exp.get("documents_fold", {})
+    out: list[str] = []
+    for did in want.get("absent", []):
+        for f in (root.documents / f"{did}.json", sources.text_path(root, did)):
+            if f.exists():
+                out.append(f"expect: {rel(f, root.path)} exists; the document fold should have folded it")
+    for did, e in sorted(want.get("documents", {}).items()):
+        f = root.documents / f"{did}.json"
+        d = load_json(f) if f.exists() else {}
+        for k, v in e.items():
+            if k == "locators":
+                t = sources.text_path(root, did)
+                got = [loc for loc, _ in sources.DocumentText.read(t, root.path, True).passages] if t.exists() else None
+                if got != v:
+                    out.append(f"expect: {rel(t, root.path)} holds the passages {got}, expected {v}")
+            elif d.get(k) != v:
+                out.append(f"expect: document {did} has {k} {d.get(k)!r}, expected {v!r}")
+    stories = root.load_dir(root.stories)
+    for sid, v in sorted(want.get("story_documents", {}).items()):
+        ts = stories.get(sid, {}).get("tellings", [])
+        got = sorted({x for t in ts for x in [t.get("document"), *t.get("documents", [])] if x})
+        if got != v:
+            out.append(f"expect: story {sid} names the documents {got}, expected {v}")
+    for sid, s in sorted(stories.items()):
+        for i, t in enumerate(s["tellings"]):
+            if len(set(t.get("documents", []))) != len(t.get("documents", [])):
+                out.append(f"expect: story {sid} telling {i + 1} credits a document twice: {t['documents']}")
+    return out
+
+
+def document_fold_refusal_problems() -> list[str]:
+    """`documents.run` on a tiny root of its own: each refusal is named before anything is written; a fold merges
+    the fields (a member's own earlier alias kept and accepted as a member), merges two passages texts and drops
+    the passage they share, renames a lone member text to a new canonical, rewrites a manifest id and the tellings
+    (a telling crediting two members credits the canonical once), and afterwards merge and sources resolve an
+    alias, a title slug or a manifest id, to the canonical. A second run changes nothing."""
+    from . import merge
+    tmp = Path(tempfile.mkdtemp(prefix="nhi-docfold-"))
+    out: list[str] = []
+    try:
+        root = Root(tmp)
+        texts = sources.text_dir(root)
+
+        def doc(did, title, text=None, **kw):
+            save_json(root.documents / f"{did}.json", {"id": did, "title": title, "issuer": None, "date": None, "url": None,
+                                                       "kind": None, "attests": [], **kw})
+            if text is not None:
+                texts.mkdir(parents=True, exist_ok=True)
+                (texts / f"{did}.txt").write_text(text, encoding="utf-8")
+
+        doc("log-a", "Log A", "[1]\nThe boat left at nine.\n", attests=["a"])
+        doc("log-b", "Log B", "[2]\nThe boat came back at ten.\n", issuer="Harbour", date="1958", url="https://example.org/b",
+            kind="official", attests=["b"], aliases=["log-z"])  # an earlier fold, kept; log-z is also a member below
+        doc("log-c", "Log C", "[1]\nThe boat left at nine.\n\n[3]\nNobody saw a lantern.\n", date="1958", attests=["b", "c"])
+        doc("log-d", "Log D", date="1957")  # disagrees with log-b's date
+        doc("lone-member", "Lone member", "[7]\nA lone passage.\n", issuer="Lone issuer")
+        doc("pam", "Pam", "Full text of pam.\n", status="public-domain", text_url="https://example.org/pam.txt")
+        doc("pam-q", "Pam Q", "[1]\nFull text of pam.\n")
+        doc("pam-r", "Pam R", "Another full text.\n", status="public-domain", text_url="https://example.org/pam-r.txt")
+        doc("pam-s", "Pam S", status="public-domain", text_url="https://example.org/pam-s.txt")
+        doc("other", "Other")
+        t1 = {"document": "log-b", "page": "2", "teller": "x", "quote": "The boat came back at ten.", "kind": "official", "cites": [], "documents": []}
+        t2 = {"episode": "E", "from_s": 1, "teller": "x", "quote": "q", "kind": "firsthand", "cites": [], "documents": ["log-a", "log-c", "log-b", "other"]}
+        save_json(root.stories / "s.json", {"id": "s", "title": "t", "tellings": [t1, t2], "related": []})
+        manifests = documents_stage.manifests_dir(root)
+        save_json(manifests / "m.json", [{"story": "s", "document": {"id": "log-c", "title": "Log C"}}])
+        save_json(manifests / "m.images.json", [{"owner": "log-c", "image_url": "https://example.org/i.jpg"}])
+        good = {"canonical": "log-a", "title": "Log A (folded)", "members": ["log-b", "log-c", "log-z"], "reason": "r"}
+        lone = {"canonical": "lone", "title": "Lone", "members": ["lone-member"], "reason": "r"}
+
+        def twice_told():
+            tell = {"page": "1", "teller": "x", "quote": "The boat left at nine.", "kind": "official", "cites": [], "documents": []}
+            save_json(root.stories / "s2.json", {"id": "s2", "title": "t", "related": [],
+                                                 "tellings": [{"document": "log-a", **tell}, {"document": "log-c", **tell}]})
+        folds = documents_stage.folds_path(root)
+        refusals = [
+            ("a malformed group", [{**good, "name": "x"}], "must be an object with exactly"),
+            ("a canonical longer than an id", [{**good, "canonical": "a" * 61}], "is not a document id"),
+            ("a canonical in two groups", [good, {**lone, "canonical": "log-a"}], "also the canonical of group 1"),
+            ("conflicting fields", [{**good, "members": ["log-b", "log-d"]}], "date"),
+            ("a title whose slug is another document", [{**good, "title": "Other"}], "alias 'other' is the document other"),
+            ("a member in two groups", [good, {**lone, "members": ["log-c"]}], "also a member of group 1"),
+            ("a member that is another group's canonical", [good, {**lone, "members": ["log-a"]}], "is the canonical of group 1"),
+            ("a member named nowhere", [{**good, "members": ["log-b", "nobody-doc"]}], "'nobody-doc' has no document file and no reference"),
+            ("a canonical folded earlier", [{**good, "canonical": "log-z", "members": ["log-c"]}], "the canonical was folded into 'log-b' earlier"),
+            ("a member folded earlier elsewhere", [{**good, "canonical": "log-c", "members": ["log-z"]}], "member 'log-z' was folded into 'log-b' earlier"),
+            ("texts of two formats", [{**lone, "canonical": "pam", "members": ["pam-q"]}], "the text files are of two formats"),
+            ("two full texts that differ", [{**lone, "canonical": "pam", "members": ["pam-r"]}], "two full texts that differ"),
+            ("a text the folded document does not keep", [{**lone, "canonical": "log-a", "members": ["pam-s"]}],
+             "but the folded document keeps a full text"),
+            ("a story told twice by one quote", [good], "story s2: tellings 1 and 2 would become the same telling of log-a", twice_told),
+        ]
+        for label, groups, needle, *setup in refusals:
+            save_json(folds, groups)
+            for f in setup:
+                f()
+            before = snapshot(tmp)
+            try:
+                documents_stage.run(root, echo=lambda line: None)
+                out.append(f"expect: documents --fold accepted {label}")
+            except SystemExit as e:
+                if needle not in str(e):
+                    out.append(f"expect: documents --fold refused {label} without naming it ({needle!r}): {e}")
+            if snapshot(tmp) != before:
+                out.append(f"expect: documents --fold wrote something before refusing {label}")
+            if setup:
+                (root.stories / "s2.json").unlink()
+        save_json(folds, [good, lone])
+        documents_stage.run(root, echo=lambda line: None)
+        a = load_json(root.documents / "log-a.json")
+        want = {"id": "log-a", "title": "Log A (folded)", "issuer": "Harbour", "date": "1958", "url": "https://example.org/b",
+                "kind": "official", "attests": ["a", "b", "c"], "aliases": ["log-b", "log-z", "log-c", "log-a-folded"]}
+        if a != want:
+            out.append(f"expect: the folded canonical is {a}, expected {want}")
+        if any((root.documents / f"{m}.json").exists() or (texts / f"{m}.txt").exists() for m in ("log-b", "log-c", "lone-member")):
+            out.append("expect: the member document files and texts must be gone after the fold")
+        merged = (texts / "log-a.txt").read_text(encoding="utf-8")
+        if merged != "[1]\nThe boat left at nine.\n\n[2]\nThe boat came back at ten.\n\n[3]\nNobody saw a lantern.\n":
+            out.append(f"expect: the merged passages are {merged!r}")
+        lone_text = texts / "lone.txt"
+        if not lone_text.exists() or lone_text.read_text(encoding="utf-8") != "[7]\nA lone passage.\n":
+            out.append("expect: the lone member's text was not renamed to the new canonical's")
+        lone_doc = load_json(root.documents / "lone.json") if (root.documents / "lone.json").exists() else None
+        if (lone_doc or {}).get("issuer") != "Lone issuer":
+            out.append(f"expect: the new canonical is {lone_doc}, expected one with the member's issuer")
+        s = load_json(root.stories / "s.json")["tellings"]
+        if (s[0]["document"], s[1]["documents"]) != ("log-a", ["log-a", "other"]):
+            out.append(f"expect: the folded tellings name {s[0]['document']!r} and credit {s[1]['documents']}, expected log-a and [log-a, other]")
+        if load_json(manifests / "m.json")[0]["document"]["id"] != "log-a" or load_json(manifests / "m.images.json")[0]["owner"] != "log-c":
+            out.append("expect: the manifest's document id must be log-a and its images manifest left as it was")
+        docs = root.load_dir(root.documents)
+        if merge.ensure_document(docs, "Log B", document_aliases(docs)) != "log-a":
+            out.append("expect: merge makes a new document of the title Log B, which the fold made an alias of log-a")
+        if merge.ensure_document(docs, "Log A (folded)", document_aliases(docs)) != "log-a":
+            out.append("expect: merge makes a new document of the group's title Log A (folded), which the fold made an alias of log-a")
+        for m, did in (({"id": "log-c", "title": "Log C", "url": None, "text_url": None, "date": None}, "log-a"),
+                       ({"id": None, "title": "Lone member", "url": None, "text_url": None, "date": None}, "lone")):
+            if sources.find_document(docs, m) != (did, False):
+                out.append(f"expect: sources finds {sources.find_document(docs, m)} for {m}, expected {did}, held")
+        before = snapshot(tmp)
+        documents_stage.run(root, echo=lambda line: None)
+        if snapshot(tmp) != before:
+            out.append("expect: a second documents --fold on the tiny root changed something")
+        save_json(root.data / "eras.json", [])  # the axes the whole-root check reads
+        save_json(root.data / "places.json", [])
+        a = load_json(root.documents / "log-a.json")
+        save_json(root.documents / "log-a.json", {**a, "aliases": []})
+        if not any("'log-b'" in x and "log-a" in x and "aliases" in x for x in problems(root)):
+            out.append("expect: check passes a fold whose member log-b is missing from its canonical log-a's aliases")
+    finally:
+        shutil.rmtree(tmp)
+    return out
+
+
 def explain_answer_problems() -> list[str]:
     """`explain.Asker` with a fake model: an answered id that spells out the asked id's truncated last
     word (`...-by-entities-2026` for `...-by-entiti-2026`), or that drops its `-<year>` suffix, is saved
@@ -1532,6 +1752,7 @@ def run_fixture() -> list[str]:
     if unused:
         out.append(f"clips: prepared answers never asked for: {unused}")
     run_sources(root, SourceFetch(root))
+    documents_stage.run(root, echo=lambda line: None)
     people_stage.run(root)
     score.run(root)
     explain.run(root, explain.Asker(root, "fixture", 1, tmp / "explain.json"))
@@ -1554,6 +1775,8 @@ def run_fixture() -> list[str]:
     src_again = SourceFetch(root)
     if run_sources(root, src_again)["changed"] or src_again.calls:
         out.append(f"sources is not idempotent: a second run changed stories or fetched {src_again.calls} time(s)")
+    if any(v for k, v in documents_stage.run(root, echo=lambda line: None).items() if k != "groups"):
+        out.append("documents --fold is not idempotent: a second run reported changes")
     if any(v for k, v in people_stage.run(root).items() if k != "groups"):
         out.append("people --fold is not idempotent: a second run reported changes")
     score.run(root)
@@ -1564,7 +1787,7 @@ def run_fixture() -> list[str]:
     after = {**snapshot(root.data), **snapshot(root.site / "images"), **{f"sources/{k}": v for k, v in snapshot(root.path / "sources").items()}}
     if before != after:
         changed = sorted(k for k in set(before) | set(after) if before.get(k) != after.get(k))
-        out.append(f"the chain is not idempotent: a second run of link, merge, clips, sources, people, score and explain changed {changed}")
+        out.append(f"the chain is not idempotent: a second run of link, merge, clips, sources, documents, people, score and explain changed {changed}")
     if any(v for k, v in stats.items()):
         out.append(f"merge is not idempotent: a second run reported {stats}")
     out += retired_summary_problems(root)

@@ -30,7 +30,9 @@ The manifest is a JSON list, one entry per story:
 The whole manifest is checked for shape before anything is fetched; a malformed entry refuses the
 run. Then each entry in turn: the document is found (the id given; else an existing document with
 the same `url` or `text_url`; else the slug of the title, plus `-<year>` when that slug is another
-document, one with a different url or year) or created. An existing one takes the manifest's title
+document, one with a different url or year) or created; an id or title slug that a document fold made
+an alias (`common.document_aliases`) is resolved to the document that absorbed it before anything is
+looked up or created. An existing one takes the manifest's title
 when its own differs (a stored title may be a stub `merge.py` made from a teller's words, "Einstein
 1921 ether paper"; each replacement is printed as a `title` line) and gets its other missing fields
 filled, never overwritten. The text file is written from `text.url` (fetched with urllib; anything
@@ -47,7 +49,7 @@ story holds the same text. A failed entry raises with its reason; with --keep-go
 failures at the end and exits 1.
 
 The entries' images are written, deduplicated, to `<manifest stem>.images.json` beside the manifest
-for `pipeline.images` (downloads need their own run). Run after clips, before `people --fold` and score; the
+for `pipeline.images` (downloads need their own run). Run after clips, before `documents --fold`, `people --fold` and score; the
 changed stories are printed so `explain --force` can rewrite their plain tellings.
 
 `check.py` holds the document tellings to their text files with `problems`.
@@ -63,7 +65,8 @@ import urllib.request
 from pathlib import Path
 
 from . import images
-from .common import DATE, HTTP, REPO, Root, load_json, norm_quote, norm_ws, person_aliases, rel, save_json, slugify, text_field
+from .common import (DATE, HTTP, REPO, Root, document_aliases, is_document_id, load_json, norm_quote, norm_ws, person_aliases, rel, save_json,
+                     slugify, text_field)
 from .merge import ensure_person, same_telling
 
 STATUSES = ("public-domain", "in-copyright", "unknown")
@@ -238,7 +241,7 @@ def entry_problems(where: str, e, stories: dict, story_alias: dict[str, str]) ->
                 out.append(f"{where}: document is missing {k} (null when unknown)")
         if not text_field(d.get("title")):
             out.append(f"{where}: document title must be a non-empty string")
-        if d.get("id") is not None and not (isinstance(d["id"], str) and d["id"] and slugify(d["id"]) == d["id"]):
+        if d.get("id") is not None and not is_document_id(d["id"]):
             out.append(f"{where}: document id {d['id']!r} is not a slug")
         for k in ("author", "issuer"):
             if not _opt_text(d.get(k)):
@@ -336,9 +339,12 @@ def download(url: str) -> str:
 
 
 def find_document(documents: dict, m: dict) -> tuple[str, bool]:
-    """(document id, True when it is to be created)."""
+    """(document id, True when it is to be created). An id or title slug that a document fold made an alias
+    (`common.document_aliases`) is the document that absorbed it."""
+    aliases = document_aliases(documents)
     if m["id"] is not None:
-        return m["id"], m["id"] not in documents
+        did = aliases.get(m["id"], m["id"])
+        return did, did not in documents
     for key in ("url", "text_url"):
         if m.get(key):
             hits = sorted(did for did, d in documents.items() if m[key] in (d.get("url"), d.get("text_url")))
@@ -350,6 +356,7 @@ def find_document(documents: dict, m: dict) -> tuple[str, bool]:
         return (d.get("url") in (None, m.get("url"))) and (d.get("date") is None or year is None or str(d["date"])[:4] == year)
 
     did = slugify(m["title"])
+    did = aliases.get(did, did)
     if did not in documents:
         return did, True
     if same(documents[did]):

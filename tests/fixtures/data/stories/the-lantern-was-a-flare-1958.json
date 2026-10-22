@@ -10,7 +10,8 @@
   "kind": "sighting",
   "claims": ["the light over the harbour was a flare"],
   "tellings": [
-    { "document": "harbour-log-of-nowhere-1958", "page": "3", "teller": "harbour-master-of-nowhere", "quote": "a flare was fired from the pilot boat at ten past nine", "kind": "official", "cites": [], "documents": [] }
+    { "document": "harbour-log-of-nowhere-1958", "page": "3", "teller": "harbour-master-of-nowhere", "quote": "a flare was fired from the pilot boat at ten past nine", "kind": "official", "cites": [], "documents": [] },
+    { "document": "nowhere-harbour-log", "page": "4", "teller": "harbour-master-of-nowhere", "quote": "the pilot boat came back to her berth at a quarter to ten", "kind": "official", "cites": [], "documents": [] }
   ],
   "related": [
     { "story": "the-lantern-over-the-harbour-of-nowhere-1958", "relation": "contradicts", "note": "the official account (fixture)" }

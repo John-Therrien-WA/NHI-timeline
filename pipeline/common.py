@@ -145,12 +145,23 @@ def save_json(f: Path, obj) -> bool:
     return True
 
 
-def slugify(s: str, limit: int = 60) -> str:
+SLUG_LIMIT = 60  # the longest slug `slugify` makes by default, so the longest document or story id
+SLUG = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
+
+
+def slugify(s: str, limit: int = SLUG_LIMIT) -> str:
     s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode()
     s = re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")
     if not s:
         raise SystemExit(f"cannot make a slug from {s!r}")
     return s[:limit].rstrip("-")
+
+
+def is_document_id(x) -> bool:
+    """A document id is a slug `slugify` could make of a title: lowercase letters and digits in runs joined by
+    single hyphens, at most SLUG_LIMIT characters (so `slugify(x) == x`). The fold, the check and a source
+    manifest hold an id to this one rule."""
+    return isinstance(x, str) and len(x) <= SLUG_LIMIT and SLUG.fullmatch(x) is not None
 
 
 ROLE = re.compile(r"\s*\([^()]*\)\s*$")
@@ -209,6 +220,20 @@ def person_id(name: str, aliases: dict[str, str]) -> str:
     spelling, else the name key."""
     key = name_key(name)
     return aliases.get(key, key)
+
+
+def document_aliases(documents: dict[str, dict]) -> dict[str, str]:
+    """{alias: document id} from every document's `aliases` (the ids `pipeline.documents --fold` folded into
+    it). Fails when an alias is also a document id or is claimed by two documents."""
+    out: dict[str, str] = {}
+    for did, d in sorted(documents.items()):
+        for a in d.get("aliases") or []:
+            if a in documents:
+                raise SystemExit(f"document {did}: alias {a!r} is also a document file (run pipeline.documents --fold)")
+            if out.get(a, did) != did:
+                raise SystemExit(f"document {did}: alias {a!r} is also an alias of {out[a]}")
+            out[a] = did
+    return out
 
 
 def story_id(title: str, years: dict | None) -> str:

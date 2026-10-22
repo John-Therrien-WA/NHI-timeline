@@ -97,7 +97,12 @@ downloader that reads the file (`check.SourceFetch`; its `[Illustration]` line i
 public-domain document with a text_url keeps its full text and is never read as passages), one quote under the locator `I`, a note that
 the pamphlet already had the idea, and two pictures (the title page, Ivo's headshot). The stage runs
 after clips and before the person fold: the mirror gains Ivo's first-hand document telling, a `source` note and the document,
-so it ends `well-attested` with two independent tellers; `sources/documents/` gains the pamphlet's
+so it ends `well-attested` with two independent tellers. Bo's prepared answer `cites` "Ivo Fixture": this is the
+cited-source case, an expectation in `expect.json` (the mirror's tier, attestation and `tellers`, Bo and Ivo)
+rather than a `*_problems` function, and it proves that citing a source is not repeating it: Ivo tells the mirror
+only through the document telling, so Bo's cite is no edge and Bo stays independent (read as a repetition, the
+mirror would be `told-once` with Ivo alone). The vault is the other half: Bo cites Cy, who tells the vault in an
+episode, so Bo stays a repetition there and the vault's attestation stays 2.0 (Cy and Eve); `sources/documents/` gains the pamphlet's
 text beside the harbour log's (the flare's document telling, which check holds to it), and
 `sources/manifest.images.json` the two pictures, which `images.manifest_problems` must accept.
 `expect.json` names all of it under `sources`, with the lines explain sends the model for the mirror

@@ -1,110 +1,110 @@
 {
-  "id": "cia-remote-viewing-program",
-  "title": "CIA remote viewing program",
-  "era": null,
-  "years": null,
-  "place": "united-states",
-  "place_text": "United States",
-  "coordinates": null,
-  "kind": "program",
-  "claims": [],
-  "tellings": [
-    {
-      "episode": "areO7Mej44E",
-      "from_s": 1864.0,
-      "to_s": 1870.0,
-      "teller": "steven-greer",
-      "quote": "Um, so the cheap end of it is the remote viewing program that the CIA had,",
-      "kind": "researcher",
-      "cites": [
-        "bob-monroe"
-      ],
-      "documents": []
-    },
-    {
-      "episode": "G7Ns4Aq1tVc",
-      "from_s": 3312.0,
-      "to_s": 3319.0,
-      "teller": "nick-cook",
-      "quote": "but still they went ahead and did it anyway and funded it for 18 years or something.",
-      "kind": "researcher",
-      "cites": [],
-      "documents": [],
-      "difference": "Says the program was funded for about 18 years despite doubts, which the story does not give.",
-      "link_reason": "Both tell of the CIA's remote viewing program as a whole.",
-      "as_told": {
-        "title": "CIA remote viewing program",
-        "years": null,
-        "place_text": "USA",
-        "story_kind": "program"
-      }
-    },
-    {
-      "episode": "ATJwqp5twAg",
-      "from_s": 14419.0,
-      "to_s": 14425.0,
-      "teller": "jesse-michels",
-      "quote": "documented is, you know, the the CIA's\nefforts in remote viewing and\nparapsychology.",
-      "kind": "host",
-      "cites": [],
-      "documents": [
-        "freedom-of-information-act-release"
-      ],
-      "difference": "Says the program was documented through a 2017 FOIA release and adds parapsychology.",
-      "link_reason": "Both are about the CIA's documented remote-viewing program.",
-      "as_told": {
-        "title": "CIA remote viewing program released via FOIA in 2017",
-        "years": {
-          "from": 2017,
-          "to": 2017
-        },
-        "place_text": "CIA, Langley",
-        "story_kind": "program"
-      }
-    },
-    {
-      "episode": "1F7DHbSbgbQ",
-      "from_s": 4656.0,
-      "to_s": 4660.0,
-      "teller": "jesse-michels",
-      "quote": "and it's been declassified. There's a CIA remote viewing program.",
-      "kind": "host",
-      "cites": [],
-      "documents": [],
-      "difference": "Adds that the program has been declassified.",
-      "link_reason": "Both refer to the CIA's remote viewing program as a whole."
-    }
-  ],
-  "related": [],
-  "tags": [],
-  "score": 1.7,
-  "profile": {
-    "independent_tellers": 3,
-    "firsthand": 0,
-    "official_records": 0,
-    "official_conclusions": 0,
-    "journalist": 0,
-    "secondhand": 0,
-    "researcher": 2,
-    "host": 1,
-    "documents": 0,
-    "credited_documents": 1,
-    "repetitions": 0,
-    "contradicted": false,
-    "strongest_kind": "researcher",
-    "tellers": [
-      "jesse-michels",
-      "nick-cook",
-      "steven-greer"
-    ],
-    "episodes": [
-      "1F7DHbSbgbQ",
-      "ATJwqp5twAg",
-      "G7Ns4Aq1tVc",
-      "areO7Mej44E"
-    ]
+ "id": "cia-remote-viewing-program",
+ "title": "CIA remote viewing program",
+ "era": null,
+ "years": null,
+ "place": "united-states",
+ "place_text": "United States",
+ "coordinates": null,
+ "kind": "program",
+ "claims": [],
+ "tellings": [
+  {
+   "episode": "areO7Mej44E",
+   "from_s": 1864.0,
+   "to_s": 1870.0,
+   "teller": "steven-greer",
+   "quote": "Um, so the cheap end of it is the remote viewing program that the CIA had,",
+   "kind": "researcher",
+   "cites": [
+    "bob-monroe"
+   ],
+   "documents": []
   },
-  "attestation": 0.85,
-  "tier": "well-attested",
-  "plain": "Every story here was told on one podcast, American Alchemy, hosted by Jesse Michels. The CIA, the US foreign intelligence agency, is said to have run a remote viewing program: an effort to train people to describe faraway places and things using only their minds. The researcher Steven Greer brings it up without naming a source. He calls it \"the cheap end\" of secret government work and mentions Bob Monroe, a name he connects with the work. The researcher Nick Cook, also giving no source, says the government had doubts but \"went ahead and did it anyway and funded it for 18 years or something.\" Michels raises it in two episodes. In one he says the CIA's work on remote viewing and parapsychology, the study of mind powers such as telepathy, is documented, pointing to a 2017 release under the Freedom of Information Act, a US law that lets anyone request government records. In the other he says simply that \"it's been declassified.\" All the tellers bring it up as proof that the government took strange abilities seriously."
+  {
+   "episode": "G7Ns4Aq1tVc",
+   "from_s": 3312.0,
+   "to_s": 3319.0,
+   "teller": "nick-cook",
+   "quote": "but still they went ahead and did it anyway and funded it for 18 years or something.",
+   "kind": "researcher",
+   "cites": [],
+   "documents": [],
+   "difference": "Says the program was funded for about 18 years despite doubts, which the story does not give.",
+   "link_reason": "Both tell of the CIA's remote viewing program as a whole.",
+   "as_told": {
+    "title": "CIA remote viewing program",
+    "years": null,
+    "place_text": "USA",
+    "story_kind": "program"
+   }
+  },
+  {
+   "episode": "ATJwqp5twAg",
+   "from_s": 14419.0,
+   "to_s": 14425.0,
+   "teller": "jesse-michels",
+   "quote": "documented is, you know, the the CIA's\nefforts in remote viewing and\nparapsychology.",
+   "kind": "host",
+   "cites": [],
+   "documents": [
+    "freedom-of-information-act-release"
+   ],
+   "difference": "Says the program was documented through a 2017 FOIA release and adds parapsychology.",
+   "link_reason": "Both are about the CIA's documented remote-viewing program.",
+   "as_told": {
+    "title": "CIA remote viewing program released via FOIA in 2017",
+    "years": {
+     "from": 2017,
+     "to": 2017
+    },
+    "place_text": "CIA, Langley",
+    "story_kind": "program"
+   }
+  },
+  {
+   "episode": "1F7DHbSbgbQ",
+   "from_s": 4656.0,
+   "to_s": 4660.0,
+   "teller": "jesse-michels",
+   "quote": "and it's been declassified. There's a CIA remote viewing program.",
+   "kind": "host",
+   "cites": [],
+   "documents": [],
+   "difference": "Adds that the program has been declassified.",
+   "link_reason": "Both refer to the CIA's remote viewing program as a whole."
+  }
+ ],
+ "related": [],
+ "tags": [],
+ "score": 1.7,
+ "profile": {
+  "independent_tellers": 3,
+  "firsthand": 0,
+  "official_records": 0,
+  "official_conclusions": 0,
+  "journalist": 0,
+  "secondhand": 0,
+  "researcher": 2,
+  "host": 1,
+  "documents": 0,
+  "credited_documents": 1,
+  "repetitions": 0,
+  "contradicted": false,
+  "strongest_kind": "researcher",
+  "tellers": [
+   "jesse-michels",
+   "nick-cook",
+   "steven-greer"
+  ],
+  "episodes": [
+   "1F7DHbSbgbQ",
+   "ATJwqp5twAg",
+   "G7Ns4Aq1tVc",
+   "areO7Mej44E"
+  ]
+ },
+ "attestation": 0.85,
+ "tier": "well-attested",
+ "plain": "The CIA, the US foreign intelligence agency, is said to have run a remote viewing program: an effort to train people to describe faraway places and things using only their minds. The researcher Steven Greer brings it up without naming a source. He calls it \"the cheap end\" of secret government work and mentions Bob Monroe, a name he connects with the work. The researcher Nick Cook, also giving no source, says the government had doubts but \"went ahead and did it anyway and funded it for 18 years or something.\" Michels raises it in two episodes. In one he says the CIA's work on remote viewing and parapsychology, the study of mind powers such as telepathy, is documented, pointing to a 2017 release under the Freedom of Information Act, a US law that lets anyone request government records. In the other he says simply that \"it's been declassified.\" All the tellers bring it up as proof that the government took strange abilities seriously."
 }

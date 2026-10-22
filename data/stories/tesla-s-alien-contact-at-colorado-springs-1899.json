@@ -1,173 +1,174 @@
 {
-  "id": "tesla-s-alien-contact-at-colorado-springs-1899",
-  "title": "Tesla's alien contact at Colorado Springs",
-  "era": null,
-  "years": {
-    "from": 1899,
-    "to": 1899
+ "id": "tesla-s-alien-contact-at-colorado-springs-1899",
+ "title": "Tesla's alien contact at Colorado Springs",
+ "era": null,
+ "years": {
+  "from": 1899,
+  "to": 1899
+ },
+ "place": null,
+ "place_text": "Colorado Springs, Colorado",
+ "coordinates": null,
+ "kind": "encounter",
+ "claims": [],
+ "tellings": [
+  {
+   "episode": "09KP8XVf5nY",
+   "from_s": 9684.0,
+   "to_s": 9691.0,
+   "teller": "jesse-michels",
+   "quote": "Well, Tesla's another guy. He said he spoke he communicated with aliens in Colorado Springs",
+   "kind": "host",
+   "cites": [
+    "nikola-tesla"
+   ],
+   "documents": []
   },
-  "place": null,
-  "place_text": "Colorado Springs, Colorado",
-  "coordinates": null,
-  "kind": "encounter",
-  "claims": [],
-  "tellings": [
-    {
-      "episode": "09KP8XVf5nY",
-      "from_s": 9684.0,
-      "to_s": 9691.0,
-      "teller": "jesse-michels",
-      "quote": "Well, Tesla's another guy. He said he spoke he communicated with aliens in Colorado Springs",
-      "kind": "host",
-      "cites": [
-        "nikola-tesla"
-      ],
-      "documents": []
+  {
+   "episode": "EzPmG_7WhXc",
+   "from_s": 11616.0,
+   "to_s": 11622.0,
+   "teller": "jesse-michels",
+   "quote": "Tesla saying he saw the past, present, and future all in one and spoke to aliens,",
+   "kind": "host",
+   "cites": [
+    "nikola-tesla"
+   ],
+   "documents": [],
+   "difference": "Adds that Tesla saw past, present and future all at once, and does not name Colorado Springs or 1899.",
+   "link_reason": "Both tell of Tesla's claim that he communicated with aliens.",
+   "as_told": {
+    "title": "Tesla seeing past, present and future and speaking to aliens",
+    "years": null,
+    "place_text": "unspecified",
+    "story_kind": "testimony"
+   }
+  },
+  {
+   "episode": "Sct30Qijfv8",
+   "from_s": 4502.0,
+   "to_s": 4512.0,
+   "teller": "jesse-michels",
+   "quote": "Tesla said that he communicated with extraterrestrials in Colorado",
+   "kind": "host",
+   "cites": [
+    "nikola-tesla"
+   ],
+   "documents": [],
+   "difference": "",
+   "link_reason": "Both tell of Tesla's claim that he communicated with extraterrestrials in Colorado in 1899.",
+   "as_told": {
+    "title": "Tesla communicates with extraterrestrials in Colorado",
+    "years": {
+     "from": 1899,
+     "to": 1899
     },
-    {
-      "episode": "EzPmG_7WhXc",
-      "from_s": 11616.0,
-      "to_s": 11622.0,
-      "teller": "jesse-michels",
-      "quote": "Tesla saying he saw the past, present, and future all in one and spoke to aliens,",
-      "kind": "host",
-      "cites": [
-        "nikola-tesla"
-      ],
-      "documents": [],
-      "difference": "Adds that Tesla saw past, present and future all at once, and does not name Colorado Springs or 1899.",
-      "link_reason": "Both tell of Tesla's claim that he communicated with aliens.",
-      "as_told": {
-        "title": "Tesla seeing past, present and future and speaking to aliens",
-        "years": null,
-        "place_text": "unspecified",
-        "story_kind": "testimony"
-      }
+    "place_text": "Colorado",
+    "story_kind": "encounter"
+   }
+  },
+  {
+   "episode": "iPxbILOMQ08",
+   "from_s": 5542.0,
+   "to_s": 5548.0,
+   "teller": "steve-coburn",
+   "quote": "their tech is or something. They they they talked to Tesla, too, according to what to his writings.",
+   "kind": "secondhand",
+   "cites": [
+    "nikola-tesla"
+   ],
+   "documents": [
+    "tesla-s-writings"
+   ],
+   "difference": "Told by the guest rather than the host, who cites Tesla's own writings as the source.",
+   "link_reason": "Both tell of Tesla saying he communicated with aliens, which the story places at Colorado Springs in 1899.",
+   "as_told": {
+    "title": "Tesla's reported communication with aliens",
+    "years": {
+     "from": 1899,
+     "to": 1899
     },
-    {
-      "episode": "Sct30Qijfv8",
-      "from_s": 4502.0,
-      "to_s": 4512.0,
-      "teller": "jesse-michels",
-      "quote": "Tesla said that he communicated with extraterrestrials in Colorado",
-      "kind": "host",
-      "cites": [
-        "nikola-tesla"
-      ],
-      "documents": [],
-      "difference": "",
-      "link_reason": "Both tell of Tesla's claim that he communicated with extraterrestrials in Colorado in 1899.",
-      "as_told": {
-        "title": "Tesla communicates with extraterrestrials in Colorado",
-        "years": {
-          "from": 1899,
-          "to": 1899
-        },
-        "place_text": "Colorado",
-        "story_kind": "encounter"
-      }
-    },
-    {
-      "episode": "iPxbILOMQ08",
-      "from_s": 5542.0,
-      "to_s": 5548.0,
-      "teller": "steve-coburn",
-      "quote": "their tech is or something. They they they talked to Tesla, too, according to what to his writings.",
-      "kind": "secondhand",
-      "cites": [
-        "nikola-tesla"
-      ],
-      "documents": [
-        "tesla-s-writings"
-      ],
-      "difference": "Told by the guest rather than the host, who cites Tesla's own writings as the source.",
-      "link_reason": "Both tell of Tesla saying he communicated with aliens, which the story places at Colorado Springs in 1899.",
-      "as_told": {
-        "title": "Tesla's reported communication with aliens",
-        "years": {
-          "from": 1899,
-          "to": 1899
-        },
-        "place_text": "Colorado Springs, Colorado",
-        "story_kind": "encounter"
-      }
-    },
-    {
-      "document": "talking-with-planets",
-      "page": "paragraph 18",
-      "teller": "nikola-tesla",
-      "quote": "My first observations positively terrified me, as there was present in them something mysterious, not to say supernatural, and I was alone in my laboratory at night; but at that time the idea of these disturbances being intelligently controlled signals did not yet present itself to me.",
-      "kind": "firsthand",
-      "cites": [],
-      "documents": []
-    },
-    {
-      "document": "talking-with-planets",
-      "page": "paragraph 19",
-      "teller": "nikola-tesla",
-      "quote": "The changes I noted were taking place periodically, and with such a clear suggestion of number and order that they were not traceable to any cause then known to me.",
-      "kind": "firsthand",
-      "cites": [],
-      "documents": []
-    },
-    {
-      "document": "talking-with-planets",
-      "page": "paragraph 19",
-      "teller": "nikola-tesla",
-      "quote": "The feeling is constantly growing on me that I had been the first to hear the greeting of one planet to another.",
-      "kind": "firsthand",
-      "cites": [],
-      "documents": []
-    },
-    {
-      "document": "talking-with-planets",
-      "page": "paragraph 19",
-      "teller": "nikola-tesla",
-      "quote": "A purpose was behind these electrical signals; and it was with this conviction that I announced to the Red Cross Society, when it asked me to indicate one of the great possible achievements of the next hundred years, that it would probably be the confirmation and interpretation of this planetary challenge to us.",
-      "kind": "firsthand",
-      "cites": [],
-      "documents": []
-    }
+    "place_text": "Colorado Springs, Colorado",
+    "story_kind": "encounter"
+   }
+  },
+  {
+   "document": "talking-with-planets",
+   "page": "paragraph 18",
+   "teller": "nikola-tesla",
+   "quote": "My first observations positively terrified me, as there was present in them something mysterious, not to say supernatural, and I was alone in my laboratory at night; but at that time the idea of these disturbances being intelligently controlled signals did not yet present itself to me.",
+   "kind": "firsthand",
+   "cites": [],
+   "documents": []
+  },
+  {
+   "document": "talking-with-planets",
+   "page": "paragraph 19",
+   "teller": "nikola-tesla",
+   "quote": "The changes I noted were taking place periodically, and with such a clear suggestion of number and order that they were not traceable to any cause then known to me.",
+   "kind": "firsthand",
+   "cites": [],
+   "documents": []
+  },
+  {
+   "document": "talking-with-planets",
+   "page": "paragraph 19",
+   "teller": "nikola-tesla",
+   "quote": "The feeling is constantly growing on me that I had been the first to hear the greeting of one planet to another.",
+   "kind": "firsthand",
+   "cites": [],
+   "documents": []
+  },
+  {
+   "document": "talking-with-planets",
+   "page": "paragraph 19",
+   "teller": "nikola-tesla",
+   "quote": "A purpose was behind these electrical signals; and it was with this conviction that I announced to the Red Cross Society, when it asked me to indicate one of the great possible achievements of the next hundred years, that it would probably be the confirmation and interpretation of this planetary challenge to us.",
+   "kind": "firsthand",
+   "cites": [],
+   "documents": []
+  }
+ ],
+ "related": [],
+ "tags": [],
+ "score": 4.7,
+ "profile": {
+  "independent_tellers": 3,
+  "firsthand": 1,
+  "official_records": 0,
+  "official_conclusions": 0,
+  "journalist": 0,
+  "secondhand": 1,
+  "researcher": 0,
+  "host": 1,
+  "documents": 1,
+  "credited_documents": 1,
+  "repetitions": 0,
+  "contradicted": false,
+  "strongest_kind": "firsthand",
+  "tellers": [
+   "jesse-michels",
+   "nikola-tesla",
+   "steve-coburn"
   ],
-  "related": [],
-  "tags": [],
-  "score": 4.7,
-  "profile": {
-    "independent_tellers": 3,
-    "firsthand": 1,
-    "official_records": 0,
-    "official_conclusions": 0,
-    "journalist": 0,
-    "secondhand": 1,
-    "researcher": 0,
-    "host": 1,
-    "documents": 1,
-    "credited_documents": 1,
-    "repetitions": 0,
-    "contradicted": false,
-    "strongest_kind": "firsthand",
-    "tellers": [
-      "jesse-michels",
-      "nikola-tesla",
-      "steve-coburn"
-    ],
-    "episodes": [
-      "09KP8XVf5nY",
-      "EzPmG_7WhXc",
-      "Sct30Qijfv8",
-      "iPxbILOMQ08"
-    ]
-  },
-  "attestation": 2.35,
-  "tier": "well-attested",
-  "plain": "The inventor Nikola Tesla is said to have communicated with aliens from his laboratory in Colorado Springs in 1899; Michels says so several times, once adding that Tesla saw past, present and future all at once, and Steve Colbern, a scientist who studies objects said to be alien implants, says \"they talked to Tesla\" according to Tesla's writings. Tesla's own account, the article Talking with Planets published in Collier's Weekly in 1901, says something narrower: he recorded electrical changes with \"a clear suggestion of number and order\" that first \"positively terrified\" him. He writes that he felt he had been \"the first to hear the greeting of one planet to another,\" describing signals he heard, not a conversation, and treating any answer as something still to come.",
-  "discussion": [
-    {
-      "kind": "source",
-      "by": "Talking with Planets",
-      "date": "1901",
-      "source": "https://en.wikisource.org/wiki/Collier%27s_Weekly/Talking_with_Planets",
-      "text": "In Talking with Planets, an article in Collier's Weekly in 1901, Tesla writes that at his Colorado laboratory he recorded electrical changes with \"a clear suggestion of number and order\" that he came to feel were \"the greeting of one planet to another\"; he describes hearing signals, not speaking or communicating with anyone, and writes of an answer as something still to come."
-    }
+  "episodes": [
+   "09KP8XVf5nY",
+   "EzPmG_7WhXc",
+   "Sct30Qijfv8",
+   "iPxbILOMQ08"
   ]
+ },
+ "attestation": 2.35,
+ "tier": "well-attested",
+ "plain": "The inventor Nikola Tesla is said to have communicated with aliens from his laboratory in Colorado Springs in 1899; Michels says so several times, once adding that Tesla saw past, present and future all at once, and Steve Colbern, a scientist who studies objects said to be alien implants, says \"they talked to Tesla\" according to Tesla's writings. The tellers do not say which of Tesla's writings they mean. If it is Talking with Planets, the article he published in Collier's Weekly in 1901 about the Colorado Springs signals, then his own account says something narrower: he recorded electrical changes with \"a clear suggestion of number and order\" that first \"positively terrified\" him. He writes that he felt he had been \"the first to hear the greeting of one planet to another,\" describing signals he heard, not a conversation, and treating any answer as something still to come.",
+ "discussion": [
+  {
+   "kind": "source",
+   "by": "Talking with Planets",
+   "date": "1901",
+   "source": "https://en.wikisource.org/wiki/Collier%27s_Weekly/Talking_with_Planets",
+   "text": "In Talking with Planets, an article in Collier's Weekly in 1901, Tesla writes that at his Colorado laboratory he recorded electrical changes with \"a clear suggestion of number and order\" that he came to feel were \"the greeting of one planet to another\"; he describes hearing signals, not speaking or communicating with anyone, and writes of an answer as something still to come. The tellers do not name the writing they mean; this is the one in which Tesla describes the Colorado Springs signals."
+  }
+ ],
+ "plain_by": "hand"
 }

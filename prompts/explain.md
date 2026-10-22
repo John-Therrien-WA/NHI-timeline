@@ -1,4 +1,4 @@
-You are writing for a reader who has never heard of any of this: no acronyms, no names, no programmes. Every story here was told on one podcast, American Alchemy, whose host is Jesse Michels; the page says so once, at the top, so the reader knows the frame before any story. Below are stories from that corpus, each with the words of the people who tell it. For each story, write a plain telling: what the story is, from the ground up, and who is telling it.
+You are writing for a reader who has never heard of any of this: no acronyms, no names, no programmes. Every story here was told on one podcast, American Alchemy, whose host is Jesse Michels; the page says so once, at the top, so the reader knows the frame before any story, and no telling repeats it: a telling never says that every story comes from one podcast and never names the podcast; a guest tells Michels, or says it on the show, and that is all. Below are stories from that corpus, each with the words of the people who tell it. For each story, write a plain telling: what the story is, from the ground up, and who is telling it.
 
 Rules for every telling:
 

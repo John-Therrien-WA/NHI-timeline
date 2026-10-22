@@ -828,6 +828,7 @@ def image_ingest_problems(root: Root) -> list[str]:
         left = images.problems(root, stories, alias, people)
         if left:
             out.append(f"expect: the images ingest wrote fail the check: {left}")
+        out += image_copy_problems(root, entry, jpeg, fetch, asked, quiet)
         for what, bad in (("a fair-use headshot", {**entry, "owner": "bo-fixture", "kind": "headshot", "licence_kind": "fair-use"}),
                           ("an owner that is nothing", {**entry, "owner": "nobody-fixture"}),
                           ("a headshot for a story", {**entry, "kind": "headshot"}),
@@ -844,6 +845,58 @@ def image_ingest_problems(root: Root) -> list[str]:
     finally:
         shutil.rmtree(made_dir, ignore_errors=True)
         shutil.rmtree(made_site, ignore_errors=True)
+    return out
+
+
+def image_copy_problems(root: Root, entry: dict, jpeg: bytes, fetch, asked: list[str], quiet) -> list[str]:
+    """`images.ingest` with `from_root`, a prepared scratch root holding a sidecar and file at 1 under the owner: the
+    entry its sidecar's image_url matches is copied, not fetched, under the destination's next free number with the
+    bytes as they are and the scratch sidecar's `fetched`, an entry without a match is downloaded, and a scratch
+    sidecar whose file is missing is refused before anything is written or fetched. Called inside
+    `image_ingest_problems`, whose `finally` removes what lands under the owner; the scratch root is removed here."""
+    vault = entry["owner"]
+    scratch = root.path / "images-from-scratch"
+    out: list[str] = []
+    try:
+        sr = Root(scratch)
+        url = "https://example.org/fixture/copied.jpg"
+        sc = {"file": f"images/{vault}/1.jpg", **{k: entry[k] for k in ("kind", "caption", "source")}, "image_url": url,
+              **{k: entry[k] for k in ("licence", "licence_kind", "credit", "date")}, "fetched": "2026-10-01"}
+        save_json(sr.data / "images" / vault / "1.json", sc)
+        (sr.site / "images" / vault).mkdir(parents=True, exist_ok=True)
+        (sr.site / "images" / vault / "1.jpg").write_bytes(jpeg)
+        held = root.data / "images" / vault
+        n = max(int(f.stem) for f in held.glob("*.json")) + 1
+        asked.clear()
+        copied = {**entry, "image_url": url}
+        fresh = {**entry, "image_url": "https://example.org/fixture/fresh.jpg"}
+        lines, failures = images.ingest(root, [copied, fresh], fetch=fetch, echo=quiet, today="2026-10-23", from_root=sr)
+        got = load_json(held / f"{n}.json") if (held / f"{n}.json").exists() else None
+        if got != {**sc, "file": f"images/{vault}/{n}.jpg"}:
+            out.append(f"expect: images.ingest --from wrote {got} at {vault}/{n}, expected the scratch sidecar renumbered to {n} with its fetched kept")
+        f = root.site / "images" / vault / f"{n}.jpg"
+        if not f.exists() or f.read_bytes() != jpeg:
+            out.append(f"expect: images.ingest --from did not copy the scratch file's bytes to site/images/{vault}/{n}.jpg")
+        if asked != [fresh["image_url"]] or failures or not lines[0].startswith("copied"):
+            out.append(f"expect: images.ingest --from fetched {asked} and printed {lines}, expected the copy and one fetch of the unmatched entry")
+        stories, alias, people = _image_context(root)
+        left = images.problems(root, stories, alias, people)
+        if left:
+            out.append(f"expect: the images copied with --from fail the check: {left}")
+        (sr.site / "images" / vault / "1.jpg").unlink()
+        save_json(sr.data / "images" / vault / "1.json", {**sc, "image_url": "https://example.org/fixture/lost.jpg"})
+        asked.clear()
+        before = {**snapshot(root.data), **snapshot(root.site)}
+        try:
+            images.ingest(root, [fresh, {**entry, "image_url": "https://example.org/fixture/lost.jpg"}], fetch=fetch, echo=quiet, from_root=sr)
+            out.append("expect: images.ingest --from accepted a scratch sidecar whose file is missing")
+        except SystemExit as x:
+            if "does not exist" not in str(x):
+                out.append(f"expect: a scratch sidecar whose file is missing was refused for another reason: {x}")
+        if asked or {**snapshot(root.data), **snapshot(root.site)} != before:
+            out.append(f"expect: images.ingest --from fetched {asked} or wrote files before refusing a scratch sidecar whose file is missing")
+    finally:
+        shutil.rmtree(scratch, ignore_errors=True)
     return out
 
 

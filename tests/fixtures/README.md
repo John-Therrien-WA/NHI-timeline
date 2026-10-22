@@ -88,7 +88,11 @@ image, a file at another path, a fair-use image above 480 px and a file no sidec
 be named. `check.image_ingest_problems` runs `images.ingest` offline with a downloader that serves
 the fixture's JPEG: a new image lands under the story id with its sidecar, an image URL the alias
 directory holds is kept, a second run fetches nothing, a failed download stops the run or is listed
-under `keep_going`, and a bad manifest is refused before anything is fetched.
+under `keep_going`, and a bad manifest is refused before anything is fetched. Inside it
+`check.image_copy_problems` runs `images.ingest` with `from_root`, a prepared scratch root holding one
+picture at 1 under the owner: that entry is copied, not fetched, under the destination's next free
+number with the scratch file's bytes and its `fetched` kept, an unmatched entry is downloaded, and a
+scratch sidecar whose file is missing is refused before anything is written or fetched.
 
 `sources/` holds the primary-source case. Bo Fixture tells the lanterns as a mirror in his own
 words; `sources/manifest.json` is a scout's entry for it: the fictional public-domain pamphlet *The

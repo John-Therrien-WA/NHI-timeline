@@ -1,6 +1,6 @@
 """Photographs for stories and tellers: the sidecars, their validation, and the ingest of a manifest.
 
-    uv run python -m pipeline.images <manifest.json> [--root DIR] [--keep-going]
+    uv run python -m pipeline.images <manifest.json> [--root DIR] [--keep-going] [--from SCRATCH_ROOT]
 
 An image is a file `site/images/<owner>/<n>.jpg` (or `.png` when the source is a PNG with
 transparency) and a sidecar `data/images/<owner>/<n>.json`, the owner a story id, an alias of one,
@@ -25,6 +25,14 @@ per image. A download that is neither a JPEG, a PNG nor a GIF is refused before 
 page on Commons, often) is converted to a JPEG, so a stored file is always a JPEG or a PNG. A failed download or
 conversion raises with the URL (and the HTTP status where there is one); with `--keep-going` the run
 goes on to the next entry, lists the failures at the end and exits 1.
+
+With `--from SCRATCH_ROOT` (a root a builder already ran this manifest on, its own copy) an entry whose
+`image_url` a sidecar under `SCRATCH_ROOT/data/images/` holds is copied instead of downloaded: the file
+under `SCRATCH_ROOT/site/images/` byte for byte (already resized), the sidecar written from the entry with
+the scratch sidecar's `fetched` kept, under the owner's next free `n` in the destination (which may have
+gained pictures since). Every copy is checked before anything is written (the scratch file present, a JPEG
+or a PNG with transparency within the entry's licence size, `fetched` a date); an entry with no match is
+downloaded as without the flag.
 
 `check.py` validates the sidecars and the files with `problems`; `build.py` reads them with
 `load_sidecars` and `blocks`.
@@ -224,6 +232,26 @@ def person_problem(where: str, story_id: str, e: dict, profiles: dict[str, dict]
             f"among them; story {story_id} is told by {', '.join(prof['tellers'])} only")
 
 
+def file_problems(where: str, name: str, data: bytes, licence_kind) -> list[str]:
+    """A stored image's bytes: a JPEG or a PNG with transparency, its extension saying which, within the size its
+    licence allows. `name` is the file as the message shows it."""
+    fmt = image_format(data)
+    if fmt not in ("jpeg", "png"):
+        return [f"{where}: {name} is neither a JPEG nor a PNG"]
+    out: list[str] = []
+    if (fmt == "png") != name.endswith(".png"):
+        out.append(f"{where}: {name} is a {fmt.upper()}, its extension says otherwise")
+    if fmt == "png" and not png_has_alpha(data):
+        out.append(f"{where}: {name} is a PNG without transparency; it must be a .jpg")
+    size = dimensions(data)
+    limit = MAX_PX.get(licence_kind)
+    if size is None:
+        out.append(f"{where}: cannot read the pixel size of {name}")
+    elif limit and max(size) > limit:
+        out.append(f"{where}: {name} is {size[0]}x{size[1]}, larger than the {limit} px a {licence_kind} image may be")
+    return out
+
+
 def problems(root: Root, stories: dict, story_alias: dict[str, str], people: dict) -> list[str]:
     """Every sidecar well formed, its owner resolving, its kind fitting the owner, no fair-use headshot,
     its `file` the JPEG or PNG at images/<owner>/<n>.<ext> under site/ within the size its licence
@@ -269,21 +297,7 @@ def problems(root: Root, stories: dict, story_alias: dict[str, str], people: dic
             if not p.is_file():
                 out.append(f"{where}: site/{f} does not exist")
                 continue
-            data = p.read_bytes()
-            fmt = image_format(data)
-            if fmt not in ("jpeg", "png"):
-                out.append(f"{where}: site/{f} is neither a JPEG nor a PNG")
-                continue
-            if (fmt == "png") != f.endswith(".png"):
-                out.append(f"{where}: site/{f} is a {fmt.upper()}, its extension says otherwise")
-            if fmt == "png" and not png_has_alpha(data):
-                out.append(f"{where}: site/{f} is a PNG without transparency; it must be a .jpg")
-            size = dimensions(data)
-            limit = MAX_PX.get(sc.get("licence_kind"))
-            if size is None:
-                out.append(f"{where}: cannot read the pixel size of site/{f}")
-            elif limit and max(size) > limit:
-                out.append(f"{where}: site/{f} is {size[0]}x{size[1]}, larger than the {limit} px a {sc['licence_kind']} image may be")
+            out += file_problems(where, f"site/{f}", p.read_bytes(), sc.get("licence_kind"))
     sd = site_images_dir(root)
     if sd.exists():
         for p in sorted(sd.rglob("*")):
@@ -419,21 +433,93 @@ def manifest_problems(entries, stories: dict, story_alias: dict[str, str], peopl
     return out
 
 
-def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today: str | None = None, echo=print) -> tuple[list[str], list[str]]:
-    """Download, resize and record every manifest entry; return (the lines printed, the failures).
-    `fetch` is the downloader and `echo` the printer (the fixture check passes a downloader that serves
-    local bytes and a silent printer)."""
+def sidecar_for(e: dict, file: str, fetched: str) -> dict:
+    """The sidecar of a manifest entry stored at `file` (relative to site/), in the schema's field order."""
+    sc = {"file": file, "kind": e["kind"], "caption": e["caption"], "source": e["source"], "image_url": e["image_url"],
+          "licence": e["licence"], "licence_kind": e["licence_kind"], "credit": e["credit"]}
+    for k in MANIFEST_OPTIONAL:
+        if k in e:
+            sc[k] = e[k]
+    sc["fetched"] = fetched
+    return sc
+
+
+def owner_dirs(e: dict, stories: dict, story_alias: dict[str, str], people: dict) -> tuple[str, list[str]]:
+    """(the resolved owner id, the directories its images may sit under: the id and, for a story, its aliases)."""
+    typ, oid = resolve_owner(e["owner"], stories, story_alias, people)
+    return oid, [oid] + (list(stories[oid].get("aliases", [])) if typ == "story" else [])
+
+
+def copy_plan(root: Root, entries: list[dict], from_root: Root, stories: dict, story_alias: dict[str, str],
+              people: dict) -> dict[int, tuple[bytes, str, str]]:
+    """{entry index: (the file's bytes, its extension, the scratch sidecar's `fetched`)} for every entry the
+    destination does not hold whose image_url a sidecar under `from_root` holds (the one under the entry's owner
+    or its aliases when several do). Every copy is checked here, before anything is written: the scratch file
+    exists and passes `file_problems` at the entry's licence, and the sidecar it would become passes
+    `fields_problems` with a `fetched` of YYYY-MM-DD; any problem stops the run."""
+    by_url: dict[str, list[tuple[str, int, dict]]] = {}
+    for d, rows in load_sidecars(from_root).items():
+        for n, sc in rows:
+            by_url.setdefault(sc.get("image_url"), []).append((d, n, sc))
+    held = load_sidecars(root)
+    plan: dict[int, tuple[bytes, str, str]] = {}
+    bad: list[str] = []
+    for i, e in enumerate(entries):
+        oid, dirs = owner_dirs(e, stories, story_alias, people)
+        if any(sc.get("image_url") == e["image_url"] for d in dirs for _, sc in held.get(d, [])):
+            continue
+        found = by_url.get(e["image_url"], [])
+        if len(found) > 1:
+            found = [f for f in found if f[0] in dirs + [e["owner"]]]
+        where = f"manifest entry {i + 1} ({e['owner']!r}) from {from_root.path}"
+        if len(found) > 1:
+            bad.append(f"{where}: image_url {e['image_url']} is held by several scratch sidecars: "
+                       + ", ".join(f"data/images/{d}/{n}.json" for d, n, _ in found))
+            continue
+        if not found:
+            continue
+        d, n, sc = found[0]
+        where = f"{where} data/images/{d}/{n}.json"
+        f = sc.get("file")
+        if not (isinstance(f, str) and f in (f"images/{d}/{n}.jpg", f"images/{d}/{n}.png")):
+            bad.append(f"{where}: file {f!r} must be images/{d}/{n}.jpg or images/{d}/{n}.png")
+            continue
+        src = from_root.site / f
+        if not src.is_file():
+            bad.append(f"{where}: site/{f} does not exist under the scratch root")
+            continue
+        data, ext = src.read_bytes(), Path(f).suffix
+        fetched = sc.get("fetched")
+        if not (isinstance(fetched, str) and DAY.fullmatch(fetched)):
+            bad.append(f"{where}: fetched {fetched!r} is not YYYY-MM-DD")
+            continue
+        problems_here = file_problems(where, f"site/{f}", data, e["licence_kind"])
+        problems_here += fields_problems(where, sidecar_for(e, f"images/{oid}/1{ext}", fetched), SIDECAR_KEYS, SIDECAR_OPTIONAL, None)
+        if problems_here:
+            bad += problems_here
+            continue
+        plan[i] = (data, ext, fetched)
+    if bad:
+        raise SystemExit("images: the copies from the scratch root are refused:\n" + "\n".join(bad))
+    return plan
+
+
+def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today: str | None = None, echo=print,
+           from_root: Root | None = None) -> tuple[list[str], list[str]]:
+    """Download, resize and record every manifest entry, or with `from_root` copy the ones a scratch root already
+    made (`copy_plan`); return (the lines printed, the failures). `fetch` is the downloader and `echo` the printer
+    (the fixture check passes a downloader that serves local bytes and a silent printer)."""
     stories, people = root.load_dir(root.stories), root.load_dir(root.people)
     story_alias = root.story_aliases(stories)
     bad = manifest_problems(entries, stories, story_alias, people, load_profiles(root))
     if bad:
         raise SystemExit("images: the manifest is refused:\n" + "\n".join(bad))
+    plan = copy_plan(root, entries, from_root, stories, story_alias, people) if from_root is not None else {}
     today = today or dt.date.today().isoformat()
     lines: list[str] = []
     failures: list[str] = []
-    for e in entries:
-        typ, oid = resolve_owner(e["owner"], stories, story_alias, people)
-        dirs = [oid] + ([a for a in stories[oid].get("aliases", [])] if typ == "story" else [])
+    for i, e in enumerate(entries):
+        oid, dirs = owner_dirs(e, stories, story_alias, people)
         held = load_sidecars(root)
         known = {sc.get("image_url"): f"{d}/{n}" for d in dirs for n, sc in held.get(d, [])}
         if e["image_url"] in known:
@@ -445,29 +531,31 @@ def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today:
         while (images_dir(root) / oid / f"{n}.json").exists():
             n += 1
         url = e["image_url"]
-        try:
-            time.sleep(DOWNLOAD_PAUSE_S)
-            data = fetch(url)
-            if image_format(data) is None:
-                raise SystemExit(f"images: {url}: the download is neither a JPEG, a PNG nor a GIF")
-            target = convert(data, site_images_dir(root) / oid / str(n), MAX_PX[e["licence_kind"]])
-        except SystemExit as x:
-            msg = str(x) if url in str(x) else f"images: {url}: {x}"
-            if not keep_going:
-                raise SystemExit(msg)
-            failures.append(msg)
-            echo(f"failed   {oid}  {msg}")
-            continue
-        sc = {"file": target.relative_to(root.site).as_posix(), "kind": e["kind"], "caption": e["caption"],
-              "source": e["source"], "image_url": e["image_url"], "licence": e["licence"],
-              "licence_kind": e["licence_kind"], "credit": e["credit"]}
-        for k in MANIFEST_OPTIONAL:
-            if k in e:
-                sc[k] = e[k]
-        sc["fetched"] = today
+        if i in plan:
+            data, ext, fetched = plan[i]
+            target = site_images_dir(root) / oid / f"{n}{ext}"
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_bytes(data)
+            verb = "copied "
+        else:
+            try:
+                time.sleep(DOWNLOAD_PAUSE_S)
+                data = fetch(url)
+                if image_format(data) is None:
+                    raise SystemExit(f"images: {url}: the download is neither a JPEG, a PNG nor a GIF")
+                target = convert(data, site_images_dir(root) / oid / str(n), MAX_PX[e["licence_kind"]])
+            except SystemExit as x:
+                msg = str(x) if url in str(x) else f"images: {url}: {x}"
+                if not keep_going:
+                    raise SystemExit(msg)
+                failures.append(msg)
+                echo(f"failed   {oid}  {msg}")
+                continue
+            fetched, verb = today, "added  "
+        sc = sidecar_for(e, target.relative_to(root.site).as_posix(), fetched)
         save_json(images_dir(root) / oid / f"{n}.json", sc)
         w, h = dimensions(target.read_bytes())
-        line = f"added    {oid}/{n}  {sc['file']} {w}x{h} {e['kind']} {e['licence_kind']}"
+        line = f"{verb}  {oid}/{n}  {sc['file']} {w}x{h} {e['kind']} {e['licence_kind']}"
         echo(line)
         lines.append(line)
     return lines, failures
@@ -478,8 +566,13 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("manifest", type=Path)
     ap.add_argument("--root", default=REPO)
     ap.add_argument("--keep-going", action="store_true", help="go on after a failed download; exit 1 at the end")
+    ap.add_argument("--from", dest="from_root", type=Path, default=None,
+                    help="a scratch root whose site/images and data/images already hold the manifest's pictures: copy them instead of downloading")
     a = ap.parse_args(argv)
-    _, failures = ingest(Root(a.root), load_json(a.manifest), keep_going=a.keep_going)
+    if a.from_root is not None and not (a.from_root / "data" / "images").is_dir():
+        raise SystemExit(f"images: --from {a.from_root} has no data/images; give the root a builder ran pipeline.images on")
+    _, failures = ingest(Root(a.root), load_json(a.manifest), keep_going=a.keep_going,
+                         from_root=Root(a.from_root) if a.from_root is not None else None)
     if failures:
         print(f"images: {len(failures)} download(s) failed:", file=sys.stderr)
         for f in failures:

@@ -6,7 +6,10 @@ When a story names a source that can be read online (a paper, a book, a memo, a 
 record, an article), a scout finds it and returns a manifest entry; this stage ingests it. The
 source's words become one more telling of the story when the source itself says what the story
 claims, and a `source` note in the story's `discussion` when the manifest says the source differs
-from what the tellers make of it. Nothing here asserts that a story is true.
+from what the tellers make of it. A disputed or anonymous document (a paper of unknown authorship, a
+leaked report, a forum thread) is quoted beside the story as a source note only: a note-only entry
+counts as no telling, so the story's attestation does not move. Nothing here asserts that a story is
+true.
 
 The evidence is `sources/documents/<document id>.txt`, like a caption file: for a document of status
 `public-domain` with a `text_url` the full text as fetched from that plain-text URL, for every other
@@ -20,11 +23,13 @@ passages file it must lie inside one passage, under its own locator.
 The manifest is a JSON list, one entry per story:
 
     { "story": id or alias,
-      "document": { "id": existing id or null, "title", "author", "issuer", "date", "url", "text_url", "status" },
+      "document": { "id": existing id or null, "title", "author", "issuer", "date", "url", "text_url", "status",
+                    "provenance" (optional) },
       "text": { "url": plain-text URL or null, "passages": [ { "locator", "text" } ] },
       "quotes": [ { "quote", "locator" } ],
-      "teller": author name or null, "kind": firsthand | official | journalist | researcher,
+      "teller": author name or null, "kind": firsthand | official | journalist | researcher, or null,
       "differs": text of the source note or null,
+      "note_only": true (optional),
       "images": [ images.py manifest entries, owner the story id or the teller's person id ] }
 
 The whole manifest is checked for shape before anything is fetched; a malformed entry refuses the
@@ -32,7 +37,8 @@ run. Then each entry in turn: the document is found (the id given; else an exist
 the same `url` or `text_url`; else the slug of the title, plus `-<year>` when that slug is another
 document, one with a different url or year) or created; an id or title slug that a document fold made
 an alias (`common.document_aliases`) is resolved to the document that absorbed it before anything is
-looked up or created. An existing one takes the manifest's title
+looked up or created. `provenance` is a sentence on where the document comes from and what is
+disputed about it. An existing one takes the manifest's title
 when its own differs (a stored title may be a stub `merge.py` made from a teller's words, "Einstein
 1921 ether paper"; each replacement is printed as a `title` line) and gets its other missing fields
 filled, never overwritten. The text file is written from `text.url` (fetched with urllib; anything
@@ -45,14 +51,27 @@ kind `official` whatever the manifest's kind, created through `merge.ensure_pers
 aliases when new. Each quote becomes a telling `{ document, page, teller, quote, kind, cites: [],
 documents: [] }` (`page` the quote's locator) unless the story holds the same (document, quote);
 `differs` becomes `{ kind: "source", by: the document's title, date, source: url, text }` unless the
-story holds the same text. A failed entry raises with its reason; with --keep-going the run goes on, lists the
-failures at the end and exits 1.
+story holds the same text.
+
+A note-only entry (`"note_only": true`) has `teller` and `kind` null and a non-empty `differs`
+(`NOTE_ONLY_RULE`, refused otherwise). Its document needs a provenance, held already or given in its
+own manifest entry (`unproven_problem`, tested for every entry before the first is ingested, so the
+manifest is refused with nothing written). Its quotes are checked and its text file written as for
+any entry, but it adds no telling and makes no person, and the document's `kind` stays null. Its
+source note's text is `source_note_text`: the document's provenance (a period added when it has none)
+then `differs`. Nothing else links the note to its document: the note's `source` is the document's
+url (else its text_url), and `url_index` and `note_documents` find the documents from it, for build
+(a story's documents block) and check (`problems`); `note_only_documents` keeps those no telling of
+the story names, for check and explain. A failed entry raises with its reason; with --keep-going the
+run goes on, lists the failures at the end and exits 1.
 
 The entries' images are written, deduplicated, to `<manifest stem>.images.json` beside the manifest
 for `pipeline.images` (downloads need their own run). Run after clips, before `documents --fold`, `people --fold` and score; the
 changed stories are printed so `explain --force` can rewrite their plain tellings.
 
-`check.py` holds the document tellings to their text files with `problems`.
+`check.py` holds the document tellings to their text files with `problems`, which also requires a
+provenance on every document a story quotes only in a source note and one provenance among the
+documents of a note's url.
 """
 from __future__ import annotations
 
@@ -72,9 +91,12 @@ from .merge import ensure_person, same_telling
 STATUSES = ("public-domain", "in-copyright", "unknown")
 SOURCE_KINDS = ("firsthand", "official", "journalist", "researcher")
 ROLE = {"firsthand": "participant", "official": "official", "journalist": "journalist", "researcher": "researcher"}
-ENTRY_KEYS = ("story", "document", "text", "quotes", "teller", "kind", "differs", "images")
+ENTRY_KEYS = ("story", "document", "text", "quotes", "teller", "kind", "differs", "images", "note_only")
 DOCUMENT_KEYS = ("id", "title", "author", "issuer", "date", "url", "text_url", "status")
-FILL_KEYS = ("title", "issuer", "date", "url", "text_url", "status")
+DOCUMENT_OPTIONAL = ("provenance",)
+FILL_KEYS = ("title", "issuer", "date", "url", "text_url", "status", "provenance")
+NOTE_ONLY_RULE = ("a note-only entry quotes a document beside the story without counting it as a telling: "
+                  "its teller and kind are null and its differs is the source note's text")
 LOCATOR = re.compile(r"\[([^\[\]]+)\]")
 
 
@@ -157,10 +179,37 @@ def passages_text(passages: list[tuple[str, str]]) -> str:
     return "\n\n".join(f"[{loc}]\n{text}" for loc, text in passages) + "\n"
 
 
+# ---------- the source notes' documents ----------
+
+def url_index(documents: dict) -> dict[str, list[str]]:
+    """{url: the ids of the documents whose url or text_url it is}. A source note's `source` is its document's
+    url, else its text_url, so this index finds the document a note quotes."""
+    out: dict[str, list[str]] = {}
+    for did, d in sorted(documents.items()):
+        for u in dict.fromkeys(x for x in (d.get("url"), d.get("text_url")) if x):
+            out.setdefault(u, []).append(did)
+    return out
+
+
+def note_documents(note: dict, index: dict[str, list[str]]) -> list[str]:
+    """The ids of the documents a `source` note quotes: those whose url or text_url is the note's `source`."""
+    return index.get(note.get("source") or "", [])
+
+
+def note_only_documents(story: dict, note: dict, index: dict[str, list[str]]) -> list[str]:
+    """The documents a `source` note quotes when no telling of the story names any of them (a note-only entry's
+    note), else []."""
+    dids = note_documents(note, index)
+    told = {t.get("document") for t in story.get("tellings") or []}
+    return [] if told & set(dids) else dids
+
+
 # ---------- the check ----------
 
 def problems(root: Root, stories: dict, documents: dict) -> list[str]:
-    """Every document's `status` and `text_url` well formed; every file under sources/documents a
+    """Every document's `status`, `text_url` and `provenance` well formed; the documents of a `source` note's url
+    give at most one provenance; every document a story quotes only in a `source` note (no telling of the story
+    names it: a note-only entry) has a provenance; every file under sources/documents a
     document's and readable in its document's format (a full text for a public-domain document with a
     text_url, else [locator] passages only); every document telling backed by its text file, its quote a
     verbatim substring of it, inside the passage its `page` names when the file holds passages."""
@@ -170,6 +219,23 @@ def problems(root: Root, stories: dict, documents: dict) -> list[str]:
             out.append(f"document {did}: status {d['status']!r} is not one of {', '.join(STATUSES)}")
         if d.get("text_url") is not None and not (isinstance(d["text_url"], str) and HTTP.fullmatch(d["text_url"])):
             out.append(f"document {did}: text_url {d['text_url']!r} is not an http(s) URL")
+        if "provenance" in d and not text_field(d["provenance"]):
+            out.append(f"document {did}: provenance must be a non-empty string when present")
+    index = url_index(documents)
+    for sid, s in sorted(stories.items()):
+        for i, note in enumerate(s.get("discussion") or []):
+            if not isinstance(note, dict) or note.get("kind") != "source":
+                continue
+            where = f"story {sid} discussion entry {i + 1}"
+            dids = note_documents(note, index)
+            given = sorted({documents[did]["provenance"] for did in dids if text_field(documents[did].get("provenance"))})
+            if len(given) > 1:
+                out.append(f"{where}: the documents of {note['source']} ({', '.join(dids)}) give different provenances; "
+                           "settle them in the document files")
+            for did in note_only_documents(s, note, index):
+                if not text_field(documents[did].get("provenance")):
+                    out.append(f"{where}: document {did} is quoted only in this source note, "
+                               f"with no telling of it ({NOTE_ONLY_RULE}), so it needs a provenance")
     texts: dict[str, DocumentText | None] = {}
     d = text_dir(root)
     if d.exists():
@@ -218,12 +284,18 @@ def entry_problems(where: str, e, stories: dict, story_alias: dict[str, str]) ->
     out: list[str] = []
     for k in sorted(set(e) - set(ENTRY_KEYS)):
         out.append(f"{where}: unknown field {k!r} (the fields are {', '.join(ENTRY_KEYS)})")
+    if "note_only" in e and not isinstance(e["note_only"], bool):
+        out.append(f"{where}: note_only must be true, false or absent")
+    note_only = e.get("note_only") is True
     for k in ("story", "document", "text", "quotes", "kind"):
         if k not in e:
             out.append(f"{where}: missing {k}")
     if "story" in e and e["story"] not in stories and e["story"] not in story_alias:
         out.append(f"{where}: story {e['story']!r} is no story id or alias")
-    if "kind" in e and e["kind"] not in SOURCE_KINDS:
+    if note_only:
+        if e.get("teller") is not None or e.get("kind") is not None or not text_field(e.get("differs")):
+            out.append(f"{where}: {NOTE_ONLY_RULE}")
+    elif "kind" in e and e["kind"] not in SOURCE_KINDS:
         out.append(f"{where}: kind {e['kind']!r} is not one of {', '.join(SOURCE_KINDS)}")
     if not _opt_text(e.get("teller")):
         out.append(f"{where}: teller must be a name or null")
@@ -234,8 +306,8 @@ def entry_problems(where: str, e, stories: dict, story_alias: dict[str, str]) ->
         out.append(f"{where}: document must be an object")
         d = None
     if d is not None:
-        for k in sorted(set(d) - set(DOCUMENT_KEYS)):
-            out.append(f"{where}: document has unknown field {k!r} (the fields are {', '.join(DOCUMENT_KEYS)})")
+        for k in sorted(set(d) - set(DOCUMENT_KEYS) - set(DOCUMENT_OPTIONAL)):
+            out.append(f"{where}: document has unknown field {k!r} (the fields are {', '.join(DOCUMENT_KEYS + DOCUMENT_OPTIONAL)})")
         for k in DOCUMENT_KEYS:
             if k not in d:
                 out.append(f"{where}: document is missing {k} (null when unknown)")
@@ -246,6 +318,8 @@ def entry_problems(where: str, e, stories: dict, story_alias: dict[str, str]) ->
         for k in ("author", "issuer"):
             if not _opt_text(d.get(k)):
                 out.append(f"{where}: document {k} must be a name or null")
+        if not _opt_text(d.get("provenance")):
+            out.append(f"{where}: document provenance must be a non-empty text or null")
         for k in ("url", "text_url"):
             if not _opt_url(d.get(k)):
                 out.append(f"{where}: document {k} {d.get(k)!r} is not an http(s) URL")
@@ -253,7 +327,7 @@ def entry_problems(where: str, e, stories: dict, story_alias: dict[str, str]) ->
             out.append(f"{where}: document date {d['date']!r} is not YYYY, YYYY-MM or YYYY-MM-DD")
         if d.get("status") not in STATUSES:
             out.append(f"{where}: document status {d.get('status')!r} is not one of {', '.join(STATUSES)}")
-        if not (text_field(e.get("teller")) or text_field(d.get("author")) or text_field(d.get("issuer"))):
+        if not note_only and not (text_field(e.get("teller")) or text_field(d.get("author")) or text_field(d.get("issuer"))):
             out.append(f"{where}: no teller: give teller, or the document's author or issuer")
         if text_field(e.get("differs")) and not (d.get("url") or d.get("text_url")):
             out.append(f"{where}: a source note needs the document's url or text_url")
@@ -289,7 +363,8 @@ def entry_problems(where: str, e, stories: dict, story_alias: dict[str, str]) ->
     return out
 
 
-def image_owner_problems(where: str, e: dict, sid: str, story_alias: dict[str, str], teller: str) -> list[str]:
+def image_owner_problems(where: str, e: dict, sid: str, story_alias: dict[str, str], teller: str | None) -> list[str]:
+    """Each image's owner is the story or the teller (a note-only entry has no teller: the story only)."""
     out: list[str] = []
     for i, im in enumerate(e.get("images") or []):
         iw = f"{where} image {i + 1}"
@@ -299,7 +374,7 @@ def image_owner_problems(where: str, e: dict, sid: str, story_alias: dict[str, s
         owner = im.get("owner")
         if owner == sid or story_alias.get(owner) == sid:
             typ = "story"
-        elif owner == teller:
+        elif teller is not None and owner == teller:
             typ = "person"
         else:
             out.append(f"{iw}: owner {owner!r} is neither the story {sid} nor the teller {teller}")
@@ -380,6 +455,25 @@ def merged_passages(existing: DocumentText | None, new: list[dict]) -> list[tupl
     return held
 
 
+def unproven_problem(where: str, e: dict, documents: dict) -> str | None:
+    """A note-only entry whose document has no provenance, neither held nor in the manifest; None otherwise. The
+    run tests every entry before the first is ingested, so a manifest with such an entry writes nothing."""
+    if e.get("note_only") is not True:
+        return None
+    did, _ = find_document(documents, e["document"])
+    if text_field((documents.get(did) or {}).get("provenance")) or text_field(e["document"].get("provenance")):
+        return None
+    return (f"{where}: document {did} has no provenance; {NOTE_ONLY_RULE}, and it begins with the document's "
+            "provenance, so give document.provenance (what is known of where the document comes from)")
+
+
+def source_note_text(doc: dict, differs: str) -> str:
+    """A note-only entry's source note: the document's provenance, then the differs text, so a reader sees why
+    the document is not a teller."""
+    lead = norm_ws(doc["provenance"])
+    return f"{lead if lead[-1] in '.!?' else lead + '.'} {norm_ws(differs)}"
+
+
 def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str], people: dict, documents: dict,
                  aliases: dict[str, str], fetch) -> tuple[list[str], list[Path]]:
     """One entry in memory, then written; returns (the lines to print, the files it wrote).
@@ -387,9 +481,10 @@ def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str]
     sid = e["story"] if e["story"] in stories else story_alias[e["story"]]
     story = stories[sid]
     m = e["document"]
-    # the teller: an institution standing in as author tells as an official record
-    name, kind = e.get("teller") or m.get("author"), e["kind"]
-    if not name:
+    note_only = e.get("note_only") is True
+    # the teller: an institution standing in as author tells as an official record; a note-only entry has none
+    name, kind = (None, None) if note_only else (e.get("teller") or m.get("author"), e["kind"])
+    if not note_only and not name:
         name, kind = m["issuer"], "official"
     did, new_doc = find_document(documents, m)
     doc = dict(documents.get(did) or {"id": did, "title": m["title"], "issuer": None, "date": None, "url": None,
@@ -401,7 +496,7 @@ def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str]
     for k in FILL_KEYS:
         if doc.get(k) is None and m.get(k) is not None:
             doc[k] = m[k]
-    if doc.get("kind") is None:
+    if doc.get("kind") is None and kind is not None:
         doc["kind"] = kind
     # the text, in the format the document's status gives
     full = full_text(doc)
@@ -427,14 +522,15 @@ def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str]
     bad = [p for q in e["quotes"] if (p := text.quote_problem(q["quote"], q["locator"]))]
     if bad:
         raise SystemExit(f"document {did}: " + "; ".join(bad))
-    role = ROLE[kind]
-    pid = ensure_person(people, name, role, aliases)
-    new_person = people[pid].pop("_new", False)
+    pid, new_person = None, False
+    if not note_only:
+        pid = ensure_person(people, name, ROLE[kind], aliases)
+        new_person = people[pid].pop("_new", False)
     if (bad := image_owner_problems(f"entry for {sid}", e, sid, story_alias, pid)):
         raise SystemExit("; ".join(bad))
     # the story
     changed = False
-    for q in e["quotes"]:
+    for q in ([] if note_only else e["quotes"]):
         t = {"document": did, "page": norm_ws(q["locator"]), "teller": pid, "quote": q["quote"], "kind": kind,
              "cites": [], "documents": []}
         if any(same_telling(t, x) for x in story["tellings"]):
@@ -448,7 +544,7 @@ def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str]
         if isinstance(doc.get("date"), str) and DATE.fullmatch(doc["date"]):
             note["date"] = doc["date"]
         note["source"] = doc.get("url") or doc.get("text_url")
-        note["text"] = norm_ws(e["differs"])
+        note["text"] = source_note_text(doc, e["differs"]) if note_only else norm_ws(e["differs"])
         if any(norm_ws(x.get("text") or "") == note["text"] for x in story.get("discussion", [])):
             lines.append(f"kept     {sid}  source note from {did}")
         else:
@@ -466,7 +562,7 @@ def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str]
     if save_json(root.documents / f"{did}.json", doc):
         wrote.append(root.documents / f"{did}.json")
         lines.insert(0, f"{'document' if new_doc else 'filled  '} {did}")
-    if save_json(root.people / f"{pid}.json", people[pid]) or new_person:
+    if pid is not None and (save_json(root.people / f"{pid}.json", people[pid]) or new_person):
         wrote.append(root.people / f"{pid}.json")
     if changed and save_json(root.stories / f"{sid}.json", story):
         wrote.append(root.stories / f"{sid}.json")
@@ -488,6 +584,8 @@ def run(root: Root, entries, *, manifest: Path | None = None, fetch=download, ke
         raise SystemExit("sources: the manifest must be a JSON list of entries")
     bad = [p for i, e in enumerate(entries) for p in
            entry_problems(f"manifest entry {i + 1}" + (f" ({e.get('story')!r})" if isinstance(e, dict) else ""), e, stories, story_alias)]
+    if not bad:
+        bad = [p for i, e in enumerate(entries) if (p := unproven_problem(f"manifest entry {i + 1} ({e['story']!r})", e, documents))]
     if bad:
         raise SystemExit("sources: the manifest is refused:\n" + "\n".join(bad))
     lines: list[str] = []

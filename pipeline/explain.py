@@ -11,7 +11,9 @@ told-once, so the stories the page foregrounds get theirs first; the prompt give
 title, kind, years, era, place, tier, claims, related stories and every telling (the teller
 by name and kind, the show and date or the document and its locator, the quote, whom and what it
 cites, the difference where the tellers disagree) and the story's `source` notes (what a source
-itself says against the tellers, from `pipeline.sources`). The answer is `{ "tellings": [ { "id", "plain" } ] }` and must name every id of
+itself says against the tellers, from `pipeline.sources`; a note on a document the story quotes only
+in its notes, a note-only entry's, is sent as from a disputed document, and the prompt has the model
+report it as what that document says, never as the record). The answer is `{ "tellings": [ { "id", "plain" } ] }` and must name every id of
 the group once and no other; a refused answer is asked once more with a note, a second refusal stops
 the run; an answered id that spells out an asked id's truncated last word or drops its `-<year>`
 suffix is mapped back to the asked id when exactly one fits. Em dashes in an answer become commas. Every story file of a group is saved as soon as the
@@ -36,6 +38,7 @@ from pathlib import Path
 
 from . import llm
 from .common import REPO, Root, load_json, norm_ws, rel, save_json
+from .sources import note_only_documents, url_index
 
 BATCH = 12
 TIER_ORDER = {"well-attested": 0, "told-by-several": 1, "told-once": 2}
@@ -113,9 +116,13 @@ def locator_text(page) -> str:
     return f", page {page}" if str(page).isdigit() else f", {page}"
 
 
-def source_notes_text(s: dict) -> list[str]:
-    """The story's `source` discussion entries: what a source itself says against what the tellers say."""
-    return [f"source note, from {d['by']}: {norm_ws(d['text'])}" for d in s.get("discussion") or [] if d.get("kind") == "source"]
+def source_notes_text(s: dict, documents: dict) -> list[str]:
+    """The story's `source` discussion entries: what a source itself says against what the tellers say. A note on
+    a document no telling of the story names (`sources.note_only_documents`, a note-only entry's note) is marked
+    as from a disputed document, which the prompt never takes for the record."""
+    index = url_index(documents)
+    return [f"source note, from {'a disputed document, ' if note_only_documents(s, d, index) else ''}{d['by']}: {norm_ws(d['text'])}"
+            for d in s.get("discussion") or [] if d.get("kind") == "source"]
 
 
 def telling_text(n: int, t: dict, people: dict, episodes: dict, documents: dict) -> str:
@@ -151,7 +158,7 @@ def story_text(s: dict, stories: dict, people: dict, episodes: dict, documents: 
         lines.append("related stories: " + "; ".join(related))
     lines.append("")
     lines += [telling_text(i, t, people, episodes, documents) for i, t in enumerate(s["tellings"], 1)]
-    lines += source_notes_text(s)
+    lines += source_notes_text(s, documents)
     lines.append("</story>")
     return "\n".join(lines)
 

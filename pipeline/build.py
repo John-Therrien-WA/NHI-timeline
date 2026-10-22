@@ -8,8 +8,11 @@ pipeline.explain has run, is absent), written beside the data file as `plain.jso
 (`window.NHI_PLAIN`), whatever the data file's name; the page loads it after its first draw. The
 data file holds stories with era, place (and the free place text for the unresolved), years, score, attestation, tier, evidence profile and the
 repetition count, tellings with quotes and time codes and the YouTube URL at that second, the
-documents, the alias map (an old id a fold retired to the story that absorbed it, so `#story=<old
-id>` still resolves), the links between stories (shared document and every `related` relation, in the
+documents (those its tellings name or credit, and those its `source` notes quote, found by the
+note's url through `sources.note_documents`, so a document quoted note-only is in the block of the
+story it was quoted for; each with its `provenance`, null when none), the alias map (an old id a fold retired to the story that absorbed it, so `#story=<old
+id>` still resolves), the links between stories (a document shared by tellings, never one a story
+quotes only in a source note, and every `related` relation, in the
 top-level `links` list only: a story's own `related` list is not repeated), the count of
 other stories told by each of a story's tellers (`shared_teller`, by teller and in all: a count,
 never a link, since one host telling fifty stories would link every story to every other), the
@@ -38,6 +41,7 @@ import sys
 from pathlib import Path
 
 from . import images
+from .sources import note_documents, url_index
 from .common import REPO, Root, rel, seconds
 from .score import attest, cite_edges
 
@@ -88,6 +92,8 @@ def run(root: Root, out: Path) -> dict:
     for sid, s in stories.items():
         for t in s["tellings"]:
             stories_of.setdefault(t["teller"], set()).add(sid)
+    doc_urls = url_index(documents)
+
     out_stories, links, seen = [], [], set()
     for sid, s in sorted(stories.items()):
         if not isinstance(s.get("score"), (int, float)) or not s.get("profile") or not s.get("tier"):
@@ -106,7 +112,8 @@ def run(root: Root, out: Path) -> dict:
                 "repeats": edges if t["teller"] in d["repetitions"] else [],
                 "difference": t.get("difference"),
             })
-        docs = sorted({x for t in s["tellings"] for x in t.get("documents", [])} | {t["document"] for t in s["tellings"] if t.get("document")})
+        docs = sorted({x for t in s["tellings"] for x in t.get("documents", [])} | {t["document"] for t in s["tellings"] if t.get("document")}
+                      | {x for e in s.get("discussion", []) if e.get("kind") == "source" for x in note_documents(e, doc_urls)})
         tellers = sorted({t["teller"] for t in s["tellings"]})
         shared_by = {p: len(stories_of[p]) - 1 for p in tellers}
         out_stories.append({
@@ -118,7 +125,8 @@ def run(root: Root, out: Path) -> dict:
             "independent": d["independent"], "repetitions": d["repetitions"], "tellings": tellings,
             "shared_teller": len(set().union(*(stories_of[p] for p in tellers)) - {sid}) if tellers else 0,
             "shared_teller_by": shared_by,
-            "documents": [{"id": x, "title": documents[x]["title"], "url": documents[x].get("url"), "date": documents[x].get("date")} for x in docs],
+            "documents": [{"id": x, "title": documents[x]["title"], "url": documents[x].get("url"), "date": documents[x].get("date"),
+                           "provenance": documents[x].get("provenance")} for x in docs],
             "aliases": s.get("aliases", []),
             "discussion": [{**e, "url": url_at(episodes[e["episode"]], seconds(e["time"]))} if e.get("episode") else e
                            for e in s.get("discussion", [])],

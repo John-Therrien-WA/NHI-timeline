@@ -86,6 +86,11 @@ allowed; it checks every quote against the text before writing an entry, keeps a
 there, and adds nothing twice, so a manifest can be run again. It writes the pictures to
 `<manifest stem>.images.json` beside the manifest for `pipeline.images`, and prints the stories it
 changed: run `documents --fold`, `people --fold` and `score`, then `explain --force` on those, then `build`.
+A disputed or anonymous document (the MJ-12 papers, a leaked report, a forum thread) is quoted beside
+the story as a source note only: its entry carries `"note_only": true`, a null teller and kind, the
+note in `differs`, and `document.provenance`, a sentence on where the document comes from and what is
+disputed about it. The note begins with that provenance, no telling is added, and the story's
+attestation does not move.
 
 To fold people: a group in `data/person-folds.json` names the spellings of one person (`members`) and
 the id they become (`canonical`, held or new), with the name the page shows and the evidence; `check`

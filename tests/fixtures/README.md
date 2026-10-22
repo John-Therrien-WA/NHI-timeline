@@ -137,14 +137,20 @@ headshot is `images/fay-fixture/1.png`, both member files are gone (`absent_peop
 carries both as `aliases` in its file and in site/data.json (`people_fold`), and "Faye Fixture" and
 "fae-fixture" resolve to `fay-fixture` against this root (`person_ids`). A second fold changes
 nothing. The refusals run on a tiny root of their own (`check.person_fold_refusal_problems`): a
-malformed group, a member in two groups, a member that is another group's canonical and a member
-named nowhere are each named before anything is written, and a fold into a new canonical creates it,
-merges roles, links and affiliation, drops a self-cite, moves a headshot to the next free number,
-drops one whose image URL the canonical holds, and maps a member's old alias, name and id.
+file that is a bare list of groups, a malformed group, a member in two groups, a member that is
+another group's canonical, a member named nowhere, a malformed `distinct` pair, a distinct id that a
+group folds and a distinct id that is no person are each named before anything is written, and a
+fold into a new canonical creates it (a `distinct` pair may name it), merges roles, links and
+affiliation, drops a self-cite, moves a headshot to the next free number, drops one whose image URL
+the canonical holds, and maps a member's old alias, name and id. `data/person-folds.json` also lists
+`bo-fixture` and `fay-fixture` as `distinct`, so the chain's check validates a pair against the
+people the fold leaves.
 `check.near_duplicate_problems` runs the near-duplicate warning on a fixed list of ids: of `greg`,
 `greg-malatzi`, `greg-malazzi`, `james-fox`, `james-woods`, `bob-jameson`, `robert-jameson` and
 `donald-trump` it must pair only `greg-malatzi` with `greg-malazzi`, the two spellings of one name,
-and leave the short id and the distinct names alone.
+and leave the short id and the distinct names alone; with `scott-kelly`, `scott-pelley`, `shane-ryan`
+and `shawn-ryan` added, a group folding the Greg spellings and a `distinct` pair given in the other
+order, `check.warned_pairs` must leave only `shane-ryan` with `shawn-ryan`.
 
 `explain.json` stands in for the explain stage: the plain telling for each of the eight stories the
 chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:

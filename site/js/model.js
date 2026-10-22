@@ -108,6 +108,7 @@
         need(t.episode || t.document, at + " telling " + j + " names neither an episode nor a document.");
         if (t.episode) need(isNum(t.from_s), at + " telling " + j + " has an episode but no from_s time code.");
         need(Array.isArray(t.cites), at + " telling " + j + " has no cites list.");
+        need(Array.isArray(t.repeats) && t.repeats.every(c => t.cites.includes(c)), at + " telling " + j + " has no repeats list, or one naming a person it does not cite: run pipeline.build.");
         need(Array.isArray(t.documents || []), at + " telling " + j + " has a malformed documents list.");
       });
       if (s.years != null) need(isNum(s.years.from) && isNum(s.years.to) && s.years.to >= s.years.from, at + " has malformed years.");

@@ -187,6 +187,8 @@ def built_story_problems(root: Root) -> list[str]:
             extra, missing = sorted(set(s) - STORY_KEYS), sorted(STORY_KEYS - set(s))
             out.append(f"site/data.json story {s.get('id')}: keys out of step with build"
                        + (f", extra {extra}" if extra else "") + (f", missing {missing}" if missing else "") + ": run pipeline.build")
+        elif any("repeats" not in t for t in s["tellings"]):
+            out.append(f"site/data.json story {s.get('id')}: a telling has no repeats: run pipeline.build")
     return out
 
 
@@ -306,6 +308,7 @@ def problems(root: Root) -> list[str]:
                     out.append(f"{tw}: credits document {d!r}, not in data/documents")
             if doc and doc not in documents:
                 out.append(f"{tw}: document {doc!r} is not in data/documents")
+            out += document_cites_problems(tw, t)
             if not (t.get("quote") or "").strip():
                 out.append(f"{tw}: no quote")
             if "difference" in t and not (t.get("link_reason") or "").strip():
@@ -347,6 +350,14 @@ def problems(root: Root) -> list[str]:
         if e.get("captions_source") == "gemini" and not isinstance(e.get("timestamps_approximate"), bool):
             out.append(f"episode {eid}: a gemini episode needs timestamps_approximate true or false")
     return out
+
+
+def document_cites_problems(tw: str, t: dict) -> list[str]:
+    """A document telling (the source's own words) cites nobody: the score drops every cite of a source's
+    author, so an author's telling that cited its citer would turn the author into the repetition."""
+    if t.get("document") and t.get("cites"):
+        return [f"{tw}: a document telling cites {t['cites']}; the source's own words cite nobody"]
+    return []
 
 
 def replay_problems(tw: str, t: dict, episodes: dict, people: dict, groups: list) -> list[str]:
@@ -496,6 +507,8 @@ def expectations(root: Root) -> list[str]:
             out.append(f"expect: story {sid} has {len(b['discussion'])} discussion entries in site/data.json, expected {e.get('discussion', 0)}")
         if b["notes_open"] != e.get("notes_open", 0):
             out.append(f"expect: story {sid} has notes_open {b['notes_open']} in site/data.json, expected {e.get('notes_open', 0)}")
+        if "repeats" in e and [t.get("repeats") for t in b["tellings"]] != e["repeats"]:
+            out.append(f"expect: story {sid} has repeats {[t.get('repeats') for t in b['tellings']]} in site/data.json, expected {e['repeats']}")
         files = [i.get("file") for i in b.get("images", [])] if isinstance(b.get("images"), list) else None
         if files != e.get("images", []):
             out.append(f"expect: story {sid} has images {files} in site/data.json, expected {e.get('images', [])}")
@@ -557,6 +570,8 @@ def expectations(root: Root) -> list[str]:
     out += clips_expectations(root, exp)
     out += clips_refusal_problems(root)
     out += replay_weight_problems()
+    out += document_telling_cites_problems()
+    out += cite_edges_problems()
     out += near_duplicate_problems()
     ledger = root.data / "links.json"
     got = [d["key"] for d in (load_json(ledger).get("downgraded", []) if ledger.exists() else [])]
@@ -937,6 +952,35 @@ def replay_weight_problems() -> list[str]:
     p = score.attest({"id": "r", "tellings": [replay]})["profile"]
     if (p["independent_tellers"], p["firsthand"]) != (1, 1):
         out.append(f"expect: a speaker heard only in a replay must count by the replay's kind, got {p}")
+    return out
+
+
+def document_telling_cites_problems() -> list[str]:
+    """`document_cites_problems`: a document telling that cites someone is reported, one with no cites passes."""
+    tell = {"document": "d", "page": "I", "teller": "ivo-fixture", "quote": "q", "kind": "firsthand", "cites": ["bo"], "documents": []}
+    out = []
+    if not document_cites_problems("t", tell):
+        out.append("expect: a document telling with cites ['bo'] must be reported")
+    if document_cites_problems("t", {**tell, "cites": []}) or document_cites_problems("t", {k: v for k, v in tell.items() if k != "cites"}):
+        out.append("expect: a document telling with empty or absent cites must pass")
+    return out
+
+
+def cite_edges_problems() -> list[str]:
+    """`score.cite_edges`, which the score's graph and the page's "repeats" both read: a host citing a source's
+    author (who tells the story only in a document telling) and a witness who tells it in an episode has the
+    witness as its one edge and stays a repetition of the witness alone."""
+    from . import score
+    ep = {"episode": "E", "from_s": 1, "quote": "q", "documents": []}
+    story = {"id": "e", "tellings": [
+        {**ep, "teller": "bo", "kind": "host", "cites": ["ivo", "cy"]},
+        {**ep, "teller": "cy", "kind": "firsthand", "cites": []},
+        {"document": "d", "page": "I", "teller": "ivo", "quote": "q", "kind": "firsthand", "cites": [], "documents": []}]}
+    out = []
+    if score.cite_edges(story) != [["cy"], [], []]:
+        out.append(f"expect: cite_edges gives {score.cite_edges(story)}, expected [['cy'], [], []]")
+    if score.independent(story) != (["cy", "ivo"], ["bo"]):
+        out.append(f"expect: independent gives {score.independent(story)}, expected (['cy', 'ivo'], ['bo'])")
     return out
 
 

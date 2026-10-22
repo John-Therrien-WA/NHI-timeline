@@ -23,7 +23,8 @@ axes, the corpus date (the latest episode published), and beside the stories the
 (weights, the institutional-trust knob, the median floor and median, the tier counts) so the page
 can recompute each story's attestation from its `profile` at another knob value. A telling carries
 what the page shows (the episode id, the time codes and URL, the teller, the quote, the kind, what it
-cites and the `difference`); the episode's show, title and date come from the `episodes` map, and the
+cites, `repeats` (for a repetition, the cites `score.cite_edges` counts as edges, so a cite of a source's
+author is never shown as repeating it) and the `difference`); the episode's show, title and date come from the `episodes` map, and the
 link's `link_reason` and `as_told` stay in the story file. All four files are written compact, with no
 indentation, so the whole corpus fits the 16 MB a published artifact allows a file. Fails when a story
 has no score, profile or tier: run pipeline.score first.
@@ -38,7 +39,7 @@ from pathlib import Path
 
 from . import images
 from .common import REPO, Root, rel, seconds
-from .score import attest
+from .score import attest, cite_edges
 
 # The keys of a story in site/data.json, exactly: build writes these and check refuses a built story with any other set.
 STORY_KEYS = frozenset({
@@ -93,7 +94,7 @@ def run(root: Root, out: Path) -> dict:
             raise SystemExit(f"build: story {sid} has no score, profile or tier: run pipeline.score first")
         d = attest(s)
         tellings = []
-        for t in s["tellings"]:
+        for t, edges in zip(s["tellings"], cite_edges(s)):
             ep = episodes.get(t["episode"]) if t.get("episode") else None
             tellings.append({
                 "episode": t.get("episode"), "document": t.get("document"), "page": t.get("page"),
@@ -102,6 +103,7 @@ def run(root: Root, out: Path) -> dict:
                 "teller": t["teller"], "teller_name": people[t["teller"]]["name"], "quote": t.get("quote"),
                 "kind": t["kind"], "cites": t.get("cites", []), "documents": t.get("documents", []),
                 "repetition": t["teller"] in d["repetitions"],
+                "repeats": edges if t["teller"] in d["repetitions"] else [],
                 "difference": t.get("difference"),
             })
         docs = sorted({x for t in s["tellings"] for x in t.get("documents", [])} | {t["document"] for t in s["tellings"] if t.get("document")})

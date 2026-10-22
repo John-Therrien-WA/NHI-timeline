@@ -65,7 +65,7 @@ import urllib.request
 from pathlib import Path
 
 from . import images
-from .common import (DATE, HTTP, REPO, Root, document_aliases, load_json, norm_quote, norm_ws, person_aliases, rel, save_json,
+from .common import (DATE, HTTP, REPO, Root, document_aliases, is_document_id, load_json, norm_quote, norm_ws, person_aliases, rel, save_json,
                      slugify, text_field)
 from .merge import ensure_person, same_telling
 
@@ -241,7 +241,7 @@ def entry_problems(where: str, e, stories: dict, story_alias: dict[str, str]) ->
                 out.append(f"{where}: document is missing {k} (null when unknown)")
         if not text_field(d.get("title")):
             out.append(f"{where}: document title must be a non-empty string")
-        if d.get("id") is not None and not (isinstance(d["id"], str) and d["id"] and slugify(d["id"]) == d["id"]):
+        if d.get("id") is not None and not is_document_id(d["id"]):
             out.append(f"{where}: document id {d['id']!r} is not a slug")
         for k in ("author", "issuer"):
             if not _opt_text(d.get(k)):

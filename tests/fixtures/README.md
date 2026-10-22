@@ -148,7 +148,7 @@ people the fold leaves.
 
 The document fold is one fictional log under two titles. The harbour log is held as
 `harbour-log-of-nowhere-1958` (page 3 in its passages) and as `nowhere-harbour-log`
-(`data/documents/nowhere-harbour-log.json` with a url and a date of its own, page 4 in
+(`data/documents/nowhere-harbour-log.json` with a url of its own and the same date, page 4 in
 `sources/documents/nowhere-harbour-log.txt`): the flare quotes one page under each id, and the lantern's
 extraction credits both titles in one telling. Unfolded, the lantern counts two credited documents and
 the flare two document tellings, both above their `attestation` in expect.json. `data/document-folds.json`
@@ -157,15 +157,17 @@ folds the short id into the full one, which runs after sources and before the pe
 member's url and attests and carries it as an alias, its text holds both passages under `[3]` and `[4]`, and
 both stories name only the canonical (no telling credits it twice); merge, run again in the second pass, must
 not bring the member back, and a second fold changes nothing. `check.document_fold_problems` (inside the check
-of every root) fails a member id left anywhere, a canonical without its file and an alias that is a document or
-claimed twice. The refusals run on a tiny root of their own (`check.document_fold_refusal_problems`): a
-malformed group, a member in two groups, a member that is another group's canonical, a member named nowhere, a
-canonical or a member an earlier fold put into another document, text files of two formats, two full texts
+of every root) fails a member id left anywhere, a canonical without its file or without a member in its aliases,
+an alias that is a document or claimed twice, and a member held as an alias by a document other than its canonical. The refusals run on a tiny root of their own (`check.document_fold_refusal_problems`): a
+malformed group, a canonical of 61 characters, a canonical in two groups, a member in two groups, a member that is
+another group's canonical, a member named nowhere, two members that give different dates, a group title whose slug is
+another document, a canonical or a member an earlier fold put into another document, text files of two formats, two full texts
 that differ, a passages text beside a member that makes the document a public-domain full text, and two
 tellings that would become one are each named before anything is written; a fold then merges two passages
 texts and drops the passage they share, renames a lone member's text to a new canonical, rewrites a manifest's
 document id and leaves its images manifest alone, credits a telling's members once, and merge and sources
-resolve a folded title or id to the canonical.
+resolve a folded title, the group's own title or an id to the canonical; with a member taken out of its canonical's
+aliases the whole-root check names it.
 
 `check.near_duplicate_problems` runs the near-duplicate warning on a fixed list of ids: of `greg`,
 `greg-malatzi`, `greg-malazzi`, `james-fox`, `james-woods`, `bob-jameson`, `robert-jameson` and

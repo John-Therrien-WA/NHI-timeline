@@ -10,26 +10,30 @@ makes one document per title a teller gives, so one source counts as two credite
 overlap rule (two stories that share a document) misses the stories that name it differently, and the
 sources stage checks it under one id and leaves the others unsourced until folded.
 
-`--fold` applies every group: in the stories a telling's `document` and every id in its `documents`
-take the canonical id (`documents` deduplicated, so a telling that credited two members credits the
-canonical once); in sources/manifests/*.json (not the `.images.json` beside them) an entry's
-`document.id`. The member document files merge into the canonical's (created when absent): `title`
-from the group, `attests` the union in order, every other field the canonical's when set, else the
-first member's that is set (a member's differing value is printed as it is left behind), and `aliases`
-the union of its own, the member ids and the members' own aliases; the member files are deleted.
-`common.document_aliases` reads those aliases, so merge maps a title whose slug is an alias, and the
-sources stage a manifest id or title slug that is one, to the canonical. The evidence files
+`--fold` applies every group: in the stories a telling's `document` and every id in its `documents` take
+the canonical id (`documents` deduplicated, so a telling that credited two members credits the canonical
+once); in sources/manifests/*.json (not the `.images.json` beside them) an entry's `document.id`. The
+member document files merge into the canonical's (created when absent): `title` from the group,
+`attests` the union in order, every other field the one value the canonical and the members set (the
+canonical's own, else a member's), and `aliases` the union of its own, the member ids, the members' own
+aliases and the slugs of the group's title and of every old title (the canonical's id left out); the
+member files are deleted. `common.document_aliases` reads those aliases, so merge maps a title whose
+slug is an alias, and the sources stage a manifest id or title slug that is one, to the canonical, and a
+later credit under any of the titles cannot bring a folded document back. The evidence files
 sources/documents/<id>.txt follow: a member's file is renamed to the canonical's when the canonical has
 none and it is the only one; files of one format are merged into one (passages appended under their
-locators after the canonical's, a passage already held dropped; full texts kept when they read the
-same and refused when they differ). Every group is checked before anything is written: it fails on a
-malformed group, a member in two groups, a member that is another group's canonical, a canonical that
-an earlier fold made an alias of another document, a member an earlier fold put into a document outside
-the group, a member with no document file and no reference anywhere that no earlier fold absorbed,
-text files of two formats (a full text and passages) or of a format the folded document does not keep
-(`sources.full_text`), two full texts that differ, and a story that would hold the same (document,
-quote) twice. Idempotent: a second run changes nothing. Runs after sources and beside `people --fold`,
-before score (the profile's documents are recomputed there).
+locators after the canonical's, a passage already held dropped; full texts kept when they read the same
+and refused when they differ). Every group is checked before anything is written: it fails on a
+malformed group, a member in two groups, a canonical in two groups, a member that is another group's
+canonical, a canonical that an earlier fold made an alias of another document, a member an earlier fold
+put into a document outside the group, two set values of one field (`date`, `url`, `issuer` and the
+rest) among the canonical and the members (a person settles them by hand in the document files first),
+an alias the fold would add that is a document outside the group, another document's alias, another
+group's member or canonical, or another group's alias, a member with no document file and no reference
+anywhere that no earlier fold absorbed, text files of two formats (a full text and passages) or of a
+format the folded document does not keep (`sources.full_text`), two full texts that differ, and a story
+that would hold the same (document, quote) twice. Idempotent: a second run changes nothing. Runs after
+sources and beside `people --fold`, before score (the profile's documents are recomputed there).
 """
 from __future__ import annotations
 
@@ -38,7 +42,7 @@ import sys
 from pathlib import Path
 
 from . import sources
-from .common import REPO, Root, load_json, norm_quote, rel, save_json, slugify
+from .common import REPO, SLUG_LIMIT, Root, is_document_id, load_json, rel, save_json, slugify
 from .merge import same_telling
 
 FOLD_KEYS = ("canonical", "title", "members", "reason")
@@ -59,16 +63,6 @@ def manifest_files(root: Root) -> list[Path]:
     return sorted(f for f in d.glob("*.json") if not f.name.endswith(".images.json")) if d.exists() else []
 
 
-def is_id(x) -> bool:
-    """A document id is its own slug (the rule `sources.entry_problems` holds a manifest id to)."""
-    if not (isinstance(x, str) and x):
-        return False
-    try:
-        return slugify(x, limit=len(x)) == x
-    except SystemExit:  # no letter or digit in it: not a slug
-        return False
-
-
 def group_problems(groups, where: str = "data/document-folds.json") -> list[str]:
     """The file's shape and the rules across groups; [] when it is sound. Needs no other data."""
     if not isinstance(groups, list):
@@ -82,15 +76,15 @@ def group_problems(groups, where: str = "data/document-folds.json") -> list[str]
             out.append(f"{gw}: must be an object with exactly {', '.join(FOLD_KEYS)}")
             continue
         c, members = g["canonical"], g["members"]
-        if not is_id(c):
-            out.append(f"{gw}: canonical {c!r} is not a document id (a lowercase slug)")
+        if not is_document_id(c):
+            out.append(f"{gw}: canonical {c!r} is not a document id (a lowercase slug of at most {SLUG_LIMIT} characters)")
             continue
         gw = f"{where} group {i} ({c})"
         if not (isinstance(g["title"], str) and g["title"].strip()):
             out.append(f"{gw}: title must be a non-empty string")
         if not (isinstance(g["reason"], str) and g["reason"].strip()):
             out.append(f"{gw}: reason must be a non-empty string")
-        if not (isinstance(members, list) and members and all(is_id(m) for m in members)):
+        if not (isinstance(members, list) and members and all(is_document_id(m) for m in members)):
             out.append(f"{gw}: members must be a non-empty list of document ids")
             continue
         if len(set(members)) != len(members):
@@ -160,21 +154,28 @@ def union(*lists) -> list:
     return list(dict.fromkeys(x for xs in lists for x in xs))
 
 
-def merged_document(canonical: str, title: str, own: dict | None, members: list[dict], say) -> dict:
+def merged_document(canonical: str, title: str, own: dict | None, members: list[dict]) -> tuple[dict, list[str]]:
+    """(the canonical's document after the fold, the fields on which its sources disagree). A field is the first
+    set value of the canonical then the members; two different set values are a conflict for a person to settle
+    in the document files before folding. `aliases` gains the member ids, their aliases and the slugs of the
+    group's title and of every old title, so merge maps any of those titles to the canonical."""
     base = own or {"id": canonical, "title": title, "issuer": None, "date": None, "url": None, "kind": None, "attests": []}
+    docs = [base, *members]
     d = dict(base)
     d["title"] = title
-    for m in members:
-        for k, v in m.items():
-            if k in ("id", "title", "aliases", "attests") or v in EMPTY:
-                continue
-            if d.get(k) in EMPTY:
-                d[k] = v
-            elif d[k] != v:
-                say(f"kept     {canonical}  {k} {d[k]!r}, not {m['id']}'s {v!r}")
+    conflicts = []
+    for k in union(*[list(x) for x in docs]):
+        if k in ("id", "title", "aliases", "attests"):
+            continue
+        held = [(x["id"], x[k]) for x in docs if x.get(k) not in EMPTY]
+        if len({repr(v) for _, v in held}) > 1:
+            conflicts.append(f"{k} differs: " + ", ".join(f"{i} {v!r}" for i, v in held))
+        if held:
+            d[k] = held[0][1]
     d["attests"] = union(base.get("attests") or [], *[m.get("attests") or [] for m in members])
-    d["aliases"] = union(base.get("aliases") or [], *[[m["id"], *(m.get("aliases") or [])] for m in members])
-    return {k: v for k, v in d.items() if k != "aliases"} | {"aliases": d["aliases"]}
+    titles = [slugify(t) for t in (title, *([own["title"]] if own else []), *[m["title"] for m in members])]
+    aliases = union(base.get("aliases") or [], *[[m["id"], *(m.get("aliases") or [])] for m in members], titles)
+    return {k: v for k, v in d.items() if k != "aliases"} | {"aliases": [a for a in aliases if a != canonical]}, conflicts
 
 
 def fold_telling(t: dict, to: dict[str, str]) -> dict:
@@ -239,6 +240,8 @@ def run(root: Root, echo=print) -> dict:
     named = references(stories, manifests, root.path)
     bad: list[str] = []
     plans: dict[str, tuple] = {}
+    canonicals = {g["canonical"] for g in groups}
+    claimed: dict[str, str] = {}  # alias: the canonical a group gives it
     for g in groups:
         c = g["canonical"]
         own = {c, *g["members"]}  # an earlier fold into the canonical or into another member of the group
@@ -250,7 +253,19 @@ def run(root: Root, echo=print) -> dict:
             elif m not in documents and m not in named and m not in absorbed:
                 bad.append(f"group {c}: member {m!r} has no document file and no reference anywhere (no telling or manifest names it)")
         members = [documents[m] for m in g["members"] if m in documents]
-        merged = merged_document(c, g["title"], documents.get(c), members, lines.append)
+        merged, conflicts = merged_document(c, g["title"], documents.get(c), members)
+        for x in conflicts:
+            bad.append(f"group {c}: {x}; settle it by hand in data/documents before folding")
+        for a in merged["aliases"]:
+            if a in documents and a not in own:
+                bad.append(f"group {c}: alias {a!r} is the document {a}, outside the group (from a title's slug); "
+                           "make it a member or give the group another title")
+            elif a in absorbed and absorbed[a] not in own:
+                bad.append(f"group {c}: alias {a!r} is already an alias of {absorbed[a]!r}")
+            elif to.get(a, c) != c or (a in canonicals and a != c):
+                bad.append(f"group {c}: alias {a!r} is a member or the canonical of another group")
+            elif claimed.setdefault(a, c) != c:
+                bad.append(f"group {c}: alias {a!r} is also an alias group {claimed[a]} gives its canonical")
         body, gone, why = text_plan(root, c, merged, [c, *g["members"]], documents)
         if why:
             bad.append(f"group {c}: {why}")

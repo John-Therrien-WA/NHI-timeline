@@ -106,7 +106,7 @@ from .build import STORY_KEYS
 from . import documents as documents_stage
 from . import people as people_stage
 from .common import (DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, REPO, RELATIONS,
-                     STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
+                     STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
 
@@ -435,8 +435,9 @@ def person_fold_problems(root: Root, stories: dict, people: dict, episodes: dict
 
 def document_fold_problems(root: Root, stories: dict, documents: dict) -> list[str]:
     """data/document-folds.json well formed and applied: no member id has a document file or is named where a
-    document id goes (`documents.reference_sites`), every canonical has its document file; every document's
-    `aliases` is a list of ids that are no document file and belong to no other document."""
+    document id goes (`documents.reference_sites`), every canonical has its document file and holds every member
+    in its `aliases` (so merge and sources map the member to it), and no other document holds a member as an alias;
+    every document's `aliases` is a list of ids that are no document file and belong to no other document."""
     out: list[str] = []
     f = documents_stage.folds_path(root)
     groups = load_json(f) if f.exists() else []
@@ -445,7 +446,7 @@ def document_fold_problems(root: Root, stories: dict, documents: dict) -> list[s
     claimed: dict[str, str] = {}
     for did, d in sorted(documents.items()):
         al = d.get("aliases", [])
-        if not (isinstance(al, list) and all(documents_stage.is_id(a) for a in al)):
+        if not (isinstance(al, list) and all(is_document_id(a) for a in al)):
             out.append(f"document {did}: aliases must be a list of document ids")
             continue
         for a in al:
@@ -460,8 +461,17 @@ def document_fold_problems(root: Root, stories: dict, documents: dict) -> list[s
     for m in sorted(m for m in to if m in documents):
         out.append(f"document-folds.json: member {m!r} still has data/documents/{m}.json (run pipeline.documents --fold)")
     for g in groups:
-        if g["canonical"] not in documents:
-            out.append(f"document-folds.json: canonical {g['canonical']!r} has no document file (run pipeline.documents --fold)")
+        c = g["canonical"]
+        if c not in documents:
+            out.append(f"document-folds.json: canonical {c!r} has no document file (run pipeline.documents --fold)")
+            continue
+        for m in g["members"]:
+            if m not in documents and m not in documents[c].get("aliases", []):
+                out.append(f"document-folds.json: member {m!r} is not in the aliases of its canonical {c!r} "
+                           f"(data/documents/{c}.json), so merge and sources would not map it there")
+    for a, did in sorted(claimed.items()):
+        if to.get(a, did) != did:
+            out.append(f"document {did}: alias {a!r} is a member document-folds.json folds into {to[a]!r}, not into {did!r}")
     try:
         manifests = documents_stage.load_manifests(root)
     except SystemExit as e:
@@ -1455,7 +1465,8 @@ def document_fold_refusal_problems() -> list[str]:
         doc("log-a", "Log A", "[1]\nThe boat left at nine.\n", attests=["a"])
         doc("log-b", "Log B", "[2]\nThe boat came back at ten.\n", issuer="Harbour", date="1958", url="https://example.org/b",
             kind="official", attests=["b"], aliases=["log-z"])  # an earlier fold, kept; log-z is also a member below
-        doc("log-c", "Log C", "[1]\nThe boat left at nine.\n\n[3]\nNobody saw a lantern.\n", date="1957", attests=["b", "c"])
+        doc("log-c", "Log C", "[1]\nThe boat left at nine.\n\n[3]\nNobody saw a lantern.\n", date="1958", attests=["b", "c"])
+        doc("log-d", "Log D", date="1957")  # disagrees with log-b's date
         doc("lone-member", "Lone member", "[7]\nA lone passage.\n", issuer="Lone issuer")
         doc("pam", "Pam", "Full text of pam.\n", status="public-domain", text_url="https://example.org/pam.txt")
         doc("pam-q", "Pam Q", "[1]\nFull text of pam.\n")
@@ -1478,6 +1489,10 @@ def document_fold_refusal_problems() -> list[str]:
         folds = documents_stage.folds_path(root)
         refusals = [
             ("a malformed group", [{**good, "name": "x"}], "must be an object with exactly"),
+            ("a canonical longer than an id", [{**good, "canonical": "a" * 61}], "is not a document id"),
+            ("a canonical in two groups", [good, {**lone, "canonical": "log-a"}], "also the canonical of group 1"),
+            ("conflicting fields", [{**good, "members": ["log-b", "log-d"]}], "date"),
+            ("a title whose slug is another document", [{**good, "title": "Other"}], "alias 'other' is the document other"),
             ("a member in two groups", [good, {**lone, "members": ["log-c"]}], "also a member of group 1"),
             ("a member that is another group's canonical", [good, {**lone, "members": ["log-a"]}], "is the canonical of group 1"),
             ("a member named nowhere", [{**good, "members": ["log-b", "nobody-doc"]}], "'nobody-doc' has no document file and no reference"),
@@ -1508,7 +1523,7 @@ def document_fold_refusal_problems() -> list[str]:
         documents_stage.run(root, echo=lambda line: None)
         a = load_json(root.documents / "log-a.json")
         want = {"id": "log-a", "title": "Log A (folded)", "issuer": "Harbour", "date": "1958", "url": "https://example.org/b",
-                "kind": "official", "attests": ["a", "b", "c"], "aliases": ["log-b", "log-z", "log-c"]}
+                "kind": "official", "attests": ["a", "b", "c"], "aliases": ["log-b", "log-z", "log-c", "log-a-folded"]}
         if a != want:
             out.append(f"expect: the folded canonical is {a}, expected {want}")
         if any((root.documents / f"{m}.json").exists() or (texts / f"{m}.txt").exists() for m in ("log-b", "log-c", "lone-member")):
@@ -1530,6 +1545,8 @@ def document_fold_refusal_problems() -> list[str]:
         docs = root.load_dir(root.documents)
         if merge.ensure_document(docs, "Log B", document_aliases(docs)) != "log-a":
             out.append("expect: merge makes a new document of the title Log B, which the fold made an alias of log-a")
+        if merge.ensure_document(docs, "Log A (folded)", document_aliases(docs)) != "log-a":
+            out.append("expect: merge makes a new document of the group's title Log A (folded), which the fold made an alias of log-a")
         for m, did in (({"id": "log-c", "title": "Log C", "url": None, "text_url": None, "date": None}, "log-a"),
                        ({"id": None, "title": "Lone member", "url": None, "text_url": None, "date": None}, "lone")):
             if sources.find_document(docs, m) != (did, False):
@@ -1538,6 +1555,12 @@ def document_fold_refusal_problems() -> list[str]:
         documents_stage.run(root, echo=lambda line: None)
         if snapshot(tmp) != before:
             out.append("expect: a second documents --fold on the tiny root changed something")
+        save_json(root.data / "eras.json", [])  # the axes the whole-root check reads
+        save_json(root.data / "places.json", [])
+        a = load_json(root.documents / "log-a.json")
+        save_json(root.documents / "log-a.json", {**a, "aliases": []})
+        if not any("'log-b'" in x and "log-a" in x and "aliases" in x for x in problems(root)):
+            out.append("expect: check passes a fold whose member log-b is missing from its canonical log-a's aliases")
     finally:
         shutil.rmtree(tmp)
     return out

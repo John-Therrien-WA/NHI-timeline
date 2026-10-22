@@ -98,8 +98,9 @@ the person files, keeps the members as the canonical's `aliases` and adds their 
 To fold documents: a group in `data/document-folds.json` names the ids of one document under several
 titles (`members`) and the id they become (`canonical`, held or new), with the title the page shows and
 the evidence. `documents --fold` rewrites every telling and source manifest that names a member, merges
-the document files and their texts under `sources/documents/`, and keeps the members as the canonical's
-`aliases`, so the next merge or sources run maps those titles at once; then `people --fold`, `score`,
+the document files and their texts under `sources/documents/`, and keeps the members and the slugs of every
+title as the canonical's `aliases`, so the next merge or sources run maps those titles at once (a field the
+members set differently is refused: settle it in the document files first); then `people --fold`, `score`,
 `build` and `check` run again.
 
 To fold viewer notes: pull the page's saved notes into `data/notes/<story id>.json` (status `open`), turn each

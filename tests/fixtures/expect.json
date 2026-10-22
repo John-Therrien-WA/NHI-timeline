@@ -137,7 +137,8 @@
     "the-lantern-over-the-harbour-of-nowhere-1958": {
       "tier": "told-once",
       "contradicted": true,
-      "attestation": 1.25
+      "attestation": 1.25,
+      "discussion": 1
     },
     "the-lantern-was-a-flare-1958": {
       "tier": "told-once",
@@ -251,11 +252,19 @@
         "url": "https://example.org/lanterns-of-nowhere",
         "text_url": "https://example.org/served/lanterns-of-nowhere.txt",
         "kind": "firsthand"
+      },
+      "the-nowhere-letters": {
+        "title": "The Nowhere Letters",
+        "date": "1990",
+        "status": "unknown",
+        "kind": null,
+        "provenance": "An unsigned typescript left at the Nowhere Gazette in 1990; nobody has said who wrote it, and the harbour board holds no copy."
       }
     },
     "texts": [
       "harbour-log-of-nowhere-1958",
-      "the-lanterns-of-nowhere"
+      "the-lanterns-of-nowhere",
+      "the-nowhere-letters"
     ],
     "tellings": {
       "the-lanterns-are-a-mirror-1957": [
@@ -265,18 +274,28 @@
           "teller": "ivo-fixture",
           "kind": "firsthand"
         }
-      ]
+      ],
+      "the-lantern-over-the-harbour-of-nowhere-1958": []
     },
     "source_notes": {
-      "the-lanterns-are-a-mirror-1957": 1
+      "the-lanterns-are-a-mirror-1957": 1,
+      "the-lantern-over-the-harbour-of-nowhere-1958": 1
     },
     "explain_lines": {
       "the-lanterns-are-a-mirror-1957": [
         "in the document The Lanterns of Nowhere, 1956, I, the document's own words",
         "source note, from The Lanterns of Nowhere: The Lanterns of Nowhere, a pamphlet of 1956"
+      ],
+      "the-lantern-over-the-harbour-of-nowhere-1958": [
+        "source note, from a disputed document, The Nowhere Letters: An unsigned typescript left at the Nowhere Gazette in 1990; nobody has said who wrote it, and the harbour board holds no copy. The Nowhere Letters say the lantern was towed out"
       ]
     },
-    "images": 2
+    "images": 2,
+    "site_documents": {
+      "the-lantern-over-the-harbour-of-nowhere-1958": {
+        "the-nowhere-letters": "An unsigned typescript left at the Nowhere Gazette in 1990; nobody has said who wrote it, and the harbour board holds no copy."
+      }
+    }
   },
   "people_fold": {
     "fay-fixture": {

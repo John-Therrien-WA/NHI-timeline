@@ -11,7 +11,8 @@ the profile), the plain telling, the story's own photographs (data/images/<story
 as data URIs from site/images with caption, credit and licence), every telling grouped by teller (the
 teller's headshot beside their own tellings only; an episode telling with its show, title, date and the
 YouTube link at the time code, a document telling with its title, date, locator and URL; the quote
-verbatim; what it cites and credits; its `difference` and `as_told`), the discussion entries and the
+verbatim; what it cites and credits; its `difference` and `as_told`), the discussion entries (a source
+note's text begins with the provenance of a document quoted only in source notes) and the
 count of open viewer notes. Under each story a rating from 1 to 10 and a note, and at the end a general
 note. The page is one self-contained file for a private claude.ai artifact with the `db` capability:
 each story's comment is the document `comments/<story id>` (`{story, rating, note, at}`), the general

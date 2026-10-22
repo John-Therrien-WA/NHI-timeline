@@ -32,8 +32,10 @@ where a document id goes (a telling's `document` or `documents`, a source manife
 `documents.reference_sites`), every canonical has its document file, and every document's `aliases`
 are ids that are no document file and belong to one document. Every document telling has its
 text file under sources/documents, its quote a verbatim substring of it (inside the passage its
-`page` names when the file holds passages), every document's `status` and `text_url` are well
-formed and every text file there is a document's and in its format: a full text only for a
+`page` names when the file holds passages), every document's `status`, `text_url` and `provenance` are well
+formed (a provenance a non-empty string when present), every document a story quotes only in a
+`source` note (the note's `source` is its url and no telling of the story names it) has a
+provenance, and every text file there is a document's and in its format: a full text only for a
 public-domain document with a text_url, [locator] passages for every other (`sources.problems`).
 The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. When site/data.json exists, every story in it
 carries exactly the keys build writes (`build.STORY_KEYS`), so a stale build fails until build runs. Prints every problem, naming the
@@ -84,9 +86,14 @@ plain tellings removed, `explain --shard 1/2` and `--shard 2/2` explain disjoint
 that together match the full run, and a malformed shard is refused. Every `*_problems` case
 run_fixture or expectations calls must be named in tests/fixtures/README.md.
 For the sources stage: the documents,
-text files, tellings, source notes and images manifest under `sources`, the lines explain sends
-the model, and on a copy of the root the passages path, the slug rule and every refusal
-(`source_ingest_problems`).
+text files, tellings, source notes and images manifest under `sources`, the documents a story's
+block in site/data.json carries with their provenance, a note-only document among them
+(`site_documents`), the lines explain sends the model (a note-only note marked as from a disputed
+document), and on a copy of the root the passages path, the slug rule and every refusal
+(`source_ingest_problems`: among them a note-only entry with a teller, a kind or no `differs`, or on
+a document without a provenance, the last after a valid entry, each written nothing), and that check
+refuses a note-only document whose provenance is removed or blank, or that shares its url with
+another document of a different provenance.
 """
 from __future__ import annotations
 
@@ -1182,6 +1189,14 @@ def source_expectations(root: Root, exp: dict) -> list[str]:
         for line in want["explain_lines"].get(sid, []):
             if line not in text:
                 out.append(f"expect: explain's text for {sid} lacks {line!r}")
+    built = {s["id"]: s for s in load_json(root.site / "data.json")["stories"]}
+    for sid, docs in want["site_documents"].items():
+        got = {d["id"]: d.get("provenance") for d in built[sid]["documents"]}
+        for did, provenance in docs.items():
+            if did not in got:
+                out.append(f"expect: site/data.json's documents of {sid} are {sorted(got)}, without {did}")
+            elif got[did] != provenance:
+                out.append(f"expect: site/data.json gives {did} in {sid} the provenance {got[did]!r}, expected {provenance!r}")
     ims = sources.images_manifest_path(root.path / SOURCE_MANIFEST)
     entries = load_json(ims) if ims.exists() else []
     if len(entries) != want["images"]:
@@ -1253,6 +1268,26 @@ def source_ingest_problems(root: Root) -> list[str]:
                 out.append(f"expect: {what} was refused for another reason: {x}")
         if snapshot(r.path) != before:
             out.append(f"expect: sources wrote files for an entry refused for {what}")
+    note = "Balloons Over Nowhere says the light was a balloon."
+    note_only = [
+        ("a note-only entry with a teller", entry([p2], [q2], note_only=True, kind=None, teller="Lu Fixture", differs=note), "note-only"),
+        ("a note-only entry with a kind", entry([p2], [q2], note_only=True, differs=note), "note-only"),
+        ("a note-only entry with no source note", entry([p2], [q2], note_only=True, kind=None), "note-only"),
+        ("a note-only entry on a document with no provenance, after a valid entry",
+         [entry([p5], [q5], document={"id": "valid-first", "title": "Valid First", "url": "https://example.org/valid-first"}),
+          entry([p2], [q2], note_only=True, kind=None, differs=note, document={"id": "unproven-letters", "title": "Unproven Letters"})],
+         "provenance"),
+    ]
+    for what, e, needle in note_only:
+        before = snapshot(r.path)
+        try:
+            sources.run(r, e if isinstance(e, list) else [e], fetch=fetch, echo=quiet)
+            out.append(f"expect: sources accepted {what}")
+        except SystemExit as x:
+            if needle not in str(x):
+                out.append(f"expect: {what} was refused without naming {needle!r}: {x}")
+        if snapshot(r.path) != before:
+            out.append(f"expect: sources wrote files for an entry refused for {what}")
     res = sources.run(r, [refused[2][1], entry([p2], [q2])], fetch=fetch, keep_going=True, echo=quiet)
     if len(res["failures"]) != 1 or "404" not in res["failures"][0]:
         out.append(f"expect: keep_going listed {res['failures']}, expected the one failed fetch")
@@ -1298,6 +1333,19 @@ def source_ingest_problems(root: Root) -> list[str]:
     if not any("text before the first [locator]" in p for p in problems(r)):
         out.append("expect: check passed a full text kept for a document that is not public domain")
     save_json(r.documents / "the-lanterns-of-nowhere.json", lanterns)
+    letters = load_json(r.documents / "the-nowhere-letters.json")
+    save_json(r.documents / "the-nowhere-letters.json", {k: v for k, v in letters.items() if k != "provenance"})
+    if not any("the-nowhere-letters" in p and "provenance" in p for p in problems(r)):
+        out.append("expect: check passed a document a story quotes only in a source note, with no provenance")
+    save_json(r.documents / "the-nowhere-letters.json", {**letters, "provenance": " "})
+    if not any("the-nowhere-letters" in p and "provenance" in p for p in problems(r)):
+        out.append("expect: check passed a document whose provenance is blank")
+    save_json(r.documents / "the-nowhere-letters.json", letters)
+    twin = r.documents / "the-nowhere-letters-twin.json"
+    save_json(twin, {**letters, "id": twin.stem, "provenance": "A typed copy the Gazette says it never received."})
+    if not any("different provenances" in p for p in problems(r)):
+        out.append("expect: check passed two documents of one url with different provenances, which build refuses")
+    twin.unlink()
     if not out:
         shutil.rmtree(tmp)
     else:

@@ -26,5 +26,30 @@
         "source": "https://example.org/ivo-fixture", "licence": "CC0 (fictional)", "licence_kind": "free",
         "credit": "Nowhere Gazette (fictional)", "caption": "Ivo Fixture, the fictional author of the pamphlet, on the pilot steps." }
     ]
+  },
+  {
+    "story": "the-lantern-over-the-harbour-of-nowhere-1958",
+    "document": {
+      "id": null,
+      "title": "The Nowhere Letters",
+      "author": null,
+      "issuer": null,
+      "date": "1990",
+      "url": "https://example.org/nowhere-letters",
+      "text_url": null,
+      "status": "unknown",
+      "provenance": "An unsigned typescript left at the Nowhere Gazette in 1990; nobody has said who wrote it, and the harbour board holds no copy."
+    },
+    "text": { "url": null, "passages": [
+      { "locator": "letter 2", "text": "The lantern was towed out on a barge every night of that week, and the crew was told to keep its lamps dark." }
+    ] },
+    "quotes": [
+      { "quote": "The lantern was towed out on a barge every night of that week", "locator": "letter 2" }
+    ],
+    "teller": null,
+    "kind": null,
+    "note_only": true,
+    "differs": "The Nowhere Letters say the lantern was towed out on a barge each night; the tellers say it hung in the air.",
+    "images": []
   }
 ]

@@ -125,6 +125,22 @@ replaces with a `title` line printed; and the check naming a missing text file, 
 chapter than its page, a text file no document has and the pamphlet's full text once its status is
 `unknown`.
 
+The manifest's second entry is the note-only case: *The Nowhere Letters* (1990), an unsigned
+typescript of status `unknown`, one passage under `letter 2`, quoted beside the lantern with
+`"note_only": true`, a null teller and kind, a `differs` note and a `document.provenance`. The stage
+checks the quote and writes the passage to `sources/documents/the-nowhere-letters.txt`, but adds no
+telling and makes no person: the document's `kind` stays null, the lantern has no document telling and
+one `source` note whose text begins with the provenance, and its attestation stays 1.25, the proof
+that a note-only source does not move it. `site_documents` in `expect.json` holds the letters, with
+their provenance, in the lantern's `documents` block in site/data.json, although no telling names
+them, and the lantern's `explain_lines` entry has explain send the note as from a disputed document.
+A second run must find the note by its composed text and add nothing.
+`check.source_ingest_problems` also refuses a note-only entry with a teller, one with a kind, one with
+no `differs` and one on a document without a provenance placed after a valid entry, each naming
+`note-only` or `provenance` and writing nothing (the valid entry's document included), and has the
+check name the letters once their provenance is removed and once it is blank, and name `different
+provenances` once a copy of the letters under another id shares their url with another provenance.
+
 The person fold is one fictional guest under three spellings across two episodes. In FIXTURE0004
 the extraction credits the vault-crew telling to "Faye Fixture", citing "Fay Fixture"; in FIXTURE0005
 Gus Fixture cites her as "Fae Fixture"; `clips.json` names the replayed clip's speaker "Faye Fixture"

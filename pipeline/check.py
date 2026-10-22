@@ -1836,6 +1836,45 @@ def fixture_readme_problems() -> list[str]:
             if name != "fixture_readme_problems" and name not in readme]
 
 
+def review_size_problems(root: Root) -> list[str]:
+    """`review.run` on the finished fixture root, with two stories given a 7 MB picture each (a JPEG padded, about
+    9.3 MB as a data URI): the page for those two and a third is refused over the artifact limit with nothing
+    written, the message naming the size and the split [first], [second, third]. The pictures are removed after."""
+    from . import review
+    sids = sorted(root.load_dir(root.stories))[:3]
+    jpeg = (root.site / "images" / "the-vault-beneath-mount-fictus-1971" / "1.jpg").read_bytes()
+    sc = load_json(root.data / "images" / "the-vault-beneath-mount-fictus-1971" / "1.json")
+    made: list[Path] = []
+    out: list[str] = []
+    try:
+        for k, sid in enumerate(sids[:2]):
+            n = 90 + k
+            f = root.site / "images" / sid / f"{n}.jpg"
+            f.parent.mkdir(parents=True, exist_ok=True)
+            f.write_bytes(jpeg + b"\0" * 7_000_000)
+            side = root.data / "images" / sid / f"{n}.json"
+            save_json(side, {**sc, "kind": "object", "file": f"images/{sid}/{n}.jpg", "image_url": f"https://example.org/big-{k}.jpg"})
+            made += [f, side]
+        page = root.path / "review-big.html"
+        try:
+            review.run(root, sids, page, "Big Review", "")
+            out.append("expect: review wrote a page over the artifact limit")
+        except SystemExit as x:
+            msg = str(x)
+            want = [f"  1: {sids[0]}", f"  2: {sids[1]} {sids[2]}"]
+            if "bytes, over the 16,000,000 bytes" not in msg or any(w not in msg.splitlines() for w in want):
+                out.append(f"expect: review refused the oversized page with {msg!r}, expected its size and the split {want}")
+        if page.exists():
+            out.append("expect: review wrote the oversized page before refusing it")
+    finally:
+        for f in made:
+            f.unlink()
+        for d in {f.parent for f in made}:
+            if not any(d.iterdir()):
+                d.rmdir()
+    return out
+
+
 def temp_cleanup_problems() -> list[str]:
     """A fixture run that fails (a copy of tests/fixtures whose first prepared extract answer is not JSON, run
     through `run_fixture`) leaves no temporary folder of the check's behind, with `tempfile` pointed at a folder
@@ -1956,6 +1995,7 @@ def _run_fixture(fixtures: Path, tmp: Path) -> list[str]:
     out += stale_build_problems(root)
     out += explain_shard_problems(root)
     out += explain_answer_problems()
+    out += review_size_problems(root)
     out += temp_cleanup_problems()
     out += fixture_readme_problems()
     return out

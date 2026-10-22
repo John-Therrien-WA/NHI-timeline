@@ -20,6 +20,10 @@ note `comments/general`, written as the fields change; without a database it kee
 browser's localStorage. A button copies every filled comment as markdown. Numbers and ids are shown
 exactly as the data holds them; the generator writes no words of its own about a story.
 
+A page over ARTIFACT_FILE_BYTES (16,000,000, the most an artifact allows a file) is refused with
+nothing written; the message names the size and the story ids cut into lists that each fit, walked in
+the given order and cut when the running size would pass the limit (`split_to_fit`).
+
 Fails on an unknown story id, a story without score, profile or tier, a teller, cited person, episode
 or document that does not resolve, or a sidecar whose image file is missing.
 """
@@ -34,7 +38,7 @@ from pathlib import Path
 
 from . import images
 from .build import open_notes, url_at
-from .common import REPO, Root, fmt_s, rel, seconds
+from .common import ARTIFACT_FILE_BYTES, REPO, Root, fmt_s, rel, seconds
 
 MIME = {".jpg": "image/jpeg", ".png": "image/png"}
 TIER_CLASS = {"well-attested": "tier-well", "told-by-several": "tier-several", "told-once": "tier-once"}
@@ -507,9 +511,19 @@ JS = r"""
 """
 
 
-def page(d: Data, ids: list[str], title: str, line: str) -> str:
-    toc = "".join(f'<li><a href="#{esc(sid)}">{esc(d.stories[sid]["title"])}</a></li>' for sid in ids)
-    body = "".join(story_html(d, sid) for sid in ids)
+def toc_item(d: Data, sid: str) -> str:
+    return f'<li><a href="#{esc(sid)}">{esc(d.stories[sid]["title"])}</a></li>'
+
+
+def ascii_page(text: str) -> str:
+    """Every character past ASCII as a character reference, so the page reads the same whatever charset it is served with."""
+    return text.encode("ascii", "xmlcharrefreplace").decode("ascii")
+
+
+def page(d: Data, ids: list[str], title: str, line: str, blocks: dict[str, str] | None = None) -> str:
+    """The whole page; `blocks` the stories' rendered blocks when the caller has them already."""
+    toc = "".join(toc_item(d, sid) for sid in ids)
+    body = "".join(blocks[sid] if blocks is not None else story_html(d, sid) for sid in ids)
     ids_json = json.dumps(ids).replace("</", "<\\/")
     title_json = json.dumps(title).replace("</", "<\\/")
     return (f'<title>{esc(title)}</title>\n<meta name="claude:viewport-fit-sides" content="cover">\n'
@@ -527,6 +541,37 @@ def page(d: Data, ids: list[str], title: str, line: str) -> str:
             f'<script>{JS}</script>\n')
 
 
+def split_to_fit(d: Data, ids: list[str], blocks: dict[str, str], title: str, line: str) -> tuple[list[list[str]], list[str]]:
+    """(the ids cut into lists whose pages each fit ARTIFACT_FILE_BYTES, walking the given order and cutting when
+    the running size would pass the limit; the ids whose page alone would not fit). A story's size is its rendered
+    block, its contents line and its place in the ids list; the rest of the page is measured with no story."""
+    base = len(ascii_page(page(d, [], title, line, {})).encode("utf-8"))
+    lists: list[list[str]] = []
+    alone: list[str] = []
+    run_size = base
+    for sid in ids:
+        n = len(ascii_page(blocks[sid] + toc_item(d, sid)).encode("utf-8")) + len(json.dumps(sid)) + 2
+        if base + n > ARTIFACT_FILE_BYTES:
+            alone.append(sid)
+            continue
+        if not lists or run_size + n > ARTIFACT_FILE_BYTES:
+            lists.append([])
+            run_size = base
+        lists[-1].append(sid)
+        run_size += n
+    return lists, alone
+
+
+def oversize_message(d: Data, ids: list[str], blocks: dict[str, str], title: str, line: str, size: int) -> str:
+    lists, alone = split_to_fit(d, ids, blocks, title, line)
+    msg = [f"review: the page would be {size:,} bytes, over the {ARTIFACT_FILE_BYTES:,} bytes a published artifact allows a file; "
+           f"nothing is written. Split the stories into {len(lists)} pages that each fit, one review run per list:"]
+    msg += [f"  {i}: {' '.join(ids_)}" for i, ids_ in enumerate(lists, 1)]
+    if alone:
+        msg.append(f"  too large for a page alone (its pictures): {' '.join(alone)}")
+    return "\n".join(msg)
+
+
 def run(root: Root, ids: list[str], out: Path, title: str, line: str) -> str:
     if not ids:
         raise SystemExit("review: name at least one story id")
@@ -537,8 +582,11 @@ def run(root: Root, ids: list[str], out: Path, title: str, line: str) -> str:
         if r in resolved:
             raise SystemExit(f"review: story {r} named twice")
         resolved.append(r)
-    # Every character past ASCII as a character reference, so the page reads the same whatever charset it is served with.
-    text = page(d, resolved, title, line).encode("ascii", "xmlcharrefreplace").decode("ascii")
+    blocks = {sid: story_html(d, sid) for sid in resolved}
+    text = ascii_page(page(d, resolved, title, line, blocks))
+    size = len(text.encode("utf-8"))
+    if size > ARTIFACT_FILE_BYTES:
+        raise SystemExit(oversize_message(d, resolved, blocks, title, line, size))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(text, encoding="utf-8")
     print(f"review: {len(resolved)} stories -> {out} ({len(text.encode('utf-8')):,} bytes)", file=sys.stderr)

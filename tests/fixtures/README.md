@@ -217,3 +217,8 @@ refuses, by name, a story file that still carries the retired `summary` field, a
 it copies the fixtures, writes the first prepared extract answer as broken JSON, runs the copy through
 `run_fixture` with `tempfile` pointed at a folder of its own, sees the run fail, and finds no folder of
 the check's prefixes (`check.TEMP_PREFIXES`) left in that folder.
+
+`check.review_size_problems` gives two stories of the finished fixture root a 7 MB picture each (a
+padded JPEG) and runs `review.run` on them and a third: the page is refused over the 16,000,000 bytes
+an artifact allows a file, nothing written, and the message names the size and the split, the first
+story alone and the second with the third. The pictures are removed afterwards.

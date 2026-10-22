@@ -145,6 +145,7 @@ def save_json(f: Path, obj) -> bool:
     return True
 
 
+ARTIFACT_FILE_BYTES = 16_000_000  # the most a published claude.ai artifact allows one file
 SLUG_LIMIT = 60  # the longest slug `slugify` makes by default, so the longest document or story id
 SLUG = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
 

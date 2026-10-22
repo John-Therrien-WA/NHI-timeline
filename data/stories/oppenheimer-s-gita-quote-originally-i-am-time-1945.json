@@ -25,33 +25,51 @@
       "documents": [
         "bhagavad-gita"
       ]
+    },
+    {
+      "document": "bhagavad-gita",
+      "page": "Chapter XI, verse 32",
+      "teller": "vyasa",
+      "quote": "Thou seest Me as Time who kills, Time who brings all to doom, The Slayer Time, Ancient of Days, come hither to consume;",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "dave-rossi"
+      "dave-rossi",
+      "vyasa"
     ],
     "episodes": [
       "5OUzGygIrSw"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "The famous line that the physicist J. Robert Oppenheimer quoted in 1945 from the Bhagavad Gita, an ancient Hindu scripture, \"I am death, the destroyer of worlds,\" is said to have originally read \"I am time, the destroyer of worlds.\" A guest named Dave Rossi, who says aliens taught him advanced physics, tells it as something he read. It would change the sense of one of the best known lines of the atomic age."
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "The famous line that J. Robert Oppenheimer, the physicist who led the building of the first atomic bomb, took from the Hindu scripture the Bhagavad Gita, \"I am death, the destroyer of worlds\", originally read \"I am time, the destroyer of worlds\". A guest named Dave Rossi tells Michels he read this, and it would mean the scripture speaks of time itself as the destroyer. He does not say which translation he read; in Edwin Arnold's 1885 English translation, The Song Celestial, the god Krishna says at chapter 11, verse 32, \"Thou seest Me as Time who kills, Time who brings all to doom\", which speaks of Time, though in other words.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Song Celestial, or Bhagavad-Gita (translated by Edwin Arnold)",
+      "source": "https://www.gutenberg.org/ebooks/2388",
+      "text": "The teller does not say which translation he read; in Edwin Arnold's 1885 translation read here, Krishna's words at chapter 11, verse 32 are \"Thou seest Me as Time who kills, Time who brings all to doom\", which speaks of Time as the teller says, in other words than \"I am time, the destroyer of worlds\"."
+    }
+  ]
 }

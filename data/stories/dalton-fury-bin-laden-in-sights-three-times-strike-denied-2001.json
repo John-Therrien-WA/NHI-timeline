@@ -25,35 +25,90 @@
       ],
       "documents": [
         "kill-bin-laden",
-        "60-minutes"
+        "elite-officer-recalls-bin-laden-hunt-60-minutes"
       ]
+    },
+    {
+      "document": "elite-officer-recalls-bin-laden-hunt-60-minutes",
+      "page": "paragraph 16",
+      "teller": "scott-pelley",
+      "quote": "But they didn't take that route, because Fury says they didn't get approval from a higher level.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "elite-officer-recalls-bin-laden-hunt-60-minutes",
+      "page": "paragraph 19",
+      "teller": "scott-pelley",
+      "quote": "But they didn't do that either, because Fury says that plan was also disapproved.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "elite-officer-recalls-bin-laden-hunt-60-minutes",
+      "page": "paragraph 22",
+      "teller": "scott-pelley",
+      "quote": "The military wouldn't tell 60 Minutes who rejected the plans or why.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "elite-officer-recalls-bin-laden-hunt-60-minutes",
+      "page": "paragraph 33",
+      "teller": "scott-pelley",
+      "quote": "We're about 2,000 meters away from where we think bin Laden's at still.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "elite-officer-recalls-bin-laden-hunt-60-minutes",
+      "page": "paragraph 36",
+      "teller": "scott-pelley",
+      "quote": "It wasn't worth the risk at that particular moment to go up there and play cowboy.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "journalist",
     "tellers": [
-      "john-blitch"
+      "john-blitch",
+      "scott-pelley"
     ],
     "episodes": [
       "yAvD5UTziTo"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
-  "plain": "In 2001, at Tora Bora in Afghanistan, a man known as Dalton Fury says he had the terrorist leader Osama bin Laden directly in view on three separate occasions, but the strike was not allowed. John Blitch, a former scientist at the Pentagon's advanced research agency, retells this from what Fury said in disguise to the reporter Scott Pelley on 60 Minutes, a US television news programme, and from the book Kill Bin Laden. If true, it would mean the chance to get bin Laden was turned down from above."
+  "attestation": 1.85,
+  "tier": "well-attested",
+  "plain": "An officer of the Army's elite Delta Force, known as Dalton Fury, had Osama bin Laden under direct watch three separate times at Tora Bora in Afghanistan in 2001 and was refused permission to strike. John Blitch, a scientist who worked for the Pentagon's advanced research agency, tells Michels that Fury said this in disguise to the journalist Scott Pelley on the television news program 60 Minutes, and if true it would mean the man behind the September 11 attacks could have been stopped. That report, \"Elite Officer Recalls Bin Laden Hunt\", aired on 5 October 2008. In it Fury says two of his unit's plans, coming over the mountains from Pakistan and mining the passes into Pakistan, were \"disapproved\" higher up, and the report notes that \"The military wouldn't tell 60 Minutes who rejected the plans or why.\" It says nothing of three sightings, and on the night his team was \"about 2,000 meters away\" from where they thought bin Laden was, Fury himself chose not to advance: \"It wasn't worth the risk at that particular moment to go up there and play cowboy.\"",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Elite Officer Recalls Bin Laden Hunt (60 Minutes)",
+      "date": "2008-10-05",
+      "source": "https://www.cbsnews.com/news/elite-officer-recalls-bin-laden-hunt/",
+      "text": "In the 60 Minutes report of October 2008, Dalton Fury says two of Delta's plans against bin Laden at Tora Bora (coming over the mountains from the Pakistan side, and mining the passes into Pakistan) were disapproved by higher headquarters; the report does not speak of having bin Laden in sight three times or of overwatch, and it says that on the night his team was about 2,000 meters from where they thought bin Laden was, Fury himself decided not to advance."
+    }
+  ]
 }

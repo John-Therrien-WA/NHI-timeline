@@ -25,33 +25,70 @@
       "documents": [
         "robertson-panel-report"
       ]
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Part II, Educational Program, p. 1412",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "The Panel's concept of a broad educational program integrating efforts of all concerned agencies was that it should have two major aims: training and \"debunking.\"",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Part II, Educational Program, p. 1413",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "The \"debunking\" aim would result in reduction in public interest in \"flying saucers\" which today evokes a strong psychological reaction. This education could be accomplished by mass media such as television, motion pictures, and popular articles. Basis of such education would be actual case histories which had been puzzling at first but later explained. As in the case of conjuring tricks, there is much less stimulation if the \"secret\" is known. Such a program should tend to reduce the current gullibility of the public and consequently their susceptibility to clever hostile propaganda.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Tab A, 4a, p. 1419",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "a. That the national security agencies take immediate steps to strip the Unidentified Flying Objects of the special status they have been given and the aura of mystery they have unfortunately acquired;",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.8,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "official",
     "tellers": [
+      "cia-office-of-scientific-intelligence",
       "jesse-michels"
     ],
     "episodes": [
       "bVhSPH2A5Vw"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "In 1953, a government panel led by the scientist Howard P. Robertson, set up to look at UFO reports, took up a policy of mocking the subject, according to Michels. He states this himself, pointing to the panel's report from 1952 to 1953, as a reason UFO reports came to be laughed off in the United States."
+  "attestation": 1.4,
+  "tier": "well-attested",
+  "plain": "In 1953 a group of scientists brought together by the CIA, known as the Robertson panel after its chair Howard P. Robertson, adopted a policy of ridiculing UFOs, Michels says, telling it himself. The panel's report, written by the CIA's Office of Scientific Intelligence and dated 16 February 1953, never uses the word ridicule: it recommends an education program with two aims, \"training and 'debunking',\" carried out through \"television, motion pictures, and popular articles\" built on puzzling cases that were later explained. It also asks the security agencies to strip UFOs of \"the aura of mystery they have unfortunately acquired,\" arguing this would make the public less open to hostile propaganda.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Report of Meetings of Scientific Advisory Panel on Unidentified Flying Objects (Robertson Panel), 14-18 January 1953",
+      "date": "1953-02-16",
+      "source": "https://files.ncas.org/condon/text/appndx-u.htm",
+      "text": "The tellers do not say which of the panel's papers they mean; in the minutes and the report read here the word ridicule does not appear: the panel recommends an educational program of \"training and 'debunking'\" through television, films and popular articles built on puzzling cases later explained, and asks the security agencies to strip the objects of \"the aura of mystery they have unfortunately acquired\"."
+    }
+  ]
 }

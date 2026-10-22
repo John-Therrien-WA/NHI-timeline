@@ -23,33 +23,52 @@
       "documents": [
         "atomic-energy-act-of-1954"
       ]
+    },
+    {
+      "document": "atomic-energy-act-of-1954",
+      "page": "Sec. 41 b., 68 Stat. 928",
+      "teller": "congress",
+      "quote": "To the extent deemed necessary, the Commission is authorized to make, or to continue in effect, contracts with persons obligating them to produce special nuclear material in facilities owned by the Commission.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 3.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
+      "congress",
       "uapgerb"
     ],
     "episodes": [
       "u7g5Sn1DJF4"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
-  "plain": "A researcher who goes by the name UAPGerb believes that a recovered craft of unknown origin was moved in 1954, because the Atomic Energy Act of that year gave new powers to government-owned labs run by private contractors, such as Sandia, to keep it. He gives this as his own reading and names no source. If he is right, it would explain how such objects could end up held by companies, out of public reach."
+  "attestation": 1.55,
+  "tier": "well-attested",
+  "plain": "An online researcher who goes by UAPGerb tells Michels he thinks a recovered craft was moved in 1954. His reason is that the Atomic Energy Act of that year gave new powers to laboratories that the government owns but private companies run, such as Sandia, so they could house it. If he is right, that would explain where crashed hardware ended up. The act, passed by Congress on 30 August 1954, does let the Atomic Energy Commission hire others \"to produce special nuclear material in facilities owned by the Commission\". It says nothing about housing a craft, and it names no laboratory.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Atomic Energy Act of 1954 (Public Law 703, 83rd Congress, 68 Stat. 919)",
+      "date": "1954-08-30",
+      "source": "https://www.govinfo.gov/content/pkg/STATUTE-68/pdf/STATUTE-68-Pg919.pdf",
+      "text": "The teller does not say which provision of the 1954 act he means; if it is section 41 b., the act lets the Atomic Energy Commission contract with others to produce special nuclear material, or to do research and development, in facilities the Commission owns. It says nothing of housing a craft or of any aerial object, and names no laboratory."
+    }
+  ]
 }

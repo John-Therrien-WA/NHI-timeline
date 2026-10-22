@@ -25,6 +25,24 @@
       "documents": [
         "60-minutes"
       ]
+    },
+    {
+      "document": "60-minutes",
+      "page": "paragraph 2",
+      "teller": "bill-whitaker",
+      "quote": "Bill Whitaker: So what you are telling me is that UFOs, unidentified flying objects, are real?",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "60-minutes",
+      "page": "paragraph 3",
+      "teller": "bill-whitaker",
+      "quote": "Lue Elizondo: Bill, I think we're beyond that already. The government has already stated for the record that they're real. I'm not telling you that. The United States government is telling you that.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -35,29 +53,30 @@
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 2.4,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "journalist",
     "tellers": [
+      "bill-whitaker",
       "jesse-michels"
     ],
     "episodes": [
       "bVhSPH2A5Vw"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "According to Jesse Michels, when a former Pentagon official named Luis Elizondo appeared in 2021 on 60 Minutes, a long-running American television news programme, the message was that the government had just admitted unexplained flying objects are real. Michels says it in his own words, in a talk with a guest, as a turning point in which official voices stopped denying the subject."
+  "attestation": 1.2,
+  "tier": "well-attested",
+  "plain": "The United States government has already admitted that UFOs are real, according to a former Pentagon official named Luis Elizondo, and Michels repeats the line on his show. It comes from a segment of the US television news programme 60 Minutes, aired on 16 May 2021, in which the journalist Bill Whitaker asks, \"So what you are telling me is that UFOs, unidentified flying objects, are real?\" and Elizondo answers: \"The government has already stated for the record that they're real. I'm not telling you that. The United States government is telling you that.\""
 }

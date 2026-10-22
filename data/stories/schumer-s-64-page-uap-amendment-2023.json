@@ -183,6 +183,33 @@
         "place_text": "US Senate",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "uap-disclosure-act",
+      "page": "S2953",
+      "teller": "chuck-schumer",
+      "quote": "SA 797. Mr. SCHUMER (for himself, Mr. Rounds, Mr. Rubio, Mrs. Gillibrand, Mr. Young, and Mr. Heinrich) submitted an amendment intended to be proposed by him to the bill S. 2226",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "uap-disclosure-act",
+      "page": "Sec. __03(12), S2953",
+      "teller": "chuck-schumer",
+      "quote": "(12) Non-human intelligence.--The term ``non-human intelligence'' means any sentient intelligent non-human lifeform regardless of nature or ultimate origin that may be presumed responsible for unidentified anomalous phenomena or of which the Federal Government has become aware.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "uap-disclosure-act",
+      "page": "Sec. __03(10), S2953",
+      "teller": "chuck-schumer",
+      "quote": "(10) Legacy program.--The term ``legacy program'' means all Federal, State, and local government, commercial industry, academic, and private sector endeavors to collect, exploit, or reverse engineer technologies of unknown origin or examine biological evidence of living or deceased non-human intelligence that pre-dates the date of the enactment of this Act.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -198,22 +225,23 @@
     }
   ],
   "tags": [],
-  "score": 5.3,
+  "score": 7.4,
   "profile": {
-    "independent_tellers": 6,
+    "independent_tellers": 7,
     "firsthand": 0,
-    "official_records": 1,
+    "official_records": 2,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 3,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "chuck-schumer",
       "daniel-sheehan",
       "david-grusch",
       "jesse-michels",
@@ -230,7 +258,16 @@
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 2.65,
+  "attestation": 3.7,
   "tier": "well-attested",
-  "plain": "In 2023, Senate Majority Leader Chuck Schumer put forward a long amendment, the UAP Disclosure Act (UAP is the government's term for UFOs, short for unidentified anomalous phenomena), which guests on the show say openly deals with non-human technology and recovered craft. David Grusch, a man who has gone public about secret UFO programs, says Schumer was \"compelled to write that big 64 page amendment that talks no shit, non-human tech, recoveries.\" The researcher Matthew Pines names the senators who backed it with Schumer: Mike Rounds, Kirsten Gillibrand, Martin Heinrich and Todd Young. Karl Nell, a former official, adds Senator Marco Rubio and says the bill's message was that \"Congress is not being told the truth.\" The writer Marik von Rennenkampff says the phrase non-human intelligence appears 22 times in the bill, along with biological evidence of it. Michels, in his own telling, says the terms appear 65 times. The researcher Dan Sheehan describes it as an amendment to the 2024 defense spending law that both houses passed and the president signed, ordering every branch of the military to gather its UFO records going back to 1945. The tellers bring it up because, if the bill means what they say, senior lawmakers believe something real is being kept from them."
+  "plain": "In 2023 the Senate's majority leader, Chuck Schumer, put forward a long piece of draft law that speaks openly of \"non-human intelligence\", of recovered technologies of unknown origin and of biological evidence. Several guests tell Michels about it as a sign that people at the top of Congress take crashed craft seriously. The text is the Unidentified Anomalous Phenomena Disclosure Act of 2023 (\"unidentified anomalous phenomena\", or UAP, is the government's term for UFOs). Schumer submitted it on 13 July 2023 as an amendment to the Senate's yearly defence spending bill, for himself and Senators Mike Rounds, Marco Rubio, Kirsten Gillibrand, Todd Young and Martin Heinrich. It defines non-human intelligence as \"any sentient intelligent non-human lifeform regardless of nature or ultimate origin\", and it describes a \"legacy program\", meaning long-running secret efforts \"to collect, exploit, or reverse engineer technologies of unknown origin or examine biological evidence of living or deceased non-human intelligence\". David Grusch, a former intelligence official turned whistleblower, says Schumer \"was compelled\" to write a \"64 page amendment\" about non-human technology and recoveries. The researcher Matthew Pines and Karl Nell, a retired Army colonel, focus on who sponsored it, and Nell says its message was that Congress is not being told the truth. The writer Marik von Rennenkampff says it mentions non-human intelligence 22 times, Michels himself says 65 times counting UAP, and the lawyer Dan Sheehan says the law, signed by the president, orders every military service to gather its UFO records going back to 1945. In the official record of Congress the amendment actually fills seven pages and uses the phrase \"non-human intelligence\" 24 times.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Unidentified Anomalous Phenomena Disclosure Act of 2023 (SA 797 to S. 2226)",
+      "date": "2023-07-13",
+      "source": "https://www.govinfo.gov/content/pkg/CREC-2023-07-13/html/CREC-2023-07-13-pt1-PgS2953.htm",
+      "text": "In the Congressional Record of 13 July 2023 the amendment Schumer submitted for himself, Rounds, Rubio, Gillibrand, Young and Heinrich is printed on seven pages (S2953 to S2959) and uses the phrase \"non-human intelligence\" 24 times, headings included. The tellers do not say which print of the amendment they mean by 64 pages, or what they counted (22 times, or 65 times with UAP); if it is this text, the count of the phrase alone is 24."
+    }
+  ]
 }

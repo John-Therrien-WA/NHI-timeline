@@ -52,26 +52,45 @@
         "place_text": "University of Colorado Boulder",
         "story_kind": "program"
       }
+    },
+    {
+      "document": "condon-report",
+      "page": "Section II, p. 12",
+      "teller": "edward-condon",
+      "quote": "The contract provided that the planning, direction and conclusions of the Colorado project were to be conducted wholly independently of the Air Force. To avoid duplication of effort, the Air Force was ordered to furnish the project with the records of its own earlier work and to provide the support of personnel at AF bases when requested by our field teams.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "condon-report",
+      "page": "Section II, p. 12",
+      "teller": "edward-condon",
+      "quote": "The first research contract with AFOSR provided $313,000 for the first 15 months from 1 November 1966 to 31 January 1968.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 3.2,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "edward-condon",
       "jesse-michels"
     ],
     "episodes": [
@@ -79,7 +98,16 @@
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "The Condon Committee was a UFO study begun in 1966 under the physicist Edward Condon. The Air Force paid for it but was not supposed to influence it, and Michels says it worked with the Air Force anyway, naming Condon and an Air Force officer, Robert Hippler. Michels tells this himself on two episodes. In the second he places the committee at the University of Colorado Boulder and calls its final report, which he dates to 1969, an outright \"hit job\" on UFOs, which would mean the study's dismissal of the subject was settled in advance."
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "A 1966 UFO study at the University of Colorado, led by Edward Condon, was paid for by the US Air Force and was supposed to stay free of its influence, but Michels, telling it himself, calls the result \"an absolute hit job\" on the subject. The study's own final report, Scientific Study of Unidentified Flying Objects, delivered on 31 October 1968, says its contract with the Air Force's science research office provided $313,000 for the first 15 months and required that its \"planning, direction and conclusions\" be \"conducted wholly independently of the Air Force.\" It adds only that the Air Force was ordered to hand over its earlier records and to lend staff at its bases when the field teams asked, and describes no other coordination.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Scientific Study of Unidentified Flying Objects (the Condon report, 1968)",
+      "date": "1968-10-31",
+      "source": "https://files.ncas.org/condon/",
+      "text": "The report says its contract with the Air Force Office of Scientific Research provided that the project's \"planning, direction and conclusions\" were to be \"wholly independently of the Air Force\", and that the Air Force was ordered to furnish its records and the support of personnel at its bases; it does not describe any other coordination with the Air Force."
+    }
+  ]
 }

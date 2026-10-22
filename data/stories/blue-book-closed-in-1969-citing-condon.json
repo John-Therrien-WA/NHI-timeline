@@ -46,6 +46,42 @@
         "place_text": "United States",
         "story_kind": "program"
       }
+    },
+    {
+      "document": "condon-report",
+      "page": "Section I, p. 2",
+      "teller": "edward-condon",
+      "quote": "Careful consideration of the record as it is available to us leads us to conclude that further extensive study of UFOs probably cannot be justified in the expectation that science will be advanced thereby.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "condon-report",
+      "page": "Section I, p. 7",
+      "teller": "edward-condon",
+      "quote": "It is our impression that the defense function could be performed within the framework established for intelligence and surveillance operations without the continuance of a special unit such as Project Blue Book, but this is a question for defense specialists rather than research scientists.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "ufos-project-blue-book-us-air-force-fact-sheet",
+      "page": "paragraph 1",
+      "teller": "us-air-force",
+      "quote": "On December 17, 1969, the Secretary of the Air Force announced the termination of Project BLUE BOOK, the Air Force program for the investigation of UFOS.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "ufos-project-blue-book-us-air-force-fact-sheet",
+      "page": "paragraph 3",
+      "teller": "us-air-force",
+      "quote": "The decision to discontinue UFO investigations was based on an evaluation of a report prepared by the University of Colorado entitled, \"Scientific Study of Unidentified Flying Objects;\" a review of the University of Colorado's report by the National Academy of Sciences; past UFO studies and Air Force experience investigating UFO reports during the 40s, '50s, and '60s.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -56,31 +92,33 @@
     }
   ],
   "tags": [],
-  "score": 2.6,
+  "score": 7.7,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
-    "official_records": 1,
+    "independent_tellers": 4,
+    "firsthand": 1,
+    "official_records": 2,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 2,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "official",
+    "strongest_kind": "firsthand",
     "tellers": [
       "bryce-zabel",
-      "robert-salas"
+      "edward-condon",
+      "robert-salas",
+      "us-air-force"
     ],
     "episodes": [
       "-0g3lLGxNfc",
       "yJUBSuPh1pM"
     ]
   },
-  "attestation": 1.3,
+  "attestation": 3.85,
   "tier": "well-attested",
-  "plain": "The story is that in 1969 the US Air Force shut down Project Blue Book, its official UFO study of the 1950s and 60s, and used a scientific report to justify it. A former Air Force officer named Robert Salas says the Air Force wanted to get out of the UFO business and, in closing Blue Book, \"even quoted\" the Condon report, a study led by a scientist named Edward Condon. The guest Bryce Zabel, speaking in an episode about Hollywood and UFOs, tells it without mentioning Condon. He describes the Air Force as \"holding the line\" and closing Blue Book in '69 with the attitude \"we're washing our hands of that.\" Salas speaks from his background in the Air Force, while Zabel sums it up as general history without naming a source. Both tell it because it marks the point where the government publicly said it was done with UFOs, which, if the closure was a show, would mean the real study carried on out of sight."
+  "plain": "The US Air Force shut down Project Blue Book, its study of UFO reports from the 1950s and 60s, in 1969, and pointed to a university study to justify it. Robert Salas, a former Air Force officer, tells Michels that when the Air Force got out in 1969 \"they even quoted the Condon investigation,\" meaning the Scientific Study of Unidentified Flying Objects, a report led by the physicist Edward Condon and published by the University of Colorado on 31 October 1968. The researcher Bryce Zabel tells it without Condon, as the Air Force \"holding the line\" and saying \"we're washing our hands of that.\" The Condon report itself concludes that \"further extensive study of UFOs probably cannot be justified in the expectation that science will be advanced thereby,\" and that defence needs could be met \"without the continuance of a special unit such as Project Blue Book.\" An Air Force fact sheet from January 1985 states that \"on December 17, 1969, the Secretary of the Air Force announced the termination of Project BLUE BOOK,\" and that the decision rested on the Colorado report, a review of it by the National Academy of Sciences, and past Air Force experience. To the tellers, it marks the moment the government publicly stepped away from the subject."
 }

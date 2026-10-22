@@ -23,6 +23,24 @@
         "timaeus",
         "critias"
       ]
+    },
+    {
+      "document": "critias",
+      "page": "Critias 108e",
+      "teller": "plato",
+      "quote": "the combatants on the other side were commanded by the kings of Atlantis, which, as I was saying, was an island greater in extent than Libya and Asia, and when afterwards sunk by an earthquake, became an impassable barrier of mud to voyagers sailing from hence to any part of the ocean.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 24e-25a",
+      "teller": "plato",
+      "quote": "This power came forth out of the Atlantic Ocean, for in those days the Atlantic was navigable; and there was an island situated in front of the straits which are by you called the Pillars of Heracles; the island was larger than Libya and Asia put together, and was the way to other islands, and from these you might pass to the whole of the opposite continent which surrounded the true ocean; for this sea which is within the Straits of Heracles is only a harbour, having a narrow entrance, but that other is a real sea, and the surrounding land may be most truly called a boundless continent.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -33,29 +51,38 @@
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 4.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 2,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jason-jorjani"
+      "jason-jorjani",
+      "plato"
     ],
     "episodes": [
       "ABw7EsWh2Us"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "The lost island of Atlantis, which the ancient Greek philosopher Plato described in his dialogues Timaeus and Critias, lay off the coast of Antarctica, according to a researcher named Jason Jorjani. He reads Plato's \"world ocean\" as the spot where the Pacific, Atlantic and Indian Oceans meet, which is along the Antarctic coastline. He gives this as his own reading of Plato and does not cite anyone else for it."
+  "attestation": 2.25,
+  "tier": "well-attested",
+  "plain": "Plato's Atlantis lay on the coast of Antarctica, by the \"world ocean\" where the Pacific, Atlantic and Indian Oceans meet. A philosopher named Jason Jorjani puts this to Michels as his reading of Plato's dialogues the Timaeus and the Critias, and if true it would put the lost civilisation under the southern ice. In Benjamin Jowett's English translation of the Timaeus, the power of Atlantis \"came forth out of the Atlantic Ocean\" from an island \"in front of the straits which are by you called the Pillars of Heracles\", the ancient name for the mouth of the Mediterranean, beyond which lay \"the opposite continent which surrounded the true ocean\"; the text names no southern continent and no meeting of three oceans.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Timaeus (translated by Benjamin Jowett)",
+      "source": "https://www.gutenberg.org/ebooks/1572",
+      "text": "In Jowett's translation of the Timaeus, the power of Atlantis \"came forth out of the Atlantic Ocean\" from an island \"in front of the straits which are by you called the Pillars of Heracles\", beyond which lay \"the opposite continent which surrounded the true ocean\"; the text names no southern continent and no meeting of the Atlantic, Pacific and Indian Oceans, so placing Atlantis in Antarctica is the teller's reading."
+    }
+  ]
 }

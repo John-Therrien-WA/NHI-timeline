@@ -217,6 +217,42 @@
         "place_text": "United States",
         "story_kind": "theory"
       }
+    },
+    {
+      "document": "atomic-energy-act-of-1954",
+      "page": "Sec. 11 t., 68 Stat. 924",
+      "teller": "congress",
+      "quote": "t. The term 'special nuclear material' means (1) plutonium, uranium enriched in the isotope 233 or in the isotope 235, and any other material which the Commission, pursuant to the provisions of section 51, determines to be special nuclear material, but does not include source material; or (2) any material artificially enriched by any of the foregoing, but does not include source material.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "atomic-energy-act-of-1954",
+      "page": "Sec. 51, 68 Stat. 929",
+      "teller": "congress",
+      "quote": "SEC. 51. SPECIAL NUCLEAR MATERIAL.—The Commission may determine from time to time that other material is special nuclear material in addition to that specified in the definition as special nuclear material. Before making any such determination, the Commission must find that such material is capable of releasing substantial quantities of atomic energy and must find that the determination that such material is special nuclear material is in the interest of the common defense and security, and the President must have expressly assented in writing to the determination.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "atomic-energy-act-of-1954",
+      "page": "Sec. 11 c., 68 Stat. 923",
+      "teller": "congress",
+      "quote": "c. The term 'atomic energy' means all forms of energy released in the course of nuclear fission or nuclear transformation.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "atomic-energy-act-of-1954",
+      "page": "Sec. 11 r., 68 Stat. 924",
+      "teller": "congress",
+      "quote": "r. The term 'Restricted Data' means all data concerning (1) design, manufacture, or utilization of atomic weapons; (2) the production of special nuclear material; or (3) the use of special nuclear material in the production of energy, but shall not include data declassified or removed from the Restricted Data category pursuant to section 142.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -227,22 +263,23 @@
     }
   ],
   "tags": [],
-  "score": 2.6,
+  "score": 4.7,
   "profile": {
-    "independent_tellers": 2,
+    "independent_tellers": 3,
     "firsthand": 0,
-    "official_records": 1,
+    "official_records": 2,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 1,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "congress",
       "david-grusch",
       "unidentified-speaker"
     ],
@@ -258,7 +295,16 @@
       "zjpvfDFc4fg"
     ]
   },
-  "attestation": 1.3,
+  "attestation": 2.35,
   "tier": "well-attested",
-  "plain": "The Atomic Energy Act of 1954, a US law that sets out which nuclear materials must be kept secret, is said to be worded broadly enough to cover material recovered from crashed UFOs. The claim comes from David Grusch, a former US intelligence officer who later blew the whistle about UFOs. He says the law's definition of \"special nuclear material\" covers \"any material that releases any kind of atomic energy\". Jesse Michels repeats it many times, sometimes crediting Grusch and sometimes as his own reading of the law. He goes further than Grusch and says the wording was \"sneaky but deliberate\", meant to protect UFO secrets. He also says that anything retrieved is \"born secret\", meaning classified from the moment it is found. In some tellings he links it to the researcher UAPGerb and to big figures of early nuclear science, such as J. Robert Oppenheimer and the science chief Vannevar Bush. An unnamed researcher on another episode reads out the same definition. If true, it would mean crash material could be hidden legally under nuclear secrecy rules."
+  "plain": "The claim is that a 1954 nuclear law is worded so broadly that any material recovered from a crashed craft would count as secret nuclear material the moment it was found. The whistleblower David Grusch, a former intelligence official, makes the case on the show. He says the Atomic Energy Act of 1954, which Congress passed on 30 August 1954, defines \"special nuclear material\" as \"any material that releases any kind of atomic energy\". If that were so, crash material would be locked away under nuclear secrecy. Michels repeats the idea in several episodes. Once he goes further and says Grusch shows the wording \"was written in a sneaky but deliberate way to protect our UFO secrets\", and elsewhere he says such material is \"born secret\". An online researcher known as UAPGerb is also credited with it, and one telling comes from a speaker who is not named. The act itself reads differently. It names plutonium and enriched uranium, plus any other material that the Atomic Energy Commission, the civilian agency then in charge of nuclear matters, finds \"capable of releasing substantial quantities of atomic energy\", and only with the President's \"written\" assent. Its secret category, \"Restricted Data\", covers data about weapons and nuclear material, not objects, and the words \"born secret\" do not appear in it.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Atomic Energy Act of 1954 (Public Law 703, 83rd Congress, 68 Stat. 919)",
+      "date": "1954-08-30",
+      "source": "https://www.govinfo.gov/content/pkg/STATUTE-68/pdf/STATUTE-68-Pg919.pdf",
+      "text": "The tellers speak of the Atomic Energy Act of 1954, and this is its text as enacted. It does not define special nuclear material as any material that releases atomic energy: it names plutonium and uranium enriched in the isotope 233 or 235, and any other material the Atomic Energy Commission declares special nuclear material after finding it \"capable of releasing substantial quantities of atomic energy\", with the President's written assent. \"Restricted Data\" is defined as data (on atomic weapons, the production of special nuclear material and its use for energy), not material, and the words \"born secret\" do not occur in the act."
+    }
+  ]
 }

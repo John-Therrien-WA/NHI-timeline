@@ -70,36 +70,90 @@
         "place_text": "Athens / Atlantis",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "critias",
+      "page": "Critias 108e",
+      "teller": "plato",
+      "quote": "Let me begin by observing first of all, that nine thousand was the sum of years which had elapsed since the war which was said to have taken place between those who dwelt outside the pillars of Heracles and all who dwelt within them; this war I am going to describe.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 20d",
+      "teller": "plato",
+      "quote": "Then listen, Socrates, to a tale which, though strange, is certainly true, having been attested by Solon, who was the wisest of the seven sages.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 21a",
+      "teller": "plato",
+      "quote": "And what is this ancient famous action of the Athenians, which Critias declared, on the authority of Solon, to be not a mere legend, but an actual fact?",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 21b",
+      "teller": "plato",
+      "quote": "Now the day was that day of the Apaturia which is called the Registration of Youth, at which, according to custom, our parents gave prizes for recitations, and the poems of several poets were recited by us boys, and many of us sang the poems of Solon, which at that time had not gone out of fashion.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 24e",
+      "teller": "plato",
+      "quote": "For these histories tell of a mighty power which unprovoked made an expedition against the whole of Europe and Asia, and to which your city put an end.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.7,
+  "score": 5.7,
   "profile": {
-    "independent_tellers": 3,
-    "firsthand": 0,
+    "independent_tellers": 4,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 2,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 3,
+    "documents": 2,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
       "james-madden",
       "jesse-michels",
-      "matt-lacroix"
+      "matt-lacroix",
+      "plato"
     ],
     "episodes": [
       "A_LsUSxTm7A",
       "KRDE1i3LDuU"
     ]
   },
-  "attestation": 1.35,
+  "attestation": 2.85,
   "tier": "well-attested",
-  "plain": "In the writings of the ancient Greek philosopher Plato, a speaker named Critias tells of a great war long ago between ancient Athens and Atlantis, a lost island power. A researcher named James Madden brings it up on the show without naming a source beyond Plato. He calls it a myth, \"another good lie\", told to Socrates by Critias, and he places it alongside Plato's dialogues the Timaeus and the Republic. Matt LaCroix, a researcher of ancient history, tells it differently. He credits the Greek writer Plutarch as well as Plato, and he presents it as real early history: \"proto-Athenians\" who actually fought Atlantis. Jesse Michels adds his own detail. He says that in the Timaeus and Critias, the war is set 9,000 years before Plato's time and is told at a festival. If the story were true, it would mean Greece had a forgotten history far older than the one we know."
+  "plain": "An ancient Athens is said to have fought a great war against Atlantis, a powerful island nation, about nine thousand years before the time of the Greek philosopher Plato. The story comes from two of Plato's dialogues, the Timaeus and the Critias, read here in Benjamin Jowett's English translation. In them a speaker named Critias tells Socrates the tale, which he says reached his family from Solon, the Athenian lawgiver. Critias opens by saying that \"nine thousand was the sum of years which had elapsed since the war\" between those who lived \"outside the pillars of Heracles\" and all who lived within them, and he tells of \"a mighty power which unprovoked made an expedition against the whole of Europe and Asia, and to which your city put an end.\" The researcher James Madden, summarising it for Michels, calls it a myth, \"another good lie\" told by Critias. The researcher Matt LaCroix treats it as real early history, crediting both Plato and the later Greek writer Plutarch and calling the fighters \"proto-Athenians\". Michels himself puts the war 9,000 years back and recalls the festival where the tale was first told. The text reads differently from the word myth: Critias calls it \"a tale which, though strange, is certainly true,\" Socrates repeats that it is \"not a mere legend, but an actual fact,\" and the festival was the Apaturia, where the elder Critias, nearly ninety, told it to the younger, then about ten. If true, it would mean a forgotten chapter of human history lies far older than recorded Greece.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Timaeus (translated by Benjamin Jowett)",
+      "source": "https://www.gutenberg.org/ebooks/1572",
+      "text": "Where the tellers call the Atlantis story a myth or a lie, in Jowett's translation of the Timaeus Critias calls it \"a tale which, though strange, is certainly true\" and Socrates repeats that it is \"not a mere legend, but an actual fact\". The festival in the text is the Apaturia, at which the elder Critias, nearly ninety, told the tale when the younger Critias was about ten; the younger retells it on the day of the goddess's festival."
+    }
+  ]
 }

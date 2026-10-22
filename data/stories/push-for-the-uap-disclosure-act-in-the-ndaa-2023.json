@@ -26,33 +26,61 @@
       "documents": [
         "uap-disclosure-act"
       ]
+    },
+    {
+      "document": "uap-disclosure-act",
+      "page": "S2953",
+      "teller": "chuck-schumer",
+      "quote": "SA 797. Mr. SCHUMER (for himself, Mr. Rounds, Mr. Rubio, Mrs. Gillibrand, Mr. Young, and Mr. Heinrich) submitted an amendment intended to be proposed by him to the bill S. 2226, to authorize appropriations for fiscal year 2024 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; which was ordered to lie on the table; as follows:",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "uap-disclosure-act",
+      "page": "Sec. __01, S2953",
+      "teller": "chuck-schumer",
+      "quote": "This title may be cited as the ``Unidentified Anomalous Phenomena Disclosure Act of 2023'' or the ``UAP Disclosure Act of 2023''.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 4.6,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "chuck-schumer",
       "eric-burlison"
     ],
     "episodes": [
       "A2-y_HasHEw"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
-  "plain": "From 2023 to 2025, some members of Congress tried to put the UAP Disclosure Act, a proposed law to force the release of government records on UFOs (now officially called unidentified anomalous phenomena, or UAP), into the National Defense Authorization Act, the yearly law that sets US military policy and spending. Congressman Eric Burlison, who took part, tells it, and he names his fellow representatives Tim Burchett and Anna Paulina Luna as allies in the effort. Had it passed, the language would have pushed hidden UFO files into the open."
+  "attestation": 2.3,
+  "tier": "well-attested",
+  "plain": "Congressman Eric Burlison tells Michels that he, along with fellow House members Tim Burchett and Anna Paulina Luna, tried to put the wording of the UAP Disclosure Act into the National Defense Authorization Act, the yearly law that sets military spending (\"UAP\" is the government's term for UFOs). If it had passed, the government would have been bound to release its UFO records. He does not say which version he means. The 2023 version was a Senate amendment that Senator Chuck Schumer submitted on 13 July 2023 to that year's defence bill, and it was \"ordered to lie on the table\". Burlison is talking about the House side, which that text does not cover.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Unidentified Anomalous Phenomena Disclosure Act of 2023 (SA 797 to S. 2226)",
+      "date": "2023-07-13",
+      "source": "https://www.govinfo.gov/content/pkg/CREC-2023-07-13/html/CREC-2023-07-13-pt1-PgS2953.htm",
+      "text": "The tellers do not say which version of the UAP Disclosure Act they mean; if it is the 2023 one, the Congressional Record shows it as a Senate amendment (SA 797) that Senator Schumer submitted to S. 2226, the Senate's defence authorization bill for fiscal year 2024, ordered to lie on the table. The House member telling the story speaks of the House side, which this text does not cover."
+    }
+  ]
 }

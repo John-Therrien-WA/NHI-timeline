@@ -45,33 +45,75 @@
         "place_text": "Atlantis",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "critias",
+      "page": "Critias 121a-b",
+      "teller": "plato",
+      "quote": "but when the divine portion began to fade away, and became diluted too often and too much with the mortal admixture, and the human nature got the upper hand, they then, being unable to bear their fortune, behaved unseemly, and to him who had an eye to see grew visibly debased, for they were losing the fairest of their precious gifts; but to those who had no eye to see the true happiness, they appeared glorious and blessed at the very time when they were full of avarice and unrighteous power.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "critias",
+      "page": "Critias 121b-c",
+      "teller": "plato",
+      "quote": "Zeus, the god of gods, who rules according to law, and is able to see into such things, perceiving that an honourable race was in a woeful plight, and wanting to inflict punishment on them, that they might be chastened and improve, collected all the gods into their most holy habitation, which, being placed in the centre of the world, beholds all created things. And when he had called them together, he spake as follows--",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 25c-d",
+      "teller": "plato",
+      "quote": "But afterwards there occurred violent earthquakes and floods; and in a single day and night of misfortune all your warlike men in a body sank into the earth, and the island of Atlantis in like manner disappeared in the depths of the sea.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 5.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 3,
+    "documents": 2,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jason-jorjani"
+      "jason-jorjani",
+      "plato"
     ],
     "episodes": [
       "EzPmG_7WhXc"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
-  "plain": "The people of Atlantis, the lost island civilisation, committed a great sin by ceasing to sacrifice to and worship the gods, so Zeus called the Olympian gods together and chose to wipe the world clean in what we know as Noah's flood. That is how the philosopher Jason Jorjani retells it, citing the ancient Greek philosopher Plato and his dialogues the Timaeus and Critias. In a second pass he speaks only of \"some rebellion in Atlantis\" without mentioning the flood, and he offers it as a clue that ancient gods may have been real powers ruling over humanity."
+  "attestation": 2.5,
+  "tier": "well-attested",
+  "plain": "The people of Atlantis sinned by ceasing to sacrifice to the gods, so Zeus called the Olympian gods together and chose to wipe the world clean in the flood better known as Noah's. That is how a philosopher named Jason Jorjani tells it to Michels, saying it is what Plato recounts in his dialogues the Timaeus and the Critias, and if true it would tie Plato's lost island to the Bible's flood. In Benjamin Jowett's English translation of the Critias, though, the Atlanteans' fault is that \"the divine portion began to fade away\" in them and they grew \"full of avarice and unrighteous power\". Zeus \"collected all the gods\", and the text breaks off as he starts to speak, with nothing on sacrifice, a flood sent by Zeus, or Noah, while the Timaeus says only that Atlantis vanished in \"violent earthquakes and floods\" in \"a single day and night\" and gives no cause.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Critias (translated by Benjamin Jowett)",
+      "source": "https://www.gutenberg.org/ebooks/1571",
+      "text": "In Jowett's translation of the Critias, the Atlanteans' fault is that \"the divine portion began to fade away\" in them and they grew \"full of avarice and unrighteous power\"; the text says nothing of their ceasing to sacrifice to the gods, and it breaks off as Zeus, having called the gods together, begins to speak, so what Zeus decided is not in it. It names no flood sent by Zeus and no Noah."
+    },
+    {
+      "kind": "source",
+      "by": "Timaeus (translated by Benjamin Jowett)",
+      "source": "https://www.gutenberg.org/ebooks/1572",
+      "text": "In Jowett's translation of the Timaeus, Atlantis sank when \"violent earthquakes and floods\" came \"in a single day and night\", after its war with Athens, and the Athenian warriors sank into the earth with it; the passage gives no cause and does not name Zeus or a rebellion."
+    }
+  ]
 }

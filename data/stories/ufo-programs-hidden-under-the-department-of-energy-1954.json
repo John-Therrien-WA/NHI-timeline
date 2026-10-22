@@ -25,33 +25,61 @@
       "documents": [
         "atomic-energy-act-of-1954"
       ]
+    },
+    {
+      "document": "atomic-energy-act-of-1954",
+      "page": "Sec. 141, 68 Stat. 940",
+      "teller": "congress",
+      "quote": "SEC. 141. POLICY.—It shall be the policy of the Commission to control the dissemination and declassification of Restricted Data in such a manner as to assure the common defense and security.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "atomic-energy-act-of-1954",
+      "page": "Sec. 11 r., 68 Stat. 924",
+      "teller": "congress",
+      "quote": "r. The term 'Restricted Data' means all data concerning (1) design, manufacture, or utilization of atomic weapons; (2) the production of special nuclear material; or (3) the use of special nuclear material in the production of energy, but shall not include data declassified or removed from the Restricted Data category pursuant to section 142.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 3.6,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "official",
     "tellers": [
+      "congress",
       "jesse-michels"
     ],
     "episodes": [
       "hBrfe4hFuM0"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "UFO programmes are said to be hidden inside the Department of Energy, the US agency in charge of nuclear weapons, because under the Atomic Energy Act of 1954, a US law on nuclear secrecy, anything nuclear counts as national security. Michels says he was told this by a man named Chris Mellon, though he is not completely sure it was Mellon. If true, it would explain how such programmes could stay out of public view."
+  "attestation": 1.8,
+  "tier": "well-attested",
+  "plain": "The claim is that UFO programmes are tucked away under the US Department of Energy, because anything nuclear is automatically treated as national security. Michels says he was told this, he thinks by Chris Mellon, a former Pentagon intelligence official, and links it to the 1954 nuclear law. That law, the Atomic Energy Act of 1954, gives the Atomic Energy Commission control of \"Restricted Data\", meaning information on atomic weapons and nuclear material, \"to assure the common defense and security\". It does not mention the Department of Energy, which did not yet exist, or any flying object.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Atomic Energy Act of 1954 (Public Law 703, 83rd Congress, 68 Stat. 919)",
+      "date": "1954-08-30",
+      "source": "https://www.govinfo.gov/content/pkg/STATUTE-68/pdf/STATUTE-68-Pg919.pdf",
+      "text": "The teller does not say which law he means; if it is the Atomic Energy Act of 1954, it puts the control of Restricted Data (data on atomic weapons and on special nuclear material) with the Atomic Energy Commission \"to assure the common defense and security\". It does not mention the Department of Energy, which did not yet exist, or any aerial object."
+    }
+  ]
 }

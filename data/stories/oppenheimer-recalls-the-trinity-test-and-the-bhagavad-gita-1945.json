@@ -26,33 +26,51 @@
       "replay_of": {
         "outside": true
       }
+    },
+    {
+      "document": "bhagavad-gita",
+      "page": "Chapter XI, verse 32",
+      "teller": "vyasa",
+      "quote": "Thou seest Me as Time who kills, Time who brings all to doom, The Slayer Time, Ancient of Days, come hither to consume;",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 5.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 1,
+    "independent_tellers": 2,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "j-robert-oppenheimer"
+      "j-robert-oppenheimer",
+      "vyasa"
     ],
     "episodes": [
       "rjUdn6FklAU"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
-  "plain": "The physicist J. Robert Oppenheimer, who led the making of the first atomic bomb, recalls that at the Trinity test, the first atomic bomb blast, in the New Mexico desert in 1945, he thought of a line from the Hindu scripture the Bhagavad Gita: \"Now I am become death, the destroyer of worlds.\" He tells it in his own words, in a recording played on an episode about Air Force veterans, as a picture of what the bomb meant."
+  "attestation": 2.5,
+  "tier": "well-attested",
+  "plain": "Watching the first atomic bomb test, at the Trinity site in New Mexico in 1945, the physicist J. Robert Oppenheimer recalls thinking of a line from the Hindu scripture the Bhagavad Gita: \"Now I am become death, the destroyer of worlds.\" His own recorded words are played on the show. Oppenheimer does not say which translation he followed; in Edwin Arnold's 1885 English version, the god Krishna's words at that verse are \"Thou seest Me as Time who kills, Time who brings all to doom.\"",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Song Celestial, or Bhagavad-Gita (translated by Edwin Arnold)",
+      "source": "https://www.gutenberg.org/ebooks/2388",
+      "text": "Oppenheimer does not say which translation his words follow (he read the Gita in Sanskrit); in Edwin Arnold's 1885 translation read here, Krishna's words at chapter 11, verse 32 are \"Thou seest Me as Time who kills, Time who brings all to doom\", not \"Now I am become death, the destroyer of worlds\"."
+    }
+  ]
 }

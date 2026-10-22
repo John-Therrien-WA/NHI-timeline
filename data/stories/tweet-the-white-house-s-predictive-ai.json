@@ -45,25 +45,34 @@
         "place_text": "White House, Washington, D.C.",
         "story_kind": "theory"
       }
+    },
+    {
+      "document": "matthew-brown-tweet-to-elon-musk",
+      "page": "paragraph 1",
+      "teller": "matthew-brown",
+      "quote": "As you now know, the @WhiteHouse  has long possessed a unique AI capable of accurately predicting a range of future events.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.1,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
-    "official_records": 1,
+    "firsthand": 1,
+    "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "official",
+    "strongest_kind": "firsthand",
     "tellers": [
       "matthew-brown"
     ],
@@ -72,7 +81,7 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.05,
+  "attestation": 1.5,
   "tier": "told-once",
-  "plain": "The White House is said to have \"long possessed a unique AI capable of accurately predicting a range of future events,\" in the words of a tweet that Matthew Brown, introduced on the show as a Pentagon whistleblower, sent to the businessman Elon Musk. On another episode Michels repeats it from memory, calling it \"the weirdest\" tweet and describing it as a crystal ball that predicts future timelines. If true, the government would have a secret tool for seeing what comes next."
+  "plain": "The White House is said to have long had a unique artificial intelligence that can accurately predict future events. The Pentagon whistleblower Matthew Brown reads this on the show from his post on X, the social media site, of 6 June 2025, addressed to the businessman Elon Musk: \"As you now know, the @WhiteHouse has long possessed a unique AI capable of accurately predicting a range of future events.\" In another episode Michels recalls the same post from memory as Brown saying the White House has \"a crystal ball,\" a private AI that \"predicts future timelines.\""
 }

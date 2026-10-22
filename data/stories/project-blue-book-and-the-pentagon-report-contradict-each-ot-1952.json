@@ -24,33 +24,43 @@
         "project-blue-book",
         "pentagon-uap-report"
       ]
+    },
+    {
+      "document": "ufos-project-blue-book-us-air-force-fact-sheet",
+      "page": "paragraph 4",
+      "teller": "us-air-force",
+      "quote": "As a result of these investigations and studies and experience gained from investigating UFO reports since 1948, the conclusions of Project BLUE BOOK are:(1) no UFO reported, investigated, and evaluated by the Air Force has ever given any indication of threat to our national security;(2) there has been no evidence submitted to or discovered by the Air Force that sightings categorized as \"unidentified\" represent technological developments or principles beyond the range of present-day scientific knowledge, and (3) there has been no evidence indicating that sightings categorized as \"unidentified\" are extraterrestrial vehicles.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 4.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
-      "eric-weinstein"
+      "eric-weinstein",
+      "us-air-force"
     ],
     "episodes": [
       "iQOibpIDx-4"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "The US government's old and new verdicts on UFOs cannot both be honest, according to the mathematician and commentator Eric Weinstein. He sets Project Blue Book, the US Air Force's UFO study of the 1950s and 60s, which concluded there was nothing to see, against a recent Pentagon report on unexplained aerial sightings, and says the two 'do not seem to be particularly compatible'. In his words, it looks as if 'either we were lying then' or the government is telling the truth only now."
+  "attestation": 2.05,
+  "tier": "well-attested",
+  "plain": "The findings of Project Blue Book, the US Air Force's UFO study of the 1950s and 60s, and those of the Pentagon's recent report on unexplained aerial sightings do not fit together, so either the government lied then in saying there was nothing to see or is lying now. A researcher named Eric Weinstein makes this argument to Michels, and if he is right one of the two official accounts is false. The Air Force's fact sheet on Blue Book, from January 1985, concludes that no UFO it studied posed a threat to national security, that nothing pointed to technology beyond present science, and that there was \"no evidence indicating that sightings categorized as 'unidentified' are extraterrestrial vehicles.\""
 }

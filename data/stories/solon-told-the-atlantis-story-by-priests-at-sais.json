@@ -67,27 +67,91 @@
         "place_text": "Sais, Egypt",
         "story_kind": "cosmology"
       }
+    },
+    {
+      "document": "critias",
+      "page": "Critias 113a",
+      "teller": "plato",
+      "quote": "Solon, who was intending to use the tale for his poem, enquired into the meaning of the names, and found that the early Egyptians in writing them down had translated them into their own language, and he recovered the meaning of the several names and when copying them out again translated them into our language.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "critias",
+      "page": "Critias 113b",
+      "teller": "plato",
+      "quote": "My great-grandfather, Dropides, had the original writing, which is still in my possession, and was carefully studied by me when I was a child.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 21e",
+      "teller": "plato",
+      "quote": "In the Egyptian Delta, at the head of which the river Nile divides, there is a certain district which is called the district of Sais, and the great city of the district is also called Sais, and is the city from which King Amasis came. The citizens have a deity for their foundress; she is called in the Egyptian tongue Neith, and is asserted by them to be the same whom the Hellenes call Athene; they are great lovers of the Athenians, and say that they are in some way related to them.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 22a",
+      "teller": "plato",
+      "quote": "To this city came Solon, and was received there with great honour; he asked the priests who were most skilful in such matters, about antiquity, and made the discovery that neither he nor any other Hellene knew anything worth mentioning about the times of old.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 22b",
+      "teller": "plato",
+      "quote": "Thereupon one of the priests, who was of a very great age, said: O Solon, Solon, you Hellenes are never anything but children, and there is not an old man among you.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 23a",
+      "teller": "plato",
+      "quote": "if there were any actions noble or great or in any other way remarkable, they have all been written down by us of old, and are preserved in our temples.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 23e-24a",
+      "teller": "plato",
+      "quote": "As touching your citizens of 9000 years ago, I will briefly inform you of their laws and of their most famous action; the exact particulars of the whole we will hereafter go through at our leisure in the sacred registers themselves.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 5.5,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 2,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 3,
+    "documents": 2,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
       "graham-hancock",
+      "plato",
       "tim-alberino"
     ],
     "episodes": [
@@ -96,7 +160,15 @@
       "dfPfPB601hw"
     ]
   },
-  "attestation": 1.25,
+  "attestation": 2.75,
   "tier": "well-attested",
-  "plain": "Solon, a lawmaker of ancient Athens, is said to have heard the story of Atlantis, a great lost island civilisation, from Egyptian priests at a temple of the goddess Neith in Sais, a city in the Nile Delta. The writer Graham Hancock, who argues for lost ancient civilisations, tells it twice from the account left by the Greek philosopher Plato in his dialogues Timaeus and Critias. Hancock says the priests read hieroglyphs, the old Egyptian picture-writing, off the temple wall to Solon and translated them for him. That, he says, is why Plato gives such an early date: Solon's visit around 600 BC, and Atlantis around 9600 BC. The filmmaker Tim Alberino also brings up the priest of Sais teaching Solon, but he stresses a different lesson: that the world goes through repeated cycles of great disasters, which he ties to our own age. Both men are summarising the ancient texts, not new evidence. The story matters to them because it would mean a real memory of a lost civilisation was kept in Egypt."
+  "plain": "The Athenian lawgiver Solon is said to have learned the story of Atlantis, a lost island power, from Egyptian priests at the temple of the goddess Neith in Sais, a city in the Nile Delta. The writer Graham Hancock tells Michels this twice, drawing on Plato's dialogues the Timaeus and the Critias, read here in Benjamin Jowett's translation; in one telling he adds that the priests read hieroglyphs off the temple wall and translated them for Solon, and he dates the visit to about 600 BC and the events to about 9600 BC. The researcher Tim Alberino recalls the same scene to stress what the priest taught about cycles of catastrophe, which he ties to our own age. In Plato's text Solon is \"received there with great honour,\" and an aged priest tells him: \"O Solon, Solon, you Hellenes are never anything but children.\" The priest says great deeds \"have all been written down by us of old, and are preserved in our temples,\" with particulars in \"the sacred registers themselves\"; the text does not say they were carved on the temple wall or read aloud from hieroglyphs. Critias also says that the Egyptians had translated the names into their own tongue and that Solon translated them back. If true, it would mean Egypt kept records of a civilisation far older than the Greeks knew.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Timaeus (translated by Benjamin Jowett)",
+      "source": "https://www.gutenberg.org/ebooks/1572",
+      "text": "In Jowett's translation of the Timaeus, the old priest at Sais tells Solon that the great deeds \"have all been written down by us of old, and are preserved in our temples\" and that the particulars are in \"the sacred registers\"; the text does not say they were inscribed on the temple wall or that the priests read hieroglyphs aloud to Solon."
+    }
+  ]
 }

@@ -18,35 +18,63 @@
       "kind": "secondhand",
       "cites": [],
       "documents": [
-        "60-minutes"
+        "u-s-military-tested-device-that-may-be-tied-to-havana-syndro"
       ]
+    },
+    {
+      "document": "u-s-military-tested-device-that-may-be-tied-to-havana-syndro",
+      "page": "paragraph 45",
+      "teller": "scott-pelley",
+      "quote": "So one of the very first things that I heard when I arrived at the AHI Unit was, \"Our job is to bring down the temperature on AHI at headquarters.\"",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "u-s-military-tested-device-that-may-be-tied-to-havana-syndro",
+      "page": "paragraph 55",
+      "teller": "scott-pelley",
+      "quote": "All of this, he says, led him to resign.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 3.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "journalist",
     "tellers": [
-      "eric-haseltine"
+      "eric-haseltine",
+      "scott-pelley"
     ],
     "episodes": [
       "jMCavr3dVP0"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "A man who quit a government post told the TV news programme 60 Minutes that a woman came to him and said, \"We got to turn down the temperature on this thing,\" meaning the UFO subject. Eric Haseltine, a former senior official at the National Security Agency, the US agency that intercepts communications, recalls the broadcast to Michels. He raises it as a sign that officials worked to calm public interest in the topic."
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "A man who quit a government job said on the television news program 60 Minutes that a woman came to him and said, \"We got to turn down the temperature on this thing.\" Eric Haseltine, a former senior official of the National Security Agency, the US electronic spying agency, brings this up with Michels as a sign that officials work to cool public interest in a subject. He does not say which report he means. If it is the 60 Minutes report on Havana Syndrome, the unexplained injuries reported by US officials, aired 8 March 2026, there a former CIA officer who resigned recalls hearing on arriving at the unit studying these cases, \"Our job is to bring down the temperature on AHI at headquarters\", AHI being the agency's term for the cases; the report does not say who said it or that it was a woman, and its subject is not UFOs.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "U.S. military tested device that may be tied to Havana Syndrome on rats, sheep, confidential sources say (60 Minutes)",
+      "date": "2026-03-08",
+      "source": "https://www.cbsnews.com/news/us-military-tested-device-that-may-be-tied-to-havana-syndrome-60-minutes-transcript/",
+      "text": "The teller does not say which 60 Minutes report he means; if it is the 60 Minutes report on Havana Syndrome of 8 March 2026, a former CIA officer who resigned says that when he arrived at the CIA's unit for anomalous health incidents (Havana Syndrome) he heard \"Our job is to bring down the temperature on AHI at headquarters\"; the report does not say who said it or that it was a woman, and its subject is Havana Syndrome, not UFOs. The 60 Minutes UFO report of May 2021 holds no such line."
+    }
+  ]
 }

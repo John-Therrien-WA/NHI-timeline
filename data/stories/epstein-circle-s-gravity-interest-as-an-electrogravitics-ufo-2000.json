@@ -25,25 +25,34 @@
       "documents": [
         "jason-jorjani-substack-piece-on-ghislaine-maxwell"
       ]
+    },
+    {
+      "document": "jason-jorjani-substack-piece-on-ghislaine-maxwell",
+      "page": "section \"“I wish I never met him.”\", paragraph 10",
+      "teller": "jason-jorjani",
+      "quote": "Jeffrey Epstein was also obsessed with physics research and technological developments directed toward defying gravity. In other words, he was interested in electrogravitics or what is believed to be the power and propulsion system of UFOs.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jason-jorjani"
     ],
@@ -51,7 +60,16 @@
       "EzPmG_7WhXc"
     ]
   },
-  "attestation": 0.5,
+  "attestation": 1.5,
   "tier": "told-once",
-  "plain": "The interest in gravity research shown by the circle around the financier Jeffrey Epstein and his associate Ghislaine Maxwell may really have been a hunt for electrogravitics, the idea that electric fields can push against gravity, linked to the inventor Thomas Townsend Brown. The philosopher Jason Jorjani gives this as his own suspicion, drawn from a piece he wrote on his Substack newsletter about Maxwell. He says it is \"all part of the UFO phenomenon that they're trying to crack\", which would mean wealthy private players were chasing how UFOs fly."
+  "plain": "The financier Jeffrey Epstein was fixated on physics research into defying gravity, and the researcher and philosopher Jason Jorjani suspects this was really a hunt for electrogravitics, the idea of controlling gravity with electricity, which he describes as what is believed to be the power and propulsion system of UFOs. On the show Jorjani tells Michels he \"suspects\" it, links it to an effect named after the inventor Thomas Townsend Brown, and says it is \"all part of the UFO phenomenon that they're trying to crack.\" In his own essay Ocean Outlaw: A Portrait of Ghislaine Maxwell, about Epstein's associate Ghislaine Maxwell and published on 29 July 2025, he states it plainly as fact (\"In other words, he was interested in electrogravitics\") and does not mention Brown at all.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Ocean Outlaw: A Portrait of Ghislaine Maxwell",
+      "date": "2025-07-29",
+      "source": "https://jasonrezajorjani.substack.com/p/janet-atlantis-a-portrait-of-ghislaine",
+      "text": "In the piece Jorjani states Epstein's interest in electrogravitics as a fact (\"In other words, he was interested in electrogravitics\"), not as the suspicion he voices on the podcast, and he does not name Thomas Townsend Brown or the Biefeld-Brown effect."
+    }
+  ]
 }

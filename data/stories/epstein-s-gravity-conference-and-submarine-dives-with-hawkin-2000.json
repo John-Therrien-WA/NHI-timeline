@@ -29,6 +29,24 @@
       "documents": [
         "jason-jorjani-substack-piece-on-ghislaine-maxwell"
       ]
+    },
+    {
+      "document": "jason-jorjani-substack-piece-on-ghislaine-maxwell",
+      "page": "section \"“I wish I never met him.”\", paragraph 10",
+      "teller": "jason-jorjani",
+      "quote": "Ghislaine piloted the “Atlantis” submarine (we will come back to this) that took Epstein and crippled physicist Stephen Hawking down to the seabed of the Bermuda Triangle to study quantum magnetic anomalies there.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "jason-jorjani-substack-piece-on-ghislaine-maxwell",
+      "page": "section \"“I wish I never met him.”\", paragraph 11",
+      "teller": "jason-jorjani",
+      "quote": "This construct had the J. Epstein Virgin Islands Foundation sponsor a 2006 conference titled “Confronting Gravity,” the participants of which included all of the top physicists working on the problem of overcoming gravity at institutions such as Caltech, Stanford, MIT, Cambridge, Princeton, Harvard, the University of Chicago, the Institut des Hautes Etudes Scientifique and CERN.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -39,21 +57,21 @@
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jason-jorjani"
     ],
@@ -61,7 +79,16 @@
       "EzPmG_7WhXc"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.5,
   "tier": "told-once",
-  "plain": "In the 2000s, according to this story, the financier Jeffrey Epstein took people down in submarines in the Bahamas, in what is called the Bermuda Triangle region, to study odd gravity effects at the smallest scales. The physicist Stephen Hawking was said to be among them. The philosopher Jason Jorjani tells Michels this, passing on what he took from others, among them the mathematician Eric Weinstein, the journalist Whitney Webb and a commentator who goes by Dark Journalist, and from his own online essay about Epstein's associate Ghislaine Maxwell."
+  "plain": "The financier Jeffrey Epstein took people down in submarines, the physicist Stephen Hawking among them, to study what were described as quantum gravitational anomalies in the Bahamas basin, the stretch of sea known as the Bermuda Triangle. A philosopher named Jason Jorjani tells Michels this, crediting others such as a researcher named Eric Weinstein, and if true it would suggest Epstein's circle was chasing ways to beat gravity. Jorjani's own article \"Ocean Outlaw: A Portrait of Ghislaine Maxwell\", published 29 July 2025, tells of a single dive in which Epstein's associate Ghislaine Maxwell piloted the \"Atlantis\" submarine that took Epstein and Hawking to the Bermuda Triangle seabed \"to study quantum magnetic anomalies\". That is magnetic, not gravitational, and the article does not name the Bahamas. It adds that Epstein's foundation sponsored a 2006 conference titled \"Confronting Gravity\" with top physicists from places like Caltech, MIT, Harvard and CERN.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Ocean Outlaw: A Portrait of Ghislaine Maxwell",
+      "date": "2025-07-29",
+      "source": "https://jasonrezajorjani.substack.com/p/janet-atlantis-a-portrait-of-ghislaine",
+      "text": "The piece names one submarine dive, in the \"Atlantis\" submarine piloted by Ghislaine Maxwell, that took Epstein and Stephen Hawking to the seabed of the Bermuda Triangle \"to study quantum magnetic anomalies\"; it says magnetic where the podcast says gravitational, and it does not name the Bahamas for that dive."
+    }
+  ]
 }

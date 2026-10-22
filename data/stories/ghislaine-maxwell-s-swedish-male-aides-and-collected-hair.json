@@ -22,25 +22,43 @@
       "documents": [
         "jason-jorjani-substack-piece-on-ghislaine-maxwell"
       ]
+    },
+    {
+      "document": "jason-jorjani-substack-piece-on-ghislaine-maxwell",
+      "page": "section \"“I wish I never met him.”\", paragraph 8",
+      "teller": "jason-jorjani",
+      "quote": "Ghislaine would curate young, almost exclusively blond, and blue-eyed men as her live-in aides, just as Epstein preferred enlisting young women with a Nordic phenotype. She would cycle these Nordic male aids every 3 months, on tourist visas, sourcing them mostly from Sweden.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "jason-jorjani-substack-piece-on-ghislaine-maxwell",
+      "page": "section \"“I wish I never met him.”\", paragraph 9",
+      "teller": "jason-jorjani",
+      "quote": "One of the aides, Rasmus Alpsjö, has reported that he noticed that his hair was being collected from his pillows and the bathroom he used",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jason-jorjani"
     ],
@@ -48,7 +66,16 @@
       "EzPmG_7WhXc"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.5,
   "tier": "told-once",
-  "plain": "The British socialite Ghislaine Maxwell is said to have kept live-in male Swedish aides at her townhouse on Manhattan's Upper East Side, and to have collected hair. The philosopher Jason Jorjani tells this, drawing on an article by an unnamed former Swedish aide and his own online essay about Maxwell. He raises it as a sign of something stranger going on in her household."
+  "plain": "Ghislaine Maxwell, the associate of the financier Jeffrey Epstein, kept young live-in male aides at her townhouse on Manhattan's Upper East Side, and one of them found his hair being collected. A philosopher named Jason Jorjani tells Michels this, citing an article by a former Swedish aide, and if true it would point to an interest in these men's genetic material. Jorjani's own article \"Ocean Outlaw: A Portrait of Ghislaine Maxwell\", published 29 July 2025, says she chose men who were \"almost exclusively blond, and blue-eyed\", swapped them every three months on tourist visas, mostly from Sweden, and that the aide Rasmus Alpsjö \"has reported that he noticed that his hair was being collected from his pillows and the bathroom he used\", but it does not name or link the aide's article.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Ocean Outlaw: A Portrait of Ghislaine Maxwell",
+      "date": "2025-07-29",
+      "source": "https://jasonrezajorjani.substack.com/p/janet-atlantis-a-portrait-of-ghislaine",
+      "text": "The piece names the aide, Rasmus Alpsjö, and says he \"has reported\" that his hair was collected from his pillows and his bathroom, but it neither names nor links the article Jorjani says on the podcast that it cites."
+    }
+  ]
 }

@@ -23,6 +23,24 @@
       "documents": [
         "robertson-panel-report"
       ]
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Part II, Educational Program, p. 1413",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "The \"debunking\" aim would result in reduction in public interest in \"flying saucers\" which today evokes a strong psychological reaction. This education could be accomplished by mass media such as television, motion pictures, and popular articles.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Tab A, 4a, p. 1419",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "a. That the national security agencies take immediate steps to strip the Unidentified Flying Objects of the special status they have been given and the aura of mystery they have unfortunately acquired;",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -43,29 +61,30 @@
     }
   ],
   "tags": [],
-  "score": 2.1,
+  "score": 4.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 1,
+    "official_records": 2,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "cia-office-of-scientific-intelligence",
       "tim-gallaudet"
     ],
     "episodes": [
       "nRKNVFQBi38"
     ]
   },
-  "attestation": 1.05,
-  "tier": "told-once",
-  "plain": "For about 80 years there has been a deliberate, well-funded campaign to make people who take UFOs seriously look foolish, and it began after the Robertson Panel, a group of scientists the CIA convened in 1953 to review UFO reports. So says Tim Gallaudet, a retired Navy rear admiral, who calls the campaign \"very effective\". If he is right, the stigma around the subject was built on purpose."
+  "attestation": 2.1,
+  "tier": "well-attested",
+  "plain": "The stigma around UFOs is said to be an eighty-year campaign, \"very effective and well funded,\" that began with the Robertson Panel, a group of scientists the CIA convened in January 1953. A retired Navy admiral named Tim Gallaudet tells Michels this, which would mean public ridicule of the subject was planned. The panel's report, dated 16 February 1953, does call for a \"debunking\" aim to reduce public interest in \"flying saucers\" through \"television, motion pictures, and popular articles,\" and urges agencies to \"strip the Unidentified Flying Objects of the special status they have been given and the aura of mystery they have unfortunately acquired.\""
 }

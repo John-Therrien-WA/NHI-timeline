@@ -73,6 +73,33 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Part II, Educational Program, p. 1413",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "The \"debunking\" aim would result in reduction in public interest in \"flying saucers\" which today evokes a strong psychological reaction.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Part II, Potential Related Dangers, c, p. 1408",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "Subjectivity of public to mass hysteria and greater vulnerability to possible enemy psychological warfare.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Tab A, 3, pp. 1418-1419",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "the cultivation of a morbid national psychology in which skillful hostile propaganda could induce hysterical behavior and harmful distrust of duty constituted authority.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -93,22 +120,23 @@
     }
   ],
   "tags": [],
-  "score": 1.2,
+  "score": 3.3,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "official",
     "tellers": [
+      "cia-office-of-scientific-intelligence",
       "jesse-michels"
     ],
     "episodes": [
@@ -116,7 +144,16 @@
       "8Rr_nE65KkI"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-once",
-  "plain": "In 1953 a CIA-backed panel of scientists led by the physicist Howard P. Robertson is said to have set the course for Blue Book, the US Air Force's UFO study of the 1950s and 60s, with the aim of throwing the public off and systematically downplaying, suppressing and explaining away UFO sightings. Jesse Michels tells this himself, citing the panel's report, which he says was meant to be secret at the time. In another telling he gives the reason as fear that UFO news would touch off mass hysteria, crediting the physicist Hal Puthoff, and elsewhere he dates the panel's work to 1952 and 1953. If true, the government's public UFO study was built from the start to debunk."
+  "attestation": 1.65,
+  "tier": "well-attested",
+  "plain": "The Robertson Panel, a group of scientists the CIA called together in January 1953 to review UFO reports, set out in papers kept secret at the time that the explicit aim of Project Blue Book, the Air Force's UFO study, was to throw the public off and to downplay, suppress and explain away sightings. Michels tells this himself, elsewhere giving fear of mass hysteria as the reason, crediting the physicist Hal Puthoff, and saying the panel's leader, the physicist Howard P. Robertson, created Blue Book's mandate; if true, the public study was built to mislead. The panel's report, written by the CIA's Office of Scientific Intelligence and dated 16 February 1953, does recommend a \"debunking\" aim to reduce public interest in \"flying saucers\" and lists the public's openness \"to mass hysteria\" among the dangers, but it states no motive of Blue Book's own, and Blue Book was already running when the panel met.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Report of Meetings of Scientific Advisory Panel on Unidentified Flying Objects (Robertson Panel), 14-18 January 1953",
+      "date": "1953-02-16",
+      "source": "https://files.ncas.org/condon/text/appndx-u.htm",
+      "text": "The tellers do not say which of the panel's papers they mean; in the minutes and the report read here the panel recommends \"debunking\" to reduce public interest and names mass hysteria among the dangers, but states no motive of Project Blue Book's own to throw the public off or to suppress sightings; Blue Book was already running when the panel met, its status and progress reports being among the evidence the panel was shown."
+    }
+  ]
 }

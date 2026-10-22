@@ -23,6 +23,15 @@
       "documents": [
         "robertson-panel-report"
       ]
+    },
+    {
+      "document": "robertson-panel-report",
+      "page": "Part II, Unofficial Investigating Groups, pp. 1416-1417",
+      "teller": "cia-office-of-scientific-intelligence",
+      "quote": "It was believed that such organizations should be watched because of their potentially great influence on mass thinking if widespread sightings should occur. The apparent irresponsibility and the possible use of such groups for subversive purposes should be kept in mind.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -43,29 +52,39 @@
     }
   ],
   "tags": [],
-  "score": 2.1,
+  "score": 4.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 1,
+    "official_records": 2,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "cia-office-of-scientific-intelligence",
       "robert-salas"
     ],
     "episodes": [
       "-0g3lLGxNfc"
     ]
   },
-  "attestation": 1.05,
-  "tier": "told-once",
-  "plain": "The Robertson Panel, a group of scientists the CIA brought together in 1953 to review UFO reports, is said to have advised that the government watch civilian UFO groups, and even get inside them. A former Air Force nuclear missile officer named Robert Salas says this comes from the panel's report, summing it up as \"let's keep an eye on UFO groups,\" which would mean the public's interest in UFOs was itself treated as something to monitor."
+  "attestation": 2.1,
+  "tier": "well-attested",
+  "plain": "A 1953 CIA panel of scientists, the Robertson Panel, is said to have directed that civilian UFO groups be watched and infiltrated. Robert Salas, a former Air Force officer, tells Michels the directive was \"let's keep an eye on UFO groups,\" pointing to the panel's report of 16 February 1953. That report says such groups, naming the Civilian Flying Saucer Investigators and the Aerial Phenomena Research Organization, \"should be watched because of their potentially great influence on mass thinking\" and that \"the possible use of such groups for subversive purposes should be kept in mind\"; it does not say they should be infiltrated.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Report of Meetings of Scientific Advisory Panel on Unidentified Flying Objects (Robertson Panel), 14-18 January 1953",
+      "date": "1953-02-16",
+      "source": "https://files.ncas.org/condon/text/appndx-u.htm",
+      "text": "The panel's minutes say the civilian groups \"should be watched\", naming the Civilian Flying Saucer Investigators and the Aerial Phenomena Research Organization; they do not say the groups should be infiltrated."
+    }
+  ]
 }

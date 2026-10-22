@@ -73,6 +73,42 @@
         "place_text": "United States",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "condon-report",
+      "page": "Section I, p. 2",
+      "teller": "edward-condon",
+      "quote": "Our general conclusion is that nothing has come from the study of UFOs in the past 21 years that has added to scientific knowledge.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "condon-report",
+      "page": "Section I, p. 7",
+      "teller": "edward-condon",
+      "quote": "It is our impression that the defense function could be performed within the framework established for intelligence and surveillance operations without the continuance of a special unit such as Project Blue Book, but this is a question for defense specialists rather than research scientists.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "ufos-project-blue-book-us-air-force-fact-sheet",
+      "page": "paragraph 1",
+      "teller": "us-air-force",
+      "quote": "On December 17, 1969, the Secretary of the Air Force announced the termination of Project BLUE BOOK, the Air Force program for the investigation of UFOS.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "ufos-project-blue-book-us-air-force-fact-sheet",
+      "page": "paragraph 3",
+      "teller": "us-air-force",
+      "quote": "The decision to discontinue UFO investigations was based on an evaluation of a report prepared by the University of Colorado entitled, \"Scientific Study of Unidentified Flying Objects;\" a review of the University of Colorado's report by the National Academy of Sciences; past UFO studies and Air Force experience investigating UFO reports during the 40s, '50s, and '60s.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -88,23 +124,25 @@
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 5.8,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
-    "official_records": 0,
+    "independent_tellers": 3,
+    "firsthand": 1,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 2,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "edward-condon",
+      "jesse-michels",
+      "us-air-force"
     ],
     "episodes": [
       "A2-y_HasHEw",
@@ -112,7 +150,16 @@
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "The Condon report of 1968 was a study that led to the closing of Blue Book, the US Air Force's UFO study of the 1950s and 60s. It explained many sightings in ordinary terms and concluded that the project had been a waste of time. Michels, telling it himself, says that if you read the report's substance, over 30% of its cases were still unidentified. He also mentions the astronomer J. Allen Hynek, who worked on the Air Force project, and compares the report to AARO, today's Pentagon UFO office, which under its head Sean Kirkpatrick also left cases unexplained."
+  "attestation": 2.9,
+  "tier": "well-attested",
+  "plain": "A 1968 scientific report on UFOs from the University of Colorado, led by Edward Condon, shut down Blue Book, the US Air Force's UFO study of the 1950s and 60s, and brushed off its cases with ordinary explanations, even though, Michels says, more than 30 percent of the cases stayed unidentified; he tells this himself on several shows, once crediting the astronomer J. Allen Hynek, who worked with Blue Book. The report, Scientific Study of Unidentified Flying Objects, sent to the Air Force on 31 October 1968, concludes that \"nothing has come from the study of UFOs in the past 21 years that has added to scientific knowledge,\" but it only offers Condon's \"impression\" that Blue Book could be dropped, calling that \"a question for defense specialists,\" and the text read here gives no overall share of unidentified cases. An Air Force fact sheet from January 1985 records that the Secretary of the Air Force ended Blue Book on 17 December 1969, a decision based partly on the Colorado report.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Scientific Study of Unidentified Flying Objects (the Condon report, 1968)",
+      "date": "1968-10-31",
+      "source": "https://files.ncas.org/condon/",
+      "text": "The report, sent to the Air Force on 31 October 1968, did not itself close Blue Book: Condon gives as his \"impression\" that the defense function could be performed without \"a special unit such as Project Blue Book\" and calls that \"a question for defense specialists\". The tellers do not say where the report gives \"over 30%\" of cases as unidentified; the report's text read here (the NCAS edition) states no overall share of unidentified cases."
+    }
+  ]
 }

@@ -22,25 +22,34 @@
       "documents": [
         "matthew-brown-tweet-to-elon-musk"
       ]
+    },
+    {
+      "document": "matthew-brown-tweet-to-elon-musk",
+      "page": "paragraph 2",
+      "teller": "matthew-brown",
+      "quote": "Don't worry, we have not forgotten who is responsible for murdering the first sentient \"artificial\" intelligences created in the PUBLIC realm, @shellenberger. Justice is coming, thanks to @FBI and @USNavy .",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.1,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
-    "official_records": 1,
+    "firsthand": 1,
+    "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "official",
+    "strongest_kind": "firsthand",
     "tellers": [
       "matthew-brown"
     ],
@@ -48,7 +57,7 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.05,
+  "attestation": 1.5,
   "tier": "told-once",
-  "plain": "A former Pentagon official named Matthew Brown wrote a tweet to the businessman Elon Musk saying, \"we have not forgotten who is responsible for murdering the first sentient artificial intelligences created in the public realm,\" in a talk that names Sam Altman, head of an artificial intelligence company. Brown reads it out himself, and it suggests he believes some early public AI systems were truly aware and were deliberately shut down."
+  "plain": "The first sentient artificial intelligences made in public are said to have been \"murdered,\" and those responsible will face justice. The Pentagon whistleblower Matthew Brown reads this on the show from his own post on X, the social media site, of 6 June 2025, and in talking about it he names Sam Altman, head of an AI company. The post itself reads: \"we have not forgotten who is responsible for murdering the first sentient 'artificial' intelligences created in the PUBLIC realm, @shellenberger. Justice is coming, thanks to @FBI and @USNavy.\""
 }

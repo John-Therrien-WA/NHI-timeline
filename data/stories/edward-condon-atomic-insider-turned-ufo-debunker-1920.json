@@ -29,33 +29,61 @@
         "los-alamos-primer",
         "mcmahon-act-of-1946"
       ]
+    },
+    {
+      "document": "los-alamos-primer",
+      "page": "p. 1 (PDF page 3)",
+      "teller": "robert-serber",
+      "quote": "The following notes are based on a set of five lectures given by R. Serber during the first two weeks of April 1943, as an \"indoctrination course\" in connection with the starting of the Los Alamos Project. The notes were written up by E. U. Condon.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "los-alamos-primer",
+      "page": "p. 1 (PDF page 3), 1. Object",
+      "teller": "robert-serber",
+      "quote": "The object of the project is to produce a practical military weapon in the form of a bomb in which the energy is released by a fast neutron chain reaction in one or more of the materials known to show nuclear fission.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "robert-serber"
     ],
     "episodes": [
       "TH10mD9hQas"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-once",
-  "plain": "The physicist Edward Condon, who studied in the German university town of Göttingen alongside the physicist Max Born and later worked on the atomic bomb at Los Alamos with J. Robert Oppenheimer and General Leslie Groves, is said to have lost his security clearance and then, in 1966, had it mysteriously restored. Jesse Michels tells this himself, without naming a source, and says Condon was then put on a panel that dealt a death blow to UFO research by calling it a waste of time and money. Michels raises it to suggest that the man who closed the door on UFOs was a trusted atomic insider."
+  "attestation": 1.85,
+  "tier": "well-attested",
+  "plain": "Michels tells, on his own account, how the physicist Edward Condon went from insider on the atomic bomb to the man who shut down UFO research. He says Condon studied in Göttingen, Germany, under the physicist Max Born, and worked with J. Robert Oppenheimer and General Leslie Groves on the wartime bomb project. Then, Michels says, he dropped out of sight until \"he pops back up in 1966 and his clearance is mysteriously restored\", and he was put on a panel that \"deals a death blow to UFO research claiming it's all a waste of time and money\". The point is that a man trusted with nuclear secrets ended up closing the door on UFOs. A 1943 document from the bomb laboratory, the Los Alamos Primer, confirms Condon was there at the start: its notes on the physicist Robert Serber's lectures \"were written up by E. U. Condon\", and it describes the goal as \"a practical military weapon in the form of a bomb\".",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Los Alamos Primer (LA-1)",
+      "date": "1943-04",
+      "source": "https://commons.wikimedia.org/wiki/File:Los_Alamos_Primer.pdf",
+      "text": "The Primer places Condon at the start of the Los Alamos Project in April 1943, writing up Serber's lectures on the bomb; being from 1943 it cannot speak to his later clearance or his UFO study."
+    }
+  ]
 }

@@ -99,26 +99,72 @@
         "place_text": "Atlantis",
         "story_kind": "theory"
       }
+    },
+    {
+      "document": "critias",
+      "page": "Critias 108e",
+      "teller": "plato",
+      "quote": "Let me begin by observing first of all, that nine thousand was the sum of years which had elapsed since the war which was said to have taken place between those who dwelt outside the pillars of Heracles and all who dwelt within them; this war I am going to describe.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "critias",
+      "page": "Critias 111a",
+      "teller": "plato",
+      "quote": "Many great deluges have taken place during the nine thousand years, for that is the number of years which have elapsed since the time of which I am speaking;",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 23e-24a",
+      "teller": "plato",
+      "quote": "As touching your citizens of 9000 years ago, I will briefly inform you of their laws and of their most famous action; the exact particulars of the whole we will hereafter go through at our leisure in the sacred registers themselves.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 25c-d",
+      "teller": "plato",
+      "quote": "But afterwards there occurred violent earthquakes and floods; and in a single day and night of misfortune all your warlike men in a body sank into the earth, and the island of Atlantis in like manner disappeared in the depths of the sea.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "timaeus",
+      "page": "Timaeus 21b",
+      "teller": "plato",
+      "quote": "Now the day was that day of the Apaturia which is called the Registration of Youth, at which, according to custom, our parents gave prizes for recitations, and the poems of several poets were recited by us boys, and many of us sang the poems of Solon, which at that time had not gone out of fashion.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 5.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
+    "documents": 2,
     "credited_documents": 1,
     "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "plato",
       "randall-carlson"
     ],
     "episodes": [
@@ -128,7 +174,21 @@
       "JGE1NIGhBzw"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
-  "plain": "The researcher Randall Carlson points out that Plato, in his dialogues the Timaeus and the Critias, has the Greek lawmaker Solon learn in Egypt that Atlantis fell 9,000 years before his own time, around 600 BC. That puts the fall at about 9,600 BC, which Carlson says lines up with the end of the last ice age and the Younger Dryas, a sudden cold spell at the close of that ice age. Michels repeats it on several episodes, crediting Carlson and the writer Graham Hancock, and on one he says outright that Atlantis was destroyed by Meltwater Pulse 1B, a burst of flooding as the ice sheets melted, which would mean Plato's story preserves a real memory of a lost civilization."
+  "attestation": 2.5,
+  "tier": "well-attested",
+  "plain": "The ancient Greek philosopher Plato dates the sinking of Atlantis, an island said to have vanished into the sea, to 9,000 years before the Athenian lawmaker Solon heard the tale in Egypt. The researcher Randall Carlson tells Michels that Solon's visit came around 600 BC, which puts the date near 9600 BC, the end of the last ice age, and Michels, crediting Carlson and the writer Graham Hancock, goes further on later shows: he says the flood that ended the ice age, which he calls Meltwater Pulse 1B, is what drowned Atlantis. In Plato's dialogues the Timaeus and Critias, read in Benjamin Jowett's translation, an Egyptian priest tells Solon of \"your citizens of 9000 years ago\" and says that \"afterwards there occurred violent earthquakes and floods\" in which Atlantis \"disappeared in the depths of the sea,\" but the texts give no date BC and say nothing of an ice age, and in the Critias the nine thousand years run back from Critias's own day, with \"many great deluges\" along the way rather than a single flood.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Critias (translated by Benjamin Jowett)",
+      "source": "https://www.gutenberg.org/ebooks/1571",
+      "text": "In Jowett's translation of the Critias, Critias counts the nine thousand years back from his own day to the war, not from Solon's visit to Egypt, and speaks of \"many great deluges\" during those years rather than one flood."
+    },
+    {
+      "kind": "source",
+      "by": "Timaeus (translated by Benjamin Jowett)",
+      "source": "https://www.gutenberg.org/ebooks/1572",
+      "text": "In Jowett's translation of the Timaeus, the 9000 years are counted by the Egyptian priest speaking to Solon, back to the Athenians who fought Atlantis, and the earthquakes and floods that sank the island came \"afterwards\"; the text gives no date BC for Solon's visit, says nothing of an ice age, and the festival in it (the Apaturia) is where the elder Critias told the tale to the younger, generations after Solon."
+    }
+  ]
 }

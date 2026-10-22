@@ -57,6 +57,24 @@
         "from_s": 1283.0
       },
       "teller_was": "jesse-michels"
+    },
+    {
+      "document": "condon-report",
+      "page": "Section II, p. 12",
+      "teller": "edward-condon",
+      "quote": "After considering various possibilities, the AFOSR staff decided to ask the University of Colorado to undertake the project (see Preface).",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "ufos-project-blue-book-us-air-force-fact-sheet",
+      "page": "paragraph 3",
+      "teller": "us-air-force",
+      "quote": "The decision to discontinue UFO investigations was based on an evaluation of a report prepared by the University of Colorado entitled, \"Scientific Study of Unidentified Flying Objects;\" a review of the University of Colorado's report by the National Academy of Sciences; past UFO studies and Air Force experience investigating UFO reports during the 40s, '50s, and '60s.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -102,30 +120,41 @@
     }
   ],
   "tags": [],
-  "score": 2.6,
+  "score": 7.7,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
-    "official_records": 1,
+    "independent_tellers": 3,
+    "firsthand": 1,
+    "official_records": 2,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 2,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "official",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "karl-nell"
+      "edward-condon",
+      "karl-nell",
+      "us-air-force"
     ],
     "episodes": [
       "aa9Xx5wI8Rw",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 1.3,
-  "tier": "told-once",
-  "plain": "The US Air Force, which ran Project Blue Book (its UFO study of the 1950s and 60s), paid the University of Colorado for an outside study of UFOs, led by the physicist Edward Condon. A former government official named Karl Nell says Condon, who had worked on the Manhattan Project (the wartime atomic bomb effort), wrote the study's conclusion before the study was finished and bragged about it. Nell's account is played again, almost word for word, in a second episode, this time without the bragging. The point is that the study's dismissal of UFOs may have been settled in advance."
+  "attestation": 3.85,
+  "tier": "well-attested",
+  "plain": "The Air Force's UFO study of the 1950s and 60s, Project Blue Book, is said to have commissioned a University of Colorado study led by the physicist Edward Condon, a veteran of the Manhattan Project that built the atomic bomb, who wrote the study's conclusion before it was finished and bragged about it. The former official Karl Nell tells this on the show, and the same words appear again in another episode framed by the host, without the bragging. The Condon report, published on 31 October 1968, says the Air Force Office of Scientific Research asked the university to take on the project, but it says nothing about when its conclusions were written, while a 1985 Air Force fact sheet says the report was the basis for ending UFO investigations.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Scientific Study of Unidentified Flying Objects (the Condon report, 1968)",
+      "date": "1968-10-31",
+      "source": "https://files.ncas.org/condon/",
+      "text": "The report says the Air Force Office of Scientific Research asked the University of Colorado to undertake the study; it does not speak to when its conclusions were written, so the claim that Condon wrote them before the study was complete does not rest on the report."
+    }
+  ]
 }

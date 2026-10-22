@@ -23,6 +23,15 @@
       "documents": [
         "uap-disclosure-act"
       ]
+    },
+    {
+      "document": "uap-disclosure-act",
+      "page": "Sec. __10(a), S2958",
+      "teller": "chuck-schumer",
+      "quote": "(a) Exercise of Eminent Domain.--The Federal Government shall exercise eminent domain over any and all recovered technologies of unknown origin and biological evidence of non-human intelligence that may be controlled by private persons or entities in the interests of the public good.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -38,29 +47,30 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 3.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
+      "chuck-schumer",
       "matthew-pines"
     ],
     "episodes": [
       "LpLFWdsIU7M"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
-  "plain": "A 2023 proposal in the US Congress, the UAP Disclosure Act (UAP meaning unidentified anomalous phenomena, the official term for UFOs), was written to let the government take over UFO material held by private companies, using eminent domain, the government's power to take private property. A researcher named Matthew Pines explains it this way, saying the act \"explicitly targeted eminent domain right for things held in private hands,\" which would only make sense if lawmakers believed such material sits outside government hands."
+  "attestation": 1.55,
+  "tier": "well-attested",
+  "plain": "The researcher Matthew Pines tells Michels that the 2023 UAP Disclosure Act deliberately reached for eminent domain, the government's power to take private property for public use, so it could seize unusual material held by private companies. This would mean lawmakers believed such material sits in private hands. The bill Senator Chuck Schumer submitted on 13 July 2023 does say: \"The Federal Government shall exercise eminent domain over any and all recovered technologies of unknown origin and biological evidence of non-human intelligence that may be controlled by private persons or entities in the interests of the public good.\""
 }

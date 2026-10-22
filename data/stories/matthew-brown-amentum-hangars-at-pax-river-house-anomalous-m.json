@@ -42,25 +42,34 @@
         "place_text": "Naval Air Station Patuxent River, Maryland",
         "story_kind": "place-lore"
       }
+    },
+    {
+      "document": "matthew-brown-tweet-to-elon-musk",
+      "page": "paragraph 5",
+      "teller": "matthew-brown",
+      "quote": "Anyways, next time you are visiting the @WashingtonDCYRs, ask for a tour of @NASPaxRiverPAO! Since you have \"all the clearances\" it shouldn't be an issue for you to get a tour of the special project hangars owned by @amentum_corp (and other fun spaces). Make sure to look up!",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.1,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
-    "official_records": 1,
+    "firsthand": 1,
+    "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "official",
+    "strongest_kind": "firsthand",
     "tellers": [
       "matthew-brown"
     ],
@@ -69,7 +78,16 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.05,
+  "attestation": 1.5,
   "tier": "told-once",
-  "plain": "Hangars run by a contractor called Amentum at Patuxent River, a Navy air station in Maryland, are said to hold unexplained material. A researcher who goes by UAPGerb says the whistleblower Matthew Brown talked about this, while Brown's own tweet to the businessman Elon Musk says only that it \"shouldn't be an issue for you to get a tour of the special project hangers owned by Amentum Core,\" without saying outright what is inside. If true, it would put such material in private hands on a military base."
+  "plain": "Hangars at Naval Air Station Patuxent River, a Navy base in Maryland, owned by a company called Amentum are said to hold anomalous material. The online researcher UAPGerb tells Michels that the Pentagon whistleblower Matthew Brown said so, and Brown himself reads out his post on X, the social media site, of 6 June 2025, telling the businessman Elon Musk it \"shouldn't be an issue for you to get a tour of the special project hangars owned by @amentum_corp (and other fun spaces). Make sure to look up!\" The post does not say what the hangars hold; that they house anomalous material is how the tellers read it.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Matthew Brown (@SunOfAbramelin), post on X addressed to Elon Musk",
+      "date": "2025-06-06",
+      "source": "https://x.com/SunOfAbramelin/status/1930791280260550830",
+      "text": "In the post on X of 6 June 2025, Brown asks Musk to request a tour of \"the special project hangars owned by @amentum_corp (and other fun spaces)\" at Naval Air Station Patuxent River and adds \"Make sure to look up!\"; the post does not say what the hangars hold, and that they house anomalous material is the tellers' reading of it."
+    }
+  ]
 }

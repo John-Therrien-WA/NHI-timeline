@@ -26,6 +26,24 @@
       "documents": [
         "jfk-files"
       ]
+    },
+    {
+      "document": "jfk-assassination-records-2025-documents-release",
+      "page": "March 18, 2025 Release",
+      "teller": "national-archives",
+      "quote": "In accordance with President Donald Trump’s directive of March 17, 2025, all records previously withheld for classification that are part of the President John F. Kennedy Assassination Records Collection are released.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "jfk-assassination-records-2025-documents-release",
+      "page": "March 18, 2025 Release",
+      "teller": "national-archives",
+      "quote": "In an effort to maximize transparency, these records were released without redactions and some of these records contain the personal identification information of living individuals.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -36,29 +54,30 @@
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 3.3,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "official",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "national-archives"
     ],
     "episodes": [
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "In 2025 the US government released a large batch of files on the killing of President John F. Kennedy, and afterwards President Donald Trump was asked point blank who killed Kennedy. Michels says Trump did not answer and only said something like \"we released the files, we did a historic thing.\" Michels tells this himself, as a sign that the release still left the central question open."
+  "attestation": 1.65,
+  "tier": "well-attested",
+  "plain": "After the 2025 release of the files on President John F. Kennedy's assassination, President Donald Trump was asked directly who killed Kennedy. Michels says, in his own telling, that Trump answered only that they had released the files and done \"a historic thing\", as if the release were the answer. The National Archives' own notice of 18 March 2025 says that, on Trump's order of the day before, \"all records previously withheld for classification\" in the Kennedy collection were released, and \"without redactions\"."
 }

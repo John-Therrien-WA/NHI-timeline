@@ -50,6 +50,15 @@
         "place_text": "Project Blue Book, United States",
         "story_kind": "program"
       }
+    },
+    {
+      "document": "ufos-project-blue-book-us-air-force-fact-sheet",
+      "page": "paragraph 2",
+      "teller": "us-air-force",
+      "quote": "From 1947 to 1969, a total of 12, 618 sightings were reported to Project BLUE BOOK. Of these 701 remain \"Unidentified.\"",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -95,30 +104,40 @@
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 4.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "official",
     "tellers": [
-      "daniel-sheehan"
+      "daniel-sheehan",
+      "us-air-force"
     ],
     "episodes": [
       "2SQXAPCdmPE",
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "While Project Blue Book, the US Air Force's UFO study of the 1950s and 60s, told the public that sightings were swamp gas or birds, a special unit inside it was quietly looking at more than 700 real, unexplained sightings. The lawyer Dan Sheehan tells this, in one episode saying a man named Oscar Wolf told him he worked directly with Blue Book, and in another naming his source as Albert Stein, an Army clerk typist assigned to the project. If true, it would mean the public explanations were a cover while real cases were studied in secret."
+  "attestation": 2.05,
+  "tier": "well-attested",
+  "plain": "While Project Blue Book, the US Air Force's UFO study of the 1950s and 60s, told the public that sightings were swamp gas or misidentified birds, there were in fact over 700 real sightings kept apart. The lawyer Dan Sheehan tells Michels this, relaying a man who worked on Blue Book: in one episode he names him as Oscar Wolf, and in another as Albert Stein, an Army clerk typist assigned to the project, and if true it would mean the public study was a front. The Air Force's own fact sheet of January 1985 says \"a total of 12, 618 sightings were reported to Project BLUE BOOK. Of these 701 remain 'Unidentified,'\" but says nothing of a special unit for them.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "UFOs & Project Blue Book (US Air Force fact sheet)",
+      "date": "1985-01",
+      "source": "https://www.archives.gov/research/military/air-force/ufos",
+      "text": "The teller does not say which Blue Book record he means; the Air Force's fact sheet on the project gives 701 of 12,618 sightings as \"Unidentified\", and it says nothing of a special unit for them."
+    }
+  ]
 }

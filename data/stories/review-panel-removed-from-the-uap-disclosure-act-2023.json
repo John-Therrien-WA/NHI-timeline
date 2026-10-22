@@ -23,6 +23,24 @@
       "documents": [
         "uap-disclosure-act"
       ]
+    },
+    {
+      "document": "uap-disclosure-act",
+      "page": "Sec. __07(a), S2956",
+      "teller": "chuck-schumer",
+      "quote": "(a) Establishment.--There is established as an independent agency a board to be known as the ``Unidentified Anomalous Phenomena Records Review Board''.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "uap-disclosure-act",
+      "page": "Sec. __07(b)(1), S2956",
+      "teller": "chuck-schumer",
+      "quote": "(1) In general.--The President, by and with the advice and consent of the Senate, shall appoint, without regard to political affiliation, 9 citizens of the United States to serve as members of the Review Board to ensure and facilitate the review, transmission to the Archivist, and public disclosure of government records relating to unidentified anomalous phenomena.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -33,29 +51,30 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 3.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
+      "chuck-schumer",
       "ryan-graves"
     ],
     "episodes": [
       "6WC4o2yY9Ws"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
-  "plain": "A review panel meant to force the release of government UFO records was taken out of the UAP Disclosure Act, a bill proposed in Congress in 2023 to make the government open its files on UAP, its term for UFOs. A former Navy fighter pilot named Ryan Graves says this was his biggest disappointment, noting it was removed from the first version of the act. Without that panel, he suggests, the push for disclosure lost much of its teeth."
+  "attestation": 1.55,
+  "tier": "well-attested",
+  "plain": "The independent review board meant to oversee the release of UFO records was cut from the first version of the UAP Disclosure Act, says Ryan Graves, a former Navy fighter pilot, who calls it his \"biggest disappointment\" (\"UAP\" is the government's term for UFOs). The board matters because it would have pushed the records out. The bill as Senator Chuck Schumer submitted it on 13 July 2023 did create an \"Unidentified Anomalous Phenomena Records Review Board\" as an independent agency. It was to have nine citizens appointed by the President with the Senate's consent, charged with the \"public disclosure of government records relating to unidentified anomalous phenomena\"."
 }

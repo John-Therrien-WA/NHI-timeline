@@ -25,33 +25,79 @@
       "documents": [
         "project-blue-book"
       ]
+    },
+    {
+      "document": "condon-report",
+      "page": "Section III, Chapter 5, Case 15-B, pp. 196-198",
+      "teller": "gordon-d-thayer",
+      "quote": "The initial incident in this chain of UFO sightings was the sighting by a GOC (Ground Observers Corps) observer of a stationary \"red glowing light\" at 2005 LST near Blackhawk, S. Dak.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "condon-report",
+      "page": "Section III, Chapter 5, Case 15-B, pp. 196-198",
+      "teller": "gordon-d-thayer",
+      "quote": "The report was relayed to the Rapid City Filter Center, and three airmen from the radar site were sent outside to look for the UFO.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "condon-report",
+      "page": "Section III, Chapter 5, Case 15-B, p. 198",
+      "teller": "gordon-d-thayer",
+      "quote": "An F-84 fighter was vectored in to a stationary blip near Blackhawk, and the pilot \"chased\" a UFO which he found at the location on a heading of 320 ° M. without gaining on it. The F-84 was probably chasing a star, in this case Pollux (mag. 1.2) which was in the correct location (335° true azimuth, near the horizon).",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "condon-report",
+      "page": "Section III, Chapter 5, Case 15-B, p. 203",
+      "teller": "gordon-d-thayer",
+      "quote": "In summary, the Rapid City-Bismarck sightings appear to have been caused by a combination of: stars seen through an inversion layer, at least one meteor, AP echoes on a GCI radar, and possible ghost echoes on the GCI radar and malfunction of an airborne radar gunsight (although the commanding officer of the Rapid City detachment was later skeptical that there had in fact ever been even a ghost echo present on the GCI radar).",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 2.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
+    "researcher": 1,
     "host": 1,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "researcher",
     "tellers": [
+      "gordon-d-thayer",
       "jesse-michels"
     ],
     "episodes": [
       "rjUdn6FklAU"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "On August 5, 1953, a trained civilian sky-watcher called Ellsworth Air Force Base in South Dakota to report something, which led to objects being tracked on radar and chased by jets, along with lights seen over Bismarck, North Dakota. Michels tells it from the files of Project Blue Book, the US Air Force's UFO study of the 1950s and 60s, and the account of an Air Force officer named Edward J. Ruppelt, as a case where the military itself took part."
+  "attestation": 1.1,
+  "tier": "well-attested",
+  "plain": "On 5 August 1953, Michels says, a trained civilian sky-watcher reported a light near Ellsworth Air Force Base in South Dakota, setting off radar tracking, a jet chase and more lights seen over Bismarck, North Dakota; he tells it himself, crediting the files of Blue Book, the US Air Force's UFO study of the 1950s and 60s. The University of Colorado's 1968 UFO report, Scientific Study of Unidentified Flying Objects, covers the case in an analysis by the researcher Gordon D. Thayer, which says a volunteer of the Ground Observer Corps saw a stationary \"red glowing light\" near Blackhawk, South Dakota, and that the report was passed to the Rapid City filter center, not phoned in to the base, after which an F-84 fighter jet \"chased\" the object without gaining on it. Thayer concludes the pilot \"was probably chasing a star,\" and puts the whole chain of sightings down to stars seen through a layer of warm air, at least one meteor and false radar echoes.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Scientific Study of Unidentified Flying Objects (the Condon report, 1968)",
+      "date": "1968-10-31",
+      "source": "https://files.ncas.org/condon/",
+      "text": "The teller credits Project Blue Book without naming a record; the Blue Book case file is on Wikimedia Commons only as a scan and is not read here. The Condon report's analysis of the case (Case 15-B) says the Ground Observer Corps observer's report was relayed to the Rapid City Filter Center rather than called into the base, and puts the sightings down to stars seen through an inversion layer, at least one meteor and anomalous radar echoes."
+    }
+  ]
 }

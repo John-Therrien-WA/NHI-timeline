@@ -78,6 +78,15 @@
         "place_text": "Los Alamos, New Mexico; Göttingen, Germany",
         "story_kind": "program"
       }
+    },
+    {
+      "document": "los-alamos-primer",
+      "page": "p. 1 (PDF page 3)",
+      "teller": "robert-serber",
+      "quote": "The following notes are based on a set of five lectures given by R. Serber during the first two weeks of April 1943, as an \"indoctrination course\" in connection with the starting of the Los Alamos Project. The notes were written up by E. U. Condon.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -118,31 +127,41 @@
     }
   ],
   "tags": [],
-  "score": 2.2,
+  "score": 4.7,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
       "david-grusch",
-      "jesse-michels"
+      "jesse-michels",
+      "robert-serber"
     ],
     "episodes": [
       "fzvwBBSmWYA",
       "kRO5jOa06Qw"
     ]
   },
-  "attestation": 1.1,
+  "attestation": 2.35,
   "tier": "well-attested",
-  "plain": "In the 1940s, the physicist Edward Condon is said to have worked closely with leaders of the Manhattan Project, the US wartime program to build the atomic bomb. David Grusch, a former intelligence officer, says only that \"Condon was involved\". He mentions Vannevar Bush, the wartime head of US science. Jesse Michels gives more detail as his own framing. He says Condon is sometimes credited with helping J. Robert Oppenheimer, the head of the bomb project, choose Los Alamos as its site. He also says Condon helped draft the McMahon Atomic Energy Act, the law that put atomic matters under civilian control, and he mentions an early bomb-project text called the Los Alamos Primer. In a later episode Michels adds that Condon and Oppenheimer were very close, and that Condon spent time in Göttingen, Germany, with the physicist Max Born. Michels and Grusch raise it to tie Condon to the secrecy culture of the bomb project."
+  "plain": "The physicist Edward Condon, the story goes, was in the inner circle of the Manhattan Project, the US wartime programme that built the atomic bomb. David Grusch, a former intelligence official turned whistleblower, says only that \"Condon was involved\" and links him to Vannevar Bush, the government's wartime science chief. Michels goes further, on his own account. He says Condon was so close to J. Robert Oppenheimer, the physicist who led the bomb laboratory, that he is \"partly credited\" with choosing Los Alamos, New Mexico, as its site. Michels adds that Condon studied in Göttingen, Germany, under the physicist Max Born and helped draft the McMahon Act, a 1946 atomic energy law. A document backs part of this: the Los Alamos Primer, written at the laboratory in April 1943, says its notes on the physicist Robert Serber's opening lectures \"were written up by E. U. Condon.\" The Primer says nothing about who picked the site.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Los Alamos Primer (LA-1)",
+      "date": "1943-04",
+      "source": "https://commons.wikimedia.org/wiki/File:Los_Alamos_Primer.pdf",
+      "text": "The Primer records that Condon wrote up Serber's April 1943 lectures at the start of the Los Alamos Project; it says nothing of who chose Los Alamos as the site."
+    }
+  ]
 }

@@ -19,15 +19,15 @@
   "median_attestation": 0.5,
   "tiers": {
     "well-attested": 263,
-    "told-by-several": 149,
-    "told-once": 5911
+    "told-by-several": 148,
+    "told-once": 5912
   },
   "counts": {
     "stories": 6323,
     "tellings": 8759,
-    "independent_tellers": 6838,
+    "independent_tellers": 6837,
     "repetitions": 328,
-    "documents": 2336,
+    "documents": 2235,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
@@ -2582,8 +2582,8 @@
       }
     },
     "2017-release-of-three-ufo-videos-to-the-new-york-times": {
-      "attestation": 2.35,
-      "score": 4.7,
+      "attestation": 1.85,
+      "score": 3.7,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 3,
@@ -2595,7 +2595,7 @@
         "researcher": 2,
         "host": 1,
         "documents": 0,
-        "credited_documents": 7,
+        "credited_documents": 5,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -4149,7 +4149,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -6297,8 +6297,8 @@
       }
     },
     "agnew-bahnson-s-diaries-space-brothers-and-townsend-brown-1950": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -6310,7 +6310,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -6982,7 +6982,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -7856,7 +7856,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -10144,8 +10144,8 @@
       }
     },
     "angleton-may-have-pushed-mj-12-as-counterintelligence": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -10157,7 +10157,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -10958,7 +10958,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -12600,7 +12600,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -15113,8 +15113,8 @@
       }
     },
     "balls-of-light-over-hanford-plutonium-site-1945": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -15126,7 +15126,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -19964,7 +19964,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -21942,8 +21942,8 @@
       }
     },
     "branscomb-tells-condon-to-get-his-clearance-back-1966": {
-      "attestation": 1.1,
-      "score": 2.2,
+      "attestation": 0.85,
+      "score": 1.7,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -21955,7 +21955,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -22908,8 +22908,8 @@
       }
     },
     "brown-s-1953-winter-haven-proposal": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -22921,12 +22921,12 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jack",
+          "jack-missileman",
           "jesse-michels"
         ],
         "episodes": [
@@ -24560,7 +24560,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -26758,7 +26758,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "david"
+          "david-chester"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -27163,8 +27163,8 @@
       }
     },
     "chase-brandon-book-on-hillenkoetter-and-the-roswell-being-1947": {
-      "attestation": 1.75,
-      "score": 3.5,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -27176,7 +27176,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 4,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -29539,8 +29539,8 @@
       }
     },
     "cia-robertson-panel-1953": {
-      "attestation": 1.55,
-      "score": 3.1,
+      "attestation": 1.3,
+      "score": 2.6,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -29552,7 +29552,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
@@ -30582,7 +30582,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -32333,7 +32333,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -32367,8 +32367,8 @@
       }
     },
     "condon-committee-coordinated-with-air-force-1966": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -32380,7 +32380,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -32420,8 +32420,8 @@
       }
     },
     "condon-report-closes-blue-book-1968": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -32433,7 +32433,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -32448,8 +32448,8 @@
       }
     },
     "condon-s-letters-with-colonel-robert-hippler-1960": {
-      "attestation": 1.1,
-      "score": 2.2,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -32461,7 +32461,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 4,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -32505,8 +32505,8 @@
       }
     },
     "condon-wrote-the-mcmahon-secrecy-language-later-used-for-ufo-1946": {
-      "attestation": 1.35,
-      "score": 2.7,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -32518,7 +32518,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 5,
+        "credited_documents": 4,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -33916,8 +33916,8 @@
       }
     },
     "corso-s-co-author-gave-him-24-hours-to-edit-the-book-1997": {
-      "attestation": 1.25,
-      "score": 2.5,
+      "attestation": 1.0,
+      "score": 2.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -33929,7 +33929,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -35598,8 +35598,8 @@
       }
     },
     "daily-mail-cia-office-of-global-access-runs-crash-retrieval-2023": {
-      "attestation": 1.45,
-      "score": 2.9,
+      "attestation": 1.2,
+      "score": 2.4,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -35611,7 +35611,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "journalist",
@@ -36133,8 +36133,8 @@
       }
     },
     "danny-sheehan-shown-blue-book-files-and-photo-of-crashed-ufo-1977": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -36146,7 +36146,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -37579,8 +37579,8 @@
       }
     },
     "deconfliction-language-in-the-1971-treaty": {
-      "attestation": 1.1,
-      "score": 2.2,
+      "attestation": 0.85,
+      "score": 1.7,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -37592,7 +37592,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -40953,8 +40953,8 @@
       }
     },
     "donald-menzel-caught-destroying-plates-per-dorrit-hoffleit-1950": {
-      "attestation": 2.25,
-      "score": 4.5,
+      "attestation": 1.5,
+      "score": 3.0,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -40966,7 +40966,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 5,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -42313,7 +42313,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "max"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -42339,7 +42339,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -42399,8 +42399,8 @@
       }
     },
     "duell-s-diary-records-meeting-the-president-on-the-mj-12-bri-1950": {
-      "attestation": 1.1,
-      "score": 2.2,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -42412,7 +42412,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 4,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -43999,7 +43999,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "max"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -44756,7 +44756,7 @@
         "contradicted": false,
         "strongest_kind": "host",
         "tellers": [
-          "jack"
+          "jack-missileman"
         ],
         "episodes": [
           "LnAiNChnuEQ"
@@ -44764,8 +44764,8 @@
       }
     },
     "eisenhower-era-presidential-emergency-action-directives-cove-1950": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -44777,7 +44777,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -46937,8 +46937,8 @@
       }
     },
     "epstein-s-zorro-ranch-near-los-alamos-physicists-1993": {
-      "attestation": 1.25,
-      "score": 2.5,
+      "attestation": 0.75,
+      "score": 1.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -46950,7 +46950,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -47143,7 +47143,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jack"
+          "jack-missileman"
         ],
         "episodes": [
           "8TYMQOUDQBo"
@@ -47885,7 +47885,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jack"
+          "jack-missileman"
         ],
         "episodes": [
           "8TYMQOUDQBo"
@@ -48777,8 +48777,8 @@
       }
     },
     "f-e-warren-missile-outage-blamed-on-a-tic-tac-2010": {
-      "attestation": 1.25,
-      "score": 2.5,
+      "attestation": 1.0,
+      "score": 2.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -48790,7 +48790,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -49172,7 +49172,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "david"
+          "david-chester"
         ],
         "episodes": [
           "mOWwdIuyaQA"
@@ -49415,8 +49415,8 @@
       }
     },
     "fast-walkers-in-the-wikileaks-email-between-bob-fish-and-joh": {
-      "attestation": 1.1,
-      "score": 2.2,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -49428,7 +49428,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 4,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -49735,8 +49735,8 @@
       }
     },
     "fbi-document-calling-brown-the-navy-s-lead-radar-scientist-1940": {
-      "attestation": 1.6,
-      "score": 3.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -49748,7 +49748,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 6,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -54226,8 +54226,8 @@
       }
     },
     "free-edgar-mitchell-experiencer-study-humanlike-beings-and-f": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -54239,7 +54239,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 5,
+        "credited_documents": 4,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -57075,8 +57075,8 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "guest",
-          "jesse-michels"
+          "jesse-michels",
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "1f16VvXaSSE",
@@ -60333,7 +60333,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -62318,8 +62318,8 @@
       }
     },
     "grusch-gave-hundreds-of-pages-to-the-icig-2022": {
-      "attestation": 2.0,
-      "score": 4.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -62331,7 +62331,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 5,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -62847,7 +62847,7 @@
         "contradicted": false,
         "strongest_kind": "host",
         "tellers": [
-          "jack"
+          "jack-missileman"
         ],
         "episodes": [
           "LnAiNChnuEQ"
@@ -63377,7 +63377,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -63403,7 +63403,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -63455,7 +63455,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -63726,8 +63726,8 @@
       }
     },
     "haim-eshed-and-the-galactic-federation-2020": {
-      "attestation": 2.0,
-      "score": 4.0,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 3,
@@ -63739,7 +63739,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -65232,8 +65232,8 @@
       }
     },
     "harry-turner-s-1971-australian-intelligence-document-on-us-u-1952": {
-      "attestation": 3.5,
-      "score": 7.0,
+      "attestation": 2.0,
+      "score": 4.0,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 3,
@@ -65245,7 +65245,7 @@
         "researcher": 3,
         "host": 0,
         "documents": 0,
-        "credited_documents": 11,
+        "credited_documents": 5,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -66539,8 +66539,8 @@
       }
     },
     "hermann-oberth-s-1954-ufo-lecture-notes": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -66552,7 +66552,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -67851,8 +67851,8 @@
       }
     },
     "holloman-footage-debunked-as-an-f-4-1970": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -67864,7 +67864,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -68739,7 +68739,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "katie"
+          "katie-asher"
         ],
         "episodes": [
           "0qlppHc3-gg"
@@ -68791,7 +68791,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "katie"
+          "katie-asher"
         ],
         "episodes": [
           "0qlppHc3-gg"
@@ -68843,7 +68843,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "katie"
+          "katie-asher"
         ],
         "episodes": [
           "0qlppHc3-gg"
@@ -68895,7 +68895,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "katie"
+          "katie-asher"
         ],
         "episodes": [
           "0qlppHc3-gg"
@@ -69260,7 +69260,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jack"
+          "jack-missileman"
         ],
         "episodes": [
           "8TYMQOUDQBo"
@@ -71420,8 +71420,8 @@
       }
     },
     "ingo-swann-s-reports-to-scientology-on-the-oni-remote-viewin-1970": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -71433,7 +71433,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -72413,8 +72413,8 @@
       }
     },
     "invention-secrecy-act-burying-inventions-1951": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -72426,7 +72426,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -75358,8 +75358,8 @@
       }
     },
     "jeffrey-epstein-tape-with-steve-bannon-as-a-garbled-echo-of-2010": {
-      "attestation": 0.75,
-      "score": 1.5,
+      "attestation": 0.5,
+      "score": 1.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -75371,7 +75371,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -76323,8 +76323,8 @@
       }
     },
     "jfk-letter-to-cia-director-mccone-requesting-ufo-data-1963": {
-      "attestation": 2.1,
-      "score": 4.2,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -76336,7 +76336,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 7,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -82724,8 +82724,8 @@
       }
     },
     "kordylewski-clouds-and-1920s-long-delay-echoes": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -82737,7 +82737,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -82855,8 +82855,8 @@
       }
     },
     "kryptos-conundrum-an-intelligence-committee-for-timeline-man": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -82868,7 +82868,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -83144,8 +83144,8 @@
       }
     },
     "l-espresso-article-on-project-preserve-destiny-and-the-trump-2025": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -83157,7 +83157,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -86770,8 +86770,8 @@
       }
     },
     "leslie-kean-s-2017-new-york-times-ufo-story": {
-      "attestation": 5.55,
-      "score": 11.1,
+      "attestation": 4.8,
+      "score": 9.6,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 8,
@@ -86783,7 +86783,7 @@
         "researcher": 3,
         "host": 2,
         "documents": 0,
-        "credited_documents": 8,
+        "credited_documents": 5,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -87957,7 +87957,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jack"
+          "jesse-michels"
         ],
         "episodes": [
           "8TYMQOUDQBo"
@@ -89618,7 +89618,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -89644,7 +89644,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest",
+          "maaneli-derakhshani",
           "randall-carlson"
         ],
         "episodes": [
@@ -90307,8 +90307,8 @@
       }
     },
     "majestic-12-briefing-document-1952": {
-      "attestation": 1.75,
-      "score": 3.5,
+      "attestation": 1.5,
+      "score": 3.0,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -90320,7 +90320,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 4,
+        "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -94285,8 +94285,8 @@
       }
     },
     "mckinnon-on-why-he-scanned-us-military-networks-2002": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -94298,7 +94298,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -94883,7 +94883,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "jack"
+          "jack-missileman"
         ],
         "episodes": [
           "8TYMQOUDQBo"
@@ -95517,8 +95517,8 @@
       }
     },
     "menzel-s-name-in-the-majestic-12-documents-1950": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -95530,7 +95530,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -96859,7 +96859,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "michael"
+          "michael-johnson"
         ],
         "episodes": [
           "rjUdn6FklAU"
@@ -99379,8 +99379,8 @@
       }
     },
     "morgan-robertson-s-wreck-of-the-titan-foretells-the-titanic-1898": {
-      "attestation": 2.6,
-      "score": 5.2,
+      "attestation": 2.1,
+      "score": 4.2,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 3,
@@ -99392,7 +99392,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 1,
-        "credited_documents": 3,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -105679,8 +105679,8 @@
       }
     },
     "noah-rodek-s-foia-on-project-preserve-destiny-forwarded-to-t": {
-      "attestation": 1.85,
-      "score": 3.7,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -105692,7 +105692,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 7,
+        "credited_documents": 4,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -107972,8 +107972,8 @@
       }
     },
     "odlum-investment-guidance-technologies-shutdown-and-northrop-1960": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -107985,7 +107985,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -110513,7 +110513,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jack"
+          "jesse-michels"
         ],
         "episodes": [
           "8TYMQOUDQBo"
@@ -112436,7 +112436,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "max"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -114732,7 +114732,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -116179,8 +116179,8 @@
       }
     },
     "plato-s-myth-of-er": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 0.75,
+      "score": 1.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -116192,7 +116192,7 @@
         "researcher": 2,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -116287,8 +116287,8 @@
       }
     },
     "podesta-emails-and-the-delongemccaslandweiss-meeting-2015": {
-      "attestation": 2.0,
-      "score": 4.0,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 4,
@@ -116300,7 +116300,7 @@
         "researcher": 3,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -118123,7 +118123,7 @@
         "contradicted": false,
         "strongest_kind": "host",
         "tellers": [
-          "jack",
+          "jack-missileman",
           "jesse-michels"
         ],
         "episodes": [
@@ -118475,8 +118475,8 @@
       }
     },
     "project-blue-book-and-the-condon-study-1950": {
-      "attestation": 1.55,
-      "score": 3.1,
+      "attestation": 1.3,
+      "score": 2.6,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -118488,7 +118488,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
@@ -118814,8 +118814,8 @@
       }
     },
     "project-sign-estimate-burned-by-vandenberg-1948": {
-      "attestation": 1.65,
-      "score": 3.3,
+      "attestation": 1.4,
+      "score": 2.8,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -118827,7 +118827,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
@@ -120539,7 +120539,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -120773,7 +120773,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "guest"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -124035,8 +124035,8 @@
       }
     },
     "release-of-the-mj-12-documents-1984": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -124048,7 +124048,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -126142,8 +126142,8 @@
       }
     },
     "richard-hoagland-s-dark-mission-2007": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -126155,7 +126155,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -127798,8 +127798,8 @@
       }
     },
     "roger-leir-s-tapes-and-book-doctors-telepathy-with-the-vargi-1996": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 0.75,
+      "score": 1.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -127811,7 +127811,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -129836,8 +129836,8 @@
       }
     },
     "ruppelt-in-look-magazine-on-sightings-at-atomic-sites-1952": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 0.35,
+      "score": 0.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -129849,7 +129849,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -131756,8 +131756,8 @@
       }
     },
     "sarbacher-s-letter-to-william-steinman-1980": {
-      "attestation": 1.85,
-      "score": 3.7,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -131769,7 +131769,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 6,
+        "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -132628,8 +132628,8 @@
       }
     },
     "schumer-s-64-page-uap-amendment-2023": {
-      "attestation": 3.4,
-      "score": 6.8,
+      "attestation": 2.65,
+      "score": 5.3,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 6,
@@ -132641,7 +132641,7 @@
         "researcher": 3,
         "host": 1,
         "documents": 0,
-        "credited_documents": 5,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
@@ -135818,7 +135818,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael"
+          "michael-johnson"
         ],
         "episodes": [
           "rjUdn6FklAU"
@@ -136842,7 +136842,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael"
+          "michael-cinematographer"
         ],
         "episodes": [
           "0qlppHc3-gg"
@@ -138495,8 +138495,8 @@
       }
     },
     "space-act-of-1958-ties-nasa-to-dod-and-allows-withholding": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -138508,7 +138508,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -142042,17 +142042,17 @@
       }
     },
     "sts-48-and-sts-80-shuttle-uap-videos-1991": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-by-several",
+      "attestation": 0.25,
+      "score": 0.5,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 1,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
+        "researcher": 1,
         "host": 0,
         "documents": 0,
         "credited_documents": 0,
@@ -142060,8 +142060,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "maaneli-derakhshani",
-          "max"
+          "maaneli-derakhshani"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -153603,7 +153602,7 @@
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael"
+          "michael-johnson"
         ],
         "episodes": [
           "rjUdn6FklAU"
@@ -154612,8 +154611,8 @@
       }
     },
     "twining-memo-and-its-postscript-on-independent-programs-1947": {
-      "attestation": 2.15,
-      "score": 4.3,
+      "attestation": 1.9,
+      "score": 3.8,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 4,
@@ -154625,7 +154624,7 @@
         "researcher": 2,
         "host": 1,
         "documents": 1,
-        "credited_documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
@@ -156399,8 +156398,8 @@
       }
     },
     "ufo-tracking-a-soviet-boomer-submarine-found-by-pat-price-1970": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -156412,7 +156411,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -158206,7 +158205,7 @@
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
-          "jack",
+          "jesse-michels",
           "joe-rogan"
         ],
         "episodes": [
@@ -158398,8 +158397,8 @@
       }
     },
     "us-soviet-agreement-to-report-ufos-affecting-early-warning": {
-      "attestation": 2.6,
-      "score": 5.2,
+      "attestation": 2.35,
+      "score": 4.7,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 3,
@@ -158411,7 +158410,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
@@ -159686,8 +159685,8 @@
       }
     },
     "vallee-shows-pasulka-the-history-of-satan-book-2010": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -159699,7 +159698,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -161038,8 +161037,8 @@
       }
     },
     "villarroel-s-palomar-transients-1949": {
-      "attestation": 0.75,
-      "score": 1.5,
+      "attestation": 0.5,
+      "score": 1.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -161051,7 +161050,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -162392,8 +162391,8 @@
       }
     },
     "wall-street-journal-emp-explanation-for-malmstrom-1967": {
-      "attestation": 1.35,
-      "score": 2.7,
+      "attestation": 0.85,
+      "score": 1.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -162405,7 +162404,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "journalist",
@@ -162504,8 +162503,8 @@
       }
     },
     "walter-b-smith-1953-letter-on-using-the-phenomenon-for-psych": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 0.6,
+      "score": 1.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -162517,7 +162516,7 @@
         "researcher": 0,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "host",
@@ -164432,8 +164431,8 @@
       }
     },
     "wilbert-smith-s-1950-canadian-memo": {
-      "attestation": 1.25,
-      "score": 2.5,
+      "attestation": 1.0,
+      "score": 2.0,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -164445,7 +164444,7 @@
         "researcher": 2,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -164804,8 +164803,8 @@
       }
     },
     "william-stephenson-telegram-about-townsend-brown-s-mission-i-1945": {
-      "attestation": 1.75,
-      "score": 3.5,
+      "attestation": 1.25,
+      "score": 2.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -164817,7 +164816,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 4,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
@@ -164912,8 +164911,8 @@
       }
     },
     "wilson-memo-on-a-private-aerospace-reverse-engineering-progr-1997": {
-      "attestation": 2.25,
-      "score": 4.5,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -164925,7 +164924,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 1,
         "repetitions": 3,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -166128,8 +166127,8 @@
       }
     },
     "wsj-claim-that-air-force-hazing-rituals-explain-ufo-mytholog-2025": {
-      "attestation": 1.1,
-      "score": 2.2,
+      "attestation": 0.85,
+      "score": 1.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -166141,7 +166140,7 @@
         "researcher": 0,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "journalist",
@@ -166541,7 +166540,7 @@
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
-          "jack",
+          "jack-missileman",
           "joe-rogan"
         ],
         "episodes": [

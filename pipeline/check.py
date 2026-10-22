@@ -1271,6 +1271,52 @@ def person_fold_refusal_problems() -> list[str]:
     return out
 
 
+def explain_answer_problems() -> list[str]:
+    """`explain.Asker` with a fake model: an answered id that spells out the asked id's truncated last
+    word (`...-by-entities-2026` for `...-by-entiti-2026`), or that drops its `-<year>` suffix, is saved
+    under the asked id; an id two asked ids begin, or that none does, is refused and the group asked
+    once more with a note, and a second refusal stops the run."""
+    from . import explain
+    out = []
+    asked = ["bledsoe-prophecy-of-missiles-stopped-by-entiti-2026", "a-bone-on-mars-in-a-jpl-negative",
+             "navy-pilots-describe-a-tic-tac-off-san-diego-2004"]
+    good = {"tellings": [{"id": "bledsoe-prophecy-of-missiles-stopped-by-entities-2026", "plain": "One."},
+                         {"id": "a-bone-on-mars-in-a-jpl-negative", "plain": "Two."},
+                         {"id": "navy-pilots-describe-a-tic-tac-off-san-diego", "plain": "Three."}]}
+    got = explain.validate(good, asked)
+    if got != {asked[0]: "One.", asked[1]: "Two.", asked[2]: "Three."}:
+        out.append(f"expect: a spelled-out or suffix-dropped id must map back to the asked id, got {got}")
+    for bad, why in [("bledsoe-prophecy-of-missiles-stopped-by-entities-2025", "another year"),
+                     ("a-bone-on-mars", "a shorter id"),
+                     ("the-vault-beneath-mount-fictus-1971", "an id none asked begins")]:
+        try:
+            explain.validate({"tellings": [{"id": bad, "plain": "x"}] + good["tellings"][1:]}, asked)
+            out.append(f"expect: explain.validate accepted {bad!r} ({why})")
+        except ValueError:
+            pass
+    two = ["hill-abduction-in-new-hampshire-1961", "hill-abduction-in-new-hampshire-1961-2"]
+    try:
+        explain.validate({"tellings": [{"id": "hill-abduction-in-new-hampshire-1961-20", "plain": "x"}]}, two)
+        out.append("expect: explain.validate accepted an id two asked ids begin")
+    except ValueError:
+        pass
+    prompts: list[str] = []
+
+    def fake(prompt, schema, **kw):
+        prompts.append(prompt)
+        return {"tellings": [{"id": "no-such-story", "plain": "x"}]}
+
+    asker = explain.Asker(Root(REPO), "fake", 1, None, complete=fake)
+    try:
+        asker.ask("", asked)
+        out.append("expect: a group refused twice must stop the explain run")
+    except SystemExit:
+        pass
+    if len(prompts) != 2 or "previous answer was refused" not in prompts[1] or "letter for letter" not in prompts[1]:
+        out.append(f"expect: a refused explain answer must be asked once more with a note (prompts {len(prompts)})")
+    return out
+
+
 def explain_shard_problems(root: Root) -> list[str]:
     """On a copy of the explained root with the stage's tellings removed, `explain --shard 1/2` then
     `--shard 2/2` (groups of two) explain disjoint halves of the ordered list, every other story
@@ -1443,6 +1489,7 @@ def run_fixture() -> list[str]:
     out += retired_summary_problems(root)
     out += stale_build_problems(root)
     out += explain_shard_problems(root)
+    out += explain_answer_problems()
     out += fixture_readme_problems()
     if out:
         print(f"check: fixture chain left in {tmp} for inspection", file=sys.stderr)

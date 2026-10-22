@@ -13,6 +13,6 @@ Rules for every telling:
 - Length follows the tier given with each story: `told-once` two to three sentences; `told-by-several` three to five sentences; `well-attested` a short paragraph of five to eight sentences that also says, in a sentence, who else tells it and how (a witness, an official record, a journalist, a host repeating others).
 - When a telling is marked "told differently", that is where the tellers disagree; a well-attested telling may mention the disagreement in a clause.
 
-Answer as JSON: an object with one key, `tellings`, a list with exactly one object `{ "id", "plain" }` for every story below, in any order, each `id` copied exactly from the story's tag and each `plain` the telling as one string.
+Answer as JSON: an object with one key, `tellings`, a list with exactly one object `{ "id", "plain" }` for every story below, in any order, each `id` copied exactly from the story's tag, letter for letter, even where the tag ends mid-word (an id is a slug cut at a fixed length: `...-stopped-by-entiti-2026` stays `...-stopped-by-entiti-2026`), and each `plain` the telling as one string.
 
 {stories}

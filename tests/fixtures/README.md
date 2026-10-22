@@ -139,7 +139,10 @@ and leave the short id and the distinct names alone.
 chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:
 "hand"` and is in no answer: the chain must never ask for it or change it. Every story in
 site/data.json must carry the `plain` the file gives it, or its own hand-written one, and a second
-explain run must ask nothing. `check.explain_shard_problems` proves `explain --shard`: on a copy with
+explain run must ask nothing. `check.explain_answer_problems` proves, with a fake model, that an answered id that spells out the asked
+id's truncated last word or drops its `-<year>` suffix is saved under the asked id, that an id none or two
+asked ids begin is refused and asked once more with a note, and that a second refusal stops the run.
+`check.explain_shard_problems` proves `explain --shard`: on a copy with
 the stage's plain tellings removed, `--shard 1/2` then `--shard 2/2` in groups of two explain the
 untold stories among every other one of the ordered list, from the first and from the second, the
 two sets disjoint and together giving every story the telling the full run gave it, and a malformed

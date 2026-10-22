@@ -13,7 +13,8 @@ by name and kind, the show and date or the document and its locator, the quote, 
 cites, the difference where the tellers disagree) and the story's `source` notes (what a source
 itself says against the tellers, from `pipeline.sources`). The answer is `{ "tellings": [ { "id", "plain" } ] }` and must name every id of
 the group once and no other; a refused answer is asked once more with a note, a second refusal stops
-the run. Em dashes in an answer become commas. Every story file of a group is saved as soon as the
+the run; an answered id that spells out an asked id's truncated last word or drops its `-<year>`
+suffix is mapped back to the asked id when exactly one fits. Em dashes in an answer become commas. Every story file of a group is saved as soon as the
 group is answered, so a killed run resumes at the first story without `plain`. A story with `plain`
 is skipped unless --force; a story with `plain_by: "hand"` (written or edited by a person) is never
 touched. The stories named on the command line, or --all, are the run's set; --all with nothing
@@ -155,6 +156,29 @@ def story_text(s: dict, stories: dict, people: dict, episodes: dict, documents: 
     return "\n".join(lines)
 
 
+def split_suffix(sid: str) -> tuple[str, str | None]:
+    """A slug and its trailing `-<digits>` (a year or a number), None when it has none."""
+    m = re.fullmatch(r"(.*)-(\d+)", sid)
+    return (m.group(1), m.group(2)) if m else (sid, None)
+
+
+def asked_id(sid: str, ids: list[str]) -> str:
+    """The one asked id an answered id stands for. A story id is a slug cut at 60 letters, so it can end
+    mid-word (`...-stopped-by-entiti-2026`), and the model spells the word out now and then
+    (`...-stopped-by-entities-2026`) or drops the `-<year>` suffix: an answered id whose stem the asked
+    id's stem begins and whose suffix is the asked id's or none is that asked id, when it is the only
+    one. Anything else is refused."""
+    stem, suffix = split_suffix(sid)
+    found = []
+    for i in ids:
+        i_stem, i_suffix = split_suffix(i)
+        if stem.startswith(i_stem) and suffix in (i_suffix, None):
+            found.append(i)
+    if len(found) != 1:
+        raise ValueError(f"{sid!r} is not one of the stories asked about ({ids})")
+    return found[0]
+
+
 def validate(ans, ids: list[str]) -> dict[str, str]:
     """{id: plain} for exactly the ids asked, each plain a non-empty string with em dashes made commas."""
     if not isinstance(ans, dict) or set(ans) != {"tellings"} or not isinstance(ans["tellings"], list):
@@ -165,12 +189,7 @@ def validate(ans, ids: list[str]) -> dict[str, str]:
             raise ValueError(f"a telling must have exactly id and plain: {str(item)[:200]}")
         sid, plain = item["id"], item["plain"]
         if sid not in ids:
-            # the model drops a numbered or year suffix now and then: an id that is one group id
-            # with its last `-<digits>` removed, and nothing else's, is that id
-            prefixed = [i for i in ids if re.fullmatch(re.escape(sid) + r"-\d+", i)]
-            if len(prefixed) != 1:
-                raise ValueError(f"{sid!r} is not one of the stories asked about ({ids})")
-            sid = prefixed[0]
+            sid = asked_id(sid, ids)
         if sid in out:
             raise ValueError(f"{sid!r} is answered twice")
         if not isinstance(plain, str) or not plain.strip():
@@ -184,7 +203,7 @@ def validate(ans, ids: list[str]) -> dict[str, str]:
 
 def retry_note(error: Exception) -> str:
     return (f"\n\nYour previous answer was refused: {error}. Answer again with exactly one telling for every story "
-            "above, its id copied from the story's tag, and no other.")
+            "above, its id copied letter for letter from the story's tag (even where it ends mid-word), and no other.")
 
 
 class Asker:

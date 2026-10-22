@@ -30,7 +30,8 @@ text file under sources/documents, its quote a verbatim substring of it (inside 
 `page` names when the file holds passages), every document's `status` and `text_url` are well
 formed and every text file there is a document's and in its format: a full text only for a
 public-domain document with a text_url, [locator] passages for every other (`sources.problems`).
-The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. Prints every problem, naming the
+The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. When site/data.json exists, every story in it
+carries exactly the keys build writes (`build.STORY_KEYS`), so a stale build fails until build runs. Prints every problem, naming the
 story and the entry, and exits 1 when there is one. Then it lists, as warnings that never fail the
 check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
 other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
@@ -66,6 +67,11 @@ lifts a speaker whose own telling is second-hand; and which person ids the near-
 For the person fold: the members absent, the canonical's name and aliases in its file and in
 site/data.json, the cites of a telling whose self-cite the fold dropped, and on a tiny root of its own
 every refusal named before anything is written, a new canonical created and a headshot moved.
+A story that still carries the retired `summary` field is refused by name, and so is a built story in
+site/data.json whose keys are not build.STORY_KEYS. On a copy with the stage's
+plain tellings removed, `explain --shard 1/2` and `--shard 2/2` explain disjoint halves of the ordered list
+that together match the full run, and a malformed shard is refused. Every `*_problems` case
+run_fixture or expectations calls must be named in tests/fixtures/README.md.
 For the sources stage: the documents,
 text files, tellings, source notes and images manifest under `sources`, the lines explain sends
 the model, and on a copy of the root the passages path, the slug rule and every refusal
@@ -85,6 +91,7 @@ from unittest import mock
 import json
 
 from . import clips, images, sources
+from .build import STORY_KEYS
 from . import people as people_stage
 from .common import (DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
@@ -168,6 +175,21 @@ def notes_problems(root: Root, stories: dict, owner: dict[str, str]) -> list[str
     return out
 
 
+def built_story_problems(root: Root) -> list[str]:
+    """When site/data.json exists, every story in it carries exactly the keys build writes (build.STORY_KEYS),
+    so a stale build (one still carrying a retired field) fails check until build runs again."""
+    f = root.site / "data.json"
+    if not f.exists():
+        return []
+    out = []
+    for s in load_json(f).get("stories", []):
+        if set(s) != STORY_KEYS:
+            extra, missing = sorted(set(s) - STORY_KEYS), sorted(STORY_KEYS - set(s))
+            out.append(f"site/data.json story {s.get('id')}: keys out of step with build"
+                       + (f", extra {extra}" if extra else "") + (f", missing {missing}" if missing else "") + ": run pipeline.build")
+    return out
+
+
 def problems(root: Root) -> list[str]:
     out: list[str] = []
     try:
@@ -230,9 +252,11 @@ def problems(root: Root) -> list[str]:
     out += alias_problems(aliases, people, named)
     for sid, s in sorted(stories.items()):
         where = f"story {sid}"
-        for key in ("id", "title", "summary", "tellings", "related"):
+        for key in ("id", "title", "tellings", "related"):
             if key not in s:
                 out.append(f"{where}: missing {key}")
+        if "summary" in s:
+            out.append(f"{where}: carries the retired field summary (the page shows plain; strip the key from the story file)")
         if not s.get("tellings"):
             out.append(f"{where}: no telling (a story without a quote is a note, not a story)")
         if s.get("era") is not None and s["era"] not in era_ids:
@@ -314,6 +338,7 @@ def problems(root: Root) -> list[str]:
     out += person_fold_problems(root, stories, people, episodes, clip_groups, aliases)
     out += sources.problems(root, stories, documents)
     out += page_kinds_problems()
+    out += built_story_problems(root)
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
             out.append(f"episode {eid}: captions file {e['captions']} is missing")
@@ -728,7 +753,7 @@ def link_group_problems() -> list[str]:
         root = Root(tmp)
         root.stories.mkdir(parents=True)
         root.candidates.mkdir(parents=True)
-        vault = {"id": "a-vault-1971", "title": "A vault under Mount Fictus", "summary": "", "years": {"from": 1971, "to": 1971},
+        vault = {"id": "a-vault-1971", "title": "A vault under Mount Fictus", "years": {"from": 1971, "to": 1971},
                  "place_text": "Mount Fictus", "kind": "program", "related": [],
                  "tellings": [{"episode": "G0", "from_s": 1, "teller": "cy-fixture", "quote": "We dug a vault under the mountain.",
                                "kind": "firsthand", "cites": [], "documents": []}]}
@@ -1181,7 +1206,7 @@ def person_fold_refusal_problems() -> list[str]:
         headshot("ivo-fixtor", 1, "https://example.org/ivo-1.png")
         headshot("ivo-fixtor", 2, "https://example.org/ivo-2.png")
         tell = {"episode": "E", "from_s": 1, "teller": "ivo-fixtur", "quote": "q", "kind": "firsthand", "cites": ["ivo-fixtor", "jo-fixture"]}
-        save_json(root.stories / "s.json", {"id": "s", "title": "t", "summary": "", "tellings": [tell], "related": []})
+        save_json(root.stories / "s.json", {"id": "s", "title": "t", "tellings": [tell], "related": []})
         save_json(root.data / "person-aliases.json", {"Ivo Fixxtur": "ivo-fixtur"})
         good = {"canonical": "ivo-fixture", "name": "Ivo Fixture", "members": ["ivo-fixtur", "ivo-fixtor", "x-fixture"], "reason": "r"}
 
@@ -1244,6 +1269,94 @@ def person_fold_refusal_problems() -> list[str]:
     finally:
         shutil.rmtree(tmp)
     return out
+
+
+def explain_shard_problems(root: Root) -> list[str]:
+    """On a copy of the explained root with the stage's tellings removed, `explain --shard 1/2` then
+    `--shard 2/2` (groups of two) explain disjoint halves of the ordered list, every other story
+    each, and together give every story the telling the full run gave it."""
+    from . import explain
+    tmp = Path(tempfile.mkdtemp(prefix="nhi-explain-shard-"))
+    out: list[str] = []
+    try:
+        shutil.copytree(root.path, tmp, dirs_exist_ok=True)
+        copy = Root(tmp)
+        full = copy.load_dir(copy.stories)
+        for sid, s in full.items():
+            if s.get("plain_by") != "hand":
+                save_json(copy.stories / f"{sid}.json", {k: v for k, v in s.items() if k != "plain"})
+        stripped = copy.load_dir(copy.stories)
+        order = explain.ordered(stripped, None)
+        told = set(explain.todo(stripped, None, False))
+        if len(told) < 3:
+            return [f"expect: the shard case needs three stories to explain, the fixture has {len(told)}"]
+        done: list[set[str]] = []
+        for i in (1, 2):
+            before = {sid for sid, s in copy.load_dir(copy.stories).items() if s.get("plain")}
+            explain.run(copy, explain.Asker(copy, "fixture", 1, tmp / "explain.json"), force=False, size=2, shard=(i, 2))
+            after = {sid for sid, s in copy.load_dir(copy.stories).items() if s.get("plain")}
+            done.append(after - before)
+            want = set(explain.shard_of(order, (i, 2))) & told
+            if done[-1] != want:
+                out.append(f"expect: explain --shard {i}/2 explained {sorted(done[-1])}, not the untold stories among every "
+                           f"other one of the ordered list from the {i}th {sorted(want)}")
+        if done[0] & done[1]:
+            out.append(f"expect: explain --shard 1/2 and 2/2 both explained {sorted(done[0] & done[1])}")
+        got = copy.load_dir(copy.stories)
+        for sid, s in full.items():
+            if got[sid].get("plain") != s.get("plain"):
+                out.append(f"expect: after explain --shard 1/2 and 2/2, story {sid}'s plain differs from the full run's")
+        for bad in ("0/2", "3/2", "1", "a/b"):
+            try:
+                explain.parse_shard(bad)
+                out.append(f"expect: explain --shard {bad} was accepted")
+            except SystemExit:
+                pass
+        return out
+    finally:
+        shutil.rmtree(tmp)
+
+
+def retired_summary_problems(root: Root) -> list[str]:
+    """A story that still carries the retired `summary` field is refused by name; the file is restored after."""
+    f = sorted(root.stories.glob("*.json"))[0]
+    kept = f.read_text(encoding="utf-8")
+    s = load_json(f)
+    save_json(f, {**s, "summary": "an insider line"})
+    try:
+        want = f"story {s['id']}: carries the retired field summary"
+        if not any(x.startswith(want) for x in problems(root)):
+            return [f"expect: check does not refuse story {s['id']} carrying summary"]
+        return []
+    finally:
+        f.write_text(kept, encoding="utf-8")
+
+
+def stale_build_problems(root: Root) -> list[str]:
+    """A built story in site/data.json carrying `summary` is refused as a stale build; the file is restored after."""
+    f = root.site / "data.json"
+    kept = f.read_text(encoding="utf-8")
+    data = json.loads(kept)
+    sid = data["stories"][0]["id"]
+    data["stories"][0]["summary"] = "an insider line"
+    f.write_text(json.dumps(data), encoding="utf-8")
+    try:
+        want = f"site/data.json story {sid}: keys out of step with build, extra ['summary']"
+        if not any(x.startswith(want) for x in built_story_problems(root)):
+            return [f"expect: check does not refuse the stale built story {sid} carrying summary"]
+        return []
+    finally:
+        f.write_text(kept, encoding="utf-8")
+
+
+def fixture_readme_problems() -> list[str]:
+    """Every `*_problems` case run_fixture or expectations calls is named in tests/fixtures/README.md, which says
+    what each proves."""
+    import inspect
+    readme = (FIXTURES / "README.md").read_text(encoding="utf-8")
+    called = sorted(set(re.findall(r"\b(\w+_problems)\(", inspect.getsource(run_fixture) + inspect.getsource(expectations))))
+    return [f"tests/fixtures/README.md does not name {name}, a case the fixture chain calls" for name in called
+            if name != "fixture_readme_problems" and name not in readme]
 
 
 def snapshot(d: Path) -> dict[str, str]:
@@ -1327,6 +1440,10 @@ def run_fixture() -> list[str]:
         out.append(f"the chain is not idempotent: a second run of link, merge, clips, sources, people, score and explain changed {changed}")
     if any(v for k, v in stats.items()):
         out.append(f"merge is not idempotent: a second run reported {stats}")
+    out += retired_summary_problems(root)
+    out += stale_build_problems(root)
+    out += explain_shard_problems(root)
+    out += fixture_readme_problems()
     if out:
         print(f"check: fixture chain left in {tmp} for inspection", file=sys.stderr)
     else:

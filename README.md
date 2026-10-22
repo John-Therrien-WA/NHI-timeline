@@ -30,6 +30,10 @@ open site/index.html                                    # the 3D page from disk 
 cd site && python3 -m http.server 8000                  # or over http (reads site/data.json): http://127.0.0.1:8000/
 ```
 
+A long explain run splits into n background runs side by side, `explain --all --shard 1/4` to
+`--shard 4/4`: each takes every fourth story of the ordered list from its own start, so together they
+cover the list once over disjoint sets.
+
 The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr and no
 build step: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
 check, the score recomputed at the reader's institutional trust and the tiers; `cards.js` the picture
@@ -46,7 +50,7 @@ two fingers move along time in the corridor and pinch the globe. A link may carr
 `window.NHI_DATA`, or JSON over http), for a test copy. The plain tellings come in a second file the
 page loads after its first draw, from the data file's folder: `plain.json` over http, `plain.js`
 (`window.NHI_PLAIN`) from disk or beside a `.js` data file; until it arrives the panel shows the
-summary alone. At load the page recomputes every attestation
+story without its plain telling. At load the page recomputes every attestation
 and score from the profiles and refuses to draw when they differ from the stored values. Published as an artifact with the `db` capability,
 the notes box saves to the collection `notes`; anywhere else it copies the note as text.
 

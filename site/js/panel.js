@@ -1,6 +1,6 @@
 /* The story panel: what is told, by whom, where to hear it, how well it is attested at the reader's
    institutional trust, what it is linked to, the back and forth about it, and a box for notes.
-   A story's photographs (objects and places) sit under the summary; a teller's headshot sits only
+   A story's photographs (objects and places) sit under the plain telling; a teller's headshot sits only
    beside that teller's own tellings, never as the story's picture.
    NHI.panel(C) returns { render(sid) }. */
 (function () {
@@ -165,10 +165,6 @@
       body.appendChild(tag);
       body.appendChild(el("h2", null, s.title));
       if (s.plain) body.appendChild(el("p", { class: "plain" }, s.plain));
-      if (s.summary) {
-        if (s.plain) body.appendChild(el("h3", null, "In the corpus"));
-        body.appendChild(el("p", { class: "summary" }, s.summary));
-      }
       if ((s.images || []).length) body.appendChild(imageStrip(s));
       const dl = el("dl");
       const era = s.era ? M.eraById[s.era].era : null;

@@ -26,6 +26,42 @@
       "documents": [
         "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol"
       ]
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "Kirkpatrick’s team dug into the story and discovered a terrestrial explanation.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "To test this vulnerability, the Air Force developed an exotic electromagnetic generator that simulated this pulse of disruptive energy without the need to detonate a nuclear weapon.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "When activated, this device, placed on a portable platform 60 feet above the facility, would gather power until it glowed, sometimes with a blinding orange light.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "The electromagnetic pulses snaked down cables connected to the bunker where launch commanders like Salas sat, disrupting the guidance systems, disabling the weapons and haunting the men to this day.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -51,29 +87,39 @@
     }
   ],
   "tags": [],
-  "score": 2.5,
+  "score": 4.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "joel-schectman",
       "robert-salas"
     ],
     "episodes": [
       "-0g3lLGxNfc"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
-  "plain": "In 2025, a Pentagon office set up to look into unexplained aerial sightings, known as AARO, is said to have told the Wall Street Journal reporter Joel Schectman that a shutdown of nuclear missiles had been some kind of EMP test. An EMP is an electromagnetic pulse, a burst of energy that can knock out electronics. The story comes from Robert Salas, a former Air Force officer who says he was there when the missiles went down, and he tells it to explain where the newspaper's account of that shutdown came from."
+  "attestation": 2.1,
+  "tier": "well-attested",
+  "plain": "Robert Salas, the former Air Force launch officer who says a UFO shut down his nuclear missiles in 1967, tells Michels that AARO, the Pentagon office that now investigates UFO reports, told the Wall Street Journal reporter Joel Schectman the shutdown was really a test of an electromagnetic pulse, a burst of energy that can knock out electronics. Schectman's article of 6 June 2025 says \"Kirkpatrick's team,\" AARO under its head Sean Kirkpatrick, \"dug into the story and discovered a terrestrial explanation\": an Air Force pulse generator on a platform 60 feet above the site that \"would gather power until it glowed, sometimes with a blinding orange light,\" its pulses \"disrupting the guidance systems.\" The article says it rests on interviews with two dozen current and former officials, scientists and contractors, so that AARO as an office is the one that told the paper is Salas's reading of the reporters' sources, which the text neither names nor rules out.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Pentagon Disinformation That Fueled America's UFO Mythology (The Wall Street Journal, 2025)",
+      "date": "2025-06-06",
+      "source": "https://www.wsj.com/politics/national-security/ufo-us-disinformation-45376f7e",
+      "text": "The article reports the EMP test as what \"Kirkpatrick’s team dug into\" and found, AARO under Sean Kirkpatrick, and says its account rests on \"interviews with two dozen current and former U.S. officials, scientists and military contractors involved in the inquiry\"; the Defense Department statement it quotes, from spokeswoman Sue Gough, is about fake classified program materials, not the missile shutdown. That AARO as an office told the Journal of the EMP test is the teller's reading of the reporters' sources, which the text neither names nor excludes."
+    }
+  ]
 }

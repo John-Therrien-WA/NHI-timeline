@@ -50,6 +50,51 @@
         "place_text": "United States Air Force",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "opening section",
+      "teller": "joel-schectman",
+      "quote": "And one long-running practice was more like a fraternity hazing ritual that spun wildly out of control.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section 'Stupid enough'",
+      "teller": "joel-schectman",
+      "quote": "It turned out the witnesses had been victims of a bizarre hazing ritual.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section 'Stupid enough'",
+      "teller": "joel-schectman",
+      "quote": "For decades, certain new commanders of the Air Force’s most classified programs, as part of their induction briefings, would be handed a piece of paper with a photo of what looked like a flying saucer.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section 'Stupid enough'",
+      "teller": "joel-schectman",
+      "quote": "The officers were told that the program they were joining, dubbed Yankee Blue, was part of an effort to reverse-engineer the technology on the craft.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section 'Stupid enough'",
+      "teller": "joel-schectman",
+      "quote": "Could this be the basis for the persistent belief that the U.S. has an alien program that we’ve concealed from the American people? Haines wanted to know, according to people familiar with the matter.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -65,30 +110,40 @@
     }
   ],
   "tags": [],
-  "score": 1.7,
+  "score": 3.4,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 1,
+    "journalist": 2,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "journalist",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "joel-schectman"
     ],
     "episodes": [
       "JE1oM89dpBc",
       "h0hAit-KH9A"
     ]
   },
-  "attestation": 0.85,
-  "tier": "told-once",
-  "plain": "A 2025 Wall Street Journal article titled \"The Pentagon Disinformation That Fueled America's UFO Mythology\", by the reporter Joel Schectman, claims that hazing rituals inside the US Air Force explain much of America's widespread UFO lore. Michels walks through that claim on the show, calling it the article's \"second claim\". In a later episode he says, without naming the reporter, that the article actually makes him optimistic, because he finds the hazing explanation \"really interesting\"."
+  "attestation": 1.7,
+  "tier": "well-attested",
+  "plain": "Michels says a Wall Street Journal article by Joel Schectman, \"The Pentagon Disinformation That Fueled America's UFO Mythology\", published on 6 June 2025, claims that an Air Force hazing ritual explains widespread UFO mythology, and on a later episode he says the article oddly makes him optimistic. The article says that \"for decades\" some new commanders of the Air Force's most secret programs were handed \"a photo of what looked like a flying saucer\" and told their program, \"dubbed Yankee Blue\", was working to reverse-engineer it, meaning to take the craft's technology apart and copy it, and that the witnesses \"had been victims of a bizarre hazing ritual\". But it calls this \"one long-running practice\" among several it lists, and it puts the wider point, whether this is \"the basis for the persistent belief that the U.S. has an alien program\", only as a question it says Avril Haines asked, so reading it as an explanation of all UFO lore is Michels's reading of the article's scope.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Pentagon Disinformation That Fueled America's UFO Mythology (The Wall Street Journal, 2025)",
+      "date": "2025-06-06",
+      "source": "https://www.wsj.com/politics/national-security/ufo-us-disinformation-45376f7e",
+      "text": "In the article the Yankee Blue induction briefings are \"one long-running practice\" among several it names (false documents spread around Area 51, myths allowed to take root to hide weak points at nuclear sites, a purported piece of space metal), and they explain the accounts of officers who were \"victims of a bizarre hazing ritual\"; whether they are \"the basis for the persistent belief that the U.S. has an alien program\" is put as a question Avril Haines asked. The step from one practice behind some witnesses' accounts to an explanation of UFO mythology at large is the tellers' reading of the article's scope."
+    }
+  ]
 }

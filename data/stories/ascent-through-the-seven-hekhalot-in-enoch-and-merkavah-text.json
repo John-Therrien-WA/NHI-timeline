@@ -21,33 +21,97 @@
         "book-of-enoch",
         "merkavah-texts"
       ]
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "14:2",
+      "teller": "enoch",
+      "quote": "I saw in my sleep what I will now say with a tongue of flesh and with the breath of my mouth: which the Great One has given to men to converse therewith and understand with the heart.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "14:8",
+      "teller": "enoch",
+      "quote": "And the vision was shown to me thus: Behold, in the vision clouds invited me and a mist summoned me, and the course of the stars and the lightnings sped and =hastened= me, and the winds in the vision caused me to fly and lifted me upward, and bore me into heaven.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "14:9",
+      "teller": "enoch",
+      "quote": "And I went in till I drew nigh to a wall which is built of crystals and surrounded by tongues of fire: and it began to affright me.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "14:10",
+      "teller": "enoch",
+      "quote": "And I went into the tongues of fire and drew nigh to a large house which was built of crystals: and the walls of the house were like a tesselated floor (made) of crystals, and its groundwork was of crystal.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "14:15",
+      "teller": "enoch",
+      "quote": "And lo! there was a second house, greater than the former, and the entire portal stood open before me, and it was built of flames of fire.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "14:18",
+      "teller": "enoch",
+      "quote": "And I looked and saw 〚therein〛 a lofty throne: its appearance was as crystal, and the wheels thereof as the shining sun, and there was the =vision= of cherubim.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.2,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "enoch",
       "jesse-michels"
     ],
     "episodes": [
       "aKZ_MUbuk_Q"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-once",
-  "plain": "Ancient Jewish mystics described climbing through seven heavenly palaces, called hekhalot, using breathing techniques, visualisation and prayers repeated like mantras. Michels tells this himself, drawing on the Book of Enoch, an ancient Jewish religious text he cites in the translation by R. H. Charles, and on the Merkavah texts, writings of early Jewish mystics about visions of God's throne-chariot. He brings it up in an episode about the idea that we live in a hologram."
+  "attestation": 1.85,
+  "tier": "well-attested",
+  "plain": "Michels says that the Book of Enoch, an ancient Jewish text left out of most Bibles, and the Merkavah texts, writings of early Jewish mystics about God's chariot-throne, describe rising through seven hekhalot, or heavenly palaces, by breathing, visualising and chant-like prayer. He says this himself, naming no source beyond the texts, as a hint that old mystics knew a way into other levels of reality. In R. H. Charles's 1917 translation of Enoch, the ascent comes in a vision \"in my sleep\", where \"the winds in the vision caused me to fly and lifted me upward, and bore me into heaven\"; Enoch passes \"a wall which is built of crystals\", enters \"a large house which was built of crystals\", then sees \"a second house, greater than the former\", holding a throne with wheels \"as the shining sun\". That book tells of two houses, not seven palaces, and has Enoch carried by the winds rather than climbing by technique, so joining it to the Merkavah palaces and practices is Michels's reading, which the book neither states nor rules out.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Book of Enoch (translated by R. H. Charles)",
+      "date": "1917",
+      "source": "https://www.gutenberg.org/ebooks/77935",
+      "text": "In the Book of Enoch the ascent comes in a vision in sleep (\"I saw in my sleep\", 14:2), in which \"the winds in the vision caused me to fly and lifted me upward, and bore me into heaven\" (14:8): Enoch passes \"a wall which is built of crystals\", enters \"a large house which was built of crystals\", and then sees \"a second house, greater than the former\", holding a throne whose wheels shine \"as the shining sun\" (14:9 to 18). The book tells two houses, not seven palaces, and has Enoch carried up by the winds of the vision rather than rising by breathing, visualisation or prayer. The teller names the Merkavah texts beside it; joining their seven palaces and their practices to Enoch's ascent is the teller's reading, which this book neither states nor excludes."
+    }
+  ]
 }

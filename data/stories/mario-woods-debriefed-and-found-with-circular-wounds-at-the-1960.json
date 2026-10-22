@@ -1,10 +1,10 @@
 {
   "id": "mario-woods-debriefed-and-found-with-circular-wounds-at-the-1960",
   "title": "Mario Woods debriefed and found with circular wounds at the base hospital",
-  "era": "cold-war-early",
+  "era": "cold-war-late",
   "years": {
-    "from": 1960,
-    "to": 1969
+    "from": 1977,
+    "to": 1977
   },
   "place": null,
   "place_text": "Ellsworth AFB, South Dakota",
@@ -43,25 +43,43 @@
         "place_text": "Ellsworth Air Force Base, South Dakota",
         "story_kind": "encounter"
       }
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 30",
+      "teller": "robert-hastings",
+      "quote": "Then I was also ordered to take a urinalysis at the base hospital, and two skin samples were taken—one from the back of my right hand and another above my right eyebrow—as I was sunburned for some strange reason.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 34",
+      "teller": "robert-hastings",
+      "quote": "One is under my left armpit and the other is on my left foot, above the ankle. I don’t remember any time or situation when I could have gotten them.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 3.2,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
-    "secondhand": 2,
+    "journalist": 1,
+    "secondhand": 1,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "journalist",
     "tellers": [
       "jesse-michels",
       "robert-hastings"
@@ -71,7 +89,16 @@
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-by-several",
-  "plain": "In the 1960s, a man named Mario Woods, who guarded nuclear missiles at Ellsworth Air Force Base in South Dakota, is said to have been taken by aliens and then examined at the base hospital. A researcher named Robert Hastings, who studies UFO reports around nuclear bases, passes on what Woods told him. According to Hastings, the doctor found a round wound or dent with a small dimple in the centre, on Woods's forehead and on his ankle. Michels tells it too, also from Woods's account, and adds that Woods held a Q clearance, a high security clearance for nuclear work, and guarded ICBMs, long-range nuclear missiles. In Michels's version a doctor checked Woods's teeth, and he says nothing of the wounds. If true, it would mean something was taking a close interest in the men who guard America's nuclear weapons."
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "After a night in November 1977 when he says he was taken aboard a craft, Mario Woods, an Air Force guard of nuclear missiles at Ellsworth Air Force Base in South Dakota, is said to have been examined at the base hospital and found with strange round wounds. The journalist Robert Hastings, who interviewed him, tells Michels the doctors found on his forehead and ankle \"a circular uh wound or depression of some kind with a little dimple in the center,\" while Michels, retelling it on another show, says a doctor checked his teeth. Hastings's own 2017 article gives Woods's words differently: at the hospital \"two skin samples were taken, one from the back of my right hand and another above my right eyebrow, as I was sunburned for some strange reason,\" and the two dimpled marks are \"under my left armpit\" and \"on my left foot, above the ankle,\" which Woods says he cannot account for. So the written account keeps the hospital's skin samples above the eyebrow apart from the dimpled marks at the armpit and ankle, where the spoken telling puts dimpled wounds on the forehead and ankle, found at the hospital.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Former USAF Missile Security Policeman Tells of Apparent UFO Abduction at ICBM Site",
+      "date": "2017-09-10",
+      "source": "https://www.ufohastings.com/articles/former-usaf-missile-security-policeman-tells-of-apparent-ufo-abduction-at-icbm-site",
+      "text": "In his own 2017 article Hastings gives Woods's account: at the base hospital \"two skin samples were taken—one from the back of my right hand and another above my right eyebrow—as I was sunburned\", while the two round marks \"with a raised dimple in the center\" are \"under my left armpit\" and \"on my left foot, above the ankle\", marks Woods cannot date. Hastings's later spoken telling puts dimpled wounds on the forehead and the ankle, found at the hospital; the 2017 text keeps the hospital's skin samples above the eyebrow and the dimpled marks at the armpit and ankle apart, and it dates the night to November 1977."
+    }
+  ]
 }

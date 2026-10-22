@@ -26,6 +26,24 @@
         "susan-gough-linkedin",
         "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol"
       ]
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section 'Stupid enough'",
+      "teller": "joel-schectman",
+      "quote": "In a statement, a Defense Department spokeswoman acknowledged that AARO had uncovered evidence of fake classified program materials relating to extraterrestrials, and had briefed lawmakers and intelligence officials.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section 'Stupid enough'",
+      "teller": "joel-schectman",
+      "quote": "The spokeswoman, Sue Gough, said the department didn’t include that information in its report last year because the investigation wasn’t completed, but expects to provide it in another report scheduled for later this year.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -61,29 +79,39 @@
     }
   ],
   "tags": [],
-  "score": 1.2,
+  "score": 2.9,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "journalist",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "joel-schectman"
     ],
     "episodes": [
       "h0hAit-KH9A"
     ]
   },
-  "attestation": 0.6,
-  "tier": "told-once",
-  "plain": "The Wall Street Journal article \"The Pentagon Disinformation That Fueled America's UFO Mythology,\" published in 2025, relies on Susan Gough as one of its main sources. Michels says, citing her own LinkedIn profile and independent sources, that she held a lead role in the psychological operations practice at Booz Allen Hamilton, a defense consulting firm that does this work for the Department of Defense. Psychological operations means military work meant to shape what people believe, so Michels raises it to suggest the article itself may be shaping opinion rather than simply reporting."
+  "attestation": 1.45,
+  "tier": "well-attested",
+  "plain": "One of the main sources for the Wall Street Journal's June 6, 2025 article blaming UFO stories on Pentagon disinformation was Susan Gough, who, Michels says, held a lead role in the psychological operations consulting work the firm Booz Allen Hamilton does for the Defense Department, as her LinkedIn and other sources show. The article quotes \"Sue Gough\" once, as the Defense Department spokeswoman confirming that AARO, the Pentagon's UFO office, \"had uncovered evidence of fake classified program materials relating to extraterrestrials\", and says the rest rests on \"interviews with two dozen current and former U.S. officials\" it does not name. That she was a primary source beyond that statement is Michels's reading, and the article says nothing about her career.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Pentagon Disinformation That Fueled America's UFO Mythology (The Wall Street Journal, 2025)",
+      "date": "2025-06-06",
+      "source": "https://www.wsj.com/politics/national-security/ufo-us-disinformation-45376f7e",
+      "text": "The article quotes Sue Gough once, as the Defense Department spokeswoman whose statement confirms that AARO \"had uncovered evidence of fake classified program materials relating to extraterrestrials\" and that the department expects to report it later; it says the rest of its account rests on \"interviews with two dozen current and former U.S. officials, scientists and military contractors involved in the inquiry\" without naming them. Gough as one of the article's primary sources is the teller's reading of her role beyond that statement, and the article says nothing of her career."
+    }
+  ]
 }

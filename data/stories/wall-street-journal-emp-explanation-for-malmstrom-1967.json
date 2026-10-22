@@ -125,6 +125,60 @@
         "place_text": "Malmstrom Air Force Base, Montana",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "In 1967, Robert Salas, now 84, was an Air Force captain sitting in a walk-in closet-sized bunker, manning the controls of 10 nuclear missiles in Montana.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "Kirkpatrick’s team dug into the story and discovered a terrestrial explanation.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "To test this vulnerability, the Air Force developed an exotic electromagnetic generator that simulated this pulse of disruptive energy without the need to detonate a nuclear weapon.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "When activated, this device, placed on a portable platform 60 feet above the facility, would gather power until it glowed, sometimes with a blinding orange light.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "The electromagnetic pulses snaked down cables connected to the bunker where launch commanders like Salas sat, disrupting the guidance systems, disabling the weapons and haunting the men to this day.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-pentagon-disinformation-that-fueled-america-s-ufo-mythol",
+      "page": "section A bunker in Montana",
+      "teller": "joel-schectman",
+      "quote": "The witnesses were kept in the dark.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -145,23 +199,24 @@
     }
   ],
   "tags": [],
-  "score": 1.7,
+  "score": 3.4,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 1,
+    "journalist": 2,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "journalist",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "joel-schectman"
     ],
     "episodes": [
       "-0g3lLGxNfc",
@@ -171,7 +226,16 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.85,
-  "tier": "told-once",
-  "plain": "A Wall Street Journal article by the reporter Joel Schectman, put by the tellers in 2025, claimed that the 1967 incidents at Malmstrom Air Force Base in Montana were a secret test, not a UFO event. At the base, nuclear missiles reportedly went offline while a glowing object was seen overhead. The article said the cause was an electromagnetic pulse, a burst of energy that destroys electronics, and that the device was wheeled up to the base to see whether America's own nuclear weapons could be shut down with people present. Michels tells it himself and rejects it, calling the piece disinformation and a test like that dangerous, reckless and without precedent. He also says a former Pentagon official named Sean Kirkpatrick was probably its only source."
+  "attestation": 1.7,
+  "tier": "well-attested",
+  "plain": "A Wall Street Journal article by Joel Schectman, \"The Pentagon Disinformation That Fueled America's UFO Mythology\", published on June 6, 2025, explained the 1967 incident at Malmstrom base in Montana, where Air Force officer Robert Salas says ten nuclear missiles shut down while a UFO hovered, as a secret Air Force test of an electromagnetic pulse, or EMP, a burst of energy that can knock out electronics; Michels calls it a \"disinfo hit piece\" and says Sean Kirkpatrick, then head of AARO, the Pentagon's UFO office, was probably its sole source. The article says \"Kirkpatrick's team dug into the story and discovered a terrestrial explanation\": a generator \"on a portable platform 60 feet above the facility\" that glowed \"sometimes with a blinding orange light\" and whose pulses \"snaked down cables\" to the bunker, while \"the witnesses were kept in the dark.\" Michels treats this as the reporter's own explanation; in the text it is an account of what investigators found, resting on \"interviews with two dozen current and former U.S. officials, scientists and military contractors\" it does not name.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Pentagon Disinformation That Fueled America's UFO Mythology (The Wall Street Journal, 2025)",
+      "date": "2025-06-06",
+      "source": "https://www.wsj.com/politics/national-security/ufo-us-disinformation-45376f7e",
+      "text": "The article gives the EMP explanation as the finding of Sean Kirkpatrick's AARO team: \"Kirkpatrick’s team dug into the story and discovered a terrestrial explanation\", an Air Force \"exotic electromagnetic generator\" that \"simulated this pulse of disruptive energy without the need to detonate a nuclear weapon\", set \"on a portable platform 60 feet above the facility\", whose pulses \"snaked down cables connected to the bunker where launch commanders like Salas sat\". The tellers read this as the reporters' own explanation; in the text it is the reporters' account of what the investigators found, resting, by the article's own statement, on \"interviews with two dozen current and former U.S. officials, scientists and military contractors involved in the inquiry\" and documents it does not name."
+    }
+  ]
 }

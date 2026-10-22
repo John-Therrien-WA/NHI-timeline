@@ -1,10 +1,10 @@
 {
   "id": "message-do-not-fear-mario-woods-heard-from-the-beings-1960",
   "title": "Message 'do not fear' Mario Woods heard from the beings",
-  "era": "cold-war-early",
+  "era": "cold-war-late",
   "years": {
-    "from": 1960,
-    "to": 1969
+    "from": 1977,
+    "to": 1977
   },
   "place": null,
   "place_text": "South Dakota",
@@ -82,27 +82,37 @@
         "episode": "73YBwFvcmF8",
         "from_s": 5135.0
       }
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 20",
+      "teller": "robert-hastings",
+      "quote": "But I saw something like shadows on the right side of the vehicle and I have a memory of voices in my head, more than one, saying , ‘Do not fear’, over and over.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 4.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "mario-woods"
+      "mario-woods",
+      "robert-hastings"
     ],
     "episodes": [
       "73YBwFvcmF8",
@@ -110,7 +120,7 @@
       "yAvD5UTziTo"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
-  "plain": "A former guard at a nuclear weapons base named Mario Woods says that during an encounter with beings in South Dakota he kept hearing the words \"do not fear\" over and over, a message he felt travel through his body like a vibration or a hiss, as if telepathic. He tells it himself across several conversations with Michels, and the details shift: in some he places it on November 5, 1977, at Ellsworth Air Force Base, an Air Force base in South Dakota, rather than in the 1960s, and in one he adds that he recognized the voice and remarks on its accent. If true, it would suggest the beings tried to calm the people they took."
+  "attestation": 2.1,
+  "tier": "well-attested",
+  "plain": "During his 1977 encounter at an Air Force nuclear missile site in South Dakota, Mario Woods says, beings spoke to him without sound, repeating \"do not fear\" over and over, a message he felt travel through his body like a vibration or a hiss, which he calls telepathic. Woods, then a missile security guard, tells Michels this on several episodes, and once adds that he recognized the voice and remarks on its accent. In his account published by the writer Robert Hastings on 10 September 2017, he writes that he saw \"something like shadows on the right side of the vehicle\" and remembers \"voices in my head, more than one, saying, 'Do not fear', over and over\", which, if true, would mean the beings were speaking to him directly."
 }

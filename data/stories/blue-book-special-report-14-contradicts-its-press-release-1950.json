@@ -25,6 +25,33 @@
       "documents": [
         "project-blue-book-special-report-14"
       ]
+    },
+    {
+      "document": "project-blue-book-special-report-14",
+      "page": "Figure 2, p. 18",
+      "teller": "us-air-force",
+      "quote": "Unknown 434=19.7%",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "project-blue-book-special-report-14",
+      "page": "Conclusions, p. 94",
+      "teller": "us-air-force",
+      "quote": "Thus, the probability that any of the UNKNOWNS considered in this study are \"flying saucers'' is concluded to be extremely small, since the most complete and reliable reports from the present data, when isolated and studied, conclusively failed to reveal even a rough model, and since the data as a whole failed to reveal any marked patterns or trends.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "project-blue-book-special-report-14",
+      "page": "Conclusions, p. 94",
+      "teller": "us-air-force",
+      "quote": "Therefore, on the basis of this evaluation of the information, it is considered to be highly improbable that any of the reports of unidentified aerial objects examined in this study represent observations of technological developments outside the range of present-day scientific knowledge.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -105,29 +132,39 @@
     }
   ],
   "tags": [],
-  "score": 1.0,
+  "score": 3.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
-      "maaneli-derakhshani"
+      "maaneli-derakhshani",
+      "us-air-force"
     ],
     "episodes": [
       "uVVqFg2v7ro"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
-  "plain": "A 1950s Air Force study called Special Report 14, part of Blue Book, the US Air Force's UFO study of the 1950s and 60s, is said to tell a different story in its numbers than in the press release that went out with it. A researcher on the show, whose name is not given, says that if you look at the report's own data table, something like 21 percent of almost a thousand cases were left as unknown. He credits the point to the UFO researcher Stanton Friedman, and tells it to suggest the public was given a more reassuring picture than the Air Force's own data showed."
+  "attestation": 1.55,
+  "tier": "well-attested",
+  "plain": "The Air Force's Special Report 14, a 1950s statistical study made under Project Blue Book, the US Air Force's UFO study of the 1950s and 60s, shows far more unexplained cases than its public announcement let on, says a researcher named Maaneli Derakhshani, who draws on the UFO researcher Stanton Friedman and tells Michels that about 21% of almost a thousand cases were unknown. The report, issued by the Air Technical Intelligence Center on 5 May 1955, gives in its own figure \"Unknown 434=19.7%\" out of 2,199 object sightings, close to his share though not to his count. Yet the report itself concludes that the chance any unknowns \"are 'flying saucers'\" is \"extremely small\" and that it is \"highly improbable\" any show technology beyond \"present-day scientific knowledge\", so reading its data table as a finding the Air Force hid is Derakhshani's reading, set against the report's own conclusion.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Analysis of Reports of Unidentified Aerial Objects (Project Blue Book Special Report No. 14)",
+      "date": "1955-05-05",
+      "source": "https://archive.org/details/ProjectBlueBookSpecialReport14",
+      "text": "In the report's own figure of evaluations the unknowns are \"Unknown 434=19.7%\" of 2,199 object sightings, within 3,201 sighting reports in all; the teller's \"21%\" is near that share, while his count of \"almost a thousand\" cases is none of the report's bases. The report itself concludes that \"the probability that any of the UNKNOWNS considered in this study are \"flying saucers'' is concluded to be extremely small\" and that it is \"highly improbable\" that any report shows \"technological developments outside the range of present-day scientific knowledge\": the step from its data table to a finding the press release hid is the teller's reading, set against the report's own conclusion."
+    }
+  ]
 }

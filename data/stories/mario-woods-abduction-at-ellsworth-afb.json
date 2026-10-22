@@ -145,27 +145,73 @@
         "place_text": "Ellsworth Air Force Base, South Dakota",
         "story_kind": "encounter"
       }
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 5",
+      "teller": "robert-hastings",
+      "quote": "What follows here is the written summary of that incident provided to me by USAF veteran Mario A. Woods Jr. who was stationed at Ellsworth AFB, South Dakota, from 1975 to 1979, as a member of the 44th Security Police Squadron. The narrative has been edited for the purpose of brevity and clarity:",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 6",
+      "teller": "robert-hastings",
+      "quote": "In November 1977, while assigned to the November Flight Launch Control Facility (LCF), I was a Security Alert Team member on the night shift—6:00 p.m. to 6:00 a.m.—paired with Sgt. Michael -------, who outranked me thus making him the team leader.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 17",
+      "teller": "robert-hastings",
+      "quote": "As we approached Newell we made a right turn onto the road that led to November-5. As we did, we immediately saw the object hovering directly over the site. It made no noise and was a huge glowing, reddish-orange sphere.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 20",
+      "teller": "robert-hastings",
+      "quote": "I think I remember small figures, maybe five or six, walking toward the vehicle. Standing behind them was a taller figure who I think was in charge. Then I believe I passed out.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 29",
+      "teller": "robert-hastings",
+      "quote": "During debriefing, I was told that nearly four hours had passed and that six security police back-up Alert teams had been searching for us.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "journalist",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "robert-hastings"
     ],
     "episodes": [
       "GQlWf54K_7Y",
@@ -176,7 +222,7 @@
       "yAvD5UTziTo"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "In 1977, a man named Mario Woods, stationed at Ellsworth Air Force Base in South Dakota, was taken by something unknown along with his partner, Michael Johnson, according to Michels, who has told the story on several episodes. Michels draws on Woods himself, on the researcher Robert Hastings's book UFOs and Nukes, and on a man named Richard Doty. In his telling, the abduction came back to Woods under hypnosis, and the details include a signal exchange, at least five missing hours, a truck at a dam, mud in a frozen field, burns a doctor found, a single glove, drawings of the craft, and Woods waking up nine miles away. Michels says he later brought the two men back together for an interview, which would matter because it would be two serving airmen recalling the same abduction."
+  "attestation": 1.85,
+  "tier": "well-attested",
+  "plain": "In November 1977, Mario Woods, an Air Force security policeman at Ellsworth base in South Dakota, and his team leader, Sergeant Michael Johnson, drove toward a nuclear missile site and saw \"a huge glowing, reddish-orange sphere\" hovering silently over it, according to the account Woods wrote for the researcher Robert Hastings in 2017. There Woods remembers small figures and a taller one coming toward the truck before \"I believe I passed out\", and afterwards he was told \"nearly four hours had passed\" while six backup teams searched for them. Michels, who later brought the two men together again on the show, retells it with more: memories recovered under hypnosis, at least five missing hours, the truck found at a dam, mud in a frozen field, burns, and drawings of the craft."
 }

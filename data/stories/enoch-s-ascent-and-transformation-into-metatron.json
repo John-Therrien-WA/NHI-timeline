@@ -20,33 +20,88 @@
       "documents": [
         "book-of-enoch"
       ]
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "70:1",
+      "teller": "enoch",
+      "quote": "And it came to pass after this that his name during his lifetime was raised aloft to that Son of Man and to the Lord of Spirits from amongst those who dwell on the earth.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "70:2",
+      "teller": "enoch",
+      "quote": "And he was raised aloft on the chariots of the spirit and his name vanished among them.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "71:1",
+      "teller": "enoch",
+      "quote": "And it came to pass after this that my spirit was translated And it ascended into the heavens: And I saw the =holy sons of God=. They were stepping on flames of fire: Their garments were white [and their raiment], And their faces shone like snow.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "71:5",
+      "teller": "enoch",
+      "quote": "And he translated my spirit into the heaven of heavens, And I saw there as it were a structure built of crystals, And between those crystals tongues of living fire.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "71:11",
+      "teller": "enoch",
+      "quote": "And I fell on my face, And my whole body became relaxed, And my spirit was transfigured; And I cried with a loud voice, with the spirit of power, And blessed and glorified and extolled.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 3.2,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "enoch",
       "jesse-michels"
     ],
     "episodes": [
       "C_Na1tI5qpw"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "Enoch, a figure from ancient Jewish scripture, is said to have gone up to heaven and walked with God, and then turned into an angel called Metatron. Michels tells this from the Book of Enoch, an ancient religious text, in the translation by R. H. Charles. He brings it up as an example of a human being transformed by contact with the beings above."
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "Enoch, the ancient figure who 'walked with God', went up to heaven and turned into an angel called Metatron, Michels says on the show, crediting the Book of Enoch, an ancient Jewish text outside most Bibles, in R. H. Charles's English translation published in 1917. That book tells of Enoch being 'raised aloft on the chariots of the spirit', seeing 'a structure built of crystals' with 'tongues of living fire' between them, and says 'my whole body became relaxed, And my spirit was transfigured.' Read for what it says, it gives the ascent and a transformation but does not name Metatron; Enoch becoming that angel is told in 3 Enoch, a later Hebrew book, so the last step is that later book's, which this one neither states nor rules out.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Book of Enoch (translated by R. H. Charles)",
+      "date": "1917",
+      "source": "https://www.gutenberg.org/ebooks/77935",
+      "text": "The Book of Enoch tells that Enoch was \"raised aloft on the chariots of the spirit\" (70:2); in his own words, \"he translated my spirit into the heaven of heavens\" (71:5), where \"my whole body became relaxed, And my spirit was transfigured\" (71:11). Enoch becoming the angel Metatron is told in 3 Enoch, a later Hebrew book of the Hekhalot literature; the step from the transfigured Enoch of this book to the angel Metatron is that later book's, which this book neither states nor excludes, and the teller tells it as the Book of Enoch's."
+    }
+  ]
 }

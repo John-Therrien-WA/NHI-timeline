@@ -26,6 +26,24 @@
       "documents": [
         "ufos-and-nukes"
       ]
+    },
+    {
+      "document": "the-ufos-and-nukes-book-and-the-secret-pentagon-ufo-project",
+      "page": "paragraph 1",
+      "teller": "robert-hastings",
+      "quote": "During journalist George Knapp’s November 17, 2023 interview with me—which will appear in a Netflix UFO documentary series later this year—Knapp began by asking me whether I was aware that the late US Senator Harry Reid had read my book, UFOs and Nukes: Extraordinary Encounters at Nuclear Weapons Sites.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-ufos-and-nukes-book-and-the-secret-pentagon-ufo-project",
+      "page": "paragraph 2",
+      "teller": "robert-hastings",
+      "quote": "Knapp then elaborated, saying that Reid had once told him that revelations contained in the book—regarding UFOs monitoring and even tampering with US nuclear missiles—were one of the reasons the then-powerful Senate Majority Leader had secretly authorized government funding for a covert Pentagon UFO study in 2007.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -131,21 +149,21 @@
     }
   ],
   "tags": [],
-  "score": 1.5,
+  "score": 3.5,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
-    "secondhand": 1,
+    "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "secondhand",
+    "strongest_kind": "firsthand",
     "tellers": [
       "robert-hastings"
     ],
@@ -153,7 +171,7 @@
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 0.75,
+  "attestation": 1.75,
   "tier": "told-once",
-  "plain": "Harry Reid, a powerful US senator, is said to have read Robert Hastings's book UFOs and Nukes, and it was one of the reasons he sought funding for a Pentagon-funded programme that studied UFOs. Hastings, a researcher who writes about UFOs near nuclear weapons sites, says the journalist George Knapp told him this in 2023, asking if he knew. If true, it would mean his book helped start the government's own UFO study."
+  "plain": "Senator Harry Reid, then Senate Majority Leader, read the researcher Robert Hastings's book UFOs and Nukes, about UFOs at nuclear weapons sites, and it was one reason he secretly arranged money for a hidden Pentagon UFO study in 2007, according to what the journalist George Knapp told Hastings. Hastings tells Michels about this, and in a piece dated January 11, 2024 he wrote that during a November 17, 2023 interview Knapp said Reid \"had once told him\" that the book's revelations \"regarding UFOs monitoring and even tampering with US nuclear missiles\" were one of the reasons for the funding. If so, the reports of UFOs at missile sites helped start the government's modern UFO study, though Hastings is passing on what Knapp says Reid said."
 }

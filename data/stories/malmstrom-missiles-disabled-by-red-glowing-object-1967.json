@@ -482,6 +482,42 @@
         "place_text": "Malmstrom, Montana",
         "story_kind": "encounter"
       }
+    },
+    {
+      "document": "the-echo-and-oscar-flight-incidents",
+      "page": "section \"The Oscar Flight Incident\", paragraph 1",
+      "teller": "robert-hastings",
+      "quote": "Shortly after the Echo event, a second large-scale, UFO-related ICBM shutdown incident occurred at another of Malmstrom's missile flights, Oscar, according to former Capt. Robert Salas and now-retired Col. Frederick Meiwald, who were the launch officers on duty when it happened.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-echo-and-oscar-flight-incidents",
+      "page": "section \"The Oscar Flight Incident\", paragraph 6",
+      "teller": "robert-hastings",
+      "quote": "A short time later, the guard called again and screamed into the phone that a large, glowing, orange-colored, oval-shaped object had suddenly appeared and was silently hovering over the Oscar Launch Control Facility.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-echo-and-oscar-flight-incidents",
+      "page": "section \"The Oscar Flight Incident\", paragraph 7",
+      "teller": "robert-hastings",
+      "quote": "Salas quickly woke then-Capt. Meiwald, who was on his rest break, but before he could tell him about the phone calls with the topside guard, they were both shocked to see multiple warning lights indicating the missiles were dropping off alert status—they were malfunctioning.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "the-echo-and-oscar-flight-incidents",
+      "page": "section \"The Oscar Flight Incident\", paragraph 8",
+      "teller": "robert-hastings",
+      "quote": "During a tape-recorded telephone conversation in August 1996, Meiwald, by then a retired colonel, told Salas that shortly after the missiles failed—he remembered six-to-eight, whereas Salas recalls all ten going offline—a two-man security team had been ordered into the field in response to an intrusion alarm at one of the silos.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -492,17 +528,17 @@
     }
   ],
   "tags": [],
-  "score": 7.6,
+  "score": 9.8,
   "profile": {
-    "independent_tellers": 5,
+    "independent_tellers": 6,
     "firsthand": 2,
     "official_records": 1,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 2,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 0,
     "repetitions": 2,
     "contradicted": false,
@@ -512,6 +548,7 @@
       "daniel-sheehan",
       "karl-nell",
       "kevin-knuth",
+      "robert-hastings",
       "robert-salas"
     ],
     "episodes": [
@@ -534,7 +571,16 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 3.8,
+  "attestation": 4.9,
   "tier": "well-attested",
-  "plain": "On March 24, 1967, at Malmstrom Air Force Base in Montana, a glowing red object is said to have hung over a nuclear missile site while the ten missiles under one underground crew shut down one after another. If true, it would mean something unknown could switch off American nuclear weapons at will. The man at the centre of it is Robert Salas, then a young Air Force officer on duty in the buried launch control centre for a group of missiles called Oscar Flight, and he tells it himself on the show. Guards on the surface phoned to say strange lights were moving oddly in the sky. Then, he says, \"before I could tell them about the phone calls, we get a big horn go off,\" as the first missile went from green, ready, to red, unable to launch, and he names his commander, Fred Meiwald, as there with him. Salas says all ten went into a \"no-go\" state; Michels, who has met him and returns to the case again and again, once puts it at nine of ten. Another witness, Bob Jameson, describes a wall of status lights where \"all 10 missiles were off alert. All red,\" and the lawyer Dan Sheehan says the base commander, Arie Arnoldson, filed a UFO report with the North American air defence command. Michels credits the researcher Robert Hastings, who gathered such cases in his book UFOs and Nukes and held a 2010 press conference with six Air Force witnesses, Salas first among them."
+  "plain": "On March 24, 1967, at Malmstrom Air Force Base in Montana, a glowing red object is said to have hovered over an underground launch center while the ten nuclear missiles it controlled shut down one after another. The man at the center of it is Robert Salas, then a young Air Force launch officer on duty at the Oscar Flight control center. He tells Michels that guards on the surface phoned to report strange lights moving oddly, then an object over the gate, and that before he could tell his commander, Fred Meiwald, a horn went off as the first missile went from green to red, into what crews call a no-go condition, meaning it could not be launched. Bob Jameson, another Air Force veteran, says on the show that the job control wall, where each missile shows a green light, had one corner all red: \"All 10 missiles were off alert.\" If true, it would mean something in the sky could switch off America's nuclear weapons at will. Michels returns to the case again and again, sometimes saying ten missiles went down and once nine of ten, and leans on the book UFOs and Nukes by the journalist Robert Hastings; the filmmaker James Fox, a former official named Karl Nell and others also mention it, some only in passing. Hastings's own 2012 article, The Echo and Oscar Flight Incidents, tells Salas's account: the guard \"screamed into the phone that a large, glowing, orange-colored, oval-shaped object\" was \"silently hovering over the Oscar Launch Control Facility.\" So the object there is orange rather than red, and the article adds that Meiwald \"remembered six-to-eight, whereas Salas recalls all ten going offline,\" so the full flight of ten is Salas's memory, which his commander's differs from.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Echo and Oscar Flight Incidents",
+      "date": "2012-11-12",
+      "source": "https://www.ufohastings.com/articles/the-echo-and-oscar-flight-incidents",
+      "text": "In The Echo and Oscar Flight Incidents (2012), Hastings, telling Salas's account, writes that the guard reported \"a large, glowing, orange-colored, oval-shaped object\" \"silently hovering over the Oscar Launch Control Facility\", and that of the missiles that went off alert Meiwald \"remembered six-to-eight, whereas Salas recalls all ten going offline\". The object is orange in this telling where the tellers say red, and the whole flight of ten is Salas's recollection, which his commander's differs from."
+    }
+  ]
 }

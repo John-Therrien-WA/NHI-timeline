@@ -48,34 +48,71 @@
         "place_text": "Ellsworth Air Force Base, South Dakota",
         "story_kind": "encounter"
       }
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 20",
+      "teller": "robert-hastings",
+      "quote": "But I saw something like shadows on the right side of the vehicle and I have a memory of voices in my head, more than one, saying , ‘Do not fear’, over and over.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 32",
+      "teller": "robert-hastings",
+      "quote": "He had been terrified during the incident but didn't know why, as he had heard voices, many voices, saying not to be afraid.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 39",
+      "teller": "robert-hastings",
+      "quote": "Also, although the technique remains controversial, I have arranged for hypnotic regression sessions for Woods, to attempt to draw out still-suppressed or long forgotten memories about the incident.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.2,
+  "score": 2.4,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "journalist",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "robert-hastings"
     ],
     "episodes": [
       "h6zMVkncTsE",
       "rjUdn6FklAU"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
-  "plain": "Two Air Force men, Mario Woods and Michael Johnson, say they were abducted in 1977 near Ellsworth Air Force Base in South Dakota, and each recalled the same three words, \"Do not fear.\" Michels tells it himself, describing it as two men in two rooms, hours apart, out of earshot of each other, with the story placing those sessions under hypnosis. In a later episode he says instead that they heard the words over and over before the abduction, and does not mention hypnosis. If the accounts match without either man hearing the other, it would point to a shared real experience."
+  "attestation": 1.2,
+  "tier": "well-attested",
+  "plain": "Two Air Force security men, Mario Woods and Michael Johnson, both remember hearing the same words, 'Do not fear', during what they describe as an abduction at a nuclear missile site at Ellsworth Air Force Base in South Dakota in 1977. Michels tells it himself, as 'two men, two rooms, hours apart' who came up with the same three words under hypnosis, which would mean the two men heard one message on their own. In a later episode he says only that they heard it 'over and over' before the abduction, and does not mention hypnosis. Woods's own account, published in 2017 by the journalist Robert Hastings, has Woods remember 'voices in my head, more than one, saying, ‘Do not fear’, over and over'. In it his partner tells him two weeks after that night that he 'had heard voices, many voices, saying not to be afraid', and Hastings writes only that he has 'arranged for hypnotic regression sessions', meaning hypnosis to recover memories. So in the 2017 text, the shared words are in both men's ordinary memory from 1977, before any hypnosis.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Former USAF Missile Security Policeman Tells of Apparent UFO Abduction at ICBM Site",
+      "date": "2017-09-10",
+      "source": "https://www.ufohastings.com/articles/former-usaf-missile-security-policeman-tells-of-apparent-ufo-abduction-at-icbm-site",
+      "text": "In the account Woods wrote for Hastings in 2017, before any regression, both men already remember the words: Woods recalls voices saying \"‘Do not fear’, over and over\", and two weeks after the night his partner tells him he \"had heard voices, many voices, saying not to be afraid\"; Hastings has only \"arranged for hypnotic regression sessions\". The tellings place the shared words under hypnosis; the 2017 text has them in both men's waking memory from 1977."
+    }
+  ]
 }

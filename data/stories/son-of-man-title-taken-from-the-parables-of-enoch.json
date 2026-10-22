@@ -21,36 +21,81 @@
       ],
       "documents": [
         "book-of-enoch",
-        "parables-of-enoch",
         "bible"
       ]
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "46:2",
+      "teller": "enoch",
+      "quote": "And I asked the =angel= who went with me and showed me all the hidden things, concerning that Son of Man, who he was, and whence he was, (and) why he went with the Head of Days?",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "46:3",
+      "teller": "enoch",
+      "quote": "And he answered and said unto me: This is the Son of Man who hath righteousness, With whom dwelleth righteousness, And who revealeth all the treasures of that which is hidden, Because the Lord of Spirits hath chosen him, And whose lot hath the pre-eminence before the Lord of Spirits in uprightness for ever.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "48:2",
+      "teller": "enoch",
+      "quote": "And at that hour that Son of Man was named In the presence of the Lord of Spirits, And his name before the Head of Days.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "62:7",
+      "teller": "enoch",
+      "quote": "For from the beginning the Son of Man was hidden, And the Most High preserved him in the presence of His might, And revealed him to the elect.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "69:27",
+      "teller": "enoch",
+      "quote": "And he sat on the throne of his glory, And the sum of judgement was given unto the Son of Man, And he caused the sinners to pass away and be destroyed from off the face of the earth, And those who have led the world astray.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 3,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "enoch",
       "tim-alberino"
     ],
     "episodes": [
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
-  "plain": "The title \"son of man\" that Jesus of Nazareth uses for himself comes from the Book of Enoch, an ancient Jewish text left out of most Bibles, says a researcher named Tim Alberino. He gives no source but points to its second section, called the Parables: \"The proper title the son of man comes from first Enoch specifically from the second section of first Enoch which is called the parables.\" He also mentions the Book of Daniel. If he is right, it would tie Jesus's view of himself to Enoch's stories."
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "Jesus's title \"the Son of Man\", says the researcher Tim Alberino, comes from the Book of Enoch, an ancient Jewish text left out of most Bibles, and specifically from its second section, called the Parables; he tells Michels this without naming a source. In R. H. Charles's 1917 translation, Enoch asks an angel about \"that Son of Man, who he was\", and is told \"This is the Son of Man who hath righteousness\", who \"revealeth all the treasures of that which is hidden\"; elsewhere \"from the beginning the Son of Man was hidden\" and \"the sum of judgement was given unto the Son of Man.\" The text shows the title used for a hidden, chosen heavenly judge, which is close to how it is used of Jesus; that the gospels took the title from Enoch is Alberino's reading, which these passages fit but do not themselves settle."
 }

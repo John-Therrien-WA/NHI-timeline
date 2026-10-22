@@ -19,36 +19,72 @@
       "cites": [],
       "documents": [
         "book-of-enoch",
-        "book-of-the-watchers",
         "bible"
       ]
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "6:3",
+      "teller": "enoch",
+      "quote": "And Semjâzâ, who was their leader, said unto them: ‘I fear ye will not indeed agree to do this deed, and I alone shall have to pay the penalty of a great sin.’",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "6:4",
+      "teller": "enoch",
+      "quote": "And they all answered him and said: ‘Let us all swear an oath, and all bind ourselves by mutual imprecations not to abandon this plan but to do this thing.’",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "6:5",
+      "teller": "enoch",
+      "quote": "Then sware they all together and bound themselves by mutual imprecations upon it.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "6:6",
+      "teller": "enoch",
+      "quote": "And they were in all two hundred; who descended ⌜in the days⌝ of =Jared= on the summit of Mount Hermon, and they called it Mount Hermon, because they had sworn and bound themselves by mutual imprecations upon it.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 3,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "enoch",
       "tim-alberino"
     ],
     "episodes": [
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
-  "plain": "Two hundred fallen angels called the Watchers are said to have come down onto the top of Mount Hermon and bound themselves together there with an oath. A researcher named Tim Alberino tells this from the Book of Enoch, an ancient religious text that is not in most Bibles, which he reads in R. H. Charles's English translation alongside Genesis 6. In his words, \"they bound themselves on the summit of Mount Hermon,\" and he tells it as the start of a story about beings who came down from above and mixed with humans."
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "A researcher named Tim Alberino says that, according to the Book of Enoch, the fallen angels called the Watchers came down on the summit of Mount Hermon and bound themselves there by an oath, which he tells as part of his case that such beings really came to Earth. In R. H. Charles's 1917 translation, their leader Semjaza fears that he alone will 'pay the penalty of a great sin'. The others answer 'Let us all swear an oath' and bind themselves 'by mutual imprecations', curses on anyone who backs out, and 'two hundred' of them descend in the days of Jared 'on the summit of Mount Hermon', which the book says was named for that oath."
 }

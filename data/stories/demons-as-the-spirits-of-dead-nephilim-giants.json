@@ -40,33 +40,70 @@
         "place_text": "unspecified",
         "story_kind": "cosmology"
       }
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "15:8",
+      "teller": "enoch",
+      "quote": "And now, the giants, who are produced from the spirits and flesh, shall be called evil spirits upon the earth, and on the earth shall be their dwelling.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "15:9",
+      "teller": "enoch",
+      "quote": "Evil spirits have proceeded from their bodies; because they are born from =men=, 〚and〛 from the holy Watchers is their beginning and primal origin; ⌜they shall be evil spirits on earth, and⌝ evil spirits shall they be called.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "15:11",
+      "teller": "enoch",
+      "quote": "And the spirits of the giants =afflict=, oppress, destroy, attack, do battle, and work destruction on the earth, and cause trouble: they take no food, ⌜but nevertheless hunger⌝ and thirst, and cause offences.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "16:1",
+      "teller": "enoch",
+      "quote": "From the days of the slaughter and destruction and death ⌜of the giants⌝, from the souls of whose flesh the spirits, having gone forth, shall destroy without incurring judgement—thus shall they destroy until the day of the consummation, the great ⌜judgement⌝ in which the age shall be consummated over the Watchers and the godless, yea, shall be wholly consummated.”",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 3.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "enoch",
       "tim-alberino"
     ],
     "episodes": [
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
-  "plain": "Demons, in this account, are the spirits of dead giants, the Nephilim of ancient Jewish writings, that left their bodies when the giants were killed and still roam the world. The filmmaker Tim Alberino tells it to Michels as \"ancient Hebrew cosmology\", and later in the same talk ties it to the Book of Enoch, an ancient Jewish text, in the translation by the scholar R. H. Charles. If true, it would explain where evil spirits come from."
+  "attestation": 1.75,
+  "tier": "well-attested",
+  "plain": "Demons, on this account, are the ghosts of giants: in ancient Hebrew belief, the researcher Tim Alberino tells Michels, they are the disembodied spirits of the giants called the Nephilim, born to women from fallen angels, whose spirits left their bodies when they were killed and stayed on in the world. He credits the Book of Enoch, an ancient Jewish text left out of most Bibles, in the English translation by R. H. Charles published in 1917. That book says the giants 'shall be called evil spirits upon the earth', that their spirits 'afflict, oppress, destroy' and 'take no food, but nevertheless hunger', and that from 'the slaughter and destruction and death of the giants' their spirits 'shall destroy without incurring judgement' until a final judgement, which would make the evil spirits of the world the leftovers of a lost race."
 }

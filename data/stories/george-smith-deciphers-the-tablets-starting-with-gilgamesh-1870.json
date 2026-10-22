@@ -25,33 +25,96 @@
       "documents": [
         "epic-of-gilgamesh"
       ]
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Introduction, George Smith's Discovery of the Epic of Gilgamish and the Story of the Deluge",
+      "teller": "e-a-wallis-budge",
+      "quote": "The mass of tablets which had been discovered by Layard and Rassam at Nineveh came to the British Museum in 1854-5, and their examination by Rawlinson and Norris began very soon after.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Introduction, George Smith's Discovery of the Epic of Gilgamish and the Story of the Deluge",
+      "teller": "e-a-wallis-budge",
+      "quote": "In that year the Trustees of the British Museum employed George Smith to assist Rawlinson in sorting, classifying and rejoining fragments, and a comprehensive examination of the collection by him began.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Introduction, George Smith's Discovery of the Epic of Gilgamish and the Story of the Deluge",
+      "teller": "e-a-wallis-budge",
+      "quote": "he discovered among other important documents (1) a series of portions of tablets which give the adventures of Gilgamish, an ancient king of Erech; (2) An account of the Deluge, which is supplied by the Eleventh Tablet of the Legend of Gilgamish (in more than one version);",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Introduction, George Smith's Discovery of the Epic of Gilgamish and the Story of the Deluge",
+      "teller": "e-a-wallis-budge",
+      "quote": "it was not until December, 1872, that George Smith published his description of the Legend of Gilgamish, and a translation of the \"Chaldean Account of the Deluge.\"",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Introduction, George Smith's Discovery of the Epic of Gilgamish and the Story of the Deluge",
+      "teller": "e-a-wallis-budge",
+      "quote": "During the excavations which Smith carried out at Kuyûnjik in 1873 and 1874 he recovered many fragments of tablets, the texts of which enabled him to complete his description of the contents of the Twelve Tablets of the Legend of Gilgamish which included his translation of the story of the Deluge.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Introduction, George Smith's Discovery of the Epic of Gilgamish and the Story of the Deluge",
+      "teller": "e-a-wallis-budge",
+      "quote": "Unfortunately Smith died of hunger and sickness near Aleppo in 1876",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 2.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 2,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
     "tellers": [
+      "e-a-wallis-budge",
       "matt-lacroix"
     ],
     "episodes": [
       "A_LsUSxTm7A"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
-  "plain": "A man named George Smith got hold of a set of ancient clay tablets, brought them back to the British Museum in London, and spent the next ten years studying them, starting with the Epic of Gilgamesh, an ancient poem from Mesopotamia. The researcher Matt LaCroix tells this in the 1870s setting without naming a source. He tells it because it is how these ancient texts first came to be read in the modern world."
+  "attestation": 1.0,
+  "tier": "well-attested",
+  "plain": "A man named George Smith got hold of clay tablets from the ancient city of Nineveh, brought them back to the British Museum and spent the next ten years studying them, finding among them the Epic of Gilgamesh and its flood story. That is how the researcher Matt LaCroix tells it to Michels, without naming a source. The British Museum's own book on the subject, The Babylonian Story of the Deluge and the Epic of Gilgamish, published in 1920 and translated by E. A. Wallis Budge, gives more detail. It says the first tablets, 'discovered by Layard and Rassam at Nineveh', reached the museum 'in 1854-5'. It says the museum 'employed George Smith' in 1866 to sort and rejoin them, that he published his account of the flood story in December 1872, and that he dug up 'many fragments' himself at Kuyûnjik, the mound at Nineveh, in 1873 and 1874, before he died in 1876. Read that way, LaCroix's picture of Smith bringing tablets back fits those later fragments, not the collection Smith first read, and his years on the tablets, 1866 to 1876, come close to LaCroix's ten.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Epic of Gilgamish, Tablet XI (translated by E. A. Wallis Budge in The Babylonian Story of the Deluge)",
+      "source": "https://www.gutenberg.org/ebooks/7096",
+      "text": "In the introduction to The Babylonian Story of the Deluge, Budge writes that the tablets \"discovered by Layard and Rassam at Nineveh came to the British Museum in 1854-5\", that the Trustees \"employed George Smith\" in 1866 to sort and rejoin them, that he found among them the Gilgamish tablets and the Deluge account, published in December 1872, and that \"During the excavations which Smith carried out at Kuyûnjik in 1873 and 1874 he recovered many fragments\" before he died in 1876. In this account the first tablets reached the museum through Layard and Rassam, and Smith's own finds at Nineveh are the further fragments of 1873 and 1874; the teller's picture of Smith bringing the tablets to the museum fits those later fragments, not the collection he first read. His years on the tablets run from 1866 to 1876, close to the teller's ten."
+    }
+  ]
 }

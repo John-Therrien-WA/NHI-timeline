@@ -18,16 +18,16 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 299,
-    "told-by-several": 148,
-    "told-once": 5876
+    "well-attested": 342,
+    "told-by-several": 145,
+    "told-once": 5836
   },
   "counts": {
     "stories": 6323,
-    "tellings": 8919,
-    "independent_tellers": 6886,
+    "tellings": 9061,
+    "independent_tellers": 6934,
     "repetitions": 328,
-    "documents": 2245,
+    "documents": 2281,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
@@ -2268,24 +2268,25 @@
       }
     },
     "200-watchers-swear-an-oath-on-mount-hermon": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.0,
+      "score": 4.0,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 3,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "tim-alberino"
         ],
         "episodes": [
@@ -2504,8 +2505,8 @@
       }
     },
     "2016-trip-with-tyler-and-garry-nolan": {
-      "attestation": 1.25,
-      "score": 2.5,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -2516,7 +2517,7 @@
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
@@ -4632,24 +4633,25 @@
       }
     },
     "aaro-told-the-wsj-the-shutdown-was-an-emp-test-2025": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
+          "joel-schectman",
           "robert-salas"
         ],
         "episodes": [
@@ -10336,25 +10338,26 @@
       }
     },
     "anna-paulina-luna-on-joe-rogan-read-the-book-of-enoch-for-ua-2020": {
-      "attestation": 1.05,
-      "score": 2.1,
-      "tier": "told-once",
+      "attestation": 2.3,
+      "score": 4.6,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "official",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "anna-paulina-luna"
+          "anna-paulina-luna",
+          "enoch"
         ],
         "episodes": [
           "CiQTBOQ1dTg"
@@ -12797,24 +12800,25 @@
       }
     },
     "ascent-through-the-seven-hekhalot-in-enoch-and-merkavah-text": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-once",
+      "attestation": 1.85,
+      "score": 3.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "jesse-michels"
         ],
         "episodes": [
@@ -15121,25 +15125,26 @@
       }
     },
     "balls-of-light-over-hanford-plutonium-site-1945": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-once",
+      "attestation": 1.7,
+      "score": 3.4,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-hastings"
         ],
         "episodes": [
           "2-GeTxXi670",
@@ -19956,25 +19961,26 @@
       }
     },
     "blue-book-special-report-14-contradicts-its-press-release-1950": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.55,
+      "score": 3.1,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
-        "official_records": 0,
+        "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "official",
         "tellers": [
-          "maaneli-derakhshani"
+          "maaneli-derakhshani",
+          "us-air-force"
         ],
         "episodes": [
           "uVVqFg2v7ro"
@@ -21053,8 +21059,8 @@
       }
     },
     "book-of-the-watchers-dated-to-around-300-bc": {
-      "attestation": 0.75,
-      "score": 1.5,
+      "attestation": 0.5,
+      "score": 1.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -21066,7 +21072,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -26271,26 +26277,27 @@
       }
     },
     "cattle-mutilations-in-the-missile-field-area-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 2,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "journalist",
         "tellers": [
           "jesse-michels",
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -38233,24 +38240,25 @@
       }
     },
     "demons-as-the-spirits-of-dead-nephilim-giants": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.75,
+      "score": 3.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "tim-alberino"
         ],
         "episodes": [
@@ -43263,25 +43271,26 @@
       }
     },
     "echo-flight-incident-1967": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-by-several",
+      "attestation": 1.7,
+      "score": 3.4,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 1,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "journalist",
         "tellers": [
           "jesse-michels",
+          "robert-hastings",
           "robert-salas"
         ],
         "episodes": [
@@ -43290,25 +43299,26 @@
       }
     },
     "echo-flight-incident-and-the-boeing-sac-report-1967": {
-      "attestation": 1.65,
-      "score": 3.3,
+      "attestation": 2.75,
+      "score": 5.5,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 3,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
           "jesse-michels",
+          "robert-hastings",
           "robert-salas"
         ],
         "episodes": [
@@ -45405,25 +45415,26 @@
       }
     },
     "elizondo-confirms-hastings-ufos-and-nukes-reporting": {
-      "attestation": 1.05,
-      "score": 2.1,
-      "tier": "told-once",
+      "attestation": 2.15,
+      "score": 4.3,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
-          "luis-elizondo"
+          "luis-elizondo",
+          "robert-hastings"
         ],
         "episodes": [
           "1f16VvXaSSE"
@@ -46436,24 +46447,25 @@
       }
     },
     "enoch-s-ascent-and-transformation-into-metatron": {
-      "attestation": 0.35,
-      "score": 0.7,
-      "tier": "told-once",
+      "attestation": 1.6,
+      "score": 3.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "jesse-michels"
         ],
         "episodes": [
@@ -48802,25 +48814,26 @@
       }
     },
     "f-e-warren-missile-outage-blamed-on-a-tic-tac-2010": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 1,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-hastings"
         ],
         "episodes": [
           "2SQXAPCdmPE",
@@ -48886,8 +48899,8 @@
       }
     },
     "faa-supervisor-tracks-five-unknowns-near-malmstrom-hastings-1960": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 2.0,
+      "score": 4.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -48898,7 +48911,7 @@
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 2,
         "credited_documents": 0,
         "repetitions": 1,
         "contradicted": false,
@@ -51440,25 +51453,26 @@
       }
     },
     "fleeing-a-close-encounters-screening-in-rapid-city-1977": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "told-once",
+      "attestation": 2.35,
+      "score": 4.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -51519,25 +51533,26 @@
       }
     },
     "flight-surgeon-gum-exam-burns-and-skin-samples-while-osi-wat-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -53339,25 +53354,26 @@
       }
     },
     "four-gliding-beings-in-uniforms-beside-the-truck-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -56952,23 +56968,23 @@
       }
     },
     "george-knapp-says-harry-reid-read-hastings-s-book-before-see-2023": {
-      "attestation": 0.75,
-      "score": 1.5,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
-        "firsthand": 0,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "firsthand",
         "tellers": [
           "robert-hastings"
         ],
@@ -57004,24 +57020,25 @@
       }
     },
     "george-smith-deciphers-the-tablets-starting-with-gilgamesh-1870": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.0,
+      "score": 2.0,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 1,
+        "researcher": 2,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
         "tellers": [
+          "e-a-wallis-budge",
           "matt-lacroix"
         ],
         "episodes": [
@@ -63942,8 +63959,8 @@
       }
     },
     "hal-puthoff-ordered-copies-of-ufos-and-nukes-to-give-out-in-2005": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 2.0,
+      "score": 4.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -63954,7 +63971,7 @@
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
@@ -65402,25 +65419,26 @@
       }
     },
     "hastings-confessions-his-own-abduction-experiences-2008": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-hastings"
         ],
         "episodes": [
           "bVhSPH2A5Vw"
@@ -68954,24 +68972,25 @@
       }
     },
     "how-the-atlantis-story-passed-from-solon-to-critias": {
-      "attestation": 0.25,
-      "score": 0.5,
-      "tier": "told-once",
+      "attestation": 1.75,
+      "score": 3.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "plato",
           "randall-carlson"
         ],
         "episodes": [
@@ -69110,25 +69129,26 @@
       }
     },
     "huge-glowing-craft-over-the-november-5-missile-site-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "rjUdn6FklAU"
@@ -79761,24 +79781,25 @@
       }
     },
     "jude-quotes-the-book-of-enoch": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "told-once",
+      "attestation": 2.0,
+      "score": 4.0,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "tim-alberino"
         ],
         "episodes": [
@@ -87336,25 +87357,26 @@
       }
     },
     "light-flashes-answered-by-a-stationary-light-over-the-prairi-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -91075,19 +91097,19 @@
       }
     },
     "malmstrom-missiles-disabled-by-red-glowing-object-1967": {
-      "attestation": 3.8,
-      "score": 7.6,
+      "attestation": 4.9,
+      "score": 9.8,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 5,
+        "independent_tellers": 6,
         "firsthand": 2,
         "official_records": 1,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 2,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 2,
         "contradicted": false,
@@ -91097,6 +91119,7 @@
           "daniel-sheehan",
           "karl-nell",
           "kevin-knuth",
+          "robert-hastings",
           "robert-salas"
         ],
         "episodes": [
@@ -92248,25 +92271,26 @@
       }
     },
     "mario-finds-his-right-b-52-pilot-glove-missing-from-his-bag-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "rjUdn6FklAU"
@@ -92378,25 +92402,26 @@
       }
     },
     "mario-s-glove-seen-on-the-shiny-floor-of-the-craft-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "michael-johnson"
+          "michael-johnson",
+          "robert-hastings"
         ],
         "episodes": [
           "rjUdn6FklAU"
@@ -92456,25 +92481,26 @@
       }
     },
     "mario-woods-abduction-at-ellsworth-afb": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "told-once",
+      "attestation": 1.85,
+      "score": 3.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 1,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-hastings"
         ],
         "episodes": [
           "GQlWf54K_7Y",
@@ -92514,23 +92540,23 @@
       }
     },
     "mario-woods-debriefed-and-found-with-circular-wounds-at-the-1960": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-by-several",
+      "attestation": 1.6,
+      "score": 3.2,
+      "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
-        "secondhand": 2,
+        "journalist": 1,
+        "secondhand": 1,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "journalist",
         "tellers": [
           "jesse-michels",
           "robert-hastings"
@@ -93231,25 +93257,26 @@
       }
     },
     "matching-puncture-marks-examined-by-dr-margo-2019": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.6,
+      "score": 3.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 1,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "journalist",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8"
@@ -95677,25 +95704,26 @@
       }
     },
     "message-do-not-fear-mario-woods-heard-from-the-beings-1960": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -96398,25 +96426,26 @@
       }
     },
     "michael-johnson-s-visit-and-matching-drawings-1977": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "told-once",
+      "attestation": 2.35,
+      "score": 4.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -98181,25 +98210,26 @@
       }
     },
     "missing-time-waking-up-by-a-reservoir-dam-near-newell-1977": {
-      "attestation": 0.1,
-      "score": 0.2,
-      "tier": "told-once",
+      "attestation": 1.2,
+      "score": 2.4,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-hastings"
         ],
         "episodes": [
           "rjUdn6FklAU"
@@ -122939,25 +122969,26 @@
       }
     },
     "reassigned-to-kilo-control-and-never-team-leader-again-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8"
@@ -126627,26 +126658,27 @@
       }
     },
     "robert-hastings-7-or-8-of-167-nuclear-witnesses-had-close-en-1960": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 1,
+        "researcher": 2,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "richard-barth"
+          "richard-barth",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -126708,26 +126740,27 @@
       }
     },
     "robert-hastings-interviews-on-ufos-at-nuclear-bases-1940": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 1,
+        "researcher": 2,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
           "jesse-michels",
-          "john-blitch"
+          "john-blitch",
+          "robert-hastings"
         ],
         "episodes": [
           "-0g3lLGxNfc",
@@ -131244,25 +131277,26 @@
       }
     },
     "same-words-do-not-fear-recalled-by-both-men-under-hypnosis-1977": {
-      "attestation": 0.1,
-      "score": 0.2,
-      "tier": "told-once",
+      "attestation": 1.2,
+      "score": 2.4,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "robert-hastings"
         ],
         "episodes": [
           "h6zMVkncTsE",
@@ -133828,25 +133862,26 @@
       }
     },
     "secrecy-briefing-at-kilo-control-and-ostracism-after-the-inc-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "rjUdn6FklAU"
@@ -134512,24 +134547,25 @@
       }
     },
     "senate-to-pass-the-64-page-uap-disclosure-bill-again-2025": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "told-once",
+      "attestation": 2.55,
+      "score": 5.1,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
-        "official_records": 0,
+        "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
+          "chuck-schumer",
           "daniel-sheehan"
         ],
         "episodes": [
@@ -137437,25 +137473,26 @@
       }
     },
     "small-grays-and-a-tall-gray-during-mario-woods-s-abduction-1960": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "told-once",
+      "attestation": 2.35,
+      "score": 4.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8",
@@ -137886,24 +137923,25 @@
       }
     },
     "son-of-man-title-taken-from-the-parables-of-enoch": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.0,
+      "score": 4.0,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 3,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "tim-alberino"
         ],
         "episodes": [
@@ -142948,25 +142986,26 @@
       }
     },
     "susan-gough-s-psychological-operations-role-as-a-source-for-2025": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-once",
+      "attestation": 1.45,
+      "score": 2.9,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "joel-schectman"
         ],
         "episodes": [
           "h0hAit-KH9A"
@@ -147531,24 +147570,25 @@
       }
     },
     "the-gadarene-demoniac-and-the-appointed-time": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "told-once",
+      "attestation": 2.0,
+      "score": 4.0,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "tim-alberino"
         ],
         "episodes": [
@@ -150893,24 +150933,25 @@
       }
     },
     "tim-taylor-s-downloaded-business-ideas": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "told-once",
+      "attestation": 1.5,
+      "score": 3.0,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 1,
-        "researcher": 0,
+        "researcher": 1,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "secondhand",
         "tellers": [
+          "diana-pasulka",
           "jesse-michels"
         ],
         "episodes": [
@@ -154077,8 +154118,8 @@
       }
     },
     "tsiolkovsky-in-touch-with-angelic-beings": {
-      "attestation": 1.75,
-      "score": 3.5,
+      "attestation": 2.25,
+      "score": 4.5,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -154089,7 +154130,7 @@
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 1,
+        "documents": 2,
         "credited_documents": 0,
         "repetitions": 1,
         "contradicted": false,
@@ -160020,26 +160061,27 @@
       }
     },
     "vandenberg-ufo-takes-down-dummy-warhead-1964": {
-      "attestation": 1.5,
-      "score": 3.0,
+      "attestation": 2.6,
+      "score": 5.2,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
+        "independent_tellers": 3,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 1,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 3,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
           "bob-jacobs",
-          "kirk-mcconnell"
+          "kirk-mcconnell",
+          "robert-hastings"
         ],
         "episodes": [
           "2-GeTxXi670",
@@ -162438,25 +162480,26 @@
       }
     },
     "wall-street-journal-emp-explanation-for-malmstrom-1967": {
-      "attestation": 0.85,
-      "score": 1.7,
-      "tier": "told-once",
+      "attestation": 1.7,
+      "score": 3.4,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 1,
+        "journalist": 2,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "joel-schectman"
         ],
         "episodes": [
           "-0g3lLGxNfc",
@@ -162916,24 +162959,25 @@
       }
     },
     "watchers-flew-to-mount-hermon-in-advanced-aerospace-craft": {
-      "attestation": 0.5,
-      "score": 1.0,
-      "tier": "told-once",
+      "attestation": 1.75,
+      "score": 3.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "tim-alberino"
         ],
         "episodes": [
@@ -165568,25 +165612,26 @@
       }
     },
     "woods-s-partner-frozen-at-the-wheel-1977": {
-      "attestation": 1.0,
-      "score": 2.0,
-      "tier": "told-once",
+      "attestation": 2.1,
+      "score": 4.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "WBTqsbwJyqU"
@@ -166148,25 +166193,26 @@
       }
     },
     "written-incident-report-at-colonel-spraker-s-office-never-gi-1977": {
-      "attestation": 1.25,
-      "score": 2.5,
-      "tier": "told-once",
+      "attestation": 2.35,
+      "score": 4.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "mario-woods"
+          "mario-woods",
+          "robert-hastings"
         ],
         "episodes": [
           "73YBwFvcmF8"
@@ -166174,25 +166220,26 @@
       }
     },
     "wsj-claim-that-air-force-hazing-rituals-explain-ufo-mytholog-2025": {
-      "attestation": 0.85,
-      "score": 1.7,
-      "tier": "told-once",
+      "attestation": 1.7,
+      "score": 3.4,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 1,
+        "journalist": 2,
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "joel-schectman"
         ],
         "episodes": [
           "JE1oM89dpBc",
@@ -166569,24 +166616,25 @@
       }
     },
     "younger-dryas-impact-caused-the-great-flood-and-reset-civili": {
-      "attestation": 2.35,
-      "score": 4.7,
+      "attestation": 3.6,
+      "score": 7.2,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 3,
-        "firsthand": 1,
+        "independent_tellers": 4,
+        "firsthand": 2,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 1,
-        "documents": 1,
-        "credited_documents": 2,
+        "documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "jack-missileman",
           "joe-rogan",
           "utnapishtim"

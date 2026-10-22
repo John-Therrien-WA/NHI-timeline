@@ -43,33 +43,61 @@
         "place_text": "Gadara",
         "story_kind": "encounter"
       }
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "15:11",
+      "teller": "enoch",
+      "quote": "And the spirits of the giants =afflict=, oppress, destroy, attack, do battle, and work destruction on the earth, and cause trouble: they take no food, ⌜but nevertheless hunger⌝ and thirst, and cause offences.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "16:1",
+      "teller": "enoch",
+      "quote": "From the days of the slaughter and destruction and death ⌜of the giants⌝, from the souls of whose flesh the spirits, having gone forth, shall destroy without incurring judgement—thus shall they destroy until the day of the consummation, the great ⌜judgement⌝ in which the age shall be consummated over the Watchers and the godless, yea, shall be wholly consummated.”",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "55:4",
+      "teller": "enoch",
+      "quote": "Ye †mighty kings† who dwell on the earth, ye shall have to behold Mine Elect One, how he sits on the throne of glory and judges Azâzêl, and all his associates, and all his hosts in the name of the Lord of Spirits.’",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "enoch",
       "tim-alberino"
     ],
     "episodes": [
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "In a Bible story, Jesus and his disciples came to the land of Gadara and met a possessed man whom the locals chained up in the tombs because he would scream, and the spirits in him spoke of an \"appointed time.\" The researcher Tim Alberino retells it from the New Testament gospels and ties it to the Book of Enoch, an ancient religious text, in the translation by R. H. Charles, to suggest the spirits knew of a set day of judgment awaiting them."
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "When Jesus came to the land of Gadara with his disciples and met a possessed man whom the locals chained in the tombs because he screamed, the spirits in him were, by Tim Alberino's reading, the spirits of the giants from the Book of Enoch, waiting for an appointed time of judgement. Alberino, a researcher, tells Michels this from the Bible and the Book of Enoch, an ancient Jewish text left out of most Bibles, without naming other sources. In R. H. Charles's 1917 translation, Enoch says \"the spirits of the giants afflict, oppress, destroy\" and \"cause trouble\", that they will destroy \"until the day of the consummation, the great judgement\", and that an \"Elect One\" will sit on a throne and judge Azâzêl, a fallen angel, \"and all his hosts\". Tying the Gadara story to that schedule is Alberino's comparison of what happens in each, which would make the demons of the Gospels the giants' leftover spirits."
 }

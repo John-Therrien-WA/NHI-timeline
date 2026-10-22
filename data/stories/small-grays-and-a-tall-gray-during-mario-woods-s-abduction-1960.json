@@ -1,10 +1,10 @@
 {
   "id": "small-grays-and-a-tall-gray-during-mario-woods-s-abduction-1960",
   "title": "Small Grays and a tall Gray during Mario Woods's abduction",
-  "era": "cold-war-early",
+  "era": "cold-war-late",
   "years": {
-    "from": 1960,
-    "to": 1969
+    "from": 1977,
+    "to": 1977
   },
   "place": null,
   "place_text": "On board a craft, South Dakota",
@@ -54,34 +54,44 @@
         "place_text": "aboard craft near November 5, South Dakota",
         "story_kind": "encounter"
       }
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 20",
+      "teller": "robert-hastings",
+      "quote": "I think I remember small figures, maybe five or six, walking toward the vehicle. Standing behind them was a taller figure who I think was in charge.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 4.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "mario-woods"
+      "mario-woods",
+      "robert-hastings"
     ],
     "episodes": [
       "73YBwFvcmF8",
       "fzvwBBSmWYA"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
-  "plain": "Mario Woods, a former guard at a nuclear missile base, says he was taken aboard a craft in South Dakota and saw beings there. He says they looked like \"the small Grays,\" the gray-skinned, big-eyed beings of many abduction stories, with a taller gray one standing behind them, like the figure on the cover of Communion, the writer Whitley Strieber's book about his own encounters. Woods tells it in two episodes, and the dates differ: one telling places it in the 1960s, the other in 1977, around November 5."
+  "attestation": 2.35,
+  "tier": "well-attested",
+  "plain": "Mario Woods, an Air Force nuclear missile guard in South Dakota, says that when he was taken aboard a craft in 1977 he saw small Grays, the short grey-skinned beings common in abduction stories, with a taller Gray standing behind them, like the one in the book Communion by the writer Whitley Strieber. He tells this firsthand on the show, twice in nearly the same words. In the journalist Robert Hastings's 2017 article he says it more tentatively: \"I think I remember small figures, maybe five or six, walking toward the vehicle. Standing behind them was a taller figure who I think was in charge.\""
 }

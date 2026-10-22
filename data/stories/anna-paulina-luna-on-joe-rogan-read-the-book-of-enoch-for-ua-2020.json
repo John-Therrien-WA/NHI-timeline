@@ -25,33 +25,79 @@
       "documents": [
         "book-of-enoch"
       ]
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "8:1",
+      "teller": "enoch",
+      "quote": "And Azâzêl taught men to make swords, and knives, and shields, and breastplates, and made known to them =the metals= ‹of the earth› and the art of working them, and bracelets, and ornaments, and the use of antimony, and the beautifying of the eyelids, and all kinds of costly stones, and all colouring tinctures.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "8:2",
+      "teller": "enoch",
+      "quote": "And there arose much godlessness, and they committed fornication, and they were led astray, and became corrupt in all their ways.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "8:3",
+      "teller": "enoch",
+      "quote": "Semjâzâ taught enchantments, and root-cuttings, Armârôs the resolving of enchantments, Barâqîjâl, (taught) astrology, Kôkabêl the constellations, =Ezêqêêl the knowledge of the clouds=, ‹Araqiêl the signs of the earth, Shamsiêl the signs of the sun›, and Sariêl the course of the moon.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "10:2",
+      "teller": "enoch",
+      "quote": "‘‹Go to Noah and› tell him in my name “Hide thyself!”, and reveal to him the end that is approaching: that the whole earth will be destroyed, and a deluge is about to come upon the whole earth, and will destroy all that is on it.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "10:8",
+      "teller": "enoch",
+      "quote": "And the whole earth has been corrupted through the works that were taught by Azâzêl: to him ascribe all sin.’",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.1,
+  "score": 4.6,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "official",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "anna-paulina-luna"
+      "anna-paulina-luna",
+      "enoch"
     ],
     "episodes": [
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 1.05,
-  "tier": "told-once",
-  "plain": "A US congresswoman named Anna Paulina Luna told Joe Rogan, host of a popular interview podcast, that anyone curious where unidentified flying objects come from should read the Book of Enoch, an ancient religious text, here in a translation by the scholar R. H. Charles. In her words, the book \"talks about the fall of angels,\" which created \"the precursor of civilization that led to the first flood,\" and her remarks come up on an episode with the researcher Tim Alberino as a hint that these beings may be very old."
+  "attestation": 2.3,
+  "tier": "well-attested",
+  "plain": "A member of Congress named Anna Paulina Luna, in a clip from her talk with the podcaster Joe Rogan played on the show, says that anyone curious about where UAP come from (unidentified anomalous phenomena, the official term for UFOs) should read the Book of Enoch, which 'talks about the fall of angels, um, thus creating really the precursor of civilization that led to the first flood.' In R. H. Charles's 1917 translation, the fallen angels teach people to make 'swords, and knives, and shields' and to work metals, along with astrology, 'the constellations' and 'the course of the moon'. Then 'much godlessness' follows, the earth is 'corrupted through the works that were taught', and Noah is warned that 'a deluge is about to come upon the whole earth', so the book tells the teaching as corruption leading to the flood, and calling it the precursor of civilization is Luna's reading, which the text neither states nor excludes."
 }

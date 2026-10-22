@@ -28,33 +28,61 @@
       "documents": [
         "uap-disclosure-act"
       ]
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-disclosure-act-of-2025-sa-3",
+      "page": "S4847",
+      "teller": "chuck-schumer",
+      "quote": "SA 3111. Mr. SCHUMER (for himself, Mr. Rounds, and Mrs. Gillibrand) submitted an amendment intended to be proposed by him to the bill S. 2296, to authorize appropriations for fiscal year 2026 for military activities of the Department of Defense, for military construction, and for defense activities of the Department of Energy, to prescribe military personnel strengths for such fiscal year, and for other purposes; which was ordered to lie on the table; as follows:",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-disclosure-act-of-2025-sa-3",
+      "page": "Sec. __01, S4847",
+      "teller": "chuck-schumer",
+      "quote": "This division may be cited as the ``Unidentified Anomalous Phenomena Disclosure Act of 2025'' or the ``UAP Disclosure Act of 2025''.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.5,
+  "score": 5.1,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
+      "chuck-schumer",
       "daniel-sheehan"
     ],
     "episodes": [
       "C4rSj5Aum7w"
     ]
   },
-  "attestation": 1.25,
-  "tier": "told-once",
-  "plain": "A lawyer named Dan Sheehan says that the US Senate is \"going to pass the 64-page bill again,\" meaning the UAP Disclosure Act, a proposed law to force the release of government records on UAP, the government's term for UFOs. He talks about it in 2025 as someone involved in the push, and names Senators Mike Rounds and Chuck Schumer, Marco Rubio and the congressman Dan Crenshaw. If he is right, lawmakers would try a second time to make the government open its UFO files."
+  "attestation": 2.55,
+  "tier": "well-attested",
+  "plain": "The lawyer Dan Sheehan predicted on the show in 2025 that 'the Senate is going to pass the 64page bill again'. He meant the UAP Disclosure Act, a measure on releasing government records about unidentified anomalous phenomena (the official term for UFOs), which Senators Chuck Schumer and Mike Rounds first put forward in July 2023 as an amendment to the yearly defence law. The Congressional Record of 29 July 2025 prints the 'UAP Disclosure Act of 2025' as an amendment that Schumer 'submitted' for himself, Rounds and Kirsten Gillibrand to the Senate's defence bill for fiscal 2026, 'which was ordered to lie on the table', so the Record shows the bill brought back to the Senate, while Sheehan's forecast that the Senate would pass it goes a step beyond what that page records.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Unidentified Anomalous Phenomena Disclosure Act of 2025 (SA 3111 to S. 2296)",
+      "date": "2025-07-29",
+      "source": "https://www.govinfo.gov/content/pkg/CREC-2025-07-29/html/CREC-2025-07-29-pt1-PgS4847-3.htm",
+      "text": "In the Congressional Record of 29 July 2025 the UAP Disclosure Act of 2025 is printed as an amendment (SA 3111) that Schumer \"submitted\" for himself, Rounds and Gillibrand to S. 2296, the Senate's defence authorization bill for fiscal year 2026, \"which was ordered to lie on the table\". The Record of that day shows the bill brought back to the Senate as a submitted amendment; the teller's forecast that the Senate would pass it goes a step beyond what this page records."
+    }
+  ]
 }

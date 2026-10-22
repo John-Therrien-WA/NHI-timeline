@@ -73,26 +73,36 @@
         "place_text": "NASA; Kennedy Space Center",
         "story_kind": "testimony"
       }
+    },
+    {
+      "document": "interview-d-w-pasulka-brings-american-cosmic-to-the-ufo-fore",
+      "page": "paragraph 5",
+      "teller": "diana-pasulka",
+      "quote": "Tyler has an unusual ability to predict the future, which explains in part his improbable success. He credits his ‘protocol’ with allowing him to predict outcomes, and maybe this is true, I don’t know. His protocol involves physical and mental exercises.",
+      "kind": "researcher",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 1,
-    "researcher": 0,
+    "researcher": 1,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "secondhand",
     "tellers": [
+      "diana-pasulka",
       "jesse-michels"
     ],
     "episodes": [
@@ -101,7 +111,16 @@
       "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "An entrepreneur named Timothy Taylor claims that many of his business ideas came from \"downloads\", information he believes he receives from a non-human intelligence, and says these downloads were made possible by certain protocols he followed. Michels tells this more than once, drawing on American Cosmic, a book by the religion scholar Diana Pasulka in which Taylor appears. It comes up because, if true, it would mean real-world inventions and businesses are being shaped by contact with something non-human."
+  "attestation": 1.5,
+  "tier": "well-attested",
+  "plain": "Timothy Taylor, a successful businessman described in American Cosmic, a book by the religion scholar Diana Pasulka, claims that many of his business ideas came from \"downloads\" he receives from an intelligence he believes is non-human, made possible by \"protocols\" he follows, as Michels tells it from Pasulka's book. In a 2018 interview, Pasulka said of the man she calls Tyler that he \"credits his 'protocol' with allowing him to predict outcomes, and maybe this is true, I don't know\", the protocol being \"physical and mental exercises.\" The step from a protocol that helps him predict outcomes to business ideas downloaded from a non-human source is Michels's reading of the book; the interview neither says it nor rules it out.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "INTERVIEW: D.W Pasulka brings 'American Cosmic' to the UFO forefront",
+      "date": "2018-12-21",
+      "source": "https://www.punkrockandufos.com/blog/2018/12/21/interview-dw-pasulka-brings-american-cosmic-to-the-ufo-forefront",
+      "text": "Here Pasulka writes that Tyler \"credits his ‘protocol’ with allowing him to predict outcomes, and maybe this is true, I don’t know\", a protocol of \"physical and mental exercises\"; she keeps her own doubt beside his claim. The step from a protocol that predicts outcomes to business ideas downloaded from a non-human intelligence is the tellers' reading of the book, which this interview neither states nor excludes."
+    }
+  ]
 }

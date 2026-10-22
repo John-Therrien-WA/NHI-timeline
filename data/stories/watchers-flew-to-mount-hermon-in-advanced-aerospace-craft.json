@@ -40,33 +40,70 @@
         "place_text": "Mount Hermon",
         "story_kind": "cosmology"
       }
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "6:6",
+      "teller": "enoch",
+      "quote": "And they were in all two hundred; who descended ⌜in the days⌝ of =Jared= on the summit of Mount Hermon, and they called it Mount Hermon, because they had sworn and bound themselves by mutual imprecations upon it.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "15:6",
+      "teller": "enoch",
+      "quote": "But you were ⌜formerly⌝ spiritual, living the eternal life, and immortal for all generations of the world.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "15:7",
+      "teller": "enoch",
+      "quote": "And therefore I have not appointed wives for you; for as for the spiritual ones of the heaven, in heaven is their dwelling.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.0,
+  "score": 3.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "enoch",
       "tim-alberino"
     ],
     "episodes": [
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 0.5,
-  "tier": "told-once",
-  "plain": "The Watchers, fallen angels who come down to the summit of Mount Hermon in the ancient religious text the Book of Enoch, may really have arrived 'at the helms of advanced aerospace vehicles', what would be called UFOs today. That is the reading of the researcher Tim Alberino, who works from R. H. Charles's English translation of the book. He makes the point twice in the same conversation, as his own belief, and it would turn an old religious story into a record of a visit by flying craft."
+  "attestation": 1.75,
+  "tier": "well-attested",
+  "plain": "The Watchers were the two hundred heavenly beings who, in the Book of Enoch, come down to earth, and the researcher Tim Alberino believes they reached the summit of Mount Hermon at the controls of advanced aerospace vehicles, 'what we would describe today as UFOs'. He tells Michels this as his own reading. The Book of Enoch, an ancient text he credits in R. H. Charles's 1917 translation, says the two hundred 'descended' on 'the summit of Mount Hermon'. It also has God tell them they were once 'spiritual, living the eternal life, and immortal', and that 'in heaven is their dwelling'. The book tells of spirits coming down from heaven. The step from that to beings flying craft is Alberino's, and the text neither states it nor rules it out.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Book of Enoch (translated by R. H. Charles)",
+      "date": "1917",
+      "source": "https://www.gutenberg.org/ebooks/77935",
+      "text": "The book says the two hundred \"descended\" on \"the summit of Mount Hermon\" (6:6), and has God tell the Watchers that they were \"spiritual, living the eternal life, and immortal\", and that \"as for the spiritual ones of the heaven, in heaven is their dwelling\" (15:6 to 7). The book tells spirits come down from heaven; the step from that descent to beings at the helms of aerospace vehicles is the teller's reading, which he gives as his belief, and the text neither states nor excludes it."
+    }
+  ]
 }

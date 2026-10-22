@@ -21,33 +21,61 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 35",
+      "teller": "robert-hastings",
+      "quote": "After a few weeks, I was removed from November Control and reassigned to Kilo Control near Sturgis, South Dakota.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "former-usaf-missile-security-policeman-tells-of-apparent-ufo",
+      "page": "paragraph 36",
+      "teller": "robert-hastings",
+      "quote": "I remained at Kilo Command, working with a different guy, Sgt. --- -------, as a SAT team member, then leader, and then FSC.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 4.2,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "mario-woods"
+      "mario-woods",
+      "robert-hastings"
     ],
     "episodes": [
       "73YBwFvcmF8"
     ]
   },
-  "attestation": 1.0,
-  "tier": "told-once",
-  "plain": "A former guard at a nuclear missile field named Mario Woods says that after the night he describes as a UFO abduction in 1977, near Ellsworth in South Dakota, he was moved for good. He says he \"never went back\" to the post he had been working, Wimer control, and was sent to another post in the missile field called Kilo control. He says he was never made team leader again, which he tells as a sign that the event quietly changed his career."
+  "attestation": 2.1,
+  "tier": "well-attested",
+  "plain": "Mario Woods, an Air Force missile security guard who says he was abducted at a South Dakota missile site in 1977, tells Michels that afterwards he \"never went back\" to his old post, November control, and was sent to another, Kilo control, and that he was never made a team leader again, as if he had been quietly moved aside. In the account he wrote for the researcher Robert Hastings in 2017, he was \"reassigned to Kilo Control near Sturgis\" \"after a few weeks\" and served there \"as a SAT team member, then leader, and then FSC\": that is, on a Security Alert Team, then leading one, then as Flight Security Controller, so the 2017 text has him leading a team again.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Former USAF Missile Security Policeman Tells of Apparent UFO Abduction at ICBM Site",
+      "date": "2017-09-10",
+      "source": "https://www.ufohastings.com/articles/former-usaf-missile-security-policeman-tells-of-apparent-ufo-abduction-at-icbm-site",
+      "text": "In the account Woods wrote for Hastings in 2017 he was \"reassigned to Kilo Control near Sturgis\" \"after a few weeks\" and served there \"as a SAT team member, then leader, and then FSC\". The later telling says he was never made team leader again; the 2017 text says he led a team again at Kilo and then became the Flight Security Controller."
+    }
+  ]
 }

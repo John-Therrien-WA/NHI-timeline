@@ -23,33 +23,43 @@
         "epistle-of-jude",
         "book-of-enoch"
       ]
+    },
+    {
+      "document": "book-of-enoch",
+      "page": "1:9",
+      "teller": "enoch",
+      "quote": "And behold! He cometh with ten thousands of ⌜His⌝ holy ones To execute judgement upon all, And to destroy ⌜all⌝ the ungodly: And to convict all flesh Of all the works ⌜of their ungodliness⌝ which they have ungodly committed, ⌜And of all the hard things which⌝ ungodly sinners ⌜have spoken⌝ against Him.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "enoch",
       "tim-alberino"
     ],
     "episodes": [
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "The Letter of Jude, a short book of the Bible's New Testament, takes words word for word from the Book of Enoch, an ancient Jewish text left out of most Bibles. Tim Alberino, a filmmaker and researcher, says this on the show in his own summary. It matters because it would show that early Christians treated Enoch as scripture."
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "The Epistle of Jude, a short letter in the New Testament, copies its words word for word from the Book of Enoch, an ancient Jewish text that most Bibles leave out, says the researcher Tim Alberino, who tells Michels this without naming a source. If so, at least one New Testament writer treated Enoch as worth quoting. In R. H. Charles's 1917 translation, the Enoch passage reads: \"And behold! He cometh with ten thousands of His holy ones To execute judgement upon all, And to destroy all the ungodly.\""
 }

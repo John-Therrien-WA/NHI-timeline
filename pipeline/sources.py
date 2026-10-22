@@ -55,6 +55,7 @@ changed stories are printed so `explain --force` can rewrite their plain telling
 from __future__ import annotations
 
 import argparse
+import http.client
 import re
 import sys
 import urllib.error
@@ -325,7 +326,7 @@ def download(url: str) -> str:
         raise SystemExit(f"fetch failed: {url}: HTTP {e.code} {e.reason}")
     except urllib.error.URLError as e:
         raise SystemExit(f"fetch failed: {url}: {e.reason}")
-    except OSError as e:
+    except (OSError, http.client.IncompleteRead) as e:
         raise SystemExit(f"fetch failed: {url}: {e}")
     try:
         text = data.decode(charset)

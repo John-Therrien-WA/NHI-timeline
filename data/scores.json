@@ -18,16 +18,16 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 297,
+    "well-attested": 299,
     "told-by-several": 148,
-    "told-once": 5878
+    "told-once": 5876
   },
   "counts": {
     "stories": 6323,
-    "tellings": 8910,
-    "independent_tellers": 6884,
+    "tellings": 8919,
+    "independent_tellers": 6886,
     "repetitions": 328,
-    "documents": 2240,
+    "documents": 2246,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
@@ -32657,25 +32657,26 @@
       }
     },
     "congressional-and-senate-hearings-reveal-immaculate-constell-2024": {
-      "attestation": 0.1,
-      "score": 0.2,
-      "tier": "told-once",
+      "attestation": 1.2,
+      "score": 2.4,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 0,
         "official_records": 0,
         "official_conclusions": 0,
-        "journalist": 0,
+        "journalist": 1,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "journalist",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "michael-shellenberger"
         ],
         "episodes": [
           "2Xxmguz0GEQ",
@@ -45509,23 +45510,23 @@
       }
     },
     "elizondo-neither-confirms-nor-denies-being-read-into-immacul-2024": {
-      "attestation": 0.35,
-      "score": 0.7,
+      "attestation": 1.75,
+      "score": 3.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
-        "firsthand": 0,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
-        "host": 1,
-        "documents": 0,
+        "host": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 1,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "firsthand",
         "tellers": [
           "luis-elizondo"
         ],
@@ -45849,25 +45850,26 @@
       }
     },
     "elizondo-won-t-confirm-or-deny-immaculate-constellation-befo-2024": {
-      "attestation": 0.1,
-      "score": 0.2,
-      "tier": "told-once",
+      "attestation": 1.6,
+      "score": 3.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels"
+          "jesse-michels",
+          "luis-elizondo"
         ],
         "episodes": [
           "A2-y_HasHEw"
@@ -66954,8 +66956,8 @@
       }
     },
     "high-definition-helicopter-video-of-orbs-rising-from-the-oce": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 1.35,
+      "score": 2.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -66966,7 +66968,7 @@
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
@@ -70440,8 +70442,8 @@
       }
     },
     "immaculate-constellation-report-describes-a-large-strategic-2024": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 1.35,
+      "score": 2.7,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -70452,7 +70454,7 @@
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 1,
         "contradicted": false,
@@ -70467,8 +70469,8 @@
       }
     },
     "immaculate-constellation-rotating-triangles-over-indopacom-2017": {
-      "attestation": 0.75,
-      "score": 1.5,
+      "attestation": 0.5,
+      "score": 1.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -70480,7 +70482,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -70520,8 +70522,8 @@
       }
     },
     "immaculate-constellation-usap-managed-by-dod-but-held-at-the-2024": {
-      "attestation": 1.35,
-      "score": 2.7,
+      "attestation": 1.85,
+      "score": 3.7,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -70532,7 +70534,7 @@
         "secondhand": 1,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
@@ -155723,8 +155725,8 @@
       }
     },
     "uap-secrecy-justified-under-a-law-enforcement-provision": {
-      "attestation": 0.6,
-      "score": 1.2,
+      "attestation": 1.1,
+      "score": 2.2,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -155735,7 +155737,7 @@
         "secondhand": 0,
         "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,

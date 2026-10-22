@@ -42,6 +42,15 @@
         "place_text": "Washington, DC",
         "story_kind": "program"
       }
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-exposing-the-truth",
+      "page": "Statement of Michael Shellenberger",
+      "teller": "michael-shellenberger",
+      "quote": "these individuals have revealed the name of an active and highly secretive DoD unacknowledged special access program, or USAP.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -62,30 +71,31 @@
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 2.4,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 2,
     "firsthand": 0,
     "official_records": 0,
     "official_conclusions": 0,
-    "journalist": 0,
+    "journalist": 1,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "journalist",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "michael-shellenberger"
     ],
     "episodes": [
       "2Xxmguz0GEQ",
       "8TYMQOUDQBo"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
-  "plain": "In 2024, according to Jesse Michels, public hearings in Washington, first in the House of Representatives and then in the Senate, brought out the existence of a secret program called Immaculate Constellation. Michels gives this as his own framing in a December 2024 episode, without naming a source, and raises it again in January 2025 with a Navy scientist named Salvatore Pais, where he mentions no Senate hearing and just calls it \"this idea of this, you know, top secret program.\" If true, it would mean Congress had learned of a hidden government effort tied to the UFO question."
+  "attestation": 1.2,
+  "tier": "well-attested",
+  "plain": "In late 2024, hearings in Congress brought out the name of a secret military program said to study UFOs, called Immaculate Constellation. At the House Oversight Committee hearing on UFOs on 13 November 2024, the journalist Michael Shellenberger said in his statement that his sources \"have revealed the name of an active and highly secretive DoD unacknowledged special access program, or USAP.\" DoD is the Defense Department, and a USAP is a secret program whose very existence the government does not admit. Michels speaks of it on the show in December 2024, describing hearings \"both in the Congress and then this week in the Senate\" and \"this revelation of this program.\" In January 2025 he raises it again with a Navy scientist, calling it simply a top secret program and saying nothing of a Senate hearing. The official hearing record is the firsthand source here, and Michels passes it on as the host. If the program is real, the military has been running a hidden effort on UFOs that Congress did not know about."
 }

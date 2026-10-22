@@ -48,6 +48,15 @@
         "place_text": "United States Congress",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-exposing-the-truth",
+      "page": "Statement of Michael Shellenberger",
+      "teller": "michael-shellenberger",
+      "quote": "The source of that document told Public, me, that the USAP is a strategic intelligence program that is part of the U.S. military family of longstanding, highly sensitive programs dealing with various aspects of the UAP problem.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -68,7 +77,7 @@
     }
   ],
   "tags": [],
-  "score": 1.7,
+  "score": 2.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -78,7 +87,7 @@
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 1,
     "contradicted": false,
@@ -91,7 +100,16 @@
       "lbGE3EC6StE"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.35,
   "tier": "told-once",
-  "plain": "In 2024, a report on something called Immaculate Constellation described a secret US government programme for gathering data on UAPs, the official term for UFOs. The journalist Michael Shellenberger, who released the report, says it shows that \"a very large strategic intelligence project\" exists to evaluate this information. Michels describes it a bit differently: as a 12-page report on what seemed to be an unacknowledged special access programme, a secret project whose existence the government does not admit, put out around the time Shellenberger testified before Congress."
+  "plain": "The journalist Michael Shellenberger says the unsigned Immaculate Constellation report he gave Congress in November 2024 shows \"a very large strategic intelligence project\" to study UFO data. He told the hearing this came from the report's source, who described it as part of a \"family of longstanding, highly sensitive programs\", and Michels later calls it a 12-page report on a secret program the government does not admit to. The report itself, which the Defense Department says matches no program it knows of, calls it \"a central or 'parent'\" secret program that \"consolidates observations\" of UFOs and is \"a nexus for collecting, analyzing, and disseminating intelligence\"; so it describes a program that pulls the data together, while how big it is comes from the tellers.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Immaculate Constellation report (anonymous, entered into the House Oversight hearing record, 13 November 2024)",
+      "date": "2024-11-13",
+      "source": "https://mace.house.gov/sites/evo-subsites/mace.house.gov/files/evo-media-document/Cannon%20212_20241113_154539.pdf",
+      "text": "An unsigned report that Michael Shellenberger delivered to Congress and Rep. Nancy Mace entered into the record of the House Oversight hearing of 13 November 2024 as a document from the Pentagon; it calls itself the public version of a Defense Department employee's report, cleared for release by the State Department; Matthew Brown, a former Defense Department official, later said he wrote it; and a Defense Department spokesperson said the department has no record of a program by that name. The report calls the program \"a central or 'parent' USAP that consolidates observations of UAP and ARV activities\" and \"a nexus for collecting, analyzing, and disseminating intelligence\" on them. Michael Shellenberger's \"very large strategic intelligence project\" is his summary of it, which he told the hearing came from the report's source; the report's own words are a consolidating program, and the size of what it holds is the tellers' account."
+    }
+  ]
 }

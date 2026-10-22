@@ -55,6 +55,15 @@
         "outside": true
       },
       "teller_was": "jesse-michels"
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-exposing-the-truth",
+      "page": "Questioning by Ms. Mace, second round",
+      "teller": "luis-elizondo",
+      "quote": "Ma'am, I would not be authorized to confirm nor deny the existence of any ongoing or past program, especially as it relates to a special access program, either by name or trigraph.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -65,21 +74,21 @@
     }
   ],
   "tags": [],
-  "score": 0.7,
+  "score": 3.5,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
-    "host": 1,
-    "documents": 0,
+    "host": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 1,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
       "luis-elizondo"
     ],
@@ -88,7 +97,16 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 0.35,
+  "attestation": 1.75,
   "tier": "told-once",
-  "plain": "At a 2024 hearing of the House Oversight Committee in Washington, a man named Luis Elizondo was asked whether he had been briefed into Immaculate Constellation, a secret UFO program named in a report brought out by the journalist Michael Shellenberger, and he answered that he could neither confirm nor deny it. Michels points to that answer as telling, since a flat denial would have been easy if no such program existed. Elizondo himself later recalls his words a little differently on the show: that he would not be authorised to confirm or deny the existence of any ongoing or past program."
+  "plain": "At a House of Representatives hearing on UFOs on 13 November 2024, a former Pentagon official named Luis Elizondo was asked whether he had been cleared into the secret program called Immaculate Constellation. The record has him answering that he \"would not be authorized to confirm nor deny the existence of any ongoing or past program, especially as it relates to a special access program, either by name or trigraph\" (a trigraph is a program's three-letter code). Michels calls it \"a very interesting answer\" the next day, and in a later episode he links it to the journalist Michael Shellenberger, Representative Nancy Mace and Jeremy Corbell. The unsigned report on the program, which Mace put into the hearing record, names Elizondo twice: once as the man whose 2017 public disclosure of a small Pentagon UFO study office led to the program being set up, and once saying internal records \"confirm the claims of Mr. Lue Elizondo\". Both mentions tie him to that earlier office, and the report does not say whether he was brought into Immaculate Constellation itself.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Immaculate Constellation report (anonymous, entered into the House Oversight hearing record, 13 November 2024)",
+      "date": "2024-11-13",
+      "source": "https://mace.house.gov/sites/evo-subsites/mace.house.gov/files/evo-media-document/Cannon%20212_20241113_154539.pdf",
+      "text": "An unsigned report that Michael Shellenberger delivered to Congress and Rep. Nancy Mace entered into the record of the House Oversight hearing of 13 November 2024 as a document from the Pentagon; it calls itself the public version of a Defense Department employee's report, cleared for release by the State Department; Matthew Brown, a former Defense Department official, later said he wrote it; and a Defense Department spokesperson said the department has no record of a program by that name. The report names Luis Elizondo twice: the program was \"established following the public disclosure of the AATIP/AAWSAP programs by Luis Elizondo in 2017\", and internal records \"confirm the claims of Mr. Lue Elizondo regarding AATIP/AAWSAP's mission, activities, and findings\". Both tie him to AATIP; whether he was read into Immaculate Constellation itself is the question Rep. Nancy Mace put to him at the hearing, and the report does not take it up."
+    }
+  ]
 }

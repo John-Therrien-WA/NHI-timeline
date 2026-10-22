@@ -23,6 +23,15 @@
         "luis-elizondo"
       ],
       "documents": []
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-exposing-the-truth",
+      "page": "Questioning by Ms. Mace, second round",
+      "teller": "luis-elizondo",
+      "quote": "Ma'am, I would not be authorized to confirm nor deny the existence of any ongoing or past program, especially as it relates to a special access program, either by name or trigraph.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -43,29 +52,39 @@
     }
   ],
   "tags": [],
-  "score": 0.2,
+  "score": 3.2,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "jesse-michels"
+      "jesse-michels",
+      "luis-elizondo"
     ],
     "episodes": [
       "A2-y_HasHEw"
     ]
   },
-  "attestation": 0.1,
-  "tier": "told-once",
-  "plain": "Testifying before Congress in 2024, a former Pentagon intelligence officer named Luis Elizondo said he could neither confirm nor deny being briefed on Immaculate Constellation, said to be a secret Pentagon program that gathers UFO data. Michels tells this himself, dating the hearing to September 2024 and quoting Elizondo's refusal. He points to it because the dodge suggests the program exists and Elizondo knows about it."
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "A former Pentagon official named Luis Elizondo was asked under oath before Congress whether he had been brought into a secret program called Immaculate Constellation, and he would neither say yes nor say no. Representative Nancy Mace put the question to him at the House Oversight Committee hearing on UFOs on 13 November 2024: \"were you read in to the Immaculate Constellation program?\" Being \"read in\" means being formally cleared and told about a secret program. The official hearing record gives his answer: \"I would not be authorized to confirm nor deny the existence of any ongoing or past program, especially as it relates to a special access program, either by name or trigraph.\" A special access program is a tightly restricted secret project, and a trigraph is its three-letter code name. Michels brings the moment up in a 2026 episode as a sign that Elizondo knew more than he could say. Michels places the hearing in September 2024, while the record dates it to 13 November 2024. If the refusal means what Michels takes it to mean, a man who once worked inside the Pentagon was holding back knowledge of the program.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Unidentified Anomalous Phenomena: Exposing the Truth",
+      "date": "2024-11-13",
+      "source": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg57440/html/CHRG-118hhrg57440.htm",
+      "text": "Luis Elizondo gave this answer to Rep. Nancy Mace's question \"were you read in to the Immaculate Constellation program?\" at the House Oversight hearing of 13 November 2024; Jesse Michels places it in September 2024."
+    }
+  ]
 }

@@ -20,11 +20,29 @@
       "documents": [
         "immaculate-constellation-report"
       ]
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-exposing-the-truth",
+      "page": "Statement of Michael Shellenberger",
+      "teller": "michael-shellenberger",
+      "quote": "since my reporting on this Immaculate Constellation last month, another source came forward who told me that they saw a roughly 13-minute long, high-definition, full-color video of a white orb UAP coming out of the ocean approximately 20 miles off the coast of Kuwait. It was filmed from a helicopter.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-exposing-the-truth",
+      "page": "Statement of Michael Shellenberger",
+      "teller": "michael-shellenberger",
+      "quote": "halfway through the video, the person said the orb is joined by another orb that briefly comes into the frame from the left before rapidly moving again out of the frame.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 2.7,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -34,7 +52,7 @@
     "secondhand": 0,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
@@ -46,7 +64,16 @@
       "DPmO-2E7Ayg"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.35,
   "tier": "told-once",
-  "plain": "A very clear video, filmed from a helicopter about 20 miles off the coast of Kuwait, is said to show a glowing ball rising out of the ocean and then being joined by a second one. The journalist Michael Shellenberger describes it on the show. He takes it from a report on a secret government program, said to be called Immaculate Constellation, that collected sightings like this, and if the report is right, the government holds high-quality footage of such objects that it has never released."
+  "plain": "A crew in a helicopter is said to have filmed a roughly 13-minute, high-definition, full-color video of a white orb rising out of the ocean about 20 miles off the coast of Kuwait. Halfway through, \"another orb\" is said to come into the frame from the left, then leave fast. The journalist Michael Shellenberger told Congress on 13 November 2024, and Michels the next day, that he had not seen the video himself. He said it was described to him by \"another source\" who came forward after his reporting on the secret program Immaculate Constellation, and who found it on a classified military computer network. So by his own testimony it comes from that separate source and not from the program's report. If the video exists, the military holds clear footage of objects that move between sea and sky.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Unidentified Anomalous Phenomena: Exposing the Truth",
+      "date": "2024-11-13",
+      "source": "https://www.govinfo.gov/content/pkg/CHRG-118hhrg57440/html/CHRG-118hhrg57440.htm",
+      "text": "At the hearing Michael Shellenberger says the Kuwait video was described to him by \"another source\" who came forward \"since my reporting on this Immaculate Constellation last month\", and that this person found it on SIPR. The story credits the video to the Immaculate Constellation report; by his testimony it comes from that separate source."
+    }
+  ]
 }

@@ -44,6 +44,24 @@
         "place_text": "National Security Council, White House",
         "story_kind": "program"
       }
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-exposing-the-truth",
+      "page": "Questioning by Mr. Higgins",
+      "teller": "michael-shellenberger",
+      "quote": "after I published, I was told that this program--that the USAP was actually managed by the Department of Defense but held at the White House.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "unidentified-anomalous-phenomena-exposing-the-truth",
+      "page": "Questioning by Mr. Higgins",
+      "teller": "michael-shellenberger",
+      "quote": "But that is a single source, and I do not have multiple sources to verify that.",
+      "kind": "journalist",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -64,7 +82,7 @@
     }
   ],
   "tags": [],
-  "score": 2.7,
+  "score": 3.7,
   "profile": {
     "independent_tellers": 2,
     "firsthand": 0,
@@ -74,7 +92,7 @@
     "secondhand": 1,
     "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
@@ -88,7 +106,16 @@
       "yGtVzBbUvx4"
     ]
   },
-  "attestation": 1.35,
+  "attestation": 1.85,
   "tier": "well-attested",
-  "plain": "The story is about Immaculate Constellation, said to be an unacknowledged special access program, meaning a secret US government program whose existence is not officially admitted, which supposedly gathers UFO data. The journalist Michael Shellenberger, who published a report on the program in 2024, says that after it came out he was told the program was \"managed by the Department of Defense but held at the White House.\" In other words, the Pentagon ran it day to day, but it sat under the President's own house. A Pentagon whistleblower named Matthew Brown tells it differently, passing on what he was told. He says the program is \"ran out of and owned by the National Security Council,\" the President's own security staff at the White House, rather than managed by the Pentagon. Brown also calls it an old mission that started well before 2017. Both accounts come from unnamed sources speaking to the tellers, and if either is right, it would mean the secret UFO effort reaches all the way to the White House."
+  "plain": "A secret military program called Immaculate Constellation is said to be run from the White House rather than only from the Pentagon. The journalist Michael Shellenberger says so: he made the program public, and he told a House of Representatives hearing on UFOs, held by the House Committee on Oversight and Accountability on 13 November 2024, that after he published he was told the program was \"actually managed by the Department of Defense but held at the White House.\" At the same hearing he added, \"that is a single source, and I do not have multiple sources to verify that,\" and he repeated the claim to Michels the next day. He calls it an unacknowledged special access program, a secret program whose existence the government does not admit. His evidence was an unsigned report that he gave to Congress, and which Representative Nancy Mace entered into the hearing record as a Pentagon document. The report calls the program \"an Unacknowledged Special Access Program\" that collects imagery \"utilizing tasked and untasked U.S. military-intelligence resources\", but it does not say which office manages it or holds it. The Defense Department says it has no record of a program by that name. A former Defense Department official named Matthew Brown, who later said he wrote the report, tells it a little differently to Michels in 2026: he says the program is \"ran out of and owned by the National Security Council,\" the President's security advisers at the White House, and that it is an old mission that started before 2017. If either is right, the White House itself would be keeping track of these objects.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Immaculate Constellation report (anonymous, entered into the House Oversight hearing record, 13 November 2024)",
+      "date": "2024-11-13",
+      "source": "https://mace.house.gov/sites/evo-subsites/mace.house.gov/files/evo-media-document/Cannon%20212_20241113_154539.pdf",
+      "text": "An unsigned report that Michael Shellenberger delivered to Congress and Rep. Nancy Mace entered into the record of the House Oversight hearing of 13 November 2024 as a document from the Pentagon; it calls itself the public version of a Defense Department employee's report, cleared for release by the State Department; Matthew Brown, a former Defense Department official, later said he wrote it; and a Defense Department spokesperson said the department has no record of a program by that name. The report calls the program \"an Unacknowledged Special Access Program (USAP)\" collecting imagery \"utilizing tasked and untasked U.S. military-intelligence resources\", and does not say which office manages or holds it. The White House comes from what Michael Shellenberger says he was told after he published, from one source by his own account at the hearing, and the National Security Council from Matthew Brown, who later said he wrote the report."
+    }
+  ]
 }

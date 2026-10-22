@@ -67,7 +67,7 @@ Two stories are linked when they share a document or an event (`related` with `s
 ## What the score is not
 
 - Not truth. A hoax told by twenty independent people scores high, and should: the project maps what is told.
-- Not reach. A story repeated by every podcast but sourced to one person scores like one person; the repetitions and the episodes are in the profile, so the difference between corroboration and virality stays visible.
+- Not reach. A story repeated by every podcast but sourced to one person who tells it in an episode scores like one person (a cite of a checked source counts by item 2 of "Tellers and independence", and the source's author does not absorb the citers); the repetitions and the episodes are in the profile, so the difference between corroboration and virality stays visible.
 - Not a verdict on a contradiction. A contradicted story keeps its score; the flag and the link say that someone tells it otherwise.
 
 ## Open questions
@@ -75,3 +75,4 @@ Two stories are linked when they share a document or an event (`related` with `s
 - The record and conclusion split of `official`. The research (FRE 803(8)'s "matter observed" against a conclusion) suggests a record of observation keep a high weight and the knob scale only explanatory conclusions. The profile already counts the two apart; nothing sets `official_kind` yet, so both weigh the same until the extractor or a hand edit marks conclusions.
 - Era normalisation. Stories before 1970 have fewer living tellers by nature; there is one corpus-wide median.
 - Recanting. A teller who later recants is a `contradicts` link to their own earlier telling, which flags both and changes no weight; whether a recantation should remove the earlier telling's weight is open.
+- Citers of one source. Tellers who cite the same checked source are independent of each other, as citers of any document always were; whether a shared source should group them is open.

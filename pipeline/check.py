@@ -115,7 +115,7 @@ from . import clips, images, sources
 from .build import STORY_KEYS
 from . import documents as documents_stage
 from . import people as people_stage
-from .common import (DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, REPO, RELATIONS,
+from .common import (DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
@@ -829,6 +829,7 @@ def image_ingest_problems(root: Root) -> list[str]:
         if left:
             out.append(f"expect: the images ingest wrote fail the check: {left}")
         out += image_copy_problems(root, entry, jpeg, fetch, asked, quiet)
+        out += picture_date_problems(root, entry, fetch, quiet)
         for what, bad in (("a fair-use headshot", {**entry, "owner": "bo-fixture", "kind": "headshot", "licence_kind": "fair-use"}),
                           ("an owner that is nothing", {**entry, "owner": "nobody-fixture"}),
                           ("a headshot for a story", {**entry, "kind": "headshot"}),
@@ -897,6 +898,29 @@ def image_copy_problems(root: Root, entry: dict, jpeg: bytes, fetch, asked: list
             out.append(f"expect: images.ingest --from fetched {asked} or wrote files before refusing a scratch sidecar whose file is missing")
     finally:
         shutil.rmtree(scratch, ignore_errors=True)
+    return out
+
+
+PICTURE_IMAGE = {"kind": "object", "image_url": "https://example.org/fixture/century.jpg", "source": "https://example.org/fixture/century",
+                 "licence": "Public domain (fixture)", "licence_kind": "free", "credit": "Fixture Survey Office",
+                 "caption": "A fictional woodcut, made in the 16th century."}
+
+
+def picture_date_problems(root: Root, entry: dict, fetch, quiet) -> list[str]:
+    """A picture date of "16th century" is refused by `images.ingest` with the rule `common.PICTURE_DATE_RULE`, and a
+    null date is absent: the entry lands with no `date` in its sidecar. Called inside `image_ingest_problems`, whose
+    `finally` removes what lands under the owner."""
+    out: list[str] = []
+    try:
+        images.ingest(root, [{**entry, **PICTURE_IMAGE, "date": "16th century"}], fetch=fetch, echo=quiet)
+        out.append("expect: images.ingest accepted the picture date '16th century'")
+    except SystemExit as x:
+        if PICTURE_DATE_RULE not in str(x):
+            out.append(f"expect: images.ingest refused the date '16th century' without the rule {PICTURE_DATE_RULE!r}: {x}")
+    lines, _ = images.ingest(root, [{**entry, **PICTURE_IMAGE, "date": None}], fetch=fetch, echo=quiet)
+    held = [sc for _, sc in images.load_sidecars(root).get(entry["owner"], []) if sc["image_url"] == PICTURE_IMAGE["image_url"]]
+    if len(held) != 1 or "date" in held[0]:
+        out.append(f"expect: images.ingest of a null date wrote {held} (printed {lines}), expected one sidecar with no date")
     return out
 
 
@@ -1368,6 +1392,15 @@ def _source_ingest_problems(root: Root, tmp: Path) -> list[str]:
                 out.append(f"expect: {what} was refused without naming {needle!r}: {x}")
         if snapshot(r.path) != before:
             out.append(f"expect: sources wrote files for an entry refused for {what}")
+    before = snapshot(r.path)
+    try:
+        sources.run(r, [entry([p2], [q2], images=[{**PICTURE_IMAGE, "owner": sid, "date": "16th century"}])], fetch=fetch, echo=quiet)
+        out.append("expect: sources accepted a picture dated '16th century'")
+    except SystemExit as x:
+        if PICTURE_DATE_RULE not in str(x):
+            out.append(f"expect: sources refused a picture dated '16th century' without the rule {PICTURE_DATE_RULE!r}: {x}")
+    if snapshot(r.path) != before:
+        out.append("expect: sources wrote files for an entry refused for a picture dated '16th century'")
     res = sources.run(r, [refused[2][1], entry([p2], [q2])], fetch=fetch, keep_going=True, echo=quiet)
     if len(res["failures"]) != 1 or "404" not in res["failures"][0]:
         out.append(f"expect: keep_going listed {res['failures']}, expected the one failed fetch")

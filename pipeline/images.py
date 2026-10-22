@@ -54,7 +54,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-from .common import DATE, HTTP, REPO, Root, load_json, rel, save_json, text_field
+from .common import DATE, HTTP, PICTURE_DATE_RULE, REPO, Root, load_json, rel, save_json, text_field
 
 STORY_IMAGE_KINDS = ("object", "place-then", "place-now", "person")
 PERSON_IMAGE_KINDS = ("headshot",)
@@ -194,8 +194,8 @@ def fields_problems(where: str, e: dict, keys: tuple, optional: tuple, owner_typ
             out.append(f"{where}: {k} {e[k]!r} is not an http(s) URL")
     if "licence_kind" in e and e["licence_kind"] not in LICENCE_KINDS:
         out.append(f"{where}: licence_kind {e['licence_kind']!r} is not one of {', '.join(LICENCE_KINDS)}")
-    if "date" in e and not (isinstance(e["date"], str) and DATE.fullmatch(e["date"])):
-        out.append(f"{where}: date {e['date']!r} is not YYYY, YYYY-MM or YYYY-MM-DD")
+    if e.get("date") is not None and not (isinstance(e["date"], str) and DATE.fullmatch(e["date"])):
+        out.append(f"{where}: date {e['date']!r} is refused. {PICTURE_DATE_RULE}")
     if owner_type is not None and "kind" in e:
         allowed = kinds_for(owner_type)
         if e["kind"] not in allowed:
@@ -438,7 +438,7 @@ def sidecar_for(e: dict, file: str, fetched: str) -> dict:
     sc = {"file": file, "kind": e["kind"], "caption": e["caption"], "source": e["source"], "image_url": e["image_url"],
           "licence": e["licence"], "licence_kind": e["licence_kind"], "credit": e["credit"]}
     for k in MANIFEST_OPTIONAL:
-        if k in e:
+        if e.get(k) is not None:  # a null date or person is absent, the key left out
             sc[k] = e[k]
     sc["fetched"] = fetched
     return sc

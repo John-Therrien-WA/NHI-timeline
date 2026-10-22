@@ -222,3 +222,8 @@ the check's prefixes (`check.TEMP_PREFIXES`) left in that folder.
 padded JPEG) and runs `review.run` on them and a third: the page is refused over the 16,000,000 bytes
 an artifact allows a file, nothing written, and the message names the size and the split, the first
 story alone and the second with the third. The pictures are removed afterwards.
+
+`check.picture_date_problems` (inside `check.image_ingest_problems`) proves the picture date rule: a
+manifest picture dated "16th century" is refused with `common.PICTURE_DATE_RULE` in the message, and
+one with a null date lands with no `date` in its sidecar; `check.source_ingest_problems` sees the
+same refusal, with nothing written, for a sources entry whose picture is dated "16th century".

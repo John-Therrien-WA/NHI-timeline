@@ -27,7 +27,7 @@
     "tellings": 8919,
     "independent_tellers": 6886,
     "repetitions": 328,
-    "documents": 2246,
+    "documents": 2245,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
@@ -52970,8 +52970,8 @@
       }
     },
     "forrestal-truman-meeting-dates-match-mj-12-documents-1947": {
-      "attestation": 1.1,
-      "score": 2.2,
+      "attestation": 0.85,
+      "score": 1.7,
       "tier": "well-attested",
       "profile": {
         "independent_tellers": 2,
@@ -52983,7 +52983,7 @@
         "researcher": 1,
         "host": 1,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",

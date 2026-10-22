@@ -8,18 +8,21 @@
    "majestic-12-documentation",
    "leaked-mj12-memos",
    "majestic-12",
-   "mj-12"
+   "mj-12",
+   "majestic-12-document"
   ],
-  "reason": "Every member names the papers leaked from 1984 into the 1990s as the Majestic 12 or MJ-12 documents (Jesse Michels: \"a string of documents '84 into the '90s\"; the Gordon Gray, Menzel, Bronk and Forrestal tellings credit them under each spelling); a document titled Majestic 12 or MJ-12 can only be these papers. Majestic (Strieber's novel), the Woods' Majestic Documents collection and the single MJ-12 document are left out."
+  "reason": "Every member names the papers leaked from 1984 into the 1990s as the Majestic 12 or MJ-12 documents (Jesse Michels: \"a string of documents '84 into the '90s\"; the Gordon Gray, Menzel, Bronk and Forrestal tellings credit them under each spelling); a document titled Majestic 12 or MJ-12 can only be these papers. Majestic (Strieber's novel), the Woods' Majestic Documents collection and the single MJ-12 document are left out. majestic-12-document is a generic reference to the MJ-12 papers in the Oppenheimer and Gray security-hearing story."
  },
  {
   "canonical": "eisenhower-briefing-document",
   "title": "Eisenhower briefing document (MJ-12, 1952)",
   "members": [
    "majestic-12-briefing-document",
-   "eisenhower-briefing-memo"
+   "eisenhower-briefing-memo",
+   "mj-12-document",
+   "truman-forrestal-memo"
   ],
-  "reason": "One MJ-12 paper: the briefing supposedly prepared in November 1952 for president-elect Eisenhower; the majestic-12-briefing-document story credits it under both ids and Greg Bishop's account of the MJ12 papers calls it the Eisenhower briefing memo."
+  "reason": "One MJ-12 paper: the briefing supposedly prepared in November 1952 for president-elect Eisenhower; the majestic-12-briefing-document story credits it under both ids and Greg Bishop's account of the MJ12 papers calls it the Eisenhower briefing memo. mj-12-document is \"the original leaker of the MJ-12 document\" in the Moore confession story, the film-roll papers; truman-forrestal-memo is the Truman memo of 24 September 1947 credited by the Forrestal story, held here as the briefing document's Attachment A."
  },
  {
   "canonical": "new-york-times-article-2017",

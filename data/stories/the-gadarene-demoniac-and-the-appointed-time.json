@@ -20,7 +20,7 @@
         "jesus-of-nazareth"
       ],
       "documents": [
-        "new-testament-gospels",
+        "bible",
         "book-of-enoch"
       ]
     },
@@ -33,7 +33,7 @@
       "kind": "researcher",
       "cites": [],
       "documents": [
-        "new-testament"
+        "bible"
       ],
       "difference": "Adds the detail that he was chained in the tombs and screamed, and credits the New Testament instead of Jesus.",
       "link_reason": "Both tell the Gospel encounter with the Gadarene demoniac in the land of Gadara, and the teller is the same.",
@@ -47,7 +47,7 @@
   ],
   "related": [],
   "tags": [],
-  "score": 2.0,
+  "score": 1.5,
   "profile": {
     "independent_tellers": 1,
     "firsthand": 0,
@@ -58,7 +58,7 @@
     "researcher": 1,
     "host": 0,
     "documents": 0,
-    "credited_documents": 3,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "researcher",
@@ -69,7 +69,7 @@
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 1.0,
+  "attestation": 0.75,
   "tier": "told-once",
   "plain": "In a Bible story, Jesus and his disciples came to the land of Gadara and met a possessed man whom the locals chained up in the tombs because he would scream, and the spirits in him spoke of an \"appointed time.\" The researcher Tim Alberino retells it from the New Testament gospels and ties it to the Book of Enoch, an ancient religious text, in the translation by R. H. Charles, to suggest the spirits knew of a set day of judgment awaiting them."
 }

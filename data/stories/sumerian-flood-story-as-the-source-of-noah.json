@@ -24,37 +24,127 @@
       "documents": [
         "epic-of-gilgamesh",
         "atrahasis",
-        "genesis",
+        "bible",
         "sumerian-king-list",
         "eridu-genesis"
       ]
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 24",
+      "teller": "utnapishtim",
+      "quote": "Throw down the house, build a ship,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 27",
+      "teller": "utnapishtim",
+      "quote": "Carry grain of every kind into the ship.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 86",
+      "teller": "utnapishtim",
+      "quote": "The cattle of the field, the beasts of the field, all handicraftsmen I made them go up into it.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 129",
+      "teller": "utnapishtim",
+      "quote": "The storm raged, and the cyclone overwhelmed the land.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 142",
+      "teller": "utnapishtim",
+      "quote": "The mountain of Nisir held the ship, it let it not move.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 147",
+      "teller": "utnapishtim",
+      "quote": "I brought out a dove and let her go free.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 150",
+      "teller": "utnapishtim",
+      "quote": "I brought out a swallow and let her go free.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 153",
+      "teller": "utnapishtim",
+      "quote": "I brought out a raven and let her go free.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 155",
+      "teller": "utnapishtim",
+      "quote": "She ate, she pecked in the ground, she croaked, she came not back.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 3.0,
+  "score": 5.5,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 5,
+    "documents": 1,
+    "credited_documents": 4,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "matt-lacroix"
+      "matt-lacroix",
+      "utnapishtim"
     ],
     "episodes": [
       "A_LsUSxTm7A"
     ]
   },
-  "attestation": 1.5,
-  "tier": "told-once",
-  "plain": "The story of Noah's flood in Genesis, the first book of the Bible, is said to be almost a copy of older flood stories from ancient Mesopotamia, in what is now Iraq. Those are the Epic of Gilgamesh and the Atrahasis, ancient poems about a great flood. A researcher of ancient history named Matt LaCroix says that if you compare them the flood story is \"literally almost identical to Genesis\". He gives this as his own summary, naming the scholars George Smith, Stephanie Dalley and Samuel Kramer along the way, and the point is that the Bible story would have grown out of the Mesopotamian ones."
+  "attestation": 2.75,
+  "tier": "well-attested",
+  "plain": "A researcher named Matt LaCroix says on the show that the flood stories of ancient Mesopotamia, in the Epic of Gilgamesh and the older poem Atrahasis, are \"almost identical to Genesis,\" which would make them the source of Noah's ark. In E. A. Wallis Budge's 1920 translation of the epic's eleventh tablet, the survivor Utnapishtim is told to \"throw down the house, build a ship,\" loads it with grain, cattle and craftsmen, rides out a storm until \"the mountain of Nisir held the ship,\" and then sends out a dove, a swallow and a raven, which \"came not back.\" The epic names neither Noah nor Genesis: the comparison is LaCroix's own.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Epic of Gilgamish, Tablet XI (translated by E. A. Wallis Budge in The Babylonian Story of the Deluge)",
+      "source": "https://www.gutenberg.org/ebooks/7096",
+      "text": "The words are from E. A. Wallis Budge's translation (The Babylonian Story of the Deluge, 1920) of the Eleventh Tablet of the Assyrian version, in which Uta-Napishtim tells Gilgamish of the flood. The comparison with Genesis is the teller's: the epic names neither Noah nor Genesis."
+    }
+  ]
 }

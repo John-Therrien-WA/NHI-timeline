@@ -20,33 +20,43 @@
       "documents": [
         "bible"
       ]
+    },
+    {
+      "document": "bible",
+      "page": "Isaiah 37:36",
+      "teller": "isaiah",
+      "quote": "Then the angel of the LORD went forth, and smote in the camp of the Assyrians a hundred and fourscore and five thousand: and when they arose early in the morning, behold, they were all dead corpses.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 3.2,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "isaiah",
       "jesse-michels"
     ],
     "episodes": [
       "rjUdn6FklAU"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "On the night an Assyrian army's siege of Jerusalem breaks, the angel of the Lord moves through the enemy camp. Michels retells this from the Bible, as an old story of a heavenly being stepping into human affairs."
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "In the Bible, an angel of the Lord goes through the camp of the Assyrian army besieging Jerusalem on the night the siege is broken. Michels tells it himself, as one of several old accounts of nonhuman beings acting in human history. The King James Bible, published in 1611, says in the Book of Isaiah that the angel \"smote in the camp of the Assyrians a hundred and fourscore and five thousand,\" which is 185,000 men, and that in the morning \"they were all dead corpses.\""
 }

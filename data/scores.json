@@ -18,16 +18,16 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 290,
+    "well-attested": 297,
     "told-by-several": 148,
-    "told-once": 5885
+    "told-once": 5878
   },
   "counts": {
     "stories": 6323,
-    "tellings": 8866,
-    "independent_tellers": 6874,
+    "tellings": 8910,
+    "independent_tellers": 6884,
     "repetitions": 328,
-    "documents": 2245,
+    "documents": 2240,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
@@ -5433,25 +5433,26 @@
       }
     },
     "adam-and-eve-as-a-memory-of-genetic-manipulation": {
-      "attestation": 0.35,
-      "score": 0.7,
-      "tier": "told-once",
+      "attestation": 1.6,
+      "score": 3.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "joe-rogan"
+          "joe-rogan",
+          "moses"
         ],
         "episodes": [
           "C_Na1tI5qpw"
@@ -12008,25 +12009,26 @@
       }
     },
     "ark-of-the-covenant-as-a-device-that-strikes-people-dead-wit": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "told-once",
+      "attestation": 1.75,
+      "score": 3.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "graham-hancock"
+          "graham-hancock",
+          "moses"
         ],
         "episodes": [
           "9PJJiut0Iuw"
@@ -12086,24 +12088,25 @@
       }
     },
     "armageddon-as-a-kinetic-war-against-the-returning-son-of-god": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "told-once",
+      "attestation": 2.0,
+      "score": 4.0,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "john-of-patmos",
           "tim-alberino"
         ],
         "episodes": [
@@ -20964,20 +20967,20 @@
       }
     },
     "book-of-enoch-watchers-mating-with-humans-and-giants": {
-      "attestation": 3.1,
-      "score": 6.2,
+      "attestation": 4.35,
+      "score": 8.7,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 5,
-        "firsthand": 1,
+        "independent_tellers": 6,
+        "firsthand": 2,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 2,
         "researcher": 1,
         "host": 1,
-        "documents": 1,
-        "credited_documents": 1,
+        "documents": 2,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
@@ -20986,6 +20989,7 @@
           "jay-anderson",
           "jesse-michels",
           "joe-rogan",
+          "moses",
           "tim-alberino"
         ],
         "episodes": [
@@ -35991,24 +35995,25 @@
       }
     },
     "daniel-s-encounter-with-a-being-by-the-tigris": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "told-once",
+      "attestation": 1.6,
+      "score": 3.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "daniel",
           "jesse-michels"
         ],
         "episodes": [
@@ -69364,8 +69369,8 @@
       }
     },
     "humans-as-slave-workers-in-eden": {
-      "attestation": 0.75,
-      "score": 1.5,
+      "attestation": 0.5,
+      "score": 1.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -69377,7 +69382,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 2,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -89164,25 +89169,26 @@
       }
     },
     "lot-s-angelic-visitors-extract-him-before-sodom-s-destructio": {
-      "attestation": 0.85,
-      "score": 1.7,
+      "attestation": 1.85,
+      "score": 3.7,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 0,
+        "independent_tellers": 3,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
           "jesse-michels",
+          "moses",
           "tim-alberino"
         ],
         "episodes": [
@@ -142522,25 +142528,26 @@
       }
     },
     "sumerian-flood-story-as-the-source-of-noah": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "told-once",
+      "attestation": 2.75,
+      "score": 5.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 5,
+        "documents": 1,
+        "credited_documents": 4,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "matt-lacroix"
+          "matt-lacroix",
+          "utnapishtim"
         ],
         "episodes": [
           "A_LsUSxTm7A"
@@ -146660,24 +146667,25 @@
       }
     },
     "the-angel-of-the-lord-in-the-assyrian-camp": {
-      "attestation": 0.35,
-      "score": 0.7,
-      "tier": "told-once",
+      "attestation": 1.6,
+      "score": 3.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 0,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 1,
+        "documents": 1,
+        "credited_documents": 0,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "host",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "isaiah",
           "jesse-michels"
         ],
         "episodes": [
@@ -147521,8 +147529,8 @@
       }
     },
     "the-gadarene-demoniac-and-the-appointed-time": {
-      "attestation": 1.0,
-      "score": 2.0,
+      "attestation": 0.75,
+      "score": 1.5,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
@@ -147534,7 +147542,7 @@
         "researcher": 1,
         "host": 0,
         "documents": 0,
-        "credited_documents": 3,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "researcher",
@@ -166559,26 +166567,27 @@
       }
     },
     "younger-dryas-impact-caused-the-great-flood-and-reset-civili": {
-      "attestation": 1.1,
-      "score": 2.2,
+      "attestation": 2.35,
+      "score": 4.7,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 0,
+        "independent_tellers": 3,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 3,
+        "documents": 1,
+        "credited_documents": 2,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
           "jack-missileman",
-          "joe-rogan"
+          "joe-rogan",
+          "utnapishtim"
         ],
         "episodes": [
           "8TYMQOUDQBo",
@@ -166847,25 +166856,26 @@
       }
     },
     "ziusudra-utnapishtim-s-ark-lands-in-the-ararat-region": {
-      "attestation": 0.75,
-      "score": 1.5,
-      "tier": "told-once",
+      "attestation": 2.0,
+      "score": 4.0,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
-        "firsthand": 0,
+        "independent_tellers": 2,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
         "researcher": 1,
         "host": 0,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "matt-lacroix"
+          "matt-lacroix",
+          "utnapishtim"
         ],
         "episodes": [
           "A_LsUSxTm7A"

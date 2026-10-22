@@ -21,33 +21,69 @@
         "atrahasis",
         "epic-of-gilgamesh"
       ]
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 23",
+      "teller": "utnapishtim",
+      "quote": "O man of Shurippak, son of Ubara-Tutu.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 141",
+      "teller": "utnapishtim",
+      "quote": "The ship took its course to the land of Nisir.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 142",
+      "teller": "utnapishtim",
+      "quote": "The mountain of Nisir held the ship, it let it not move.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "matt-lacroix"
+      "matt-lacroix",
+      "utnapishtim"
     ],
     "episodes": [
       "A_LsUSxTm7A"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "In the ancient flood story, the boat built by the flood hero, called Ziusudra in one version and Utnapishtim in another, set out from the old city of Shuruppak in what is now Iraq and came to rest in the region of Mount Ararat, in the Armenia and Turkey area. A researcher named Matt LaCroix sums this up from two ancient Mesopotamian poems, the Atrahasis and the Epic of Gilgamesh, without quoting a particular source, as part of his case that something huge happened to the world around 12,000 BC."
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "A researcher named Matt LaCroix says on the show that the ark of the Mesopotamian flood hero, called Ziusudra in one version and Utnapishtim in another, came to rest \"in the Mount Ararat region\" of Armenia and Turkey, the same area where the Bible puts Noah's ark. In E. A. Wallis Budge's 1920 translation of the Epic of Gilgamesh, Utnapishtim is the \"man of Shurippak,\" and his ship sails \"to the land of Nisir,\" where \"the mountain of Nisir held the ship.\" The epic never names Ararat, which comes from the Bible's \"mountains of Ararat,\" and never uses the name Ziusudra.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Epic of Gilgamish, Tablet XI (translated by E. A. Wallis Budge in The Babylonian Story of the Deluge)",
+      "source": "https://www.gutenberg.org/ebooks/7096",
+      "text": "The epic gives Uta-Napishtim as the \"man of Shurippak\" and has the ship held by \"the mountain of Nisir\"; it does not name Ararat, which is the Bible's \"mountains of Ararat\" (Genesis 8:4), or the name Ziusudra. The words are from E. A. Wallis Budge's translation (The Babylonian Story of the Deluge, 1920) of the Eleventh Tablet of the Assyrian version, in which Uta-Napishtim tells Gilgamish of the flood."
+    }
+  ]
 }

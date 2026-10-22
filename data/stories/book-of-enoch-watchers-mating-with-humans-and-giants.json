@@ -73,7 +73,7 @@
       "cites": [],
       "documents": [
         "book-of-enoch",
-        "genesis-6"
+        "bible"
       ],
       "difference": "Names lust as the first cause of the Watchers' defection, ties it to Genesis 6, and places it in the days of Jared.",
       "link_reason": "Both tell the Book of Enoch account of the Watchers mating with human women.",
@@ -128,22 +128,49 @@
       "kind": "firsthand",
       "cites": [],
       "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 6:1",
+      "teller": "moses",
+      "quote": "And it came to pass, when men began to multiply on the face of the earth, and daughters were born unto them,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 6:2",
+      "teller": "moses",
+      "quote": "That the sons of God saw the daughters of men that they were fair; and they took them wives of all which they chose.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 6:4",
+      "teller": "moses",
+      "quote": "There were giants in the earth in those days; and also after that, when the sons of God came in unto the daughters of men, and they bare children to them, the same became mighty men which were of old, men of renown.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 6.2,
+  "score": 8.7,
   "profile": {
-    "independent_tellers": 5,
-    "firsthand": 1,
+    "independent_tellers": 6,
+    "firsthand": 2,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 2,
     "researcher": 1,
     "host": 1,
-    "documents": 1,
-    "credited_documents": 1,
+    "documents": 2,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
@@ -152,6 +179,7 @@
       "jay-anderson",
       "jesse-michels",
       "joe-rogan",
+      "moses",
       "tim-alberino"
     ],
     "episodes": [
@@ -161,7 +189,16 @@
       "JGE1NIGhBzw"
     ]
   },
-  "attestation": 3.1,
+  "attestation": 4.35,
   "tier": "well-attested",
-  "plain": "An ancient religious text, the Book of Enoch, tells of angels called the Watchers who came down from heaven, took human women as wives, and fathered giants. In the English translation by the scholar R. H. Charles, the text says the angels \"saw and lusted after\" the daughters of men and agreed to \"choose us wives from among the children of men and beget us children.\" It says two hundred of them came down \"in the days of Jared on the summit of Mount Hermon,\" taught their wives \"charms and enchantments, and the cutting of roots,\" and that the women \"bare great giants, whose height was three thousand ells.\" Michels brings it up in passing as the story where \"there were giants in the earth in those days.\" The podcaster Joe Rogan, crediting the congresswoman Anna Paulina Luna, retells it as the Watchers breeding with humans to make the Nephilim, the giants' name in the Bible, and reads it as a kind of genetic engineering. A guest named Jay Anderson places the beings' arrival on Mount Hermon in Lebanon, and the researcher Tim Alberino says lust was the first cause of the Watchers' fall, tying it to the sixth chapter of Genesis. People raise it on the show because, read literally, it would be an old record of beings from the sky mixing with humankind."
+  "plain": "In the Book of Enoch, an ancient Jewish religious text left out of most Bibles, heavenly beings called the Watchers come down to earth, take human wives, and father a race of giants. Michels raises it himself as background: the Watchers \"mated\" and \"there were giants in the earth in those days.\" The broadcaster Joe Rogan repeats it as something he heard from Anna Paulina Luna, saying the Watchers \"came down and bred with men and created the Nephilim,\" the name for those offspring, and he reads it as a memory of genetic engineering. A researcher named Tim Alberino says the Watchers' first sin was lust, that \"they lusted after the daughters of men,\" and ties this to the sixth chapter of Genesis, while a guest named Jay Anderson leaves out the mating and the giants and only places the Watchers' descent on Mount Hermon in Lebanon. The Book of Enoch, in R. H. Charles's English translation, tells it in Enoch's own voice: the angels \"saw and lusted after them,\" two hundred of them came down \"in the days of Jared on the summit of Mount Hermon,\" taught their wives \"charms and enchantments,\" and the women \"bare great giants.\" The King James Bible, published in 1611, gives a shorter version in Genesis 6, where \"the sons of God\" took wives of \"the daughters of men\" and \"there were giants in the earth in those days.\" Genesis does not call them Watchers or angels, give their number, or name Mount Hermon: those details come only from the Book of Enoch. People tell the story because, if it is true, beings from outside humanity once mixed their blood with ours.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The King James Version of the Bible",
+      "date": "1611",
+      "source": "https://www.gutenberg.org/ebooks/10",
+      "text": "Genesis 6 tells of \"the sons of God\" who took wives of \"the daughters of men\" and of \"giants in the earth in those days\"; it does not call them Watchers or angels, give their number, or name Mount Hermon, which are the Book of Enoch's."
+    }
+  ]
 }

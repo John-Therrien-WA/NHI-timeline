@@ -20,33 +20,79 @@
       "documents": [
         "bible"
       ]
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 1:27",
+      "teller": "moses",
+      "quote": "So God created man in his own image, in the image of God created he him; male and female created he them.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 2:7",
+      "teller": "moses",
+      "quote": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 2:21",
+      "teller": "moses",
+      "quote": "And the LORD God caused a deep sleep to fall upon Adam, and he slept: and he took one of his ribs, and closed up the flesh instead thereof;",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 2:22",
+      "teller": "moses",
+      "quote": "And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.7,
+  "score": 3.2,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 0,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 1,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "host",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "joe-rogan"
+      "joe-rogan",
+      "moses"
     ],
     "episodes": [
       "C_Na1tI5qpw"
     ]
   },
-  "attestation": 0.35,
-  "tier": "told-once",
-  "plain": "The Bible's account of the first human beings, Adam and Eve, may be a retelling of a genetic manipulation of early humans. The comedian and podcaster Joe Rogan offers this as his own reading of the story, talking with Michels about aliens."
+  "attestation": 1.6,
+  "tier": "well-attested",
+  "plain": "The broadcaster Joe Rogan says on the show that he takes the Bible's story of the first human beings, Adam and Eve, to be \"a recounting of a genetic manipulation,\" meaning that someone altered earlier humans to make us. The King James Bible, published in 1611, says God \"created man in his own image,\" formed him \"of the dust of the ground\" and breathed life into him, and made the woman from a rib taken from Adam during \"a deep sleep.\" It says nothing about genes or earlier humans, so the genetic reading is Rogan's own.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The King James Version of the Bible",
+      "date": "1611",
+      "source": "https://www.gutenberg.org/ebooks/10",
+      "text": "In the King James Version, Genesis tells that God \"created man in his own image\", that \"the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life\", and that he made the woman from a rib taken from Adam in \"a deep sleep\"; it says nothing of genes or of any earlier humans altered, so the reading as a genetic manipulation is the teller's own."
+    }
+  ]
 }

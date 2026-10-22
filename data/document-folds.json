@@ -166,11 +166,30 @@
  },
  {
   "canonical": "bible",
-  "title": "The Bible",
+  "title": "The King James Version of the Bible",
   "members": [
-   "the-bible"
+   "the-bible",
+   "genesis",
+   "bible-genesis",
+   "genesis-the-bible",
+   "genesis-6",
+   "exodus",
+   "book-of-exodus",
+   "bible-exodus-12",
+   "ezekiel",
+   "book-of-ezekiel",
+   "book-of-daniel",
+   "book-of-isaiah",
+   "book-of-revelation",
+   "gospel-of-matthew",
+   "gospel-of-luke",
+   "gospel-of-john",
+   "old-testament",
+   "new-testament",
+   "new-testament-gospels",
+   "psalm-101"
   ],
-  "reason": "One book under two spellings of its title."
+  "reason": "One text, the King James Bible fetched whole from Gutenberg, credited under the names of its books and testaments; a document telling keeps its book, chapter and verse in its locator, so the parts fold into the whole and a story crediting two books credits one document once."
  },
  {
   "canonical": "wilson-davis-memo",
@@ -815,13 +834,5 @@
    "daily-mail-article"
   ],
   "reason": "One article, credited twice in one story."
- },
- {
-  "canonical": "genesis",
-  "title": "Genesis (the Bible)",
-  "members": [
-   "bible-genesis"
-  ],
-  "reason": "One book of the Bible under two names."
  }
 ]

@@ -20,7 +20,7 @@
       "documents": [
         "epic-of-gilgamesh",
         "book-of-enoch",
-        "ezekiel"
+        "bible"
       ]
     },
     {
@@ -43,35 +43,107 @@
         "place_text": "Earth",
         "story_kind": "theory"
       }
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 14",
+      "teller": "utnapishtim",
+      "quote": "Their hearts induced the great gods to make a wind-storm",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 91",
+      "teller": "utnapishtim",
+      "quote": "The Power of Darkness made a rain-flood to fall at eventide.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 98",
+      "teller": "utnapishtim",
+      "quote": "A black cloud from the foundation of heaven came up.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 99",
+      "teller": "utnapishtim",
+      "quote": "Inside it the god Adad (Rammânu) thundered,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 104",
+      "teller": "utnapishtim",
+      "quote": "The Anunnaki [13] brandished their torches,",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 105",
+      "teller": "utnapishtim",
+      "quote": "With their glare they lighted up the land.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "epic-of-gilgamesh",
+      "page": "Tablet XI, line 106",
+      "teller": "utnapishtim",
+      "quote": "The whirlwind (or, cyclone) of Adad swept up to heaven.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.2,
+  "score": 4.7,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 3,
+    "documents": 1,
+    "credited_documents": 2,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jack-missileman",
-      "joe-rogan"
+      "joe-rogan",
+      "utnapishtim"
     ],
     "episodes": [
       "8TYMQOUDQBo",
       "C_Na1tI5qpw"
     ]
   },
-  "attestation": 1.1,
+  "attestation": 2.35,
   "tier": "well-attested",
-  "plain": "About 12,000 years ago, in a period known as the Younger Dryas, something from space is said to have struck the Earth, causing the great flood of old legends and wiping out an earlier civilization. The podcaster Joe Rogan tells it as a guest, saying you could not stop such an impact and \"that's probably what happened during the Younger Dryas impact,\" and he draws on old texts: the Epic of Gilgamesh, an ancient Mesopotamian poem; the Book of Enoch, an ancient religious text, in the translation by R. H. Charles; and the biblical book of Ezekiel. A co-host named Jack, on an episode with a Navy scientist named Salvatore Pais, brings up the same idea more loosely as \"the reset 12,000 years ago,\" crediting the researcher Randall Carlson and the writer Graham Hancock. Jack names no impact or flood, only the reset. If true, human history would be much older and more broken than usually told."
+  "plain": "The claim is that something from space hit the earth around 12,000 years ago, at the start of a sudden cold spell called the Younger Dryas, and that this impact caused the great flood remembered in old myths and wiped out an earlier human civilization. The broadcaster Joe Rogan says it on the show in his own words. Talking about a threat too big for anyone to stop, he says, \"that's probably what happened during the younger dryas impact,\" and he connects it to ancient flood stories, among them the Epic of Gilgamesh. Michels' co-host, a defense and aerospace engineer who goes by the pseudonym Jack, mentions the same idea more briefly as \"the reset 12,000 years ago\". He credits it to the researcher Randall Carlson and the writer Graham Hancock and does not say what caused it. The flood tale in the Epic of Gilgamesh, in E. A. Wallis Budge's 1920 translation, is told by the flood survivor Utnapishtim: the great gods decide \"to make a wind-storm,\" a rain-flood falls, \"a black cloud from the foundation of heaven came up\" with the storm god Adad thundering inside it, and the Anunnaki, whom the translator calls star-gods, \"brandished their torches\" and \"with their glare they lighted up the land.\" The epic does not describe anything striking the earth. If the idea were true, human history would be much older than we think, and a catastrophe would have erased it.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Epic of Gilgamish, Tablet XI (translated by E. A. Wallis Budge in The Babylonian Story of the Deluge)",
+      "source": "https://www.gutenberg.org/ebooks/7096",
+      "text": "The teller does not say which part of the epic he means; if it is the flood of the Eleventh Tablet, then the source says the great gods resolved \"to make a wind-storm\", and tells a rain-flood, \"a black cloud from the foundation of heaven\" in which Adad thundered, and the Anunnaki, whom the translator glosses as \"the star-gods of the southern sky\", brandishing their torches; it tells of nothing striking the earth. The words are from E. A. Wallis Budge's translation (The Babylonian Story of the Deluge, 1920) of the Eleventh Tablet of the Assyrian version, in which Uta-Napishtim tells Gilgamish of the flood."
+    }
+  ]
 }

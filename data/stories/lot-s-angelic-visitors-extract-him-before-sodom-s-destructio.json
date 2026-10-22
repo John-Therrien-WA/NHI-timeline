@@ -18,7 +18,7 @@
       "kind": "researcher",
       "cites": [],
       "documents": [
-        "genesis"
+        "bible"
       ]
     },
     {
@@ -40,27 +40,73 @@
         "place_text": "Sodom",
         "story_kind": "cosmology"
       }
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 19:1",
+      "teller": "moses",
+      "quote": "And there came two angels to Sodom at even; and Lot sat in the gate of Sodom: and Lot seeing them rose up to meet them; and he bowed himself with his face toward the ground;",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 19:13",
+      "teller": "moses",
+      "quote": "For we will destroy this place, because the cry of them is waxen great before the face of the LORD; and the LORD hath sent us to destroy it.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 19:15",
+      "teller": "moses",
+      "quote": "And when the morning arose, then the angels hastened Lot, saying, Arise, take thy wife, and thy two daughters, which are here; lest thou be consumed in the iniquity of the city.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 19:16",
+      "teller": "moses",
+      "quote": "And while he lingered, the men laid hold upon his hand, and upon the hand of his wife, and upon the hand of his two daughters; the LORD being merciful unto him: and they brought him forth, and set him without the city.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Genesis 19:24",
+      "teller": "moses",
+      "quote": "Then the LORD rained upon Sodom and upon Gomorrah brimstone and fire from the LORD out of heaven;",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.7,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 3,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 1,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 0,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
       "jesse-michels",
+      "moses",
       "tim-alberino"
     ],
     "episodes": [
@@ -68,7 +114,7 @@
       "rjUdn6FklAU"
     ]
   },
-  "attestation": 0.85,
+  "attestation": 1.85,
   "tier": "well-attested",
-  "plain": "In the Bible's book of Genesis, angelic beings come to Sodom to get Abraham's nephew Lot and his family out before the city is destroyed. The story is told on the podcast as a possible ancient record of non-human visitors. The researcher Tim Alberino retells it from Genesis, saying Lot \"encounters angelic beings who come to extract him and his family before the destruction of Sodom.\" Michels brings up the same scene in an episode about Air Force veterans who say they were abducted. He sets it as \"Two angels walk into Sodom the night before the fire falls.\" His version gives the number of angels and the timing but does not mention the rescue. Both draw on the Bible itself rather than on any other source."
+  "plain": "In the Bible, angels come to the city of Sodom to lead a man named Lot and his family out before the city is destroyed. A researcher named Tim Alberino tells it on the show, saying that Abraham's nephew Lot \"encounters angelic beings who come to extract him and his family before the destruction of Sodom.\" Michels tells it himself in shorter form: \"Two angels walk into Sodom the night before the fire falls.\" He gives the number and the timing but does not mention the rescue. The King James Bible, published in 1611, tells it in Genesis 19: \"there came two angels to Sodom at even,\" they say \"the LORD hath sent us to destroy it,\" and in the morning they took Lot, his wife and his two daughters by the hand \"and set him without the city.\" Then \"the LORD rained upon Sodom and upon Gomorrah brimstone and fire from the LORD out of heaven.\" On the show it is told as an ancient account of nonhuman visitors stepping into human affairs."
 }

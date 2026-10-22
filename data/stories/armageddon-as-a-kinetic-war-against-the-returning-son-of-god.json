@@ -21,33 +21,88 @@
         "birthright",
         "bible"
       ]
+    },
+    {
+      "document": "bible",
+      "page": "Revelation 16:14",
+      "teller": "john-of-patmos",
+      "quote": "For they are the spirits of devils, working miracles, which go forth unto the kings of the earth and of the whole world, to gather them to the battle of that great day of God Almighty.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Revelation 16:16",
+      "teller": "john-of-patmos",
+      "quote": "And he gathered them together into a place called in the Hebrew tongue Armageddon.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Revelation 19:11",
+      "teller": "john-of-patmos",
+      "quote": "And I saw heaven opened, and behold a white horse; and he that sat upon him was called Faithful and True, and in righteousness he doth judge and make war.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Revelation 19:19",
+      "teller": "john-of-patmos",
+      "quote": "And I saw the beast, and the kings of the earth, and their armies, gathered together to make war against him that sat on the horse, and against his army.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "bible",
+      "page": "Revelation 19:21",
+      "teller": "john-of-patmos",
+      "quote": "And the remnant were slain with the sword of him that sat upon the horse, which sword proceeded out of his mouth: and all the fowls were filled with their flesh.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 1.5,
+  "score": 4.0,
   "profile": {
-    "independent_tellers": 1,
-    "firsthand": 0,
+    "independent_tellers": 2,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
     "researcher": 1,
     "host": 0,
-    "documents": 0,
-    "credited_documents": 2,
+    "documents": 1,
+    "credited_documents": 1,
     "repetitions": 0,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
+      "john-of-patmos",
       "tim-alberino"
     ],
     "episodes": [
       "CiQTBOQ1dTg"
     ]
   },
-  "attestation": 0.75,
-  "tier": "told-once",
-  "plain": "Armageddon, the final battle at the end of time in the Bible, will be a real, physical war of weapons, fought against the Son of God as he returns to Earth. That is the belief of a researcher named Tim Alberino, who gives it as his own reading of the Bible and of a work he calls Birthright, without pointing to any other source."
+  "attestation": 2.0,
+  "tier": "well-attested",
+  "plain": "A researcher named Tim Alberino says on the show that Armageddon, the final battle in the Bible's Book of Revelation, \"is a war with the son of God returning to the earth,\" and that he believes it will be a \"kinetic war,\" meaning a real, physical one. In the King James Bible, published in 1611, Armageddon is the place where the kings of the earth are gathered \"to the battle of that great day of God Almighty,\" and in a later chapter a rider on a white horse, called Faithful and True and \"The Word of God,\" makes war on the beast and the kings, and the rest \"were slain with the sword of him that sat upon the horse, which sword proceeded out of his mouth.\" That chapter does not call the rider the Son of God, and the idea that the war is physical is Alberino's reading.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The King James Version of the Bible",
+      "date": "1611",
+      "source": "https://www.gutenberg.org/ebooks/10",
+      "text": "In the Revelation, Armageddon is the place where the kings of the earth are gathered \"to the battle of that great day of God Almighty\" (16:14, 16:16); the war against the rider on the white horse, called \"The Word of God\", is told in chapter 19, where the remnant are slain \"with the sword of him that sat upon the horse, which sword proceeded out of his mouth\" (19:21). The text does not call the rider the Son of God in that chapter, and whether the war is a physical one is the teller's reading."
+    }
+  ]
 }

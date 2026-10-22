@@ -17,7 +17,7 @@ The timeline shows stories, not facts. A story is what someone said happened; th
 
 ## Layout
 
-- `data/stories/<slug>.json`: one story each (`schema.md` gives the shape), each with its `plain` telling for a reader new to the subject once `explain.py` has run, `plain_by: "hand"` when a person wrote it. The heart of the project.
+- `data/stories/<slug>.json`: one story each (`schema.md` gives the shape), each with its `plain` telling for a reader new to the subject (an adult who follows the news: the subject's own programmes, people, documents and jargon explained on first mention, the CIA, Congress or the Bible never glossed; `prompts/explain.md` states the reader) once `explain.py` has run, `plain_by: "hand"` when a person wrote it. The heart of the project.
 - A story may carry `discussion`: the back and forth about it (`debunk`, `rebunk` and `note` entries, each with who says it, the words in the reported voice, and a source URL or an episode and time code), written by hand, kept by merge and link, appended to the survivor on a fold, passed through by `build.py`, validated by `check.py`; `schema.md` gives the shape. Recording a debunk asserts nothing about who is right.
 - `data/notes/<story id>.json`: the inbox of viewer notes on a story (`by`, `date`, `text`, `status` open, folded or dropped), pulled by hand from the page's artifact database and folded into the story (usually as a `discussion` entry) by a person; `check.py` validates them, `build.py` counts the open ones as the story's `notes_open`, nothing else reads them.
 - `data/people/<slug>.json`: the tellers: name, role (witness, participant, official, researcher, journalist, host), what they cite, public links, and `aliases`, the ids folded into them.

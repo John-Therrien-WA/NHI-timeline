@@ -1,9 +1,15 @@
 {
   "id": "flir1-video",
-  "title": "FLIR1 video",
+  "title": "FLIR1 video (the Tic Tac, US Navy, 2004)",
   "issuer": null,
   "date": null,
   "url": null,
   "kind": null,
-  "attests": []
+  "attests": [],
+  "aliases": [
+    "flir-video",
+    "tic-tac-video",
+    "navy-tic-tac-video",
+    "flir1-video-the-tic-tac-us-navy-2004"
+  ]
 }

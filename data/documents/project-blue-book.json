@@ -1,9 +1,16 @@
 {
   "id": "project-blue-book",
-  "title": "Project Blue Book",
+  "title": "Project Blue Book records",
   "issuer": null,
   "date": null,
   "url": null,
   "kind": null,
-  "attests": []
+  "attests": [],
+  "aliases": [
+    "project-blue-book-files",
+    "project-blue-book-records",
+    "project-blue-book-case-files",
+    "project-blue-book-classified-files",
+    "blue-book"
+  ]
 }

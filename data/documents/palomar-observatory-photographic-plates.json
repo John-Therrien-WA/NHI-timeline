@@ -1,9 +1,15 @@
 {
   "id": "palomar-observatory-photographic-plates",
-  "title": "Palomar Observatory photographic plates",
+  "title": "Palomar Observatory Sky Survey photographic plates",
   "issuer": null,
   "date": null,
   "url": null,
   "kind": null,
-  "attests": []
+  "attests": [],
+  "aliases": [
+    "palomar-astronomical-plates",
+    "palomar-observatory-astronomical-plates",
+    "palomar-observatory-plates",
+    "palomar-observatory-sky-survey-photographic-plates"
+  ]
 }

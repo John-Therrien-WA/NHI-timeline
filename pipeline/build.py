@@ -57,6 +57,18 @@ def url_at(episode: dict, from_s: float | None) -> str | None:
     return f"{url}{'&' if '?' in url else '?'}t={int(from_s)}"
 
 
+def open_notes(root: Root, stories: dict, owner: dict[str, str]) -> dict[str, int]:
+    """{story id: the open entries of data/notes/<id>.json and of its aliases' notes files}; a story
+    without open notes is absent. Fails on a notes file that names no story or alias."""
+    counts: dict[str, int] = {}
+    for key, entries in root.load_notes().items():
+        sid = key if key in stories else owner.get(key)
+        if sid is None:
+            raise SystemExit(f"data/notes/{key}.json names no story or alias")
+        counts[sid] = counts.get(sid, 0) + sum(e["status"] == "open" for e in entries)
+    return counts
+
+
 def run(root: Root, out: Path) -> dict:
     stories = root.load_dir(root.stories)
     people = root.load_dir(root.people)
@@ -69,12 +81,7 @@ def run(root: Root, out: Path) -> dict:
         raise SystemExit("build: data/scores.json is missing: run pipeline.score first")
     summary = json.loads(scores.read_text(encoding="utf-8"))
     owner = root.story_aliases(stories)
-    notes_open: dict[str, int] = {}
-    for key, entries in root.load_notes().items():
-        sid = key if key in stories else owner.get(key)
-        if sid is None:
-            raise SystemExit(f"build: data/notes/{key}.json names no story or alias")
-        notes_open[sid] = notes_open.get(sid, 0) + sum(e["status"] == "open" for e in entries)
+    notes_open = open_notes(root, stories, owner)
     story_images, headshots = images.blocks(root, stories, owner, people)
     stories_of: dict[str, set[str]] = {}
     for sid, s in stories.items():

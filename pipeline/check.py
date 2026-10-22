@@ -1436,6 +1436,12 @@ def person_fold_refusal_problems() -> list[str]:
              "distinct pair 1 (ivo-fixtor, jo-fixture): 'ivo-fixtor' is a member of group 1 (ivo-fixture)"),
             ("a distinct id that is no person", doc([good], [("jo-fixture", "nobody-fixture")]),
              "distinct pair 1 (jo-fixture, nobody-fixture): 'nobody-fixture' is no person"),
+            ("a group whose reason says the ids differ", doc([{**good, "reason": "  Different: Ivo Fixtur is his cousin"}]),
+             "group 1 (ivo-fixture): the reason begins with 'different'"),
+            ("a group whose reason says the ids are not the same", doc([{**good, "reason": "NOT the same man"}]),
+             "group 1 (ivo-fixture): the reason begins with 'not the same'"),
+            ("a distinct pair whose reason says the ids are the same", {**doc([good]), "distinct": [{"pair": ["jo-fixture", "ivo-fixture"], "reason": " same person, another spelling"}]},
+             "distinct pair 1 (jo-fixture, ivo-fixture): the reason begins with 'same'"),
         ]
         for label, groups, needle, *setup in refusals:
             save_json(folds, groups)

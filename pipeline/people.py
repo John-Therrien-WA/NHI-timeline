@@ -28,7 +28,9 @@ order, `affiliation` and `note` the canonical's when set, else the first member'
 (and the member id itself when its name's key is another) is added to data/person-aliases.json
 pointing at the canonical, so the next merge maps the spelling at once, and an alias that pointed at
 a member points at the canonical. Every group is checked before anything is written: it fails on a
-malformed group, a member in two groups, a member that is another group's canonical, a canonical
+malformed group, a group whose reason begins "different" or "not the same" (case-insensitive, after
+whitespace: it says two people, so it is a draft or belongs under `distinct`), a distinct pair whose
+reason begins "same", a member in two groups, a member that is another group's canonical, a canonical
 that an earlier fold made an alias of another person, a member an earlier fold put into a person
 outside the group, a member with no person file and no reference anywhere that no earlier fold
 absorbed, and a member headshot whose file is missing under site/. Idempotent: a second run changes
@@ -49,6 +51,14 @@ FOLD_KEYS = ("canonical", "name", "members", "reason")
 DISTINCT_KEYS = ("pair", "reason")
 PERSON_ID = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
 PERSON_ORDER = ("id", "name", "roles", "affiliation", "links", "note", "aliases")
+NOT_ONE = ("different", "not the same")  # a group reason that begins so says the ids are two people
+NOT_TWO = ("same",)  # a distinct reason that begins so says the ids are one person
+
+
+def reason_begins(reason: str, starts: tuple[str, ...]) -> str | None:
+    """The first of `starts` that `reason` begins with, case-insensitive after leading whitespace, else None."""
+    r = reason.strip().lower()
+    return next((w for w in starts if r.startswith(w)), None)
 
 
 def folds_path(root: Root) -> Path:
@@ -76,6 +86,9 @@ def group_problems(groups, where: str = "data/person-folds.json") -> list[str]:
             out.append(f"{gw}: name must be a non-empty string")
         if not (isinstance(g["reason"], str) and g["reason"].strip()):
             out.append(f"{gw}: reason must be a non-empty string")
+        elif w := reason_begins(g["reason"], NOT_ONE):
+            out.append(f"{gw}: the reason begins with {w!r}, which says the ids are two people; a group folds one person "
+                       "(a reason beginning 'different' or 'not the same' belongs to a distinct pair, or the group is a draft)")
         if not (isinstance(members, list) and members and all(isinstance(m, str) and PERSON_ID.fullmatch(m) for m in members)):
             out.append(f"{gw}: members must be a non-empty list of person ids")
             continue
@@ -119,6 +132,9 @@ def distinct_problems(distinct, groups, where: str = "data/person-folds.json") -
         dw = f"{dw} ({pair[0]}, {pair[1]})"
         if not (isinstance(d["reason"], str) and d["reason"].strip()):
             out.append(f"{dw}: reason must be a non-empty string")
+        elif w := reason_begins(d["reason"], NOT_TWO):
+            out.append(f"{dw}: the reason begins with {w!r}, which says the ids are one person; a distinct pair is two people "
+                       "(a reason beginning 'same' belongs to a group that folds them)")
         key = frozenset(pair)
         if key in seen:
             out.append(f"{dw}: the pair is also distinct pair {seen[key]}")

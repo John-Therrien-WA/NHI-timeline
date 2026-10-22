@@ -155,7 +155,8 @@ carries both as `aliases` in its file and in site/data.json (`people_fold`), and
 nothing. The refusals run on a tiny root of their own (`check.person_fold_refusal_problems`): a
 file that is a bare list of groups, a malformed group, a member in two groups, a member that is
 another group's canonical, a member named nowhere, a malformed `distinct` pair, a distinct id that a
-group folds and a distinct id that is no person are each named before anything is written, and a
+group folds, a distinct id that is no person, a group whose reason begins "Different:" or "NOT the
+same" and a distinct pair whose reason begins "same" are each named before anything is written, and a
 fold into a new canonical creates it (a `distinct` pair may name it), merges roles, links and
 affiliation, drops a self-cite, moves a headshot to the next free number, drops one whose image URL
 the canonical holds, and maps a member's old alias, name and id. `data/person-folds.json` also lists

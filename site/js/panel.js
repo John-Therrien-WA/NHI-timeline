@@ -121,7 +121,9 @@
         if (doc && doc.url) { src.appendChild(document.createTextNode(" ")); src.appendChild(el("a", { href: doc.url, target: "_blank", rel: "noopener" }, "open")); }
       }
       box.appendChild(src);
-      if (t.cites.length) box.appendChild(el("div", { class: "cites" }, (t.repetition ? "repeats " : "cites ") + t.cites.map(M.personName).join(", ")));
+      if (t.repeats.length) box.appendChild(el("div", { class: "cites" }, "repeats " + t.repeats.map(M.personName).join(", ")));
+      const cited = t.cites.filter(c => !t.repeats.includes(c));
+      if (cited.length) box.appendChild(el("div", { class: "cites" }, "cites " + cited.map(M.personName).join(", ")));
       if ((t.documents || []).length) box.appendChild(el("div", { class: "cites" }, "credits " + t.documents.map(x => M.docTitle.get(x) || x).join(", ")));
       if (t.difference) box.appendChild(el("div", { class: "cites" }, "told differently: " + t.difference));
       return box;

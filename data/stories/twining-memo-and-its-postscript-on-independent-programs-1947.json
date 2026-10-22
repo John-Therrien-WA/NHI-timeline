@@ -339,22 +339,25 @@
     }
   ],
   "tags": [],
-  "score": 2.6,
+  "score": 4.3,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 4,
     "firsthand": 0,
     "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
-    "host": 0,
+    "researcher": 2,
+    "host": 1,
     "documents": 1,
-    "credited_documents": 0,
-    "repetitions": 3,
+    "credited_documents": 1,
+    "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "official",
     "tellers": [
+      "bryce-zabel",
+      "jesse-michels",
+      "marik-von-rennenkampff",
       "nathan-twining"
     ],
     "episodes": [
@@ -371,9 +374,9 @@
       "yJUBSuPh1pM"
     ]
   },
-  "attestation": 1.3,
-  "tier": "told-once",
-  "plain": "In 1947 General Nathan Twining, head of the Air Materiel Command, the Air Force branch in charge of aircraft development, wrote a memo saying UFOs were real. Jesse Michels tells this many times, and so do the defense writer Marik von Rennenkampff and the screenwriter Bryce Zabel. The letter is dated 23 September 1947 and went to Brigadier General George Schulgen. It says \"the phenomenon reported is something real and not visionary or fictitious,\" and that the objects seemed controlled \"either manually, automatically or remotely.\" What Michels calls a postscript is actually in the body of the letter: it says the US could build such a craft, but any such work \"should be set up independently of existing projects,\" which suggests a separate, hidden program was being proposed.",
+  "attestation": 2.15,
+  "tier": "well-attested",
+  "plain": "In a letter dated 23 September 1947, General Nathan Twining of Air Materiel Command, the Air Force branch in charge of aircraft development, told Brigadier General George Schulgen that flying discs were \"something real and not visionary or fictitious,\" with movements suggesting they were \"controlled either manually, automatically or remotely\"; Michels quotes the line many times, and the researchers Bryce Zabel and Marik von Rennenkampff repeat it. The letter also says a piloted craft like the ones described could be built with US knowledge of the time, but that any such work \"should be set up independently of existing projects,\" and it raises the chance that the objects were \"the product of some high security project.\" Michels calls this part a postscript and reads it as a hint of separate secret programmes, but in the letter it sits in the main text, not in a postscript.",
   "discussion": [
     {
       "kind": "source",

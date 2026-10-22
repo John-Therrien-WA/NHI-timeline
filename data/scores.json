@@ -18,16 +18,16 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 258,
+    "well-attested": 263,
     "told-by-several": 149,
-    "told-once": 5916
+    "told-once": 5911
   },
   "counts": {
     "stories": 6323,
     "tellings": 8759,
-    "independent_tellers": 6828,
-    "repetitions": 338,
-    "documents": 2331,
+    "independent_tellers": 6838,
+    "repetitions": 328,
+    "documents": 2336,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
@@ -44631,25 +44631,27 @@
       }
     },
     "einstein-s-1923-paper-saying-general-relativity-fits-with-th": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "told-once",
+      "attestation": 1.85,
+      "score": 3.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 3,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
-        "host": 0,
+        "researcher": 1,
+        "host": 1,
         "documents": 1,
         "credited_documents": 0,
-        "repetitions": 2,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "albert-einstein"
+          "albert-einstein",
+          "jesse-michels",
+          "salvatore-pais"
         ],
         "episodes": [
           "8TYMQOUDQBo",
@@ -99377,24 +99379,26 @@
       }
     },
     "morgan-robertson-s-wreck-of-the-titan-foretells-the-titanic-1898": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "told-once",
+      "attestation": 2.6,
+      "score": 5.2,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 3,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
-        "host": 0,
+        "researcher": 1,
+        "host": 1,
         "documents": 1,
-        "credited_documents": 0,
-        "repetitions": 2,
+        "credited_documents": 3,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
+          "eric-wargo",
+          "jesse-michels",
           "morgan-robertson"
         ],
         "episodes": [
@@ -146119,25 +146123,27 @@
       }
     },
     "tesla-s-alien-contact-at-colorado-springs-1899": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "told-once",
+      "attestation": 2.35,
+      "score": 4.7,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 3,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 0,
+        "secondhand": 1,
         "researcher": 0,
-        "host": 0,
+        "host": 1,
         "documents": 1,
-        "credited_documents": 0,
-        "repetitions": 2,
+        "credited_documents": 1,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
-          "nikola-tesla"
+          "jesse-michels",
+          "nikola-tesla",
+          "steve-coburn"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -154027,24 +154033,25 @@
       }
     },
     "tsiolkovsky-in-touch-with-angelic-beings": {
-      "attestation": 1.5,
-      "score": 3.0,
-      "tier": "told-once",
+      "attestation": 1.75,
+      "score": 3.5,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 2,
         "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
+        "researcher": 1,
         "host": 0,
         "documents": 1,
         "credited_documents": 0,
-        "repetitions": 2,
+        "repetitions": 1,
         "contradicted": false,
         "strongest_kind": "firsthand",
         "tellers": [
+          "diana-pasulka",
           "konstantin-tsiolkovsky"
         ],
         "episodes": [
@@ -154605,24 +154612,27 @@
       }
     },
     "twining-memo-and-its-postscript-on-independent-programs-1947": {
-      "attestation": 1.3,
-      "score": 2.6,
-      "tier": "told-once",
+      "attestation": 2.15,
+      "score": 4.3,
+      "tier": "well-attested",
       "profile": {
-        "independent_tellers": 1,
+        "independent_tellers": 4,
         "firsthand": 0,
         "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 0,
-        "host": 0,
+        "researcher": 2,
+        "host": 1,
         "documents": 1,
-        "credited_documents": 0,
-        "repetitions": 3,
+        "credited_documents": 1,
+        "repetitions": 0,
         "contradicted": false,
         "strongest_kind": "official",
         "tellers": [
+          "bryce-zabel",
+          "jesse-michels",
+          "marik-von-rennenkampff",
           "nathan-twining"
         ],
         "episodes": [

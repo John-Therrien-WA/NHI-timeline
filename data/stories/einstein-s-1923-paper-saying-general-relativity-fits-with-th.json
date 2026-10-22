@@ -88,32 +88,34 @@
   ],
   "related": [],
   "tags": [],
-  "score": 3.0,
+  "score": 3.7,
   "profile": {
-    "independent_tellers": 1,
+    "independent_tellers": 3,
     "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 0,
-    "host": 0,
+    "researcher": 1,
+    "host": 1,
     "documents": 1,
     "credited_documents": 0,
-    "repetitions": 2,
+    "repetitions": 0,
     "contradicted": false,
     "strongest_kind": "firsthand",
     "tellers": [
-      "albert-einstein"
+      "albert-einstein",
+      "jesse-michels",
+      "salvatore-pais"
     ],
     "episodes": [
       "8TYMQOUDQBo",
       "wT5-hXWIkzM"
     ]
   },
-  "attestation": 1.5,
-  "tier": "told-once",
-  "plain": "Jesse Michels says that Albert Einstein, in a paper he thinks dates from 1923, wrote that general relativity, his theory of gravity, fits with the ether, an invisible medium that was supposed to fill all of space. A Navy scientist with unusual patents named Salvatore Pais makes the same point but puts the paper in 1921. The text they mean, Ether and the Theory of Relativity, was actually an address Einstein gave at the University of Leiden on 5 May 1920, and in it he says \"space without ether is unthinkable\" and \"in this sense, therefore, there exists an ether,\" though not one made of parts that move. If true, it would mean the ether was never fully thrown out of physics.",
+  "attestation": 1.85,
+  "tier": "well-attested",
+  "plain": "Albert Einstein, the physicist, is said to have written that his theory of gravity, general relativity, fits with the ether, an old idea of an invisible medium filling all of space. Michels recalls it as a paper from about 1923, and the Navy scientist Salvatore Pais dates it to 1921. The text itself, \"Ether and the Theory of Relativity,\" is actually a lecture Einstein gave at the University of Leiden on May 5, 1920, and in it he says that \"space is endowed with physical qualities; in this sense, therefore, there exists an ether,\" and that \"space without ether is unthinkable.\"",
   "discussion": [
     {
       "kind": "source",

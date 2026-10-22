@@ -112,6 +112,7 @@
         "FIXTURE0002",
         "FIXTURE0003"
       ],
+      "repeats": [["cy-fixture"], [], []],
       "difference_tellings": [
         1,
         2
@@ -153,6 +154,7 @@
         "bo-fixture",
         "ivo-fixture"
       ],
+      "repeats": [[], []],
       "discussion": 1
     },
     "the-plains-of-elsewhere-hum-at-night": {

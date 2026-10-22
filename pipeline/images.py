@@ -21,7 +21,8 @@ person picture, a person picture the story's tellers do not allow, an
 whose `image_url` already has a sidecar under the owner (or under the story's id or aliases) is
 `kept`; the others are downloaded (urllib, with a descriptive User-Agent), resized and converted
 with macOS `sips`, and written under the resolved owner with the next free `n`, one line printed
-per image. A download that is neither a JPEG nor a PNG is refused before `sips`. A failed download or
+per image. A download that is neither a JPEG, a PNG nor a GIF is refused before `sips`; a GIF (a scanned
+page on Commons, often) is converted to a JPEG, so a stored file is always a JPEG or a PNG. A failed download or
 conversion raises with the URL (and the HTTP status where there is one); with `--keep-going` the run
 goes on to the next entry, lists the failures at the end and exits 1.
 
@@ -117,6 +118,8 @@ def image_format(data: bytes) -> str | None:
         return "jpeg"
     if data[:8] == b"\x89PNG\r\n\x1a\n":
         return "png"
+    if data[:6] in (b"GIF87a", b"GIF89a"):
+        return "gif"
     return None
 
 
@@ -268,7 +271,7 @@ def problems(root: Root, stories: dict, story_alias: dict[str, str], people: dic
                 continue
             data = p.read_bytes()
             fmt = image_format(data)
-            if fmt is None:
+            if fmt not in ("jpeg", "png"):
                 out.append(f"{where}: site/{f} is neither a JPEG nor a PNG")
                 continue
             if (fmt == "png") != f.endswith(".png"):
@@ -446,7 +449,7 @@ def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today:
             time.sleep(DOWNLOAD_PAUSE_S)
             data = fetch(url)
             if image_format(data) is None:
-                raise SystemExit(f"images: {url}: the download is neither a JPEG nor a PNG")
+                raise SystemExit(f"images: {url}: the download is neither a JPEG, a PNG nor a GIF")
             target = convert(data, site_images_dir(root) / oid / str(n), MAX_PX[e["licence_kind"]])
         except SystemExit as x:
             msg = str(x) if url in str(x) else f"images: {url}: {x}"

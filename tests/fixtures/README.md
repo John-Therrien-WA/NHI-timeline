@@ -97,7 +97,18 @@ downloader that reads the file (`check.SourceFetch`; its `[Illustration]` line i
 public-domain document with a text_url keeps its full text and is never read as passages), one quote under the locator `I`, a note that
 the pamphlet already had the idea, and two pictures (the title page, Ivo's headshot). The stage runs
 after clips and before the person fold: the mirror gains Ivo's first-hand document telling, a `source` note and the document,
-so it ends `well-attested` with two independent tellers; `sources/documents/` gains the pamphlet's
+so it ends `well-attested` with two independent tellers. Bo's prepared answer `cites` "Ivo Fixture": this is the
+cited-source case, an expectation in `expect.json` (the mirror's tier, attestation and `tellers`, Bo and Ivo)
+rather than a `*_problems` function, and it proves that citing a source is not repeating it: Ivo tells the mirror
+only through the document telling, so Bo's cite is no edge and Bo stays independent (read as a repetition, the
+mirror would be `told-once` with Ivo alone). The vault is the other half: Bo cites Cy, who tells the vault in an
+episode, so Bo stays a repetition there and the vault's attestation stays 2.0 (Cy and Eve). The page shows the
+same split: `repeats` in expect.json is each telling's `repeats` in site/data.json, Cy on Bo's vault telling and
+nobody on the mirror, where Bo's cite of Ivo is shown as a cite. `check.cite_edges_problems` proves, in memory,
+that the edges score and build share (`score.cite_edges`) keep a host's cite of an episode teller and drop the
+same host's cite of a source's author, so the host repeats the witness alone. `check.document_telling_cites_problems`
+proves that check reports a document telling with `cites` (the source's own words cite nobody; a cite there
+would make the author the repetition of the citer) and passes one with empty or absent cites. `sources/documents/` gains the pamphlet's
 text beside the harbour log's (the flare's document telling, which check holds to it), and
 `sources/manifest.images.json` the two pictures, which `images.manifest_problems` must accept.
 `expect.json` names all of it under `sources`, with the lines explain sends the model for the mirror
@@ -126,10 +137,14 @@ headshot is `images/fay-fixture/1.png`, both member files are gone (`absent_peop
 carries both as `aliases` in its file and in site/data.json (`people_fold`), and "Faye Fixture" and
 "fae-fixture" resolve to `fay-fixture` against this root (`person_ids`). A second fold changes
 nothing. The refusals run on a tiny root of their own (`check.person_fold_refusal_problems`): a
-malformed group, a member in two groups, a member that is another group's canonical and a member
-named nowhere are each named before anything is written, and a fold into a new canonical creates it,
-merges roles, links and affiliation, drops a self-cite, moves a headshot to the next free number,
-drops one whose image URL the canonical holds, and maps a member's old alias, name and id.
+file that is a bare list of groups, a malformed group, a member in two groups, a member that is
+another group's canonical, a member named nowhere, a malformed `distinct` pair, a distinct id that a
+group folds and a distinct id that is no person are each named before anything is written, and a
+fold into a new canonical creates it (a `distinct` pair may name it), merges roles, links and
+affiliation, drops a self-cite, moves a headshot to the next free number, drops one whose image URL
+the canonical holds, and maps a member's old alias, name and id. `data/person-folds.json` also lists
+`bo-fixture` and `fay-fixture` as `distinct`, so the chain's check validates a pair against the
+people the fold leaves.
 
 The document fold is one fictional log under two titles. The harbour log is held as
 `harbour-log-of-nowhere-1958` (page 3 in its passages) and as `nowhere-harbour-log`
@@ -155,7 +170,9 @@ resolve a folded title or id to the canonical.
 `check.near_duplicate_problems` runs the near-duplicate warning on a fixed list of ids: of `greg`,
 `greg-malatzi`, `greg-malazzi`, `james-fox`, `james-woods`, `bob-jameson`, `robert-jameson` and
 `donald-trump` it must pair only `greg-malatzi` with `greg-malazzi`, the two spellings of one name,
-and leave the short id and the distinct names alone.
+and leave the short id and the distinct names alone; with `scott-kelly`, `scott-pelley`, `shane-ryan`
+and `shawn-ryan` added, a group folding the Greg spellings and a `distinct` pair given in the other
+order, `check.warned_pairs` must leave only `shane-ryan` with `shawn-ryan`.
 
 `explain.json` stands in for the explain stage: the plain telling for each of the eight stories the
 chain makes, keyed by story id. The flare story carries a hand-written `plain` with `plain_by:

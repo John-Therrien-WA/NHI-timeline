@@ -88,7 +88,8 @@ changed: run `people --fold` and `score`, then `explain --force` on those, then 
 
 To fold people: a group in `data/person-folds.json` names the spellings of one person (`members`) and
 the id they become (`canonical`, held or new), with the name the page shows and the evidence; `check`
-lists the near-duplicate ids to decide on. `people --fold` rewrites every place an id stands, merges
+lists the near-duplicate ids to decide on, and a pair judged to be two people goes into the file's
+`distinct` list with its evidence, so `check` stops listing it. `people --fold` rewrites every place an id stands, merges
 the person files, keeps the members as the canonical's `aliases` and adds their names to
 `data/person-aliases.json`, so the next merge maps those spellings at once; then `score`, `build` and
 `check` run again.

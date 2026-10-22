@@ -7,7 +7,9 @@ speaker as its teller since pipeline/clips.py ran, so it falls in with that pers
 never adds a teller; its kind counts only for a teller whose every telling of the story is a replay,
 so a replay never weighs more than the speaker's own telling); build the citation graph from `cites` among the story's
 tellers; a teller who reaches another teller of the same story through `cites` is a repetition and
-adds nothing; the rest are independent. The profile counts the independent tellers by their
+adds nothing, except that citing a source is not repeating it (a `cites` edge to a person who tells
+the story only through document tellings, the source's own words, is dropped); the rest are
+independent. The profile counts the independent tellers by their
 strongest kind (an `official` teller is a record unless all its official tellings carry
 `official_kind: "conclusion"`), the documents that are tellings, the documents credited by an
 independent teller, the repetitions, the episodes, and whether any story says it contradicts this
@@ -76,12 +78,27 @@ def reach(graph: dict[str, set[str]]) -> dict[str, set[str]]:
     return out
 
 
+def cite_edges(story: dict) -> list[list[str]]:
+    """For each telling of the story, in order, the cites that are edges of the citation graph: cites of
+    another teller of the story, except a teller whose every telling of it is a document telling (the
+    source's own words, which pipeline/sources.py adds only when they carry the story and check.py
+    holds verbatim to the source's text). Citing a source is not repeating it. build.py reads the same
+    edges for the page's "repeats", so the page and the score cannot disagree."""
+    by = tellers_of(story)
+    source_only = {p for p, ts in by.items() if all(t.get("document") for t in ts)}
+    return [[c for c in t.get("cites", []) if c in by and c != t["teller"] and c not in source_only]
+            for t in story["tellings"]]
+
+
 def independent(story: dict) -> tuple[list[str], list[str]]:
     """(independent tellers, repetitions). A teller who reaches another teller of the story through
-    `cites` is a repetition. Tellers that reach each other (a cycle) count as one: the strongest,
-    the id breaking a tie."""
+    the edges `cite_edges` gives is a repetition; a cite of a source's author, who tells the story only
+    through document tellings, is no edge, so the citer and the author are both independent. Tellers
+    that reach each other (a cycle) count as one: the strongest, the id breaking a tie."""
     by = tellers_of(story)
-    graph = {p: {c for t in ts for c in t.get("cites", []) if c in by and c != p} for p, ts in by.items()}
+    graph: dict[str, set[str]] = {p: set() for p in by}
+    for t, edges in zip(story["tellings"], cite_edges(story)):
+        graph[t["teller"]].update(edges)
     r = reach(graph)
     originals, repetitions = [], []
     for p in by:

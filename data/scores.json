@@ -18,16 +18,16 @@
   "median_floor": 0.5,
   "median_attestation": 0.5,
   "tiers": {
-    "well-attested": 262,
+    "well-attested": 258,
     "told-by-several": 149,
-    "told-once": 5912
+    "told-once": 5916
   },
   "counts": {
     "stories": 6323,
-    "tellings": 8732,
-    "independent_tellers": 6832,
-    "repetitions": 328,
-    "documents": 2334,
+    "tellings": 8759,
+    "independent_tellers": 6828,
+    "repetitions": 338,
+    "documents": 2331,
     "contradicted": 0,
     "by_kind": {
       "cosmology": 122,
@@ -20957,24 +20957,25 @@
       }
     },
     "book-of-enoch-watchers-mating-with-humans-and-giants": {
-      "attestation": 1.85,
-      "score": 3.7,
+      "attestation": 3.1,
+      "score": 6.2,
       "tier": "well-attested",
       "profile": {
-        "independent_tellers": 4,
-        "firsthand": 0,
+        "independent_tellers": 5,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 2,
         "researcher": 1,
         "host": 1,
-        "documents": 0,
-        "credited_documents": 2,
+        "documents": 1,
+        "credited_documents": 1,
         "repetitions": 0,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "firsthand",
         "tellers": [
+          "enoch",
           "jay-anderson",
           "jesse-michels",
           "joe-rogan",
@@ -44630,26 +44631,25 @@
       }
     },
     "einstein-s-1923-paper-saying-general-relativity-fits-with-th": {
-      "attestation": 0.6,
-      "score": 1.2,
-      "tier": "well-attested",
+      "attestation": 1.5,
+      "score": 3.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 0,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 1,
-        "host": 1,
-        "documents": 0,
-        "credited_documents": 1,
-        "repetitions": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 1,
+        "credited_documents": 0,
+        "repetitions": 2,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
-          "salvatore-pais"
+          "albert-einstein"
         ],
         "episodes": [
           "8TYMQOUDQBo",
@@ -99377,26 +99377,25 @@
       }
     },
     "morgan-robertson-s-wreck-of-the-titan-foretells-the-titanic-1898": {
-      "attestation": 1.35,
-      "score": 2.7,
-      "tier": "well-attested",
+      "attestation": 1.5,
+      "score": 3.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 0,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 1,
-        "host": 1,
-        "documents": 0,
-        "credited_documents": 4,
-        "repetitions": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 1,
+        "credited_documents": 0,
+        "repetitions": 2,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "eric-wargo",
-          "jesse-michels"
+          "morgan-robertson"
         ],
         "episodes": [
           "RofQnByLwOo",
@@ -146120,26 +146119,25 @@
       }
     },
     "tesla-s-alien-contact-at-colorado-springs-1899": {
-      "attestation": 0.85,
-      "score": 1.7,
-      "tier": "well-attested",
+      "attestation": 1.5,
+      "score": 3.0,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 2,
-        "firsthand": 0,
+        "independent_tellers": 1,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
-        "secondhand": 1,
+        "secondhand": 0,
         "researcher": 0,
-        "host": 1,
-        "documents": 0,
-        "credited_documents": 1,
-        "repetitions": 0,
+        "host": 0,
+        "documents": 1,
+        "credited_documents": 0,
+        "repetitions": 2,
         "contradicted": false,
-        "strongest_kind": "secondhand",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "jesse-michels",
-          "steve-coburn"
+          "nikola-tesla"
         ],
         "episodes": [
           "09KP8XVf5nY",
@@ -154029,25 +154027,25 @@
       }
     },
     "tsiolkovsky-in-touch-with-angelic-beings": {
-      "attestation": 0.25,
-      "score": 0.5,
+      "attestation": 1.5,
+      "score": 3.0,
       "tier": "told-once",
       "profile": {
         "independent_tellers": 1,
-        "firsthand": 0,
+        "firsthand": 1,
         "official_records": 0,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 1,
+        "researcher": 0,
         "host": 0,
-        "documents": 0,
+        "documents": 1,
         "credited_documents": 0,
-        "repetitions": 1,
+        "repetitions": 2,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "firsthand",
         "tellers": [
-          "diana-pasulka"
+          "konstantin-tsiolkovsky"
         ],
         "episodes": [
           "1f16VvXaSSE",
@@ -154607,27 +154605,25 @@
       }
     },
     "twining-memo-and-its-postscript-on-independent-programs-1947": {
-      "attestation": 1.1,
-      "score": 2.2,
-      "tier": "well-attested",
+      "attestation": 1.3,
+      "score": 2.6,
+      "tier": "told-once",
       "profile": {
-        "independent_tellers": 3,
+        "independent_tellers": 1,
         "firsthand": 0,
-        "official_records": 0,
+        "official_records": 1,
         "official_conclusions": 0,
         "journalist": 0,
         "secondhand": 0,
-        "researcher": 2,
-        "host": 1,
-        "documents": 0,
-        "credited_documents": 2,
-        "repetitions": 0,
+        "researcher": 0,
+        "host": 0,
+        "documents": 1,
+        "credited_documents": 0,
+        "repetitions": 3,
         "contradicted": false,
-        "strongest_kind": "researcher",
+        "strongest_kind": "official",
         "tellers": [
-          "bryce-zabel",
-          "jesse-michels",
-          "marik-von-rennenkampff"
+          "nathan-twining"
         ],
         "episodes": [
           "-0g3lLGxNfc",

@@ -120,28 +120,81 @@
         "place_text": null,
         "story_kind": "document"
       }
+    },
+    {
+      "document": "futility",
+      "page": "Chapter I",
+      "teller": "morgan-robertson",
+      "quote": "She was the largest craft afloat and the greatest of the works of men.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "futility",
+      "page": "Chapter I",
+      "teller": "morgan-robertson",
+      "quote": "the steamship _Titan_ was considered practically unsinkable.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "futility",
+      "page": "Chapter I",
+      "teller": "morgan-robertson",
+      "quote": "Unsinkable--indestructible, she carried as few boats as would satisfy the laws. These, twenty-four in number, were securely covered and lashed down to their chocks on the upper deck, and if launched would hold five hundred people.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "futility",
+      "page": "Chapter II",
+      "teller": "morgan-robertson",
+      "quote": "for, though it was April, the salt air was chilly",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "futility",
+      "page": "Chapter VI",
+      "teller": "morgan-robertson",
+      "quote": "\"Ice,\" yelled the lookout; \"ice ahead. Iceberg. Right under the bows.\"",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "futility",
+      "page": "Chapter VII",
+      "teller": "morgan-robertson",
+      "quote": "Seventy-five thousand tons--dead-weight--rushing through the fog at the rate of fifty feet a second, had hurled itself at an iceberg.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 2.7,
+  "score": 3.0,
   "profile": {
-    "independent_tellers": 2,
-    "firsthand": 0,
+    "independent_tellers": 1,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
-    "host": 1,
-    "documents": 0,
-    "credited_documents": 4,
-    "repetitions": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 1,
+    "credited_documents": 0,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "eric-wargo",
-      "jesse-michels"
+      "morgan-robertson"
     ],
     "episodes": [
       "RofQnByLwOo",
@@ -151,7 +204,16 @@
       "yJUBSuPh1pM"
     ]
   },
-  "attestation": 1.35,
-  "tier": "well-attested",
-  "plain": "A novel written in 1898, years before the Titanic sank, seems to tell its story ahead of time. In Morgan Robertson's Futility, or the Wreck of the Titan, the Titan is the largest and most luxurious ocean liner ever built, and it hits an iceberg in the North Atlantic on an April night and sinks. Michels tells it several times as something he knows from his reading. Once he dates the book only vaguely, to the early twentieth century, about ten years before the Titanic, and another time he says \"like 12 years before\". The writer Eric Wargo also tells it, drawing on his own book Time Loops, which is about dreams and hunches that seem to foresee the future. If it is more than coincidence, it would suggest that people can glimpse what is still to come."
+  "attestation": 1.5,
+  "tier": "told-once",
+  "plain": "Jesse Michels tells, more than once, of Futility, or the Wreck of the Titan, a short novel by Morgan Robertson published in 1898, about 14 years before the Titanic sank. In it the biggest liner ever built, the Titan, \"considered practically unsinkable\" and carrying too few lifeboats, hits an iceberg in the North Atlantic on an April night (\"Ice ahead. Iceberg. Right under the bows\"), and the writer Eric Wargo, author of a book on premonitions called Time Loops, tells it the same way. They bring it up as a possible case of someone sensing the future before it happened.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "The Wreck of the Titan: Or, Futility",
+      "date": "1898",
+      "source": "https://www.gutenberg.org/ebooks/24880",
+      "text": "The text read here, Project Gutenberg's, is the 1912 Autograph Edition, which carries both \"Copyright, 1898, by M. F. MANSFIELD\" and \"Copyright, 1912, by MORGAN ROBERTSON\"; the tellers speak of the 1898 book, and the wording of the 1898 first edition is not checked here and may differ from the 1912 text quoted."
+    }
+  ]
 }

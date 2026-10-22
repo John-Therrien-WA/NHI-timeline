@@ -275,6 +275,51 @@
         "place_text": "USA",
         "story_kind": "document"
       }
+    },
+    {
+      "document": "twining-memo",
+      "page": "2a, p. 1379",
+      "teller": "nathan-twining",
+      "quote": "The phenomenon reported is something real and not visionary or fictitious.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "twining-memo",
+      "page": "2d, p. 1379",
+      "teller": "nathan-twining",
+      "quote": "The reported operating characteristics such as extreme rates of climb, maneuverability (particularly in roll), and action which must be considered evasive when sighted or contacted by friendly aircraft and radar, lend belief to the possibility that some of the objects are controlled either manually, automatically or remotely.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "twining-memo",
+      "page": "2f, p. 1380",
+      "teller": "nathan-twining",
+      "quote": "It is possible within the present U. S. knowledge -- provided extensive detailed development is undertaken -- to construct a piloted aircraft which has the general description of the object in sub-paragraph (e) above which would be capable of an approximate range of 7000 miles at subsonic speeds.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "twining-memo",
+      "page": "2g, p. 1380",
+      "teller": "nathan-twining",
+      "quote": "Any developments in this country along the lines indicated would be extremely expensive, time consuming and at the considerable expense of current projects and therefore, if directed, should be set up independently of existing projects.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "twining-memo",
+      "page": "2h(1), p. 1380",
+      "teller": "nathan-twining",
+      "quote": "The possibility that these objects are of domestic origin - the product of some high security project not known to AC/AS-2 or this Command.",
+      "kind": "official",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [
@@ -295,25 +340,23 @@
     }
   ],
   "tags": [],
-  "score": 2.2,
+  "score": 2.6,
   "profile": {
-    "independent_tellers": 3,
+    "independent_tellers": 1,
     "firsthand": 0,
-    "official_records": 0,
+    "official_records": 1,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 2,
-    "host": 1,
-    "documents": 0,
-    "credited_documents": 2,
-    "repetitions": 0,
+    "researcher": 0,
+    "host": 0,
+    "documents": 1,
+    "credited_documents": 0,
+    "repetitions": 3,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "official",
     "tellers": [
-      "bryce-zabel",
-      "jesse-michels",
-      "marik-von-rennenkampff"
+      "nathan-twining"
     ],
     "episodes": [
       "-0g3lLGxNfc",
@@ -329,7 +372,16 @@
       "yJUBSuPh1pM"
     ]
   },
-  "attestation": 1.1,
-  "tier": "well-attested",
-  "plain": "In 1947, after many UFO sightings across the United States, a senior Air Force general named Nathan Twining wrote a letter that is now known as the Twining memo. Podcast host Jesse Michels describes Twining as the head of all aircraft development for the Air Force and places the letter at Air Materiel Command, the branch that handled aircraft development and testing. Michels says Twining sent it to Brigadier General George Schulgen. In Michels's words, the memo said the objects were real, \"neither visionary nor fictitious\", meaning not imagined and not made up. He tells the story on several episodes and in one ties it to an observation program in Alaska. A guest named Merrick adds that Twining later became chairman of the Joint Chiefs of Staff, the top military advisers to the president, and that the memo listed the features of the objects. The story's title also points to a closing note in the memo about separate, independent programs, though the tellings here do not spell it out. It matters to the tellers because, if true, it shows a top general treating UFOs as real from the very start."
+  "attestation": 1.3,
+  "tier": "told-once",
+  "plain": "In 1947 General Nathan Twining, head of the Air Materiel Command, the Air Force branch in charge of aircraft development, wrote a memo saying UFOs were real. Jesse Michels tells this many times, and so do the defense writer Marik von Rennenkampff and the screenwriter Bryce Zabel. The letter is dated 23 September 1947 and went to Brigadier General George Schulgen. It says \"the phenomenon reported is something real and not visionary or fictitious,\" and that the objects seemed controlled \"either manually, automatically or remotely.\" What Michels calls a postscript is actually in the body of the letter: it says the US could build such a craft, but any such work \"should be set up independently of existing projects,\" which suggests a separate, hidden program was being proposed.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "AMC Opinion Concerning \"Flying Discs\" (the Twining memo)",
+      "date": "1947-09-23",
+      "source": "https://files.ncas.org/condon/text/appndx-r.htm",
+      "text": "The letter's own words (paragraph 2a) are \"something real and not visionary or fictitious\", where some tellers say \"neither visionary nor fictitious\". What the host calls the memo's postscript is in the body of the letter: paragraph 2f says a piloted aircraft of the objects' description could be built within present US knowledge, and paragraph 2g that any such development, if directed, \"should be set up independently of existing projects\"; the letter does not mention the Manhattan Project."
+    }
+  ]
 }

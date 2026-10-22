@@ -125,27 +125,54 @@
         "place_text": "Russia",
         "story_kind": "cosmology"
       }
+    },
+    {
+      "document": "unknown-intelligent-forces",
+      "page": "paragraph 1",
+      "teller": "konstantin-tsiolkovsky",
+      "quote": "Очень возможно влияние на нас живых существ, подобных нам, только более совершенных.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "unknown-intelligent-forces",
+      "page": "paragraph 2",
+      "teller": "konstantin-tsiolkovsky",
+      "quote": "Есть факты, которым мы не верим, пока они не коснутся нас самих.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
+    },
+    {
+      "document": "unknown-intelligent-forces",
+      "page": "paragraph 2",
+      "teller": "konstantin-tsiolkovsky",
+      "quote": "Они говорят за вмешательство каких-то непонятных сил в человеческие поступки.",
+      "kind": "firsthand",
+      "cites": [],
+      "documents": []
     }
   ],
   "related": [],
   "tags": [],
-  "score": 0.5,
+  "score": 3.0,
   "profile": {
     "independent_tellers": 1,
-    "firsthand": 0,
+    "firsthand": 1,
     "official_records": 0,
     "official_conclusions": 0,
     "journalist": 0,
     "secondhand": 0,
-    "researcher": 1,
+    "researcher": 0,
     "host": 0,
-    "documents": 0,
+    "documents": 1,
     "credited_documents": 0,
-    "repetitions": 1,
+    "repetitions": 2,
     "contradicted": false,
-    "strongest_kind": "researcher",
+    "strongest_kind": "firsthand",
     "tellers": [
-      "diana-pasulka"
+      "konstantin-tsiolkovsky"
     ],
     "episodes": [
       "1f16VvXaSSE",
@@ -155,7 +182,16 @@
       "zjpvfDFc4fg"
     ]
   },
-  "attestation": 0.25,
+  "attestation": 1.5,
   "tier": "told-once",
-  "plain": "Konstantin Tsiolkovsky was a Russian thinker often called the father of Russian rocketry, and podcast host Jesse Michels says he believed he was in touch with angelic beings and wrote about it, at first crediting the religion scholar Diana Pasulka. Michels later links it to Tsiolkovsky's worldview called cosmism, while Pasulka herself describes it as his belief in non-human intelligence, which he wrote books about. It matters to them because it suggests the space age had roots in contact with other beings."
+  "plain": "Konstantin Tsiolkovsky, the father of Russian rocketry, believed he was in touch with angelic beings and built a whole cosmic worldview, called cosmism, around it. Jesse Michels and the religious studies scholar Diana Pasulka both say this, Michels citing her book American Cosmic, where she writes that he thought non-human \"ethereal beings\" spoke to us through signs in the sky. Tsiolkovsky's own 1928 pamphlet Unknown Intelligent Forces says it is very possible we are influenced by living beings \"like us, only more perfect\" and that some facts point to unseen forces in human affairs, but in the text read here it never uses the word angel and describes no contact of his own.",
+  "discussion": [
+    {
+      "kind": "source",
+      "by": "Unknown Intelligent Forces (Неизвестные разумные силы)",
+      "date": "1928",
+      "source": "https://ru.wikisource.org/wiki/%D0%9D%D0%B5%D0%B8%D0%B7%D0%B2%D0%B5%D1%81%D1%82%D0%BD%D1%8B%D0%B5_%D1%80%D0%B0%D0%B7%D1%83%D0%BC%D0%BD%D1%8B%D0%B5_%D1%81%D0%B8%D0%BB%D1%8B_(%D0%A6%D0%B8%D0%BE%D0%BB%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9)",
+      "text": "Tsiolkovsky's 1928 pamphlet Unknown Intelligent Forces, in the Russian Wikisource text read here (which may not be the whole pamphlet), says an influence on us of living beings \"like us, only more perfect\" is very possible, and that some facts speak for the intervention of incomprehensible forces in human acts; the word angel does not appear in it, and it tells of no contact of his own."
+    }
+  ]
 }

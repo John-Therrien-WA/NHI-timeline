@@ -1293,6 +1293,12 @@ def person_fold_refusal_problems() -> list[str]:
              "data/images/jo-fixture/1.json: its file 'images/jo-fixture/1.png' is missing under site/", missing_headshot),
             ("a malformed distinct pair", {**doc([good]), "distinct": [{"pair": ["jo-fixture"], "reason": "r"}]},
              "distinct pair 1: pair must be two different person ids"),
+            ("a distinct pair naming one id twice", doc([good], [("jo-fixture", "jo-fixture")]),
+             "distinct pair 1: pair must be two different person ids, got ['jo-fixture', 'jo-fixture']"),
+            ("a distinct pair listed twice in reverse order", doc([good], [("jo-fixture", "ivo-fixture"), ("ivo-fixture", "jo-fixture")]),
+             "distinct pair 2 (ivo-fixture, jo-fixture): the pair is also distinct pair 1"),
+            ("a distinct pair with a blank reason", {**doc([good]), "distinct": [{"pair": ["jo-fixture", "ivo-fixture"], "reason": " "}]},
+             "distinct pair 1 (jo-fixture, ivo-fixture): reason must be a non-empty string"),
             ("a distinct id that a group folds", doc([good], [("ivo-fixtor", "jo-fixture")]),
              "distinct pair 1 (ivo-fixtor, jo-fixture): 'ivo-fixtor' is a member of group 1 (ivo-fixture)"),
             ("a distinct id that is no person", doc([good], [("jo-fixture", "nobody-fixture")]),
@@ -1589,7 +1595,7 @@ def main(argv: list[str] | None = None) -> int:
             doc = {"groups": [], "distinct": []}  # the problems above name it
         pairs = warned_pairs([f.stem for f in r.people.glob("*.json")], doc)
         for x, y in pairs:
-            print(f"warning: people {x} and {y} may be one person; fold them through data/person-folds.json")
+            print(f"warning: people {x} and {y} may be one person; fold them through data/person-folds.json or list them there as distinct")
         if pairs:
             print(f"check: {len(pairs)} near-duplicate person pair(s), warnings only")
     label = "fixture" if a.fixture else str(a.root)

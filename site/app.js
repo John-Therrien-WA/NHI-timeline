@@ -37,9 +37,10 @@
       document.head.appendChild(sc);
     });
   }
-  function fetchJson(url) {
+  // missingOk: a 404 resolves null (a file the page can do without)
+  function fetchJson(url, missingOk) {
     return fetch(url, { cache: "no-store" }).then(
-      r => { if (!r.ok) throw new Error(url + ": HTTP " + r.status + "."); return r.json(); },
+      r => { if (missingOk && r.status === 404) return null; if (!r.ok) throw new Error(url + ": HTTP " + r.status + "."); return r.json(); },
       e => { throw new Error(url + " could not be fetched (" + e.message + ")."); });
   }
   // ?data= names a sibling file of the page only: on a published artifact an absolute URL would run
@@ -53,12 +54,44 @@
     if (location.protocol === "file:") return loadScript("data.js").catch(e => { throw new Error(e.message + " Opened from disk, the page reads data.js beside index.html; run pipeline.build."); });
     return fetchJson("data.json").catch(e => { throw new Error(e.message + " Over http the page reads data.json beside index.html; run pipeline.build."); });
   }
+  // the data file's folder, and whether the data came from a .js (from disk, or a ?data= to a .js file)
+  function dataRoute() {
+    const src = new URLSearchParams(location.search).get("data");
+    return {
+      js: src != null ? /\.js(\?|#|$)/.test(src) : location.protocol === "file:",
+      dir: src != null ? src.replace(/[?#].*$/, "").replace(/[^\/]*$/, "") : "",
+    };
+  }
   // the plain tellings: plain.js or plain.json in the data file's folder, the .js when the data came from a .js
   function loadPlain() {
-    const src = new URLSearchParams(location.search).get("data");
-    const js = src != null ? /\.js(\?|#|$)/.test(src) : location.protocol === "file:";
-    const dir = src != null ? src.replace(/[?#].*$/, "").replace(/[^\/]*$/, "") : "";
+    const { js, dir } = dataRoute();
     return js ? loadScript(dir + "plain.js", "NHI_PLAIN") : fetchJson(dir + "plain.json");
+  }
+  // the asset map: assets.json in the data file's folder, over http only (from disk or for a .js data
+  // file there is none), keyed by a picture's relative path images/<owner>/<n>.ext, valued by the url of
+  // the published artifact's asset that holds it; a 404 is no map, and the page loads its own files
+  function loadAssets() {
+    const { js, dir } = dataRoute();
+    if (js) return Promise.resolve({});
+    const url = dir + "assets.json";
+    return fetchJson(url, true).then(A => A === null ? {} : checkAssets(A, url));
+  }
+  const ASSET_URL_PREFIXES = ["https://", "/"];   // equals common.ASSET_URL_PREFIXES (pipeline.check compares them)
+  const ASSET_URL_OFFSITE = "//";                 // equals common.ASSET_URL_OFFSITE: a "/" url starting so is another site
+  function checkAssets(A, url) {
+    if (!A || typeof A !== "object" || Array.isArray(A)) throw new Error("NHI data: " + url + " must be an object of picture path to asset url.");
+    for (const k in A) {
+      const v = A[k];
+      if (typeof v !== "string" || !ASSET_URL_PREFIXES.some(p => v.startsWith(p))) throw new Error("NHI data: " + url + " maps " + JSON.stringify(k) + " to " + JSON.stringify(v) + "; an asset url is a string starting with " + ASSET_URL_PREFIXES.join(" or ") + ".");
+      if (v.startsWith(ASSET_URL_OFFSITE)) throw new Error("NHI data: " + url + " maps " + JSON.stringify(k) + " to " + JSON.stringify(v) + "; a url starting with " + ASSET_URL_OFFSITE + " is an address on another site, not an asset of the page.");
+    }
+    return A;
+  }
+  // every story picture and person headshot loads from its asset when the map holds its path
+  function applyAssets(D, A) {
+    const swap = im => { if (im && Object.prototype.hasOwnProperty.call(A, im.file)) im.file = A[im.file]; };
+    D.stories.forEach(s => (s.images || []).forEach(swap));
+    Object.keys(D.people).forEach(id => swap(D.people[id] && D.people[id].image));
   }
   function loadThree() {
     const timeout = new Promise((_, reject) => setTimeout(() => reject(new Error("three.js did not load from cdn.jsdelivr.net within 15 seconds. The page needs that CDN to draw.")), 15000));
@@ -67,13 +100,14 @@
     ]), timeout]);
   }
 
-  Promise.all([loadData(), loadThree()]).then(([D, mods]) => start(D, mods))
+  Promise.all([loadData(), loadAssets(), loadThree()]).then(([D, A, mods]) => start(D, A, mods))
     .catch(e => fatal(e && /^NHI data:|could not be|did not load|HTTP|NHI_DATA|the link|the parameter/.test(e.message) ? e.message : (e && (e.stack || e.message)) || e));
 
-  function start(D, mods) {
+  function start(D, A, mods) {
     const THREE = mods[0];
     const addons = { OrbitControls: mods[1].OrbitControls, CSS2DRenderer: mods[2].CSS2DRenderer, CSS2DObject: mods[2].CSS2DObject };
-    const M = NHI.model.build(D);
+    const M = NHI.model.build(D);   // checks the data as built, every picture a path relative to the page
+    applyAssets(D, A);              // then the pictures the asset map holds load from their assets
     const hash = new URLSearchParams(location.hash.slice(1));
 
 

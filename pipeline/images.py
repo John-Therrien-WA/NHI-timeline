@@ -298,14 +298,18 @@ def problems(root: Root, stories: dict, story_alias: dict[str, str], people: dic
                 out.append(f"{where}: site/{f} does not exist")
                 continue
             out += file_problems(where, f"site/{f}", p.read_bytes(), sc.get("licence_kind"))
-    sd = site_images_dir(root)
-    if sd.exists():
-        for p in sorted(sd.rglob("*")):
-            if p.is_file() and not p.name.startswith("."):
-                r = p.relative_to(root.site).as_posix()
-                if r not in claimed:
-                    out.append(f"site/{r}: no sidecar under data/images claims it")
+    for r in site_image_files(root):
+        if r not in claimed:
+            out.append(f"site/{r}: no sidecar under data/images claims it")
     return out
+
+
+def site_image_files(root: Root) -> list[str]:
+    """Every picture file under site/images/ (dot files left out), as the page's relative path images/<owner>/<n>.ext."""
+    sd = site_images_dir(root)
+    if not sd.exists():
+        return []
+    return [p.relative_to(root.site).as_posix() for p in sorted(sd.rglob("*")) if p.is_file() and not p.name.startswith(".")]
 
 
 def block(sc: dict) -> dict:

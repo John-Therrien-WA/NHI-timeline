@@ -227,3 +227,5 @@ story alone and the second with the third. The pictures are removed afterwards.
 manifest picture dated "16th century" is refused with `common.PICTURE_DATE_RULE` in the message, and
 one with a null date lands with no `date` in its sidecar; `check.source_ingest_problems` sees the
 same refusal, with nothing written, for a sources entry whose picture is dated "16th century".
+
+`publish/assets.json` maps the vault story's picture to `/_blob/x` and leaves the two headshots out: `check.read_asset_map` reads it as a map with no problems (a key that is a picture under `site/images`, a value with an asset prefix), and `check.asset_expectations` sees the two unmapped pictures the warning counts, `assets.unmapped` in `expect.json`.

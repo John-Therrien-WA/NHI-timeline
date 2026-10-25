@@ -37,9 +37,10 @@ formed (a provenance a non-empty string when present), every document a story qu
 `source` note (the note's `source` is its url and no telling of the story names it) has a
 provenance, and every text file there is a document's and in its format: a full text only for a
 public-domain document with a text_url, [locator] passages for every other (`sources.problems`).
-The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. When site/assets.json exists, it is an object whose
-every key is a picture file under site/images (a stale key fails) and every value an asset url starting with one
-of common.ASSET_URL_PREFIXES, and the page's `ASSET_URL_PREFIXES` in site/app.js equals common.ASSET_URL_PREFIXES; pictures
+The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. When publish/assets.json (the asset map the publish
+places beside the page) exists, it is an object whose every key is a picture file under site/images (a stale key
+fails) and every value an asset url starting with one of common.ASSET_URL_PREFIXES and not with
+common.ASSET_URL_OFFSITE, and the page's copies of both in site/app.js equal common's (`read_asset_map`); pictures
 the map leaves out are listed as one warning. When site/data.json exists, every story in it
 carries exactly the keys build writes (`build.STORY_KEYS`), so a stale build fails until build runs. Prints every problem, naming the
 story and the entry, and exits 1 when there is one. Then it lists, as warnings that never fail the
@@ -118,7 +119,7 @@ from . import clips, images, sources
 from .build import STORY_KEYS
 from . import documents as documents_stage
 from . import people as people_stage
-from .common import (ASSET_URL_PREFIXES, DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
+from .common import (ASSET_URL_OFFSITE, ASSET_URL_PREFIXES, DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
@@ -160,58 +161,56 @@ APP_JS = REPO / "site" / "app.js"
 
 
 def page_asset_prefixes_problems() -> list[str]:
-    """The page's own `ASSET_URL_PREFIXES` in site/app.js equals common.ASSET_URL_PREFIXES, or the page
+    """The page's own `ASSET_URL_PREFIXES` and `ASSET_URL_OFFSITE` in site/app.js equal common's, or the page
     refuses an asset map check passes (or loads one check refuses)."""
-    m = re.search(r"const ASSET_URL_PREFIXES = \[([^\]]*)\];", APP_JS.read_text(encoding="utf-8"))
-    if m is None:
-        return [f"{rel(APP_JS, REPO)}: no `const ASSET_URL_PREFIXES = [...];` to compare with common.ASSET_URL_PREFIXES"]
-    page = tuple(json.loads(f"[{m.group(1)}]"))
-    if page != ASSET_URL_PREFIXES:
-        return [f"{rel(APP_JS, REPO)}: ASSET_URL_PREFIXES is {list(page)}, common.ASSET_URL_PREFIXES is {list(ASSET_URL_PREFIXES)}"]
-    return []
+    page_js = APP_JS.read_text(encoding="utf-8")
+    out = []
+    for name, ours, pattern in (("ASSET_URL_PREFIXES", ASSET_URL_PREFIXES, r"const ASSET_URL_PREFIXES = (\[[^\]]*\]);"),
+                                ("ASSET_URL_OFFSITE", ASSET_URL_OFFSITE, r'const ASSET_URL_OFFSITE = ("[^"]*");')):
+        m = re.search(pattern, page_js)
+        if m is None:
+            out.append(f"{rel(APP_JS, REPO)}: no `const {name} = ...;` to compare with common.{name}")
+            continue
+        page = json.loads(m.group(1))
+        page = tuple(page) if isinstance(page, list) else page
+        if page != ours:
+            out.append(f"{rel(APP_JS, REPO)}: {name} is {page!r}, common.{name} is {ours!r}")
+    return out
 
 
-def load_asset_map(root: Root) -> dict | None:
-    """site/assets.json as parsed, None when there is none; a file that is no JSON is a SystemExit naming it."""
-    f = root.site / "assets.json"
+ASSET_MAP = "publish/assets.json"  # the asset map's home under the root; the publish places it beside the page as assets.json
+
+
+def read_asset_map(root: Root) -> tuple[dict | None, list[str]]:
+    """publish/assets.json, read once: (the map, its problems). None and no problems when there is none;
+    None and the problem when it is no JSON object. A map's problems: a key that is no picture file under
+    site/images/ (the page's relative path images/<owner>/<n>.ext, so a stale key fails), a value that is no
+    string starting with one of common.ASSET_URL_PREFIXES, or one starting with common.ASSET_URL_OFFSITE."""
+    f = root.path / ASSET_MAP
     if not f.exists():
-        return None
+        return None, []
     try:
-        return json.loads(f.read_text(encoding="utf-8"))
+        amap = json.loads(f.read_text(encoding="utf-8"))
     except json.JSONDecodeError as e:
-        raise SystemExit(f"site/assets.json: not JSON ({e})")
-
-
-def asset_map_problems(root: Root) -> list[str]:
-    """When site/assets.json exists: a JSON object whose every key is a picture file under site/images/
-    (the page's relative path images/<owner>/<n>.ext, so a stale key fails) and whose every value is a
-    string starting with one of common.ASSET_URL_PREFIXES."""
-    try:
-        amap = load_asset_map(root)
-    except SystemExit as e:
-        return [str(e)]
-    if amap is None:
-        return []
+        return None, [f"{ASSET_MAP}: not JSON ({e})"]
     if not isinstance(amap, dict):
-        return [f"site/assets.json: must be an object of picture path to asset url, not {type(amap).__name__}"]
+        return None, [f"{ASSET_MAP}: must be an object of picture path to asset url, not {type(amap).__name__}"]
     files = set(images.site_image_files(root))
     out = []
     for k, v in amap.items():
         if k not in files:
-            out.append(f"site/assets.json: key {k!r} is no picture file under site/images (a stale entry, or not a path relative to site/)")
+            out.append(f"{ASSET_MAP}: key {k!r} is no picture file under site/images (a stale entry, or not a path relative to site/)")
         if not (isinstance(v, str) and v.startswith(ASSET_URL_PREFIXES)):
-            out.append(f"site/assets.json: {k!r} maps to {v!r}; an asset url is a string starting with {' or '.join(ASSET_URL_PREFIXES)}")
-    return out
+            out.append(f"{ASSET_MAP}: {k!r} maps to {v!r}; an asset url is a string starting with {' or '.join(ASSET_URL_PREFIXES)}")
+        elif v.startswith(ASSET_URL_OFFSITE):
+            out.append(f"{ASSET_MAP}: {k!r} maps to {v!r}; a url starting with {ASSET_URL_OFFSITE} is an address on another site, not an asset of the page")
+    return amap, out
 
 
-def unmapped_pictures(root: Root) -> list[str]:
-    """The picture files under site/images/ that site/assets.json, when it exists as an object, gives no asset
-    (warnings: the published page would load them from beside itself)."""
-    try:
-        amap = load_asset_map(root)
-    except SystemExit:
-        return []  # asset_map_problems names it
-    if not isinstance(amap, dict):
+def unmapped_pictures(root: Root, amap: dict | None) -> list[str]:
+    """The picture files under site/images/ that the asset map (`read_asset_map`'s map) gives no asset, none
+    when there is no map (warnings: the published page would load them from beside itself)."""
+    if amap is None:
         return []
     return [f for f in images.site_image_files(root) if f not in amap]
 
@@ -294,7 +293,8 @@ def built_story_problems(root: Root) -> list[str]:
     return out
 
 
-def problems(root: Root) -> list[str]:
+def problems(root: Root, asset_map: tuple[dict | None, list[str]] | None = None) -> list[str]:
+    """Every problem under the root; `asset_map` is `read_asset_map(root)` when the caller has read it already."""
     out: list[str] = []
     try:
         stories, people, episodes, documents = (root.load_dir(d) for d in (root.stories, root.people, root.episodes, root.documents))
@@ -445,7 +445,7 @@ def problems(root: Root) -> list[str]:
     out += sources.problems(root, stories, documents)
     out += page_kinds_problems()
     out += page_asset_prefixes_problems()
-    out += asset_map_problems(root)
+    out += (asset_map if asset_map is not None else read_asset_map(root))[1]
     out += built_story_problems(root)
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
@@ -585,6 +585,18 @@ def alias_problems(aliases: dict[str, str], people: dict, named: set[str]) -> li
         if key in people and key != pid:
             out.append(f"{where}: the alias is the id of another person (data/people/{key}.json); fold that file into {pid}")
     return out
+
+
+def asset_expectations(root: Root, read: tuple[dict | None, list[str]]) -> list[str]:
+    """The fixture's publish/assets.json is read as a map, and the pictures it leaves out are
+    expect.json's `assets.unmapped` (the count the warning gives)."""
+    want = load_json(root.path / "expect.json").get("assets")
+    if want is None:
+        return ["expect: expect.json has no `assets` block for the fixture's publish/assets.json"]
+    if read[0] is None:
+        return [f"expect: the fixture's {ASSET_MAP} was not read as a map ({read[1]})"]
+    got = len(unmapped_pictures(root, read[0]))
+    return [] if got == want["unmapped"] else [f"expect: {got} picture(s) without an asset in {ASSET_MAP}, expected {want['unmapped']}"]
 
 
 def expectations(root: Root) -> list[str]:
@@ -2056,8 +2068,10 @@ def _run_fixture(fixtures: Path, tmp: Path) -> list[str]:
     score.run(root)
     explain.run(root, explain.Asker(root, "fixture", 1, tmp / "explain.json"))
     build.run(root, root.site / "data.json")
-    out += problems(root)
+    read = read_asset_map(root)
+    out += problems(root, read)
     out += expectations(root)
+    out += asset_expectations(root, read)
     out += source_expectations(root, load_json(root.path / "expect.json"))
     out += source_ingest_problems(root)
     before = {**snapshot(root.data), **snapshot(root.site / "images"), **{f"sources/{k}": v for k, v in snapshot(root.path / "sources").items()}}
@@ -2107,7 +2121,11 @@ def main(argv: list[str] | None = None) -> int:
     a = ap.parse_args(argv)
     global KEEP_TEMP
     KEEP_TEMP = a.keep_temp
-    out = run_fixture() if a.fixture else problems(Root(a.root))
+    if a.fixture:
+        out = run_fixture()
+    else:
+        read = read_asset_map(Root(a.root))
+        out = problems(Root(a.root), read)
     for p in out:
         print(p)
     if not a.fixture:
@@ -2121,9 +2139,9 @@ def main(argv: list[str] | None = None) -> int:
             print(f"warning: people {x} and {y} may be one person; fold them through data/person-folds.json or list them there as distinct")
         if pairs:
             print(f"check: {len(pairs)} near-duplicate person pair(s), warnings only")
-        unmapped = unmapped_pictures(r)
+        unmapped = unmapped_pictures(r, read[0])
         if unmapped:
-            print(f"warning: {len(unmapped)} picture(s) under site/images have no asset in site/assets.json; the published page "
+            print(f"warning: {len(unmapped)} picture(s) under site/images have no asset in {ASSET_MAP}; the published page "
                   f"loads them from beside itself, where the artifact holds no picture files: {', '.join(unmapped[:5])}"
                   + (", ..." if len(unmapped) > 5 else ""))
     label = "fixture" if a.fixture else str(a.root)

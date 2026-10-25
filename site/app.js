@@ -37,9 +37,10 @@
       document.head.appendChild(sc);
     });
   }
-  function fetchJson(url) {
+  // missingOk: a 404 resolves null (a file the page can do without)
+  function fetchJson(url, missingOk) {
     return fetch(url, { cache: "no-store" }).then(
-      r => { if (!r.ok) throw new Error(url + ": HTTP " + r.status + "."); return r.json(); },
+      r => { if (missingOk && r.status === 404) return null; if (!r.ok) throw new Error(url + ": HTTP " + r.status + "."); return r.json(); },
       e => { throw new Error(url + " could not be fetched (" + e.message + ")."); });
   }
   // ?data= names a sibling file of the page only: on a published artifact an absolute URL would run
@@ -73,20 +74,16 @@
     const { js, dir } = dataRoute();
     if (js) return Promise.resolve({});
     const url = dir + "assets.json";
-    return fetch(url, { cache: "no-store" }).then(
-      r => {
-        if (r.status === 404) return {};
-        if (!r.ok) throw new Error(url + ": HTTP " + r.status + ".");
-        return r.json().catch(e => { throw new Error("NHI data: " + url + " is not JSON (" + e.message + ")."); }).then(A => checkAssets(A, url));
-      },
-      e => { throw new Error(url + " could not be fetched (" + e.message + ")."); });
+    return fetchJson(url, true).then(A => A === null ? {} : checkAssets(A, url));
   }
   const ASSET_URL_PREFIXES = ["https://", "/"];   // equals common.ASSET_URL_PREFIXES (pipeline.check compares them)
+  const ASSET_URL_OFFSITE = "//";                 // equals common.ASSET_URL_OFFSITE: a "/" url starting so is another site
   function checkAssets(A, url) {
     if (!A || typeof A !== "object" || Array.isArray(A)) throw new Error("NHI data: " + url + " must be an object of picture path to asset url.");
     for (const k in A) {
       const v = A[k];
       if (typeof v !== "string" || !ASSET_URL_PREFIXES.some(p => v.startsWith(p))) throw new Error("NHI data: " + url + " maps " + JSON.stringify(k) + " to " + JSON.stringify(v) + "; an asset url is a string starting with " + ASSET_URL_PREFIXES.join(" or ") + ".");
+      if (v.startsWith(ASSET_URL_OFFSITE)) throw new Error("NHI data: " + url + " maps " + JSON.stringify(k) + " to " + JSON.stringify(v) + "; a url starting with " + ASSET_URL_OFFSITE + " is an address on another site, not an asset of the page.");
     }
     return A;
   }

@@ -248,6 +248,28 @@ body.panel-open #panel { transform: none; }
 .notelist li p { margin: 3px 0 0; font-size: 13px; }
 .disclaim { margin-top: 18px; color: var(--muted); font-size: 12px; }
 
+/* the About overlay: a full-window layer over the scene, one scrollable card */
+#about { position: fixed; inset: 0; z-index: 15; display: flex; align-items: flex-start; justify-content: center; padding: 24px 16px;
+  background: rgba(3, 5, 10, 0.72); overflow-y: auto; overscroll-behavior: contain; }
+#about[hidden] { display: none; }
+#about-card { width: min(720px, 100%); background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px 20px 16px;
+  outline: none; font-size: 13px; line-height: 1.4; overflow-wrap: anywhere; }
+#about-close { float: right; margin: -4px -8px 0 10px; }
+#about h2 { margin: 0 0 4px; font-size: 18px; }
+#about h3 { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--muted); margin: 0 0 4px; }
+#about section { padding: 8px 0 0; border-top: 1px solid var(--line); margin-top: 6px; }
+#about h2 + section { border-top: none; margin-top: 0; }
+#about p { margin: 0 0 5px; color: #c9d1e8; }
+#about p b, #about li b { color: var(--text); }
+#about ul#about-tiers { margin: 0 0 6px; padding-left: 18px; color: #c9d1e8; }
+#about .warn { color: var(--warn); }
+#about .notes .hint { margin: 0 0 6px; }
+#about .notelist { max-height: 180px; overflow-y: auto; }
+#about .noteform textarea { height: 3.4em; }
+#about .only-touch { display: none; }
+body.touch #about .only-touch { display: block; }
+body.touch #about .no-touch { display: none; }
+
 /* labels in the scene */
 .label { position: fixed; z-index: 4; pointer-events: none; transform: translate(-50%, calc(-100% - 10px)); white-space: nowrap;
   font-size: 12px; padding: 2px 7px; border-radius: 6px; background: rgba(6, 9, 18, 0.72); color: #dfe5f5; border: 1px solid rgba(150,170,220,0.15);
@@ -309,4 +331,6 @@ body.panel-open #panel { transform: none; }
   #timebar .range { flex: 1 1 100%; }
   .l3.place { display: none !important; }
   .l3.era span { display: none; }
+  #about { padding: 16px; }
+  #about-card { padding: 14px 14px 16px; }
 }

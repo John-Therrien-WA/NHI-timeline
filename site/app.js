@@ -83,7 +83,7 @@
 
     let selected = null, hoverSid = null, previewSid = null, rail = null, view = null, globe = null;
     const C = {
-      THREE, M, canvas, renderer, el, damp, ease,
+      THREE, D, M, canvas, renderer, el, damp, ease,
       select, preview, hover, hoverSid: () => hoverSid, leaveRail, onRail: () => !!rail, usedOnce, placeLabels,
       touch: matchMedia("(pointer: coarse)").matches || hash.has("touch"),   // #touch forces the touch layer on a computer
     };
@@ -376,6 +376,15 @@
     $("keys-hide").addEventListener("click", () => setKeysCollapsed(true));
     $("keys-show").addEventListener("click", () => setKeysCollapsed(false));
 
+    // ---------- the About overlay: first visit, the About button, #about forces it open, #nohint keeps it closed ----------
+    for (const flag of ["about", "nohint"]) if (hash.has(flag) && hash.get(flag) !== "") throw new Error("the link gives #" + flag + " the value " + JSON.stringify(hash.get(flag)) + "; it is a flag and takes none.");
+    if (hash.has("about") && hash.has("nohint")) throw new Error("the link asks for both #about (the About overlay open) and #nohint (closed); give one.");
+    const aboutBox = NHI.about(C, {
+      start: hash.has("about") ? "open" : hash.has("nohint") ? "closed" : "first",
+      where: () => view.name + (location.hash ? " " + location.hash : ""),
+      onOpen: () => { if (view) view.blur(); clearHold(); },   // a key held when it opens is let go
+    });
+
     // ---------- modes ----------
     function setMode(name, instant) {
       const next = name === "globe" ? getGlobe() : corridor;
@@ -400,6 +409,8 @@
     // ---------- keys ----------
     const isTyping = t => t && (t.isContentEditable || t.tagName === "TEXTAREA" || (t.tagName === "INPUT" && t.type !== "range" && t.type !== "checkbox" && t.type !== "button"));
     window.addEventListener("keydown", e => {
+      // the About overlay holds the keys: Escape closes it (from its note box too), every other key stays with the overlay's own controls
+      if (aboutBox.isOpen()) { if (e.code === "Escape") aboutBox.close(); return; }
       if (isTyping(e.target) || e.metaKey || e.ctrlKey || e.altKey) return;
       if (e.target && e.target.type === "range" && /^Arrow/.test(e.code)) return;   // a focused slider keeps its arrows
       const c = e.code;
@@ -418,7 +429,7 @@
       }
       view.keydown(e);
     });
-    window.addEventListener("keyup", e => { if (stepHold && e.code === stepHold.code) clearHold(); view.keyup(e); });
+    window.addEventListener("keyup", e => { if (aboutBox.isOpen()) return; if (stepHold && e.code === stepHold.code) clearHold(); view.keyup(e); });
     window.addEventListener("blur", () => { view.blur(); clearHold(); });
     // a clicked button gives focus back, so Space and the arrows fly instead of pressing it again
     document.addEventListener("click", e => { const b = e.target.closest && e.target.closest("button"); if (b) b.blur(); });
@@ -432,7 +443,7 @@
     }
     window.addEventListener("resize", resize);
 
-    // ---------- start from the link: #story=, #mode=globe, #rail=, #trust=, #nohint, #touch (the touch layer on a computer), and each view's own ----------
+    // ---------- start from the link: #story=, #mode=globe, #rail=, #trust=, #about (the About overlay open), #nohint (it and the keys closed), #touch (the touch layer on a computer), and each view's own ----------
     if (hash.has("trust")) {
       const t = parseFloat(hash.get("trust"));
       if (!Number.isFinite(t) || t < M.trust.min || t > M.trust.max) throw new Error("the link asks for institutional trust " + JSON.stringify(hash.get("trust")) + "; expected " + M.trust.min + " to " + M.trust.max + ".");

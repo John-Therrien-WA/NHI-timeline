@@ -36,6 +36,7 @@
     <button class="btn only-globe" id="b-flat" title="Collapse altitude: every story on the surface, time as colour (F)">Flatten</button>
     <button class="btn only-globe" id="b-reset" title="Reset camera, window and flatten (R)">Reset</button>
     <button class="btn" id="legend-toggle" title="Show or hide the legend and filters">Legend</button>
+    <button class="btn" id="btn-about" title="What this page is, how to read it, how to leave a note">About</button>
   </div>
 </div>
 
@@ -164,12 +165,45 @@
   <div id="panel-body"></div>
 </aside>
 
+<div id="about" hidden>
+  <div id="about-card" role="dialog" aria-modal="true" aria-labelledby="about-h" tabindex="-1">
+    <button class="btn" id="about-close" title="Close (Esc)">Close</button>
+    <h2 id="about-h">About this page</h2>
+    <section>
+      <h3>What this is</h3>
+      <p>The stories told about non-human intelligence and disclosure on the podcast American Alchemy (host Jesse Michels, <span id="about-episodes"></span> episodes), with the public documents they name. Each story is what someone said happened. The page records who said it, where (the episode and time code, or the document and page), and who else says the same. <b>Stories, not facts:</b> nothing here says a story is true.</p>
+    </section>
+    <section>
+      <h3>How to read it</h3>
+      <p>Each story is sized by how well it is attested, in three tiers:</p>
+      <ul id="about-tiers"></ul>
+      <p>The <b>score</b> is counted from the tellings: how many independent tellers, of what kind, with what documents. It is never judged by taste. A score of 1.0 means as well attested as the typical story here.</p>
+      <p>The <b>institutional trust</b> slider in the Legend sets how much weight an official record gets. Move it and the sizes change.</p>
+      <p><b>Lines</b> join stories about the same event, a variant of one, or one that corroborates or <span class="warn">contradicts</span> (red) another, or two that share a document. Pictures are of objects and places; a person's photograph appears only beside that person's own words.</p>
+    </section>
+    <section>
+      <h3>How to move</h3>
+      <p class="no-touch"><b>Corridor:</b> fly through time with W and S; click a story to open it. <b>Globe:</b> press M to switch; regions are patches, eras are shells above them. The Keys panel has the rest, and / searches for a story, teller or place.</p>
+      <p class="only-touch"><b>Corridor:</b> drag to look around, two fingers up and down to move along time, or hold the arrows on the pad; tap a story to open it. <b>Globe:</b> switch at the top; regions are patches, eras are shells, drag to turn it and pinch to zoom. How to move has the rest, and the search box finds a story, teller or place.</p>
+    </section>
+    <section>
+      <h3>How to leave a note</h3>
+      <p>Open a story and write in Notes at the bottom of its panel: a source, a correction, another telling, or just what you think of it. For the page as a whole, use the box below. Notes are saved with the page, and a person reads them before anything changes.</p>
+    </section>
+    <section>
+      <h3>A note on the page</h3>
+      <div id="about-notes" class="notes"></div>
+    </section>
+  </div>
+</div>
+
 <div id="hover" class="label"></div>
 <div id="fatal" role="alert"><div><h2>The page cannot be drawn</h2><pre id="fatal-msg"></pre></div></div>
 <div id="loading">Loading the stories&hellip;</div>
 
 <script src="js/model.js"></script>
 <script src="js/notes.js"></script>
+<script src="js/about.js"></script>
 <script src="js/panel.js"></script>
 <script src="js/cards.js"></script>
 <script src="js/corridor.js"></script>

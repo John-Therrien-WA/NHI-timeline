@@ -148,6 +148,7 @@ def save_json(f: Path, obj) -> bool:
 PICTURE_DATE_RULE = ("A picture date is YYYY, YYYY-MM or YYYY-MM-DD, or absent (the key left out or null); "
                      "a range, a decade or a century goes into the caption in words.")
 ARTIFACT_FILE_BYTES = 16_000_000  # the most a published claude.ai artifact allows one file
+ASSET_URL_PREFIXES = ("https://", "/")  # an asset url in site/assets.json starts with one of these (the page holds a copy)
 SLUG_LIMIT = 60  # the longest slug `slugify` makes by default, so the longest document or story id
 SLUG = re.compile(r"[a-z0-9]+(-[a-z0-9]+)*")
 

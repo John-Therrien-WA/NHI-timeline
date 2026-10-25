@@ -37,7 +37,10 @@ formed (a provenance a non-empty string when present), every document a story qu
 `source` note (the note's `source` is its url and no telling of the story names it) has a
 provenance, and every text file there is a document's and in its format: a full text only for a
 public-domain document with a text_url, [locator] passages for every other (`sources.problems`).
-The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. When site/data.json exists, every story in it
+The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. When site/assets.json exists, it is an object whose
+every key is a picture file under site/images (a stale key fails) and every value an asset url starting with one
+of common.ASSET_URL_PREFIXES, and the page's `ASSET_URL_PREFIXES` in site/app.js equals common.ASSET_URL_PREFIXES; pictures
+the map leaves out are listed as one warning. When site/data.json exists, every story in it
 carries exactly the keys build writes (`build.STORY_KEYS`), so a stale build fails until build runs. Prints every problem, naming the
 story and the entry, and exits 1 when there is one. Then it lists, as warnings that never fail the
 check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
@@ -115,7 +118,7 @@ from . import clips, images, sources
 from .build import STORY_KEYS
 from . import documents as documents_stage
 from . import people as people_stage
-from .common import (DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
+from .common import (ASSET_URL_PREFIXES, DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
@@ -151,6 +154,66 @@ def page_kinds_problems() -> list[str]:
     if page != DISCUSSION_KINDS:
         return [f"{rel(MODEL_JS, REPO)}: DISCUSSION_KINDS is {list(page)}, common.DISCUSSION_KINDS is {list(DISCUSSION_KINDS)}"]
     return []
+
+
+APP_JS = REPO / "site" / "app.js"
+
+
+def page_asset_prefixes_problems() -> list[str]:
+    """The page's own `ASSET_URL_PREFIXES` in site/app.js equals common.ASSET_URL_PREFIXES, or the page
+    refuses an asset map check passes (or loads one check refuses)."""
+    m = re.search(r"const ASSET_URL_PREFIXES = \[([^\]]*)\];", APP_JS.read_text(encoding="utf-8"))
+    if m is None:
+        return [f"{rel(APP_JS, REPO)}: no `const ASSET_URL_PREFIXES = [...];` to compare with common.ASSET_URL_PREFIXES"]
+    page = tuple(json.loads(f"[{m.group(1)}]"))
+    if page != ASSET_URL_PREFIXES:
+        return [f"{rel(APP_JS, REPO)}: ASSET_URL_PREFIXES is {list(page)}, common.ASSET_URL_PREFIXES is {list(ASSET_URL_PREFIXES)}"]
+    return []
+
+
+def load_asset_map(root: Root) -> dict | None:
+    """site/assets.json as parsed, None when there is none; a file that is no JSON is a SystemExit naming it."""
+    f = root.site / "assets.json"
+    if not f.exists():
+        return None
+    try:
+        return json.loads(f.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as e:
+        raise SystemExit(f"site/assets.json: not JSON ({e})")
+
+
+def asset_map_problems(root: Root) -> list[str]:
+    """When site/assets.json exists: a JSON object whose every key is a picture file under site/images/
+    (the page's relative path images/<owner>/<n>.ext, so a stale key fails) and whose every value is a
+    string starting with one of common.ASSET_URL_PREFIXES."""
+    try:
+        amap = load_asset_map(root)
+    except SystemExit as e:
+        return [str(e)]
+    if amap is None:
+        return []
+    if not isinstance(amap, dict):
+        return [f"site/assets.json: must be an object of picture path to asset url, not {type(amap).__name__}"]
+    files = set(images.site_image_files(root))
+    out = []
+    for k, v in amap.items():
+        if k not in files:
+            out.append(f"site/assets.json: key {k!r} is no picture file under site/images (a stale entry, or not a path relative to site/)")
+        if not (isinstance(v, str) and v.startswith(ASSET_URL_PREFIXES)):
+            out.append(f"site/assets.json: {k!r} maps to {v!r}; an asset url is a string starting with {' or '.join(ASSET_URL_PREFIXES)}")
+    return out
+
+
+def unmapped_pictures(root: Root) -> list[str]:
+    """The picture files under site/images/ that site/assets.json, when it exists as an object, gives no asset
+    (warnings: the published page would load them from beside itself)."""
+    try:
+        amap = load_asset_map(root)
+    except SystemExit:
+        return []  # asset_map_problems names it
+    if not isinstance(amap, dict):
+        return []
+    return [f for f in images.site_image_files(root) if f not in amap]
 
 
 def discussion_problems(where: str, entries, episodes: dict) -> list[str]:
@@ -381,6 +444,8 @@ def problems(root: Root) -> list[str]:
     out += document_fold_problems(root, stories, documents)
     out += sources.problems(root, stories, documents)
     out += page_kinds_problems()
+    out += page_asset_prefixes_problems()
+    out += asset_map_problems(root)
     out += built_story_problems(root)
     for eid, e in episodes.items():
         if e.get("captions") and not (root.path / e["captions"]).exists():
@@ -2056,6 +2121,11 @@ def main(argv: list[str] | None = None) -> int:
             print(f"warning: people {x} and {y} may be one person; fold them through data/person-folds.json or list them there as distinct")
         if pairs:
             print(f"check: {len(pairs)} near-duplicate person pair(s), warnings only")
+        unmapped = unmapped_pictures(r)
+        if unmapped:
+            print(f"warning: {len(unmapped)} picture(s) under site/images have no asset in site/assets.json; the published page "
+                  f"loads them from beside itself, where the artifact holds no picture files: {', '.join(unmapped[:5])}"
+                  + (", ..." if len(unmapped) > 5 else ""))
     label = "fixture" if a.fixture else str(a.root)
     if out:
         print(f"check: {len(out)} problem(s) in {label}")

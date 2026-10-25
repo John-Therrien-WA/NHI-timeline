@@ -17,10 +17,14 @@ What it writes: `sources/captions/<id>.<lang>.txt`, one line per paragraph, "[h:
 shape `captions.py` writes, so `common.Captions`, extract and the verbatim quote check read it
 unchanged; and `data/episodes/<id>.json` with the fields `captions.py` writes plus
 `"captions_source": "gemini"` and `"timestamps_approximate"` (true when Gemini's time stamps overshot
-the duration and were rescaled to fit, or went backwards and were made non-decreasing, so a time-coded
-link may land some seconds off; a transcript with backward stamps is kept, never asked for again, since
-a retry is charged the whole video). An existing
+the duration and were rescaled to fit, so a time-coded link may land some seconds off). An existing
 episode file keeps its hand-edited fields (host, guests); the caption fields are set. There is no .vtt.
+
+A suspect transcript is refused, never stored: creator-watch marks one whose stamps went backwards (it
+is kept rather than asked for again, since a retry is charged the whole video, and made non-decreasing)
+or whose continuation opens with a passage already transcribed, because Gemini's stitching can repeat
+earlier content. `creator_watch.transcript.refuse_suspect` raises, naming the video and the marker, and
+the stage exits 1 with nothing written.
 
 The ledger: `sources/gemini-ledger.json`, `{ "<UTC day>": seconds }`, counts the seconds of video
 sent to Gemini per UTC day (every request sends the whole video, so a continuation is charged the
@@ -29,9 +33,10 @@ full duration again; a request that fails as an outage is refunded). The cap is 
 which keep their own ledger, and this stage must not starve them.
 
 Fails loud when creator-watch, its config or its keys file is missing, when the video is absent or
-live, when a caption text exists already (unless `--force`) and when Gemini cannot serve the video
-(`GeminiFailure`, including a transcript rejected twice). When Gemini is blocked (rate limit, quota,
-the cap, a timeout, the network) it says so and exits 2 without writing anything: try again later.
+live, when a caption text exists already (unless `--force`), when Gemini cannot serve the video
+(`GeminiFailure`, including a transcript rejected twice) and when the transcript is suspect. When
+Gemini is blocked (rate limit, quota, the cap, a timeout, the network) it says so and exits 2 without
+writing anything: try again later.
 """
 from __future__ import annotations
 
@@ -86,11 +91,12 @@ def import_creator_watch():
         import creator_watch.gemini as gemini
         from creator_watch.config import load_config
         from creator_watch.keys import load_keys
+        from creator_watch.transcript import SuspectTranscript, refuse_suspect
         from creator_watch.youtube_api import YouTubeApi
     except ImportError as e:
         raise SystemExit(f"gemini_captions: cannot import creator-watch ({e}); run with "
                          f"{CREATOR_WATCH}/.venv/bin/python -m pipeline.gemini_captions")
-    return gemini, load_config, load_keys, YouTubeApi
+    return gemini, load_config, load_keys, YouTubeApi, SuspectTranscript, refuse_suspect
 
 
 def caption_lines(paragraphs: list[tuple[float, str]]) -> list[str]:
@@ -107,7 +113,7 @@ def caption_lines(paragraphs: list[tuple[float, str]]) -> list[str]:
 
 
 def run(root: Root, vid: str, *, force: bool = False, cap_hours: float = CAP_HOURS) -> tuple[Path, Path, dict]:
-    gemini, load_config, load_keys, YouTubeApi = import_creator_watch()
+    gemini, load_config, load_keys, YouTubeApi, SuspectTranscript, refuse_suspect = import_creator_watch()
     try:
         cfg = load_config(CREATOR_WATCH / "config.toml")
         keys = load_keys(cfg.keys_file)
@@ -153,6 +159,10 @@ def run(root: Root, vid: str, *, force: bool = False, cap_hours: float = CAP_HOU
         raise SystemExit(2)
     except gemini.GeminiFailure as e:
         raise SystemExit(f"gemini_captions: Gemini cannot serve {vid} ({type(e).__name__}): {keys.redact(str(e))}")
+    try:
+        refuse_suspect(vid, result)
+    except SuspectTranscript as e:
+        raise SystemExit(f"gemini_captions: {e}; nothing written")
 
     lines = caption_lines(result.paragraphs)
     txt.parent.mkdir(parents=True, exist_ok=True)

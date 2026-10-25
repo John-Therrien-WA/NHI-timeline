@@ -71,9 +71,23 @@ bodies, seen as `IncompleteRead`), is that one command run again outside the san
 idempotent, so the images already added are kept. Its manifest is a
 JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind", "credit",
 "caption", "date"? }` (`schema.md`, Images); an image already held is kept, so a manifest can be run
-again. To publish the page as an artifact, pass `site/images/` in the artifact's `files` beside
-`data.json` and `plain.json`, so the relative `images/...` paths resolve; while any `fair-use` image is among them the
-artifact stays private.
+again.
+
+To publish the page: it is a private artifact (https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP,
+capabilities `assets` and `db`, both kept by omitting `capabilities` on a republish) of exactly
+thirteen files: `index.html`, `app.js`, `data.json`, `plain.json`, `assets.json`, `style.css` and
+the seven scripts under `js/`. After `build`, publish `site/index.html` with `root site` and those
+paths in `files`, `assets.json` taken from `publish/assets.json`; never `data.js` or `plain.js`
+(the `file:` copies) and never a picture. An artifact version holds at most 512 files, so every
+picture lives in the artifact's asset store (5,000 files, 1 GB): a new picture is uploaded there
+(`asset: true`, `file_paths`, 25 a call), its url (`/_blob/<id>`, same origin as the page) is
+written into `publish/assets.json` under the page path `images/<owner>/<n>.ext`, and the map is
+republished; `check` validates the map against `site/images/` and warns on an unmapped picture.
+Uploads and the map are a mechanical agent's chore (Haiku), with the exact file lists in its
+brief and the map written from the results; a builder spent 170k tokens on one such run. A
+publish with `files` from a new conversation is refused until the artifact has been seen there:
+first `action: list, scope: files`, then `action: read` of the page, then the publish. While any
+`fair-use` image is in `site/images/` the artifact stays private.
 
 To check a source: when a story names a public source (a paper, a book, a memo, a patent, a court
 record, an article), a scout finds it and returns a manifest entry (`schema.md`, Document): the

@@ -33,19 +33,19 @@
     return Promise.resolve(legacy());
   }
 
-  /* One notes box. spec: { el, title, hint, collection, fields() (the note's own fields beside by, date, text,
-     status), asText(note), query(collection) (the open notes this box lists), empty (the empty list's line) }.
-     Returns stop(), which ends the box's live list. */
+  /* One notes box. spec: { el, title, hint, collection, ctl (the prefix of the controls' data-ctl handles), fields()
+     (the note's own fields beside by, date, text, status), asText(note), query(collection) (the open notes this box
+     lists), empty (the empty list's line) }. Returns stop(), which ends the box's live list. */
   function box(root, spec) {
     const el = spec.el;
     let stopped = false, unsubscribe = null;
     if (spec.title) root.appendChild(el("h3", null, spec.title));
     root.appendChild(el("p", { class: "hint" }, spec.hint));
     const form = el("form", { class: "noteform" });
-    const name = el("input", { type: "text", placeholder: "Your name", "aria-label": "Your name", maxlength: "80" });
+    const name = el("input", { type: "text", placeholder: "Your name", "aria-label": "Your name", maxlength: "80", "data-ctl": spec.ctl + "-name" });
     name.value = remembered();
-    const text = el("textarea", { rows: "3", placeholder: "Your note", "aria-label": "Your note", maxlength: "2000" });
-    const btn = el("button", { class: "btn", type: "submit" }, "Copy note");
+    const text = el("textarea", { rows: "3", placeholder: "Your note", "aria-label": "Your note", maxlength: "2000", "data-ctl": spec.ctl + "-text" });
+    const btn = el("button", { class: "btn", type: "submit", "data-ctl": spec.ctl + "-send" }, "Copy note");
     const status = el("p", { class: "notestatus", "aria-live": "polite" });
     const manual = el("pre", { class: "manual" }); manual.hidden = true;
     form.appendChild(name); form.appendChild(text); form.appendChild(btn);
@@ -106,7 +106,7 @@
   function mount(root, s, C) {
     if (stopStory) { stopStory(); stopStory = null; }
     stopStory = box(root, {
-      el: C.el, title: "Notes", collection: "notes",
+      el: C.el, title: "Notes", collection: "notes", ctl: "notes",
       hint: "Leave a note on this story: a source, a correction, another telling, or what you think of it.",
       fields: () => ({ story: s.id }),
       asText: n => "story: " + n.story + "\nname: " + n.by + "\ndate: " + n.date + "\nnote: " + n.text,
@@ -118,7 +118,7 @@
   // the page's box, in the About overlay; where() names the view the reader is in
   function mountPage(root, C, where) {
     return box(root, {
-      el: C.el, title: null, collection: "feedback",
+      el: C.el, title: null, collection: "feedback", ctl: "feedback",
       hint: "On the page as a whole: what is unclear, what is missing, what works.",
       fields: () => ({ where: where() }),
       asText: n => "page note\nname: " + n.by + "\ndate: " + n.date + "\nwhere: " + n.where + "\nnote: " + n.text,

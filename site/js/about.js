@@ -18,8 +18,12 @@
     C.M.TIERS.forEach(T => { const li = C.el("li"); li.appendChild(C.el("b", null, T.name)); li.appendChild(document.createTextNode(": " + T.rule + ".")); tiers.appendChild(li); });
     NHI.notes.mountPage(document.getElementById("about-notes"), C, opts.where);
     function isOpen() { return !layer.hidden; }
+    // while the overlay is open the rest of the page is inert, so Tab and Shift+Tab stay inside the card
+    let inerted = [];
     function open() {
       if (isOpen()) return;
+      inerted = Array.from(document.body.children).filter(n => n !== layer && !n.inert);
+      inerted.forEach(n => { n.inert = true; });
       layer.hidden = false; document.body.classList.add("about-open");
       card.scrollTop = 0; card.focus({ preventScroll: true });
       if (opts.onOpen) opts.onOpen();
@@ -27,6 +31,7 @@
     function close() {
       if (!isOpen()) return;
       layer.hidden = true; document.body.classList.remove("about-open");
+      inerted.forEach(n => { n.inert = false; }); inerted = [];
       markSeen();
     }
     document.getElementById("about-close").addEventListener("click", close);

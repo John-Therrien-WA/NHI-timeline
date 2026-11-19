@@ -1424,7 +1424,7 @@ def fetch_refusal_problems(root: Root) -> list[str]:
     finally:
         srv.shutdown()
         srv.server_close()
-    refusal = urllib.error.URLError(OSError("Tunnel connection failed: 403 not in this command's allowed_domains"))
+    refusal = urllib.error.URLError(OSError(f"{images.PROXY_REFUSAL_TUNNEL} not in this command's allowed_domains"))
     vault = "the-vault-beneath-mount-fictus-1971"
     sc = load_json(root.data / "images" / vault / "1.json")
     entry = {**{k: sc[k] for k in images.MANIFEST_KEYS if k in sc}, "owner": vault, "image_url": "https://refused.example.org/x.jpg"}

@@ -63,11 +63,11 @@ null `place` or missing `place_text`, nothing else. A place the extractor names 
 `data/place-aliases.json` does not know stays unresolved until an alias or a place is added; the next
 `merge` then fills it.
 
-The images stage downloads with a descriptive User-Agent and resizes with macOS `sips`. It is run
-sandboxed first, `.venv/bin/python -m pipeline.images <manifest> --keep-going`, with the hosts
-commons.wikimedia.org, upload.wikimedia.org and thumb.wikimedia.org allowed. Only when a run fails
-with the `sips` temporary-file error, or with truncated downloads (the sandbox proxy cuts larger
-bodies, seen as `IncompleteRead`), is that one command run again outside the sandbox; the run is
+The images stage downloads with a descriptive User-Agent and resizes in memory with macOS ImageIO.
+In a Claude Code session it runs inside the sandbox: `.venv/bin/python -m pipeline.images <manifest>
+--hosts` prints the hosts the run will reach, and `.venv/bin/python -m pipeline.images <manifest>
+--keep-going` runs with exactly those in the Bash tool's `allowed_domains`. A host the sandbox
+refuses stops the run with its name (`CLAUDE.md`, Working here, says what to do); the run is
 idempotent, so the images already added are kept. Its manifest is a
 JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind", "credit",
 "caption", "date"? }` (`schema.md`, Images); an image already held is kept, so a manifest can be run
@@ -94,9 +94,9 @@ record, an article), a scout finds it and returns a manifest entry (`schema.md`,
 document, a plain-text URL for a public-domain text or the quoted passages with their locators for
 any other, the quotes that say what the story claims, the author, the telling's kind, a note
 when the source reads otherwise than the tellers, and its pictures. Run
-`uv run python -m pipeline.sources <manifest> --keep-going` after `clips` and before `documents --fold`,
-with the text's host
-allowed; it checks every quote against the text before writing an entry, keeps a text file already
+`.venv/bin/python -m pipeline.sources <manifest> --keep-going` after `clips` and before `documents --fold`,
+sandboxed with the hosts `.venv/bin/python -m pipeline.sources <manifest> --hosts` prints in its
+`allowed_domains`; it checks every quote against the text before writing an entry, keeps a text file already
 there, and adds nothing twice, so a manifest can be run again. It writes the pictures to
 `<manifest stem>.images.json` beside the manifest for `pipeline.images`, and prints the stories it
 changed: run `documents --fold`, `people --fold` and `score`, then `explain --force` on those, then `build`.

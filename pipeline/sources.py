@@ -1,6 +1,7 @@
 """Primary sources: a named public document checked in the open, its own words added as a telling.
 
-    uv run python -m pipeline.sources <manifest.json> [--root DIR] [--keep-going]
+    .venv/bin/python -m pipeline.sources <manifest.json> --hosts [--root DIR]
+    .venv/bin/python -m pipeline.sources <manifest.json> [--root DIR] [--keep-going]
 
 When a story names a source that can be read online (a paper, a book, a memo, a patent, a court
 record, an article), a scout finds it and returns a manifest entry; this stage ingests it. The
@@ -53,6 +54,12 @@ documents: [] }` (`page` the quote's locator) unless the story holds the same (d
 `differs` becomes `{ kind: "source", by: the document's title, date, source: url, text }` unless the
 story holds the same text.
 
+The stage runs inside the Claude Code sandbox with the hosts it may reach named in the Bash tool's
+`allowed_domains`: `--hosts` checks the manifest as a run does and prints, as a JSON list, the hosts of the
+texts a run would download (`text_to_fetch`: a full-text document whose text file is not held), through
+`images.fetch_hosts`. A host the sandbox refuses (a redirect's included) raises `images.HostRefused` naming it
+and stops the run, with `--keep-going` too. An empty list means the run fetches nothing.
+
 A note-only entry (`"note_only": true`) has `teller` and `kind` null and a non-empty `differs`
 (`NOTE_ONLY_RULE`, refused otherwise). Its document needs a provenance, held already or given in its
 own manifest entry (`unproven_problem`, tested for every entry before the first is ingested, so the
@@ -77,10 +84,10 @@ from __future__ import annotations
 
 import argparse
 import http.client
+import json
 import re
 import sys
 import urllib.error
-import urllib.request
 from pathlib import Path
 
 from . import images
@@ -385,14 +392,11 @@ def image_owner_problems(where: str, e: dict, sid: str, story_alias: dict[str, s
 
 # ---------- the ingest ----------
 
-USER_AGENT = images.USER_AGENT
-
-
 def download(url: str) -> str:
-    """The plain text at a URL; fails on anything but a 200 with a text/plain body."""
-    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    """The plain text at a URL; fails on anything but a 200 with a text/plain body. A host the sandbox refuses
+    raises `images.HostRefused` (`images.open_url`)."""
     try:
-        with urllib.request.urlopen(req, timeout=120) as r:
+        with images.open_url(url, timeout=120) as r:
             if r.status != 200:
                 raise SystemExit(f"fetch failed: {url}: HTTP {r.status}")
             ctype = r.headers.get_content_type()
@@ -474,6 +478,28 @@ def source_note_text(doc: dict, differs: str) -> str:
     return f"{lead if lead[-1] in '.!?' else lead + '.'} {norm_ws(differs)}"
 
 
+def entry_document(e: dict, documents: dict) -> tuple[str, bool, dict]:
+    """(document id, True when it is to be created, the document as the entry leaves it: the manifest's title, its
+    other fields filling the missing ones, nothing overwritten). `documents` is left as it is."""
+    m = e["document"]
+    did, new_doc = find_document(documents, m)
+    doc = dict(documents.get(did) or {"id": did, "title": m["title"], "issuer": None, "date": None, "url": None,
+                                      "text_url": None, "status": None, "kind": None, "attests": []})
+    doc["title"] = m["title"]
+    for k in FILL_KEYS:
+        if doc.get(k) is None and m.get(k) is not None:
+            doc[k] = m[k]
+    return did, new_doc, doc
+
+
+def text_to_fetch(root: Root, e: dict, documents: dict) -> str | None:
+    """The URL `ingest_entry` downloads for this entry: its `text.url` when the document takes a full text and no
+    text file is held; None when it fetches nothing."""
+    did, _, doc = entry_document(e, documents)
+    url = e["text"].get("url")
+    return url if url and full_text(doc) and not text_path(root, did).exists() else None
+
+
 def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str], people: dict, documents: dict,
                  aliases: dict[str, str], fetch) -> tuple[list[str], list[Path]]:
     """One entry in memory, then written; returns (the lines to print, the files it wrote).
@@ -486,16 +512,11 @@ def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str]
     name, kind = (None, None) if note_only else (e.get("teller") or m.get("author"), e["kind"])
     if not note_only and not name:
         name, kind = m["issuer"], "official"
-    did, new_doc = find_document(documents, m)
-    doc = dict(documents.get(did) or {"id": did, "title": m["title"], "issuer": None, "date": None, "url": None,
-                                      "text_url": None, "status": None, "kind": None, "attests": []})
+    did, new_doc, doc = entry_document(e, documents)
     lines: list[str] = []
-    if doc["title"] != m["title"]:  # a stored title may be a stub merge made from a teller's words
-        lines.append(f"title    {did}  {doc['title']!r} becomes {m['title']!r}")
-        doc["title"] = m["title"]
-    for k in FILL_KEYS:
-        if doc.get(k) is None and m.get(k) is not None:
-            doc[k] = m[k]
+    stored_title = documents[did]["title"] if did in documents else m["title"]
+    if stored_title != m["title"]:  # a stored title may be a stub merge made from a teller's words
+        lines.append(f"title    {did}  {stored_title!r} becomes {m['title']!r}")
     if doc.get("kind") is None and kind is not None:
         doc["kind"] = kind
     # the text, in the format the document's status gives
@@ -573,13 +594,10 @@ def images_manifest_path(manifest: Path) -> Path:
     return manifest.with_name(f"{manifest.stem}.images.json")
 
 
-def run(root: Root, entries, *, manifest: Path | None = None, fetch=download, keep_going: bool = False,
-        echo=print) -> dict:
-    """Ingest every entry; return { "lines", "failures", "changed" (story ids), "images" (the entries
-    written for pipeline.images) }. `fetch` is the text downloader (the fixture check serves local text)."""
+def checked(root: Root, entries) -> tuple[dict, dict, dict, dict[str, str]]:
+    """(stories, people, documents, story aliases) once every entry passes its checks; refused otherwise."""
     stories, people, documents = root.load_dir(root.stories), root.load_dir(root.people), root.load_dir(root.documents)
     story_alias = root.story_aliases(stories)
-    aliases = person_aliases(root.path)
     if not isinstance(entries, list):
         raise SystemExit("sources: the manifest must be a JSON list of entries")
     bad = [p for i, e in enumerate(entries) for p in
@@ -588,6 +606,23 @@ def run(root: Root, entries, *, manifest: Path | None = None, fetch=download, ke
         bad = [p for i, e in enumerate(entries) if (p := unproven_problem(f"manifest entry {i + 1} ({e['story']!r})", e, documents))]
     if bad:
         raise SystemExit("sources: the manifest is refused:\n" + "\n".join(bad))
+    return stories, people, documents, story_alias
+
+
+def hosts(root: Root, entries) -> list[str]:
+    """The hosts `run` reaches for this manifest: those of the texts it downloads (`text_to_fetch`), as
+    `images.fetch_hosts` gives them. Checks the manifest as `run` does; writes nothing. The entries' pictures are
+    `pipeline.images`'s run, with its own `--hosts`."""
+    _, _, documents, _ = checked(root, entries)
+    return images.fetch_hosts(u for e in entries if (u := text_to_fetch(root, e, documents)))
+
+
+def run(root: Root, entries, *, manifest: Path | None = None, fetch=download, keep_going: bool = False,
+        echo=print) -> dict:
+    """Ingest every entry; return { "lines", "failures", "changed" (story ids), "images" (the entries
+    written for pipeline.images) }. `fetch` is the text downloader (the fixture check serves local text)."""
+    stories, people, documents, story_alias = checked(root, entries)
+    aliases = person_aliases(root.path)
     lines: list[str] = []
     failures: list[str] = []
     changed: list[str] = []
@@ -596,6 +631,8 @@ def run(root: Root, entries, *, manifest: Path | None = None, fetch=download, ke
         sid = e["story"] if e["story"] in stories else story_alias[e["story"]]
         try:
             got, wrote = ingest_entry(root, e, stories, story_alias, people, documents, aliases, fetch)
+        except images.HostRefused:
+            raise
         except SystemExit as x:
             msg = f"sources: entry {i + 1} ({sid}): {x}"
             if not keep_going:
@@ -625,7 +662,12 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("manifest", type=Path)
     ap.add_argument("--root", default=REPO)
     ap.add_argument("--keep-going", action="store_true", help="go on after a failed entry; exit 1 at the end")
+    ap.add_argument("--hosts", action="store_true",
+                    help="print the hosts the run would reach, as a JSON list for allowed_domains, and stop; fetches nothing")
     a = ap.parse_args(argv)
+    if a.hosts:
+        print(json.dumps(hosts(Root(a.root), load_json(a.manifest))))
+        return 0
     res = run(Root(a.root), load_json(a.manifest), manifest=a.manifest, keep_going=a.keep_going)
     if res["failures"]:
         print(f"sources: {len(res['failures'])} entr{'y' if len(res['failures']) == 1 else 'ies'} failed:", file=sys.stderr)

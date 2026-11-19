@@ -123,7 +123,7 @@ from .common import (ASSET_URL_OFFSITE, ASSET_URL_PREFIXES, DATE, DISCUSSION_KEY
                      STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
-TEMP_PREFIXES = ("nhi-fixture-", "nhi-link-group-", "nhi-sources-", "nhi-fold-", "nhi-docfold-", "nhi-explain-shard-")
+TEMP_PREFIXES = ("nhi-fixture-", "nhi-link-group-", "nhi-sources-", "nhi-fold-", "nhi-docfold-", "nhi-explain-shard-", "nhi-fetch-")
 KEEP_TEMP = False  # --keep-temp: the temporary folders stay, each path printed
 
 
@@ -852,7 +852,7 @@ def image_ingest_problems(root: Root) -> list[str]:
         if url.endswith("/gone.jpg"):
             raise SystemExit(f"download failed: {url}: HTTP 404 Not Found")
         if url.endswith("/slow.jpg"):  # the real downloader, its urlopen timing out
-            with mock.patch.object(images.urllib.request, "urlopen", side_effect=TimeoutError("timed out")):
+            with mock.patch.object(images.urllib.request.OpenerDirector, "open", side_effect=TimeoutError("timed out")):
                 return images.download(url)
         if url.endswith("/page.jpg"):
             return b"<html>"
@@ -1324,6 +1324,163 @@ class SourceFetch:
         if f is None or not f.is_file():
             raise SystemExit(f"fetch failed: {url}: HTTP 404 Not Found")
         return f.read_text(encoding="utf-8")
+
+
+def fetch_hosts_problems(root: Root, pending: list[str]) -> list[str]:
+    """The hosts a fetching run reaches, read from the entries it would fetch (`sources.hosts`, `images.hosts`, and
+    each stage's `--hosts`, which prints the list as JSON): `pending` is `sources.hosts` of the fixture's manifest
+    before the chain's sources run, its served text not yet held, so example.org; after the run it is empty. The
+    images list leaves out a picture the owner holds and adds the hosts `images.REDIRECT_HOSTS` gives a Commons URL."""
+    import contextlib
+    import io
+    out: list[str] = []
+    manifest = load_json(root.path / SOURCE_MANIFEST)
+    if pending != ["example.org"]:
+        out.append(f"expect: sources.hosts before the sources run gave {pending}, expected ['example.org']")
+    if (now := sources.hosts(root, manifest)) != []:
+        out.append(f"expect: sources.hosts after the sources run gave {now}, expected [] (the text is held)")
+    owner = "the-vault-beneath-mount-fictus-1971"
+    sc = load_json(root.data / "images" / owner / "1.json")
+    held = {**{k: sc[k] for k in images.MANIFEST_KEYS if k in sc}, "owner": owner}
+    new = {**held, "image_url": "https://example.org/fixture/hosts.jpg"}
+    commons = {**held, "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Fixture.jpg?width=1280"}
+    redirected = sorted({"commons.wikimedia.org", *images.REDIRECT_HOSTS["commons.wikimedia.org"]})
+    for entries, want in (([held, new], ["example.org"]), ([held], []), ([held, commons], redirected)):
+        if (got := images.hosts(root, entries)) != want:
+            out.append(f"expect: images.hosts of {[e['image_url'] for e in entries]} gave {got}, expected {want}")
+    tmp = make_temp("nhi-fetch-")
+    try:
+        f = tmp / "images.json"
+        f.write_text(json.dumps([held, commons]), encoding="utf-8")
+        before = images.load_sidecars(root)
+        for stage, args, want in ((images, [str(f)], redirected), (sources, [str(root.path / SOURCE_MANIFEST)], [])):
+            printed = io.StringIO()
+            with contextlib.redirect_stdout(printed):
+                code = stage.main(args + ["--root", str(root.path), "--hosts"])
+            if code != 0 or printed.getvalue() != json.dumps(want) + "\n":
+                out.append(f"expect: {stage.__name__} --hosts exited {code} printing {printed.getvalue()!r}, expected {json.dumps(want)!r}")
+        if images.load_sidecars(root) != before:
+            out.append("expect: images --hosts wrote a sidecar")
+    finally:
+        drop_temp(tmp)
+    return out
+
+
+def fetch_refusal_problems(root: Root) -> list[str]:
+    """The real downloaders against a local server, and the sandbox proxy's refusal of an https host stood in by a
+    mock: a download sends no `Connection: close` (the proxy cuts the end off a body when the server then closes);
+    the proxy's 403 behind a redirect raises `images.HostRefused` naming the redirect's host; a refused host stops
+    `images.ingest` and `sources.run` under keep_going, never a listed failure, with nothing written."""
+    import http.server
+    import threading
+    import urllib.error
+    out: list[str] = []
+    jpeg = (root.site / "images" / "the-vault-beneath-mount-fictus-1971" / "1.jpg").read_bytes()
+    seen: list[str | None] = []
+
+    class Handler(http.server.BaseHTTPRequestHandler):
+        protocol_version = "HTTP/1.1"
+
+        def log_message(self, *args):
+            pass
+
+        def handle(self):
+            try:
+                super().handle()
+            except ConnectionResetError:  # the downloader drops a kept-alive connection once it has its body
+                pass
+
+        def do_GET(self):
+            seen.append(self.headers.get("Connection"))
+            if self.path == "/hop":
+                self.send_response(302)
+                self.send_header("Location", f"http://localhost:{port}/refused")
+                self.send_header("Content-Length", "0")
+                self.end_headers()
+                return
+            refused = self.path == "/refused"
+            body = b"Connection blocked by network allowlist\n" if refused else jpeg
+            self.send_response(403 if refused else 200)
+            if refused:
+                self.send_header(*images.PROXY_REFUSAL_HEADER)
+            self.send_header("Content-Type", "text/plain" if refused else "image/jpeg")
+            self.send_header("Content-Length", str(len(body)))
+            self.end_headers()
+            self.wfile.write(body)
+
+    srv = http.server.ThreadingHTTPServer(("127.0.0.1", 0), Handler)
+    port = srv.server_address[1]
+    threading.Thread(target=srv.serve_forever, daemon=True).start()
+    try:
+        got = images.download(f"http://127.0.0.1:{port}/fixture.jpg")
+        if got != jpeg or seen != [None]:
+            out.append(f"expect: images.download read {len(got)} of {len(jpeg)} bytes sending Connection {seen}, expected all with none")
+        try:
+            images.download(f"http://127.0.0.1:{port}/hop")
+            out.append("expect: images.download read a body the proxy refused")
+        except SystemExit as x:
+            if type(x).__name__ != "HostRefused" or "localhost" not in str(x) or "redirect" not in str(x):
+                out.append(f"expect: a refusal behind a redirect raised {type(x).__name__}: {x}, expected HostRefused naming localhost and the redirect")
+    finally:
+        srv.shutdown()
+        srv.server_close()
+    refusal = urllib.error.URLError(OSError("Tunnel connection failed: 403 not in this command's allowed_domains"))
+    vault = "the-vault-beneath-mount-fictus-1971"
+    sc = load_json(root.data / "images" / vault / "1.json")
+    entry = {**{k: sc[k] for k in images.MANIFEST_KEYS if k in sc}, "owner": vault, "image_url": "https://refused.example.org/x.jpg"}
+    m0 = load_json(root.path / SOURCE_MANIFEST)[0]
+    pamphlet = {**m0, "images": [], "text": {"url": "https://refused.example.org/pamphlet.txt", "passages": []},
+                "document": {**m0["document"], "title": "The Refused Pamphlet", "url": "https://refused.example.org/pamphlet",
+                             "text_url": "https://refused.example.org/pamphlet.txt"}}
+    for what, go in (("images.ingest", lambda: images.ingest(root, [entry], echo=lambda *_: None, keep_going=True)),
+                     ("sources.run", lambda: sources.run(root, [pamphlet], echo=lambda *_: None, keep_going=True))):
+        before = snapshot(root.path)
+        with mock.patch.object(images, "DOWNLOAD_PAUSE_S", 0), \
+                mock.patch.object(images.urllib.request.OpenerDirector, "open", side_effect=refusal):
+            try:
+                res = go()
+                out.append(f"expect: {what} with keep_going went on after a refused host: {res}")
+            except SystemExit as x:
+                if type(x).__name__ != "HostRefused" or "refused.example.org" not in str(x):
+                    out.append(f"expect: {what} raised {type(x).__name__}: {x}, expected HostRefused naming refused.example.org")
+        if snapshot(root.path) != before:
+            out.append(f"expect: {what} wrote files before a refused host stopped it")
+    return out
+
+
+def image_resize_problems(root: Root) -> list[str]:
+    """`images.convert` re-encodes in memory with ImageIO, so it runs inside the sandbox (no temporary file outside
+    the write set): the fixture's JPEG scaled to 20 px, a PNG with transparency kept a PNG and scaled, a GIF stored
+    as a JPEG of its own size, never enlarged."""
+    import struct
+    import zlib
+
+    def chunk(kind: bytes, data: bytes) -> bytes:
+        return struct.pack(">I", len(data)) + kind + data + struct.pack(">I", zlib.crc32(kind + data))
+
+    rgba = (b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", struct.pack(">IIBBBBB", 40, 30, 8, 6, 0, 0, 0))
+            + chunk(b"IDAT", zlib.compress(b"".join(b"\x00" + bytes((200, 40, 40, 128)) * 40 for _ in range(30))))
+            + chunk(b"IEND", b""))
+    gif = b"GIF89a\x01\x00\x01\x00\x80\x00\x00\xff\xff\xff\x00\x00\x00!\xf9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x01\x00\x01\x00\x00\x02\x02D\x01\x00;"
+    jpeg = (root.site / "images" / "the-vault-beneath-mount-fictus-1971" / "1.jpg").read_bytes()
+    out: list[str] = []
+    tmp = make_temp("nhi-fetch-")
+    try:
+        for what, data, suffix, want in (("a JPEG above 20 px", jpeg, ".jpg", lambda d: max(d) == 20),
+                                         ("a PNG with transparency", rgba, ".png", lambda d: d == (20, 15)),
+                                         ("a GIF", gif, ".jpg", lambda d: d == (1, 1))):
+            try:
+                made = images.convert(data, tmp / what.replace(" ", "-"), 20)
+            except SystemExit as x:
+                out.append(f"expect: images.convert refused {what}: {x}")
+                continue
+            body = made.read_bytes()
+            dims = images.dimensions(body)
+            if made.suffix != suffix or dims is None or not want(dims) or (suffix == ".png") != images.png_has_alpha(body):
+                out.append(f"expect: images.convert stored {what} as {made.name} of {dims}, expected a {suffix} at most 20 px, never enlarged")
+    finally:
+        drop_temp(tmp)
+    return out
 
 
 def run_sources(root: Root, fetch) -> dict:
@@ -2062,6 +2219,7 @@ def _run_fixture(fixtures: Path, tmp: Path) -> list[str]:
     unused = sorted(set(clip_asker.fixture) - clip_asker.used)
     if unused:
         out.append(f"clips: prepared answers never asked for: {unused}")
+    pending_hosts = sources.hosts(root, load_json(root.path / SOURCE_MANIFEST))
     run_sources(root, SourceFetch(root))
     documents_stage.run(root, echo=lambda line: None)
     people_stage.run(root)
@@ -2074,7 +2232,10 @@ def _run_fixture(fixtures: Path, tmp: Path) -> list[str]:
     out += asset_expectations(root, read)
     out += source_expectations(root, load_json(root.path / "expect.json"))
     out += source_ingest_problems(root)
-    before = {**snapshot(root.data), **snapshot(root.site / "images"), **{f"sources/{k}": v for k, v in snapshot(root.path / "sources").items()}}
+    out += fetch_hosts_problems(root, pending_hosts)
+    out += fetch_refusal_problems(root)
+    out += image_resize_problems(root)
+    before ={**snapshot(root.data), **snapshot(root.site / "images"), **{f"sources/{k}": v for k, v in snapshot(root.path / "sources").items()}}
     again = link.Asker(root, "fixture", 1, None)
     link.run_existing(root, again)
     link.run_candidates(root, None, again)

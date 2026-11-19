@@ -1,6 +1,7 @@
 """Photographs for stories and tellers: the sidecars, their validation, and the ingest of a manifest.
 
-    uv run python -m pipeline.images <manifest.json> [--root DIR] [--keep-going] [--from SCRATCH_ROOT]
+    .venv/bin/python -m pipeline.images <manifest.json> --hosts [--root DIR] [--from SCRATCH_ROOT]
+    .venv/bin/python -m pipeline.images <manifest.json> [--root DIR] [--keep-going] [--from SCRATCH_ROOT]
 
 An image is a file `site/images/<owner>/<n>.jpg` (or `.png` when the source is a PNG with
 transparency) and a sidecar `data/images/<owner>/<n>.json`, the owner a story id, an alias of one,
@@ -20,11 +21,17 @@ person picture, a person picture the story's tellers do not allow, an
 `image_url` or `source` that is not http(s), or a missing or unknown field stops the run. An entry
 whose `image_url` already has a sidecar under the owner (or under the story's id or aliases) is
 `kept`; the others are downloaded (urllib, with a descriptive User-Agent), resized and converted
-with macOS `sips`, and written under the resolved owner with the next free `n`, one line printed
-per image. A download that is neither a JPEG, a PNG nor a GIF is refused before `sips`; a GIF (a scanned
-page on Commons, often) is converted to a JPEG, so a stored file is always a JPEG or a PNG. A failed download or
-conversion raises with the URL (and the HTTP status where there is one); with `--keep-going` the run
+in memory with macOS ImageIO (`encode`), and written under the resolved owner with the next free `n`, one
+line printed per image. A download that is neither a JPEG, a PNG nor a GIF is refused before ImageIO; a GIF (a
+scanned page on Commons, often) is converted to a JPEG, so a stored file is always a JPEG or a PNG. A failed
+download or conversion raises with the URL (and the HTTP status where there is one); with `--keep-going` the run
 goes on to the next entry, lists the failures at the end and exits 1.
+
+The stage runs inside the Claude Code sandbox with the hosts it may reach named in the Bash tool's
+`allowed_domains`: `--hosts` checks the manifest as a run does and prints, as a JSON list, the hosts of the
+entries a run would download (`fetch_hosts`: each URL's host and the hosts `REDIRECT_HOSTS` says it redirects
+to). A host the sandbox refuses (a redirect's included) raises `HostRefused` naming it and stops the run, with
+`--keep-going` too.
 
 With `--from SCRATCH_ROOT` (a root a builder already ran this manifest on, its own copy) an entry whose
 `image_url` a sidecar under `SCRATCH_ROOT/data/images/` holds is copied instead of downloaded: the file
@@ -40,14 +47,13 @@ downloaded as without the flag.
 from __future__ import annotations
 
 import argparse
+import ctypes
 import datetime as dt
-import re
-import shutil
 import http.client
+import json
+import re
 import struct
-import subprocess
 import sys
-import tempfile
 import time
 import urllib.error
 import urllib.parse
@@ -342,13 +348,105 @@ def blocks(root: Root, stories: dict, story_alias: dict[str, str], people: dict)
 DOWNLOAD_PAUSE_S = 2.0  # Wikimedia answers 429 to a burst of thumbnail requests
 THROTTLE_WAITS_S = (30, 90, 180)  # after a 429, the waits before each new try; then the download fails
 
+# ---------- the network (both fetching stages, sources.py too) ----------
+# A run sandboxed names the hosts it may reach (the Bash tool's allowed_domains); the sandbox's proxy refuses
+# every other. `hosts` and `sources.hosts` print a run's list from the same URLs the run fetches.
+REDIRECT_HOSTS = {  # the hosts a URL's host is known to redirect to, added to a run's list
+    "commons.wikimedia.org": ("thumb.wikimedia.org", "upload.wikimedia.org"),  # Special:FilePath, with and without ?width
+}
+PROXY_REFUSAL_HEADER = ("X-Proxy-Error", "blocked-by-allowlist")  # the proxy's answer to a plain-http host it refuses
+PROXY_REFUSAL_TUNNEL = "Tunnel connection failed: 403"  # its answer to an https host it refuses
+
+
+class HostRefused(SystemExit):
+    """The sandbox's proxy refused a host the run needs. It stops the run whatever `--keep-going` says: a refused
+    host is a run sent without its hosts, never one failed entry."""
+
+    def __init__(self, url: str, refused_url: str):
+        self.host = urllib.parse.urlsplit(refused_url).hostname
+        via = "" if refused_url == url else f" (reached by a redirect from {url})"
+        super().__init__(f"fetch refused: the sandbox does not allow {self.host}{via}; the run stops here. "
+                         f"Add {self.host} to the run's allowed_domains (`--hosts` prints the list a run needs) and run again")
+
+
+class _KeepAlive:
+    """urllib sends `Connection: close`, and the sandbox's proxy cuts the end off a body when the server then
+    closes (an IncompleteRead); without the header the body is read to its Content-Length. Both in and out of the
+    sandbox."""
+
+    def putheader(self, header, *values):
+        if header.lower() != "connection":
+            super().putheader(header, *values)
+
+
+class _HTTPConnection(_KeepAlive, http.client.HTTPConnection):
+    pass
+
+
+class _HTTPSConnection(_KeepAlive, http.client.HTTPSConnection):
+    pass
+
+
+class _HTTPHandler(urllib.request.HTTPHandler):
+    def http_open(self, req):
+        return self.do_open(_HTTPConnection, req)
+
+
+class _HTTPSHandler(urllib.request.HTTPSHandler):
+    def https_open(self, req):
+        return self.do_open(_HTTPSConnection, req, context=self._context)
+
+
+class _Hops(urllib.request.HTTPRedirectHandler):
+    """Follows redirects as urllib does and keeps the last URL asked, so a refusal names the host refused."""
+
+    def __init__(self):
+        self.last: str | None = None
+
+    def redirect_request(self, req, fp, code, msg, headers, newurl):
+        new = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if new is not None:
+            self.last = new.full_url
+        return new
+
+
+def open_url(url: str, timeout: float):
+    """The response to a GET of `url` with the stage's User-Agent, redirects followed. A host the sandbox's proxy
+    refuses (the URL's own or a redirect's) raises `HostRefused`; every other error is urllib's, for the caller."""
+    hops = _Hops()
+    opener = urllib.request.build_opener(_HTTPHandler, _HTTPSHandler, hops)
+    try:
+        return opener.open(urllib.request.Request(url, headers={"User-Agent": USER_AGENT}), timeout=timeout)
+    except urllib.error.HTTPError as e:
+        name, value = PROXY_REFUSAL_HEADER
+        if e.headers.get(name) == value:
+            raise HostRefused(url, hops.last or url)
+        raise
+    except urllib.error.URLError as e:
+        if isinstance(e.reason, OSError) and str(e.reason).startswith(PROXY_REFUSAL_TUNNEL):
+            raise HostRefused(url, hops.last or url)
+        raise
+
+
+def fetch_hosts(urls) -> list[str]:
+    """The hosts a run that fetches `urls` reaches: each URL's own and those it is known to redirect to, sorted."""
+    out: set[str] = set()
+    for u in urls:
+        host = urllib.parse.urlsplit(u).hostname
+        out.add(host)
+        out.update(REDIRECT_HOSTS.get(host, ()))
+    return sorted(out)
+
+
+def request_url(url: str) -> str:
+    """The URL as asked: a file name with a letter outside ASCII (Mystères) percent-encoded, an encoded one kept."""
+    return urllib.parse.quote(url, safe=":/?=&%,()'!*;+@~$#")
+
 
 def download(url: str) -> bytes:
-    # a file name with a letter outside ASCII (Mystères) is percent-encoded; an encoded one is left as it is
-    req = urllib.request.Request(urllib.parse.quote(url, safe=":/?=&%,()'!*;+@~$#"), headers={"User-Agent": USER_AGENT})
     for wait in THROTTLE_WAITS_S + (None,):
         try:
-            with urllib.request.urlopen(req, timeout=60) as r:
+            with open_url(request_url(url), timeout=60) as r:
                 return r.read()
         except urllib.error.HTTPError as e:
             if e.code == 429 and wait is not None:
@@ -362,50 +460,112 @@ def download(url: str) -> bytes:
     raise AssertionError("unreachable: the last try either returns or raises")
 
 
-def sips() -> str:
-    exe = shutil.which("sips")
-    if not exe:
-        raise SystemExit("images: macOS sips is not on the path; it resizes and converts the images")
-    return exe
+# ---------- resizing: macOS ImageIO in memory ----------
+# ImageIO decodes, scales and encodes in memory, through ctypes: no file is written but the stored one, so the
+# stage runs inside the sandbox (whose write set leaves out the /var/folders temporary files `sips` writes).
+JPEG_QUALITY = 0.85
+
+
+class _ImageIO:
+    """The few CoreFoundation and ImageIO calls `encode` makes, bound once."""
+
+    def __init__(self):
+        vp, long_, size_t = ctypes.c_void_p, ctypes.c_long, ctypes.c_size_t
+        try:
+            cf = ctypes.CDLL("/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation")
+            io = ctypes.CDLL("/System/Library/Frameworks/ImageIO.framework/ImageIO")
+            cg = ctypes.CDLL("/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics")
+        except OSError as e:
+            raise SystemExit(f"images: macOS ImageIO cannot be loaded ({e}); it resizes and converts the images")
+        for lib, name, res, args in (
+                (cf, "CFDataCreate", vp, [vp, ctypes.c_char_p, long_]), (cf, "CFDataCreateMutable", vp, [vp, long_]),
+                (cf, "CFDataGetLength", long_, [vp]), (cf, "CFDataGetBytePtr", vp, [vp]), (cf, "CFRelease", None, [vp]),
+                (cf, "CFStringCreateWithCString", vp, [vp, ctypes.c_char_p, ctypes.c_uint32]),
+                (cf, "CFNumberCreate", vp, [vp, ctypes.c_int, vp]),
+                (cf, "CFDictionaryCreate", vp, [vp, ctypes.POINTER(vp), ctypes.POINTER(vp), long_, vp, vp]),
+                (io, "CGImageSourceCreateWithData", vp, [vp, vp]),
+                (io, "CGImageSourceCreateImageAtIndex", vp, [vp, size_t, vp]),
+                (io, "CGImageSourceCreateThumbnailAtIndex", vp, [vp, size_t, vp]),
+                (io, "CGImageDestinationCreateWithData", vp, [vp, vp, size_t, vp]),
+                (io, "CGImageDestinationAddImage", None, [vp, vp, vp]),
+                (io, "CGImageDestinationFinalize", ctypes.c_bool, [vp]),
+                (cg, "CGImageGetWidth", size_t, [vp]), (cg, "CGImageGetHeight", size_t, [vp])):
+            fn = getattr(lib, name)
+            fn.restype, fn.argtypes = res, args
+        self.cf, self.io, self.cg = cf, io, cg
+        self.true = vp.in_dll(cf, "kCFBooleanTrue").value
+        self.key_cb = ctypes.addressof(ctypes.c_char.in_dll(cf, "kCFTypeDictionaryKeyCallBacks"))
+        self.value_cb = ctypes.addressof(ctypes.c_char.in_dll(cf, "kCFTypeDictionaryValueCallBacks"))
+
+    def const(self, name: str) -> int:
+        return ctypes.c_void_p.in_dll(self.io, name).value
+
+
+_IMAGEIO: _ImageIO | None = None
+
+
+def encode(data: bytes, fmt: str, max_px: int) -> bytes:
+    """`data` (an image ImageIO reads) encoded as `fmt` ("jpeg" at JPEG_QUALITY, or "png"), scaled down to at
+    most `max_px` on the long side when larger, never enlarged; refused with the step that failed."""
+    global _IMAGEIO
+    if _IMAGEIO is None:
+        _IMAGEIO = _ImageIO()
+    x = _IMAGEIO
+    cf, io, vp = x.cf, x.io, ctypes.c_void_p
+    made: list[int] = []  # every CoreFoundation object made here, released at the end
+
+    def keep(ref, step: str) -> int:
+        if not ref:
+            raise SystemExit(f"images: ImageIO could not {step}")
+        made.append(ref)
+        return ref
+
+    def cfdict(pairs) -> int:
+        keys = (vp * len(pairs))(*[k for k, _ in pairs])
+        values = (vp * len(pairs))(*[v for _, v in pairs])
+        return keep(cf.CFDictionaryCreate(None, keys, values, len(pairs), x.key_cb, x.value_cb), "make an options dictionary")
+
+    def number(v) -> int:
+        c = ctypes.c_double(v) if isinstance(v, float) else ctypes.c_long(v)
+        kind = 6 if isinstance(v, float) else 4  # kCFNumberFloat64Type, kCFNumberSInt64Type
+        return keep(cf.CFNumberCreate(None, kind, ctypes.byref(c)), "make a number")
+
+    try:
+        source = keep(io.CGImageSourceCreateWithData(keep(cf.CFDataCreate(None, data, len(data)), "hold the download"), None),
+                      "read the download as an image")
+        image = keep(io.CGImageSourceCreateImageAtIndex(source, 0, None), "decode the download")
+        if max(x.cg.CGImageGetWidth(image), x.cg.CGImageGetHeight(image)) > max_px:
+            image = keep(io.CGImageSourceCreateThumbnailAtIndex(source, 0, cfdict([
+                (x.const("kCGImageSourceCreateThumbnailFromImageAlways"), x.true),
+                (x.const("kCGImageSourceThumbnailMaxPixelSize"), number(max_px))])), f"scale the image to {max_px} px")
+        out = keep(cf.CFDataCreateMutable(None, 0), "hold the encoded image")
+        uti = keep(cf.CFStringCreateWithCString(None, f"public.{fmt}".encode(), 0x08000100), "name the format")  # UTF-8
+        dest = keep(io.CGImageDestinationCreateWithData(out, uti, 1, None), f"start a {fmt}")
+        props = cfdict([(x.const("kCGImageDestinationLossyCompressionQuality"), number(JPEG_QUALITY))]) if fmt == "jpeg" else None
+        io.CGImageDestinationAddImage(dest, image, props)
+        if not io.CGImageDestinationFinalize(dest):
+            raise SystemExit(f"images: ImageIO could not write the {fmt}")
+        return ctypes.string_at(cf.CFDataGetBytePtr(out), cf.CFDataGetLength(out))
+    finally:
+        for ref in reversed(made):
+            cf.CFRelease(ref)
 
 
 def convert(data: bytes, out_stem: Path, max_px: int) -> Path:
     """The downloaded bytes as <out_stem>.png (a PNG with transparency) or <out_stem>.jpg (anything
-    else sips reads), at most `max_px` on the long side, never enlarged. A JPEG, or a PNG with
-    transparency, already within the size is copied as downloaded; everything else goes through sips."""
+    else ImageIO reads), at most `max_px` on the long side, never enlarged. A JPEG, or a PNG with
+    transparency, already within the size is copied as downloaded; everything else is re-encoded (`encode`)."""
     fmt = image_format(data)
     keep_png = fmt == "png" and png_has_alpha(data)
     target = out_stem.with_suffix(".png" if keep_png else ".jpg")
     size = dimensions(data) if fmt in ("jpeg", "png") else None
-    if size and max(size) <= max_px and (fmt == "jpeg" or keep_png):
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_bytes(data)
-        return target
-    exe = sips()
-    with tempfile.TemporaryDirectory(prefix="nhi-image-") as tmp:
-        src = Path(tmp) / "download"
-        src.write_bytes(data)
-        probe = subprocess.run([exe, "-g", "pixelWidth", "-g", "pixelHeight", str(src)], capture_output=True, text=True)
-        w = re.search(r"pixelWidth: (\d+)", probe.stdout)
-        h = re.search(r"pixelHeight: (\d+)", probe.stdout)
-        if probe.returncode or not (w and h):
-            raise SystemExit(f"images: sips cannot read the downloaded file as an image ({probe.stderr.strip() or probe.stdout.strip()})")
-        cmd = [exe, "-s", "format", "png" if keep_png else "jpeg"]
-        if not keep_png:
-            cmd += ["-s", "formatOptions", "85"]
-        if max(int(w.group(1)), int(h.group(1))) > max_px:
-            cmd += ["-Z", str(max_px)]
-        tmp_out = Path(tmp) / target.name
-        run = subprocess.run(cmd + [str(src), "--out", str(tmp_out)], capture_output=True, text=True)
-        if run.returncode or not tmp_out.exists():
-            raise SystemExit(f"images: sips failed ({run.stderr.strip() or run.stdout.strip()}); inside the Claude Code "
-                             "sandbox sips cannot write its temporary file under /var/folders, so run this stage outside it")
-        made = tmp_out.read_bytes()
-        size = dimensions(made)
+    if not (size and max(size) <= max_px and (fmt == "jpeg" or keep_png)):
+        data = encode(data, "png" if keep_png else "jpeg", max_px)
+        size = dimensions(data)
         if size is None or max(size) > max_px:
-            raise SystemExit(f"images: sips wrote {size}, expected at most {max_px} px on the long side")
-        target.parent.mkdir(parents=True, exist_ok=True)
-        target.write_bytes(made)
+            raise SystemExit(f"images: ImageIO wrote {size}, expected at most {max_px} px on the long side")
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_bytes(data)
     return target
 
 
@@ -508,24 +668,44 @@ def copy_plan(root: Root, entries: list[dict], from_root: Root, stories: dict, s
     return plan
 
 
-def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today: str | None = None, echo=print,
-           from_root: Root | None = None) -> tuple[list[str], list[str]]:
-    """Download, resize and record every manifest entry, or with `from_root` copy the ones a scratch root already
-    made (`copy_plan`); return (the lines printed, the failures). `fetch` is the downloader and `echo` the printer
-    (the fixture check passes a downloader that serves local bytes and a silent printer)."""
+def held_urls(held: dict[str, list[tuple[int, dict]]], dirs: list[str]) -> dict[str, str]:
+    """{image_url: "<dir>/<n>"} of the sidecars under the owner's directories: the entries a run keeps."""
+    return {sc.get("image_url"): f"{d}/{n}" for d in dirs for n, sc in held.get(d, [])}
+
+
+def checked(root: Root, entries, from_root: Root | None) -> tuple[dict, dict, dict[str, str], dict]:
+    """(stories, people, story aliases, the copy plan) once the manifest and any copies pass; refused otherwise."""
     stories, people = root.load_dir(root.stories), root.load_dir(root.people)
     story_alias = root.story_aliases(stories)
     bad = manifest_problems(entries, stories, story_alias, people, load_profiles(root))
     if bad:
         raise SystemExit("images: the manifest is refused:\n" + "\n".join(bad))
     plan = copy_plan(root, entries, from_root, stories, story_alias, people) if from_root is not None else {}
+    return stories, people, story_alias, plan
+
+
+def hosts(root: Root, entries, from_root: Root | None = None) -> list[str]:
+    """The hosts `ingest` reaches for this manifest: those of the entries it downloads (neither held nor copied
+    from `from_root`), as `fetch_hosts` gives them. Checks the manifest as `ingest` does; writes nothing."""
+    stories, people, story_alias, plan = checked(root, entries, from_root)
+    held = load_sidecars(root)
+    return fetch_hosts(request_url(e["image_url"]) for i, e in enumerate(entries) if i not in plan
+                       and e["image_url"] not in held_urls(held, owner_dirs(e, stories, story_alias, people)[1]))
+
+
+def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today: str | None = None, echo=print,
+           from_root: Root | None = None) -> tuple[list[str], list[str]]:
+    """Download, resize and record every manifest entry, or with `from_root` copy the ones a scratch root already
+    made (`copy_plan`); return (the lines printed, the failures). `fetch` is the downloader and `echo` the printer
+    (the fixture check passes a downloader that serves local bytes and a silent printer)."""
+    stories, people, story_alias, plan = checked(root, entries, from_root)
     today = today or dt.date.today().isoformat()
     lines: list[str] = []
     failures: list[str] = []
     for i, e in enumerate(entries):
         oid, dirs = owner_dirs(e, stories, story_alias, people)
         held = load_sidecars(root)
-        known = {sc.get("image_url"): f"{d}/{n}" for d in dirs for n, sc in held.get(d, [])}
+        known = held_urls(held, dirs)
         if e["image_url"] in known:
             line = f"kept     {known[e['image_url']]}  {e['image_url']}"
             echo(line)
@@ -548,6 +728,8 @@ def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today:
                 if image_format(data) is None:
                     raise SystemExit(f"images: {url}: the download is neither a JPEG, a PNG nor a GIF")
                 target = convert(data, site_images_dir(root) / oid / str(n), MAX_PX[e["licence_kind"]])
+            except HostRefused:
+                raise
             except SystemExit as x:
                 msg = str(x) if url in str(x) else f"images: {url}: {x}"
                 if not keep_going:
@@ -572,11 +754,16 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--keep-going", action="store_true", help="go on after a failed download; exit 1 at the end")
     ap.add_argument("--from", dest="from_root", type=Path, default=None,
                     help="a scratch root whose site/images and data/images already hold the manifest's pictures: copy them instead of downloading")
+    ap.add_argument("--hosts", action="store_true",
+                    help="print the hosts the run would reach, as a JSON list for allowed_domains, and stop; downloads nothing")
     a = ap.parse_args(argv)
     if a.from_root is not None and not (a.from_root / "data" / "images").is_dir():
         raise SystemExit(f"images: --from {a.from_root} has no data/images; give the root a builder ran pipeline.images on")
-    _, failures = ingest(Root(a.root), load_json(a.manifest), keep_going=a.keep_going,
-                         from_root=Root(a.from_root) if a.from_root is not None else None)
+    from_root = Root(a.from_root) if a.from_root is not None else None
+    if a.hosts:
+        print(json.dumps(hosts(Root(a.root), load_json(a.manifest), from_root)))
+        return 0
+    _, failures = ingest(Root(a.root), load_json(a.manifest), keep_going=a.keep_going, from_root=from_root)
     if failures:
         print(f"images: {len(failures)} download(s) failed:", file=sys.stderr)
         for f in failures:

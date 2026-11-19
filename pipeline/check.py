@@ -1312,13 +1312,14 @@ SOURCE_MANIFEST = Path("sources") / "manifest.json"
 
 class SourceFetch:
     """The fixture's text downloader: a URL ending in /served/<name> is sources/served/<name> of the root;
-    any other URL fails as a 404 would. Counts the calls."""
+    any other URL fails as a 404 would. Counts the calls and keeps the URLs asked for."""
 
     def __init__(self, root: Root):
-        self.root, self.calls = root, 0
+        self.root, self.calls, self.urls = root, 0, []
 
     def __call__(self, url: str) -> str:
         self.calls += 1
+        self.urls.append(url)
         name = url.rsplit("/served/", 1)[-1] if "/served/" in url else None
         f = self.root.path / "sources" / "served" / name if name else None
         if f is None or not f.is_file():
@@ -1419,7 +1420,7 @@ def fetch_refusal_problems(root: Root) -> list[str]:
             images.download(f"http://127.0.0.1:{port}/hop")
             out.append("expect: images.download read a body the proxy refused")
         except SystemExit as x:
-            if type(x).__name__ != "HostRefused" or "localhost" not in str(x) or "redirect" not in str(x):
+            if not isinstance(x, images.HostRefused) or "localhost" not in str(x) or "redirect" not in str(x):
                 out.append(f"expect: a refusal behind a redirect raised {type(x).__name__}: {x}, expected HostRefused naming localhost and the redirect")
     finally:
         srv.shutdown()
@@ -1441,7 +1442,7 @@ def fetch_refusal_problems(root: Root) -> list[str]:
                 res = go()
                 out.append(f"expect: {what} with keep_going went on after a refused host: {res}")
             except SystemExit as x:
-                if type(x).__name__ != "HostRefused" or "refused.example.org" not in str(x):
+                if not isinstance(x, images.HostRefused) or "refused.example.org" not in str(x):
                     out.append(f"expect: {what} raised {type(x).__name__}: {x}, expected HostRefused naming refused.example.org")
         if snapshot(root.path) != before:
             out.append(f"expect: {what} wrote files before a refused host stopped it")
@@ -1450,8 +1451,9 @@ def fetch_refusal_problems(root: Root) -> list[str]:
 
 def image_resize_problems(root: Root) -> list[str]:
     """`images.convert` re-encodes in memory with ImageIO, so it runs inside the sandbox (no temporary file outside
-    the write set): the fixture's JPEG scaled to 20 px, the same JPEG marked EXIF-turned stored upright, a PNG with
-    transparency kept a PNG and scaled, a GIF stored as a JPEG of its own size, never enlarged."""
+    the write set): the fixture's JPEG scaled to 20 px, the same JPEG marked EXIF-turned stored upright both when
+    scaled and when within the size, a PNG with transparency kept a PNG and scaled, a GIF stored as a JPEG of its
+    own size, never enlarged."""
     import struct
     import zlib
 
@@ -1469,19 +1471,21 @@ def image_resize_problems(root: Root) -> list[str]:
     out: list[str] = []
     tmp = make_temp("nhi-fetch-")
     try:
-        for what, data, suffix, want in (("a JPEG above 20 px", jpeg, ".jpg", lambda d: max(d) == 20),
-                                         ("a JPEG marked turned a quarter", turned, ".jpg", lambda d: d[1] == 20 and d[0] < 20),
-                                         ("a PNG with transparency", rgba, ".png", lambda d: d == (20, 15)),
-                                         ("a GIF", gif, ".jpg", lambda d: d == (1, 1))):
+        for what, data, max_px, suffix, want in (
+                ("a JPEG above 20 px", jpeg, 20, ".jpg", lambda d: max(d) == 20),
+                ("a JPEG marked turned a quarter", turned, 20, ".jpg", lambda d: d[1] == 20 and d[0] < 20),
+                ("a JPEG marked turned a quarter within the size", turned, 4000, ".jpg", lambda d: d == (32, 48)),
+                ("a PNG with transparency", rgba, 20, ".png", lambda d: d == (20, 15)),
+                ("a GIF", gif, 20, ".jpg", lambda d: d == (1, 1))):
             try:
-                made = images.convert(data, tmp / what.replace(" ", "-"), 20)
+                made = images.convert(data, tmp / what.replace(" ", "-"), max_px)
             except SystemExit as x:
                 out.append(f"expect: images.convert refused {what}: {x}")
                 continue
             body = made.read_bytes()
             dims = images.dimensions(body)
             if made.suffix != suffix or dims is None or not want(dims) or (suffix == ".png") != images.png_has_alpha(body):
-                out.append(f"expect: images.convert stored {what} as {made.name} of {dims}, expected a {suffix} at most 20 px, never enlarged")
+                out.append(f"expect: images.convert stored {what} as {made.name} of {dims}, expected a {suffix} at most {max_px} px, upright, never enlarged")
     finally:
         drop_temp(tmp)
     return out
@@ -2224,7 +2228,10 @@ def _run_fixture(fixtures: Path, tmp: Path) -> list[str]:
     if unused:
         out.append(f"clips: prepared answers never asked for: {unused}")
     pending_hosts = sources.hosts(root, load_json(root.path / SOURCE_MANIFEST))
-    run_sources(root, SourceFetch(root))
+    source_fetch = SourceFetch(root)
+    run_sources(root, source_fetch)
+    if (asked := images.fetch_hosts(source_fetch.urls)) != pending_hosts:
+        out.append(f"expect: the sources run fetched from {asked}, but sources.hosts gave {pending_hosts}")
     documents_stage.run(root, echo=lambda line: None)
     people_stage.run(root)
     score.run(root)
@@ -2239,7 +2246,7 @@ def _run_fixture(fixtures: Path, tmp: Path) -> list[str]:
     out += fetch_hosts_problems(root, pending_hosts)
     out += fetch_refusal_problems(root)
     out += image_resize_problems(root)
-    before ={**snapshot(root.data), **snapshot(root.site / "images"), **{f"sources/{k}": v for k, v in snapshot(root.path / "sources").items()}}
+    before = {**snapshot(root.data), **snapshot(root.site / "images"), **{f"sources/{k}": v for k, v in snapshot(root.path / "sources").items()}}
     again = link.Asker(root, "fixture", 1, None)
     link.run_existing(root, again)
     link.run_candidates(root, None, again)

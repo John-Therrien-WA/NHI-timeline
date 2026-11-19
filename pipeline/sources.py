@@ -528,11 +528,12 @@ def ingest_entry(root: Root, e: dict, stories: dict, story_alias: dict[str, str]
         if not full:
             raise SystemExit(f"document {did} is {doc.get('status')!r}{'' if doc.get('text_url') else ' with no text_url'}, "
                              "so it keeps quoted passages only; a full text is fetched for a public-domain document")
-        if held is not None:
+        url = text_to_fetch(root, e, documents)  # the one fetch decision, which `hosts` reads too
+        if url is None:
             text = held
         else:
-            body = fetch(e["text"]["url"])
-            text = DocumentText(body, False, e["text"]["url"])
+            body = fetch(url)
+            text = DocumentText(body, False, url)
     else:
         if full:
             raise SystemExit(f"document {did} is public domain with a text_url, so its evidence is the full text; give text.url")

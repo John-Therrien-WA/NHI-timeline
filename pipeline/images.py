@@ -154,6 +154,29 @@ def png_has_alpha(data: bytes) -> bool:
     return False
 
 
+def jpeg_orientation(data: bytes) -> int | None:
+    """The EXIF Orientation of a JPEG (1 upright; 2 to 8 mirrored or turned), 1 when it carries none, None when its
+    EXIF block cannot be read (`convert` then has ImageIO read it)."""
+    i = 2
+    while i + 4 <= len(data) and data[i] == 0xFF and data[i + 1] not in (0xD9, 0xDA):
+        (length,) = struct.unpack(">H", data[i + 2:i + 4])
+        seg = data[i + 4:i + 2 + length]
+        if data[i + 1] == 0xE1 and seg[:6] == b"Exif\x00\x00" and seg[6:8] in (b"MM", b"II"):
+            tiff, end = seg[6:], ">" if seg[6:8] == b"MM" else "<"
+            try:
+                (ifd,) = struct.unpack(end + "I", tiff[4:8])
+                (count,) = struct.unpack(end + "H", tiff[ifd:ifd + 2])
+                for k in range(count):
+                    tag, _, _, value = struct.unpack(end + "HHIH", tiff[ifd + 2 + 12 * k:ifd + 12 + 12 * k])
+                    if tag == 0x0112:
+                        return value
+            except struct.error:
+                return None
+            return 1
+        i += 2 + length
+    return 1
+
+
 def dimensions(data: bytes) -> tuple[int, int] | None:
     """(width, height) of a JPEG or PNG from its header, None when it cannot be read."""
     fmt = image_format(data)
@@ -462,7 +485,7 @@ def download(url: str) -> bytes:
 
 # ---------- resizing: macOS ImageIO in memory ----------
 # ImageIO decodes, scales and encodes in memory, through ctypes: no file is written but the stored one, so the
-# stage runs inside the sandbox (whose write set leaves out the /var/folders temporary files `sips` writes).
+# stage runs inside the sandbox, whose write set leaves out the system temporary folder (/var/folders).
 JPEG_QUALITY = 0.85
 
 
@@ -551,13 +574,15 @@ def encode(data: bytes, fmt: str, max_px: int) -> bytes:
 
 def convert(data: bytes, out_stem: Path, max_px: int) -> Path:
     """The downloaded bytes as <out_stem>.png (a PNG with transparency) or <out_stem>.jpg (anything
-    else ImageIO reads), at most `max_px` on the long side, never enlarged. A JPEG, or a PNG with
-    transparency, already within the size is copied as downloaded; everything else is re-encoded (`encode`)."""
+    else ImageIO reads), at most `max_px` on the long side, never enlarged, upright. An upright JPEG (EXIF
+    orientation 1 or none), or a PNG with transparency, already within the size is copied as downloaded; everything
+    else is re-encoded (`encode`), which turns a JPEG upright, since the stored file keeps no orientation tag."""
     fmt = image_format(data)
     keep_png = fmt == "png" and png_has_alpha(data)
     target = out_stem.with_suffix(".png" if keep_png else ".jpg")
     size = dimensions(data) if fmt in ("jpeg", "png") else None
-    if not (size and max(size) <= max_px and (fmt == "jpeg" or keep_png)):
+    as_is = (fmt == "jpeg" and jpeg_orientation(data) == 1) or keep_png
+    if not (size and max(size) <= max_px and as_is):
         data = encode(data, "png" if keep_png else "jpeg", max_px)
         size = dimensions(data)
         if size is None or max(size) > max_px:
@@ -666,9 +691,14 @@ def copy_plan(root: Root, entries: list[dict], from_root: Root, stories: dict, s
     return plan
 
 
-def held_urls(held: dict[str, list[tuple[int, dict]]], dirs: list[str]) -> dict[str, str]:
-    """{image_url: "<dir>/<n>"} of the sidecars under the owner's directories: the entries a run keeps."""
-    return {sc.get("image_url"): f"{d}/{n}" for d in dirs for n, sc in held.get(d, [])}
+def entry_source(i: int, e: dict, plan: dict, held: dict[str, list[tuple[int, dict]]], dirs: list[str]) -> tuple[str, str | None]:
+    """How a run gets manifest entry `i`, the one test `ingest` and `hosts` share: ("kept", "<dir>/<n>") when a
+    sidecar under the owner's directories holds its image_url, else ("copied", None) when the copy plan has it,
+    else ("download", None)."""
+    known = {sc.get("image_url"): f"{d}/{n}" for d in dirs for n, sc in held.get(d, [])}
+    if e["image_url"] in known:
+        return "kept", known[e["image_url"]]
+    return ("copied", None) if i in plan else ("download", None)
 
 
 def checked(root: Root, entries, from_root: Root | None) -> tuple[dict, dict, dict[str, str], dict]:
@@ -687,8 +717,8 @@ def hosts(root: Root, entries, from_root: Root | None = None) -> list[str]:
     from `from_root`), as `fetch_hosts` gives them. Checks the manifest as `ingest` does; writes nothing."""
     stories, people, story_alias, plan = checked(root, entries, from_root)
     held = load_sidecars(root)
-    return fetch_hosts(request_url(e["image_url"]) for i, e in enumerate(entries) if i not in plan
-                       and e["image_url"] not in held_urls(held, owner_dirs(e, stories, story_alias, people)[1]))
+    return fetch_hosts(request_url(e["image_url"]) for i, e in enumerate(entries)
+                       if entry_source(i, e, plan, held, owner_dirs(e, stories, story_alias, people)[1])[0] == "download")
 
 
 def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today: str | None = None, echo=print,
@@ -703,9 +733,9 @@ def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today:
     for i, e in enumerate(entries):
         oid, dirs = owner_dirs(e, stories, story_alias, people)
         held = load_sidecars(root)
-        known = held_urls(held, dirs)
-        if e["image_url"] in known:
-            line = f"kept     {known[e['image_url']]}  {e['image_url']}"
+        how, where = entry_source(i, e, plan, held, dirs)
+        if how == "kept":
+            line = f"kept     {where}  {e['image_url']}"
             echo(line)
             lines.append(line)
             continue
@@ -713,7 +743,7 @@ def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today:
         while (images_dir(root) / oid / f"{n}.json").exists():
             n += 1
         url = e["image_url"]
-        if i in plan:
+        if how == "copied":
             data, ext, fetched = plan[i]
             target = site_images_dir(root) / oid / f"{n}{ext}"
             target.parent.mkdir(parents=True, exist_ok=True)
@@ -729,7 +759,7 @@ def ingest(root: Root, entries, fetch=download, keep_going: bool = False, today:
             except HostRefused:
                 raise
             except SystemExit as x:
-                msg = str(x) if url in str(x) else f"images: {url}: {x}"
+                msg = str(x) if url in str(x) else f"images: {url}: {str(x).removeprefix('images: ')}"
                 if not keep_going:
                     raise SystemExit(msg)
                 failures.append(msg)

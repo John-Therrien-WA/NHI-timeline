@@ -146,7 +146,8 @@ check name the letters once their provenance is removed and once it is blank, an
 provenances` once a copy of the letters under another id shares their url with another provenance.
 
 The fetching stages run inside the Claude Code sandbox, the hosts each run may reach named in its
-`allowed_domains`. `check.fetch_hosts_problems` proves the list a run is given: `sources.hosts` of the
+`allowed_domains`. The chain's sources run records the URLs `check.SourceFetch` is asked for, and their
+hosts must equal `sources.hosts` taken before it. `check.fetch_hosts_problems` proves the list a run is given: `sources.hosts` of the
 manifest is example.org before the chain's sources run and empty once the text is held, `images.hosts`
 leaves out a picture the owner holds and adds the hosts a Commons URL redirects to, and each stage's
 `--hosts` prints the same list as JSON with nothing written. `check.fetch_refusal_problems` runs the real
@@ -156,7 +157,10 @@ end off a body when the server then closes), and the proxy's refusal behind a re
 refused host stops `images.ingest` and `sources.run` under `keep_going` with nothing written.
 `check.image_resize_problems` proves `images.convert` scales and re-encodes in memory (a JPEG to 20 px, a
 PNG with transparency kept a PNG, a GIF stored as a JPEG of its own size), which inside the sandbox is the
-proof that no temporary file outside the write set is needed.
+proof that no temporary file outside the write set is needed. It also marks the 48x32 fixture JPEG with EXIF
+orientation 6 (turned a quarter): converted to 20 px it is stored upright, portrait, and converted at 4000 px,
+within the size, it is re-encoded upright as 32x48 rather than copied as downloaded, since the stored file
+keeps no orientation tag.
 
 The person fold is one fictional guest under three spellings across two episodes. In FIXTURE0004
 the extraction credits the vault-crew telling to "Faye Fixture", citing "Fay Fixture"; in FIXTURE0005

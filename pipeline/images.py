@@ -474,7 +474,6 @@ class _ImageIO:
         try:
             cf = ctypes.CDLL("/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation")
             io = ctypes.CDLL("/System/Library/Frameworks/ImageIO.framework/ImageIO")
-            cg = ctypes.CDLL("/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics")
         except OSError as e:
             raise SystemExit(f"images: macOS ImageIO cannot be loaded ({e}); it resizes and converts the images")
         for lib, name, res, args in (
@@ -484,15 +483,13 @@ class _ImageIO:
                 (cf, "CFNumberCreate", vp, [vp, ctypes.c_int, vp]),
                 (cf, "CFDictionaryCreate", vp, [vp, ctypes.POINTER(vp), ctypes.POINTER(vp), long_, vp, vp]),
                 (io, "CGImageSourceCreateWithData", vp, [vp, vp]),
-                (io, "CGImageSourceCreateImageAtIndex", vp, [vp, size_t, vp]),
                 (io, "CGImageSourceCreateThumbnailAtIndex", vp, [vp, size_t, vp]),
                 (io, "CGImageDestinationCreateWithData", vp, [vp, vp, size_t, vp]),
                 (io, "CGImageDestinationAddImage", None, [vp, vp, vp]),
-                (io, "CGImageDestinationFinalize", ctypes.c_bool, [vp]),
-                (cg, "CGImageGetWidth", size_t, [vp]), (cg, "CGImageGetHeight", size_t, [vp])):
+                (io, "CGImageDestinationFinalize", ctypes.c_bool, [vp])):
             fn = getattr(lib, name)
             fn.restype, fn.argtypes = res, args
-        self.cf, self.io, self.cg = cf, io, cg
+        self.cf, self.io = cf, io
         self.true = vp.in_dll(cf, "kCFBooleanTrue").value
         self.key_cb = ctypes.addressof(ctypes.c_char.in_dll(cf, "kCFTypeDictionaryKeyCallBacks"))
         self.value_cb = ctypes.addressof(ctypes.c_char.in_dll(cf, "kCFTypeDictionaryValueCallBacks"))
@@ -533,11 +530,12 @@ def encode(data: bytes, fmt: str, max_px: int) -> bytes:
     try:
         source = keep(io.CGImageSourceCreateWithData(keep(cf.CFDataCreate(None, data, len(data)), "hold the download"), None),
                       "read the download as an image")
-        image = keep(io.CGImageSourceCreateImageAtIndex(source, 0, None), "decode the download")
-        if max(x.cg.CGImageGetWidth(image), x.cg.CGImageGetHeight(image)) > max_px:
-            image = keep(io.CGImageSourceCreateThumbnailAtIndex(source, 0, cfdict([
-                (x.const("kCGImageSourceCreateThumbnailFromImageAlways"), x.true),
-                (x.const("kCGImageSourceThumbnailMaxPixelSize"), number(max_px))])), f"scale the image to {max_px} px")
+        # the full image, scaled down to max_px when larger (never up) and turned upright by its EXIF orientation,
+        # since the stored file carries no metadata
+        image = keep(io.CGImageSourceCreateThumbnailAtIndex(source, 0, cfdict([
+            (x.const("kCGImageSourceCreateThumbnailFromImageAlways"), x.true),
+            (x.const("kCGImageSourceCreateThumbnailWithTransform"), x.true),
+            (x.const("kCGImageSourceThumbnailMaxPixelSize"), number(max_px))])), f"decode and scale the image to {max_px} px")
         out = keep(cf.CFDataCreateMutable(None, 0), "hold the encoded image")
         uti = keep(cf.CFStringCreateWithCString(None, f"public.{fmt}".encode(), 0x08000100), "name the format")  # UTF-8
         dest = keep(io.CGImageDestinationCreateWithData(out, uti, 1, None), f"start a {fmt}")

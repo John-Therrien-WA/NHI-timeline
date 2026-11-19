@@ -1450,8 +1450,8 @@ def fetch_refusal_problems(root: Root) -> list[str]:
 
 def image_resize_problems(root: Root) -> list[str]:
     """`images.convert` re-encodes in memory with ImageIO, so it runs inside the sandbox (no temporary file outside
-    the write set): the fixture's JPEG scaled to 20 px, a PNG with transparency kept a PNG and scaled, a GIF stored
-    as a JPEG of its own size, never enlarged."""
+    the write set): the fixture's JPEG scaled to 20 px, the same JPEG marked EXIF-turned stored upright, a PNG with
+    transparency kept a PNG and scaled, a GIF stored as a JPEG of its own size, never enlarged."""
     import struct
     import zlib
 
@@ -1463,10 +1463,14 @@ def image_resize_problems(root: Root) -> list[str]:
             + chunk(b"IEND", b""))
     gif = b"GIF89a\x01\x00\x01\x00\x80\x00\x00\xff\xff\xff\x00\x00\x00!\xf9\x04\x01\x00\x00\x00\x00,\x00\x00\x00\x00\x01\x00\x01\x00\x00\x02\x02D\x01\x00;"
     jpeg = (root.site / "images" / "the-vault-beneath-mount-fictus-1971" / "1.jpg").read_bytes()
+    # the same JPEG marked EXIF orientation 6 (shown turned a quarter clockwise): stored upright, so portrait
+    tiff = b"MM\x00*\x00\x00\x00\x08" + struct.pack(">HHHIHH", 1, 0x0112, 3, 1, 6, 0) + b"\x00\x00\x00\x00"
+    turned = jpeg[:2] + b"\xff\xe1" + struct.pack(">H", 2 + 6 + len(tiff)) + b"Exif\x00\x00" + tiff + jpeg[2:]
     out: list[str] = []
     tmp = make_temp("nhi-fetch-")
     try:
         for what, data, suffix, want in (("a JPEG above 20 px", jpeg, ".jpg", lambda d: max(d) == 20),
+                                         ("a JPEG marked turned a quarter", turned, ".jpg", lambda d: d[1] == 20 and d[0] < 20),
                                          ("a PNG with transparency", rgba, ".png", lambda d: d == (20, 15)),
                                          ("a GIF", gif, ".jpg", lambda d: d == (1, 1))):
             try:

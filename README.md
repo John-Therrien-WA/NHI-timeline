@@ -40,7 +40,7 @@ cover the list once over disjoint sets.
 The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr, run locally from
 `site/` as it stands and published from the kit's build of it (below). Locally the page has no `<title>` (the build
 writes it from `app.json`) and its five `kit/` scripts are not there (a 404 each, which the page passes over: only the
-installed app uses them), and it shows the pictures under `site/images/`: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
+published page uses them), and it shows the pictures under `site/images/`: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
 check, the score recomputed at the reader's institutional trust and the tiers; `cards.js` the picture
 cards, `corridor.js` and `globe.js` the two views (a story with pictures shows them as cards, in place of
 its sphere in the corridor and above its marker on the globe); `panel.js` the story panel; `notes.js` the notes box; `desktop.js` the page as a desktop app). The corridor is the
@@ -58,19 +58,18 @@ page loads after its first draw, from the data file's folder: `plain.json` over 
 story without its plain telling. At load the page recomputes every attestation
 and score from the profiles and refuses to draw when they differ from the stored values. Published as an artifact with the `db` capability,
 the notes box saves to the collection `notes`; anywhere else it copies the note as text. The published page
-also carries the `desktop` capability: "Install as app" (in the Claude desktop app's artifact menu, or the page's own
-button where the install is available) makes it an app with its own window, Dock icon and application menu. The menu,
+also carries the `desktop` capability: "Install as app" (in the Claude desktop app's artifact menu, or the kit's offer in
+the page's footer where the install is available) makes it an app with its own window, Dock icon and application menu. The menu,
 its keys and the window come from the desktop-app kit's `KitApp` (`kit/app.js`, which the app build puts beside the
 page), in the order every app of the set has: File, Edit, View (Corridor on Cmd-1, Globe on Cmd-2, the view's moves, the
 legend and keys, the trust reset, then Reload on Shift-Cmd-R, zoom and full screen), Story (Back and Forward over the
 stories visited, find, Copy Link to This Story, the rails), Window, Help (About, the page in the browser, the source on
 GitHub). Every menu key holds Command or Control, and the page's plain keys stay its own. As in every app of the set, `f` is
-feedback mode in the installed app (Help > Feedback Mode too): a click marks a control, a drag loops an area, and copy
+feedback mode wherever the page is published (in the installed app Help > Feedback Mode too): a click marks a control, a drag loops an area, and copy
 prompt takes the tickets out, since a page without an engine keeps them in memory; so `G` flattens the globe. `C`
 angles the corridor here, where the set's other apps give it to loop: this page has no loop. The notes box (saved to
 the artifact's database) stays how the page's viewers leave notes on a story or on the page. `app.json` lists no
-permission, and `check` keeps it so; `check` also refuses a `<title>` or a manifest tag in `site/index.html`, whose one
-home is `app.json`.
+permission, and `check` keeps it so.
 
 Run the first command once after any change to the pipeline; it must print `check: ok (fixture)`.
 Every stage takes `--root DIR` to work on another data root (the fixture check uses a temporary
@@ -100,9 +99,9 @@ the eight scripts under `js/`, and `assets.json` from `publish/assets.json`), th
 feedback module under `kit/` with `kit/build.js`, the build's record (the app's name and URL, the commits; no
 folder), and `dist/publish.json`, whose `page`, `files` and `capabilities` the Artifact tool publishes to its
 `url`. The build refuses a published file that names a home folder. Never `data.js` or
-`plain.js` (the `file:` copies) and never a picture. An artifact version holds at most 512 files, so every
+`plain.js` (the `file:` copies) and never a picture. An artifact version holds few files (the kit's `limits.json`), so every
 picture lives in the artifact's asset store (5,000 files, 1 GB): a new picture is uploaded there
-(`asset: true`, `file_paths`, 25 a call), its url (`/_blob/<id>`, same origin as the page) is
+(`asset: true`, `file_paths`, as many a call as `limits.json` allows), its url (`/_blob/<id>`, same origin as the page) is
 written into `publish/assets.json` under the page path `images/<owner>/<n>.ext`, and the map is
 republished; `check` validates the map against `site/images/` and warns on an unmapped picture.
 Uploads and the map are a mechanical agent's chore (Haiku), with the exact file lists in its

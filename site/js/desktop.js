@@ -4,13 +4,14 @@
    every app of the set has them: the menus in the set's order (File, Edit, View, Story, Window, Help, after Claude's
    own app menu), View > Reload on Shift-Cmd-R, zoom and full screen, each menu item's key, and the fallback when the
    app refuses part of the menu, and feedback mode on `f`. This file gives the kit what is the page's own: a dark window
-   with a hidden-inset title bar whose drag strip the page keeps clear (and the kit's footer below), a Dock icon drawn in
-   the page's rings and kind colours, and the commands (the controller's, passed to attach(); nothing here moves the
-   scene itself). The app's name and published URL are the build's record's (kit/build.js, from app.json).
-   Outside the app (a browser, the artifact panel) the namespace holds at most `install`, and the Install as app button
-   above the Keys shows when `install.state()` reads "available"; the kit is not booted there, so the browser keeps its
-   own shortcuts. From disk or local http there is no `claude` at all and nothing here acts. No call here needs a
-   permission, so app.json lists none. */
+   with a hidden-inset title bar whose drag strip the page keeps clear, a Dock icon drawn in the page's rings and kind
+   colours, and the commands (the controller's, passed to attach(); nothing here moves the scene itself). The app's name
+   and published URL are the build's record's (kit/build.js, from app.json).
+   Outside the app (a browser, the artifact panel) the namespace holds at most `install`. The kit is booted there too,
+   with no commands, so the browser keeps its own shortcuts: it gives feedback mode and, while `install.state()` reads
+   "available", its Install as app offer in the footer. A capability that fails, or answers with neither the app's
+   parts nor `install`, is said on screen. From disk or local http there is no `claude` at all and nothing here acts.
+   No call here needs a permission, so app.json lists none. */
 (function () {
   "use strict";
   const NHI = window.NHI = window.NHI || {};
@@ -29,14 +30,17 @@
     return e => { console.error(what, e); toast(what + ": " + ((e && (e.message || e.code)) || String(e)) + ".", true); };
   }
 
-  // ---------- the namespace: null without a claude object, without the capability, or when use() fails ----------
+  // ---------- the namespace: null without a claude object (disk, local http); a use() that fails is said on screen ----------
+  const inApp = d => !!(d && d.window && d.Menu && d.app);
   const desktopPromise = (function () {
     const c = window.claude;
     if (!c || typeof c.use !== "function") return Promise.resolve(null);
-    try { return Promise.resolve(c.use("desktop")).catch(e => { console.error("desktop capability", e); return null; }); }
-    catch (e) { console.error("desktop capability", e); return Promise.resolve(null); }
+    return Promise.resolve().then(() => c.use("desktop")).then(d => {
+      if (!inApp(d) && !(d && d.install))
+        throw new Error("it answered with neither the app's window, menu and Dock nor Install as app, so neither is set up");
+      return d;
+    }).catch(e => { refused("The desktop capability could not be used")(e); return null; });
   })();
-  const inApp = d => !!(d && d.window && d.Menu && d.app);
 
   // ---------- the Dock icon: the corridor seen down its axis, the tiers as rings, stories in the kind colours ----------
   function drawIcon(g, size) {
@@ -81,6 +85,7 @@
       window: { titleBarStyle: "hiddenInset", dragHeight: DRAG_STRIP, backgroundColor: bg, width: 1440, height: 900, minWidth: 960, minHeight: 640 },
       drawIcon,
       help: [{ label: "Open in the Browser", href: b.artifact }, { label: "Source and Data on GitHub", href: SOURCE_URL }],
+      install: true,
       feedback: { app: "nhi-timeline", tab: "page", dataAttrs: ["data-mode", "data-m", "data-key", "data-r", "data-story"] },
     };
   }
@@ -99,7 +104,7 @@
       { id: "view.reset", title: () => globe() ? "Reset the Globe" : "Back to the Entrance", key: "CmdOrCtrl+Alt+R", menu: "View", run: press("KeyR") },
       { id: "view.overview", title: "Overview", key: "CmdOrCtrl+Shift+O", menu: "View", run: press("KeyO"), enabled: () => !globe() },
       { id: "view.angle", title: "Angle by Kind or Region", key: "CmdOrCtrl+Shift+A", menu: "View", run: press("KeyC"), enabled: () => !globe() },
-      { id: "view.flatten", title: "Flatten", key: "CmdOrCtrl+Shift+F", menu: "View", run: press("KeyG"), enabled: globe },
+      { id: "view.flatten", title: "Flatten", key: "CmdOrCtrl+Shift+G", menu: "View", run: press("KeyG"), enabled: globe },
       { id: "era.previous", title: "Previous Era", key: "CmdOrCtrl+Shift+Left", menu: "View", run: () => cmd.key(globe() ? "KeyQ" : "PageUp") },
       { id: "era.next", title: "Next Era", key: "CmdOrCtrl+Shift+Right", menu: "View", run: () => cmd.key(globe() ? "KeyE" : "PageDown") },
       { id: "legend.toggle", title: "Legend and Filters", key: "CmdOrCtrl+L", menu: "View", run: () => cmd.legend(), separatorBefore: true },
@@ -121,26 +126,20 @@
     ];
   }
 
-  // ---------- in the app: the kit, booted while the page loads, before the stories are drawn ----------
+  // ---------- wherever the capability answers: the kit, booted while the page loads, before the stories are drawn ----------
   function inset(on) {
     document.body.classList.toggle("app-inset", on);
     document.documentElement.style.setProperty("--chrome-top", on ? DRAG_STRIP + "px" : "0px");
   }
   const appPromise = desktopPromise.then(d => {
-    if (!inApp(d)) return null;
-    if (!window.KitApp || !window.FeedbackMode) throw new Error("kit/app.js or kit/feedback/ is not loaded: the app runs the page the app build makes (site/dist/), which carries the kit beside it");
+    if (!d) return null;
+    if (!window.KitApp || !window.FeedbackMode) throw new Error("kit/app.js or kit/feedback/ is not loaded: the published page is the one the app build makes (site/dist/), which carries the kit beside it");
     const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim().toLowerCase();
     if (!/^#[0-9a-f]{6}$/.test(bg)) throw new Error("the page's --bg is " + JSON.stringify(bg) + "; the window's background needs #rrggbb");
     return window.KitApp.boot(Object.assign(bootOptions(bg), { desktop: d })).then(app => {
-      // the strip the window has now: the page clears it when the title bar is inset (read here, since boot resolves
-      // before the kit's own read of the window's options, app.windowOptions, is sure to have settled)
-      d.window.getOptions().then(r => inset(((r && r.applied) || {}).titleBarStyle === "hiddenInset"), refused("The window's options could not be read"));
-      // the kit's footer (its status and version line) sits at the foot of the window: the page's bottom parts clear it
-      const foot = document.getElementById("kit-chrome");
-      if (!foot) throw new Error("the kit drew no #kit-chrome footer");
-      const clear = () => document.documentElement.style.setProperty("--chrome-bottom", (foot.hidden ? 0 : foot.offsetHeight) + "px");
-      new ResizeObserver(clear).observe(foot);
-      clear();
+      // boot resolves after the window step, so app.windowOptions is the window's (null outside the app): the page
+      // clears the drag strip when the title bar is inset
+      inset(!!(app.windowOptions && app.windowOptions.titleBarStyle === "hiddenInset"));
       return app;
     });
   });
@@ -149,28 +148,15 @@
   /* attach(cmd), from the controller once the page is drawn; cmd as for commands() without copyLink. Returns
      { refresh() }, which the controller calls when the view changes (the menu's checks and enabled items follow). */
   function attach(cmd) {
-    let api = null, app = null;
-    const installBtn = document.getElementById("btn-install");
-    installBtn.addEventListener("click", () => {
-      if (!api) return;
-      api.install.request().then(r => {
-        if (r === "installed") installBtn.hidden = true;
-        else if (r === "failed" || r === "unavailable") toast("The app could not be installed here (" + r + ").");
-      }, refused("Install as app"));
-    });
+    let app = null;
     function copyLink() {
       const url = build().artifact + location.hash, what = cmd.story() ? "this story" : "this view";
       return NHI.notes.copy(url).then(ok => ok ? toast("Link to " + what + " copied.") : toast("The clipboard refused; the link to " + what + ": " + url, true));
     }
 
-    desktopPromise.then(d => {
-      if (!d) return;
-      api = d;
-      // a browser viewer who cannot install is told nothing: the console keeps why
-      if (d.install && !inApp(d)) Promise.resolve().then(() => d.install.state()).then(s => { installBtn.hidden = s !== "available"; }, e => console.error("Install as app", e));
-    });
-    appPromise.then(a => {
-      if (!a) return;
+    // the menu and its keys only in the app's own window: a browser keeps its shortcuts
+    Promise.all([desktopPromise, appPromise]).then(([d, a]) => {
+      if (!a || !inApp(d)) return;
       app = a;
       app.register({ commands: commands(Object.assign({}, cmd, { copyLink })) });
       // the mouse's back and forward buttons do what they do in a browser

@@ -221,7 +221,7 @@
       buildFilters(); view.applyVisibility();
     }
     function filterRow(ul, set, key, label, count, mark) {
-      const li = el("li", { title: "Click to hide or show " + label });
+      const li = el("li", { title: "Click to hide or show " + label, "data-ctl": ul.id + "-" + String(key).toLowerCase().replace(/[^a-z0-9]+/g, "-") });
       li.appendChild(mark);
       li.appendChild(el("span", null, label));
       li.appendChild(el("span", { class: "n" }, String(count)));
@@ -403,7 +403,7 @@
       resultIds = hits.map(h => h.s.id); resultHi = 0;
       if (!hits.length) resultsEl.appendChild(el("li", { class: "none" }, "No story matches."));
       hits.forEach((h, i) => {
-        const li = el("li", { role: "option" }), sw = el("span", { class: "sw" }); sw.style.background = M.KIND_COLORS[h.s.kind];
+        const li = el("li", { role: "option", "data-story": h.s.id }), sw = el("span", { class: "sw" }); sw.style.background = M.KIND_COLORS[h.s.kind];
         li.appendChild(sw); li.appendChild(el("span", { class: "t" }, h.s.title)); li.appendChild(el("span", { class: "s" }, M.yearsText(h.s.years) + " · " + M.TIERS[h.s._tier].name));
         li.addEventListener("mousedown", ev => { ev.preventDefault(); chooseResult(i); });
         resultsEl.appendChild(li);
@@ -533,7 +533,7 @@
     $("subtitle").title = D.stories.length + " stories, corpus of " + (D.corpus_date || "no date") + ", built " + (D.built || "unknown");
     $("loading").hidden = true;
 
-    // ---------- the installed desktop app's menu and the Install as app button (js/desktop.js; nothing happens without claude) ----------
+    // ---------- the installed desktop app's menu (js/desktop.js; nothing happens without claude) ----------
     desk = NHI.desktop.attach({
       key: code => onKey(fakeKey(code)), setMode, mode: () => view.name, story: () => selected,
       step: dir => { railStep(dir); usedOnce(); }, legend: () => $("legend-toggle").click(), about: () => aboutBox.open(),

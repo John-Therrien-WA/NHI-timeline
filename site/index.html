@@ -40,7 +40,6 @@
 </div>
 
 <div id="keys-wrap" class="hud">
-  <button class="btn" id="btn-install" hidden title="Install this page as an app with its own window and Dock icon, from the Claude desktop app">Install as app</button>
   <div id="keys" role="region" aria-label="Keys">
     <div class="hd"><h2>Keys</h2><button class="x" id="keys-hide" title="Hide (K)">hide</button></div>
     <table class="only-corridor">
@@ -143,13 +142,13 @@
 <div id="mm-tip"></div>
 
 <div id="pad" class="hud" aria-label="Touch controls">
-  <button class="pb only-corridor" data-key="KeyW" title="Fly forward (hold)">&#9650;</button>
-  <button class="pb only-corridor" data-key="KeyS" title="Fly back (hold)">&#9660;</button>
-  <button class="pb only-corridor" data-key="Space" data-tap="1" title="Glide on, or pause">Glide</button>
-  <button class="pb only-globe" data-key="KeyW" title="Zoom in (hold)">&#9650;</button>
-  <button class="pb only-globe" data-key="KeyS" title="Zoom out (hold)">&#9660;</button>
-  <button class="pb only-globe" data-key="KeyQ" data-tap="1" title="Time window back an era">&lsaquo; era</button>
-  <button class="pb only-globe" data-key="KeyE" data-tap="1" title="Time window forward an era">era &rsaquo;</button>
+  <button class="pb only-corridor" data-ctl="pad-corridor-forward" data-key="KeyW" title="Fly forward (hold)">&#9650;</button>
+  <button class="pb only-corridor" data-ctl="pad-corridor-back" data-key="KeyS" title="Fly back (hold)">&#9660;</button>
+  <button class="pb only-corridor" data-ctl="pad-corridor-glide" data-key="Space" data-tap="1" title="Glide on, or pause">Glide</button>
+  <button class="pb only-globe" data-ctl="pad-globe-zoom-in" data-key="KeyW" title="Zoom in (hold)">&#9650;</button>
+  <button class="pb only-globe" data-ctl="pad-globe-zoom-out" data-key="KeyS" title="Zoom out (hold)">&#9660;</button>
+  <button class="pb only-globe" data-ctl="pad-globe-era-back" data-key="KeyQ" data-tap="1" title="Time window back an era">&lsaquo; era</button>
+  <button class="pb only-globe" data-ctl="pad-globe-era-forward" data-key="KeyE" data-tap="1" title="Time window forward an era">era &rsaquo;</button>
   <button class="pb" id="pad-rail" title="Snap to the nearest story and ride a rail; on a rail, back to free flight"><span class="off-rail">Rail</span><span class="on-rail">Free</span></button>
 </div>
 

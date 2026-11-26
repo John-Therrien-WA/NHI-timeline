@@ -578,14 +578,14 @@
       [winA, winB].forEach(x => { x.min = Y0; x.max = Y1; x.step = 1; x.addEventListener("input", syncWindow); });
       winA.value = Y0; winB.value = Y1;
       const eraBox = document.getElementById("eras");
-      const eraBtn = (name, from, to) => {
-        const btn = el("button", { class: "btn small", title: from + " to " + to }, name);
+      const eraBtn = (id, name, from, to) => {
+        const btn = el("button", { class: "btn small", title: from + " to " + to, "data-ctl": "era-" + id }, name);
         btn.dataset.from = from; btn.dataset.to = to;
         btn.addEventListener("click", () => setWindow(from, to));
         eraBox.appendChild(btn);
       };
-      eraBtn("All", Y0, Y1);
-      ERAS.forEach(e => eraBtn(e.name, e.from, e.to));
+      eraBtn("all", "All", Y0, Y1);
+      ERAS.forEach(e => eraBtn(e.id, e.name, e.from, e.to));
       document.getElementById("undated").addEventListener("change", e => { state.showUndated = e.target.checked; computeTargets(); });
     }
     // Q and E step era by era; from the full window, E starts at the oldest era and Q at the newest

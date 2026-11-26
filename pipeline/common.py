@@ -150,7 +150,7 @@ PICTURE_DATE_RULE = ("A picture date is YYYY, YYYY-MM or YYYY-MM-DD, or absent (
 ARTIFACT_FILE_BYTES = 16_000_000  # the most a published claude.ai artifact allows one file
 ASSET_URL_PREFIXES = ("https://", "/")  # an asset url in publish/assets.json starts with one of these (the page holds a copy)
 ASSET_URL_OFFSITE = "//"  # and never with this: a "/" url that starts so is an address on another site (the page holds a copy)
-# The desktop-app permissions the page's manifest tag (site/index.html, `claude-artifacts-manifest`) may list. Empty: the
+# The desktop-app permissions the app's manifest (site/app.json, from which the build writes the page's tag) may list. Empty: the
 # installed app's window, menu, Dock icon and install need none, and the page is public, so nothing that asks the person
 # (least of all `full-access`, which reaches their files and programs) is declared without a feature that needs it.
 DESKTOP_PERMISSIONS_ALLOWED: tuple[str, ...] = ()

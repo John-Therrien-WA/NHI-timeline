@@ -1,19 +1,21 @@
 /* The page as a desktop app. A published copy declares the artifact capability `desktop`; in the app's own window
    (installed from the Claude desktop app) `claude.use("desktop")` gives the window, the application menu and the
-   Dock icon, and this file sets them up: a dark window with a hidden-inset title bar whose drag strip the page keeps
-   clear, a Dock icon drawn here in the page's own rings and kind colours, and a menu naming the page's own commands
-   (the controller's, passed to attach(); nothing here moves the scene itself). Outside the app (a browser, the
-   artifact panel) the namespace holds at most `install`, and the Install as app button above the Keys shows when
-   `install.state()` reads "available". From disk or local http there is no `claude` at all and nothing here acts.
-   No call here needs a permission, so the manifest tag in index.html lists none. Every desktop call is caught: a
-   refusal shows as a short notice and never as the page's fatal screen. */
+   Dock icon. The desktop-app kit's `KitApp` (kit/app.js, put beside the page by the app build) sets them up the way
+   every app of the set has them: the menus in the set's order (File, Edit, View, Story, Window, Help, after Claude's
+   own app menu), View > Reload on Shift-Cmd-R, zoom and full screen, each menu item's key, and the fallback when the
+   app refuses part of the menu. This file gives the kit what is the page's own: a dark window with a hidden-inset title
+   bar whose drag strip the page keeps clear, a Dock icon drawn in the page's rings and kind colours, and the commands
+   (the controller's, passed to attach(); nothing here moves the scene itself).
+   Outside the app (a browser, the artifact panel) the namespace holds at most `install`, and the Install as app button
+   above the Keys shows when `install.state()` reads "available"; the kit is not booted there, so the browser keeps its
+   own shortcuts. From disk or local http there is no `claude` at all and nothing here acts. No call here needs a
+   permission, so app.json lists none. */
 (function () {
   "use strict";
   const NHI = window.NHI = window.NHI || {};
   const PUBLIC_URL = "https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP";   // the published page; a copied link is this plus the hash
   const SOURCE_URL = "https://github.com/John-Therrien-WA/NHI-timeline";
   const DRAG_STRIP = 36;   // px: the title bar's drag strip, which the page keeps clear of controls (CSS --chrome-top)
-  const TRIES_KEY = "nhi-window-tries";   // sessionStorage: window option sets that reloaded the page, against a reload loop
 
   // ---------- a short notice at the foot of the page ----------
   let toastTimer = null;
@@ -36,53 +38,11 @@
   })();
   const inApp = d => !!(d && d.window && d.Menu && d.app);
 
-  // ---------- the window: one constant set of options, applied only when the window does not have them ----------
-  function windowOptions() {
-    const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim().toLowerCase();
-    if (!/^#[0-9a-f]{6}$/.test(bg)) throw new Error("the page's --bg is " + JSON.stringify(bg) + "; the window's background needs #rrggbb");
-    return { titleBarStyle: "hiddenInset", dragHeight: DRAG_STRIP, backgroundColor: bg, width: 1440, height: 900, minWidth: 960, minHeight: 640 };
-  }
-  // width and height are left out of the comparison: the person resizes the window, and setting them again would reload the page
-  const HELD = ["titleBarStyle", "dragHeight", "backgroundColor", "minWidth", "minHeight"];
-  const has = (applied, want) => HELD.every(k => String((applied || {})[k]).toLowerCase() === String(want[k]).toLowerCase());
-  function inset(on) {
-    document.body.classList.toggle("app-inset", on);
-    document.documentElement.style.setProperty("--chrome-top", on ? DRAG_STRIP + "px" : "0px");
-  }
-  // the reload guard reads and writes sessionStorage; storage it cannot use, or a count that is not a whole number,
-  // throws, so the window is left as it is rather than reloaded with no guard
-  function tries(n) {
-    let stored;
-    try {
-      if (n !== undefined) { sessionStorage.setItem(TRIES_KEY, String(n)); return n; }
-      stored = sessionStorage.getItem(TRIES_KEY);
-    } catch (e) {
-      throw new Error("sessionStorage, which guards the window against reloading forever, cannot be used (" + ((e && e.message) || e) + ")");
-    }
-    if (stored === null) return 0;
-    if (!/^\d+$/.test(stored)) throw new Error("sessionStorage " + TRIES_KEY + " holds " + JSON.stringify(stored) + ", not a whole number of tries");
-    return parseInt(stored, 10);
-  }
-  function setUpWindow(d) {
-    const want = windowOptions();
-    return d.window.getOptions().then(({ applied }) => {
-      inset((applied || {}).titleBarStyle === "hiddenInset");   // the strip the window has now, whatever follows
-      if (has(applied, want)) { tries(0); return; }
-      if (tries() >= 2) throw new Error("the window was given its options twice and still does not report them; it keeps its present look");
-      return d.window.setOptions(want).then(r => {
-        if (r.reloading) { tries(tries() + 1); return; }   // the window is rebuilt and the page loads again with them
-        tries(0);
-        if (r.applied === "now") inset(want.titleBarStyle === "hiddenInset");
-        else toast("The window takes its new look the next time the app opens.");
-      });
-    });
-  }
-
   // ---------- the Dock icon: the corridor seen down its axis, the tiers as rings, stories in the kind colours ----------
-  function drawIcon() {
-    const S = 256, cv = document.createElement("canvas");
-    cv.width = cv.height = S;
-    const g = cv.getContext("2d"), m = 26, w = S - 2 * m, r = 46, cx = S / 2, cy = S / 2;
+  function drawIcon(g, size) {
+    const S = 256;   // drawn in a 256 px box, scaled to the kit's canvas
+    g.save(); g.scale(size / S, size / S);
+    const m = 26, w = S - 2 * m, r = 46, cx = S / 2, cy = S / 2;
     g.beginPath(); g.roundRect(m, m, w, w, r);
     const bg = g.createRadialGradient(cx, cy, 8, cx, cy, w * 0.72);
     bg.addColorStop(0, "#16203d"); bg.addColorStop(1, "#05070d");
@@ -100,21 +60,77 @@
     g.fillStyle = glow; g.beginPath(); g.arc(cx, cy, 20, 0, Math.PI * 2); g.fill();
     g.restore();
     g.beginPath(); g.roundRect(m + 0.5, m + 0.5, w - 1, w - 1, r); g.strokeStyle = "rgba(150,170,220,0.35)"; g.lineWidth = 1; g.stroke();
-    return cv.toDataURL("image/png");
+    g.restore();
   }
 
-  // the window and the icon start while the page loads, before the stories are drawn
-  desktopPromise.then(d => {
-    if (!inApp(d)) return;
-    Promise.resolve().then(() => setUpWindow(d)).catch(refused("The window's look could not be set"));
-    Promise.resolve().then(() => d.app.dock.setIcon(drawIcon())).catch(refused("The Dock icon could not be set"));
-  }).catch(refused("The desktop app could not be set up"));
+  /* What KitApp.boot takes from the page, for a window background `bg` (#rrggbb, the page's --bg). */
+  function bootOptions(bg) {
+    return {
+      title: "NHI timeline",
+      window: { titleBarStyle: "hiddenInset", dragHeight: DRAG_STRIP, backgroundColor: bg, width: 1440, height: 900, minWidth: 960, minHeight: 640 },
+      drawIcon,
+      help: [{ label: "Open in the Browser", href: PUBLIC_URL }, { label: "Source and Data on GitHub", href: SOURCE_URL }],
+    };
+  }
 
-  /* attach(cmd), from the controller once the page is drawn. cmd: { key(code) a page key as if pressed, setMode(name),
-     mode() the view's name, step(dir) along the rail, legend(), about(), resetTrust(), back(), forward(), story() the
-     open story's id or null }. Returns { refresh() }, which the controller calls when the view changes. */
+  /* The page's commands for the kit's menu and keys. cmd: { key(code) a page key as if pressed, setMode(name), mode()
+     the view's name, step(dir) along the rail, legend(), about(), resetTrust(), back(), forward(), story() the open
+     story's id or null, copyLink() }. Every key holds Command or Control: the page's plain keys stay the page's own
+     (js/app.js), and the set's keys (Shift-Cmd-R reload, Cmd-1 and Cmd-2 for the views) mean here what they mean in
+     every app. */
+  function commands(cmd) {
+    const globe = () => cmd.mode() === "globe";
+    const press = code => () => cmd.key(code);
+    return [
+      { id: "view.corridor", title: "Corridor", key: "CmdOrCtrl+1", menu: "View", run: () => cmd.setMode("corridor"), checked: () => !globe() },
+      { id: "view.globe", title: "Globe", key: "CmdOrCtrl+2", menu: "View", run: () => cmd.setMode("globe"), checked: globe },
+      { id: "view.reset", title: "Reset the View", key: "CmdOrCtrl+Alt+R", menu: "View", run: press("KeyR") },
+      { id: "view.overview", title: "Overview", key: "CmdOrCtrl+Shift+O", menu: "View", run: press("KeyO"), enabled: () => !globe() },
+      { id: "view.angle", title: "Angle by Kind or Region", key: "CmdOrCtrl+Shift+A", menu: "View", run: press("KeyC"), enabled: () => !globe() },
+      { id: "view.flatten", title: "Flatten", key: "CmdOrCtrl+Shift+F", menu: "View", run: press("KeyF"), enabled: globe },
+      { id: "era.previous", title: "Previous Era", key: "CmdOrCtrl+Shift+Left", menu: "View", run: () => cmd.key(globe() ? "KeyQ" : "PageUp") },
+      { id: "era.next", title: "Next Era", key: "CmdOrCtrl+Shift+Right", menu: "View", run: () => cmd.key(globe() ? "KeyE" : "PageDown") },
+      { id: "legend.toggle", title: "Legend and Filters", key: "CmdOrCtrl+L", menu: "View", run: () => cmd.legend() },
+      { id: "keys.toggle", title: "Keys", key: "CmdOrCtrl+K", menu: "View", run: press("KeyK") },
+      { id: "trust.reset", title: "Reset Institutional Trust", key: "CmdOrCtrl+Alt+T", menu: "View", run: () => cmd.resetTrust() },
+      { id: "story.back", title: "Back", key: "CmdOrCtrl+[", menu: "Story", run: () => cmd.back() },
+      { id: "story.forward", title: "Forward", key: "CmdOrCtrl+]", menu: "Story", run: () => cmd.forward() },
+      { id: "story.find", title: "Find a Story, Teller or Place", key: "CmdOrCtrl+F", menu: "Story", run: press("Slash") },
+      { id: "story.copy_link", title: "Copy Link to This Story", key: "CmdOrCtrl+Shift+C", menu: "Story", run: () => cmd.copyLink() },
+      { id: "rail.snap", title: "Snap to the Nearest Story", key: "CmdOrCtrl+Alt+Return", menu: "Story", run: press("Tab") },
+      { id: "rail.time", title: "Ride the Time Rail", key: "CmdOrCtrl+Alt+1", menu: "Story", run: press("Digit1") },
+      { id: "rail.kind", title: "Ride the Kind Rail", key: "CmdOrCtrl+Alt+2", menu: "Story", run: press("Digit2") },
+      { id: "rail.strength", title: "Ride the Strength Rail", key: "CmdOrCtrl+Alt+3", menu: "Story", run: press("Digit3") },
+      { id: "rail.links", title: "Ride the Links Rail", key: "CmdOrCtrl+Alt+4", menu: "Story", run: press("Digit4") },
+      { id: "rail.next", title: "Next on the Rail", key: "CmdOrCtrl+Alt+Right", menu: "Story", run: () => cmd.step(1) },
+      { id: "rail.previous", title: "Previous on the Rail", key: "CmdOrCtrl+Alt+Left", menu: "Story", run: () => cmd.step(-1) },
+      { id: "rail.leave", title: "Free Flight, Close", key: "CmdOrCtrl+Alt+Backspace", menu: "Story", run: press("Escape") },
+      { id: "help.about", title: "About This Page", key: "CmdOrCtrl+Shift+/", menu: "Help", run: () => cmd.about() },
+    ];
+  }
+
+  // ---------- in the app: the kit, booted while the page loads, before the stories are drawn ----------
+  function inset(on) {
+    document.body.classList.toggle("app-inset", on);
+    document.documentElement.style.setProperty("--chrome-top", on ? DRAG_STRIP + "px" : "0px");
+  }
+  const appPromise = desktopPromise.then(d => {
+    if (!inApp(d)) return null;
+    if (!window.KitApp) throw new Error("kit/app.js is not loaded: the app runs the page the app build makes (site/dist/), which carries the kit beside it");
+    const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim().toLowerCase();
+    if (!/^#[0-9a-f]{6}$/.test(bg)) throw new Error("the page's --bg is " + JSON.stringify(bg) + "; the window's background needs #rrggbb");
+    return window.KitApp.boot(Object.assign(bootOptions(bg), { desktop: d })).then(app => {
+      // the strip the window has now: the page clears it when the title bar is inset
+      d.window.getOptions().then(r => inset(((r && r.applied) || {}).titleBarStyle === "hiddenInset"), refused("The window's options could not be read"));
+      return app;
+    });
+  });
+  appPromise.catch(refused("The desktop app could not be set up"));
+
+  /* attach(cmd), from the controller once the page is drawn; cmd as for commands() without copyLink. Returns
+     { refresh() }, which the controller calls when the view changes (the menu's checks and enabled items follow). */
   function attach(cmd) {
-    let api = null;
+    let api = null, app = null;
     const installBtn = document.getElementById("btn-install");
     installBtn.addEventListener("click", () => {
       if (!api) return;
@@ -123,100 +139,25 @@
         else if (r === "failed" || r === "unavailable") toast("The app could not be installed here (" + r + ").");
       }, refused("Install as app"));
     });
-
     function copyLink() {
       const url = PUBLIC_URL + location.hash, what = cmd.story() ? "this story" : "this view";
-      NHI.notes.copy(url).then(ok => ok ? toast("Link to " + what + " copied.") : toast("The clipboard refused; the link to " + what + ": " + url, true));
-    }
-    // a menu link: a desktop app that predates `href` hands the pick to click() with opened false, and the page opens it
-    // itself, or shows the address to copy when the window refuses
-    const opened = url => it => {
-      if (it && it.opened) return;
-      const w = window.open(url, "_blank");   // not "noopener", with which open() always returns null
-      if (w) w.opener = null; else toast("The link could not be opened here: " + url, true);
-    };
-    const isGlobe = () => cmd.mode() === "globe";
-    const item = (label, accelerator, click, extra) => Object.assign({ label, accelerator, click }, extra || {});
-    function template(withRoles) {
-      const viewTail = withRoles ? [
-        { type: "separator" },
-        { role: "resetZoom", label: "Actual Size", accelerator: "CmdOrCtrl+0" },
-        { role: "zoomIn", label: "Zoom In", accelerator: "CmdOrCtrl+Plus" },
-        { role: "zoomOut", label: "Zoom Out", accelerator: "CmdOrCtrl+-" },
-        { type: "separator" },
-        item("Reload", "CmdOrCtrl+R", () => location.reload()),
-        { role: "togglefullscreen", label: "Toggle Full Screen" },
-      ] : [{ type: "separator" }, item("Reload", "CmdOrCtrl+R", () => location.reload())];
-      return [
-        { role: "editMenu" },
-        { label: "Story", submenu: [
-          item("Back", "CmdOrCtrl+[", () => cmd.back()),
-          item("Forward", "CmdOrCtrl+]", () => cmd.forward()),
-          { type: "separator" },
-          item("Find a Story, Teller or Place", "CmdOrCtrl+F", () => cmd.key("Slash")),
-          item("Copy Link to This Story", "CmdOrCtrl+Shift+C", copyLink),
-          { type: "separator" },
-          item("Snap to the Nearest Story", "CmdOrCtrl+Alt+Enter", () => cmd.key("Tab")),
-          item("Ride the Time Rail", "CmdOrCtrl+Alt+1", () => cmd.key("Digit1")),
-          item("Ride the Kind Rail", "CmdOrCtrl+Alt+2", () => cmd.key("Digit2")),
-          item("Ride the Strength Rail", "CmdOrCtrl+Alt+3", () => cmd.key("Digit3")),
-          item("Ride the Links Rail", "CmdOrCtrl+Alt+4", () => cmd.key("Digit4")),
-          item("Next on the Rail", "CmdOrCtrl+Alt+Right", () => cmd.step(1)),
-          item("Previous on the Rail", "CmdOrCtrl+Alt+Left", () => cmd.step(-1)),
-          item("Free Flight, Close", "CmdOrCtrl+Alt+Backspace", () => cmd.key("Escape")),
-        ] },
-        { label: "View", submenu: [
-          item("Corridor", "CmdOrCtrl+1", () => cmd.setMode("corridor"), { type: "radio", checked: !isGlobe() }),
-          item("Globe", "CmdOrCtrl+2", () => cmd.setMode("globe"), { type: "radio", checked: isGlobe() }),
-          { type: "separator" },
-          item(isGlobe() ? "Reset the Globe" : "Back to the Entrance", "CmdOrCtrl+Shift+R", () => cmd.key("KeyR")),
-          item("Overview", "CmdOrCtrl+Shift+O", () => cmd.key("KeyO"), { enabled: !isGlobe() }),
-          item("Angle by Kind or Region", "CmdOrCtrl+Shift+A", () => cmd.key("KeyC"), { enabled: !isGlobe() }),
-          item("Flatten", "CmdOrCtrl+Shift+F", () => cmd.key("KeyF"), { enabled: isGlobe() }),
-          item("Previous Era", "CmdOrCtrl+Shift+Left", () => cmd.key(isGlobe() ? "KeyQ" : "PageUp")),
-          item("Next Era", "CmdOrCtrl+Shift+Right", () => cmd.key(isGlobe() ? "KeyE" : "PageDown")),
-          { type: "separator" },
-          item("Legend and Filters", "CmdOrCtrl+L", () => cmd.legend()),
-          item("Keys", "CmdOrCtrl+K", () => cmd.key("KeyK")),
-          item("Reset Institutional Trust", "CmdOrCtrl+Alt+T", () => cmd.resetTrust()),
-          ...viewTail,
-        ] },
-        { label: "Help", submenu: [
-          item("About This Page", "CmdOrCtrl+Shift+/", () => cmd.about()),
-          { type: "separator" },
-          { label: "Open in the Browser", href: PUBLIC_URL, click: opened(PUBLIC_URL) },
-          { label: "Source and Data on GitHub", href: SOURCE_URL, click: opened(SOURCE_URL) },
-        ] },
-      ];
-    }
-    /* The zoom and full-screen roles are Electron's, and an accelerator can be refused: a desktop app that refuses the
-       full menu gets it without those roles, then without accelerators, each step said once, so Back, Forward, Reload
-       and Copy Link stay in the menu whatever is refused. */
-    const bare = items => items.map(x => { const y = Object.assign({}, x); delete y.accelerator; if (y.submenu) y.submenu = bare(y.submenu); return y; });
-    const TIERS = [
-      { menu: () => template(true), lost: "" },
-      { menu: () => template(false), lost: "Zoom and full screen are not in this app's menu" },
-      { menu: () => bare(template(false)), lost: "The app's menu has no shortcuts here, nor zoom and full screen" },
-    ];
-    let tier = 0;
-    function setMenu() {
-      const tryTier = firstError => api.Menu.setApplicationMenu(TIERS[tier].menu()).then(
-        () => { if (firstError) toast(TIERS[tier].lost + " (" + ((firstError && firstError.message) || firstError) + ")."); },
-        e => { if (tier === TIERS.length - 1) throw e; tier++; return tryTier(firstError || e); });
-      return Promise.resolve().then(() => tryTier(null)).catch(refused("The app's menu could not be set"));
+      return NHI.notes.copy(url).then(ok => ok ? toast("Link to " + what + " copied.") : toast("The clipboard refused; the link to " + what + ": " + url, true));
     }
 
     desktopPromise.then(d => {
       if (!d) return;
       api = d;
       // a browser viewer who cannot install is told nothing: the console keeps why
-      if (d.install) Promise.resolve().then(() => d.install.state()).then(s => { installBtn.hidden = s !== "available"; }, e => console.error("Install as app", e));
-      if (!inApp(d)) return;
-      setMenu();
+      if (d.install && !inApp(d)) Promise.resolve().then(() => d.install.state()).then(s => { installBtn.hidden = s !== "available"; }, e => console.error("Install as app", e));
+    });
+    appPromise.then(a => {
+      if (!a) return;
+      app = a;
+      app.register({ commands: commands(Object.assign({}, cmd, { copyLink })) });
       // the mouse's back and forward buttons do what they do in a browser
       window.addEventListener("mouseup", e => { if (e.button === 3) cmd.back(); else if (e.button === 4) cmd.forward(); });
-    }).catch(refused("The desktop app could not be set up"));
-    return { refresh: () => { if (inApp(api)) setMenu(); } };
+    }).catch(() => {});   // said once where appPromise is made
+    return { refresh: () => { if (app) app.refreshMenu(); } };
   }
-  NHI.desktop = { attach };
+  NHI.desktop = { attach, commands, bootOptions };
 })();

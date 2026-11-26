@@ -1,0 +1,21 @@
+{
+  "name": "NHI timeline",
+  "page": "index.html",
+  "artifact": "https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP",
+  "permissions": [],
+  "files": {
+    "app.js": "app.js",
+    "style.css": "style.css",
+    "data.json": "data.json",
+    "plain.json": "plain.json",
+    "assets.json": "../publish/assets.json",
+    "js/model.js": "js/model.js",
+    "js/notes.js": "js/notes.js",
+    "js/about.js": "js/about.js",
+    "js/panel.js": "js/panel.js",
+    "js/cards.js": "js/cards.js",
+    "js/corridor.js": "js/corridor.js",
+    "js/globe.js": "js/globe.js",
+    "js/desktop.js": "js/desktop.js"
+  }
+}

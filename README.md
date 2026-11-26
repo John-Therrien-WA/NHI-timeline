@@ -37,8 +37,8 @@ A long explain run splits into n background runs side by side, `explain --all --
 `--shard 4/4`: each takes every fourth story of the ordered list from its own start, so together they
 cover the list once over disjoint sets.
 
-The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr and no
-build step: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
+The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr, run from
+`site/` as it stands (the published copy is assembled by the kit's build, below): `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
 check, the score recomputed at the reader's institutional trust and the tiers; `cards.js` the picture
 cards, `corridor.js` and `globe.js` the two views (a story with pictures shows them as cards, in place of
 its sphere in the corridor and above its marker on the globe); `panel.js` the story panel; `notes.js` the notes box; `desktop.js` the page as a desktop app). The corridor is the
@@ -57,9 +57,16 @@ story without its plain telling. At load the page recomputes every attestation
 and score from the profiles and refuses to draw when they differ from the stored values. Published as an artifact with the `db` capability,
 the notes box saves to the collection `notes`; anywhere else it copies the note as text. The published page
 also carries the `desktop` capability: "Install as app" (in the Claude desktop app's artifact menu, or the page's own
-button where the install is available) makes it an app with its own window, Dock icon and application menu: the views,
-search, the rails, the legend and keys, the trust reset, Back and Forward over the stories visited, Reload, Copy Link to
-This Story, zoom and full screen. Its manifest tag in `index.html` lists no permission, and `check` keeps it so.
+button where the install is available) makes it an app with its own window, Dock icon and application menu. The menu,
+its keys and the window come from the desktop-app kit's `KitApp` (`kit/app.js`, which the app build puts beside the
+page), in the order every app of the set has: File, Edit, View (Corridor on Cmd-1, Globe on Cmd-2, the view's moves, the
+legend and keys, the trust reset, then Reload on Shift-Cmd-R, zoom and full screen), Story (Back and Forward over the
+stories visited, find, Copy Link to This Story, the rails), Window, Help (About, the page in the browser, the source on
+GitHub). Every menu key holds Command or Control; the page's plain keys stay its own, so `F` flattens the globe and `C`
+angles the corridor here, where the set's other apps give `f` to feedback mode and `C` to loop: this page has no loop,
+and its notes box (saved to the artifact's database) is how its viewers leave feedback. `app.json` lists no permission,
+and `check` keeps it so. `node tests/desktop_menu.cjs <kit folder>` (or the folder in `$FLUXTECH_KIT`) builds the menu
+against the kit's stand-in desktop and checks the order and the reload.
 
 Run the first command once after any change to the pipeline; it must print `check: ok (fixture)`.
 Every stage takes `--root DIR` to work on another data root (the fixture check uses a temporary
@@ -81,11 +88,14 @@ again.
 
 To publish the page: it is a private artifact (https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP,
 capabilities `assets`, `db` and `desktop`, all kept by omitting `capabilities` on a republish; a
-republish that names capabilities names all three, since a named set replaces the stored one) of
-exactly fourteen files: `index.html`, `app.js`, `data.json`, `plain.json`, `assets.json`, `style.css`
-and the eight scripts under `js/`. After `build`, publish `site/index.html` with `root site` and those
-paths in `files`, `assets.json` taken from `publish/assets.json`; never `data.js` or `plain.js`
-(the `file:` copies) and never a picture. An artifact version holds at most 512 files, so every
+republish that names capabilities names all three, since a named set replaces the stored one).
+After `build`, the desktop-app kit's build makes the publish set from `site/app.json`: `app build site`
+(the `app` program in the kit's folder, `desktop-apps/kit/` of universal-tools) writes `site/dist/`
+(git-ignored by its own `.gitignore`): the page with its `<title>` and desktop manifest tag written from
+`app.json` (their one home), the files `app.json` lists (`app.js`, `style.css`, `data.json`, `plain.json`,
+the eight scripts under `js/`, and `assets.json` from `publish/assets.json`), the kit's page scripts under
+`kit/`, and `dist/publish.json`, whose `page` and `files` the Artifact tool publishes. Never `data.js` or
+`plain.js` (the `file:` copies) and never a picture. An artifact version holds at most 512 files, so every
 picture lives in the artifact's asset store (5,000 files, 1 GB): a new picture is uploaded there
 (`asset: true`, `file_paths`, 25 a call), its url (`/_blob/<id>`, same origin as the page) is
 written into `publish/assets.json` under the page path `images/<owner>/<n>.ext`, and the map is

@@ -37,8 +37,8 @@ formed (a provenance a non-empty string when present), every document a story qu
 `source` note (the note's `source` is its url and no telling of the story names it) has a
 provenance, and every text file there is a document's and in its format: a full text only for a
 public-domain document with a text_url, [locator] passages for every other (`sources.problems`).
-The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. The page's desktop-app
-manifest tag in site/index.html is there once, parses, and lists only permissions in
+The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. The app's manifest
+site/app.json (from which the kit's build writes the page's desktop-app manifest tag) lists only permissions in
 common.DESKTOP_PERMISSIONS_ALLOWED (`page_manifest_problems`). When publish/assets.json (the asset map the publish
 places beside the page) exists, it is an object whose every key is a picture file under site/images (a stale key
 fails) and every value an asset url starting with one of common.ASSET_URL_PREFIXES and not with
@@ -180,29 +180,27 @@ def page_asset_prefixes_problems() -> list[str]:
     return out
 
 
-INDEX_HTML = REPO / "site" / "index.html"
-MANIFEST_TAG = re.compile(r'<script type="application/json" id="claude-artifacts-manifest">(.*?)</script>', re.S)
+APP_JSON = REPO / "site" / "app.json"
 
 
 def page_manifest_problems() -> list[str]:
-    """The page's desktop-app manifest tag (site/index.html, `claude-artifacts-manifest`) is there once, parses as
-    `{"permissions": [...]}` and lists only permissions in common.DESKTOP_PERMISSIONS_ALLOWED. The installed app
-    grants what the tag lists, so a permission added there (`full-access` reaches the person's files and programs)
-    would otherwise ship unseen with the next publish."""
-    where = rel(INDEX_HTML, REPO)
-    tags = MANIFEST_TAG.findall(INDEX_HTML.read_text(encoding="utf-8"))
-    if len(tags) != 1:
-        return [f'{where}: {len(tags)} `<script type="application/json" id="claude-artifacts-manifest">` tags; the page declares its desktop permissions in exactly one']
+    """The app's manifest (site/app.json, read by the desktop-app kit's build, which writes the page's
+    `claude-artifacts-manifest` tag from it) is a JSON object whose `permissions` is a list holding only permissions in
+    common.DESKTOP_PERMISSIONS_ALLOWED. The installed app grants what the tag lists, so a permission added there
+    (`full-access` reaches the person's files and programs) would otherwise ship unseen with the next publish."""
+    where = rel(APP_JSON, REPO)
+    if not APP_JSON.is_file():
+        return [f"{where} is missing; it is the app's manifest the build makes the published page from"]
     try:
-        manifest = json.loads(tags[0])
+        manifest = json.loads(APP_JSON.read_text(encoding="utf-8"))
     except json.JSONDecodeError as e:
-        return [f"{where}: the claude-artifacts-manifest tag is not JSON ({e})"]
-    if not isinstance(manifest, dict) or set(manifest) != {"permissions"} or not isinstance(manifest["permissions"], list):
-        return [f'{where}: the claude-artifacts-manifest tag is {tags[0].strip()!r}; it must be {{"permissions": [...]}} and nothing else']
+        return [f"{where} is not JSON ({e})"]
+    if not isinstance(manifest, dict) or not isinstance(manifest.get("permissions"), list):
+        return [f"{where}: `permissions` must be a list (empty for a page that asks for none)"]
     out = []
     for p in manifest["permissions"]:
         if p not in DESKTOP_PERMISSIONS_ALLOWED:
-            out.append(f"{where}: the claude-artifacts-manifest tag lists permission {p!r}, which is not in common.DESKTOP_PERMISSIONS_ALLOWED "
+            out.append(f"{where} lists permission {p!r}, which is not in common.DESKTOP_PERMISSIONS_ALLOWED "
                        f"{list(DESKTOP_PERMISSIONS_ALLOWED)}; a permission is added there only with the feature that needs it")
     return out
 

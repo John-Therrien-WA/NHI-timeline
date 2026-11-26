@@ -124,7 +124,7 @@ from . import clips, images, sources
 from .build import STORY_KEYS
 from . import documents as documents_stage
 from . import people as people_stage
-from .common import (ASSET_URL_OFFSITE, ASSET_URL_PREFIXES, DATE, DESKTOP_PERMISSIONS_ALLOWED, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
+from .common import (artifact_limit, ASSET_URL_OFFSITE, ASSET_URL_PREFIXES, DATE, DESKTOP_PERMISSIONS_ALLOWED, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
@@ -2210,7 +2210,7 @@ def review_size_problems(root: Root) -> list[str]:
         except SystemExit as x:
             msg = str(x)
             want = [f"  1: {sids[0]}", f"  2: {sids[1]} {sids[2]}"]
-            if "bytes, over the 16,000,000 bytes" not in msg or any(w not in msg.splitlines() for w in want):
+            if f"bytes, over the {artifact_limit('text_file_bytes'):,} bytes" not in msg or any(w not in msg.splitlines() for w in want):
                 out.append(f"expect: review refused the oversized page with {msg!r}, expected its size and the split {want}")
         if page.exists():
             out.append("expect: review wrote the oversized page before refusing it")

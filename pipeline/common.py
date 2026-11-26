@@ -8,6 +8,7 @@ from __future__ import annotations
 import bisect
 import html
 import json
+import os
 import re
 import unicodedata
 from pathlib import Path
@@ -147,7 +148,23 @@ def save_json(f: Path, obj) -> bool:
 
 PICTURE_DATE_RULE = ("A picture date is YYYY, YYYY-MM or YYYY-MM-DD, or absent (the key left out or null); "
                      "a range, a decade or a century goes into the caption in words.")
-ARTIFACT_FILE_BYTES = 16_000_000  # the most a published claude.ai artifact allows one text file
+# The desktop-app kit is the one home of what a published artifact allows (its limits.json): its folder is
+# $FLUXTECH_KIT, else universal-tools' desktop-apps/kit in the family's checkout under the home folder.
+KIT = Path(os.environ.get("FLUXTECH_KIT") or Path.home() / "Desktop" / "FluxTech" / "universal-tools" / "desktop-apps" / "kit")
+
+
+def artifact_limit(name: str) -> int:
+    """One of the kit's artifact limits (`text_file_bytes`: the most a published artifact allows one text file), read
+    from its limits.json each call; an absent kit or name stops the run with both named."""
+    f = KIT / "limits.json"
+    if not f.is_file():
+        raise SystemExit(f"the desktop-app kit's limits.json is not at {f}: set FLUXTECH_KIT to the kit's folder")
+    value = json.loads(f.read_text(encoding="utf-8")).get(name)
+    if not isinstance(value, int) or isinstance(value, bool) or value < 1:
+        raise SystemExit(f"{f} holds no positive whole number {name!r}")
+    return value
+
+
 ASSET_URL_PREFIXES = ("https://", "/")  # an asset url in publish/assets.json starts with one of these (the page holds a copy)
 ASSET_URL_OFFSITE = "//"  # and never with this: a "/" url that starts so is an address on another site (the page holds a copy)
 # The desktop-app permissions the app's manifest (site/app.json, from which the build writes the page's tag) may list. Empty: the

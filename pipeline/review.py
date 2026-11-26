@@ -20,7 +20,7 @@ note `comments/general`, written as the fields change; without a database it kee
 browser's localStorage. A button copies every filled comment as markdown. Numbers and ids are shown
 exactly as the data holds them; the generator writes no words of its own about a story.
 
-A page over ARTIFACT_FILE_BYTES (16,000,000, the most an artifact allows a file) is refused with
+A page over the kit's `text_file_bytes` (`common.artifact_limit`, the most an artifact allows a file) is refused with
 nothing written; the message names the size and the story ids cut into lists that each fit, walked in
 the given order and cut when the running size would pass the limit (`split_to_fit`).
 
@@ -38,7 +38,7 @@ from pathlib import Path
 
 from . import images
 from .build import open_notes, url_at
-from .common import ARTIFACT_FILE_BYTES, REPO, Root, fmt_s, rel, seconds
+from .common import REPO, artifact_limit, Root, fmt_s, rel, seconds
 
 MIME = {".jpg": "image/jpeg", ".png": "image/png"}
 TIER_CLASS = {"well-attested": "tier-well", "told-by-several": "tier-several", "told-once": "tier-once"}
@@ -542,19 +542,20 @@ def page(d: Data, ids: list[str], title: str, line: str, blocks: dict[str, str] 
 
 
 def split_to_fit(d: Data, ids: list[str], blocks: dict[str, str], title: str, line: str) -> tuple[list[list[str]], list[str]]:
-    """(the ids cut into lists whose pages each fit ARTIFACT_FILE_BYTES, walking the given order and cutting when
+    """(the ids cut into lists whose pages each fit the kit's text_file_bytes, walking the given order and cutting when
     the running size would pass the limit; the ids whose page alone would not fit). A story's size is its rendered
     block, its contents line and its place in the ids list; the rest of the page is measured with no story."""
+    limit = artifact_limit("text_file_bytes")
     base = len(ascii_page(page(d, [], title, line, {})).encode("utf-8"))
     lists: list[list[str]] = []
     alone: list[str] = []
     run_size = base
     for sid in ids:
         n = len(ascii_page(blocks[sid] + toc_item(d, sid)).encode("utf-8")) + len(json.dumps(sid)) + 2
-        if base + n > ARTIFACT_FILE_BYTES:
+        if base + n > limit:
             alone.append(sid)
             continue
-        if not lists or run_size + n > ARTIFACT_FILE_BYTES:
+        if not lists or run_size + n > limit:
             lists.append([])
             run_size = base
         lists[-1].append(sid)
@@ -564,7 +565,7 @@ def split_to_fit(d: Data, ids: list[str], blocks: dict[str, str], title: str, li
 
 def oversize_message(d: Data, ids: list[str], blocks: dict[str, str], title: str, line: str, size: int) -> str:
     lists, alone = split_to_fit(d, ids, blocks, title, line)
-    msg = [f"review: the page would be {size:,} bytes, over the {ARTIFACT_FILE_BYTES:,} bytes a published artifact allows a file; "
+    msg = [f"review: the page would be {size:,} bytes, over the {artifact_limit('text_file_bytes'):,} bytes a published artifact allows a file; "
            f"nothing is written. Split the stories into {len(lists)} pages that each fit, one review run per list:"]
     msg += [f"  {i}: {' '.join(ids_)}" for i, ids_ in enumerate(lists, 1)]
     if alone:
@@ -585,7 +586,7 @@ def run(root: Root, ids: list[str], out: Path, title: str, line: str) -> str:
     blocks = {sid: story_html(d, sid) for sid in resolved}
     text = ascii_page(page(d, resolved, title, line, blocks))
     size = len(text.encode("utf-8"))
-    if size > ARTIFACT_FILE_BYTES:
+    if size > artifact_limit("text_file_bytes"):
         raise SystemExit(oversize_message(d, resolved, blocks, title, line, size))
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(text, encoding="utf-8")

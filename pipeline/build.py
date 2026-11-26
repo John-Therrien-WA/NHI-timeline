@@ -29,7 +29,7 @@ what the page shows (the episode id, the time codes and URL, the teller, the quo
 cites, `repeats` (for a repetition, the cites `score.cite_edges` counts as edges, so a cite of a source's
 author is never shown as repeating it) and the `difference`); the episode's show, title and date come from the `episodes` map, and the
 link's `link_reason` and `as_told` stay in the story file. All four files are written compact, with no
-indentation, so the whole corpus fits the 16 MB a published artifact allows a file. Fails when a story
+indentation, so the whole corpus fits what a published artifact allows a text file (the kit's `text_file_bytes`). Fails when a story
 has no score, profile or tier: run pipeline.score first.
 """
 from __future__ import annotations

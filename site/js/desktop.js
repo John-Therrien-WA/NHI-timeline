@@ -10,7 +10,8 @@
    Outside the app (a browser, the artifact panel) the namespace holds at most `install`. The kit is booted there too,
    with no commands, so the browser keeps its own shortcuts: it gives feedback mode and, while `install.state()` reads
    "available", its Install as app offer in the footer. A capability that fails, or answers with neither the app's
-   parts nor `install`, is said on screen. From disk or local http there is no `claude` at all and nothing here acts.
+   parts nor `install`, is said in the kit's status line. From disk or local http there is no `claude` at all and
+   nothing here acts.
    No call here needs a permission, so app.json lists none. */
 (function () {
   "use strict";
@@ -30,17 +31,8 @@
     return e => { console.error(what, e); toast(what + ": " + ((e && (e.message || e.code)) || String(e)) + ".", true); };
   }
 
-  // ---------- the namespace: null without a claude object (disk, local http); a use() that fails is said on screen ----------
-  const inApp = d => !!(d && d.window && d.Menu && d.app);
-  const desktopPromise = (function () {
-    const c = window.claude;
-    if (!c || typeof c.use !== "function") return Promise.resolve(null);
-    return Promise.resolve().then(() => c.use("desktop")).then(d => {
-      if (!inApp(d) && !(d && d.install))
-        throw new Error("it answered with neither the app's window, menu and Dock nor Install as app, so neither is set up");
-      return d;
-    }).catch(e => { refused("The desktop capability could not be used")(e); return null; });
-  })();
+  // the app's own window: the namespace the kit read holds the window and the menu
+  const inApp = app => !!(app && app.desktop && app.desktop.window && app.desktop.Menu);
 
   // ---------- the Dock icon: the corridor seen down its axis, the tiers as rings, stories in the kind colours ----------
   function drawIcon(g, size) {
@@ -131,15 +123,17 @@
     document.body.classList.toggle("app-inset", on);
     document.documentElement.style.setProperty("--chrome-top", on ? DRAG_STRIP + "px" : "0px");
   }
-  const appPromise = desktopPromise.then(d => {
-    if (!d) return null;
+  const appPromise = Promise.resolve().then(() => {
+    const c = window.claude;
+    if (!c || typeof c.use !== "function") return null;   // disk or local http: no kit beside the page, nothing to set up
     if (!window.KitApp || !window.FeedbackMode) throw new Error("kit/app.js or kit/feedback/ is not loaded: the published page is the one the app build makes (site/dist/), which carries the kit beside it");
     const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim().toLowerCase();
     if (!/^#[0-9a-f]{6}$/.test(bg)) throw new Error("the page's --bg is " + JSON.stringify(bg) + "; the window's background needs #rrggbb");
-    return window.KitApp.boot(Object.assign(bootOptions(bg), { desktop: d })).then(app => {
-      // boot resolves after the window step, so app.windowOptions is the window's (null outside the app): the page
-      // clears the drag strip when the title bar is inset
-      inset(!!(app.windowOptions && app.windowOptions.titleBarStyle === "hiddenInset"));
+    // the kit reads claude.use("desktop") itself and says a failed or empty answer in its status line
+    return window.KitApp.boot(bootOptions(bg)).then(app => {
+      // app.windowOptions is what the window has now (null outside the app): the page clears the drag strip when the
+      // title bar is inset
+      inset(!!(app && app.windowOptions && app.windowOptions.titleBarStyle === "hiddenInset"));
       return app;
     });
   });
@@ -155,8 +149,8 @@
     }
 
     // the menu and its keys only in the app's own window: a browser keeps its shortcuts
-    Promise.all([desktopPromise, appPromise]).then(([d, a]) => {
-      if (!a || !inApp(d)) return;
+    appPromise.then(a => {
+      if (!inApp(a)) return;
       app = a;
       app.register({ commands: commands(Object.assign({}, cmd, { copyLink })) });
       // the mouse's back and forward buttons do what they do in a browser

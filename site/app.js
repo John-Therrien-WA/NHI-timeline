@@ -115,7 +115,7 @@
     const renderer = new THREE.WebGLRenderer({ canvas, antialias: true });
     renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
 
-    let selected = null, hoverSid = null, previewSid = null, rail = null, view = null, globe = null;
+    let selected = null, hoverSid = null, previewSid = null, rail = null, view = null, globe = null, desk = null;
     const C = {
       THREE, D, M, canvas, renderer, el, damp, ease,
       select, preview, hover, hoverSid: () => hoverSid, leaveRail, onRail: () => !!rail, usedOnce, placeLabels,
@@ -164,6 +164,31 @@
       if (rail) h.set("rail", rail.type);
       if (Math.abs(M.trust.value - M.trust.def) > 1e-9) h.set("trust", M.trust.value.toFixed(2));
       try { history.replaceState(null, "", h.toString() ? "#" + h.toString().replace(/=(&|$)/g, "$1") : location.pathname + location.search); } catch (e) { /* some browsers refuse on file: */ }
+      trailNote();
+    }
+
+    // ---------- the trail: the stories and views visited, for Back and Forward (the hash is replaced, never pushed,
+    // so a browser's own history stays one entry; the installed app's menu and the mouse's side buttons walk this) ----------
+    const trail = { list: [], at: -1, moving: false }, TRAIL_MAX = 200;
+    function trailNote() {
+      if (trail.moving || !view) return;
+      const st = { story: selected, mode: view.name }, cur = trail.list[trail.at];
+      if (cur && cur.story === st.story && cur.mode === st.mode) return;
+      trail.list.splice(trail.at + 1); trail.list.push(st);
+      if (trail.list.length > TRAIL_MAX) trail.list.shift();
+      trail.at = trail.list.length - 1;
+    }
+    function trailGo(dir) {
+      const j = trail.at + dir;
+      if (j < 0 || j >= trail.list.length) return;
+      if (aboutBox.isOpen()) aboutBox.close();
+      trail.at = j; trail.moving = true;
+      try {
+        const st = trail.list[j];
+        if (rail) leaveRail();
+        setMode(st.mode);
+        if (st.story) select(st.story, { fly: true }); else closePanel();
+      } finally { trail.moving = false; }
     }
     function select(sid, opts) {
       opts = opts || {};
@@ -437,12 +462,14 @@
       if (rail) view.railArrive(rail.sid, true);
       else if (selected) view.flyTo(selected, instant !== false);
       writeHash();
+      if (desk) desk.refresh();
     }
     document.querySelectorAll("#mode-seg button").forEach(b => b.addEventListener("click", () => setMode(b.dataset.mode)));
 
     // ---------- keys ----------
     const isTyping = t => t && (t.isContentEditable || t.tagName === "TEXTAREA" || (t.tagName === "INPUT" && t.type !== "range" && t.type !== "checkbox" && t.type !== "button"));
-    window.addEventListener("keydown", e => {
+    // onKey: one key press, from the keyboard or from the installed app's menu (a key as if pressed)
+    function onKey(e) {
       // the About overlay holds the keys: Escape closes it (from its note box too), every other key stays with the overlay's own controls
       if (aboutBox.isOpen()) { if (e.code === "Escape") aboutBox.close(); return; }
       if (isTyping(e.target) || e.metaKey || e.ctrlKey || e.altKey) return;
@@ -462,7 +489,8 @@
         e.preventDefault(); if (!e.repeat) holdStep(c, c === "BracketRight" || c === "Period" ? 1 : -1); usedOnce(); return;
       }
       view.keydown(e);
-    });
+    }
+    window.addEventListener("keydown", onKey);
     window.addEventListener("keyup", e => { if (aboutBox.isOpen()) return; if (stepHold && e.code === stepHold.code) clearHold(); view.keyup(e); });
     window.addEventListener("blur", () => { view.blur(); clearHold(); });
     // a clicked button gives focus back, so Space and the arrows fly instead of pressing it again
@@ -504,6 +532,13 @@
     }
     $("subtitle").title = D.stories.length + " stories, corpus of " + (D.corpus_date || "no date") + ", built " + (D.built || "unknown");
     $("loading").hidden = true;
+
+    // ---------- the installed desktop app's menu and the Install app button (js/desktop.js; nothing happens without claude) ----------
+    desk = NHI.desktop.attach({
+      key: code => onKey(fakeKey(code)), setMode, mode: () => view.name, story: () => selected,
+      step: dir => { railStep(dir); usedOnce(); }, legend: () => $("legend-toggle").click(), about: () => aboutBox.open(),
+      resetTrust: () => { setTrust(M.trust.def); writeHash(); }, back: () => trailGo(-1), forward: () => trailGo(1),
+    });
 
     let last = performance.now();
     function frame(now) {

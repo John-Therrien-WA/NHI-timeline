@@ -37,7 +37,9 @@ formed (a provenance a non-empty string when present), every document a story qu
 `source` note (the note's `source` is its url and no telling of the story names it) has a
 provenance, and every text file there is a document's and in its format: a full text only for a
 public-domain document with a text_url, [locator] passages for every other (`sources.problems`).
-The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. When publish/assets.json (the asset map the publish
+The page's own `DISCUSSION_KINDS` in site/js/model.js equals common.DISCUSSION_KINDS. The page's desktop-app
+manifest tag in site/index.html is there once, parses, and lists only permissions in
+common.DESKTOP_PERMISSIONS_ALLOWED (`page_manifest_problems`). When publish/assets.json (the asset map the publish
 places beside the page) exists, it is an object whose every key is a picture file under site/images (a stale key
 fails) and every value an asset url starting with one of common.ASSET_URL_PREFIXES and not with
 common.ASSET_URL_OFFSITE, and the page's copies of both in site/app.js equal common's (`read_asset_map`); pictures
@@ -119,7 +121,7 @@ from . import clips, images, sources
 from .build import STORY_KEYS
 from . import documents as documents_stage
 from . import people as people_stage
-from .common import (ASSET_URL_OFFSITE, ASSET_URL_PREFIXES, DATE, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
+from .common import (ASSET_URL_OFFSITE, ASSET_URL_PREFIXES, DATE, DESKTOP_PERMISSIONS_ALLOWED, DISCUSSION_KEYS, DISCUSSION_KINDS, DISCUSSION_ROLES, HTTP, NOTE_KEYS, PICTURE_DATE_RULE, REPO, RELATIONS,
                      STORY_KINDS, TELLING_KINDS, Captions, Root, document_aliases, is_document_id, load_json, norm_ws, person_aliases, person_id, rel, save_json, seconds, text_field)
 
 FIXTURES = REPO / "tests" / "fixtures"
@@ -175,6 +177,33 @@ def page_asset_prefixes_problems() -> list[str]:
         page = tuple(page) if isinstance(page, list) else page
         if page != ours:
             out.append(f"{rel(APP_JS, REPO)}: {name} is {page!r}, common.{name} is {ours!r}")
+    return out
+
+
+INDEX_HTML = REPO / "site" / "index.html"
+MANIFEST_TAG = re.compile(r'<script type="application/json" id="claude-artifacts-manifest">(.*?)</script>', re.S)
+
+
+def page_manifest_problems() -> list[str]:
+    """The page's desktop-app manifest tag (site/index.html, `claude-artifacts-manifest`) is there once, parses as
+    `{"permissions": [...]}` and lists only permissions in common.DESKTOP_PERMISSIONS_ALLOWED. The installed app
+    grants what the tag lists, so a permission added there (`full-access` reaches the person's files and programs)
+    would otherwise ship unseen with the next publish."""
+    where = rel(INDEX_HTML, REPO)
+    tags = MANIFEST_TAG.findall(INDEX_HTML.read_text(encoding="utf-8"))
+    if len(tags) != 1:
+        return [f'{where}: {len(tags)} `<script type="application/json" id="claude-artifacts-manifest">` tags; the page declares its desktop permissions in exactly one']
+    try:
+        manifest = json.loads(tags[0])
+    except json.JSONDecodeError as e:
+        return [f"{where}: the claude-artifacts-manifest tag is not JSON ({e})"]
+    if not isinstance(manifest, dict) or set(manifest) != {"permissions"} or not isinstance(manifest["permissions"], list):
+        return [f'{where}: the claude-artifacts-manifest tag is {tags[0].strip()!r}; it must be {{"permissions": [...]}} and nothing else']
+    out = []
+    for p in manifest["permissions"]:
+        if p not in DESKTOP_PERMISSIONS_ALLOWED:
+            out.append(f"{where}: the claude-artifacts-manifest tag lists permission {p!r}, which is not in common.DESKTOP_PERMISSIONS_ALLOWED "
+                       f"{list(DESKTOP_PERMISSIONS_ALLOWED)}; a permission is added there only with the feature that needs it")
     return out
 
 
@@ -445,6 +474,7 @@ def problems(root: Root, asset_map: tuple[dict | None, list[str]] | None = None)
     out += sources.problems(root, stories, documents)
     out += page_kinds_problems()
     out += page_asset_prefixes_problems()
+    out += page_manifest_problems()
     out += (asset_map if asset_map is not None else read_asset_map(root))[1]
     out += built_story_problems(root)
     for eid, e in episodes.items():

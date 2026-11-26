@@ -126,5 +126,5 @@
       empty: "No open notes on the page yet.",
     });
   }
-  NHI.notes = { mount, mountPage };
+  NHI.notes = { mount, mountPage, copy };
 })();

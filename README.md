@@ -41,7 +41,7 @@ The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js 
 build step: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
 check, the score recomputed at the reader's institutional trust and the tiers; `cards.js` the picture
 cards, `corridor.js` and `globe.js` the two views (a story with pictures shows them as cards, in place of
-its sphere in the corridor and above its marker on the globe); `panel.js` the story panel; `notes.js` the notes box). The corridor is the
+its sphere in the corridor and above its marker on the globe); `panel.js` the story panel; `notes.js` the notes box; `desktop.js` the page as a desktop app). The corridor is the
 default view: time runs ahead, stretched where many stories are told, the angle is the kind or the
 region, and the rings are the tiers. The globe is the second view: regions as patches sized by story
 count, eras as shells. `M` switches; the keys are listed on the page. On a phone or tablet (a coarse
@@ -55,7 +55,11 @@ page loads after its first draw, from the data file's folder: `plain.json` over 
 (`window.NHI_PLAIN`) from disk or beside a `.js` data file; until it arrives the panel shows the
 story without its plain telling. At load the page recomputes every attestation
 and score from the profiles and refuses to draw when they differ from the stored values. Published as an artifact with the `db` capability,
-the notes box saves to the collection `notes`; anywhere else it copies the note as text.
+the notes box saves to the collection `notes`; anywhere else it copies the note as text. The published page
+also carries the `desktop` capability: "Install as app" (in the Claude desktop app's artifact menu, or the page's own
+button where the install is available) makes it an app with its own window, Dock icon and application menu: the views,
+search, the rails, the legend and keys, the trust reset, Back and Forward over the stories visited, Reload, Copy Link to
+This Story, zoom and full screen. Its manifest tag in `index.html` lists no permission, and `check` keeps it so.
 
 Run the first command once after any change to the pipeline; it must print `check: ok (fixture)`.
 Every stage takes `--root DIR` to work on another data root (the fixture check uses a temporary
@@ -76,9 +80,10 @@ JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind
 again.
 
 To publish the page: it is a private artifact (https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP,
-capabilities `assets` and `db`, both kept by omitting `capabilities` on a republish) of exactly
-thirteen files: `index.html`, `app.js`, `data.json`, `plain.json`, `assets.json`, `style.css` and
-the seven scripts under `js/`. After `build`, publish `site/index.html` with `root site` and those
+capabilities `assets`, `db` and `desktop`, all kept by omitting `capabilities` on a republish; a
+republish that names capabilities names all three, since a named set replaces the stored one) of
+exactly fourteen files: `index.html`, `app.js`, `data.json`, `plain.json`, `assets.json`, `style.css`
+and the eight scripts under `js/`. After `build`, publish `site/index.html` with `root site` and those
 paths in `files`, `assets.json` taken from `publish/assets.json`; never `data.js` or `plain.js`
 (the `file:` copies) and never a picture. An artifact version holds at most 512 files, so every
 picture lives in the artifact's asset store (5,000 files, 1 GB): a new picture is uploaded there

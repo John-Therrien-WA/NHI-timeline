@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>NHI timeline</title>
 <meta name="description" content="The stories told about non-human intelligence, flown through in time or seen on a globe, sized by how many independent people tell them. Stories as told, not facts.">
+<script type="application/json" id="claude-artifacts-manifest">{"permissions": []}</script>
 <link rel="stylesheet" href="style.css">
 <script type="importmap">
 { "imports": {
@@ -41,6 +42,7 @@
 </div>
 
 <div id="keys-wrap" class="hud">
+  <button class="btn" id="btn-install" hidden title="Install this page as an app with its own window and Dock icon, from the Claude desktop app">Install as app</button>
   <div id="keys" role="region" aria-label="Keys">
     <div class="hd"><h2>Keys</h2><button class="x" id="keys-hide" title="Hide (K)">hide</button></div>
     <table class="only-corridor">
@@ -198,6 +200,8 @@
 </div>
 
 <div id="hover" class="label"></div>
+<div id="app-drag" aria-hidden="true"></div>
+<div id="toast" role="status" aria-live="polite" hidden></div>
 <div id="fatal" role="alert"><div><h2>The page cannot be drawn</h2><pre id="fatal-msg"></pre></div></div>
 <div id="loading">Loading the stories&hellip;</div>
 
@@ -208,6 +212,7 @@
 <script src="js/cards.js"></script>
 <script src="js/corridor.js"></script>
 <script src="js/globe.js"></script>
+<script src="js/desktop.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

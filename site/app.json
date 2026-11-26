@@ -3,6 +3,7 @@
   "page": "index.html",
   "artifact": "https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP",
   "permissions": [],
+  "capabilities": { "assets": {}, "db": {}, "desktop": {} },
   "files": {
     "app.js": "app.js",
     "style.css": "style.css",

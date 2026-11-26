@@ -156,7 +156,8 @@
       app.register({ commands: commands(Object.assign({}, cmd, { copyLink })) });
       // the mouse's back and forward buttons do what they do in a browser
       window.addEventListener("mouseup", e => { if (e.button === 3) cmd.back(); else if (e.button === 4) cmd.forward(); });
-    }).catch(() => {});   // said once where appPromise is made
+    }, () => {})   // a failed boot is said once, where appPromise is made
+      .catch(refused("The app's menu could not be set"));
     return { refresh: () => { if (app) app.refreshMenu(); } };
   }
   NHI.desktop = { attach, commands, bootOptions };

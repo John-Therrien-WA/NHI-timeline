@@ -181,6 +181,7 @@ def page_asset_prefixes_problems() -> list[str]:
 
 
 APP_JSON = REPO / "site" / "app.json"
+DESKTOP_JS = REPO / "site" / "js" / "desktop.js"
 
 
 def page_manifest_problems() -> list[str]:
@@ -202,6 +203,14 @@ def page_manifest_problems() -> list[str]:
         if p not in DESKTOP_PERMISSIONS_ALLOWED:
             out.append(f"{where} lists permission {p!r}, which is not in common.DESKTOP_PERMISSIONS_ALLOWED "
                        f"{list(DESKTOP_PERMISSIONS_ALLOWED)}; a permission is added there only with the feature that needs it")
+    # site/js/desktop.js holds copies of the app's name (the window's title) and its published URL (Copy Link)
+    page_js = DESKTOP_JS.read_text(encoding="utf-8")
+    for key, pattern in (("name", r'title: ("[^"]*"),'), ("artifact", r'const PUBLIC_URL = ("[^"]*");')):
+        m = re.search(pattern, page_js)
+        if m is None:
+            out.append(f"{rel(DESKTOP_JS, REPO)}: no copy of app.json's {key} to compare (`{pattern}`)")
+        elif json.loads(m.group(1)) != manifest.get(key):
+            out.append(f"{rel(DESKTOP_JS, REPO)}: holds {m.group(1)} where {where}'s {key} is {manifest.get(key)!r}")
     return out
 
 

@@ -88,7 +88,8 @@ again.
 
 To publish the page: it is a private artifact (https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP,
 capabilities `assets`, `db` and `desktop`, all kept by omitting `capabilities` on a republish; a
-republish that names capabilities names all three, since a named set replaces the stored one).
+republish that names capabilities names all three, since a named set replaces the stored one:
+`app.json`'s `capabilities` names all three, and a publish passes `publish.json`'s `capabilities` or none).
 After `build`, the desktop-app kit's build makes the publish set from `site/app.json`: `app build site`
 (the `app` program in the kit's folder, `desktop-apps/kit/` of universal-tools) writes `site/dist/`
 (git-ignored by its own `.gitignore`): the page with its `<title>` and desktop manifest tag written from

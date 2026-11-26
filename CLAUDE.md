@@ -67,5 +67,5 @@ Each story carries an evidence profile: its independent tellers by kind, its doc
 - An explain shard run (`--shard i/n`) is restarted after any pipeline fix: a running shard keeps the code it started with.
 - A story is edited by hand in its JSON when the pipeline gets it wrong; `check.py` keeps hand edits honest.
 - Quotes are verbatim from the captions, with the video id and the time code: a substring of the caption text with the `[h:mm:ss]` prefixes stripped and whitespace collapsed, case and punctuation exact. A paraphrase is marked as one.
-- Git: commit after each piece of work; `origin` is `git@github-personal:John-Therrien-WA/NHI-timeline.git`; push at the end of a session; never force-push.
+- Git: commit after each piece of work; `origin` is the GitHub repo `John-Therrien-WA/NHI-timeline`; push at the end of a session; never force-push.
 - Prior art and the hazard list (what must never be stated as fact, the platforms' labelling rules) live in `notes/` and are read before anything is published.

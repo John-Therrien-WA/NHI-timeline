@@ -223,8 +223,13 @@ MACHINE_NOTE_EXEMPT = ("data/", "site/data.", "site/plain.", "sources/captions/"
 # MACHINE_HOME holds in tracked code (CODE_SUFFIXES): a path built from the home folder in parts names one machine's
 # layout as surely as a written one, and MACHINE_PATH cannot see it. A folder the code needs comes from a named
 # environment variable with no default, its absence refused naming the variable.
-MACHINE_HOME = re.compile(r"\.ho" r"me\(\)|expand" r"user|environ\[[\"']HO" r"ME[\"']\]|getenv\([\"']HO" r"ME[\"']")
-CODE_SUFFIXES = (".py", ".js", ".mjs", ".cjs", ".sh")
+# Its spellings: Python's Path home method, expand-user, the HOME variable read from os.environ (by index or get) or
+# getenv; Node's os home-dir call and the HOME of process.env; the shell's HOME variable, braced or not; and a Users
+# folder joined from parts. Each literal below is split, and none is written whole here, so this file does not match
+# itself.
+MACHINE_HOME = re.compile(r"\.ho" r"me\(\)|expand" r"user|environ\[[\"']HO" r"ME[\"']\]|environ\.get\(\s*[\"']HO" r"ME"
+                          r"|getenv\([\"']HO" r"ME[\"']|home" r"dir\(|env\.HO" r"ME\b|\$\{?HO" r"ME\b|[\"']Us" r"ers[\"']")
+CODE_SUFFIXES = (".py", ".js", ".mjs", ".cjs", ".sh", ".html")
 
 
 def public_tree_problems() -> list[str]:

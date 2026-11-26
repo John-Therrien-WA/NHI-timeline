@@ -69,3 +69,11 @@ Each story carries an evidence profile: its independent tellers by kind, its doc
 - Quotes are verbatim from the captions, with the video id and the time code: a substring of the caption text with the `[h:mm:ss]` prefixes stripped and whitespace collapsed, case and punctuation exact. A paraphrase is marked as one.
 - Git: commit after each piece of work; `origin` is the GitHub repo `John-Therrien-WA/NHI-timeline`; push at the end of a session; never force-push.
 - Prior art and the hazard list (what must never be stated as fact, the platforms' labelling rules) live in `notes/` and are read before anything is published.
+
+## Open work
+
+Each item: where, what is wrong or missing, the fix, the cheapest check.
+
+- `pipeline/check.py:231` (`MACHINE_HOME`) still misses three spellings of a home-folder path in code: the macOS users folder written in backticks with no slash after it, a `getenv` call with spaces inside its parentheses around the quoted name, and the Linux home root. Fix: add the three to the pattern, each literal split as the others are. Check: a throwaway probe line of each spelling matches, and `check` still passes on the tracked tree.
+- `public_tree_problems` (`pipeline/check.py:237`) has no test of its own; it runs only inside the full check (`:2393`). Fix: one `check --fixture` case that plants a tracked file with a machine path and expects the refusal naming it.
+- `site/js/desktop.js:27`: before the kit is up, a failure shows in the page's own toast, a second status surface beside the kit's status line. Fix, if the set's rule is one surface: show it in the kit's boot failure line instead.

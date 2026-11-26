@@ -147,7 +147,7 @@ def save_json(f: Path, obj) -> bool:
 
 PICTURE_DATE_RULE = ("A picture date is YYYY, YYYY-MM or YYYY-MM-DD, or absent (the key left out or null); "
                      "a range, a decade or a century goes into the caption in words.")
-ARTIFACT_FILE_BYTES = 16_000_000  # the most a published claude.ai artifact allows one file
+ARTIFACT_FILE_BYTES = 16_000_000  # the most a published claude.ai artifact allows one text file
 ASSET_URL_PREFIXES = ("https://", "/")  # an asset url in publish/assets.json starts with one of these (the page holds a copy)
 ASSET_URL_OFFSITE = "//"  # and never with this: a "/" url that starts so is an address on another site (the page holds a copy)
 # The desktop-app permissions the app's manifest (site/app.json, from which the build writes the page's tag) may list. Empty: the

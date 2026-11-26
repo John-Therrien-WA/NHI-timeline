@@ -9,7 +9,7 @@ the episodes `captions.py` cannot serve: YouTube rate-limits caption downloads (
 videos have no caption track at all.
 
 What it reads from creator-watch (`CREATOR_WATCH` below): the package `creator_watch`, the keys file
-its `config.toml` names (`~/.config/creator-watch/keys.env`, mode 600, `GEMINI_API_KEY` and
+its `config.toml` names (mode 600, `GEMINI_API_KEY` and
 `YOUTUBE_API_KEY`), the `[gemini]` settings of that config (model, words per minute, continuations,
 rescale factor, timeouts, media resolution) and its prompt `prompts/transcribe.md`.
 

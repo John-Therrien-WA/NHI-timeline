@@ -49,9 +49,9 @@ story and the entry, and exits 1 when there is one. Then it lists, as warnings t
 check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
 other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
 through data/person-folds.json (a pair the file folds into one canonical, or lists as `distinct`, is not
-listed: `warned_pairs`). The repo is public: every text file git tracks outside the corpus, the built data and the
-third-party evidence (`MACHINE_NOTE_EXEMPT`) holds no path on one machine and no note on how its tools are set up
-(the words of `MACHINE_NOTE`, `public_tree_problems`).
+listed: `warned_pairs`). The repo is public: every text file git tracks holds no path on one machine
+(`MACHINE_PATH`), and every one outside the corpus, the built data and the third-party evidence
+(`MACHINE_NOTE_EXEMPT`) no note on how its tools are set up (the words of `MACHINE_NOTE`, `public_tree_problems`).
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p` (`explain.json` stands in for the explain stage): the episodes without a `links/<id>.json` are extracted and merged unlinked
@@ -208,26 +208,31 @@ def page_manifest_problems() -> list[str]:
     return out
 
 
-# The repo is public: no tracked text carries a home-folder path or a note on how one machine's tools are set up.
-# The words are written in pieces so this file's own source never matches them. MACHINE_NOTE_LOWER holds its word in
-# lower case only, so a proper name (Larry Hatch's *U* database in notes/prior-art.md) passes.
-MACHINE_NOTE = re.compile(r"/User" r"s/|allowed_" r"domains|sand" r"box|guard" r"rail", re.I)
+# The repo is public: no tracked text carries a path on one machine or a note on how its tools are set up.
+# The patterns are written in pieces so this file's own source never matches them.
+# MACHINE_PATH holds in every tracked text file, the corpus included: no exemption.
+MACHINE_PATH = re.compile(r"/User" r"s/|~" r"/|/private" r"/tmp|/var" r"/folders")
+# MACHINE_NOTE holds outside MACHINE_NOTE_EXEMPT, where third-party speech may use the words. MACHINE_NOTE_LOWER holds
+# its word in lower case only, so a proper name (Larry Hatch's *U* database in notes/prior-art.md) passes.
+MACHINE_NOTE = re.compile(r"allowed_" r"domains|sand" r"box|guard" r"rail|write" r" set|permission" r" prompt|shape" r" guard",
+                          re.I)
 MACHINE_NOTE_LOWER = re.compile(r"\bhat" r"ch(?:ed|es|ing)?\b")
-# outside the rule: the corpus and what is built from it, and the verbatim third-party words kept as evidence
+# outside the word rule: the corpus and what is built from it, and the verbatim third-party words kept as evidence
 MACHINE_NOTE_EXEMPT = ("data/", "site/data.", "site/plain.", "sources/captions/", "sources/documents/")
 
 
 def public_tree_problems() -> list[str]:
-    """Every file git tracks outside MACHINE_NOTE_EXEMPT that is text (no NUL byte) holds no MACHINE_NOTE and no
-    MACHINE_NOTE_LOWER match: the repo is public, and a path on this machine or a note on how its tools are set up
-    tells a reader nothing true about the timeline."""
+    """Every file git tracks that is text (no NUL byte) holds no MACHINE_PATH match, and one outside
+    MACHINE_NOTE_EXEMPT no MACHINE_NOTE or MACHINE_NOTE_LOWER match either: the repo is public, and a path on this
+    machine or a note on how its tools are set up tells a reader nothing true about the timeline."""
     run = subprocess.run(["git", "-C", str(REPO), "ls-files", "-z"], capture_output=True)
     if run.returncode != 0:
         return [f"check: git ls-files failed in {REPO.name} ({run.stderr.decode(errors='replace').strip()}); the public-tree rule cannot run"]
     out = []
     for name in run.stdout.decode().split("\0"):
-        if not name or name.startswith(MACHINE_NOTE_EXEMPT):
+        if not name:
             continue
+        exempt = name.startswith(MACHINE_NOTE_EXEMPT)
         f = REPO / name
         if not f.is_file():
             continue  # a tracked file removed in the working tree
@@ -235,9 +240,13 @@ def public_tree_problems() -> list[str]:
         if b"\0" in raw:
             continue  # a picture or another binary file
         for n, line in enumerate(raw.decode("utf-8", errors="replace").splitlines(), 1):
-            m = MACHINE_NOTE.search(line) or MACHINE_NOTE_LOWER.search(line)
+            m = MACHINE_PATH.search(line)
             if m:
-                out.append(f"{name}:{n}: {m.group(0)!r} is a note on one machine's setup or a path on it; the repo is public")
+                out.append(f"{name}:{n}: {m.group(0)!r} is a path on one machine; the repo is public")
+                continue
+            m = None if exempt else MACHINE_NOTE.search(line) or MACHINE_NOTE_LOWER.search(line)
+            if m:
+                out.append(f"{name}:{n}: {m.group(0)!r} is a note on how one machine's tools are set up; the repo is public")
     return out
 
 

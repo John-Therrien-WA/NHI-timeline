@@ -81,7 +81,7 @@
       window: { titleBarStyle: "hiddenInset", dragHeight: DRAG_STRIP, backgroundColor: bg, width: 1440, height: 900, minWidth: 960, minHeight: 640 },
       drawIcon,
       help: [{ label: "Open in the Browser", href: b.artifact }, { label: "Source and Data on GitHub", href: SOURCE_URL }],
-      feedback: { app: "nhi-timeline", tab: "page", dataAttrs: ["data-mode", "data-m", "data-key", "data-r"] },
+      feedback: { app: "nhi-timeline", tab: "page", dataAttrs: ["data-mode", "data-m", "data-key", "data-r", "data-story"] },
     };
   }
 

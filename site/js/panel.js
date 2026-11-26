@@ -53,7 +53,7 @@
 
     function relRow(sid, note, warn) {
       const o = M.storyById[sid];
-      const b = el("button", { class: "rel", type: "button" });
+      const b = el("button", { class: "rel", type: "button", "data-story": sid });
       b.appendChild(swatch(M.KIND_COLORS[o.kind]));
       b.appendChild(el("span", { class: "t" }, o.title));
       if (note) b.appendChild(el("span", { class: "r" + (warn ? " warn" : "") }, note));

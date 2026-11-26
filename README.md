@@ -10,7 +10,7 @@ keys file, for the Gemini fallback only. The link pass works in groups of about 
 `claude -p` call (`--batch N`, default 10), saving the candidate file after each group, so a killed
 run picks up at the first candidate without a `link`.
 
-Inside the Claude Code sandbox, where `uv run` cannot start, each line is `.venv/bin/python -m pipeline.<stage>`.
+Where `uv run` cannot start, each line is `.venv/bin/python -m pipeline.<stage>`.
 
 ```sh
 uv run python -m pipeline.check --fixture               # the whole chain on the fictional fixtures, offline
@@ -39,7 +39,7 @@ cover the list once over disjoint sets.
 
 The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr, run locally from
 `site/` as it stands and published from the kit's build of it (below). Locally the page has no `<title>` (the build
-writes it from `app.json`) and its three `kit/` scripts are not there (a 404 each, which the page passes over: only the
+writes it from `app.json`) and its five `kit/` scripts are not there (a 404 each, which the page passes over: only the
 installed app uses them), and it shows the pictures under `site/images/`: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
 check, the score recomputed at the reader's institutional trust and the tiers; `cards.js` the picture
 cards, `corridor.js` and `globe.js` the two views (a story with pictures shows them as cards, in place of
@@ -81,16 +81,15 @@ null `place` or missing `place_text`, nothing else. A place the extractor names 
 `merge` then fills it.
 
 The images stage downloads with a descriptive User-Agent and resizes in memory with macOS ImageIO.
-In a Claude Code session it runs inside the sandbox: `.venv/bin/python -m pipeline.images <manifest>
---hosts` prints the hosts the run will reach, and `.venv/bin/python -m pipeline.images <manifest>
---keep-going` runs with exactly those in the Bash tool's `allowed_domains`. A refused host
+`.venv/bin/python -m pipeline.images <manifest> --hosts` prints the hosts the run will reach, and
+`.venv/bin/python -m pipeline.images <manifest> --keep-going` runs where exactly those hosts are allowed. A refused host
 stops the run with its name (`CLAUDE.md`, Working here, says what to do); the run is
 idempotent, so the images already added are kept. Its manifest is a
 JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind", "credit",
 "caption", "date"? }` (`schema.md`, Images); an image already held is kept, so a manifest can be run
 again.
 
-To publish the page: it is a private artifact (https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP,
+To publish the page: it is a private artifact (its URL is `app.json`'s `artifact`,
 capabilities `assets`, `db` and `desktop`; a named set replaces the stored one, so `app.json`'s `capabilities`
 names all three). After `build` and a commit (the build's record names the commit it was built from), the
 desktop-app kit's build makes the publish set from `site/app.json`: `app build site` (the `app` program in the
@@ -118,8 +117,7 @@ document, a plain-text URL for a public-domain text or the quoted passages with 
 any other, the quotes that say what the story claims, the author, the telling's kind, a note
 when the source reads otherwise than the tellers, and its pictures. Run
 `.venv/bin/python -m pipeline.sources <manifest> --keep-going` after `clips` and before `documents --fold`,
-sandboxed with the hosts `.venv/bin/python -m pipeline.sources <manifest> --hosts` prints in its
-`allowed_domains`; it checks every quote against the text before writing an entry, keeps a text file already
+where the hosts `.venv/bin/python -m pipeline.sources <manifest> --hosts` prints are allowed; it checks every quote against the text before writing an entry, keeps a text file already
 there, and adds nothing twice, so a manifest can be run again. It writes the pictures to
 `<manifest stem>.images.json` beside the manifest for `pipeline.images`, and prints the stories it
 changed: run `documents --fold`, `people --fold` and `score`, then `explain --force` on those, then `build`.

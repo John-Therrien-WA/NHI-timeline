@@ -49,7 +49,20 @@
     document.body.classList.toggle("app-inset", on);
     document.documentElement.style.setProperty("--chrome-top", on ? DRAG_STRIP + "px" : "0px");
   }
-  function tries(n) { try { if (n === undefined) return parseInt(sessionStorage.getItem(TRIES_KEY) || "0", 10); sessionStorage.setItem(TRIES_KEY, String(n)); } catch (e) { return 0; } return n; }
+  // the reload guard reads and writes sessionStorage; storage it cannot use, or a count that is not a whole number,
+  // throws, so the window is left as it is rather than reloaded with no guard
+  function tries(n) {
+    let stored;
+    try {
+      if (n !== undefined) { sessionStorage.setItem(TRIES_KEY, String(n)); return n; }
+      stored = sessionStorage.getItem(TRIES_KEY);
+    } catch (e) {
+      throw new Error("sessionStorage, which guards the window against reloading forever, cannot be used (" + ((e && e.message) || e) + ")");
+    }
+    if (stored === null) return 0;
+    if (!/^\d+$/.test(stored)) throw new Error("sessionStorage " + TRIES_KEY + " holds " + JSON.stringify(stored) + ", not a whole number of tries");
+    return parseInt(stored, 10);
+  }
   function setUpWindow(d) {
     const want = windowOptions();
     return d.window.getOptions().then(({ applied }) => {
@@ -115,6 +128,13 @@
       const url = PUBLIC_URL + location.hash, what = cmd.story() ? "this story" : "this view";
       NHI.notes.copy(url).then(ok => ok ? toast("Link to " + what + " copied.") : toast("The clipboard refused; the link to " + what + ": " + url, true));
     }
+    // a menu link: a desktop app that predates `href` hands the pick to click() with opened false, and the page opens it
+    // itself, or shows the address to copy when the window refuses
+    const opened = url => it => {
+      if (it && it.opened) return;
+      const w = window.open(url, "_blank");   // not "noopener", with which open() always returns null
+      if (w) w.opener = null; else toast("The link could not be opened here: " + url, true);
+    };
     const isGlobe = () => cmd.mode() === "globe";
     const item = (label, accelerator, click, extra) => Object.assign({ label, accelerator, click }, extra || {});
     function template(withRoles) {
@@ -164,8 +184,8 @@
         { label: "Help", submenu: [
           item("About This Page", "CmdOrCtrl+Shift+/", () => cmd.about()),
           { type: "separator" },
-          { label: "Open in the Browser", href: PUBLIC_URL },
-          { label: "Source and Data on GitHub", href: SOURCE_URL },
+          { label: "Open in the Browser", href: PUBLIC_URL, click: opened(PUBLIC_URL) },
+          { label: "Source and Data on GitHub", href: SOURCE_URL, click: opened(SOURCE_URL) },
         ] },
       ];
     }

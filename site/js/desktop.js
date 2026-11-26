@@ -67,7 +67,8 @@
 
   /* What KitApp.boot takes from the page. The window's background is the page's own --bg, read by the kit. Feedback
      mode (`f`, or Help > Feedback Mode) keeps its tickets in the browser (`local`), as every app without an engine
-     does, so a reload keeps them; copy prompt is their way out. */
+     does, so a reload keeps them; copy prompt is their way out. The tickets' project is the repo's name (the kit
+     refuses feedback without one), never a folder: the page is public. */
   function bootOptions() {
     build();
     return {
@@ -75,7 +76,7 @@
       drawIcon,
       help: [{ label: "Source and Data on GitHub", href: SOURCE_URL }],
       install: true,
-      feedback: { app: "nhi-timeline", tab: "page", local: true, dataAttrs: ["data-mode", "data-m", "data-key", "data-r", "data-story"] },
+      feedback: { app: "nhi-timeline", project: "NHI-timeline", tab: "page", local: true, dataAttrs: ["data-mode", "data-m", "data-key", "data-r", "data-story"] },
     };
   }
 

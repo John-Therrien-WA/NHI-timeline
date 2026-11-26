@@ -39,7 +39,7 @@ cover the list once over disjoint sets.
 
 The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr, run locally from
 `site/` as it stands and published from the kit's build of it (below). Locally the page has no `<title>` (the build
-writes it from `app.json`) and its five `kit/` scripts are not there (a 404 each, which the page passes over: only the
+writes it from `app.json`) and its six `kit/` scripts, which it loads first in the kit's `page.json` order, are not there (a 404 each, which the page passes over: only the
 published page uses them), and it shows the pictures under `site/images/`: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
 check, the score recomputed at the reader's institutional trust and the tiers; `cards.js` the picture
 cards, `corridor.js` and `globe.js` the two views (a story with pictures shows them as cards, in place of

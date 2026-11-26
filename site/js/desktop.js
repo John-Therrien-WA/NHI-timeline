@@ -140,9 +140,11 @@
      { refresh() }, which the controller calls when the view changes (the menu's checks and enabled items follow). */
   function attach(cmd) {
     let app = null;
+    // a menu command's answer is said in the kit's status line, as in every app of the set (`bad`: as a failure)
     function copyLink() {
       const url = build().artifact + location.hash, what = cmd.story() ? "this story" : "this view";
-      return NHI.notes.copy(url).then(ok => ok ? toast("Link to " + what + " copied.") : toast("The clipboard refused; the link to " + what + ": " + url, true));
+      return NHI.notes.copy(url).then(ok => ok ? app.status("Link to " + what + " copied.")
+        : app.status("The clipboard refused; the link to " + what + ": " + url, true));
     }
 
     // the menu and its keys only in the app's own window: a browser keeps its shortcuts

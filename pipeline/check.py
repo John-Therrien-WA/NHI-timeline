@@ -181,14 +181,15 @@ def page_asset_prefixes_problems() -> list[str]:
 
 
 APP_JSON = REPO / "site" / "app.json"
-DESKTOP_JS = REPO / "site" / "js" / "desktop.js"
+PAGE_HTML = REPO / "site" / "index.html"
 
 
 def page_manifest_problems() -> list[str]:
     """The app's manifest (site/app.json, read by the desktop-app kit's build, which writes the page's
     `claude-artifacts-manifest` tag from it) is a JSON object whose `permissions` is a list holding only permissions in
     common.DESKTOP_PERMISSIONS_ALLOWED. The installed app grants what the tag lists, so a permission added there
-    (`full-access` reaches the person's files and programs) would otherwise ship unseen with the next publish."""
+    (`full-access` reaches the person's files and programs) would otherwise ship unseen with the next publish. The page
+    site/index.html holds no <title> and no such tag of its own: app.json is their one home."""
     where = rel(APP_JSON, REPO)
     if not APP_JSON.is_file():
         return [f"{where} is missing; it is the app's manifest the build makes the published page from"]
@@ -203,14 +204,12 @@ def page_manifest_problems() -> list[str]:
         if p not in DESKTOP_PERMISSIONS_ALLOWED:
             out.append(f"{where} lists permission {p!r}, which is not in common.DESKTOP_PERMISSIONS_ALLOWED "
                        f"{list(DESKTOP_PERMISSIONS_ALLOWED)}; a permission is added there only with the feature that needs it")
-    # site/js/desktop.js holds copies of the app's name (the window's title) and its published URL (Copy Link)
-    page_js = DESKTOP_JS.read_text(encoding="utf-8")
-    for key, pattern in (("name", r'title: ("[^"]*"),'), ("artifact", r'const PUBLIC_URL = ("[^"]*");')):
-        m = re.search(pattern, page_js)
-        if m is None:
-            out.append(f"{rel(DESKTOP_JS, REPO)}: no copy of app.json's {key} to compare (`{pattern}`)")
-        elif json.loads(m.group(1)) != manifest.get(key):
-            out.append(f"{rel(DESKTOP_JS, REPO)}: holds {m.group(1)} where {where}'s {key} is {manifest.get(key)!r}")
+    # the build writes the page's <title> and manifest tag from app.json, their one home; the page holds neither, so a
+    # tag added by hand (with a permission in it) is refused here, not only when the build next runs
+    page = PAGE_HTML.read_text(encoding="utf-8")
+    for what, pattern in (("a <title>", r"<title[\s>]"), ("a claude-artifacts-manifest tag", r"claude-artifacts-manifest")):
+        if re.search(pattern, page, re.I):
+            out.append(f"{rel(PAGE_HTML, REPO)} holds {what}; {where} is its one home (the build writes it)")
     return out
 
 

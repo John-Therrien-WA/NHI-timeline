@@ -630,7 +630,7 @@
       if (c === "KeyQ") { stepWindow(-1); e.preventDefault(); return true; }
       if (c === "KeyE") { stepWindow(1); e.preventDefault(); return true; }
       if (c === "KeyR" || c === "Home") { resetAll(); return true; }
-      if (c === "KeyF") { setFlat(state.tsTarget !== 0); return true; }
+      if (c === "KeyG") { setFlat(state.tsTarget !== 0); return true; }
       return false;
     }
     function keyup(e) { held.delete(e.code); }

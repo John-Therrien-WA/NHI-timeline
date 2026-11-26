@@ -3,9 +3,10 @@
    Dock icon. The desktop-app kit's `KitApp` (kit/app.js, put beside the page by the app build) sets them up the way
    every app of the set has them: the menus in the set's order (File, Edit, View, Story, Window, Help, after Claude's
    own app menu), View > Reload on Shift-Cmd-R, zoom and full screen, each menu item's key, and the fallback when the
-   app refuses part of the menu. This file gives the kit what is the page's own: a dark window with a hidden-inset title
-   bar whose drag strip the page keeps clear, a Dock icon drawn in the page's rings and kind colours, and the commands
-   (the controller's, passed to attach(); nothing here moves the scene itself).
+   app refuses part of the menu, and feedback mode on `f`. This file gives the kit what is the page's own: a dark window
+   with a hidden-inset title bar whose drag strip the page keeps clear (and the kit's footer below), a Dock icon drawn in
+   the page's rings and kind colours, and the commands (the controller's, passed to attach(); nothing here moves the
+   scene itself). The app's name and published URL are the build's record's (kit/build.js, from app.json).
    Outside the app (a browser, the artifact panel) the namespace holds at most `install`, and the Install as app button
    above the Keys shows when `install.state()` reads "available"; the kit is not booted there, so the browser keeps its
    own shortcuts. From disk or local http there is no `claude` at all and nothing here acts. No call here needs a
@@ -13,7 +14,6 @@
 (function () {
   "use strict";
   const NHI = window.NHI = window.NHI || {};
-  const PUBLIC_URL = "https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP";   // the published page; a copied link is this plus the hash
   const SOURCE_URL = "https://github.com/John-Therrien-WA/NHI-timeline";
   const DRAG_STRIP = 36;   // px: the title bar's drag strip, which the page keeps clear of controls (CSS --chrome-top)
 
@@ -63,13 +63,25 @@
     g.restore();
   }
 
-  /* What KitApp.boot takes from the page, for a window background `bg` (#rrggbb, the page's --bg). */
+  /* The build's record (kit/build.js, which the app build writes from app.json): the app's name and its published URL
+     have their one home there. */
+  function build() {
+    const b = window.KIT_BUILD;
+    if (!b || !b.name || !b.artifact) throw new Error("kit/build.js is not loaded or names no app and artifact: the app runs the page the app build makes (site/dist/)");
+    return b;
+  }
+
+  /* What KitApp.boot takes from the page, for a window background `bg` (#rrggbb, the page's --bg). Feedback mode (`f`,
+     or Help > Feedback Mode) keeps its tickets on the page; copy prompt is their way out, as for every app without an
+     engine. */
   function bootOptions(bg) {
+    const b = build();
     return {
-      title: "NHI timeline",
+      title: b.name,
       window: { titleBarStyle: "hiddenInset", dragHeight: DRAG_STRIP, backgroundColor: bg, width: 1440, height: 900, minWidth: 960, minHeight: 640 },
       drawIcon,
-      help: [{ label: "Open in the Browser", href: PUBLIC_URL }, { label: "Source and Data on GitHub", href: SOURCE_URL }],
+      help: [{ label: "Open in the Browser", href: b.artifact }, { label: "Source and Data on GitHub", href: SOURCE_URL }],
+      feedback: { app: "nhi-timeline", tab: "page", dataAttrs: ["data-mode", "data-m", "data-key", "data-r"] },
     };
   }
 
@@ -82,22 +94,22 @@
     const globe = () => cmd.mode() === "globe";
     const press = code => () => cmd.key(code);
     return [
-      { id: "view.corridor", title: "Corridor", key: "CmdOrCtrl+1", menu: "View", run: () => cmd.setMode("corridor"), checked: () => !globe() },
-      { id: "view.globe", title: "Globe", key: "CmdOrCtrl+2", menu: "View", run: () => cmd.setMode("globe"), checked: globe },
-      { id: "view.reset", title: "Reset the View", key: "CmdOrCtrl+Alt+R", menu: "View", run: press("KeyR") },
+      { id: "view.corridor", title: "Corridor", key: "CmdOrCtrl+1", menu: "View", run: () => cmd.setMode("corridor"), radio: { group: "view", on: () => !globe() } },
+      { id: "view.globe", title: "Globe", key: "CmdOrCtrl+2", menu: "View", run: () => cmd.setMode("globe"), radio: { group: "view", on: globe } },
+      { id: "view.reset", title: () => globe() ? "Reset the Globe" : "Back to the Entrance", key: "CmdOrCtrl+Alt+R", menu: "View", run: press("KeyR") },
       { id: "view.overview", title: "Overview", key: "CmdOrCtrl+Shift+O", menu: "View", run: press("KeyO"), enabled: () => !globe() },
       { id: "view.angle", title: "Angle by Kind or Region", key: "CmdOrCtrl+Shift+A", menu: "View", run: press("KeyC"), enabled: () => !globe() },
-      { id: "view.flatten", title: "Flatten", key: "CmdOrCtrl+Shift+F", menu: "View", run: press("KeyF"), enabled: globe },
+      { id: "view.flatten", title: "Flatten", key: "CmdOrCtrl+Shift+F", menu: "View", run: press("KeyG"), enabled: globe },
       { id: "era.previous", title: "Previous Era", key: "CmdOrCtrl+Shift+Left", menu: "View", run: () => cmd.key(globe() ? "KeyQ" : "PageUp") },
       { id: "era.next", title: "Next Era", key: "CmdOrCtrl+Shift+Right", menu: "View", run: () => cmd.key(globe() ? "KeyE" : "PageDown") },
-      { id: "legend.toggle", title: "Legend and Filters", key: "CmdOrCtrl+L", menu: "View", run: () => cmd.legend() },
+      { id: "legend.toggle", title: "Legend and Filters", key: "CmdOrCtrl+L", menu: "View", run: () => cmd.legend(), separatorBefore: true },
       { id: "keys.toggle", title: "Keys", key: "CmdOrCtrl+K", menu: "View", run: press("KeyK") },
       { id: "trust.reset", title: "Reset Institutional Trust", key: "CmdOrCtrl+Alt+T", menu: "View", run: () => cmd.resetTrust() },
       { id: "story.back", title: "Back", key: "CmdOrCtrl+[", menu: "Story", run: () => cmd.back() },
       { id: "story.forward", title: "Forward", key: "CmdOrCtrl+]", menu: "Story", run: () => cmd.forward() },
-      { id: "story.find", title: "Find a Story, Teller or Place", key: "CmdOrCtrl+F", menu: "Story", run: press("Slash") },
+      { id: "story.find", title: "Find a Story, Teller or Place", key: "CmdOrCtrl+F", menu: "Story", run: press("Slash"), separatorBefore: true },
       { id: "story.copy_link", title: "Copy Link to This Story", key: "CmdOrCtrl+Shift+C", menu: "Story", run: () => cmd.copyLink() },
-      { id: "rail.snap", title: "Snap to the Nearest Story", key: "CmdOrCtrl+Alt+Return", menu: "Story", run: press("Tab") },
+      { id: "rail.snap", title: "Snap to the Nearest Story", key: "CmdOrCtrl+Alt+Return", menu: "Story", run: press("Tab"), separatorBefore: true },
       { id: "rail.time", title: "Ride the Time Rail", key: "CmdOrCtrl+Alt+1", menu: "Story", run: press("Digit1") },
       { id: "rail.kind", title: "Ride the Kind Rail", key: "CmdOrCtrl+Alt+2", menu: "Story", run: press("Digit2") },
       { id: "rail.strength", title: "Ride the Strength Rail", key: "CmdOrCtrl+Alt+3", menu: "Story", run: press("Digit3") },
@@ -116,12 +128,19 @@
   }
   const appPromise = desktopPromise.then(d => {
     if (!inApp(d)) return null;
-    if (!window.KitApp) throw new Error("kit/app.js is not loaded: the app runs the page the app build makes (site/dist/), which carries the kit beside it");
+    if (!window.KitApp || !window.FeedbackMode) throw new Error("kit/app.js or kit/feedback/ is not loaded: the app runs the page the app build makes (site/dist/), which carries the kit beside it");
     const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim().toLowerCase();
     if (!/^#[0-9a-f]{6}$/.test(bg)) throw new Error("the page's --bg is " + JSON.stringify(bg) + "; the window's background needs #rrggbb");
     return window.KitApp.boot(Object.assign(bootOptions(bg), { desktop: d })).then(app => {
-      // the strip the window has now: the page clears it when the title bar is inset
+      // the strip the window has now: the page clears it when the title bar is inset (read here, since boot resolves
+      // before the kit's own read of the window's options, app.windowOptions, is sure to have settled)
       d.window.getOptions().then(r => inset(((r && r.applied) || {}).titleBarStyle === "hiddenInset"), refused("The window's options could not be read"));
+      // the kit's footer (its status and version line) sits at the foot of the window: the page's bottom parts clear it
+      const foot = document.getElementById("kit-chrome");
+      if (!foot) throw new Error("the kit drew no #kit-chrome footer");
+      const clear = () => document.documentElement.style.setProperty("--chrome-bottom", (foot.hidden ? 0 : foot.offsetHeight) + "px");
+      new ResizeObserver(clear).observe(foot);
+      clear();
       return app;
     });
   });
@@ -140,7 +159,7 @@
       }, refused("Install as app"));
     });
     function copyLink() {
-      const url = PUBLIC_URL + location.hash, what = cmd.story() ? "this story" : "this view";
+      const url = build().artifact + location.hash, what = cmd.story() ? "this story" : "this view";
       return NHI.notes.copy(url).then(ok => ok ? toast("Link to " + what + " copied.") : toast("The clipboard refused; the link to " + what + ": " + url, true));
     }
 
@@ -160,5 +179,5 @@
       .catch(refused("The app's menu could not be set"));
     return { refresh: () => { if (app) app.refreshMenu(); } };
   }
-  NHI.desktop = { attach, commands, bootOptions };
+  NHI.desktop = { attach };
 })();

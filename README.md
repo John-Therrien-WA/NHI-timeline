@@ -30,15 +30,17 @@ uv run python -m pipeline.images <manifest.json>        # found photographs in: 
 uv run python -m pipeline.build                         # site/data.json and site/data.js, the plain tellings in site/plain.json and site/plain.js
 uv run python -m pipeline.check                         # every story has a telling, every id resolves, every quote is verbatim
 open site/index.html                                    # the 3D page from disk (reads site/data.js)
-cd site && python3 -m http.server 8000                  # or over http (reads site/data.json): http://127.0.0.1:8000/
+python3 -m http.server -d site 8000                     # or over http (reads site/data.json): http://127.0.0.1:8000/
 ```
 
 A long explain run splits into n background runs side by side, `explain --all --shard 1/4` to
 `--shard 4/4`: each takes every fourth story of the ordered list from its own start, so together they
 cover the list once over disjoint sets.
 
-The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr, run from
-`site/` as it stands (the published copy is assembled by the kit's build, below): `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
+The page in `site/` is the timeline in 3D, plain HTML, CSS and JS with three.js from jsDelivr, run locally from
+`site/` as it stands and published from the kit's build of it (below). Locally the page has no `<title>` (the build
+writes it from `app.json`) and its three `kit/` scripts are not there (a 404 each, which the page passes over: only the
+installed app uses them), and it shows the pictures under `site/images/`: `index.html`, `style.css`, `app.js` (the controller) and `js/` (`model.js` the data
 check, the score recomputed at the reader's institutional trust and the tiers; `cards.js` the picture
 cards, `corridor.js` and `globe.js` the two views (a story with pictures shows them as cards, in place of
 its sphere in the corridor and above its marker on the globe); `panel.js` the story panel; `notes.js` the notes box; `desktop.js` the page as a desktop app). The corridor is the
@@ -62,11 +64,13 @@ its keys and the window come from the desktop-app kit's `KitApp` (`kit/app.js`, 
 page), in the order every app of the set has: File, Edit, View (Corridor on Cmd-1, Globe on Cmd-2, the view's moves, the
 legend and keys, the trust reset, then Reload on Shift-Cmd-R, zoom and full screen), Story (Back and Forward over the
 stories visited, find, Copy Link to This Story, the rails), Window, Help (About, the page in the browser, the source on
-GitHub). Every menu key holds Command or Control; the page's plain keys stay its own, so `F` flattens the globe and `C`
-angles the corridor here, where the set's other apps give `f` to feedback mode and `C` to loop: this page has no loop,
-and its notes box (saved to the artifact's database) is how its viewers leave feedback. `app.json` lists no permission,
-and `check` keeps it so. `node tests/desktop_menu.cjs <kit folder>` (or the folder in `$FLUXTECH_KIT`) builds the menu
-against the kit's stand-in desktop and checks the order and the reload.
+GitHub). Every menu key holds Command or Control, and the page's plain keys stay its own. As in every app of the set, `f` is
+feedback mode in the installed app (Help > Feedback Mode too): a click marks a control, a drag loops an area, and copy
+prompt takes the tickets out, since a page without an engine keeps them in memory; so `G` flattens the globe. `C`
+angles the corridor here, where the set's other apps give it to loop: this page has no loop. The notes box (saved to
+the artifact's database) stays how the page's viewers leave notes on a story or on the page. `app.json` lists no
+permission, and `check` keeps it so; `check` also refuses a `<title>` or a manifest tag in `site/index.html`, whose one
+home is `app.json`.
 
 Run the first command once after any change to the pipeline; it must print `check: ok (fixture)`.
 Every stage takes `--root DIR` to work on another data root (the fixture check uses a temporary
@@ -79,23 +83,24 @@ null `place` or missing `place_text`, nothing else. A place the extractor names 
 The images stage downloads with a descriptive User-Agent and resizes in memory with macOS ImageIO.
 In a Claude Code session it runs inside the sandbox: `.venv/bin/python -m pipeline.images <manifest>
 --hosts` prints the hosts the run will reach, and `.venv/bin/python -m pipeline.images <manifest>
---keep-going` runs with exactly those in the Bash tool's `allowed_domains`. A host the sandbox
-refuses stops the run with its name (`CLAUDE.md`, Working here, says what to do); the run is
+--keep-going` runs with exactly those in the Bash tool's `allowed_domains`. A refused host
+stops the run with its name (`CLAUDE.md`, Working here, says what to do); the run is
 idempotent, so the images already added are kept. Its manifest is a
 JSON list of `{ "owner", "kind", "image_url", "source", "licence", "licence_kind", "credit",
 "caption", "date"? }` (`schema.md`, Images); an image already held is kept, so a manifest can be run
 again.
 
 To publish the page: it is a private artifact (https://claude.ai/artifact/UM72XZP7QvQ2N5assaVmgP,
-capabilities `assets`, `db` and `desktop`, all kept by omitting `capabilities` on a republish; a
-republish that names capabilities names all three, since a named set replaces the stored one:
-`app.json`'s `capabilities` names all three, and a publish passes `publish.json`'s `capabilities` or none).
-After `build`, the desktop-app kit's build makes the publish set from `site/app.json`: `app build site`
-(the `app` program in the kit's folder, `desktop-apps/kit/` of universal-tools) writes `site/dist/`
+capabilities `assets`, `db` and `desktop`; a named set replaces the stored one, so `app.json`'s `capabilities`
+names all three). After `build` and a commit (the build's record names the commit it was built from), the
+desktop-app kit's build makes the publish set from `site/app.json`: `app build site` (the `app` program in the
+kit's folder, `desktop-apps/kit/` of universal-tools) writes `site/dist/`
 (git-ignored by its own `.gitignore`): the page with its `<title>` and desktop manifest tag written from
 `app.json` (their one home), the files `app.json` lists (`app.js`, `style.css`, `data.json`, `plain.json`,
-the eight scripts under `js/`, and `assets.json` from `publish/assets.json`), the kit's page scripts under
-`kit/`, and `dist/publish.json`, whose `page` and `files` the Artifact tool publishes. Never `data.js` or
+the eight scripts under `js/`, and `assets.json` from `publish/assets.json`), the kit's page scripts and the
+feedback module under `kit/` with `kit/build.js`, the build's record (the app's name and URL, the commits; no
+folder), and `dist/publish.json`, whose `page`, `files` and `capabilities` the Artifact tool publishes to its
+`url`. The build refuses a published file that names a home folder. Never `data.js` or
 `plain.js` (the `file:` copies) and never a picture. An artifact version holds at most 512 files, so every
 picture lives in the artifact's asset store (5,000 files, 1 GB): a new picture is uploaded there
 (`asset: true`, `file_paths`, 25 a call), its url (`/_blob/<id>`, same origin as the page) is

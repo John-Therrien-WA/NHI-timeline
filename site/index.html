@@ -32,7 +32,7 @@
   <div id="buttons">
     <button class="btn only-corridor" id="btn-start" title="Back to the entrance (R or Home)">Start</button>
     <button class="btn only-corridor" id="btn-overview" title="See the whole corridor from the side (O)">Overview</button>
-    <button class="btn only-globe" id="b-flat" title="Collapse altitude: every story on the surface, time as colour (F)">Flatten</button>
+    <button class="btn only-globe" id="b-flat" title="Collapse altitude: every story on the surface, time as colour (G)">Flatten</button>
     <button class="btn only-globe" id="b-reset" title="Reset camera, window and flatten (R)">Reset</button>
     <button class="btn" id="legend-toggle" title="Show or hide the legend and filters">Legend</button>
     <button class="btn" id="btn-about" title="What this page is, how to read it, how to leave a note">About</button>
@@ -59,7 +59,7 @@
       <tr><td><kbd>&larr;</kbd> <kbd>&rarr;</kbd> <kbd>&uarr;</kbd> <kbd>&darr;</kbd></td><td>orbit</td></tr>
       <tr><td><kbd>W</kbd> <kbd>S</kbd></td><td>zoom in, out</td></tr>
       <tr><td><kbd>Q</kbd> <kbd>E</kbd></td><td>time window back, forward an era</td></tr>
-      <tr><td><kbd>F</kbd> <kbd>R</kbd></td><td>flatten; reset</td></tr>
+      <tr><td><kbd>G</kbd> <kbd>R</kbd></td><td>flatten to the ground; reset</td></tr>
       <tr><td>drag, scroll</td><td>orbit; zoom</td></tr>
     </table>
     <table>
@@ -211,6 +211,8 @@
 <script src="js/corridor.js"></script>
 <script src="js/globe.js"></script>
 <script src="kit/build.js"></script>
+<script src="kit/feedback/tickets.js"></script>
+<script src="kit/feedback/feedback-mode.js"></script>
 <script src="kit/dialogs.js"></script>
 <script src="kit/app.js"></script>
 <script src="js/desktop.js"></script>

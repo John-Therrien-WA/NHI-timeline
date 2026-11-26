@@ -50,8 +50,9 @@ check, the pairs of person ids of eight letters or more (hyphens dropped) within
 other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
 through data/person-folds.json (a pair the file folds into one canonical, or lists as `distinct`, is not
 listed: `warned_pairs`). The repo is public: every text file git tracks holds no path on one machine
-(`MACHINE_PATH`), and every one outside the corpus, the built data and the third-party evidence
-(`MACHINE_NOTE_EXEMPT`) no note on how its tools are set up (the words of `MACHINE_NOTE`, `public_tree_problems`).
+(`MACHINE_PATH`), no tracked code builds one from the home folder (`MACHINE_HOME`), and every one outside the corpus,
+the built data and the third-party evidence (`MACHINE_NOTE_EXEMPT`) no note on how its tools are set up (the words of
+`MACHINE_NOTE`, `public_tree_problems`).
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p` (`explain.json` stands in for the explain stage): the episodes without a `links/<id>.json` are extracted and merged unlinked
@@ -219,12 +220,18 @@ MACHINE_NOTE = re.compile(r"allowed_" r"domains|sand" r"box|guard" r"rail|write"
 MACHINE_NOTE_LOWER = re.compile(r"\bhat" r"ch(?:ed|es|ing)?\b")
 # outside the word rule: the corpus and what is built from it, and the verbatim third-party words kept as evidence
 MACHINE_NOTE_EXEMPT = ("data/", "site/data.", "site/plain.", "sources/captions/", "sources/documents/")
+# MACHINE_HOME holds in tracked code (CODE_SUFFIXES): a path built from the home folder in parts names one machine's
+# layout as surely as a written one, and MACHINE_PATH cannot see it. A folder the code needs comes from a named
+# environment variable with no default, its absence refused naming the variable.
+MACHINE_HOME = re.compile(r"\.ho" r"me\(\)|expand" r"user|environ\[[\"']HO" r"ME[\"']\]|getenv\([\"']HO" r"ME[\"']")
+CODE_SUFFIXES = (".py", ".js", ".mjs", ".cjs", ".sh")
 
 
 def public_tree_problems() -> list[str]:
-    """Every file git tracks that is text (no NUL byte) holds no MACHINE_PATH match, and one outside
-    MACHINE_NOTE_EXEMPT no MACHINE_NOTE or MACHINE_NOTE_LOWER match either: the repo is public, and a path on this
-    machine or a note on how its tools are set up tells a reader nothing true about the timeline."""
+    """Every file git tracks that is text (no NUL byte) holds no MACHINE_PATH match, one outside
+    MACHINE_NOTE_EXEMPT no MACHINE_NOTE or MACHINE_NOTE_LOWER match either, and one with a CODE_SUFFIXES name no
+    MACHINE_HOME match: the repo is public, and a path on this machine (written out or built from its home folder) or a
+    note on how its tools are set up tells a reader nothing true about the timeline."""
     run = subprocess.run(["git", "-C", str(REPO), "ls-files", "-z"], capture_output=True)
     if run.returncode != 0:
         return [f"check: git ls-files failed in {REPO.name} ({run.stderr.decode(errors='replace').strip()}); the public-tree rule cannot run"]
@@ -233,6 +240,7 @@ def public_tree_problems() -> list[str]:
         if not name:
             continue
         exempt = name.startswith(MACHINE_NOTE_EXEMPT)
+        code = name.endswith(CODE_SUFFIXES)
         f = REPO / name
         if not f.is_file():
             continue  # a tracked file removed in the working tree
@@ -243,6 +251,11 @@ def public_tree_problems() -> list[str]:
             m = MACHINE_PATH.search(line)
             if m:
                 out.append(f"{name}:{n}: {m.group(0)!r} is a path on one machine; the repo is public")
+                continue
+            m = MACHINE_HOME.search(line) if code else None
+            if m:
+                out.append(f"{name}:{n}: {m.group(0)!r} builds a path from one machine's home folder; the repo is public: "
+                           "name the folder by an environment variable with no default")
                 continue
             m = None if exempt else MACHINE_NOTE.search(line) or MACHINE_NOTE_LOWER.search(line)
             if m:

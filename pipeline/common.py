@@ -6,6 +6,7 @@ copy of `tests/fixtures/`. Paths below are relative to that root.
 from __future__ import annotations
 
 import bisect
+import functools
 import html
 import json
 import os
@@ -148,18 +149,32 @@ def save_json(f: Path, obj) -> bool:
 
 PICTURE_DATE_RULE = ("A picture date is YYYY, YYYY-MM or YYYY-MM-DD, or absent (the key left out or null); "
                      "a range, a decade or a century goes into the caption in words.")
-# The desktop-app kit is the one home of what a published artifact allows (its limits.json): its folder is
-# $FLUXTECH_KIT, else universal-tools' desktop-apps/kit in the family's checkout under the home folder.
-KIT = Path(os.environ.get("FLUXTECH_KIT") or Path.home() / "Desktop" / "FluxTech" / "universal-tools" / "desktop-apps" / "kit")
+# The desktop-app kit is the one home of what a published artifact allows (its limits.json). Its folder is the
+# environment variable KIT_ENV, which has no default: an unset one stops the run naming it.
+KIT_ENV = "FLUXTECH_KIT"
+
+
+@functools.cache
+def kit_limits() -> tuple[Path, dict]:
+    """(the kit's limits.json, its contents), read once a run from the folder KIT_ENV names."""
+    folder = os.environ.get(KIT_ENV)
+    if not folder:
+        raise SystemExit(f"{KIT_ENV} is not set: set it to the desktop-app kit's folder, whose limits.json holds what a "
+                         "published artifact allows (it has no default)")
+    f = Path(folder) / "limits.json"
+    if not f.is_file():
+        raise SystemExit(f"the desktop-app kit's limits.json is not at {f}: set {KIT_ENV} to the kit's folder")
+    limits = json.loads(f.read_text(encoding="utf-8"))
+    if not isinstance(limits, dict):
+        raise SystemExit(f"{f} is no JSON object")
+    return f, limits
 
 
 def artifact_limit(name: str) -> int:
-    """One of the kit's artifact limits (`text_file_bytes`: the most a published artifact allows one text file), read
-    from its limits.json each call; an absent kit or name stops the run with both named."""
-    f = KIT / "limits.json"
-    if not f.is_file():
-        raise SystemExit(f"the desktop-app kit's limits.json is not at {f}: set FLUXTECH_KIT to the kit's folder")
-    value = json.loads(f.read_text(encoding="utf-8")).get(name)
+    """One of the kit's artifact limits (`text_file_bytes`: the most a published artifact allows one text file); an
+    absent kit or name stops the run with both named."""
+    f, limits = kit_limits()
+    value = limits.get(name)
     if not isinstance(value, int) or isinstance(value, bool) or value < 1:
         raise SystemExit(f"{f} holds no positive whole number {name!r}")
     return value

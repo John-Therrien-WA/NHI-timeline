@@ -72,6 +72,8 @@ the artifact's database) stays how the page's viewers leave notes on a story or 
 permission, and `check` keeps it so.
 
 Run the first command once after any change to the pipeline; it must print `check: ok (fixture)`.
+It and the review stage read what a published artifact allows a file from the desktop-app kit's `limits.json`, in the
+folder the environment variable `FLUXTECH_KIT` names (there is no default; unset, they stop naming it).
 Every stage takes `--root DIR` to work on another data root (the fixture check uses a temporary
 copy of `tests/fixtures/`). A story the pipeline got wrong is corrected by hand in its JSON and
 `check` is run again; `merge` never changes an existing story or person: it appends tellings and fills a

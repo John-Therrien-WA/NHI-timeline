@@ -90,7 +90,7 @@ again.
 
 To publish the page: it is a private artifact (its URL is `app.json`'s `artifact`,
 capabilities `assets`, `db` and `desktop`; a named set replaces the stored one, so `app.json`'s `capabilities`
-names all three). After `build` and a commit (the build's record names the commit it was built from), the
+names `assets` and `db`, and the kit's build adds `desktop`). After `build` and a commit (the build's record names the commit it was built from), the
 desktop-app kit's build makes the publish set from `site/app.json`: `app build site` (the `app` program in the
 kit's folder, `desktop-apps/kit/` of universal-tools) writes `site/dist/`
 (git-ignored by its own `.gitignore`): the page with its `<title>` and desktop manifest tag written from
@@ -99,7 +99,7 @@ the eight scripts under `js/`, and `assets.json` from `publish/assets.json`), th
 feedback module under `kit/` with `kit/build.js`, the build's record (the app's name and URL, the commits; no
 folder), and `dist/publish.json`, whose `page`, `files` and `capabilities` the Artifact tool publishes to its
 `url`. The build refuses a published file that names a home folder. Never `data.js` or
-`plain.js` (the `file:` copies) and never a picture. An artifact version holds few files (the kit's `limits.json`), so every
+`plain.js` (the `file:` copies) and never a picture. An artifact version holds at most `files_per_version` files (the kit's `limits.json`), so every
 picture lives in the artifact's asset store (5,000 files, 1 GB): a new picture is uploaded there
 (`asset: true`, `file_paths`, as many a call as `limits.json` allows), its url (`/_blob/<id>`, same origin as the page) is
 written into `publish/assets.json` under the page path `images/<owner>/<n>.ext`, and the map is

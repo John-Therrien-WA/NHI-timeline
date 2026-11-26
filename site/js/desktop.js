@@ -3,7 +3,8 @@
    Dock icon. The desktop-app kit's `KitApp` (kit/app.js, put beside the page by the app build) sets them up the way
    every app of the set has them: the menus in the set's order (File, Edit, View, Story, Window, Help, after Claude's
    own app menu), View > Reload on Shift-Cmd-R, zoom and full screen, each menu item's key, and the fallback when the
-   app refuses part of the menu, and feedback mode on `f`. This file gives the kit what is the page's own: a dark window
+   app refuses part of the menu, Help > Open in the Browser (the artifact's page, a static app's), and feedback mode on
+   `f`, its tickets kept in the browser. This file gives the kit what is the page's own: a dark window
    with a hidden-inset title bar whose drag strip the page keeps clear, a Dock icon drawn in the page's rings and kind
    colours, and the commands (the controller's, passed to attach(); nothing here moves the scene itself). The app's name
    and published URL are the build's record's (kit/build.js, from app.json).
@@ -31,9 +32,6 @@
     return e => { console.error(what, e); toast(what + ": " + ((e && (e.message || e.code)) || String(e)) + ".", true); };
   }
 
-  // the app's own window: the namespace the kit read holds the window and the menu
-  const inApp = app => !!(app && app.desktop && app.desktop.window && app.desktop.Menu);
-
   // ---------- the Dock icon: the corridor seen down its axis, the tiers as rings, stories in the kind colours ----------
   function drawIcon(g, size) {
     const S = 256;   // drawn in a 256 px box, scaled to the kit's canvas
@@ -60,25 +58,24 @@
   }
 
   /* The build's record (kit/build.js, which the app build writes from app.json): the app's name and its published URL
-     have their one home there. */
+     have their one home there; the kit takes the name as the app's title and the URL for Help > Open in the Browser. */
   function build() {
     const b = window.KIT_BUILD;
     if (!b || !b.name || !b.artifact) throw new Error("kit/build.js is not loaded or names no app and artifact: the app runs the page the app build makes (site/dist/)");
     return b;
   }
 
-  /* What KitApp.boot takes from the page, for a window background `bg` (#rrggbb, the page's --bg). Feedback mode (`f`,
-     or Help > Feedback Mode) keeps its tickets on the page; copy prompt is their way out, as for every app without an
-     engine. */
-  function bootOptions(bg) {
-    const b = build();
+  /* What KitApp.boot takes from the page. The window's background is the page's own --bg, read by the kit. Feedback
+     mode (`f`, or Help > Feedback Mode) keeps its tickets in the browser (`local`), as every app without an engine
+     does, so a reload keeps them; copy prompt is their way out. */
+  function bootOptions() {
+    build();
     return {
-      title: b.name,
-      window: { titleBarStyle: "hiddenInset", dragHeight: DRAG_STRIP, backgroundColor: bg, width: 1440, height: 900, minWidth: 960, minHeight: 640 },
+      window: { titleBarStyle: "hiddenInset", dragHeight: DRAG_STRIP, backgroundColor: "var(--bg)", width: 1440, height: 900, minWidth: 960, minHeight: 640 },
       drawIcon,
-      help: [{ label: "Open in the Browser", href: b.artifact }, { label: "Source and Data on GitHub", href: SOURCE_URL }],
+      help: [{ label: "Source and Data on GitHub", href: SOURCE_URL }],
       install: true,
-      feedback: { app: "nhi-timeline", tab: "page", dataAttrs: ["data-mode", "data-m", "data-key", "data-r", "data-story"] },
+      feedback: { app: "nhi-timeline", tab: "page", local: true, dataAttrs: ["data-mode", "data-m", "data-key", "data-r", "data-story"] },
     };
   }
 
@@ -127,10 +124,8 @@
     const c = window.claude;
     if (!c || typeof c.use !== "function") return null;   // disk or local http: no kit beside the page, nothing to set up
     if (!window.KitApp || !window.FeedbackMode) throw new Error("kit/app.js or kit/feedback/ is not loaded: the published page is the one the app build makes (site/dist/), which carries the kit beside it");
-    const bg = getComputedStyle(document.documentElement).getPropertyValue("--bg").trim().toLowerCase();
-    if (!/^#[0-9a-f]{6}$/.test(bg)) throw new Error("the page's --bg is " + JSON.stringify(bg) + "; the window's background needs #rrggbb");
     // the kit reads claude.use("desktop") itself and says a failed or empty answer in its status line
-    return window.KitApp.boot(bootOptions(bg)).then(app => {
+    return window.KitApp.boot(bootOptions()).then(app => {
       // app.windowOptions is what the window has now (null outside the app): the page clears the drag strip when the
       // title bar is inset
       inset(!!(app && app.windowOptions && app.windowOptions.titleBarStyle === "hiddenInset"));
@@ -150,7 +145,7 @@
 
     // the menu and its keys only in the app's own window: a browser keeps its shortcuts
     appPromise.then(a => {
-      if (!inApp(a)) return;
+      if (!a || !a.inApp) return;
       app = a;
       app.register({ commands: commands(Object.assign({}, cmd, { copyLink })) });
       // the mouse's back and forward buttons do what they do in a browser

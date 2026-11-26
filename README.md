@@ -66,7 +66,8 @@ legend and keys, the trust reset, then Reload on Shift-Cmd-R, zoom and full scre
 stories visited, find, Copy Link to This Story, the rails), Window, Help (About, the page in the browser, the source on
 GitHub). Every menu key holds Command or Control, and the page's plain keys stay its own. As in every app of the set, `f` is
 feedback mode wherever the page is published (in the installed app Help > Feedback Mode too): a click marks a control, a drag loops an area, and copy
-prompt takes the tickets out, since a page without an engine keeps them in memory; so `G` flattens the globe. `C`
+prompt takes the tickets out; a page without an engine keeps them in the browser (the kit's `feedback.local`), so a
+reload keeps them; so `G` flattens the globe. `C`
 angles the corridor here, where the set's other apps give it to loop: this page has no loop. The notes box (saved to
 the artifact's database) stays how the page's viewers leave notes on a story or on the page. `app.json` lists no
 permission, and `check` keeps it so.

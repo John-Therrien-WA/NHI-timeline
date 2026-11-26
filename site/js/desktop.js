@@ -1,7 +1,7 @@
 /* The page as a desktop app. A published copy declares the artifact capability `desktop`; in the app's own window
    (installed from the Claude desktop app) `claude.use("desktop")` gives the window, the application menu and the
    Dock icon. The desktop-app kit's `KitApp` (kit/app.js, put beside the page by the app build) sets them up the way
-   every app of the set has them: the menus in the set's order (File, Edit, View, Story, Window, Help, after Claude's
+   every app of the set has them: the menus in the set's order (File, Edit, View, Go, Story, Window, Help, after Claude's
    own app menu), View > Reload on Shift-Cmd-R, zoom and full screen, each menu item's key, and the fallback when the
    app refuses part of the menu, Help > Open in the Browser (the artifact's page, a static app's), and feedback mode on
    `f`, its tickets kept in the browser. This file gives the kit what is the page's own: a dark window
@@ -20,7 +20,9 @@
   const SOURCE_URL = "https://github.com/John-Therrien-WA/NHI-timeline";
   const DRAG_STRIP = 36;   // px: the title bar's drag strip, which the page keeps clear of controls (CSS --chrome-top)
 
-  // ---------- a short notice at the foot of the page ----------
+  // ---------- failures: the kit's status line once the kit is up, as in every app of the set; before that (the kit's
+  // boot itself failed), a notice at the foot of the page ----------
+  let kitApp = null;   // the booted KitApp, once its boot resolved with one
   let toastTimer = null;
   function toast(msg, keep) {
     const t = document.getElementById("toast");
@@ -29,7 +31,11 @@
     if (!keep) toastTimer = setTimeout(() => { t.hidden = true; }, 3200);
   }
   function refused(what) {
-    return e => { console.error(what, e); toast(what + ": " + ((e && (e.message || e.code)) || String(e)) + ".", true); };
+    return e => {
+      console.error(what, e);
+      const text = what + ": " + ((e && (e.message || e.code)) || String(e)) + ".";
+      if (kitApp) kitApp.status(text, true); else toast(text, true);
+    };
   }
 
   // ---------- the Dock icon: the corridor seen down its axis, the tiers as rings, stories in the kind colours ----------
@@ -101,9 +107,9 @@
       { id: "legend.toggle", title: "Legend and Filters", key: "CmdOrCtrl+L", menu: "View", run: () => cmd.legend(), separatorBefore: true },
       { id: "keys.toggle", title: "Keys", key: "CmdOrCtrl+K", menu: "View", run: press("KeyK") },
       { id: "trust.reset", title: "Reset Institutional Trust", key: "CmdOrCtrl+Alt+T", menu: "View", run: () => cmd.resetTrust() },
-      { id: "story.back", title: "Back", key: "CmdOrCtrl+[", menu: "Story", run: () => cmd.back() },
-      { id: "story.forward", title: "Forward", key: "CmdOrCtrl+]", menu: "Story", run: () => cmd.forward() },
-      { id: "story.find", title: "Find a Story, Teller or Place", key: "CmdOrCtrl+F", menu: "Story", run: press("Slash"), separatorBefore: true },
+      { id: "go.back", title: "Back", key: "CmdOrCtrl+[", menu: "Go", run: () => cmd.back() },
+      { id: "go.forward", title: "Forward", key: "CmdOrCtrl+]", menu: "Go", run: () => cmd.forward() },
+      { id: "story.find", title: "Find a Story, Teller or Place", key: "CmdOrCtrl+F", menu: "Story", run: press("Slash") },
       { id: "story.copy_link", title: "Copy Link to This Story", key: "CmdOrCtrl+Shift+C", menu: "Story", run: () => cmd.copyLink() },
       { id: "rail.snap", title: "Snap to the Nearest Story", key: "CmdOrCtrl+Alt+Return", menu: "Story", run: press("Tab"), separatorBefore: true },
       { id: "rail.time", title: "Ride the Time Rail", key: "CmdOrCtrl+Alt+1", menu: "Story", run: press("Digit1") },
@@ -113,7 +119,7 @@
       { id: "rail.next", title: "Next on the Rail", key: "CmdOrCtrl+Alt+Right", menu: "Story", run: () => cmd.step(1) },
       { id: "rail.previous", title: "Previous on the Rail", key: "CmdOrCtrl+Alt+Left", menu: "Story", run: () => cmd.step(-1) },
       { id: "rail.leave", title: "Free Flight, Close", key: "CmdOrCtrl+Alt+Backspace", menu: "Story", run: press("Escape") },
-      { id: "help.about", title: "About This Page", key: "CmdOrCtrl+Shift+/", menu: "Help", run: () => cmd.about() },
+      { id: "help.guide", title: "How to Read the Timeline", key: "CmdOrCtrl+Shift+/", menu: "Help", run: () => cmd.about() },
     ];
   }
 
@@ -131,6 +137,7 @@
       // app.windowOptions is what the window has now (null outside the app): the page clears the drag strip when the
       // title bar is inset
       inset(!!(app && app.windowOptions && app.windowOptions.titleBarStyle === "hiddenInset"));
+      kitApp = app;
       return app;
     });
   });

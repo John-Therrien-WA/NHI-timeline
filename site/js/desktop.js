@@ -3,7 +3,7 @@
    Dock icon, and this file sets them up: a dark window with a hidden-inset title bar whose drag strip the page keeps
    clear, a Dock icon drawn here in the page's own rings and kind colours, and a menu naming the page's own commands
    (the controller's, passed to attach(); nothing here moves the scene itself). Outside the app (a browser, the
-   artifact panel) the namespace holds at most `install`, and the About strip's Install app button shows when
+   artifact panel) the namespace holds at most `install`, and the Install as app button above the Keys shows when
    `install.state()` reads "available". From disk or local http there is no `claude` at all and nothing here acts.
    No call here needs a permission, so the manifest tag in index.html lists none. Every desktop call is caught: a
    refusal shows as a short notice and never as the page's fatal screen. */
@@ -53,7 +53,8 @@
   function setUpWindow(d) {
     const want = windowOptions();
     return d.window.getOptions().then(({ applied }) => {
-      if (has(applied, want)) { tries(0); inset(applied.titleBarStyle === "hiddenInset"); return; }
+      inset((applied || {}).titleBarStyle === "hiddenInset");   // the strip the window has now, whatever follows
+      if (has(applied, want)) { tries(0); return; }
       if (tries() >= 2) throw new Error("the window was given its options twice and still does not report them; it keeps its present look");
       return d.window.setOptions(want).then(r => {
         if (r.reloading) { tries(tries() + 1); return; }   // the window is rebuilt and the page loads again with them
@@ -92,9 +93,9 @@
   // the window and the icon start while the page loads, before the stories are drawn
   desktopPromise.then(d => {
     if (!inApp(d)) return;
-    setUpWindow(d).catch(refused("The window's look could not be set"));
+    Promise.resolve().then(() => setUpWindow(d)).catch(refused("The window's look could not be set"));
     Promise.resolve().then(() => d.app.dock.setIcon(drawIcon())).catch(refused("The Dock icon could not be set"));
-  });
+  }).catch(refused("The desktop app could not be set up"));
 
   /* attach(cmd), from the controller once the page is drawn. cmd: { key(code) a page key as if pressed, setMode(name),
      mode() the view's name, step(dir) along the rail, legend(), about(), resetTrust(), back(), forward(), story() the
@@ -168,25 +169,33 @@
         ] },
       ];
     }
-    // the zoom and full-screen roles are Electron's; a desktop app that refuses them gets the menu without them, said once
-    let roles = true;
+    /* The zoom and full-screen roles are Electron's, and an accelerator can be refused: a desktop app that refuses the
+       full menu gets it without those roles, then without accelerators, each step said once, so Back, Forward, Reload
+       and Copy Link stay in the menu whatever is refused. */
+    const bare = items => items.map(x => { const y = Object.assign({}, x); delete y.accelerator; if (y.submenu) y.submenu = bare(y.submenu); return y; });
+    const TIERS = [
+      { menu: () => template(true), lost: "" },
+      { menu: () => template(false), lost: "Zoom and full screen are not in this app's menu" },
+      { menu: () => bare(template(false)), lost: "The app's menu has no shortcuts here, nor zoom and full screen" },
+    ];
+    let tier = 0;
     function setMenu() {
-      return api.Menu.setApplicationMenu(template(roles)).catch(e => {
-        if (!roles) throw e;
-        roles = false;
-        return api.Menu.setApplicationMenu(template(false)).then(() => toast("Zoom and full screen are not in this app's menu (" + ((e && e.message) || e) + ")."));
-      }).catch(refused("The app's menu could not be set"));
+      const tryTier = firstError => api.Menu.setApplicationMenu(TIERS[tier].menu()).then(
+        () => { if (firstError) toast(TIERS[tier].lost + " (" + ((firstError && firstError.message) || firstError) + ")."); },
+        e => { if (tier === TIERS.length - 1) throw e; tier++; return tryTier(firstError || e); });
+      return Promise.resolve().then(() => tryTier(null)).catch(refused("The app's menu could not be set"));
     }
 
     desktopPromise.then(d => {
       if (!d) return;
       api = d;
-      if (d.install) d.install.state().then(s => { installBtn.hidden = s !== "available"; }, refused("Install as app"));
+      // a browser viewer who cannot install is told nothing: the console keeps why
+      if (d.install) Promise.resolve().then(() => d.install.state()).then(s => { installBtn.hidden = s !== "available"; }, e => console.error("Install as app", e));
       if (!inApp(d)) return;
       setMenu();
       // the mouse's back and forward buttons do what they do in a browser
       window.addEventListener("mouseup", e => { if (e.button === 3) cmd.back(); else if (e.button === 4) cmd.forward(); });
-    });
+    }).catch(refused("The desktop app could not be set up"));
     return { refresh: () => { if (inApp(api)) setMenu(); } };
   }
   NHI.desktop = { attach };

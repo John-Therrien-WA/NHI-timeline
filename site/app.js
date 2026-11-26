@@ -533,7 +533,7 @@
     $("subtitle").title = D.stories.length + " stories, corpus of " + (D.corpus_date || "no date") + ", built " + (D.built || "unknown");
     $("loading").hidden = true;
 
-    // ---------- the installed desktop app's menu and the Install app button (js/desktop.js; nothing happens without claude) ----------
+    // ---------- the installed desktop app's menu and the Install as app button (js/desktop.js; nothing happens without claude) ----------
     desk = NHI.desktop.attach({
       key: code => onKey(fakeKey(code)), setMode, mode: () => view.name, story: () => selected,
       step: dir => { railStep(dir); usedOnce(); }, legend: () => $("legend-toggle").click(), about: () => aboutBox.open(),

@@ -54,10 +54,10 @@ documents: [] }` (`page` the quote's locator) unless the story holds the same (d
 `differs` becomes `{ kind: "source", by: the document's title, date, source: url, text }` unless the
 story holds the same text.
 
-The stage runs inside the Claude Code sandbox with the hosts it may reach named in the Bash tool's
-`allowed_domains`: `--hosts` checks the manifest as a run does and prints, as a JSON list, the hosts of the
-texts a run would download (`text_to_fetch`: a full-text document whose text file is not held), through
-`images.fetch_hosts`. A host the sandbox refuses (a redirect's included) raises `images.HostRefused` naming it
+The stage may run behind a network allowlist that names the hosts it may reach: `--hosts` checks the manifest
+as a run does and prints, as a JSON list, the hosts of the texts a run would download (`text_to_fetch`: a
+full-text document whose text file is not held), through `images.fetch_hosts`. A host the allowlist's proxy
+refuses (a redirect's included) raises `images.HostRefused` naming it
 and stops the run, with `--keep-going` too. An empty list means the run fetches nothing.
 
 A note-only entry (`"note_only": true`) has `teller` and `kind` null and a non-empty `differs`
@@ -393,7 +393,7 @@ def image_owner_problems(where: str, e: dict, sid: str, story_alias: dict[str, s
 # ---------- the ingest ----------
 
 def download(url: str) -> str:
-    """The plain text at a URL; fails on anything but a 200 with a text/plain body. A host the sandbox refuses
+    """The plain text at a URL; fails on anything but a 200 with a text/plain body. A host a proxy refuses
     raises `images.HostRefused` (`images.open_url`)."""
     try:
         with images.open_url(url, timeout=120) as r:
@@ -664,7 +664,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--root", default=REPO)
     ap.add_argument("--keep-going", action="store_true", help="go on after a failed entry; exit 1 at the end")
     ap.add_argument("--hosts", action="store_true",
-                    help="print the hosts the run would reach, as a JSON list for allowed_domains, and stop; fetches nothing")
+                    help="print the hosts the run would reach, as a JSON list for a network allowlist, and stop; fetches nothing")
     a = ap.parse_args(argv)
     if a.hosts:
         print(json.dumps(hosts(Root(a.root), load_json(a.manifest))))

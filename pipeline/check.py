@@ -49,7 +49,9 @@ story and the entry, and exits 1 when there is one. Then it lists, as warnings t
 check, the pairs of person ids of eight letters or more (hyphens dropped) within two edits of each
 other ("greg-malatzi" and "greg-malazzi"): usually one person under two spellings, to fold by hand
 through data/person-folds.json (a pair the file folds into one canonical, or lists as `distinct`, is not
-listed: `warned_pairs`).
+listed: `warned_pairs`). The repo is public: every text file git tracks outside the corpus, the built data and the
+third-party evidence (`MACHINE_NOTE_EXEMPT`) holds no path on one machine and no note on how its tools are set up
+(the words of `MACHINE_NOTE`, `public_tree_problems`).
 
 --fixture copies tests/fixtures/ to a temporary directory and runs the chain with the prepared
 answers, no `claude -p` (`explain.json` stands in for the explain stage): the episodes without a `links/<id>.json` are extracted and merged unlinked
@@ -110,6 +112,7 @@ import argparse
 import hashlib
 import re
 import shutil
+import subprocess
 import sys
 import tempfile
 from pathlib import Path
@@ -210,6 +213,39 @@ def page_manifest_problems() -> list[str]:
     for what, pattern in (("a <title>", r"<title[\s>]"), ("a claude-artifacts-manifest tag", r"claude-artifacts-manifest")):
         if re.search(pattern, page, re.I):
             out.append(f"{rel(PAGE_HTML, REPO)} holds {what}; {where} is its one home (the build writes it)")
+    return out
+
+
+# The repo is public: no tracked text carries a home-folder path or a note on how one machine's tools are set up.
+# The words are written in pieces so this file's own source never matches them. MACHINE_NOTE_LOWER holds its word in
+# lower case only, so a proper name (Larry Hatch's *U* database in notes/prior-art.md) passes.
+MACHINE_NOTE = re.compile(r"/User" r"s/|allowed_" r"domains|sand" r"box|guard" r"rail", re.I)
+MACHINE_NOTE_LOWER = re.compile(r"\bhat" r"ch(?:ed|es|ing)?\b")
+# outside the rule: the corpus and what is built from it, and the verbatim third-party words kept as evidence
+MACHINE_NOTE_EXEMPT = ("data/", "site/data.", "site/plain.", "sources/captions/", "sources/documents/")
+
+
+def public_tree_problems() -> list[str]:
+    """Every file git tracks outside MACHINE_NOTE_EXEMPT that is text (no NUL byte) holds no MACHINE_NOTE and no
+    MACHINE_NOTE_LOWER match: the repo is public, and a path on this machine or a note on how its tools are set up
+    tells a reader nothing true about the timeline."""
+    run = subprocess.run(["git", "-C", str(REPO), "ls-files", "-z"], capture_output=True)
+    if run.returncode != 0:
+        return [f"check: git ls-files failed in {REPO.name} ({run.stderr.decode(errors='replace').strip()}); the public-tree rule cannot run"]
+    out = []
+    for name in run.stdout.decode().split("\0"):
+        if not name or name.startswith(MACHINE_NOTE_EXEMPT):
+            continue
+        f = REPO / name
+        if not f.is_file():
+            continue  # a tracked file removed in the working tree
+        raw = f.read_bytes()
+        if b"\0" in raw:
+            continue  # a picture or another binary file
+        for n, line in enumerate(raw.decode("utf-8", errors="replace").splitlines(), 1):
+            m = MACHINE_NOTE.search(line) or MACHINE_NOTE_LOWER.search(line)
+            if m:
+                out.append(f"{name}:{n}: {m.group(0)!r} is a note on one machine's setup or a path on it; the repo is public")
     return out
 
 
@@ -1404,7 +1440,7 @@ def fetch_hosts_problems(root: Root, pending: list[str]) -> list[str]:
 
 
 def fetch_refusal_problems(root: Root) -> list[str]:
-    """The real downloaders against a local server, and the sandbox proxy's refusal of an https host stood in by a
+    """The real downloaders against a local server, and an allowlist proxy's refusal of an https host stood in by a
     mock: a download sends no `Connection: close` (the proxy cuts the end off a body when the server then closes);
     the proxy's 403 behind a redirect raises `images.HostRefused` naming the redirect's host; a refused host stops
     `images.ingest` and `sources.run` under keep_going, never a listed failure, with nothing written."""
@@ -1461,7 +1497,7 @@ def fetch_refusal_problems(root: Root) -> list[str]:
     finally:
         srv.shutdown()
         srv.server_close()
-    refusal = urllib.error.URLError(OSError(f"{images.PROXY_REFUSAL_TUNNEL} not in this command's allowed_domains"))
+    refusal = urllib.error.URLError(OSError(f"{images.PROXY_REFUSAL_TUNNEL} host not on the allowlist"))
     vault = "the-vault-beneath-mount-fictus-1971"
     sc = load_json(root.data / "images" / vault / "1.json")
     entry = {**{k: sc[k] for k in images.MANIFEST_KEYS if k in sc}, "owner": vault, "image_url": "https://refused.example.org/x.jpg"}
@@ -1486,8 +1522,8 @@ def fetch_refusal_problems(root: Root) -> list[str]:
 
 
 def image_resize_problems(root: Root) -> list[str]:
-    """`images.convert` re-encodes in memory with ImageIO, so it runs inside the sandbox (no temporary file outside
-    the write set): the fixture's JPEG scaled to 20 px, the same JPEG marked EXIF-turned stored upright both when
+    """`images.convert` re-encodes in memory with ImageIO, so it runs where the temporary folder may not be
+    writable (no temporary file): the fixture's JPEG scaled to 20 px, the same JPEG marked EXIF-turned stored upright both when
     scaled and when within the size, a PNG with transparency kept a PNG and scaled, a GIF stored as a JPEG of its
     own size, never enlarged."""
     import struct
@@ -2333,7 +2369,7 @@ def main(argv: list[str] | None = None) -> int:
         out = run_fixture()
     else:
         read = read_asset_map(Root(a.root))
-        out = problems(Root(a.root), read)
+        out = problems(Root(a.root), read) + public_tree_problems()
     for p in out:
         print(p)
     if not a.fixture:

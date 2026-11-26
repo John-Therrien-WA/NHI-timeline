@@ -27,11 +27,10 @@ scanned page on Commons, often) is converted to a JPEG, so a stored file is alwa
 download or conversion raises with the URL (and the HTTP status where there is one); with `--keep-going` the run
 goes on to the next entry, lists the failures at the end and exits 1.
 
-The stage runs inside the Claude Code sandbox with the hosts it may reach named in the Bash tool's
-`allowed_domains`: `--hosts` checks the manifest as a run does and prints, as a JSON list, the hosts of the
-entries a run would download (`fetch_hosts`: each URL's host and the hosts `REDIRECT_HOSTS` says it redirects
-to). A host the sandbox refuses (a redirect's included) raises `HostRefused` naming it and stops the run, with
-`--keep-going` too.
+The stage may run behind a network allowlist that names the hosts it may reach: `--hosts` checks the manifest
+as a run does and prints, as a JSON list, the hosts of the entries a run would download (`fetch_hosts`: each
+URL's host and the hosts `REDIRECT_HOSTS` says it redirects to). A host the allowlist's proxy refuses (a
+redirect's included) raises `HostRefused` naming it and stops the run, with `--keep-going` too.
 
 With `--from SCRATCH_ROOT` (a root a builder already ran this manifest on, its own copy) an entry whose
 `image_url` a sidecar under `SCRATCH_ROOT/data/images/` holds is copied instead of downloaded: the file
@@ -372,8 +371,8 @@ DOWNLOAD_PAUSE_S = 2.0  # Wikimedia answers 429 to a burst of thumbnail requests
 THROTTLE_WAITS_S = (30, 90, 180)  # after a 429, the waits before each new try; then the download fails
 
 # ---------- the network (both fetching stages, sources.py too) ----------
-# A run sandboxed names the hosts it may reach (the Bash tool's allowed_domains); the sandbox's proxy refuses
-# every other. `hosts` and `sources.hosts` print a run's list from the same URLs the run fetches.
+# A run behind a network allowlist names the hosts it may reach; the allowlist's proxy refuses every other.
+# `hosts` and `sources.hosts` print a run's list from the same URLs the run fetches.
 REDIRECT_HOSTS = {  # the hosts a URL's host is known to redirect to, added to a run's list
     "commons.wikimedia.org": ("thumb.wikimedia.org", "upload.wikimedia.org"),  # Special:FilePath, with and without ?width
 }
@@ -382,20 +381,19 @@ PROXY_REFUSAL_TUNNEL = "Tunnel connection failed: 403"  # its answer to an https
 
 
 class HostRefused(SystemExit):
-    """The sandbox's proxy refused a host the run needs. It stops the run whatever `--keep-going` says: a refused
-    host is a run sent without its hosts, never one failed entry."""
+    """The network allowlist's proxy refused a host the run needs. It stops the run whatever `--keep-going` says: a
+    refused host is a run sent without its hosts, never one failed entry."""
 
     def __init__(self, url: str, refused_url: str):
         self.host = urllib.parse.urlsplit(refused_url).hostname
         via = "" if refused_url == url else f" (reached by a redirect from {url})"
-        super().__init__(f"fetch refused: the sandbox does not allow {self.host}{via}; the run stops here. "
-                         f"Add {self.host} to the run's allowed_domains (`--hosts` prints the list a run needs) and run again")
+        super().__init__(f"fetch refused: a proxy refused {self.host}{via}; the run stops here. "
+                         f"Allow {self.host} for the run (`--hosts` prints the list a run needs) and run again")
 
 
 class _KeepAlive:
-    """urllib sends `Connection: close`, and the sandbox's proxy cuts the end off a body when the server then
-    closes (an IncompleteRead); without the header the body is read to its Content-Length. Both in and out of the
-    sandbox."""
+    """urllib sends `Connection: close`, and a proxy can cut the end off a body when the server then closes (an
+    IncompleteRead); without the header the body is read to its Content-Length, behind a proxy or not."""
 
     def putheader(self, header, *values):
         if header.lower() != "connection":
@@ -434,7 +432,7 @@ class _Hops(urllib.request.HTTPRedirectHandler):
 
 
 def open_url(url: str, timeout: float):
-    """The response to a GET of `url` with the stage's User-Agent, redirects followed. A host the sandbox's proxy
+    """The response to a GET of `url` with the stage's User-Agent, redirects followed. A host the allowlist's proxy
     refuses (the URL's own or a redirect's) raises `HostRefused`; every other error is urllib's, for the caller."""
     hops = _Hops()
     opener = urllib.request.build_opener(_HTTPHandler, _HTTPSHandler, hops)
@@ -485,7 +483,7 @@ def download(url: str) -> bytes:
 
 # ---------- resizing: macOS ImageIO in memory ----------
 # ImageIO decodes, scales and encodes in memory, through ctypes: no file is written but the stored one, so the
-# stage runs inside the sandbox, whose write set leaves out the system temporary folder (/var/folders).
+# stage runs where the system temporary folder may not be writable.
 JPEG_QUALITY = 0.85
 
 
@@ -783,7 +781,7 @@ def main(argv: list[str] | None = None) -> int:
     ap.add_argument("--from", dest="from_root", type=Path, default=None,
                     help="a scratch root whose site/images and data/images already hold the manifest's pictures: copy them instead of downloading")
     ap.add_argument("--hosts", action="store_true",
-                    help="print the hosts the run would reach, as a JSON list for allowed_domains, and stop; downloads nothing")
+                    help="print the hosts the run would reach, as a JSON list for a network allowlist, and stop; downloads nothing")
     a = ap.parse_args(argv)
     if a.from_root is not None and not (a.from_root / "data" / "images").is_dir():
         raise SystemExit(f"images: --from {a.from_root} has no data/images; give the root a builder ran pipeline.images on")
